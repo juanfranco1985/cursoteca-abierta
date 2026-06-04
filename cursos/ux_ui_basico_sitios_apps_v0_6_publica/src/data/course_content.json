@@ -1,1056 +1,1062 @@
 {
   "courseId": "ux-ui-basico-sitios-apps",
   "title": "UX/UI Basico para Sitios y Apps",
-  "version": "0.6-publica",
-  "publicationStatus": "publica-profesional-v0.6",
+  "version": "0.6-publica-profesional-nav-v1",
+  "publicationStatus": "publica-profesional-v0.6-reforzada",
   "modules": [
     {
       "id": "m1",
       "title": "Fundamentos UX/UI",
-      "description": "En este módulo vas a trabajar \"Fundamentos UX/UI\" dentro de diseño de interfaces simples, comprensibles y fáciles de usar. El objetivo es practicar con situaciones concretas, entender qué decisión mejora y cerrar con una evidencia simple.",
-      "learningRisk": "Punto clave",
+      "description": "Aprende a mirar una interfaz desde la tarea de la persona usuaria: objetivo, contexto, problema, criterio de exito y evidencia.",
+      "learningRisk": "Disenar sin objetivo verificable",
+      "commercialRisk": "Pantallas lindas que no ayudan a completar una tarea",
       "lessons": [
         {
           "id": "m1-l1",
-          "title": "Usuario",
-          "keyIdea": "Idea clave: Usuario sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Usuario\" dentro del módulo \"Fundamentos UX/UI\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona necesita mejorar una página, formulario o app sencilla para que sea más clara, navegable y fácil de completar. Aplicá \"Usuario\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: una revisión UX/UI con problema detectado, evidencia, cambio propuesto y criterio de mejora.",
-          "alert": "No sacrificar legibilidad, contraste ni accesibilidad por decoracion visual.",
+          "title": "Usuario y tarea",
+          "keyIdea": "Usuario y tarea: una buena decision de UX/UI se comprueba con una tarea, una evidencia y una mejora visible.",
+          "shortTheory": "Una interfaz empieza por una persona intentando lograr algo en un contexto concreto. En UX/UI no alcanza con que una pantalla se vea prolija: tiene que orientar a una persona real, reducir dudas y dejar claro que hacer despues. Revisar usuario y tarea ayuda a separar gusto personal de criterio usable.",
+          "practicalExample": "Caso: una pagina de inscripcion tiene demasiado texto, botones parecidos y personas que no saben como avanzar. Aplicacion: revisa usuario y tarea, define la accion principal, elimina ruido y marca el siguiente paso con una prueba simple.",
+          "commonMistake": "Confundir usuario y tarea con decoracion o preferencia visual. La correccion es escribir el problema observado, explicar su impacto y proponer un cambio que otra persona pueda probar.",
+          "whatToDoNow": "Ejercicio de 25 minutos: toma una pantalla real o simulada, detecta un problema relacionado con usuario y tarea, propone una version mejorada y guarda una ficha con usuario, tarea, contexto y obstaculo principal.",
+          "alert": "No sacrificar legibilidad, contraste, accesibilidad ni claridad por una solucion visual llamativa.",
           "keyPoints": [
-            "Usuario debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: una revisión UX/UI con problema detectado, evidencia, cambio propuesto y criterio de mejora.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Definir la tarea principal antes de redisenar.",
+            "Separar problema, evidencia, propuesta y criterio de exito.",
+            "Probar el cambio con una persona o con una tarea concreta.",
+            "Priorizar claridad y accesibilidad antes que ornamentacion."
           ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza revision profesional, investigacion formal con usuarios ni normativa de accesibilidad aplicable."
         },
         {
           "id": "m1-l2",
-          "title": "Objetivo",
-          "keyIdea": "Idea clave: Objetivo sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Objetivo\" dentro del módulo \"Fundamentos UX/UI\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona necesita mejorar una página, formulario o app sencilla para que sea más clara, navegable y fácil de completar. Aplicá \"Objetivo\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: una revisión UX/UI con problema detectado, evidencia, cambio propuesto y criterio de mejora.",
-          "alert": "No sacrificar legibilidad, contraste ni accesibilidad por decoracion visual.",
+          "title": "Objetivo de la pantalla",
+          "keyIdea": "Objetivo de la pantalla: una buena decision de UX/UI se comprueba con una tarea, una evidencia y una mejora visible.",
+          "shortTheory": "Cada pantalla debe tener una razon clara: informar, guiar, pedir datos, confirmar o permitir una accion. En UX/UI no alcanza con que una pantalla se vea prolija: tiene que orientar a una persona real, reducir dudas y dejar claro que hacer despues. Revisar objetivo de la pantalla ayuda a separar gusto personal de criterio usable.",
+          "practicalExample": "Caso: una pagina de inscripcion tiene demasiado texto, botones parecidos y personas que no saben como avanzar. Aplicacion: revisa objetivo de la pantalla, define la accion principal, elimina ruido y marca el siguiente paso con una prueba simple.",
+          "commonMistake": "Confundir objetivo de la pantalla con decoracion o preferencia visual. La correccion es escribir el problema observado, explicar su impacto y proponer un cambio que otra persona pueda probar.",
+          "whatToDoNow": "Ejercicio de 25 minutos: toma una pantalla real o simulada, detecta un problema relacionado con objetivo de la pantalla, propone una version mejorada y guarda un objetivo escrito en una sola frase y una accion principal.",
+          "alert": "No sacrificar legibilidad, contraste, accesibilidad ni claridad por una solucion visual llamativa.",
           "keyPoints": [
-            "Objetivo debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: una revisión UX/UI con problema detectado, evidencia, cambio propuesto y criterio de mejora.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Definir la tarea principal antes de redisenar.",
+            "Separar problema, evidencia, propuesta y criterio de exito.",
+            "Probar el cambio con una persona o con una tarea concreta.",
+            "Priorizar claridad y accesibilidad antes que ornamentacion."
           ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza revision profesional, investigacion formal con usuarios ni normativa de accesibilidad aplicable."
         },
         {
           "id": "m1-l3",
-          "title": "Contexto",
-          "keyIdea": "Idea clave: Contexto sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Contexto\" dentro del módulo \"Fundamentos UX/UI\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona necesita mejorar una página, formulario o app sencilla para que sea más clara, navegable y fácil de completar. Aplicá \"Contexto\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: una revisión UX/UI con problema detectado, evidencia, cambio propuesto y criterio de mejora.",
-          "alert": "No sacrificar legibilidad, contraste ni accesibilidad por decoracion visual.",
+          "title": "Contexto de uso",
+          "keyIdea": "Contexto de uso: una buena decision de UX/UI se comprueba con una tarea, una evidencia y una mejora visible.",
+          "shortTheory": "La misma pantalla se usa distinto en celular, con prisa, con mala conexion o con poca experiencia digital. En UX/UI no alcanza con que una pantalla se vea prolija: tiene que orientar a una persona real, reducir dudas y dejar claro que hacer despues. Revisar contexto de uso ayuda a separar gusto personal de criterio usable.",
+          "practicalExample": "Caso: una pagina de inscripcion tiene demasiado texto, botones parecidos y personas que no saben como avanzar. Aplicacion: revisa contexto de uso, define la accion principal, elimina ruido y marca el siguiente paso con una prueba simple.",
+          "commonMistake": "Confundir contexto de uso con decoracion o preferencia visual. La correccion es escribir el problema observado, explicar su impacto y proponer un cambio que otra persona pueda probar.",
+          "whatToDoNow": "Ejercicio de 25 minutos: toma una pantalla real o simulada, detecta un problema relacionado con contexto de uso, propone una version mejorada y guarda tres restricciones de contexto que afectan el diseno.",
+          "alert": "No sacrificar legibilidad, contraste, accesibilidad ni claridad por una solucion visual llamativa.",
           "keyPoints": [
-            "Contexto debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: una revisión UX/UI con problema detectado, evidencia, cambio propuesto y criterio de mejora.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Definir la tarea principal antes de redisenar.",
+            "Separar problema, evidencia, propuesta y criterio de exito.",
+            "Probar el cambio con una persona o con una tarea concreta.",
+            "Priorizar claridad y accesibilidad antes que ornamentacion."
           ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza revision profesional, investigacion formal con usuarios ni normativa de accesibilidad aplicable."
         },
         {
           "id": "m1-l4",
-          "title": "Interfaz",
-          "keyIdea": "Idea clave: Interfaz sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Interfaz\" dentro del módulo \"Fundamentos UX/UI\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona necesita mejorar una página, formulario o app sencilla para que sea más clara, navegable y fácil de completar. Aplicá \"Interfaz\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: una revisión UX/UI con problema detectado, evidencia, cambio propuesto y criterio de mejora.",
-          "alert": "No sacrificar legibilidad, contraste ni accesibilidad por decoracion visual.",
+          "title": "Problema observable",
+          "keyIdea": "Problema observable: una buena decision de UX/UI se comprueba con una tarea, una evidencia y una mejora visible.",
+          "shortTheory": "Un problema UX no es 'se ve feo': es una friccion que impide entender, decidir o avanzar. En UX/UI no alcanza con que una pantalla se vea prolija: tiene que orientar a una persona real, reducir dudas y dejar claro que hacer despues. Revisar problema observable ayuda a separar gusto personal de criterio usable.",
+          "practicalExample": "Caso: una pagina de inscripcion tiene demasiado texto, botones parecidos y personas que no saben como avanzar. Aplicacion: revisa problema observable, define la accion principal, elimina ruido y marca el siguiente paso con una prueba simple.",
+          "commonMistake": "Confundir problema observable con decoracion o preferencia visual. La correccion es escribir el problema observado, explicar su impacto y proponer un cambio que otra persona pueda probar.",
+          "whatToDoNow": "Ejercicio de 25 minutos: toma una pantalla real o simulada, detecta un problema relacionado con problema observable, propone una version mejorada y guarda una lista de tres problemas observables con evidencia.",
+          "alert": "No sacrificar legibilidad, contraste, accesibilidad ni claridad por una solucion visual llamativa.",
           "keyPoints": [
-            "Interfaz debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: una revisión UX/UI con problema detectado, evidencia, cambio propuesto y criterio de mejora.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Definir la tarea principal antes de redisenar.",
+            "Separar problema, evidencia, propuesta y criterio de exito.",
+            "Probar el cambio con una persona o con una tarea concreta.",
+            "Priorizar claridad y accesibilidad antes que ornamentacion."
           ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza revision profesional, investigacion formal con usuarios ni normativa de accesibilidad aplicable."
         },
         {
           "id": "m1-l5",
-          "title": "Restricciones",
-          "keyIdea": "Idea clave: Restricciones sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Restricciones\" dentro del módulo \"Fundamentos UX/UI\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona necesita mejorar una página, formulario o app sencilla para que sea más clara, navegable y fácil de completar. Aplicá \"Restricciones\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: una revisión UX/UI con problema detectado, evidencia, cambio propuesto y criterio de mejora.",
-          "alert": "No sacrificar legibilidad, contraste ni accesibilidad por decoracion visual.",
+          "title": "Criterio de exito",
+          "keyIdea": "Criterio de exito: una buena decision de UX/UI se comprueba con una tarea, una evidencia y una mejora visible.",
+          "shortTheory": "El exito se define antes de redisenar: menos dudas, menos pasos, mejor comprension o tarea completada. En UX/UI no alcanza con que una pantalla se vea prolija: tiene que orientar a una persona real, reducir dudas y dejar claro que hacer despues. Revisar criterio de exito ayuda a separar gusto personal de criterio usable.",
+          "practicalExample": "Caso: una pagina de inscripcion tiene demasiado texto, botones parecidos y personas que no saben como avanzar. Aplicacion: revisa criterio de exito, define la accion principal, elimina ruido y marca el siguiente paso con una prueba simple.",
+          "commonMistake": "Confundir criterio de exito con decoracion o preferencia visual. La correccion es escribir el problema observado, explicar su impacto y proponer un cambio que otra persona pueda probar.",
+          "whatToDoNow": "Ejercicio de 25 minutos: toma una pantalla real o simulada, detecta un problema relacionado con criterio de exito, propone una version mejorada y guarda un criterio medible de exito para la mejora.",
+          "alert": "No sacrificar legibilidad, contraste, accesibilidad ni claridad por una solucion visual llamativa.",
           "keyPoints": [
-            "Restricciones debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: una revisión UX/UI con problema detectado, evidencia, cambio propuesto y criterio de mejora.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Definir la tarea principal antes de redisenar.",
+            "Separar problema, evidencia, propuesta y criterio de exito.",
+            "Probar el cambio con una persona o con una tarea concreta.",
+            "Priorizar claridad y accesibilidad antes que ornamentacion."
           ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza revision profesional, investigacion formal con usuarios ni normativa de accesibilidad aplicable."
         },
         {
           "id": "m1-l6",
-          "title": "Criterios de exito",
-          "keyIdea": "Idea clave: Criterios de exito sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Criterios de exito\" dentro del módulo \"Fundamentos UX/UI\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona necesita mejorar una página, formulario o app sencilla para que sea más clara, navegable y fácil de completar. Aplicá \"Criterios de exito\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: una revisión UX/UI con problema detectado, evidencia, cambio propuesto y criterio de mejora.",
-          "alert": "No sacrificar legibilidad, contraste ni accesibilidad por decoracion visual.",
+          "title": "Evidencia antes y despues",
+          "keyIdea": "Evidencia antes y despues: una buena decision de UX/UI se comprueba con una tarea, una evidencia y una mejora visible.",
+          "shortTheory": "Guardar evidencia permite explicar por que un cambio mejora la experiencia. En UX/UI no alcanza con que una pantalla se vea prolija: tiene que orientar a una persona real, reducir dudas y dejar claro que hacer despues. Revisar evidencia antes y despues ayuda a separar gusto personal de criterio usable.",
+          "practicalExample": "Caso: una pagina de inscripcion tiene demasiado texto, botones parecidos y personas que no saben como avanzar. Aplicacion: revisa evidencia antes y despues, define la accion principal, elimina ruido y marca el siguiente paso con una prueba simple.",
+          "commonMistake": "Confundir evidencia antes y despues con decoracion o preferencia visual. La correccion es escribir el problema observado, explicar su impacto y proponer un cambio que otra persona pueda probar.",
+          "whatToDoNow": "Ejercicio de 25 minutos: toma una pantalla real o simulada, detecta un problema relacionado con evidencia antes y despues, propone una version mejorada y guarda captura o descripcion antes/despues con motivo del cambio.",
+          "alert": "No sacrificar legibilidad, contraste, accesibilidad ni claridad por una solucion visual llamativa.",
           "keyPoints": [
-            "Criterios de exito debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: una revisión UX/UI con problema detectado, evidencia, cambio propuesto y criterio de mejora.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Definir la tarea principal antes de redisenar.",
+            "Separar problema, evidencia, propuesta y criterio de exito.",
+            "Probar el cambio con una persona o con una tarea concreta.",
+            "Priorizar claridad y accesibilidad antes que ornamentacion."
           ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza revision profesional, investigacion formal con usuarios ni normativa de accesibilidad aplicable."
         }
       ],
       "quiz": [
         {
           "id": "m1-q1",
-          "question": "Pregunta 1: ¿que conviene hacer al trabajar ",
+          "question": "Que convierte una opinion visual en un hallazgo UX?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Una evidencia sobre una tarea concreta",
+            "Un color que parece moderno",
+            "Una preferencia del disenador",
+            "Una animacion llamativa"
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Un hallazgo UX necesita tarea, problema observado e impacto."
         },
         {
           "id": "m1-q2",
-          "question": "Pregunta 2: ¿que conviene hacer al trabajar ",
+          "question": "Cual es un objetivo de pantalla bien definido?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Que la persona encuentre y complete la inscripcion",
+            "Que la pantalla tenga muchos efectos",
+            "Que use todos los colores de marca",
+            "Que el texto ocupe poco espacio"
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "El objetivo debe describir la accion que la persona necesita completar."
         },
         {
           "id": "m1-q3",
-          "question": "Pregunta 3: ¿que conviene hacer al trabajar ",
+          "question": "Que dato conviene mirar antes de redisenar?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Quien usa la pantalla y en que contexto",
+            "La tendencia visual de moda",
+            "La cantidad de iconos disponibles",
+            "El nombre interno del proyecto"
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Usuario y contexto condicionan jerarquia, lenguaje y pasos."
         },
         {
           "id": "m1-q4",
-          "question": "Pregunta 4: ¿que conviene hacer al trabajar ",
+          "question": "Que es un criterio de exito util?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "La tarea se completa sin dudas en menos pasos",
+            "La pantalla parece mas sofisticada",
+            "El equipo dice que quedo linda",
+            "Hay mas texto explicativo"
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "El criterio debe poder probarse con una tarea o evidencia."
         },
         {
           "id": "m1-q5",
-          "question": "Pregunta 5: ¿que conviene hacer al trabajar ",
+          "question": "Por que guardar antes/despues?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Para justificar el cambio con evidencia",
+            "Para hacer mas pesada la carpeta",
+            "Para reemplazar pruebas con usuarios",
+            "Para evitar revisar el problema"
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "La comparacion ayuda a explicar impacto y aprendizaje."
         }
       ],
-      "professionalOutcome": "mejorar claridad, jerarquia, navegacion, accesibilidad y conversion basica. Entregable sugerido: una auditoria de pantalla con problema, impacto, solucion y prueba rapida."
+      "professionalOutcome": "Ficha de diagnostico UX con usuario, tarea, problema, evidencia y criterio de exito."
     },
     {
       "id": "m2",
       "title": "Estructura y navegacion",
-      "description": "En este módulo vas a trabajar \"Estructura y navegacion\" dentro de diseño de interfaces simples, comprensibles y fáciles de usar. El objetivo es practicar con situaciones concretas, entender qué decisión mejora y cerrar con una evidencia simple.",
-      "learningRisk": "Punto clave",
+      "description": "Ordena informacion, menu, rutas, estados vacios y regreso al inicio para que nadie dependa del boton atras.",
+      "learningRisk": "Personas perdidas dentro del sitio",
+      "commercialRisk": "Abandono por no encontrar el camino",
       "lessons": [
         {
           "id": "m2-l1",
-          "title": "Arquitectura simple",
-          "keyIdea": "Idea clave: Arquitectura simple sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Arquitectura simple\" dentro del módulo \"Estructura y navegacion\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona necesita mejorar una página, formulario o app sencilla para que sea más clara, navegable y fácil de completar. Aplicá \"Arquitectura simple\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: una revisión UX/UI con problema detectado, evidencia, cambio propuesto y criterio de mejora.",
-          "alert": "No sacrificar legibilidad, contraste ni accesibilidad por decoracion visual.",
+          "title": "Inventario de contenido",
+          "keyIdea": "Inventario de contenido: una buena decision de UX/UI se comprueba con una tarea, una evidencia y una mejora visible.",
+          "shortTheory": "Antes de disenar menus conviene listar que existe, que sobra y que falta. En UX/UI no alcanza con que una pantalla se vea prolija: tiene que orientar a una persona real, reducir dudas y dejar claro que hacer despues. Revisar inventario de contenido ayuda a separar gusto personal de criterio usable.",
+          "practicalExample": "Caso: una pagina de inscripcion tiene demasiado texto, botones parecidos y personas que no saben como avanzar. Aplicacion: revisa inventario de contenido, define la accion principal, elimina ruido y marca el siguiente paso con una prueba simple.",
+          "commonMistake": "Confundir inventario de contenido con decoracion o preferencia visual. La correccion es escribir el problema observado, explicar su impacto y proponer un cambio que otra persona pueda probar.",
+          "whatToDoNow": "Ejercicio de 25 minutos: toma una pantalla real o simulada, detecta un problema relacionado con inventario de contenido, propone una version mejorada y guarda un inventario con secciones principales, secundarias y duplicadas.",
+          "alert": "No sacrificar legibilidad, contraste, accesibilidad ni claridad por una solucion visual llamativa.",
           "keyPoints": [
-            "Arquitectura simple debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: una revisión UX/UI con problema detectado, evidencia, cambio propuesto y criterio de mejora.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Definir la tarea principal antes de redisenar.",
+            "Separar problema, evidencia, propuesta y criterio de exito.",
+            "Probar el cambio con una persona o con una tarea concreta.",
+            "Priorizar claridad y accesibilidad antes que ornamentacion."
           ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza revision profesional, investigacion formal con usuarios ni normativa de accesibilidad aplicable."
         },
         {
           "id": "m2-l2",
-          "title": "Menu",
-          "keyIdea": "Idea clave: Menu sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Menu\" dentro del módulo \"Estructura y navegacion\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona necesita mejorar una página, formulario o app sencilla para que sea más clara, navegable y fácil de completar. Aplicá \"Menu\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: una revisión UX/UI con problema detectado, evidencia, cambio propuesto y criterio de mejora.",
-          "alert": "No sacrificar legibilidad, contraste ni accesibilidad por decoracion visual.",
+          "title": "Menu principal",
+          "keyIdea": "Menu principal: una buena decision de UX/UI se comprueba con una tarea, una evidencia y una mejora visible.",
+          "shortTheory": "El menu principal debe responder a las rutas reales de uso y mantenerse disponible en momentos clave. En UX/UI no alcanza con que una pantalla se vea prolija: tiene que orientar a una persona real, reducir dudas y dejar claro que hacer despues. Revisar menu principal ayuda a separar gusto personal de criterio usable.",
+          "practicalExample": "Caso: una pagina de inscripcion tiene demasiado texto, botones parecidos y personas que no saben como avanzar. Aplicacion: revisa menu principal, define la accion principal, elimina ruido y marca el siguiente paso con una prueba simple.",
+          "commonMistake": "Confundir menu principal con decoracion o preferencia visual. La correccion es escribir el problema observado, explicar su impacto y proponer un cambio que otra persona pueda probar.",
+          "whatToDoNow": "Ejercicio de 25 minutos: toma una pantalla real o simulada, detecta un problema relacionado con menu principal, propone una version mejorada y guarda un menu propuesto con 4 a 7 opciones claras.",
+          "alert": "No sacrificar legibilidad, contraste, accesibilidad ni claridad por una solucion visual llamativa.",
           "keyPoints": [
-            "Menu debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: una revisión UX/UI con problema detectado, evidencia, cambio propuesto y criterio de mejora.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Definir la tarea principal antes de redisenar.",
+            "Separar problema, evidencia, propuesta y criterio de exito.",
+            "Probar el cambio con una persona o con una tarea concreta.",
+            "Priorizar claridad y accesibilidad antes que ornamentacion."
           ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza revision profesional, investigacion formal con usuarios ni normativa de accesibilidad aplicable."
         },
         {
           "id": "m2-l3",
-          "title": "Jerarquia",
-          "keyIdea": "Idea clave: Jerarquia sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Jerarquia\" dentro del módulo \"Estructura y navegacion\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona necesita mejorar una página, formulario o app sencilla para que sea más clara, navegable y fácil de completar. Aplicá \"Jerarquia\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: una revisión UX/UI con problema detectado, evidencia, cambio propuesto y criterio de mejora.",
-          "alert": "No sacrificar legibilidad, contraste ni accesibilidad por decoracion visual.",
+          "title": "Rutas de navegacion",
+          "keyIdea": "Rutas de navegacion: una buena decision de UX/UI se comprueba con una tarea, una evidencia y una mejora visible.",
+          "shortTheory": "Una ruta muestra como una persona entra, avanza, se equivoca y vuelve a orientarse. En UX/UI no alcanza con que una pantalla se vea prolija: tiene que orientar a una persona real, reducir dudas y dejar claro que hacer despues. Revisar rutas de navegacion ayuda a separar gusto personal de criterio usable.",
+          "practicalExample": "Caso: una pagina de inscripcion tiene demasiado texto, botones parecidos y personas que no saben como avanzar. Aplicacion: revisa rutas de navegacion, define la accion principal, elimina ruido y marca el siguiente paso con una prueba simple.",
+          "commonMistake": "Confundir rutas de navegacion con decoracion o preferencia visual. La correccion es escribir el problema observado, explicar su impacto y proponer un cambio que otra persona pueda probar.",
+          "whatToDoNow": "Ejercicio de 25 minutos: toma una pantalla real o simulada, detecta un problema relacionado con rutas de navegacion, propone una version mejorada y guarda un flujo de navegacion con entrada, avance, salida y vuelta.",
+          "alert": "No sacrificar legibilidad, contraste, accesibilidad ni claridad por una solucion visual llamativa.",
           "keyPoints": [
-            "Jerarquia debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: una revisión UX/UI con problema detectado, evidencia, cambio propuesto y criterio de mejora.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Definir la tarea principal antes de redisenar.",
+            "Separar problema, evidencia, propuesta y criterio de exito.",
+            "Probar el cambio con una persona o con una tarea concreta.",
+            "Priorizar claridad y accesibilidad antes que ornamentacion."
           ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza revision profesional, investigacion formal con usuarios ni normativa de accesibilidad aplicable."
         },
         {
           "id": "m2-l4",
-          "title": "Flujos",
-          "keyIdea": "Idea clave: Flujos sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Flujos\" dentro del módulo \"Estructura y navegacion\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona necesita mejorar una página, formulario o app sencilla para que sea más clara, navegable y fácil de completar. Aplicá \"Flujos\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: una revisión UX/UI con problema detectado, evidencia, cambio propuesto y criterio de mejora.",
-          "alert": "No sacrificar legibilidad, contraste ni accesibilidad por decoracion visual.",
+          "title": "Estados vacios",
+          "keyIdea": "Estados vacios: una buena decision de UX/UI se comprueba con una tarea, una evidencia y una mejora visible.",
+          "shortTheory": "Cuando no hay resultados o falta informacion, la interfaz debe explicar que paso y que hacer. En UX/UI no alcanza con que una pantalla se vea prolija: tiene que orientar a una persona real, reducir dudas y dejar claro que hacer despues. Revisar estados vacios ayuda a separar gusto personal de criterio usable.",
+          "practicalExample": "Caso: una pagina de inscripcion tiene demasiado texto, botones parecidos y personas que no saben como avanzar. Aplicacion: revisa estados vacios, define la accion principal, elimina ruido y marca el siguiente paso con una prueba simple.",
+          "commonMistake": "Confundir estados vacios con decoracion o preferencia visual. La correccion es escribir el problema observado, explicar su impacto y proponer un cambio que otra persona pueda probar.",
+          "whatToDoNow": "Ejercicio de 25 minutos: toma una pantalla real o simulada, detecta un problema relacionado con estados vacios, propone una version mejorada y guarda un estado vacio con mensaje y accion siguiente.",
+          "alert": "No sacrificar legibilidad, contraste, accesibilidad ni claridad por una solucion visual llamativa.",
           "keyPoints": [
-            "Flujos debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: una revisión UX/UI con problema detectado, evidencia, cambio propuesto y criterio de mejora.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Definir la tarea principal antes de redisenar.",
+            "Separar problema, evidencia, propuesta y criterio de exito.",
+            "Probar el cambio con una persona o con una tarea concreta.",
+            "Priorizar claridad y accesibilidad antes que ornamentacion."
           ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza revision profesional, investigacion formal con usuarios ni normativa de accesibilidad aplicable."
         },
         {
           "id": "m2-l5",
-          "title": "Estados",
-          "keyIdea": "Idea clave: Estados sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Estados\" dentro del módulo \"Estructura y navegacion\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona necesita mejorar una página, formulario o app sencilla para que sea más clara, navegable y fácil de completar. Aplicá \"Estados\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: una revisión UX/UI con problema detectado, evidencia, cambio propuesto y criterio de mejora.",
-          "alert": "No sacrificar legibilidad, contraste ni accesibilidad por decoracion visual.",
+          "title": "Volver al inicio",
+          "keyIdea": "Volver al inicio: una buena decision de UX/UI se comprueba con una tarea, una evidencia y una mejora visible.",
+          "shortTheory": "Toda experiencia larga necesita una salida visible al menu o portal principal. En UX/UI no alcanza con que una pantalla se vea prolija: tiene que orientar a una persona real, reducir dudas y dejar claro que hacer despues. Revisar volver al inicio ayuda a separar gusto personal de criterio usable.",
+          "practicalExample": "Caso: una pagina de inscripcion tiene demasiado texto, botones parecidos y personas que no saben como avanzar. Aplicacion: revisa volver al inicio, define la accion principal, elimina ruido y marca el siguiente paso con una prueba simple.",
+          "commonMistake": "Confundir volver al inicio con decoracion o preferencia visual. La correccion es escribir el problema observado, explicar su impacto y proponer un cambio que otra persona pueda probar.",
+          "whatToDoNow": "Ejercicio de 25 minutos: toma una pantalla real o simulada, detecta un problema relacionado con volver al inicio, propone una version mejorada y guarda un boton o enlace persistente de regreso al menu principal.",
+          "alert": "No sacrificar legibilidad, contraste, accesibilidad ni claridad por una solucion visual llamativa.",
           "keyPoints": [
-            "Estados debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: una revisión UX/UI con problema detectado, evidencia, cambio propuesto y criterio de mejora.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Definir la tarea principal antes de redisenar.",
+            "Separar problema, evidencia, propuesta y criterio de exito.",
+            "Probar el cambio con una persona o con una tarea concreta.",
+            "Priorizar claridad y accesibilidad antes que ornamentacion."
           ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza revision profesional, investigacion formal con usuarios ni normativa de accesibilidad aplicable."
         },
         {
           "id": "m2-l6",
-          "title": "Ruta principal",
-          "keyIdea": "Idea clave: Ruta principal sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Ruta principal\" dentro del módulo \"Estructura y navegacion\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona necesita mejorar una página, formulario o app sencilla para que sea más clara, navegable y fácil de completar. Aplicá \"Ruta principal\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: una revisión UX/UI con problema detectado, evidencia, cambio propuesto y criterio de mejora.",
-          "alert": "No sacrificar legibilidad, contraste ni accesibilidad por decoracion visual.",
+          "title": "Prueba de encontrar",
+          "keyIdea": "Prueba de encontrar: una buena decision de UX/UI se comprueba con una tarea, una evidencia y una mejora visible.",
+          "shortTheory": "La navegacion se valida pidiendo a alguien que encuentre una seccion sin explicaciones extra. En UX/UI no alcanza con que una pantalla se vea prolija: tiene que orientar a una persona real, reducir dudas y dejar claro que hacer despues. Revisar prueba de encontrar ayuda a separar gusto personal de criterio usable.",
+          "practicalExample": "Caso: una pagina de inscripcion tiene demasiado texto, botones parecidos y personas que no saben como avanzar. Aplicacion: revisa prueba de encontrar, define la accion principal, elimina ruido y marca el siguiente paso con una prueba simple.",
+          "commonMistake": "Confundir prueba de encontrar con decoracion o preferencia visual. La correccion es escribir el problema observado, explicar su impacto y proponer un cambio que otra persona pueda probar.",
+          "whatToDoNow": "Ejercicio de 25 minutos: toma una pantalla real o simulada, detecta un problema relacionado con prueba de encontrar, propone una version mejorada y guarda una prueba con tarea, tiempo, duda observada y mejora.",
+          "alert": "No sacrificar legibilidad, contraste, accesibilidad ni claridad por una solucion visual llamativa.",
           "keyPoints": [
-            "Ruta principal debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: una revisión UX/UI con problema detectado, evidencia, cambio propuesto y criterio de mejora.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Definir la tarea principal antes de redisenar.",
+            "Separar problema, evidencia, propuesta y criterio de exito.",
+            "Probar el cambio con una persona o con una tarea concreta.",
+            "Priorizar claridad y accesibilidad antes que ornamentacion."
           ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza revision profesional, investigacion formal con usuarios ni normativa de accesibilidad aplicable."
         }
       ],
       "quiz": [
         {
           "id": "m2-q1",
-          "question": "Pregunta 1: ¿que conviene hacer al trabajar ",
+          "question": "Cual es la falla de navegacion mas critica en un curso largo?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "No tener regreso visible al menu principal",
+            "Tener un color de fondo sobrio",
+            "Usar titulos breves",
+            "Mostrar el progreso"
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Sin una salida clara, la persona depende del boton atras y pierde orientacion."
         },
         {
           "id": "m2-q2",
-          "question": "Pregunta 2: ¿que conviene hacer al trabajar ",
+          "question": "Que debe incluir un buen menu?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Opciones comprensibles y rutas esperadas",
+            "Todos los enlaces posibles",
+            "Nombres internos del equipo",
+            "Solo iconos sin texto"
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "El menu debe servir a la persona, no a la estructura interna."
         },
         {
           "id": "m2-q3",
-          "question": "Pregunta 3: ¿que conviene hacer al trabajar ",
+          "question": "Para que sirve un estado vacio?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Explicar el problema y ofrecer proximo paso",
+            "Rellenar espacio",
+            "Ocultar errores",
+            "Decorar la pantalla"
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Un estado vacio tambien guia."
         },
         {
           "id": "m2-q4",
-          "question": "Pregunta 4: ¿que conviene hacer al trabajar ",
+          "question": "Como validar navegacion basica?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Pedir que alguien encuentre una seccion sin ayuda",
+            "Mirar solo el codigo",
+            "Elegir un color mas fuerte",
+            "Agregar mas banners"
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "La prueba de encontrar revela dudas reales."
         },
         {
           "id": "m2-q5",
-          "question": "Pregunta 5: ¿que conviene hacer al trabajar ",
+          "question": "Que mejora evita perderse dentro de una SPA?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Un enlace persistente al portal o menu principal",
+            "Mas animaciones",
+            "Menos contraste",
+            "Un texto legal mas largo"
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "La salida persistente corrige el problema de volver muchas veces."
         }
       ],
-      "professionalOutcome": "mejorar claridad, jerarquia, navegacion, accesibilidad y conversion basica. Entregable sugerido: una auditoria de pantalla con problema, impacto, solucion y prueba rapida."
+      "professionalOutcome": "Mapa de navegacion con rutas principales, salida al inicio y prueba de encontrar."
     },
     {
       "id": "m3",
-      "title": "Jerarquia visual",
-      "description": "En este módulo vas a trabajar \"Jerarquia visual\" dentro de diseño de interfaces simples, comprensibles y fáciles de usar. El objetivo es practicar con situaciones concretas, entender qué decisión mejora y cerrar con una evidencia simple.",
-      "learningRisk": "Punto clave",
+      "title": "Jerarquia visual y componentes",
+      "description": "Mejora lectura, prioridad, contraste, botones, tarjetas y estados visuales sin depender de decoracion excesiva.",
+      "learningRisk": "Todo parece tener la misma importancia",
+      "commercialRisk": "La accion principal pasa desapercibida",
       "lessons": [
         {
           "id": "m3-l1",
-          "title": "Titulos",
-          "keyIdea": "Idea clave: Titulos sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Titulos\" dentro del módulo \"Jerarquia visual\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona necesita mejorar una página, formulario o app sencilla para que sea más clara, navegable y fácil de completar. Aplicá \"Titulos\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: una revisión UX/UI con problema detectado, evidencia, cambio propuesto y criterio de mejora.",
-          "alert": "No sacrificar legibilidad, contraste ni accesibilidad por decoracion visual.",
+          "title": "Titulos y niveles",
+          "keyIdea": "Titulos y niveles: una buena decision de UX/UI se comprueba con una tarea, una evidencia y una mejora visible.",
+          "shortTheory": "Los titulos ordenan la lectura y ayudan a escanear antes de leer en detalle. En UX/UI no alcanza con que una pantalla se vea prolija: tiene que orientar a una persona real, reducir dudas y dejar claro que hacer despues. Revisar titulos y niveles ayuda a separar gusto personal de criterio usable.",
+          "practicalExample": "Caso: una pagina de inscripcion tiene demasiado texto, botones parecidos y personas que no saben como avanzar. Aplicacion: revisa titulos y niveles, define la accion principal, elimina ruido y marca el siguiente paso con una prueba simple.",
+          "commonMistake": "Confundir titulos y niveles con decoracion o preferencia visual. La correccion es escribir el problema observado, explicar su impacto y proponer un cambio que otra persona pueda probar.",
+          "whatToDoNow": "Ejercicio de 25 minutos: toma una pantalla real o simulada, detecta un problema relacionado con titulos y niveles, propone una version mejorada y guarda una jerarquia H1/H2/H3 revisada.",
+          "alert": "No sacrificar legibilidad, contraste, accesibilidad ni claridad por una solucion visual llamativa.",
           "keyPoints": [
-            "Titulos debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: una revisión UX/UI con problema detectado, evidencia, cambio propuesto y criterio de mejora.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Definir la tarea principal antes de redisenar.",
+            "Separar problema, evidencia, propuesta y criterio de exito.",
+            "Probar el cambio con una persona o con una tarea concreta.",
+            "Priorizar claridad y accesibilidad antes que ornamentacion."
           ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza revision profesional, investigacion formal con usuarios ni normativa de accesibilidad aplicable."
         },
         {
           "id": "m3-l2",
-          "title": "Espaciado",
-          "keyIdea": "Idea clave: Espaciado sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Espaciado\" dentro del módulo \"Jerarquia visual\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona necesita mejorar una página, formulario o app sencilla para que sea más clara, navegable y fácil de completar. Aplicá \"Espaciado\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: una revisión UX/UI con problema detectado, evidencia, cambio propuesto y criterio de mejora.",
-          "alert": "No sacrificar legibilidad, contraste ni accesibilidad por decoracion visual.",
+          "title": "Espaciado y agrupacion",
+          "keyIdea": "Espaciado y agrupacion: una buena decision de UX/UI se comprueba con una tarea, una evidencia y una mejora visible.",
+          "shortTheory": "El espacio comunica relacion: lo cercano se entiende como parte del mismo bloque. En UX/UI no alcanza con que una pantalla se vea prolija: tiene que orientar a una persona real, reducir dudas y dejar claro que hacer despues. Revisar espaciado y agrupacion ayuda a separar gusto personal de criterio usable.",
+          "practicalExample": "Caso: una pagina de inscripcion tiene demasiado texto, botones parecidos y personas que no saben como avanzar. Aplicacion: revisa espaciado y agrupacion, define la accion principal, elimina ruido y marca el siguiente paso con una prueba simple.",
+          "commonMistake": "Confundir espaciado y agrupacion con decoracion o preferencia visual. La correccion es escribir el problema observado, explicar su impacto y proponer un cambio que otra persona pueda probar.",
+          "whatToDoNow": "Ejercicio de 25 minutos: toma una pantalla real o simulada, detecta un problema relacionado con espaciado y agrupacion, propone una version mejorada y guarda una captura marcada con grupos y separaciones.",
+          "alert": "No sacrificar legibilidad, contraste, accesibilidad ni claridad por una solucion visual llamativa.",
           "keyPoints": [
-            "Espaciado debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: una revisión UX/UI con problema detectado, evidencia, cambio propuesto y criterio de mejora.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Definir la tarea principal antes de redisenar.",
+            "Separar problema, evidencia, propuesta y criterio de exito.",
+            "Probar el cambio con una persona o con una tarea concreta.",
+            "Priorizar claridad y accesibilidad antes que ornamentacion."
           ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza revision profesional, investigacion formal con usuarios ni normativa de accesibilidad aplicable."
         },
         {
           "id": "m3-l3",
-          "title": "Contraste",
-          "keyIdea": "Idea clave: Contraste sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Contraste\" dentro del módulo \"Jerarquia visual\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona necesita mejorar una página, formulario o app sencilla para que sea más clara, navegable y fácil de completar. Aplicá \"Contraste\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: una revisión UX/UI con problema detectado, evidencia, cambio propuesto y criterio de mejora.",
-          "alert": "No sacrificar legibilidad, contraste ni accesibilidad por decoracion visual.",
+          "title": "Contraste y legibilidad",
+          "keyIdea": "Contraste y legibilidad: una buena decision de UX/UI se comprueba con una tarea, una evidencia y una mejora visible.",
+          "shortTheory": "Texto, fondo y tamano deben permitir lectura comoda en celular y escritorio. En UX/UI no alcanza con que una pantalla se vea prolija: tiene que orientar a una persona real, reducir dudas y dejar claro que hacer despues. Revisar contraste y legibilidad ayuda a separar gusto personal de criterio usable.",
+          "practicalExample": "Caso: una pagina de inscripcion tiene demasiado texto, botones parecidos y personas que no saben como avanzar. Aplicacion: revisa contraste y legibilidad, define la accion principal, elimina ruido y marca el siguiente paso con una prueba simple.",
+          "commonMistake": "Confundir contraste y legibilidad con decoracion o preferencia visual. La correccion es escribir el problema observado, explicar su impacto y proponer un cambio que otra persona pueda probar.",
+          "whatToDoNow": "Ejercicio de 25 minutos: toma una pantalla real o simulada, detecta un problema relacionado con contraste y legibilidad, propone una version mejorada y guarda una revision de contraste y tamano de texto.",
+          "alert": "No sacrificar legibilidad, contraste, accesibilidad ni claridad por una solucion visual llamativa.",
           "keyPoints": [
-            "Contraste debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: una revisión UX/UI con problema detectado, evidencia, cambio propuesto y criterio de mejora.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Definir la tarea principal antes de redisenar.",
+            "Separar problema, evidencia, propuesta y criterio de exito.",
+            "Probar el cambio con una persona o con una tarea concreta.",
+            "Priorizar claridad y accesibilidad antes que ornamentacion."
           ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza revision profesional, investigacion formal con usuarios ni normativa de accesibilidad aplicable."
         },
         {
           "id": "m3-l4",
-          "title": "Agrupacion",
-          "keyIdea": "Idea clave: Agrupacion sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Agrupacion\" dentro del módulo \"Jerarquia visual\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona necesita mejorar una página, formulario o app sencilla para que sea más clara, navegable y fácil de completar. Aplicá \"Agrupacion\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: una revisión UX/UI con problema detectado, evidencia, cambio propuesto y criterio de mejora.",
-          "alert": "No sacrificar legibilidad, contraste ni accesibilidad por decoracion visual.",
+          "title": "Botones y acciones",
+          "keyIdea": "Botones y acciones: una buena decision de UX/UI se comprueba con una tarea, una evidencia y una mejora visible.",
+          "shortTheory": "La accion principal debe verse distinta de acciones secundarias y destructivas. En UX/UI no alcanza con que una pantalla se vea prolija: tiene que orientar a una persona real, reducir dudas y dejar claro que hacer despues. Revisar botones y acciones ayuda a separar gusto personal de criterio usable.",
+          "practicalExample": "Caso: una pagina de inscripcion tiene demasiado texto, botones parecidos y personas que no saben como avanzar. Aplicacion: revisa botones y acciones, define la accion principal, elimina ruido y marca el siguiente paso con una prueba simple.",
+          "commonMistake": "Confundir botones y acciones con decoracion o preferencia visual. La correccion es escribir el problema observado, explicar su impacto y proponer un cambio que otra persona pueda probar.",
+          "whatToDoNow": "Ejercicio de 25 minutos: toma una pantalla real o simulada, detecta un problema relacionado con botones y acciones, propone una version mejorada y guarda un set de botones principal/secundario/alerta.",
+          "alert": "No sacrificar legibilidad, contraste, accesibilidad ni claridad por una solucion visual llamativa.",
           "keyPoints": [
-            "Agrupacion debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: una revisión UX/UI con problema detectado, evidencia, cambio propuesto y criterio de mejora.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Definir la tarea principal antes de redisenar.",
+            "Separar problema, evidencia, propuesta y criterio de exito.",
+            "Probar el cambio con una persona o con una tarea concreta.",
+            "Priorizar claridad y accesibilidad antes que ornamentacion."
           ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza revision profesional, investigacion formal con usuarios ni normativa de accesibilidad aplicable."
         },
         {
           "id": "m3-l5",
-          "title": "Botones",
-          "keyIdea": "Idea clave: Botones sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Botones\" dentro del módulo \"Jerarquia visual\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona necesita mejorar una página, formulario o app sencilla para que sea más clara, navegable y fácil de completar. Aplicá \"Botones\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: una revisión UX/UI con problema detectado, evidencia, cambio propuesto y criterio de mejora.",
-          "alert": "No sacrificar legibilidad, contraste ni accesibilidad por decoracion visual.",
+          "title": "Tarjetas utiles",
+          "keyIdea": "Tarjetas utiles: una buena decision de UX/UI se comprueba con una tarea, una evidencia y una mejora visible.",
+          "shortTheory": "Una tarjeta debe contener informacion suficiente para decidir sin obligar a abrir todo. En UX/UI no alcanza con que una pantalla se vea prolija: tiene que orientar a una persona real, reducir dudas y dejar claro que hacer despues. Revisar tarjetas utiles ayuda a separar gusto personal de criterio usable.",
+          "practicalExample": "Caso: una pagina de inscripcion tiene demasiado texto, botones parecidos y personas que no saben como avanzar. Aplicacion: revisa tarjetas utiles, define la accion principal, elimina ruido y marca el siguiente paso con una prueba simple.",
+          "commonMistake": "Confundir tarjetas utiles con decoracion o preferencia visual. La correccion es escribir el problema observado, explicar su impacto y proponer un cambio que otra persona pueda probar.",
+          "whatToDoNow": "Ejercicio de 25 minutos: toma una pantalla real o simulada, detecta un problema relacionado con tarjetas utiles, propone una version mejorada y guarda una tarjeta con titulo, descripcion, estado y accion.",
+          "alert": "No sacrificar legibilidad, contraste, accesibilidad ni claridad por una solucion visual llamativa.",
           "keyPoints": [
-            "Botones debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: una revisión UX/UI con problema detectado, evidencia, cambio propuesto y criterio de mejora.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Definir la tarea principal antes de redisenar.",
+            "Separar problema, evidencia, propuesta y criterio de exito.",
+            "Probar el cambio con una persona o con una tarea concreta.",
+            "Priorizar claridad y accesibilidad antes que ornamentacion."
           ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza revision profesional, investigacion formal con usuarios ni normativa de accesibilidad aplicable."
         },
         {
           "id": "m3-l6",
-          "title": "Lectura rapida",
-          "keyIdea": "Idea clave: Lectura rapida sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Lectura rapida\" dentro del módulo \"Jerarquia visual\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona necesita mejorar una página, formulario o app sencilla para que sea más clara, navegable y fácil de completar. Aplicá \"Lectura rapida\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: una revisión UX/UI con problema detectado, evidencia, cambio propuesto y criterio de mejora.",
-          "alert": "No sacrificar legibilidad, contraste ni accesibilidad por decoracion visual.",
+          "title": "Estados visuales",
+          "keyIdea": "Estados visuales: una buena decision de UX/UI se comprueba con una tarea, una evidencia y una mejora visible.",
+          "shortTheory": "Hover, foco, seleccionado, completado y error deben ser visibles y coherentes. En UX/UI no alcanza con que una pantalla se vea prolija: tiene que orientar a una persona real, reducir dudas y dejar claro que hacer despues. Revisar estados visuales ayuda a separar gusto personal de criterio usable.",
+          "practicalExample": "Caso: una pagina de inscripcion tiene demasiado texto, botones parecidos y personas que no saben como avanzar. Aplicacion: revisa estados visuales, define la accion principal, elimina ruido y marca el siguiente paso con una prueba simple.",
+          "commonMistake": "Confundir estados visuales con decoracion o preferencia visual. La correccion es escribir el problema observado, explicar su impacto y proponer un cambio que otra persona pueda probar.",
+          "whatToDoNow": "Ejercicio de 25 minutos: toma una pantalla real o simulada, detecta un problema relacionado con estados visuales, propone una version mejorada y guarda una lista de estados visuales para un componente.",
+          "alert": "No sacrificar legibilidad, contraste, accesibilidad ni claridad por una solucion visual llamativa.",
           "keyPoints": [
-            "Lectura rapida debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: una revisión UX/UI con problema detectado, evidencia, cambio propuesto y criterio de mejora.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Definir la tarea principal antes de redisenar.",
+            "Separar problema, evidencia, propuesta y criterio de exito.",
+            "Probar el cambio con una persona o con una tarea concreta.",
+            "Priorizar claridad y accesibilidad antes que ornamentacion."
           ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza revision profesional, investigacion formal con usuarios ni normativa de accesibilidad aplicable."
         }
       ],
       "quiz": [
         {
           "id": "m3-q1",
-          "question": "Pregunta 1: ¿que conviene hacer al trabajar ",
+          "question": "Que indica una buena jerarquia visual?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Que se entiende que mirar primero y que hacer despues",
+            "Que todos los bloques tienen el mismo peso",
+            "Que hay muchos colores",
+            "Que el texto es pequeno"
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "La jerarquia reduce esfuerzo de lectura."
         },
         {
           "id": "m3-q2",
-          "question": "Pregunta 2: ¿que conviene hacer al trabajar ",
+          "question": "Que problema causa poco contraste?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Lectura dificil y menor accesibilidad",
+            "Carga mas rapida",
+            "Mas confianza",
+            "Menos necesidad de revision"
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Contraste bajo afecta comprension y accesibilidad."
         },
         {
           "id": "m3-q3",
-          "question": "Pregunta 3: ¿que conviene hacer al trabajar ",
+          "question": "Como debe verse la accion principal?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Diferente y prioritaria frente a acciones secundarias",
+            "Igual que todos los enlaces",
+            "Oculta hasta el final",
+            "Solo con un icono ambiguo"
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "La accion principal necesita prioridad visual."
         },
         {
           "id": "m3-q4",
-          "question": "Pregunta 4: ¿que conviene hacer al trabajar ",
+          "question": "Que hace una tarjeta util?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Ayuda a decidir con informacion minima suficiente",
+            "Repite todo el contenido completo",
+            "Oculta el estado",
+            "No tiene accion"
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Una tarjeta debe orientar la decision."
         },
         {
           "id": "m3-q5",
-          "question": "Pregunta 5: ¿que conviene hacer al trabajar ",
+          "question": "Por que importa el foco visible?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Permite navegar con teclado y entender ubicacion",
+            "Es solo decorativo",
+            "Reduce contenido",
+            "Evita usar etiquetas"
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "El foco visible es parte de accesibilidad basica."
         }
       ],
-      "professionalOutcome": "mejorar claridad, jerarquia, navegacion, accesibilidad y conversion basica. Entregable sugerido: una auditoria de pantalla con problema, impacto, solucion y prueba rapida."
+      "professionalOutcome": "Guia visual corta con jerarquia, componentes y estados."
     },
     {
       "id": "m4",
       "title": "Formularios y microcopy",
-      "description": "En este módulo vas a trabajar \"Formularios y microcopy\" dentro de diseño de interfaces simples, comprensibles y fáciles de usar. El objetivo es practicar con situaciones concretas, entender qué decisión mejora y cerrar con una evidencia simple.",
-      "learningRisk": "Punto clave",
+      "description": "Disena campos, etiquetas, ayudas, errores y confirmaciones para reducir dudas y abandonos.",
+      "learningRisk": "Formularios confusos o intimidantes",
+      "commercialRisk": "Perdida de consultas, inscripciones o ventas",
       "lessons": [
         {
           "id": "m4-l1",
-          "title": "Labels",
-          "keyIdea": "Idea clave: Labels sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Labels\" dentro del módulo \"Formularios y microcopy\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona necesita mejorar una página, formulario o app sencilla para que sea más clara, navegable y fácil de completar. Aplicá \"Labels\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: una revisión UX/UI con problema detectado, evidencia, cambio propuesto y criterio de mejora.",
-          "alert": "No sacrificar legibilidad, contraste ni accesibilidad por decoracion visual.",
+          "title": "Campos necesarios",
+          "keyIdea": "Campos necesarios: una buena decision de UX/UI se comprueba con una tarea, una evidencia y una mejora visible.",
+          "shortTheory": "Cada campo agrega esfuerzo; conviene pedir solo lo necesario para la tarea. En UX/UI no alcanza con que una pantalla se vea prolija: tiene que orientar a una persona real, reducir dudas y dejar claro que hacer despues. Revisar campos necesarios ayuda a separar gusto personal de criterio usable.",
+          "practicalExample": "Caso: una pagina de inscripcion tiene demasiado texto, botones parecidos y personas que no saben como avanzar. Aplicacion: revisa campos necesarios, define la accion principal, elimina ruido y marca el siguiente paso con una prueba simple.",
+          "commonMistake": "Confundir campos necesarios con decoracion o preferencia visual. La correccion es escribir el problema observado, explicar su impacto y proponer un cambio que otra persona pueda probar.",
+          "whatToDoNow": "Ejercicio de 25 minutos: toma una pantalla real o simulada, detecta un problema relacionado con campos necesarios, propone una version mejorada y guarda una lista de campos obligatorios, opcionales y eliminables.",
+          "alert": "No sacrificar legibilidad, contraste, accesibilidad ni claridad por una solucion visual llamativa.",
           "keyPoints": [
-            "Labels debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: una revisión UX/UI con problema detectado, evidencia, cambio propuesto y criterio de mejora.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Definir la tarea principal antes de redisenar.",
+            "Separar problema, evidencia, propuesta y criterio de exito.",
+            "Probar el cambio con una persona o con una tarea concreta.",
+            "Priorizar claridad y accesibilidad antes que ornamentacion."
           ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza revision profesional, investigacion formal con usuarios ni normativa de accesibilidad aplicable."
         },
         {
           "id": "m4-l2",
-          "title": "Ayuda contextual",
-          "keyIdea": "Idea clave: Ayuda contextual sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Ayuda contextual\" dentro del módulo \"Formularios y microcopy\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona necesita mejorar una página, formulario o app sencilla para que sea más clara, navegable y fácil de completar. Aplicá \"Ayuda contextual\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: una revisión UX/UI con problema detectado, evidencia, cambio propuesto y criterio de mejora.",
-          "alert": "No sacrificar legibilidad, contraste ni accesibilidad por decoracion visual.",
+          "title": "Etiquetas claras",
+          "keyIdea": "Etiquetas claras: una buena decision de UX/UI se comprueba con una tarea, una evidencia y una mejora visible.",
+          "shortTheory": "La etiqueta debe decir que dato va, no depender solo del placeholder. En UX/UI no alcanza con que una pantalla se vea prolija: tiene que orientar a una persona real, reducir dudas y dejar claro que hacer despues. Revisar etiquetas claras ayuda a separar gusto personal de criterio usable.",
+          "practicalExample": "Caso: una pagina de inscripcion tiene demasiado texto, botones parecidos y personas que no saben como avanzar. Aplicacion: revisa etiquetas claras, define la accion principal, elimina ruido y marca el siguiente paso con una prueba simple.",
+          "commonMistake": "Confundir etiquetas claras con decoracion o preferencia visual. La correccion es escribir el problema observado, explicar su impacto y proponer un cambio que otra persona pueda probar.",
+          "whatToDoNow": "Ejercicio de 25 minutos: toma una pantalla real o simulada, detecta un problema relacionado con etiquetas claras, propone una version mejorada y guarda tres campos con etiqueta clara y ejemplo.",
+          "alert": "No sacrificar legibilidad, contraste, accesibilidad ni claridad por una solucion visual llamativa.",
           "keyPoints": [
-            "Ayuda contextual debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: una revisión UX/UI con problema detectado, evidencia, cambio propuesto y criterio de mejora.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Definir la tarea principal antes de redisenar.",
+            "Separar problema, evidencia, propuesta y criterio de exito.",
+            "Probar el cambio con una persona o con una tarea concreta.",
+            "Priorizar claridad y accesibilidad antes que ornamentacion."
           ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza revision profesional, investigacion formal con usuarios ni normativa de accesibilidad aplicable."
         },
         {
           "id": "m4-l3",
-          "title": "Errores",
-          "keyIdea": "Idea clave: Errores sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Errores\" dentro del módulo \"Formularios y microcopy\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona necesita mejorar una página, formulario o app sencilla para que sea más clara, navegable y fácil de completar. Aplicá \"Errores\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: una revisión UX/UI con problema detectado, evidencia, cambio propuesto y criterio de mejora.",
-          "alert": "No sacrificar legibilidad, contraste ni accesibilidad por decoracion visual.",
+          "title": "Ayudas breves",
+          "keyIdea": "Ayudas breves: una buena decision de UX/UI se comprueba con una tarea, una evidencia y una mejora visible.",
+          "shortTheory": "La ayuda aparece donde evita errores, no como parrafo largo antes del formulario. En UX/UI no alcanza con que una pantalla se vea prolija: tiene que orientar a una persona real, reducir dudas y dejar claro que hacer despues. Revisar ayudas breves ayuda a separar gusto personal de criterio usable.",
+          "practicalExample": "Caso: una pagina de inscripcion tiene demasiado texto, botones parecidos y personas que no saben como avanzar. Aplicacion: revisa ayudas breves, define la accion principal, elimina ruido y marca el siguiente paso con una prueba simple.",
+          "commonMistake": "Confundir ayudas breves con decoracion o preferencia visual. La correccion es escribir el problema observado, explicar su impacto y proponer un cambio que otra persona pueda probar.",
+          "whatToDoNow": "Ejercicio de 25 minutos: toma una pantalla real o simulada, detecta un problema relacionado con ayudas breves, propone una version mejorada y guarda microayudas para campos dificiles.",
+          "alert": "No sacrificar legibilidad, contraste, accesibilidad ni claridad por una solucion visual llamativa.",
           "keyPoints": [
-            "Errores debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: una revisión UX/UI con problema detectado, evidencia, cambio propuesto y criterio de mejora.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Definir la tarea principal antes de redisenar.",
+            "Separar problema, evidencia, propuesta y criterio de exito.",
+            "Probar el cambio con una persona o con una tarea concreta.",
+            "Priorizar claridad y accesibilidad antes que ornamentacion."
           ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza revision profesional, investigacion formal con usuarios ni normativa de accesibilidad aplicable."
         },
         {
           "id": "m4-l4",
-          "title": "Validacion",
-          "keyIdea": "Idea clave: Validacion sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Validacion\" dentro del módulo \"Formularios y microcopy\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona necesita mejorar una página, formulario o app sencilla para que sea más clara, navegable y fácil de completar. Aplicá \"Validacion\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: una revisión UX/UI con problema detectado, evidencia, cambio propuesto y criterio de mejora.",
-          "alert": "No sacrificar legibilidad, contraste ni accesibilidad por decoracion visual.",
+          "title": "Mensajes de error",
+          "keyIdea": "Mensajes de error: una buena decision de UX/UI se comprueba con una tarea, una evidencia y una mejora visible.",
+          "shortTheory": "Un error util explica que paso y como corregirlo sin culpar a la persona. En UX/UI no alcanza con que una pantalla se vea prolija: tiene que orientar a una persona real, reducir dudas y dejar claro que hacer despues. Revisar mensajes de error ayuda a separar gusto personal de criterio usable.",
+          "practicalExample": "Caso: una pagina de inscripcion tiene demasiado texto, botones parecidos y personas que no saben como avanzar. Aplicacion: revisa mensajes de error, define la accion principal, elimina ruido y marca el siguiente paso con una prueba simple.",
+          "commonMistake": "Confundir mensajes de error con decoracion o preferencia visual. La correccion es escribir el problema observado, explicar su impacto y proponer un cambio que otra persona pueda probar.",
+          "whatToDoNow": "Ejercicio de 25 minutos: toma una pantalla real o simulada, detecta un problema relacionado con mensajes de error, propone una version mejorada y guarda tres mensajes de error reescritos.",
+          "alert": "No sacrificar legibilidad, contraste, accesibilidad ni claridad por una solucion visual llamativa.",
           "keyPoints": [
-            "Validacion debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: una revisión UX/UI con problema detectado, evidencia, cambio propuesto y criterio de mejora.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Definir la tarea principal antes de redisenar.",
+            "Separar problema, evidencia, propuesta y criterio de exito.",
+            "Probar el cambio con una persona o con una tarea concreta.",
+            "Priorizar claridad y accesibilidad antes que ornamentacion."
           ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza revision profesional, investigacion formal con usuarios ni normativa de accesibilidad aplicable."
         },
         {
           "id": "m4-l5",
           "title": "Confirmaciones",
-          "keyIdea": "Idea clave: Confirmaciones sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Confirmaciones\" dentro del módulo \"Formularios y microcopy\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona necesita mejorar una página, formulario o app sencilla para que sea más clara, navegable y fácil de completar. Aplicá \"Confirmaciones\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: una revisión UX/UI con problema detectado, evidencia, cambio propuesto y criterio de mejora.",
-          "alert": "No sacrificar legibilidad, contraste ni accesibilidad por decoracion visual.",
+          "keyIdea": "Confirmaciones: una buena decision de UX/UI se comprueba con una tarea, una evidencia y una mejora visible.",
+          "shortTheory": "Despues de enviar, la interfaz debe confirmar resultado y proximo paso. En UX/UI no alcanza con que una pantalla se vea prolija: tiene que orientar a una persona real, reducir dudas y dejar claro que hacer despues. Revisar confirmaciones ayuda a separar gusto personal de criterio usable.",
+          "practicalExample": "Caso: una pagina de inscripcion tiene demasiado texto, botones parecidos y personas que no saben como avanzar. Aplicacion: revisa confirmaciones, define la accion principal, elimina ruido y marca el siguiente paso con una prueba simple.",
+          "commonMistake": "Confundir confirmaciones con decoracion o preferencia visual. La correccion es escribir el problema observado, explicar su impacto y proponer un cambio que otra persona pueda probar.",
+          "whatToDoNow": "Ejercicio de 25 minutos: toma una pantalla real o simulada, detecta un problema relacionado con confirmaciones, propone una version mejorada y guarda una pantalla de confirmacion con siguiente accion.",
+          "alert": "No sacrificar legibilidad, contraste, accesibilidad ni claridad por una solucion visual llamativa.",
           "keyPoints": [
-            "Confirmaciones debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: una revisión UX/UI con problema detectado, evidencia, cambio propuesto y criterio de mejora.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Definir la tarea principal antes de redisenar.",
+            "Separar problema, evidencia, propuesta y criterio de exito.",
+            "Probar el cambio con una persona o con una tarea concreta.",
+            "Priorizar claridad y accesibilidad antes que ornamentacion."
           ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza revision profesional, investigacion formal con usuarios ni normativa de accesibilidad aplicable."
         },
         {
           "id": "m4-l6",
-          "title": "Texto de botones",
-          "keyIdea": "Idea clave: Texto de botones sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Texto de botones\" dentro del módulo \"Formularios y microcopy\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona necesita mejorar una página, formulario o app sencilla para que sea más clara, navegable y fácil de completar. Aplicá \"Texto de botones\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: una revisión UX/UI con problema detectado, evidencia, cambio propuesto y criterio de mejora.",
-          "alert": "No sacrificar legibilidad, contraste ni accesibilidad por decoracion visual.",
+          "title": "Accesibilidad del formulario",
+          "keyIdea": "Accesibilidad del formulario: una buena decision de UX/UI se comprueba con una tarea, una evidencia y una mejora visible.",
+          "shortTheory": "Labels, foco, contraste y mensajes asociados permiten completar con distintas capacidades. En UX/UI no alcanza con que una pantalla se vea prolija: tiene que orientar a una persona real, reducir dudas y dejar claro que hacer despues. Revisar accesibilidad del formulario ayuda a separar gusto personal de criterio usable.",
+          "practicalExample": "Caso: una pagina de inscripcion tiene demasiado texto, botones parecidos y personas que no saben como avanzar. Aplicacion: revisa accesibilidad del formulario, define la accion principal, elimina ruido y marca el siguiente paso con una prueba simple.",
+          "commonMistake": "Confundir accesibilidad del formulario con decoracion o preferencia visual. La correccion es escribir el problema observado, explicar su impacto y proponer un cambio que otra persona pueda probar.",
+          "whatToDoNow": "Ejercicio de 25 minutos: toma una pantalla real o simulada, detecta un problema relacionado con accesibilidad del formulario, propone una version mejorada y guarda checklist de accesibilidad de formulario.",
+          "alert": "No sacrificar legibilidad, contraste, accesibilidad ni claridad por una solucion visual llamativa.",
           "keyPoints": [
-            "Texto de botones debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: una revisión UX/UI con problema detectado, evidencia, cambio propuesto y criterio de mejora.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Definir la tarea principal antes de redisenar.",
+            "Separar problema, evidencia, propuesta y criterio de exito.",
+            "Probar el cambio con una persona o con una tarea concreta.",
+            "Priorizar claridad y accesibilidad antes que ornamentacion."
           ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza revision profesional, investigacion formal con usuarios ni normativa de accesibilidad aplicable."
         }
       ],
       "quiz": [
         {
           "id": "m4-q1",
-          "question": "Pregunta 1: ¿que conviene hacer al trabajar ",
+          "question": "Que campo conviene eliminar?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "El que no es necesario para completar la tarea",
+            "El que ocupa poco lugar",
+            "El que tiene etiqueta",
+            "El que se entiende bien"
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Cada campo debe justificar su existencia."
         },
         {
           "id": "m4-q2",
-          "question": "Pregunta 2: ¿que conviene hacer al trabajar ",
+          "question": "Por que no alcanza el placeholder?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Puede desaparecer y no siempre es accesible",
+            "Ocupa demasiado espacio",
+            "Nunca se lee",
+            "Impide enviar"
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "La etiqueta persistente es mas clara."
         },
         {
           "id": "m4-q3",
-          "question": "Pregunta 3: ¿que conviene hacer al trabajar ",
+          "question": "Que mensaje de error ayuda mas?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Indica que corregir y como hacerlo",
+            "Dice 'error' sin detalle",
+            "Culpa a la persona",
+            "Oculta el campo"
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "El error debe orientar la correccion."
         },
         {
           "id": "m4-q4",
-          "question": "Pregunta 4: ¿que conviene hacer al trabajar ",
+          "question": "Que debe pasar tras enviar un formulario?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Confirmar resultado y siguiente paso",
+            "Volver arriba sin mensaje",
+            "Borrar todo sin aviso",
+            "Mostrar solo una animacion"
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "La confirmacion reduce incertidumbre."
         },
         {
           "id": "m4-q5",
-          "question": "Pregunta 5: ¿que conviene hacer al trabajar ",
+          "question": "Que mejora la accesibilidad del formulario?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Label, foco visible, contraste y mensajes asociados",
+            "Solo color rojo",
+            "Campos mas chicos",
+            "Iconos sin texto"
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "La accesibilidad necesita senales claras y estructurales."
         }
       ],
-      "professionalOutcome": "mejorar claridad, jerarquia, navegacion, accesibilidad y conversion basica. Entregable sugerido: una auditoria de pantalla con problema, impacto, solucion y prueba rapida."
+      "professionalOutcome": "Formulario revisado con etiquetas, ayudas, errores y confirmacion."
     },
     {
       "id": "m5",
-      "title": "Prototipos",
-      "description": "En este módulo vas a trabajar \"Prototipos\" dentro de diseño de interfaces simples, comprensibles y fáciles de usar. El objetivo es practicar con situaciones concretas, entender qué decisión mejora y cerrar con una evidencia simple.",
-      "learningRisk": "Punto clave",
+      "title": "Prototipo y mejora",
+      "description": "Convierte hallazgos en wireframes simples, versiones antes/despues y entregables comprensibles para desarrollo o decision.",
+      "learningRisk": "Proponer cambios sin aterrizarlos",
+      "commercialRisk": "Mejoras que no se pueden implementar ni evaluar",
       "lessons": [
         {
           "id": "m5-l1",
-          "title": "Wireframe",
-          "keyIdea": "Idea clave: Wireframe sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Wireframe\" dentro del módulo \"Prototipos\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona necesita mejorar una página, formulario o app sencilla para que sea más clara, navegable y fácil de completar. Aplicá \"Wireframe\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: una revisión UX/UI con problema detectado, evidencia, cambio propuesto y criterio de mejora.",
-          "alert": "No sacrificar legibilidad, contraste ni accesibilidad por decoracion visual.",
+          "title": "Wireframe rapido",
+          "keyIdea": "Wireframe rapido: una buena decision de UX/UI se comprueba con una tarea, una evidencia y una mejora visible.",
+          "shortTheory": "Un wireframe permite discutir estructura sin distraerse con detalles visuales finales. En UX/UI no alcanza con que una pantalla se vea prolija: tiene que orientar a una persona real, reducir dudas y dejar claro que hacer despues. Revisar wireframe rapido ayuda a separar gusto personal de criterio usable.",
+          "practicalExample": "Caso: una pagina de inscripcion tiene demasiado texto, botones parecidos y personas que no saben como avanzar. Aplicacion: revisa wireframe rapido, define la accion principal, elimina ruido y marca el siguiente paso con una prueba simple.",
+          "commonMistake": "Confundir wireframe rapido con decoracion o preferencia visual. La correccion es escribir el problema observado, explicar su impacto y proponer un cambio que otra persona pueda probar.",
+          "whatToDoNow": "Ejercicio de 25 minutos: toma una pantalla real o simulada, detecta un problema relacionado con wireframe rapido, propone una version mejorada y guarda un boceto de pantalla con zonas principales.",
+          "alert": "No sacrificar legibilidad, contraste, accesibilidad ni claridad por una solucion visual llamativa.",
           "keyPoints": [
-            "Wireframe debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: una revisión UX/UI con problema detectado, evidencia, cambio propuesto y criterio de mejora.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Definir la tarea principal antes de redisenar.",
+            "Separar problema, evidencia, propuesta y criterio de exito.",
+            "Probar el cambio con una persona o con una tarea concreta.",
+            "Priorizar claridad y accesibilidad antes que ornamentacion."
           ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza revision profesional, investigacion formal con usuarios ni normativa de accesibilidad aplicable."
         },
         {
           "id": "m5-l2",
-          "title": "Baja fidelidad",
-          "keyIdea": "Idea clave: Baja fidelidad sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Baja fidelidad\" dentro del módulo \"Prototipos\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona necesita mejorar una página, formulario o app sencilla para que sea más clara, navegable y fácil de completar. Aplicá \"Baja fidelidad\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: una revisión UX/UI con problema detectado, evidencia, cambio propuesto y criterio de mejora.",
-          "alert": "No sacrificar legibilidad, contraste ni accesibilidad por decoracion visual.",
+          "title": "Flujo principal",
+          "keyIdea": "Flujo principal: una buena decision de UX/UI se comprueba con una tarea, una evidencia y una mejora visible.",
+          "shortTheory": "El flujo muestra el camino completo de la tarea, no solo una pantalla aislada. En UX/UI no alcanza con que una pantalla se vea prolija: tiene que orientar a una persona real, reducir dudas y dejar claro que hacer despues. Revisar flujo principal ayuda a separar gusto personal de criterio usable.",
+          "practicalExample": "Caso: una pagina de inscripcion tiene demasiado texto, botones parecidos y personas que no saben como avanzar. Aplicacion: revisa flujo principal, define la accion principal, elimina ruido y marca el siguiente paso con una prueba simple.",
+          "commonMistake": "Confundir flujo principal con decoracion o preferencia visual. La correccion es escribir el problema observado, explicar su impacto y proponer un cambio que otra persona pueda probar.",
+          "whatToDoNow": "Ejercicio de 25 minutos: toma una pantalla real o simulada, detecta un problema relacionado con flujo principal, propone una version mejorada y guarda un flujo de 3 a 5 pasos.",
+          "alert": "No sacrificar legibilidad, contraste, accesibilidad ni claridad por una solucion visual llamativa.",
           "keyPoints": [
-            "Baja fidelidad debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: una revisión UX/UI con problema detectado, evidencia, cambio propuesto y criterio de mejora.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Definir la tarea principal antes de redisenar.",
+            "Separar problema, evidencia, propuesta y criterio de exito.",
+            "Probar el cambio con una persona o con una tarea concreta.",
+            "Priorizar claridad y accesibilidad antes que ornamentacion."
           ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza revision profesional, investigacion formal con usuarios ni normativa de accesibilidad aplicable."
         },
         {
           "id": "m5-l3",
-          "title": "Flujo clicable",
-          "keyIdea": "Idea clave: Flujo clicable sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Flujo clicable\" dentro del módulo \"Prototipos\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona necesita mejorar una página, formulario o app sencilla para que sea más clara, navegable y fácil de completar. Aplicá \"Flujo clicable\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: una revisión UX/UI con problema detectado, evidencia, cambio propuesto y criterio de mejora.",
-          "alert": "No sacrificar legibilidad, contraste ni accesibilidad por decoracion visual.",
+          "title": "Antes y despues",
+          "keyIdea": "Antes y despues: una buena decision de UX/UI se comprueba con una tarea, una evidencia y una mejora visible.",
+          "shortTheory": "La comparacion hace visible que problema se corrigio y que se mantiene. En UX/UI no alcanza con que una pantalla se vea prolija: tiene que orientar a una persona real, reducir dudas y dejar claro que hacer despues. Revisar antes y despues ayuda a separar gusto personal de criterio usable.",
+          "practicalExample": "Caso: una pagina de inscripcion tiene demasiado texto, botones parecidos y personas que no saben como avanzar. Aplicacion: revisa antes y despues, define la accion principal, elimina ruido y marca el siguiente paso con una prueba simple.",
+          "commonMistake": "Confundir antes y despues con decoracion o preferencia visual. La correccion es escribir el problema observado, explicar su impacto y proponer un cambio que otra persona pueda probar.",
+          "whatToDoNow": "Ejercicio de 25 minutos: toma una pantalla real o simulada, detecta un problema relacionado con antes y despues, propone una version mejorada y guarda una tabla antes/despues con motivo.",
+          "alert": "No sacrificar legibilidad, contraste, accesibilidad ni claridad por una solucion visual llamativa.",
           "keyPoints": [
-            "Flujo clicable debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: una revisión UX/UI con problema detectado, evidencia, cambio propuesto y criterio de mejora.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Definir la tarea principal antes de redisenar.",
+            "Separar problema, evidencia, propuesta y criterio de exito.",
+            "Probar el cambio con una persona o con una tarea concreta.",
+            "Priorizar claridad y accesibilidad antes que ornamentacion."
           ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza revision profesional, investigacion formal con usuarios ni normativa de accesibilidad aplicable."
         },
         {
           "id": "m5-l4",
-          "title": "Versiones",
-          "keyIdea": "Idea clave: Versiones sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Versiones\" dentro del módulo \"Prototipos\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona necesita mejorar una página, formulario o app sencilla para que sea más clara, navegable y fácil de completar. Aplicá \"Versiones\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: una revisión UX/UI con problema detectado, evidencia, cambio propuesto y criterio de mejora.",
-          "alert": "No sacrificar legibilidad, contraste ni accesibilidad por decoracion visual.",
+          "title": "Priorizacion",
+          "keyIdea": "Priorizacion: una buena decision de UX/UI se comprueba con una tarea, una evidencia y una mejora visible.",
+          "shortTheory": "No todo se corrige a la vez: impacto y esfuerzo ayudan a elegir. En UX/UI no alcanza con que una pantalla se vea prolija: tiene que orientar a una persona real, reducir dudas y dejar claro que hacer despues. Revisar priorizacion ayuda a separar gusto personal de criterio usable.",
+          "practicalExample": "Caso: una pagina de inscripcion tiene demasiado texto, botones parecidos y personas que no saben como avanzar. Aplicacion: revisa priorizacion, define la accion principal, elimina ruido y marca el siguiente paso con una prueba simple.",
+          "commonMistake": "Confundir priorizacion con decoracion o preferencia visual. La correccion es escribir el problema observado, explicar su impacto y proponer un cambio que otra persona pueda probar.",
+          "whatToDoNow": "Ejercicio de 25 minutos: toma una pantalla real o simulada, detecta un problema relacionado con priorizacion, propone una version mejorada y guarda una matriz impacto/esfuerzo con tres mejoras.",
+          "alert": "No sacrificar legibilidad, contraste, accesibilidad ni claridad por una solucion visual llamativa.",
           "keyPoints": [
-            "Versiones debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: una revisión UX/UI con problema detectado, evidencia, cambio propuesto y criterio de mejora.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Definir la tarea principal antes de redisenar.",
+            "Separar problema, evidencia, propuesta y criterio de exito.",
+            "Probar el cambio con una persona o con una tarea concreta.",
+            "Priorizar claridad y accesibilidad antes que ornamentacion."
           ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza revision profesional, investigacion formal con usuarios ni normativa de accesibilidad aplicable."
         },
         {
           "id": "m5-l5",
-          "title": "Feedback",
-          "keyIdea": "Idea clave: Feedback sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Feedback\" dentro del módulo \"Prototipos\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona necesita mejorar una página, formulario o app sencilla para que sea más clara, navegable y fácil de completar. Aplicá \"Feedback\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: una revisión UX/UI con problema detectado, evidencia, cambio propuesto y criterio de mejora.",
-          "alert": "No sacrificar legibilidad, contraste ni accesibilidad por decoracion visual.",
+          "title": "Entrega para desarrollo",
+          "keyIdea": "Entrega para desarrollo: una buena decision de UX/UI se comprueba con una tarea, una evidencia y una mejora visible.",
+          "shortTheory": "Una propuesta util dice comportamiento, estados, textos y restricciones. En UX/UI no alcanza con que una pantalla se vea prolija: tiene que orientar a una persona real, reducir dudas y dejar claro que hacer despues. Revisar entrega para desarrollo ayuda a separar gusto personal de criterio usable.",
+          "practicalExample": "Caso: una pagina de inscripcion tiene demasiado texto, botones parecidos y personas que no saben como avanzar. Aplicacion: revisa entrega para desarrollo, define la accion principal, elimina ruido y marca el siguiente paso con una prueba simple.",
+          "commonMistake": "Confundir entrega para desarrollo con decoracion o preferencia visual. La correccion es escribir el problema observado, explicar su impacto y proponer un cambio que otra persona pueda probar.",
+          "whatToDoNow": "Ejercicio de 25 minutos: toma una pantalla real o simulada, detecta un problema relacionado con entrega para desarrollo, propone una version mejorada y guarda una mini especificacion para implementar.",
+          "alert": "No sacrificar legibilidad, contraste, accesibilidad ni claridad por una solucion visual llamativa.",
           "keyPoints": [
-            "Feedback debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: una revisión UX/UI con problema detectado, evidencia, cambio propuesto y criterio de mejora.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Definir la tarea principal antes de redisenar.",
+            "Separar problema, evidencia, propuesta y criterio de exito.",
+            "Probar el cambio con una persona o con una tarea concreta.",
+            "Priorizar claridad y accesibilidad antes que ornamentacion."
           ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza revision profesional, investigacion formal con usuarios ni normativa de accesibilidad aplicable."
         },
         {
           "id": "m5-l6",
-          "title": "Iteracion",
-          "keyIdea": "Idea clave: Iteracion sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Iteracion\" dentro del módulo \"Prototipos\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona necesita mejorar una página, formulario o app sencilla para que sea más clara, navegable y fácil de completar. Aplicá \"Iteracion\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: una revisión UX/UI con problema detectado, evidencia, cambio propuesto y criterio de mejora.",
-          "alert": "No sacrificar legibilidad, contraste ni accesibilidad por decoracion visual.",
+          "title": "Revision con otra persona",
+          "keyIdea": "Revision con otra persona: una buena decision de UX/UI se comprueba con una tarea, una evidencia y una mejora visible.",
+          "shortTheory": "Una mirada externa detecta dudas que el disenador ya no ve. En UX/UI no alcanza con que una pantalla se vea prolija: tiene que orientar a una persona real, reducir dudas y dejar claro que hacer despues. Revisar revision con otra persona ayuda a separar gusto personal de criterio usable.",
+          "practicalExample": "Caso: una pagina de inscripcion tiene demasiado texto, botones parecidos y personas que no saben como avanzar. Aplicacion: revisa revision con otra persona, define la accion principal, elimina ruido y marca el siguiente paso con una prueba simple.",
+          "commonMistake": "Confundir revision con otra persona con decoracion o preferencia visual. La correccion es escribir el problema observado, explicar su impacto y proponer un cambio que otra persona pueda probar.",
+          "whatToDoNow": "Ejercicio de 25 minutos: toma una pantalla real o simulada, detecta un problema relacionado con revision con otra persona, propone una version mejorada y guarda notas de revision con hallazgos y ajustes.",
+          "alert": "No sacrificar legibilidad, contraste, accesibilidad ni claridad por una solucion visual llamativa.",
           "keyPoints": [
-            "Iteracion debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: una revisión UX/UI con problema detectado, evidencia, cambio propuesto y criterio de mejora.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Definir la tarea principal antes de redisenar.",
+            "Separar problema, evidencia, propuesta y criterio de exito.",
+            "Probar el cambio con una persona o con una tarea concreta.",
+            "Priorizar claridad y accesibilidad antes que ornamentacion."
           ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza revision profesional, investigacion formal con usuarios ni normativa de accesibilidad aplicable."
         }
       ],
       "quiz": [
         {
           "id": "m5-q1",
-          "question": "Pregunta 1: ¿que conviene hacer al trabajar ",
+          "question": "Para que sirve un wireframe?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Discutir estructura y flujo sin distraerse con estilos finales",
+            "Reemplazar pruebas",
+            "Decidir colores definitivos",
+            "Ocultar problemas"
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "El wireframe baja la idea a estructura."
         },
         {
           "id": "m5-q2",
-          "question": "Pregunta 2: ¿que conviene hacer al trabajar ",
+          "question": "Que muestra un flujo principal?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Pasos necesarios para completar una tarea",
+            "Solo una pantalla linda",
+            "La paleta de colores",
+            "El nombre de archivos"
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "UX se entiende en secuencia."
         },
         {
           "id": "m5-q3",
-          "question": "Pregunta 3: ¿que conviene hacer al trabajar ",
+          "question": "Como priorizar mejoras?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Comparando impacto para usuarios y esfuerzo de implementacion",
+            "Por gusto personal",
+            "Por orden alfabetico",
+            "Por la animacion mas atractiva"
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Impacto y esfuerzo ayudan a decidir."
         },
         {
           "id": "m5-q4",
-          "question": "Pregunta 4: ¿que conviene hacer al trabajar ",
+          "question": "Que debe incluir una entrega para desarrollo?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Comportamiento, estados, textos y restricciones",
+            "Solo una captura",
+            "Una opinion general",
+            "Un enlace sin contexto"
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Desarrollo necesita detalles accionables."
         },
         {
           "id": "m5-q5",
-          "question": "Pregunta 5: ¿que conviene hacer al trabajar ",
+          "question": "Por que revisar con otra persona?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Detecta dudas que el autor ya no percibe",
+            "Evita documentar",
+            "Hace innecesaria la accesibilidad",
+            "Garantiza conversion"
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "La revision externa mejora claridad."
         }
       ],
-      "professionalOutcome": "mejorar claridad, jerarquia, navegacion, accesibilidad y conversion basica. Entregable sugerido: una auditoria de pantalla con problema, impacto, solucion y prueba rapida."
+      "professionalOutcome": "Prototipo simple con flujo, prioridad y especificacion minima."
     },
     {
       "id": "m6",
-      "title": "Pruebas simples",
-      "description": "En este módulo vas a trabajar \"Pruebas simples\" dentro de diseño de interfaces simples, comprensibles y fáciles de usar. El objetivo es practicar con situaciones concretas, entender qué decisión mejora y cerrar con una evidencia simple.",
-      "learningRisk": "Punto clave",
+      "title": "Pruebas simples y cierre",
+      "description": "Ejecuta pruebas livianas, registra hallazgos, prioriza mejoras y cierra una auditoria UX/UI basica.",
+      "learningRisk": "No comprobar si la mejora funciona",
+      "commercialRisk": "Publicar cambios que no resuelven el problema",
       "lessons": [
         {
           "id": "m6-l1",
           "title": "Tareas de prueba",
-          "keyIdea": "Idea clave: Tareas de prueba sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Tareas de prueba\" dentro del módulo \"Pruebas simples\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona necesita mejorar una página, formulario o app sencilla para que sea más clara, navegable y fácil de completar. Aplicá \"Tareas de prueba\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: una revisión UX/UI con problema detectado, evidencia, cambio propuesto y criterio de mejora.",
-          "alert": "No sacrificar legibilidad, contraste ni accesibilidad por decoracion visual.",
+          "keyIdea": "Tareas de prueba: una buena decision de UX/UI se comprueba con una tarea, una evidencia y una mejora visible.",
+          "shortTheory": "La prueba empieza con una consigna simple que la persona pueda intentar sin ayuda. En UX/UI no alcanza con que una pantalla se vea prolija: tiene que orientar a una persona real, reducir dudas y dejar claro que hacer despues. Revisar tareas de prueba ayuda a separar gusto personal de criterio usable.",
+          "practicalExample": "Caso: una pagina de inscripcion tiene demasiado texto, botones parecidos y personas que no saben como avanzar. Aplicacion: revisa tareas de prueba, define la accion principal, elimina ruido y marca el siguiente paso con una prueba simple.",
+          "commonMistake": "Confundir tareas de prueba con decoracion o preferencia visual. La correccion es escribir el problema observado, explicar su impacto y proponer un cambio que otra persona pueda probar.",
+          "whatToDoNow": "Ejercicio de 25 minutos: toma una pantalla real o simulada, detecta un problema relacionado con tareas de prueba, propone una version mejorada y guarda tres tareas de prueba escritas.",
+          "alert": "No sacrificar legibilidad, contraste, accesibilidad ni claridad por una solucion visual llamativa.",
           "keyPoints": [
-            "Tareas de prueba debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: una revisión UX/UI con problema detectado, evidencia, cambio propuesto y criterio de mejora.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Definir la tarea principal antes de redisenar.",
+            "Separar problema, evidencia, propuesta y criterio de exito.",
+            "Probar el cambio con una persona o con una tarea concreta.",
+            "Priorizar claridad y accesibilidad antes que ornamentacion."
           ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza revision profesional, investigacion formal con usuarios ni normativa de accesibilidad aplicable."
         },
         {
           "id": "m6-l2",
           "title": "Observacion",
-          "keyIdea": "Idea clave: Observacion sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Observacion\" dentro del módulo \"Pruebas simples\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona necesita mejorar una página, formulario o app sencilla para que sea más clara, navegable y fácil de completar. Aplicá \"Observacion\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: una revisión UX/UI con problema detectado, evidencia, cambio propuesto y criterio de mejora.",
-          "alert": "No sacrificar legibilidad, contraste ni accesibilidad por decoracion visual.",
+          "keyIdea": "Observacion: una buena decision de UX/UI se comprueba con una tarea, una evidencia y una mejora visible.",
+          "shortTheory": "Observar no es explicar: se registra donde duda, se detiene o se equivoca. En UX/UI no alcanza con que una pantalla se vea prolija: tiene que orientar a una persona real, reducir dudas y dejar claro que hacer despues. Revisar observacion ayuda a separar gusto personal de criterio usable.",
+          "practicalExample": "Caso: una pagina de inscripcion tiene demasiado texto, botones parecidos y personas que no saben como avanzar. Aplicacion: revisa observacion, define la accion principal, elimina ruido y marca el siguiente paso con una prueba simple.",
+          "commonMistake": "Confundir observacion con decoracion o preferencia visual. La correccion es escribir el problema observado, explicar su impacto y proponer un cambio que otra persona pueda probar.",
+          "whatToDoNow": "Ejercicio de 25 minutos: toma una pantalla real o simulada, detecta un problema relacionado con observacion, propone una version mejorada y guarda notas de observacion sin interpretar de mas.",
+          "alert": "No sacrificar legibilidad, contraste, accesibilidad ni claridad por una solucion visual llamativa.",
           "keyPoints": [
-            "Observacion debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: una revisión UX/UI con problema detectado, evidencia, cambio propuesto y criterio de mejora.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Definir la tarea principal antes de redisenar.",
+            "Separar problema, evidencia, propuesta y criterio de exito.",
+            "Probar el cambio con una persona o con una tarea concreta.",
+            "Priorizar claridad y accesibilidad antes que ornamentacion."
           ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza revision profesional, investigacion formal con usuarios ni normativa de accesibilidad aplicable."
         },
         {
           "id": "m6-l3",
-          "title": "Preguntas",
-          "keyIdea": "Idea clave: Preguntas sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Preguntas\" dentro del módulo \"Pruebas simples\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona necesita mejorar una página, formulario o app sencilla para que sea más clara, navegable y fácil de completar. Aplicá \"Preguntas\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: una revisión UX/UI con problema detectado, evidencia, cambio propuesto y criterio de mejora.",
-          "alert": "No sacrificar legibilidad, contraste ni accesibilidad por decoracion visual.",
+          "title": "Preguntas utiles",
+          "keyIdea": "Preguntas utiles: una buena decision de UX/UI se comprueba con una tarea, una evidencia y una mejora visible.",
+          "shortTheory": "Las preguntas abiertas revelan que entendio la persona y que esperaba encontrar. En UX/UI no alcanza con que una pantalla se vea prolija: tiene que orientar a una persona real, reducir dudas y dejar claro que hacer despues. Revisar preguntas utiles ayuda a separar gusto personal de criterio usable.",
+          "practicalExample": "Caso: una pagina de inscripcion tiene demasiado texto, botones parecidos y personas que no saben como avanzar. Aplicacion: revisa preguntas utiles, define la accion principal, elimina ruido y marca el siguiente paso con una prueba simple.",
+          "commonMistake": "Confundir preguntas utiles con decoracion o preferencia visual. La correccion es escribir el problema observado, explicar su impacto y proponer un cambio que otra persona pueda probar.",
+          "whatToDoNow": "Ejercicio de 25 minutos: toma una pantalla real o simulada, detecta un problema relacionado con preguntas utiles, propone una version mejorada y guarda cinco preguntas de cierre.",
+          "alert": "No sacrificar legibilidad, contraste, accesibilidad ni claridad por una solucion visual llamativa.",
           "keyPoints": [
-            "Preguntas debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: una revisión UX/UI con problema detectado, evidencia, cambio propuesto y criterio de mejora.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Definir la tarea principal antes de redisenar.",
+            "Separar problema, evidencia, propuesta y criterio de exito.",
+            "Probar el cambio con una persona o con una tarea concreta.",
+            "Priorizar claridad y accesibilidad antes que ornamentacion."
           ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza revision profesional, investigacion formal con usuarios ni normativa de accesibilidad aplicable."
         },
         {
           "id": "m6-l4",
-          "title": "Problemas frecuentes",
-          "keyIdea": "Idea clave: Problemas frecuentes sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Problemas frecuentes\" dentro del módulo \"Pruebas simples\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona necesita mejorar una página, formulario o app sencilla para que sea más clara, navegable y fácil de completar. Aplicá \"Problemas frecuentes\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: una revisión UX/UI con problema detectado, evidencia, cambio propuesto y criterio de mejora.",
-          "alert": "No sacrificar legibilidad, contraste ni accesibilidad por decoracion visual.",
+          "title": "Medicion basica",
+          "keyIdea": "Medicion basica: una buena decision de UX/UI se comprueba con una tarea, una evidencia y una mejora visible.",
+          "shortTheory": "Tiempo, errores, dudas y tarea completada alcanzan para una prueba inicial. En UX/UI no alcanza con que una pantalla se vea prolija: tiene que orientar a una persona real, reducir dudas y dejar claro que hacer despues. Revisar medicion basica ayuda a separar gusto personal de criterio usable.",
+          "practicalExample": "Caso: una pagina de inscripcion tiene demasiado texto, botones parecidos y personas que no saben como avanzar. Aplicacion: revisa medicion basica, define la accion principal, elimina ruido y marca el siguiente paso con una prueba simple.",
+          "commonMistake": "Confundir medicion basica con decoracion o preferencia visual. La correccion es escribir el problema observado, explicar su impacto y proponer un cambio que otra persona pueda probar.",
+          "whatToDoNow": "Ejercicio de 25 minutos: toma una pantalla real o simulada, detecta un problema relacionado con medicion basica, propone una version mejorada y guarda una tabla con metricas simples.",
+          "alert": "No sacrificar legibilidad, contraste, accesibilidad ni claridad por una solucion visual llamativa.",
           "keyPoints": [
-            "Problemas frecuentes debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: una revisión UX/UI con problema detectado, evidencia, cambio propuesto y criterio de mejora.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Definir la tarea principal antes de redisenar.",
+            "Separar problema, evidencia, propuesta y criterio de exito.",
+            "Probar el cambio con una persona o con una tarea concreta.",
+            "Priorizar claridad y accesibilidad antes que ornamentacion."
           ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza revision profesional, investigacion formal con usuarios ni normativa de accesibilidad aplicable."
         },
         {
           "id": "m6-l5",
-          "title": "Priorizar mejoras",
-          "keyIdea": "Idea clave: Priorizar mejoras sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Priorizar mejoras\" dentro del módulo \"Pruebas simples\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona necesita mejorar una página, formulario o app sencilla para que sea más clara, navegable y fácil de completar. Aplicá \"Priorizar mejoras\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: una revisión UX/UI con problema detectado, evidencia, cambio propuesto y criterio de mejora.",
-          "alert": "No sacrificar legibilidad, contraste ni accesibilidad por decoracion visual.",
+          "title": "Priorizar hallazgos",
+          "keyIdea": "Priorizar hallazgos: una buena decision de UX/UI se comprueba con una tarea, una evidencia y una mejora visible.",
+          "shortTheory": "Un hallazgo critico bloquea la tarea; uno menor solo molesta o ralentiza. En UX/UI no alcanza con que una pantalla se vea prolija: tiene que orientar a una persona real, reducir dudas y dejar claro que hacer despues. Revisar priorizar hallazgos ayuda a separar gusto personal de criterio usable.",
+          "practicalExample": "Caso: una pagina de inscripcion tiene demasiado texto, botones parecidos y personas que no saben como avanzar. Aplicacion: revisa priorizar hallazgos, define la accion principal, elimina ruido y marca el siguiente paso con una prueba simple.",
+          "commonMistake": "Confundir priorizar hallazgos con decoracion o preferencia visual. La correccion es escribir el problema observado, explicar su impacto y proponer un cambio que otra persona pueda probar.",
+          "whatToDoNow": "Ejercicio de 25 minutos: toma una pantalla real o simulada, detecta un problema relacionado con priorizar hallazgos, propone una version mejorada y guarda hallazgos clasificados por severidad.",
+          "alert": "No sacrificar legibilidad, contraste, accesibilidad ni claridad por una solucion visual llamativa.",
           "keyPoints": [
-            "Priorizar mejoras debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: una revisión UX/UI con problema detectado, evidencia, cambio propuesto y criterio de mejora.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Definir la tarea principal antes de redisenar.",
+            "Separar problema, evidencia, propuesta y criterio de exito.",
+            "Probar el cambio con una persona o con una tarea concreta.",
+            "Priorizar claridad y accesibilidad antes que ornamentacion."
           ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza revision profesional, investigacion formal con usuarios ni normativa de accesibilidad aplicable."
         },
         {
           "id": "m6-l6",
-          "title": "Checklist final",
-          "keyIdea": "Idea clave: Checklist final sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Checklist final\" dentro del módulo \"Pruebas simples\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona necesita mejorar una página, formulario o app sencilla para que sea más clara, navegable y fácil de completar. Aplicá \"Checklist final\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: una revisión UX/UI con problema detectado, evidencia, cambio propuesto y criterio de mejora.",
-          "alert": "No sacrificar legibilidad, contraste ni accesibilidad por decoracion visual.",
+          "title": "Informe final",
+          "keyIdea": "Informe final: una buena decision de UX/UI se comprueba con una tarea, una evidencia y una mejora visible.",
+          "shortTheory": "El cierre debe permitir tomar decisiones: problema, evidencia, impacto, propuesta y proximo paso. En UX/UI no alcanza con que una pantalla se vea prolija: tiene que orientar a una persona real, reducir dudas y dejar claro que hacer despues. Revisar informe final ayuda a separar gusto personal de criterio usable.",
+          "practicalExample": "Caso: una pagina de inscripcion tiene demasiado texto, botones parecidos y personas que no saben como avanzar. Aplicacion: revisa informe final, define la accion principal, elimina ruido y marca el siguiente paso con una prueba simple.",
+          "commonMistake": "Confundir informe final con decoracion o preferencia visual. La correccion es escribir el problema observado, explicar su impacto y proponer un cambio que otra persona pueda probar.",
+          "whatToDoNow": "Ejercicio de 25 minutos: toma una pantalla real o simulada, detecta un problema relacionado con informe final, propone una version mejorada y guarda un informe UX/UI de una pagina.",
+          "alert": "No sacrificar legibilidad, contraste, accesibilidad ni claridad por una solucion visual llamativa.",
           "keyPoints": [
-            "Checklist final debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: una revisión UX/UI con problema detectado, evidencia, cambio propuesto y criterio de mejora.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Definir la tarea principal antes de redisenar.",
+            "Separar problema, evidencia, propuesta y criterio de exito.",
+            "Probar el cambio con una persona o con una tarea concreta.",
+            "Priorizar claridad y accesibilidad antes que ornamentacion."
           ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza revision profesional, investigacion formal con usuarios ni normativa de accesibilidad aplicable."
         }
       ],
       "quiz": [
         {
           "id": "m6-q1",
-          "question": "Pregunta 1: ¿que conviene hacer al trabajar ",
+          "question": "Que tarea de prueba esta mejor escrita?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Encuentra un curso y abre la primera leccion",
+            "Mira si te gusta la pagina",
+            "Explora un rato",
+            "Decime algo"
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Una tarea clara permite observar comportamiento."
         },
         {
           "id": "m6-q2",
-          "question": "Pregunta 2: ¿que conviene hacer al trabajar ",
+          "question": "Que conviene observar?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Dudas, errores, bloqueos y comentarios espontaneos",
+            "Solo si sonrie",
+            "Solo el tiempo total",
+            "Nada, alcanza con opinar"
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "La observacion registra friccion real."
         },
         {
           "id": "m6-q3",
-          "question": "Pregunta 3: ¿que conviene hacer al trabajar ",
+          "question": "Que pregunta de cierre aporta mas?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Que esperabas encontrar en este paso?",
+            "Te gusta el color?",
+            "Queres terminar?",
+            "Esta perfecto, no?"
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Las preguntas abiertas evitan inducir respuesta."
         },
         {
           "id": "m6-q4",
-          "question": "Pregunta 4: ¿que conviene hacer al trabajar ",
+          "question": "Que hallazgo es critico?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "El que impide completar la tarea principal",
+            "El que cambia un detalle estetico",
+            "El que solo afecta un icono decorativo",
+            "El que tarda un segundo"
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "La severidad depende del impacto en la tarea."
         },
         {
           "id": "m6-q5",
-          "question": "Pregunta 5: ¿que conviene hacer al trabajar ",
+          "question": "Que debe incluir el informe final?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Problema, evidencia, impacto, propuesta y proximo paso",
+            "Solo capturas lindas",
+            "Solo una lista de colores",
+            "Solo opiniones"
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "El informe debe permitir decidir."
         }
       ],
-      "professionalOutcome": "mejorar claridad, jerarquia, navegacion, accesibilidad y conversion basica. Entregable sugerido: una auditoria de pantalla con problema, impacto, solucion y prueba rapida."
+      "professionalOutcome": "Informe UX/UI basico con hallazgos priorizados y mejoras verificables."
     }
   ],
   "appName": "UX/UI Basico para Sitios y Apps",
   "professionalization": {
-    "tier": "curso-bandera-v1.0-beta",
-    "updatedAt": "2026-05-28",
-    "focus": "Profundizacion visible de lecciones, practicas, checklists y casos."
+    "tier": "curso-reforzado-v1.0-beta",
+    "updatedAt": "2026-06-04",
+    "focus": "Contenido especifico de UX/UI, navegacion, formularios, prototipos y pruebas simples."
   },
   "editorialPolish": {
-    "firstFeaturedBatch": "2026-06-01",
-    "status": "public-facing-copy-polished"
+    "usabilityPass": "2026-06-04",
+    "status": "content-specific-copy-reinforced"
   }
 }

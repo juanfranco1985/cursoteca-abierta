@@ -2,440 +2,440 @@
   "incidents": [
     {
       "id": "case-1",
-      "title": "Caso inicial controlado: UX/UI Basico para Sitios y Apps",
-      "summary": "Practica aplicada para resolver una situacion de diseno de interfaces simples, comprensibles y faciles de usar con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una pantalla revisada con criterios UX/UI sin exponer datos sensibles y con una decision verificable.",
+      "title": "El usuario no encuentra como volver al inicio",
+      "summary": "La persona avanza en un curso o flujo y depende del boton atras del navegador para regresar.",
+      "severity": "Practica guiada",
+      "immediateGoal": "Detectar la friccion principal, proponer una mejora pequena y comprobarla con una tarea concreta.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una pantalla revisada con criterios UX/UI.",
-        "Revisar el resultado contra este criterio: la pantalla permite entender accion principal, contenido y siguiente paso.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Describir la tarea que la persona intenta completar.",
+        "Registrar donde se pierde, duda, se equivoca o abandona.",
+        "Identificar si el problema es de contenido, navegacion, jerarquia, formulario o estado.",
+        "Proponer un cambio minimo que reduzca la friccion.",
+        "Probar la mejora con una tarea simple.",
+        "Guardar evidencia antes/despues y proximo paso."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "captura antes/despues, lista de problemas, prioridad y decision de diseno",
-        "Decision final y motivo"
+        "Captura o descripcion de la version inicial",
+        "Problema observado",
+        "Impacto sobre la tarea",
+        "Propuesta de mejora",
+        "Resultado de la prueba simple"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Resolver solo con decoracion visual.",
+        "Agregar mas texto sin mejorar la decision.",
+        "Ocultar el camino de regreso al inicio.",
+        "Usar datos personales reales en practicas.",
+        "No definir criterio de exito."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
-        "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Priorizar hallazgos por impacto.",
+        "Separar cambios rapidos de cambios estructurales.",
+        "Documentar la decision para otra persona.",
+        "Programar una segunda prueba si el cambio afecta una tarea critica."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que accion muestra mejor criterio UX/UI?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Corregir la friccion principal, dejar salida clara y probar la tarea.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: una mejora UX debe reducir dudas y comprobarse."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Agregar mas efectos visuales sin cambiar el flujo.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La estetica puede ayudar, pero no reemplaza navegacion, claridad y prueba."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Mantener el problema porque el usuario puede usar el boton atras.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Depender del boton atras es una senal de navegacion incompleta."
           }
         ]
       }
     },
     {
       "id": "case-2",
-      "title": "Caso con datos incompletos: UX/UI Basico para Sitios y Apps",
-      "summary": "Practica aplicada para resolver una situacion de diseno de interfaces simples, comprensibles y faciles de usar con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una pantalla revisada con criterios UX/UI sin exponer datos sensibles y con una decision verificable.",
+      "title": "Formulario de inscripcion confuso",
+      "summary": "La persona no sabe que campos son obligatorios ni que ocurrira al enviar.",
+      "severity": "Practica guiada",
+      "immediateGoal": "Detectar la friccion principal, proponer una mejora pequena y comprobarla con una tarea concreta.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una pantalla revisada con criterios UX/UI.",
-        "Revisar el resultado contra este criterio: la pantalla permite entender accion principal, contenido y siguiente paso.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Describir la tarea que la persona intenta completar.",
+        "Registrar donde se pierde, duda, se equivoca o abandona.",
+        "Identificar si el problema es de contenido, navegacion, jerarquia, formulario o estado.",
+        "Proponer un cambio minimo que reduzca la friccion.",
+        "Probar la mejora con una tarea simple.",
+        "Guardar evidencia antes/despues y proximo paso."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "captura antes/despues, lista de problemas, prioridad y decision de diseno",
-        "Decision final y motivo"
+        "Captura o descripcion de la version inicial",
+        "Problema observado",
+        "Impacto sobre la tarea",
+        "Propuesta de mejora",
+        "Resultado de la prueba simple"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Resolver solo con decoracion visual.",
+        "Agregar mas texto sin mejorar la decision.",
+        "Ocultar el camino de regreso al inicio.",
+        "Usar datos personales reales en practicas.",
+        "No definir criterio de exito."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
-        "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Priorizar hallazgos por impacto.",
+        "Separar cambios rapidos de cambios estructurales.",
+        "Documentar la decision para otra persona.",
+        "Programar una segunda prueba si el cambio afecta una tarea critica."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que accion muestra mejor criterio UX/UI?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Corregir la friccion principal, dejar salida clara y probar la tarea.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: una mejora UX debe reducir dudas y comprobarse."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Agregar mas efectos visuales sin cambiar el flujo.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La estetica puede ayudar, pero no reemplaza navegacion, claridad y prueba."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Mantener el problema porque el usuario puede usar el boton atras.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Depender del boton atras es una senal de navegacion incompleta."
           }
         ]
       }
     },
     {
       "id": "case-3",
-      "title": "Caso con presion de tiempo: UX/UI Basico para Sitios y Apps",
-      "summary": "Practica aplicada para resolver una situacion de diseno de interfaces simples, comprensibles y faciles de usar con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una pantalla revisada con criterios UX/UI sin exponer datos sensibles y con una decision verificable.",
+      "title": "Catalogo con demasiadas tarjetas iguales",
+      "summary": "La persona no distingue destacados, categorias ni cursos recomendados para empezar.",
+      "severity": "Practica guiada",
+      "immediateGoal": "Detectar la friccion principal, proponer una mejora pequena y comprobarla con una tarea concreta.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una pantalla revisada con criterios UX/UI.",
-        "Revisar el resultado contra este criterio: la pantalla permite entender accion principal, contenido y siguiente paso.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Describir la tarea que la persona intenta completar.",
+        "Registrar donde se pierde, duda, se equivoca o abandona.",
+        "Identificar si el problema es de contenido, navegacion, jerarquia, formulario o estado.",
+        "Proponer un cambio minimo que reduzca la friccion.",
+        "Probar la mejora con una tarea simple.",
+        "Guardar evidencia antes/despues y proximo paso."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "captura antes/despues, lista de problemas, prioridad y decision de diseno",
-        "Decision final y motivo"
+        "Captura o descripcion de la version inicial",
+        "Problema observado",
+        "Impacto sobre la tarea",
+        "Propuesta de mejora",
+        "Resultado de la prueba simple"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Resolver solo con decoracion visual.",
+        "Agregar mas texto sin mejorar la decision.",
+        "Ocultar el camino de regreso al inicio.",
+        "Usar datos personales reales en practicas.",
+        "No definir criterio de exito."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
-        "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Priorizar hallazgos por impacto.",
+        "Separar cambios rapidos de cambios estructurales.",
+        "Documentar la decision para otra persona.",
+        "Programar una segunda prueba si el cambio afecta una tarea critica."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que accion muestra mejor criterio UX/UI?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Corregir la friccion principal, dejar salida clara y probar la tarea.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: una mejora UX debe reducir dudas y comprobarse."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Agregar mas efectos visuales sin cambiar el flujo.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La estetica puede ayudar, pero no reemplaza navegacion, claridad y prueba."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Mantener el problema porque el usuario puede usar el boton atras.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Depender del boton atras es una senal de navegacion incompleta."
           }
         ]
       }
     },
     {
       "id": "case-4",
-      "title": "Caso de comunicacion con otra persona: UX/UI Basico para Sitios y Apps",
-      "summary": "Practica aplicada para resolver una situacion de diseno de interfaces simples, comprensibles y faciles de usar con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una pantalla revisada con criterios UX/UI sin exponer datos sensibles y con una decision verificable.",
+      "title": "Boton principal poco visible",
+      "summary": "La accion mas importante compite con enlaces secundarios y textos largos.",
+      "severity": "Practica guiada",
+      "immediateGoal": "Detectar la friccion principal, proponer una mejora pequena y comprobarla con una tarea concreta.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una pantalla revisada con criterios UX/UI.",
-        "Revisar el resultado contra este criterio: la pantalla permite entender accion principal, contenido y siguiente paso.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Describir la tarea que la persona intenta completar.",
+        "Registrar donde se pierde, duda, se equivoca o abandona.",
+        "Identificar si el problema es de contenido, navegacion, jerarquia, formulario o estado.",
+        "Proponer un cambio minimo que reduzca la friccion.",
+        "Probar la mejora con una tarea simple.",
+        "Guardar evidencia antes/despues y proximo paso."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "captura antes/despues, lista de problemas, prioridad y decision de diseno",
-        "Decision final y motivo"
+        "Captura o descripcion de la version inicial",
+        "Problema observado",
+        "Impacto sobre la tarea",
+        "Propuesta de mejora",
+        "Resultado de la prueba simple"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Resolver solo con decoracion visual.",
+        "Agregar mas texto sin mejorar la decision.",
+        "Ocultar el camino de regreso al inicio.",
+        "Usar datos personales reales en practicas.",
+        "No definir criterio de exito."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
-        "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Priorizar hallazgos por impacto.",
+        "Separar cambios rapidos de cambios estructurales.",
+        "Documentar la decision para otra persona.",
+        "Programar una segunda prueba si el cambio afecta una tarea critica."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que accion muestra mejor criterio UX/UI?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Corregir la friccion principal, dejar salida clara y probar la tarea.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: una mejora UX debe reducir dudas y comprobarse."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Agregar mas efectos visuales sin cambiar el flujo.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La estetica puede ayudar, pero no reemplaza navegacion, claridad y prueba."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Mantener el problema porque el usuario puede usar el boton atras.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Depender del boton atras es una senal de navegacion incompleta."
           }
         ]
       }
     },
     {
       "id": "case-5",
-      "title": "Caso de error frecuente: UX/UI Basico para Sitios y Apps",
-      "summary": "Practica aplicada para resolver una situacion de diseno de interfaces simples, comprensibles y faciles de usar con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una pantalla revisada con criterios UX/UI sin exponer datos sensibles y con una decision verificable.",
+      "title": "Pantalla movil saturada",
+      "summary": "En celular el contenido exige mucho scroll y los botones quedan lejos del contexto.",
+      "severity": "Practica guiada",
+      "immediateGoal": "Detectar la friccion principal, proponer una mejora pequena y comprobarla con una tarea concreta.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una pantalla revisada con criterios UX/UI.",
-        "Revisar el resultado contra este criterio: la pantalla permite entender accion principal, contenido y siguiente paso.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Describir la tarea que la persona intenta completar.",
+        "Registrar donde se pierde, duda, se equivoca o abandona.",
+        "Identificar si el problema es de contenido, navegacion, jerarquia, formulario o estado.",
+        "Proponer un cambio minimo que reduzca la friccion.",
+        "Probar la mejora con una tarea simple.",
+        "Guardar evidencia antes/despues y proximo paso."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "captura antes/despues, lista de problemas, prioridad y decision de diseno",
-        "Decision final y motivo"
+        "Captura o descripcion de la version inicial",
+        "Problema observado",
+        "Impacto sobre la tarea",
+        "Propuesta de mejora",
+        "Resultado de la prueba simple"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Resolver solo con decoracion visual.",
+        "Agregar mas texto sin mejorar la decision.",
+        "Ocultar el camino de regreso al inicio.",
+        "Usar datos personales reales en practicas.",
+        "No definir criterio de exito."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
-        "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Priorizar hallazgos por impacto.",
+        "Separar cambios rapidos de cambios estructurales.",
+        "Documentar la decision para otra persona.",
+        "Programar una segunda prueba si el cambio afecta una tarea critica."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que accion muestra mejor criterio UX/UI?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Corregir la friccion principal, dejar salida clara y probar la tarea.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: una mejora UX debe reducir dudas y comprobarse."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Agregar mas efectos visuales sin cambiar el flujo.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La estetica puede ayudar, pero no reemplaza navegacion, claridad y prueba."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Mantener el problema porque el usuario puede usar el boton atras.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Depender del boton atras es una senal de navegacion incompleta."
           }
         ]
       }
     },
     {
       "id": "case-6",
-      "title": "Caso de mejora de proceso: UX/UI Basico para Sitios y Apps",
-      "summary": "Practica aplicada para resolver una situacion de diseno de interfaces simples, comprensibles y faciles de usar con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una pantalla revisada con criterios UX/UI sin exponer datos sensibles y con una decision verificable.",
+      "title": "Error sin explicacion",
+      "summary": "Un estado vacio o error no dice que paso ni como resolverlo.",
+      "severity": "Practica guiada",
+      "immediateGoal": "Detectar la friccion principal, proponer una mejora pequena y comprobarla con una tarea concreta.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una pantalla revisada con criterios UX/UI.",
-        "Revisar el resultado contra este criterio: la pantalla permite entender accion principal, contenido y siguiente paso.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Describir la tarea que la persona intenta completar.",
+        "Registrar donde se pierde, duda, se equivoca o abandona.",
+        "Identificar si el problema es de contenido, navegacion, jerarquia, formulario o estado.",
+        "Proponer un cambio minimo que reduzca la friccion.",
+        "Probar la mejora con una tarea simple.",
+        "Guardar evidencia antes/despues y proximo paso."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "captura antes/despues, lista de problemas, prioridad y decision de diseno",
-        "Decision final y motivo"
+        "Captura o descripcion de la version inicial",
+        "Problema observado",
+        "Impacto sobre la tarea",
+        "Propuesta de mejora",
+        "Resultado de la prueba simple"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Resolver solo con decoracion visual.",
+        "Agregar mas texto sin mejorar la decision.",
+        "Ocultar el camino de regreso al inicio.",
+        "Usar datos personales reales en practicas.",
+        "No definir criterio de exito."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
-        "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Priorizar hallazgos por impacto.",
+        "Separar cambios rapidos de cambios estructurales.",
+        "Documentar la decision para otra persona.",
+        "Programar una segunda prueba si el cambio afecta una tarea critica."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que accion muestra mejor criterio UX/UI?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Corregir la friccion principal, dejar salida clara y probar la tarea.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: una mejora UX debe reducir dudas y comprobarse."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Agregar mas efectos visuales sin cambiar el flujo.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La estetica puede ayudar, pero no reemplaza navegacion, claridad y prueba."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Mantener el problema porque el usuario puede usar el boton atras.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Depender del boton atras es una senal de navegacion incompleta."
           }
         ]
       }
     },
     {
       "id": "case-7",
-      "title": "Caso de decision responsable: UX/UI Basico para Sitios y Apps",
-      "summary": "Practica aplicada para resolver una situacion de diseno de interfaces simples, comprensibles y faciles de usar con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una pantalla revisada con criterios UX/UI sin exponer datos sensibles y con una decision verificable.",
+      "title": "Microcopy tecnico",
+      "summary": "Los textos usan terminos internos y no explican la accion con lenguaje de usuario.",
+      "severity": "Practica guiada",
+      "immediateGoal": "Detectar la friccion principal, proponer una mejora pequena y comprobarla con una tarea concreta.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una pantalla revisada con criterios UX/UI.",
-        "Revisar el resultado contra este criterio: la pantalla permite entender accion principal, contenido y siguiente paso.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Describir la tarea que la persona intenta completar.",
+        "Registrar donde se pierde, duda, se equivoca o abandona.",
+        "Identificar si el problema es de contenido, navegacion, jerarquia, formulario o estado.",
+        "Proponer un cambio minimo que reduzca la friccion.",
+        "Probar la mejora con una tarea simple.",
+        "Guardar evidencia antes/despues y proximo paso."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "captura antes/despues, lista de problemas, prioridad y decision de diseno",
-        "Decision final y motivo"
+        "Captura o descripcion de la version inicial",
+        "Problema observado",
+        "Impacto sobre la tarea",
+        "Propuesta de mejora",
+        "Resultado de la prueba simple"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Resolver solo con decoracion visual.",
+        "Agregar mas texto sin mejorar la decision.",
+        "Ocultar el camino de regreso al inicio.",
+        "Usar datos personales reales en practicas.",
+        "No definir criterio de exito."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
-        "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Priorizar hallazgos por impacto.",
+        "Separar cambios rapidos de cambios estructurales.",
+        "Documentar la decision para otra persona.",
+        "Programar una segunda prueba si el cambio afecta una tarea critica."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que accion muestra mejor criterio UX/UI?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Corregir la friccion principal, dejar salida clara y probar la tarea.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: una mejora UX debe reducir dudas y comprobarse."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Agregar mas efectos visuales sin cambiar el flujo.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La estetica puede ayudar, pero no reemplaza navegacion, claridad y prueba."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Mantener el problema porque el usuario puede usar el boton atras.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Depender del boton atras es una senal de navegacion incompleta."
           }
         ]
       }
     },
     {
       "id": "case-8",
-      "title": "Proyecto final integrador: UX/UI Basico para Sitios y Apps",
-      "summary": "Practica aplicada para resolver una situacion de diseno de interfaces simples, comprensibles y faciles de usar con pasos claros, evidencia y criterio de cierre.",
+      "title": "Proyecto final: auditoria de una pantalla",
+      "summary": "Revision integral de una pantalla con hallazgos priorizados y propuesta de mejora.",
       "severity": "Proyecto final",
-      "immediateGoal": "Transformar el caso en una pantalla revisada con criterios UX/UI sin exponer datos sensibles y con una decision verificable.",
+      "immediateGoal": "Detectar la friccion principal, proponer una mejora pequena y comprobarla con una tarea concreta.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una pantalla revisada con criterios UX/UI.",
-        "Revisar el resultado contra este criterio: la pantalla permite entender accion principal, contenido y siguiente paso.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Describir la tarea que la persona intenta completar.",
+        "Registrar donde se pierde, duda, se equivoca o abandona.",
+        "Identificar si el problema es de contenido, navegacion, jerarquia, formulario o estado.",
+        "Proponer un cambio minimo que reduzca la friccion.",
+        "Probar la mejora con una tarea simple.",
+        "Guardar evidencia antes/despues y proximo paso."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "captura antes/despues, lista de problemas, prioridad y decision de diseno",
-        "Decision final y motivo"
+        "Captura o descripcion de la version inicial",
+        "Problema observado",
+        "Impacto sobre la tarea",
+        "Propuesta de mejora",
+        "Resultado de la prueba simple"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Resolver solo con decoracion visual.",
+        "Agregar mas texto sin mejorar la decision.",
+        "Ocultar el camino de regreso al inicio.",
+        "Usar datos personales reales en practicas.",
+        "No definir criterio de exito."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
-        "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Priorizar hallazgos por impacto.",
+        "Separar cambios rapidos de cambios estructurales.",
+        "Documentar la decision para otra persona.",
+        "Programar una segunda prueba si el cambio afecta una tarea critica."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que accion muestra mejor criterio UX/UI?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Corregir la friccion principal, dejar salida clara y probar la tarea.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: una mejora UX debe reducir dudas y comprobarse."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Agregar mas efectos visuales sin cambiar el flujo.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La estetica puede ayudar, pero no reemplaza navegacion, claridad y prueba."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Mantener el problema porque el usuario puede usar el boton atras.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Depender del boton atras es una senal de navegacion incompleta."
           }
         ]
       }

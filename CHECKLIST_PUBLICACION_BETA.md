@@ -40,11 +40,15 @@
 - [ ] Abrir los 50 cursos desde el inventario.
 - [ ] Probar al menos un modulo, una leccion y un quiz por ruta tematica.
 - [ ] Revisar vista movil.
+- [x] Agregar regreso visible al menu principal en los 50 cursos.
+- [x] Reforzar curso UX/UI Basico como primera muestra de contenido no generico.
+- [ ] Reforzar los 32 cursos detectados con patrones de contenido generico.
 
 ## Cierre v1.0
 
 - [ ] Corregir hallazgos de la revision visual.
 - [ ] Corregir hallazgos editoriales.
 - [ ] Validar o reemplazar secciones publicas finales antes de difusion masiva.
+- [ ] Cerrar auditoria de contenido generico por tandas.
 - [ ] Confirmar hosting final.
 - [ ] Congelar version final y ZIPs.

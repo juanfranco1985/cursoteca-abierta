@@ -5,10 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Cursoteca Abierta - Portal de Cursos Gratuitos</title>
   <meta name="description" content="Cursoteca Abierta: biblioteca digital de 50 cursos practicos de acceso gratuito, organizada por categorias." />
-  <link rel="stylesheet" href="styles.css?v=20260604-1900" />
+  <link rel="stylesheet" href="styles.css?v=20260604-2130" />
 </head>
 <body>
   <a class="skip-link" href="#main">Saltar al contenido principal</a>
+  <nav class="floating-menu" aria-label="Accesos rapidos">
+    <a href="#inicio">Menu</a>
+    <a href="#categorias">Estantes</a>
+    <a href="#inventario">Buscar</a>
+  </nav>
   <header class="site-header" id="inicio">
     <nav class="topbar" aria-label="Navegacion principal">
       <a class="brand" href="#inicio" aria-label="Cursoteca Abierta">
@@ -76,6 +81,35 @@
         <article><strong>8</strong><span>estantes principales</span></article>
         <article><strong>0</strong><span>pendientes</span></article>
         <article><strong>Web</strong><span>acceso directo</span></article>
+      </div>
+    </section>
+
+    <section class="quick-start" aria-labelledby="quick-start-title">
+      <div class="section-heading">
+        <div><p class="eyebrow">Empezar rapido</p><h2 id="quick-start-title">Elegir por necesidad</h2></div>
+        <p class="result-count">Atajos para no entrar al catalogo a ciegas</p>
+      </div>
+      <div class="quick-grid">
+        <a href="#categorias" class="quick-card">
+          <span>01</span>
+          <strong>Quiero orientarme</strong>
+          <small>Ver los 8 estantes y elegir una ruta.</small>
+        </a>
+        <a href="#destacados" class="quick-card">
+          <span>02</span>
+          <strong>Quiero empezar hoy</strong>
+          <small>Abrir una seleccion breve de cursos destacados.</small>
+        </a>
+        <a href="#inventario" class="quick-card">
+          <span>03</span>
+          <strong>Busco un tema puntual</strong>
+          <small>Usar buscador y filtro por categoria.</small>
+        </a>
+        <a href="../../cursos/ux_ui_basico_sitios_apps_v0_6_publica/index.html" class="quick-card">
+          <span>04</span>
+          <strong>Revisar UX/UI</strong>
+          <small>Entrar al curso reforzado de diseno y navegacion.</small>
+        </a>
       </div>
     </section>
 
@@ -167,6 +201,6 @@
     <p>Cursoteca Abierta - Biblioteca digital de cursos gratuitos.</p>
     <p>50 cursos listos para aprender, consultar y compartir.</p>
   </footer>
-  <script src="src/app.js?v=20260604-1900"></script>
+  <script src="src/app.js?v=20260604-2130"></script>
 </body>
 </html>
