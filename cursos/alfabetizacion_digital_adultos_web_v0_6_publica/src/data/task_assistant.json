@@ -1,0 +1,200 @@
+{
+  "title": "Asistente de tareas frecuentes",
+  "description": "Elegí qué necesitás hacer y el curso te recomienda una guía paso a paso, un caso guiado o un checklist práctico.",
+  "calmNotice": "No hace falta saber el nombre técnico del problema. Elegí la frase que más se parece a lo que querés hacer.",
+  "recommendationLabel": "Recomendación sugerida",
+  "copyLabel": "Copiar recomendación",
+  "printLabel": "Imprimir / guardar recomendación",
+  "tasks": [
+    {
+      "id": "tarea_enviar_foto",
+      "title": "Quiero enviar una foto por WhatsApp",
+      "category": "WhatsApp",
+      "question": "Necesito mandar una foto a un contacto o familiar.",
+      "difficulty": "Básica",
+      "recommendedType": "guide",
+      "targetId": "enviar-foto-whatsapp",
+      "why": "La guía explica cómo abrir WhatsApp, elegir el contacto, tocar el clip o la cámara y revisar antes de enviar.",
+      "firstSteps": [
+        "Abrí WhatsApp desde el ícono verde.",
+        "Buscá el contacto correcto antes de tocar enviar.",
+        "Revisá que la foto no muestre datos privados."
+      ],
+      "avoid": [
+        "Enviar fotos con documentos, claves o comprobantes sensibles.",
+        "Mandar la foto al contacto equivocado por apuro."
+      ]
+    },
+    {
+      "id": "tarea_buscar_app",
+      "title": "No encuentro una app en el celular",
+      "category": "Celular",
+      "question": "Quiero abrir una aplicación pero no la veo en la pantalla principal.",
+      "difficulty": "Básica",
+      "recommendedType": "guide",
+      "targetId": "buscar-app",
+      "why": "La guía enseña a buscar una app instalada sin borrar nada ni tocar configuraciones peligrosas.",
+      "firstSteps": [
+        "Usá el buscador del teléfono si está disponible.",
+        "Revisá el cajón de aplicaciones.",
+        "No reinstales la app antes de confirmar que no está."
+      ],
+      "avoid": [
+        "Instalar apps desde anuncios.",
+        "Borrar íconos o apps sin saber qué son."
+      ]
+    },
+    {
+      "id": "tarea_link_dudoso",
+      "title": "Me llegó un link y no sé si tocarlo",
+      "category": "Seguridad",
+      "question": "Recibí un enlace por WhatsApp, SMS, correo o red social y tengo dudas.",
+      "difficulty": "Cuidado",
+      "recommendedType": "incident",
+      "targetId": "link_dudoso",
+      "why": "El caso guiado ayuda a frenar, revisar el origen del mensaje y evitar entregar datos o instalar apps sospechosas.",
+      "firstSteps": [
+        "No abras el link si te genera duda.",
+        "No escribas claves ni códigos.",
+        "Consultá el canal oficial desde una búsqueda propia."
+      ],
+      "avoid": [
+        "Entrar por presión o miedo.",
+        "Compartir códigos de verificación."
+      ]
+    },
+    {
+      "id": "tarea_turno_online",
+      "title": "Tengo que pedir un turno online",
+      "category": "Trámites",
+      "question": "Necesito sacar un turno o completar un trámite simple en internet.",
+      "difficulty": "Media",
+      "recommendedType": "guide",
+      "targetId": "pedir-turno-online",
+      "why": "La guía ordena cómo entrar al sitio correcto, preparar datos y guardar el comprobante sin compartir claves.",
+      "firstSteps": [
+        "Entrá desde el sitio oficial, no desde un link raro.",
+        "Tené a mano solo los datos necesarios.",
+        "Guardá o sacá captura del comprobante."
+      ],
+      "avoid": [
+        "Pagar por gestores desconocidos.",
+        "Compartir contraseñas con terceros."
+      ]
+    },
+    {
+      "id": "tarea_archivo_comprobante",
+      "title": "No encuentro una descarga o comprobante",
+      "category": "Archivos",
+      "question": "Descargué algo o me mandaron un archivo y no sé dónde quedó.",
+      "difficulty": "Básica",
+      "recommendedType": "guide",
+      "targetId": "encontrar-descarga",
+      "why": "La guía muestra dónde buscar descargas y comprobantes comunes sin borrar archivos importantes.",
+      "firstSteps": [
+        "Abrí la app Archivos o Descargas.",
+        "Buscá por fecha aproximada.",
+        "No borres carpetas completas."
+      ],
+      "avoid": [
+        "Descargar varias veces el mismo archivo sin revisar.",
+        "Compartir comprobantes con datos sensibles."
+      ]
+    },
+    {
+      "id": "tarea_no_puedo_correo",
+      "title": "No puedo entrar a mi correo",
+      "category": "Cuentas",
+      "question": "El correo no abre, no recuerdo clave o aparece un aviso extraño.",
+      "difficulty": "Cuidado",
+      "recommendedType": "incident",
+      "targetId": "no_entro_correo",
+      "why": "El caso guiado ayuda a revisar recuperación, dispositivos y señales de riesgo sin entregar la clave a otra persona.",
+      "firstSteps": [
+        "No compartas la contraseña con nadie.",
+        "Usá la opción oficial de recuperar cuenta.",
+        "Revisá si el teléfono o correo de recuperación siguen siendo tuyos."
+      ],
+      "avoid": [
+        "Pedir a un desconocido que lo arregle con tu clave.",
+        "Entrar desde links recibidos por mensaje."
+      ]
+    },
+    {
+      "id": "tarea_pedir_ayuda_segura",
+      "title": "Quiero pedir ayuda sin compartir contraseñas",
+      "category": "Ayuda",
+      "question": "Necesito que alguien me ayude, pero quiero cuidar mis datos.",
+      "difficulty": "Básica",
+      "recommendedType": "guide",
+      "targetId": "pedir-ayuda-sin-claves",
+      "why": "La guía explica cómo pedir acompañamiento manteniendo el control de la pantalla, claves y códigos.",
+      "firstSteps": [
+        "Explicá el problema sin decir claves.",
+        "No dictes códigos de verificación.",
+        "Pedí que te guíen, pero tocá vos los botones."
+      ],
+      "avoid": [
+        "Dejar el celular desbloqueado con cuentas abiertas.",
+        "Enviar capturas con datos privados."
+      ]
+    },
+    {
+      "id": "tarea_letra_grande",
+      "title": "Quiero agrandar la letra o ver mejor",
+      "category": "Accesibilidad",
+      "question": "La pantalla se ve chica o me cuesta leer los pasos.",
+      "difficulty": "Básica",
+      "recommendedType": "guide",
+      "targetId": "agrandar-letra",
+      "why": "La guía muestra opciones simples para leer mejor y practicar con menos esfuerzo.",
+      "firstSteps": [
+        "Abrí el panel de accesibilidad del curso.",
+        "Probá texto grande o extra grande.",
+        "Usá alto contraste si necesitás más claridad."
+      ],
+      "avoid": [
+        "Forzar la vista con letra muy chica.",
+        "Tocar configuraciones avanzadas sin anotar qué cambiaste."
+      ]
+    },
+    {
+      "id": "tarea_aviso_raro",
+      "title": "Apareció un aviso raro en el celular",
+      "category": "Seguridad",
+      "question": "Veo publicidad, alerta o mensaje extraño y no sé qué significa.",
+      "difficulty": "Cuidado",
+      "recommendedType": "incident",
+      "targetId": "aviso_raro",
+      "why": "El caso guiado ayuda a no tocar opciones peligrosas y a revisar si puede ser publicidad, permiso o app sospechosa.",
+      "firstSteps": [
+        "No instales nada desde el aviso.",
+        "Cerrá la ventana si podés hacerlo sin aceptar permisos.",
+        "Anotá o capturá qué decía el mensaje."
+      ],
+      "avoid": [
+        "Tocar 'Aceptar' por miedo.",
+        "Llamar a números que aparecen en alertas dudosas."
+      ]
+    },
+    {
+      "id": "tarea_checklist_seguridad",
+      "title": "Quiero revisar si uso el celular de forma segura",
+      "category": "Seguridad",
+      "question": "Quiero una lista simple para revisar hábitos básicos.",
+      "difficulty": "Básica",
+      "recommendedType": "checklist",
+      "targetId": "chk_privacidad_estafas",
+      "why": "El checklist permite marcar acciones concretas sin entrar en explicaciones técnicas largas.",
+      "firstSteps": [
+        "Revisá una acción por vez.",
+        "Marcá solo lo que realmente hiciste.",
+        "Volvé luego a completar lo pendiente."
+      ],
+      "avoid": [
+        "Marcar todo sin practicar.",
+        "Compartir claves para que alguien revise por vos."
+      ]
+    }
+  ]
+}

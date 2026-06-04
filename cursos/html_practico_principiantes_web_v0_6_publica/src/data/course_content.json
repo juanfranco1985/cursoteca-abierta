@@ -1,0 +1,1050 @@
+{
+  "courseId": "html-practico-principiantes",
+  "title": "HTML Práctico para Principiantes",
+  "version": "0.6-publica",
+  "modules": [
+    {
+      "id": "m1",
+      "title": "Qué es HTML y cómo funciona una página web",
+      "description": "En este modulo vas a trabajar \"Qué es HTML y cómo funciona una página web\" dentro de HTML practico, estructura semantica, contenido, enlaces, imagenes, listas, tablas y formularios. La meta es construir una pieza pequena, probarla en navegador y dejar evidencia de que funciona para una persona real.",
+      "lessons": [
+        {
+          "id": "m1-l1",
+          "title": "Qué es HTML",
+          "keyIdea": "Idea clave: Qué es HTML sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Qué es HTML\" dentro del modulo \"Qué es HTML y cómo funciona una página web\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona necesita crear una pagina simple que se entienda, tenga contenido ordenado y pueda seguir creciendo con CSS o JavaScript. Aplica \"Qué es HTML\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una pagina HTML simple con estructura valida, contenido organizado, enlace, imagen o lista y formulario basico.",
+          "alert": "No usar HTML solo para apariencia ni publicar formularios que pidan datos sensibles sin proteccion.",
+          "keyPoints": [
+            "Qué es HTML debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una pagina HTML simple con estructura valida, contenido organizado, enlace, imagen o lista y formulario basico.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m1-l2",
+          "title": "Cómo se lee una página web",
+          "keyIdea": "Idea clave: Cómo se lee una página web sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Cómo se lee una página web\" dentro del modulo \"Qué es HTML y cómo funciona una página web\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona necesita crear una pagina simple que se entienda, tenga contenido ordenado y pueda seguir creciendo con CSS o JavaScript. Aplica \"Cómo se lee una página web\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una pagina HTML simple con estructura valida, contenido organizado, enlace, imagen o lista y formulario basico.",
+          "alert": "No usar HTML solo para apariencia ni publicar formularios que pidan datos sensibles sin proteccion.",
+          "keyPoints": [
+            "Cómo se lee una página web debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una pagina HTML simple con estructura valida, contenido organizado, enlace, imagen o lista y formulario basico.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m1-l3",
+          "title": "HTML no es programación tradicional",
+          "keyIdea": "Idea clave: HTML no es programación tradicional sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"HTML no es programación tradicional\" dentro del modulo \"Qué es HTML y cómo funciona una página web\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona necesita crear una pagina simple que se entienda, tenga contenido ordenado y pueda seguir creciendo con CSS o JavaScript. Aplica \"HTML no es programación tradicional\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una pagina HTML simple con estructura valida, contenido organizado, enlace, imagen o lista y formulario basico.",
+          "alert": "No usar HTML solo para apariencia ni publicar formularios que pidan datos sensibles sin proteccion.",
+          "keyPoints": [
+            "HTML no es programación tradicional debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una pagina HTML simple con estructura valida, contenido organizado, enlace, imagen o lista y formulario basico.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m1-l4",
+          "title": "Archivos .html",
+          "keyIdea": "Idea clave: Archivos .html sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Archivos .html\" dentro del modulo \"Qué es HTML y cómo funciona una página web\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona necesita crear una pagina simple que se entienda, tenga contenido ordenado y pueda seguir creciendo con CSS o JavaScript. Aplica \"Archivos .html\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una pagina HTML simple con estructura valida, contenido organizado, enlace, imagen o lista y formulario basico.",
+          "alert": "No usar HTML solo para apariencia ni publicar formularios que pidan datos sensibles sin proteccion.",
+          "keyPoints": [
+            "Archivos .html debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una pagina HTML simple con estructura valida, contenido organizado, enlace, imagen o lista y formulario basico.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m1-l5",
+          "title": "Editor y navegador",
+          "keyIdea": "Idea clave: Editor y navegador sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Editor y navegador\" dentro del modulo \"Qué es HTML y cómo funciona una página web\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona necesita crear una pagina simple que se entienda, tenga contenido ordenado y pueda seguir creciendo con CSS o JavaScript. Aplica \"Editor y navegador\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una pagina HTML simple con estructura valida, contenido organizado, enlace, imagen o lista y formulario basico.",
+          "alert": "No usar HTML solo para apariencia ni publicar formularios que pidan datos sensibles sin proteccion.",
+          "keyPoints": [
+            "Editor y navegador debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una pagina HTML simple con estructura valida, contenido organizado, enlace, imagen o lista y formulario basico.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m1-l6",
+          "title": "Primer documento HTML",
+          "keyIdea": "Idea clave: Primer documento HTML sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Primer documento HTML\" dentro del modulo \"Qué es HTML y cómo funciona una página web\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona necesita crear una pagina simple que se entienda, tenga contenido ordenado y pueda seguir creciendo con CSS o JavaScript. Aplica \"Primer documento HTML\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una pagina HTML simple con estructura valida, contenido organizado, enlace, imagen o lista y formulario basico.",
+          "alert": "No usar HTML solo para apariencia ni publicar formularios que pidan datos sensibles sin proteccion.",
+          "keyPoints": [
+            "Primer documento HTML debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una pagina HTML simple con estructura valida, contenido organizado, enlace, imagen o lista y formulario basico.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m1-q1",
+          "question": "Pregunta 1: ¿Cuál es una buena práctica relacionada con qué es html y cómo funciona una página web?",
+          "options": [
+            "Usar etiquetas sin cerrarlas",
+            "Ordenar el contenido y probar en navegador",
+            "Poner todo el texto en una sola línea",
+            "Evitar revisar el resultado"
+          ],
+          "correctAnswerIndex": 1,
+          "feedback": "Correcto: HTML se aprende mejor escribiendo, ordenando y revisando el resultado en navegador."
+        },
+        {
+          "id": "m1-q2",
+          "question": "Pregunta 2: ¿Cuál es una buena práctica relacionada con qué es html y cómo funciona una página web?",
+          "options": [
+            "Usar etiquetas sin cerrarlas",
+            "Ordenar el contenido y probar en navegador",
+            "Poner todo el texto en una sola línea",
+            "Evitar revisar el resultado"
+          ],
+          "correctAnswerIndex": 1,
+          "feedback": "Correcto: HTML se aprende mejor escribiendo, ordenando y revisando el resultado en navegador."
+        },
+        {
+          "id": "m1-q3",
+          "question": "Pregunta 3: ¿Cuál es una buena práctica relacionada con qué es html y cómo funciona una página web?",
+          "options": [
+            "Usar etiquetas sin cerrarlas",
+            "Ordenar el contenido y probar en navegador",
+            "Poner todo el texto en una sola línea",
+            "Evitar revisar el resultado"
+          ],
+          "correctAnswerIndex": 1,
+          "feedback": "Correcto: HTML se aprende mejor escribiendo, ordenando y revisando el resultado en navegador."
+        },
+        {
+          "id": "m1-q4",
+          "question": "Pregunta 4: ¿Cuál es una buena práctica relacionada con qué es html y cómo funciona una página web?",
+          "options": [
+            "Usar etiquetas sin cerrarlas",
+            "Ordenar el contenido y probar en navegador",
+            "Poner todo el texto en una sola línea",
+            "Evitar revisar el resultado"
+          ],
+          "correctAnswerIndex": 1,
+          "feedback": "Correcto: HTML se aprende mejor escribiendo, ordenando y revisando el resultado en navegador."
+        },
+        {
+          "id": "m1-q5",
+          "question": "Pregunta 5: ¿Cuál es una buena práctica relacionada con qué es html y cómo funciona una página web?",
+          "options": [
+            "Usar etiquetas sin cerrarlas",
+            "Ordenar el contenido y probar en navegador",
+            "Poner todo el texto en una sola línea",
+            "Evitar revisar el resultado"
+          ],
+          "correctAnswerIndex": 1,
+          "feedback": "Correcto: HTML se aprende mejor escribiendo, ordenando y revisando el resultado en navegador."
+        }
+      ],
+      "professionalOutcome": "crear paginas con estructura clara, jerarquia, enlaces, formularios y contenido entendible. Entregable sugerido: una pagina HTML con header, main, secciones, formulario simple y revision semantica."
+    },
+    {
+      "id": "m2",
+      "title": "Estructura básica: html, head y body",
+      "description": "En este modulo vas a trabajar \"Estructura básica: html, head y body\" dentro de HTML practico, estructura semantica, contenido, enlaces, imagenes, listas, tablas y formularios. La meta es construir una pieza pequena, probarla en navegador y dejar evidencia de que funciona para una persona real.",
+      "lessons": [
+        {
+          "id": "m2-l1",
+          "title": "La etiqueta html",
+          "keyIdea": "Idea clave: La etiqueta html sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"La etiqueta html\" dentro del modulo \"Estructura básica: html, head y body\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona necesita crear una pagina simple que se entienda, tenga contenido ordenado y pueda seguir creciendo con CSS o JavaScript. Aplica \"La etiqueta html\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una pagina HTML simple con estructura valida, contenido organizado, enlace, imagen o lista y formulario basico.",
+          "alert": "No usar HTML solo para apariencia ni publicar formularios que pidan datos sensibles sin proteccion.",
+          "keyPoints": [
+            "La etiqueta html debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una pagina HTML simple con estructura valida, contenido organizado, enlace, imagen o lista y formulario basico.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m2-l2",
+          "title": "La zona head",
+          "keyIdea": "Idea clave: La zona head sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"La zona head\" dentro del modulo \"Estructura básica: html, head y body\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona necesita crear una pagina simple que se entienda, tenga contenido ordenado y pueda seguir creciendo con CSS o JavaScript. Aplica \"La zona head\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una pagina HTML simple con estructura valida, contenido organizado, enlace, imagen o lista y formulario basico.",
+          "alert": "No usar HTML solo para apariencia ni publicar formularios que pidan datos sensibles sin proteccion.",
+          "keyPoints": [
+            "La zona head debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una pagina HTML simple con estructura valida, contenido organizado, enlace, imagen o lista y formulario basico.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m2-l3",
+          "title": "La zona body",
+          "keyIdea": "Idea clave: La zona body sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"La zona body\" dentro del modulo \"Estructura básica: html, head y body\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona necesita crear una pagina simple que se entienda, tenga contenido ordenado y pueda seguir creciendo con CSS o JavaScript. Aplica \"La zona body\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una pagina HTML simple con estructura valida, contenido organizado, enlace, imagen o lista y formulario basico.",
+          "alert": "No usar HTML solo para apariencia ni publicar formularios que pidan datos sensibles sin proteccion.",
+          "keyPoints": [
+            "La zona body debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una pagina HTML simple con estructura valida, contenido organizado, enlace, imagen o lista y formulario basico.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m2-l4",
+          "title": "Título del documento",
+          "keyIdea": "Idea clave: Título del documento sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Título del documento\" dentro del modulo \"Estructura básica: html, head y body\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona necesita crear una pagina simple que se entienda, tenga contenido ordenado y pueda seguir creciendo con CSS o JavaScript. Aplica \"Título del documento\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una pagina HTML simple con estructura valida, contenido organizado, enlace, imagen o lista y formulario basico.",
+          "alert": "No usar HTML solo para apariencia ni publicar formularios que pidan datos sensibles sin proteccion.",
+          "keyPoints": [
+            "Título del documento debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una pagina HTML simple con estructura valida, contenido organizado, enlace, imagen o lista y formulario basico.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m2-l5",
+          "title": "Metadatos básicos",
+          "keyIdea": "Idea clave: Metadatos básicos sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Metadatos básicos\" dentro del modulo \"Estructura básica: html, head y body\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona necesita crear una pagina simple que se entienda, tenga contenido ordenado y pueda seguir creciendo con CSS o JavaScript. Aplica \"Metadatos básicos\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una pagina HTML simple con estructura valida, contenido organizado, enlace, imagen o lista y formulario basico.",
+          "alert": "No usar HTML solo para apariencia ni publicar formularios que pidan datos sensibles sin proteccion.",
+          "keyPoints": [
+            "Metadatos básicos debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una pagina HTML simple con estructura valida, contenido organizado, enlace, imagen o lista y formulario basico.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m2-l6",
+          "title": "Indentación y orden",
+          "keyIdea": "Idea clave: Indentación y orden sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Indentación y orden\" dentro del modulo \"Estructura básica: html, head y body\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona necesita crear una pagina simple que se entienda, tenga contenido ordenado y pueda seguir creciendo con CSS o JavaScript. Aplica \"Indentación y orden\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una pagina HTML simple con estructura valida, contenido organizado, enlace, imagen o lista y formulario basico.",
+          "alert": "No usar HTML solo para apariencia ni publicar formularios que pidan datos sensibles sin proteccion.",
+          "keyPoints": [
+            "Indentación y orden debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una pagina HTML simple con estructura valida, contenido organizado, enlace, imagen o lista y formulario basico.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m2-q1",
+          "question": "Pregunta 1: ¿Cuál es una buena práctica relacionada con estructura básica: html, head y body?",
+          "options": [
+            "Usar etiquetas sin cerrarlas",
+            "Ordenar el contenido y probar en navegador",
+            "Poner todo el texto en una sola línea",
+            "Evitar revisar el resultado"
+          ],
+          "correctAnswerIndex": 1,
+          "feedback": "Correcto: HTML se aprende mejor escribiendo, ordenando y revisando el resultado en navegador."
+        },
+        {
+          "id": "m2-q2",
+          "question": "Pregunta 2: ¿Cuál es una buena práctica relacionada con estructura básica: html, head y body?",
+          "options": [
+            "Usar etiquetas sin cerrarlas",
+            "Ordenar el contenido y probar en navegador",
+            "Poner todo el texto en una sola línea",
+            "Evitar revisar el resultado"
+          ],
+          "correctAnswerIndex": 1,
+          "feedback": "Correcto: HTML se aprende mejor escribiendo, ordenando y revisando el resultado en navegador."
+        },
+        {
+          "id": "m2-q3",
+          "question": "Pregunta 3: ¿Cuál es una buena práctica relacionada con estructura básica: html, head y body?",
+          "options": [
+            "Usar etiquetas sin cerrarlas",
+            "Ordenar el contenido y probar en navegador",
+            "Poner todo el texto en una sola línea",
+            "Evitar revisar el resultado"
+          ],
+          "correctAnswerIndex": 1,
+          "feedback": "Correcto: HTML se aprende mejor escribiendo, ordenando y revisando el resultado en navegador."
+        },
+        {
+          "id": "m2-q4",
+          "question": "Pregunta 4: ¿Cuál es una buena práctica relacionada con estructura básica: html, head y body?",
+          "options": [
+            "Usar etiquetas sin cerrarlas",
+            "Ordenar el contenido y probar en navegador",
+            "Poner todo el texto en una sola línea",
+            "Evitar revisar el resultado"
+          ],
+          "correctAnswerIndex": 1,
+          "feedback": "Correcto: HTML se aprende mejor escribiendo, ordenando y revisando el resultado en navegador."
+        },
+        {
+          "id": "m2-q5",
+          "question": "Pregunta 5: ¿Cuál es una buena práctica relacionada con estructura básica: html, head y body?",
+          "options": [
+            "Usar etiquetas sin cerrarlas",
+            "Ordenar el contenido y probar en navegador",
+            "Poner todo el texto en una sola línea",
+            "Evitar revisar el resultado"
+          ],
+          "correctAnswerIndex": 1,
+          "feedback": "Correcto: HTML se aprende mejor escribiendo, ordenando y revisando el resultado en navegador."
+        }
+      ],
+      "professionalOutcome": "crear paginas con estructura clara, jerarquia, enlaces, formularios y contenido entendible. Entregable sugerido: una pagina HTML con header, main, secciones, formulario simple y revision semantica."
+    },
+    {
+      "id": "m3",
+      "title": "Textos, títulos, párrafos y enlaces",
+      "description": "En este modulo vas a trabajar \"Textos, títulos, párrafos y enlaces\" dentro de HTML practico, estructura semantica, contenido, enlaces, imagenes, listas, tablas y formularios. La meta es construir una pieza pequena, probarla en navegador y dejar evidencia de que funciona para una persona real.",
+      "lessons": [
+        {
+          "id": "m3-l1",
+          "title": "Títulos h1 a h6",
+          "keyIdea": "Idea clave: Títulos h1 a h6 sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Títulos h1 a h6\" dentro del modulo \"Textos, títulos, párrafos y enlaces\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona necesita crear una pagina simple que se entienda, tenga contenido ordenado y pueda seguir creciendo con CSS o JavaScript. Aplica \"Títulos h1 a h6\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una pagina HTML simple con estructura valida, contenido organizado, enlace, imagen o lista y formulario basico.",
+          "alert": "No usar HTML solo para apariencia ni publicar formularios que pidan datos sensibles sin proteccion.",
+          "keyPoints": [
+            "Títulos h1 a h6 debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una pagina HTML simple con estructura valida, contenido organizado, enlace, imagen o lista y formulario basico.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m3-l2",
+          "title": "Párrafos",
+          "keyIdea": "Idea clave: Párrafos sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Párrafos\" dentro del modulo \"Textos, títulos, párrafos y enlaces\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona necesita crear una pagina simple que se entienda, tenga contenido ordenado y pueda seguir creciendo con CSS o JavaScript. Aplica \"Párrafos\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una pagina HTML simple con estructura valida, contenido organizado, enlace, imagen o lista y formulario basico.",
+          "alert": "No usar HTML solo para apariencia ni publicar formularios que pidan datos sensibles sin proteccion.",
+          "keyPoints": [
+            "Párrafos debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una pagina HTML simple con estructura valida, contenido organizado, enlace, imagen o lista y formulario basico.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m3-l3",
+          "title": "Negrita, énfasis y saltos",
+          "keyIdea": "Idea clave: Negrita, énfasis y saltos sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Negrita, énfasis y saltos\" dentro del modulo \"Textos, títulos, párrafos y enlaces\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona necesita crear una pagina simple que se entienda, tenga contenido ordenado y pueda seguir creciendo con CSS o JavaScript. Aplica \"Negrita, énfasis y saltos\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una pagina HTML simple con estructura valida, contenido organizado, enlace, imagen o lista y formulario basico.",
+          "alert": "No usar HTML solo para apariencia ni publicar formularios que pidan datos sensibles sin proteccion.",
+          "keyPoints": [
+            "Negrita, énfasis y saltos debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una pagina HTML simple con estructura valida, contenido organizado, enlace, imagen o lista y formulario basico.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m3-l4",
+          "title": "Enlaces internos y externos",
+          "keyIdea": "Idea clave: Enlaces internos y externos sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Enlaces internos y externos\" dentro del modulo \"Textos, títulos, párrafos y enlaces\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona necesita crear una pagina simple que se entienda, tenga contenido ordenado y pueda seguir creciendo con CSS o JavaScript. Aplica \"Enlaces internos y externos\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una pagina HTML simple con estructura valida, contenido organizado, enlace, imagen o lista y formulario basico.",
+          "alert": "No usar HTML solo para apariencia ni publicar formularios que pidan datos sensibles sin proteccion.",
+          "keyPoints": [
+            "Enlaces internos y externos debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una pagina HTML simple con estructura valida, contenido organizado, enlace, imagen o lista y formulario basico.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m3-l5",
+          "title": "Rutas relativas",
+          "keyIdea": "Idea clave: Rutas relativas sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Rutas relativas\" dentro del modulo \"Textos, títulos, párrafos y enlaces\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona necesita crear una pagina simple que se entienda, tenga contenido ordenado y pueda seguir creciendo con CSS o JavaScript. Aplica \"Rutas relativas\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una pagina HTML simple con estructura valida, contenido organizado, enlace, imagen o lista y formulario basico.",
+          "alert": "No usar HTML solo para apariencia ni publicar formularios que pidan datos sensibles sin proteccion.",
+          "keyPoints": [
+            "Rutas relativas debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una pagina HTML simple con estructura valida, contenido organizado, enlace, imagen o lista y formulario basico.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m3-l6",
+          "title": "Buenas prácticas de lectura",
+          "keyIdea": "Idea clave: Buenas prácticas de lectura sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Buenas prácticas de lectura\" dentro del modulo \"Textos, títulos, párrafos y enlaces\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona necesita crear una pagina simple que se entienda, tenga contenido ordenado y pueda seguir creciendo con CSS o JavaScript. Aplica \"Buenas prácticas de lectura\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una pagina HTML simple con estructura valida, contenido organizado, enlace, imagen o lista y formulario basico.",
+          "alert": "No usar HTML solo para apariencia ni publicar formularios que pidan datos sensibles sin proteccion.",
+          "keyPoints": [
+            "Buenas prácticas de lectura debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una pagina HTML simple con estructura valida, contenido organizado, enlace, imagen o lista y formulario basico.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m3-q1",
+          "question": "Pregunta 1: ¿Cuál es una buena práctica relacionada con textos, títulos, párrafos y enlaces?",
+          "options": [
+            "Usar etiquetas sin cerrarlas",
+            "Ordenar el contenido y probar en navegador",
+            "Poner todo el texto en una sola línea",
+            "Evitar revisar el resultado"
+          ],
+          "correctAnswerIndex": 1,
+          "feedback": "Correcto: HTML se aprende mejor escribiendo, ordenando y revisando el resultado en navegador."
+        },
+        {
+          "id": "m3-q2",
+          "question": "Pregunta 2: ¿Cuál es una buena práctica relacionada con textos, títulos, párrafos y enlaces?",
+          "options": [
+            "Usar etiquetas sin cerrarlas",
+            "Ordenar el contenido y probar en navegador",
+            "Poner todo el texto en una sola línea",
+            "Evitar revisar el resultado"
+          ],
+          "correctAnswerIndex": 1,
+          "feedback": "Correcto: HTML se aprende mejor escribiendo, ordenando y revisando el resultado en navegador."
+        },
+        {
+          "id": "m3-q3",
+          "question": "Pregunta 3: ¿Cuál es una buena práctica relacionada con textos, títulos, párrafos y enlaces?",
+          "options": [
+            "Usar etiquetas sin cerrarlas",
+            "Ordenar el contenido y probar en navegador",
+            "Poner todo el texto en una sola línea",
+            "Evitar revisar el resultado"
+          ],
+          "correctAnswerIndex": 1,
+          "feedback": "Correcto: HTML se aprende mejor escribiendo, ordenando y revisando el resultado en navegador."
+        },
+        {
+          "id": "m3-q4",
+          "question": "Pregunta 4: ¿Cuál es una buena práctica relacionada con textos, títulos, párrafos y enlaces?",
+          "options": [
+            "Usar etiquetas sin cerrarlas",
+            "Ordenar el contenido y probar en navegador",
+            "Poner todo el texto en una sola línea",
+            "Evitar revisar el resultado"
+          ],
+          "correctAnswerIndex": 1,
+          "feedback": "Correcto: HTML se aprende mejor escribiendo, ordenando y revisando el resultado en navegador."
+        },
+        {
+          "id": "m3-q5",
+          "question": "Pregunta 5: ¿Cuál es una buena práctica relacionada con textos, títulos, párrafos y enlaces?",
+          "options": [
+            "Usar etiquetas sin cerrarlas",
+            "Ordenar el contenido y probar en navegador",
+            "Poner todo el texto en una sola línea",
+            "Evitar revisar el resultado"
+          ],
+          "correctAnswerIndex": 1,
+          "feedback": "Correcto: HTML se aprende mejor escribiendo, ordenando y revisando el resultado en navegador."
+        }
+      ],
+      "professionalOutcome": "crear paginas con estructura clara, jerarquia, enlaces, formularios y contenido entendible. Entregable sugerido: una pagina HTML con header, main, secciones, formulario simple y revision semantica."
+    },
+    {
+      "id": "m4",
+      "title": "Imágenes, listas, tablas y contenido organizado",
+      "description": "En este modulo vas a trabajar \"Imágenes, listas, tablas y contenido organizado\" dentro de HTML practico, estructura semantica, contenido, enlaces, imagenes, listas, tablas y formularios. La meta es construir una pieza pequena, probarla en navegador y dejar evidencia de que funciona para una persona real.",
+      "lessons": [
+        {
+          "id": "m4-l1",
+          "title": "Imágenes y atributo alt",
+          "keyIdea": "Idea clave: Imágenes y atributo alt sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Imágenes y atributo alt\" dentro del modulo \"Imágenes, listas, tablas y contenido organizado\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona necesita crear una pagina simple que se entienda, tenga contenido ordenado y pueda seguir creciendo con CSS o JavaScript. Aplica \"Imágenes y atributo alt\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una pagina HTML simple con estructura valida, contenido organizado, enlace, imagen o lista y formulario basico.",
+          "alert": "No usar HTML solo para apariencia ni publicar formularios que pidan datos sensibles sin proteccion.",
+          "keyPoints": [
+            "Imágenes y atributo alt debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una pagina HTML simple con estructura valida, contenido organizado, enlace, imagen o lista y formulario basico.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m4-l2",
+          "title": "Listas ordenadas",
+          "keyIdea": "Idea clave: Listas ordenadas sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Listas ordenadas\" dentro del modulo \"Imágenes, listas, tablas y contenido organizado\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona necesita crear una pagina simple que se entienda, tenga contenido ordenado y pueda seguir creciendo con CSS o JavaScript. Aplica \"Listas ordenadas\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una pagina HTML simple con estructura valida, contenido organizado, enlace, imagen o lista y formulario basico.",
+          "alert": "No usar HTML solo para apariencia ni publicar formularios que pidan datos sensibles sin proteccion.",
+          "keyPoints": [
+            "Listas ordenadas debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una pagina HTML simple con estructura valida, contenido organizado, enlace, imagen o lista y formulario basico.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m4-l3",
+          "title": "Listas desordenadas",
+          "keyIdea": "Idea clave: Listas desordenadas sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Listas desordenadas\" dentro del modulo \"Imágenes, listas, tablas y contenido organizado\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona necesita crear una pagina simple que se entienda, tenga contenido ordenado y pueda seguir creciendo con CSS o JavaScript. Aplica \"Listas desordenadas\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una pagina HTML simple con estructura valida, contenido organizado, enlace, imagen o lista y formulario basico.",
+          "alert": "No usar HTML solo para apariencia ni publicar formularios que pidan datos sensibles sin proteccion.",
+          "keyPoints": [
+            "Listas desordenadas debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una pagina HTML simple con estructura valida, contenido organizado, enlace, imagen o lista y formulario basico.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m4-l4",
+          "title": "Tablas simples",
+          "keyIdea": "Idea clave: Tablas simples sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Tablas simples\" dentro del modulo \"Imágenes, listas, tablas y contenido organizado\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona necesita crear una pagina simple que se entienda, tenga contenido ordenado y pueda seguir creciendo con CSS o JavaScript. Aplica \"Tablas simples\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una pagina HTML simple con estructura valida, contenido organizado, enlace, imagen o lista y formulario basico.",
+          "alert": "No usar HTML solo para apariencia ni publicar formularios que pidan datos sensibles sin proteccion.",
+          "keyPoints": [
+            "Tablas simples debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una pagina HTML simple con estructura valida, contenido organizado, enlace, imagen o lista y formulario basico.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m4-l5",
+          "title": "Secciones con div y section",
+          "keyIdea": "Idea clave: Secciones con div y section sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Secciones con div y section\" dentro del modulo \"Imágenes, listas, tablas y contenido organizado\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona necesita crear una pagina simple que se entienda, tenga contenido ordenado y pueda seguir creciendo con CSS o JavaScript. Aplica \"Secciones con div y section\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una pagina HTML simple con estructura valida, contenido organizado, enlace, imagen o lista y formulario basico.",
+          "alert": "No usar HTML solo para apariencia ni publicar formularios que pidan datos sensibles sin proteccion.",
+          "keyPoints": [
+            "Secciones con div y section debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una pagina HTML simple con estructura valida, contenido organizado, enlace, imagen o lista y formulario basico.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m4-l6",
+          "title": "Contenido semántico",
+          "keyIdea": "Idea clave: Contenido semántico sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Contenido semántico\" dentro del modulo \"Imágenes, listas, tablas y contenido organizado\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona necesita crear una pagina simple que se entienda, tenga contenido ordenado y pueda seguir creciendo con CSS o JavaScript. Aplica \"Contenido semántico\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una pagina HTML simple con estructura valida, contenido organizado, enlace, imagen o lista y formulario basico.",
+          "alert": "No usar HTML solo para apariencia ni publicar formularios que pidan datos sensibles sin proteccion.",
+          "keyPoints": [
+            "Contenido semántico debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una pagina HTML simple con estructura valida, contenido organizado, enlace, imagen o lista y formulario basico.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m4-q1",
+          "question": "Pregunta 1: ¿Cuál es una buena práctica relacionada con imágenes, listas, tablas y contenido organizado?",
+          "options": [
+            "Usar etiquetas sin cerrarlas",
+            "Ordenar el contenido y probar en navegador",
+            "Poner todo el texto en una sola línea",
+            "Evitar revisar el resultado"
+          ],
+          "correctAnswerIndex": 1,
+          "feedback": "Correcto: HTML se aprende mejor escribiendo, ordenando y revisando el resultado en navegador."
+        },
+        {
+          "id": "m4-q2",
+          "question": "Pregunta 2: ¿Cuál es una buena práctica relacionada con imágenes, listas, tablas y contenido organizado?",
+          "options": [
+            "Usar etiquetas sin cerrarlas",
+            "Ordenar el contenido y probar en navegador",
+            "Poner todo el texto en una sola línea",
+            "Evitar revisar el resultado"
+          ],
+          "correctAnswerIndex": 1,
+          "feedback": "Correcto: HTML se aprende mejor escribiendo, ordenando y revisando el resultado en navegador."
+        },
+        {
+          "id": "m4-q3",
+          "question": "Pregunta 3: ¿Cuál es una buena práctica relacionada con imágenes, listas, tablas y contenido organizado?",
+          "options": [
+            "Usar etiquetas sin cerrarlas",
+            "Ordenar el contenido y probar en navegador",
+            "Poner todo el texto en una sola línea",
+            "Evitar revisar el resultado"
+          ],
+          "correctAnswerIndex": 1,
+          "feedback": "Correcto: HTML se aprende mejor escribiendo, ordenando y revisando el resultado en navegador."
+        },
+        {
+          "id": "m4-q4",
+          "question": "Pregunta 4: ¿Cuál es una buena práctica relacionada con imágenes, listas, tablas y contenido organizado?",
+          "options": [
+            "Usar etiquetas sin cerrarlas",
+            "Ordenar el contenido y probar en navegador",
+            "Poner todo el texto en una sola línea",
+            "Evitar revisar el resultado"
+          ],
+          "correctAnswerIndex": 1,
+          "feedback": "Correcto: HTML se aprende mejor escribiendo, ordenando y revisando el resultado en navegador."
+        },
+        {
+          "id": "m4-q5",
+          "question": "Pregunta 5: ¿Cuál es una buena práctica relacionada con imágenes, listas, tablas y contenido organizado?",
+          "options": [
+            "Usar etiquetas sin cerrarlas",
+            "Ordenar el contenido y probar en navegador",
+            "Poner todo el texto en una sola línea",
+            "Evitar revisar el resultado"
+          ],
+          "correctAnswerIndex": 1,
+          "feedback": "Correcto: HTML se aprende mejor escribiendo, ordenando y revisando el resultado en navegador."
+        }
+      ],
+      "professionalOutcome": "crear paginas con estructura clara, jerarquia, enlaces, formularios y contenido entendible. Entregable sugerido: una pagina HTML con header, main, secciones, formulario simple y revision semantica."
+    },
+    {
+      "id": "m5",
+      "title": "Formularios básicos",
+      "description": "En este modulo vas a trabajar \"Formularios básicos\" dentro de HTML practico, estructura semantica, contenido, enlaces, imagenes, listas, tablas y formularios. La meta es construir una pieza pequena, probarla en navegador y dejar evidencia de que funciona para una persona real.",
+      "lessons": [
+        {
+          "id": "m5-l1",
+          "title": "Qué es un formulario",
+          "keyIdea": "Idea clave: Qué es un formulario sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Qué es un formulario\" dentro del modulo \"Formularios básicos\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona necesita crear una pagina simple que se entienda, tenga contenido ordenado y pueda seguir creciendo con CSS o JavaScript. Aplica \"Qué es un formulario\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una pagina HTML simple con estructura valida, contenido organizado, enlace, imagen o lista y formulario basico.",
+          "alert": "No usar HTML solo para apariencia ni publicar formularios que pidan datos sensibles sin proteccion.",
+          "keyPoints": [
+            "Qué es un formulario debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una pagina HTML simple con estructura valida, contenido organizado, enlace, imagen o lista y formulario basico.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m5-l2",
+          "title": "Inputs de texto",
+          "keyIdea": "Idea clave: Inputs de texto sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Inputs de texto\" dentro del modulo \"Formularios básicos\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona necesita crear una pagina simple que se entienda, tenga contenido ordenado y pueda seguir creciendo con CSS o JavaScript. Aplica \"Inputs de texto\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una pagina HTML simple con estructura valida, contenido organizado, enlace, imagen o lista y formulario basico.",
+          "alert": "No usar HTML solo para apariencia ni publicar formularios que pidan datos sensibles sin proteccion.",
+          "keyPoints": [
+            "Inputs de texto debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una pagina HTML simple con estructura valida, contenido organizado, enlace, imagen o lista y formulario basico.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m5-l3",
+          "title": "Email y teléfono",
+          "keyIdea": "Idea clave: Email y teléfono sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Email y teléfono\" dentro del modulo \"Formularios básicos\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona necesita crear una pagina simple que se entienda, tenga contenido ordenado y pueda seguir creciendo con CSS o JavaScript. Aplica \"Email y teléfono\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una pagina HTML simple con estructura valida, contenido organizado, enlace, imagen o lista y formulario basico.",
+          "alert": "No usar HTML solo para apariencia ni publicar formularios que pidan datos sensibles sin proteccion.",
+          "keyPoints": [
+            "Email y teléfono debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una pagina HTML simple con estructura valida, contenido organizado, enlace, imagen o lista y formulario basico.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m5-l4",
+          "title": "Textarea",
+          "keyIdea": "Idea clave: Textarea sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Textarea\" dentro del modulo \"Formularios básicos\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona necesita crear una pagina simple que se entienda, tenga contenido ordenado y pueda seguir creciendo con CSS o JavaScript. Aplica \"Textarea\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una pagina HTML simple con estructura valida, contenido organizado, enlace, imagen o lista y formulario basico.",
+          "alert": "No usar HTML solo para apariencia ni publicar formularios que pidan datos sensibles sin proteccion.",
+          "keyPoints": [
+            "Textarea debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una pagina HTML simple con estructura valida, contenido organizado, enlace, imagen o lista y formulario basico.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m5-l5",
+          "title": "Botones",
+          "keyIdea": "Idea clave: Botones sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Botones\" dentro del modulo \"Formularios básicos\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona necesita crear una pagina simple que se entienda, tenga contenido ordenado y pueda seguir creciendo con CSS o JavaScript. Aplica \"Botones\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una pagina HTML simple con estructura valida, contenido organizado, enlace, imagen o lista y formulario basico.",
+          "alert": "No usar HTML solo para apariencia ni publicar formularios que pidan datos sensibles sin proteccion.",
+          "keyPoints": [
+            "Botones debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una pagina HTML simple con estructura valida, contenido organizado, enlace, imagen o lista y formulario basico.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m5-l6",
+          "title": "Labels y accesibilidad",
+          "keyIdea": "Idea clave: Labels y accesibilidad sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Labels y accesibilidad\" dentro del modulo \"Formularios básicos\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona necesita crear una pagina simple que se entienda, tenga contenido ordenado y pueda seguir creciendo con CSS o JavaScript. Aplica \"Labels y accesibilidad\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una pagina HTML simple con estructura valida, contenido organizado, enlace, imagen o lista y formulario basico.",
+          "alert": "No usar HTML solo para apariencia ni publicar formularios que pidan datos sensibles sin proteccion.",
+          "keyPoints": [
+            "Labels y accesibilidad debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una pagina HTML simple con estructura valida, contenido organizado, enlace, imagen o lista y formulario basico.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m5-q1",
+          "question": "Pregunta 1: ¿Cuál es una buena práctica relacionada con formularios básicos?",
+          "options": [
+            "Usar etiquetas sin cerrarlas",
+            "Ordenar el contenido y probar en navegador",
+            "Poner todo el texto en una sola línea",
+            "Evitar revisar el resultado"
+          ],
+          "correctAnswerIndex": 1,
+          "feedback": "Correcto: HTML se aprende mejor escribiendo, ordenando y revisando el resultado en navegador."
+        },
+        {
+          "id": "m5-q2",
+          "question": "Pregunta 2: ¿Cuál es una buena práctica relacionada con formularios básicos?",
+          "options": [
+            "Usar etiquetas sin cerrarlas",
+            "Ordenar el contenido y probar en navegador",
+            "Poner todo el texto en una sola línea",
+            "Evitar revisar el resultado"
+          ],
+          "correctAnswerIndex": 1,
+          "feedback": "Correcto: HTML se aprende mejor escribiendo, ordenando y revisando el resultado en navegador."
+        },
+        {
+          "id": "m5-q3",
+          "question": "Pregunta 3: ¿Cuál es una buena práctica relacionada con formularios básicos?",
+          "options": [
+            "Usar etiquetas sin cerrarlas",
+            "Ordenar el contenido y probar en navegador",
+            "Poner todo el texto en una sola línea",
+            "Evitar revisar el resultado"
+          ],
+          "correctAnswerIndex": 1,
+          "feedback": "Correcto: HTML se aprende mejor escribiendo, ordenando y revisando el resultado en navegador."
+        },
+        {
+          "id": "m5-q4",
+          "question": "Pregunta 4: ¿Cuál es una buena práctica relacionada con formularios básicos?",
+          "options": [
+            "Usar etiquetas sin cerrarlas",
+            "Ordenar el contenido y probar en navegador",
+            "Poner todo el texto en una sola línea",
+            "Evitar revisar el resultado"
+          ],
+          "correctAnswerIndex": 1,
+          "feedback": "Correcto: HTML se aprende mejor escribiendo, ordenando y revisando el resultado en navegador."
+        },
+        {
+          "id": "m5-q5",
+          "question": "Pregunta 5: ¿Cuál es una buena práctica relacionada con formularios básicos?",
+          "options": [
+            "Usar etiquetas sin cerrarlas",
+            "Ordenar el contenido y probar en navegador",
+            "Poner todo el texto en una sola línea",
+            "Evitar revisar el resultado"
+          ],
+          "correctAnswerIndex": 1,
+          "feedback": "Correcto: HTML se aprende mejor escribiendo, ordenando y revisando el resultado en navegador."
+        }
+      ],
+      "professionalOutcome": "crear paginas con estructura clara, jerarquia, enlaces, formularios y contenido entendible. Entregable sugerido: una pagina HTML con header, main, secciones, formulario simple y revision semantica."
+    },
+    {
+      "id": "m6",
+      "title": "Proyecto final: crear una página simple",
+      "description": "En este modulo vas a trabajar \"Proyecto final: crear una página simple\" dentro de HTML practico, estructura semantica, contenido, enlaces, imagenes, listas, tablas y formularios. La meta es construir una pieza pequena, probarla en navegador y dejar evidencia de que funciona para una persona real.",
+      "lessons": [
+        {
+          "id": "m6-l1",
+          "title": "Planificar una página",
+          "keyIdea": "Idea clave: Planificar una página sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Planificar una página\" dentro del modulo \"Proyecto final: crear una página simple\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona necesita crear una pagina simple que se entienda, tenga contenido ordenado y pueda seguir creciendo con CSS o JavaScript. Aplica \"Planificar una página\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una pagina HTML simple con estructura valida, contenido organizado, enlace, imagen o lista y formulario basico.",
+          "alert": "No usar HTML solo para apariencia ni publicar formularios que pidan datos sensibles sin proteccion.",
+          "keyPoints": [
+            "Planificar una página debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una pagina HTML simple con estructura valida, contenido organizado, enlace, imagen o lista y formulario basico.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m6-l2",
+          "title": "Crear estructura base",
+          "keyIdea": "Idea clave: Crear estructura base sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Crear estructura base\" dentro del modulo \"Proyecto final: crear una página simple\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona necesita crear una pagina simple que se entienda, tenga contenido ordenado y pueda seguir creciendo con CSS o JavaScript. Aplica \"Crear estructura base\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una pagina HTML simple con estructura valida, contenido organizado, enlace, imagen o lista y formulario basico.",
+          "alert": "No usar HTML solo para apariencia ni publicar formularios que pidan datos sensibles sin proteccion.",
+          "keyPoints": [
+            "Crear estructura base debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una pagina HTML simple con estructura valida, contenido organizado, enlace, imagen o lista y formulario basico.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m6-l3",
+          "title": "Agregar contenido",
+          "keyIdea": "Idea clave: Agregar contenido sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Agregar contenido\" dentro del modulo \"Proyecto final: crear una página simple\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona necesita crear una pagina simple que se entienda, tenga contenido ordenado y pueda seguir creciendo con CSS o JavaScript. Aplica \"Agregar contenido\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una pagina HTML simple con estructura valida, contenido organizado, enlace, imagen o lista y formulario basico.",
+          "alert": "No usar HTML solo para apariencia ni publicar formularios que pidan datos sensibles sin proteccion.",
+          "keyPoints": [
+            "Agregar contenido debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una pagina HTML simple con estructura valida, contenido organizado, enlace, imagen o lista y formulario basico.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m6-l4",
+          "title": "Agregar imágenes y enlaces",
+          "keyIdea": "Idea clave: Agregar imágenes y enlaces sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Agregar imágenes y enlaces\" dentro del modulo \"Proyecto final: crear una página simple\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona necesita crear una pagina simple que se entienda, tenga contenido ordenado y pueda seguir creciendo con CSS o JavaScript. Aplica \"Agregar imágenes y enlaces\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una pagina HTML simple con estructura valida, contenido organizado, enlace, imagen o lista y formulario basico.",
+          "alert": "No usar HTML solo para apariencia ni publicar formularios que pidan datos sensibles sin proteccion.",
+          "keyPoints": [
+            "Agregar imágenes y enlaces debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una pagina HTML simple con estructura valida, contenido organizado, enlace, imagen o lista y formulario basico.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m6-l5",
+          "title": "Agregar formulario",
+          "keyIdea": "Idea clave: Agregar formulario sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Agregar formulario\" dentro del modulo \"Proyecto final: crear una página simple\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona necesita crear una pagina simple que se entienda, tenga contenido ordenado y pueda seguir creciendo con CSS o JavaScript. Aplica \"Agregar formulario\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una pagina HTML simple con estructura valida, contenido organizado, enlace, imagen o lista y formulario basico.",
+          "alert": "No usar HTML solo para apariencia ni publicar formularios que pidan datos sensibles sin proteccion.",
+          "keyPoints": [
+            "Agregar formulario debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una pagina HTML simple con estructura valida, contenido organizado, enlace, imagen o lista y formulario basico.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m6-l6",
+          "title": "Revisar y preparar publicación",
+          "keyIdea": "Idea clave: Revisar y preparar publicación sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Revisar y preparar publicación\" dentro del modulo \"Proyecto final: crear una página simple\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona necesita crear una pagina simple que se entienda, tenga contenido ordenado y pueda seguir creciendo con CSS o JavaScript. Aplica \"Revisar y preparar publicación\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una pagina HTML simple con estructura valida, contenido organizado, enlace, imagen o lista y formulario basico.",
+          "alert": "No usar HTML solo para apariencia ni publicar formularios que pidan datos sensibles sin proteccion.",
+          "keyPoints": [
+            "Revisar y preparar publicación debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una pagina HTML simple con estructura valida, contenido organizado, enlace, imagen o lista y formulario basico.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m6-q1",
+          "question": "Pregunta 1: ¿Cuál es una buena práctica relacionada con proyecto final: crear una página simple?",
+          "options": [
+            "Usar etiquetas sin cerrarlas",
+            "Ordenar el contenido y probar en navegador",
+            "Poner todo el texto en una sola línea",
+            "Evitar revisar el resultado"
+          ],
+          "correctAnswerIndex": 1,
+          "feedback": "Correcto: HTML se aprende mejor escribiendo, ordenando y revisando el resultado en navegador."
+        },
+        {
+          "id": "m6-q2",
+          "question": "Pregunta 2: ¿Cuál es una buena práctica relacionada con proyecto final: crear una página simple?",
+          "options": [
+            "Usar etiquetas sin cerrarlas",
+            "Ordenar el contenido y probar en navegador",
+            "Poner todo el texto en una sola línea",
+            "Evitar revisar el resultado"
+          ],
+          "correctAnswerIndex": 1,
+          "feedback": "Correcto: HTML se aprende mejor escribiendo, ordenando y revisando el resultado en navegador."
+        },
+        {
+          "id": "m6-q3",
+          "question": "Pregunta 3: ¿Cuál es una buena práctica relacionada con proyecto final: crear una página simple?",
+          "options": [
+            "Usar etiquetas sin cerrarlas",
+            "Ordenar el contenido y probar en navegador",
+            "Poner todo el texto en una sola línea",
+            "Evitar revisar el resultado"
+          ],
+          "correctAnswerIndex": 1,
+          "feedback": "Correcto: HTML se aprende mejor escribiendo, ordenando y revisando el resultado en navegador."
+        },
+        {
+          "id": "m6-q4",
+          "question": "Pregunta 4: ¿Cuál es una buena práctica relacionada con proyecto final: crear una página simple?",
+          "options": [
+            "Usar etiquetas sin cerrarlas",
+            "Ordenar el contenido y probar en navegador",
+            "Poner todo el texto en una sola línea",
+            "Evitar revisar el resultado"
+          ],
+          "correctAnswerIndex": 1,
+          "feedback": "Correcto: HTML se aprende mejor escribiendo, ordenando y revisando el resultado en navegador."
+        },
+        {
+          "id": "m6-q5",
+          "question": "Pregunta 5: ¿Cuál es una buena práctica relacionada con proyecto final: crear una página simple?",
+          "options": [
+            "Usar etiquetas sin cerrarlas",
+            "Ordenar el contenido y probar en navegador",
+            "Poner todo el texto en una sola línea",
+            "Evitar revisar el resultado"
+          ],
+          "correctAnswerIndex": 1,
+          "feedback": "Correcto: HTML se aprende mejor escribiendo, ordenando y revisando el resultado en navegador."
+        }
+      ],
+      "professionalOutcome": "crear paginas con estructura clara, jerarquia, enlaces, formularios y contenido entendible. Entregable sugerido: una pagina HTML con header, main, secciones, formulario simple y revision semantica."
+    }
+  ],
+  "publicationStatus": "publica-profesional-v0.6",
+  "appName": "HTML Practico para Principiantes",
+  "professionalization": {
+    "tier": "curso-bandera-v1.0-beta",
+    "updatedAt": "2026-05-28",
+    "focus": "Profundizacion visible de lecciones, practicas, checklists y casos."
+  },
+  "editorialPolish": {
+    "fourthEditorialBatch": "2026-06-02",
+    "status": "public-facing-copy-polished"
+  }
+}

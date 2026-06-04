@@ -1,0 +1,195 @@
+{
+  "decisionSimulator": {
+    "title": "Simulador de decisiones de negocio barrial",
+    "description": "Practica decisiones frecuentes de un pequeño comercio sin arriesgar caja, stock ni relación con clientes.",
+    "scoring": {
+      "excellent": 85,
+      "good": 65,
+      "review": 45
+    },
+    "cases": [
+      {
+        "id": "prod_iniciales",
+        "title": "Elegir productos iniciales",
+        "context": "Tenés presupuesto limitado y querés iniciar venta barrial con productos de rotación diaria.",
+        "risk": "Comprar demasiado de productos lentos puede inmovilizar dinero.",
+        "options": [
+          {
+            "id": "variedad_controlada",
+            "label": "Comprar pocos productos de alta rotación y medir ventas 7 días",
+            "score": 95,
+            "feedback": "Buena decisión: reduce riesgo, permite aprender de la demanda real y evita sobrestock.",
+            "nextAction": "Definí 10 a 15 productos, cantidad mínima y registro diario."
+          },
+          {
+            "id": "muchos_productos",
+            "label": "Comprar mucha variedad para parecer un negocio grande",
+            "score": 45,
+            "feedback": "Riesgoso: aumenta desorden, vencimientos y caja inmovilizada.",
+            "nextAction": "Reducí el surtido inicial y priorizá rotación."
+          },
+          {
+            "id": "solo_gusto_personal",
+            "label": "Comprar solo productos que a vos te gustan",
+            "score": 55,
+            "feedback": "Puede funcionar parcialmente, pero no valida demanda del barrio.",
+            "nextAction": "Combiná intuición con consulta a clientes y prueba chica."
+          }
+        ]
+      },
+      {
+        "id": "compra_mayorista",
+        "title": "Decidir compra mayorista",
+        "context": "Un proveedor ofrece descuento fuerte si comprás 4 cajas del mismo producto.",
+        "risk": "La oferta puede parecer conveniente pero afectar caja y stock.",
+        "options": [
+          {
+            "id": "calcular_rotacion",
+            "label": "Calcular rotación, margen y tiempo estimado para recuperar la compra",
+            "score": 96,
+            "feedback": "Excelente: comprar barato solo sirve si el producto rota y no ahoga la caja.",
+            "nextAction": "Usá margen + stock mínimo + vencimiento antes de decidir."
+          },
+          {
+            "id": "comprar_por_descuento",
+            "label": "Comprar todo porque el descuento termina hoy",
+            "score": 38,
+            "feedback": "Decisión impulsiva. El descuento no garantiza ganancia real.",
+            "nextAction": "Pausá y compará con ventas reales."
+          },
+          {
+            "id": "rechazar_siempre",
+            "label": "Rechazar cualquier compra grande por miedo",
+            "score": 60,
+            "feedback": "Puede proteger caja, pero también te hace perder buenas oportunidades.",
+            "nextAction": "Evaluá con números antes de decidir."
+          }
+        ]
+      },
+      {
+        "id": "reclamo_cliente",
+        "title": "Resolver reclamo de cliente",
+        "context": "Un cliente dice que recibió mal un pedido hecho por WhatsApp.",
+        "risk": "Responder mal puede perder al cliente y dañar la reputación.",
+        "options": [
+          {
+            "id": "revisar_evidencia",
+            "label": "Revisar chat, pedido, comprobante y proponer solución clara",
+            "score": 92,
+            "feedback": "Muy bien: separa emoción de evidencia y cuida la relación comercial.",
+            "nextAction": "Usá mensaje claro, disculpa si corresponde y registro del caso."
+          },
+          {
+            "id": "culpar_cliente",
+            "label": "Decirle que seguramente pidió mal",
+            "score": 25,
+            "feedback": "Mala práctica: aumenta conflicto y puede dañar tu reputación.",
+            "nextAction": "Primero verificá datos y mantené tono profesional."
+          },
+          {
+            "id": "devolver_sin_revisar",
+            "label": "Devolver dinero sin revisar nada para terminar rápido",
+            "score": 52,
+            "feedback": "Puede resolver el momento, pero deja pérdidas y no corrige el proceso.",
+            "nextAction": "Verificá y registrá la causa."
+          }
+        ]
+      },
+      {
+        "id": "promo_conveniente",
+        "title": "Evaluar si conviene una promoción",
+        "context": "Querés lanzar 2x1 para mover stock que no sale.",
+        "risk": "Una promo mal calculada puede vender más pero perder plata.",
+        "options": [
+          {
+            "id": "promo_con_margen",
+            "label": "Calcular margen, stock y objetivo antes de publicar",
+            "score": 94,
+            "feedback": "Correcto: una promoción debe tener objetivo y límite.",
+            "nextAction": "Definí duración, cantidad máxima y ganancia mínima."
+          },
+          {
+            "id": "promo_sin_calculo",
+            "label": "Publicar rápido para atraer gente",
+            "score": 40,
+            "feedback": "Riesgoso: más ventas no siempre significa más ganancia.",
+            "nextAction": "Calculá costo y margen antes de prometer."
+          },
+          {
+            "id": "no_hacer_promos",
+            "label": "Nunca hacer promociones",
+            "score": 58,
+            "feedback": "Evita pérdidas, pero puede impedir liquidar stock lento.",
+            "nextAction": "Usá promociones pequeñas y medibles."
+          }
+        ]
+      },
+      {
+        "id": "entrega_retiro",
+        "title": "Decidir entrega o retiro",
+        "context": "Un cliente pide envío inmediato, pero estás solo atendiendo el negocio.",
+        "risk": "Prometer entregas sin capacidad afecta atención y cumplimiento.",
+        "options": [
+          {
+            "id": "franja_horaria",
+            "label": "Ofrecer retiro o entrega en franja horaria realista",
+            "score": 90,
+            "feedback": "Muy bien: ordena expectativas y protege la operación.",
+            "nextAction": "Comunicar horarios y costo si corresponde."
+          },
+          {
+            "id": "salir_ya",
+            "label": "Cerrar el negocio y salir a entregar ya",
+            "score": 35,
+            "feedback": "Puede causar pérdida de ventas y desorden operativo.",
+            "nextAction": "Definí política de entregas."
+          },
+          {
+            "id": "negar_siempre",
+            "label": "No hacer entregas nunca",
+            "score": 62,
+            "feedback": "Puede ser válido, pero conviene evaluar demanda y capacidad.",
+            "nextAction": "Probá días u horarios fijos."
+          }
+        ]
+      },
+      {
+        "id": "baja_rotacion",
+        "title": "Producto de baja rotación",
+        "context": "Tenés productos que ocupan lugar y casi no se venden.",
+        "risk": "El stock parado es dinero inmovilizado.",
+        "options": [
+          {
+            "id": "medir_y_accionar",
+            "label": "Medir días sin venta, margen y decidir promoción o baja",
+            "score": 93,
+            "feedback": "Excelente: convierte sensación en decisión basada en datos.",
+            "nextAction": "Armá ranking de rotación semanal."
+          },
+          {
+            "id": "esperar",
+            "label": "Esperar a que algún día se venda",
+            "score": 42,
+            "feedback": "Puede empeorar caja y espacio disponible.",
+            "nextAction": "Definí límite de días sin venta."
+          },
+          {
+            "id": "bajar_precio_total",
+            "label": "Rematar todo sin calcular costo",
+            "score": 50,
+            "feedback": "Puede liberar stock pero perder margen innecesariamente.",
+            "nextAction": "Calculá precio mínimo antes."
+          }
+        ]
+      }
+    ],
+    "reportTemplate": [
+      "Caso analizado",
+      "Opción elegida",
+      "Puntaje educativo",
+      "Feedback",
+      "Próxima acción sugerida",
+      "Límite: ejercicio educativo, no asesoramiento profesional"
+    ]
+  }
+}

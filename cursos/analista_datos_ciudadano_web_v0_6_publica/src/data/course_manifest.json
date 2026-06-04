@@ -1,0 +1,142 @@
+{
+  "courseId": "analista-datos-ciudadano",
+  "templateVersion": "0.6-publica-profesional",
+  "appName": "Analista de Datos Ciudadano",
+  "shortName": "Datos Ciudadanos",
+  "subtitle": "Curso practico para convertir datos cotidianos en preguntas, indicadores simples y decisiones revisables.",
+  "description": "Aprende a mirar datos con criterio: ordenar tablas, limpiar informacion, crear metricas basicas y comunicar hallazgos utiles.",
+  "audience": "Estudiantes, emprendedores, trabajadores administrativos, pequeños comercios y personas que quieren empezar en análisis de datos sin instalar software complejo.",
+  "dataPaths": {
+    "course": "src/data/course_content.json",
+    "checklists": "src/data/checklists.json",
+    "incidents": "src/data/incidents.json",
+    "financialTools": "src/data/financial_tools.json",
+    "tableLab": "src/data/table_lab.json"
+  },
+  "labels": {
+    "modules": "Módulos",
+    "checklists": "Checklists",
+    "incidents": "Misiones de datos",
+    "emergency": "Modo revisión rápida",
+    "primaryAction": "Empezar curso",
+    "emergencyAction": "Revisar una tabla urgente"
+  },
+  "features": [
+    "curso modular offline-first",
+    "36 lecciones cortas",
+    "quizzes por módulo",
+    "checklists persistentes",
+    "misiones de análisis de datos",
+    "progreso local con localStorage",
+    "constancia interna no oficial",
+    "laboratorio de tablas con muestras cargables",
+    "detección educativa de faltantes, duplicados e inconsistencias",
+    "limpieza asistida de categorías, faltantes y duplicados",
+    "columnas calculadas simples según columnas detectadas",
+    "ranking top 5 con barras educativas",
+    "reporte avanzado con hallazgos, límites y recomendación",
+    "experiencia guiada del laboratorio de tablas",
+    "pantalla de práctica paso a paso",
+    "resumen visual local de prácticas realizadas",
+    "historial local sin guardar tablas completas",
+    "checklist imprimible de análisis ciudadano",
+    "mejoras de formularios y navegación móvil",
+    "README público final preparado para publicación",
+    "guía de publicación web estática",
+    "guía de capturas sugeridas",
+    "aviso legal y alcance educativo específico",
+    "política de privacidad base para navegador",
+    "checklist de publicación v0.5",
+    "carpeta store/screenshots preparada"
+  ],
+  "theme": {
+    "primary": "#d6a85c",
+    "accent": "#4fb6aa",
+    "danger": "#f97316",
+    "background": "#21130b"
+  },
+  "quiz": {
+    "passingScore": 70,
+    "maxAttemptsSaved": 5,
+    "showImmediateFeedback": true
+  },
+  "certificate": {
+    "title": "Constancia interna de avance en análisis de datos ciudadano",
+    "issuer": "Analista de Datos Ciudadano Web",
+    "disclaimer": "No es una certificación oficial ni reemplaza formación profesional. Es una constancia educativa de avance dentro del curso."
+  },
+  "responsibleNotice": "Contenido educativo. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. No publicar datos personales, sensibles o identificables sin permiso y anonimizado.",
+  "cloneNotes": "Para futuros cursos de análisis de datos, usar esta v0.5 como referencia cuando se necesite laboratorio práctico, documentación de publicación y paquete web listo para probar en navegador.",
+  "homeHighlights": [
+    {
+      "title": "Pensar con datos",
+      "description": "Aprendé a convertir registros cotidianos en preguntas, métricas y decisiones."
+    },
+    {
+      "title": "Tablas simples",
+      "description": "Usá filas, columnas, categorías y valores sin complicarte con herramientas pesadas."
+    },
+    {
+      "title": "Calidad antes que gráficos",
+      "description": "Detectá duplicados, faltantes, errores de carga e inconsistencias."
+    }
+  ],
+  "publication": {
+    "status": "Publica profesional",
+    "recommendedHost": "GitHub Pages, Netlify, Vercel, blog propio o servidor estático",
+    "notes": "Versión orientada a publicar: README final, guía de despliegue, capturas sugeridas, privacidad, aviso legal, checklist e integridad de paquete.",
+    "version": "0.6-publica-profesional",
+    "requiresBackend": false,
+    "requiresLogin": false,
+    "requiresAnalytics": false,
+    "requiresAds": false,
+    "recommendedHosts": [
+      "GitHub Pages",
+      "Netlify",
+      "Vercel",
+      "Hosting estatico propio"
+    ],
+    "prePublishChecks": [
+      "Probar con servidor local",
+      "Probar navegacion en movil y escritorio",
+      "Revisar textos legales y privacidad",
+      "Verificar que no se pidan datos sensibles",
+      "Actualizar capturas publicas"
+    ]
+  },
+  "releaseNotes": "v0.5 cierra el ciclo de publicación: documentación pública, guías de despliegue/capturas, privacidad, aviso legal, checklist de publicación y paquete validado.",
+  "webApp": {
+    "display": "standalone",
+    "startUrl": "./index.html",
+    "themeColor": "#38bdf8",
+    "backgroundColor": "#07111f",
+    "cacheName": "analista-datos-ciudadano-web-v0-6-publica-v0-6-publica-profesional",
+    "publishTargets": [
+      "GitHub Pages",
+      "Netlify",
+      "Vercel",
+      "blog propio",
+      "servidor estático simple"
+    ],
+    "publicationStatus": "publica-profesional-v0.6"
+  },
+  "publicEdition": {
+    "level": "publica-profesional",
+    "version": "0.6",
+    "generatedAt": "2026-05-26",
+    "sourceZip": "analista_datos_ciudadano_web_v0_5.zip"
+  },
+  "professionalization": {
+    "tier": "curso-bandera-v1.0-beta",
+    "updatedAt": "2026-05-28",
+    "improvements": [
+      "Lecciones con teoria, ejemplo, error comun y ejercicio mas profundos.",
+      "Checklists orientados a evidencia y entregables.",
+      "Casos guiados con pasos, errores y decision responsable."
+    ]
+  },
+  "editorialPolish": {
+    "thirdEditorialBatch": "2026-06-02",
+    "status": "public-facing-copy-polished"
+  }
+}

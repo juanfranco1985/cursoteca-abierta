@@ -1,0 +1,209 @@
+{
+  "courseId": "git_github_proyectos_web",
+  "version": "0.4",
+  "title": "Proyecto guiado: subir una web a GitHub",
+  "description": "Guía paso a paso para preparar una carpeta web, documentarla, commitearla y simular su subida a GitHub.",
+  "steps": [
+    {
+      "id": "gp-step-1",
+      "title": "Preparar carpeta del proyecto",
+      "goal": "Confirmar que la web tenga una estructura clara.",
+      "tasks": [
+        "Crear una carpeta raíz con nombre claro.",
+        "Verificar que exista index.html.",
+        "Confirmar que styles.css y script.js estén bien vinculados.",
+        "Probar la web con Live Server.",
+        "Revisar consola del navegador."
+      ],
+      "command": "ls / dir",
+      "checkpoint": "La carpeta contiene solo archivos del proyecto y la web abre correctamente."
+    },
+    {
+      "id": "gp-step-2",
+      "title": "Generar README",
+      "goal": "Crear una descripción entendible del proyecto.",
+      "tasks": [
+        "Escribir título.",
+        "Explicar objetivo.",
+        "Indicar tecnologías usadas.",
+        "Explicar cómo probarlo.",
+        "Agregar estado actual y próximas mejoras."
+      ],
+      "command": "crear README.md",
+      "checkpoint": "README.md permite que otra persona entienda el proyecto."
+    },
+    {
+      "id": "gp-step-3",
+      "title": "Generar .gitignore",
+      "goal": "Evitar subir archivos temporales, privados o pesados.",
+      "tasks": [
+        "Agregar node_modules/ si corresponde.",
+        "Agregar .env si existe.",
+        "Agregar archivos temporales.",
+        "Revisar que no se ignoren archivos centrales como index.html."
+      ],
+      "command": "crear .gitignore",
+      "checkpoint": ".gitignore protege el repositorio sin ocultar archivos importantes."
+    },
+    {
+      "id": "gp-step-4",
+      "title": "Inicializar Git y primer commit",
+      "goal": "Crear historial local del proyecto.",
+      "tasks": [
+        "Ejecutar git init.",
+        "Revisar git status.",
+        "Agregar archivos relevantes.",
+        "Crear commit inicial con mensaje claro."
+      ],
+      "command": "git init && git status && git add . && git commit -m \"Crear versión inicial del proyecto web\"",
+      "checkpoint": "El proyecto tiene un primer commit local."
+    },
+    {
+      "id": "gp-step-5",
+      "title": "Crear repositorio en GitHub",
+      "goal": "Preparar el destino remoto del proyecto.",
+      "tasks": [
+        "Crear repositorio nuevo en GitHub.",
+        "Evitar crear README remoto si ya existe local.",
+        "Copiar URL correcta del repositorio.",
+        "Verificar nombre del repo."
+      ],
+      "command": "git remote add origin URL_DEL_REPOSITORIO",
+      "checkpoint": "El remoto origin apunta al repositorio correcto."
+    },
+    {
+      "id": "gp-step-6",
+      "title": "Simular push y verificación final",
+      "goal": "Subir el proyecto y revisar que GitHub muestre los archivos.",
+      "tasks": [
+        "Ejecutar git remote -v.",
+        "Ejecutar git push -u origin main.",
+        "Abrir GitHub.",
+        "Confirmar que index.html, README.md y .gitignore estén visibles.",
+        "Revisar que no haya archivos privados."
+      ],
+      "command": "git push -u origin main",
+      "checkpoint": "El proyecto quedó visible en GitHub como repositorio ordenado."
+    }
+  ],
+  "builderFields": [
+    {
+      "id": "projectTitle",
+      "label": "Título del proyecto",
+      "default": "Mi primera web en GitHub"
+    },
+    {
+      "id": "description",
+      "label": "Descripción",
+      "default": "Proyecto web simple creado con HTML, CSS y JavaScript."
+    },
+    {
+      "id": "technologies",
+      "label": "Tecnologías",
+      "default": "HTML, CSS, JavaScript"
+    },
+    {
+      "id": "runInstructions",
+      "label": "Cómo probar",
+      "default": "Abrir index.html con Live Server."
+    },
+    {
+      "id": "repoName",
+      "label": "Nombre sugerido del repositorio",
+      "default": "mi-primera-web"
+    },
+    {
+      "id": "nextSteps",
+      "label": "Próximas mejoras",
+      "default": "Publicar con GitHub Pages y mejorar el diseño responsive."
+    }
+  ],
+  "pushSimulation": [
+    {
+      "id": "push-ok",
+      "title": "Push exitoso",
+      "terminal": "Enumerating objects: 8, done.\nWriting objects: 100% (8/8), done.\nTo https://github.com/usuario/mi-primera-web.git\n * [new branch] main -> main",
+      "meaning": "Los commits locales fueron subidos al repositorio remoto."
+    },
+    {
+      "id": "push-no-remote",
+      "title": "Error: no hay remoto",
+      "terminal": "fatal: No configured push destination.",
+      "meaning": "Falta configurar el remoto con git remote add origin URL."
+    },
+    {
+      "id": "push-auth",
+      "title": "Error de autenticación",
+      "terminal": "remote: Permission denied.\nfatal: unable to access repository",
+      "meaning": "GitHub no aceptó las credenciales o el usuario no tiene permiso sobre el repo."
+    }
+  ],
+  "finalChecklist": [
+    {
+      "id": "final-folder",
+      "text": "La carpeta raíz contiene solo el proyecto correcto."
+    },
+    {
+      "id": "final-index",
+      "text": "index.html abre correctamente."
+    },
+    {
+      "id": "final-assets",
+      "text": "CSS, JS e imágenes cargan sin rutas rotas."
+    },
+    {
+      "id": "final-readme",
+      "text": "README.md explica objetivo, tecnologías y uso."
+    },
+    {
+      "id": "final-gitignore",
+      "text": ".gitignore evita temporales, privados o pesados."
+    },
+    {
+      "id": "final-status",
+      "text": "git status no muestra cambios pendientes no deseados."
+    },
+    {
+      "id": "final-remote",
+      "text": "git remote -v apunta al repo correcto."
+    },
+    {
+      "id": "final-private",
+      "text": "No hay claves, tokens, correos privados ni datos sensibles."
+    },
+    {
+      "id": "final-github",
+      "text": "GitHub muestra los archivos esperados."
+    },
+    {
+      "id": "final-readability",
+      "text": "El repositorio puede entenderlo otra persona."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "id": "mistake-wrong-folder",
+      "title": "Inicializar Git en la carpeta equivocada",
+      "problem": "El usuario ejecuta git init en Documentos o en una carpeta que contiene muchos proyectos.",
+      "solution": "Entrar primero a la carpeta raíz específica del proyecto."
+    },
+    {
+      "id": "mistake-missing-files",
+      "title": "Subir index.html pero olvidar CSS o JS",
+      "problem": "La página se ve rota en GitHub porque faltan archivos vinculados.",
+      "solution": "Revisar rutas y usar git status antes del commit."
+    },
+    {
+      "id": "mistake-bad-remote",
+      "title": "Configurar un remoto incorrecto",
+      "problem": "origin apunta a un repositorio equivocado.",
+      "solution": "Verificar con git remote -v antes del push."
+    },
+    {
+      "id": "mistake-private-data",
+      "title": "Subir datos privados",
+      "problem": "Se agrega por error .env, tokens, correos o archivos sensibles.",
+      "solution": "Usar .gitignore y revisar archivos antes de git add."
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Escudo Comercial Digital Argentina — Curso Web",
+  "short_name": "Escudo Comercial",
+  "description": "Escudo Comercial Digital Argentina - curso web educativo publico profesional.",
+  "lang": "es-AR",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#21130b",
+  "theme_color": "#d6a85c",
+  "orientation": "any",
+  "categories": [
+    "education",
+    "business",
+    "security"
+  ],
+  "icons": [
+    {
+      "src": "icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "version": "0.6"
+}

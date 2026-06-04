@@ -1,0 +1,1050 @@
+{
+  "courseId": "computacion-cuantica-curiosos",
+  "title": "Computacion Cuantica para Curiosos",
+  "version": "0.6-publica",
+  "publicationStatus": "publica-profesional-v0.6",
+  "modules": [
+    {
+      "id": "m1",
+      "title": "De bits a qubits",
+      "description": "En este modulo vas a trabajar \"De bits a qubits\" dentro de computacion cuantica para curiosos, qubits, medicion, circuitos, entrelazamiento, algoritmos y hardware. La meta es entender una idea con fuentes confiables, explicarla con palabras propias y dejar una pregunta para seguir aprendiendo.",
+      "lessons": [
+        {
+          "id": "m1-l1",
+          "title": "Bit clasico",
+          "keyIdea": "Idea clave: Bit clasico ayuda a comprender un concepto complejo sin perder rigor ni depender de frases hechas.",
+          "shortTheory": "En esta leccion vas a trabajar \"Bit clasico\" dentro del modulo \"De bits a qubits\". El foco es distinguir observacion, explicacion, limite y fuente para construir una comprension honesta.",
+          "practicalExample": "Una persona escucha promesas sobre computacion cuantica y necesita separar conceptos reales, analogias utiles y exageraciones. Aplica \"Bit clasico\" con una version pequena: define contexto, accion principal, evidencia y proximo paso.",
+          "commonMistake": "El error comun es quedarse con una curiosidad superficial, repetir una analogia sin limites o usar una fuente llamativa pero poco confiable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe contexto, accion, evidencia, limite y proximo paso. Entrega esperada: una ficha explicativa con concepto cuantico, analogia, limite, ejemplo de aplicacion y duda abierta.",
+          "alert": "No asumir que lo cuantico resuelve cualquier problema ni confundir divulgacion con aplicacion inmediata.",
+          "keyPoints": [
+            "Bit clasico debe poder explicarse con una idea central y un limite claro.",
+            "Una buena fuente y una pregunta nueva valen mas que una respuesta decorativa.",
+            "La entrega esperada es: una ficha explicativa con concepto cuantico, analogia, limite, ejemplo de aplicacion y duda abierta.",
+            "El resultado debe invitar a seguir aprendiendo sin confundir divulgacion con certeza absoluta."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m1-l2",
+          "title": "Probabilidad",
+          "keyIdea": "Idea clave: Probabilidad ayuda a comprender un concepto complejo sin perder rigor ni depender de frases hechas.",
+          "shortTheory": "En esta leccion vas a trabajar \"Probabilidad\" dentro del modulo \"De bits a qubits\". El foco es distinguir observacion, explicacion, limite y fuente para construir una comprension honesta.",
+          "practicalExample": "Una persona escucha promesas sobre computacion cuantica y necesita separar conceptos reales, analogias utiles y exageraciones. Aplica \"Probabilidad\" con una version pequena: define contexto, accion principal, evidencia y proximo paso.",
+          "commonMistake": "El error comun es quedarse con una curiosidad superficial, repetir una analogia sin limites o usar una fuente llamativa pero poco confiable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe contexto, accion, evidencia, limite y proximo paso. Entrega esperada: una ficha explicativa con concepto cuantico, analogia, limite, ejemplo de aplicacion y duda abierta.",
+          "alert": "No asumir que lo cuantico resuelve cualquier problema ni confundir divulgacion con aplicacion inmediata.",
+          "keyPoints": [
+            "Probabilidad debe poder explicarse con una idea central y un limite claro.",
+            "Una buena fuente y una pregunta nueva valen mas que una respuesta decorativa.",
+            "La entrega esperada es: una ficha explicativa con concepto cuantico, analogia, limite, ejemplo de aplicacion y duda abierta.",
+            "El resultado debe invitar a seguir aprendiendo sin confundir divulgacion con certeza absoluta."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m1-l3",
+          "title": "Qubit",
+          "keyIdea": "Idea clave: Qubit ayuda a comprender un concepto complejo sin perder rigor ni depender de frases hechas.",
+          "shortTheory": "En esta leccion vas a trabajar \"Qubit\" dentro del modulo \"De bits a qubits\". El foco es distinguir observacion, explicacion, limite y fuente para construir una comprension honesta.",
+          "practicalExample": "Una persona escucha promesas sobre computacion cuantica y necesita separar conceptos reales, analogias utiles y exageraciones. Aplica \"Qubit\" con una version pequena: define contexto, accion principal, evidencia y proximo paso.",
+          "commonMistake": "El error comun es quedarse con una curiosidad superficial, repetir una analogia sin limites o usar una fuente llamativa pero poco confiable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe contexto, accion, evidencia, limite y proximo paso. Entrega esperada: una ficha explicativa con concepto cuantico, analogia, limite, ejemplo de aplicacion y duda abierta.",
+          "alert": "No asumir que lo cuantico resuelve cualquier problema ni confundir divulgacion con aplicacion inmediata.",
+          "keyPoints": [
+            "Qubit debe poder explicarse con una idea central y un limite claro.",
+            "Una buena fuente y una pregunta nueva valen mas que una respuesta decorativa.",
+            "La entrega esperada es: una ficha explicativa con concepto cuantico, analogia, limite, ejemplo de aplicacion y duda abierta.",
+            "El resultado debe invitar a seguir aprendiendo sin confundir divulgacion con certeza absoluta."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m1-l4",
+          "title": "Estado cuantico",
+          "keyIdea": "Idea clave: Estado cuantico ayuda a comprender un concepto complejo sin perder rigor ni depender de frases hechas.",
+          "shortTheory": "En esta leccion vas a trabajar \"Estado cuantico\" dentro del modulo \"De bits a qubits\". El foco es distinguir observacion, explicacion, limite y fuente para construir una comprension honesta.",
+          "practicalExample": "Una persona escucha promesas sobre computacion cuantica y necesita separar conceptos reales, analogias utiles y exageraciones. Aplica \"Estado cuantico\" con una version pequena: define contexto, accion principal, evidencia y proximo paso.",
+          "commonMistake": "El error comun es quedarse con una curiosidad superficial, repetir una analogia sin limites o usar una fuente llamativa pero poco confiable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe contexto, accion, evidencia, limite y proximo paso. Entrega esperada: una ficha explicativa con concepto cuantico, analogia, limite, ejemplo de aplicacion y duda abierta.",
+          "alert": "No asumir que lo cuantico resuelve cualquier problema ni confundir divulgacion con aplicacion inmediata.",
+          "keyPoints": [
+            "Estado cuantico debe poder explicarse con una idea central y un limite claro.",
+            "Una buena fuente y una pregunta nueva valen mas que una respuesta decorativa.",
+            "La entrega esperada es: una ficha explicativa con concepto cuantico, analogia, limite, ejemplo de aplicacion y duda abierta.",
+            "El resultado debe invitar a seguir aprendiendo sin confundir divulgacion con certeza absoluta."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m1-l5",
+          "title": "Representacion simple",
+          "keyIdea": "Idea clave: Representacion simple ayuda a comprender un concepto complejo sin perder rigor ni depender de frases hechas.",
+          "shortTheory": "En esta leccion vas a trabajar \"Representacion simple\" dentro del modulo \"De bits a qubits\". El foco es distinguir observacion, explicacion, limite y fuente para construir una comprension honesta.",
+          "practicalExample": "Una persona escucha promesas sobre computacion cuantica y necesita separar conceptos reales, analogias utiles y exageraciones. Aplica \"Representacion simple\" con una version pequena: define contexto, accion principal, evidencia y proximo paso.",
+          "commonMistake": "El error comun es quedarse con una curiosidad superficial, repetir una analogia sin limites o usar una fuente llamativa pero poco confiable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe contexto, accion, evidencia, limite y proximo paso. Entrega esperada: una ficha explicativa con concepto cuantico, analogia, limite, ejemplo de aplicacion y duda abierta.",
+          "alert": "No asumir que lo cuantico resuelve cualquier problema ni confundir divulgacion con aplicacion inmediata.",
+          "keyPoints": [
+            "Representacion simple debe poder explicarse con una idea central y un limite claro.",
+            "Una buena fuente y una pregunta nueva valen mas que una respuesta decorativa.",
+            "La entrega esperada es: una ficha explicativa con concepto cuantico, analogia, limite, ejemplo de aplicacion y duda abierta.",
+            "El resultado debe invitar a seguir aprendiendo sin confundir divulgacion con certeza absoluta."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m1-l6",
+          "title": "Que no es un qubit",
+          "keyIdea": "Idea clave: Que no es un qubit ayuda a comprender un concepto complejo sin perder rigor ni depender de frases hechas.",
+          "shortTheory": "En esta leccion vas a trabajar \"Que no es un qubit\" dentro del modulo \"De bits a qubits\". El foco es distinguir observacion, explicacion, limite y fuente para construir una comprension honesta.",
+          "practicalExample": "Una persona escucha promesas sobre computacion cuantica y necesita separar conceptos reales, analogias utiles y exageraciones. Aplica \"Que no es un qubit\" con una version pequena: define contexto, accion principal, evidencia y proximo paso.",
+          "commonMistake": "El error comun es quedarse con una curiosidad superficial, repetir una analogia sin limites o usar una fuente llamativa pero poco confiable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe contexto, accion, evidencia, limite y proximo paso. Entrega esperada: una ficha explicativa con concepto cuantico, analogia, limite, ejemplo de aplicacion y duda abierta.",
+          "alert": "No asumir que lo cuantico resuelve cualquier problema ni confundir divulgacion con aplicacion inmediata.",
+          "keyPoints": [
+            "Que no es un qubit debe poder explicarse con una idea central y un limite claro.",
+            "Una buena fuente y una pregunta nueva valen mas que una respuesta decorativa.",
+            "La entrega esperada es: una ficha explicativa con concepto cuantico, analogia, limite, ejemplo de aplicacion y duda abierta.",
+            "El resultado debe invitar a seguir aprendiendo sin confundir divulgacion con certeza absoluta."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m1-q1",
+          "question": "Pregunta 1: ¿cual es una buena practica en ",
+          "options": [
+            "Distinguir analogia, probabilidad clasica y estado cuantico",
+            "Decir que un qubit es simplemente 0 y 1 a la vez",
+            "Prometer velocidad universal",
+            "Ignorar medicion"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        },
+        {
+          "id": "m1-q2",
+          "question": "Pregunta 2: ¿cual es una buena practica en ",
+          "options": [
+            "Distinguir analogia, probabilidad clasica y estado cuantico",
+            "Decir que un qubit es simplemente 0 y 1 a la vez",
+            "Prometer velocidad universal",
+            "Ignorar medicion"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        },
+        {
+          "id": "m1-q3",
+          "question": "Pregunta 3: ¿cual es una buena practica en ",
+          "options": [
+            "Distinguir analogia, probabilidad clasica y estado cuantico",
+            "Decir que un qubit es simplemente 0 y 1 a la vez",
+            "Prometer velocidad universal",
+            "Ignorar medicion"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        },
+        {
+          "id": "m1-q4",
+          "question": "Pregunta 4: ¿cual es una buena practica en ",
+          "options": [
+            "Distinguir analogia, probabilidad clasica y estado cuantico",
+            "Decir que un qubit es simplemente 0 y 1 a la vez",
+            "Prometer velocidad universal",
+            "Ignorar medicion"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        },
+        {
+          "id": "m1-q5",
+          "question": "Pregunta 5: ¿cual es una buena practica en ",
+          "options": [
+            "Distinguir analogia, probabilidad clasica y estado cuantico",
+            "Decir que un qubit es simplemente 0 y 1 a la vez",
+            "Prometer velocidad universal",
+            "Ignorar medicion"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        }
+      ],
+      "professionalOutcome": "comprender ideas basicas, reconocer usos posibles y detectar promesas poco serias. Entregable sugerido: una ficha conceptual con qubit, superposicion, medicion, caso de uso y limite."
+    },
+    {
+      "id": "m2",
+      "title": "Superposicion y medicion",
+      "description": "En este modulo vas a trabajar \"Superposicion y medicion\" dentro de computacion cuantica para curiosos, qubits, medicion, circuitos, entrelazamiento, algoritmos y hardware. La meta es entender una idea con fuentes confiables, explicarla con palabras propias y dejar una pregunta para seguir aprendiendo.",
+      "lessons": [
+        {
+          "id": "m2-l1",
+          "title": "Superposicion",
+          "keyIdea": "Idea clave: Superposicion ayuda a comprender un concepto complejo sin perder rigor ni depender de frases hechas.",
+          "shortTheory": "En esta leccion vas a trabajar \"Superposicion\" dentro del modulo \"Superposicion y medicion\". El foco es distinguir observacion, explicacion, limite y fuente para construir una comprension honesta.",
+          "practicalExample": "Una persona escucha promesas sobre computacion cuantica y necesita separar conceptos reales, analogias utiles y exageraciones. Aplica \"Superposicion\" con una version pequena: define contexto, accion principal, evidencia y proximo paso.",
+          "commonMistake": "El error comun es quedarse con una curiosidad superficial, repetir una analogia sin limites o usar una fuente llamativa pero poco confiable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe contexto, accion, evidencia, limite y proximo paso. Entrega esperada: una ficha explicativa con concepto cuantico, analogia, limite, ejemplo de aplicacion y duda abierta.",
+          "alert": "No asumir que lo cuantico resuelve cualquier problema ni confundir divulgacion con aplicacion inmediata.",
+          "keyPoints": [
+            "Superposicion debe poder explicarse con una idea central y un limite claro.",
+            "Una buena fuente y una pregunta nueva valen mas que una respuesta decorativa.",
+            "La entrega esperada es: una ficha explicativa con concepto cuantico, analogia, limite, ejemplo de aplicacion y duda abierta.",
+            "El resultado debe invitar a seguir aprendiendo sin confundir divulgacion con certeza absoluta."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m2-l2",
+          "title": "Amplitudes",
+          "keyIdea": "Idea clave: Amplitudes ayuda a comprender un concepto complejo sin perder rigor ni depender de frases hechas.",
+          "shortTheory": "En esta leccion vas a trabajar \"Amplitudes\" dentro del modulo \"Superposicion y medicion\". El foco es distinguir observacion, explicacion, limite y fuente para construir una comprension honesta.",
+          "practicalExample": "Una persona escucha promesas sobre computacion cuantica y necesita separar conceptos reales, analogias utiles y exageraciones. Aplica \"Amplitudes\" con una version pequena: define contexto, accion principal, evidencia y proximo paso.",
+          "commonMistake": "El error comun es quedarse con una curiosidad superficial, repetir una analogia sin limites o usar una fuente llamativa pero poco confiable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe contexto, accion, evidencia, limite y proximo paso. Entrega esperada: una ficha explicativa con concepto cuantico, analogia, limite, ejemplo de aplicacion y duda abierta.",
+          "alert": "No asumir que lo cuantico resuelve cualquier problema ni confundir divulgacion con aplicacion inmediata.",
+          "keyPoints": [
+            "Amplitudes debe poder explicarse con una idea central y un limite claro.",
+            "Una buena fuente y una pregunta nueva valen mas que una respuesta decorativa.",
+            "La entrega esperada es: una ficha explicativa con concepto cuantico, analogia, limite, ejemplo de aplicacion y duda abierta.",
+            "El resultado debe invitar a seguir aprendiendo sin confundir divulgacion con certeza absoluta."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m2-l3",
+          "title": "Medicion",
+          "keyIdea": "Idea clave: Medicion ayuda a comprender un concepto complejo sin perder rigor ni depender de frases hechas.",
+          "shortTheory": "En esta leccion vas a trabajar \"Medicion\" dentro del modulo \"Superposicion y medicion\". El foco es distinguir observacion, explicacion, limite y fuente para construir una comprension honesta.",
+          "practicalExample": "Una persona escucha promesas sobre computacion cuantica y necesita separar conceptos reales, analogias utiles y exageraciones. Aplica \"Medicion\" con una version pequena: define contexto, accion principal, evidencia y proximo paso.",
+          "commonMistake": "El error comun es quedarse con una curiosidad superficial, repetir una analogia sin limites o usar una fuente llamativa pero poco confiable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe contexto, accion, evidencia, limite y proximo paso. Entrega esperada: una ficha explicativa con concepto cuantico, analogia, limite, ejemplo de aplicacion y duda abierta.",
+          "alert": "No asumir que lo cuantico resuelve cualquier problema ni confundir divulgacion con aplicacion inmediata.",
+          "keyPoints": [
+            "Medicion debe poder explicarse con una idea central y un limite claro.",
+            "Una buena fuente y una pregunta nueva valen mas que una respuesta decorativa.",
+            "La entrega esperada es: una ficha explicativa con concepto cuantico, analogia, limite, ejemplo de aplicacion y duda abierta.",
+            "El resultado debe invitar a seguir aprendiendo sin confundir divulgacion con certeza absoluta."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m2-l4",
+          "title": "Probabilidades",
+          "keyIdea": "Idea clave: Probabilidades ayuda a comprender un concepto complejo sin perder rigor ni depender de frases hechas.",
+          "shortTheory": "En esta leccion vas a trabajar \"Probabilidades\" dentro del modulo \"Superposicion y medicion\". El foco es distinguir observacion, explicacion, limite y fuente para construir una comprension honesta.",
+          "practicalExample": "Una persona escucha promesas sobre computacion cuantica y necesita separar conceptos reales, analogias utiles y exageraciones. Aplica \"Probabilidades\" con una version pequena: define contexto, accion principal, evidencia y proximo paso.",
+          "commonMistake": "El error comun es quedarse con una curiosidad superficial, repetir una analogia sin limites o usar una fuente llamativa pero poco confiable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe contexto, accion, evidencia, limite y proximo paso. Entrega esperada: una ficha explicativa con concepto cuantico, analogia, limite, ejemplo de aplicacion y duda abierta.",
+          "alert": "No asumir que lo cuantico resuelve cualquier problema ni confundir divulgacion con aplicacion inmediata.",
+          "keyPoints": [
+            "Probabilidades debe poder explicarse con una idea central y un limite claro.",
+            "Una buena fuente y una pregunta nueva valen mas que una respuesta decorativa.",
+            "La entrega esperada es: una ficha explicativa con concepto cuantico, analogia, limite, ejemplo de aplicacion y duda abierta.",
+            "El resultado debe invitar a seguir aprendiendo sin confundir divulgacion con certeza absoluta."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m2-l5",
+          "title": "Colapso como modelo",
+          "keyIdea": "Idea clave: Colapso como modelo ayuda a comprender un concepto complejo sin perder rigor ni depender de frases hechas.",
+          "shortTheory": "En esta leccion vas a trabajar \"Colapso como modelo\" dentro del modulo \"Superposicion y medicion\". El foco es distinguir observacion, explicacion, limite y fuente para construir una comprension honesta.",
+          "practicalExample": "Una persona escucha promesas sobre computacion cuantica y necesita separar conceptos reales, analogias utiles y exageraciones. Aplica \"Colapso como modelo\" con una version pequena: define contexto, accion principal, evidencia y proximo paso.",
+          "commonMistake": "El error comun es quedarse con una curiosidad superficial, repetir una analogia sin limites o usar una fuente llamativa pero poco confiable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe contexto, accion, evidencia, limite y proximo paso. Entrega esperada: una ficha explicativa con concepto cuantico, analogia, limite, ejemplo de aplicacion y duda abierta.",
+          "alert": "No asumir que lo cuantico resuelve cualquier problema ni confundir divulgacion con aplicacion inmediata.",
+          "keyPoints": [
+            "Colapso como modelo debe poder explicarse con una idea central y un limite claro.",
+            "Una buena fuente y una pregunta nueva valen mas que una respuesta decorativa.",
+            "La entrega esperada es: una ficha explicativa con concepto cuantico, analogia, limite, ejemplo de aplicacion y duda abierta.",
+            "El resultado debe invitar a seguir aprendiendo sin confundir divulgacion con certeza absoluta."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m2-l6",
+          "title": "Repetir experimentos",
+          "keyIdea": "Idea clave: Repetir experimentos ayuda a comprender un concepto complejo sin perder rigor ni depender de frases hechas.",
+          "shortTheory": "En esta leccion vas a trabajar \"Repetir experimentos\" dentro del modulo \"Superposicion y medicion\". El foco es distinguir observacion, explicacion, limite y fuente para construir una comprension honesta.",
+          "practicalExample": "Una persona escucha promesas sobre computacion cuantica y necesita separar conceptos reales, analogias utiles y exageraciones. Aplica \"Repetir experimentos\" con una version pequena: define contexto, accion principal, evidencia y proximo paso.",
+          "commonMistake": "El error comun es quedarse con una curiosidad superficial, repetir una analogia sin limites o usar una fuente llamativa pero poco confiable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe contexto, accion, evidencia, limite y proximo paso. Entrega esperada: una ficha explicativa con concepto cuantico, analogia, limite, ejemplo de aplicacion y duda abierta.",
+          "alert": "No asumir que lo cuantico resuelve cualquier problema ni confundir divulgacion con aplicacion inmediata.",
+          "keyPoints": [
+            "Repetir experimentos debe poder explicarse con una idea central y un limite claro.",
+            "Una buena fuente y una pregunta nueva valen mas que una respuesta decorativa.",
+            "La entrega esperada es: una ficha explicativa con concepto cuantico, analogia, limite, ejemplo de aplicacion y duda abierta.",
+            "El resultado debe invitar a seguir aprendiendo sin confundir divulgacion con certeza absoluta."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m2-q1",
+          "question": "Pregunta 1: ¿cual es una buena practica en ",
+          "options": [
+            "Relacionar amplitudes con probabilidades de medicion",
+            "Creer que se obtiene toda la informacion al medir",
+            "Usar lenguaje mistico",
+            "Confundir azar con magia"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        },
+        {
+          "id": "m2-q2",
+          "question": "Pregunta 2: ¿cual es una buena practica en ",
+          "options": [
+            "Relacionar amplitudes con probabilidades de medicion",
+            "Creer que se obtiene toda la informacion al medir",
+            "Usar lenguaje mistico",
+            "Confundir azar con magia"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        },
+        {
+          "id": "m2-q3",
+          "question": "Pregunta 3: ¿cual es una buena practica en ",
+          "options": [
+            "Relacionar amplitudes con probabilidades de medicion",
+            "Creer que se obtiene toda la informacion al medir",
+            "Usar lenguaje mistico",
+            "Confundir azar con magia"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        },
+        {
+          "id": "m2-q4",
+          "question": "Pregunta 4: ¿cual es una buena practica en ",
+          "options": [
+            "Relacionar amplitudes con probabilidades de medicion",
+            "Creer que se obtiene toda la informacion al medir",
+            "Usar lenguaje mistico",
+            "Confundir azar con magia"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        },
+        {
+          "id": "m2-q5",
+          "question": "Pregunta 5: ¿cual es una buena practica en ",
+          "options": [
+            "Relacionar amplitudes con probabilidades de medicion",
+            "Creer que se obtiene toda la informacion al medir",
+            "Usar lenguaje mistico",
+            "Confundir azar con magia"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        }
+      ],
+      "professionalOutcome": "comprender ideas basicas, reconocer usos posibles y detectar promesas poco serias. Entregable sugerido: una ficha conceptual con qubit, superposicion, medicion, caso de uso y limite."
+    },
+    {
+      "id": "m3",
+      "title": "Compuertas y circuitos",
+      "description": "En este modulo vas a trabajar \"Compuertas y circuitos\" dentro de computacion cuantica para curiosos, qubits, medicion, circuitos, entrelazamiento, algoritmos y hardware. La meta es entender una idea con fuentes confiables, explicarla con palabras propias y dejar una pregunta para seguir aprendiendo.",
+      "lessons": [
+        {
+          "id": "m3-l1",
+          "title": "Compuerta X",
+          "keyIdea": "Idea clave: Compuerta X ayuda a comprender un concepto complejo sin perder rigor ni depender de frases hechas.",
+          "shortTheory": "En esta leccion vas a trabajar \"Compuerta X\" dentro del modulo \"Compuertas y circuitos\". El foco es distinguir observacion, explicacion, limite y fuente para construir una comprension honesta.",
+          "practicalExample": "Una persona escucha promesas sobre computacion cuantica y necesita separar conceptos reales, analogias utiles y exageraciones. Aplica \"Compuerta X\" con una version pequena: define contexto, accion principal, evidencia y proximo paso.",
+          "commonMistake": "El error comun es quedarse con una curiosidad superficial, repetir una analogia sin limites o usar una fuente llamativa pero poco confiable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe contexto, accion, evidencia, limite y proximo paso. Entrega esperada: una ficha explicativa con concepto cuantico, analogia, limite, ejemplo de aplicacion y duda abierta.",
+          "alert": "No asumir que lo cuantico resuelve cualquier problema ni confundir divulgacion con aplicacion inmediata.",
+          "keyPoints": [
+            "Compuerta X debe poder explicarse con una idea central y un limite claro.",
+            "Una buena fuente y una pregunta nueva valen mas que una respuesta decorativa.",
+            "La entrega esperada es: una ficha explicativa con concepto cuantico, analogia, limite, ejemplo de aplicacion y duda abierta.",
+            "El resultado debe invitar a seguir aprendiendo sin confundir divulgacion con certeza absoluta."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m3-l2",
+          "title": "Compuerta H",
+          "keyIdea": "Idea clave: Compuerta H ayuda a comprender un concepto complejo sin perder rigor ni depender de frases hechas.",
+          "shortTheory": "En esta leccion vas a trabajar \"Compuerta H\" dentro del modulo \"Compuertas y circuitos\". El foco es distinguir observacion, explicacion, limite y fuente para construir una comprension honesta.",
+          "practicalExample": "Una persona escucha promesas sobre computacion cuantica y necesita separar conceptos reales, analogias utiles y exageraciones. Aplica \"Compuerta H\" con una version pequena: define contexto, accion principal, evidencia y proximo paso.",
+          "commonMistake": "El error comun es quedarse con una curiosidad superficial, repetir una analogia sin limites o usar una fuente llamativa pero poco confiable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe contexto, accion, evidencia, limite y proximo paso. Entrega esperada: una ficha explicativa con concepto cuantico, analogia, limite, ejemplo de aplicacion y duda abierta.",
+          "alert": "No asumir que lo cuantico resuelve cualquier problema ni confundir divulgacion con aplicacion inmediata.",
+          "keyPoints": [
+            "Compuerta H debe poder explicarse con una idea central y un limite claro.",
+            "Una buena fuente y una pregunta nueva valen mas que una respuesta decorativa.",
+            "La entrega esperada es: una ficha explicativa con concepto cuantico, analogia, limite, ejemplo de aplicacion y duda abierta.",
+            "El resultado debe invitar a seguir aprendiendo sin confundir divulgacion con certeza absoluta."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m3-l3",
+          "title": "Compuerta Z",
+          "keyIdea": "Idea clave: Compuerta Z ayuda a comprender un concepto complejo sin perder rigor ni depender de frases hechas.",
+          "shortTheory": "En esta leccion vas a trabajar \"Compuerta Z\" dentro del modulo \"Compuertas y circuitos\". El foco es distinguir observacion, explicacion, limite y fuente para construir una comprension honesta.",
+          "practicalExample": "Una persona escucha promesas sobre computacion cuantica y necesita separar conceptos reales, analogias utiles y exageraciones. Aplica \"Compuerta Z\" con una version pequena: define contexto, accion principal, evidencia y proximo paso.",
+          "commonMistake": "El error comun es quedarse con una curiosidad superficial, repetir una analogia sin limites o usar una fuente llamativa pero poco confiable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe contexto, accion, evidencia, limite y proximo paso. Entrega esperada: una ficha explicativa con concepto cuantico, analogia, limite, ejemplo de aplicacion y duda abierta.",
+          "alert": "No asumir que lo cuantico resuelve cualquier problema ni confundir divulgacion con aplicacion inmediata.",
+          "keyPoints": [
+            "Compuerta Z debe poder explicarse con una idea central y un limite claro.",
+            "Una buena fuente y una pregunta nueva valen mas que una respuesta decorativa.",
+            "La entrega esperada es: una ficha explicativa con concepto cuantico, analogia, limite, ejemplo de aplicacion y duda abierta.",
+            "El resultado debe invitar a seguir aprendiendo sin confundir divulgacion con certeza absoluta."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m3-l4",
+          "title": "CNOT",
+          "keyIdea": "Idea clave: CNOT ayuda a comprender un concepto complejo sin perder rigor ni depender de frases hechas.",
+          "shortTheory": "En esta leccion vas a trabajar \"CNOT\" dentro del modulo \"Compuertas y circuitos\". El foco es distinguir observacion, explicacion, limite y fuente para construir una comprension honesta.",
+          "practicalExample": "Una persona escucha promesas sobre computacion cuantica y necesita separar conceptos reales, analogias utiles y exageraciones. Aplica \"CNOT\" con una version pequena: define contexto, accion principal, evidencia y proximo paso.",
+          "commonMistake": "El error comun es quedarse con una curiosidad superficial, repetir una analogia sin limites o usar una fuente llamativa pero poco confiable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe contexto, accion, evidencia, limite y proximo paso. Entrega esperada: una ficha explicativa con concepto cuantico, analogia, limite, ejemplo de aplicacion y duda abierta.",
+          "alert": "No asumir que lo cuantico resuelve cualquier problema ni confundir divulgacion con aplicacion inmediata.",
+          "keyPoints": [
+            "CNOT debe poder explicarse con una idea central y un limite claro.",
+            "Una buena fuente y una pregunta nueva valen mas que una respuesta decorativa.",
+            "La entrega esperada es: una ficha explicativa con concepto cuantico, analogia, limite, ejemplo de aplicacion y duda abierta.",
+            "El resultado debe invitar a seguir aprendiendo sin confundir divulgacion con certeza absoluta."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m3-l5",
+          "title": "Circuitos simples",
+          "keyIdea": "Idea clave: Circuitos simples ayuda a comprender un concepto complejo sin perder rigor ni depender de frases hechas.",
+          "shortTheory": "En esta leccion vas a trabajar \"Circuitos simples\" dentro del modulo \"Compuertas y circuitos\". El foco es distinguir observacion, explicacion, limite y fuente para construir una comprension honesta.",
+          "practicalExample": "Una persona escucha promesas sobre computacion cuantica y necesita separar conceptos reales, analogias utiles y exageraciones. Aplica \"Circuitos simples\" con una version pequena: define contexto, accion principal, evidencia y proximo paso.",
+          "commonMistake": "El error comun es quedarse con una curiosidad superficial, repetir una analogia sin limites o usar una fuente llamativa pero poco confiable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe contexto, accion, evidencia, limite y proximo paso. Entrega esperada: una ficha explicativa con concepto cuantico, analogia, limite, ejemplo de aplicacion y duda abierta.",
+          "alert": "No asumir que lo cuantico resuelve cualquier problema ni confundir divulgacion con aplicacion inmediata.",
+          "keyPoints": [
+            "Circuitos simples debe poder explicarse con una idea central y un limite claro.",
+            "Una buena fuente y una pregunta nueva valen mas que una respuesta decorativa.",
+            "La entrega esperada es: una ficha explicativa con concepto cuantico, analogia, limite, ejemplo de aplicacion y duda abierta.",
+            "El resultado debe invitar a seguir aprendiendo sin confundir divulgacion con certeza absoluta."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m3-l6",
+          "title": "Medicion final",
+          "keyIdea": "Idea clave: Medicion final ayuda a comprender un concepto complejo sin perder rigor ni depender de frases hechas.",
+          "shortTheory": "En esta leccion vas a trabajar \"Medicion final\" dentro del modulo \"Compuertas y circuitos\". El foco es distinguir observacion, explicacion, limite y fuente para construir una comprension honesta.",
+          "practicalExample": "Una persona escucha promesas sobre computacion cuantica y necesita separar conceptos reales, analogias utiles y exageraciones. Aplica \"Medicion final\" con una version pequena: define contexto, accion principal, evidencia y proximo paso.",
+          "commonMistake": "El error comun es quedarse con una curiosidad superficial, repetir una analogia sin limites o usar una fuente llamativa pero poco confiable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe contexto, accion, evidencia, limite y proximo paso. Entrega esperada: una ficha explicativa con concepto cuantico, analogia, limite, ejemplo de aplicacion y duda abierta.",
+          "alert": "No asumir que lo cuantico resuelve cualquier problema ni confundir divulgacion con aplicacion inmediata.",
+          "keyPoints": [
+            "Medicion final debe poder explicarse con una idea central y un limite claro.",
+            "Una buena fuente y una pregunta nueva valen mas que una respuesta decorativa.",
+            "La entrega esperada es: una ficha explicativa con concepto cuantico, analogia, limite, ejemplo de aplicacion y duda abierta.",
+            "El resultado debe invitar a seguir aprendiendo sin confundir divulgacion con certeza absoluta."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m3-q1",
+          "question": "Pregunta 1: ¿cual es una buena practica en ",
+          "options": [
+            "Leer el circuito de izquierda a derecha y explicar cada operacion",
+            "Tratar compuertas como botones magicos",
+            "Ignorar orden",
+            "No distinguir control y objetivo"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        },
+        {
+          "id": "m3-q2",
+          "question": "Pregunta 2: ¿cual es una buena practica en ",
+          "options": [
+            "Leer el circuito de izquierda a derecha y explicar cada operacion",
+            "Tratar compuertas como botones magicos",
+            "Ignorar orden",
+            "No distinguir control y objetivo"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        },
+        {
+          "id": "m3-q3",
+          "question": "Pregunta 3: ¿cual es una buena practica en ",
+          "options": [
+            "Leer el circuito de izquierda a derecha y explicar cada operacion",
+            "Tratar compuertas como botones magicos",
+            "Ignorar orden",
+            "No distinguir control y objetivo"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        },
+        {
+          "id": "m3-q4",
+          "question": "Pregunta 4: ¿cual es una buena practica en ",
+          "options": [
+            "Leer el circuito de izquierda a derecha y explicar cada operacion",
+            "Tratar compuertas como botones magicos",
+            "Ignorar orden",
+            "No distinguir control y objetivo"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        },
+        {
+          "id": "m3-q5",
+          "question": "Pregunta 5: ¿cual es una buena practica en ",
+          "options": [
+            "Leer el circuito de izquierda a derecha y explicar cada operacion",
+            "Tratar compuertas como botones magicos",
+            "Ignorar orden",
+            "No distinguir control y objetivo"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        }
+      ],
+      "professionalOutcome": "comprender ideas basicas, reconocer usos posibles y detectar promesas poco serias. Entregable sugerido: una ficha conceptual con qubit, superposicion, medicion, caso de uso y limite."
+    },
+    {
+      "id": "m4",
+      "title": "Entrelazamiento",
+      "description": "En este modulo vas a trabajar \"Entrelazamiento\" dentro de computacion cuantica para curiosos, qubits, medicion, circuitos, entrelazamiento, algoritmos y hardware. La meta es entender una idea con fuentes confiables, explicarla con palabras propias y dejar una pregunta para seguir aprendiendo.",
+      "lessons": [
+        {
+          "id": "m4-l1",
+          "title": "Correlacion clasica",
+          "keyIdea": "Idea clave: Correlacion clasica ayuda a comprender un concepto complejo sin perder rigor ni depender de frases hechas.",
+          "shortTheory": "En esta leccion vas a trabajar \"Correlacion clasica\" dentro del modulo \"Entrelazamiento\". El foco es distinguir observacion, explicacion, limite y fuente para construir una comprension honesta.",
+          "practicalExample": "Una persona escucha promesas sobre computacion cuantica y necesita separar conceptos reales, analogias utiles y exageraciones. Aplica \"Correlacion clasica\" con una version pequena: define contexto, accion principal, evidencia y proximo paso.",
+          "commonMistake": "El error comun es quedarse con una curiosidad superficial, repetir una analogia sin limites o usar una fuente llamativa pero poco confiable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe contexto, accion, evidencia, limite y proximo paso. Entrega esperada: una ficha explicativa con concepto cuantico, analogia, limite, ejemplo de aplicacion y duda abierta.",
+          "alert": "No asumir que lo cuantico resuelve cualquier problema ni confundir divulgacion con aplicacion inmediata.",
+          "keyPoints": [
+            "Correlacion clasica debe poder explicarse con una idea central y un limite claro.",
+            "Una buena fuente y una pregunta nueva valen mas que una respuesta decorativa.",
+            "La entrega esperada es: una ficha explicativa con concepto cuantico, analogia, limite, ejemplo de aplicacion y duda abierta.",
+            "El resultado debe invitar a seguir aprendiendo sin confundir divulgacion con certeza absoluta."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m4-l2",
+          "title": "Entrelazamiento",
+          "keyIdea": "Idea clave: Entrelazamiento ayuda a comprender un concepto complejo sin perder rigor ni depender de frases hechas.",
+          "shortTheory": "En esta leccion vas a trabajar \"Entrelazamiento\" dentro del modulo \"Entrelazamiento\". El foco es distinguir observacion, explicacion, limite y fuente para construir una comprension honesta.",
+          "practicalExample": "Una persona escucha promesas sobre computacion cuantica y necesita separar conceptos reales, analogias utiles y exageraciones. Aplica \"Entrelazamiento\" con una version pequena: define contexto, accion principal, evidencia y proximo paso.",
+          "commonMistake": "El error comun es quedarse con una curiosidad superficial, repetir una analogia sin limites o usar una fuente llamativa pero poco confiable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe contexto, accion, evidencia, limite y proximo paso. Entrega esperada: una ficha explicativa con concepto cuantico, analogia, limite, ejemplo de aplicacion y duda abierta.",
+          "alert": "No asumir que lo cuantico resuelve cualquier problema ni confundir divulgacion con aplicacion inmediata.",
+          "keyPoints": [
+            "Entrelazamiento debe poder explicarse con una idea central y un limite claro.",
+            "Una buena fuente y una pregunta nueva valen mas que una respuesta decorativa.",
+            "La entrega esperada es: una ficha explicativa con concepto cuantico, analogia, limite, ejemplo de aplicacion y duda abierta.",
+            "El resultado debe invitar a seguir aprendiendo sin confundir divulgacion con certeza absoluta."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m4-l3",
+          "title": "Pares de qubits",
+          "keyIdea": "Idea clave: Pares de qubits ayuda a comprender un concepto complejo sin perder rigor ni depender de frases hechas.",
+          "shortTheory": "En esta leccion vas a trabajar \"Pares de qubits\" dentro del modulo \"Entrelazamiento\". El foco es distinguir observacion, explicacion, limite y fuente para construir una comprension honesta.",
+          "practicalExample": "Una persona escucha promesas sobre computacion cuantica y necesita separar conceptos reales, analogias utiles y exageraciones. Aplica \"Pares de qubits\" con una version pequena: define contexto, accion principal, evidencia y proximo paso.",
+          "commonMistake": "El error comun es quedarse con una curiosidad superficial, repetir una analogia sin limites o usar una fuente llamativa pero poco confiable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe contexto, accion, evidencia, limite y proximo paso. Entrega esperada: una ficha explicativa con concepto cuantico, analogia, limite, ejemplo de aplicacion y duda abierta.",
+          "alert": "No asumir que lo cuantico resuelve cualquier problema ni confundir divulgacion con aplicacion inmediata.",
+          "keyPoints": [
+            "Pares de qubits debe poder explicarse con una idea central y un limite claro.",
+            "Una buena fuente y una pregunta nueva valen mas que una respuesta decorativa.",
+            "La entrega esperada es: una ficha explicativa con concepto cuantico, analogia, limite, ejemplo de aplicacion y duda abierta.",
+            "El resultado debe invitar a seguir aprendiendo sin confundir divulgacion con certeza absoluta."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m4-l4",
+          "title": "Mediciones correlacionadas",
+          "keyIdea": "Idea clave: Mediciones correlacionadas ayuda a comprender un concepto complejo sin perder rigor ni depender de frases hechas.",
+          "shortTheory": "En esta leccion vas a trabajar \"Mediciones correlacionadas\" dentro del modulo \"Entrelazamiento\". El foco es distinguir observacion, explicacion, limite y fuente para construir una comprension honesta.",
+          "practicalExample": "Una persona escucha promesas sobre computacion cuantica y necesita separar conceptos reales, analogias utiles y exageraciones. Aplica \"Mediciones correlacionadas\" con una version pequena: define contexto, accion principal, evidencia y proximo paso.",
+          "commonMistake": "El error comun es quedarse con una curiosidad superficial, repetir una analogia sin limites o usar una fuente llamativa pero poco confiable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe contexto, accion, evidencia, limite y proximo paso. Entrega esperada: una ficha explicativa con concepto cuantico, analogia, limite, ejemplo de aplicacion y duda abierta.",
+          "alert": "No asumir que lo cuantico resuelve cualquier problema ni confundir divulgacion con aplicacion inmediata.",
+          "keyPoints": [
+            "Mediciones correlacionadas debe poder explicarse con una idea central y un limite claro.",
+            "Una buena fuente y una pregunta nueva valen mas que una respuesta decorativa.",
+            "La entrega esperada es: una ficha explicativa con concepto cuantico, analogia, limite, ejemplo de aplicacion y duda abierta.",
+            "El resultado debe invitar a seguir aprendiendo sin confundir divulgacion con certeza absoluta."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m4-l5",
+          "title": "No comunicacion instantanea",
+          "keyIdea": "Idea clave: No comunicacion instantanea ayuda a comprender un concepto complejo sin perder rigor ni depender de frases hechas.",
+          "shortTheory": "En esta leccion vas a trabajar \"No comunicacion instantanea\" dentro del modulo \"Entrelazamiento\". El foco es distinguir observacion, explicacion, limite y fuente para construir una comprension honesta.",
+          "practicalExample": "Una persona escucha promesas sobre computacion cuantica y necesita separar conceptos reales, analogias utiles y exageraciones. Aplica \"No comunicacion instantanea\" con una version pequena: define contexto, accion principal, evidencia y proximo paso.",
+          "commonMistake": "El error comun es quedarse con una curiosidad superficial, repetir una analogia sin limites o usar una fuente llamativa pero poco confiable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe contexto, accion, evidencia, limite y proximo paso. Entrega esperada: una ficha explicativa con concepto cuantico, analogia, limite, ejemplo de aplicacion y duda abierta.",
+          "alert": "No asumir que lo cuantico resuelve cualquier problema ni confundir divulgacion con aplicacion inmediata.",
+          "keyPoints": [
+            "No comunicacion instantanea debe poder explicarse con una idea central y un limite claro.",
+            "Una buena fuente y una pregunta nueva valen mas que una respuesta decorativa.",
+            "La entrega esperada es: una ficha explicativa con concepto cuantico, analogia, limite, ejemplo de aplicacion y duda abierta.",
+            "El resultado debe invitar a seguir aprendiendo sin confundir divulgacion con certeza absoluta."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m4-l6",
+          "title": "Usos computacionales",
+          "keyIdea": "Idea clave: Usos computacionales ayuda a comprender un concepto complejo sin perder rigor ni depender de frases hechas.",
+          "shortTheory": "En esta leccion vas a trabajar \"Usos computacionales\" dentro del modulo \"Entrelazamiento\". El foco es distinguir observacion, explicacion, limite y fuente para construir una comprension honesta.",
+          "practicalExample": "Una persona escucha promesas sobre computacion cuantica y necesita separar conceptos reales, analogias utiles y exageraciones. Aplica \"Usos computacionales\" con una version pequena: define contexto, accion principal, evidencia y proximo paso.",
+          "commonMistake": "El error comun es quedarse con una curiosidad superficial, repetir una analogia sin limites o usar una fuente llamativa pero poco confiable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe contexto, accion, evidencia, limite y proximo paso. Entrega esperada: una ficha explicativa con concepto cuantico, analogia, limite, ejemplo de aplicacion y duda abierta.",
+          "alert": "No asumir que lo cuantico resuelve cualquier problema ni confundir divulgacion con aplicacion inmediata.",
+          "keyPoints": [
+            "Usos computacionales debe poder explicarse con una idea central y un limite claro.",
+            "Una buena fuente y una pregunta nueva valen mas que una respuesta decorativa.",
+            "La entrega esperada es: una ficha explicativa con concepto cuantico, analogia, limite, ejemplo de aplicacion y duda abierta.",
+            "El resultado debe invitar a seguir aprendiendo sin confundir divulgacion con certeza absoluta."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m4-q1",
+          "question": "Pregunta 1: ¿cual es una buena practica en ",
+          "options": [
+            "Explicar correlacion sin afirmar comunicacion mas rapida que la luz",
+            "Decir que permite mandar mensajes instantaneos",
+            "Confundirlo con telepatia",
+            "Ignorar condiciones experimentales"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        },
+        {
+          "id": "m4-q2",
+          "question": "Pregunta 2: ¿cual es una buena practica en ",
+          "options": [
+            "Explicar correlacion sin afirmar comunicacion mas rapida que la luz",
+            "Decir que permite mandar mensajes instantaneos",
+            "Confundirlo con telepatia",
+            "Ignorar condiciones experimentales"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        },
+        {
+          "id": "m4-q3",
+          "question": "Pregunta 3: ¿cual es una buena practica en ",
+          "options": [
+            "Explicar correlacion sin afirmar comunicacion mas rapida que la luz",
+            "Decir que permite mandar mensajes instantaneos",
+            "Confundirlo con telepatia",
+            "Ignorar condiciones experimentales"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        },
+        {
+          "id": "m4-q4",
+          "question": "Pregunta 4: ¿cual es una buena practica en ",
+          "options": [
+            "Explicar correlacion sin afirmar comunicacion mas rapida que la luz",
+            "Decir que permite mandar mensajes instantaneos",
+            "Confundirlo con telepatia",
+            "Ignorar condiciones experimentales"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        },
+        {
+          "id": "m4-q5",
+          "question": "Pregunta 5: ¿cual es una buena practica en ",
+          "options": [
+            "Explicar correlacion sin afirmar comunicacion mas rapida que la luz",
+            "Decir que permite mandar mensajes instantaneos",
+            "Confundirlo con telepatia",
+            "Ignorar condiciones experimentales"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        }
+      ],
+      "professionalOutcome": "comprender ideas basicas, reconocer usos posibles y detectar promesas poco serias. Entregable sugerido: una ficha conceptual con qubit, superposicion, medicion, caso de uso y limite."
+    },
+    {
+      "id": "m5",
+      "title": "Algoritmos y aplicaciones",
+      "description": "En este modulo vas a trabajar \"Algoritmos y aplicaciones\" dentro de computacion cuantica para curiosos, qubits, medicion, circuitos, entrelazamiento, algoritmos y hardware. La meta es entender una idea con fuentes confiables, explicarla con palabras propias y dejar una pregunta para seguir aprendiendo.",
+      "lessons": [
+        {
+          "id": "m5-l1",
+          "title": "Ventaja cuantica",
+          "keyIdea": "Idea clave: Ventaja cuantica ayuda a comprender un concepto complejo sin perder rigor ni depender de frases hechas.",
+          "shortTheory": "En esta leccion vas a trabajar \"Ventaja cuantica\" dentro del modulo \"Algoritmos y aplicaciones\". El foco es distinguir observacion, explicacion, limite y fuente para construir una comprension honesta.",
+          "practicalExample": "Una persona escucha promesas sobre computacion cuantica y necesita separar conceptos reales, analogias utiles y exageraciones. Aplica \"Ventaja cuantica\" con una version pequena: define contexto, accion principal, evidencia y proximo paso.",
+          "commonMistake": "El error comun es quedarse con una curiosidad superficial, repetir una analogia sin limites o usar una fuente llamativa pero poco confiable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe contexto, accion, evidencia, limite y proximo paso. Entrega esperada: una ficha explicativa con concepto cuantico, analogia, limite, ejemplo de aplicacion y duda abierta.",
+          "alert": "No asumir que lo cuantico resuelve cualquier problema ni confundir divulgacion con aplicacion inmediata.",
+          "keyPoints": [
+            "Ventaja cuantica debe poder explicarse con una idea central y un limite claro.",
+            "Una buena fuente y una pregunta nueva valen mas que una respuesta decorativa.",
+            "La entrega esperada es: una ficha explicativa con concepto cuantico, analogia, limite, ejemplo de aplicacion y duda abierta.",
+            "El resultado debe invitar a seguir aprendiendo sin confundir divulgacion con certeza absoluta."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m5-l2",
+          "title": "Busqueda de Grover",
+          "keyIdea": "Idea clave: Busqueda de Grover ayuda a comprender un concepto complejo sin perder rigor ni depender de frases hechas.",
+          "shortTheory": "En esta leccion vas a trabajar \"Busqueda de Grover\" dentro del modulo \"Algoritmos y aplicaciones\". El foco es distinguir observacion, explicacion, limite y fuente para construir una comprension honesta.",
+          "practicalExample": "Una persona escucha promesas sobre computacion cuantica y necesita separar conceptos reales, analogias utiles y exageraciones. Aplica \"Busqueda de Grover\" con una version pequena: define contexto, accion principal, evidencia y proximo paso.",
+          "commonMistake": "El error comun es quedarse con una curiosidad superficial, repetir una analogia sin limites o usar una fuente llamativa pero poco confiable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe contexto, accion, evidencia, limite y proximo paso. Entrega esperada: una ficha explicativa con concepto cuantico, analogia, limite, ejemplo de aplicacion y duda abierta.",
+          "alert": "No asumir que lo cuantico resuelve cualquier problema ni confundir divulgacion con aplicacion inmediata.",
+          "keyPoints": [
+            "Busqueda de Grover debe poder explicarse con una idea central y un limite claro.",
+            "Una buena fuente y una pregunta nueva valen mas que una respuesta decorativa.",
+            "La entrega esperada es: una ficha explicativa con concepto cuantico, analogia, limite, ejemplo de aplicacion y duda abierta.",
+            "El resultado debe invitar a seguir aprendiendo sin confundir divulgacion con certeza absoluta."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m5-l3",
+          "title": "Factorizacion de Shor",
+          "keyIdea": "Idea clave: Factorizacion de Shor ayuda a comprender un concepto complejo sin perder rigor ni depender de frases hechas.",
+          "shortTheory": "En esta leccion vas a trabajar \"Factorizacion de Shor\" dentro del modulo \"Algoritmos y aplicaciones\". El foco es distinguir observacion, explicacion, limite y fuente para construir una comprension honesta.",
+          "practicalExample": "Una persona escucha promesas sobre computacion cuantica y necesita separar conceptos reales, analogias utiles y exageraciones. Aplica \"Factorizacion de Shor\" con una version pequena: define contexto, accion principal, evidencia y proximo paso.",
+          "commonMistake": "El error comun es quedarse con una curiosidad superficial, repetir una analogia sin limites o usar una fuente llamativa pero poco confiable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe contexto, accion, evidencia, limite y proximo paso. Entrega esperada: una ficha explicativa con concepto cuantico, analogia, limite, ejemplo de aplicacion y duda abierta.",
+          "alert": "No asumir que lo cuantico resuelve cualquier problema ni confundir divulgacion con aplicacion inmediata.",
+          "keyPoints": [
+            "Factorizacion de Shor debe poder explicarse con una idea central y un limite claro.",
+            "Una buena fuente y una pregunta nueva valen mas que una respuesta decorativa.",
+            "La entrega esperada es: una ficha explicativa con concepto cuantico, analogia, limite, ejemplo de aplicacion y duda abierta.",
+            "El resultado debe invitar a seguir aprendiendo sin confundir divulgacion con certeza absoluta."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m5-l4",
+          "title": "Simulacion cuantica",
+          "keyIdea": "Idea clave: Simulacion cuantica ayuda a comprender un concepto complejo sin perder rigor ni depender de frases hechas.",
+          "shortTheory": "En esta leccion vas a trabajar \"Simulacion cuantica\" dentro del modulo \"Algoritmos y aplicaciones\". El foco es distinguir observacion, explicacion, limite y fuente para construir una comprension honesta.",
+          "practicalExample": "Una persona escucha promesas sobre computacion cuantica y necesita separar conceptos reales, analogias utiles y exageraciones. Aplica \"Simulacion cuantica\" con una version pequena: define contexto, accion principal, evidencia y proximo paso.",
+          "commonMistake": "El error comun es quedarse con una curiosidad superficial, repetir una analogia sin limites o usar una fuente llamativa pero poco confiable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe contexto, accion, evidencia, limite y proximo paso. Entrega esperada: una ficha explicativa con concepto cuantico, analogia, limite, ejemplo de aplicacion y duda abierta.",
+          "alert": "No asumir que lo cuantico resuelve cualquier problema ni confundir divulgacion con aplicacion inmediata.",
+          "keyPoints": [
+            "Simulacion cuantica debe poder explicarse con una idea central y un limite claro.",
+            "Una buena fuente y una pregunta nueva valen mas que una respuesta decorativa.",
+            "La entrega esperada es: una ficha explicativa con concepto cuantico, analogia, limite, ejemplo de aplicacion y duda abierta.",
+            "El resultado debe invitar a seguir aprendiendo sin confundir divulgacion con certeza absoluta."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m5-l5",
+          "title": "Optimizacion con cautela",
+          "keyIdea": "Idea clave: Optimizacion con cautela ayuda a comprender un concepto complejo sin perder rigor ni depender de frases hechas.",
+          "shortTheory": "En esta leccion vas a trabajar \"Optimizacion con cautela\" dentro del modulo \"Algoritmos y aplicaciones\". El foco es distinguir observacion, explicacion, limite y fuente para construir una comprension honesta.",
+          "practicalExample": "Una persona escucha promesas sobre computacion cuantica y necesita separar conceptos reales, analogias utiles y exageraciones. Aplica \"Optimizacion con cautela\" con una version pequena: define contexto, accion principal, evidencia y proximo paso.",
+          "commonMistake": "El error comun es quedarse con una curiosidad superficial, repetir una analogia sin limites o usar una fuente llamativa pero poco confiable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe contexto, accion, evidencia, limite y proximo paso. Entrega esperada: una ficha explicativa con concepto cuantico, analogia, limite, ejemplo de aplicacion y duda abierta.",
+          "alert": "No asumir que lo cuantico resuelve cualquier problema ni confundir divulgacion con aplicacion inmediata.",
+          "keyPoints": [
+            "Optimizacion con cautela debe poder explicarse con una idea central y un limite claro.",
+            "Una buena fuente y una pregunta nueva valen mas que una respuesta decorativa.",
+            "La entrega esperada es: una ficha explicativa con concepto cuantico, analogia, limite, ejemplo de aplicacion y duda abierta.",
+            "El resultado debe invitar a seguir aprendiendo sin confundir divulgacion con certeza absoluta."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m5-l6",
+          "title": "Criptografia postcuantica",
+          "keyIdea": "Idea clave: Criptografia postcuantica ayuda a comprender un concepto complejo sin perder rigor ni depender de frases hechas.",
+          "shortTheory": "En esta leccion vas a trabajar \"Criptografia postcuantica\" dentro del modulo \"Algoritmos y aplicaciones\". El foco es distinguir observacion, explicacion, limite y fuente para construir una comprension honesta.",
+          "practicalExample": "Una persona escucha promesas sobre computacion cuantica y necesita separar conceptos reales, analogias utiles y exageraciones. Aplica \"Criptografia postcuantica\" con una version pequena: define contexto, accion principal, evidencia y proximo paso.",
+          "commonMistake": "El error comun es quedarse con una curiosidad superficial, repetir una analogia sin limites o usar una fuente llamativa pero poco confiable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe contexto, accion, evidencia, limite y proximo paso. Entrega esperada: una ficha explicativa con concepto cuantico, analogia, limite, ejemplo de aplicacion y duda abierta.",
+          "alert": "No asumir que lo cuantico resuelve cualquier problema ni confundir divulgacion con aplicacion inmediata.",
+          "keyPoints": [
+            "Criptografia postcuantica debe poder explicarse con una idea central y un limite claro.",
+            "Una buena fuente y una pregunta nueva valen mas que una respuesta decorativa.",
+            "La entrega esperada es: una ficha explicativa con concepto cuantico, analogia, limite, ejemplo de aplicacion y duda abierta.",
+            "El resultado debe invitar a seguir aprendiendo sin confundir divulgacion con certeza absoluta."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m5-q1",
+          "question": "Pregunta 1: ¿cual es una buena practica en ",
+          "options": [
+            "Separar casos donde hay ventaja conocida de promesas especulativas",
+            "Afirmar que todo sera mas rapido",
+            "Ignorar costos de error",
+            "Confundir algoritmo con hardware disponible"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        },
+        {
+          "id": "m5-q2",
+          "question": "Pregunta 2: ¿cual es una buena practica en ",
+          "options": [
+            "Separar casos donde hay ventaja conocida de promesas especulativas",
+            "Afirmar que todo sera mas rapido",
+            "Ignorar costos de error",
+            "Confundir algoritmo con hardware disponible"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        },
+        {
+          "id": "m5-q3",
+          "question": "Pregunta 3: ¿cual es una buena practica en ",
+          "options": [
+            "Separar casos donde hay ventaja conocida de promesas especulativas",
+            "Afirmar que todo sera mas rapido",
+            "Ignorar costos de error",
+            "Confundir algoritmo con hardware disponible"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        },
+        {
+          "id": "m5-q4",
+          "question": "Pregunta 4: ¿cual es una buena practica en ",
+          "options": [
+            "Separar casos donde hay ventaja conocida de promesas especulativas",
+            "Afirmar que todo sera mas rapido",
+            "Ignorar costos de error",
+            "Confundir algoritmo con hardware disponible"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        },
+        {
+          "id": "m5-q5",
+          "question": "Pregunta 5: ¿cual es una buena practica en ",
+          "options": [
+            "Separar casos donde hay ventaja conocida de promesas especulativas",
+            "Afirmar que todo sera mas rapido",
+            "Ignorar costos de error",
+            "Confundir algoritmo con hardware disponible"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        }
+      ],
+      "professionalOutcome": "comprender ideas basicas, reconocer usos posibles y detectar promesas poco serias. Entregable sugerido: una ficha conceptual con qubit, superposicion, medicion, caso de uso y limite."
+    },
+    {
+      "id": "m6",
+      "title": "Hardware, ruido y futuro",
+      "description": "En este modulo vas a trabajar \"Hardware, ruido y futuro\" dentro de computacion cuantica para curiosos, qubits, medicion, circuitos, entrelazamiento, algoritmos y hardware. La meta es entender una idea con fuentes confiables, explicarla con palabras propias y dejar una pregunta para seguir aprendiendo.",
+      "lessons": [
+        {
+          "id": "m6-l1",
+          "title": "Qubits fisicos",
+          "keyIdea": "Idea clave: Qubits fisicos ayuda a comprender un concepto complejo sin perder rigor ni depender de frases hechas.",
+          "shortTheory": "En esta leccion vas a trabajar \"Qubits fisicos\" dentro del modulo \"Hardware, ruido y futuro\". El foco es distinguir observacion, explicacion, limite y fuente para construir una comprension honesta.",
+          "practicalExample": "Una persona escucha promesas sobre computacion cuantica y necesita separar conceptos reales, analogias utiles y exageraciones. Aplica \"Qubits fisicos\" con una version pequena: define contexto, accion principal, evidencia y proximo paso.",
+          "commonMistake": "El error comun es quedarse con una curiosidad superficial, repetir una analogia sin limites o usar una fuente llamativa pero poco confiable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe contexto, accion, evidencia, limite y proximo paso. Entrega esperada: una ficha explicativa con concepto cuantico, analogia, limite, ejemplo de aplicacion y duda abierta.",
+          "alert": "No asumir que lo cuantico resuelve cualquier problema ni confundir divulgacion con aplicacion inmediata.",
+          "keyPoints": [
+            "Qubits fisicos debe poder explicarse con una idea central y un limite claro.",
+            "Una buena fuente y una pregunta nueva valen mas que una respuesta decorativa.",
+            "La entrega esperada es: una ficha explicativa con concepto cuantico, analogia, limite, ejemplo de aplicacion y duda abierta.",
+            "El resultado debe invitar a seguir aprendiendo sin confundir divulgacion con certeza absoluta."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m6-l2",
+          "title": "Ruido",
+          "keyIdea": "Idea clave: Ruido ayuda a comprender un concepto complejo sin perder rigor ni depender de frases hechas.",
+          "shortTheory": "En esta leccion vas a trabajar \"Ruido\" dentro del modulo \"Hardware, ruido y futuro\". El foco es distinguir observacion, explicacion, limite y fuente para construir una comprension honesta.",
+          "practicalExample": "Una persona escucha promesas sobre computacion cuantica y necesita separar conceptos reales, analogias utiles y exageraciones. Aplica \"Ruido\" con una version pequena: define contexto, accion principal, evidencia y proximo paso.",
+          "commonMistake": "El error comun es quedarse con una curiosidad superficial, repetir una analogia sin limites o usar una fuente llamativa pero poco confiable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe contexto, accion, evidencia, limite y proximo paso. Entrega esperada: una ficha explicativa con concepto cuantico, analogia, limite, ejemplo de aplicacion y duda abierta.",
+          "alert": "No asumir que lo cuantico resuelve cualquier problema ni confundir divulgacion con aplicacion inmediata.",
+          "keyPoints": [
+            "Ruido debe poder explicarse con una idea central y un limite claro.",
+            "Una buena fuente y una pregunta nueva valen mas que una respuesta decorativa.",
+            "La entrega esperada es: una ficha explicativa con concepto cuantico, analogia, limite, ejemplo de aplicacion y duda abierta.",
+            "El resultado debe invitar a seguir aprendiendo sin confundir divulgacion con certeza absoluta."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m6-l3",
+          "title": "Decoherencia",
+          "keyIdea": "Idea clave: Decoherencia ayuda a comprender un concepto complejo sin perder rigor ni depender de frases hechas.",
+          "shortTheory": "En esta leccion vas a trabajar \"Decoherencia\" dentro del modulo \"Hardware, ruido y futuro\". El foco es distinguir observacion, explicacion, limite y fuente para construir una comprension honesta.",
+          "practicalExample": "Una persona escucha promesas sobre computacion cuantica y necesita separar conceptos reales, analogias utiles y exageraciones. Aplica \"Decoherencia\" con una version pequena: define contexto, accion principal, evidencia y proximo paso.",
+          "commonMistake": "El error comun es quedarse con una curiosidad superficial, repetir una analogia sin limites o usar una fuente llamativa pero poco confiable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe contexto, accion, evidencia, limite y proximo paso. Entrega esperada: una ficha explicativa con concepto cuantico, analogia, limite, ejemplo de aplicacion y duda abierta.",
+          "alert": "No asumir que lo cuantico resuelve cualquier problema ni confundir divulgacion con aplicacion inmediata.",
+          "keyPoints": [
+            "Decoherencia debe poder explicarse con una idea central y un limite claro.",
+            "Una buena fuente y una pregunta nueva valen mas que una respuesta decorativa.",
+            "La entrega esperada es: una ficha explicativa con concepto cuantico, analogia, limite, ejemplo de aplicacion y duda abierta.",
+            "El resultado debe invitar a seguir aprendiendo sin confundir divulgacion con certeza absoluta."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m6-l4",
+          "title": "Correccion de errores",
+          "keyIdea": "Idea clave: Correccion de errores ayuda a comprender un concepto complejo sin perder rigor ni depender de frases hechas.",
+          "shortTheory": "En esta leccion vas a trabajar \"Correccion de errores\" dentro del modulo \"Hardware, ruido y futuro\". El foco es distinguir observacion, explicacion, limite y fuente para construir una comprension honesta.",
+          "practicalExample": "Una persona escucha promesas sobre computacion cuantica y necesita separar conceptos reales, analogias utiles y exageraciones. Aplica \"Correccion de errores\" con una version pequena: define contexto, accion principal, evidencia y proximo paso.",
+          "commonMistake": "El error comun es quedarse con una curiosidad superficial, repetir una analogia sin limites o usar una fuente llamativa pero poco confiable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe contexto, accion, evidencia, limite y proximo paso. Entrega esperada: una ficha explicativa con concepto cuantico, analogia, limite, ejemplo de aplicacion y duda abierta.",
+          "alert": "No asumir que lo cuantico resuelve cualquier problema ni confundir divulgacion con aplicacion inmediata.",
+          "keyPoints": [
+            "Correccion de errores debe poder explicarse con una idea central y un limite claro.",
+            "Una buena fuente y una pregunta nueva valen mas que una respuesta decorativa.",
+            "La entrega esperada es: una ficha explicativa con concepto cuantico, analogia, limite, ejemplo de aplicacion y duda abierta.",
+            "El resultado debe invitar a seguir aprendiendo sin confundir divulgacion con certeza absoluta."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m6-l5",
+          "title": "NISQ",
+          "keyIdea": "Idea clave: NISQ ayuda a comprender un concepto complejo sin perder rigor ni depender de frases hechas.",
+          "shortTheory": "En esta leccion vas a trabajar \"NISQ\" dentro del modulo \"Hardware, ruido y futuro\". El foco es distinguir observacion, explicacion, limite y fuente para construir una comprension honesta.",
+          "practicalExample": "Una persona escucha promesas sobre computacion cuantica y necesita separar conceptos reales, analogias utiles y exageraciones. Aplica \"NISQ\" con una version pequena: define contexto, accion principal, evidencia y proximo paso.",
+          "commonMistake": "El error comun es quedarse con una curiosidad superficial, repetir una analogia sin limites o usar una fuente llamativa pero poco confiable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe contexto, accion, evidencia, limite y proximo paso. Entrega esperada: una ficha explicativa con concepto cuantico, analogia, limite, ejemplo de aplicacion y duda abierta.",
+          "alert": "No asumir que lo cuantico resuelve cualquier problema ni confundir divulgacion con aplicacion inmediata.",
+          "keyPoints": [
+            "NISQ debe poder explicarse con una idea central y un limite claro.",
+            "Una buena fuente y una pregunta nueva valen mas que una respuesta decorativa.",
+            "La entrega esperada es: una ficha explicativa con concepto cuantico, analogia, limite, ejemplo de aplicacion y duda abierta.",
+            "El resultado debe invitar a seguir aprendiendo sin confundir divulgacion con certeza absoluta."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m6-l6",
+          "title": "Ruta de aprendizaje",
+          "keyIdea": "Idea clave: Ruta de aprendizaje ayuda a comprender un concepto complejo sin perder rigor ni depender de frases hechas.",
+          "shortTheory": "En esta leccion vas a trabajar \"Ruta de aprendizaje\" dentro del modulo \"Hardware, ruido y futuro\". El foco es distinguir observacion, explicacion, limite y fuente para construir una comprension honesta.",
+          "practicalExample": "Una persona escucha promesas sobre computacion cuantica y necesita separar conceptos reales, analogias utiles y exageraciones. Aplica \"Ruta de aprendizaje\" con una version pequena: define contexto, accion principal, evidencia y proximo paso.",
+          "commonMistake": "El error comun es quedarse con una curiosidad superficial, repetir una analogia sin limites o usar una fuente llamativa pero poco confiable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe contexto, accion, evidencia, limite y proximo paso. Entrega esperada: una ficha explicativa con concepto cuantico, analogia, limite, ejemplo de aplicacion y duda abierta.",
+          "alert": "No asumir que lo cuantico resuelve cualquier problema ni confundir divulgacion con aplicacion inmediata.",
+          "keyPoints": [
+            "Ruta de aprendizaje debe poder explicarse con una idea central y un limite claro.",
+            "Una buena fuente y una pregunta nueva valen mas que una respuesta decorativa.",
+            "La entrega esperada es: una ficha explicativa con concepto cuantico, analogia, limite, ejemplo de aplicacion y duda abierta.",
+            "El resultado debe invitar a seguir aprendiendo sin confundir divulgacion con certeza absoluta."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m6-q1",
+          "question": "Pregunta 1: ¿cual es una buena practica en ",
+          "options": [
+            "Reconocer limites actuales y necesidad de correccion de errores",
+            "Vender resultados garantizados actuales",
+            "Ignorar ruido",
+            "Confundir prototipo con producto masivo"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        },
+        {
+          "id": "m6-q2",
+          "question": "Pregunta 2: ¿cual es una buena practica en ",
+          "options": [
+            "Reconocer limites actuales y necesidad de correccion de errores",
+            "Vender resultados garantizados actuales",
+            "Ignorar ruido",
+            "Confundir prototipo con producto masivo"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        },
+        {
+          "id": "m6-q3",
+          "question": "Pregunta 3: ¿cual es una buena practica en ",
+          "options": [
+            "Reconocer limites actuales y necesidad de correccion de errores",
+            "Vender resultados garantizados actuales",
+            "Ignorar ruido",
+            "Confundir prototipo con producto masivo"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        },
+        {
+          "id": "m6-q4",
+          "question": "Pregunta 4: ¿cual es una buena practica en ",
+          "options": [
+            "Reconocer limites actuales y necesidad de correccion de errores",
+            "Vender resultados garantizados actuales",
+            "Ignorar ruido",
+            "Confundir prototipo con producto masivo"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        },
+        {
+          "id": "m6-q5",
+          "question": "Pregunta 5: ¿cual es una buena practica en ",
+          "options": [
+            "Reconocer limites actuales y necesidad de correccion de errores",
+            "Vender resultados garantizados actuales",
+            "Ignorar ruido",
+            "Confundir prototipo con producto masivo"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        }
+      ],
+      "professionalOutcome": "comprender ideas basicas, reconocer usos posibles y detectar promesas poco serias. Entregable sugerido: una ficha conceptual con qubit, superposicion, medicion, caso de uso y limite."
+    }
+  ],
+  "appName": "Computacion Cuantica para Curiosos",
+  "professionalization": {
+    "tier": "curso-bandera-v1.0-beta",
+    "updatedAt": "2026-05-28",
+    "focus": "Profundizacion visible de lecciones, practicas, checklists y casos."
+  },
+  "editorialPolish": {
+    "fifthEditorialBatch": "2026-06-02",
+    "status": "public-facing-copy-polished"
+  }
+}

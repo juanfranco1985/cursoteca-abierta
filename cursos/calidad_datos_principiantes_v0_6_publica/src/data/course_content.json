@@ -1,0 +1,1056 @@
+{
+  "courseId": "calidad-datos-principiantes",
+  "title": "Calidad de Datos para Principiantes",
+  "version": "0.6-publica",
+  "publicationStatus": "publica-profesional-v0.6",
+  "modules": [
+    {
+      "id": "m1",
+      "title": "Que es calidad de datos",
+      "description": "En este modulo vas a trabajar \"Que es calidad de datos\" dentro de calidad de datos, perfilado, duplicados, consistencia, validaciones y mejora continua. La meta es partir de una pregunta concreta, revisar la calidad de la informacion y cerrar con una evidencia que pueda explicarse.",
+      "learningRisk": "Punto clave",
+      "lessons": [
+        {
+          "id": "m1-l1",
+          "title": "Calidad como confianza",
+          "keyIdea": "Idea clave: Calidad como confianza sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Calidad como confianza\" dentro del modulo \"Que es calidad de datos\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Un equipo recibe datos que no coinciden entre archivos y necesita separar errores reales de diferencias de definicion. Aplica \"Calidad como confianza\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un registro de calidad con problema detectado, evidencia, regla aplicada, impacto y accion de mejora.",
+          "alert": "No corregir datos criticos sin respaldo, version original y criterio documentado.",
+          "keyPoints": [
+            "Calidad como confianza debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un registro de calidad con problema detectado, evidencia, regla aplicada, impacto y accion de mejora.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m1-l2",
+          "title": "Completitud",
+          "keyIdea": "Idea clave: Completitud sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Completitud\" dentro del modulo \"Que es calidad de datos\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Un equipo recibe datos que no coinciden entre archivos y necesita separar errores reales de diferencias de definicion. Aplica \"Completitud\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un registro de calidad con problema detectado, evidencia, regla aplicada, impacto y accion de mejora.",
+          "alert": "No corregir datos criticos sin respaldo, version original y criterio documentado.",
+          "keyPoints": [
+            "Completitud debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un registro de calidad con problema detectado, evidencia, regla aplicada, impacto y accion de mejora.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m1-l3",
+          "title": "Exactitud",
+          "keyIdea": "Idea clave: Exactitud sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Exactitud\" dentro del modulo \"Que es calidad de datos\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Un equipo recibe datos que no coinciden entre archivos y necesita separar errores reales de diferencias de definicion. Aplica \"Exactitud\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un registro de calidad con problema detectado, evidencia, regla aplicada, impacto y accion de mejora.",
+          "alert": "No corregir datos criticos sin respaldo, version original y criterio documentado.",
+          "keyPoints": [
+            "Exactitud debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un registro de calidad con problema detectado, evidencia, regla aplicada, impacto y accion de mejora.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m1-l4",
+          "title": "Consistencia",
+          "keyIdea": "Idea clave: Consistencia sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Consistencia\" dentro del modulo \"Que es calidad de datos\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Un equipo recibe datos que no coinciden entre archivos y necesita separar errores reales de diferencias de definicion. Aplica \"Consistencia\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un registro de calidad con problema detectado, evidencia, regla aplicada, impacto y accion de mejora.",
+          "alert": "No corregir datos criticos sin respaldo, version original y criterio documentado.",
+          "keyPoints": [
+            "Consistencia debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un registro de calidad con problema detectado, evidencia, regla aplicada, impacto y accion de mejora.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m1-l5",
+          "title": "Actualidad",
+          "keyIdea": "Idea clave: Actualidad sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Actualidad\" dentro del modulo \"Que es calidad de datos\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Un equipo recibe datos que no coinciden entre archivos y necesita separar errores reales de diferencias de definicion. Aplica \"Actualidad\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un registro de calidad con problema detectado, evidencia, regla aplicada, impacto y accion de mejora.",
+          "alert": "No corregir datos criticos sin respaldo, version original y criterio documentado.",
+          "keyPoints": [
+            "Actualidad debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un registro de calidad con problema detectado, evidencia, regla aplicada, impacto y accion de mejora.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m1-l6",
+          "title": "Uso previsto",
+          "keyIdea": "Idea clave: Uso previsto sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Uso previsto\" dentro del modulo \"Que es calidad de datos\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Un equipo recibe datos que no coinciden entre archivos y necesita separar errores reales de diferencias de definicion. Aplica \"Uso previsto\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un registro de calidad con problema detectado, evidencia, regla aplicada, impacto y accion de mejora.",
+          "alert": "No corregir datos criticos sin respaldo, version original y criterio documentado.",
+          "keyPoints": [
+            "Uso previsto debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un registro de calidad con problema detectado, evidencia, regla aplicada, impacto y accion de mejora.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m1-q1",
+          "question": "Pregunta 1: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        },
+        {
+          "id": "m1-q2",
+          "question": "Pregunta 2: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        },
+        {
+          "id": "m1-q3",
+          "question": "Pregunta 3: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        },
+        {
+          "id": "m1-q4",
+          "question": "Pregunta 4: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        },
+        {
+          "id": "m1-q5",
+          "question": "Pregunta 5: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        }
+      ],
+      "professionalOutcome": "detectar errores comunes, documentar reglas y mejorar datos antes de analizarlos. Entregable sugerido: un reporte de calidad con reglas, problemas, prioridad, responsable y accion sugerida."
+    },
+    {
+      "id": "m2",
+      "title": "Perfilado inicial",
+      "description": "En este modulo vas a trabajar \"Perfilado inicial\" dentro de calidad de datos, perfilado, duplicados, consistencia, validaciones y mejora continua. La meta es partir de una pregunta concreta, revisar la calidad de la informacion y cerrar con una evidencia que pueda explicarse.",
+      "learningRisk": "Punto clave",
+      "lessons": [
+        {
+          "id": "m2-l1",
+          "title": "Conteo de filas",
+          "keyIdea": "Idea clave: Conteo de filas sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Conteo de filas\" dentro del modulo \"Perfilado inicial\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Un equipo recibe datos que no coinciden entre archivos y necesita separar errores reales de diferencias de definicion. Aplica \"Conteo de filas\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un registro de calidad con problema detectado, evidencia, regla aplicada, impacto y accion de mejora.",
+          "alert": "No corregir datos criticos sin respaldo, version original y criterio documentado.",
+          "keyPoints": [
+            "Conteo de filas debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un registro de calidad con problema detectado, evidencia, regla aplicada, impacto y accion de mejora.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m2-l2",
+          "title": "Columnas esperadas",
+          "keyIdea": "Idea clave: Columnas esperadas sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Columnas esperadas\" dentro del modulo \"Perfilado inicial\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Un equipo recibe datos que no coinciden entre archivos y necesita separar errores reales de diferencias de definicion. Aplica \"Columnas esperadas\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un registro de calidad con problema detectado, evidencia, regla aplicada, impacto y accion de mejora.",
+          "alert": "No corregir datos criticos sin respaldo, version original y criterio documentado.",
+          "keyPoints": [
+            "Columnas esperadas debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un registro de calidad con problema detectado, evidencia, regla aplicada, impacto y accion de mejora.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m2-l3",
+          "title": "Nulos",
+          "keyIdea": "Idea clave: Nulos sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Nulos\" dentro del modulo \"Perfilado inicial\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Un equipo recibe datos que no coinciden entre archivos y necesita separar errores reales de diferencias de definicion. Aplica \"Nulos\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un registro de calidad con problema detectado, evidencia, regla aplicada, impacto y accion de mejora.",
+          "alert": "No corregir datos criticos sin respaldo, version original y criterio documentado.",
+          "keyPoints": [
+            "Nulos debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un registro de calidad con problema detectado, evidencia, regla aplicada, impacto y accion de mejora.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m2-l4",
+          "title": "Duplicados",
+          "keyIdea": "Idea clave: Duplicados sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Duplicados\" dentro del modulo \"Perfilado inicial\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Un equipo recibe datos que no coinciden entre archivos y necesita separar errores reales de diferencias de definicion. Aplica \"Duplicados\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un registro de calidad con problema detectado, evidencia, regla aplicada, impacto y accion de mejora.",
+          "alert": "No corregir datos criticos sin respaldo, version original y criterio documentado.",
+          "keyPoints": [
+            "Duplicados debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un registro de calidad con problema detectado, evidencia, regla aplicada, impacto y accion de mejora.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m2-l5",
+          "title": "Valores raros",
+          "keyIdea": "Idea clave: Valores raros sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Valores raros\" dentro del modulo \"Perfilado inicial\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Un equipo recibe datos que no coinciden entre archivos y necesita separar errores reales de diferencias de definicion. Aplica \"Valores raros\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un registro de calidad con problema detectado, evidencia, regla aplicada, impacto y accion de mejora.",
+          "alert": "No corregir datos criticos sin respaldo, version original y criterio documentado.",
+          "keyPoints": [
+            "Valores raros debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un registro de calidad con problema detectado, evidencia, regla aplicada, impacto y accion de mejora.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m2-l6",
+          "title": "Formatos",
+          "keyIdea": "Idea clave: Formatos sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Formatos\" dentro del modulo \"Perfilado inicial\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Un equipo recibe datos que no coinciden entre archivos y necesita separar errores reales de diferencias de definicion. Aplica \"Formatos\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un registro de calidad con problema detectado, evidencia, regla aplicada, impacto y accion de mejora.",
+          "alert": "No corregir datos criticos sin respaldo, version original y criterio documentado.",
+          "keyPoints": [
+            "Formatos debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un registro de calidad con problema detectado, evidencia, regla aplicada, impacto y accion de mejora.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m2-q1",
+          "question": "Pregunta 1: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        },
+        {
+          "id": "m2-q2",
+          "question": "Pregunta 2: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        },
+        {
+          "id": "m2-q3",
+          "question": "Pregunta 3: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        },
+        {
+          "id": "m2-q4",
+          "question": "Pregunta 4: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        },
+        {
+          "id": "m2-q5",
+          "question": "Pregunta 5: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        }
+      ],
+      "professionalOutcome": "detectar errores comunes, documentar reglas y mejorar datos antes de analizarlos. Entregable sugerido: un reporte de calidad con reglas, problemas, prioridad, responsable y accion sugerida."
+    },
+    {
+      "id": "m3",
+      "title": "Duplicados y consistencia",
+      "description": "En este modulo vas a trabajar \"Duplicados y consistencia\" dentro de calidad de datos, perfilado, duplicados, consistencia, validaciones y mejora continua. La meta es partir de una pregunta concreta, revisar la calidad de la informacion y cerrar con una evidencia que pueda explicarse.",
+      "learningRisk": "Punto clave",
+      "lessons": [
+        {
+          "id": "m3-l1",
+          "title": "Claves",
+          "keyIdea": "Idea clave: Claves sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Claves\" dentro del modulo \"Duplicados y consistencia\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Un equipo recibe datos que no coinciden entre archivos y necesita separar errores reales de diferencias de definicion. Aplica \"Claves\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un registro de calidad con problema detectado, evidencia, regla aplicada, impacto y accion de mejora.",
+          "alert": "No corregir datos criticos sin respaldo, version original y criterio documentado.",
+          "keyPoints": [
+            "Claves debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un registro de calidad con problema detectado, evidencia, regla aplicada, impacto y accion de mejora.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m3-l2",
+          "title": "Duplicados exactos",
+          "keyIdea": "Idea clave: Duplicados exactos sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Duplicados exactos\" dentro del modulo \"Duplicados y consistencia\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Un equipo recibe datos que no coinciden entre archivos y necesita separar errores reales de diferencias de definicion. Aplica \"Duplicados exactos\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un registro de calidad con problema detectado, evidencia, regla aplicada, impacto y accion de mejora.",
+          "alert": "No corregir datos criticos sin respaldo, version original y criterio documentado.",
+          "keyPoints": [
+            "Duplicados exactos debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un registro de calidad con problema detectado, evidencia, regla aplicada, impacto y accion de mejora.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m3-l3",
+          "title": "Duplicados probables",
+          "keyIdea": "Idea clave: Duplicados probables sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Duplicados probables\" dentro del modulo \"Duplicados y consistencia\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Un equipo recibe datos que no coinciden entre archivos y necesita separar errores reales de diferencias de definicion. Aplica \"Duplicados probables\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un registro de calidad con problema detectado, evidencia, regla aplicada, impacto y accion de mejora.",
+          "alert": "No corregir datos criticos sin respaldo, version original y criterio documentado.",
+          "keyPoints": [
+            "Duplicados probables debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un registro de calidad con problema detectado, evidencia, regla aplicada, impacto y accion de mejora.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m3-l4",
+          "title": "Nombres variantes",
+          "keyIdea": "Idea clave: Nombres variantes sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Nombres variantes\" dentro del modulo \"Duplicados y consistencia\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Un equipo recibe datos que no coinciden entre archivos y necesita separar errores reales de diferencias de definicion. Aplica \"Nombres variantes\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un registro de calidad con problema detectado, evidencia, regla aplicada, impacto y accion de mejora.",
+          "alert": "No corregir datos criticos sin respaldo, version original y criterio documentado.",
+          "keyPoints": [
+            "Nombres variantes debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un registro de calidad con problema detectado, evidencia, regla aplicada, impacto y accion de mejora.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m3-l5",
+          "title": "Categorias",
+          "keyIdea": "Idea clave: Categorias sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Categorias\" dentro del modulo \"Duplicados y consistencia\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Un equipo recibe datos que no coinciden entre archivos y necesita separar errores reales de diferencias de definicion. Aplica \"Categorias\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un registro de calidad con problema detectado, evidencia, regla aplicada, impacto y accion de mejora.",
+          "alert": "No corregir datos criticos sin respaldo, version original y criterio documentado.",
+          "keyPoints": [
+            "Categorias debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un registro de calidad con problema detectado, evidencia, regla aplicada, impacto y accion de mejora.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m3-l6",
+          "title": "Reglas de negocio",
+          "keyIdea": "Idea clave: Reglas de negocio sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Reglas de negocio\" dentro del modulo \"Duplicados y consistencia\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Un equipo recibe datos que no coinciden entre archivos y necesita separar errores reales de diferencias de definicion. Aplica \"Reglas de negocio\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un registro de calidad con problema detectado, evidencia, regla aplicada, impacto y accion de mejora.",
+          "alert": "No corregir datos criticos sin respaldo, version original y criterio documentado.",
+          "keyPoints": [
+            "Reglas de negocio debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un registro de calidad con problema detectado, evidencia, regla aplicada, impacto y accion de mejora.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m3-q1",
+          "question": "Pregunta 1: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        },
+        {
+          "id": "m3-q2",
+          "question": "Pregunta 2: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        },
+        {
+          "id": "m3-q3",
+          "question": "Pregunta 3: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        },
+        {
+          "id": "m3-q4",
+          "question": "Pregunta 4: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        },
+        {
+          "id": "m3-q5",
+          "question": "Pregunta 5: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        }
+      ],
+      "professionalOutcome": "detectar errores comunes, documentar reglas y mejorar datos antes de analizarlos. Entregable sugerido: un reporte de calidad con reglas, problemas, prioridad, responsable y accion sugerida."
+    },
+    {
+      "id": "m4",
+      "title": "Formatos y validaciones",
+      "description": "En este modulo vas a trabajar \"Formatos y validaciones\" dentro de calidad de datos, perfilado, duplicados, consistencia, validaciones y mejora continua. La meta es partir de una pregunta concreta, revisar la calidad de la informacion y cerrar con una evidencia que pueda explicarse.",
+      "learningRisk": "Punto clave",
+      "lessons": [
+        {
+          "id": "m4-l1",
+          "title": "Fechas",
+          "keyIdea": "Idea clave: Fechas sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Fechas\" dentro del modulo \"Formatos y validaciones\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Un equipo recibe datos que no coinciden entre archivos y necesita separar errores reales de diferencias de definicion. Aplica \"Fechas\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un registro de calidad con problema detectado, evidencia, regla aplicada, impacto y accion de mejora.",
+          "alert": "No corregir datos criticos sin respaldo, version original y criterio documentado.",
+          "keyPoints": [
+            "Fechas debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un registro de calidad con problema detectado, evidencia, regla aplicada, impacto y accion de mejora.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m4-l2",
+          "title": "Numeros",
+          "keyIdea": "Idea clave: Numeros sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Numeros\" dentro del modulo \"Formatos y validaciones\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Un equipo recibe datos que no coinciden entre archivos y necesita separar errores reales de diferencias de definicion. Aplica \"Numeros\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un registro de calidad con problema detectado, evidencia, regla aplicada, impacto y accion de mejora.",
+          "alert": "No corregir datos criticos sin respaldo, version original y criterio documentado.",
+          "keyPoints": [
+            "Numeros debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un registro de calidad con problema detectado, evidencia, regla aplicada, impacto y accion de mejora.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m4-l3",
+          "title": "Texto",
+          "keyIdea": "Idea clave: Texto sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Texto\" dentro del modulo \"Formatos y validaciones\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Un equipo recibe datos que no coinciden entre archivos y necesita separar errores reales de diferencias de definicion. Aplica \"Texto\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un registro de calidad con problema detectado, evidencia, regla aplicada, impacto y accion de mejora.",
+          "alert": "No corregir datos criticos sin respaldo, version original y criterio documentado.",
+          "keyPoints": [
+            "Texto debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un registro de calidad con problema detectado, evidencia, regla aplicada, impacto y accion de mejora.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m4-l4",
+          "title": "Listas permitidas",
+          "keyIdea": "Idea clave: Listas permitidas sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Listas permitidas\" dentro del modulo \"Formatos y validaciones\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Un equipo recibe datos que no coinciden entre archivos y necesita separar errores reales de diferencias de definicion. Aplica \"Listas permitidas\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un registro de calidad con problema detectado, evidencia, regla aplicada, impacto y accion de mejora.",
+          "alert": "No corregir datos criticos sin respaldo, version original y criterio documentado.",
+          "keyPoints": [
+            "Listas permitidas debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un registro de calidad con problema detectado, evidencia, regla aplicada, impacto y accion de mejora.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m4-l5",
+          "title": "Rangos",
+          "keyIdea": "Idea clave: Rangos sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Rangos\" dentro del modulo \"Formatos y validaciones\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Un equipo recibe datos que no coinciden entre archivos y necesita separar errores reales de diferencias de definicion. Aplica \"Rangos\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un registro de calidad con problema detectado, evidencia, regla aplicada, impacto y accion de mejora.",
+          "alert": "No corregir datos criticos sin respaldo, version original y criterio documentado.",
+          "keyPoints": [
+            "Rangos debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un registro de calidad con problema detectado, evidencia, regla aplicada, impacto y accion de mejora.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m4-l6",
+          "title": "Mensajes de error",
+          "keyIdea": "Idea clave: Mensajes de error sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Mensajes de error\" dentro del modulo \"Formatos y validaciones\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Un equipo recibe datos que no coinciden entre archivos y necesita separar errores reales de diferencias de definicion. Aplica \"Mensajes de error\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un registro de calidad con problema detectado, evidencia, regla aplicada, impacto y accion de mejora.",
+          "alert": "No corregir datos criticos sin respaldo, version original y criterio documentado.",
+          "keyPoints": [
+            "Mensajes de error debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un registro de calidad con problema detectado, evidencia, regla aplicada, impacto y accion de mejora.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m4-q1",
+          "question": "Pregunta 1: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        },
+        {
+          "id": "m4-q2",
+          "question": "Pregunta 2: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        },
+        {
+          "id": "m4-q3",
+          "question": "Pregunta 3: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        },
+        {
+          "id": "m4-q4",
+          "question": "Pregunta 4: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        },
+        {
+          "id": "m4-q5",
+          "question": "Pregunta 5: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        }
+      ],
+      "professionalOutcome": "detectar errores comunes, documentar reglas y mejorar datos antes de analizarlos. Entregable sugerido: un reporte de calidad con reglas, problemas, prioridad, responsable y accion sugerida."
+    },
+    {
+      "id": "m5",
+      "title": "Definiciones compartidas",
+      "description": "En este modulo vas a trabajar \"Definiciones compartidas\" dentro de calidad de datos, perfilado, duplicados, consistencia, validaciones y mejora continua. La meta es partir de una pregunta concreta, revisar la calidad de la informacion y cerrar con una evidencia que pueda explicarse.",
+      "learningRisk": "Punto clave",
+      "lessons": [
+        {
+          "id": "m5-l1",
+          "title": "Diccionario de datos",
+          "keyIdea": "Idea clave: Diccionario de datos sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Diccionario de datos\" dentro del modulo \"Definiciones compartidas\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Un equipo recibe datos que no coinciden entre archivos y necesita separar errores reales de diferencias de definicion. Aplica \"Diccionario de datos\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un registro de calidad con problema detectado, evidencia, regla aplicada, impacto y accion de mejora.",
+          "alert": "No corregir datos criticos sin respaldo, version original y criterio documentado.",
+          "keyPoints": [
+            "Diccionario de datos debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un registro de calidad con problema detectado, evidencia, regla aplicada, impacto y accion de mejora.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m5-l2",
+          "title": "Responsables",
+          "keyIdea": "Idea clave: Responsables sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Responsables\" dentro del modulo \"Definiciones compartidas\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Un equipo recibe datos que no coinciden entre archivos y necesita separar errores reales de diferencias de definicion. Aplica \"Responsables\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un registro de calidad con problema detectado, evidencia, regla aplicada, impacto y accion de mejora.",
+          "alert": "No corregir datos criticos sin respaldo, version original y criterio documentado.",
+          "keyPoints": [
+            "Responsables debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un registro de calidad con problema detectado, evidencia, regla aplicada, impacto y accion de mejora.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m5-l3",
+          "title": "Definiciones",
+          "keyIdea": "Idea clave: Definiciones sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Definiciones\" dentro del modulo \"Definiciones compartidas\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Un equipo recibe datos que no coinciden entre archivos y necesita separar errores reales de diferencias de definicion. Aplica \"Definiciones\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un registro de calidad con problema detectado, evidencia, regla aplicada, impacto y accion de mejora.",
+          "alert": "No corregir datos criticos sin respaldo, version original y criterio documentado.",
+          "keyPoints": [
+            "Definiciones debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un registro de calidad con problema detectado, evidencia, regla aplicada, impacto y accion de mejora.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m5-l4",
+          "title": "Ejemplos",
+          "keyIdea": "Idea clave: Ejemplos sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Ejemplos\" dentro del modulo \"Definiciones compartidas\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Un equipo recibe datos que no coinciden entre archivos y necesita separar errores reales de diferencias de definicion. Aplica \"Ejemplos\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un registro de calidad con problema detectado, evidencia, regla aplicada, impacto y accion de mejora.",
+          "alert": "No corregir datos criticos sin respaldo, version original y criterio documentado.",
+          "keyPoints": [
+            "Ejemplos debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un registro de calidad con problema detectado, evidencia, regla aplicada, impacto y accion de mejora.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m5-l5",
+          "title": "Cambios",
+          "keyIdea": "Idea clave: Cambios sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Cambios\" dentro del modulo \"Definiciones compartidas\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Un equipo recibe datos que no coinciden entre archivos y necesita separar errores reales de diferencias de definicion. Aplica \"Cambios\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un registro de calidad con problema detectado, evidencia, regla aplicada, impacto y accion de mejora.",
+          "alert": "No corregir datos criticos sin respaldo, version original y criterio documentado.",
+          "keyPoints": [
+            "Cambios debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un registro de calidad con problema detectado, evidencia, regla aplicada, impacto y accion de mejora.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m5-l6",
+          "title": "Versionado",
+          "keyIdea": "Idea clave: Versionado sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Versionado\" dentro del modulo \"Definiciones compartidas\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Un equipo recibe datos que no coinciden entre archivos y necesita separar errores reales de diferencias de definicion. Aplica \"Versionado\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un registro de calidad con problema detectado, evidencia, regla aplicada, impacto y accion de mejora.",
+          "alert": "No corregir datos criticos sin respaldo, version original y criterio documentado.",
+          "keyPoints": [
+            "Versionado debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un registro de calidad con problema detectado, evidencia, regla aplicada, impacto y accion de mejora.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m5-q1",
+          "question": "Pregunta 1: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        },
+        {
+          "id": "m5-q2",
+          "question": "Pregunta 2: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        },
+        {
+          "id": "m5-q3",
+          "question": "Pregunta 3: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        },
+        {
+          "id": "m5-q4",
+          "question": "Pregunta 4: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        },
+        {
+          "id": "m5-q5",
+          "question": "Pregunta 5: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        }
+      ],
+      "professionalOutcome": "detectar errores comunes, documentar reglas y mejorar datos antes de analizarlos. Entregable sugerido: un reporte de calidad con reglas, problemas, prioridad, responsable y accion sugerida."
+    },
+    {
+      "id": "m6",
+      "title": "Plan de mejora",
+      "description": "En este modulo vas a trabajar \"Plan de mejora\" dentro de calidad de datos, perfilado, duplicados, consistencia, validaciones y mejora continua. La meta es partir de una pregunta concreta, revisar la calidad de la informacion y cerrar con una evidencia que pueda explicarse.",
+      "learningRisk": "Punto clave",
+      "lessons": [
+        {
+          "id": "m6-l1",
+          "title": "Priorizar problemas",
+          "keyIdea": "Idea clave: Priorizar problemas sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Priorizar problemas\" dentro del modulo \"Plan de mejora\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Un equipo recibe datos que no coinciden entre archivos y necesita separar errores reales de diferencias de definicion. Aplica \"Priorizar problemas\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un registro de calidad con problema detectado, evidencia, regla aplicada, impacto y accion de mejora.",
+          "alert": "No corregir datos criticos sin respaldo, version original y criterio documentado.",
+          "keyPoints": [
+            "Priorizar problemas debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un registro de calidad con problema detectado, evidencia, regla aplicada, impacto y accion de mejora.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m6-l2",
+          "title": "Registrar correcciones",
+          "keyIdea": "Idea clave: Registrar correcciones sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Registrar correcciones\" dentro del modulo \"Plan de mejora\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Un equipo recibe datos que no coinciden entre archivos y necesita separar errores reales de diferencias de definicion. Aplica \"Registrar correcciones\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un registro de calidad con problema detectado, evidencia, regla aplicada, impacto y accion de mejora.",
+          "alert": "No corregir datos criticos sin respaldo, version original y criterio documentado.",
+          "keyPoints": [
+            "Registrar correcciones debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un registro de calidad con problema detectado, evidencia, regla aplicada, impacto y accion de mejora.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m6-l3",
+          "title": "Control recurrente",
+          "keyIdea": "Idea clave: Control recurrente sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Control recurrente\" dentro del modulo \"Plan de mejora\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Un equipo recibe datos que no coinciden entre archivos y necesita separar errores reales de diferencias de definicion. Aplica \"Control recurrente\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un registro de calidad con problema detectado, evidencia, regla aplicada, impacto y accion de mejora.",
+          "alert": "No corregir datos criticos sin respaldo, version original y criterio documentado.",
+          "keyPoints": [
+            "Control recurrente debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un registro de calidad con problema detectado, evidencia, regla aplicada, impacto y accion de mejora.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m6-l4",
+          "title": "Indicadores de calidad",
+          "keyIdea": "Idea clave: Indicadores de calidad sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Indicadores de calidad\" dentro del modulo \"Plan de mejora\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Un equipo recibe datos que no coinciden entre archivos y necesita separar errores reales de diferencias de definicion. Aplica \"Indicadores de calidad\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un registro de calidad con problema detectado, evidencia, regla aplicada, impacto y accion de mejora.",
+          "alert": "No corregir datos criticos sin respaldo, version original y criterio documentado.",
+          "keyPoints": [
+            "Indicadores de calidad debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un registro de calidad con problema detectado, evidencia, regla aplicada, impacto y accion de mejora.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m6-l5",
+          "title": "Escalar problemas",
+          "keyIdea": "Idea clave: Escalar problemas sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Escalar problemas\" dentro del modulo \"Plan de mejora\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Un equipo recibe datos que no coinciden entre archivos y necesita separar errores reales de diferencias de definicion. Aplica \"Escalar problemas\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un registro de calidad con problema detectado, evidencia, regla aplicada, impacto y accion de mejora.",
+          "alert": "No corregir datos criticos sin respaldo, version original y criterio documentado.",
+          "keyPoints": [
+            "Escalar problemas debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un registro de calidad con problema detectado, evidencia, regla aplicada, impacto y accion de mejora.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m6-l6",
+          "title": "Revision mensual",
+          "keyIdea": "Idea clave: Revision mensual sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Revision mensual\" dentro del modulo \"Plan de mejora\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Un equipo recibe datos que no coinciden entre archivos y necesita separar errores reales de diferencias de definicion. Aplica \"Revision mensual\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un registro de calidad con problema detectado, evidencia, regla aplicada, impacto y accion de mejora.",
+          "alert": "No corregir datos criticos sin respaldo, version original y criterio documentado.",
+          "keyPoints": [
+            "Revision mensual debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un registro de calidad con problema detectado, evidencia, regla aplicada, impacto y accion de mejora.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m6-q1",
+          "question": "Pregunta 1: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        },
+        {
+          "id": "m6-q2",
+          "question": "Pregunta 2: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        },
+        {
+          "id": "m6-q3",
+          "question": "Pregunta 3: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        },
+        {
+          "id": "m6-q4",
+          "question": "Pregunta 4: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        },
+        {
+          "id": "m6-q5",
+          "question": "Pregunta 5: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        }
+      ],
+      "professionalOutcome": "detectar errores comunes, documentar reglas y mejorar datos antes de analizarlos. Entregable sugerido: un reporte de calidad con reglas, problemas, prioridad, responsable y accion sugerida."
+    }
+  ],
+  "appName": "Calidad de Datos para Principiantes",
+  "professionalization": {
+    "tier": "curso-bandera-v1.0-beta",
+    "updatedAt": "2026-05-28",
+    "focus": "Profundizacion visible de lecciones, practicas, checklists y casos."
+  },
+  "editorialPolish": {
+    "thirdEditorialBatch": "2026-06-02",
+    "status": "public-facing-copy-polished"
+  }
+}

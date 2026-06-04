@@ -1,0 +1,1054 @@
+{
+  "appName": "SQL Práctico para Análisis de Datos",
+  "version": "0.6-publica",
+  "modules": [
+    {
+      "id": "m1",
+      "title": "Fundamentos de SQL y bases de datos",
+      "description": "En este modulo vas a trabajar \"Fundamentos de SQL y bases de datos\" dentro de consultas SQL para analisis, filtros, agregaciones, joins, fechas y control de calidad. La meta es partir de una pregunta concreta, revisar la calidad de la informacion y cerrar con una evidencia que pueda explicarse.",
+      "commercialRisk": "Base conceptual",
+      "lessons": [
+        {
+          "id": "m1_l1",
+          "title": "Qué es SQL y para qué sirve",
+          "keyIdea": "Idea clave: Qué es SQL y para qué sirve sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Qué es SQL y para qué sirve\" dentro del modulo \"Fundamentos de SQL y bases de datos\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona necesita responder una pregunta de negocio o estudio usando tablas relacionadas y una consulta verificable. Aplica \"Qué es SQL y para qué sirve\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una consulta SQL comentada con pregunta, filtros, resultado esperado y verificacion basica.",
+          "alert": "No ejecutar cambios destructivos ni consultas sobre datos productivos sin permiso y respaldo.",
+          "keyPoints": [
+            "Qué es SQL y para qué sirve debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: una consulta SQL comentada con pregunta, filtros, resultado esperado y verificacion basica.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m1_l2",
+          "title": "Tablas, filas y columnas",
+          "keyIdea": "Idea clave: Tablas, filas y columnas sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Tablas, filas y columnas\" dentro del modulo \"Fundamentos de SQL y bases de datos\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona necesita responder una pregunta de negocio o estudio usando tablas relacionadas y una consulta verificable. Aplica \"Tablas, filas y columnas\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una consulta SQL comentada con pregunta, filtros, resultado esperado y verificacion basica.",
+          "alert": "No ejecutar cambios destructivos ni consultas sobre datos productivos sin permiso y respaldo.",
+          "keyPoints": [
+            "Tablas, filas y columnas debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: una consulta SQL comentada con pregunta, filtros, resultado esperado y verificacion basica.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m1_l3",
+          "title": "Bases de datos relacionales",
+          "keyIdea": "Idea clave: Bases de datos relacionales sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Bases de datos relacionales\" dentro del modulo \"Fundamentos de SQL y bases de datos\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona necesita responder una pregunta de negocio o estudio usando tablas relacionadas y una consulta verificable. Aplica \"Bases de datos relacionales\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una consulta SQL comentada con pregunta, filtros, resultado esperado y verificacion basica.",
+          "alert": "No ejecutar cambios destructivos ni consultas sobre datos productivos sin permiso y respaldo.",
+          "keyPoints": [
+            "Bases de datos relacionales debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: una consulta SQL comentada con pregunta, filtros, resultado esperado y verificacion basica.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m1_l4",
+          "title": "Pensar en preguntas de negocio",
+          "keyIdea": "Idea clave: Pensar en preguntas de negocio sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Pensar en preguntas de negocio\" dentro del modulo \"Fundamentos de SQL y bases de datos\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona necesita responder una pregunta de negocio o estudio usando tablas relacionadas y una consulta verificable. Aplica \"Pensar en preguntas de negocio\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una consulta SQL comentada con pregunta, filtros, resultado esperado y verificacion basica.",
+          "alert": "No ejecutar cambios destructivos ni consultas sobre datos productivos sin permiso y respaldo.",
+          "keyPoints": [
+            "Pensar en preguntas de negocio debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: una consulta SQL comentada con pregunta, filtros, resultado esperado y verificacion basica.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m1_l5",
+          "title": "Del Excel a SQL",
+          "keyIdea": "Idea clave: Del Excel a SQL sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Del Excel a SQL\" dentro del modulo \"Fundamentos de SQL y bases de datos\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona necesita responder una pregunta de negocio o estudio usando tablas relacionadas y una consulta verificable. Aplica \"Del Excel a SQL\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una consulta SQL comentada con pregunta, filtros, resultado esperado y verificacion basica.",
+          "alert": "No ejecutar cambios destructivos ni consultas sobre datos productivos sin permiso y respaldo.",
+          "keyPoints": [
+            "Del Excel a SQL debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: una consulta SQL comentada con pregunta, filtros, resultado esperado y verificacion basica.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m1_l6",
+          "title": "Buenas prácticas iniciales",
+          "keyIdea": "Idea clave: Buenas prácticas iniciales sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Buenas prácticas iniciales\" dentro del modulo \"Fundamentos de SQL y bases de datos\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona necesita responder una pregunta de negocio o estudio usando tablas relacionadas y una consulta verificable. Aplica \"Buenas prácticas iniciales\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una consulta SQL comentada con pregunta, filtros, resultado esperado y verificacion basica.",
+          "alert": "No ejecutar cambios destructivos ni consultas sobre datos productivos sin permiso y respaldo.",
+          "keyPoints": [
+            "Buenas prácticas iniciales debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: una consulta SQL comentada con pregunta, filtros, resultado esperado y verificacion basica.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m1_q1",
+          "question": "¿Qué describe mejor a SQL?",
+          "options": [
+            "Un lenguaje para consultar y gestionar datos en bases relacionales",
+            "Un programa de diseño gráfico",
+            "Una red social para analistas",
+            "Un formato de imagen"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "SQL permite consultar, filtrar, agregar y relacionar datos en tablas."
+        },
+        {
+          "id": "m1_q2",
+          "question": "¿Qué representa una fila en una tabla?",
+          "options": [
+            "Un registro u observación",
+            "Una contraseña",
+            "Un gráfico",
+            "Un archivo comprimido"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Cada fila representa un registro, por ejemplo una venta o un producto."
+        },
+        {
+          "id": "m1_q3",
+          "question": "¿Qué representa una columna?",
+          "options": [
+            "Un atributo o campo del registro",
+            "Una carpeta del sistema",
+            "Un botón",
+            "Una página web"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Las columnas guardan campos como fecha, producto, cantidad o precio."
+        },
+        {
+          "id": "m1_q4",
+          "question": "¿Por qué conviene formular una pregunta antes de consultar?",
+          "options": [
+            "Porque guía qué tabla, filtro y métrica usar",
+            "Porque SQL no permite consultas libres",
+            "Porque evita usar teclado",
+            "Porque reemplaza la base de datos"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Una buena pregunta reduce consultas innecesarias y errores de interpretación."
+        },
+        {
+          "id": "m1_q5",
+          "question": "¿Cuál es una buena práctica inicial?",
+          "options": [
+            "Nombrar consultas y revisar resultados pequeños",
+            "Ejecutar todo sin mirar",
+            "Usar siempre SELECT * en reportes finales",
+            "Borrar datos para limpiar rápido"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Revisar resultados acotados ayuda a validar la lógica antes de ampliar el análisis."
+        }
+      ],
+      "professionalOutcome": "escribir consultas claras, comprobar resultados y evitar errores de interpretacion. Entregable sugerido: una consulta con objetivo, SQL, resultado esperado, validacion y comentario."
+    },
+    {
+      "id": "m2",
+      "title": "SELECT, filtros y ordenamiento",
+      "description": "En este modulo vas a trabajar \"SELECT, filtros y ordenamiento\" dentro de consultas SQL para analisis, filtros, agregaciones, joins, fechas y control de calidad. La meta es partir de una pregunta concreta, revisar la calidad de la informacion y cerrar con una evidencia que pueda explicarse.",
+      "commercialRisk": "Consultas básicas",
+      "lessons": [
+        {
+          "id": "m2_l1",
+          "title": "SELECT básico",
+          "keyIdea": "Idea clave: SELECT básico sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"SELECT básico\" dentro del modulo \"SELECT, filtros y ordenamiento\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona necesita responder una pregunta de negocio o estudio usando tablas relacionadas y una consulta verificable. Aplica \"SELECT básico\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una consulta SQL comentada con pregunta, filtros, resultado esperado y verificacion basica.",
+          "alert": "No ejecutar cambios destructivos ni consultas sobre datos productivos sin permiso y respaldo.",
+          "keyPoints": [
+            "SELECT básico debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: una consulta SQL comentada con pregunta, filtros, resultado esperado y verificacion basica.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m2_l2",
+          "title": "Elegir columnas útiles",
+          "keyIdea": "Idea clave: Elegir columnas útiles sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Elegir columnas útiles\" dentro del modulo \"SELECT, filtros y ordenamiento\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona necesita responder una pregunta de negocio o estudio usando tablas relacionadas y una consulta verificable. Aplica \"Elegir columnas útiles\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una consulta SQL comentada con pregunta, filtros, resultado esperado y verificacion basica.",
+          "alert": "No ejecutar cambios destructivos ni consultas sobre datos productivos sin permiso y respaldo.",
+          "keyPoints": [
+            "Elegir columnas útiles debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: una consulta SQL comentada con pregunta, filtros, resultado esperado y verificacion basica.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m2_l3",
+          "title": "WHERE y condiciones",
+          "keyIdea": "Idea clave: WHERE y condiciones sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"WHERE y condiciones\" dentro del modulo \"SELECT, filtros y ordenamiento\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona necesita responder una pregunta de negocio o estudio usando tablas relacionadas y una consulta verificable. Aplica \"WHERE y condiciones\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una consulta SQL comentada con pregunta, filtros, resultado esperado y verificacion basica.",
+          "alert": "No ejecutar cambios destructivos ni consultas sobre datos productivos sin permiso y respaldo.",
+          "keyPoints": [
+            "WHERE y condiciones debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: una consulta SQL comentada con pregunta, filtros, resultado esperado y verificacion basica.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m2_l4",
+          "title": "ORDER BY y límites",
+          "keyIdea": "Idea clave: ORDER BY y límites sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"ORDER BY y límites\" dentro del modulo \"SELECT, filtros y ordenamiento\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona necesita responder una pregunta de negocio o estudio usando tablas relacionadas y una consulta verificable. Aplica \"ORDER BY y límites\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una consulta SQL comentada con pregunta, filtros, resultado esperado y verificacion basica.",
+          "alert": "No ejecutar cambios destructivos ni consultas sobre datos productivos sin permiso y respaldo.",
+          "keyPoints": [
+            "ORDER BY y límites debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: una consulta SQL comentada con pregunta, filtros, resultado esperado y verificacion basica.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m2_l5",
+          "title": "Filtros con texto y números",
+          "keyIdea": "Idea clave: Filtros con texto y números sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Filtros con texto y números\" dentro del modulo \"SELECT, filtros y ordenamiento\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona necesita responder una pregunta de negocio o estudio usando tablas relacionadas y una consulta verificable. Aplica \"Filtros con texto y números\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una consulta SQL comentada con pregunta, filtros, resultado esperado y verificacion basica.",
+          "alert": "No ejecutar cambios destructivos ni consultas sobre datos productivos sin permiso y respaldo.",
+          "keyPoints": [
+            "Filtros con texto y números debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: una consulta SQL comentada con pregunta, filtros, resultado esperado y verificacion basica.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m2_l6",
+          "title": "Consultas legibles",
+          "keyIdea": "Idea clave: Consultas legibles sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Consultas legibles\" dentro del modulo \"SELECT, filtros y ordenamiento\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona necesita responder una pregunta de negocio o estudio usando tablas relacionadas y una consulta verificable. Aplica \"Consultas legibles\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una consulta SQL comentada con pregunta, filtros, resultado esperado y verificacion basica.",
+          "alert": "No ejecutar cambios destructivos ni consultas sobre datos productivos sin permiso y respaldo.",
+          "keyPoints": [
+            "Consultas legibles debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: una consulta SQL comentada con pregunta, filtros, resultado esperado y verificacion basica.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m2_q1",
+          "question": "¿Para qué se usa SELECT?",
+          "options": [
+            "Para elegir columnas o expresiones a mostrar",
+            "Para apagar la base",
+            "Para crear íconos",
+            "Para comprimir archivos"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "SELECT define qué campos o cálculos aparecen en el resultado."
+        },
+        {
+          "id": "m2_q2",
+          "question": "¿Qué hace WHERE?",
+          "options": [
+            "Filtra registros según condiciones",
+            "Ordena columnas alfabéticamente siempre",
+            "Cambia colores de gráficos",
+            "Exporta a PDF"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "WHERE permite quedarse con registros que cumplen una condición."
+        },
+        {
+          "id": "m2_q3",
+          "question": "¿Qué hace ORDER BY?",
+          "options": [
+            "Ordena el resultado por una o más columnas",
+            "Elimina duplicados automáticamente",
+            "Une dos tablas",
+            "Crea usuarios"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "ORDER BY sirve para ordenar ascendente o descendente."
+        },
+        {
+          "id": "m2_q4",
+          "question": "¿Cuál filtro es razonable para ventas mayores a 10000?",
+          "options": [
+            "WHERE importe > 10000",
+            "WHERE importe = texto",
+            "ORDER BY > 10000",
+            "SELECT ventas mayores"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "La condición usa la columna y el operador correcto."
+        },
+        {
+          "id": "m2_q5",
+          "question": "¿Por qué evitar columnas innecesarias?",
+          "options": [
+            "Hace la consulta más clara y reduce ruido",
+            "SQL no permite muchas columnas",
+            "Elimina todos los errores",
+            "Cambia automáticamente los datos"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Elegir campos útiles facilita leer y validar resultados."
+        }
+      ],
+      "professionalOutcome": "escribir consultas claras, comprobar resultados y evitar errores de interpretacion. Entregable sugerido: una consulta con objetivo, SQL, resultado esperado, validacion y comentario."
+    },
+    {
+      "id": "m3",
+      "title": "Agregaciones e indicadores",
+      "description": "En este modulo vas a trabajar \"Agregaciones e indicadores\" dentro de consultas SQL para analisis, filtros, agregaciones, joins, fechas y control de calidad. La meta es partir de una pregunta concreta, revisar la calidad de la informacion y cerrar con una evidencia que pueda explicarse.",
+      "commercialRisk": "Métricas",
+      "lessons": [
+        {
+          "id": "m3_l1",
+          "title": "COUNT para contar registros",
+          "keyIdea": "Idea clave: COUNT para contar registros sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"COUNT para contar registros\" dentro del modulo \"Agregaciones e indicadores\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona necesita responder una pregunta de negocio o estudio usando tablas relacionadas y una consulta verificable. Aplica \"COUNT para contar registros\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una consulta SQL comentada con pregunta, filtros, resultado esperado y verificacion basica.",
+          "alert": "No ejecutar cambios destructivos ni consultas sobre datos productivos sin permiso y respaldo.",
+          "keyPoints": [
+            "COUNT para contar registros debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: una consulta SQL comentada con pregunta, filtros, resultado esperado y verificacion basica.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m3_l2",
+          "title": "SUM para sumar importes",
+          "keyIdea": "Idea clave: SUM para sumar importes sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"SUM para sumar importes\" dentro del modulo \"Agregaciones e indicadores\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona necesita responder una pregunta de negocio o estudio usando tablas relacionadas y una consulta verificable. Aplica \"SUM para sumar importes\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una consulta SQL comentada con pregunta, filtros, resultado esperado y verificacion basica.",
+          "alert": "No ejecutar cambios destructivos ni consultas sobre datos productivos sin permiso y respaldo.",
+          "keyPoints": [
+            "SUM para sumar importes debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: una consulta SQL comentada con pregunta, filtros, resultado esperado y verificacion basica.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m3_l3",
+          "title": "AVG para promedios",
+          "keyIdea": "Idea clave: AVG para promedios sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"AVG para promedios\" dentro del modulo \"Agregaciones e indicadores\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona necesita responder una pregunta de negocio o estudio usando tablas relacionadas y una consulta verificable. Aplica \"AVG para promedios\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una consulta SQL comentada con pregunta, filtros, resultado esperado y verificacion basica.",
+          "alert": "No ejecutar cambios destructivos ni consultas sobre datos productivos sin permiso y respaldo.",
+          "keyPoints": [
+            "AVG para promedios debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: una consulta SQL comentada con pregunta, filtros, resultado esperado y verificacion basica.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m3_l4",
+          "title": "GROUP BY por categoría",
+          "keyIdea": "Idea clave: GROUP BY por categoría sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"GROUP BY por categoría\" dentro del modulo \"Agregaciones e indicadores\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona necesita responder una pregunta de negocio o estudio usando tablas relacionadas y una consulta verificable. Aplica \"GROUP BY por categoría\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una consulta SQL comentada con pregunta, filtros, resultado esperado y verificacion basica.",
+          "alert": "No ejecutar cambios destructivos ni consultas sobre datos productivos sin permiso y respaldo.",
+          "keyPoints": [
+            "GROUP BY por categoría debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: una consulta SQL comentada con pregunta, filtros, resultado esperado y verificacion basica.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m3_l5",
+          "title": "HAVING para filtrar grupos",
+          "keyIdea": "Idea clave: HAVING para filtrar grupos sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"HAVING para filtrar grupos\" dentro del modulo \"Agregaciones e indicadores\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona necesita responder una pregunta de negocio o estudio usando tablas relacionadas y una consulta verificable. Aplica \"HAVING para filtrar grupos\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una consulta SQL comentada con pregunta, filtros, resultado esperado y verificacion basica.",
+          "alert": "No ejecutar cambios destructivos ni consultas sobre datos productivos sin permiso y respaldo.",
+          "keyPoints": [
+            "HAVING para filtrar grupos debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: una consulta SQL comentada con pregunta, filtros, resultado esperado y verificacion basica.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m3_l6",
+          "title": "Indicadores simples",
+          "keyIdea": "Idea clave: Indicadores simples sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Indicadores simples\" dentro del modulo \"Agregaciones e indicadores\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona necesita responder una pregunta de negocio o estudio usando tablas relacionadas y una consulta verificable. Aplica \"Indicadores simples\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una consulta SQL comentada con pregunta, filtros, resultado esperado y verificacion basica.",
+          "alert": "No ejecutar cambios destructivos ni consultas sobre datos productivos sin permiso y respaldo.",
+          "keyPoints": [
+            "Indicadores simples debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: una consulta SQL comentada con pregunta, filtros, resultado esperado y verificacion basica.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m3_q1",
+          "question": "¿Qué calcula COUNT?",
+          "options": [
+            "Cantidad de registros",
+            "Suma monetaria siempre",
+            "Fecha máxima",
+            "Nombre del cliente"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "COUNT cuenta filas o valores según se use."
+        },
+        {
+          "id": "m3_q2",
+          "question": "¿Qué calcula SUM?",
+          "options": [
+            "Suma de valores numéricos",
+            "Cantidad de columnas de texto",
+            "Promedio de fechas",
+            "Unión de tablas"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "SUM agrega valores numéricos como importes o unidades."
+        },
+        {
+          "id": "m3_q3",
+          "question": "¿Para qué sirve GROUP BY?",
+          "options": [
+            "Agrupar registros para calcular métricas por categoría",
+            "Ordenar todo por fecha solamente",
+            "Crear contraseñas",
+            "Borrar datos repetidos"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "GROUP BY permite métricas por producto, mes, cliente o categoría."
+        },
+        {
+          "id": "m3_q4",
+          "question": "¿Qué diferencia hay entre WHERE y HAVING?",
+          "options": [
+            "WHERE filtra filas antes de agrupar; HAVING filtra grupos",
+            "Son exactamente lo mismo siempre",
+            "HAVING solo funciona con textos",
+            "WHERE solo sirve para gráficos"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "HAVING se aplica después de agregaciones."
+        },
+        {
+          "id": "m3_q5",
+          "question": "¿Qué métrica ayuda a ver ticket promedio?",
+          "options": [
+            "AVG(importe)",
+            "COUNT(nombre)",
+            "ORDER BY fecha",
+            "JOIN sin clave"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "AVG calcula un promedio de valores numéricos."
+        }
+      ],
+      "professionalOutcome": "escribir consultas claras, comprobar resultados y evitar errores de interpretacion. Entregable sugerido: una consulta con objetivo, SQL, resultado esperado, validacion y comentario."
+    },
+    {
+      "id": "m4",
+      "title": "JOIN y relaciones entre tablas",
+      "description": "En este modulo vas a trabajar \"JOIN y relaciones entre tablas\" dentro de consultas SQL para analisis, filtros, agregaciones, joins, fechas y control de calidad. La meta es partir de una pregunta concreta, revisar la calidad de la informacion y cerrar con una evidencia que pueda explicarse.",
+      "commercialRisk": "Relaciones",
+      "lessons": [
+        {
+          "id": "m4_l1",
+          "title": "Qué es una clave",
+          "keyIdea": "Idea clave: Qué es una clave sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Qué es una clave\" dentro del modulo \"JOIN y relaciones entre tablas\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona necesita responder una pregunta de negocio o estudio usando tablas relacionadas y una consulta verificable. Aplica \"Qué es una clave\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una consulta SQL comentada con pregunta, filtros, resultado esperado y verificacion basica.",
+          "alert": "No ejecutar cambios destructivos ni consultas sobre datos productivos sin permiso y respaldo.",
+          "keyPoints": [
+            "Qué es una clave debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: una consulta SQL comentada con pregunta, filtros, resultado esperado y verificacion basica.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m4_l2",
+          "title": "JOIN entre ventas y productos",
+          "keyIdea": "Idea clave: JOIN entre ventas y productos sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"JOIN entre ventas y productos\" dentro del modulo \"JOIN y relaciones entre tablas\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona necesita responder una pregunta de negocio o estudio usando tablas relacionadas y una consulta verificable. Aplica \"JOIN entre ventas y productos\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una consulta SQL comentada con pregunta, filtros, resultado esperado y verificacion basica.",
+          "alert": "No ejecutar cambios destructivos ni consultas sobre datos productivos sin permiso y respaldo.",
+          "keyPoints": [
+            "JOIN entre ventas y productos debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: una consulta SQL comentada con pregunta, filtros, resultado esperado y verificacion basica.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m4_l3",
+          "title": "LEFT JOIN y datos faltantes",
+          "keyIdea": "Idea clave: LEFT JOIN y datos faltantes sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"LEFT JOIN y datos faltantes\" dentro del modulo \"JOIN y relaciones entre tablas\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona necesita responder una pregunta de negocio o estudio usando tablas relacionadas y una consulta verificable. Aplica \"LEFT JOIN y datos faltantes\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una consulta SQL comentada con pregunta, filtros, resultado esperado y verificacion basica.",
+          "alert": "No ejecutar cambios destructivos ni consultas sobre datos productivos sin permiso y respaldo.",
+          "keyPoints": [
+            "LEFT JOIN y datos faltantes debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: una consulta SQL comentada con pregunta, filtros, resultado esperado y verificacion basica.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m4_l4",
+          "title": "Errores comunes de JOIN",
+          "keyIdea": "Idea clave: Errores comunes de JOIN sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Errores comunes de JOIN\" dentro del modulo \"JOIN y relaciones entre tablas\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona necesita responder una pregunta de negocio o estudio usando tablas relacionadas y una consulta verificable. Aplica \"Errores comunes de JOIN\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una consulta SQL comentada con pregunta, filtros, resultado esperado y verificacion basica.",
+          "alert": "No ejecutar cambios destructivos ni consultas sobre datos productivos sin permiso y respaldo.",
+          "keyPoints": [
+            "Errores comunes de JOIN debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: una consulta SQL comentada con pregunta, filtros, resultado esperado y verificacion basica.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m4_l5",
+          "title": "Relaciones uno a muchos",
+          "keyIdea": "Idea clave: Relaciones uno a muchos sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Relaciones uno a muchos\" dentro del modulo \"JOIN y relaciones entre tablas\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona necesita responder una pregunta de negocio o estudio usando tablas relacionadas y una consulta verificable. Aplica \"Relaciones uno a muchos\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una consulta SQL comentada con pregunta, filtros, resultado esperado y verificacion basica.",
+          "alert": "No ejecutar cambios destructivos ni consultas sobre datos productivos sin permiso y respaldo.",
+          "keyPoints": [
+            "Relaciones uno a muchos debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: una consulta SQL comentada con pregunta, filtros, resultado esperado y verificacion basica.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m4_l6",
+          "title": "Validar resultados combinados",
+          "keyIdea": "Idea clave: Validar resultados combinados sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Validar resultados combinados\" dentro del modulo \"JOIN y relaciones entre tablas\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona necesita responder una pregunta de negocio o estudio usando tablas relacionadas y una consulta verificable. Aplica \"Validar resultados combinados\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una consulta SQL comentada con pregunta, filtros, resultado esperado y verificacion basica.",
+          "alert": "No ejecutar cambios destructivos ni consultas sobre datos productivos sin permiso y respaldo.",
+          "keyPoints": [
+            "Validar resultados combinados debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: una consulta SQL comentada con pregunta, filtros, resultado esperado y verificacion basica.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m4_q1",
+          "question": "¿Para qué sirve un JOIN?",
+          "options": [
+            "Combinar datos de dos o más tablas relacionadas",
+            "Cambiar el color de una tabla",
+            "Eliminar todas las filas vacías",
+            "Crear una imagen"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "JOIN permite enriquecer ventas con datos de productos, clientes u otras tablas."
+        },
+        {
+          "id": "m4_q2",
+          "question": "¿Qué es una clave?",
+          "options": [
+            "Campo usado para identificar o relacionar registros",
+            "Un comentario visual",
+            "Una fórmula de Excel únicamente",
+            "Un archivo de texto"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Las claves permiten unir registros correctos entre tablas."
+        },
+        {
+          "id": "m4_q3",
+          "question": "¿Qué riesgo existe en un JOIN mal hecho?",
+          "options": [
+            "Duplicar o perder registros sin notarlo",
+            "Mejorar siempre los datos",
+            "Crear gráficos automáticamente",
+            "Cerrar la sesión"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Un JOIN incorrecto puede distorsionar métricas."
+        },
+        {
+          "id": "m4_q4",
+          "question": "¿Qué hace LEFT JOIN en términos generales?",
+          "options": [
+            "Conserva todos los registros de la tabla izquierda y agrega coincidencias",
+            "Borra la tabla izquierda",
+            "Ordena de izquierda a derecha",
+            "Solo sirve para fechas"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "LEFT JOIN ayuda a encontrar datos faltantes en la tabla relacionada."
+        },
+        {
+          "id": "m4_q5",
+          "question": "¿Qué conviene revisar después de un JOIN?",
+          "options": [
+            "Cantidad de filas y casos sin coincidencia",
+            "El color de la pantalla",
+            "La velocidad del mouse",
+            "El fondo del navegador"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Validar conteos ayuda a detectar duplicaciones o pérdidas."
+        }
+      ],
+      "professionalOutcome": "escribir consultas claras, comprobar resultados y evitar errores de interpretacion. Entregable sugerido: una consulta con objetivo, SQL, resultado esperado, validacion y comentario."
+    },
+    {
+      "id": "m5",
+      "title": "Fechas, calidad y limpieza de datos",
+      "description": "En este modulo vas a trabajar \"Fechas, calidad y limpieza de datos\" dentro de consultas SQL para analisis, filtros, agregaciones, joins, fechas y control de calidad. La meta es partir de una pregunta concreta, revisar la calidad de la informacion y cerrar con una evidencia que pueda explicarse.",
+      "commercialRisk": "Calidad",
+      "lessons": [
+        {
+          "id": "m5_l1",
+          "title": "Fechas en análisis",
+          "keyIdea": "Idea clave: Fechas en análisis sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Fechas en análisis\" dentro del modulo \"Fechas, calidad y limpieza de datos\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona necesita responder una pregunta de negocio o estudio usando tablas relacionadas y una consulta verificable. Aplica \"Fechas en análisis\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una consulta SQL comentada con pregunta, filtros, resultado esperado y verificacion basica.",
+          "alert": "No ejecutar cambios destructivos ni consultas sobre datos productivos sin permiso y respaldo.",
+          "keyPoints": [
+            "Fechas en análisis debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: una consulta SQL comentada con pregunta, filtros, resultado esperado y verificacion basica.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m5_l2",
+          "title": "Nulos y campos vacíos",
+          "keyIdea": "Idea clave: Nulos y campos vacíos sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Nulos y campos vacíos\" dentro del modulo \"Fechas, calidad y limpieza de datos\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona necesita responder una pregunta de negocio o estudio usando tablas relacionadas y una consulta verificable. Aplica \"Nulos y campos vacíos\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una consulta SQL comentada con pregunta, filtros, resultado esperado y verificacion basica.",
+          "alert": "No ejecutar cambios destructivos ni consultas sobre datos productivos sin permiso y respaldo.",
+          "keyPoints": [
+            "Nulos y campos vacíos debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: una consulta SQL comentada con pregunta, filtros, resultado esperado y verificacion basica.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m5_l3",
+          "title": "Duplicados",
+          "keyIdea": "Idea clave: Duplicados sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Duplicados\" dentro del modulo \"Fechas, calidad y limpieza de datos\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona necesita responder una pregunta de negocio o estudio usando tablas relacionadas y una consulta verificable. Aplica \"Duplicados\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una consulta SQL comentada con pregunta, filtros, resultado esperado y verificacion basica.",
+          "alert": "No ejecutar cambios destructivos ni consultas sobre datos productivos sin permiso y respaldo.",
+          "keyPoints": [
+            "Duplicados debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: una consulta SQL comentada con pregunta, filtros, resultado esperado y verificacion basica.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m5_l4",
+          "title": "Categorías inconsistentes",
+          "keyIdea": "Idea clave: Categorías inconsistentes sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Categorías inconsistentes\" dentro del modulo \"Fechas, calidad y limpieza de datos\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona necesita responder una pregunta de negocio o estudio usando tablas relacionadas y una consulta verificable. Aplica \"Categorías inconsistentes\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una consulta SQL comentada con pregunta, filtros, resultado esperado y verificacion basica.",
+          "alert": "No ejecutar cambios destructivos ni consultas sobre datos productivos sin permiso y respaldo.",
+          "keyPoints": [
+            "Categorías inconsistentes debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: una consulta SQL comentada con pregunta, filtros, resultado esperado y verificacion basica.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m5_l5",
+          "title": "Valores atípicos",
+          "keyIdea": "Idea clave: Valores atípicos sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Valores atípicos\" dentro del modulo \"Fechas, calidad y limpieza de datos\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona necesita responder una pregunta de negocio o estudio usando tablas relacionadas y una consulta verificable. Aplica \"Valores atípicos\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una consulta SQL comentada con pregunta, filtros, resultado esperado y verificacion basica.",
+          "alert": "No ejecutar cambios destructivos ni consultas sobre datos productivos sin permiso y respaldo.",
+          "keyPoints": [
+            "Valores atípicos debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: una consulta SQL comentada con pregunta, filtros, resultado esperado y verificacion basica.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m5_l6",
+          "title": "Consultas de control de calidad",
+          "keyIdea": "Idea clave: Consultas de control de calidad sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Consultas de control de calidad\" dentro del modulo \"Fechas, calidad y limpieza de datos\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona necesita responder una pregunta de negocio o estudio usando tablas relacionadas y una consulta verificable. Aplica \"Consultas de control de calidad\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una consulta SQL comentada con pregunta, filtros, resultado esperado y verificacion basica.",
+          "alert": "No ejecutar cambios destructivos ni consultas sobre datos productivos sin permiso y respaldo.",
+          "keyPoints": [
+            "Consultas de control de calidad debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: una consulta SQL comentada con pregunta, filtros, resultado esperado y verificacion basica.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m5_q1",
+          "question": "¿Qué es un dato nulo o vacío?",
+          "options": [
+            "Un campo sin valor registrado",
+            "Un dato necesariamente falso",
+            "Un gráfico incompleto",
+            "Un tipo de contraseña"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Los nulos pueden afectar métricas, filtros y joins."
+        },
+        {
+          "id": "m5_q2",
+          "question": "¿Qué problema causan categorías inconsistentes?",
+          "options": [
+            "Separan grupos que deberían ser uno solo",
+            "Siempre mejoran el detalle",
+            "Eliminan datos automáticamente",
+            "Impiden abrir el navegador"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Ejemplo: “bebidas”, “Bebidas” y “bebida” pueden dividir el análisis."
+        },
+        {
+          "id": "m5_q3",
+          "question": "¿Qué es un duplicado?",
+          "options": [
+            "Registro repetido que puede inflar métricas",
+            "Una copia de seguridad obligatoria",
+            "Un filtro de fecha",
+            "Una clave primaria siempre correcta"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Los duplicados pueden contar ventas o clientes más de una vez."
+        },
+        {
+          "id": "m5_q4",
+          "question": "¿Para qué sirve revisar valores atípicos?",
+          "options": [
+            "Para detectar errores o comportamientos excepcionales",
+            "Para borrar todas las ventas altas",
+            "Para cambiar contraseñas",
+            "Para ordenar colores"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Un valor extremo puede ser real o un error de carga."
+        },
+        {
+          "id": "m5_q5",
+          "question": "¿Qué conviene documentar al limpiar datos?",
+          "options": [
+            "Qué regla se aplicó y por qué",
+            "Solo el resultado final sin explicación",
+            "Nada, si funciona",
+            "Contraseñas usadas"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Documentar reglas permite trazabilidad y revisión."
+        }
+      ],
+      "professionalOutcome": "escribir consultas claras, comprobar resultados y evitar errores de interpretacion. Entregable sugerido: una consulta con objetivo, SQL, resultado esperado, validacion y comentario."
+    },
+    {
+      "id": "m6",
+      "title": "Mini casos de análisis con SQL",
+      "description": "En este modulo vas a trabajar \"Mini casos de análisis con SQL\" dentro de consultas SQL para analisis, filtros, agregaciones, joins, fechas y control de calidad. La meta es partir de una pregunta concreta, revisar la calidad de la informacion y cerrar con una evidencia que pueda explicarse.",
+      "commercialRisk": "Casos prácticos",
+      "lessons": [
+        {
+          "id": "m6_l1",
+          "title": "Ventas por producto",
+          "keyIdea": "Idea clave: Ventas por producto sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Ventas por producto\" dentro del modulo \"Mini casos de análisis con SQL\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona necesita responder una pregunta de negocio o estudio usando tablas relacionadas y una consulta verificable. Aplica \"Ventas por producto\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una consulta SQL comentada con pregunta, filtros, resultado esperado y verificacion basica.",
+          "alert": "No ejecutar cambios destructivos ni consultas sobre datos productivos sin permiso y respaldo.",
+          "keyPoints": [
+            "Ventas por producto debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: una consulta SQL comentada con pregunta, filtros, resultado esperado y verificacion basica.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m6_l2",
+          "title": "Stock y baja rotación",
+          "keyIdea": "Idea clave: Stock y baja rotación sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Stock y baja rotación\" dentro del modulo \"Mini casos de análisis con SQL\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona necesita responder una pregunta de negocio o estudio usando tablas relacionadas y una consulta verificable. Aplica \"Stock y baja rotación\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una consulta SQL comentada con pregunta, filtros, resultado esperado y verificacion basica.",
+          "alert": "No ejecutar cambios destructivos ni consultas sobre datos productivos sin permiso y respaldo.",
+          "keyPoints": [
+            "Stock y baja rotación debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: una consulta SQL comentada con pregunta, filtros, resultado esperado y verificacion basica.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m6_l3",
+          "title": "Clientes concentrados",
+          "keyIdea": "Idea clave: Clientes concentrados sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Clientes concentrados\" dentro del modulo \"Mini casos de análisis con SQL\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona necesita responder una pregunta de negocio o estudio usando tablas relacionadas y una consulta verificable. Aplica \"Clientes concentrados\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una consulta SQL comentada con pregunta, filtros, resultado esperado y verificacion basica.",
+          "alert": "No ejecutar cambios destructivos ni consultas sobre datos productivos sin permiso y respaldo.",
+          "keyPoints": [
+            "Clientes concentrados debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: una consulta SQL comentada con pregunta, filtros, resultado esperado y verificacion basica.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m6_l4",
+          "title": "Publicaciones con mejor rendimiento",
+          "keyIdea": "Idea clave: Publicaciones con mejor rendimiento sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Publicaciones con mejor rendimiento\" dentro del modulo \"Mini casos de análisis con SQL\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona necesita responder una pregunta de negocio o estudio usando tablas relacionadas y una consulta verificable. Aplica \"Publicaciones con mejor rendimiento\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una consulta SQL comentada con pregunta, filtros, resultado esperado y verificacion basica.",
+          "alert": "No ejecutar cambios destructivos ni consultas sobre datos productivos sin permiso y respaldo.",
+          "keyPoints": [
+            "Publicaciones con mejor rendimiento debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: una consulta SQL comentada con pregunta, filtros, resultado esperado y verificacion basica.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m6_l5",
+          "title": "ROI simple con SQL",
+          "keyIdea": "Idea clave: ROI simple con SQL sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"ROI simple con SQL\" dentro del modulo \"Mini casos de análisis con SQL\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona necesita responder una pregunta de negocio o estudio usando tablas relacionadas y una consulta verificable. Aplica \"ROI simple con SQL\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una consulta SQL comentada con pregunta, filtros, resultado esperado y verificacion basica.",
+          "alert": "No ejecutar cambios destructivos ni consultas sobre datos productivos sin permiso y respaldo.",
+          "keyPoints": [
+            "ROI simple con SQL debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: una consulta SQL comentada con pregunta, filtros, resultado esperado y verificacion basica.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m6_l6",
+          "title": "Reporte final con hallazgos",
+          "keyIdea": "Idea clave: Reporte final con hallazgos sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Reporte final con hallazgos\" dentro del modulo \"Mini casos de análisis con SQL\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona necesita responder una pregunta de negocio o estudio usando tablas relacionadas y una consulta verificable. Aplica \"Reporte final con hallazgos\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una consulta SQL comentada con pregunta, filtros, resultado esperado y verificacion basica.",
+          "alert": "No ejecutar cambios destructivos ni consultas sobre datos productivos sin permiso y respaldo.",
+          "keyPoints": [
+            "Reporte final con hallazgos debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: una consulta SQL comentada con pregunta, filtros, resultado esperado y verificacion basica.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m6_q1",
+          "question": "¿Qué consulta ayuda a ver productos con más ventas?",
+          "options": [
+            "Agrupar ventas por producto y sumar unidades o importes",
+            "Ordenar usuarios por nombre únicamente",
+            "Borrar productos sin stock",
+            "Cambiar el logo del reporte"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Agrupar por producto permite ranking de ventas."
+        },
+        {
+          "id": "m6_q2",
+          "question": "¿Qué indica baja rotación de stock?",
+          "options": [
+            "Productos con pocas ventas frente al stock disponible",
+            "Productos vendidos en segundos siempre",
+            "Clientes sin correo",
+            "Contraseñas débiles"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Baja rotación ayuda a detectar capital inmovilizado."
+        },
+        {
+          "id": "m6_q3",
+          "question": "¿Qué es concentración de facturación?",
+          "options": [
+            "Gran parte de ventas depende de pocos clientes o productos",
+            "El color de un dashboard",
+            "El total de columnas",
+            "Un error de conexión"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "La concentración muestra dependencia y riesgo comercial."
+        },
+        {
+          "id": "m6_q4",
+          "question": "¿Por qué SQL ayuda antes de Power BI o Tableau?",
+          "options": [
+            "Permite preparar y validar datos antes de visualizarlos",
+            "Reemplaza toda visualización siempre",
+            "Solo sirve para programadores avanzados",
+            "Evita pensar preguntas"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Datos bien consultados mejoran cualquier dashboard."
+        },
+        {
+          "id": "m6_q5",
+          "question": "¿Qué debe incluir un mini reporte?",
+          "options": [
+            "Hallazgo, evidencia, límite y recomendación",
+            "Solo una tabla enorme",
+            "Opiniones sin datos",
+            "Contraseñas de acceso"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Un reporte útil conecta datos con una acción razonable."
+        }
+      ],
+      "professionalOutcome": "escribir consultas claras, comprobar resultados y evitar errores de interpretacion. Entregable sugerido: una consulta con objetivo, SQL, resultado esperado, validacion y comentario."
+    }
+  ],
+  "publicationStatus": "publica-profesional-v0.6",
+  "professionalization": {
+    "tier": "curso-bandera-v1.0-beta",
+    "updatedAt": "2026-05-28",
+    "focus": "Profundizacion visible de lecciones, practicas, checklists y casos."
+  },
+  "editorialPolish": {
+    "thirdEditorialBatch": "2026-06-02",
+    "status": "public-facing-copy-polished"
+  }
+}

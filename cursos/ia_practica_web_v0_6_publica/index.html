@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Curso web interactivo para aprender a usar IA generativa en tareas reales: redactar, resumir, vender, organizar, estudiar y verificar respuestas con criterio responsable. Versión pública liviana preparada para prueba y publicación web." />
+  <meta name="theme-color" content="#08111f" />
+  <meta name="application-name" content="IA Práctica para Trabajadores y Emprendedores" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-title" content="IA Práctica" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="icons/icon-192.png" />
+  <title>IA Práctica para Trabajadores y Emprendedores — Curso Web</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#app">Saltar al contenido principal</a>
+  <div class="app-shell">
+    <header class="topbar">
+      <a class="brand" href="#/" aria-label="Ir al inicio">
+        <span class="brand-mark" data-brand-mark>IPP</span>
+        <span>
+          <strong data-brand-name>IA Práctica para Trabajadores y Emprendedores</strong>
+          <small data-brand-subtitle>Curso web para usar IA en tareas reales</small>
+        </span>
+      </a>
+      <nav class="topnav" aria-label="Navegación principal">
+        <a href="#/modules" data-nav-modules>Módulos</a>
+        <a href="#/checklists" data-nav-checklists>Checklists</a>
+        <a href="#/incidents" data-nav-incidents>Casos prácticos</a>
+        <a href="#/prompts" data-nav-prompts>Prompts</a>
+        <a href="#/builder">Constructor</a>
+        <a class="danger-link" href="#/emergency" data-nav-emergency>Riesgos</a>
+        <a href="#/accessibility">Accesibilidad</a>
+      </nav>
+    </header>
+
+    <main id="app" class="main-content" tabindex="-1">
+      <section class="loading-card">
+        <h1>Cargando curso…</h1>
+        <p>Si abriste este archivo directamente con doble clic y no carga, usá VS Code + Live Server.</p>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span data-footer-version>Cursoteca Abierta - Curso gratuito</span>
+      <span id="offlineStatus" class="offline-status">Estado de conexión</span>
+      <a href="#/legal">Alcance y privacidad</a>
+      <a href="#/certificate">Constancia</a>
+      <a href="#/accessibility">Accesibilidad</a>
+    </footer>
+  </div>
+  <script src="src/app.js" defer></script>
+</body>
+</html>

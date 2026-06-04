@@ -1,0 +1,145 @@
+{
+  "courseId": "privacidad-digital-ciudadana",
+  "templateVersion": "0.6-publica-profesional",
+  "appName": "Privacidad Digital Ciudadana",
+  "shortName": "Privacidad Digital",
+  "subtitle": "Curso practico para revisar datos personales, permisos de apps, privacidad en redes, cookies, nube y backups.",
+  "description": "Cuida tu privacidad digital: datos personales, permisos, WhatsApp, Google, Meta, cookies, nube, fotos, archivos y rutina ciudadana.",
+  "audience": "Usuarios adultos, estudiantes, trabajadores, familias y ciudadanos que quieren reducir exposición digital sin dejar de usar herramientas cotidianas.",
+  "dataPaths": {
+    "course": "src/data/course_content.json",
+    "checklists": "src/data/checklists.json",
+    "incidents": "src/data/incidents.json",
+    "privacyAudit": "src/data/privacy_audit.json",
+    "privacyGuides": "src/data/privacy_guides.json",
+    "privacyRoutine": "src/data/privacy_routine.json"
+  },
+  "labels": {
+    "modules": "Módulos",
+    "checklists": "Checklists",
+    "incidents": "Casos de privacidad",
+    "emergency": "Acción rápida",
+    "certificate": "Constancia",
+    "primaryAction": "Empezar curso",
+    "emergencyAction": "Revisar un riesgo de privacidad",
+    "privacyAudit": "Auditor de privacidad",
+    "privacyGuides": "Guías de privacidad",
+    "privacyRoutine": "Rutina ciudadana"
+  },
+  "features": {
+    "modules": true,
+    "quizzes": true,
+    "checklists": true,
+    "incidents": true,
+    "emergency": true,
+    "certificate": true,
+    "progressExport": true,
+    "templateGuide": true,
+    "accessibilityPanel": true,
+    "pwaBasic": true,
+    "offlineCache": true,
+    "publishGuide": true,
+    "privacyAudit": true,
+    "privacyRiskScore": true,
+    "privacyRecommendations": true,
+    "privacyAuditHistory": true,
+    "privacyReportExport": true,
+    "privacyStepGuides": true,
+    "privacyGuideCopy": true,
+    "privacyGuidePrint": true,
+    "privacyGuideDownload": true,
+    "privacyRoutine": true,
+    "privacyMonthlyChecklist": true,
+    "privacyPrintableReport": true,
+    "privacyRoutineHistory": true,
+    "privacyRoutinePrint": true,
+    "publicationCandidate": true,
+    "publicReadme": true,
+    "publicationGuide": true,
+    "screenshotsGuide": true,
+    "legalNotice": true,
+    "privacyPolicy": true,
+    "publicationChecklist": true,
+    "storeScreenshotsFolder": true,
+    "publicProfessionalEdition": true,
+    "requiresBackend": false,
+    "requiresLogin": false
+  },
+  "theme": {
+    "accent": "#4fb6aa",
+    "accent2": "#a78bfa",
+    "danger": "#fb7185",
+    "warning": "#fbbf24",
+    "primary": "#d6a85c",
+    "background": "#21130b"
+  },
+  "responsibleNotice": "Contenido educativo. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. No publicar documentos, ubicacion en tiempo real, codigos, datos de menores ni informacion bancaria.",
+  "cloneNotes": [
+    "Clon creado desde la plantilla web v0.6.",
+    "El curso usa JSON local y progreso en localStorage.",
+    "La v0.2 agrega un auditor de permisos y privacidad basado en formulario local.",
+    "No guardar nombres de apps reales, correos, teléfonos, claves ni datos personales en el historial.",
+    "La v0.3 agrega guías paso a paso de configuración de privacidad cargadas desde privacy_guides.json.",
+    "La v0.4 agrega rutina ciudadana de privacidad, checklist mensual, reporte imprimible e historial local no sensible.",
+    "La v0.5 prepara el paquete como candidato de publicación web con README público, guías, aviso legal, privacidad y checklist final."
+  ],
+  "certificate": {
+    "title": "Constancia interna de avance",
+    "issuer": "Privacidad Digital Ciudadana",
+    "notOfficialNotice": "Esta constancia es interna, educativa y no equivale a una certificación oficial.",
+    "minimumSuggestedProgress": 70
+  },
+  "accessibility": {
+    "fontScale": true,
+    "highContrast": true,
+    "reduceMotion": true
+  },
+  "publish": {
+    "status": "v0.5 candidata de publicación web",
+    "recommendedNext": "v0.6 final pública opcional: limpieza de documentación heredada, revisión visual final y preparación de demo online"
+  },
+  "publicEdition": {
+    "level": "publica-profesional",
+    "version": "0.6",
+    "generatedAt": "2026-05-26",
+    "sourceZip": "privacidad_digital_ciudadana_web_v0_5.zip"
+  },
+  "publication": {
+    "version": "0.6-publica-profesional",
+    "status": "Publica profesional",
+    "requiresBackend": false,
+    "requiresLogin": false,
+    "requiresAnalytics": false,
+    "requiresAds": false,
+    "recommendedHosts": [
+      "GitHub Pages",
+      "Netlify",
+      "Vercel",
+      "Hosting estatico propio"
+    ],
+    "prePublishChecks": [
+      "Probar con servidor local",
+      "Probar navegacion en movil y escritorio",
+      "Revisar textos legales y privacidad",
+      "Verificar que no se pidan datos sensibles",
+      "Actualizar capturas publicas"
+    ]
+  },
+  "webApp": {
+    "cacheName": "privacidad-digital-ciudadana-web-v0-6-publica-v0-6-publica-profesional",
+    "publicationStatus": "publica-profesional-v0.6"
+  },
+  "professionalization": {
+    "tier": "curso-bandera-v1.0-beta",
+    "updatedAt": "2026-05-28",
+    "improvements": [
+      "Lecciones con teoria, ejemplo, error comun y ejercicio mas profundos.",
+      "Checklists orientados a evidencia y entregables.",
+      "Casos guiados con pasos, errores y decision responsable."
+    ]
+  },
+  "editorialPolish": {
+    "fifthEditorialBatch": "2026-06-02",
+    "status": "public-facing-copy-polished"
+  }
+}

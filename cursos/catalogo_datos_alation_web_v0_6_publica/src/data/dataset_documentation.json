@@ -1,0 +1,176 @@
+{
+  "documentationRubric": [
+    {
+      "id": "doc_name",
+      "label": "Nombre claro de negocio y técnico",
+      "weight": 15,
+      "hint": "Debe permitir reconocer el dataset sin abrirlo."
+    },
+    {
+      "id": "doc_purpose",
+      "label": "Propósito y pregunta de negocio",
+      "weight": 15,
+      "hint": "Explica para qué sirve y qué decisiones permite tomar."
+    },
+    {
+      "id": "doc_owner",
+      "label": "Dueño, steward y contacto responsable",
+      "weight": 12,
+      "hint": "Debe quedar claro quién puede validar dudas o cambios."
+    },
+    {
+      "id": "doc_columns",
+      "label": "Columnas principales documentadas",
+      "weight": 15,
+      "hint": "Incluye significado, tipo, ejemplo y advertencias."
+    },
+    {
+      "id": "doc_quality",
+      "label": "Calidad, frescura y certificación",
+      "weight": 15,
+      "hint": "Indica nivel de confianza, actualización y estado de validación."
+    },
+    {
+      "id": "doc_lineage",
+      "label": "Linaje y origen de datos",
+      "weight": 14,
+      "hint": "Resume de dónde viene el dato y cómo se transforma."
+    },
+    {
+      "id": "doc_usage",
+      "label": "Usos recomendados y límites",
+      "weight": 14,
+      "hint": "Aclara para qué sirve y para qué no conviene usarlo."
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "documentar-ventas-mensuales",
+      "title": "Documentar dataset de ventas mensuales",
+      "context": "El equipo comercial usa una tabla consolidada para reportes mensuales, pero varias áreas no entienden qué incluye cada métrica.",
+      "dataset": "Ventas mensuales consolidadas",
+      "missing": [
+        "definición de venta neta",
+        "frecuencia de actualización",
+        "dueño del dato",
+        "limitaciones para devoluciones"
+      ],
+      "expectedSections": [
+        "propósito",
+        "dueño/steward",
+        "columnas clave",
+        "calidad",
+        "linaje",
+        "usos recomendados",
+        "límites"
+      ],
+      "sampleImprovement": "Agregar definición de venta neta, periodo cubierto, origen de ventas, estado de certificación y contacto responsable."
+    },
+    {
+      "id": "documentar-cliente-activo",
+      "title": "Resolver definición de cliente activo",
+      "context": "Marketing y Finanzas usan definiciones distintas de cliente activo. Se necesita una ficha común de glosario y dataset.",
+      "dataset": "Clientes activos con definición gobernada",
+      "missing": [
+        "regla de actividad",
+        "ventana temporal",
+        "exclusiones",
+        "dueño de definición"
+      ],
+      "expectedSections": [
+        "término de negocio",
+        "definición oficial",
+        "regla de cálculo",
+        "responsable",
+        "ejemplos",
+        "anti-ejemplos"
+      ],
+      "sampleImprovement": "Definir cliente activo como cliente con compra confirmada en los últimos 90 días, excluyendo anulaciones y pruebas."
+    },
+    {
+      "id": "documentar-stock-operativo",
+      "title": "Documentar stock operativo",
+      "context": "Operaciones y ventas consultan stock, pero no siempre distinguen stock físico, reservado y disponible.",
+      "dataset": "Stock operativo de productos",
+      "missing": [
+        "diferencia entre stock físico y disponible",
+        "origen del sistema",
+        "latencia de actualización",
+        "advertencias de uso"
+      ],
+      "expectedSections": [
+        "descripción",
+        "columnas críticas",
+        "frescura",
+        "linaje",
+        "usos permitidos",
+        "usos no recomendados"
+      ],
+      "sampleImprovement": "Aclarar que stock disponible descuenta reservas y puede tener demora de actualización operativa."
+    }
+  ],
+  "glossaryTemplates": [
+    {
+      "id": "termino-negocio",
+      "title": "Plantilla de término de negocio",
+      "fields": [
+        "Nombre del término",
+        "Definición clara",
+        "Regla de cálculo",
+        "Ejemplo válido",
+        "Ejemplo no válido",
+        "Dueño de definición"
+      ]
+    },
+    {
+      "id": "diccionario-columnas",
+      "title": "Plantilla de diccionario de columnas",
+      "fields": [
+        "Nombre de columna",
+        "Descripción",
+        "Tipo de dato",
+        "Ejemplo",
+        "Valores permitidos",
+        "Advertencias"
+      ]
+    },
+    {
+      "id": "ficha-dataset",
+      "title": "Plantilla de ficha de dataset",
+      "fields": [
+        "Nombre de negocio",
+        "Nombre técnico",
+        "Dominio",
+        "Dueño",
+        "Steward",
+        "Propósito",
+        "Linaje",
+        "Calidad",
+        "Usos recomendados",
+        "Limitaciones"
+      ]
+    }
+  ],
+  "qualityBands": [
+    {
+      "min": 85,
+      "label": "Documentación alta",
+      "message": "La ficha es suficientemente clara para una primera revisión de negocio y datos."
+    },
+    {
+      "min": 65,
+      "label": "Documentación aceptable",
+      "message": "La ficha sirve como borrador, pero necesita reforzar algunas secciones."
+    },
+    {
+      "min": 40,
+      "label": "Documentación incompleta",
+      "message": "Faltan datos clave para confiar en el dataset sin asistencia."
+    },
+    {
+      "min": 0,
+      "label": "Documentación crítica",
+      "message": "La ficha no alcanza para uso responsable; requiere revisión del dueño/steward."
+    }
+  ]
+}

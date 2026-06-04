@@ -1,0 +1,94 @@
+{
+  "courseId": "javascript_desde_cero",
+  "templateVersion": "0.6-publica-profesional",
+  "title": "JavaScript desde Cero",
+  "subtitle": "Curso práctico para construir interacciones simples, leer errores y mejorar una página paso a paso.",
+  "description": "Dale comportamiento a páginas web simples con JavaScript: practicá eventos, datos, errores frecuentes y pequeñas mejoras verificables.",
+  "audience": "Principiantes,Estudiantes,Personas que ya vieron HTML y CSS,Creadores de proyectos web simples",
+  "category": "Desarrollo Web y Programación",
+  "route": "Ruta 5",
+  "dataPaths": {
+    "course": "src/data/course_content.json",
+    "checklists": "src/data/checklists.json",
+    "incidents": "src/data/incidents.json",
+    "jsLab": "src/data/js_lab.json",
+    "miniApps": "src/data/mini_apps.json",
+    "guidedProject": "src/data/guided_project.json"
+  },
+  "progressKey": "adp_javascript_desde_cero_progress_v01",
+  "theme": {
+    "primary": "#d6a85c",
+    "accent": "#4fb6aa",
+    "background": "#21130b"
+  },
+  "legalNotice": "Curso educativo introductorio. No reemplaza documentación oficial ni formación profesional especializada.",
+  "features": [
+    "cases",
+    "certificate",
+    "checklists",
+    "course",
+    "editableExamples",
+    "errorReview",
+    "guidedMiniAppProject",
+    "htmlCssJsExport",
+    "javascriptLab",
+    "miniAppBuilder",
+    "practiceExport",
+    "previewSandbox",
+    "privacyNotice",
+    "progress",
+    "publicationDocs",
+    "quiz",
+    "screenshotsChecklist",
+    "testChecklist"
+  ],
+  "version": "0.5",
+  "publicationStatus": "candidate",
+  "publicEdition": {
+    "level": "publica-profesional",
+    "version": "0.6",
+    "generatedAt": "2026-05-26",
+    "sourceZip": "javascript_desde_cero_web_v0_5.zip"
+  },
+  "publication": {
+    "version": "0.6-publica-profesional",
+    "status": "Publica profesional",
+    "requiresBackend": false,
+    "requiresLogin": false,
+    "requiresAnalytics": false,
+    "requiresAds": false,
+    "recommendedHosts": [
+      "GitHub Pages",
+      "Netlify",
+      "Vercel",
+      "Hosting estatico propio"
+    ],
+    "prePublishChecks": [
+      "Probar con servidor local",
+      "Probar navegacion en movil y escritorio",
+      "Revisar textos legales y privacidad",
+      "Verificar que no se pidan datos sensibles",
+      "Actualizar capturas publicas"
+    ]
+  },
+  "webApp": {
+    "cacheName": "javascript-desde-cero-web-v0-6-publica-v0-6-publica-profesional",
+    "publicationStatus": "publica-profesional-v0.6"
+  },
+  "responsibleNotice": "Contenido educativo. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. No pegar codigo desconocido en proyectos importantes sin probarlo en un archivo aislado.",
+  "appName": "JavaScript desde Cero",
+  "shortName": "JavaScript desde Cero",
+  "professionalization": {
+    "tier": "curso-bandera-v1.0-beta",
+    "updatedAt": "2026-05-28",
+    "improvements": [
+      "Lecciones con teoria, ejemplo, error comun y ejercicio mas profundos.",
+      "Checklists orientados a evidencia y entregables.",
+      "Casos guiados con pasos, errores y decision responsable."
+    ]
+  },
+  "editorialPolish": {
+    "firstFeaturedBatch": "2026-06-01",
+    "status": "public-facing-copy-polished"
+  }
+}

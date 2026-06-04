@@ -1,0 +1,103 @@
+{
+  "projectTitle": "Proyecto guiado de landing responsive",
+  "description": "Construí una landing page básica integrando HTML y CSS: hero, beneficios, sección visual, llamada a la acción y contacto.",
+  "steps": [
+    {
+      "id": "hero",
+      "title": "Hero principal",
+      "goal": "Presentar la propuesta de la página en una primera pantalla clara.",
+      "tip": "Usá un h1 directo, un párrafo corto y un botón visible."
+    },
+    {
+      "id": "benefits",
+      "title": "Beneficios o características",
+      "goal": "Mostrar 3 razones para que la persona entienda el valor de la propuesta.",
+      "tip": "Cada tarjeta debe tener título breve, texto corto y buen espaciado."
+    },
+    {
+      "id": "visual",
+      "title": "Sección visual",
+      "goal": "Agregar un bloque de imagen o recurso visual sin depender de archivos externos.",
+      "tip": "Usá un contenedor con gradiente o placeholder accesible."
+    },
+    {
+      "id": "cta",
+      "title": "Llamada a la acción",
+      "goal": "Guiar al usuario hacia el próximo paso.",
+      "tip": "El botón debe decir qué pasa después: consultar, empezar, descargar, etc."
+    },
+    {
+      "id": "contact",
+      "title": "Contacto básico",
+      "goal": "Agregar una forma simple de contacto o cierre.",
+      "tip": "Podés usar un enlace mailto o una sección con datos ficticios."
+    }
+  ],
+  "fields": [
+    {
+      "id": "pageTitle",
+      "label": "Título de la landing",
+      "default": "Mi servicio digital"
+    },
+    {
+      "id": "subtitle",
+      "label": "Subtítulo",
+      "default": "Una página simple, clara y responsive creada con HTML y CSS."
+    },
+    {
+      "id": "primaryAction",
+      "label": "Texto del botón principal",
+      "default": "Quiero saber más"
+    },
+    {
+      "id": "benefit1",
+      "label": "Beneficio 1",
+      "default": "Rápido de entender"
+    },
+    {
+      "id": "benefit2",
+      "label": "Beneficio 2",
+      "default": "Fácil de usar"
+    },
+    {
+      "id": "benefit3",
+      "label": "Beneficio 3",
+      "default": "Preparado para móvil"
+    },
+    {
+      "id": "contactText",
+      "label": "Texto de contacto",
+      "default": "Escribinos para conocer más sobre esta propuesta."
+    },
+    {
+      "id": "primaryColor",
+      "label": "Color principal",
+      "default": "#38bdf8"
+    },
+    {
+      "id": "accentColor",
+      "label": "Color de acento",
+      "default": "#a78bfa"
+    }
+  ],
+  "semanticChecklist": [
+    "La página usa un solo h1 principal.",
+    "Las secciones principales usan etiquetas section o article.",
+    "Los títulos mantienen una jerarquía clara.",
+    "Los enlaces y botones tienen texto entendible.",
+    "El contenido puede leerse sin depender solo del color."
+  ],
+  "accessibilityChecklist": [
+    "El contraste entre texto y fondo es suficiente.",
+    "Los botones son grandes y fáciles de tocar.",
+    "La página tiene meta viewport.",
+    "Las tarjetas no quedan demasiado estrechas en móvil.",
+    "La información importante no está solo en imágenes."
+  ],
+  "responsiveTips": [
+    "Usá flex-wrap o grid con minmax para que las tarjetas bajen de línea.",
+    "Evitá anchos fijos grandes como 900px sin max-width.",
+    "Probá la landing en pantalla angosta desde el navegador.",
+    "Dejá suficiente padding para que el texto no toque los bordes."
+  ]
+}

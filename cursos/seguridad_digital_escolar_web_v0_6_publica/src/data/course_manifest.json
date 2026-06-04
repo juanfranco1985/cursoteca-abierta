@@ -1,0 +1,170 @@
+{
+  "courseId": "seguridad-digital-escolar-web",
+  "templateVersion": "0.6-publica-profesional",
+  "appName": "Seguridad Digital Escolar",
+  "shortName": "Escuela Digital",
+  "subtitle": "Curso práctico para identificar situaciones de riesgo, cuidar datos y actuar con adultos responsables.",
+  "description": "Trabajá seguridad digital escolar desde la convivencia: huella online, privacidad, contraseñas, conflictos y pedidos de ayuda.",
+  "audience": "Estudiantes secundarios, familias, docentes, preceptores, escuelas y talleres de ciudadanía digital.",
+  "dataPaths": {
+    "course": "src/data/course_content.json",
+    "checklists": "src/data/checklists.json",
+    "incidents": "src/data/incidents.json",
+    "helpResources": "src/data/help_resources.json",
+    "schoolScenarios": "src/data/school_scenarios.json",
+    "schoolGuidance": "src/data/school_guidance.json"
+  },
+  "labels": {
+    "modules": "Módulos escolares",
+    "checklists": "Checklists de prevención",
+    "incidents": "Casos escolares guiados",
+    "emergency": "Pedir ayuda",
+    "certificate": "Constancia de participación",
+    "primaryAction": "Empezar curso",
+    "emergencyAction": "Necesito pedir ayuda"
+  },
+  "features": {
+    "modules": true,
+    "quizzes": true,
+    "checklists": true,
+    "incidents": true,
+    "emergency": true,
+    "certificate": true,
+    "progressExport": true,
+    "templateGuide": true,
+    "accessibilityPanel": true,
+    "pwaBasic": true,
+    "offlineCache": true,
+    "schoolSafety": true,
+    "evidenceGuidance": true,
+    "helpSeeking": true,
+    "helpModeV02": true,
+    "copyableHelpMessages": true,
+    "evidenceChecklist": true,
+    "riskSignals": true,
+    "schoolOrientation": true,
+    "severeRoute": true,
+    "schoolScenarioSimulator": true,
+    "scenarioDecisionFeedback": true,
+    "scenarioHistory": true,
+    "scenarioReportExport": true,
+    "familyTeacherGuidance": true,
+    "schoolProtocolV04": true,
+    "printableConversationReport": true,
+    "mobileAccessibilityV04": true,
+    "guidedAccompaniment": true,
+    "publicationReadyV05": true,
+    "publicReadmeV05": true,
+    "publicationGuideV05": true,
+    "screenshotGuideV05": true,
+    "privacyPolicyV05": true,
+    "legalScopeV05": true,
+    "publicationChecklistV05": true,
+    "publicProfessionalEdition": true,
+    "requiresBackend": false,
+    "requiresLogin": false
+  },
+  "theme": {
+    "primary": "#d6a85c",
+    "secondary": "#a78bfa",
+    "accent": "#4fb6aa",
+    "background": "#21130b",
+    "surface": "#0f172a"
+  },
+  "responsibleNotice": "Contenido educativo. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. No reenviar imagenes, conversaciones ni datos de menores. Pedir ayuda adulta ante dudas.",
+  "cloneNotes": [
+    "Clon v0.1 creado desde la familia de cursos web clonables.",
+    "Mantiene motor HTML/CSS/JS y reemplaza contenidos por temática escolar.",
+    "Los casos guiados se alojan en incidents.json por compatibilidad, aunque se presentan como casos escolares.",
+    "v0.4 agrega guías para familias/docentes, protocolo escolar y reporte imprimible de conversación.",
+    "v0.5 cierra una versión candidata de publicación web con README público, guías de publicación/capturas, privacidad, alcance educativo y checklist final."
+  ],
+  "certificate": {
+    "title": "Constancia interna de participación",
+    "subtitle": "Seguridad Digital Escolar",
+    "disclaimer": "No es certificación oficial. Indica participación y avance dentro del curso web educativo."
+  },
+  "quiz": {
+    "passingScore": 70,
+    "showFeedback": true,
+    "allowRetry": true
+  },
+  "accessibility": {
+    "fontScaleOptions": [
+      "normal",
+      "large",
+      "xlarge"
+    ],
+    "highContrast": true,
+    "reducedMotion": true
+  },
+  "webApp": {
+    "version": "0.5",
+    "offlineReady": true,
+    "publishTarget": [
+      "GitHub Pages",
+      "Netlify",
+      "Vercel",
+      "servidor estático"
+    ],
+    "cacheName": "seguridad-digital-escolar-web-v0-6-publica-v0-6-publica-profesional",
+    "publicationStatus": "publica-profesional-v0.6"
+  },
+  "publication": {
+    "status": "Publica profesional",
+    "recommendedNextVersion": "v0.6 final pública opcional: limpieza de documentación heredada, capturas reales, demo online y paquete liviano.",
+    "publishReadiness": [
+      "probar con Live Server",
+      "verificar Service Worker en localhost/HTTPS",
+      "tomar capturas sugeridas",
+      "revisar textos con escuela/familia antes de difusión pública",
+      "publicar en GitHub Pages, Netlify, Vercel o servidor estático"
+    ],
+    "version": "0.6-publica-profesional",
+    "requiresBackend": false,
+    "requiresLogin": false,
+    "requiresAnalytics": false,
+    "requiresAds": false,
+    "recommendedHosts": [
+      "GitHub Pages",
+      "Netlify",
+      "Vercel",
+      "Hosting estatico propio"
+    ],
+    "prePublishChecks": [
+      "Probar con servidor local",
+      "Probar navegacion en movil y escritorio",
+      "Revisar textos legales y privacidad",
+      "Verificar que no se pidan datos sensibles",
+      "Actualizar capturas publicas"
+    ]
+  },
+  "helpMode": {
+    "title": "Pedir ayuda sin empeorar la situación",
+    "description": "Elegí un mensaje, conservá evidencia y abrí una ruta clara para hablar con familia, escuela o plataforma.",
+    "primaryWarning": "No compartas claves, códigos, fotos íntimas ni capturas sensibles en grupos. Pedí ayuda a una persona adulta de confianza."
+  },
+  "schoolSimulator": {
+    "title": "Simulador de situaciones escolares",
+    "description": "Decisiones educativas con feedback para practicar cómo pedir ayuda, conservar evidencia y evitar respuestas riesgosas."
+  },
+  "publicEdition": {
+    "level": "publica-profesional",
+    "version": "0.6",
+    "generatedAt": "2026-05-26",
+    "sourceZip": "seguridad_digital_escolar_web_v0_5.zip"
+  },
+  "professionalization": {
+    "tier": "curso-bandera-v1.0-beta",
+    "updatedAt": "2026-05-28",
+    "improvements": [
+      "Lecciones con teoria, ejemplo, error comun y ejercicio mas profundos.",
+      "Checklists orientados a evidencia y entregables.",
+      "Casos guiados con pasos, errores y decision responsable."
+    ]
+  },
+  "editorialPolish": {
+    "secondFeaturedBatch": "2026-06-01",
+    "status": "public-facing-copy-polished"
+  }
+}

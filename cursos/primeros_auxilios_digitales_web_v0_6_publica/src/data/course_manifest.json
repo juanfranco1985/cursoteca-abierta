@@ -1,0 +1,463 @@
+{
+  "courseId": "primeros-auxilios-digitales-web",
+  "templateVersion": "0.6-publica-profesional",
+  "appName": "Primeros Auxilios Digitales",
+  "shortName": "Auxilios Digitales",
+  "subtitle": "Curso práctico para reaccionar ante mensajes sospechosos, robo de cuentas, estafas e incidentes digitales.",
+  "description": "Organizá los primeros pasos ante una urgencia digital: cortar el daño, guardar evidencia, recuperar control y escalar por canales seguros.",
+  "audience": "Personas que necesitan una guía clara ante una emergencia digital, familias, adultos acompañados, pequeños comercios y usuarios generales.",
+  "dataPaths": {
+    "course": "src/data/course_content.json",
+    "checklists": "src/data/checklists.json",
+    "incidents": "src/data/incidents.json"
+  },
+  "labels": {
+    "modules": "Módulos de auxilio",
+    "checklists": "Checklists de protección",
+    "incidents": "Emergencias guiadas",
+    "emergency": "Emergencia",
+    "certificate": "Constancia de preparación",
+    "primaryAction": "Empezar guía",
+    "emergencyAction": "Necesito ayuda ahora"
+  },
+  "features": {
+    "modules": true,
+    "quizzes": true,
+    "checklists": true,
+    "incidents": true,
+    "emergency": true,
+    "certificate": true,
+    "progressExport": true,
+    "templateGuide": false,
+    "accessibilityPanel": true,
+    "pwaBasic": true,
+    "offlineCache": true,
+    "publishGuide": false,
+    "officialCloneTemplate": false,
+    "templateKit": false,
+    "cloneChecklist": false,
+    "dataContracts": false,
+    "sampleCoursesRoadmap": false,
+    "validationScript": true,
+    "emergencyPriorities": true,
+    "copyableMessages": true,
+    "incidentSpecificProtocols": true,
+    "v02EmergencyUpgrade": true,
+    "quickTriage": true,
+    "triageRecommendations": true,
+    "triageHistory": true,
+    "v03TriageUpgrade": true,
+    "emergencyRouteMap": true,
+    "copyableActionPlan": true,
+    "printableEmergencyChecklist": true,
+    "triageResultUpgrade": true,
+    "adultFriendlyResult": true,
+    "v04PostTriageUpgrade": true,
+    "publicReleaseCandidate": true,
+    "publicReadme": true,
+    "deploymentGuide": true,
+    "legalReviewDocs": true,
+    "screenshotGuide": true,
+    "serviceWorkerPolish": true,
+    "v05PublicationFinish": true,
+    "publicLightPackage": true,
+    "v06PublicRelease": true,
+    "publicProfessionalEdition": true,
+    "requiresBackend": false,
+    "requiresLogin": false
+  },
+  "theme": {
+    "accent": "#4fb6aa",
+    "accent2": "#a78bfa",
+    "danger": "#fb7185",
+    "warning": "#fbbf24",
+    "primary": "#d6a85c",
+    "background": "#21130b"
+  },
+  "responsibleNotice": "Contenido educativo. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. No seguir hablando con quien presiona, no entregar codigos y no abrir enlaces dudosos.",
+  "cloneNotes": [
+    "Este curso fue creado como primer clon real de la plantilla web v0.6.",
+    "Para crear otro curso, duplicar la carpeta completa y cambiar manifest, contenido, checklists, casos/incidentes, README y metadatos web.",
+    "Mantener ids únicos, rutas relativas y estructura JSON compatible con scripts/validate-template.mjs.",
+    "No tocar src/app.js salvo que el nuevo curso necesite una mecánica educativa diferente.",
+    "Conservar avisos responsables cuando el curso trate temas sensibles, financieros, médicos, legales o de seguridad."
+  ],
+  "certificate": {
+    "title": "Constancia interna de preparación digital",
+    "issuer": "Primeros Auxilios Digitales",
+    "minimumSuggestedProgress": 70,
+    "minimumSuggestedQuizAverage": 70,
+    "notOfficialNotice": "Esta constancia es educativa, interna y orientativa. No equivale a certificación oficial ni acredita competencia profesional."
+  },
+  "quiz": {
+    "passingPercent": 70,
+    "feedbackMode": "immediate",
+    "allowRetry": true,
+    "saveBestAttempt": true
+  },
+  "accessibility": {
+    "fontScaleOptions": [
+      "normal",
+      "large",
+      "extra-large"
+    ],
+    "highContrast": true,
+    "reducedMotion": true,
+    "skipLink": true
+  },
+  "webApp": {
+    "cacheName": "primeros-auxilios-digitales-web-v0-6-publica-v0-6-publica-profesional",
+    "offlineNote": "El curso puede abrirse offline después de una primera carga correcta con Service Worker. En v0.5 se prepara como candidato de publicación web estática, con guía de despliegue, capturas sugeridas y revisión legal/documental.",
+    "publishTargets": [
+      "GitHub Pages",
+      "Netlify",
+      "Vercel",
+      "Servidor estático propio",
+      "WebView futura para Android"
+    ],
+    "releaseType": "public-light",
+    "version": "0.6-publica",
+    "publicationStatus": "publica-profesional-v0.6"
+  },
+  "cloneKit": {
+    "status": "primer-clon-real",
+    "baseTemplate": "Escudo Comercial Digital Argentina Web v0.6",
+    "recommendedCloneFlow": [
+      "Duplicar carpeta base",
+      "Renombrar proyecto",
+      "Editar course_manifest.json",
+      "Reemplazar course_content.json",
+      "Reemplazar checklists.json",
+      "Reemplazar incidents.json",
+      "Actualizar README y docs",
+      "Ejecutar node scripts/validate-template.mjs",
+      "Probar con Live Server"
+    ]
+  },
+  "emergencyMode": {
+    "title": "Estoy en una emergencia digital",
+    "description": "Usá esta pantalla para ordenar los primeros pasos. La prioridad es cortar el daño, proteger cuentas críticas, preservar evidencia y contactar canales oficiales.",
+    "priorityScale": [
+      {
+        "level": "Rojo · actuar ahora",
+        "description": "Cuenta tomada, dinero comprometido, extorsión, amenaza, pérdida de celular o contacto activo con atacante."
+      },
+      {
+        "level": "Naranja · revisar ya",
+        "description": "Abriste un link, instalaste una app dudosa, diste algún dato o viste movimientos que no reconocés."
+      },
+      {
+        "level": "Amarillo · prevenir",
+        "description": "Recibiste un mensaje sospechoso, llamada extraña, beneficio falso o pedido de código, pero no interactuaste."
+      },
+      {
+        "level": "Verde · reforzar",
+        "description": "No hay daño visible, pero conviene revisar claves, sesiones, permisos y doble factor."
+      }
+    ],
+    "firstFiveMinutes": [
+      "Cortá la conversación con quien presiona, amenaza, pide códigos o exige una acción urgente.",
+      "No compartas códigos SMS, claves, capturas de seguridad, token, DNI, tarjetas ni datos de recuperación.",
+      "No abras más links ni instales apps enviadas por chat, correo o supuestos soportes.",
+      "Hacé capturas completas de mensajes, números, correos, perfiles, montos, alias, links y horarios.",
+      "Entrá manualmente a apps oficiales: banco, billetera, correo, WhatsApp, red social o tienda de apps.",
+      "Pedí ayuda a una persona de confianza si estás nervioso o no podés decidir con claridad."
+    ],
+    "firstHour": [
+      "Cambiá la contraseña del correo principal desde un dispositivo confiable.",
+      "Cerrá sesiones desconocidas en correo, WhatsApp, redes, banco, billeteras y tiendas.",
+      "Activá o revisá doble factor de autenticación, preferentemente con app autenticadora.",
+      "Contactá soporte oficial del banco, billetera, plataforma o empresa involucrada desde canales verificados.",
+      "Avisá a contactos cercanos si tu WhatsApp, Instagram, Facebook o correo pudo enviar mensajes falsos.",
+      "Revisá movimientos bancarios, transferencias, préstamos, tarjetas guardadas y dispositivos vinculados."
+    ],
+    "first48Hours": [
+      "Ordená la evidencia por fecha, hora, cuenta afectada, monto, número, correo o usuario involucrado.",
+      "Actualizá contraseñas reutilizadas en otros servicios.",
+      "Revisá métodos de recuperación: teléfono, correo alternativo, dispositivos confiables y apps conectadas.",
+      "Escaneá o desinstalá apps sospechosas y actualizá sistema operativo y navegador.",
+      "Registrá cada acción realizada y cada respuesta recibida de canales oficiales.",
+      "Consultá denuncia, soporte técnico, asesoramiento legal o acompañamiento profesional si la situación lo amerita."
+    ]
+  },
+  "quickMessages": [
+    {
+      "title": "Aviso a contactos por WhatsApp tomado",
+      "text": "Atención: es posible que mi WhatsApp haya sido tomado o usado por otra persona. No respondan pedidos de dinero, códigos ni links que lleguen desde mi número hasta nuevo aviso. Estoy verificando la cuenta por canales oficiales."
+    },
+    {
+      "title": "Aviso a familia por posible estafa",
+      "text": "Estoy revisando una posible estafa digital. Si reciben mensajes raros desde mis cuentas, no respondan, no envíen dinero y avísenme por otro medio confiable."
+    },
+    {
+      "title": "Mensaje interno para comercio o equipo",
+      "text": "Pausa preventiva: no entregar mercadería ni aceptar devoluciones hasta verificar pagos desde la app oficial. Guardar capturas y derivar cualquier caso dudoso antes de responder."
+    },
+    {
+      "title": "Registro breve para soporte oficial",
+      "text": "Tuve un incidente digital. Fecha y hora aproximada: ____. Cuenta o servicio afectado: ____. Acción sospechosa: ____. Evidencia disponible: capturas, números, correos, links o movimientos. Solicito revisión por canal oficial."
+    }
+  ],
+  "triage": {
+    "title": "Diagnóstico rápido digital",
+    "description": "Respondé pocas preguntas para priorizar qué emergencia guiada abrir primero. Es una orientación educativa: ante riesgo económico, amenazas o datos sensibles, contactá canales oficiales.",
+    "startLabel": "Iniciar diagnóstico",
+    "resetLabel": "Reiniciar respuestas",
+    "highRiskNotice": "Si hay dinero comprometido, amenaza, extorsión, pérdida de celular o cuenta tomada, priorizá cortar el daño y contactar canales oficiales.",
+    "questions": [
+      {
+        "id": "situacion_principal",
+        "question": "¿Qué pasó principalmente?",
+        "options": [
+          {
+            "label": "Me robaron WhatsApp o no puedo entrar",
+            "incidentId": "whatsapp_robado",
+            "priority": "Rojo",
+            "weight": 5
+          },
+          {
+            "label": "Abrí un link sospechoso",
+            "incidentId": "link_sospechoso",
+            "priority": "Naranja",
+            "weight": 4
+          },
+          {
+            "label": "Completé datos en una web dudosa",
+            "incidentId": "datos_entregados",
+            "priority": "Rojo",
+            "weight": 5
+          },
+          {
+            "label": "Instalé una app/APK sospechosa",
+            "incidentId": "app_sospechosa",
+            "priority": "Naranja",
+            "weight": 4
+          },
+          {
+            "label": "Veo un movimiento bancario o de billetera que no reconozco",
+            "incidentId": "movimiento_desconocido",
+            "priority": "Rojo",
+            "weight": 6
+          },
+          {
+            "label": "Me amenazan, extorsionan o presionan",
+            "incidentId": "amenaza_extorsion",
+            "priority": "Rojo",
+            "weight": 6
+          }
+        ]
+      },
+      {
+        "id": "dinero_datos",
+        "question": "¿Hay dinero, tarjetas, banco, billetera o datos sensibles involucrados?",
+        "options": [
+          {
+            "label": "Sí, hay dinero o tarjeta/billetera/banco",
+            "incidentId": "movimiento_desconocido",
+            "priority": "Rojo",
+            "weight": 5
+          },
+          {
+            "label": "Me llegó o me piden devolver una transferencia rara",
+            "incidentId": "transferencia_desconocida",
+            "priority": "Naranja",
+            "weight": 4
+          },
+          {
+            "label": "Di datos personales, clave o código",
+            "incidentId": "datos_entregados",
+            "priority": "Rojo",
+            "weight": 5
+          },
+          {
+            "label": "No, por ahora no veo dinero ni datos sensibles",
+            "incidentId": "link_sospechoso",
+            "priority": "Amarillo",
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "id": "cuenta_tomada",
+        "question": "¿Alguna cuenta está enviando mensajes, publicaciones o cambios sin tu permiso?",
+        "options": [
+          {
+            "label": "Sí, WhatsApp envía mensajes o pide códigos a contactos",
+            "incidentId": "whatsapp_robado",
+            "priority": "Rojo",
+            "weight": 6
+          },
+          {
+            "label": "Sí, Instagram/Facebook fue tomado o publica cosas raras",
+            "incidentId": "cuenta_social_tomada",
+            "priority": "Rojo",
+            "weight": 5
+          },
+          {
+            "label": "No lo sé, pero sospecho actividad extraña",
+            "incidentId": "cuenta_social_tomada",
+            "priority": "Naranja",
+            "weight": 3
+          },
+          {
+            "label": "No veo actividad extraña de cuentas",
+            "incidentId": "link_sospechoso",
+            "priority": "Amarillo",
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "id": "dispositivo",
+        "question": "¿Tu celular o computadora quedó comprometido o fuera de tu control?",
+        "options": [
+          {
+            "label": "Instalé una app, APK, extensión o programa raro",
+            "incidentId": "app_sospechosa",
+            "priority": "Naranja",
+            "weight": 5
+          },
+          {
+            "label": "Perdí el celular o alguien lo tiene",
+            "incidentId": "whatsapp_robado",
+            "priority": "Rojo",
+            "weight": 4
+          },
+          {
+            "label": "Aparecen permisos, anuncios o comportamientos extraños",
+            "incidentId": "app_sospechosa",
+            "priority": "Naranja",
+            "weight": 4
+          },
+          {
+            "label": "No noto problema en el dispositivo",
+            "incidentId": "link_sospechoso",
+            "priority": "Amarillo",
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "commonImmediateSteps": [
+      "Cortá la interacción con quien presiona o pide códigos.",
+      "No abras más links ni instales nuevas apps enviadas por terceros.",
+      "Guardá evidencia antes de borrar mensajes, correos o movimientos.",
+      "Entrá solo desde apps o sitios oficiales escritos manualmente.",
+      "Pedí ayuda a una persona de confianza si estás bajo presión."
+    ],
+    "resultTitle": "Resultado del diagnóstico",
+    "copyPlanLabel": "Copiar plan de acción",
+    "printPlanLabel": "Imprimir / guardar plan",
+    "mapLabel": "Ver mapa de rutas",
+    "calmNotice": "Respirá, no respondas bajo presión y seguí solo los pasos prioritarios. El objetivo es ordenar la situación, no resolver todo de golpe.",
+    "planSections": [
+      "Qué cortar ahora",
+      "Qué proteger en la primera hora",
+      "Qué evidencia guardar",
+      "A quién contactar por canal oficial"
+    ]
+  },
+  "emergencyMap": {
+    "title": "Mapa visual de rutas de emergencia",
+    "description": "Usá este mapa para elegir una ruta cuando no sabés por dónde empezar. Si hay dinero, amenazas, extorsión o cuenta tomada, priorizá las rutas rojas.",
+    "groups": [
+      {
+        "title": "Cuenta o identidad tomada",
+        "priority": "Rojo",
+        "incidentIds": [
+          "whatsapp_robado",
+          "cuenta_social_tomada"
+        ]
+      },
+      {
+        "title": "Dinero, billetera o comercio",
+        "priority": "Rojo",
+        "incidentIds": [
+          "movimiento_desconocido",
+          "transferencia_sospechosa"
+        ]
+      },
+      {
+        "title": "Links, datos o apps sospechosas",
+        "priority": "Naranja",
+        "incidentIds": [
+          "link_sospechoso",
+          "datos_entregados",
+          "app_sospechosa"
+        ]
+      },
+      {
+        "title": "Amenaza o presión directa",
+        "priority": "Rojo",
+        "incidentIds": [
+          "amenaza_extorsion"
+        ]
+      }
+    ]
+  },
+  "printableChecklist": {
+    "title": "Checklist imprimible de actuación",
+    "description": "Lista breve para usar durante una situación de nervios. Marcá primero lo urgente y evitá acciones impulsivas.",
+    "items": [
+      "Cortar conversación con quien presiona, amenaza o pide códigos.",
+      "No enviar dinero, claves, códigos SMS, token, DNI ni capturas sensibles.",
+      "Entrar solo por apps oficiales o escribiendo la dirección manualmente.",
+      "Cambiar clave del correo principal desde un dispositivo confiable.",
+      "Cerrar sesiones desconocidas en correo, WhatsApp, redes, banco y billeteras.",
+      "Guardar capturas de mensajes, números, correos, links, perfiles, montos y horarios.",
+      "Contactar soporte oficial del banco, billetera, plataforma o empresa afectada.",
+      "Avisar a contactos si una cuenta pudo enviar mensajes falsos.",
+      "Registrar fecha, hora, cuenta afectada, acción realizada y respuesta oficial recibida.",
+      "Consultar denuncia, asesoramiento profesional o acompañamiento si corresponde."
+    ]
+  },
+  "publication": {
+    "status": "Publica profesional",
+    "recommendedTestFlow": [
+      "Abrir con VS Code + Live Server.",
+      "Probar navegación completa en escritorio y móvil.",
+      "Revisar DevTools > Application: manifest, iconos y service worker.",
+      "Recargar una vez online y luego probar offline.",
+      "Capturar Home, Diagnóstico, Modo emergencia, Mapa, Checklist imprimible y Constancia.",
+      "Publicar como sitio estático preservando rutas relativas."
+    ],
+    "publicDisclaimer": "Contenido educativo y orientativo. No reemplaza soporte técnico, asesoramiento legal, asistencia bancaria, asistencia psicológica ni contacto con canales oficiales.",
+    "version": "0.6-publica-profesional",
+    "requiresBackend": false,
+    "requiresLogin": false,
+    "requiresAnalytics": false,
+    "requiresAds": false,
+    "recommendedHosts": [
+      "GitHub Pages",
+      "Netlify",
+      "Vercel",
+      "Hosting estatico propio"
+    ],
+    "prePublishChecks": [
+      "Probar con servidor local",
+      "Probar navegacion en movil y escritorio",
+      "Revisar textos legales y privacidad",
+      "Verificar que no se pidan datos sensibles",
+      "Actualizar capturas publicas"
+    ]
+  },
+  "publicEdition": {
+    "level": "publica-profesional",
+    "version": "0.6",
+    "generatedAt": "2026-05-26",
+    "sourceZip": "primeros_auxilios_digitales_web_v0_6_publica.zip"
+  },
+  "professionalization": {
+    "tier": "curso-bandera-v1.0-beta",
+    "updatedAt": "2026-05-28",
+    "improvements": [
+      "Lecciones con teoria, ejemplo, error comun y ejercicio mas profundos.",
+      "Checklists orientados a evidencia y entregables.",
+      "Casos guiados con pasos, errores y decision responsable."
+    ]
+  },
+  "editorialPolish": {
+    "firstFeaturedBatch": "2026-06-01",
+    "status": "public-facing-copy-polished"
+  }
+}

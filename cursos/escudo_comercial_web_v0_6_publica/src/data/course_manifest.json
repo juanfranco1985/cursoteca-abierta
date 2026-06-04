@@ -1,0 +1,183 @@
+{
+  "courseId": "escudo-comercial-digital-argentina",
+  "templateVersion": "0.6-publica-profesional",
+  "appName": "Escudo Comercial Digital Argentina",
+  "shortName": "Escudo Comercial Digital",
+  "subtitle": "Curso practico para proteger un comercio digital: redes, pagos, comprobantes, fraudes, backups e incidentes.",
+  "description": "Protege tu comercio digital: WhatsApp, redes, pagos, clientes sospechosos, dispositivos, Wi-Fi, backups y respuesta ante estafas.",
+  "audience": "Comercios, emprendedores, vendedores por redes sociales y negocios familiares de Argentina.",
+  "dataPaths": {
+    "course": "src/data/course_content.json",
+    "checklists": "src/data/checklists.json",
+    "incidents": "src/data/incidents.json"
+  },
+  "labels": {
+    "modules": "Módulos",
+    "checklists": "Checklists",
+    "incidents": "Casos",
+    "emergency": "Emergencia",
+    "certificate": "Constancia",
+    "primaryAction": "Empezar curso",
+    "emergencyAction": "Estoy en una emergencia"
+  },
+  "features": {
+    "modules": true,
+    "quizzes": true,
+    "checklists": true,
+    "incidents": true,
+    "emergency": true,
+    "certificate": true,
+    "progressExport": true,
+    "templateGuide": true,
+    "accessibilityPanel": true,
+    "pwaBasic": true,
+    "offlineCache": true,
+    "publishGuide": true,
+    "officialCloneTemplate": true,
+    "templateKit": true,
+    "cloneChecklist": true,
+    "dataContracts": true,
+    "sampleCoursesRoadmap": true,
+    "validationScript": true,
+    "publicProfessionalEdition": true,
+    "requiresBackend": false,
+    "requiresLogin": false
+  },
+  "theme": {
+    "accent": "#4fb6aa",
+    "accent2": "#57a6ff",
+    "danger": "#fb7185",
+    "warning": "#fbbf24",
+    "primary": "#d6a85c",
+    "background": "#21130b"
+  },
+  "responsibleNotice": "Contenido educativo. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. No entregar productos ni datos internos si el pago no aparece en el canal oficial verificado.",
+  "cloneNotes": [
+    "Duplicar la carpeta completa y renombrarla con el slug del nuevo curso.",
+    "Editar course_manifest.json: courseId, appName, shortName, subtitle, description, audience, colores, etiquetas y avisos.",
+    "Editar course_content.json manteniendo la estructura: appName, version, modules, lessons y quizQuestions.",
+    "Editar checklists.json manteniendo checklists, items, ids únicos y acciones recomendadas.",
+    "Editar incidents.json aunque el curso no sea de seguridad: puede representar casos, tickets, misiones o decisiones; conservar los campos usados por el motor.",
+    "Actualizar manifest.webmanifest con nombre, short_name, descripción, start_url, theme_color e iconos si corresponde.",
+    "No tocar src/app.js para variantes educativas normales. Solo tocar el motor si una nueva familia exige una mecánica que no existe.",
+    "Usar docs/CONTRATOS_JSON_TEMPLATE_V0_6.md y scripts/validate-template.mjs antes de publicar cada clon.",
+    "El progreso queda separado por courseId, por eso cada curso clonado debe tener un courseId único."
+  ],
+  "certificate": {
+    "title": "Constancia interna de avance",
+    "issuer": "Escudo Comercial Digital Argentina",
+    "notOfficialNotice": "Esta constancia es interna, educativa y no equivale a una certificación oficial.",
+    "minimumSuggestedProgress": 70,
+    "minimumSuggestedQuizAverage": 70
+  },
+  "quiz": {
+    "passingPercent": 70,
+    "allowRetake": true,
+    "saveAttempts": true,
+    "showFeedbackAfterSelection": true
+  },
+  "accessibility": {
+    "fontScaleOptions": [
+      "normal",
+      "large",
+      "extra-large"
+    ],
+    "contrastOptions": [
+      "normal",
+      "high"
+    ],
+    "reducedMotionToggle": true,
+    "minTouchTargetDp": 48,
+    "responsiveTargets": [
+      "celular",
+      "tablet",
+      "escritorio"
+    ]
+  },
+  "webApp": {
+    "startUrl": "./",
+    "display": "standalone",
+    "scope": "./",
+    "cacheName": "escudo-comercial-web-v0-6-publica-v0-6-publica-profesional",
+    "publishTargets": [
+      "GitHub Pages",
+      "Netlify",
+      "Vercel",
+      "Hosting estático propio"
+    ],
+    "offlineNotice": "La app puede abrir la última versión cacheada después de una primera carga correcta con servidor web.",
+    "templatePublishReadiness": "v0.6 deja la plantilla lista para clonar cursos web estáticos sin Android Studio ni backend.",
+    "publicationStatus": "publica-profesional-v0.6"
+  },
+  "cloneKit": {
+    "engineFilesToKeep": [
+      "index.html",
+      "styles.css",
+      "src/app.js",
+      "service-worker.js",
+      "manifest.webmanifest",
+      "icons/"
+    ],
+    "courseFilesToEdit": [
+      "src/data/course_manifest.json",
+      "src/data/course_content.json",
+      "src/data/checklists.json",
+      "src/data/incidents.json",
+      "README.md"
+    ],
+    "optionalDocsToEdit": [
+      "docs/ESTADO_ACTUAL_WEB.md",
+      "docs/CHANGELOG_WEB.md",
+      "docs/PROMPT_CODEX_CREAR_NUEVO_CURSO_WEB.md"
+    ],
+    "recommendedCloneFlow": [
+      "Duplicar carpeta completa",
+      "Renombrar carpeta del curso",
+      "Cambiar courseId y textos del manifest",
+      "Reemplazar contenido JSON manteniendo contratos",
+      "Actualizar manifest.webmanifest",
+      "Ejecutar scripts/validate-template.mjs",
+      "Probar con Live Server"
+    ]
+  },
+  "publicEdition": {
+    "level": "publica-profesional",
+    "version": "0.6",
+    "generatedAt": "2026-05-26",
+    "sourceZip": "escudo_comercial_web_v0_6.zip"
+  },
+  "publication": {
+    "version": "0.6-publica-profesional",
+    "status": "Publica profesional",
+    "requiresBackend": false,
+    "requiresLogin": false,
+    "requiresAnalytics": false,
+    "requiresAds": false,
+    "recommendedHosts": [
+      "GitHub Pages",
+      "Netlify",
+      "Vercel",
+      "Hosting estatico propio"
+    ],
+    "prePublishChecks": [
+      "Probar con servidor local",
+      "Probar navegacion en movil y escritorio",
+      "Revisar textos legales y privacidad",
+      "Verificar que no se pidan datos sensibles",
+      "Actualizar capturas publicas"
+    ]
+  },
+  "professionalization": {
+    "tier": "curso-bandera-v1.0-beta",
+    "updatedAt": "2026-05-28",
+    "improvements": [
+      "Lecciones con teoria, ejemplo, error comun y ejercicio mas profundos.",
+      "Checklists orientados a evidencia y entregables.",
+      "Casos guiados con pasos, errores y decision responsable."
+    ]
+  },
+  "editorialPolish": {
+    "fifthEditorialBatch": "2026-06-02",
+    "status": "public-facing-copy-polished"
+  }
+}

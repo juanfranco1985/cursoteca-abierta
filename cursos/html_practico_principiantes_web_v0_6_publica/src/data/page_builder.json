@@ -1,0 +1,87 @@
+{
+  "templates": [
+    {
+      "id": "personal",
+      "title": "Página personal simple",
+      "description": "Una portada con nombre, presentación, secciones y enlaces.",
+      "sections": [
+        "Sobre mí",
+        "Proyectos",
+        "Contacto"
+      ]
+    },
+    {
+      "id": "product",
+      "title": "Ficha de producto",
+      "description": "Una ficha con nombre, descripción, beneficios, precio orientativo y contacto.",
+      "sections": [
+        "Características",
+        "Beneficios",
+        "Cómo comprar"
+      ]
+    },
+    {
+      "id": "resources",
+      "title": "Lista de recursos útiles",
+      "description": "Una página con enlaces organizados por tema.",
+      "sections": [
+        "Herramientas",
+        "Tutoriales",
+        "Contacto"
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "id": "title",
+      "label": "Título principal",
+      "placeholder": "Mi primera página web"
+    },
+    {
+      "id": "subtitle",
+      "label": "Subtítulo",
+      "placeholder": "Un sitio simple creado con HTML"
+    },
+    {
+      "id": "intro",
+      "label": "Introducción",
+      "placeholder": "Escribí una presentación breve..."
+    },
+    {
+      "id": "sectionOne",
+      "label": "Primera sección",
+      "placeholder": "Sobre el proyecto"
+    },
+    {
+      "id": "sectionOneText",
+      "label": "Texto de la primera sección",
+      "placeholder": "Explicá el objetivo de esta sección..."
+    },
+    {
+      "id": "sectionTwo",
+      "label": "Segunda sección",
+      "placeholder": "Recursos"
+    },
+    {
+      "id": "sectionTwoText",
+      "label": "Texto de la segunda sección",
+      "placeholder": "Agregá detalles, ideas o pasos..."
+    },
+    {
+      "id": "linkText",
+      "label": "Texto del enlace",
+      "placeholder": "Visitar recurso"
+    },
+    {
+      "id": "linkUrl",
+      "label": "URL del enlace",
+      "placeholder": "https://ejemplo.com"
+    }
+  ],
+  "tips": [
+    "Usá un solo h1 por página.",
+    "Separá el contenido en secciones con títulos h2.",
+    "No pegues enlaces sospechosos ni datos privados.",
+    "Revisá que cada etiqueta abierta tenga su cierre cuando corresponda."
+  ]
+}

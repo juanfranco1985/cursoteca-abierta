@@ -1,0 +1,96 @@
+{
+  "courseId": "html-practico-principiantes",
+  "templateVersion": "0.6-publica-profesional",
+  "title": "HTML Práctico para Principiantes",
+  "subtitle": "Curso practico para construir paginas con estructura clara: textos, enlaces, imagenes, listas, tablas y formularios.",
+  "description": "Empieza con HTML desde cero: estructura de pagina, contenido semantico, enlaces, imagenes, listas, tablas, formularios y proyecto simple.",
+  "audience": "principiantes,estudiantes,emprendedores,personas que quieren crear páginas web",
+  "category": "Desarrollo Web y Programación",
+  "status": "v0.5 candidato de publicación",
+  "dataPaths": {
+    "course": "src/data/course_content.json",
+    "checklists": "src/data/checklists.json",
+    "incidents": "src/data/incidents.json",
+    "htmlLab": "src/data/html_lab.json",
+    "pageBuilder": "src/data/page_builder.json",
+    "landingProject": "src/data/landing_project.json"
+  },
+  "theme": {
+    "primary": "#d6a85c",
+    "accent": "#4fb6aa",
+    "background": "#21130b"
+  },
+  "legalNotice": "Contenido educativo introductorio. No reemplaza documentación oficial ni revisión profesional de proyectos reales.",
+  "features": [
+    "Laboratorio HTML interactivo",
+    "Ejemplos editables",
+    "Vista previa simulada",
+    "Ejercicios guiados",
+    "Comparación HTML correcto/incorrecto",
+    "Fragmentos copiables",
+    "Exportación de práctica TXT",
+    "Constructor de página simple",
+    "Exportación HTML/TXT",
+    "Historial local no sensible",
+    "Proyecto guiado de landing page básica",
+    "Generador de landing HTML",
+    "Revisión semántica básica",
+    "Revisión de accesibilidad básica",
+    "Exportación HTML mejorada",
+    "README público final",
+    "Guía de publicación web",
+    "Guía de capturas",
+    "Aviso legal y alcance educativo",
+    "Política de privacidad base",
+    "Checklist de publicación",
+    "Carpeta store/screenshots preparada"
+  ],
+  "version": "0.5",
+  "publicEdition": {
+    "level": "publica-profesional",
+    "version": "0.6",
+    "generatedAt": "2026-05-26",
+    "sourceZip": "html_practico_principiantes_web_v0_5.zip"
+  },
+  "publication": {
+    "version": "0.6-publica-profesional",
+    "status": "Publica profesional",
+    "requiresBackend": false,
+    "requiresLogin": false,
+    "requiresAnalytics": false,
+    "requiresAds": false,
+    "recommendedHosts": [
+      "GitHub Pages",
+      "Netlify",
+      "Vercel",
+      "Hosting estatico propio"
+    ],
+    "prePublishChecks": [
+      "Probar con servidor local",
+      "Probar navegacion en movil y escritorio",
+      "Revisar textos legales y privacidad",
+      "Verificar que no se pidan datos sensibles",
+      "Actualizar capturas publicas"
+    ]
+  },
+  "webApp": {
+    "cacheName": "html-practico-principiantes-web-v0-6-publica-v0-6-publica-profesional",
+    "publicationStatus": "publica-profesional-v0.6"
+  },
+  "responsibleNotice": "Contenido educativo. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. No usar HTML solo para apariencia ni publicar formularios que pidan datos sensibles sin proteccion.",
+  "appName": "HTML Practico para Principiantes",
+  "shortName": "HTML Practico para Principiantes",
+  "professionalization": {
+    "tier": "curso-bandera-v1.0-beta",
+    "updatedAt": "2026-05-28",
+    "improvements": [
+      "Lecciones con teoria, ejemplo, error comun y ejercicio mas profundos.",
+      "Checklists orientados a evidencia y entregables.",
+      "Casos guiados con pasos, errores y decision responsable."
+    ]
+  },
+  "editorialPolish": {
+    "fourthEditorialBatch": "2026-06-02",
+    "status": "public-facing-copy-polished"
+  }
+}

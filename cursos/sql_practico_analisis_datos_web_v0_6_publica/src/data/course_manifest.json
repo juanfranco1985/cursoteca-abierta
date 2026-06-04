@@ -1,0 +1,172 @@
+{
+  "courseId": "sql-practico-analisis-datos",
+  "templateVersion": "0.6-publica-profesional",
+  "appName": "SQL Práctico para Análisis de Datos",
+  "shortName": "SQL Práctico Datos",
+  "subtitle": "Curso practico para consultar datos con SQL, filtrar resultados y construir indicadores basicos sin perder control.",
+  "description": "Usa SQL para responder preguntas reales: SELECT, filtros, agregaciones, joins, fechas y revisiones de calidad.",
+  "audience": "Estudiantes, trabajadores administrativos, emprendedores, personas que empiezan en datos y futuros usuarios de Power BI, Tableau o herramientas BI.",
+  "dataPaths": {
+    "course": "src/data/course_content.json",
+    "checklists": "src/data/checklists.json",
+    "incidents": "src/data/incidents.json",
+    "sqlLab": "src/data/sql_lab.json"
+  },
+  "labels": {
+    "modules": "Módulos",
+    "checklists": "Checklists",
+    "incidents": "Casos SQL",
+    "emergency": "Consulta rápida",
+    "certificate": "Constancia",
+    "primaryAction": "Empezar curso",
+    "emergencyAction": "Necesito resolver una consulta",
+    "sqlLab": "Laboratorio SQL"
+  },
+  "features": {
+    "modules": true,
+    "quizzes": true,
+    "checklists": true,
+    "incidents": true,
+    "emergency": true,
+    "certificate": true,
+    "progressExport": true,
+    "templateGuide": true,
+    "accessibilityPanel": true,
+    "pwaBasic": true,
+    "offlineCache": true,
+    "publishGuide": true,
+    "officialCloneTemplate": false,
+    "templateKit": false,
+    "cloneChecklist": false,
+    "dataContracts": false,
+    "sampleCoursesRoadmap": false,
+    "validationScript": true,
+    "sqlLab": true,
+    "sqlPracticeExport": true,
+    "sqlFreePractice": true,
+    "sqlQueryEvaluator": true,
+    "sqlChallenges": true,
+    "sqlProgressReport": true,
+    "sqlBeginnerGuide": true,
+    "sqlContextHelp": true,
+    "sqlQueryComparison": true,
+    "sqlMobileLabUx": true,
+    "publicationReady": true,
+    "publicProfessionalEdition": true,
+    "requiresBackend": false,
+    "requiresLogin": false
+  },
+  "theme": {
+    "accent": "#4fb6aa",
+    "accent2": "#a78bfa",
+    "danger": "#fb7185",
+    "warning": "#fbbf24",
+    "primary": "#d6a85c",
+    "background": "#21130b"
+  },
+  "responsibleNotice": "Contenido educativo. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. No ejecutar cambios destructivos ni consultas sobre datos productivos sin permiso y respaldo.",
+  "cloneNotes": [
+    "Este curso deriva de la plantilla web clonable v0.6.",
+    "La v0.1 estableció la base educativa: módulos, lecciones, quizzes, checklists y casos SQL.",
+    "La v0.2 agrega un laboratorio SQL simulado con tablas, ejercicios guiados, resultados esperados, explicaciones y exportación TXT.",
+    "La v0.3 incorpora práctica libre, mini evaluador educativo, desafíos por dificultad y reporte de avance SQL exportable.",
+    "La v0.4 mejora la experiencia del laboratorio con guía paso a paso, ayudas contextuales, comparación de consultas y lectura móvil reforzada."
+  ],
+  "certificate": {
+    "title": "Constancia interna de avance",
+    "issuer": "SQL Práctico para Análisis de Datos",
+    "notOfficialNotice": "Esta constancia es interna, educativa y no equivale a una certificación oficial en SQL ni en herramientas de datos.",
+    "minimumSuggestedProgress": 70,
+    "minimumSuggestedQuizAverage": 70
+  },
+  "quiz": {
+    "passingPercent": 70,
+    "allowRetake": true,
+    "saveAttempts": true,
+    "showFeedbackAfterSelection": true
+  },
+  "accessibility": {
+    "fontScaleOptions": [
+      "normal",
+      "large",
+      "extra-large"
+    ],
+    "contrastOptions": [
+      "normal",
+      "high"
+    ],
+    "reducedMotionToggle": true,
+    "minTouchTargetDp": 48,
+    "responsiveTargets": [
+      "celular",
+      "tablet",
+      "escritorio"
+    ]
+  },
+  "webApp": {
+    "startUrl": "./",
+    "display": "standalone",
+    "scope": "./",
+    "cacheName": "sql-practico-analisis-datos-web-v0-6-publica-v0-6-publica-profesional",
+    "publishTargets": [
+      "GitHub Pages",
+      "Netlify",
+      "Vercel",
+      "Hosting estático propio"
+    ],
+    "offlineNotice": "El curso puede abrir recursos cacheados después de una primera carga correcta con servidor web.",
+    "templatePublishReadiness": "v0.4 mejora UX, lectura móvil y asistencia pedagógica del laboratorio SQL para preparar la publicación web.",
+    "publicationStatus": "publica-profesional-v0.6"
+  },
+  "publication": {
+    "status": "Publica profesional",
+    "recommendedHosting": [
+      "GitHub Pages",
+      "Netlify",
+      "Vercel",
+      "servidor estático propio"
+    ],
+    "publicReadme": true,
+    "screenshotsGuide": true,
+    "privacyNotice": true,
+    "legalScope": true,
+    "publicationChecklist": true,
+    "version": "0.6-publica-profesional",
+    "requiresBackend": false,
+    "requiresLogin": false,
+    "requiresAnalytics": false,
+    "requiresAds": false,
+    "recommendedHosts": [
+      "GitHub Pages",
+      "Netlify",
+      "Vercel",
+      "Hosting estatico propio"
+    ],
+    "prePublishChecks": [
+      "Probar con servidor local",
+      "Probar navegacion en movil y escritorio",
+      "Revisar textos legales y privacidad",
+      "Verificar que no se pidan datos sensibles",
+      "Actualizar capturas publicas"
+    ]
+  },
+  "publicEdition": {
+    "level": "publica-profesional",
+    "version": "0.6",
+    "generatedAt": "2026-05-26",
+    "sourceZip": "sql_practico_analisis_datos_web_v0_5.zip"
+  },
+  "professionalization": {
+    "tier": "curso-bandera-v1.0-beta",
+    "updatedAt": "2026-05-28",
+    "improvements": [
+      "Lecciones con teoria, ejemplo, error comun y ejercicio mas profundos.",
+      "Checklists orientados a evidencia y entregables.",
+      "Casos guiados con pasos, errores y decision responsable."
+    ]
+  },
+  "editorialPolish": {
+    "thirdEditorialBatch": "2026-06-02",
+    "status": "public-facing-copy-polished"
+  }
+}

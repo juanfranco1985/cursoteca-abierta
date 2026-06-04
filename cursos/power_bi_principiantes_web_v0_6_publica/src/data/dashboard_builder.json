@@ -1,0 +1,213 @@
+{
+  "businessQuestions": [
+    {
+      "id": "ventas_producto",
+      "title": "¿Qué producto o categoría vende más?",
+      "description": "Sirve para priorizar productos, compras y promociones.",
+      "recommendedKpis": [
+        "ventas_totales",
+        "unidades_vendidas",
+        "top_categoria"
+      ],
+      "recommendedVisuals": [
+        "card",
+        "bar",
+        "slicer"
+      ]
+    },
+    {
+      "id": "caida_ventas",
+      "title": "¿Dónde cayó la venta frente al período anterior?",
+      "description": "Ayuda a detectar categorías, meses o zonas con reducción de desempeño.",
+      "recommendedKpis": [
+        "ventas_totales",
+        "variacion_mes",
+        "margen_total"
+      ],
+      "recommendedVisuals": [
+        "line",
+        "bar",
+        "card"
+      ]
+    },
+    {
+      "id": "stock_urgente",
+      "title": "¿Qué productos necesitan reposición urgente?",
+      "description": "Permite ordenar compras y evitar quiebres de stock.",
+      "recommendedKpis": [
+        "stock_critico",
+        "dias_cobertura",
+        "ventas_30_dias"
+      ],
+      "recommendedVisuals": [
+        "table",
+        "bar",
+        "card"
+      ]
+    },
+    {
+      "id": "clientes_concentrados",
+      "title": "¿La facturación depende de pocos clientes?",
+      "description": "Ayuda a detectar concentración y riesgo comercial.",
+      "recommendedKpis": [
+        "clientes_top",
+        "porcentaje_top",
+        "ventas_totales"
+      ],
+      "recommendedVisuals": [
+        "bar",
+        "table",
+        "card"
+      ]
+    },
+    {
+      "id": "margen_negocio",
+      "title": "¿Qué parte del negocio deja mejor margen?",
+      "description": "Sirve para no mirar solo ventas, sino rentabilidad estimada.",
+      "recommendedKpis": [
+        "margen_total",
+        "margen_porcentaje",
+        "top_categoria"
+      ],
+      "recommendedVisuals": [
+        "card",
+        "bar",
+        "table"
+      ]
+    }
+  ],
+  "kpis": [
+    {
+      "id": "ventas_totales",
+      "title": "Ventas totales",
+      "formula": "SUM(Ventas)",
+      "why": "Da una lectura rápida del volumen general del negocio."
+    },
+    {
+      "id": "unidades_vendidas",
+      "title": "Unidades vendidas",
+      "formula": "SUM(Unidades)",
+      "why": "Permite comparar volumen físico, no solo dinero."
+    },
+    {
+      "id": "top_categoria",
+      "title": "Categoría principal",
+      "formula": "Ranking por ventas o margen",
+      "why": "Identifica qué rubro explica mayor parte del resultado."
+    },
+    {
+      "id": "variacion_mes",
+      "title": "Variación mensual",
+      "formula": "Ventas mes actual - ventas mes anterior",
+      "why": "Muestra subas o caídas entre períodos."
+    },
+    {
+      "id": "margen_total",
+      "title": "Margen total",
+      "formula": "SUM(Ventas) - SUM(Costo)",
+      "why": "Aproxima rentabilidad antes de otros gastos."
+    },
+    {
+      "id": "margen_porcentaje",
+      "title": "Margen porcentual",
+      "formula": "Margen / Ventas",
+      "why": "Permite comparar categorías de distinto tamaño."
+    },
+    {
+      "id": "stock_critico",
+      "title": "Productos bajo mínimo",
+      "formula": "Stock actual < Stock mínimo",
+      "why": "Prioriza reposición y evita faltantes."
+    },
+    {
+      "id": "dias_cobertura",
+      "title": "Días de cobertura",
+      "formula": "Stock actual / venta diaria promedio",
+      "why": "Estima cuánto puede durar el stock."
+    },
+    {
+      "id": "ventas_30_dias",
+      "title": "Ventas últimos 30 días",
+      "formula": "SUM(Ventas 30 días)",
+      "why": "Ayuda a distinguir producto lento de producto urgente."
+    },
+    {
+      "id": "clientes_top",
+      "title": "Clientes principales",
+      "formula": "Top N por facturación",
+      "why": "Muestra dependencia comercial."
+    },
+    {
+      "id": "porcentaje_top",
+      "title": "Concentración top clientes",
+      "formula": "Ventas top clientes / ventas totales",
+      "why": "Expresa cuánto pesa un grupo pequeño de clientes."
+    }
+  ],
+  "visuals": [
+    {
+      "id": "card",
+      "title": "Tarjeta KPI",
+      "bestFor": "Mostrar un número clave muy visible.",
+      "avoidWhen": "Hay demasiados indicadores y todos compiten por atención."
+    },
+    {
+      "id": "bar",
+      "title": "Gráfico de barras",
+      "bestFor": "Comparar categorías, productos, clientes o proveedores.",
+      "avoidWhen": "Hay demasiadas categorías pequeñas."
+    },
+    {
+      "id": "line",
+      "title": "Gráfico de línea",
+      "bestFor": "Mostrar evolución por mes, semana o día.",
+      "avoidWhen": "No existe una columna temporal clara."
+    },
+    {
+      "id": "table",
+      "title": "Tabla de detalle",
+      "bestFor": "Revisar productos, clientes o registros específicos.",
+      "avoidWhen": "La audiencia necesita una conclusión rápida."
+    },
+    {
+      "id": "slicer",
+      "title": "Segmentador/filtro",
+      "bestFor": "Permitir filtrar por mes, categoría, zona o proveedor.",
+      "avoidWhen": "El tablero debe ser extremadamente simple."
+    }
+  ],
+  "dashboardCards": [
+    {
+      "id": "card_ventas",
+      "title": "Ventas totales",
+      "value": "$ 1.245.000",
+      "note": "Número simulado para practicar lectura de tarjeta KPI."
+    },
+    {
+      "id": "card_margen",
+      "title": "Margen estimado",
+      "value": "$ 318.000",
+      "note": "Ayuda a recordar que vender mucho no siempre equivale a ganar más."
+    },
+    {
+      "id": "card_stock",
+      "title": "Productos críticos",
+      "value": "7",
+      "note": "Cantidad simulada de productos por debajo del mínimo."
+    },
+    {
+      "id": "card_top",
+      "title": "Categoría líder",
+      "value": "Almacén",
+      "note": "Ejemplo de tarjeta categórica para resumen ejecutivo."
+    }
+  ],
+  "designTips": [
+    "Empezar por la pregunta de negocio, no por el gráfico.",
+    "Usar pocas tarjetas KPI y explicar qué significa cada una.",
+    "Separar resumen ejecutivo de detalle operativo.",
+    "Evitar colores excesivos si no aportan lectura.",
+    "Agregar filtros útiles, no todos los filtros posibles.",
+    "Cerrar el reporte con una recomendación o próxima revisión."
+  ]
+}

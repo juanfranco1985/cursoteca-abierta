@@ -1,0 +1,113 @@
+{
+  "courseId": "catalogo-datos-alation-web",
+  "templateVersion": "0.6-publica-profesional",
+  "appName": "Catálogo de Datos y Alation",
+  "shortName": "Catálogo Datos",
+  "subtitle": "Curso practico para entender catalogos de datos, glosarios, metadatos, linaje y confianza de la informacion.",
+  "description": "Organiza datos como activo de trabajo: nombres, definiciones, responsables, linaje, calidad y uso responsable con enfoque Alation.",
+  "audience": "Personas que estudian análisis de datos, BI, gobierno de datos, documentación de datasets, equipos de reporting, analistas iniciales y perfiles de negocio que necesitan encontrar y confiar en datos.",
+  "dataPaths": {
+    "course": "src/data/course_content.json",
+    "checklists": "src/data/checklists.json",
+    "incidents": "src/data/incidents.json",
+    "catalogLab": "src/data/catalog_lab.json",
+    "datasetDocumentation": "src/data/dataset_documentation.json",
+    "governanceLab": "src/data/governance_lab.json"
+  },
+  "labels": {
+    "modules": "Módulos",
+    "checklists": "Checklists",
+    "incidents": "Casos de catálogo",
+    "emergency": "Acción rápida",
+    "certificate": "Constancia",
+    "primaryAction": "Empezar curso",
+    "emergencyAction": "Necesito encontrar un dato confiable",
+    "catalogLab": "Laboratorio de catálogo"
+  },
+  "features": {
+    "modules": true,
+    "quizzes": true,
+    "checklists": true,
+    "incidents": true,
+    "emergency": true,
+    "certificate": true,
+    "progressExport": true,
+    "templateGuide": false,
+    "accessibilityPanel": true,
+    "pwaBasic": true,
+    "offlineCache": true,
+    "publishGuide": true,
+    "officialCloneTemplate": false,
+    "validationScript": true,
+    "catalogLab": true,
+    "datasetDocumentationSimulator": true,
+    "governanceLab": true,
+    "publicationCandidate": true,
+    "publicReadme": true,
+    "screenshotsGuide": true,
+    "publicProfessionalEdition": true,
+    "requiresBackend": false,
+    "requiresLogin": false
+  },
+  "theme": {
+    "accent": "#4fb6aa",
+    "accent2": "#a78bfa",
+    "danger": "#fb7185",
+    "warning": "#f59e0b",
+    "primary": "#d6a85c",
+    "background": "#21130b"
+  },
+  "responsibleNotice": "Contenido educativo. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. No catalogar datos sensibles sin clasificacion, permiso y reglas claras de acceso.",
+  "cloneNotes": [
+    "Curso derivado de la plantilla web clonable.",
+    "Mantener ejemplos anonimizados y ficticios.",
+    "No prometer certificación oficial ni dominio profesional completo de herramientas empresariales.",
+    "v0.2 agrega laboratorio simulado de catálogo de datos con datasets ficticios, búsqueda y generador de ficha.",
+    "v0.3 agrega simulador de documentación de datasets, rúbrica de calidad, glosario/diccionario y reporte exportable.",
+    "v0.4 agrega gobierno de datos, roles, dimensiones de calidad, linaje, impacto de cambios y certificación de datasets."
+  ],
+  "publicEdition": {
+    "level": "publica-profesional",
+    "version": "0.6",
+    "generatedAt": "2026-05-26",
+    "sourceZip": "catalogo_datos_alation_web_v0_5.zip"
+  },
+  "publication": {
+    "version": "0.6-publica-profesional",
+    "status": "Publica profesional",
+    "requiresBackend": false,
+    "requiresLogin": false,
+    "requiresAnalytics": false,
+    "requiresAds": false,
+    "recommendedHosts": [
+      "GitHub Pages",
+      "Netlify",
+      "Vercel",
+      "Hosting estatico propio"
+    ],
+    "prePublishChecks": [
+      "Probar con servidor local",
+      "Probar navegacion en movil y escritorio",
+      "Revisar textos legales y privacidad",
+      "Verificar que no se pidan datos sensibles",
+      "Actualizar capturas publicas"
+    ]
+  },
+  "webApp": {
+    "cacheName": "catalogo-datos-alation-web-v0-6-publica-v0-6-publica-profesional",
+    "publicationStatus": "publica-profesional-v0.6"
+  },
+  "professionalization": {
+    "tier": "curso-bandera-v1.0-beta",
+    "updatedAt": "2026-05-28",
+    "improvements": [
+      "Lecciones con teoria, ejemplo, error comun y ejercicio mas profundos.",
+      "Checklists orientados a evidencia y entregables.",
+      "Casos guiados con pasos, errores y decision responsable."
+    ]
+  },
+  "editorialPolish": {
+    "thirdEditorialBatch": "2026-06-02",
+    "status": "public-facing-copy-polished"
+  }
+}

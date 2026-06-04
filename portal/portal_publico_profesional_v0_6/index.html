@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cursoteca Abierta - Portal de Cursos Gratuitos</title>
+  <meta name="description" content="Cursoteca Abierta: biblioteca digital de 50 cursos practicos de acceso gratuito, organizada por categorias." />
+  <link rel="stylesheet" href="styles.css?v=20260601-0315" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Saltar al contenido principal</a>
+  <header class="site-header" id="inicio">
+    <nav class="topbar" aria-label="Navegacion principal">
+      <a class="brand" href="#inicio" aria-label="Cursoteca Abierta">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>Cursoteca Abierta</span>
+      </a>
+      <div class="nav-links">
+        <a href="#categorias">Categorias</a>
+        <a href="#destacados">Destacados</a>
+        <a href="#inventario">Catalogo</a>
+        <a href="#publicacion">Estado</a>
+      </div>
+      <a class="nav-action" href="#categorias">Abrir catalogo</a>
+    </nav>
+
+    <div class="hero-shell">
+      <div class="hero-copy">
+        <p class="eyebrow">Biblioteca digital abierta</p>
+        <h1>Conocimiento practico al alcance de todos</h1>
+        <p class="hero-text">Una cursoteca con 50 cursos gratuitos para aprender ciudadania digital, IA, datos, emprendimiento, productividad y desarrollo web a tu ritmo.</p>
+        <div class="hero-actions">
+          <a class="button-link" href="#categorias">Explorar catalogo</a>
+          <a class="secondary-button" href="#inventario">Ver todos los cursos</a>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-label="Biblioteca digital de Cursoteca Abierta">
+        <div class="library-window" aria-hidden="true">
+          <span class="book-spine"></span>
+          <span class="book-spine"></span>
+          <span class="book-spine"></span>
+          <span class="book-spine"></span>
+          <span class="book-spine"></span>
+          <span class="book-spine"></span>
+        </div>
+        <div class="open-book" aria-hidden="true">
+          <span class="page page-left"></span>
+          <span class="page page-right"></span>
+          <span class="book-glow"></span>
+        </div>
+        <aside class="hero-hud" aria-label="Estado del portal">
+          <div class="hud-row"><span>Cursos abiertos</span><strong id="course-count">50</strong></div>
+          <div class="hud-row"><span>Estantes</span><strong>8</strong></div>
+          <div class="hud-row"><span>Acceso</span><strong>Gratis</strong></div>
+          <div class="hud-row"><span>Catalogo</span><strong>Activo</strong></div>
+        </aside>
+        <div class="reading-card" aria-hidden="true">
+          <span>Catalogo vivo</span>
+          <strong>50 cursos</strong>
+          <span>8 estantes de aprendizaje</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" class="main-layout">
+    <section class="summary-panel" id="publicacion" aria-labelledby="summary-title">
+      <div>
+        <p class="eyebrow">Estado general</p>
+        <h2 id="summary-title">50 cursos completos al mismo nivel profesional</h2>
+        <p>Todos los cursos fueron organizados como materiales abiertos para consulta, aprendizaje autonomo y acceso directo desde el navegador.</p>
+      </div>
+      <div class="summary-grid">
+        <article><strong>50</strong><span>cursos abiertos</span></article>
+        <article><strong>8</strong><span>estantes principales</span></article>
+        <article><strong>0</strong><span>pendientes</span></article>
+        <article><strong>Web</strong><span>acceso directo</span></article>
+      </div>
+    </section>
+
+    <section class="route-band" id="categorias" aria-labelledby="categories-title">
+      <div class="section-heading">
+        <div><p class="eyebrow">Entrada principal</p><h2 id="categories-title">Estantes de aprendizaje</h2></div>
+        <p class="result-count">Catalogo agrupado por objetivo profesional</p>
+      </div>
+      <div id="category-hub" class="category-grid" aria-live="polite"></div>
+    </section>
+
+    <section id="category-view" class="category-view" aria-labelledby="category-view-title" hidden>
+      <div class="category-view-header">
+        <div>
+          <p class="eyebrow">Estante seleccionado</p>
+          <h2 id="category-view-title">Cursos del estante</h2>
+          <p id="category-view-description" class="result-count"></p>
+        </div>
+        <div class="category-view-actions">
+          <p id="category-view-count" class="result-count"></p>
+          <button id="back-to-categories" class="secondary-button" type="button">Volver a estantes</button>
+        </div>
+      </div>
+      <div id="category-courses-grid" class="courses-grid" aria-live="polite"></div>
+    </section>
+
+    <section id="destacados" aria-labelledby="featured-title">
+      <div class="section-heading">
+        <div><p class="eyebrow">Mesa de lectura</p><h2 id="featured-title">Cursos destacados</h2></div>
+        <p class="result-count">Seleccion breve para empezar</p>
+      </div>
+      <div id="featured-grid" class="courses-grid featured-grid" aria-live="polite"></div>
+    </section>
+
+    <nav class="toolbar" aria-label="Filtros del portal">
+      <label class="search-label" for="search-input">Buscar</label>
+      <input id="search-input" type="search" placeholder="Buscar por titulo, tema o publico..." />
+      <label class="search-label" for="category-filter">Categoria</label>
+      <select id="category-filter"><option value="all">Todas las categorias</option></select>
+      <button id="reset-filters" type="button">Limpiar</button>
+    </nav>
+
+    <section id="inventario" aria-labelledby="courses-title">
+      <div class="section-heading">
+        <div><p class="eyebrow">Inventario</p><h2 id="courses-title">Catalogo completo</h2></div>
+        <p id="result-count" class="result-count"></p>
+      </div>
+      <div id="courses-grid" class="courses-grid" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Cursoteca Abierta - Biblioteca digital de cursos gratuitos.</p>
+    <p>50 cursos listos para aprender, consultar y compartir.</p>
+  </footer>
+  <script src="src/app.js?v=20260601-0315"></script>
+</body>
+</html>

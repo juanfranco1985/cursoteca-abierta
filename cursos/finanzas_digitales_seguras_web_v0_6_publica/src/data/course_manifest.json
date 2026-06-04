@@ -1,0 +1,163 @@
+{
+  "courseId": "finanzas-digitales-seguras-argentina",
+  "templateVersion": "0.6-publica-profesional",
+  "appName": "Finanzas Digitales Seguras Argentina",
+  "shortName": "Finanzas Seguras",
+  "subtitle": "Curso práctico para operar con menos riesgo, registrar movimientos y detectar señales de alerta.",
+  "description": "Usá billeteras, transferencias, tarjetas y comprobantes con más control: verificá operaciones, ordená gastos y evitá decisiones apuradas.",
+  "audience": "Usuarios de billeteras virtuales, jóvenes, familias, comerciantes, emprendedores y personas que empiezan a usar cuentas digitales.",
+  "dataPaths": {
+    "course": "src/data/course_content.json",
+    "checklists": "src/data/checklists.json",
+    "incidents": "src/data/incidents.json",
+    "financialTools": "src/data/financial_tools.json"
+  },
+  "labels": {
+    "modules": "Módulos",
+    "checklists": "Checklists",
+    "incidents": "Casos financieros",
+    "emergency": "Emergencia",
+    "certificate": "Constancia",
+    "primaryAction": "Empezar curso",
+    "emergencyAction": "Tengo un problema financiero digital",
+    "tools": "Herramientas"
+  },
+  "features": {
+    "modules": true,
+    "quizzes": true,
+    "checklists": true,
+    "incidents": true,
+    "emergency": true,
+    "certificate": true,
+    "progressExport": true,
+    "templateGuide": true,
+    "accessibilityPanel": true,
+    "pwaBasic": true,
+    "offlineCache": true,
+    "publishGuide": true,
+    "officialCloneTemplate": true,
+    "templateKit": true,
+    "cloneChecklist": true,
+    "dataContracts": true,
+    "sampleCoursesRoadmap": true,
+    "validationScript": true,
+    "financialCalculators": true,
+    "budgetCalculator": true,
+    "antExpensesCalculator": true,
+    "installmentComparator": true,
+    "marginCalculator": true,
+    "copyableFinancialMessages": true,
+    "financialRiskDiagnostic": true,
+    "duePlanner": true,
+    "txtExport": true,
+    "printableFinancialRiskDiagnostic": true,
+    "specialFraudChecklists": true,
+    "toolHistory": true,
+    "commerceGuide": true,
+    "improvedToolUx": true,
+    "formAccessibilityReview": true,
+    "sensitiveDataWarnings": true,
+    "publicationCandidate": true,
+    "publicReadme": true,
+    "deploymentGuide": true,
+    "screenshotsGuide": true,
+    "financialLegalNotice": true,
+    "financialPrivacyPolicy": true,
+    "publishingChecklist": true,
+    "storeAssetsFolder": true,
+    "finalDocsCleanup": true,
+    "publicProfessionalEdition": true,
+    "requiresBackend": false,
+    "requiresLogin": false
+  },
+  "theme": {
+    "accent": "#4fb6aa",
+    "accent2": "#38bdf8",
+    "danger": "#fb7185",
+    "warning": "#f59e0b",
+    "primary": "#d6a85c",
+    "background": "#21130b"
+  },
+  "quiz": {
+    "passingPercent": 70,
+    "saveIncomplete": false,
+    "showImmediateFeedback": true
+  },
+  "certificate": {
+    "title": "Constancia interna de finanzas digitales seguras",
+    "minimumSuggestedProgress": 70,
+    "minimumSuggestedQuizAverage": 70,
+    "notOfficialNotice": "Esta constancia es educativa, no oficial, y no equivale a asesoramiento financiero, bancario, legal ni contable."
+  },
+  "responsibleNotice": "Contenido educativo. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. No compartir CVU/alias junto con claves, tokens, codigos o capturas completas de cuenta.",
+  "cloneNotes": [
+    "La v0.5 deja Finanzas Digitales Seguras Argentina como candidato de publicación web estática.",
+    "Se agregan guías públicas, privacidad, aviso legal financiero-educativo, checklist de publicación y carpeta de capturas.",
+    "El motor conserva progreso local, herramientas, casos, checklists, certificado y accesibilidad sin backend ni login.",
+    "Para publicar, probar primero con Live Server y luego subir la carpeta completa a GitHub Pages, Netlify, Vercel u hosting estático."
+  ],
+  "homeHighlights": [
+    "Herramientas educativas de presupuesto y gastos hormiga",
+    "Comparador simple cuota vs contado",
+    "Calculadora básica de margen",
+    "Mensajes copiables y diagnóstico de riesgo financiero digital",
+    "Historial local opcional de cálculos educativos",
+    "Guía práctica para pequeños comercios"
+  ],
+  "publication": {
+    "version": "0.6-publica-profesional",
+    "status": "Publica profesional",
+    "recommendedHosts": [
+      "GitHub Pages",
+      "Netlify",
+      "Vercel",
+      "Hosting estatico propio"
+    ],
+    "requiresBackend": false,
+    "requiresLogin": false,
+    "requiresAnalytics": false,
+    "requiresAds": false,
+    "prePublishChecks": [
+      "Probar con servidor local",
+      "Probar navegacion en movil y escritorio",
+      "Revisar textos legales y privacidad",
+      "Verificar que no se pidan datos sensibles",
+      "Actualizar capturas publicas"
+    ]
+  },
+  "releaseNotes": "v0.4 mejora visualmente las herramientas, agrega historial local opcional de resúmenes sin datos sensibles, guía específica para pequeños comercios y accesibilidad de formularios.",
+  "webApp": {
+    "cacheName": "finanzas-digitales-seguras-web-v0-6-publica-v0-6-publica-profesional",
+    "templatePublishReadiness": "v0.5 queda lista como candidata web para despliegue estático y revisión final de contenido.",
+    "publicationStatus": "publica-profesional-v0.6",
+    "recommendedPublicPaths": [
+      "/",
+      "#/modules",
+      "#/tools",
+      "#/risk",
+      "#/commerce-guide",
+      "#/checklists",
+      "#/certificate",
+      "#/publish"
+    ]
+  },
+  "publicEdition": {
+    "level": "publica-profesional",
+    "version": "0.6",
+    "generatedAt": "2026-05-26",
+    "sourceZip": "finanzas_digitales_seguras_web_v0_5.zip"
+  },
+  "professionalization": {
+    "tier": "curso-bandera-v1.0-beta",
+    "updatedAt": "2026-05-28",
+    "improvements": [
+      "Lecciones con teoria, ejemplo, error comun y ejercicio mas profundos.",
+      "Checklists orientados a evidencia y entregables.",
+      "Casos guiados con pasos, errores y decision responsable."
+    ]
+  },
+  "editorialPolish": {
+    "firstFeaturedBatch": "2026-06-01",
+    "status": "public-facing-copy-polished"
+  }
+}

@@ -1,0 +1,362 @@
+{
+  "budgetCategories": [
+    {
+      "id": "ingresos",
+      "label": "Ingresos mensuales estimados"
+    },
+    {
+      "id": "vivienda",
+      "label": "Alquiler, expensas o vivienda"
+    },
+    {
+      "id": "servicios",
+      "label": "Servicios, internet y celular"
+    },
+    {
+      "id": "alimentos",
+      "label": "Alimentos y compras básicas"
+    },
+    {
+      "id": "transporte",
+      "label": "Transporte"
+    },
+    {
+      "id": "deudas",
+      "label": "Cuotas, préstamos y tarjetas"
+    },
+    {
+      "id": "otros",
+      "label": "Otros gastos"
+    }
+  ],
+  "antExpenses": [
+    {
+      "id": "cafe",
+      "label": "Café, gaseosa, snack o kiosco"
+    },
+    {
+      "id": "delivery",
+      "label": "Delivery o comida rápida"
+    },
+    {
+      "id": "apps",
+      "label": "Suscripciones o apps poco usadas"
+    },
+    {
+      "id": "impulsos",
+      "label": "Compras chicas por impulso"
+    },
+    {
+      "id": "comisiones",
+      "label": "Comisiones, recargas o costos evitables"
+    }
+  ],
+  "messages": [
+    {
+      "id": "verificar_pago",
+      "title": "Verificar pago antes de entregar",
+      "context": "Para ventas por WhatsApp, Instagram o comercio físico.",
+      "body": "Hola. Antes de entregar el producto necesito verificar que el pago figure acreditado en la cuenta/billetera desde la app oficial. El comprobante por captura no alcanza como confirmación. Te aviso apenas lo vea acreditado. Gracias."
+    },
+    {
+      "id": "comprobante_dudoso",
+      "title": "Responder comprobante dudoso",
+      "context": "Cuando recibís una captura, PDF o comprobante que no coincide.",
+      "body": "Recibí el comprobante, pero por seguridad voy a esperar a que el movimiento aparezca acreditado en mi cuenta desde el canal oficial. No puedo entregar ni devolver dinero solo con una captura. Si fue correcto, debería impactar o quedar registrado por el medio de pago."
+    },
+    {
+      "id": "transferencia_desconocida",
+      "title": "Pausar devolución de transferencia desconocida",
+      "context": "Cuando alguien pide devolver dinero por presión.",
+      "body": "Recibí tu mensaje. Por seguridad no voy a mover fondos ni hacer devoluciones hasta verificar el origen con mi banco/billetera por canales oficiales. Si corresponde, seguiré el procedimiento formal de la entidad."
+    },
+    {
+      "id": "banco_oficial",
+      "title": "Registrar reclamo ante entidad",
+      "context": "Para ordenar datos antes de contactar banco, tarjeta o billetera.",
+      "body": "Necesito registrar un caso por un movimiento/operación que no reconozco. Fecha aproximada: ____. Monto: ____. Medio afectado: ____. No compartí claves ni códigos por este canal. Solicito bloqueo preventivo si corresponde, número de reclamo y pasos oficiales a seguir."
+    },
+    {
+      "id": "cliente_qr",
+      "title": "Pedir nuevo intento de pago QR",
+      "context": "Cuando el pago QR falló o no impactó.",
+      "body": "El pago todavía no aparece acreditado en la app oficial. Para evitar errores, te pido que revises si se debitó. Si no se debitó, podés intentarlo nuevamente. Si se debitó, aguardamos confirmación del proveedor de pago o generamos el reclamo correspondiente."
+    }
+  ],
+  "riskQuestions": [
+    {
+      "id": "urgency",
+      "question": "¿Hay dinero, tarjeta, cuenta o billetera comprometida ahora mismo?",
+      "options": [
+        {
+          "label": "Sí, hay movimiento o acceso sospechoso",
+          "score": 3
+        },
+        {
+          "label": "Hay dudas, pero no veo movimiento todavía",
+          "score": 2
+        },
+        {
+          "label": "No, solo quiero revisar prevención",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "pressure",
+      "question": "¿Alguien te está presionando para devolver dinero, entregar producto o compartir códigos?",
+      "options": [
+        {
+          "label": "Sí, me apuran o amenazan",
+          "score": 3
+        },
+        {
+          "label": "Insisten, pero sin amenaza directa",
+          "score": 2
+        },
+        {
+          "label": "No",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "proof",
+      "question": "¿La única prueba del pago es una captura, PDF o comprobante enviado por mensaje?",
+      "options": [
+        {
+          "label": "Sí, todavía no lo verifiqué en la app oficial",
+          "score": 3
+        },
+        {
+          "label": "Lo estoy verificando",
+          "score": 1
+        },
+        {
+          "label": "No, ya figura acreditado oficialmente",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "credentials",
+      "question": "¿Ingresaste a un link, compartiste claves/códigos o instalaste algo por indicación de un tercero?",
+      "options": [
+        {
+          "label": "Sí",
+          "score": 3
+        },
+        {
+          "label": "No estoy seguro",
+          "score": 2
+        },
+        {
+          "label": "No",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "device",
+      "question": "¿El celular o navegador muestra anuncios raros, sesiones desconocidas o apps sospechosas?",
+      "options": [
+        {
+          "label": "Sí",
+          "score": 2
+        },
+        {
+          "label": "No estoy seguro",
+          "score": 1
+        },
+        {
+          "label": "No",
+          "score": 0
+        }
+      ]
+    }
+  ],
+  "riskLevels": [
+    {
+      "min": 0,
+      "max": 3,
+      "level": "Bajo",
+      "className": "ok",
+      "title": "Riesgo bajo o preventivo",
+      "advice": [
+        "Usá los checklists para reforzar hábitos.",
+        "Verificá límites, claves y notificaciones.",
+        "No compartas comprobantes o datos innecesarios."
+      ]
+    },
+    {
+      "min": 4,
+      "max": 7,
+      "level": "Medio",
+      "className": "warn",
+      "title": "Riesgo medio: revisar antes de actuar",
+      "advice": [
+        "No entregues productos ni devuelvas dinero hasta verificar en canal oficial.",
+        "Guardá evidencia y revisá movimientos recientes.",
+        "Contactá a la entidad si hay dudas sobre la operación."
+      ]
+    },
+    {
+      "min": 8,
+      "max": 11,
+      "level": "Alto",
+      "className": "danger",
+      "title": "Riesgo alto: pausar y escalar",
+      "advice": [
+        "Cortá la interacción con quien presiona.",
+        "Bloqueá o pausá medios afectados si corresponde.",
+        "Contactá banco, billetera o tarjeta desde canales oficiales y pedí número de reclamo."
+      ]
+    },
+    {
+      "min": 12,
+      "max": 99,
+      "level": "Crítico",
+      "className": "danger",
+      "title": "Riesgo crítico: actuar ahora",
+      "advice": [
+        "No compartas códigos, claves ni capturas nuevas.",
+        "Desde un dispositivo confiable cambiá claves y cerrá sesiones si aplica.",
+        "Contactá urgentemente canales oficiales, guardá evidencia y considerá denuncia si hubo fraude o amenaza."
+      ]
+    }
+  ],
+  "duePlannerDefaults": {
+    "categories": [
+      "Tarjeta de crédito",
+      "Préstamo o cuota",
+      "Servicio",
+      "Alquiler",
+      "Impuesto",
+      "Suscripción",
+      "Proveedor",
+      "Otro"
+    ],
+    "priorityRules": [
+      {
+        "daysMax": 0,
+        "level": "Vencido",
+        "className": "danger",
+        "advice": "Prioridad máxima: verificá estado, recargos, bloqueo de servicio o canal oficial de pago."
+      },
+      {
+        "daysMax": 3,
+        "level": "Muy próximo",
+        "className": "danger",
+        "advice": "Pagá o programá el pago si corresponde. Evitá links recibidos por mensaje."
+      },
+      {
+        "daysMax": 7,
+        "level": "Esta semana",
+        "className": "warn",
+        "advice": "Reservá el monto y confirmá medio de pago oficial."
+      },
+      {
+        "daysMax": 30,
+        "level": "Próximo",
+        "className": "ok",
+        "advice": "Dejalo anotado y revisá que el monto sea real."
+      },
+      {
+        "daysMax": 9999,
+        "level": "Futuro",
+        "className": "ok",
+        "advice": "No requiere acción inmediata, pero conviene planificarlo."
+      }
+    ]
+  },
+  "specialChecklists": [
+    {
+      "id": "falso_comprobante",
+      "title": "Checklist ante comprobante falso o dudoso",
+      "description": "Usar antes de entregar mercadería, devolver dinero o cerrar una operación.",
+      "items": [
+        "No entregar producto solo por imagen de comprobante.",
+        "Verificar el ingreso real en la app o home banking oficial.",
+        "Revisar nombre, monto, fecha, alias/CBU/CVU y concepto.",
+        "Esperar acreditación real si el movimiento figura pendiente.",
+        "No abrir links enviados por el supuesto comprador.",
+        "Conservar capturas, chat, usuario, teléfono y comprobante recibido.",
+        "Responder con un mensaje calmo indicando que se entrega solo con acreditación confirmada."
+      ]
+    },
+    {
+      "id": "movimiento_desconocido",
+      "title": "Checklist ante movimiento desconocido",
+      "description": "Usar si aparece un consumo, transferencia o débito que no reconocés.",
+      "items": [
+        "No borrar notificaciones, correos ni comprobantes.",
+        "Entrar solo desde la app o sitio oficial de la entidad.",
+        "Revisar últimos movimientos, tarjetas asociadas y dispositivos vinculados.",
+        "Cambiar clave desde dispositivo seguro si sospechás acceso indebido.",
+        "Contactar soporte oficial de banco, billetera o tarjeta.",
+        "Pedir número de reclamo y guardar fecha, hora y operador/canal.",
+        "Bloquear tarjeta, pausar cuenta o desconocer consumo si el canal oficial lo indica."
+      ]
+    }
+  ],
+  "commerceGuide": {
+    "title": "Guía práctica de cobro seguro para pequeños comercios",
+    "description": "Rutina pensada para kioscos, almacenes, feriantes, revendedores, ventas por WhatsApp e Instagram y pequeños negocios que cobran con QR, transferencia o billeteras.",
+    "sections": [
+      {
+        "kicker": "Antes de vender",
+        "title": "Preparar el entorno de cobro",
+        "items": [
+          "Definir qué medios de pago se aceptan y quién puede confirmar acreditaciones.",
+          "Tener acceso directo a apps oficiales de banco o billetera, no a capturas enviadas por terceros.",
+          "Activar notificaciones de movimientos, límites y alertas de seguridad.",
+          "Separar, si es posible, cuenta personal y cuenta comercial.",
+          "Evitar mostrar datos innecesarios del comercio en grupos públicos."
+        ]
+      },
+      {
+        "kicker": "Durante el cobro",
+        "title": "Verificar sin dejarse apurar",
+        "items": [
+          "No entregar mercadería solo por captura, PDF o comprobante reenviado.",
+          "Verificar que el movimiento figure acreditado desde la app oficial.",
+          "Comparar monto, fecha, alias, nombre visible y estado de la operación.",
+          "Si hay presión, pausar la entrega y usar un mensaje copiable.",
+          "No devolver dinero ante una transferencia desconocida sin consultar primero con la entidad."
+        ]
+      },
+      {
+        "kicker": "Después de vender",
+        "title": "Cierre de caja y evidencia",
+        "items": [
+          "Revisar movimientos del día y separar operaciones pendientes o dudosas.",
+          "Guardar evidencia solo cuando exista conflicto: capturas, fecha, hora, usuario, monto y conversación.",
+          "Registrar reclamos con número de caso si se contacta a soporte oficial.",
+          "Actualizar contraseñas si hubo acceso sospechoso a correo, redes o WhatsApp Business.",
+          "Revisar semanalmente permisos de empleados o familiares que usan cuentas del negocio."
+        ]
+      },
+      {
+        "kicker": "Señales rojas",
+        "title": "Cuándo pasar a modo emergencia",
+        "items": [
+          "Cliente apura para retirar producto con comprobante no acreditado.",
+          "Alguien pide devolución urgente de dinero desconocido.",
+          "Llega un falso aviso de banco, Mercado Pago o billetera.",
+          "Se pierde acceso a WhatsApp Business, Instagram o correo del comercio.",
+          "Hay amenaza, extorsión o presión para compartir códigos."
+        ]
+      }
+    ],
+    "printableRoutine": [
+      "Abrir la app oficial de banco/billetera antes de entregar el producto.",
+      "Confirmar que el pago esté acreditado, no solo enviado como captura.",
+      "Si el pago no figura, responder con mensaje calmo y esperar acreditación.",
+      "No devolver transferencias desconocidas por presión: consultar canal oficial.",
+      "Guardar evidencia si hay conflicto: conversación, usuario, fecha, monto y comprobante.",
+      "Cerrar el día revisando movimientos pendientes o dudosos.",
+      "Cambiar clave y cerrar sesiones si hubo acceso extraño a cuentas del negocio.",
+      "Ante amenaza o fraude real, usar modo emergencia y canales oficiales."
+    ]
+  }
+}

@@ -1,0 +1,1426 @@
+{
+  "appName": "Analista de Datos Ciudadano",
+  "version": "0.6-publica",
+  "modules": [
+    {
+      "id": "m1",
+      "title": "Qué es un dato y para qué sirve",
+      "description": "En este modulo vas a trabajar \"Qué es un dato y para qué sirve\" dentro de analisis ciudadano de datos, tablas simples, limpieza, indicadores y comunicacion clara. La meta es partir de una pregunta concreta, revisar la calidad de la informacion y cerrar con una evidencia que pueda explicarse.",
+      "commercialRisk": "Confundir dato suelto con información útil",
+      "lessons": [
+        {
+          "id": "m1_l1",
+          "title": "Dato, información y decisión",
+          "keyIdea": "Idea clave: Dato, información y decisión sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Dato, información y decisión\" dentro del modulo \"Qué es un dato y para qué sirve\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona tiene una planilla con informacion desordenada y necesita entender que dice antes de tomar una decision. Aplica \"Dato, información y decisión\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un mini informe con pregunta, tabla ordenada, indicador, hallazgo y decision sugerida.",
+          "alert": "No publicar datos personales, sensibles o identificables sin permiso y anonimizado.",
+          "keyPoints": [
+            "Dato, información y decisión debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un mini informe con pregunta, tabla ordenada, indicador, hallazgo y decision sugerida.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m1_l2",
+          "title": "Fuentes de datos cotidianas",
+          "keyIdea": "Idea clave: Fuentes de datos cotidianas sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Fuentes de datos cotidianas\" dentro del modulo \"Qué es un dato y para qué sirve\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona tiene una planilla con informacion desordenada y necesita entender que dice antes de tomar una decision. Aplica \"Fuentes de datos cotidianas\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un mini informe con pregunta, tabla ordenada, indicador, hallazgo y decision sugerida.",
+          "alert": "No publicar datos personales, sensibles o identificables sin permiso y anonimizado.",
+          "keyPoints": [
+            "Fuentes de datos cotidianas debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un mini informe con pregunta, tabla ordenada, indicador, hallazgo y decision sugerida.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m1_l3",
+          "title": "Filas, columnas y registros",
+          "keyIdea": "Idea clave: Filas, columnas y registros sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Filas, columnas y registros\" dentro del modulo \"Qué es un dato y para qué sirve\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona tiene una planilla con informacion desordenada y necesita entender que dice antes de tomar una decision. Aplica \"Filas, columnas y registros\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un mini informe con pregunta, tabla ordenada, indicador, hallazgo y decision sugerida.",
+          "alert": "No publicar datos personales, sensibles o identificables sin permiso y anonimizado.",
+          "keyPoints": [
+            "Filas, columnas y registros debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un mini informe con pregunta, tabla ordenada, indicador, hallazgo y decision sugerida.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m1_l4",
+          "title": "Preguntas analíticas simples",
+          "keyIdea": "Idea clave: Preguntas analíticas simples sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Preguntas analíticas simples\" dentro del modulo \"Qué es un dato y para qué sirve\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona tiene una planilla con informacion desordenada y necesita entender que dice antes de tomar una decision. Aplica \"Preguntas analíticas simples\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un mini informe con pregunta, tabla ordenada, indicador, hallazgo y decision sugerida.",
+          "alert": "No publicar datos personales, sensibles o identificables sin permiso y anonimizado.",
+          "keyPoints": [
+            "Preguntas analíticas simples debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un mini informe con pregunta, tabla ordenada, indicador, hallazgo y decision sugerida.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m1_l5",
+          "title": "Variables y categorías",
+          "keyIdea": "Idea clave: Variables y categorías sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Variables y categorías\" dentro del modulo \"Qué es un dato y para qué sirve\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona tiene una planilla con informacion desordenada y necesita entender que dice antes de tomar una decision. Aplica \"Variables y categorías\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un mini informe con pregunta, tabla ordenada, indicador, hallazgo y decision sugerida.",
+          "alert": "No publicar datos personales, sensibles o identificables sin permiso y anonimizado.",
+          "keyPoints": [
+            "Variables y categorías debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un mini informe con pregunta, tabla ordenada, indicador, hallazgo y decision sugerida.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m1_l6",
+          "title": "Decisiones basadas en datos",
+          "keyIdea": "Idea clave: Decisiones basadas en datos sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Decisiones basadas en datos\" dentro del modulo \"Qué es un dato y para qué sirve\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona tiene una planilla con informacion desordenada y necesita entender que dice antes de tomar una decision. Aplica \"Decisiones basadas en datos\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un mini informe con pregunta, tabla ordenada, indicador, hallazgo y decision sugerida.",
+          "alert": "No publicar datos personales, sensibles o identificables sin permiso y anonimizado.",
+          "keyPoints": [
+            "Decisiones basadas en datos debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un mini informe con pregunta, tabla ordenada, indicador, hallazgo y decision sugerida.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "id": "m1_q1",
+          "question": "¿Cuál es una buena práctica en qué es un dato y para qué sirve?",
+          "options": [
+            "Definir una pregunta clara y revisar la calidad de los datos",
+            "Copiar datos sin revisarlos",
+            "Eliminar todo valor que parezca raro sin investigar",
+            "Concluir solo por intuición"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el análisis ciudadano debe ser claro, prudente y verificable."
+        },
+        {
+          "id": "m1_q2",
+          "question": "¿Qué conviene hacer antes de sacar una conclusión?",
+          "options": [
+            "Definir una pregunta clara y revisar la calidad de los datos",
+            "Copiar datos sin revisarlos",
+            "Eliminar todo valor que parezca raro sin investigar",
+            "Concluir solo por intuición"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el análisis ciudadano debe ser claro, prudente y verificable."
+        },
+        {
+          "id": "m1_q3",
+          "question": "¿Por qué es importante documentar límites del análisis?",
+          "options": [
+            "Definir una pregunta clara y revisar la calidad de los datos",
+            "Copiar datos sin revisarlos",
+            "Eliminar todo valor que parezca raro sin investigar",
+            "Concluir solo por intuición"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el análisis ciudadano debe ser claro, prudente y verificable."
+        },
+        {
+          "id": "m1_q4",
+          "question": "¿Qué error debe evitarse al trabajar con datos cotidianos?",
+          "options": [
+            "Definir una pregunta clara y revisar la calidad de los datos",
+            "Copiar datos sin revisarlos",
+            "Eliminar todo valor que parezca raro sin investigar",
+            "Concluir solo por intuición"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el análisis ciudadano debe ser claro, prudente y verificable."
+        },
+        {
+          "id": "m1_q5",
+          "question": "¿Cuál es una salida útil de un análisis simple?",
+          "options": [
+            "Definir una pregunta clara y revisar la calidad de los datos",
+            "Copiar datos sin revisarlos",
+            "Eliminar todo valor que parezca raro sin investigar",
+            "Concluir solo por intuición"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el análisis ciudadano debe ser claro, prudente y verificable."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m1_q1",
+          "question": "¿Cuál es una buena práctica en qué es un dato y para qué sirve?",
+          "options": [
+            "Definir una pregunta clara y revisar la calidad de los datos",
+            "Copiar datos sin revisarlos",
+            "Eliminar todo valor que parezca raro sin investigar",
+            "Concluir solo por intuición"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el análisis ciudadano debe ser claro, prudente y verificable."
+        },
+        {
+          "id": "m1_q2",
+          "question": "¿Qué conviene hacer antes de sacar una conclusión?",
+          "options": [
+            "Definir una pregunta clara y revisar la calidad de los datos",
+            "Copiar datos sin revisarlos",
+            "Eliminar todo valor que parezca raro sin investigar",
+            "Concluir solo por intuición"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el análisis ciudadano debe ser claro, prudente y verificable."
+        },
+        {
+          "id": "m1_q3",
+          "question": "¿Por qué es importante documentar límites del análisis?",
+          "options": [
+            "Definir una pregunta clara y revisar la calidad de los datos",
+            "Copiar datos sin revisarlos",
+            "Eliminar todo valor que parezca raro sin investigar",
+            "Concluir solo por intuición"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el análisis ciudadano debe ser claro, prudente y verificable."
+        },
+        {
+          "id": "m1_q4",
+          "question": "¿Qué error debe evitarse al trabajar con datos cotidianos?",
+          "options": [
+            "Definir una pregunta clara y revisar la calidad de los datos",
+            "Copiar datos sin revisarlos",
+            "Eliminar todo valor que parezca raro sin investigar",
+            "Concluir solo por intuición"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el análisis ciudadano debe ser claro, prudente y verificable."
+        },
+        {
+          "id": "m1_q5",
+          "question": "¿Cuál es una salida útil de un análisis simple?",
+          "options": [
+            "Definir una pregunta clara y revisar la calidad de los datos",
+            "Copiar datos sin revisarlos",
+            "Eliminar todo valor que parezca raro sin investigar",
+            "Concluir solo por intuición"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el análisis ciudadano debe ser claro, prudente y verificable."
+        }
+      ],
+      "professionalOutcome": "formular preguntas, ordenar datos, detectar patrones y comunicar hallazgos con cuidado. Entregable sugerido: un informe de una pagina con pregunta, datos usados, hallazgo, grafico y decision sugerida."
+    },
+    {
+      "id": "m2",
+      "title": "Tablas, carga y orden básico",
+      "description": "En este modulo vas a trabajar \"Tablas, carga y orden básico\" dentro de analisis ciudadano de datos, tablas simples, limpieza, indicadores y comunicacion clara. La meta es partir de una pregunta concreta, revisar la calidad de la informacion y cerrar con una evidencia que pueda explicarse.",
+      "commercialRisk": "Tablas mal cargadas que después no se pueden analizar",
+      "lessons": [
+        {
+          "id": "m2_l1",
+          "title": "Diseñar una tabla mínima",
+          "keyIdea": "Idea clave: Diseñar una tabla mínima sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Diseñar una tabla mínima\" dentro del modulo \"Tablas, carga y orden básico\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona tiene una planilla con informacion desordenada y necesita entender que dice antes de tomar una decision. Aplica \"Diseñar una tabla mínima\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un mini informe con pregunta, tabla ordenada, indicador, hallazgo y decision sugerida.",
+          "alert": "No publicar datos personales, sensibles o identificables sin permiso y anonimizado.",
+          "keyPoints": [
+            "Diseñar una tabla mínima debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un mini informe con pregunta, tabla ordenada, indicador, hallazgo y decision sugerida.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m2_l2",
+          "title": "Nombres de columnas claros",
+          "keyIdea": "Idea clave: Nombres de columnas claros sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Nombres de columnas claros\" dentro del modulo \"Tablas, carga y orden básico\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona tiene una planilla con informacion desordenada y necesita entender que dice antes de tomar una decision. Aplica \"Nombres de columnas claros\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un mini informe con pregunta, tabla ordenada, indicador, hallazgo y decision sugerida.",
+          "alert": "No publicar datos personales, sensibles o identificables sin permiso y anonimizado.",
+          "keyPoints": [
+            "Nombres de columnas claros debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un mini informe con pregunta, tabla ordenada, indicador, hallazgo y decision sugerida.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m2_l3",
+          "title": "Fechas bien cargadas",
+          "keyIdea": "Idea clave: Fechas bien cargadas sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Fechas bien cargadas\" dentro del modulo \"Tablas, carga y orden básico\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona tiene una planilla con informacion desordenada y necesita entender que dice antes de tomar una decision. Aplica \"Fechas bien cargadas\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un mini informe con pregunta, tabla ordenada, indicador, hallazgo y decision sugerida.",
+          "alert": "No publicar datos personales, sensibles o identificables sin permiso y anonimizado.",
+          "keyPoints": [
+            "Fechas bien cargadas debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un mini informe con pregunta, tabla ordenada, indicador, hallazgo y decision sugerida.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m2_l4",
+          "title": "Valores numéricos limpios",
+          "keyIdea": "Idea clave: Valores numéricos limpios sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Valores numéricos limpios\" dentro del modulo \"Tablas, carga y orden básico\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona tiene una planilla con informacion desordenada y necesita entender que dice antes de tomar una decision. Aplica \"Valores numéricos limpios\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un mini informe con pregunta, tabla ordenada, indicador, hallazgo y decision sugerida.",
+          "alert": "No publicar datos personales, sensibles o identificables sin permiso y anonimizado.",
+          "keyPoints": [
+            "Valores numéricos limpios debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un mini informe con pregunta, tabla ordenada, indicador, hallazgo y decision sugerida.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m2_l5",
+          "title": "Categorías consistentes",
+          "keyIdea": "Idea clave: Categorías consistentes sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Categorías consistentes\" dentro del modulo \"Tablas, carga y orden básico\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona tiene una planilla con informacion desordenada y necesita entender que dice antes de tomar una decision. Aplica \"Categorías consistentes\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un mini informe con pregunta, tabla ordenada, indicador, hallazgo y decision sugerida.",
+          "alert": "No publicar datos personales, sensibles o identificables sin permiso y anonimizado.",
+          "keyPoints": [
+            "Categorías consistentes debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un mini informe con pregunta, tabla ordenada, indicador, hallazgo y decision sugerida.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m2_l6",
+          "title": "Control de carga diaria",
+          "keyIdea": "Idea clave: Control de carga diaria sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Control de carga diaria\" dentro del modulo \"Tablas, carga y orden básico\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona tiene una planilla con informacion desordenada y necesita entender que dice antes de tomar una decision. Aplica \"Control de carga diaria\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un mini informe con pregunta, tabla ordenada, indicador, hallazgo y decision sugerida.",
+          "alert": "No publicar datos personales, sensibles o identificables sin permiso y anonimizado.",
+          "keyPoints": [
+            "Control de carga diaria debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un mini informe con pregunta, tabla ordenada, indicador, hallazgo y decision sugerida.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "id": "m2_q1",
+          "question": "¿Cuál es una buena práctica en tablas, carga y orden básico?",
+          "options": [
+            "Definir una pregunta clara y revisar la calidad de los datos",
+            "Copiar datos sin revisarlos",
+            "Eliminar todo valor que parezca raro sin investigar",
+            "Concluir solo por intuición"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el análisis ciudadano debe ser claro, prudente y verificable."
+        },
+        {
+          "id": "m2_q2",
+          "question": "¿Qué conviene hacer antes de sacar una conclusión?",
+          "options": [
+            "Definir una pregunta clara y revisar la calidad de los datos",
+            "Copiar datos sin revisarlos",
+            "Eliminar todo valor que parezca raro sin investigar",
+            "Concluir solo por intuición"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el análisis ciudadano debe ser claro, prudente y verificable."
+        },
+        {
+          "id": "m2_q3",
+          "question": "¿Por qué es importante documentar límites del análisis?",
+          "options": [
+            "Definir una pregunta clara y revisar la calidad de los datos",
+            "Copiar datos sin revisarlos",
+            "Eliminar todo valor que parezca raro sin investigar",
+            "Concluir solo por intuición"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el análisis ciudadano debe ser claro, prudente y verificable."
+        },
+        {
+          "id": "m2_q4",
+          "question": "¿Qué error debe evitarse al trabajar con datos cotidianos?",
+          "options": [
+            "Definir una pregunta clara y revisar la calidad de los datos",
+            "Copiar datos sin revisarlos",
+            "Eliminar todo valor que parezca raro sin investigar",
+            "Concluir solo por intuición"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el análisis ciudadano debe ser claro, prudente y verificable."
+        },
+        {
+          "id": "m2_q5",
+          "question": "¿Cuál es una salida útil de un análisis simple?",
+          "options": [
+            "Definir una pregunta clara y revisar la calidad de los datos",
+            "Copiar datos sin revisarlos",
+            "Eliminar todo valor que parezca raro sin investigar",
+            "Concluir solo por intuición"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el análisis ciudadano debe ser claro, prudente y verificable."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m2_q1",
+          "question": "¿Cuál es una buena práctica en tablas, carga y orden básico?",
+          "options": [
+            "Definir una pregunta clara y revisar la calidad de los datos",
+            "Copiar datos sin revisarlos",
+            "Eliminar todo valor que parezca raro sin investigar",
+            "Concluir solo por intuición"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el análisis ciudadano debe ser claro, prudente y verificable."
+        },
+        {
+          "id": "m2_q2",
+          "question": "¿Qué conviene hacer antes de sacar una conclusión?",
+          "options": [
+            "Definir una pregunta clara y revisar la calidad de los datos",
+            "Copiar datos sin revisarlos",
+            "Eliminar todo valor que parezca raro sin investigar",
+            "Concluir solo por intuición"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el análisis ciudadano debe ser claro, prudente y verificable."
+        },
+        {
+          "id": "m2_q3",
+          "question": "¿Por qué es importante documentar límites del análisis?",
+          "options": [
+            "Definir una pregunta clara y revisar la calidad de los datos",
+            "Copiar datos sin revisarlos",
+            "Eliminar todo valor que parezca raro sin investigar",
+            "Concluir solo por intuición"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el análisis ciudadano debe ser claro, prudente y verificable."
+        },
+        {
+          "id": "m2_q4",
+          "question": "¿Qué error debe evitarse al trabajar con datos cotidianos?",
+          "options": [
+            "Definir una pregunta clara y revisar la calidad de los datos",
+            "Copiar datos sin revisarlos",
+            "Eliminar todo valor que parezca raro sin investigar",
+            "Concluir solo por intuición"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el análisis ciudadano debe ser claro, prudente y verificable."
+        },
+        {
+          "id": "m2_q5",
+          "question": "¿Cuál es una salida útil de un análisis simple?",
+          "options": [
+            "Definir una pregunta clara y revisar la calidad de los datos",
+            "Copiar datos sin revisarlos",
+            "Eliminar todo valor que parezca raro sin investigar",
+            "Concluir solo por intuición"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el análisis ciudadano debe ser claro, prudente y verificable."
+        }
+      ],
+      "professionalOutcome": "formular preguntas, ordenar datos, detectar patrones y comunicar hallazgos con cuidado. Entregable sugerido: un informe de una pagina con pregunta, datos usados, hallazgo, grafico y decision sugerida."
+    },
+    {
+      "id": "m3",
+      "title": "Limpieza y calidad de datos",
+      "description": "En este modulo vas a trabajar \"Limpieza y calidad de datos\" dentro de analisis ciudadano de datos, tablas simples, limpieza, indicadores y comunicacion clara. La meta es partir de una pregunta concreta, revisar la calidad de la informacion y cerrar con una evidencia que pueda explicarse.",
+      "commercialRisk": "Tomar decisiones con datos incompletos o duplicados",
+      "lessons": [
+        {
+          "id": "m3_l1",
+          "title": "Datos faltantes",
+          "keyIdea": "Idea clave: Datos faltantes sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Datos faltantes\" dentro del modulo \"Limpieza y calidad de datos\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona tiene una planilla con informacion desordenada y necesita entender que dice antes de tomar una decision. Aplica \"Datos faltantes\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un mini informe con pregunta, tabla ordenada, indicador, hallazgo y decision sugerida.",
+          "alert": "No publicar datos personales, sensibles o identificables sin permiso y anonimizado.",
+          "keyPoints": [
+            "Datos faltantes debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un mini informe con pregunta, tabla ordenada, indicador, hallazgo y decision sugerida.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m3_l2",
+          "title": "Duplicados",
+          "keyIdea": "Idea clave: Duplicados sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Duplicados\" dentro del modulo \"Limpieza y calidad de datos\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona tiene una planilla con informacion desordenada y necesita entender que dice antes de tomar una decision. Aplica \"Duplicados\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un mini informe con pregunta, tabla ordenada, indicador, hallazgo y decision sugerida.",
+          "alert": "No publicar datos personales, sensibles o identificables sin permiso y anonimizado.",
+          "keyPoints": [
+            "Duplicados debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un mini informe con pregunta, tabla ordenada, indicador, hallazgo y decision sugerida.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m3_l3",
+          "title": "Valores fuera de rango",
+          "keyIdea": "Idea clave: Valores fuera de rango sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Valores fuera de rango\" dentro del modulo \"Limpieza y calidad de datos\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona tiene una planilla con informacion desordenada y necesita entender que dice antes de tomar una decision. Aplica \"Valores fuera de rango\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un mini informe con pregunta, tabla ordenada, indicador, hallazgo y decision sugerida.",
+          "alert": "No publicar datos personales, sensibles o identificables sin permiso y anonimizado.",
+          "keyPoints": [
+            "Valores fuera de rango debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un mini informe con pregunta, tabla ordenada, indicador, hallazgo y decision sugerida.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m3_l4",
+          "title": "Inconsistencias entre columnas",
+          "keyIdea": "Idea clave: Inconsistencias entre columnas sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Inconsistencias entre columnas\" dentro del modulo \"Limpieza y calidad de datos\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona tiene una planilla con informacion desordenada y necesita entender que dice antes de tomar una decision. Aplica \"Inconsistencias entre columnas\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un mini informe con pregunta, tabla ordenada, indicador, hallazgo y decision sugerida.",
+          "alert": "No publicar datos personales, sensibles o identificables sin permiso y anonimizado.",
+          "keyPoints": [
+            "Inconsistencias entre columnas debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un mini informe con pregunta, tabla ordenada, indicador, hallazgo y decision sugerida.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m3_l5",
+          "title": "Datos sensibles",
+          "keyIdea": "Idea clave: Datos sensibles sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Datos sensibles\" dentro del modulo \"Limpieza y calidad de datos\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona tiene una planilla con informacion desordenada y necesita entender que dice antes de tomar una decision. Aplica \"Datos sensibles\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un mini informe con pregunta, tabla ordenada, indicador, hallazgo y decision sugerida.",
+          "alert": "No publicar datos personales, sensibles o identificables sin permiso y anonimizado.",
+          "keyPoints": [
+            "Datos sensibles debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un mini informe con pregunta, tabla ordenada, indicador, hallazgo y decision sugerida.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m3_l6",
+          "title": "Bitácora de cambios",
+          "keyIdea": "Idea clave: Bitácora de cambios sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Bitácora de cambios\" dentro del modulo \"Limpieza y calidad de datos\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona tiene una planilla con informacion desordenada y necesita entender que dice antes de tomar una decision. Aplica \"Bitácora de cambios\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un mini informe con pregunta, tabla ordenada, indicador, hallazgo y decision sugerida.",
+          "alert": "No publicar datos personales, sensibles o identificables sin permiso y anonimizado.",
+          "keyPoints": [
+            "Bitácora de cambios debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un mini informe con pregunta, tabla ordenada, indicador, hallazgo y decision sugerida.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "id": "m3_q1",
+          "question": "¿Cuál es una buena práctica en limpieza y calidad de datos?",
+          "options": [
+            "Definir una pregunta clara y revisar la calidad de los datos",
+            "Copiar datos sin revisarlos",
+            "Eliminar todo valor que parezca raro sin investigar",
+            "Concluir solo por intuición"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el análisis ciudadano debe ser claro, prudente y verificable."
+        },
+        {
+          "id": "m3_q2",
+          "question": "¿Qué conviene hacer antes de sacar una conclusión?",
+          "options": [
+            "Definir una pregunta clara y revisar la calidad de los datos",
+            "Copiar datos sin revisarlos",
+            "Eliminar todo valor que parezca raro sin investigar",
+            "Concluir solo por intuición"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el análisis ciudadano debe ser claro, prudente y verificable."
+        },
+        {
+          "id": "m3_q3",
+          "question": "¿Por qué es importante documentar límites del análisis?",
+          "options": [
+            "Definir una pregunta clara y revisar la calidad de los datos",
+            "Copiar datos sin revisarlos",
+            "Eliminar todo valor que parezca raro sin investigar",
+            "Concluir solo por intuición"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el análisis ciudadano debe ser claro, prudente y verificable."
+        },
+        {
+          "id": "m3_q4",
+          "question": "¿Qué error debe evitarse al trabajar con datos cotidianos?",
+          "options": [
+            "Definir una pregunta clara y revisar la calidad de los datos",
+            "Copiar datos sin revisarlos",
+            "Eliminar todo valor que parezca raro sin investigar",
+            "Concluir solo por intuición"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el análisis ciudadano debe ser claro, prudente y verificable."
+        },
+        {
+          "id": "m3_q5",
+          "question": "¿Cuál es una salida útil de un análisis simple?",
+          "options": [
+            "Definir una pregunta clara y revisar la calidad de los datos",
+            "Copiar datos sin revisarlos",
+            "Eliminar todo valor que parezca raro sin investigar",
+            "Concluir solo por intuición"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el análisis ciudadano debe ser claro, prudente y verificable."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m3_q1",
+          "question": "¿Cuál es una buena práctica en limpieza y calidad de datos?",
+          "options": [
+            "Definir una pregunta clara y revisar la calidad de los datos",
+            "Copiar datos sin revisarlos",
+            "Eliminar todo valor que parezca raro sin investigar",
+            "Concluir solo por intuición"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el análisis ciudadano debe ser claro, prudente y verificable."
+        },
+        {
+          "id": "m3_q2",
+          "question": "¿Qué conviene hacer antes de sacar una conclusión?",
+          "options": [
+            "Definir una pregunta clara y revisar la calidad de los datos",
+            "Copiar datos sin revisarlos",
+            "Eliminar todo valor que parezca raro sin investigar",
+            "Concluir solo por intuición"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el análisis ciudadano debe ser claro, prudente y verificable."
+        },
+        {
+          "id": "m3_q3",
+          "question": "¿Por qué es importante documentar límites del análisis?",
+          "options": [
+            "Definir una pregunta clara y revisar la calidad de los datos",
+            "Copiar datos sin revisarlos",
+            "Eliminar todo valor que parezca raro sin investigar",
+            "Concluir solo por intuición"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el análisis ciudadano debe ser claro, prudente y verificable."
+        },
+        {
+          "id": "m3_q4",
+          "question": "¿Qué error debe evitarse al trabajar con datos cotidianos?",
+          "options": [
+            "Definir una pregunta clara y revisar la calidad de los datos",
+            "Copiar datos sin revisarlos",
+            "Eliminar todo valor que parezca raro sin investigar",
+            "Concluir solo por intuición"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el análisis ciudadano debe ser claro, prudente y verificable."
+        },
+        {
+          "id": "m3_q5",
+          "question": "¿Cuál es una salida útil de un análisis simple?",
+          "options": [
+            "Definir una pregunta clara y revisar la calidad de los datos",
+            "Copiar datos sin revisarlos",
+            "Eliminar todo valor que parezca raro sin investigar",
+            "Concluir solo por intuición"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el análisis ciudadano debe ser claro, prudente y verificable."
+        }
+      ],
+      "professionalOutcome": "formular preguntas, ordenar datos, detectar patrones y comunicar hallazgos con cuidado. Entregable sugerido: un informe de una pagina con pregunta, datos usados, hallazgo, grafico y decision sugerida."
+    },
+    {
+      "id": "m4",
+      "title": "Métricas e indicadores simples",
+      "description": "En este modulo vas a trabajar \"Métricas e indicadores simples\" dentro de analisis ciudadano de datos, tablas simples, limpieza, indicadores y comunicacion clara. La meta es partir de una pregunta concreta, revisar la calidad de la informacion y cerrar con una evidencia que pueda explicarse.",
+      "commercialRisk": "Usar métricas sin entender qué significan",
+      "lessons": [
+        {
+          "id": "m4_l1",
+          "title": "Totales y conteos",
+          "keyIdea": "Idea clave: Totales y conteos sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Totales y conteos\" dentro del modulo \"Métricas e indicadores simples\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona tiene una planilla con informacion desordenada y necesita entender que dice antes de tomar una decision. Aplica \"Totales y conteos\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un mini informe con pregunta, tabla ordenada, indicador, hallazgo y decision sugerida.",
+          "alert": "No publicar datos personales, sensibles o identificables sin permiso y anonimizado.",
+          "keyPoints": [
+            "Totales y conteos debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un mini informe con pregunta, tabla ordenada, indicador, hallazgo y decision sugerida.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m4_l2",
+          "title": "Promedios con cuidado",
+          "keyIdea": "Idea clave: Promedios con cuidado sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Promedios con cuidado\" dentro del modulo \"Métricas e indicadores simples\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona tiene una planilla con informacion desordenada y necesita entender que dice antes de tomar una decision. Aplica \"Promedios con cuidado\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un mini informe con pregunta, tabla ordenada, indicador, hallazgo y decision sugerida.",
+          "alert": "No publicar datos personales, sensibles o identificables sin permiso y anonimizado.",
+          "keyPoints": [
+            "Promedios con cuidado debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un mini informe con pregunta, tabla ordenada, indicador, hallazgo y decision sugerida.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m4_l3",
+          "title": "Porcentajes",
+          "keyIdea": "Idea clave: Porcentajes sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Porcentajes\" dentro del modulo \"Métricas e indicadores simples\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona tiene una planilla con informacion desordenada y necesita entender que dice antes de tomar una decision. Aplica \"Porcentajes\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un mini informe con pregunta, tabla ordenada, indicador, hallazgo y decision sugerida.",
+          "alert": "No publicar datos personales, sensibles o identificables sin permiso y anonimizado.",
+          "keyPoints": [
+            "Porcentajes debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un mini informe con pregunta, tabla ordenada, indicador, hallazgo y decision sugerida.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m4_l4",
+          "title": "Variación entre períodos",
+          "keyIdea": "Idea clave: Variación entre períodos sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Variación entre períodos\" dentro del modulo \"Métricas e indicadores simples\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona tiene una planilla con informacion desordenada y necesita entender que dice antes de tomar una decision. Aplica \"Variación entre períodos\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un mini informe con pregunta, tabla ordenada, indicador, hallazgo y decision sugerida.",
+          "alert": "No publicar datos personales, sensibles o identificables sin permiso y anonimizado.",
+          "keyPoints": [
+            "Variación entre períodos debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un mini informe con pregunta, tabla ordenada, indicador, hallazgo y decision sugerida.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m4_l5",
+          "title": "ROI simple",
+          "keyIdea": "Idea clave: ROI simple sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"ROI simple\" dentro del modulo \"Métricas e indicadores simples\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona tiene una planilla con informacion desordenada y necesita entender que dice antes de tomar una decision. Aplica \"ROI simple\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un mini informe con pregunta, tabla ordenada, indicador, hallazgo y decision sugerida.",
+          "alert": "No publicar datos personales, sensibles o identificables sin permiso y anonimizado.",
+          "keyPoints": [
+            "ROI simple debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un mini informe con pregunta, tabla ordenada, indicador, hallazgo y decision sugerida.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m4_l6",
+          "title": "Indicadores para decidir",
+          "keyIdea": "Idea clave: Indicadores para decidir sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Indicadores para decidir\" dentro del modulo \"Métricas e indicadores simples\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona tiene una planilla con informacion desordenada y necesita entender que dice antes de tomar una decision. Aplica \"Indicadores para decidir\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un mini informe con pregunta, tabla ordenada, indicador, hallazgo y decision sugerida.",
+          "alert": "No publicar datos personales, sensibles o identificables sin permiso y anonimizado.",
+          "keyPoints": [
+            "Indicadores para decidir debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un mini informe con pregunta, tabla ordenada, indicador, hallazgo y decision sugerida.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "id": "m4_q1",
+          "question": "¿Cuál es una buena práctica en métricas e indicadores simples?",
+          "options": [
+            "Definir una pregunta clara y revisar la calidad de los datos",
+            "Copiar datos sin revisarlos",
+            "Eliminar todo valor que parezca raro sin investigar",
+            "Concluir solo por intuición"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el análisis ciudadano debe ser claro, prudente y verificable."
+        },
+        {
+          "id": "m4_q2",
+          "question": "¿Qué conviene hacer antes de sacar una conclusión?",
+          "options": [
+            "Definir una pregunta clara y revisar la calidad de los datos",
+            "Copiar datos sin revisarlos",
+            "Eliminar todo valor que parezca raro sin investigar",
+            "Concluir solo por intuición"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el análisis ciudadano debe ser claro, prudente y verificable."
+        },
+        {
+          "id": "m4_q3",
+          "question": "¿Por qué es importante documentar límites del análisis?",
+          "options": [
+            "Definir una pregunta clara y revisar la calidad de los datos",
+            "Copiar datos sin revisarlos",
+            "Eliminar todo valor que parezca raro sin investigar",
+            "Concluir solo por intuición"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el análisis ciudadano debe ser claro, prudente y verificable."
+        },
+        {
+          "id": "m4_q4",
+          "question": "¿Qué error debe evitarse al trabajar con datos cotidianos?",
+          "options": [
+            "Definir una pregunta clara y revisar la calidad de los datos",
+            "Copiar datos sin revisarlos",
+            "Eliminar todo valor que parezca raro sin investigar",
+            "Concluir solo por intuición"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el análisis ciudadano debe ser claro, prudente y verificable."
+        },
+        {
+          "id": "m4_q5",
+          "question": "¿Cuál es una salida útil de un análisis simple?",
+          "options": [
+            "Definir una pregunta clara y revisar la calidad de los datos",
+            "Copiar datos sin revisarlos",
+            "Eliminar todo valor que parezca raro sin investigar",
+            "Concluir solo por intuición"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el análisis ciudadano debe ser claro, prudente y verificable."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m4_q1",
+          "question": "¿Cuál es una buena práctica en métricas e indicadores simples?",
+          "options": [
+            "Definir una pregunta clara y revisar la calidad de los datos",
+            "Copiar datos sin revisarlos",
+            "Eliminar todo valor que parezca raro sin investigar",
+            "Concluir solo por intuición"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el análisis ciudadano debe ser claro, prudente y verificable."
+        },
+        {
+          "id": "m4_q2",
+          "question": "¿Qué conviene hacer antes de sacar una conclusión?",
+          "options": [
+            "Definir una pregunta clara y revisar la calidad de los datos",
+            "Copiar datos sin revisarlos",
+            "Eliminar todo valor que parezca raro sin investigar",
+            "Concluir solo por intuición"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el análisis ciudadano debe ser claro, prudente y verificable."
+        },
+        {
+          "id": "m4_q3",
+          "question": "¿Por qué es importante documentar límites del análisis?",
+          "options": [
+            "Definir una pregunta clara y revisar la calidad de los datos",
+            "Copiar datos sin revisarlos",
+            "Eliminar todo valor que parezca raro sin investigar",
+            "Concluir solo por intuición"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el análisis ciudadano debe ser claro, prudente y verificable."
+        },
+        {
+          "id": "m4_q4",
+          "question": "¿Qué error debe evitarse al trabajar con datos cotidianos?",
+          "options": [
+            "Definir una pregunta clara y revisar la calidad de los datos",
+            "Copiar datos sin revisarlos",
+            "Eliminar todo valor que parezca raro sin investigar",
+            "Concluir solo por intuición"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el análisis ciudadano debe ser claro, prudente y verificable."
+        },
+        {
+          "id": "m4_q5",
+          "question": "¿Cuál es una salida útil de un análisis simple?",
+          "options": [
+            "Definir una pregunta clara y revisar la calidad de los datos",
+            "Copiar datos sin revisarlos",
+            "Eliminar todo valor que parezca raro sin investigar",
+            "Concluir solo por intuición"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el análisis ciudadano debe ser claro, prudente y verificable."
+        }
+      ],
+      "professionalOutcome": "formular preguntas, ordenar datos, detectar patrones y comunicar hallazgos con cuidado. Entregable sugerido: un informe de una pagina con pregunta, datos usados, hallazgo, grafico y decision sugerida."
+    },
+    {
+      "id": "m5",
+      "title": "Visualización y comunicación",
+      "description": "En este modulo vas a trabajar \"Visualización y comunicación\" dentro de analisis ciudadano de datos, tablas simples, limpieza, indicadores y comunicacion clara. La meta es partir de una pregunta concreta, revisar la calidad de la informacion y cerrar con una evidencia que pueda explicarse.",
+      "commercialRisk": "Gráficos bonitos pero confusos o engañosos",
+      "lessons": [
+        {
+          "id": "m5_l1",
+          "title": "Elegir gráfico simple",
+          "keyIdea": "Idea clave: Elegir gráfico simple sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Elegir gráfico simple\" dentro del modulo \"Visualización y comunicación\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona tiene una planilla con informacion desordenada y necesita entender que dice antes de tomar una decision. Aplica \"Elegir gráfico simple\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un mini informe con pregunta, tabla ordenada, indicador, hallazgo y decision sugerida.",
+          "alert": "No publicar datos personales, sensibles o identificables sin permiso y anonimizado.",
+          "keyPoints": [
+            "Elegir gráfico simple debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un mini informe con pregunta, tabla ordenada, indicador, hallazgo y decision sugerida.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m5_l2",
+          "title": "Etiquetas y unidades",
+          "keyIdea": "Idea clave: Etiquetas y unidades sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Etiquetas y unidades\" dentro del modulo \"Visualización y comunicación\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona tiene una planilla con informacion desordenada y necesita entender que dice antes de tomar una decision. Aplica \"Etiquetas y unidades\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un mini informe con pregunta, tabla ordenada, indicador, hallazgo y decision sugerida.",
+          "alert": "No publicar datos personales, sensibles o identificables sin permiso y anonimizado.",
+          "keyPoints": [
+            "Etiquetas y unidades debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un mini informe con pregunta, tabla ordenada, indicador, hallazgo y decision sugerida.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m5_l3",
+          "title": "No exagerar conclusiones",
+          "keyIdea": "Idea clave: No exagerar conclusiones sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"No exagerar conclusiones\" dentro del modulo \"Visualización y comunicación\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona tiene una planilla con informacion desordenada y necesita entender que dice antes de tomar una decision. Aplica \"No exagerar conclusiones\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un mini informe con pregunta, tabla ordenada, indicador, hallazgo y decision sugerida.",
+          "alert": "No publicar datos personales, sensibles o identificables sin permiso y anonimizado.",
+          "keyPoints": [
+            "No exagerar conclusiones debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un mini informe con pregunta, tabla ordenada, indicador, hallazgo y decision sugerida.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m5_l4",
+          "title": "Resumen ejecutivo",
+          "keyIdea": "Idea clave: Resumen ejecutivo sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Resumen ejecutivo\" dentro del modulo \"Visualización y comunicación\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona tiene una planilla con informacion desordenada y necesita entender que dice antes de tomar una decision. Aplica \"Resumen ejecutivo\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un mini informe con pregunta, tabla ordenada, indicador, hallazgo y decision sugerida.",
+          "alert": "No publicar datos personales, sensibles o identificables sin permiso y anonimizado.",
+          "keyPoints": [
+            "Resumen ejecutivo debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un mini informe con pregunta, tabla ordenada, indicador, hallazgo y decision sugerida.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m5_l5",
+          "title": "Contar límites del análisis",
+          "keyIdea": "Idea clave: Contar límites del análisis sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Contar límites del análisis\" dentro del modulo \"Visualización y comunicación\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona tiene una planilla con informacion desordenada y necesita entender que dice antes de tomar una decision. Aplica \"Contar límites del análisis\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un mini informe con pregunta, tabla ordenada, indicador, hallazgo y decision sugerida.",
+          "alert": "No publicar datos personales, sensibles o identificables sin permiso y anonimizado.",
+          "keyPoints": [
+            "Contar límites del análisis debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un mini informe con pregunta, tabla ordenada, indicador, hallazgo y decision sugerida.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m5_l6",
+          "title": "Reporte para no técnicos",
+          "keyIdea": "Idea clave: Reporte para no técnicos sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Reporte para no técnicos\" dentro del modulo \"Visualización y comunicación\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona tiene una planilla con informacion desordenada y necesita entender que dice antes de tomar una decision. Aplica \"Reporte para no técnicos\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un mini informe con pregunta, tabla ordenada, indicador, hallazgo y decision sugerida.",
+          "alert": "No publicar datos personales, sensibles o identificables sin permiso y anonimizado.",
+          "keyPoints": [
+            "Reporte para no técnicos debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un mini informe con pregunta, tabla ordenada, indicador, hallazgo y decision sugerida.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "id": "m5_q1",
+          "question": "¿Cuál es una buena práctica en visualización y comunicación?",
+          "options": [
+            "Definir una pregunta clara y revisar la calidad de los datos",
+            "Copiar datos sin revisarlos",
+            "Eliminar todo valor que parezca raro sin investigar",
+            "Concluir solo por intuición"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el análisis ciudadano debe ser claro, prudente y verificable."
+        },
+        {
+          "id": "m5_q2",
+          "question": "¿Qué conviene hacer antes de sacar una conclusión?",
+          "options": [
+            "Definir una pregunta clara y revisar la calidad de los datos",
+            "Copiar datos sin revisarlos",
+            "Eliminar todo valor que parezca raro sin investigar",
+            "Concluir solo por intuición"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el análisis ciudadano debe ser claro, prudente y verificable."
+        },
+        {
+          "id": "m5_q3",
+          "question": "¿Por qué es importante documentar límites del análisis?",
+          "options": [
+            "Definir una pregunta clara y revisar la calidad de los datos",
+            "Copiar datos sin revisarlos",
+            "Eliminar todo valor que parezca raro sin investigar",
+            "Concluir solo por intuición"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el análisis ciudadano debe ser claro, prudente y verificable."
+        },
+        {
+          "id": "m5_q4",
+          "question": "¿Qué error debe evitarse al trabajar con datos cotidianos?",
+          "options": [
+            "Definir una pregunta clara y revisar la calidad de los datos",
+            "Copiar datos sin revisarlos",
+            "Eliminar todo valor que parezca raro sin investigar",
+            "Concluir solo por intuición"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el análisis ciudadano debe ser claro, prudente y verificable."
+        },
+        {
+          "id": "m5_q5",
+          "question": "¿Cuál es una salida útil de un análisis simple?",
+          "options": [
+            "Definir una pregunta clara y revisar la calidad de los datos",
+            "Copiar datos sin revisarlos",
+            "Eliminar todo valor que parezca raro sin investigar",
+            "Concluir solo por intuición"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el análisis ciudadano debe ser claro, prudente y verificable."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m5_q1",
+          "question": "¿Cuál es una buena práctica en visualización y comunicación?",
+          "options": [
+            "Definir una pregunta clara y revisar la calidad de los datos",
+            "Copiar datos sin revisarlos",
+            "Eliminar todo valor que parezca raro sin investigar",
+            "Concluir solo por intuición"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el análisis ciudadano debe ser claro, prudente y verificable."
+        },
+        {
+          "id": "m5_q2",
+          "question": "¿Qué conviene hacer antes de sacar una conclusión?",
+          "options": [
+            "Definir una pregunta clara y revisar la calidad de los datos",
+            "Copiar datos sin revisarlos",
+            "Eliminar todo valor que parezca raro sin investigar",
+            "Concluir solo por intuición"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el análisis ciudadano debe ser claro, prudente y verificable."
+        },
+        {
+          "id": "m5_q3",
+          "question": "¿Por qué es importante documentar límites del análisis?",
+          "options": [
+            "Definir una pregunta clara y revisar la calidad de los datos",
+            "Copiar datos sin revisarlos",
+            "Eliminar todo valor que parezca raro sin investigar",
+            "Concluir solo por intuición"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el análisis ciudadano debe ser claro, prudente y verificable."
+        },
+        {
+          "id": "m5_q4",
+          "question": "¿Qué error debe evitarse al trabajar con datos cotidianos?",
+          "options": [
+            "Definir una pregunta clara y revisar la calidad de los datos",
+            "Copiar datos sin revisarlos",
+            "Eliminar todo valor que parezca raro sin investigar",
+            "Concluir solo por intuición"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el análisis ciudadano debe ser claro, prudente y verificable."
+        },
+        {
+          "id": "m5_q5",
+          "question": "¿Cuál es una salida útil de un análisis simple?",
+          "options": [
+            "Definir una pregunta clara y revisar la calidad de los datos",
+            "Copiar datos sin revisarlos",
+            "Eliminar todo valor que parezca raro sin investigar",
+            "Concluir solo por intuición"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el análisis ciudadano debe ser claro, prudente y verificable."
+        }
+      ],
+      "professionalOutcome": "formular preguntas, ordenar datos, detectar patrones y comunicar hallazgos con cuidado. Entregable sugerido: un informe de una pagina con pregunta, datos usados, hallazgo, grafico y decision sugerida."
+    },
+    {
+      "id": "m6",
+      "title": "Mini casos cotidianos",
+      "description": "En este modulo vas a trabajar \"Mini casos cotidianos\" dentro de analisis ciudadano de datos, tablas simples, limpieza, indicadores y comunicacion clara. La meta es partir de una pregunta concreta, revisar la calidad de la informacion y cerrar con una evidencia que pueda explicarse.",
+      "commercialRisk": "Hacer análisis sin conexión con decisiones reales",
+      "lessons": [
+        {
+          "id": "m6_l1",
+          "title": "Ventas de un kiosco",
+          "keyIdea": "Idea clave: Ventas de un kiosco sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Ventas de un kiosco\" dentro del modulo \"Mini casos cotidianos\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona tiene una planilla con informacion desordenada y necesita entender que dice antes de tomar una decision. Aplica \"Ventas de un kiosco\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un mini informe con pregunta, tabla ordenada, indicador, hallazgo y decision sugerida.",
+          "alert": "No publicar datos personales, sensibles o identificables sin permiso y anonimizado.",
+          "keyPoints": [
+            "Ventas de un kiosco debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un mini informe con pregunta, tabla ordenada, indicador, hallazgo y decision sugerida.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m6_l2",
+          "title": "Gastos personales",
+          "keyIdea": "Idea clave: Gastos personales sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Gastos personales\" dentro del modulo \"Mini casos cotidianos\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona tiene una planilla con informacion desordenada y necesita entender que dice antes de tomar una decision. Aplica \"Gastos personales\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un mini informe con pregunta, tabla ordenada, indicador, hallazgo y decision sugerida.",
+          "alert": "No publicar datos personales, sensibles o identificables sin permiso y anonimizado.",
+          "keyPoints": [
+            "Gastos personales debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un mini informe con pregunta, tabla ordenada, indicador, hallazgo y decision sugerida.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m6_l3",
+          "title": "Publicaciones en redes",
+          "keyIdea": "Idea clave: Publicaciones en redes sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Publicaciones en redes\" dentro del modulo \"Mini casos cotidianos\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona tiene una planilla con informacion desordenada y necesita entender que dice antes de tomar una decision. Aplica \"Publicaciones en redes\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un mini informe con pregunta, tabla ordenada, indicador, hallazgo y decision sugerida.",
+          "alert": "No publicar datos personales, sensibles o identificables sin permiso y anonimizado.",
+          "keyPoints": [
+            "Publicaciones en redes debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un mini informe con pregunta, tabla ordenada, indicador, hallazgo y decision sugerida.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m6_l4",
+          "title": "Control de stock",
+          "keyIdea": "Idea clave: Control de stock sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Control de stock\" dentro del modulo \"Mini casos cotidianos\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona tiene una planilla con informacion desordenada y necesita entender que dice antes de tomar una decision. Aplica \"Control de stock\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un mini informe con pregunta, tabla ordenada, indicador, hallazgo y decision sugerida.",
+          "alert": "No publicar datos personales, sensibles o identificables sin permiso y anonimizado.",
+          "keyPoints": [
+            "Control de stock debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un mini informe con pregunta, tabla ordenada, indicador, hallazgo y decision sugerida.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m6_l5",
+          "title": "Comparar precios",
+          "keyIdea": "Idea clave: Comparar precios sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Comparar precios\" dentro del modulo \"Mini casos cotidianos\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona tiene una planilla con informacion desordenada y necesita entender que dice antes de tomar una decision. Aplica \"Comparar precios\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un mini informe con pregunta, tabla ordenada, indicador, hallazgo y decision sugerida.",
+          "alert": "No publicar datos personales, sensibles o identificables sin permiso y anonimizado.",
+          "keyPoints": [
+            "Comparar precios debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un mini informe con pregunta, tabla ordenada, indicador, hallazgo y decision sugerida.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m6_l6",
+          "title": "Cierre de análisis",
+          "keyIdea": "Idea clave: Cierre de análisis sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Cierre de análisis\" dentro del modulo \"Mini casos cotidianos\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona tiene una planilla con informacion desordenada y necesita entender que dice antes de tomar una decision. Aplica \"Cierre de análisis\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un mini informe con pregunta, tabla ordenada, indicador, hallazgo y decision sugerida.",
+          "alert": "No publicar datos personales, sensibles o identificables sin permiso y anonimizado.",
+          "keyPoints": [
+            "Cierre de análisis debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un mini informe con pregunta, tabla ordenada, indicador, hallazgo y decision sugerida.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "id": "m6_q1",
+          "question": "¿Cuál es una buena práctica en mini casos cotidianos?",
+          "options": [
+            "Definir una pregunta clara y revisar la calidad de los datos",
+            "Copiar datos sin revisarlos",
+            "Eliminar todo valor que parezca raro sin investigar",
+            "Concluir solo por intuición"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el análisis ciudadano debe ser claro, prudente y verificable."
+        },
+        {
+          "id": "m6_q2",
+          "question": "¿Qué conviene hacer antes de sacar una conclusión?",
+          "options": [
+            "Definir una pregunta clara y revisar la calidad de los datos",
+            "Copiar datos sin revisarlos",
+            "Eliminar todo valor que parezca raro sin investigar",
+            "Concluir solo por intuición"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el análisis ciudadano debe ser claro, prudente y verificable."
+        },
+        {
+          "id": "m6_q3",
+          "question": "¿Por qué es importante documentar límites del análisis?",
+          "options": [
+            "Definir una pregunta clara y revisar la calidad de los datos",
+            "Copiar datos sin revisarlos",
+            "Eliminar todo valor que parezca raro sin investigar",
+            "Concluir solo por intuición"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el análisis ciudadano debe ser claro, prudente y verificable."
+        },
+        {
+          "id": "m6_q4",
+          "question": "¿Qué error debe evitarse al trabajar con datos cotidianos?",
+          "options": [
+            "Definir una pregunta clara y revisar la calidad de los datos",
+            "Copiar datos sin revisarlos",
+            "Eliminar todo valor que parezca raro sin investigar",
+            "Concluir solo por intuición"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el análisis ciudadano debe ser claro, prudente y verificable."
+        },
+        {
+          "id": "m6_q5",
+          "question": "¿Cuál es una salida útil de un análisis simple?",
+          "options": [
+            "Definir una pregunta clara y revisar la calidad de los datos",
+            "Copiar datos sin revisarlos",
+            "Eliminar todo valor que parezca raro sin investigar",
+            "Concluir solo por intuición"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el análisis ciudadano debe ser claro, prudente y verificable."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m6_q1",
+          "question": "¿Cuál es una buena práctica en mini casos cotidianos?",
+          "options": [
+            "Definir una pregunta clara y revisar la calidad de los datos",
+            "Copiar datos sin revisarlos",
+            "Eliminar todo valor que parezca raro sin investigar",
+            "Concluir solo por intuición"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el análisis ciudadano debe ser claro, prudente y verificable."
+        },
+        {
+          "id": "m6_q2",
+          "question": "¿Qué conviene hacer antes de sacar una conclusión?",
+          "options": [
+            "Definir una pregunta clara y revisar la calidad de los datos",
+            "Copiar datos sin revisarlos",
+            "Eliminar todo valor que parezca raro sin investigar",
+            "Concluir solo por intuición"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el análisis ciudadano debe ser claro, prudente y verificable."
+        },
+        {
+          "id": "m6_q3",
+          "question": "¿Por qué es importante documentar límites del análisis?",
+          "options": [
+            "Definir una pregunta clara y revisar la calidad de los datos",
+            "Copiar datos sin revisarlos",
+            "Eliminar todo valor que parezca raro sin investigar",
+            "Concluir solo por intuición"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el análisis ciudadano debe ser claro, prudente y verificable."
+        },
+        {
+          "id": "m6_q4",
+          "question": "¿Qué error debe evitarse al trabajar con datos cotidianos?",
+          "options": [
+            "Definir una pregunta clara y revisar la calidad de los datos",
+            "Copiar datos sin revisarlos",
+            "Eliminar todo valor que parezca raro sin investigar",
+            "Concluir solo por intuición"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el análisis ciudadano debe ser claro, prudente y verificable."
+        },
+        {
+          "id": "m6_q5",
+          "question": "¿Cuál es una salida útil de un análisis simple?",
+          "options": [
+            "Definir una pregunta clara y revisar la calidad de los datos",
+            "Copiar datos sin revisarlos",
+            "Eliminar todo valor que parezca raro sin investigar",
+            "Concluir solo por intuición"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el análisis ciudadano debe ser claro, prudente y verificable."
+        }
+      ],
+      "professionalOutcome": "formular preguntas, ordenar datos, detectar patrones y comunicar hallazgos con cuidado. Entregable sugerido: un informe de una pagina con pregunta, datos usados, hallazgo, grafico y decision sugerida."
+    }
+  ],
+  "publicationStatus": "publica-profesional-v0.6",
+  "professionalization": {
+    "tier": "curso-bandera-v1.0-beta",
+    "updatedAt": "2026-05-28",
+    "focus": "Profundizacion visible de lecciones, practicas, checklists y casos."
+  },
+  "editorialPolish": {
+    "thirdEditorialBatch": "2026-06-02",
+    "status": "public-facing-copy-polished"
+  }
+}

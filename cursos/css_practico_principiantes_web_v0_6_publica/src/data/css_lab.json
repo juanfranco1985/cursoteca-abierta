@@ -1,0 +1,112 @@
+{
+  "labId": "css-lab-v0-2",
+  "title": "Laboratorio CSS interactivo",
+  "examples": [
+    {
+      "id": "css-example-card",
+      "title": "Tarjeta simple",
+      "description": "Aplicar fondo, borde, radio y sombra a una tarjeta.",
+      "html": "<article class=\"card-demo\">\n  <h2>Producto destacado</h2>\n  <p>Una tarjeta clara ayuda a organizar información.</p>\n  <a href=\"#\">Ver más</a>\n</article>",
+      "css": ".card-demo {\n  max-width: 320px;\n  padding: 20px;\n  border-radius: 16px;\n  background: #ffffff;\n  color: #1f2937;\n  box-shadow: 0 10px 25px rgba(0,0,0,.15);\n}\n.card-demo a {\n  color: #2563eb;\n  font-weight: bold;\n}"
+    },
+    {
+      "id": "css-example-button",
+      "title": "Botón visible",
+      "description": "Crear un botón con color, espaciado y estado hover.",
+      "html": "<button class=\"primary-btn\">Comprar ahora</button>",
+      "css": ".primary-btn {\n  border: 0;\n  border-radius: 999px;\n  padding: 12px 18px;\n  background: #f97316;\n  color: #111827;\n  font-weight: 700;\n}\n.primary-btn:hover {\n  filter: brightness(1.08);\n}"
+    },
+    {
+      "id": "css-example-form",
+      "title": "Formulario ordenado",
+      "description": "Mejorar campos de formulario para que sean legibles.",
+      "html": "<form class=\"contact-form\">\n  <label>Nombre<input placeholder=\"Tu nombre\"></label>\n  <label>Mensaje<textarea placeholder=\"Escribí tu mensaje\"></textarea></label>\n  <button>Enviar</button>\n</form>",
+      "css": ".contact-form {\n  display: grid;\n  gap: 12px;\n  max-width: 360px;\n}\n.contact-form input, .contact-form textarea {\n  width: 100%;\n  padding: 10px;\n  border: 1px solid #cbd5e1;\n  border-radius: 10px;\n}\n.contact-form button {\n  padding: 12px;\n}"
+    },
+    {
+      "id": "css-example-flex",
+      "title": "Tarjetas con Flexbox",
+      "description": "Distribuir tarjetas de forma flexible.",
+      "html": "<section class=\"cards-row\">\n  <article>HTML</article>\n  <article>CSS</article>\n  <article>JS</article>\n</section>",
+      "css": ".cards-row {\n  display: flex;\n  gap: 12px;\n  flex-wrap: wrap;\n}\n.cards-row article {\n  flex: 1 1 140px;\n  padding: 18px;\n  border-radius: 12px;\n  background: #dbeafe;\n  color: #1e3a8a;\n  text-align: center;\n}"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "css-ex-card",
+      "title": "Mejorar una tarjeta",
+      "goal": "Dar estilo a una tarjeta de producto con borde, fondo y espaciado.",
+      "starterHtml": "<article class=\"product-card\"><h2>Yerba 500g</h2><p>Producto económico para almacén.</p></article>",
+      "starterCss": ".product-card {\n  /* agregá tus estilos */\n}",
+      "hint": "Probá padding, border-radius, background y border.",
+      "suggestedCss": ".product-card {\n  padding: 20px;\n  border-radius: 16px;\n  background: #f8fafc;\n  color: #111827;\n  border: 1px solid #cbd5e1;\n}"
+    },
+    {
+      "id": "css-ex-button",
+      "title": "Crear un botón claro",
+      "goal": "Diseñar un botón visible para una llamada a la acción.",
+      "starterHtml": "<a class=\"cta\" href=\"#\">Ver curso</a>",
+      "starterCss": ".cta {\n  /* agregá color y forma */\n}",
+      "hint": "Usá display:inline-block, padding, background, color y border-radius.",
+      "suggestedCss": ".cta {\n  display: inline-block;\n  padding: 12px 18px;\n  border-radius: 999px;\n  background: #22c55e;\n  color: #052e16;\n  text-decoration: none;\n  font-weight: 700;\n}"
+    },
+    {
+      "id": "css-ex-form",
+      "title": "Ordenar un formulario",
+      "goal": "Hacer que inputs y textarea sean fáciles de leer.",
+      "starterHtml": "<form class=\"mini-form\"><input placeholder=\"Email\"><textarea placeholder=\"Mensaje\"></textarea></form>",
+      "starterCss": ".mini-form {\n  /* ordená los campos */\n}",
+      "hint": "Usá display:grid, gap y estilos para input/textarea.",
+      "suggestedCss": ".mini-form {\n  display: grid;\n  gap: 10px;\n  max-width: 380px;\n}\n.mini-form input, .mini-form textarea {\n  padding: 10px;\n  border-radius: 8px;\n  border: 1px solid #94a3b8;\n}"
+    },
+    {
+      "id": "css-ex-responsive",
+      "title": "Diseño responsive básico",
+      "goal": "Hacer que una fila de cajas se acomode en pantallas pequeñas.",
+      "starterHtml": "<div class=\"layout\"><section>Uno</section><section>Dos</section><section>Tres</section></div>",
+      "starterCss": ".layout {\n  /* usá flex */\n}",
+      "hint": "Usá display:flex, flex-wrap y flex en los hijos.",
+      "suggestedCss": ".layout {\n  display: flex;\n  gap: 12px;\n  flex-wrap: wrap;\n}\n.layout section {\n  flex: 1 1 180px;\n  padding: 16px;\n  background: #e0f2fe;\n  color: #0c4a6e;\n}"
+    }
+  ],
+  "comparisons": [
+    {
+      "id": "css-comp-specificity",
+      "title": "Selector demasiado amplio",
+      "wrongCss": "div { color: red; }",
+      "rightCss": ".alerta { color: red; }",
+      "explanation": "Un selector demasiado amplio afecta muchos elementos. Es mejor usar clases específicas."
+    },
+    {
+      "id": "css-comp-spacing",
+      "title": "Sin espaciado interno",
+      "wrongCss": ".card { background: white; }",
+      "rightCss": ".card { background: white; padding: 20px; border-radius: 12px; }",
+      "explanation": "El contenido sin padding queda pegado al borde y se lee peor."
+    },
+    {
+      "id": "css-comp-contrast",
+      "title": "Bajo contraste",
+      "wrongCss": ".btn { background: yellow; color: white; }",
+      "rightCss": ".btn { background: #facc15; color: #111827; }",
+      "explanation": "El contraste entre texto y fondo debe permitir lectura cómoda."
+    }
+  ],
+  "snippets": [
+    {
+      "id": "css-snip-reset",
+      "title": "Base simple",
+      "css": "* { box-sizing: border-box; }\nbody { margin: 0; font-family: system-ui, sans-serif; line-height: 1.5; }"
+    },
+    {
+      "id": "css-snip-card-grid",
+      "title": "Grilla de tarjetas responsive",
+      "css": ".grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; }"
+    },
+    {
+      "id": "css-snip-button",
+      "title": "Botón base",
+      "css": ".btn { display: inline-block; padding: 12px 18px; border-radius: 999px; text-decoration: none; font-weight: 700; }"
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "title": "Rutina ciudadana de privacidad",
+  "intro": "Una rutina simple para revisar permisos, cuentas, ubicación, cookies, nube y dispositivos sin guardar datos sensibles.",
+  "safeNotice": "No escribas correos, claves, teléfonos, nombres reales de apps ni datos privados. Usá esta herramienta como guía educativa local.",
+  "frequencies": [
+    {
+      "id": "weekly",
+      "label": "Semanal",
+      "description": "Revisión rápida de señales visibles y permisos recientes."
+    },
+    {
+      "id": "monthly",
+      "label": "Mensual",
+      "description": "Chequeo más completo de cuentas, apps, nube y navegador."
+    },
+    {
+      "id": "device_change",
+      "label": "Antes de vender/prestar/reparar",
+      "description": "Revisión especial para celulares, tablets o computadoras que salen de tu control."
+    }
+  ],
+  "routineItems": [
+    {
+      "id": "routine-whatsapp",
+      "title": "Revisar WhatsApp y mensajería",
+      "frequency": "monthly",
+      "area": "Mensajería",
+      "priority": "alta",
+      "steps": [
+        "Revisar foto, estado, última vez y grupos visibles.",
+        "Confirmar que la verificación en dos pasos esté activa.",
+        "Salir de grupos innecesarios o silenciar grupos problemáticos."
+      ],
+      "evidence": "Anotar fecha de revisión, no guardar capturas con datos privados.",
+      "expected": "Menos exposición de perfil y cuenta mejor protegida."
+    },
+    {
+      "id": "routine-location",
+      "title": "Revisar ubicación",
+      "frequency": "weekly",
+      "area": "Ubicación",
+      "priority": "alta",
+      "steps": [
+        "Abrir permisos de ubicación del celular.",
+        "Identificar apps con permiso permanente.",
+        "Dejar ubicación solo mientras se usa en apps que realmente lo necesitan."
+      ],
+      "evidence": "Registrar cuántas apps quedaron con ubicación permanente, sin nombres reales.",
+      "expected": "Menor rastreo por ubicación."
+    },
+    {
+      "id": "routine-camera-mic",
+      "title": "Revisar cámara y micrófono",
+      "frequency": "monthly",
+      "area": "Permisos",
+      "priority": "media",
+      "steps": [
+        "Abrir permisos de cámara y micrófono.",
+        "Quitar permisos a apps que no lo necesitan.",
+        "Observar indicadores de uso de cámara/micrófono cuando aparezcan."
+      ],
+      "evidence": "Anotar si se detectaron permisos innecesarios.",
+      "expected": "Menos acceso innecesario a sensores."
+    },
+    {
+      "id": "routine-google",
+      "title": "Revisar cuenta Google o cuenta principal",
+      "frequency": "monthly",
+      "area": "Cuentas",
+      "priority": "alta",
+      "steps": [
+        "Entrar a seguridad de la cuenta desde canal oficial.",
+        "Revisar dispositivos conectados y sesiones activas.",
+        "Confirmar doble factor y correo/teléfono de recuperación actualizados."
+      ],
+      "evidence": "Anotar si hubo sesiones desconocidas, sin copiar correos ni números.",
+      "expected": "Cuenta principal más controlada."
+    },
+    {
+      "id": "routine-browser",
+      "title": "Revisar navegador, cookies y permisos",
+      "frequency": "monthly",
+      "area": "Navegador",
+      "priority": "media",
+      "steps": [
+        "Revisar permisos de sitios: ubicación, notificaciones, cámara y micrófono.",
+        "Borrar permisos de sitios desconocidos.",
+        "Limpiar cookies o revisar bloqueo de rastreo según necesidad."
+      ],
+      "evidence": "Anotar categorías de permisos revocados.",
+      "expected": "Menos rastreo y menos notificaciones molestas."
+    },
+    {
+      "id": "routine-cloud",
+      "title": "Revisar nube, fotos y backups",
+      "frequency": "monthly",
+      "area": "Nube",
+      "priority": "media",
+      "steps": [
+        "Revisar qué carpetas o álbumes están sincronizados.",
+        "Evitar compartir enlaces públicos innecesarios.",
+        "Separar archivos sensibles de carpetas compartidas."
+      ],
+      "evidence": "Anotar si había enlaces compartidos activos.",
+      "expected": "Menor exposición de fotos y archivos."
+    },
+    {
+      "id": "routine-apps",
+      "title": "Limpiar apps que ya no se usan",
+      "frequency": "weekly",
+      "area": "Apps",
+      "priority": "media",
+      "steps": [
+        "Revisar apps instaladas.",
+        "Eliminar apps que no se usan o no se reconocen.",
+        "Revisar permisos después de instalar apps nuevas."
+      ],
+      "evidence": "Anotar cantidad de apps revisadas/eliminadas, sin nombres reales.",
+      "expected": "Menos superficie de exposición."
+    },
+    {
+      "id": "routine-device-exit",
+      "title": "Preparar dispositivo antes de vender, prestar o reparar",
+      "frequency": "device_change",
+      "area": "Dispositivo",
+      "priority": "critica",
+      "steps": [
+        "Hacer copia de seguridad si corresponde.",
+        "Cerrar cuentas y quitar tarjetas o billeteras.",
+        "Restablecer de fábrica solo después de confirmar respaldo.",
+        "Quitar tarjetas SIM y memorias si aplica."
+      ],
+      "evidence": "Anotar que se completó respaldo, cierre de cuentas y borrado seguro.",
+      "expected": "Dispositivo sin datos personales accesibles."
+    }
+  ],
+  "monthlyChecklist": [
+    "Revisé ubicación, cámara y micrófono.",
+    "Revisé WhatsApp o mensajería principal.",
+    "Revisé sesiones de mi cuenta principal desde canales oficiales.",
+    "Revisé navegador, cookies, notificaciones y permisos de sitios.",
+    "Revisé nube, fotos, archivos y enlaces compartidos.",
+    "Eliminé o revisé apps que no uso.",
+    "No guardé claves, correos, números ni nombres reales en esta herramienta.",
+    "Guardé solo un resumen educativo, si decidí hacerlo."
+  ],
+  "printableReportSections": [
+    "Situación general de privacidad",
+    "Áreas revisadas",
+    "Permisos o configuraciones para revisar",
+    "Acciones realizadas",
+    "Acciones pendientes",
+    "Fecha de próxima revisión"
+  ],
+  "quickTips": [
+    "Revisá permisos después de instalar apps nuevas.",
+    "No uses esta herramienta para escribir claves o datos privados.",
+    "Si una app pide ubicación permanente y no la necesita, cambiala a 'solo mientras se usa'.",
+    "Antes de vender un celular, cerrá cuentas y restablecé de fábrica después del respaldo."
+  ]
+}

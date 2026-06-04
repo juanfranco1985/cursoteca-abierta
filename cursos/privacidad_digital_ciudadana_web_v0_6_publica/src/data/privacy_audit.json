@@ -1,0 +1,236 @@
+{
+  "version": "0.2",
+  "title": "Auditor de permisos y privacidad",
+  "intro": "Herramienta educativa local para revisar hábitos de privacidad sin subir datos a internet.",
+  "riskLevels": [
+    {
+      "id": "low",
+      "min": 0,
+      "max": 24,
+      "label": "Riesgo bajo",
+      "tone": "ok",
+      "summary": "Tenés una base razonable de privacidad. Conviene sostener una revisión mensual."
+    },
+    {
+      "id": "medium",
+      "min": 25,
+      "max": 49,
+      "label": "Riesgo medio",
+      "tone": "warn",
+      "summary": "Hay puntos a revisar. Priorizá permisos, ubicación, doble factor y cuentas principales."
+    },
+    {
+      "id": "high",
+      "min": 50,
+      "max": 74,
+      "label": "Riesgo alto",
+      "tone": "danger",
+      "summary": "Tu exposición puede ser importante. Revisá permisos, sesiones abiertas y privacidad de cuentas cuanto antes."
+    },
+    {
+      "id": "critical",
+      "min": 75,
+      "max": 100,
+      "label": "Riesgo crítico",
+      "tone": "danger",
+      "summary": "Necesitás una revisión urgente y ordenada. Evitá compartir más datos hasta revisar cuentas y permisos."
+    }
+  ],
+  "questions": [
+    {
+      "id": "location",
+      "label": "Ubicación",
+      "question": "¿Cuántas apps tienen acceso a tu ubicación todo el tiempo?",
+      "options": [
+        {
+          "text": "Ninguna o casi ninguna",
+          "score": 0
+        },
+        {
+          "text": "Algunas, pero sé cuáles son",
+          "score": 10
+        },
+        {
+          "text": "Muchas y no lo revisé",
+          "score": 22
+        }
+      ]
+    },
+    {
+      "id": "cameraMic",
+      "label": "Cámara y micrófono",
+      "question": "¿Revisaste qué apps pueden usar cámara y micrófono?",
+      "options": [
+        {
+          "text": "Sí, lo revisé recientemente",
+          "score": 0
+        },
+        {
+          "text": "Lo revisé alguna vez",
+          "score": 8
+        },
+        {
+          "text": "Nunca lo revisé",
+          "score": 18
+        }
+      ]
+    },
+    {
+      "id": "socialPrivacy",
+      "label": "Redes y mensajería",
+      "question": "¿Tu WhatsApp/redes muestran foto, estado o datos a personas desconocidas?",
+      "options": [
+        {
+          "text": "No, está limitado a contactos o privado",
+          "score": 0
+        },
+        {
+          "text": "No estoy seguro/a",
+          "score": 10
+        },
+        {
+          "text": "Sí, varias cosas son públicas",
+          "score": 20
+        }
+      ]
+    },
+    {
+      "id": "accounts",
+      "label": "Cuentas",
+      "question": "¿Usás doble factor en correo principal, redes y cuentas importantes?",
+      "options": [
+        {
+          "text": "Sí, en las cuentas principales",
+          "score": 0
+        },
+        {
+          "text": "Solo en algunas",
+          "score": 10
+        },
+        {
+          "text": "No o no sé qué es",
+          "score": 20
+        }
+      ]
+    },
+    {
+      "id": "cloud",
+      "label": "Nube y archivos",
+      "question": "¿Sabés qué fotos, documentos o backups tenés guardados en la nube?",
+      "options": [
+        {
+          "text": "Sí, lo tengo bastante ordenado",
+          "score": 0
+        },
+        {
+          "text": "Más o menos",
+          "score": 8
+        },
+        {
+          "text": "No, nunca lo revisé",
+          "score": 18
+        }
+      ]
+    },
+    {
+      "id": "adsCookies",
+      "label": "Anuncios y cookies",
+      "question": "¿Revisaste preferencias de anuncios, cookies o rastreo en navegador/apps?",
+      "options": [
+        {
+          "text": "Sí, suelo revisarlas",
+          "score": 0
+        },
+        {
+          "text": "Solo acepto/rechazo cuando aparece",
+          "score": 8
+        },
+        {
+          "text": "Acepto todo sin revisar",
+          "score": 16
+        }
+      ]
+    },
+    {
+      "id": "deviceShare",
+      "label": "Dispositivo compartido",
+      "question": "¿Prestás o compartís el celular/computadora con cuentas abiertas?",
+      "options": [
+        {
+          "text": "No, o uso bloqueo/perfiles separados",
+          "score": 0
+        },
+        {
+          "text": "A veces, con cuidado",
+          "score": 8
+        },
+        {
+          "text": "Sí, con frecuencia",
+          "score": 18
+        }
+      ]
+    },
+    {
+      "id": "oldDevices",
+      "label": "Celulares viejos",
+      "question": "¿Borrás cuentas y restablecés dispositivos antes de venderlos, prestarlos o regalarlos?",
+      "options": [
+        {
+          "text": "Sí, siempre",
+          "score": 0
+        },
+        {
+          "text": "A veces",
+          "score": 10
+        },
+        {
+          "text": "No sabía que había que hacerlo",
+          "score": 20
+        }
+      ]
+    }
+  ],
+  "recommendations": {
+    "location": [
+      "Revisá permisos de ubicación y dejá “solo mientras se usa” cuando sea suficiente.",
+      "Desactivá ubicación precisa en apps que no la necesitan.",
+      "Evitá publicar rutinas, lugares frecuentes o ubicación en tiempo real sin necesidad."
+    ],
+    "cameraMic": [
+      "Revisá permisos de cámara y micrófono desde ajustes del sistema.",
+      "Quitá permisos a apps que no uses o no necesiten esos accesos.",
+      "Desinstalá apps desconocidas o que pidan permisos desproporcionados."
+    ],
+    "socialPrivacy": [
+      "Limitá foto, estado, última vez y grupos a contactos o contactos seleccionados.",
+      "Revisá quién puede etiquetarte, agregarte a grupos o ver publicaciones.",
+      "Separá perfil personal de perfil público si usás redes para vender o publicar."
+    ],
+    "accounts": [
+      "Activá doble factor en correo principal y redes.",
+      "Cerrá sesiones desconocidas.",
+      "Usá contraseñas distintas para cuentas importantes."
+    ],
+    "cloud": [
+      "Revisá carpetas compartidas, backups y fotos sensibles.",
+      "Quitá enlaces públicos que ya no necesitás.",
+      "No guardes fotos de documentos, claves o tarjetas sin protección."
+    ],
+    "adsCookies": [
+      "Revisá configuración de anuncios personalizados.",
+      "Borrá cookies o usá perfiles separados para trámites, trabajo y uso cotidiano.",
+      "No aceptes permisos o cookies por apuro en sitios desconocidos."
+    ],
+    "deviceShare": [
+      "Usá bloqueo de pantalla y no compartas claves.",
+      "Cerrá sesión antes de prestar un equipo.",
+      "Evitá guardar contraseñas en equipos compartidos."
+    ],
+    "oldDevices": [
+      "Hacé copia de seguridad antes de borrar.",
+      "Cerrá cuentas, quitá bloqueo de fábrica si corresponde y restablecé de fábrica.",
+      "Retirá SIM, microSD y cuentas vinculadas antes de entregar el dispositivo."
+    ]
+  },
+  "safeHistoryNotice": "El historial guarda solo fecha, puntaje, nivel y áreas de revisión. No guarda respuestas completas ni datos personales."
+}

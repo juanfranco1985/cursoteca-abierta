@@ -1,0 +1,1054 @@
+{
+  "appName": "Power BI para Principiantes",
+  "version": "0.6-publica",
+  "modules": [
+    {
+      "id": "m1",
+      "title": "Qué es Power BI y para qué sirve",
+      "description": "En este módulo vas a trabajar \"Qué es Power BI y para qué sirve\" dentro de análisis visual de datos para tomar decisiones simples y comunicables. El objetivo es practicar con situaciones concretas, entender qué decisión mejora y cerrar con una evidencia simple.",
+      "commercialRisk": "Confundir herramienta con conclusión",
+      "lessons": [
+        {
+          "id": "m1_l1",
+          "title": "Qué problema resuelve Power BI",
+          "keyIdea": "Idea clave: Qué problema resuelve Power BI sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
+          "shortTheory": "En esta lección vas a trabajar \"Qué problema resuelve Power BI\" dentro del módulo \"Qué es Power BI y para qué sirve\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
+          "practicalExample": "Una persona necesita resumir datos de ventas, tareas, gastos o indicadores para explicar una situación con claridad. Aplicá \"Qué problema resuelve Power BI\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
+          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
+          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un esquema de tablero con fuente de datos, indicador, visual elegido y mensaje principal.",
+          "alert": "No publicar datos personales, sensibles o de clientes sin permiso y anonimizado.",
+          "keyPoints": [
+            "Qué problema resuelve Power BI debe terminar en una acción, decisión o entrega concreta.",
+            "Trabajar con un caso pequeño antes de escalar reduce errores.",
+            "La evidencia mínima esperada es: un esquema de tablero con fuente de datos, indicador, visual elegido y mensaje principal.",
+            "El criterio de calidad debe poder revisarse por otra persona."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m1_l2",
+          "title": "Diferencia entre dato, reporte y dashboard",
+          "keyIdea": "Idea clave: Diferencia entre dato, reporte y dashboard sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
+          "shortTheory": "En esta lección vas a trabajar \"Diferencia entre dato, reporte y dashboard\" dentro del módulo \"Qué es Power BI y para qué sirve\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
+          "practicalExample": "Una persona necesita resumir datos de ventas, tareas, gastos o indicadores para explicar una situación con claridad. Aplicá \"Diferencia entre dato, reporte y dashboard\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
+          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
+          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un esquema de tablero con fuente de datos, indicador, visual elegido y mensaje principal.",
+          "alert": "No publicar datos personales, sensibles o de clientes sin permiso y anonimizado.",
+          "keyPoints": [
+            "Diferencia entre dato, reporte y dashboard debe terminar en una acción, decisión o entrega concreta.",
+            "Trabajar con un caso pequeño antes de escalar reduce errores.",
+            "La evidencia mínima esperada es: un esquema de tablero con fuente de datos, indicador, visual elegido y mensaje principal.",
+            "El criterio de calidad debe poder revisarse por otra persona."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m1_l3",
+          "title": "Flujo básico: importar, modelar, visualizar",
+          "keyIdea": "Idea clave: Flujo básico: importar, modelar, visualizar sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
+          "shortTheory": "En esta lección vas a trabajar \"Flujo básico: importar, modelar, visualizar\" dentro del módulo \"Qué es Power BI y para qué sirve\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
+          "practicalExample": "Una persona necesita resumir datos de ventas, tareas, gastos o indicadores para explicar una situación con claridad. Aplicá \"Flujo básico: importar, modelar, visualizar\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
+          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
+          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un esquema de tablero con fuente de datos, indicador, visual elegido y mensaje principal.",
+          "alert": "No publicar datos personales, sensibles o de clientes sin permiso y anonimizado.",
+          "keyPoints": [
+            "Flujo básico: importar, modelar, visualizar debe terminar en una acción, decisión o entrega concreta.",
+            "Trabajar con un caso pequeño antes de escalar reduce errores.",
+            "La evidencia mínima esperada es: un esquema de tablero con fuente de datos, indicador, visual elegido y mensaje principal.",
+            "El criterio de calidad debe poder revisarse por otra persona."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m1_l4",
+          "title": "Cuándo usar Power BI y cuándo no",
+          "keyIdea": "Idea clave: Cuándo usar Power BI y cuándo no sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
+          "shortTheory": "En esta lección vas a trabajar \"Cuándo usar Power BI y cuándo no\" dentro del módulo \"Qué es Power BI y para qué sirve\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
+          "practicalExample": "Una persona necesita resumir datos de ventas, tareas, gastos o indicadores para explicar una situación con claridad. Aplicá \"Cuándo usar Power BI y cuándo no\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
+          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
+          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un esquema de tablero con fuente de datos, indicador, visual elegido y mensaje principal.",
+          "alert": "No publicar datos personales, sensibles o de clientes sin permiso y anonimizado.",
+          "keyPoints": [
+            "Cuándo usar Power BI y cuándo no debe terminar en una acción, decisión o entrega concreta.",
+            "Trabajar con un caso pequeño antes de escalar reduce errores.",
+            "La evidencia mínima esperada es: un esquema de tablero con fuente de datos, indicador, visual elegido y mensaje principal.",
+            "El criterio de calidad debe poder revisarse por otra persona."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m1_l5",
+          "title": "Roles: analista, usuario y decisor",
+          "keyIdea": "Idea clave: Roles: analista, usuario y decisor sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
+          "shortTheory": "En esta lección vas a trabajar \"Roles: analista, usuario y decisor\" dentro del módulo \"Qué es Power BI y para qué sirve\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
+          "practicalExample": "Una persona necesita resumir datos de ventas, tareas, gastos o indicadores para explicar una situación con claridad. Aplicá \"Roles: analista, usuario y decisor\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
+          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
+          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un esquema de tablero con fuente de datos, indicador, visual elegido y mensaje principal.",
+          "alert": "No publicar datos personales, sensibles o de clientes sin permiso y anonimizado.",
+          "keyPoints": [
+            "Roles: analista, usuario y decisor debe terminar en una acción, decisión o entrega concreta.",
+            "Trabajar con un caso pequeño antes de escalar reduce errores.",
+            "La evidencia mínima esperada es: un esquema de tablero con fuente de datos, indicador, visual elegido y mensaje principal.",
+            "El criterio de calidad debe poder revisarse por otra persona."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m1_l6",
+          "title": "Buenas preguntas antes de crear un dashboard",
+          "keyIdea": "Idea clave: Buenas preguntas antes de crear un dashboard sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
+          "shortTheory": "En esta lección vas a trabajar \"Buenas preguntas antes de crear un dashboard\" dentro del módulo \"Qué es Power BI y para qué sirve\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
+          "practicalExample": "Una persona necesita resumir datos de ventas, tareas, gastos o indicadores para explicar una situación con claridad. Aplicá \"Buenas preguntas antes de crear un dashboard\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
+          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
+          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un esquema de tablero con fuente de datos, indicador, visual elegido y mensaje principal.",
+          "alert": "No publicar datos personales, sensibles o de clientes sin permiso y anonimizado.",
+          "keyPoints": [
+            "Buenas preguntas antes de crear un dashboard debe terminar en una acción, decisión o entrega concreta.",
+            "Trabajar con un caso pequeño antes de escalar reduce errores.",
+            "La evidencia mínima esperada es: un esquema de tablero con fuente de datos, indicador, visual elegido y mensaje principal.",
+            "El criterio de calidad debe poder revisarse por otra persona."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m1_q1",
+          "question": "¿Cuál es el objetivo principal de este tema?",
+          "options": [
+            "Decorar planillas",
+            "Ayudar a leer datos y tomar mejores decisiones",
+            "Reemplazar todo análisis humano",
+            "Ocultar errores de datos"
+          ],
+          "correctAnswerIndex": 1,
+          "feedback": "Power BI ayuda a convertir datos en reportes útiles, pero sigue requiriendo criterio humano."
+        },
+        {
+          "id": "m1_q2",
+          "question": "¿Qué conviene revisar antes de crear visualizaciones?",
+          "options": [
+            "La calidad y estructura de los datos",
+            "El color favorito del usuario",
+            "Solo el logo del reporte",
+            "Nada, primero se grafica"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Si los datos están mal cargados, el dashboard puede mostrar conclusiones engañosas."
+        },
+        {
+          "id": "m1_q3",
+          "question": "¿Qué caracteriza a un buen dashboard?",
+          "options": [
+            "Tiene muchos gráficos sin orden",
+            "Responde preguntas concretas con claridad",
+            "Usa todos los colores posibles",
+            "No necesita contexto"
+          ],
+          "correctAnswerIndex": 1,
+          "feedback": "Un buen dashboard prioriza claridad, foco y decisiones posibles."
+        },
+        {
+          "id": "m1_q4",
+          "question": "¿Qué riesgo aparece al interpretar indicadores?",
+          "options": [
+            "Confundir correlación, contexto o período",
+            "Usar títulos claros",
+            "Comparar meses",
+            "Documentar fuentes"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Los indicadores necesitan contexto, fuente y período para evitar malas conclusiones."
+        },
+        {
+          "id": "m1_q5",
+          "question": "¿Qué debe acompañar a un hallazgo?",
+          "options": [
+            "Una recomendación o siguiente acción",
+            "Solo una captura sin explicación",
+            "Un gráfico decorativo",
+            "Una tabla sin título"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "El análisis mejora cuando el hallazgo se transforma en una acción o pregunta siguiente."
+        }
+      ],
+      "professionalOutcome": "limpiar datos, elegir indicadores y contar una historia visual basica. Entregable sugerido: un tablero con objetivo, tres indicadores, filtro principal y recomendacion."
+    },
+    {
+      "id": "m2",
+      "title": "Cargar datos y preparar tablas",
+      "description": "En este módulo vas a trabajar \"Cargar datos y preparar tablas\" dentro de análisis visual de datos para tomar decisiones simples y comunicables. El objetivo es practicar con situaciones concretas, entender qué decisión mejora y cerrar con una evidencia simple.",
+      "commercialRisk": "Cargar datos sin revisar origen",
+      "lessons": [
+        {
+          "id": "m2_l1",
+          "title": "Importar Excel o CSV",
+          "keyIdea": "Idea clave: Importar Excel o CSV sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
+          "shortTheory": "En esta lección vas a trabajar \"Importar Excel o CSV\" dentro del módulo \"Cargar datos y preparar tablas\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
+          "practicalExample": "Una persona necesita resumir datos de ventas, tareas, gastos o indicadores para explicar una situación con claridad. Aplicá \"Importar Excel o CSV\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
+          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
+          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un esquema de tablero con fuente de datos, indicador, visual elegido y mensaje principal.",
+          "alert": "No publicar datos personales, sensibles o de clientes sin permiso y anonimizado.",
+          "keyPoints": [
+            "Importar Excel o CSV debe terminar en una acción, decisión o entrega concreta.",
+            "Trabajar con un caso pequeño antes de escalar reduce errores.",
+            "La evidencia mínima esperada es: un esquema de tablero con fuente de datos, indicador, visual elegido y mensaje principal.",
+            "El criterio de calidad debe poder revisarse por otra persona."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m2_l2",
+          "title": "Revisar encabezados y columnas",
+          "keyIdea": "Idea clave: Revisar encabezados y columnas sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
+          "shortTheory": "En esta lección vas a trabajar \"Revisar encabezados y columnas\" dentro del módulo \"Cargar datos y preparar tablas\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
+          "practicalExample": "Una persona necesita resumir datos de ventas, tareas, gastos o indicadores para explicar una situación con claridad. Aplicá \"Revisar encabezados y columnas\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
+          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
+          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un esquema de tablero con fuente de datos, indicador, visual elegido y mensaje principal.",
+          "alert": "No publicar datos personales, sensibles o de clientes sin permiso y anonimizado.",
+          "keyPoints": [
+            "Revisar encabezados y columnas debe terminar en una acción, decisión o entrega concreta.",
+            "Trabajar con un caso pequeño antes de escalar reduce errores.",
+            "La evidencia mínima esperada es: un esquema de tablero con fuente de datos, indicador, visual elegido y mensaje principal.",
+            "El criterio de calidad debe poder revisarse por otra persona."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m2_l3",
+          "title": "Detectar campos numéricos, texto y fechas",
+          "keyIdea": "Idea clave: Detectar campos numéricos, texto y fechas sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
+          "shortTheory": "En esta lección vas a trabajar \"Detectar campos numéricos, texto y fechas\" dentro del módulo \"Cargar datos y preparar tablas\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
+          "practicalExample": "Una persona necesita resumir datos de ventas, tareas, gastos o indicadores para explicar una situación con claridad. Aplicá \"Detectar campos numéricos, texto y fechas\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
+          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
+          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un esquema de tablero con fuente de datos, indicador, visual elegido y mensaje principal.",
+          "alert": "No publicar datos personales, sensibles o de clientes sin permiso y anonimizado.",
+          "keyPoints": [
+            "Detectar campos numéricos, texto y fechas debe terminar en una acción, decisión o entrega concreta.",
+            "Trabajar con un caso pequeño antes de escalar reduce errores.",
+            "La evidencia mínima esperada es: un esquema de tablero con fuente de datos, indicador, visual elegido y mensaje principal.",
+            "El criterio de calidad debe poder revisarse por otra persona."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m2_l4",
+          "title": "Separar datos de presentación",
+          "keyIdea": "Idea clave: Separar datos de presentación sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
+          "shortTheory": "En esta lección vas a trabajar \"Separar datos de presentación\" dentro del módulo \"Cargar datos y preparar tablas\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
+          "practicalExample": "Una persona necesita resumir datos de ventas, tareas, gastos o indicadores para explicar una situación con claridad. Aplicá \"Separar datos de presentación\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
+          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
+          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un esquema de tablero con fuente de datos, indicador, visual elegido y mensaje principal.",
+          "alert": "No publicar datos personales, sensibles o de clientes sin permiso y anonimizado.",
+          "keyPoints": [
+            "Separar datos de presentación debe terminar en una acción, decisión o entrega concreta.",
+            "Trabajar con un caso pequeño antes de escalar reduce errores.",
+            "La evidencia mínima esperada es: un esquema de tablero con fuente de datos, indicador, visual elegido y mensaje principal.",
+            "El criterio de calidad debe poder revisarse por otra persona."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m2_l5",
+          "title": "Errores frecuentes al cargar archivos",
+          "keyIdea": "Idea clave: Errores frecuentes al cargar archivos sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
+          "shortTheory": "En esta lección vas a trabajar \"Errores frecuentes al cargar archivos\" dentro del módulo \"Cargar datos y preparar tablas\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
+          "practicalExample": "Una persona necesita resumir datos de ventas, tareas, gastos o indicadores para explicar una situación con claridad. Aplicá \"Errores frecuentes al cargar archivos\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
+          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
+          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un esquema de tablero con fuente de datos, indicador, visual elegido y mensaje principal.",
+          "alert": "No publicar datos personales, sensibles o de clientes sin permiso y anonimizado.",
+          "keyPoints": [
+            "Errores frecuentes al cargar archivos debe terminar en una acción, decisión o entrega concreta.",
+            "Trabajar con un caso pequeño antes de escalar reduce errores.",
+            "La evidencia mínima esperada es: un esquema de tablero con fuente de datos, indicador, visual elegido y mensaje principal.",
+            "El criterio de calidad debe poder revisarse por otra persona."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m2_l6",
+          "title": "Checklist inicial antes de modelar",
+          "keyIdea": "Idea clave: Checklist inicial antes de modelar sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
+          "shortTheory": "En esta lección vas a trabajar \"Checklist inicial antes de modelar\" dentro del módulo \"Cargar datos y preparar tablas\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
+          "practicalExample": "Una persona necesita resumir datos de ventas, tareas, gastos o indicadores para explicar una situación con claridad. Aplicá \"Checklist inicial antes de modelar\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
+          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
+          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un esquema de tablero con fuente de datos, indicador, visual elegido y mensaje principal.",
+          "alert": "No publicar datos personales, sensibles o de clientes sin permiso y anonimizado.",
+          "keyPoints": [
+            "Checklist inicial antes de modelar debe terminar en una acción, decisión o entrega concreta.",
+            "Trabajar con un caso pequeño antes de escalar reduce errores.",
+            "La evidencia mínima esperada es: un esquema de tablero con fuente de datos, indicador, visual elegido y mensaje principal.",
+            "El criterio de calidad debe poder revisarse por otra persona."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m2_q1",
+          "question": "¿Cuál es el objetivo principal de este tema?",
+          "options": [
+            "Decorar planillas",
+            "Ayudar a leer datos y tomar mejores decisiones",
+            "Reemplazar todo análisis humano",
+            "Ocultar errores de datos"
+          ],
+          "correctAnswerIndex": 1,
+          "feedback": "Power BI ayuda a convertir datos en reportes útiles, pero sigue requiriendo criterio humano."
+        },
+        {
+          "id": "m2_q2",
+          "question": "¿Qué conviene revisar antes de crear visualizaciones?",
+          "options": [
+            "La calidad y estructura de los datos",
+            "El color favorito del usuario",
+            "Solo el logo del reporte",
+            "Nada, primero se grafica"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Si los datos están mal cargados, el dashboard puede mostrar conclusiones engañosas."
+        },
+        {
+          "id": "m2_q3",
+          "question": "¿Qué caracteriza a un buen dashboard?",
+          "options": [
+            "Tiene muchos gráficos sin orden",
+            "Responde preguntas concretas con claridad",
+            "Usa todos los colores posibles",
+            "No necesita contexto"
+          ],
+          "correctAnswerIndex": 1,
+          "feedback": "Un buen dashboard prioriza claridad, foco y decisiones posibles."
+        },
+        {
+          "id": "m2_q4",
+          "question": "¿Qué riesgo aparece al interpretar indicadores?",
+          "options": [
+            "Confundir correlación, contexto o período",
+            "Usar títulos claros",
+            "Comparar meses",
+            "Documentar fuentes"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Los indicadores necesitan contexto, fuente y período para evitar malas conclusiones."
+        },
+        {
+          "id": "m2_q5",
+          "question": "¿Qué debe acompañar a un hallazgo?",
+          "options": [
+            "Una recomendación o siguiente acción",
+            "Solo una captura sin explicación",
+            "Un gráfico decorativo",
+            "Una tabla sin título"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "El análisis mejora cuando el hallazgo se transforma en una acción o pregunta siguiente."
+        }
+      ],
+      "professionalOutcome": "limpiar datos, elegir indicadores y contar una historia visual basica. Entregable sugerido: un tablero con objetivo, tres indicadores, filtro principal y recomendacion."
+    },
+    {
+      "id": "m3",
+      "title": "Limpieza básica y modelo de datos",
+      "description": "En este módulo vas a trabajar \"Limpieza básica y modelo de datos\" dentro de análisis visual de datos para tomar decisiones simples y comunicables. El objetivo es practicar con situaciones concretas, entender qué decisión mejora y cerrar con una evidencia simple.",
+      "commercialRisk": "Crear reportes sobre datos sucios",
+      "lessons": [
+        {
+          "id": "m3_l1",
+          "title": "Limpieza básica de valores vacíos",
+          "keyIdea": "Idea clave: Limpieza básica de valores vacíos sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
+          "shortTheory": "En esta lección vas a trabajar \"Limpieza básica de valores vacíos\" dentro del módulo \"Limpieza básica y modelo de datos\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
+          "practicalExample": "Una persona necesita resumir datos de ventas, tareas, gastos o indicadores para explicar una situación con claridad. Aplicá \"Limpieza básica de valores vacíos\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
+          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
+          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un esquema de tablero con fuente de datos, indicador, visual elegido y mensaje principal.",
+          "alert": "No publicar datos personales, sensibles o de clientes sin permiso y anonimizado.",
+          "keyPoints": [
+            "Limpieza básica de valores vacíos debe terminar en una acción, decisión o entrega concreta.",
+            "Trabajar con un caso pequeño antes de escalar reduce errores.",
+            "La evidencia mínima esperada es: un esquema de tablero con fuente de datos, indicador, visual elegido y mensaje principal.",
+            "El criterio de calidad debe poder revisarse por otra persona."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m3_l2",
+          "title": "Tipos de datos correctos",
+          "keyIdea": "Idea clave: Tipos de datos correctos sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
+          "shortTheory": "En esta lección vas a trabajar \"Tipos de datos correctos\" dentro del módulo \"Limpieza básica y modelo de datos\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
+          "practicalExample": "Una persona necesita resumir datos de ventas, tareas, gastos o indicadores para explicar una situación con claridad. Aplicá \"Tipos de datos correctos\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
+          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
+          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un esquema de tablero con fuente de datos, indicador, visual elegido y mensaje principal.",
+          "alert": "No publicar datos personales, sensibles o de clientes sin permiso y anonimizado.",
+          "keyPoints": [
+            "Tipos de datos correctos debe terminar en una acción, decisión o entrega concreta.",
+            "Trabajar con un caso pequeño antes de escalar reduce errores.",
+            "La evidencia mínima esperada es: un esquema de tablero con fuente de datos, indicador, visual elegido y mensaje principal.",
+            "El criterio de calidad debe poder revisarse por otra persona."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m3_l3",
+          "title": "Tablas de hechos y dimensiones en simple",
+          "keyIdea": "Idea clave: Tablas de hechos y dimensiones en simple sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
+          "shortTheory": "En esta lección vas a trabajar \"Tablas de hechos y dimensiones en simple\" dentro del módulo \"Limpieza básica y modelo de datos\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
+          "practicalExample": "Una persona necesita resumir datos de ventas, tareas, gastos o indicadores para explicar una situación con claridad. Aplicá \"Tablas de hechos y dimensiones en simple\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
+          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
+          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un esquema de tablero con fuente de datos, indicador, visual elegido y mensaje principal.",
+          "alert": "No publicar datos personales, sensibles o de clientes sin permiso y anonimizado.",
+          "keyPoints": [
+            "Tablas de hechos y dimensiones en simple debe terminar en una acción, decisión o entrega concreta.",
+            "Trabajar con un caso pequeño antes de escalar reduce errores.",
+            "La evidencia mínima esperada es: un esquema de tablero con fuente de datos, indicador, visual elegido y mensaje principal.",
+            "El criterio de calidad debe poder revisarse por otra persona."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m3_l4",
+          "title": "Relaciones entre tablas",
+          "keyIdea": "Idea clave: Relaciones entre tablas sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
+          "shortTheory": "En esta lección vas a trabajar \"Relaciones entre tablas\" dentro del módulo \"Limpieza básica y modelo de datos\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
+          "practicalExample": "Una persona necesita resumir datos de ventas, tareas, gastos o indicadores para explicar una situación con claridad. Aplicá \"Relaciones entre tablas\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
+          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
+          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un esquema de tablero con fuente de datos, indicador, visual elegido y mensaje principal.",
+          "alert": "No publicar datos personales, sensibles o de clientes sin permiso y anonimizado.",
+          "keyPoints": [
+            "Relaciones entre tablas debe terminar en una acción, decisión o entrega concreta.",
+            "Trabajar con un caso pequeño antes de escalar reduce errores.",
+            "La evidencia mínima esperada es: un esquema de tablero con fuente de datos, indicador, visual elegido y mensaje principal.",
+            "El criterio de calidad debe poder revisarse por otra persona."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m3_l5",
+          "title": "Problemas con duplicados",
+          "keyIdea": "Idea clave: Problemas con duplicados sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
+          "shortTheory": "En esta lección vas a trabajar \"Problemas con duplicados\" dentro del módulo \"Limpieza básica y modelo de datos\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
+          "practicalExample": "Una persona necesita resumir datos de ventas, tareas, gastos o indicadores para explicar una situación con claridad. Aplicá \"Problemas con duplicados\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
+          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
+          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un esquema de tablero con fuente de datos, indicador, visual elegido y mensaje principal.",
+          "alert": "No publicar datos personales, sensibles o de clientes sin permiso y anonimizado.",
+          "keyPoints": [
+            "Problemas con duplicados debe terminar en una acción, decisión o entrega concreta.",
+            "Trabajar con un caso pequeño antes de escalar reduce errores.",
+            "La evidencia mínima esperada es: un esquema de tablero con fuente de datos, indicador, visual elegido y mensaje principal.",
+            "El criterio de calidad debe poder revisarse por otra persona."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m3_l6",
+          "title": "Modelo simple para ventas",
+          "keyIdea": "Idea clave: Modelo simple para ventas sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
+          "shortTheory": "En esta lección vas a trabajar \"Modelo simple para ventas\" dentro del módulo \"Limpieza básica y modelo de datos\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
+          "practicalExample": "Una persona necesita resumir datos de ventas, tareas, gastos o indicadores para explicar una situación con claridad. Aplicá \"Modelo simple para ventas\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
+          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
+          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un esquema de tablero con fuente de datos, indicador, visual elegido y mensaje principal.",
+          "alert": "No publicar datos personales, sensibles o de clientes sin permiso y anonimizado.",
+          "keyPoints": [
+            "Modelo simple para ventas debe terminar en una acción, decisión o entrega concreta.",
+            "Trabajar con un caso pequeño antes de escalar reduce errores.",
+            "La evidencia mínima esperada es: un esquema de tablero con fuente de datos, indicador, visual elegido y mensaje principal.",
+            "El criterio de calidad debe poder revisarse por otra persona."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m3_q1",
+          "question": "¿Cuál es el objetivo principal de este tema?",
+          "options": [
+            "Decorar planillas",
+            "Ayudar a leer datos y tomar mejores decisiones",
+            "Reemplazar todo análisis humano",
+            "Ocultar errores de datos"
+          ],
+          "correctAnswerIndex": 1,
+          "feedback": "Power BI ayuda a convertir datos en reportes útiles, pero sigue requiriendo criterio humano."
+        },
+        {
+          "id": "m3_q2",
+          "question": "¿Qué conviene revisar antes de crear visualizaciones?",
+          "options": [
+            "La calidad y estructura de los datos",
+            "El color favorito del usuario",
+            "Solo el logo del reporte",
+            "Nada, primero se grafica"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Si los datos están mal cargados, el dashboard puede mostrar conclusiones engañosas."
+        },
+        {
+          "id": "m3_q3",
+          "question": "¿Qué caracteriza a un buen dashboard?",
+          "options": [
+            "Tiene muchos gráficos sin orden",
+            "Responde preguntas concretas con claridad",
+            "Usa todos los colores posibles",
+            "No necesita contexto"
+          ],
+          "correctAnswerIndex": 1,
+          "feedback": "Un buen dashboard prioriza claridad, foco y decisiones posibles."
+        },
+        {
+          "id": "m3_q4",
+          "question": "¿Qué riesgo aparece al interpretar indicadores?",
+          "options": [
+            "Confundir correlación, contexto o período",
+            "Usar títulos claros",
+            "Comparar meses",
+            "Documentar fuentes"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Los indicadores necesitan contexto, fuente y período para evitar malas conclusiones."
+        },
+        {
+          "id": "m3_q5",
+          "question": "¿Qué debe acompañar a un hallazgo?",
+          "options": [
+            "Una recomendación o siguiente acción",
+            "Solo una captura sin explicación",
+            "Un gráfico decorativo",
+            "Una tabla sin título"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "El análisis mejora cuando el hallazgo se transforma en una acción o pregunta siguiente."
+        }
+      ],
+      "professionalOutcome": "limpiar datos, elegir indicadores y contar una historia visual basica. Entregable sugerido: un tablero con objetivo, tres indicadores, filtro principal y recomendacion."
+    },
+    {
+      "id": "m4",
+      "title": "Visualizaciones, filtros y segmentadores",
+      "description": "En este módulo vas a trabajar \"Visualizaciones, filtros y segmentadores\" dentro de análisis visual de datos para tomar decisiones simples y comunicables. El objetivo es practicar con situaciones concretas, entender qué decisión mejora y cerrar con una evidencia simple.",
+      "commercialRisk": "Usar demasiados gráficos sin propósito",
+      "lessons": [
+        {
+          "id": "m4_l1",
+          "title": "Elegir gráfico según pregunta",
+          "keyIdea": "Idea clave: Elegir gráfico según pregunta sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
+          "shortTheory": "En esta lección vas a trabajar \"Elegir gráfico según pregunta\" dentro del módulo \"Visualizaciones, filtros y segmentadores\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
+          "practicalExample": "Una persona necesita resumir datos de ventas, tareas, gastos o indicadores para explicar una situación con claridad. Aplicá \"Elegir gráfico según pregunta\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
+          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
+          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un esquema de tablero con fuente de datos, indicador, visual elegido y mensaje principal.",
+          "alert": "No publicar datos personales, sensibles o de clientes sin permiso y anonimizado.",
+          "keyPoints": [
+            "Elegir gráfico según pregunta debe terminar en una acción, decisión o entrega concreta.",
+            "Trabajar con un caso pequeño antes de escalar reduce errores.",
+            "La evidencia mínima esperada es: un esquema de tablero con fuente de datos, indicador, visual elegido y mensaje principal.",
+            "El criterio de calidad debe poder revisarse por otra persona."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m4_l2",
+          "title": "Tarjetas, barras y líneas",
+          "keyIdea": "Idea clave: Tarjetas, barras y líneas sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
+          "shortTheory": "En esta lección vas a trabajar \"Tarjetas, barras y líneas\" dentro del módulo \"Visualizaciones, filtros y segmentadores\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
+          "practicalExample": "Una persona necesita resumir datos de ventas, tareas, gastos o indicadores para explicar una situación con claridad. Aplicá \"Tarjetas, barras y líneas\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
+          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
+          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un esquema de tablero con fuente de datos, indicador, visual elegido y mensaje principal.",
+          "alert": "No publicar datos personales, sensibles o de clientes sin permiso y anonimizado.",
+          "keyPoints": [
+            "Tarjetas, barras y líneas debe terminar en una acción, decisión o entrega concreta.",
+            "Trabajar con un caso pequeño antes de escalar reduce errores.",
+            "La evidencia mínima esperada es: un esquema de tablero con fuente de datos, indicador, visual elegido y mensaje principal.",
+            "El criterio de calidad debe poder revisarse por otra persona."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m4_l3",
+          "title": "Filtros y segmentadores",
+          "keyIdea": "Idea clave: Filtros y segmentadores sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
+          "shortTheory": "En esta lección vas a trabajar \"Filtros y segmentadores\" dentro del módulo \"Visualizaciones, filtros y segmentadores\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
+          "practicalExample": "Una persona necesita resumir datos de ventas, tareas, gastos o indicadores para explicar una situación con claridad. Aplicá \"Filtros y segmentadores\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
+          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
+          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un esquema de tablero con fuente de datos, indicador, visual elegido y mensaje principal.",
+          "alert": "No publicar datos personales, sensibles o de clientes sin permiso y anonimizado.",
+          "keyPoints": [
+            "Filtros y segmentadores debe terminar en una acción, decisión o entrega concreta.",
+            "Trabajar con un caso pequeño antes de escalar reduce errores.",
+            "La evidencia mínima esperada es: un esquema de tablero con fuente de datos, indicador, visual elegido y mensaje principal.",
+            "El criterio de calidad debe poder revisarse por otra persona."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m4_l4",
+          "title": "Evitar gráficos confusos",
+          "keyIdea": "Idea clave: Evitar gráficos confusos sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
+          "shortTheory": "En esta lección vas a trabajar \"Evitar gráficos confusos\" dentro del módulo \"Visualizaciones, filtros y segmentadores\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
+          "practicalExample": "Una persona necesita resumir datos de ventas, tareas, gastos o indicadores para explicar una situación con claridad. Aplicá \"Evitar gráficos confusos\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
+          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
+          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un esquema de tablero con fuente de datos, indicador, visual elegido y mensaje principal.",
+          "alert": "No publicar datos personales, sensibles o de clientes sin permiso y anonimizado.",
+          "keyPoints": [
+            "Evitar gráficos confusos debe terminar en una acción, decisión o entrega concreta.",
+            "Trabajar con un caso pequeño antes de escalar reduce errores.",
+            "La evidencia mínima esperada es: un esquema de tablero con fuente de datos, indicador, visual elegido y mensaje principal.",
+            "El criterio de calidad debe poder revisarse por otra persona."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m4_l5",
+          "title": "Jerarquía visual del reporte",
+          "keyIdea": "Idea clave: Jerarquía visual del reporte sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
+          "shortTheory": "En esta lección vas a trabajar \"Jerarquía visual del reporte\" dentro del módulo \"Visualizaciones, filtros y segmentadores\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
+          "practicalExample": "Una persona necesita resumir datos de ventas, tareas, gastos o indicadores para explicar una situación con claridad. Aplicá \"Jerarquía visual del reporte\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
+          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
+          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un esquema de tablero con fuente de datos, indicador, visual elegido y mensaje principal.",
+          "alert": "No publicar datos personales, sensibles o de clientes sin permiso y anonimizado.",
+          "keyPoints": [
+            "Jerarquía visual del reporte debe terminar en una acción, decisión o entrega concreta.",
+            "Trabajar con un caso pequeño antes de escalar reduce errores.",
+            "La evidencia mínima esperada es: un esquema de tablero con fuente de datos, indicador, visual elegido y mensaje principal.",
+            "El criterio de calidad debe poder revisarse por otra persona."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m4_l6",
+          "title": "Dashboard para usuario no técnico",
+          "keyIdea": "Idea clave: Dashboard para usuario no técnico sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
+          "shortTheory": "En esta lección vas a trabajar \"Dashboard para usuario no técnico\" dentro del módulo \"Visualizaciones, filtros y segmentadores\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
+          "practicalExample": "Una persona necesita resumir datos de ventas, tareas, gastos o indicadores para explicar una situación con claridad. Aplicá \"Dashboard para usuario no técnico\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
+          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
+          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un esquema de tablero con fuente de datos, indicador, visual elegido y mensaje principal.",
+          "alert": "No publicar datos personales, sensibles o de clientes sin permiso y anonimizado.",
+          "keyPoints": [
+            "Dashboard para usuario no técnico debe terminar en una acción, decisión o entrega concreta.",
+            "Trabajar con un caso pequeño antes de escalar reduce errores.",
+            "La evidencia mínima esperada es: un esquema de tablero con fuente de datos, indicador, visual elegido y mensaje principal.",
+            "El criterio de calidad debe poder revisarse por otra persona."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m4_q1",
+          "question": "¿Cuál es el objetivo principal de este tema?",
+          "options": [
+            "Decorar planillas",
+            "Ayudar a leer datos y tomar mejores decisiones",
+            "Reemplazar todo análisis humano",
+            "Ocultar errores de datos"
+          ],
+          "correctAnswerIndex": 1,
+          "feedback": "Power BI ayuda a convertir datos en reportes útiles, pero sigue requiriendo criterio humano."
+        },
+        {
+          "id": "m4_q2",
+          "question": "¿Qué conviene revisar antes de crear visualizaciones?",
+          "options": [
+            "La calidad y estructura de los datos",
+            "El color favorito del usuario",
+            "Solo el logo del reporte",
+            "Nada, primero se grafica"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Si los datos están mal cargados, el dashboard puede mostrar conclusiones engañosas."
+        },
+        {
+          "id": "m4_q3",
+          "question": "¿Qué caracteriza a un buen dashboard?",
+          "options": [
+            "Tiene muchos gráficos sin orden",
+            "Responde preguntas concretas con claridad",
+            "Usa todos los colores posibles",
+            "No necesita contexto"
+          ],
+          "correctAnswerIndex": 1,
+          "feedback": "Un buen dashboard prioriza claridad, foco y decisiones posibles."
+        },
+        {
+          "id": "m4_q4",
+          "question": "¿Qué riesgo aparece al interpretar indicadores?",
+          "options": [
+            "Confundir correlación, contexto o período",
+            "Usar títulos claros",
+            "Comparar meses",
+            "Documentar fuentes"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Los indicadores necesitan contexto, fuente y período para evitar malas conclusiones."
+        },
+        {
+          "id": "m4_q5",
+          "question": "¿Qué debe acompañar a un hallazgo?",
+          "options": [
+            "Una recomendación o siguiente acción",
+            "Solo una captura sin explicación",
+            "Un gráfico decorativo",
+            "Una tabla sin título"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "El análisis mejora cuando el hallazgo se transforma en una acción o pregunta siguiente."
+        }
+      ],
+      "professionalOutcome": "limpiar datos, elegir indicadores y contar una historia visual basica. Entregable sugerido: un tablero con objetivo, tres indicadores, filtro principal y recomendacion."
+    },
+    {
+      "id": "m5",
+      "title": "Indicadores, medidas simples y lectura de dashboard",
+      "description": "En este módulo vas a trabajar \"Indicadores, medidas simples y lectura de dashboard\" dentro de análisis visual de datos para tomar decisiones simples y comunicables. El objetivo es practicar con situaciones concretas, entender qué decisión mejora y cerrar con una evidencia simple.",
+      "commercialRisk": "Mirar números sin contexto",
+      "lessons": [
+        {
+          "id": "m5_l1",
+          "title": "KPIs básicos de ventas",
+          "keyIdea": "Idea clave: KPIs básicos de ventas sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
+          "shortTheory": "En esta lección vas a trabajar \"KPIs básicos de ventas\" dentro del módulo \"Indicadores, medidas simples y lectura de dashboard\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
+          "practicalExample": "Una persona necesita resumir datos de ventas, tareas, gastos o indicadores para explicar una situación con claridad. Aplicá \"KPIs básicos de ventas\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
+          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
+          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un esquema de tablero con fuente de datos, indicador, visual elegido y mensaje principal.",
+          "alert": "No publicar datos personales, sensibles o de clientes sin permiso y anonimizado.",
+          "keyPoints": [
+            "KPIs básicos de ventas debe terminar en una acción, decisión o entrega concreta.",
+            "Trabajar con un caso pequeño antes de escalar reduce errores.",
+            "La evidencia mínima esperada es: un esquema de tablero con fuente de datos, indicador, visual elegido y mensaje principal.",
+            "El criterio de calidad debe poder revisarse por otra persona."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m5_l2",
+          "title": "Medidas simples y cálculo conceptual",
+          "keyIdea": "Idea clave: Medidas simples y cálculo conceptual sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
+          "shortTheory": "En esta lección vas a trabajar \"Medidas simples y cálculo conceptual\" dentro del módulo \"Indicadores, medidas simples y lectura de dashboard\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
+          "practicalExample": "Una persona necesita resumir datos de ventas, tareas, gastos o indicadores para explicar una situación con claridad. Aplicá \"Medidas simples y cálculo conceptual\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
+          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
+          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un esquema de tablero con fuente de datos, indicador, visual elegido y mensaje principal.",
+          "alert": "No publicar datos personales, sensibles o de clientes sin permiso y anonimizado.",
+          "keyPoints": [
+            "Medidas simples y cálculo conceptual debe terminar en una acción, decisión o entrega concreta.",
+            "Trabajar con un caso pequeño antes de escalar reduce errores.",
+            "La evidencia mínima esperada es: un esquema de tablero con fuente de datos, indicador, visual elegido y mensaje principal.",
+            "El criterio de calidad debe poder revisarse por otra persona."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m5_l3",
+          "title": "Variación mensual",
+          "keyIdea": "Idea clave: Variación mensual sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
+          "shortTheory": "En esta lección vas a trabajar \"Variación mensual\" dentro del módulo \"Indicadores, medidas simples y lectura de dashboard\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
+          "practicalExample": "Una persona necesita resumir datos de ventas, tareas, gastos o indicadores para explicar una situación con claridad. Aplicá \"Variación mensual\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
+          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
+          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un esquema de tablero con fuente de datos, indicador, visual elegido y mensaje principal.",
+          "alert": "No publicar datos personales, sensibles o de clientes sin permiso y anonimizado.",
+          "keyPoints": [
+            "Variación mensual debe terminar en una acción, decisión o entrega concreta.",
+            "Trabajar con un caso pequeño antes de escalar reduce errores.",
+            "La evidencia mínima esperada es: un esquema de tablero con fuente de datos, indicador, visual elegido y mensaje principal.",
+            "El criterio de calidad debe poder revisarse por otra persona."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m5_l4",
+          "title": "Margen y rentabilidad educativa",
+          "keyIdea": "Idea clave: Margen y rentabilidad educativa sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
+          "shortTheory": "En esta lección vas a trabajar \"Margen y rentabilidad educativa\" dentro del módulo \"Indicadores, medidas simples y lectura de dashboard\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
+          "practicalExample": "Una persona necesita resumir datos de ventas, tareas, gastos o indicadores para explicar una situación con claridad. Aplicá \"Margen y rentabilidad educativa\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
+          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
+          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un esquema de tablero con fuente de datos, indicador, visual elegido y mensaje principal.",
+          "alert": "No publicar datos personales, sensibles o de clientes sin permiso y anonimizado.",
+          "keyPoints": [
+            "Margen y rentabilidad educativa debe terminar en una acción, decisión o entrega concreta.",
+            "Trabajar con un caso pequeño antes de escalar reduce errores.",
+            "La evidencia mínima esperada es: un esquema de tablero con fuente de datos, indicador, visual elegido y mensaje principal.",
+            "El criterio de calidad debe poder revisarse por otra persona."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m5_l5",
+          "title": "Stock crítico",
+          "keyIdea": "Idea clave: Stock crítico sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
+          "shortTheory": "En esta lección vas a trabajar \"Stock crítico\" dentro del módulo \"Indicadores, medidas simples y lectura de dashboard\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
+          "practicalExample": "Una persona necesita resumir datos de ventas, tareas, gastos o indicadores para explicar una situación con claridad. Aplicá \"Stock crítico\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
+          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
+          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un esquema de tablero con fuente de datos, indicador, visual elegido y mensaje principal.",
+          "alert": "No publicar datos personales, sensibles o de clientes sin permiso y anonimizado.",
+          "keyPoints": [
+            "Stock crítico debe terminar en una acción, decisión o entrega concreta.",
+            "Trabajar con un caso pequeño antes de escalar reduce errores.",
+            "La evidencia mínima esperada es: un esquema de tablero con fuente de datos, indicador, visual elegido y mensaje principal.",
+            "El criterio de calidad debe poder revisarse por otra persona."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m5_l6",
+          "title": "Concentración de clientes o productos",
+          "keyIdea": "Idea clave: Concentración de clientes o productos sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
+          "shortTheory": "En esta lección vas a trabajar \"Concentración de clientes o productos\" dentro del módulo \"Indicadores, medidas simples y lectura de dashboard\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
+          "practicalExample": "Una persona necesita resumir datos de ventas, tareas, gastos o indicadores para explicar una situación con claridad. Aplicá \"Concentración de clientes o productos\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
+          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
+          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un esquema de tablero con fuente de datos, indicador, visual elegido y mensaje principal.",
+          "alert": "No publicar datos personales, sensibles o de clientes sin permiso y anonimizado.",
+          "keyPoints": [
+            "Concentración de clientes o productos debe terminar en una acción, decisión o entrega concreta.",
+            "Trabajar con un caso pequeño antes de escalar reduce errores.",
+            "La evidencia mínima esperada es: un esquema de tablero con fuente de datos, indicador, visual elegido y mensaje principal.",
+            "El criterio de calidad debe poder revisarse por otra persona."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m5_q1",
+          "question": "¿Cuál es el objetivo principal de este tema?",
+          "options": [
+            "Decorar planillas",
+            "Ayudar a leer datos y tomar mejores decisiones",
+            "Reemplazar todo análisis humano",
+            "Ocultar errores de datos"
+          ],
+          "correctAnswerIndex": 1,
+          "feedback": "Power BI ayuda a convertir datos en reportes útiles, pero sigue requiriendo criterio humano."
+        },
+        {
+          "id": "m5_q2",
+          "question": "¿Qué conviene revisar antes de crear visualizaciones?",
+          "options": [
+            "La calidad y estructura de los datos",
+            "El color favorito del usuario",
+            "Solo el logo del reporte",
+            "Nada, primero se grafica"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Si los datos están mal cargados, el dashboard puede mostrar conclusiones engañosas."
+        },
+        {
+          "id": "m5_q3",
+          "question": "¿Qué caracteriza a un buen dashboard?",
+          "options": [
+            "Tiene muchos gráficos sin orden",
+            "Responde preguntas concretas con claridad",
+            "Usa todos los colores posibles",
+            "No necesita contexto"
+          ],
+          "correctAnswerIndex": 1,
+          "feedback": "Un buen dashboard prioriza claridad, foco y decisiones posibles."
+        },
+        {
+          "id": "m5_q4",
+          "question": "¿Qué riesgo aparece al interpretar indicadores?",
+          "options": [
+            "Confundir correlación, contexto o período",
+            "Usar títulos claros",
+            "Comparar meses",
+            "Documentar fuentes"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Los indicadores necesitan contexto, fuente y período para evitar malas conclusiones."
+        },
+        {
+          "id": "m5_q5",
+          "question": "¿Qué debe acompañar a un hallazgo?",
+          "options": [
+            "Una recomendación o siguiente acción",
+            "Solo una captura sin explicación",
+            "Un gráfico decorativo",
+            "Una tabla sin título"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "El análisis mejora cuando el hallazgo se transforma en una acción o pregunta siguiente."
+        }
+      ],
+      "professionalOutcome": "limpiar datos, elegir indicadores y contar una historia visual basica. Entregable sugerido: un tablero con objetivo, tres indicadores, filtro principal y recomendacion."
+    },
+    {
+      "id": "m6",
+      "title": "Casos prácticos de ventas, stock y margen",
+      "description": "En este módulo vas a trabajar \"Casos prácticos de ventas, stock y margen\" dentro de análisis visual de datos para tomar decisiones simples y comunicables. El objetivo es practicar con situaciones concretas, entender qué decisión mejora y cerrar con una evidencia simple.",
+      "commercialRisk": "Entregar tableros sin recomendación",
+      "lessons": [
+        {
+          "id": "m6_l1",
+          "title": "Producto que más vende",
+          "keyIdea": "Idea clave: Producto que más vende sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
+          "shortTheory": "En esta lección vas a trabajar \"Producto que más vende\" dentro del módulo \"Casos prácticos de ventas, stock y margen\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
+          "practicalExample": "Una persona necesita resumir datos de ventas, tareas, gastos o indicadores para explicar una situación con claridad. Aplicá \"Producto que más vende\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
+          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
+          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un esquema de tablero con fuente de datos, indicador, visual elegido y mensaje principal.",
+          "alert": "No publicar datos personales, sensibles o de clientes sin permiso y anonimizado.",
+          "keyPoints": [
+            "Producto que más vende debe terminar en una acción, decisión o entrega concreta.",
+            "Trabajar con un caso pequeño antes de escalar reduce errores.",
+            "La evidencia mínima esperada es: un esquema de tablero con fuente de datos, indicador, visual elegido y mensaje principal.",
+            "El criterio de calidad debe poder revisarse por otra persona."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m6_l2",
+          "title": "Caída de ventas",
+          "keyIdea": "Idea clave: Caída de ventas sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
+          "shortTheory": "En esta lección vas a trabajar \"Caída de ventas\" dentro del módulo \"Casos prácticos de ventas, stock y margen\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
+          "practicalExample": "Una persona necesita resumir datos de ventas, tareas, gastos o indicadores para explicar una situación con claridad. Aplicá \"Caída de ventas\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
+          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
+          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un esquema de tablero con fuente de datos, indicador, visual elegido y mensaje principal.",
+          "alert": "No publicar datos personales, sensibles o de clientes sin permiso y anonimizado.",
+          "keyPoints": [
+            "Caída de ventas debe terminar en una acción, decisión o entrega concreta.",
+            "Trabajar con un caso pequeño antes de escalar reduce errores.",
+            "La evidencia mínima esperada es: un esquema de tablero con fuente de datos, indicador, visual elegido y mensaje principal.",
+            "El criterio de calidad debe poder revisarse por otra persona."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m6_l3",
+          "title": "Stock crítico",
+          "keyIdea": "Idea clave: Stock crítico sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
+          "shortTheory": "En esta lección vas a trabajar \"Stock crítico\" dentro del módulo \"Casos prácticos de ventas, stock y margen\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
+          "practicalExample": "Una persona necesita resumir datos de ventas, tareas, gastos o indicadores para explicar una situación con claridad. Aplicá \"Stock crítico\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
+          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
+          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un esquema de tablero con fuente de datos, indicador, visual elegido y mensaje principal.",
+          "alert": "No publicar datos personales, sensibles o de clientes sin permiso y anonimizado.",
+          "keyPoints": [
+            "Stock crítico debe terminar en una acción, decisión o entrega concreta.",
+            "Trabajar con un caso pequeño antes de escalar reduce errores.",
+            "La evidencia mínima esperada es: un esquema de tablero con fuente de datos, indicador, visual elegido y mensaje principal.",
+            "El criterio de calidad debe poder revisarse por otra persona."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m6_l4",
+          "title": "Margen por categoría",
+          "keyIdea": "Idea clave: Margen por categoría sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
+          "shortTheory": "En esta lección vas a trabajar \"Margen por categoría\" dentro del módulo \"Casos prácticos de ventas, stock y margen\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
+          "practicalExample": "Una persona necesita resumir datos de ventas, tareas, gastos o indicadores para explicar una situación con claridad. Aplicá \"Margen por categoría\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
+          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
+          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un esquema de tablero con fuente de datos, indicador, visual elegido y mensaje principal.",
+          "alert": "No publicar datos personales, sensibles o de clientes sin permiso y anonimizado.",
+          "keyPoints": [
+            "Margen por categoría debe terminar en una acción, decisión o entrega concreta.",
+            "Trabajar con un caso pequeño antes de escalar reduce errores.",
+            "La evidencia mínima esperada es: un esquema de tablero con fuente de datos, indicador, visual elegido y mensaje principal.",
+            "El criterio de calidad debe poder revisarse por otra persona."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m6_l5",
+          "title": "Reporte mensual ejecutivo",
+          "keyIdea": "Idea clave: Reporte mensual ejecutivo sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
+          "shortTheory": "En esta lección vas a trabajar \"Reporte mensual ejecutivo\" dentro del módulo \"Casos prácticos de ventas, stock y margen\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
+          "practicalExample": "Una persona necesita resumir datos de ventas, tareas, gastos o indicadores para explicar una situación con claridad. Aplicá \"Reporte mensual ejecutivo\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
+          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
+          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un esquema de tablero con fuente de datos, indicador, visual elegido y mensaje principal.",
+          "alert": "No publicar datos personales, sensibles o de clientes sin permiso y anonimizado.",
+          "keyPoints": [
+            "Reporte mensual ejecutivo debe terminar en una acción, decisión o entrega concreta.",
+            "Trabajar con un caso pequeño antes de escalar reduce errores.",
+            "La evidencia mínima esperada es: un esquema de tablero con fuente de datos, indicador, visual elegido y mensaje principal.",
+            "El criterio de calidad debe poder revisarse por otra persona."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m6_l6",
+          "title": "Explicar hallazgos y próximos pasos",
+          "keyIdea": "Idea clave: Explicar hallazgos y próximos pasos sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
+          "shortTheory": "En esta lección vas a trabajar \"Explicar hallazgos y próximos pasos\" dentro del módulo \"Casos prácticos de ventas, stock y margen\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
+          "practicalExample": "Una persona necesita resumir datos de ventas, tareas, gastos o indicadores para explicar una situación con claridad. Aplicá \"Explicar hallazgos y próximos pasos\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
+          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
+          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un esquema de tablero con fuente de datos, indicador, visual elegido y mensaje principal.",
+          "alert": "No publicar datos personales, sensibles o de clientes sin permiso y anonimizado.",
+          "keyPoints": [
+            "Explicar hallazgos y próximos pasos debe terminar en una acción, decisión o entrega concreta.",
+            "Trabajar con un caso pequeño antes de escalar reduce errores.",
+            "La evidencia mínima esperada es: un esquema de tablero con fuente de datos, indicador, visual elegido y mensaje principal.",
+            "El criterio de calidad debe poder revisarse por otra persona."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m6_q1",
+          "question": "¿Cuál es el objetivo principal de este tema?",
+          "options": [
+            "Decorar planillas",
+            "Ayudar a leer datos y tomar mejores decisiones",
+            "Reemplazar todo análisis humano",
+            "Ocultar errores de datos"
+          ],
+          "correctAnswerIndex": 1,
+          "feedback": "Power BI ayuda a convertir datos en reportes útiles, pero sigue requiriendo criterio humano."
+        },
+        {
+          "id": "m6_q2",
+          "question": "¿Qué conviene revisar antes de crear visualizaciones?",
+          "options": [
+            "La calidad y estructura de los datos",
+            "El color favorito del usuario",
+            "Solo el logo del reporte",
+            "Nada, primero se grafica"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Si los datos están mal cargados, el dashboard puede mostrar conclusiones engañosas."
+        },
+        {
+          "id": "m6_q3",
+          "question": "¿Qué caracteriza a un buen dashboard?",
+          "options": [
+            "Tiene muchos gráficos sin orden",
+            "Responde preguntas concretas con claridad",
+            "Usa todos los colores posibles",
+            "No necesita contexto"
+          ],
+          "correctAnswerIndex": 1,
+          "feedback": "Un buen dashboard prioriza claridad, foco y decisiones posibles."
+        },
+        {
+          "id": "m6_q4",
+          "question": "¿Qué riesgo aparece al interpretar indicadores?",
+          "options": [
+            "Confundir correlación, contexto o período",
+            "Usar títulos claros",
+            "Comparar meses",
+            "Documentar fuentes"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Los indicadores necesitan contexto, fuente y período para evitar malas conclusiones."
+        },
+        {
+          "id": "m6_q5",
+          "question": "¿Qué debe acompañar a un hallazgo?",
+          "options": [
+            "Una recomendación o siguiente acción",
+            "Solo una captura sin explicación",
+            "Un gráfico decorativo",
+            "Una tabla sin título"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "El análisis mejora cuando el hallazgo se transforma en una acción o pregunta siguiente."
+        }
+      ],
+      "professionalOutcome": "limpiar datos, elegir indicadores y contar una historia visual basica. Entregable sugerido: un tablero con objetivo, tres indicadores, filtro principal y recomendacion."
+    }
+  ],
+  "publicationStatus": "publica-profesional-v0.6",
+  "professionalization": {
+    "tier": "curso-bandera-v1.0-beta",
+    "updatedAt": "2026-05-28",
+    "focus": "Profundizacion visible de lecciones, practicas, checklists y casos."
+  },
+  "editorialPolish": {
+    "firstFeaturedBatch": "2026-06-01",
+    "status": "public-facing-copy-polished"
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "courseId": "power-bi-principiantes-web",
+  "templateVersion": "0.6-publica-profesional",
+  "appName": "Power BI para Principiantes",
+  "shortName": "Power BI Principiantes",
+  "subtitle": "Curso práctico para limpiar datos, elegir indicadores y contar una historia visual básica.",
+  "description": "Convertí datos simples en una lectura clara: prepará tablas, elegí indicadores, armá visualizaciones y explicá qué decisión pueden apoyar.",
+  "audience": "Estudiantes, emprendedores, trabajadores administrativos y personas que quieren iniciar en Business Intelligence sin experiencia previa.",
+  "dataPaths": {
+    "course": "src/data/course_content.json",
+    "checklists": "src/data/checklists.json",
+    "incidents": "src/data/incidents.json",
+    "dashboardLab": "src/data/dashboard_lab.json",
+    "dashboardBuilder": "src/data/dashboard_builder.json",
+    "storytellingLab": "src/data/storytelling_lab.json"
+  },
+  "labels": {
+    "modules": "Módulos",
+    "checklists": "Checklists",
+    "incidents": "Casos BI",
+    "emergency": "Acción rápida",
+    "certificate": "Constancia",
+    "primaryAction": "Empezar curso",
+    "emergencyAction": "Necesito ordenar un reporte"
+  },
+  "features": {
+    "modules": true,
+    "quizzes": true,
+    "checklists": true,
+    "incidents": true,
+    "emergency": true,
+    "certificate": true,
+    "progressExport": true,
+    "templateGuide": false,
+    "accessibilityPanel": true,
+    "pwaBasic": true,
+    "offlineCache": true,
+    "publishGuide": true,
+    "officialCloneTemplate": false,
+    "validationScript": true,
+    "dashboardLab": true,
+    "dashboardBuilder": true,
+    "kpiVisualBuilder": true,
+    "storytellingLab": true,
+    "executivePresentationSimulator": true,
+    "dashboardReadingChecklist": true,
+    "publishReadyCandidate": true,
+    "screenshotGuide": true,
+    "publicReadme": true,
+    "privacyPolicy": true,
+    "legalNotice": true,
+    "publicationChecklist": true,
+    "publicProfessionalEdition": true,
+    "requiresBackend": false,
+    "requiresLogin": false
+  },
+  "theme": {
+    "accent": "#4fb6aa",
+    "accent2": "#7c3aed",
+    "danger": "#fb7185",
+    "warning": "#f59e0b",
+    "primary": "#d6a85c",
+    "background": "#21130b"
+  },
+  "responsibleNotice": "Contenido educativo. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. No publicar datos personales, sensibles o de clientes sin permiso y anonimizado.",
+  "cloneNotes": [
+    "Versión v0.5 orientada a publicación y prueba web.",
+    "Mantener datasets ficticios o anonimizados.",
+    "No cargar datos empresariales reales en el laboratorio.",
+    "El curso es educativo y no reemplaza capacitación oficial ni uso de Power BI Desktop."
+  ],
+  "publicEdition": {
+    "level": "publica-profesional",
+    "version": "0.6",
+    "generatedAt": "2026-05-26",
+    "sourceZip": "power_bi_principiantes_web_v0_5.zip"
+  },
+  "publication": {
+    "version": "0.6-publica-profesional",
+    "status": "Publica profesional",
+    "requiresBackend": false,
+    "requiresLogin": false,
+    "requiresAnalytics": false,
+    "requiresAds": false,
+    "recommendedHosts": [
+      "GitHub Pages",
+      "Netlify",
+      "Vercel",
+      "Hosting estatico propio"
+    ],
+    "prePublishChecks": [
+      "Probar con servidor local",
+      "Probar navegacion en movil y escritorio",
+      "Revisar textos legales y privacidad",
+      "Verificar que no se pidan datos sensibles",
+      "Actualizar capturas publicas"
+    ]
+  },
+  "webApp": {
+    "cacheName": "power-bi-principiantes-web-v0-6-publica-v0-6-publica-profesional",
+    "publicationStatus": "publica-profesional-v0.6"
+  },
+  "professionalization": {
+    "tier": "curso-bandera-v1.0-beta",
+    "updatedAt": "2026-05-28",
+    "improvements": [
+      "Lecciones con teoria, ejemplo, error comun y ejercicio mas profundos.",
+      "Checklists orientados a evidencia y entregables.",
+      "Casos guiados con pasos, errores y decision responsable."
+    ]
+  },
+  "editorialPolish": {
+    "firstFeaturedBatch": "2026-06-01",
+    "status": "public-facing-copy-polished"
+  }
+}

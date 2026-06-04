@@ -1,0 +1,363 @@
+{
+  "budgetCategories": [
+    {
+      "id": "ingresos",
+      "label": "Ingresos por ventas del día/mes"
+    },
+    {
+      "id": "mercaderia",
+      "label": "Reposición de mercadería"
+    },
+    {
+      "id": "empaque",
+      "label": "Empaque, bolsas y etiquetas"
+    },
+    {
+      "id": "delivery",
+      "label": "Envíos, movilidad o cadetería"
+    },
+    {
+      "id": "comisiones",
+      "label": "Comisiones de cobro/plataformas"
+    },
+    {
+      "id": "servicios",
+      "label": "Servicios, alquiler o gastos fijos"
+    },
+    {
+      "id": "otros",
+      "label": "Otros gastos del negocio"
+    }
+  ],
+  "antExpenses": [
+    {
+      "id": "bolsas",
+      "label": "Bolsas/empaque diario",
+      "defaultAmount": 500
+    },
+    {
+      "id": "delivery_extra",
+      "label": "Diferencias de envío no cobradas",
+      "defaultAmount": 1000
+    },
+    {
+      "id": "descuentos",
+      "label": "Descuentos improvisados",
+      "defaultAmount": 1500
+    },
+    {
+      "id": "fiado",
+      "label": "Ventas fiadas sin registrar",
+      "defaultAmount": 2000
+    }
+  ],
+  "messages": [
+    {
+      "id": "pedido_confirmado",
+      "context": "Pedido",
+      "title": "Confirmar pedido con datos claros",
+      "body": "Hola, te confirmo el pedido: producto, cantidad, precio final, forma de entrega y medio de pago. Apenas se confirme el pago o la entrega, avanzamos. Gracias."
+    },
+    {
+      "id": "sin_stock",
+      "context": "Stock",
+      "title": "Avisar falta de stock sin perder la venta",
+      "body": "Hola, revisé stock y por ahora no tengo esa unidad disponible. Puedo ofrecerte esta alternativa o avisarte cuando reponga. ¿Querés que te reserve la próxima unidad?"
+    },
+    {
+      "id": "reclamo",
+      "context": "Reclamo",
+      "title": "Responder reclamo con calma",
+      "body": "Hola, gracias por avisarme. Para revisar bien necesito fecha de compra, producto, comprobante o captura y una foto si corresponde. Lo reviso y te respondo con una solución posible."
+    },
+    {
+      "id": "pago_pendiente",
+      "context": "Cobro",
+      "title": "Pago pendiente de acreditación",
+      "body": "Hola, veo el comprobante, pero todavía no tengo la acreditación confirmada en la cuenta/app oficial. Apenas figure acreditado coordinamos entrega o retiro."
+    },
+    {
+      "id": "promo_condiciones",
+      "context": "Promoción",
+      "title": "Aclarar condiciones de una promoción",
+      "body": "Hola, la promoción aplica para estos productos/cantidades y hasta agotar stock. El precio final y la forma de entrega se confirman antes de cerrar el pedido."
+    },
+    {
+      "id": "proveedor",
+      "context": "Proveedor",
+      "title": "Consultar proveedor antes de comprar",
+      "body": "Hola, necesito confirmar precio final, cantidad mínima, fecha de entrega, forma de pago, vencimiento/lote si corresponde y si hay devolución por falla o mercadería dañada."
+    }
+  ],
+  "riskQuestions": [
+    {
+      "id": "cash_mix",
+      "question": "¿Mezclás plata personal con caja del negocio?",
+      "options": [
+        {
+          "label": "No, separo caja y dinero personal",
+          "score": 0
+        },
+        {
+          "label": "A veces, cuando estoy apurado",
+          "score": 2
+        },
+        {
+          "label": "Sí, casi siempre",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "no_margin",
+      "question": "¿Vendés productos sin calcular costo total, comisiones y margen?",
+      "options": [
+        {
+          "label": "No, reviso antes de vender",
+          "score": 0
+        },
+        {
+          "label": "Solo en algunos productos",
+          "score": 2
+        },
+        {
+          "label": "Sí, muchas veces vendo “a ojo”",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "no_stock",
+      "question": "¿Tomás pedidos sin verificar stock disponible?",
+      "options": [
+        {
+          "label": "No, verifico antes de confirmar",
+          "score": 0
+        },
+        {
+          "label": "A veces me pasa",
+          "score": 2
+        },
+        {
+          "label": "Sí, con frecuencia",
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": "no_records",
+      "question": "¿Pasás varios días sin anotar ventas, gastos o retiros?",
+      "options": [
+        {
+          "label": "No, registro a diario",
+          "score": 0
+        },
+        {
+          "label": "A veces dejo para después",
+          "score": 2
+        },
+        {
+          "label": "Sí, casi no registro",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": "big_buy",
+      "question": "¿Comprás ofertas grandes sin calcular salida probable o caja disponible?",
+      "options": [
+        {
+          "label": "No, reviso antes",
+          "score": 0
+        },
+        {
+          "label": "A veces por aprovechar precio",
+          "score": 2
+        },
+        {
+          "label": "Sí, compro por impulso",
+          "score": 4
+        }
+      ]
+    }
+  ],
+  "riskLevels": [
+    {
+      "min": 0,
+      "max": 3,
+      "level": "Bajo",
+      "title": "Riesgo bajo de desorden operativo",
+      "className": "ok",
+      "advice": [
+        "Mantené la rutina de caja, stock y precios.",
+        "Seguí registrando ventas y gastos sin datos sensibles."
+      ]
+    },
+    {
+      "min": 4,
+      "max": 8,
+      "level": "Medio",
+      "title": "Riesgo medio: ordenar esta semana",
+      "className": "warn",
+      "advice": [
+        "Revisá precios y margen de los productos más vendidos.",
+        "Separá caja del negocio de dinero personal.",
+        "Hacé conteo rápido de stock crítico."
+      ]
+    },
+    {
+      "min": 9,
+      "max": 99,
+      "level": "Alto",
+      "title": "Riesgo alto: pausar decisiones grandes",
+      "className": "danger",
+      "advice": [
+        "No hagas compras mayoristas grandes hasta revisar caja y stock.",
+        "No confirmes promociones sin calcular margen.",
+        "Registrá ventas/gastos pendientes y revisá diferencias de caja."
+      ]
+    }
+  ],
+  "duePlannerDefaults": {
+    "categories": [
+      "Proveedor",
+      "Alquiler",
+      "Servicio",
+      "Reposición",
+      "Entrega",
+      "Impuesto/tasa",
+      "Otro"
+    ],
+    "priorityRules": [
+      {
+        "daysMax": 0,
+        "level": "Vence hoy o está vencido",
+        "className": "danger",
+        "advice": "Atender antes de asumir compras nuevas."
+      },
+      {
+        "daysMax": 2,
+        "level": "Urgente",
+        "className": "danger",
+        "advice": "Separar caja y confirmar fecha de pago."
+      },
+      {
+        "daysMax": 7,
+        "level": "Próximo",
+        "className": "warn",
+        "advice": "Planificar pago y evitar gastos impulsivos."
+      },
+      {
+        "daysMax": 9999,
+        "level": "Programado",
+        "className": "ok",
+        "advice": "Registrar y revisar en el cierre semanal."
+      }
+    ]
+  },
+  "stockDefaults": {
+    "minimumAdvice": [
+      "Reponer solo si el producto rota y deja margen.",
+      "No sobrecomprar productos lentos aunque estén en oferta.",
+      "Registrar pérdidas, vencimientos o productos dañados."
+    ],
+    "categories": [
+      "Almacén",
+      "Limpieza",
+      "Bebidas",
+      "Indumentaria",
+      "Reventa",
+      "Otro"
+    ]
+  },
+  "promotionRules": [
+    {
+      "id": "margin",
+      "label": "La promoción conserva margen positivo después de descuento."
+    },
+    {
+      "id": "stock",
+      "label": "Hay stock suficiente o reposición confirmada."
+    },
+    {
+      "id": "cash",
+      "label": "No compromete caja para pagos urgentes."
+    },
+    {
+      "id": "clear",
+      "label": "Las condiciones están claras para el cliente."
+    }
+  ],
+  "specialChecklists": [
+    {
+      "id": "caja_no_cierra",
+      "title": "Caja diaria no cierra",
+      "description": "Guía rápida para revisar diferencia de caja sin entrar en pánico.",
+      "items": [
+        "Separar ventas en efectivo, transferencia y billetera.",
+        "Revisar pedidos pendientes de pago.",
+        "Buscar descuentos o envíos no registrados.",
+        "Comparar comprobantes con ventas anotadas.",
+        "No mezclar dinero personal para tapar el error sin registrarlo.",
+        "Anotar diferencia y posible causa."
+      ]
+    },
+    {
+      "id": "stock_critico",
+      "title": "Stock crítico o pedido sin mercadería",
+      "description": "Guía para evitar prometer entregas imposibles.",
+      "items": [
+        "Verificar stock físico antes de confirmar.",
+        "Avisar alternativa o fecha estimada.",
+        "No cobrar si no hay disponibilidad clara.",
+        "Registrar producto faltante.",
+        "Revisar si conviene reponer.",
+        "Actualizar mensaje/publicación para evitar nuevos pedidos erróneos."
+      ]
+    }
+  ],
+  "commerceGuide": {
+    "title": "Guía práctica para ordenar un emprendimiento barrial",
+    "description": "Rutina simple para vender, cobrar, revisar stock y cerrar caja sin sistemas complejos.",
+    "sections": [
+      {
+        "kicker": "Mañana",
+        "title": "Antes de vender",
+        "items": [
+          "Revisar productos con bajo stock.",
+          "Confirmar precios actualizados.",
+          "Separar caja inicial.",
+          "Revisar mensajes pendientes."
+        ]
+      },
+      {
+        "kicker": "Durante el día",
+        "title": "Mientras vendés",
+        "items": [
+          "Confirmar pedido con producto, cantidad y precio.",
+          "No entregar sin verificar pago/acreditación.",
+          "Anotar descuentos y envíos.",
+          "Registrar reclamos con evidencia."
+        ]
+      },
+      {
+        "kicker": "Cierre",
+        "title": "Al terminar",
+        "items": [
+          "Sumar ventas por medio de pago.",
+          "Restar gastos y reposición.",
+          "Comparar caja esperada vs caja real.",
+          "Anotar diferencias y pendientes."
+        ]
+      }
+    ],
+    "printableRoutine": [
+      "Abrir caja inicial.",
+      "Revisar stock crítico.",
+      "Confirmar precios antes de publicar.",
+      "Registrar cada venta/gasto.",
+      "Verificar pagos antes de entregar.",
+      "Cerrar caja y anotar diferencias."
+    ]
+  }
+}

@@ -1,0 +1,1050 @@
+{
+  "courseId": "react-basico-principiantes",
+  "title": "React Basico para Principiantes",
+  "version": "0.6-publica",
+  "publicationStatus": "publica-profesional-v0.6",
+  "modules": [
+    {
+      "id": "m1",
+      "title": "Modelo mental de React",
+      "description": "En este modulo vas a trabajar \"Modelo mental de React\" dentro de React basico, componentes, props, estado, eventos, listas, formularios, efectos y publicacion. La meta es construir una pieza pequena, probarla en navegador y dejar evidencia de que funciona para una persona real.",
+      "lessons": [
+        {
+          "id": "m1-l1",
+          "title": "Que es React",
+          "keyIdea": "Idea clave: Que es React sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Que es React\" dentro del modulo \"Modelo mental de React\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona empieza un proyecto React y necesita separar interfaz, datos y eventos sin perder orden ni duplicar logica. Aplica \"Que es React\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un componente React funcional con props, estado, evento, lista o formulario y explicacion de uso.",
+          "alert": "No agregar complejidad, librerias o estado global antes de resolver el caso simple.",
+          "keyPoints": [
+            "Que es React debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un componente React funcional con props, estado, evento, lista o formulario y explicacion de uso.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m1-l2",
+          "title": "Componentes como piezas",
+          "keyIdea": "Idea clave: Componentes como piezas sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Componentes como piezas\" dentro del modulo \"Modelo mental de React\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona empieza un proyecto React y necesita separar interfaz, datos y eventos sin perder orden ni duplicar logica. Aplica \"Componentes como piezas\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un componente React funcional con props, estado, evento, lista o formulario y explicacion de uso.",
+          "alert": "No agregar complejidad, librerias o estado global antes de resolver el caso simple.",
+          "keyPoints": [
+            "Componentes como piezas debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un componente React funcional con props, estado, evento, lista o formulario y explicacion de uso.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m1-l3",
+          "title": "JSX explicado simple",
+          "keyIdea": "Idea clave: JSX explicado simple sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"JSX explicado simple\" dentro del modulo \"Modelo mental de React\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona empieza un proyecto React y necesita separar interfaz, datos y eventos sin perder orden ni duplicar logica. Aplica \"JSX explicado simple\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un componente React funcional con props, estado, evento, lista o formulario y explicacion de uso.",
+          "alert": "No agregar complejidad, librerias o estado global antes de resolver el caso simple.",
+          "keyPoints": [
+            "JSX explicado simple debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un componente React funcional con props, estado, evento, lista o formulario y explicacion de uso.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m1-l4",
+          "title": "Renderizado",
+          "keyIdea": "Idea clave: Renderizado sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Renderizado\" dentro del modulo \"Modelo mental de React\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona empieza un proyecto React y necesita separar interfaz, datos y eventos sin perder orden ni duplicar logica. Aplica \"Renderizado\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un componente React funcional con props, estado, evento, lista o formulario y explicacion de uso.",
+          "alert": "No agregar complejidad, librerias o estado global antes de resolver el caso simple.",
+          "keyPoints": [
+            "Renderizado debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un componente React funcional con props, estado, evento, lista o formulario y explicacion de uso.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m1-l5",
+          "title": "Arbol de componentes",
+          "keyIdea": "Idea clave: Arbol de componentes sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Arbol de componentes\" dentro del modulo \"Modelo mental de React\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona empieza un proyecto React y necesita separar interfaz, datos y eventos sin perder orden ni duplicar logica. Aplica \"Arbol de componentes\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un componente React funcional con props, estado, evento, lista o formulario y explicacion de uso.",
+          "alert": "No agregar complejidad, librerias o estado global antes de resolver el caso simple.",
+          "keyPoints": [
+            "Arbol de componentes debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un componente React funcional con props, estado, evento, lista o formulario y explicacion de uso.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m1-l6",
+          "title": "Proyecto minimo",
+          "keyIdea": "Idea clave: Proyecto minimo sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Proyecto minimo\" dentro del modulo \"Modelo mental de React\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona empieza un proyecto React y necesita separar interfaz, datos y eventos sin perder orden ni duplicar logica. Aplica \"Proyecto minimo\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un componente React funcional con props, estado, evento, lista o formulario y explicacion de uso.",
+          "alert": "No agregar complejidad, librerias o estado global antes de resolver el caso simple.",
+          "keyPoints": [
+            "Proyecto minimo debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un componente React funcional con props, estado, evento, lista o formulario y explicacion de uso.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m1-q1",
+          "question": "Pregunta 1: ¿cual es una buena practica en ",
+          "options": [
+            "Pensar la interfaz como componentes con responsabilidades pequeñas",
+            "Mezclar toda la app en un archivo gigante",
+            "Usar React sin entender HTML",
+            "Ignorar la estructura de datos"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        },
+        {
+          "id": "m1-q2",
+          "question": "Pregunta 2: ¿cual es una buena practica en ",
+          "options": [
+            "Pensar la interfaz como componentes con responsabilidades pequeñas",
+            "Mezclar toda la app en un archivo gigante",
+            "Usar React sin entender HTML",
+            "Ignorar la estructura de datos"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        },
+        {
+          "id": "m1-q3",
+          "question": "Pregunta 3: ¿cual es una buena practica en ",
+          "options": [
+            "Pensar la interfaz como componentes con responsabilidades pequeñas",
+            "Mezclar toda la app en un archivo gigante",
+            "Usar React sin entender HTML",
+            "Ignorar la estructura de datos"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        },
+        {
+          "id": "m1-q4",
+          "question": "Pregunta 4: ¿cual es una buena practica en ",
+          "options": [
+            "Pensar la interfaz como componentes con responsabilidades pequeñas",
+            "Mezclar toda la app en un archivo gigante",
+            "Usar React sin entender HTML",
+            "Ignorar la estructura de datos"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        },
+        {
+          "id": "m1-q5",
+          "question": "Pregunta 5: ¿cual es una buena practica en ",
+          "options": [
+            "Pensar la interfaz como componentes con responsabilidades pequeñas",
+            "Mezclar toda la app en un archivo gigante",
+            "Usar React sin entender HTML",
+            "Ignorar la estructura de datos"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        }
+      ],
+      "professionalOutcome": "dividir una interfaz en componentes, manejar estado simple y reutilizar UI. Entregable sugerido: una app React pequena con componentes claros, estado local y datos de ejemplo."
+    },
+    {
+      "id": "m2",
+      "title": "Props y composicion",
+      "description": "En este modulo vas a trabajar \"Props y composicion\" dentro de React basico, componentes, props, estado, eventos, listas, formularios, efectos y publicacion. La meta es construir una pieza pequena, probarla en navegador y dejar evidencia de que funciona para una persona real.",
+      "lessons": [
+        {
+          "id": "m2-l1",
+          "title": "Props basicas",
+          "keyIdea": "Idea clave: Props basicas sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Props basicas\" dentro del modulo \"Props y composicion\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona empieza un proyecto React y necesita separar interfaz, datos y eventos sin perder orden ni duplicar logica. Aplica \"Props basicas\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un componente React funcional con props, estado, evento, lista o formulario y explicacion de uso.",
+          "alert": "No agregar complejidad, librerias o estado global antes de resolver el caso simple.",
+          "keyPoints": [
+            "Props basicas debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un componente React funcional con props, estado, evento, lista o formulario y explicacion de uso.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m2-l2",
+          "title": "Props como objetos",
+          "keyIdea": "Idea clave: Props como objetos sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Props como objetos\" dentro del modulo \"Props y composicion\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona empieza un proyecto React y necesita separar interfaz, datos y eventos sin perder orden ni duplicar logica. Aplica \"Props como objetos\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un componente React funcional con props, estado, evento, lista o formulario y explicacion de uso.",
+          "alert": "No agregar complejidad, librerias o estado global antes de resolver el caso simple.",
+          "keyPoints": [
+            "Props como objetos debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un componente React funcional con props, estado, evento, lista o formulario y explicacion de uso.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m2-l3",
+          "title": "Children",
+          "keyIdea": "Idea clave: Children sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Children\" dentro del modulo \"Props y composicion\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona empieza un proyecto React y necesita separar interfaz, datos y eventos sin perder orden ni duplicar logica. Aplica \"Children\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un componente React funcional con props, estado, evento, lista o formulario y explicacion de uso.",
+          "alert": "No agregar complejidad, librerias o estado global antes de resolver el caso simple.",
+          "keyPoints": [
+            "Children debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un componente React funcional con props, estado, evento, lista o formulario y explicacion de uso.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m2-l4",
+          "title": "Composicion",
+          "keyIdea": "Idea clave: Composicion sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Composicion\" dentro del modulo \"Props y composicion\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona empieza un proyecto React y necesita separar interfaz, datos y eventos sin perder orden ni duplicar logica. Aplica \"Composicion\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un componente React funcional con props, estado, evento, lista o formulario y explicacion de uso.",
+          "alert": "No agregar complejidad, librerias o estado global antes de resolver el caso simple.",
+          "keyPoints": [
+            "Composicion debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un componente React funcional con props, estado, evento, lista o formulario y explicacion de uso.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m2-l5",
+          "title": "Componentes de tarjeta",
+          "keyIdea": "Idea clave: Componentes de tarjeta sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Componentes de tarjeta\" dentro del modulo \"Props y composicion\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona empieza un proyecto React y necesita separar interfaz, datos y eventos sin perder orden ni duplicar logica. Aplica \"Componentes de tarjeta\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un componente React funcional con props, estado, evento, lista o formulario y explicacion de uso.",
+          "alert": "No agregar complejidad, librerias o estado global antes de resolver el caso simple.",
+          "keyPoints": [
+            "Componentes de tarjeta debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un componente React funcional con props, estado, evento, lista o formulario y explicacion de uso.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m2-l6",
+          "title": "Datos desde arrays",
+          "keyIdea": "Idea clave: Datos desde arrays sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Datos desde arrays\" dentro del modulo \"Props y composicion\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona empieza un proyecto React y necesita separar interfaz, datos y eventos sin perder orden ni duplicar logica. Aplica \"Datos desde arrays\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un componente React funcional con props, estado, evento, lista o formulario y explicacion de uso.",
+          "alert": "No agregar complejidad, librerias o estado global antes de resolver el caso simple.",
+          "keyPoints": [
+            "Datos desde arrays debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un componente React funcional con props, estado, evento, lista o formulario y explicacion de uso.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m2-q1",
+          "question": "Pregunta 1: ¿cual es una buena practica en ",
+          "options": [
+            "Pasar datos por props y mantener componentes claros",
+            "Modificar props directamente",
+            "Duplicar componentes iguales",
+            "Usar nombres ambiguos"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        },
+        {
+          "id": "m2-q2",
+          "question": "Pregunta 2: ¿cual es una buena practica en ",
+          "options": [
+            "Pasar datos por props y mantener componentes claros",
+            "Modificar props directamente",
+            "Duplicar componentes iguales",
+            "Usar nombres ambiguos"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        },
+        {
+          "id": "m2-q3",
+          "question": "Pregunta 3: ¿cual es una buena practica en ",
+          "options": [
+            "Pasar datos por props y mantener componentes claros",
+            "Modificar props directamente",
+            "Duplicar componentes iguales",
+            "Usar nombres ambiguos"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        },
+        {
+          "id": "m2-q4",
+          "question": "Pregunta 4: ¿cual es una buena practica en ",
+          "options": [
+            "Pasar datos por props y mantener componentes claros",
+            "Modificar props directamente",
+            "Duplicar componentes iguales",
+            "Usar nombres ambiguos"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        },
+        {
+          "id": "m2-q5",
+          "question": "Pregunta 5: ¿cual es una buena practica en ",
+          "options": [
+            "Pasar datos por props y mantener componentes claros",
+            "Modificar props directamente",
+            "Duplicar componentes iguales",
+            "Usar nombres ambiguos"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        }
+      ],
+      "professionalOutcome": "dividir una interfaz en componentes, manejar estado simple y reutilizar UI. Entregable sugerido: una app React pequena con componentes claros, estado local y datos de ejemplo."
+    },
+    {
+      "id": "m3",
+      "title": "Estado y eventos",
+      "description": "En este modulo vas a trabajar \"Estado y eventos\" dentro de React basico, componentes, props, estado, eventos, listas, formularios, efectos y publicacion. La meta es construir una pieza pequena, probarla en navegador y dejar evidencia de que funciona para una persona real.",
+      "lessons": [
+        {
+          "id": "m3-l1",
+          "title": "Que es estado",
+          "keyIdea": "Idea clave: Que es estado sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Que es estado\" dentro del modulo \"Estado y eventos\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona empieza un proyecto React y necesita separar interfaz, datos y eventos sin perder orden ni duplicar logica. Aplica \"Que es estado\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un componente React funcional con props, estado, evento, lista o formulario y explicacion de uso.",
+          "alert": "No agregar complejidad, librerias o estado global antes de resolver el caso simple.",
+          "keyPoints": [
+            "Que es estado debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un componente React funcional con props, estado, evento, lista o formulario y explicacion de uso.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m3-l2",
+          "title": "useState",
+          "keyIdea": "Idea clave: useState sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"useState\" dentro del modulo \"Estado y eventos\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona empieza un proyecto React y necesita separar interfaz, datos y eventos sin perder orden ni duplicar logica. Aplica \"useState\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un componente React funcional con props, estado, evento, lista o formulario y explicacion de uso.",
+          "alert": "No agregar complejidad, librerias o estado global antes de resolver el caso simple.",
+          "keyPoints": [
+            "useState debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un componente React funcional con props, estado, evento, lista o formulario y explicacion de uso.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m3-l3",
+          "title": "Eventos de click",
+          "keyIdea": "Idea clave: Eventos de click sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Eventos de click\" dentro del modulo \"Estado y eventos\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona empieza un proyecto React y necesita separar interfaz, datos y eventos sin perder orden ni duplicar logica. Aplica \"Eventos de click\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un componente React funcional con props, estado, evento, lista o formulario y explicacion de uso.",
+          "alert": "No agregar complejidad, librerias o estado global antes de resolver el caso simple.",
+          "keyPoints": [
+            "Eventos de click debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un componente React funcional con props, estado, evento, lista o formulario y explicacion de uso.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m3-l4",
+          "title": "Inputs controlados",
+          "keyIdea": "Idea clave: Inputs controlados sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Inputs controlados\" dentro del modulo \"Estado y eventos\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona empieza un proyecto React y necesita separar interfaz, datos y eventos sin perder orden ni duplicar logica. Aplica \"Inputs controlados\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un componente React funcional con props, estado, evento, lista o formulario y explicacion de uso.",
+          "alert": "No agregar complejidad, librerias o estado global antes de resolver el caso simple.",
+          "keyPoints": [
+            "Inputs controlados debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un componente React funcional con props, estado, evento, lista o formulario y explicacion de uso.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m3-l5",
+          "title": "Actualizar listas",
+          "keyIdea": "Idea clave: Actualizar listas sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Actualizar listas\" dentro del modulo \"Estado y eventos\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona empieza un proyecto React y necesita separar interfaz, datos y eventos sin perder orden ni duplicar logica. Aplica \"Actualizar listas\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un componente React funcional con props, estado, evento, lista o formulario y explicacion de uso.",
+          "alert": "No agregar complejidad, librerias o estado global antes de resolver el caso simple.",
+          "keyPoints": [
+            "Actualizar listas debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un componente React funcional con props, estado, evento, lista o formulario y explicacion de uso.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m3-l6",
+          "title": "Evitar mutacion directa",
+          "keyIdea": "Idea clave: Evitar mutacion directa sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Evitar mutacion directa\" dentro del modulo \"Estado y eventos\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona empieza un proyecto React y necesita separar interfaz, datos y eventos sin perder orden ni duplicar logica. Aplica \"Evitar mutacion directa\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un componente React funcional con props, estado, evento, lista o formulario y explicacion de uso.",
+          "alert": "No agregar complejidad, librerias o estado global antes de resolver el caso simple.",
+          "keyPoints": [
+            "Evitar mutacion directa debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un componente React funcional con props, estado, evento, lista o formulario y explicacion de uso.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m3-q1",
+          "question": "Pregunta 1: ¿cual es una buena practica en ",
+          "options": [
+            "Actualizar estado creando nuevos valores, no mutando el anterior",
+            "Cambiar arrays directamente",
+            "Guardar todo en estado sin criterio",
+            "Olvidar eventos accesibles"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        },
+        {
+          "id": "m3-q2",
+          "question": "Pregunta 2: ¿cual es una buena practica en ",
+          "options": [
+            "Actualizar estado creando nuevos valores, no mutando el anterior",
+            "Cambiar arrays directamente",
+            "Guardar todo en estado sin criterio",
+            "Olvidar eventos accesibles"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        },
+        {
+          "id": "m3-q3",
+          "question": "Pregunta 3: ¿cual es una buena practica en ",
+          "options": [
+            "Actualizar estado creando nuevos valores, no mutando el anterior",
+            "Cambiar arrays directamente",
+            "Guardar todo en estado sin criterio",
+            "Olvidar eventos accesibles"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        },
+        {
+          "id": "m3-q4",
+          "question": "Pregunta 4: ¿cual es una buena practica en ",
+          "options": [
+            "Actualizar estado creando nuevos valores, no mutando el anterior",
+            "Cambiar arrays directamente",
+            "Guardar todo en estado sin criterio",
+            "Olvidar eventos accesibles"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        },
+        {
+          "id": "m3-q5",
+          "question": "Pregunta 5: ¿cual es una buena practica en ",
+          "options": [
+            "Actualizar estado creando nuevos valores, no mutando el anterior",
+            "Cambiar arrays directamente",
+            "Guardar todo en estado sin criterio",
+            "Olvidar eventos accesibles"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        }
+      ],
+      "professionalOutcome": "dividir una interfaz en componentes, manejar estado simple y reutilizar UI. Entregable sugerido: una app React pequena con componentes claros, estado local y datos de ejemplo."
+    },
+    {
+      "id": "m4",
+      "title": "Listas, formularios y estilos",
+      "description": "En este modulo vas a trabajar \"Listas, formularios y estilos\" dentro de React basico, componentes, props, estado, eventos, listas, formularios, efectos y publicacion. La meta es construir una pieza pequena, probarla en navegador y dejar evidencia de que funciona para una persona real.",
+      "lessons": [
+        {
+          "id": "m4-l1",
+          "title": "map y key",
+          "keyIdea": "Idea clave: map y key sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"map y key\" dentro del modulo \"Listas, formularios y estilos\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona empieza un proyecto React y necesita separar interfaz, datos y eventos sin perder orden ni duplicar logica. Aplica \"map y key\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un componente React funcional con props, estado, evento, lista o formulario y explicacion de uso.",
+          "alert": "No agregar complejidad, librerias o estado global antes de resolver el caso simple.",
+          "keyPoints": [
+            "map y key debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un componente React funcional con props, estado, evento, lista o formulario y explicacion de uso.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m4-l2",
+          "title": "Listas filtrables",
+          "keyIdea": "Idea clave: Listas filtrables sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Listas filtrables\" dentro del modulo \"Listas, formularios y estilos\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona empieza un proyecto React y necesita separar interfaz, datos y eventos sin perder orden ni duplicar logica. Aplica \"Listas filtrables\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un componente React funcional con props, estado, evento, lista o formulario y explicacion de uso.",
+          "alert": "No agregar complejidad, librerias o estado global antes de resolver el caso simple.",
+          "keyPoints": [
+            "Listas filtrables debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un componente React funcional con props, estado, evento, lista o formulario y explicacion de uso.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m4-l3",
+          "title": "Formulario simple",
+          "keyIdea": "Idea clave: Formulario simple sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Formulario simple\" dentro del modulo \"Listas, formularios y estilos\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona empieza un proyecto React y necesita separar interfaz, datos y eventos sin perder orden ni duplicar logica. Aplica \"Formulario simple\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un componente React funcional con props, estado, evento, lista o formulario y explicacion de uso.",
+          "alert": "No agregar complejidad, librerias o estado global antes de resolver el caso simple.",
+          "keyPoints": [
+            "Formulario simple debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un componente React funcional con props, estado, evento, lista o formulario y explicacion de uso.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m4-l4",
+          "title": "Validacion basica",
+          "keyIdea": "Idea clave: Validacion basica sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Validacion basica\" dentro del modulo \"Listas, formularios y estilos\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona empieza un proyecto React y necesita separar interfaz, datos y eventos sin perder orden ni duplicar logica. Aplica \"Validacion basica\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un componente React funcional con props, estado, evento, lista o formulario y explicacion de uso.",
+          "alert": "No agregar complejidad, librerias o estado global antes de resolver el caso simple.",
+          "keyPoints": [
+            "Validacion basica debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un componente React funcional con props, estado, evento, lista o formulario y explicacion de uso.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m4-l5",
+          "title": "Clases CSS",
+          "keyIdea": "Idea clave: Clases CSS sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Clases CSS\" dentro del modulo \"Listas, formularios y estilos\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona empieza un proyecto React y necesita separar interfaz, datos y eventos sin perder orden ni duplicar logica. Aplica \"Clases CSS\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un componente React funcional con props, estado, evento, lista o formulario y explicacion de uso.",
+          "alert": "No agregar complejidad, librerias o estado global antes de resolver el caso simple.",
+          "keyPoints": [
+            "Clases CSS debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un componente React funcional con props, estado, evento, lista o formulario y explicacion de uso.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m4-l6",
+          "title": "Componentes presentacionales",
+          "keyIdea": "Idea clave: Componentes presentacionales sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Componentes presentacionales\" dentro del modulo \"Listas, formularios y estilos\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona empieza un proyecto React y necesita separar interfaz, datos y eventos sin perder orden ni duplicar logica. Aplica \"Componentes presentacionales\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un componente React funcional con props, estado, evento, lista o formulario y explicacion de uso.",
+          "alert": "No agregar complejidad, librerias o estado global antes de resolver el caso simple.",
+          "keyPoints": [
+            "Componentes presentacionales debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un componente React funcional con props, estado, evento, lista o formulario y explicacion de uso.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m4-q1",
+          "question": "Pregunta 1: ¿cual es una buena practica en ",
+          "options": [
+            "Usar keys estables y validar datos antes de guardar",
+            "Usar indice como key siempre",
+            "No validar formularios",
+            "Acoplar estilos a datos"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        },
+        {
+          "id": "m4-q2",
+          "question": "Pregunta 2: ¿cual es una buena practica en ",
+          "options": [
+            "Usar keys estables y validar datos antes de guardar",
+            "Usar indice como key siempre",
+            "No validar formularios",
+            "Acoplar estilos a datos"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        },
+        {
+          "id": "m4-q3",
+          "question": "Pregunta 3: ¿cual es una buena practica en ",
+          "options": [
+            "Usar keys estables y validar datos antes de guardar",
+            "Usar indice como key siempre",
+            "No validar formularios",
+            "Acoplar estilos a datos"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        },
+        {
+          "id": "m4-q4",
+          "question": "Pregunta 4: ¿cual es una buena practica en ",
+          "options": [
+            "Usar keys estables y validar datos antes de guardar",
+            "Usar indice como key siempre",
+            "No validar formularios",
+            "Acoplar estilos a datos"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        },
+        {
+          "id": "m4-q5",
+          "question": "Pregunta 5: ¿cual es una buena practica en ",
+          "options": [
+            "Usar keys estables y validar datos antes de guardar",
+            "Usar indice como key siempre",
+            "No validar formularios",
+            "Acoplar estilos a datos"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        }
+      ],
+      "professionalOutcome": "dividir una interfaz en componentes, manejar estado simple y reutilizar UI. Entregable sugerido: una app React pequena con componentes claros, estado local y datos de ejemplo."
+    },
+    {
+      "id": "m5",
+      "title": "Efectos y datos externos",
+      "description": "En este modulo vas a trabajar \"Efectos y datos externos\" dentro de React basico, componentes, props, estado, eventos, listas, formularios, efectos y publicacion. La meta es construir una pieza pequena, probarla en navegador y dejar evidencia de que funciona para una persona real.",
+      "lessons": [
+        {
+          "id": "m5-l1",
+          "title": "Que es un efecto",
+          "keyIdea": "Idea clave: Que es un efecto sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Que es un efecto\" dentro del modulo \"Efectos y datos externos\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona empieza un proyecto React y necesita separar interfaz, datos y eventos sin perder orden ni duplicar logica. Aplica \"Que es un efecto\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un componente React funcional con props, estado, evento, lista o formulario y explicacion de uso.",
+          "alert": "No agregar complejidad, librerias o estado global antes de resolver el caso simple.",
+          "keyPoints": [
+            "Que es un efecto debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un componente React funcional con props, estado, evento, lista o formulario y explicacion de uso.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m5-l2",
+          "title": "useEffect basico",
+          "keyIdea": "Idea clave: useEffect basico sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"useEffect basico\" dentro del modulo \"Efectos y datos externos\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona empieza un proyecto React y necesita separar interfaz, datos y eventos sin perder orden ni duplicar logica. Aplica \"useEffect basico\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un componente React funcional con props, estado, evento, lista o formulario y explicacion de uso.",
+          "alert": "No agregar complejidad, librerias o estado global antes de resolver el caso simple.",
+          "keyPoints": [
+            "useEffect basico debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un componente React funcional con props, estado, evento, lista o formulario y explicacion de uso.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m5-l3",
+          "title": "Fetch en React",
+          "keyIdea": "Idea clave: Fetch en React sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Fetch en React\" dentro del modulo \"Efectos y datos externos\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona empieza un proyecto React y necesita separar interfaz, datos y eventos sin perder orden ni duplicar logica. Aplica \"Fetch en React\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un componente React funcional con props, estado, evento, lista o formulario y explicacion de uso.",
+          "alert": "No agregar complejidad, librerias o estado global antes de resolver el caso simple.",
+          "keyPoints": [
+            "Fetch en React debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un componente React funcional con props, estado, evento, lista o formulario y explicacion de uso.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m5-l4",
+          "title": "Loading error success",
+          "keyIdea": "Idea clave: Loading error success sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Loading error success\" dentro del modulo \"Efectos y datos externos\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona empieza un proyecto React y necesita separar interfaz, datos y eventos sin perder orden ni duplicar logica. Aplica \"Loading error success\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un componente React funcional con props, estado, evento, lista o formulario y explicacion de uso.",
+          "alert": "No agregar complejidad, librerias o estado global antes de resolver el caso simple.",
+          "keyPoints": [
+            "Loading error success debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un componente React funcional con props, estado, evento, lista o formulario y explicacion de uso.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m5-l5",
+          "title": "Dependencias",
+          "keyIdea": "Idea clave: Dependencias sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Dependencias\" dentro del modulo \"Efectos y datos externos\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona empieza un proyecto React y necesita separar interfaz, datos y eventos sin perder orden ni duplicar logica. Aplica \"Dependencias\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un componente React funcional con props, estado, evento, lista o formulario y explicacion de uso.",
+          "alert": "No agregar complejidad, librerias o estado global antes de resolver el caso simple.",
+          "keyPoints": [
+            "Dependencias debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un componente React funcional con props, estado, evento, lista o formulario y explicacion de uso.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m5-l6",
+          "title": "Limpiar efectos",
+          "keyIdea": "Idea clave: Limpiar efectos sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Limpiar efectos\" dentro del modulo \"Efectos y datos externos\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona empieza un proyecto React y necesita separar interfaz, datos y eventos sin perder orden ni duplicar logica. Aplica \"Limpiar efectos\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un componente React funcional con props, estado, evento, lista o formulario y explicacion de uso.",
+          "alert": "No agregar complejidad, librerias o estado global antes de resolver el caso simple.",
+          "keyPoints": [
+            "Limpiar efectos debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un componente React funcional con props, estado, evento, lista o formulario y explicacion de uso.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m5-q1",
+          "question": "Pregunta 1: ¿cual es una buena practica en ",
+          "options": [
+            "Usar efectos para sincronizar con datos externos y manejar estados",
+            "Llamar fetch en cada render",
+            "Ignorar dependencias",
+            "No contemplar desmontaje"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        },
+        {
+          "id": "m5-q2",
+          "question": "Pregunta 2: ¿cual es una buena practica en ",
+          "options": [
+            "Usar efectos para sincronizar con datos externos y manejar estados",
+            "Llamar fetch en cada render",
+            "Ignorar dependencias",
+            "No contemplar desmontaje"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        },
+        {
+          "id": "m5-q3",
+          "question": "Pregunta 3: ¿cual es una buena practica en ",
+          "options": [
+            "Usar efectos para sincronizar con datos externos y manejar estados",
+            "Llamar fetch en cada render",
+            "Ignorar dependencias",
+            "No contemplar desmontaje"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        },
+        {
+          "id": "m5-q4",
+          "question": "Pregunta 4: ¿cual es una buena practica en ",
+          "options": [
+            "Usar efectos para sincronizar con datos externos y manejar estados",
+            "Llamar fetch en cada render",
+            "Ignorar dependencias",
+            "No contemplar desmontaje"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        },
+        {
+          "id": "m5-q5",
+          "question": "Pregunta 5: ¿cual es una buena practica en ",
+          "options": [
+            "Usar efectos para sincronizar con datos externos y manejar estados",
+            "Llamar fetch en cada render",
+            "Ignorar dependencias",
+            "No contemplar desmontaje"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        }
+      ],
+      "professionalOutcome": "dividir una interfaz en componentes, manejar estado simple y reutilizar UI. Entregable sugerido: una app React pequena con componentes claros, estado local y datos de ejemplo."
+    },
+    {
+      "id": "m6",
+      "title": "Proyecto y publicacion",
+      "description": "En este modulo vas a trabajar \"Proyecto y publicacion\" dentro de React basico, componentes, props, estado, eventos, listas, formularios, efectos y publicacion. La meta es construir una pieza pequena, probarla en navegador y dejar evidencia de que funciona para una persona real.",
+      "lessons": [
+        {
+          "id": "m6-l1",
+          "title": "Estructura de carpetas",
+          "keyIdea": "Idea clave: Estructura de carpetas sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Estructura de carpetas\" dentro del modulo \"Proyecto y publicacion\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona empieza un proyecto React y necesita separar interfaz, datos y eventos sin perder orden ni duplicar logica. Aplica \"Estructura de carpetas\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un componente React funcional con props, estado, evento, lista o formulario y explicacion de uso.",
+          "alert": "No agregar complejidad, librerias o estado global antes de resolver el caso simple.",
+          "keyPoints": [
+            "Estructura de carpetas debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un componente React funcional con props, estado, evento, lista o formulario y explicacion de uso.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m6-l2",
+          "title": "Componentes principales",
+          "keyIdea": "Idea clave: Componentes principales sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Componentes principales\" dentro del modulo \"Proyecto y publicacion\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona empieza un proyecto React y necesita separar interfaz, datos y eventos sin perder orden ni duplicar logica. Aplica \"Componentes principales\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un componente React funcional con props, estado, evento, lista o formulario y explicacion de uso.",
+          "alert": "No agregar complejidad, librerias o estado global antes de resolver el caso simple.",
+          "keyPoints": [
+            "Componentes principales debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un componente React funcional con props, estado, evento, lista o formulario y explicacion de uso.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m6-l3",
+          "title": "Estado global simple",
+          "keyIdea": "Idea clave: Estado global simple sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Estado global simple\" dentro del modulo \"Proyecto y publicacion\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona empieza un proyecto React y necesita separar interfaz, datos y eventos sin perder orden ni duplicar logica. Aplica \"Estado global simple\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un componente React funcional con props, estado, evento, lista o formulario y explicacion de uso.",
+          "alert": "No agregar complejidad, librerias o estado global antes de resolver el caso simple.",
+          "keyPoints": [
+            "Estado global simple debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un componente React funcional con props, estado, evento, lista o formulario y explicacion de uso.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m6-l4",
+          "title": "Pruebas manuales",
+          "keyIdea": "Idea clave: Pruebas manuales sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Pruebas manuales\" dentro del modulo \"Proyecto y publicacion\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona empieza un proyecto React y necesita separar interfaz, datos y eventos sin perder orden ni duplicar logica. Aplica \"Pruebas manuales\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un componente React funcional con props, estado, evento, lista o formulario y explicacion de uso.",
+          "alert": "No agregar complejidad, librerias o estado global antes de resolver el caso simple.",
+          "keyPoints": [
+            "Pruebas manuales debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un componente React funcional con props, estado, evento, lista o formulario y explicacion de uso.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m6-l5",
+          "title": "Build estatico",
+          "keyIdea": "Idea clave: Build estatico sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Build estatico\" dentro del modulo \"Proyecto y publicacion\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona empieza un proyecto React y necesita separar interfaz, datos y eventos sin perder orden ni duplicar logica. Aplica \"Build estatico\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un componente React funcional con props, estado, evento, lista o formulario y explicacion de uso.",
+          "alert": "No agregar complejidad, librerias o estado global antes de resolver el caso simple.",
+          "keyPoints": [
+            "Build estatico debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un componente React funcional con props, estado, evento, lista o formulario y explicacion de uso.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m6-l6",
+          "title": "Siguientes pasos",
+          "keyIdea": "Idea clave: Siguientes pasos sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Siguientes pasos\" dentro del modulo \"Proyecto y publicacion\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona empieza un proyecto React y necesita separar interfaz, datos y eventos sin perder orden ni duplicar logica. Aplica \"Siguientes pasos\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un componente React funcional con props, estado, evento, lista o formulario y explicacion de uso.",
+          "alert": "No agregar complejidad, librerias o estado global antes de resolver el caso simple.",
+          "keyPoints": [
+            "Siguientes pasos debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un componente React funcional con props, estado, evento, lista o formulario y explicacion de uso.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m6-q1",
+          "question": "Pregunta 1: ¿cual es una buena practica en ",
+          "options": [
+            "Cerrar una app pequeña, probada y documentada",
+            "Agregar librerias sin necesidad",
+            "No probar build",
+            "No explicar como ejecutar"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        },
+        {
+          "id": "m6-q2",
+          "question": "Pregunta 2: ¿cual es una buena practica en ",
+          "options": [
+            "Cerrar una app pequeña, probada y documentada",
+            "Agregar librerias sin necesidad",
+            "No probar build",
+            "No explicar como ejecutar"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        },
+        {
+          "id": "m6-q3",
+          "question": "Pregunta 3: ¿cual es una buena practica en ",
+          "options": [
+            "Cerrar una app pequeña, probada y documentada",
+            "Agregar librerias sin necesidad",
+            "No probar build",
+            "No explicar como ejecutar"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        },
+        {
+          "id": "m6-q4",
+          "question": "Pregunta 4: ¿cual es una buena practica en ",
+          "options": [
+            "Cerrar una app pequeña, probada y documentada",
+            "Agregar librerias sin necesidad",
+            "No probar build",
+            "No explicar como ejecutar"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        },
+        {
+          "id": "m6-q5",
+          "question": "Pregunta 5: ¿cual es una buena practica en ",
+          "options": [
+            "Cerrar una app pequeña, probada y documentada",
+            "Agregar librerias sin necesidad",
+            "No probar build",
+            "No explicar como ejecutar"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        }
+      ],
+      "professionalOutcome": "dividir una interfaz en componentes, manejar estado simple y reutilizar UI. Entregable sugerido: una app React pequena con componentes claros, estado local y datos de ejemplo."
+    }
+  ],
+  "appName": "React Basico para Principiantes",
+  "professionalization": {
+    "tier": "curso-bandera-v1.0-beta",
+    "updatedAt": "2026-05-28",
+    "focus": "Profundizacion visible de lecciones, practicas, checklists y casos."
+  },
+  "editorialPolish": {
+    "fourthEditorialBatch": "2026-06-02",
+    "status": "public-facing-copy-polished"
+  }
+}

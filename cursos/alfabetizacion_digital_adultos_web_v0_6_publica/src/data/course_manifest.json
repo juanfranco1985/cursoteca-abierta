@@ -1,0 +1,290 @@
+{
+  "courseId": "alfabetizacion-digital-adultos-web",
+  "templateVersion": "0.6-publica-profesional",
+  "appName": "Alfabetización Digital para Adultos",
+  "shortName": "Alfabetización Digital",
+  "subtitle": "Curso práctico para usar celular, correo, formularios, turnos y servicios digitales con más autonomía.",
+  "description": "Aprendé a resolver tareas digitales cotidianas con pasos claros, práctica guiada y criterios simples para pedir ayuda cuando haga falta.",
+  "audience": "Adultos con baja experiencia digital, personas mayores, familias acompañantes y talleres comunitarios.",
+  "dataPaths": {
+    "course": "src/data/course_content.json",
+    "checklists": "src/data/checklists.json",
+    "incidents": "src/data/incidents.json",
+    "stepGuides": "src/data/step_guides.json",
+    "taskAssistant": "src/data/task_assistant.json"
+  },
+  "labels": {
+    "modules": "Módulos de aprendizaje",
+    "checklists": "Checklists paso a paso",
+    "incidents": "Casos guiados",
+    "emergency": "Necesito ayuda",
+    "certificate": "Constancia de avance",
+    "primaryAction": "Empezar curso",
+    "emergencyAction": "Necesito una guía rápida",
+    "stepGuides": "Guías paso a paso",
+    "simpleMode": "Modo simple"
+  },
+  "features": {
+    "modules": true,
+    "quizzes": true,
+    "checklists": true,
+    "incidents": true,
+    "emergency": true,
+    "certificate": true,
+    "progressExport": true,
+    "templateGuide": true,
+    "accessibilityPanel": true,
+    "pwaBasic": true,
+    "offlineCache": true,
+    "publishGuide": true,
+    "adultFriendlyLearning": true,
+    "largeTextRecommended": true,
+    "stepByStepGuides": true,
+    "copyableSteps": true,
+    "printableGuides": true,
+    "adultSimpleMode": true,
+    "frequentTaskAssistant": true,
+    "taskRecommendations": true,
+    "copyableTaskPlans": true,
+    "adultTaskRouter": true,
+    "reinforcedAccessibility": true,
+    "simpleMode": true,
+    "seniorFriendlyNavigation": true,
+    "largeTouchTargets": true,
+    "reducedContentCards": true,
+    "mobileBottomNavigation": true,
+    "readingComfortChecks": true,
+    "publicationCandidate": true,
+    "publicReadme": true,
+    "publicationChecklist": true,
+    "screenshotsGuide": true,
+    "privacyPolicyBase": true,
+    "legalScopeNotice": true,
+    "publicProfessionalEdition": true,
+    "requiresBackend": false,
+    "requiresLogin": false
+  },
+  "theme": {
+    "primary": "#d6a85c",
+    "secondary": "#16a34a",
+    "accent": "#4fb6aa",
+    "danger": "#dc2626",
+    "background": "#21130b",
+    "surface": "#ffffff"
+  },
+  "responsibleNotice": "Contenido educativo. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. No compartir claves, codigos de verificacion, fotos de documentos ni datos bancarios en ejercicios.",
+  "cloneNotes": [
+    "Curso clonado desde la familia de cursos web para navegador.",
+    "Mantiene motor HTML/CSS/JS, progreso local y contenido JSON.",
+    "v0.1 prioriza lenguaje simple, accesibilidad y casos cotidianos.",
+    "v0.2 agrega modo guía paso a paso con instrucciones copiables e imprimibles para tareas frecuentes.",
+    "v0.3 agrega asistente de tareas frecuentes para recomendar guías, checklists o casos guiados según la necesidad del usuario.",
+    "v0.4 refuerza accesibilidad, modo simple, botones grandes, navegación móvil clara, contraste y foco visible para personas adultas o mayores.",
+    "v0.5 prepara el producto para publicación web con README público, guías de despliegue, capturas, privacidad, aviso legal y checklist final."
+  ],
+  "emergency": {
+    "title": "Necesito ayuda con el celular o una app",
+    "description": "Usá esta guía para ordenar el problema sin tocar opciones al azar y sin compartir claves.",
+    "firstMinutes": [
+      "Frená y leé qué aparece en pantalla.",
+      "No compartas códigos ni contraseñas.",
+      "No instales apps por publicidad o links.",
+      "Si hay dinero, cuenta o trámite involucrado, entrá solo por canal oficial.",
+      "Pedí ayuda a una persona confiable explicando el problema."
+    ],
+    "firstHour": [
+      "Identificá qué app o trámite está afectado.",
+      "Guardá captura si aparece un mensaje raro.",
+      "Revisá conexión, batería y destinatario antes de repetir acciones.",
+      "Usá uno de los casos guiados del curso."
+    ],
+    "first48Hours": [
+      "Ordená contactos de confianza.",
+      "Revisá contraseñas y recuperación de correo si hubo riesgo.",
+      "Actualizá apps desde tienda oficial.",
+      "Practicá nuevamente la tarea con datos no sensibles."
+    ]
+  },
+  "triage": {
+    "title": "Guía rápida: ¿qué necesito hacer?",
+    "description": "Respondé estas preguntas para elegir un caso guiado.",
+    "questions": [
+      {
+        "id": "tipo",
+        "text": "¿Qué problema tenés ahora?",
+        "options": [
+          {
+            "label": "No encuentro una app",
+            "incidentId": "no_encuentro_app",
+            "weight": 3
+          },
+          {
+            "label": "Necesito enviar una foto",
+            "incidentId": "enviar_foto_whatsapp",
+            "weight": 3
+          },
+          {
+            "label": "Me llegó un link dudoso",
+            "incidentId": "link_dudoso",
+            "weight": 4
+          },
+          {
+            "label": "No puedo entrar al correo",
+            "incidentId": "no_entro_correo",
+            "weight": 4
+          }
+        ]
+      },
+      {
+        "id": "riesgo",
+        "text": "¿Hay claves, pagos o datos personales involucrados?",
+        "options": [
+          {
+            "label": "Sí, hay claves/pagos/datos",
+            "incidentId": "link_dudoso",
+            "weight": 3
+          },
+          {
+            "label": "No, es una tarea común",
+            "incidentId": "no_encuentro_app",
+            "weight": 1
+          },
+          {
+            "label": "No estoy seguro",
+            "incidentId": "ayuda_sin_claves",
+            "weight": 2
+          }
+        ]
+      },
+      {
+        "id": "ayuda",
+        "text": "¿Necesitás que alguien te ayude?",
+        "options": [
+          {
+            "label": "Sí, pero quiero cuidar mis datos",
+            "incidentId": "ayuda_sin_claves",
+            "weight": 3
+          },
+          {
+            "label": "No, quiero probar paso a paso",
+            "incidentId": "archivo_perdido",
+            "weight": 1
+          },
+          {
+            "label": "Es un trámite online",
+            "incidentId": "tramite_online",
+            "weight": 3
+          }
+        ]
+      }
+    ],
+    "commonImmediateSteps": [
+      "No compartas contraseñas ni códigos.",
+      "Leé el mensaje completo antes de tocar.",
+      "Usá canales oficiales.",
+      "Pedí ayuda sin perder control de la pantalla."
+    ],
+    "mapLabel": "Ver casos guiados"
+  },
+  "webApp": {
+    "version": "0.3",
+    "publishTargets": [
+      "GitHub Pages",
+      "Netlify",
+      "Vercel",
+      "Blog personal"
+    ],
+    "screenshots": [
+      "Home con módulos",
+      "Lección simple",
+      "Checklist paso a paso",
+      "Caso guiado",
+      "Panel de accesibilidad",
+      "Constancia de avance"
+    ],
+    "cacheName": "alfabetizacion-digital-adultos-web-v0-6-publica-v0-6-publica-profesional",
+    "publicationStatus": "publica-profesional-v0.6"
+  },
+  "stepGuideMode": {
+    "title": "Modo guía paso a paso",
+    "description": "Elegí una tarea concreta y seguí instrucciones grandes, cortas y ordenadas. Podés copiar o imprimir los pasos para practicar con calma.",
+    "calmNotice": "No hace falta apurarse. Leé un paso, hacelo, y recién después pasá al siguiente.",
+    "printLabel": "Imprimir / guardar guía",
+    "copyLabel": "Copiar pasos",
+    "practiceLabel": "Marcar como practicada",
+    "categories": [
+      "Celular",
+      "WhatsApp",
+      "Archivos",
+      "Trámites",
+      "Seguridad",
+      "Ayuda"
+    ]
+  },
+  "taskAssistantMode": {
+    "title": "Asistente de tareas frecuentes",
+    "description": "Elegí qué necesitás hacer y el curso te recomienda una guía paso a paso, un caso guiado o un checklist práctico.",
+    "calmNotice": "No hace falta saber el nombre técnico del problema. Elegí la frase que más se parece a lo que querés hacer.",
+    "searchPlaceholder": "Buscar tarea: foto, WhatsApp, correo, turno, link, archivo…",
+    "startLabel": "Abrir asistente",
+    "copyLabel": "Copiar recomendación",
+    "printLabel": "Imprimir / guardar recomendación"
+  },
+  "accessibility": {
+    "recommendedDefault": "large",
+    "modes": [
+      "normal",
+      "large",
+      "extra-large"
+    ],
+    "simpleModeDescription": "Reduce opciones visibles y prioriza cuatro acciones principales: guías, asistente, ayuda y módulos.",
+    "seniorFriendlyRules": [
+      "botones grandes",
+      "texto breve",
+      "acciones principales visibles",
+      "foco visible",
+      "sin animaciones innecesarias",
+      "contraste reforzado"
+    ]
+  },
+  "publicEdition": {
+    "level": "publica-profesional",
+    "version": "0.6",
+    "generatedAt": "2026-05-26",
+    "sourceZip": "alfabetizacion_digital_adultos_web_v0_5.zip"
+  },
+  "publication": {
+    "version": "0.6-publica-profesional",
+    "status": "Publica profesional",
+    "requiresBackend": false,
+    "requiresLogin": false,
+    "requiresAnalytics": false,
+    "requiresAds": false,
+    "recommendedHosts": [
+      "GitHub Pages",
+      "Netlify",
+      "Vercel",
+      "Hosting estatico propio"
+    ],
+    "prePublishChecks": [
+      "Probar con servidor local",
+      "Probar navegacion en movil y escritorio",
+      "Revisar textos legales y privacidad",
+      "Verificar que no se pidan datos sensibles",
+      "Actualizar capturas publicas"
+    ]
+  },
+  "professionalization": {
+    "tier": "curso-bandera-v1.0-beta",
+    "updatedAt": "2026-05-28",
+    "improvements": [
+      "Lecciones con teoria, ejemplo, error comun y ejercicio mas profundos.",
+      "Checklists orientados a evidencia y entregables.",
+      "Casos guiados con pasos, errores y decision responsable."
+    ]
+  },
+  "editorialPolish": {
+    "firstFeaturedBatch": "2026-06-01",
+    "status": "public-facing-copy-polished"
+  }
+}

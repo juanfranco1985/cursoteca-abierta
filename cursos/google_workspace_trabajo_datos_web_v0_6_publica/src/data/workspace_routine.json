@@ -1,0 +1,124 @@
+{
+  "permissionsScenarios": [
+    {
+      "id": "perm-proyecto-equipo",
+      "title": "Compartir carpeta de proyecto con equipo",
+      "context": "Necesitás compartir una carpeta de Drive para que el equipo pueda editar documentos, pero no querés exponer archivos fuera del grupo.",
+      "recommendedPermission": "Editor solo para correos del equipo",
+      "avoid": [
+        "Compartir con 'cualquier persona con el enlace' si hay datos internos",
+        "Dar permisos de propietario",
+        "Mezclar archivos personales con archivos del proyecto"
+      ],
+      "steps": [
+        "Crear carpeta específica del proyecto",
+        "Mover solo los archivos necesarios",
+        "Compartir con correos concretos",
+        "Revisar que cada persona tenga el rol correcto",
+        "Probar acceso desde una cuenta invitada si es posible"
+      ]
+    },
+    {
+      "id": "perm-cliente-externo",
+      "title": "Enviar documento a cliente externo",
+      "context": "Tenés que enviar un presupuesto, informe o presentación a una persona externa.",
+      "recommendedPermission": "Lector o comentador, según necesidad",
+      "avoid": [
+        "Dar edición si solo debe leer",
+        "Compartir toda la carpeta si solo necesita un archivo",
+        "Incluir documentos borrador o internos"
+      ],
+      "steps": [
+        "Crear una versión final del archivo",
+        "Revisar contenido sensible",
+        "Compartir solo el archivo",
+        "Usar permiso lector/comentador",
+        "Enviar mensaje claro con propósito y plazo"
+      ]
+    },
+    {
+      "id": "perm-formulario-respuestas",
+      "title": "Proteger respuestas de un formulario",
+      "context": "Un formulario recolecta pedidos, inscripciones o consultas y sus respuestas quedan en una planilla.",
+      "recommendedPermission": "Editor solo para responsables de revisar respuestas",
+      "avoid": [
+        "Publicar la planilla de respuestas",
+        "Compartir con todo el grupo sin necesidad",
+        "Pedir datos excesivos en el formulario"
+      ],
+      "steps": [
+        "Separar formulario de planilla de respuestas",
+        "Revisar columnas sensibles",
+        "Compartir planilla solo con responsables",
+        "Eliminar campos que no sean necesarios",
+        "Crear copia anonimizada si se va a mostrar a terceros"
+      ]
+    }
+  ],
+  "weeklyRoutine": [
+    {
+      "id": "rut-drive",
+      "title": "Ordenar Drive",
+      "day": "Lunes",
+      "action": "Revisar carpetas activas, archivar documentos viejos y evitar duplicados."
+    },
+    {
+      "id": "rut-gmail",
+      "title": "Limpiar Gmail",
+      "day": "Martes",
+      "action": "Responder pendientes, etiquetar correos importantes y eliminar ruido."
+    },
+    {
+      "id": "rut-sheets",
+      "title": "Actualizar planillas",
+      "day": "Miércoles",
+      "action": "Completar datos faltantes, revisar fórmulas y congelar encabezados."
+    },
+    {
+      "id": "rut-forms",
+      "title": "Revisar formularios",
+      "day": "Jueves",
+      "action": "Controlar respuestas nuevas, campos incompletos y permisos de formularios."
+    },
+    {
+      "id": "rut-calendar",
+      "title": "Planificar agenda",
+      "day": "Viernes",
+      "action": "Cargar vencimientos, reuniones, entregas y recordatorios importantes."
+    },
+    {
+      "id": "rut-permisos",
+      "title": "Revisar permisos",
+      "day": "Fin de semana",
+      "action": "Controlar archivos compartidos y retirar accesos que ya no correspondan."
+    }
+  ],
+  "printChecklist": [
+    "¿La carpeta del proyecto tiene nombre claro?",
+    "¿Los archivos están separados por tema o fecha?",
+    "¿Los documentos compartidos tienen permisos mínimos necesarios?",
+    "¿Hay archivos con acceso público innecesario?",
+    "¿Las planillas tienen encabezados claros?",
+    "¿Los formularios no piden datos innecesarios?",
+    "¿Gmail y Calendar reflejan las próximas tareas importantes?",
+    "¿Se hizo una copia o resguardo de información importante?"
+  ],
+  "permissionLevels": [
+    {
+      "level": "Lector",
+      "use": "Cuando la persona solo debe consultar o descargar."
+    },
+    {
+      "level": "Comentador",
+      "use": "Cuando puede sugerir cambios pero no modificar el documento final."
+    },
+    {
+      "level": "Editor",
+      "use": "Cuando forma parte activa del trabajo y necesita modificar."
+    },
+    {
+      "level": "Propietario",
+      "use": "Reservar para el responsable real del archivo o carpeta."
+    }
+  ]
+}

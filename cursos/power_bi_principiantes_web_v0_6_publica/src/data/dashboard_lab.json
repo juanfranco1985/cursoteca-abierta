@@ -1,0 +1,276 @@
+{
+  "datasets": [
+    {
+      "id": "ventas_mensuales",
+      "title": "Ventas mensuales por categoría",
+      "description": "Tabla simplificada para pensar un tablero comercial con ventas, costos y margen por categoría y mes.",
+      "recommendedQuestion": "¿Qué categoría aporta más ventas y dónde conviene revisar margen?",
+      "columns": [
+        "mes",
+        "categoria",
+        "ventas",
+        "costo",
+        "margen",
+        "unidades"
+      ],
+      "rows": [
+        {
+          "mes": "Enero",
+          "categoria": "Bebidas",
+          "ventas": 182000,
+          "costo": 126000,
+          "margen": 56000,
+          "unidades": 420
+        },
+        {
+          "mes": "Enero",
+          "categoria": "Limpieza",
+          "ventas": 96000,
+          "costo": 72000,
+          "margen": 24000,
+          "unidades": 140
+        },
+        {
+          "mes": "Febrero",
+          "categoria": "Bebidas",
+          "ventas": 205000,
+          "costo": 141000,
+          "margen": 64000,
+          "unidades": 470
+        },
+        {
+          "mes": "Febrero",
+          "categoria": "Almacén",
+          "ventas": 248000,
+          "costo": 196000,
+          "margen": 52000,
+          "unidades": 620
+        },
+        {
+          "mes": "Marzo",
+          "categoria": "Bebidas",
+          "ventas": 176000,
+          "costo": 128000,
+          "margen": 48000,
+          "unidades": 390
+        },
+        {
+          "mes": "Marzo",
+          "categoria": "Almacén",
+          "ventas": 265000,
+          "costo": 205000,
+          "margen": 60000,
+          "unidades": 650
+        }
+      ]
+    },
+    {
+      "id": "stock_critico",
+      "title": "Stock crítico de productos",
+      "description": "Tabla para practicar indicadores de stock, reposición y prioridad de atención.",
+      "recommendedQuestion": "¿Qué productos requieren reposición urgente y cuáles pueden esperar?",
+      "columns": [
+        "producto",
+        "categoria",
+        "stock_actual",
+        "stock_minimo",
+        "ventas_30_dias",
+        "proveedor"
+      ],
+      "rows": [
+        {
+          "producto": "Yerba 500g",
+          "categoria": "Almacén",
+          "stock_actual": 8,
+          "stock_minimo": 20,
+          "ventas_30_dias": 76,
+          "proveedor": "Mayorista Norte"
+        },
+        {
+          "producto": "Gaseosa 2L",
+          "categoria": "Bebidas",
+          "stock_actual": 14,
+          "stock_minimo": 24,
+          "ventas_30_dias": 91,
+          "proveedor": "Distribuidora Río"
+        },
+        {
+          "producto": "Lavandina 1L",
+          "categoria": "Limpieza",
+          "stock_actual": 31,
+          "stock_minimo": 18,
+          "ventas_30_dias": 44,
+          "proveedor": "Mayorista Sur"
+        },
+        {
+          "producto": "Fideos 500g",
+          "categoria": "Almacén",
+          "stock_actual": 12,
+          "stock_minimo": 35,
+          "ventas_30_dias": 110,
+          "proveedor": "Mayorista Norte"
+        },
+        {
+          "producto": "Shampoo familiar",
+          "categoria": "Perfumería",
+          "stock_actual": 5,
+          "stock_minimo": 10,
+          "ventas_30_dias": 22,
+          "proveedor": "Distribuidora Centro"
+        }
+      ]
+    },
+    {
+      "id": "clientes_ventas",
+      "title": "Clientes y concentración de ventas",
+      "description": "Tabla simple para detectar dependencia de pocos clientes y leer concentración comercial.",
+      "recommendedQuestion": "¿Hay concentración excesiva de facturación en pocos clientes?",
+      "columns": [
+        "cliente",
+        "segmento",
+        "ventas_mes",
+        "pedidos",
+        "ticket_promedio"
+      ],
+      "rows": [
+        {
+          "cliente": "Cliente A",
+          "segmento": "Revendedor",
+          "ventas_mes": 310000,
+          "pedidos": 18,
+          "ticket_promedio": 17222
+        },
+        {
+          "cliente": "Cliente B",
+          "segmento": "Minorista",
+          "ventas_mes": 84000,
+          "pedidos": 7,
+          "ticket_promedio": 12000
+        },
+        {
+          "cliente": "Cliente C",
+          "segmento": "Mayorista",
+          "ventas_mes": 221000,
+          "pedidos": 11,
+          "ticket_promedio": 20091
+        },
+        {
+          "cliente": "Cliente D",
+          "segmento": "Minorista",
+          "ventas_mes": 52000,
+          "pedidos": 6,
+          "ticket_promedio": 8667
+        },
+        {
+          "cliente": "Cliente E",
+          "segmento": "Revendedor",
+          "ventas_mes": 147000,
+          "pedidos": 9,
+          "ticket_promedio": 16333
+        }
+      ]
+    }
+  ],
+  "kpis": [
+    {
+      "id": "ventas_totales",
+      "title": "Ventas totales",
+      "description": "Suma del valor de ventas en el período analizado.",
+      "bestFor": [
+        "ventas_mensuales",
+        "clientes_ventas"
+      ]
+    },
+    {
+      "id": "margen_total",
+      "title": "Margen total",
+      "description": "Diferencia entre ventas y costo, útil para leer rentabilidad básica.",
+      "bestFor": [
+        "ventas_mensuales"
+      ]
+    },
+    {
+      "id": "stock_bajo_minimo",
+      "title": "Productos bajo mínimo",
+      "description": "Cantidad de productos cuyo stock actual está debajo del mínimo esperado.",
+      "bestFor": [
+        "stock_critico"
+      ]
+    },
+    {
+      "id": "ticket_promedio",
+      "title": "Ticket promedio",
+      "description": "Monto promedio por pedido o compra.",
+      "bestFor": [
+        "clientes_ventas"
+      ]
+    },
+    {
+      "id": "top_categoria",
+      "title": "Categoría líder",
+      "description": "Categoría o grupo que concentra mayor venta o volumen.",
+      "bestFor": [
+        "ventas_mensuales"
+      ]
+    }
+  ],
+  "visuals": [
+    {
+      "id": "bar",
+      "title": "Gráfico de barras",
+      "useWhen": "Comparar categorías, productos, clientes o proveedores."
+    },
+    {
+      "id": "line",
+      "title": "Gráfico de línea",
+      "useWhen": "Mostrar evolución por mes o período."
+    },
+    {
+      "id": "card",
+      "title": "Tarjeta KPI",
+      "useWhen": "Mostrar un número principal: ventas, margen, stock crítico o promedio."
+    },
+    {
+      "id": "table",
+      "title": "Tabla detallada",
+      "useWhen": "Revisar filas con detalle y detectar casos específicos."
+    },
+    {
+      "id": "slicer",
+      "title": "Segmentador/filtro",
+      "useWhen": "Permitir filtrar por mes, categoría, proveedor o segmento."
+    }
+  ],
+  "dashboardTemplates": [
+    {
+      "id": "ventas_basico",
+      "title": "Dashboard básico de ventas",
+      "layout": [
+        "Tarjeta: ventas totales",
+        "Barras: ventas por categoría",
+        "Línea: ventas por mes",
+        "Tabla: detalle por categoría"
+      ]
+    },
+    {
+      "id": "stock_operativo",
+      "title": "Dashboard operativo de stock",
+      "layout": [
+        "Tarjeta: productos bajo mínimo",
+        "Tabla: productos críticos",
+        "Barras: ventas últimos 30 días",
+        "Filtro: proveedor"
+      ]
+    },
+    {
+      "id": "clientes_concentracion",
+      "title": "Dashboard de clientes",
+      "layout": [
+        "Tarjeta: ventas del mes",
+        "Barras: ventas por cliente",
+        "Tabla: pedidos y ticket promedio",
+        "Filtro: segmento"
+      ]
+    }
+  ]
+}

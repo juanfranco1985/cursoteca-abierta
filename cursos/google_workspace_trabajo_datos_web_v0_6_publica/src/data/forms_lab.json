@@ -1,0 +1,308 @@
+{
+  "version": "0.3",
+  "title": "Laboratorio Google Forms + Sheets",
+  "description": "Práctica educativa para diseñar formularios simples, simular respuestas, revisar calidad de datos y organizar resultados en una planilla.",
+  "formTemplates": [
+    {
+      "id": "pedidos-local",
+      "title": "Formulario de pedidos para un emprendimiento",
+      "goal": "Recolectar pedidos simples sin perder datos clave.",
+      "audience": "Clientes de un pequeño negocio",
+      "fields": [
+        {
+          "label": "Nombre o referencia del cliente",
+          "type": "respuesta corta",
+          "required": true,
+          "note": "Usar datos ficticios en la práctica."
+        },
+        {
+          "label": "Producto solicitado",
+          "type": "lista desplegable",
+          "required": true,
+          "options": [
+            "Yerba",
+            "Galletitas",
+            "Limpieza",
+            "Bebidas",
+            "Otro"
+          ]
+        },
+        {
+          "label": "Cantidad",
+          "type": "número",
+          "required": true
+        },
+        {
+          "label": "Modo de entrega",
+          "type": "opción múltiple",
+          "required": true,
+          "options": [
+            "Retiro",
+            "Envío barrial",
+            "A coordinar"
+          ]
+        },
+        {
+          "label": "Observaciones",
+          "type": "párrafo",
+          "required": false
+        }
+      ],
+      "expectedSheetColumns": [
+        "Fecha",
+        "Cliente",
+        "Producto",
+        "Cantidad",
+        "Entrega",
+        "Observaciones"
+      ],
+      "commonMistakes": [
+        "No marcar campos obligatorios",
+        "Usar preguntas abiertas cuando conviene lista",
+        "Pedir datos innecesarios"
+      ],
+      "recommendedChart": "Conteo de pedidos por producto"
+    },
+    {
+      "id": "inscripcion-taller",
+      "title": "Inscripción a taller o curso",
+      "goal": "Organizar personas interesadas y necesidades básicas de asistencia.",
+      "audience": "Participantes de un taller comunitario",
+      "fields": [
+        {
+          "label": "Nombre de referencia",
+          "type": "respuesta corta",
+          "required": true
+        },
+        {
+          "label": "Horario preferido",
+          "type": "opción múltiple",
+          "required": true,
+          "options": [
+            "Mañana",
+            "Tarde",
+            "Noche"
+          ]
+        },
+        {
+          "label": "Nivel de experiencia",
+          "type": "opción múltiple",
+          "required": true,
+          "options": [
+            "Inicial",
+            "Intermedio",
+            "Avanzado"
+          ]
+        },
+        {
+          "label": "Necesita ayuda con",
+          "type": "casillas",
+          "required": false,
+          "options": [
+            "WhatsApp",
+            "Correo",
+            "Planillas",
+            "Trámites",
+            "Seguridad"
+          ]
+        },
+        {
+          "label": "Comentario adicional",
+          "type": "párrafo",
+          "required": false
+        }
+      ],
+      "expectedSheetColumns": [
+        "Fecha",
+        "Nombre",
+        "Horario",
+        "Nivel",
+        "Necesita ayuda con",
+        "Comentario"
+      ],
+      "commonMistakes": [
+        "No definir horarios cerrados",
+        "Mezclar muchas preguntas en una sola",
+        "No explicar para qué se usará la información"
+      ],
+      "recommendedChart": "Distribución por nivel de experiencia"
+    },
+    {
+      "id": "relevamiento-gastos",
+      "title": "Relevamiento simple de gastos",
+      "goal": "Juntar datos para ordenar gastos de un equipo o familia sin pedir información sensible.",
+      "audience": "Grupo pequeño de trabajo o familia",
+      "fields": [
+        {
+          "label": "Categoría del gasto",
+          "type": "lista desplegable",
+          "required": true,
+          "options": [
+            "Transporte",
+            "Comida",
+            "Insumos",
+            "Comunicación",
+            "Otro"
+          ]
+        },
+        {
+          "label": "Monto estimado",
+          "type": "número",
+          "required": true
+        },
+        {
+          "label": "Frecuencia",
+          "type": "opción múltiple",
+          "required": true,
+          "options": [
+            "Único",
+            "Semanal",
+            "Mensual"
+          ]
+        },
+        {
+          "label": "Es necesario",
+          "type": "opción múltiple",
+          "required": true,
+          "options": [
+            "Sí",
+            "No",
+            "Revisar"
+          ]
+        }
+      ],
+      "expectedSheetColumns": [
+        "Fecha",
+        "Categoría",
+        "Monto",
+        "Frecuencia",
+        "Necesario"
+      ],
+      "commonMistakes": [
+        "Pedir comprobantes reales para una práctica",
+        "No separar categoría y monto",
+        "Dejar montos como texto"
+      ],
+      "recommendedChart": "Total estimado por categoría"
+    }
+  ],
+  "simulatedResponses": [
+    {
+      "id": "resp-pedidos-local",
+      "templateId": "pedidos-local",
+      "rows": [
+        [
+          "2026-05-01",
+          "Cliente A",
+          "Yerba",
+          2,
+          "Retiro",
+          ""
+        ],
+        [
+          "2026-05-01",
+          "Cliente B",
+          "Galletitas",
+          1,
+          "Envío barrial",
+          "pagar con transferencia"
+        ],
+        [
+          "2026-05-02",
+          "",
+          "Bebidas",
+          3,
+          "A coordinar",
+          "faltó nombre"
+        ],
+        [
+          "2026-05-02",
+          "Cliente C",
+          "yerba",
+          1,
+          "Retiro",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": "resp-inscripcion-taller",
+      "templateId": "inscripcion-taller",
+      "rows": [
+        [
+          "2026-05-03",
+          "Persona 1",
+          "Tarde",
+          "Inicial",
+          "WhatsApp; Correo",
+          ""
+        ],
+        [
+          "2026-05-03",
+          "Persona 2",
+          "Noche",
+          "Intermedio",
+          "Planillas",
+          ""
+        ],
+        [
+          "2026-05-04",
+          "Persona 3",
+          "Tarde",
+          "inicial",
+          "Trámites",
+          "necesita apoyo"
+        ]
+      ]
+    },
+    {
+      "id": "resp-relevamiento-gastos",
+      "templateId": "relevamiento-gastos",
+      "rows": [
+        [
+          "2026-05-05",
+          "Transporte",
+          12000,
+          "Mensual",
+          "Sí"
+        ],
+        [
+          "2026-05-05",
+          "comida",
+          18000,
+          "Semanal",
+          "Revisar"
+        ],
+        [
+          "2026-05-06",
+          "Comida",
+          "",
+          "Mensual",
+          "Sí"
+        ],
+        [
+          "2026-05-06",
+          "Insumos",
+          25000,
+          "Único",
+          "Sí"
+        ]
+      ]
+    }
+  ],
+  "qualityChecks": [
+    "Campos obligatorios incompletos",
+    "Categorías escritas de forma diferente",
+    "Montos vacíos o no numéricos",
+    "Preguntas que piden datos sensibles innecesarios",
+    "Columnas mal pensadas para analizar después"
+  ],
+  "reportTemplate": [
+    "Objetivo del formulario",
+    "Campos obligatorios elegidos",
+    "Problemas detectados en respuestas",
+    "Cómo organizaría la planilla",
+    "Visualización o resumen recomendado",
+    "Próxima mejora del formulario"
+  ]
+}

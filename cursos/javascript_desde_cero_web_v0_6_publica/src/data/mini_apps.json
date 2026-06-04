@@ -1,0 +1,129 @@
+{
+  "courseId": "javascript_desde_cero",
+  "version": "0.3",
+  "templates": [
+    {
+      "id": "miniapp-counter",
+      "title": "Contador interactivo",
+      "description": "Mini app para sumar, restar y reiniciar un número.",
+      "fields": [
+        {
+          "id": "title",
+          "label": "Título",
+          "default": "Mi contador"
+        },
+        {
+          "id": "startValue",
+          "label": "Valor inicial",
+          "default": "0"
+        },
+        {
+          "id": "incrementText",
+          "label": "Texto botón sumar",
+          "default": "Sumar"
+        },
+        {
+          "id": "decrementText",
+          "label": "Texto botón restar",
+          "default": "Restar"
+        },
+        {
+          "id": "resetText",
+          "label": "Texto botón reiniciar",
+          "default": "Reiniciar"
+        }
+      ],
+      "learningGoal": "Practicar variables, eventos y actualización del DOM.",
+      "starterHint": "El valor cambia cuando el usuario presiona un botón."
+    },
+    {
+      "id": "miniapp-todo",
+      "title": "Lista de tareas",
+      "description": "Mini app para agregar tareas a una lista simple.",
+      "fields": [
+        {
+          "id": "title",
+          "label": "Título",
+          "default": "Mis tareas"
+        },
+        {
+          "id": "placeholder",
+          "label": "Texto del campo",
+          "default": "Escribir tarea"
+        },
+        {
+          "id": "buttonText",
+          "label": "Texto del botón",
+          "default": "Agregar tarea"
+        },
+        {
+          "id": "emptyMessage",
+          "label": "Mensaje si está vacío",
+          "default": "Escribí una tarea antes de agregar."
+        }
+      ],
+      "learningGoal": "Practicar lectura de inputs, validación y creación de elementos.",
+      "starterHint": "No conviene agregar tareas vacías."
+    },
+    {
+      "id": "miniapp-calculator",
+      "title": "Calculadora simple",
+      "description": "Mini app para sumar dos números.",
+      "fields": [
+        {
+          "id": "title",
+          "label": "Título",
+          "default": "Calculadora simple"
+        },
+        {
+          "id": "labelA",
+          "label": "Etiqueta primer número",
+          "default": "Número A"
+        },
+        {
+          "id": "labelB",
+          "label": "Etiqueta segundo número",
+          "default": "Número B"
+        },
+        {
+          "id": "buttonText",
+          "label": "Texto del botón",
+          "default": "Calcular suma"
+        },
+        {
+          "id": "resultLabel",
+          "label": "Etiqueta resultado",
+          "default": "Resultado"
+        }
+      ],
+      "learningGoal": "Practicar conversión de texto a número y operaciones.",
+      "starterHint": "Los valores de input llegan como texto."
+    }
+  ],
+  "reviewChecklist": [
+    {
+      "id": "review-html",
+      "text": "La estructura HTML tiene títulos, controles y contenedor de resultado."
+    },
+    {
+      "id": "review-css",
+      "text": "El CSS mejora lectura, espaciado y tamaño de botones."
+    },
+    {
+      "id": "review-js",
+      "text": "El JavaScript usa variables claras y eventos."
+    },
+    {
+      "id": "review-empty",
+      "text": "La mini app contempla entradas vacías o valores iniciales."
+    },
+    {
+      "id": "review-console",
+      "text": "La consola no muestra errores al probar."
+    },
+    {
+      "id": "review-mobile",
+      "text": "La vista previa se puede leer en una pantalla pequeña."
+    }
+  ]
+}

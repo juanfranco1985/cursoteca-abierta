@@ -1,0 +1,101 @@
+{
+  "scenarios": [
+    {
+      "id": "story-caida-ventas",
+      "title": "Explicar una caída de ventas",
+      "businessQuestion": "¿Por qué bajaron las ventas del último mes y qué parte del negocio conviene revisar primero?",
+      "audience": "Dueño, gerente o responsable comercial no técnico",
+      "recommendedOpening": "Las ventas bajaron, pero la caída no parece pareja: primero conviene separar por mes y categoría para ver dónde se concentra el problema.",
+      "evidence": [
+        "Comparar ventas mensuales",
+        "Separar por categoría o producto",
+        "Revisar si hay pocos productos explicando la caída"
+      ],
+      "visualOrder": [
+        "Tarjeta con venta total actual",
+        "Línea mensual para tendencia",
+        "Barras por categoría",
+        "Tabla corta con productos afectados"
+      ],
+      "badPractice": "Mostrar muchos gráficos sin explicar cuál responde la pregunta principal.",
+      "closingRecommendation": "Revisar la categoría con mayor caída, confirmar si hubo falta de stock, cambio de precio o menor demanda antes de decidir una acción."
+    },
+    {
+      "id": "story-stock-rotacion",
+      "title": "Presentar alerta de stock y rotación",
+      "businessQuestion": "¿Qué productos necesitan atención porque tienen stock crítico o baja rotación?",
+      "audience": "Equipo de compras o responsable de reposición",
+      "recommendedOpening": "El tablero no debe mostrar todos los productos al mismo nivel: debe separar urgentes, en observación y normales.",
+      "evidence": [
+        "Stock actual",
+        "Ventas recientes",
+        "Días sin movimiento",
+        "Categoría del producto"
+      ],
+      "visualOrder": [
+        "Semáforo de riesgo",
+        "Top productos críticos",
+        "Barras de rotación",
+        "Detalle de productos a revisar"
+      ],
+      "badPractice": "Usar colores decorativos sin explicar qué significa cada nivel de riesgo.",
+      "closingRecommendation": "Priorizar reposición de productos con alta venta y bajo stock; revisar promociones o compras futuras en productos con baja rotación."
+    },
+    {
+      "id": "story-clientes-segmentos",
+      "title": "Explicar concentración de clientes o segmentos",
+      "businessQuestion": "¿La facturación depende demasiado de pocos clientes o segmentos?",
+      "audience": "Responsable comercial o emprendedor",
+      "recommendedOpening": "La visualización debe mostrar concentración, no solo total facturado. Un total alto puede ocultar dependencia riesgosa.",
+      "evidence": [
+        "Ventas por cliente",
+        "Porcentaje sobre total",
+        "Segmento",
+        "Evolución mensual"
+      ],
+      "visualOrder": [
+        "Tarjeta de facturación total",
+        "Ranking de clientes",
+        "Pareto o barras acumuladas",
+        "Recomendación de diversificación"
+      ],
+      "badPractice": "Mostrar solo el total de ventas sin indicar cuántos clientes lo explican.",
+      "closingRecommendation": "Si pocos clientes concentran gran parte de la facturación, conviene monitorear riesgo y buscar diversificación gradual."
+    }
+  ],
+  "misleadingExamples": [
+    {
+      "id": "bad-pie-many",
+      "title": "Torta con demasiadas categorías",
+      "problem": "Cuando hay muchas categorías similares, la torta dificulta comparar tamaños.",
+      "better": "Usar barras ordenadas de mayor a menor."
+    },
+    {
+      "id": "bad-axis-cut",
+      "title": "Eje recortado sin aviso",
+      "problem": "Puede exagerar diferencias pequeñas y crear una lectura alarmista.",
+      "better": "Mostrar eje claro o advertir el recorte."
+    },
+    {
+      "id": "bad-color-random",
+      "title": "Colores sin significado",
+      "problem": "El usuario puede interpretar colores como riesgo, prioridad o estado aunque sean decorativos.",
+      "better": "Usar color solo para clasificar o destacar hallazgos."
+    },
+    {
+      "id": "bad-too-many",
+      "title": "Dashboard con demasiados gráficos",
+      "problem": "Más gráficos no siempre significan más claridad; puede ocultar el mensaje central.",
+      "better": "Elegir 3 a 5 visualizaciones alineadas a la pregunta de negocio."
+    }
+  ],
+  "clarityChecklist": [
+    "El dashboard responde una pregunta concreta.",
+    "El título explica el hallazgo, no solo el tema.",
+    "Cada gráfico tiene una función clara.",
+    "Los colores tienen significado y no son decorativos.",
+    "Los ejes, filtros y unidades son comprensibles.",
+    "El reporte explica límites o dudas de los datos.",
+    "Hay una recomendación o próximo paso razonable."
+  ]
+}

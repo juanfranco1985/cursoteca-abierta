@@ -1,0 +1,211 @@
+{
+  "courseId": "publicacion_web_principiantes",
+  "version": "0.2",
+  "platforms": [
+    {
+      "id": "platform-github-pages",
+      "name": "GitHub Pages",
+      "bestFor": "Sitios estáticos simples, portfolios, documentación y proyectos HTML/CSS/JS alojados en GitHub.",
+      "requirements": [
+        "Repositorio en GitHub",
+        "index.html",
+        "Rama configurada",
+        "Archivos públicos sin datos privados"
+      ],
+      "steps": [
+        "Subir el proyecto a un repositorio.",
+        "Entrar a Settings > Pages.",
+        "Elegir rama y carpeta de publicación.",
+        "Guardar configuración.",
+        "Esperar la URL pública.",
+        "Verificar que CSS, JS e imágenes carguen."
+      ],
+      "commonErrors": [
+        "404 por carpeta incorrecta.",
+        "Rutas rotas por mayúsculas/minúsculas.",
+        "index.html fuera de la raíz configurada.",
+        "Cambios que tardan en verse por caché."
+      ],
+      "recommendationScore": 9
+    },
+    {
+      "id": "platform-netlify",
+      "name": "Netlify",
+      "bestFor": "Sitios estáticos, landing pages, deploy manual rápido y proyectos conectados a Git.",
+      "requirements": [
+        "Carpeta final limpia",
+        "index.html",
+        "Cuenta en Netlify",
+        "Repositorio o subida manual"
+      ],
+      "steps": [
+        "Preparar carpeta final.",
+        "Entrar a Netlify.",
+        "Subir carpeta o conectar repositorio.",
+        "Revisar deploy log.",
+        "Abrir URL temporal.",
+        "Corregir rutas si algo falla."
+      ],
+      "commonErrors": [
+        "Subir carpeta equivocada.",
+        "Falta index.html.",
+        "Build command innecesario en proyecto estático.",
+        "Assets no incluidos."
+      ],
+      "recommendationScore": 8
+    },
+    {
+      "id": "platform-vercel",
+      "name": "Vercel",
+      "bestFor": "Proyectos frontend modernos, previews, Next.js, React y sitios estáticos conectados a Git.",
+      "requirements": [
+        "Repositorio o carpeta",
+        "Configuración de framework correcta",
+        "Archivos públicos",
+        "Cuenta en Vercel"
+      ],
+      "steps": [
+        "Importar proyecto.",
+        "Revisar framework preset.",
+        "Confirmar configuración de build.",
+        "Ejecutar deploy.",
+        "Abrir preview.",
+        "Revisar errores de rutas o build."
+      ],
+      "commonErrors": [
+        "Preset incorrecto.",
+        "Output directory mal configurado.",
+        "Variables faltantes.",
+        "Proyecto simple tratado como framework."
+      ],
+      "recommendationScore": 7
+    }
+  ],
+  "projectTypes": [
+    {
+      "id": "type-basic-html",
+      "title": "Web HTML/CSS/JS simple",
+      "recommendedPlatform": "platform-github-pages",
+      "reason": "GitHub Pages alcanza para sitios estáticos simples y además refuerza el aprendizaje de GitHub."
+    },
+    {
+      "id": "type-landing-fast",
+      "title": "Landing para compartir rápido",
+      "recommendedPlatform": "platform-netlify",
+      "reason": "Netlify permite subir una carpeta y obtener una URL pública de forma muy rápida."
+    },
+    {
+      "id": "type-react-next",
+      "title": "Proyecto React o Next.js",
+      "recommendedPlatform": "platform-vercel",
+      "reason": "Vercel está muy orientado a frontends modernos y despliegues con previews."
+    },
+    {
+      "id": "type-course-static",
+      "title": "Curso web estático",
+      "recommendedPlatform": "platform-netlify",
+      "reason": "Netlify funciona muy bien para cursos estáticos exportados y pruebas públicas rápidas."
+    }
+  ],
+  "errorScenarios": [
+    {
+      "id": "error-404",
+      "title": "La URL muestra 404",
+      "platform": "GitHub Pages",
+      "symptom": "La página pública no aparece.",
+      "likelyCause": "Rama, carpeta o archivo index.html mal configurado.",
+      "fixSteps": [
+        "Revisar Settings > Pages.",
+        "Verificar rama.",
+        "Confirmar que index.html esté en la carpeta publicada.",
+        "Esperar unos minutos y recargar."
+      ]
+    },
+    {
+      "id": "error-broken-css",
+      "title": "La web abre pero sin estilos",
+      "platform": "Cualquier plataforma",
+      "symptom": "El HTML aparece, pero CSS no carga.",
+      "likelyCause": "Ruta incorrecta al archivo CSS.",
+      "fixSteps": [
+        "Revisar link rel='stylesheet'.",
+        "Usar rutas relativas.",
+        "Verificar mayúsculas/minúsculas.",
+        "Revisar consola del navegador."
+      ]
+    },
+    {
+      "id": "error-wrong-folder",
+      "title": "Se publicó una carpeta equivocada",
+      "platform": "Netlify",
+      "symptom": "El sitio muestra archivos incorrectos o no encuentra index.html.",
+      "likelyCause": "La carpeta arrastrada no era la carpeta final del sitio.",
+      "fixSteps": [
+        "Revisar estructura.",
+        "Crear carpeta final limpia.",
+        "Incluir index.html y assets.",
+        "Rehacer deploy."
+      ]
+    },
+    {
+      "id": "error-build",
+      "title": "Falla el build",
+      "platform": "Vercel",
+      "symptom": "El deploy no termina.",
+      "likelyCause": "Preset o comando de build incorrecto.",
+      "fixSteps": [
+        "Revisar framework preset.",
+        "Quitar build command si es sitio estático simple.",
+        "Revisar logs.",
+        "Volver a deployar."
+      ]
+    },
+    {
+      "id": "error-cache",
+      "title": "El cambio no aparece",
+      "platform": "Cualquier plataforma",
+      "symptom": "La web publicada sigue mostrando una versión anterior.",
+      "likelyCause": "Caché del navegador o deploy todavía no actualizado.",
+      "fixSteps": [
+        "Recargar fuerte.",
+        "Probar incógnito.",
+        "Verificar fecha del deploy.",
+        "Revisar que el commit o archivo correcto fue subido."
+      ]
+    }
+  ],
+  "publicationChecklist": [
+    {
+      "id": "pl-check-index",
+      "text": "Existe index.html en la carpeta publicada."
+    },
+    {
+      "id": "pl-check-css",
+      "text": "CSS carga correctamente."
+    },
+    {
+      "id": "pl-check-js",
+      "text": "JavaScript no muestra errores críticos."
+    },
+    {
+      "id": "pl-check-assets",
+      "text": "Imágenes y recursos tienen rutas relativas correctas."
+    },
+    {
+      "id": "pl-check-private",
+      "text": "No se publican claves, tokens ni datos privados."
+    },
+    {
+      "id": "pl-check-readme",
+      "text": "README explica el proyecto."
+    },
+    {
+      "id": "pl-check-mobile",
+      "text": "La web se revisó en tamaño móvil."
+    },
+    {
+      "id": "pl-check-url",
+      "text": "La URL pública fue verificada."
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "courseId": "react-basico-principiantes",
+  "templateVersion": "0.6-publica-profesional",
+  "appName": "React Basico para Principiantes",
+  "shortName": "React Basico",
+  "subtitle": "Curso practico para entender React, componentes, props, estado, eventos, efectos y publicacion inicial.",
+  "description": "Construye una base clara en React: modelo mental, componentes, props, estado, listas, formularios, datos externos y proyecto final.",
+  "audience": "Personas con bases de HTML, CSS y JavaScript que quieren empezar con React.",
+  "category": "Desarrollo web",
+  "status": "Publico profesional",
+  "dataPaths": {
+    "course": "src/data/course_content.json",
+    "checklists": "src/data/checklists.json",
+    "incidents": "src/data/incidents.json"
+  },
+  "labels": {
+    "modules": "Modulos",
+    "checklists": "Checklists",
+    "incidents": "Proyectos React",
+    "emergency": "Practica rapida",
+    "certificate": "Constancia",
+    "primaryAction": "Empezar curso",
+    "emergencyAction": "Practica rapida",
+    "tools": "Herramientas"
+  },
+  "features": {
+    "modules": true,
+    "quizzes": true,
+    "checklists": true,
+    "incidents": true,
+    "emergency": true,
+    "certificate": true,
+    "publicProfessionalEdition": true,
+    "requiresBackend": false,
+    "requiresLogin": false,
+    "offlineCache": true
+  },
+  "theme": {
+    "accent": "#4fb6aa",
+    "accent2": "#a78bfa",
+    "danger": "#fb7185",
+    "warning": "#f59e0b",
+    "primary": "#d6a85c",
+    "background": "#21130b"
+  },
+  "certificate": {
+    "title": "Constancia interna - React Basico para Principiantes",
+    "minimumSuggestedProgress": 70,
+    "minimumSuggestedQuizAverage": 70,
+    "notOfficialNotice": "Esta constancia es educativa, no oficial y no equivale a certificacion academica formal."
+  },
+  "responsibleNotice": "Contenido educativo. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. No agregar complejidad, librerias o estado global antes de resolver el caso simple.",
+  "publication": {
+    "version": "0.6-publica-profesional",
+    "status": "Publica profesional",
+    "recommendedHosts": [
+      "GitHub Pages",
+      "Netlify",
+      "Vercel",
+      "Hosting estatico propio"
+    ],
+    "requiresBackend": false,
+    "requiresLogin": false,
+    "requiresAnalytics": false,
+    "requiresAds": false,
+    "prePublishChecks": [
+      "Probar con servidor local",
+      "Revisar textos y enlaces",
+      "Revisar contenido sensible",
+      "Actualizar capturas finales"
+    ]
+  },
+  "webApp": {
+    "cacheName": "react_basico_principiantes_v0_6_publica-cache-v0-6-publica-profesional",
+    "publicationStatus": "publica-profesional-v0.6"
+  },
+  "publicEdition": {
+    "level": "publica-profesional",
+    "version": "0.6",
+    "generatedAt": "2026-05-26",
+    "sourceZip": "curso-nuevo"
+  },
+  "professionalization": {
+    "tier": "curso-bandera-v1.0-beta",
+    "updatedAt": "2026-05-28",
+    "improvements": [
+      "Lecciones con teoria, ejemplo, error comun y ejercicio mas profundos.",
+      "Checklists orientados a evidencia y entregables.",
+      "Casos guiados con pasos, errores y decision responsable."
+    ]
+  },
+  "editorialPolish": {
+    "fourthEditorialBatch": "2026-06-02",
+    "status": "public-facing-copy-polished"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "courseId": "ux-ui-basico-sitios-apps",
+  "templateVersion": "0.6-publica-profesional",
+  "appName": "UX/UI Basico para Sitios y Apps",
+  "shortName": "UX UI Basico",
+  "subtitle": "Curso práctico para mejorar claridad, jerarquía, navegación, accesibilidad y conversión básica.",
+  "description": "Revisá interfaces simples con mirada de usuario: ordená contenido, mejorá navegación, detectá fricciones y proponé cambios verificables.",
+  "audience": "Principiantes de diseno, desarrollo web y productos digitales.",
+  "category": "Desarrollo web",
+  "status": "Publico profesional",
+  "dataPaths": {
+    "course": "src/data/course_content.json",
+    "checklists": "src/data/checklists.json",
+    "incidents": "src/data/incidents.json"
+  },
+  "labels": {
+    "modules": "Modulos",
+    "checklists": "Checklists",
+    "incidents": "Proyectos",
+    "emergency": "Practica rapida",
+    "certificate": "Constancia"
+  },
+  "features": {
+    "modules": true,
+    "quizzes": true,
+    "checklists": true,
+    "incidents": true,
+    "emergency": true,
+    "certificate": true,
+    "publicProfessionalEdition": true,
+    "requiresBackend": false,
+    "requiresLogin": false
+  },
+  "theme": {
+    "accent": "#4fb6aa",
+    "accent2": "#06b6d4",
+    "danger": "#fb7185",
+    "warning": "#f59e0b",
+    "primary": "#d6a85c",
+    "background": "#21130b"
+  },
+  "certificate": {
+    "title": "Constancia interna - UX/UI Basico para Sitios y Apps",
+    "minimumSuggestedProgress": 70,
+    "minimumSuggestedQuizAverage": 70,
+    "notOfficialNotice": "Constancia educativa no oficial."
+  },
+  "responsibleNotice": "Contenido educativo. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. No sacrificar legibilidad, contraste ni accesibilidad por decoracion visual.",
+  "publication": {
+    "version": "0.6-publica-profesional",
+    "status": "Publica profesional",
+    "requiresBackend": false,
+    "requiresLogin": false,
+    "requiresAnalytics": false,
+    "requiresAds": false,
+    "recommendedHosts": [
+      "GitHub Pages",
+      "Netlify",
+      "Vercel",
+      "Hosting estatico propio"
+    ]
+  },
+  "webApp": {
+    "cacheName": "ux_ui_basico_sitios_apps_v0_6_publica-cache-v0-6-publica-profesional",
+    "publicationStatus": "publica-profesional-v0.6"
+  },
+  "professionalization": {
+    "tier": "curso-bandera-v1.0-beta",
+    "updatedAt": "2026-05-28",
+    "improvements": [
+      "Lecciones con teoria, ejemplo, error comun y ejercicio mas profundos.",
+      "Checklists orientados a evidencia y entregables.",
+      "Casos guiados con pasos, errores y decision responsable."
+    ]
+  },
+  "editorialPolish": {
+    "firstFeaturedBatch": "2026-06-01",
+    "status": "public-facing-copy-polished"
+  }
+}

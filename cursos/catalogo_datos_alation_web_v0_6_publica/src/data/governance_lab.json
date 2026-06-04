@@ -1,0 +1,205 @@
+{
+  "roles": [
+    {
+      "id": "role-owner",
+      "name": "Data Owner",
+      "plainName": "Dueño del dato",
+      "responsibility": "Define propósito, uso aceptable, criticidad y decisiones de negocio sobre el dataset.",
+      "commonMistake": "Creer que el owner debe hacer toda la documentación técnica.",
+      "goodPractice": "Debe aprobar definiciones críticas y resolver conflictos de significado."
+    },
+    {
+      "id": "role-steward",
+      "name": "Data Steward",
+      "plainName": "Responsable de calidad y documentación",
+      "responsibility": "Mantiene glosario, definiciones, reglas de calidad, columnas críticas y nivel de confianza.",
+      "commonMistake": "Documentar solo nombres de columnas sin explicar significado de negocio.",
+      "goodPractice": "Debe traducir entre negocio, analítica y tecnología."
+    },
+    {
+      "id": "role-consumer",
+      "name": "Data Consumer",
+      "plainName": "Usuario consumidor del dato",
+      "responsibility": "Usa el dataset respetando alcance, sensibilidad, certificación y limitaciones.",
+      "commonMistake": "Usar una tabla no certificada para un dashboard ejecutivo.",
+      "goodPractice": "Debe revisar ficha, dueño, frescura, sensibilidad y uso recomendado antes de usar."
+    },
+    {
+      "id": "role-analyst",
+      "name": "Analyst",
+      "plainName": "Analista",
+      "responsibility": "Explora, consulta, cruza y comunica datos de forma trazable.",
+      "commonMistake": "Corregir datos manualmente sin registrar el criterio usado.",
+      "goodPractice": "Debe dejar consultas, supuestos, filtros y transformaciones documentadas."
+    }
+  ],
+  "qualityDimensions": [
+    {
+      "id": "quality-completeness",
+      "name": "Completitud",
+      "question": "¿Faltan valores importantes?",
+      "risk": "Un campo vacío puede ocultar ventas, clientes, fechas o productos.",
+      "example": "10% de pedidos no tiene fecha de entrega.",
+      "suggestedControl": "Definir campos obligatorios y porcentaje máximo aceptable de faltantes."
+    },
+    {
+      "id": "quality-freshness",
+      "name": "Frescura",
+      "question": "¿El dato está actualizado?",
+      "risk": "Un dashboard puede mostrar una situación vieja como si fuese actual.",
+      "example": "Stock actualizado hace 15 días usado para decidir compras hoy.",
+      "suggestedControl": "Mostrar fecha de última carga y frecuencia esperada."
+    },
+    {
+      "id": "quality-uniqueness",
+      "name": "Unicidad",
+      "question": "¿Hay duplicados?",
+      "risk": "Duplicados inflan ventas, clientes o reclamos.",
+      "example": "El mismo cliente aparece con dos IDs por error de carga.",
+      "suggestedControl": "Definir clave única y revisión de duplicados."
+    },
+    {
+      "id": "quality-consistency",
+      "name": "Consistencia",
+      "question": "¿Las categorías significan lo mismo en todos lados?",
+      "risk": "Dos áreas pueden medir distinto el mismo indicador.",
+      "example": "Cliente activo significa 30 días para ventas y 90 días para marketing.",
+      "suggestedControl": "Acordar definición de negocio y publicar glosario."
+    }
+  ],
+  "lineageScenarios": [
+    {
+      "id": "lineage-sales-dashboard",
+      "title": "Dashboard de ventas con origen dudoso",
+      "context": "Un dashboard muestra ventas mensuales, pero nadie sabe si toma datos de pedidos facturados, entregados o cobrados.",
+      "lineage": [
+        "Sistema de pedidos",
+        "Tabla pedidos_raw",
+        "Transformación ventas_mensuales",
+        "Dashboard ejecutivo"
+      ],
+      "risk": "Si cambia la tabla intermedia, el dashboard puede mostrar totales incorrectos.",
+      "recommendedAction": "Documentar origen, transformación, criterio de venta y responsable de cada paso."
+    },
+    {
+      "id": "lineage-active-customers",
+      "title": "Cambio en definición de cliente activo",
+      "context": "El área comercial quiere cambiar cliente activo de 90 a 60 días.",
+      "lineage": [
+        "CRM",
+        "Tabla clientes",
+        "Vista clientes_activos",
+        "Segmentación comercial",
+        "Reporte de retención"
+      ],
+      "risk": "El cambio afecta reportes históricos, campañas y comparaciones mensuales.",
+      "recommendedAction": "Evaluar impacto, avisar consumidores, versionar definición y registrar fecha de cambio."
+    },
+    {
+      "id": "lineage-stock-field",
+      "title": "Columna de stock disponible cambia de cálculo",
+      "context": "Se modifica la columna stock_disponible para descontar reservas pendientes.",
+      "lineage": [
+        "Sistema de inventario",
+        "Tabla stock_operativo",
+        "Modelo BI de reposición",
+        "Tablero de stock crítico"
+      ],
+      "risk": "Puede cambiar alertas de reposición y decisiones de compra.",
+      "recommendedAction": "Revisar dashboards consumidores, probar antes de publicar y actualizar ficha del dataset."
+    }
+  ],
+  "impactScenarios": [
+    {
+      "id": "impact-rename-column",
+      "title": "Renombrar una columna usada por dashboards",
+      "change": "La columna total_venta pasa a llamarse importe_total.",
+      "affectedAssets": [
+        "Consulta SQL de ventas mensuales",
+        "Modelo de Power BI",
+        "Dashboard ejecutivo",
+        "Exportación mensual"
+      ],
+      "severity": "Alta",
+      "safeProcess": [
+        "Buscar consumidores del campo",
+        "Avisar a owners/stewards",
+        "Crear transición o alias temporal",
+        "Actualizar documentación",
+        "Probar reportes afectados"
+      ]
+    },
+    {
+      "id": "impact-delete-field",
+      "title": "Eliminar campo de canal de venta",
+      "change": "Se elimina canal_venta porque algunas filas están vacías.",
+      "affectedAssets": [
+        "Análisis por canal",
+        "Segmentación de campañas",
+        "Dashboard de ecommerce",
+        "Reporte de sucursales"
+      ],
+      "severity": "Crítica",
+      "safeProcess": [
+        "No eliminar sin análisis",
+        "Medir faltantes",
+        "Definir regla de corrección",
+        "Conservar histórico",
+        "Documentar limitaciones"
+      ]
+    },
+    {
+      "id": "impact-new-certification",
+      "title": "Certificar dataset para uso ejecutivo",
+      "change": "Ventas_mensuales quiere pasar de experimental a certificado.",
+      "affectedAssets": [
+        "Reportes ejecutivos",
+        "Indicadores comerciales",
+        "Tableros de margen",
+        "Análisis de stock"
+      ],
+      "severity": "Media",
+      "safeProcess": [
+        "Validar owner",
+        "Revisar calidad",
+        "Completar glosario",
+        "Confirmar linaje",
+        "Publicar uso recomendado"
+      ]
+    }
+  ],
+  "certificationChecklist": [
+    {
+      "id": "cert-owner",
+      "label": "Tiene owner y steward definidos."
+    },
+    {
+      "id": "cert-definition",
+      "label": "Incluye definición de negocio clara."
+    },
+    {
+      "id": "cert-columns",
+      "label": "Columnas críticas documentadas."
+    },
+    {
+      "id": "cert-quality",
+      "label": "Calidad mínima revisada: completitud, frescura, unicidad y consistencia."
+    },
+    {
+      "id": "cert-lineage",
+      "label": "Linaje principal documentado."
+    },
+    {
+      "id": "cert-sensitivity",
+      "label": "Sensibilidad y restricciones de uso indicadas."
+    },
+    {
+      "id": "cert-usage",
+      "label": "Uso recomendado y usos no recomendados publicados."
+    },
+    {
+      "id": "cert-review",
+      "label": "Fecha de revisión y responsable de aprobación registrados."
+    }
+  ]
+}

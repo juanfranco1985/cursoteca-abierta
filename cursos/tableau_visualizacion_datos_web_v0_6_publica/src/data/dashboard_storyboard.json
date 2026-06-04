@@ -1,0 +1,117 @@
+{
+  "objectives": [
+    {
+      "id": "obj-ventas-mensuales",
+      "title": "Explicar evolución de ventas mensuales",
+      "businessQuestion": "¿Las ventas crecen, caen o se mantienen estables en el tiempo?",
+      "recommendedDatasetId": "ventas-mensuales-categoria",
+      "recommendedCards": [
+        "Ventas totales",
+        "Variación mensual",
+        "Categoría líder"
+      ],
+      "recommendedCharts": [
+        "Línea temporal",
+        "Barras por categoría",
+        "Tabla resumen"
+      ],
+      "storyOrder": [
+        "Abrir con la tendencia general.",
+        "Mostrar el mes donde cambia el comportamiento.",
+        "Comparar categorías para explicar qué impulsó la variación.",
+        "Cerrar con una acción sugerida."
+      ],
+      "avoid": "No empezar con demasiados gráficos ni usar colores distintos sin significado.",
+      "sampleInsight": "La categoría Bebidas sostiene la mayor parte del crecimiento, pero Limpieza muestra caída en los últimos meses."
+    },
+    {
+      "id": "obj-clientes-segmentos",
+      "title": "Comparar clientes o segmentos",
+      "businessQuestion": "¿Qué segmento concentra más actividad o valor?",
+      "recommendedDatasetId": "clientes-segmento",
+      "recommendedCards": [
+        "Clientes activos",
+        "Segmento principal",
+        "Ticket promedio"
+      ],
+      "recommendedCharts": [
+        "Barras horizontales",
+        "Treemap con moderación",
+        "Tabla ordenada"
+      ],
+      "storyOrder": [
+        "Presentar el tamaño de cada segmento.",
+        "Ordenar de mayor a menor para evitar confusión.",
+        "Explicar si hay concentración excesiva.",
+        "Proponer seguimiento del segmento más importante."
+      ],
+      "avoid": "No usar tortas con muchos segmentos ni ejes sin etiquetas claras.",
+      "sampleInsight": "El segmento Comercios representa una proporción alta del total y debería monitorearse por separado."
+    },
+    {
+      "id": "obj-stock-rotacion",
+      "title": "Detectar productos con problema de stock o rotación",
+      "businessQuestion": "¿Qué productos necesitan atención por exceso, falta o baja rotación?",
+      "recommendedDatasetId": "stock-rotacion-productos",
+      "recommendedCards": [
+        "Stock crítico",
+        "Productos sin movimiento",
+        "Rotación promedio"
+      ],
+      "recommendedCharts": [
+        "Barras ordenadas",
+        "Dispersión simple",
+        "Tabla con semáforo"
+      ],
+      "storyOrder": [
+        "Separar productos críticos de productos lentos.",
+        "Mostrar ranking de mayor riesgo.",
+        "Explicar si el problema es falta o exceso.",
+        "Cerrar con decisión de reposición, promoción o revisión."
+      ],
+      "avoid": "No mezclar stock, ventas y margen sin explicar qué mide cada eje.",
+      "sampleInsight": "Hay productos con stock alto y rotación baja que podrían inmovilizar capital."
+    }
+  ],
+  "dashboardTemplates": [
+    {
+      "id": "tpl-ejecutivo-simple",
+      "name": "Dashboard ejecutivo simple",
+      "purpose": "Mostrar en una pantalla la pregunta principal, los KPIs y el gráfico más importante.",
+      "layout": [
+        "Título con pregunta",
+        "Tres tarjetas KPI",
+        "Gráfico principal",
+        "Tabla o detalle",
+        "Conclusión breve"
+      ],
+      "bestFor": "Reuniones cortas y reportes para personas no técnicas."
+    },
+    {
+      "id": "tpl-exploracion",
+      "name": "Dashboard exploratorio",
+      "purpose": "Permitir revisar categorías, segmentos o periodos antes de cerrar una conclusión.",
+      "layout": [
+        "Filtros principales",
+        "Vista general",
+        "Comparación por categoría",
+        "Detalle por segmento",
+        "Notas de hallazgo"
+      ],
+      "bestFor": "Análisis inicial donde todavía se están buscando patrones."
+    },
+    {
+      "id": "tpl-storyboard",
+      "name": "Storyboard de hallazgo",
+      "purpose": "Ordenar visualizaciones como una historia: contexto, evidencia, causa probable y acción.",
+      "layout": [
+        "Contexto",
+        "Hallazgo visual",
+        "Comparación",
+        "Límite del análisis",
+        "Recomendación"
+      ],
+      "bestFor": "Presentaciones, entregas ejecutivas y comunicación de decisiones."
+    }
+  ]
+}

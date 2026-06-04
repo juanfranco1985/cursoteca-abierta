@@ -1,0 +1,1056 @@
+{
+  "courseId": "git_github_proyectos_web",
+  "title": "Git y GitHub para Proyectos Web",
+  "version": "0.6-publica",
+  "modules": [
+    {
+      "id": "mod-1",
+      "title": "Qué es Git y por qué sirve",
+      "description": "En este modulo vas a trabajar \"Qué es Git y por qué sirve\" dentro de Git, GitHub, repositorios, commits, historial, ramas, organizacion y recuperacion de errores. La meta es construir una pieza pequena, probarla en navegador y dejar evidencia de que funciona para una persona real.",
+      "icon": "GIT",
+      "lessons": [
+        {
+          "id": "mod-1-lesson-1",
+          "title": "Qué problema resuelve Git",
+          "keyIdea": "Idea clave: Qué problema resuelve Git sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Qué problema resuelve Git\" dentro del modulo \"Qué es Git y por qué sirve\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona trabaja sobre una web y necesita guardar avances, explicar cambios y recuperar una version sin perder archivos. Aplica \"Qué problema resuelve Git\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un repositorio con commits claros, README breve, historial revisable y enlace de proyecto organizado.",
+          "alert": "No subir claves, tokens, datos personales ni archivos privados al repositorio.",
+          "keyPoints": [
+            "Qué problema resuelve Git debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un repositorio con commits claros, README breve, historial revisable y enlace de proyecto organizado.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "mod-1-lesson-2",
+          "title": "Diferencia entre carpeta y repositorio",
+          "keyIdea": "Idea clave: Diferencia entre carpeta y repositorio sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Diferencia entre carpeta y repositorio\" dentro del modulo \"Qué es Git y por qué sirve\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona trabaja sobre una web y necesita guardar avances, explicar cambios y recuperar una version sin perder archivos. Aplica \"Diferencia entre carpeta y repositorio\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un repositorio con commits claros, README breve, historial revisable y enlace de proyecto organizado.",
+          "alert": "No subir claves, tokens, datos personales ni archivos privados al repositorio.",
+          "keyPoints": [
+            "Diferencia entre carpeta y repositorio debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un repositorio con commits claros, README breve, historial revisable y enlace de proyecto organizado.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "mod-1-lesson-3",
+          "title": "Versiones, cambios e historial",
+          "keyIdea": "Idea clave: Versiones, cambios e historial sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Versiones, cambios e historial\" dentro del modulo \"Qué es Git y por qué sirve\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona trabaja sobre una web y necesita guardar avances, explicar cambios y recuperar una version sin perder archivos. Aplica \"Versiones, cambios e historial\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un repositorio con commits claros, README breve, historial revisable y enlace de proyecto organizado.",
+          "alert": "No subir claves, tokens, datos personales ni archivos privados al repositorio.",
+          "keyPoints": [
+            "Versiones, cambios e historial debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un repositorio con commits claros, README breve, historial revisable y enlace de proyecto organizado.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "mod-1-lesson-4",
+          "title": "Git frente a copias manuales",
+          "keyIdea": "Idea clave: Git frente a copias manuales sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Git frente a copias manuales\" dentro del modulo \"Qué es Git y por qué sirve\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona trabaja sobre una web y necesita guardar avances, explicar cambios y recuperar una version sin perder archivos. Aplica \"Git frente a copias manuales\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un repositorio con commits claros, README breve, historial revisable y enlace de proyecto organizado.",
+          "alert": "No subir claves, tokens, datos personales ni archivos privados al repositorio.",
+          "keyPoints": [
+            "Git frente a copias manuales debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un repositorio con commits claros, README breve, historial revisable y enlace de proyecto organizado.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "mod-1-lesson-5",
+          "title": "Cuándo conviene usar Git",
+          "keyIdea": "Idea clave: Cuándo conviene usar Git sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Cuándo conviene usar Git\" dentro del modulo \"Qué es Git y por qué sirve\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona trabaja sobre una web y necesita guardar avances, explicar cambios y recuperar una version sin perder archivos. Aplica \"Cuándo conviene usar Git\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un repositorio con commits claros, README breve, historial revisable y enlace de proyecto organizado.",
+          "alert": "No subir claves, tokens, datos personales ni archivos privados al repositorio.",
+          "keyPoints": [
+            "Cuándo conviene usar Git debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un repositorio con commits claros, README breve, historial revisable y enlace de proyecto organizado.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "mod-1-lesson-6",
+          "title": "Flujo básico de trabajo",
+          "keyIdea": "Idea clave: Flujo básico de trabajo sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Flujo básico de trabajo\" dentro del modulo \"Qué es Git y por qué sirve\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona trabaja sobre una web y necesita guardar avances, explicar cambios y recuperar una version sin perder archivos. Aplica \"Flujo básico de trabajo\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un repositorio con commits claros, README breve, historial revisable y enlace de proyecto organizado.",
+          "alert": "No subir claves, tokens, datos personales ni archivos privados al repositorio.",
+          "keyPoints": [
+            "Flujo básico de trabajo debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un repositorio con commits claros, README breve, historial revisable y enlace de proyecto organizado.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "mod-1-q-1",
+          "question": "¿Para qué sirve Git en un proyecto web?",
+          "options": [
+            "Registrar cambios e historial",
+            "Diseñar botones",
+            "Reemplazar HTML",
+            "Comprimir imágenes"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el uso ordenado de Git y GitHub ayuda a conservar, revisar y compartir proyectos web."
+        },
+        {
+          "id": "mod-1-q-2",
+          "question": "¿Qué conviene hacer antes de un commit?",
+          "options": [
+            "Revisar el estado y los archivos",
+            "Borrar la carpeta",
+            "Subir todo sin mirar",
+            "Ignorar errores"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el uso ordenado de Git y GitHub ayuda a conservar, revisar y compartir proyectos web."
+        },
+        {
+          "id": "mod-1-q-3",
+          "question": "¿Qué caracteriza a un buen mensaje de commit?",
+          "options": [
+            "Describe el cambio realizado",
+            "Dice solo 'update'",
+            "Está vacío",
+            "No tiene relación con el cambio"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el uso ordenado de Git y GitHub ayuda a conservar, revisar y compartir proyectos web."
+        },
+        {
+          "id": "mod-1-q-4",
+          "question": "¿Qué permite GitHub?",
+          "options": [
+            "Alojar y compartir repositorios",
+            "Ejecutar código secreto automáticamente",
+            "Evitar aprender Git",
+            "Crear CSS por sí solo"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el uso ordenado de Git y GitHub ayuda a conservar, revisar y compartir proyectos web."
+        },
+        {
+          "id": "mod-1-q-5",
+          "question": "¿Qué archivo puede ayudar a evitar subir archivos innecesarios?",
+          "options": [
+            ".gitignore",
+            "index.html",
+            "style-final-final.css",
+            "screenshot.png"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el uso ordenado de Git y GitHub ayuda a conservar, revisar y compartir proyectos web."
+        }
+      ],
+      "professionalOutcome": "crear repositorios, registrar cambios, recuperar versiones y colaborar con menos riesgo. Entregable sugerido: un repositorio con README, historial claro, rama de mejora y checklist de publicacion."
+    },
+    {
+      "id": "mod-2",
+      "title": "Crear un repositorio local",
+      "description": "En este modulo vas a trabajar \"Crear un repositorio local\" dentro de Git, GitHub, repositorios, commits, historial, ramas, organizacion y recuperacion de errores. La meta es construir una pieza pequena, probarla en navegador y dejar evidencia de que funciona para una persona real.",
+      "icon": "GIT",
+      "lessons": [
+        {
+          "id": "mod-2-lesson-1",
+          "title": "Preparar una carpeta de proyecto",
+          "keyIdea": "Idea clave: Preparar una carpeta de proyecto sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Preparar una carpeta de proyecto\" dentro del modulo \"Crear un repositorio local\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona trabaja sobre una web y necesita guardar avances, explicar cambios y recuperar una version sin perder archivos. Aplica \"Preparar una carpeta de proyecto\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un repositorio con commits claros, README breve, historial revisable y enlace de proyecto organizado.",
+          "alert": "No subir claves, tokens, datos personales ni archivos privados al repositorio.",
+          "keyPoints": [
+            "Preparar una carpeta de proyecto debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un repositorio con commits claros, README breve, historial revisable y enlace de proyecto organizado.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "mod-2-lesson-2",
+          "title": "Inicializar un repositorio",
+          "keyIdea": "Idea clave: Inicializar un repositorio sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Inicializar un repositorio\" dentro del modulo \"Crear un repositorio local\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona trabaja sobre una web y necesita guardar avances, explicar cambios y recuperar una version sin perder archivos. Aplica \"Inicializar un repositorio\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un repositorio con commits claros, README breve, historial revisable y enlace de proyecto organizado.",
+          "alert": "No subir claves, tokens, datos personales ni archivos privados al repositorio.",
+          "keyPoints": [
+            "Inicializar un repositorio debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un repositorio con commits claros, README breve, historial revisable y enlace de proyecto organizado.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "mod-2-lesson-3",
+          "title": "Revisar estado con git status",
+          "keyIdea": "Idea clave: Revisar estado con git status sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Revisar estado con git status\" dentro del modulo \"Crear un repositorio local\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona trabaja sobre una web y necesita guardar avances, explicar cambios y recuperar una version sin perder archivos. Aplica \"Revisar estado con git status\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un repositorio con commits claros, README breve, historial revisable y enlace de proyecto organizado.",
+          "alert": "No subir claves, tokens, datos personales ni archivos privados al repositorio.",
+          "keyPoints": [
+            "Revisar estado con git status debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un repositorio con commits claros, README breve, historial revisable y enlace de proyecto organizado.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "mod-2-lesson-4",
+          "title": "Agregar archivos al área de preparación",
+          "keyIdea": "Idea clave: Agregar archivos al área de preparación sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Agregar archivos al área de preparación\" dentro del modulo \"Crear un repositorio local\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona trabaja sobre una web y necesita guardar avances, explicar cambios y recuperar una version sin perder archivos. Aplica \"Agregar archivos al área de preparación\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un repositorio con commits claros, README breve, historial revisable y enlace de proyecto organizado.",
+          "alert": "No subir claves, tokens, datos personales ni archivos privados al repositorio.",
+          "keyPoints": [
+            "Agregar archivos al área de preparación debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un repositorio con commits claros, README breve, historial revisable y enlace de proyecto organizado.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "mod-2-lesson-5",
+          "title": "Primer commit",
+          "keyIdea": "Idea clave: Primer commit sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Primer commit\" dentro del modulo \"Crear un repositorio local\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona trabaja sobre una web y necesita guardar avances, explicar cambios y recuperar una version sin perder archivos. Aplica \"Primer commit\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un repositorio con commits claros, README breve, historial revisable y enlace de proyecto organizado.",
+          "alert": "No subir claves, tokens, datos personales ni archivos privados al repositorio.",
+          "keyPoints": [
+            "Primer commit debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un repositorio con commits claros, README breve, historial revisable y enlace de proyecto organizado.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "mod-2-lesson-6",
+          "title": "Errores comunes al iniciar",
+          "keyIdea": "Idea clave: Errores comunes al iniciar sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Errores comunes al iniciar\" dentro del modulo \"Crear un repositorio local\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona trabaja sobre una web y necesita guardar avances, explicar cambios y recuperar una version sin perder archivos. Aplica \"Errores comunes al iniciar\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un repositorio con commits claros, README breve, historial revisable y enlace de proyecto organizado.",
+          "alert": "No subir claves, tokens, datos personales ni archivos privados al repositorio.",
+          "keyPoints": [
+            "Errores comunes al iniciar debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un repositorio con commits claros, README breve, historial revisable y enlace de proyecto organizado.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "mod-2-q-1",
+          "question": "¿Para qué sirve Git en un proyecto web?",
+          "options": [
+            "Registrar cambios e historial",
+            "Diseñar botones",
+            "Reemplazar HTML",
+            "Comprimir imágenes"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el uso ordenado de Git y GitHub ayuda a conservar, revisar y compartir proyectos web."
+        },
+        {
+          "id": "mod-2-q-2",
+          "question": "¿Qué conviene hacer antes de un commit?",
+          "options": [
+            "Revisar el estado y los archivos",
+            "Borrar la carpeta",
+            "Subir todo sin mirar",
+            "Ignorar errores"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el uso ordenado de Git y GitHub ayuda a conservar, revisar y compartir proyectos web."
+        },
+        {
+          "id": "mod-2-q-3",
+          "question": "¿Qué caracteriza a un buen mensaje de commit?",
+          "options": [
+            "Describe el cambio realizado",
+            "Dice solo 'update'",
+            "Está vacío",
+            "No tiene relación con el cambio"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el uso ordenado de Git y GitHub ayuda a conservar, revisar y compartir proyectos web."
+        },
+        {
+          "id": "mod-2-q-4",
+          "question": "¿Qué permite GitHub?",
+          "options": [
+            "Alojar y compartir repositorios",
+            "Ejecutar código secreto automáticamente",
+            "Evitar aprender Git",
+            "Crear CSS por sí solo"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el uso ordenado de Git y GitHub ayuda a conservar, revisar y compartir proyectos web."
+        },
+        {
+          "id": "mod-2-q-5",
+          "question": "¿Qué archivo puede ayudar a evitar subir archivos innecesarios?",
+          "options": [
+            ".gitignore",
+            "index.html",
+            "style-final-final.css",
+            "screenshot.png"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el uso ordenado de Git y GitHub ayuda a conservar, revisar y compartir proyectos web."
+        }
+      ],
+      "professionalOutcome": "crear repositorios, registrar cambios, recuperar versiones y colaborar con menos riesgo. Entregable sugerido: un repositorio con README, historial claro, rama de mejora y checklist de publicacion."
+    },
+    {
+      "id": "mod-3",
+      "title": "Commits, historial y buenas prácticas",
+      "description": "En este modulo vas a trabajar \"Commits, historial y buenas prácticas\" dentro de Git, GitHub, repositorios, commits, historial, ramas, organizacion y recuperacion de errores. La meta es construir una pieza pequena, probarla en navegador y dejar evidencia de que funciona para una persona real.",
+      "icon": "GIT",
+      "lessons": [
+        {
+          "id": "mod-3-lesson-1",
+          "title": "Qué es un commit",
+          "keyIdea": "Idea clave: Qué es un commit sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Qué es un commit\" dentro del modulo \"Commits, historial y buenas prácticas\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona trabaja sobre una web y necesita guardar avances, explicar cambios y recuperar una version sin perder archivos. Aplica \"Qué es un commit\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un repositorio con commits claros, README breve, historial revisable y enlace de proyecto organizado.",
+          "alert": "No subir claves, tokens, datos personales ni archivos privados al repositorio.",
+          "keyPoints": [
+            "Qué es un commit debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un repositorio con commits claros, README breve, historial revisable y enlace de proyecto organizado.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "mod-3-lesson-2",
+          "title": "Mensajes de commit claros",
+          "keyIdea": "Idea clave: Mensajes de commit claros sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Mensajes de commit claros\" dentro del modulo \"Commits, historial y buenas prácticas\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona trabaja sobre una web y necesita guardar avances, explicar cambios y recuperar una version sin perder archivos. Aplica \"Mensajes de commit claros\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un repositorio con commits claros, README breve, historial revisable y enlace de proyecto organizado.",
+          "alert": "No subir claves, tokens, datos personales ni archivos privados al repositorio.",
+          "keyPoints": [
+            "Mensajes de commit claros debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un repositorio con commits claros, README breve, historial revisable y enlace de proyecto organizado.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "mod-3-lesson-3",
+          "title": "Ver historial",
+          "keyIdea": "Idea clave: Ver historial sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Ver historial\" dentro del modulo \"Commits, historial y buenas prácticas\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona trabaja sobre una web y necesita guardar avances, explicar cambios y recuperar una version sin perder archivos. Aplica \"Ver historial\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un repositorio con commits claros, README breve, historial revisable y enlace de proyecto organizado.",
+          "alert": "No subir claves, tokens, datos personales ni archivos privados al repositorio.",
+          "keyPoints": [
+            "Ver historial debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un repositorio con commits claros, README breve, historial revisable y enlace de proyecto organizado.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "mod-3-lesson-4",
+          "title": "Comparar cambios",
+          "keyIdea": "Idea clave: Comparar cambios sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Comparar cambios\" dentro del modulo \"Commits, historial y buenas prácticas\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona trabaja sobre una web y necesita guardar avances, explicar cambios y recuperar una version sin perder archivos. Aplica \"Comparar cambios\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un repositorio con commits claros, README breve, historial revisable y enlace de proyecto organizado.",
+          "alert": "No subir claves, tokens, datos personales ni archivos privados al repositorio.",
+          "keyPoints": [
+            "Comparar cambios debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un repositorio con commits claros, README breve, historial revisable y enlace de proyecto organizado.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "mod-3-lesson-5",
+          "title": "Commits pequeños y frecuentes",
+          "keyIdea": "Idea clave: Commits pequeños y frecuentes sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Commits pequeños y frecuentes\" dentro del modulo \"Commits, historial y buenas prácticas\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona trabaja sobre una web y necesita guardar avances, explicar cambios y recuperar una version sin perder archivos. Aplica \"Commits pequeños y frecuentes\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un repositorio con commits claros, README breve, historial revisable y enlace de proyecto organizado.",
+          "alert": "No subir claves, tokens, datos personales ni archivos privados al repositorio.",
+          "keyPoints": [
+            "Commits pequeños y frecuentes debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un repositorio con commits claros, README breve, historial revisable y enlace de proyecto organizado.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "mod-3-lesson-6",
+          "title": "Qué no conviene commitear",
+          "keyIdea": "Idea clave: Qué no conviene commitear sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Qué no conviene commitear\" dentro del modulo \"Commits, historial y buenas prácticas\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona trabaja sobre una web y necesita guardar avances, explicar cambios y recuperar una version sin perder archivos. Aplica \"Qué no conviene commitear\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un repositorio con commits claros, README breve, historial revisable y enlace de proyecto organizado.",
+          "alert": "No subir claves, tokens, datos personales ni archivos privados al repositorio.",
+          "keyPoints": [
+            "Qué no conviene commitear debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un repositorio con commits claros, README breve, historial revisable y enlace de proyecto organizado.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "mod-3-q-1",
+          "question": "¿Para qué sirve Git en un proyecto web?",
+          "options": [
+            "Registrar cambios e historial",
+            "Diseñar botones",
+            "Reemplazar HTML",
+            "Comprimir imágenes"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el uso ordenado de Git y GitHub ayuda a conservar, revisar y compartir proyectos web."
+        },
+        {
+          "id": "mod-3-q-2",
+          "question": "¿Qué conviene hacer antes de un commit?",
+          "options": [
+            "Revisar el estado y los archivos",
+            "Borrar la carpeta",
+            "Subir todo sin mirar",
+            "Ignorar errores"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el uso ordenado de Git y GitHub ayuda a conservar, revisar y compartir proyectos web."
+        },
+        {
+          "id": "mod-3-q-3",
+          "question": "¿Qué caracteriza a un buen mensaje de commit?",
+          "options": [
+            "Describe el cambio realizado",
+            "Dice solo 'update'",
+            "Está vacío",
+            "No tiene relación con el cambio"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el uso ordenado de Git y GitHub ayuda a conservar, revisar y compartir proyectos web."
+        },
+        {
+          "id": "mod-3-q-4",
+          "question": "¿Qué permite GitHub?",
+          "options": [
+            "Alojar y compartir repositorios",
+            "Ejecutar código secreto automáticamente",
+            "Evitar aprender Git",
+            "Crear CSS por sí solo"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el uso ordenado de Git y GitHub ayuda a conservar, revisar y compartir proyectos web."
+        },
+        {
+          "id": "mod-3-q-5",
+          "question": "¿Qué archivo puede ayudar a evitar subir archivos innecesarios?",
+          "options": [
+            ".gitignore",
+            "index.html",
+            "style-final-final.css",
+            "screenshot.png"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el uso ordenado de Git y GitHub ayuda a conservar, revisar y compartir proyectos web."
+        }
+      ],
+      "professionalOutcome": "crear repositorios, registrar cambios, recuperar versiones y colaborar con menos riesgo. Entregable sugerido: un repositorio con README, historial claro, rama de mejora y checklist de publicacion."
+    },
+    {
+      "id": "mod-4",
+      "title": "GitHub: subir y organizar proyectos",
+      "description": "En este modulo vas a trabajar \"GitHub: subir y organizar proyectos\" dentro de Git, GitHub, repositorios, commits, historial, ramas, organizacion y recuperacion de errores. La meta es construir una pieza pequena, probarla en navegador y dejar evidencia de que funciona para una persona real.",
+      "icon": "GIT",
+      "lessons": [
+        {
+          "id": "mod-4-lesson-1",
+          "title": "Qué es GitHub",
+          "keyIdea": "Idea clave: Qué es GitHub sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Qué es GitHub\" dentro del modulo \"GitHub: subir y organizar proyectos\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona trabaja sobre una web y necesita guardar avances, explicar cambios y recuperar una version sin perder archivos. Aplica \"Qué es GitHub\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un repositorio con commits claros, README breve, historial revisable y enlace de proyecto organizado.",
+          "alert": "No subir claves, tokens, datos personales ni archivos privados al repositorio.",
+          "keyPoints": [
+            "Qué es GitHub debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un repositorio con commits claros, README breve, historial revisable y enlace de proyecto organizado.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "mod-4-lesson-2",
+          "title": "Crear repositorio remoto",
+          "keyIdea": "Idea clave: Crear repositorio remoto sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Crear repositorio remoto\" dentro del modulo \"GitHub: subir y organizar proyectos\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona trabaja sobre una web y necesita guardar avances, explicar cambios y recuperar una version sin perder archivos. Aplica \"Crear repositorio remoto\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un repositorio con commits claros, README breve, historial revisable y enlace de proyecto organizado.",
+          "alert": "No subir claves, tokens, datos personales ni archivos privados al repositorio.",
+          "keyPoints": [
+            "Crear repositorio remoto debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un repositorio con commits claros, README breve, historial revisable y enlace de proyecto organizado.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "mod-4-lesson-3",
+          "title": "Conectar local con remoto",
+          "keyIdea": "Idea clave: Conectar local con remoto sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Conectar local con remoto\" dentro del modulo \"GitHub: subir y organizar proyectos\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona trabaja sobre una web y necesita guardar avances, explicar cambios y recuperar una version sin perder archivos. Aplica \"Conectar local con remoto\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un repositorio con commits claros, README breve, historial revisable y enlace de proyecto organizado.",
+          "alert": "No subir claves, tokens, datos personales ni archivos privados al repositorio.",
+          "keyPoints": [
+            "Conectar local con remoto debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un repositorio con commits claros, README breve, historial revisable y enlace de proyecto organizado.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "mod-4-lesson-4",
+          "title": "Subir cambios",
+          "keyIdea": "Idea clave: Subir cambios sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Subir cambios\" dentro del modulo \"GitHub: subir y organizar proyectos\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona trabaja sobre una web y necesita guardar avances, explicar cambios y recuperar una version sin perder archivos. Aplica \"Subir cambios\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un repositorio con commits claros, README breve, historial revisable y enlace de proyecto organizado.",
+          "alert": "No subir claves, tokens, datos personales ni archivos privados al repositorio.",
+          "keyPoints": [
+            "Subir cambios debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un repositorio con commits claros, README breve, historial revisable y enlace de proyecto organizado.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "mod-4-lesson-5",
+          "title": "README para presentar el proyecto",
+          "keyIdea": "Idea clave: README para presentar el proyecto sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"README para presentar el proyecto\" dentro del modulo \"GitHub: subir y organizar proyectos\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona trabaja sobre una web y necesita guardar avances, explicar cambios y recuperar una version sin perder archivos. Aplica \"README para presentar el proyecto\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un repositorio con commits claros, README breve, historial revisable y enlace de proyecto organizado.",
+          "alert": "No subir claves, tokens, datos personales ni archivos privados al repositorio.",
+          "keyPoints": [
+            "README para presentar el proyecto debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un repositorio con commits claros, README breve, historial revisable y enlace de proyecto organizado.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "mod-4-lesson-6",
+          "title": "Organizar repositorios personales",
+          "keyIdea": "Idea clave: Organizar repositorios personales sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Organizar repositorios personales\" dentro del modulo \"GitHub: subir y organizar proyectos\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona trabaja sobre una web y necesita guardar avances, explicar cambios y recuperar una version sin perder archivos. Aplica \"Organizar repositorios personales\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un repositorio con commits claros, README breve, historial revisable y enlace de proyecto organizado.",
+          "alert": "No subir claves, tokens, datos personales ni archivos privados al repositorio.",
+          "keyPoints": [
+            "Organizar repositorios personales debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un repositorio con commits claros, README breve, historial revisable y enlace de proyecto organizado.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "mod-4-q-1",
+          "question": "¿Para qué sirve Git en un proyecto web?",
+          "options": [
+            "Registrar cambios e historial",
+            "Diseñar botones",
+            "Reemplazar HTML",
+            "Comprimir imágenes"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el uso ordenado de Git y GitHub ayuda a conservar, revisar y compartir proyectos web."
+        },
+        {
+          "id": "mod-4-q-2",
+          "question": "¿Qué conviene hacer antes de un commit?",
+          "options": [
+            "Revisar el estado y los archivos",
+            "Borrar la carpeta",
+            "Subir todo sin mirar",
+            "Ignorar errores"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el uso ordenado de Git y GitHub ayuda a conservar, revisar y compartir proyectos web."
+        },
+        {
+          "id": "mod-4-q-3",
+          "question": "¿Qué caracteriza a un buen mensaje de commit?",
+          "options": [
+            "Describe el cambio realizado",
+            "Dice solo 'update'",
+            "Está vacío",
+            "No tiene relación con el cambio"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el uso ordenado de Git y GitHub ayuda a conservar, revisar y compartir proyectos web."
+        },
+        {
+          "id": "mod-4-q-4",
+          "question": "¿Qué permite GitHub?",
+          "options": [
+            "Alojar y compartir repositorios",
+            "Ejecutar código secreto automáticamente",
+            "Evitar aprender Git",
+            "Crear CSS por sí solo"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el uso ordenado de Git y GitHub ayuda a conservar, revisar y compartir proyectos web."
+        },
+        {
+          "id": "mod-4-q-5",
+          "question": "¿Qué archivo puede ayudar a evitar subir archivos innecesarios?",
+          "options": [
+            ".gitignore",
+            "index.html",
+            "style-final-final.css",
+            "screenshot.png"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el uso ordenado de Git y GitHub ayuda a conservar, revisar y compartir proyectos web."
+        }
+      ],
+      "professionalOutcome": "crear repositorios, registrar cambios, recuperar versiones y colaborar con menos riesgo. Entregable sugerido: un repositorio con README, historial claro, rama de mejora y checklist de publicacion."
+    },
+    {
+      "id": "mod-5",
+      "title": "Ramas, errores comunes y recuperación",
+      "description": "En este modulo vas a trabajar \"Ramas, errores comunes y recuperación\" dentro de Git, GitHub, repositorios, commits, historial, ramas, organizacion y recuperacion de errores. La meta es construir una pieza pequena, probarla en navegador y dejar evidencia de que funciona para una persona real.",
+      "icon": "GIT",
+      "lessons": [
+        {
+          "id": "mod-5-lesson-1",
+          "title": "Qué es una rama",
+          "keyIdea": "Idea clave: Qué es una rama sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Qué es una rama\" dentro del modulo \"Ramas, errores comunes y recuperación\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona trabaja sobre una web y necesita guardar avances, explicar cambios y recuperar una version sin perder archivos. Aplica \"Qué es una rama\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un repositorio con commits claros, README breve, historial revisable y enlace de proyecto organizado.",
+          "alert": "No subir claves, tokens, datos personales ni archivos privados al repositorio.",
+          "keyPoints": [
+            "Qué es una rama debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un repositorio con commits claros, README breve, historial revisable y enlace de proyecto organizado.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "mod-5-lesson-2",
+          "title": "Crear y cambiar de rama",
+          "keyIdea": "Idea clave: Crear y cambiar de rama sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Crear y cambiar de rama\" dentro del modulo \"Ramas, errores comunes y recuperación\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona trabaja sobre una web y necesita guardar avances, explicar cambios y recuperar una version sin perder archivos. Aplica \"Crear y cambiar de rama\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un repositorio con commits claros, README breve, historial revisable y enlace de proyecto organizado.",
+          "alert": "No subir claves, tokens, datos personales ni archivos privados al repositorio.",
+          "keyPoints": [
+            "Crear y cambiar de rama debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un repositorio con commits claros, README breve, historial revisable y enlace de proyecto organizado.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "mod-5-lesson-3",
+          "title": "Fusionar cambios de forma simple",
+          "keyIdea": "Idea clave: Fusionar cambios de forma simple sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Fusionar cambios de forma simple\" dentro del modulo \"Ramas, errores comunes y recuperación\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona trabaja sobre una web y necesita guardar avances, explicar cambios y recuperar una version sin perder archivos. Aplica \"Fusionar cambios de forma simple\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un repositorio con commits claros, README breve, historial revisable y enlace de proyecto organizado.",
+          "alert": "No subir claves, tokens, datos personales ni archivos privados al repositorio.",
+          "keyPoints": [
+            "Fusionar cambios de forma simple debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un repositorio con commits claros, README breve, historial revisable y enlace de proyecto organizado.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "mod-5-lesson-4",
+          "title": "Recuperar archivos modificados",
+          "keyIdea": "Idea clave: Recuperar archivos modificados sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Recuperar archivos modificados\" dentro del modulo \"Ramas, errores comunes y recuperación\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona trabaja sobre una web y necesita guardar avances, explicar cambios y recuperar una version sin perder archivos. Aplica \"Recuperar archivos modificados\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un repositorio con commits claros, README breve, historial revisable y enlace de proyecto organizado.",
+          "alert": "No subir claves, tokens, datos personales ni archivos privados al repositorio.",
+          "keyPoints": [
+            "Recuperar archivos modificados debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un repositorio con commits claros, README breve, historial revisable y enlace de proyecto organizado.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "mod-5-lesson-5",
+          "title": "Resolver errores frecuentes",
+          "keyIdea": "Idea clave: Resolver errores frecuentes sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Resolver errores frecuentes\" dentro del modulo \"Ramas, errores comunes y recuperación\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona trabaja sobre una web y necesita guardar avances, explicar cambios y recuperar una version sin perder archivos. Aplica \"Resolver errores frecuentes\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un repositorio con commits claros, README breve, historial revisable y enlace de proyecto organizado.",
+          "alert": "No subir claves, tokens, datos personales ni archivos privados al repositorio.",
+          "keyPoints": [
+            "Resolver errores frecuentes debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un repositorio con commits claros, README breve, historial revisable y enlace de proyecto organizado.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "mod-5-lesson-6",
+          "title": "Evitar subir archivos innecesarios",
+          "keyIdea": "Idea clave: Evitar subir archivos innecesarios sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Evitar subir archivos innecesarios\" dentro del modulo \"Ramas, errores comunes y recuperación\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona trabaja sobre una web y necesita guardar avances, explicar cambios y recuperar una version sin perder archivos. Aplica \"Evitar subir archivos innecesarios\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un repositorio con commits claros, README breve, historial revisable y enlace de proyecto organizado.",
+          "alert": "No subir claves, tokens, datos personales ni archivos privados al repositorio.",
+          "keyPoints": [
+            "Evitar subir archivos innecesarios debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un repositorio con commits claros, README breve, historial revisable y enlace de proyecto organizado.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "mod-5-q-1",
+          "question": "¿Para qué sirve Git en un proyecto web?",
+          "options": [
+            "Registrar cambios e historial",
+            "Diseñar botones",
+            "Reemplazar HTML",
+            "Comprimir imágenes"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el uso ordenado de Git y GitHub ayuda a conservar, revisar y compartir proyectos web."
+        },
+        {
+          "id": "mod-5-q-2",
+          "question": "¿Qué conviene hacer antes de un commit?",
+          "options": [
+            "Revisar el estado y los archivos",
+            "Borrar la carpeta",
+            "Subir todo sin mirar",
+            "Ignorar errores"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el uso ordenado de Git y GitHub ayuda a conservar, revisar y compartir proyectos web."
+        },
+        {
+          "id": "mod-5-q-3",
+          "question": "¿Qué caracteriza a un buen mensaje de commit?",
+          "options": [
+            "Describe el cambio realizado",
+            "Dice solo 'update'",
+            "Está vacío",
+            "No tiene relación con el cambio"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el uso ordenado de Git y GitHub ayuda a conservar, revisar y compartir proyectos web."
+        },
+        {
+          "id": "mod-5-q-4",
+          "question": "¿Qué permite GitHub?",
+          "options": [
+            "Alojar y compartir repositorios",
+            "Ejecutar código secreto automáticamente",
+            "Evitar aprender Git",
+            "Crear CSS por sí solo"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el uso ordenado de Git y GitHub ayuda a conservar, revisar y compartir proyectos web."
+        },
+        {
+          "id": "mod-5-q-5",
+          "question": "¿Qué archivo puede ayudar a evitar subir archivos innecesarios?",
+          "options": [
+            ".gitignore",
+            "index.html",
+            "style-final-final.css",
+            "screenshot.png"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el uso ordenado de Git y GitHub ayuda a conservar, revisar y compartir proyectos web."
+        }
+      ],
+      "professionalOutcome": "crear repositorios, registrar cambios, recuperar versiones y colaborar con menos riesgo. Entregable sugerido: un repositorio con README, historial claro, rama de mejora y checklist de publicacion."
+    },
+    {
+      "id": "mod-6",
+      "title": "Proyecto final: subir una página web completa",
+      "description": "En este modulo vas a trabajar \"Proyecto final: subir una página web completa\" dentro de Git, GitHub, repositorios, commits, historial, ramas, organizacion y recuperacion de errores. La meta es construir una pieza pequena, probarla en navegador y dejar evidencia de que funciona para una persona real.",
+      "icon": "GIT",
+      "lessons": [
+        {
+          "id": "mod-6-lesson-1",
+          "title": "Preparar proyecto final",
+          "keyIdea": "Idea clave: Preparar proyecto final sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Preparar proyecto final\" dentro del modulo \"Proyecto final: subir una página web completa\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona trabaja sobre una web y necesita guardar avances, explicar cambios y recuperar una version sin perder archivos. Aplica \"Preparar proyecto final\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un repositorio con commits claros, README breve, historial revisable y enlace de proyecto organizado.",
+          "alert": "No subir claves, tokens, datos personales ni archivos privados al repositorio.",
+          "keyPoints": [
+            "Preparar proyecto final debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un repositorio con commits claros, README breve, historial revisable y enlace de proyecto organizado.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "mod-6-lesson-2",
+          "title": "Revisar archivos HTML/CSS/JS",
+          "keyIdea": "Idea clave: Revisar archivos HTML/CSS/JS sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Revisar archivos HTML/CSS/JS\" dentro del modulo \"Proyecto final: subir una página web completa\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona trabaja sobre una web y necesita guardar avances, explicar cambios y recuperar una version sin perder archivos. Aplica \"Revisar archivos HTML/CSS/JS\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un repositorio con commits claros, README breve, historial revisable y enlace de proyecto organizado.",
+          "alert": "No subir claves, tokens, datos personales ni archivos privados al repositorio.",
+          "keyPoints": [
+            "Revisar archivos HTML/CSS/JS debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un repositorio con commits claros, README breve, historial revisable y enlace de proyecto organizado.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "mod-6-lesson-3",
+          "title": "Crear README útil",
+          "keyIdea": "Idea clave: Crear README útil sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Crear README útil\" dentro del modulo \"Proyecto final: subir una página web completa\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona trabaja sobre una web y necesita guardar avances, explicar cambios y recuperar una version sin perder archivos. Aplica \"Crear README útil\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un repositorio con commits claros, README breve, historial revisable y enlace de proyecto organizado.",
+          "alert": "No subir claves, tokens, datos personales ni archivos privados al repositorio.",
+          "keyPoints": [
+            "Crear README útil debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un repositorio con commits claros, README breve, historial revisable y enlace de proyecto organizado.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "mod-6-lesson-4",
+          "title": "Crear .gitignore básico",
+          "keyIdea": "Idea clave: Crear .gitignore básico sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Crear .gitignore básico\" dentro del modulo \"Proyecto final: subir una página web completa\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona trabaja sobre una web y necesita guardar avances, explicar cambios y recuperar una version sin perder archivos. Aplica \"Crear .gitignore básico\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un repositorio con commits claros, README breve, historial revisable y enlace de proyecto organizado.",
+          "alert": "No subir claves, tokens, datos personales ni archivos privados al repositorio.",
+          "keyPoints": [
+            "Crear .gitignore básico debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un repositorio con commits claros, README breve, historial revisable y enlace de proyecto organizado.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "mod-6-lesson-5",
+          "title": "Subir a GitHub",
+          "keyIdea": "Idea clave: Subir a GitHub sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Subir a GitHub\" dentro del modulo \"Proyecto final: subir una página web completa\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona trabaja sobre una web y necesita guardar avances, explicar cambios y recuperar una version sin perder archivos. Aplica \"Subir a GitHub\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un repositorio con commits claros, README breve, historial revisable y enlace de proyecto organizado.",
+          "alert": "No subir claves, tokens, datos personales ni archivos privados al repositorio.",
+          "keyPoints": [
+            "Subir a GitHub debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un repositorio con commits claros, README breve, historial revisable y enlace de proyecto organizado.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "mod-6-lesson-6",
+          "title": "Checklist final de publicación",
+          "keyIdea": "Idea clave: Checklist final de publicación sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Checklist final de publicación\" dentro del modulo \"Proyecto final: subir una página web completa\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona trabaja sobre una web y necesita guardar avances, explicar cambios y recuperar una version sin perder archivos. Aplica \"Checklist final de publicación\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un repositorio con commits claros, README breve, historial revisable y enlace de proyecto organizado.",
+          "alert": "No subir claves, tokens, datos personales ni archivos privados al repositorio.",
+          "keyPoints": [
+            "Checklist final de publicación debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un repositorio con commits claros, README breve, historial revisable y enlace de proyecto organizado.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "mod-6-q-1",
+          "question": "¿Para qué sirve Git en un proyecto web?",
+          "options": [
+            "Registrar cambios e historial",
+            "Diseñar botones",
+            "Reemplazar HTML",
+            "Comprimir imágenes"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el uso ordenado de Git y GitHub ayuda a conservar, revisar y compartir proyectos web."
+        },
+        {
+          "id": "mod-6-q-2",
+          "question": "¿Qué conviene hacer antes de un commit?",
+          "options": [
+            "Revisar el estado y los archivos",
+            "Borrar la carpeta",
+            "Subir todo sin mirar",
+            "Ignorar errores"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el uso ordenado de Git y GitHub ayuda a conservar, revisar y compartir proyectos web."
+        },
+        {
+          "id": "mod-6-q-3",
+          "question": "¿Qué caracteriza a un buen mensaje de commit?",
+          "options": [
+            "Describe el cambio realizado",
+            "Dice solo 'update'",
+            "Está vacío",
+            "No tiene relación con el cambio"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el uso ordenado de Git y GitHub ayuda a conservar, revisar y compartir proyectos web."
+        },
+        {
+          "id": "mod-6-q-4",
+          "question": "¿Qué permite GitHub?",
+          "options": [
+            "Alojar y compartir repositorios",
+            "Ejecutar código secreto automáticamente",
+            "Evitar aprender Git",
+            "Crear CSS por sí solo"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el uso ordenado de Git y GitHub ayuda a conservar, revisar y compartir proyectos web."
+        },
+        {
+          "id": "mod-6-q-5",
+          "question": "¿Qué archivo puede ayudar a evitar subir archivos innecesarios?",
+          "options": [
+            ".gitignore",
+            "index.html",
+            "style-final-final.css",
+            "screenshot.png"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el uso ordenado de Git y GitHub ayuda a conservar, revisar y compartir proyectos web."
+        }
+      ],
+      "professionalOutcome": "crear repositorios, registrar cambios, recuperar versiones y colaborar con menos riesgo. Entregable sugerido: un repositorio con README, historial claro, rama de mejora y checklist de publicacion."
+    }
+  ],
+  "publicationStatus": "publica-profesional-v0.6",
+  "appName": "Git y GitHub para Proyectos Web",
+  "professionalization": {
+    "tier": "curso-bandera-v1.0-beta",
+    "updatedAt": "2026-05-28",
+    "focus": "Profundizacion visible de lecciones, practicas, checklists y casos."
+  },
+  "editorialPolish": {
+    "fourthEditorialBatch": "2026-06-02",
+    "status": "public-facing-copy-polished"
+  }
+}

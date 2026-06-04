@@ -1,0 +1,234 @@
+{
+  "courseId": "publicacion_web_principiantes",
+  "version": "0.4",
+  "title": "Proyecto guiado: publicar una landing final",
+  "description": "Flujo completo para preparar una landing, elegir plataforma, simular deploy, resolver errores y generar un reporte final.",
+  "steps": [
+    {
+      "id": "fp-step-1",
+      "title": "Preparar carpeta final",
+      "goal": "Crear una carpeta limpia que contenga solo los archivos publicables.",
+      "tasks": [
+        "Crear carpeta dist o publicacion-final.",
+        "Incluir index.html.",
+        "Incluir styles.css si está separado.",
+        "Incluir script.js si corresponde.",
+        "Incluir carpeta assets si hay imágenes.",
+        "Eliminar borradores, zips, capturas innecesarias y archivos privados."
+      ],
+      "checkpoint": "La carpeta final contiene únicamente lo que debe publicarse.",
+      "risk": "Subir una carpeta equivocada o con archivos privados."
+    },
+    {
+      "id": "fp-step-2",
+      "title": "Probar localmente",
+      "goal": "Confirmar que la landing funciona antes de publicarla.",
+      "tasks": [
+        "Abrir con Live Server.",
+        "Revisar consola del navegador.",
+        "Probar navegación interna.",
+        "Probar tamaño móvil.",
+        "Confirmar que imágenes y estilos cargan."
+      ],
+      "checkpoint": "La landing funciona correctamente en local.",
+      "risk": "Publicar una página que ya tenía errores locales."
+    },
+    {
+      "id": "fp-step-3",
+      "title": "Elegir plataforma",
+      "goal": "Seleccionar GitHub Pages, Netlify o Vercel según el tipo de proyecto.",
+      "tasks": [
+        "Elegir GitHub Pages para portfolio o web simple en repositorio.",
+        "Elegir Netlify para landing rápida o curso estático.",
+        "Elegir Vercel para React, Next.js o frontend moderno.",
+        "Documentar la elección en el reporte."
+      ],
+      "checkpoint": "La plataforma elegida coincide con el tipo de proyecto.",
+      "risk": "Usar una plataforma con configuración innecesariamente compleja."
+    },
+    {
+      "id": "fp-step-4",
+      "title": "Simular deploy",
+      "goal": "Practicar el resultado esperado de la publicación.",
+      "tasks": [
+        "Revisar requisitos de la plataforma.",
+        "Simular carga de carpeta o push a repositorio.",
+        "Leer resultado de deploy exitoso.",
+        "Detectar errores típicos."
+      ],
+      "checkpoint": "El flujo de deploy está entendido antes de ejecutarlo en una plataforma real.",
+      "risk": "No saber interpretar errores de deploy."
+    },
+    {
+      "id": "fp-step-5",
+      "title": "Resolver errores frecuentes",
+      "goal": "Aplicar diagnóstico para problemas típicos.",
+      "tasks": [
+        "Si hay 404, revisar carpeta y archivo index.html.",
+        "Si falta CSS, revisar ruta del link.",
+        "Si no aparecen cambios, revisar caché.",
+        "Si falla build, revisar configuración de plataforma.",
+        "Si hay archivos privados, detener y limpiar."
+      ],
+      "checkpoint": "Los errores tienen una ruta de diagnóstico clara.",
+      "risk": "Cambiar archivos al azar sin detectar la causa real."
+    },
+    {
+      "id": "fp-step-6",
+      "title": "Verificación final y reporte",
+      "goal": "Cerrar la práctica con checklist y documentación.",
+      "tasks": [
+        "Completar checklist final.",
+        "Guardar URL publicada si existe.",
+        "Generar reporte exportable.",
+        "Guardar README de publicación.",
+        "Registrar próximas mejoras."
+      ],
+      "checkpoint": "El proyecto queda documentado y listo para compartir.",
+      "risk": "Publicar sin dejar registro del proceso."
+    }
+  ],
+  "builderFields": [
+    {
+      "id": "projectName",
+      "label": "Nombre del proyecto",
+      "default": "Landing final publicada"
+    },
+    {
+      "id": "projectType",
+      "label": "Tipo de proyecto",
+      "default": "Landing HTML/CSS/JS simple"
+    },
+    {
+      "id": "chosenPlatform",
+      "label": "Plataforma elegida",
+      "default": "Netlify"
+    },
+    {
+      "id": "localStatus",
+      "label": "Estado local",
+      "default": "Probado con Live Server sin errores visibles."
+    },
+    {
+      "id": "publicUrl",
+      "label": "URL pública o simulada",
+      "default": "https://mi-landing.netlify.app"
+    },
+    {
+      "id": "mainIssue",
+      "label": "Error detectado o riesgo principal",
+      "default": "Revisar rutas relativas y archivos privados antes de publicar."
+    },
+    {
+      "id": "nextImprovement",
+      "label": "Próxima mejora",
+      "default": "Agregar dominio propio y mejorar capturas de publicación."
+    }
+  ],
+  "deployOutcomes": [
+    {
+      "id": "deploy-success",
+      "title": "Deploy exitoso",
+      "status": "success",
+      "terminal": "Deploy complete.\nSite is live.\nURL: https://mi-landing.netlify.app",
+      "meaning": "La landing ya tiene una URL pública y debe verificarse manualmente."
+    },
+    {
+      "id": "deploy-404",
+      "title": "Deploy con 404",
+      "status": "warning",
+      "terminal": "404 - Page not found\nThe requested file was not found in the publish directory.",
+      "meaning": "Puede faltar index.html o estar configurada la carpeta equivocada."
+    },
+    {
+      "id": "deploy-assets-error",
+      "title": "Deploy con assets rotos",
+      "status": "warning",
+      "terminal": "GET /styles.css 404\nGET /assets/logo.png 404",
+      "meaning": "La página abre, pero rutas de CSS o imágenes están mal escritas."
+    },
+    {
+      "id": "deploy-private-risk",
+      "title": "Riesgo de privacidad",
+      "status": "danger",
+      "terminal": "Warning: .env or private files detected in project folder.",
+      "meaning": "Antes de publicar hay que eliminar archivos sensibles y revisar .gitignore."
+    }
+  ],
+  "finalChecklist": [
+    {
+      "id": "final-index",
+      "text": "index.html está en la carpeta publicada."
+    },
+    {
+      "id": "final-styles",
+      "text": "CSS carga correctamente."
+    },
+    {
+      "id": "final-scripts",
+      "text": "JavaScript no tiene errores críticos."
+    },
+    {
+      "id": "final-assets",
+      "text": "Imágenes y recursos cargan con rutas relativas."
+    },
+    {
+      "id": "final-mobile",
+      "text": "La landing se revisó en tamaño móvil."
+    },
+    {
+      "id": "final-readme",
+      "text": "README explica proyecto, tecnologías y publicación."
+    },
+    {
+      "id": "final-private",
+      "text": "No hay claves, tokens, .env ni datos privados."
+    },
+    {
+      "id": "final-platform",
+      "text": "La plataforma coincide con el tipo de proyecto."
+    },
+    {
+      "id": "final-url",
+      "text": "La URL pública fue abierta y verificada."
+    },
+    {
+      "id": "final-cache",
+      "text": "Se probó recarga fuerte o incógnito si hubo caché."
+    },
+    {
+      "id": "final-report",
+      "text": "Se generó reporte final de publicación."
+    },
+    {
+      "id": "final-next",
+      "text": "Se registraron próximas mejoras."
+    }
+  ],
+  "troubleshooting": [
+    {
+      "id": "trouble-404",
+      "problem": "La URL publicada muestra 404.",
+      "diagnosis": "La carpeta publicada no contiene index.html o la plataforma apunta a una ubicación incorrecta.",
+      "solution": "Revisar publish directory, rama/carpeta y ubicación de index.html."
+    },
+    {
+      "id": "trouble-css",
+      "problem": "La página aparece sin estilos.",
+      "diagnosis": "El archivo CSS no carga por ruta incorrecta o nombre distinto.",
+      "solution": "Revisar href del link CSS, mayúsculas/minúsculas y ubicación del archivo."
+    },
+    {
+      "id": "trouble-cache",
+      "problem": "Los cambios no aparecen.",
+      "diagnosis": "Puede haber caché o el deploy nuevo no terminó.",
+      "solution": "Probar recarga fuerte, incógnito y verificar fecha del último deploy."
+    },
+    {
+      "id": "trouble-private",
+      "problem": "Se detectaron archivos privados.",
+      "diagnosis": "La carpeta incluye .env, claves, tokens, documentos o datos sensibles.",
+      "solution": "Eliminar archivos privados, actualizar .gitignore y rotar claves si fueron expuestas."
+    }
+  ]
+}

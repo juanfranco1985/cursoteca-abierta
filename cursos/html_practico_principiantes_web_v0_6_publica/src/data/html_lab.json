@@ -1,0 +1,149 @@
+{
+  "labId": "html-lab-v0-2",
+  "title": "Laboratorio HTML interactivo",
+  "description": "Espacio de práctica para editar ejemplos HTML, revisar estructura y generar reportes de aprendizaje.",
+  "examples": [
+    {
+      "id": "html_ex_01",
+      "title": "Página mínima",
+      "category": "estructura",
+      "goal": "Entender la estructura básica de una página HTML.",
+      "starterCode": "<!doctype html>\n<html lang=\"es\">\n  <head>\n    <meta charset=\"utf-8\">\n    <title>Mi primera página</title>\n  </head>\n  <body>\n    <h1>Hola HTML</h1>\n    <p>Esta es mi primera página.</p>\n  </body>\n</html>",
+      "expectedElements": [
+        "<!doctype html>",
+        "<html>",
+        "<head>",
+        "<title>",
+        "<body>",
+        "<h1>",
+        "<p>"
+      ],
+      "explanation": "Una página mínima declara el tipo de documento, idioma, encabezado técnico y contenido visible."
+    },
+    {
+      "id": "html_ex_02",
+      "title": "Ficha de producto",
+      "category": "contenido",
+      "goal": "Organizar títulos, imagen referencial, lista de características y enlace.",
+      "starterCode": "<article>\n  <h1>Cuaderno universitario</h1>\n  <p>Producto ideal para estudiar o trabajar.</p>\n  <ul>\n    <li>80 hojas</li>\n    <li>Tapa dura</li>\n    <li>Rayado</li>\n  </ul>\n  <a href=\"https://ejemplo.com\">Ver más</a>\n</article>",
+      "expectedElements": [
+        "<article>",
+        "<h1>",
+        "<p>",
+        "<ul>",
+        "<li>",
+        "<a>"
+      ],
+      "explanation": "Una ficha simple debe tener jerarquía clara, descripción y datos ordenados."
+    },
+    {
+      "id": "html_ex_03",
+      "title": "Tabla simple",
+      "category": "tablas",
+      "goal": "Practicar estructura de tabla con encabezado y filas.",
+      "starterCode": "<table>\n  <thead>\n    <tr><th>Producto</th><th>Precio</th></tr>\n  </thead>\n  <tbody>\n    <tr><td>Yerba</td><td>1500</td></tr>\n    <tr><td>Arroz</td><td>1200</td></tr>\n  </tbody>\n</table>",
+      "expectedElements": [
+        "<table>",
+        "<thead>",
+        "<tbody>",
+        "<tr>",
+        "<th>",
+        "<td>"
+      ],
+      "explanation": "Las tablas sirven para datos tabulares; no conviene usarlas para maquetar toda una página."
+    },
+    {
+      "id": "html_ex_04",
+      "title": "Formulario de contacto",
+      "category": "formularios",
+      "goal": "Crear campos básicos para recibir nombre, correo y mensaje.",
+      "starterCode": "<form>\n  <label>Nombre\n    <input type=\"text\" name=\"nombre\">\n  </label>\n  <label>Correo\n    <input type=\"email\" name=\"correo\">\n  </label>\n  <label>Mensaje\n    <textarea name=\"mensaje\"></textarea>\n  </label>\n  <button type=\"submit\">Enviar</button>\n</form>",
+      "expectedElements": [
+        "<form>",
+        "<label>",
+        "<input>",
+        "<textarea>",
+        "<button>"
+      ],
+      "explanation": "Un formulario ordenado usa etiquetas visibles y tipos de campo adecuados."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "html_lab_ej_01",
+      "title": "Completar una página personal",
+      "difficulty": "inicial",
+      "task": "Agregá un título, un párrafo de presentación y un enlace a un recurso útil.",
+      "hint": "Usá h1, p y a.",
+      "solution": "<h1>Mi página personal</h1>\n<p>Estoy aprendiendo HTML desde cero.</p>\n<a href=\"https://developer.mozilla.org/\">Recurso útil</a>",
+      "commonMistake": "Poner texto suelto sin etiquetas o enlaces sin href."
+    },
+    {
+      "id": "html_lab_ej_02",
+      "title": "Ordenar una lista de recursos",
+      "difficulty": "inicial",
+      "task": "Creá una lista con tres recursos de aprendizaje.",
+      "hint": "Usá ul y li.",
+      "solution": "<ul>\n  <li>HTML básico</li>\n  <li>CSS básico</li>\n  <li>JavaScript básico</li>\n</ul>",
+      "commonMistake": "Separar elementos con guiones manuales en lugar de usar una lista real."
+    },
+    {
+      "id": "html_lab_ej_03",
+      "title": "Corregir estructura incorrecta",
+      "difficulty": "media",
+      "task": "Revisá una estructura con etiquetas mal cerradas y escribí una versión correcta.",
+      "hint": "Cada etiqueta abierta debe cerrarse en el orden adecuado.",
+      "solution": "<section>\n  <h2>Noticias</h2>\n  <p>Últimas novedades del sitio.</p>\n</section>",
+      "commonMistake": "Cerrar section antes de cerrar el contenido interno."
+    },
+    {
+      "id": "html_lab_ej_04",
+      "title": "Crear formulario mínimo",
+      "difficulty": "media",
+      "task": "Armá un formulario con nombre, correo y botón de envío.",
+      "hint": "Combiná form, label, input y button.",
+      "solution": "<form>\n  <label>Nombre <input type=\"text\" name=\"nombre\"></label>\n  <label>Correo <input type=\"email\" name=\"correo\"></label>\n  <button type=\"submit\">Enviar</button>\n</form>",
+      "commonMistake": "Usar input sin label o botón sin type."
+    }
+  ],
+  "comparisons": [
+    {
+      "id": "html_cmp_01",
+      "title": "Título correcto vs texto grande improvisado",
+      "wrong": "<p><b>Mi título principal</b></p>",
+      "right": "<h1>Mi título principal</h1>",
+      "reason": "h1 comunica estructura semántica; p y b solo cambian apariencia."
+    },
+    {
+      "id": "html_cmp_02",
+      "title": "Imagen sin alternativa vs imagen accesible",
+      "wrong": "<img src=\"producto.jpg\">",
+      "right": "<img src=\"producto.jpg\" alt=\"Cuaderno universitario azul\">",
+      "reason": "alt ayuda a accesibilidad y describe la imagen si no carga."
+    },
+    {
+      "id": "html_cmp_03",
+      "title": "Enlace ambiguo vs enlace claro",
+      "wrong": "<a href=\"guia.html\">click aquí</a>",
+      "right": "<a href=\"guia.html\">Abrir guía de HTML básico</a>",
+      "reason": "El texto del enlace debe explicar el destino."
+    }
+  ],
+  "snippets": [
+    {
+      "id": "html_snip_01",
+      "title": "Documento HTML base",
+      "code": "<!doctype html>\n<html lang=\"es\">\n<head>\n  <meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>Mi página</title>\n</head>\n<body>\n  <h1>Mi página</h1>\n</body>\n</html>"
+    },
+    {
+      "id": "html_snip_02",
+      "title": "Tarjeta simple",
+      "code": "<article>\n  <h2>Título de tarjeta</h2>\n  <p>Descripción breve del contenido.</p>\n  <a href=\"#\">Ver más</a>\n</article>"
+    },
+    {
+      "id": "html_snip_03",
+      "title": "Formulario básico",
+      "code": "<form>\n  <label>Nombre <input type=\"text\" name=\"nombre\"></label>\n  <label>Email <input type=\"email\" name=\"email\"></label>\n  <button type=\"submit\">Enviar</button>\n</form>"
+    }
+  ]
+}

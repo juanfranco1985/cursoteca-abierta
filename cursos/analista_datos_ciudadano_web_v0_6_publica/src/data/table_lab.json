@@ -1,0 +1,72 @@
+{
+  "title": "Laboratorio de tablas",
+  "version": "0.5",
+  "description": "Ejercicios guiados para revisar tablas pequeñas, limpiar categorías, detectar problemas, calcular columnas simples, generar rankings, producir reportes y seguir una experiencia paso a paso desde el navegador sin subir datos a ningún servidor.",
+  "privacyNotice": "No pegues datos personales, DNI, teléfonos, CBU/CVU, direcciones reales ni información sensible. Usá datos de práctica o tablas anonimizadas.",
+  "sampleTables": [
+    {
+      "id": "ventas_kiosco",
+      "title": "Ventas de kiosco barrial",
+      "description": "Tabla con ventas simples, faltantes, categorías escritas de forma distinta y un posible duplicado.",
+      "csv": "fecha,producto,categoria,cantidad,precio,canal\n2026-05-01,Yerba,Almacen,2,1800,Mostrador\n2026-05-01,Galletitas,almacen,3,950,WhatsApp\n2026-05-02,Gaseosa,Bebidas,1,2200,Mostrador\n2026-05-02,Yerba,Almacén,2,1800,Mostrador\n2026-05-03,,Bebidas,1,1600,WhatsApp\n2026-05-03,Panificados,Panificados,4,,Mostrador\n2026-05-03,Gaseosa,bebidas,1,2200,Mostrador"
+    },
+    {
+      "id": "gastos_familiares",
+      "title": "Gastos familiares simplificados",
+      "description": "Tabla para detectar categorías inconsistentes, importes extremos y celdas vacías.",
+      "csv": "fecha,rubro,monto,metodo,nota\n2026-05-01,Supermercado,35000,Debito,compra semanal\n2026-05-02,transporte,2200,Efectivo,colectivo\n2026-05-03,Transporte,2200,Efectivo,colectivo\n2026-05-04,Comida,12000,QR,delivery\n2026-05-05,Servicios,78000,Transferencia,luz\n2026-05-06,supermercado,,Debito,faltante\n2026-05-07,Otros,250000,Transferencia,revisar"
+    },
+    {
+      "id": "publicaciones_redes",
+      "title": "Rendimiento de publicaciones",
+      "description": "Tabla para comparar alcance, interacciones y conversiones simples.",
+      "csv": "fecha,publicacion,alcance,interacciones,consultas,ventas\n2026-05-01,Promo 1,1200,80,10,2\n2026-05-02,Producto A,900,60,8,1\n2026-05-03,Promo 1,1200,80,10,2\n2026-05-04,Historia B,500,,4,0\n2026-05-05,Producto C,1800,120,20,5\n2026-05-06,Sorteo,6000,900,90,3"
+    }
+  ],
+  "reportTemplate": [
+    "Pregunta analizada",
+    "Fuente y período",
+    "Hallazgos principales",
+    "Problemas de calidad detectados",
+    "Métricas simples calculadas",
+    "Límites del análisis",
+    "Próxima acción recomendada",
+    "Limpieza asistida sugerida",
+    "Columnas calculadas",
+    "Ranking top 5",
+    "Recomendación responsable"
+  ],
+  "v03Features": [
+    "limpieza asistida de categorías y duplicados",
+    "detección de faltantes con recomendación de acción",
+    "columnas calculadas simples: total estimado, tasas de interacción, conversión o ROI si las columnas existen",
+    "ranking top 5 agrupado por categoría/producto/rubro/publicación/canal",
+    "barras educativas locales sin librerías externas",
+    "reporte avanzado con hallazgos, límites y recomendación"
+  ],
+  "v04Features": [
+    "modo de práctica guiada o libre",
+    "lectura guiada de resultados",
+    "pantalla de práctica paso a paso",
+    "resumen visual de prácticas locales",
+    "historial local de resúmenes sin guardar tablas completas",
+    "checklist imprimible de análisis ciudadano",
+    "formularios más cómodos para móvil"
+  ],
+  "guidedPractice": {
+    "title": "Método de 5 pasos para analizar una tabla cotidiana",
+    "steps": [
+      "Definir fuente y período",
+      "Escribir una pregunta concreta",
+      "Revisar calidad antes de calcular",
+      "Calcular métricas simples",
+      "Comunicar hallazgo, límite y próxima acción"
+    ]
+  },
+  "publicationNotes": [
+    "No guardar tablas completas con datos personales o sensibles.",
+    "Usar datos de ejemplo o datos anonimizados para capturas públicas.",
+    "Explicar siempre límites del análisis antes de publicar conclusiones.",
+    "Verificar manualmente hallazgos antes de tomar decisiones reales."
+  ]
+}

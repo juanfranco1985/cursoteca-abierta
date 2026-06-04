@@ -1,0 +1,286 @@
+{
+  "datasets": [
+    {
+      "id": "ventas_local",
+      "title": "Ventas simples de un local",
+      "description": "Tabla para practicar totales, promedios, filtros y ordenamiento.",
+      "columns": [
+        "fecha",
+        "producto",
+        "categoria",
+        "cantidad",
+        "precio_unitario",
+        "vendedor"
+      ],
+      "rows": [
+        [
+          "2026-05-01",
+          "Yerba 500g",
+          "Almacén",
+          8,
+          1250,
+          "Ana"
+        ],
+        [
+          "2026-05-01",
+          "Galletitas",
+          "Almacén",
+          15,
+          680,
+          "Luis"
+        ],
+        [
+          "2026-05-02",
+          "Jugo",
+          "Bebidas",
+          10,
+          900,
+          "Ana"
+        ],
+        [
+          "2026-05-02",
+          "Agua",
+          "Bebidas",
+          18,
+          520,
+          "Marta"
+        ],
+        [
+          "2026-05-03",
+          "Arroz",
+          "Almacén",
+          7,
+          1100,
+          "Luis"
+        ],
+        [
+          "2026-05-03",
+          "Chocolate",
+          "Golosinas",
+          11,
+          750,
+          "Marta"
+        ]
+      ]
+    },
+    {
+      "id": "gastos_equipo",
+      "title": "Gastos de un equipo de trabajo",
+      "description": "Tabla para practicar categorías, gastos chicos y resumen mensual.",
+      "columns": [
+        "fecha",
+        "concepto",
+        "categoria",
+        "monto",
+        "responsable"
+      ],
+      "rows": [
+        [
+          "2026-05-03",
+          "Papelería",
+          "oficina",
+          4500,
+          "Juan"
+        ],
+        [
+          "2026-05-05",
+          "Transporte",
+          "movilidad",
+          3200,
+          "Ana"
+        ],
+        [
+          "2026-05-06",
+          "Café reunión",
+          "alimentos",
+          2800,
+          "Marta"
+        ],
+        [
+          "2026-05-08",
+          "Impresiones",
+          "Oficina",
+          2100,
+          "Juan"
+        ],
+        [
+          "2026-05-10",
+          "Taxi urgente",
+          "Movilidad",
+          7600,
+          "Luis"
+        ],
+        [
+          "2026-05-12",
+          "Snacks",
+          "alimentos",
+          1800,
+          "Ana"
+        ]
+      ]
+    },
+    {
+      "id": "respuestas_formulario",
+      "title": "Respuestas de formulario de consultas",
+      "description": "Tabla para practicar limpieza de datos recolectados con Google Forms.",
+      "columns": [
+        "fecha",
+        "nombre",
+        "tema",
+        "estado",
+        "prioridad"
+      ],
+      "rows": [
+        [
+          "2026-05-01",
+          "Cliente A",
+          "pedido",
+          "pendiente",
+          "alta"
+        ],
+        [
+          "2026-05-01",
+          "Cliente B",
+          "consulta",
+          "respondido",
+          "media"
+        ],
+        [
+          "2026-05-02",
+          "",
+          "reclamo",
+          "pendiente",
+          "alta"
+        ],
+        [
+          "2026-05-02",
+          "Cliente D",
+          "Pedido",
+          "pendiente",
+          "media"
+        ],
+        [
+          "2026-05-03",
+          "Cliente E",
+          "consulta",
+          "respondido",
+          "baja"
+        ],
+        [
+          "2026-05-03",
+          "Cliente A",
+          "pedido",
+          "pendiente",
+          "alta"
+        ]
+      ]
+    }
+  ],
+  "formulas": [
+    {
+      "id": "sum",
+      "title": "SUMA",
+      "syntax": "=SUMA(D2:D7)",
+      "use": "Sumar importes, cantidades o totales.",
+      "example": "Sumar todos los montos de gastos del mes."
+    },
+    {
+      "id": "average",
+      "title": "PROMEDIO",
+      "syntax": "=PROMEDIO(D2:D7)",
+      "use": "Calcular el valor medio de una columna numérica.",
+      "example": "Ver el gasto promedio por registro."
+    },
+    {
+      "id": "countif",
+      "title": "CONTAR.SI",
+      "syntax": "=CONTAR.SI(C2:C7; \"Almacén\")",
+      "use": "Contar cuántas filas cumplen una condición.",
+      "example": "Contar cuántas ventas pertenecen a una categoría."
+    },
+    {
+      "id": "filter",
+      "title": "FILTRO",
+      "syntax": "=FILTRO(A2:F7; C2:C7=\"Bebidas\")",
+      "use": "Crear una vista con filas que cumplen una regla.",
+      "example": "Mostrar solo productos de una categoría."
+    },
+    {
+      "id": "if",
+      "title": "SI",
+      "syntax": "=SI(D2>10; \"alto\"; \"normal\")",
+      "use": "Clasificar valores según una condición.",
+      "example": "Marcar productos con mucha cantidad vendida."
+    }
+  ],
+  "guidedExercises": [
+    {
+      "id": "sheets_total_ventas",
+      "datasetId": "ventas_local",
+      "difficulty": "Inicial",
+      "goal": "Calcular el total vendido multiplicando cantidad por precio unitario.",
+      "steps": [
+        "Agregar una columna llamada total.",
+        "En la primera fila de datos escribir una fórmula equivalente a cantidad por precio unitario.",
+        "Copiar la fórmula hacia abajo.",
+        "Sumar la columna total."
+      ],
+      "suggestedFormula": "=D2*E2",
+      "expectedInsight": "Permite separar cantidad vendida de facturación estimada.",
+      "commonMistake": "Sumar precios unitarios sin multiplicar por cantidad."
+    },
+    {
+      "id": "sheets_filtro_categoria",
+      "datasetId": "ventas_local",
+      "difficulty": "Inicial",
+      "goal": "Filtrar las ventas de una categoría específica.",
+      "steps": [
+        "Seleccionar la fila de encabezados.",
+        "Activar filtro.",
+        "Filtrar por categoría Bebidas.",
+        "Observar cantidad y precio de esos productos."
+      ],
+      "suggestedFormula": "Filtro visual o =FILTRO(A2:F7; C2:C7=\"Bebidas\")",
+      "expectedInsight": "Los filtros ayudan a responder preguntas concretas sin alterar la tabla original.",
+      "commonMistake": "Borrar filas filtradas creyendo que solo se ocultan."
+    },
+    {
+      "id": "sheets_limpieza_categorias",
+      "datasetId": "gastos_equipo",
+      "difficulty": "Intermedio",
+      "goal": "Detectar categorías escritas de forma inconsistente.",
+      "steps": [
+        "Revisar la columna categoría.",
+        "Buscar diferencias de mayúsculas/minúsculas.",
+        "Unificar oficina/Oficina y movilidad/Movilidad.",
+        "Recalcular totales por categoría."
+      ],
+      "suggestedFormula": "Usar reemplazo o una columna auxiliar con =MINUSC(C2)",
+      "expectedInsight": "La misma categoría escrita distinto puede romper resúmenes y gráficos.",
+      "commonMistake": "Crear gráficos sin revisar categorías repetidas."
+    },
+    {
+      "id": "sheets_respuestas_faltantes",
+      "datasetId": "respuestas_formulario",
+      "difficulty": "Intermedio",
+      "goal": "Detectar respuestas incompletas y posibles duplicados.",
+      "steps": [
+        "Revisar si hay nombres vacíos.",
+        "Buscar registros repetidos por nombre y tema.",
+        "Marcar filas que requieren revisión.",
+        "No borrar evidencia sin confirmar."
+      ],
+      "suggestedFormula": "=SI(B2=\"\"; \"revisar\"; \"ok\")",
+      "expectedInsight": "Antes de analizar formularios conviene revisar faltantes y duplicados.",
+      "commonMistake": "Tratar respuestas incompletas como si fueran datos confiables."
+    }
+  ],
+  "reportTemplate": [
+    "Dataset usado",
+    "Pregunta de trabajo",
+    "Fórmulas o filtros aplicados",
+    "Hallazgo principal",
+    "Errores detectados",
+    "Próxima acción sugerida"
+  ]
+}

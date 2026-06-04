@@ -1,0 +1,96 @@
+{
+  "courseId": "apis-para-proyectos-web",
+  "templateVersion": "0.6-publica-profesional",
+  "appName": "APIs para Proyectos Web",
+  "shortName": "APIs Web",
+  "subtitle": "Curso practico para usar APIs, entender JSON, manejar errores y publicar proyectos web con datos externos.",
+  "description": "Integra APIs en proyectos web: fetch, estados de carga, errores, datos simulados, dashboards pequenos y mantenimiento.",
+  "audience": "Principiantes que ya conocen HTML, CSS y JavaScript basico.",
+  "category": "Desarrollo web",
+  "status": "Publico profesional",
+  "dataPaths": {
+    "course": "src/data/course_content.json",
+    "checklists": "src/data/checklists.json",
+    "incidents": "src/data/incidents.json"
+  },
+  "labels": {
+    "modules": "Modulos",
+    "checklists": "Checklists",
+    "incidents": "Proyectos API",
+    "emergency": "Practica rapida",
+    "certificate": "Constancia",
+    "primaryAction": "Empezar curso",
+    "emergencyAction": "Practica rapida",
+    "tools": "Herramientas"
+  },
+  "features": {
+    "modules": true,
+    "quizzes": true,
+    "checklists": true,
+    "incidents": true,
+    "emergency": true,
+    "certificate": true,
+    "publicProfessionalEdition": true,
+    "requiresBackend": false,
+    "requiresLogin": false,
+    "offlineCache": true
+  },
+  "theme": {
+    "accent": "#4fb6aa",
+    "accent2": "#22c55e",
+    "danger": "#fb7185",
+    "warning": "#f59e0b",
+    "primary": "#d6a85c",
+    "background": "#21130b"
+  },
+  "certificate": {
+    "title": "Constancia interna - APIs para Proyectos Web",
+    "minimumSuggestedProgress": 70,
+    "minimumSuggestedQuizAverage": 70,
+    "notOfficialNotice": "Esta constancia es educativa, no oficial y no equivale a certificacion academica formal."
+  },
+  "responsibleNotice": "Contenido educativo. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. No exponer claves privadas en frontend ni usar APIs sin revisar terminos, cuotas y permisos.",
+  "publication": {
+    "version": "0.6-publica-profesional",
+    "status": "Publica profesional",
+    "recommendedHosts": [
+      "GitHub Pages",
+      "Netlify",
+      "Vercel",
+      "Hosting estatico propio"
+    ],
+    "requiresBackend": false,
+    "requiresLogin": false,
+    "requiresAnalytics": false,
+    "requiresAds": false,
+    "prePublishChecks": [
+      "Probar con servidor local",
+      "Revisar textos y enlaces",
+      "Revisar contenido sensible",
+      "Actualizar capturas finales"
+    ]
+  },
+  "webApp": {
+    "cacheName": "apis_para_proyectos_web_v0_6_publica-cache-v0-6-publica-profesional",
+    "publicationStatus": "publica-profesional-v0.6"
+  },
+  "publicEdition": {
+    "level": "publica-profesional",
+    "version": "0.6",
+    "generatedAt": "2026-05-26",
+    "sourceZip": "curso-nuevo"
+  },
+  "professionalization": {
+    "tier": "curso-bandera-v1.0-beta",
+    "updatedAt": "2026-05-28",
+    "improvements": [
+      "Lecciones con teoria, ejemplo, error comun y ejercicio mas profundos.",
+      "Checklists orientados a evidencia y entregables.",
+      "Casos guiados con pasos, errores y decision responsable."
+    ]
+  },
+  "editorialPolish": {
+    "fourthEditorialBatch": "2026-06-02",
+    "status": "public-facing-copy-polished"
+  }
+}

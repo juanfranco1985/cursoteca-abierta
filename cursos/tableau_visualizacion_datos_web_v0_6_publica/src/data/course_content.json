@@ -1,0 +1,1054 @@
+{
+  "appName": "Tableau para Visualización de Datos",
+  "version": "0.6-publica",
+  "modules": [
+    {
+      "id": "m1",
+      "title": "Qué es Tableau y para qué sirve",
+      "description": "En este modulo vas a trabajar \"Qué es Tableau y para qué sirve\" dentro de visualizacion de datos en Tableau, eleccion de graficos, dashboards, filtros y comunicacion. La meta es partir de una pregunta concreta, revisar la calidad de la informacion y cerrar con una evidencia que pueda explicarse.",
+      "commercialRisk": "Visualizar sin pregunta clara",
+      "lessons": [
+        {
+          "id": "m1_l1",
+          "title": "Qué problema resuelve Tableau",
+          "keyIdea": "Idea clave: Qué problema resuelve Tableau sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Qué problema resuelve Tableau\" dentro del modulo \"Qué es Tableau y para qué sirve\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona necesita transformar una tabla en una vista que permita comparar, detectar patrones y explicar una conclusion. Aplica \"Qué problema resuelve Tableau\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un boceto de dashboard con pregunta, grafico principal, filtros, lectura esperada y proximo analisis.",
+          "alert": "No publicar dashboards con datos sensibles, permisos abiertos o metricas mal definidas.",
+          "keyPoints": [
+            "Qué problema resuelve Tableau debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un boceto de dashboard con pregunta, grafico principal, filtros, lectura esperada y proximo analisis.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m1_l2",
+          "title": "Diferencia entre tabla, gráfico y dashboard",
+          "keyIdea": "Idea clave: Diferencia entre tabla, gráfico y dashboard sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Diferencia entre tabla, gráfico y dashboard\" dentro del modulo \"Qué es Tableau y para qué sirve\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona necesita transformar una tabla en una vista que permita comparar, detectar patrones y explicar una conclusion. Aplica \"Diferencia entre tabla, gráfico y dashboard\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un boceto de dashboard con pregunta, grafico principal, filtros, lectura esperada y proximo analisis.",
+          "alert": "No publicar dashboards con datos sensibles, permisos abiertos o metricas mal definidas.",
+          "keyPoints": [
+            "Diferencia entre tabla, gráfico y dashboard debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un boceto de dashboard con pregunta, grafico principal, filtros, lectura esperada y proximo analisis.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m1_l3",
+          "title": "Cuándo usar Tableau en un proyecto",
+          "keyIdea": "Idea clave: Cuándo usar Tableau en un proyecto sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Cuándo usar Tableau en un proyecto\" dentro del modulo \"Qué es Tableau y para qué sirve\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona necesita transformar una tabla en una vista que permita comparar, detectar patrones y explicar una conclusion. Aplica \"Cuándo usar Tableau en un proyecto\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un boceto de dashboard con pregunta, grafico principal, filtros, lectura esperada y proximo analisis.",
+          "alert": "No publicar dashboards con datos sensibles, permisos abiertos o metricas mal definidas.",
+          "keyPoints": [
+            "Cuándo usar Tableau en un proyecto debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un boceto de dashboard con pregunta, grafico principal, filtros, lectura esperada y proximo analisis.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m1_l4",
+          "title": "Flujo básico de trabajo en Tableau",
+          "keyIdea": "Idea clave: Flujo básico de trabajo en Tableau sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Flujo básico de trabajo en Tableau\" dentro del modulo \"Qué es Tableau y para qué sirve\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona necesita transformar una tabla en una vista que permita comparar, detectar patrones y explicar una conclusion. Aplica \"Flujo básico de trabajo en Tableau\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un boceto de dashboard con pregunta, grafico principal, filtros, lectura esperada y proximo analisis.",
+          "alert": "No publicar dashboards con datos sensibles, permisos abiertos o metricas mal definidas.",
+          "keyPoints": [
+            "Flujo básico de trabajo en Tableau debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un boceto de dashboard con pregunta, grafico principal, filtros, lectura esperada y proximo analisis.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m1_l5",
+          "title": "Roles: creador, lector y usuario de negocio",
+          "keyIdea": "Idea clave: Roles: creador, lector y usuario de negocio sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Roles: creador, lector y usuario de negocio\" dentro del modulo \"Qué es Tableau y para qué sirve\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona necesita transformar una tabla en una vista que permita comparar, detectar patrones y explicar una conclusion. Aplica \"Roles: creador, lector y usuario de negocio\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un boceto de dashboard con pregunta, grafico principal, filtros, lectura esperada y proximo analisis.",
+          "alert": "No publicar dashboards con datos sensibles, permisos abiertos o metricas mal definidas.",
+          "keyPoints": [
+            "Roles: creador, lector y usuario de negocio debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un boceto de dashboard con pregunta, grafico principal, filtros, lectura esperada y proximo analisis.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m1_l6",
+          "title": "Primer caso: mirar ventas con intención",
+          "keyIdea": "Idea clave: Primer caso: mirar ventas con intención sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Primer caso: mirar ventas con intención\" dentro del modulo \"Qué es Tableau y para qué sirve\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona necesita transformar una tabla en una vista que permita comparar, detectar patrones y explicar una conclusion. Aplica \"Primer caso: mirar ventas con intención\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un boceto de dashboard con pregunta, grafico principal, filtros, lectura esperada y proximo analisis.",
+          "alert": "No publicar dashboards con datos sensibles, permisos abiertos o metricas mal definidas.",
+          "keyPoints": [
+            "Primer caso: mirar ventas con intención debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un boceto de dashboard con pregunta, grafico principal, filtros, lectura esperada y proximo analisis.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m1_q1",
+          "question": "¿Qué conviene definir antes de construir una visualización?",
+          "options": [
+            "La pregunta de análisis",
+            "El color de fondo",
+            "El tamaño del logo",
+            "La cantidad máxima de páginas"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Primero se define la pregunta; luego se elige el gráfico."
+        },
+        {
+          "id": "m1_q2",
+          "question": "¿Para qué sirve una dimensión en Tableau?",
+          "options": [
+            "Para agrupar o segmentar datos",
+            "Para borrar datos",
+            "Para reemplazar una contraseña",
+            "Para publicar anuncios"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Las dimensiones suelen describir categorías, fechas o segmentos."
+        },
+        {
+          "id": "m1_q3",
+          "question": "¿Qué gráfico suele servir para comparar categorías?",
+          "options": [
+            "Barras",
+            "Texto largo",
+            "Imagen decorativa",
+            "Formulario"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Las barras ayudan a comparar valores entre categorías."
+        },
+        {
+          "id": "m1_q4",
+          "question": "¿Qué debe evitar un dashboard?",
+          "options": [
+            "Demasiados gráficos sin jerarquía",
+            "Filtros claros",
+            "Título descriptivo",
+            "Indicadores definidos"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Un tablero saturado dificulta la lectura y la decisión."
+        },
+        {
+          "id": "m1_q5",
+          "question": "¿Qué hace más confiable una historia con datos?",
+          "options": [
+            "Mostrar evidencia, límites y recomendación",
+            "Ocultar el período",
+            "Usar solo colores llamativos",
+            "Eliminar el contexto"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "La comunicación debe incluir evidencia, contexto, límites y acción sugerida."
+        }
+      ],
+      "professionalOutcome": "preparar datos, elegir graficos, crear filtros y publicar una lectura visual confiable. Entregable sugerido: un dashboard con objetivo, filtros, tres visualizaciones y conclusion accionable."
+    },
+    {
+      "id": "m2",
+      "title": "Conectar datos y entender dimensiones/medidas",
+      "description": "En este modulo vas a trabajar \"Conectar datos y entender dimensiones/medidas\" dentro de visualizacion de datos en Tableau, eleccion de graficos, dashboards, filtros y comunicacion. La meta es partir de una pregunta concreta, revisar la calidad de la informacion y cerrar con una evidencia que pueda explicarse.",
+      "commercialRisk": "Visualizar sin pregunta clara",
+      "lessons": [
+        {
+          "id": "m2_l1",
+          "title": "Fuentes de datos y tablas",
+          "keyIdea": "Idea clave: Fuentes de datos y tablas sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Fuentes de datos y tablas\" dentro del modulo \"Conectar datos y entender dimensiones/medidas\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona necesita transformar una tabla en una vista que permita comparar, detectar patrones y explicar una conclusion. Aplica \"Fuentes de datos y tablas\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un boceto de dashboard con pregunta, grafico principal, filtros, lectura esperada y proximo analisis.",
+          "alert": "No publicar dashboards con datos sensibles, permisos abiertos o metricas mal definidas.",
+          "keyPoints": [
+            "Fuentes de datos y tablas debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un boceto de dashboard con pregunta, grafico principal, filtros, lectura esperada y proximo analisis.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m2_l2",
+          "title": "Dimensiones y medidas",
+          "keyIdea": "Idea clave: Dimensiones y medidas sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Dimensiones y medidas\" dentro del modulo \"Conectar datos y entender dimensiones/medidas\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona necesita transformar una tabla en una vista que permita comparar, detectar patrones y explicar una conclusion. Aplica \"Dimensiones y medidas\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un boceto de dashboard con pregunta, grafico principal, filtros, lectura esperada y proximo analisis.",
+          "alert": "No publicar dashboards con datos sensibles, permisos abiertos o metricas mal definidas.",
+          "keyPoints": [
+            "Dimensiones y medidas debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un boceto de dashboard con pregunta, grafico principal, filtros, lectura esperada y proximo analisis.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m2_l3",
+          "title": "Tipos de campos y granularidad",
+          "keyIdea": "Idea clave: Tipos de campos y granularidad sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Tipos de campos y granularidad\" dentro del modulo \"Conectar datos y entender dimensiones/medidas\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona necesita transformar una tabla en una vista que permita comparar, detectar patrones y explicar una conclusion. Aplica \"Tipos de campos y granularidad\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un boceto de dashboard con pregunta, grafico principal, filtros, lectura esperada y proximo analisis.",
+          "alert": "No publicar dashboards con datos sensibles, permisos abiertos o metricas mal definidas.",
+          "keyPoints": [
+            "Tipos de campos y granularidad debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un boceto de dashboard con pregunta, grafico principal, filtros, lectura esperada y proximo analisis.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m2_l4",
+          "title": "Calidad mínima antes de visualizar",
+          "keyIdea": "Idea clave: Calidad mínima antes de visualizar sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Calidad mínima antes de visualizar\" dentro del modulo \"Conectar datos y entender dimensiones/medidas\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona necesita transformar una tabla en una vista que permita comparar, detectar patrones y explicar una conclusion. Aplica \"Calidad mínima antes de visualizar\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un boceto de dashboard con pregunta, grafico principal, filtros, lectura esperada y proximo analisis.",
+          "alert": "No publicar dashboards con datos sensibles, permisos abiertos o metricas mal definidas.",
+          "keyPoints": [
+            "Calidad mínima antes de visualizar debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un boceto de dashboard con pregunta, grafico principal, filtros, lectura esperada y proximo analisis.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m2_l5",
+          "title": "Preparar datos para análisis visual",
+          "keyIdea": "Idea clave: Preparar datos para análisis visual sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Preparar datos para análisis visual\" dentro del modulo \"Conectar datos y entender dimensiones/medidas\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona necesita transformar una tabla en una vista que permita comparar, detectar patrones y explicar una conclusion. Aplica \"Preparar datos para análisis visual\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un boceto de dashboard con pregunta, grafico principal, filtros, lectura esperada y proximo analisis.",
+          "alert": "No publicar dashboards con datos sensibles, permisos abiertos o metricas mal definidas.",
+          "keyPoints": [
+            "Preparar datos para análisis visual debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un boceto de dashboard con pregunta, grafico principal, filtros, lectura esperada y proximo analisis.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m2_l6",
+          "title": "Preguntas que deben guiar la conexión",
+          "keyIdea": "Idea clave: Preguntas que deben guiar la conexión sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Preguntas que deben guiar la conexión\" dentro del modulo \"Conectar datos y entender dimensiones/medidas\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona necesita transformar una tabla en una vista que permita comparar, detectar patrones y explicar una conclusion. Aplica \"Preguntas que deben guiar la conexión\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un boceto de dashboard con pregunta, grafico principal, filtros, lectura esperada y proximo analisis.",
+          "alert": "No publicar dashboards con datos sensibles, permisos abiertos o metricas mal definidas.",
+          "keyPoints": [
+            "Preguntas que deben guiar la conexión debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un boceto de dashboard con pregunta, grafico principal, filtros, lectura esperada y proximo analisis.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m2_q1",
+          "question": "¿Qué conviene definir antes de construir una visualización?",
+          "options": [
+            "La pregunta de análisis",
+            "El color de fondo",
+            "El tamaño del logo",
+            "La cantidad máxima de páginas"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Primero se define la pregunta; luego se elige el gráfico."
+        },
+        {
+          "id": "m2_q2",
+          "question": "¿Para qué sirve una dimensión en Tableau?",
+          "options": [
+            "Para agrupar o segmentar datos",
+            "Para borrar datos",
+            "Para reemplazar una contraseña",
+            "Para publicar anuncios"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Las dimensiones suelen describir categorías, fechas o segmentos."
+        },
+        {
+          "id": "m2_q3",
+          "question": "¿Qué gráfico suele servir para comparar categorías?",
+          "options": [
+            "Barras",
+            "Texto largo",
+            "Imagen decorativa",
+            "Formulario"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Las barras ayudan a comparar valores entre categorías."
+        },
+        {
+          "id": "m2_q4",
+          "question": "¿Qué debe evitar un dashboard?",
+          "options": [
+            "Demasiados gráficos sin jerarquía",
+            "Filtros claros",
+            "Título descriptivo",
+            "Indicadores definidos"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Un tablero saturado dificulta la lectura y la decisión."
+        },
+        {
+          "id": "m2_q5",
+          "question": "¿Qué hace más confiable una historia con datos?",
+          "options": [
+            "Mostrar evidencia, límites y recomendación",
+            "Ocultar el período",
+            "Usar solo colores llamativos",
+            "Eliminar el contexto"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "La comunicación debe incluir evidencia, contexto, límites y acción sugerida."
+        }
+      ],
+      "professionalOutcome": "preparar datos, elegir graficos, crear filtros y publicar una lectura visual confiable. Entregable sugerido: un dashboard con objetivo, filtros, tres visualizaciones y conclusion accionable."
+    },
+    {
+      "id": "m3",
+      "title": "Gráficos básicos y elección visual correcta",
+      "description": "En este modulo vas a trabajar \"Gráficos básicos y elección visual correcta\" dentro de visualizacion de datos en Tableau, eleccion de graficos, dashboards, filtros y comunicacion. La meta es partir de una pregunta concreta, revisar la calidad de la informacion y cerrar con una evidencia que pueda explicarse.",
+      "commercialRisk": "Visualizar sin pregunta clara",
+      "lessons": [
+        {
+          "id": "m3_l1",
+          "title": "Barras para comparar categorías",
+          "keyIdea": "Idea clave: Barras para comparar categorías sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Barras para comparar categorías\" dentro del modulo \"Gráficos básicos y elección visual correcta\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona necesita transformar una tabla en una vista que permita comparar, detectar patrones y explicar una conclusion. Aplica \"Barras para comparar categorías\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un boceto de dashboard con pregunta, grafico principal, filtros, lectura esperada y proximo analisis.",
+          "alert": "No publicar dashboards con datos sensibles, permisos abiertos o metricas mal definidas.",
+          "keyPoints": [
+            "Barras para comparar categorías debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un boceto de dashboard con pregunta, grafico principal, filtros, lectura esperada y proximo analisis.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m3_l2",
+          "title": "Líneas para evolución temporal",
+          "keyIdea": "Idea clave: Líneas para evolución temporal sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Líneas para evolución temporal\" dentro del modulo \"Gráficos básicos y elección visual correcta\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona necesita transformar una tabla en una vista que permita comparar, detectar patrones y explicar una conclusion. Aplica \"Líneas para evolución temporal\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un boceto de dashboard con pregunta, grafico principal, filtros, lectura esperada y proximo analisis.",
+          "alert": "No publicar dashboards con datos sensibles, permisos abiertos o metricas mal definidas.",
+          "keyPoints": [
+            "Líneas para evolución temporal debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un boceto de dashboard con pregunta, grafico principal, filtros, lectura esperada y proximo analisis.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m3_l3",
+          "title": "Tablas resaltadas y mapas de calor",
+          "keyIdea": "Idea clave: Tablas resaltadas y mapas de calor sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Tablas resaltadas y mapas de calor\" dentro del modulo \"Gráficos básicos y elección visual correcta\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona necesita transformar una tabla en una vista que permita comparar, detectar patrones y explicar una conclusion. Aplica \"Tablas resaltadas y mapas de calor\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un boceto de dashboard con pregunta, grafico principal, filtros, lectura esperada y proximo analisis.",
+          "alert": "No publicar dashboards con datos sensibles, permisos abiertos o metricas mal definidas.",
+          "keyPoints": [
+            "Tablas resaltadas y mapas de calor debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un boceto de dashboard con pregunta, grafico principal, filtros, lectura esperada y proximo analisis.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m3_l4",
+          "title": "Dispersión para relaciones",
+          "keyIdea": "Idea clave: Dispersión para relaciones sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Dispersión para relaciones\" dentro del modulo \"Gráficos básicos y elección visual correcta\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona necesita transformar una tabla en una vista que permita comparar, detectar patrones y explicar una conclusion. Aplica \"Dispersión para relaciones\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un boceto de dashboard con pregunta, grafico principal, filtros, lectura esperada y proximo analisis.",
+          "alert": "No publicar dashboards con datos sensibles, permisos abiertos o metricas mal definidas.",
+          "keyPoints": [
+            "Dispersión para relaciones debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un boceto de dashboard con pregunta, grafico principal, filtros, lectura esperada y proximo analisis.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m3_l5",
+          "title": "Mapas cuando hay ubicación",
+          "keyIdea": "Idea clave: Mapas cuando hay ubicación sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Mapas cuando hay ubicación\" dentro del modulo \"Gráficos básicos y elección visual correcta\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona necesita transformar una tabla en una vista que permita comparar, detectar patrones y explicar una conclusion. Aplica \"Mapas cuando hay ubicación\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un boceto de dashboard con pregunta, grafico principal, filtros, lectura esperada y proximo analisis.",
+          "alert": "No publicar dashboards con datos sensibles, permisos abiertos o metricas mal definidas.",
+          "keyPoints": [
+            "Mapas cuando hay ubicación debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un boceto de dashboard con pregunta, grafico principal, filtros, lectura esperada y proximo analisis.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m3_l6",
+          "title": "Evitar gráficos confusos o decorativos",
+          "keyIdea": "Idea clave: Evitar gráficos confusos o decorativos sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Evitar gráficos confusos o decorativos\" dentro del modulo \"Gráficos básicos y elección visual correcta\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona necesita transformar una tabla en una vista que permita comparar, detectar patrones y explicar una conclusion. Aplica \"Evitar gráficos confusos o decorativos\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un boceto de dashboard con pregunta, grafico principal, filtros, lectura esperada y proximo analisis.",
+          "alert": "No publicar dashboards con datos sensibles, permisos abiertos o metricas mal definidas.",
+          "keyPoints": [
+            "Evitar gráficos confusos o decorativos debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un boceto de dashboard con pregunta, grafico principal, filtros, lectura esperada y proximo analisis.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m3_q1",
+          "question": "¿Qué conviene definir antes de construir una visualización?",
+          "options": [
+            "La pregunta de análisis",
+            "El color de fondo",
+            "El tamaño del logo",
+            "La cantidad máxima de páginas"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Primero se define la pregunta; luego se elige el gráfico."
+        },
+        {
+          "id": "m3_q2",
+          "question": "¿Para qué sirve una dimensión en Tableau?",
+          "options": [
+            "Para agrupar o segmentar datos",
+            "Para borrar datos",
+            "Para reemplazar una contraseña",
+            "Para publicar anuncios"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Las dimensiones suelen describir categorías, fechas o segmentos."
+        },
+        {
+          "id": "m3_q3",
+          "question": "¿Qué gráfico suele servir para comparar categorías?",
+          "options": [
+            "Barras",
+            "Texto largo",
+            "Imagen decorativa",
+            "Formulario"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Las barras ayudan a comparar valores entre categorías."
+        },
+        {
+          "id": "m3_q4",
+          "question": "¿Qué debe evitar un dashboard?",
+          "options": [
+            "Demasiados gráficos sin jerarquía",
+            "Filtros claros",
+            "Título descriptivo",
+            "Indicadores definidos"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Un tablero saturado dificulta la lectura y la decisión."
+        },
+        {
+          "id": "m3_q5",
+          "question": "¿Qué hace más confiable una historia con datos?",
+          "options": [
+            "Mostrar evidencia, límites y recomendación",
+            "Ocultar el período",
+            "Usar solo colores llamativos",
+            "Eliminar el contexto"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "La comunicación debe incluir evidencia, contexto, límites y acción sugerida."
+        }
+      ],
+      "professionalOutcome": "preparar datos, elegir graficos, crear filtros y publicar una lectura visual confiable. Entregable sugerido: un dashboard con objetivo, filtros, tres visualizaciones y conclusion accionable."
+    },
+    {
+      "id": "m4",
+      "title": "Filtros, dashboards e interacción",
+      "description": "En este modulo vas a trabajar \"Filtros, dashboards e interacción\" dentro de visualizacion de datos en Tableau, eleccion de graficos, dashboards, filtros y comunicacion. La meta es partir de una pregunta concreta, revisar la calidad de la informacion y cerrar con una evidencia que pueda explicarse.",
+      "commercialRisk": "Visualizar sin pregunta clara",
+      "lessons": [
+        {
+          "id": "m4_l1",
+          "title": "Filtros y segmentación",
+          "keyIdea": "Idea clave: Filtros y segmentación sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Filtros y segmentación\" dentro del modulo \"Filtros, dashboards e interacción\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona necesita transformar una tabla en una vista que permita comparar, detectar patrones y explicar una conclusion. Aplica \"Filtros y segmentación\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un boceto de dashboard con pregunta, grafico principal, filtros, lectura esperada y proximo analisis.",
+          "alert": "No publicar dashboards con datos sensibles, permisos abiertos o metricas mal definidas.",
+          "keyPoints": [
+            "Filtros y segmentación debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un boceto de dashboard con pregunta, grafico principal, filtros, lectura esperada y proximo analisis.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m4_l2",
+          "title": "Dashboard como composición visual",
+          "keyIdea": "Idea clave: Dashboard como composición visual sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Dashboard como composición visual\" dentro del modulo \"Filtros, dashboards e interacción\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona necesita transformar una tabla en una vista que permita comparar, detectar patrones y explicar una conclusion. Aplica \"Dashboard como composición visual\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un boceto de dashboard con pregunta, grafico principal, filtros, lectura esperada y proximo analisis.",
+          "alert": "No publicar dashboards con datos sensibles, permisos abiertos o metricas mal definidas.",
+          "keyPoints": [
+            "Dashboard como composición visual debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un boceto de dashboard con pregunta, grafico principal, filtros, lectura esperada y proximo analisis.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m4_l3",
+          "title": "Jerarquía visual en un tablero",
+          "keyIdea": "Idea clave: Jerarquía visual en un tablero sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Jerarquía visual en un tablero\" dentro del modulo \"Filtros, dashboards e interacción\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona necesita transformar una tabla en una vista que permita comparar, detectar patrones y explicar una conclusion. Aplica \"Jerarquía visual en un tablero\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un boceto de dashboard con pregunta, grafico principal, filtros, lectura esperada y proximo analisis.",
+          "alert": "No publicar dashboards con datos sensibles, permisos abiertos o metricas mal definidas.",
+          "keyPoints": [
+            "Jerarquía visual en un tablero debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un boceto de dashboard con pregunta, grafico principal, filtros, lectura esperada y proximo analisis.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m4_l4",
+          "title": "Interacciones útiles",
+          "keyIdea": "Idea clave: Interacciones útiles sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Interacciones útiles\" dentro del modulo \"Filtros, dashboards e interacción\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona necesita transformar una tabla en una vista que permita comparar, detectar patrones y explicar una conclusion. Aplica \"Interacciones útiles\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un boceto de dashboard con pregunta, grafico principal, filtros, lectura esperada y proximo analisis.",
+          "alert": "No publicar dashboards con datos sensibles, permisos abiertos o metricas mal definidas.",
+          "keyPoints": [
+            "Interacciones útiles debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un boceto de dashboard con pregunta, grafico principal, filtros, lectura esperada y proximo analisis.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m4_l5",
+          "title": "Diseño para lectura rápida",
+          "keyIdea": "Idea clave: Diseño para lectura rápida sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Diseño para lectura rápida\" dentro del modulo \"Filtros, dashboards e interacción\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona necesita transformar una tabla en una vista que permita comparar, detectar patrones y explicar una conclusion. Aplica \"Diseño para lectura rápida\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un boceto de dashboard con pregunta, grafico principal, filtros, lectura esperada y proximo analisis.",
+          "alert": "No publicar dashboards con datos sensibles, permisos abiertos o metricas mal definidas.",
+          "keyPoints": [
+            "Diseño para lectura rápida debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un boceto de dashboard con pregunta, grafico principal, filtros, lectura esperada y proximo analisis.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m4_l6",
+          "title": "Errores frecuentes en dashboards",
+          "keyIdea": "Idea clave: Errores frecuentes en dashboards sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Errores frecuentes en dashboards\" dentro del modulo \"Filtros, dashboards e interacción\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona necesita transformar una tabla en una vista que permita comparar, detectar patrones y explicar una conclusion. Aplica \"Errores frecuentes en dashboards\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un boceto de dashboard con pregunta, grafico principal, filtros, lectura esperada y proximo analisis.",
+          "alert": "No publicar dashboards con datos sensibles, permisos abiertos o metricas mal definidas.",
+          "keyPoints": [
+            "Errores frecuentes en dashboards debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un boceto de dashboard con pregunta, grafico principal, filtros, lectura esperada y proximo analisis.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m4_q1",
+          "question": "¿Qué conviene definir antes de construir una visualización?",
+          "options": [
+            "La pregunta de análisis",
+            "El color de fondo",
+            "El tamaño del logo",
+            "La cantidad máxima de páginas"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Primero se define la pregunta; luego se elige el gráfico."
+        },
+        {
+          "id": "m4_q2",
+          "question": "¿Para qué sirve una dimensión en Tableau?",
+          "options": [
+            "Para agrupar o segmentar datos",
+            "Para borrar datos",
+            "Para reemplazar una contraseña",
+            "Para publicar anuncios"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Las dimensiones suelen describir categorías, fechas o segmentos."
+        },
+        {
+          "id": "m4_q3",
+          "question": "¿Qué gráfico suele servir para comparar categorías?",
+          "options": [
+            "Barras",
+            "Texto largo",
+            "Imagen decorativa",
+            "Formulario"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Las barras ayudan a comparar valores entre categorías."
+        },
+        {
+          "id": "m4_q4",
+          "question": "¿Qué debe evitar un dashboard?",
+          "options": [
+            "Demasiados gráficos sin jerarquía",
+            "Filtros claros",
+            "Título descriptivo",
+            "Indicadores definidos"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Un tablero saturado dificulta la lectura y la decisión."
+        },
+        {
+          "id": "m4_q5",
+          "question": "¿Qué hace más confiable una historia con datos?",
+          "options": [
+            "Mostrar evidencia, límites y recomendación",
+            "Ocultar el período",
+            "Usar solo colores llamativos",
+            "Eliminar el contexto"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "La comunicación debe incluir evidencia, contexto, límites y acción sugerida."
+        }
+      ],
+      "professionalOutcome": "preparar datos, elegir graficos, crear filtros y publicar una lectura visual confiable. Entregable sugerido: un dashboard con objetivo, filtros, tres visualizaciones y conclusion accionable."
+    },
+    {
+      "id": "m5",
+      "title": "Storytelling con datos",
+      "description": "En este modulo vas a trabajar \"Storytelling con datos\" dentro de visualizacion de datos en Tableau, eleccion de graficos, dashboards, filtros y comunicacion. La meta es partir de una pregunta concreta, revisar la calidad de la informacion y cerrar con una evidencia que pueda explicarse.",
+      "commercialRisk": "Visualizar sin pregunta clara",
+      "lessons": [
+        {
+          "id": "m5_l1",
+          "title": "Del dato al hallazgo",
+          "keyIdea": "Idea clave: Del dato al hallazgo sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Del dato al hallazgo\" dentro del modulo \"Storytelling con datos\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona necesita transformar una tabla en una vista que permita comparar, detectar patrones y explicar una conclusion. Aplica \"Del dato al hallazgo\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un boceto de dashboard con pregunta, grafico principal, filtros, lectura esperada y proximo analisis.",
+          "alert": "No publicar dashboards con datos sensibles, permisos abiertos o metricas mal definidas.",
+          "keyPoints": [
+            "Del dato al hallazgo debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un boceto de dashboard con pregunta, grafico principal, filtros, lectura esperada y proximo analisis.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m5_l2",
+          "title": "Evidencia visual y contexto",
+          "keyIdea": "Idea clave: Evidencia visual y contexto sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Evidencia visual y contexto\" dentro del modulo \"Storytelling con datos\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona necesita transformar una tabla en una vista que permita comparar, detectar patrones y explicar una conclusion. Aplica \"Evidencia visual y contexto\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un boceto de dashboard con pregunta, grafico principal, filtros, lectura esperada y proximo analisis.",
+          "alert": "No publicar dashboards con datos sensibles, permisos abiertos o metricas mal definidas.",
+          "keyPoints": [
+            "Evidencia visual y contexto debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un boceto de dashboard con pregunta, grafico principal, filtros, lectura esperada y proximo analisis.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m5_l3",
+          "title": "Cómo contar una historia con datos",
+          "keyIdea": "Idea clave: Cómo contar una historia con datos sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Cómo contar una historia con datos\" dentro del modulo \"Storytelling con datos\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona necesita transformar una tabla en una vista que permita comparar, detectar patrones y explicar una conclusion. Aplica \"Cómo contar una historia con datos\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un boceto de dashboard con pregunta, grafico principal, filtros, lectura esperada y proximo analisis.",
+          "alert": "No publicar dashboards con datos sensibles, permisos abiertos o metricas mal definidas.",
+          "keyPoints": [
+            "Cómo contar una historia con datos debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un boceto de dashboard con pregunta, grafico principal, filtros, lectura esperada y proximo analisis.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m5_l4",
+          "title": "Anotar, resaltar y simplificar",
+          "keyIdea": "Idea clave: Anotar, resaltar y simplificar sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Anotar, resaltar y simplificar\" dentro del modulo \"Storytelling con datos\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona necesita transformar una tabla en una vista que permita comparar, detectar patrones y explicar una conclusion. Aplica \"Anotar, resaltar y simplificar\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un boceto de dashboard con pregunta, grafico principal, filtros, lectura esperada y proximo analisis.",
+          "alert": "No publicar dashboards con datos sensibles, permisos abiertos o metricas mal definidas.",
+          "keyPoints": [
+            "Anotar, resaltar y simplificar debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un boceto de dashboard con pregunta, grafico principal, filtros, lectura esperada y proximo analisis.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m5_l5",
+          "title": "Recomendaciones y próximos pasos",
+          "keyIdea": "Idea clave: Recomendaciones y próximos pasos sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Recomendaciones y próximos pasos\" dentro del modulo \"Storytelling con datos\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona necesita transformar una tabla en una vista que permita comparar, detectar patrones y explicar una conclusion. Aplica \"Recomendaciones y próximos pasos\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un boceto de dashboard con pregunta, grafico principal, filtros, lectura esperada y proximo analisis.",
+          "alert": "No publicar dashboards con datos sensibles, permisos abiertos o metricas mal definidas.",
+          "keyPoints": [
+            "Recomendaciones y próximos pasos debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un boceto de dashboard con pregunta, grafico principal, filtros, lectura esperada y proximo analisis.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m5_l6",
+          "title": "Comunicar límites del análisis",
+          "keyIdea": "Idea clave: Comunicar límites del análisis sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Comunicar límites del análisis\" dentro del modulo \"Storytelling con datos\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona necesita transformar una tabla en una vista que permita comparar, detectar patrones y explicar una conclusion. Aplica \"Comunicar límites del análisis\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un boceto de dashboard con pregunta, grafico principal, filtros, lectura esperada y proximo analisis.",
+          "alert": "No publicar dashboards con datos sensibles, permisos abiertos o metricas mal definidas.",
+          "keyPoints": [
+            "Comunicar límites del análisis debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un boceto de dashboard con pregunta, grafico principal, filtros, lectura esperada y proximo analisis.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m5_q1",
+          "question": "¿Qué conviene definir antes de construir una visualización?",
+          "options": [
+            "La pregunta de análisis",
+            "El color de fondo",
+            "El tamaño del logo",
+            "La cantidad máxima de páginas"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Primero se define la pregunta; luego se elige el gráfico."
+        },
+        {
+          "id": "m5_q2",
+          "question": "¿Para qué sirve una dimensión en Tableau?",
+          "options": [
+            "Para agrupar o segmentar datos",
+            "Para borrar datos",
+            "Para reemplazar una contraseña",
+            "Para publicar anuncios"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Las dimensiones suelen describir categorías, fechas o segmentos."
+        },
+        {
+          "id": "m5_q3",
+          "question": "¿Qué gráfico suele servir para comparar categorías?",
+          "options": [
+            "Barras",
+            "Texto largo",
+            "Imagen decorativa",
+            "Formulario"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Las barras ayudan a comparar valores entre categorías."
+        },
+        {
+          "id": "m5_q4",
+          "question": "¿Qué debe evitar un dashboard?",
+          "options": [
+            "Demasiados gráficos sin jerarquía",
+            "Filtros claros",
+            "Título descriptivo",
+            "Indicadores definidos"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Un tablero saturado dificulta la lectura y la decisión."
+        },
+        {
+          "id": "m5_q5",
+          "question": "¿Qué hace más confiable una historia con datos?",
+          "options": [
+            "Mostrar evidencia, límites y recomendación",
+            "Ocultar el período",
+            "Usar solo colores llamativos",
+            "Eliminar el contexto"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "La comunicación debe incluir evidencia, contexto, límites y acción sugerida."
+        }
+      ],
+      "professionalOutcome": "preparar datos, elegir graficos, crear filtros y publicar una lectura visual confiable. Entregable sugerido: un dashboard con objetivo, filtros, tres visualizaciones y conclusion accionable."
+    },
+    {
+      "id": "m6",
+      "title": "Casos prácticos de visualización",
+      "description": "En este modulo vas a trabajar \"Casos prácticos de visualización\" dentro de visualizacion de datos en Tableau, eleccion de graficos, dashboards, filtros y comunicacion. La meta es partir de una pregunta concreta, revisar la calidad de la informacion y cerrar con una evidencia que pueda explicarse.",
+      "commercialRisk": "Visualizar sin pregunta clara",
+      "lessons": [
+        {
+          "id": "m6_l1",
+          "title": "Ventas mensuales",
+          "keyIdea": "Idea clave: Ventas mensuales sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Ventas mensuales\" dentro del modulo \"Casos prácticos de visualización\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona necesita transformar una tabla en una vista que permita comparar, detectar patrones y explicar una conclusion. Aplica \"Ventas mensuales\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un boceto de dashboard con pregunta, grafico principal, filtros, lectura esperada y proximo analisis.",
+          "alert": "No publicar dashboards con datos sensibles, permisos abiertos o metricas mal definidas.",
+          "keyPoints": [
+            "Ventas mensuales debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un boceto de dashboard con pregunta, grafico principal, filtros, lectura esperada y proximo analisis.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m6_l2",
+          "title": "Comparación entre categorías",
+          "keyIdea": "Idea clave: Comparación entre categorías sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Comparación entre categorías\" dentro del modulo \"Casos prácticos de visualización\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona necesita transformar una tabla en una vista que permita comparar, detectar patrones y explicar una conclusion. Aplica \"Comparación entre categorías\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un boceto de dashboard con pregunta, grafico principal, filtros, lectura esperada y proximo analisis.",
+          "alert": "No publicar dashboards con datos sensibles, permisos abiertos o metricas mal definidas.",
+          "keyPoints": [
+            "Comparación entre categorías debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un boceto de dashboard con pregunta, grafico principal, filtros, lectura esperada y proximo analisis.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m6_l3",
+          "title": "Detección visual de valores atípicos",
+          "keyIdea": "Idea clave: Detección visual de valores atípicos sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Detección visual de valores atípicos\" dentro del modulo \"Casos prácticos de visualización\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona necesita transformar una tabla en una vista que permita comparar, detectar patrones y explicar una conclusion. Aplica \"Detección visual de valores atípicos\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un boceto de dashboard con pregunta, grafico principal, filtros, lectura esperada y proximo analisis.",
+          "alert": "No publicar dashboards con datos sensibles, permisos abiertos o metricas mal definidas.",
+          "keyPoints": [
+            "Detección visual de valores atípicos debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un boceto de dashboard con pregunta, grafico principal, filtros, lectura esperada y proximo analisis.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m6_l4",
+          "title": "Seguimiento de indicadores",
+          "keyIdea": "Idea clave: Seguimiento de indicadores sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Seguimiento de indicadores\" dentro del modulo \"Casos prácticos de visualización\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona necesita transformar una tabla en una vista que permita comparar, detectar patrones y explicar una conclusion. Aplica \"Seguimiento de indicadores\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un boceto de dashboard con pregunta, grafico principal, filtros, lectura esperada y proximo analisis.",
+          "alert": "No publicar dashboards con datos sensibles, permisos abiertos o metricas mal definidas.",
+          "keyPoints": [
+            "Seguimiento de indicadores debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un boceto de dashboard con pregunta, grafico principal, filtros, lectura esperada y proximo analisis.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m6_l5",
+          "title": "Segmentos y zonas",
+          "keyIdea": "Idea clave: Segmentos y zonas sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Segmentos y zonas\" dentro del modulo \"Casos prácticos de visualización\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona necesita transformar una tabla en una vista que permita comparar, detectar patrones y explicar una conclusion. Aplica \"Segmentos y zonas\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un boceto de dashboard con pregunta, grafico principal, filtros, lectura esperada y proximo analisis.",
+          "alert": "No publicar dashboards con datos sensibles, permisos abiertos o metricas mal definidas.",
+          "keyPoints": [
+            "Segmentos y zonas debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un boceto de dashboard con pregunta, grafico principal, filtros, lectura esperada y proximo analisis.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m6_l6",
+          "title": "Historia final con hallazgos",
+          "keyIdea": "Idea clave: Historia final con hallazgos sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Historia final con hallazgos\" dentro del modulo \"Casos prácticos de visualización\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona necesita transformar una tabla en una vista que permita comparar, detectar patrones y explicar una conclusion. Aplica \"Historia final con hallazgos\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un boceto de dashboard con pregunta, grafico principal, filtros, lectura esperada y proximo analisis.",
+          "alert": "No publicar dashboards con datos sensibles, permisos abiertos o metricas mal definidas.",
+          "keyPoints": [
+            "Historia final con hallazgos debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un boceto de dashboard con pregunta, grafico principal, filtros, lectura esperada y proximo analisis.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m6_q1",
+          "question": "¿Qué conviene definir antes de construir una visualización?",
+          "options": [
+            "La pregunta de análisis",
+            "El color de fondo",
+            "El tamaño del logo",
+            "La cantidad máxima de páginas"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Primero se define la pregunta; luego se elige el gráfico."
+        },
+        {
+          "id": "m6_q2",
+          "question": "¿Para qué sirve una dimensión en Tableau?",
+          "options": [
+            "Para agrupar o segmentar datos",
+            "Para borrar datos",
+            "Para reemplazar una contraseña",
+            "Para publicar anuncios"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Las dimensiones suelen describir categorías, fechas o segmentos."
+        },
+        {
+          "id": "m6_q3",
+          "question": "¿Qué gráfico suele servir para comparar categorías?",
+          "options": [
+            "Barras",
+            "Texto largo",
+            "Imagen decorativa",
+            "Formulario"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Las barras ayudan a comparar valores entre categorías."
+        },
+        {
+          "id": "m6_q4",
+          "question": "¿Qué debe evitar un dashboard?",
+          "options": [
+            "Demasiados gráficos sin jerarquía",
+            "Filtros claros",
+            "Título descriptivo",
+            "Indicadores definidos"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Un tablero saturado dificulta la lectura y la decisión."
+        },
+        {
+          "id": "m6_q5",
+          "question": "¿Qué hace más confiable una historia con datos?",
+          "options": [
+            "Mostrar evidencia, límites y recomendación",
+            "Ocultar el período",
+            "Usar solo colores llamativos",
+            "Eliminar el contexto"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "La comunicación debe incluir evidencia, contexto, límites y acción sugerida."
+        }
+      ],
+      "professionalOutcome": "preparar datos, elegir graficos, crear filtros y publicar una lectura visual confiable. Entregable sugerido: un dashboard con objetivo, filtros, tres visualizaciones y conclusion accionable."
+    }
+  ],
+  "publicationStatus": "publica-profesional-v0.6",
+  "professionalization": {
+    "tier": "curso-bandera-v1.0-beta",
+    "updatedAt": "2026-05-28",
+    "focus": "Profundizacion visible de lecciones, practicas, checklists y casos."
+  },
+  "editorialPolish": {
+    "thirdEditorialBatch": "2026-06-02",
+    "status": "public-facing-copy-polished"
+  }
+}

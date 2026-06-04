@@ -1,0 +1,280 @@
+{
+  "catalogLabVersion": "0.2",
+  "description": "Laboratorio simulado para practicar búsqueda, lectura y documentación de activos de datos sin usar datos corporativos reales.",
+  "datasets": [
+    {
+      "id": "ventas_mensuales_curated",
+      "name": "ventas_mensuales_curated",
+      "businessName": "Ventas mensuales consolidadas",
+      "domain": "Comercial",
+      "owner": "Equipo Comercial BI",
+      "steward": "Data Steward Comercial",
+      "certification": "Certificado",
+      "qualityScore": 92,
+      "freshness": "Actualización diaria, 07:00",
+      "sensitivity": "Interno no sensible",
+      "description": "Dataset curado para analizar facturación, unidades vendidas, categorías, canales y sucursales por mes.",
+      "businessTerms": [
+        "venta neta",
+        "categoría",
+        "canal",
+        "sucursal",
+        "mes comercial"
+      ],
+      "technicalTerms": [
+        "fact_sales_monthly",
+        "dim_product",
+        "dim_store",
+        "revenue_net"
+      ],
+      "columns": [
+        {
+          "name": "periodo",
+          "type": "date/month",
+          "description": "Mes de análisis en formato AAAA-MM",
+          "quality": "alta"
+        },
+        {
+          "name": "categoria",
+          "type": "string",
+          "description": "Agrupación comercial del producto",
+          "quality": "media"
+        },
+        {
+          "name": "venta_neta",
+          "type": "number",
+          "description": "Importe facturado sin impuestos ni descuentos extraordinarios",
+          "quality": "alta"
+        },
+        {
+          "name": "unidades",
+          "type": "integer",
+          "description": "Cantidad total de unidades vendidas",
+          "quality": "alta"
+        }
+      ],
+      "lineage": [
+        "ERP ventas",
+        "ETL nocturno",
+        "Data warehouse comercial",
+        "Dataset certificado BI"
+      ],
+      "recommendedUse": [
+        "dashboard mensual de ventas",
+        "comparar categorías",
+        "seguimiento de facturación"
+      ],
+      "notRecommendedUse": [
+        "análisis de ticket individual",
+        "auditoría contable formal",
+        "datos en tiempo real"
+      ],
+      "commonQuestions": [
+        "¿Qué categoría vendió más este mes?",
+        "¿Cayó la facturación respecto del mes anterior?"
+      ]
+    },
+    {
+      "id": "clientes_activos_definicion",
+      "name": "clientes_activos_definicion",
+      "businessName": "Clientes activos con definición gobernada",
+      "domain": "Clientes",
+      "owner": "CRM y Experiencia de Cliente",
+      "steward": "Data Steward Clientes",
+      "certification": "En revisión",
+      "qualityScore": 78,
+      "freshness": "Actualización semanal",
+      "sensitivity": "Contiene datos personales en sistemas reales; usar versión anonimizada para formación",
+      "description": "Ficha conceptual para revisar cómo una organización define cliente activo y evita definiciones contradictorias entre áreas.",
+      "businessTerms": [
+        "cliente activo",
+        "recencia",
+        "frecuencia",
+        "segmento"
+      ],
+      "technicalTerms": [
+        "dim_customer",
+        "last_purchase_date",
+        "customer_status"
+      ],
+      "columns": [
+        {
+          "name": "cliente_id_hash",
+          "type": "string",
+          "description": "Identificador anonimizado del cliente",
+          "quality": "alta"
+        },
+        {
+          "name": "fecha_ultima_compra",
+          "type": "date",
+          "description": "Última compra registrada",
+          "quality": "media"
+        },
+        {
+          "name": "estado_cliente",
+          "type": "string",
+          "description": "Activo, inactivo o en revisión",
+          "quality": "media"
+        },
+        {
+          "name": "segmento",
+          "type": "string",
+          "description": "Segmentación comercial",
+          "quality": "media"
+        }
+      ],
+      "lineage": [
+        "CRM",
+        "Reglas de negocio",
+        "Tabla maestra de clientes",
+        "Reportes comerciales"
+      ],
+      "recommendedUse": [
+        "segmentación",
+        "campañas",
+        "análisis de retención"
+      ],
+      "notRecommendedUse": [
+        "contacto directo sin consentimiento",
+        "exportación con datos personales",
+        "definiciones no aprobadas"
+      ],
+      "commonQuestions": [
+        "¿Qué significa cliente activo?",
+        "¿Quién aprobó esta definición?"
+      ]
+    },
+    {
+      "id": "stock_operativo_productos",
+      "name": "stock_operativo_productos",
+      "businessName": "Stock operativo de productos",
+      "domain": "Operaciones",
+      "owner": "Operaciones y Abastecimiento",
+      "steward": "Data Steward Operaciones",
+      "certification": "No certificado",
+      "qualityScore": 64,
+      "freshness": "Actualización cada 4 horas",
+      "sensitivity": "Interno",
+      "description": "Dataset útil para monitoreo operativo de stock, pero requiere cautela porque puede tener demoras, ajustes manuales y diferencias con inventarios físicos.",
+      "businessTerms": [
+        "stock disponible",
+        "punto de reposición",
+        "rotación",
+        "depósito"
+      ],
+      "technicalTerms": [
+        "fact_inventory",
+        "stock_available",
+        "warehouse_id"
+      ],
+      "columns": [
+        {
+          "name": "producto_id",
+          "type": "string",
+          "description": "Identificador del producto",
+          "quality": "alta"
+        },
+        {
+          "name": "deposito",
+          "type": "string",
+          "description": "Depósito o ubicación",
+          "quality": "media"
+        },
+        {
+          "name": "stock_disponible",
+          "type": "integer",
+          "description": "Unidades disponibles según sistema",
+          "quality": "media"
+        },
+        {
+          "name": "fecha_actualizacion",
+          "type": "datetime",
+          "description": "Momento de última actualización",
+          "quality": "alta"
+        }
+      ],
+      "lineage": [
+        "Sistema de inventario",
+        "Integración operativa",
+        "Data lake",
+        "Tabla de stock operativo"
+      ],
+      "recommendedUse": [
+        "alertas operativas",
+        "priorizar reposición",
+        "seguimiento interno"
+      ],
+      "notRecommendedUse": [
+        "prometer disponibilidad al cliente sin validar",
+        "inventario contable",
+        "reporte financiero oficial"
+      ],
+      "commonQuestions": [
+        "¿Qué productos están críticos?",
+        "¿Este dato está actualizado?",
+        "¿Puedo usarlo para prometer entrega?"
+      ]
+    }
+  ],
+  "searchScenarios": [
+    {
+      "id": "buscar_ventas",
+      "title": "Buscar datos confiables de ventas",
+      "query": "ventas mensuales categoría",
+      "expectedDatasetId": "ventas_mensuales_curated",
+      "explanation": "Conviene elegir el dataset certificado porque ya tiene definición de venta neta, actualización diaria y uso recomendado para dashboards comerciales."
+    },
+    {
+      "id": "buscar_cliente_activo",
+      "title": "Resolver definición de cliente activo",
+      "query": "cliente activo definición",
+      "expectedDatasetId": "clientes_activos_definicion",
+      "explanation": "La ficha permite revisar propietario, steward, estado de certificación y términos de negocio antes de usar la métrica."
+    },
+    {
+      "id": "buscar_stock",
+      "title": "Revisar datos de stock antes de reportar",
+      "query": "stock disponible producto",
+      "expectedDatasetId": "stock_operativo_productos",
+      "explanation": "El dataset sirve para monitoreo operativo, pero el estado no certificado exige aclarar límites y actualización."
+    }
+  ],
+  "metadataChecklist": [
+    "Nombre técnico",
+    "Nombre de negocio",
+    "Descripción clara",
+    "Dueño",
+    "Steward",
+    "Dominio",
+    "Nivel de sensibilidad",
+    "Calidad",
+    "Frecuencia de actualización",
+    "Linaje",
+    "Uso recomendado",
+    "Limitaciones"
+  ],
+  "lineageExamples": [
+    {
+      "id": "lineage_ventas",
+      "title": "Linaje de ventas mensuales",
+      "steps": [
+        "ERP ventas",
+        "ETL nocturno",
+        "Data warehouse",
+        "Dataset certificado",
+        "Dashboard ejecutivo"
+      ]
+    },
+    {
+      "id": "lineage_stock",
+      "title": "Linaje de stock operativo",
+      "steps": [
+        "Sistema inventario",
+        "Integración",
+        "Data lake",
+        "Tabla operativa",
+        "Reporte de reposición"
+      ]
+    }
+  ]
+}

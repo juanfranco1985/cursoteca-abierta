@@ -1,0 +1,121 @@
+{
+  "courseId": "google-workspace-trabajo-datos-web",
+  "templateVersion": "0.6-publica-profesional",
+  "appName": "Google Workspace para Trabajo y Datos",
+  "shortName": "Google Workspace",
+  "subtitle": "Curso práctico para crear archivos compartidos, controlar permisos y usar datos simples para trabajar mejor.",
+  "description": "Usá Drive, Docs, Sheets y formularios con orden: carpetas, permisos, colaboración, datos básicos y seguimiento de tareas.",
+  "audience": "Emprendedores, estudiantes, docentes, trabajadores administrativos, equipos pequeños y personas que quieren organizar mejor información y tareas usando herramientas de Google Workspace.",
+  "dataPaths": {
+    "course": "src/data/course_content.json",
+    "checklists": "src/data/checklists.json",
+    "incidents": "src/data/incidents.json",
+    "sheetsLab": "src/data/sheets_lab.json",
+    "formsLab": "src/data/forms_lab.json",
+    "workspaceRoutine": "src/data/workspace_routine.json"
+  },
+  "labels": {
+    "modules": "Módulos",
+    "checklists": "Checklists",
+    "incidents": "Casos Workspace",
+    "emergency": "Acción rápida",
+    "certificate": "Constancia",
+    "primaryAction": "Empezar curso",
+    "emergencyAction": "Necesito ordenar mi trabajo",
+    "sheetsLab": "Laboratorio Sheets",
+    "formsLab": "Laboratorio Forms + Sheets"
+  },
+  "features": {
+    "modules": true,
+    "quizzes": true,
+    "checklists": true,
+    "incidents": true,
+    "emergency": true,
+    "certificate": true,
+    "progressExport": true,
+    "templateGuide": false,
+    "accessibilityPanel": true,
+    "pwaBasic": true,
+    "offlineCache": true,
+    "publishGuide": true,
+    "officialCloneTemplate": false,
+    "validationScript": true,
+    "sheetsLab": true,
+    "workspaceLab": true,
+    "formsLab": true,
+    "collaborationPermissions": true,
+    "weeklyRoutine": true,
+    "printableWorkspaceChecklist": true,
+    "publishReady": true,
+    "publicationChecklist": true,
+    "publicReadme": true,
+    "screenshotsGuide": true,
+    "privacyDocs": true,
+    "publicProfessionalEdition": true,
+    "requiresBackend": false,
+    "requiresLogin": false
+  },
+  "theme": {
+    "accent": "#4fb6aa",
+    "accent2": "#4285f4",
+    "danger": "#ea4335",
+    "warning": "#fbbc05",
+    "primary": "#d6a85c",
+    "background": "#21130b"
+  },
+  "responsibleNotice": "Contenido educativo. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. No compartir carpetas completas ni datos sensibles con permisos publicos por error.",
+  "cloneNotes": [
+    "Curso derivado de la plantilla web clonable.",
+    "Evitar usar datos personales, correos, archivos privados o información sensible en prácticas.",
+    "Trabajar con ejemplos anonimizados o ficticios.",
+    "v0.2 agrega Laboratorio de Google Sheets con datasets, fórmulas, ejercicios y reportes locales.",
+    "v0.3 agrega Laboratorio Google Forms + Sheets con diseño de formularios, respuestas simuladas, revisión de calidad y reporte exportable."
+  ],
+  "releaseNotes": "v0.5 orientada a publicación: README final, guías, aviso legal, privacidad, checklist y capturas.",
+  "version": "0.5",
+  "status": "Candidato de publicación web",
+  "publicEdition": {
+    "level": "publica-profesional",
+    "version": "0.6",
+    "generatedAt": "2026-05-26",
+    "sourceZip": "google_workspace_trabajo_datos_web_v0_5.zip"
+  },
+  "publication": {
+    "version": "0.6-publica-profesional",
+    "status": "Publica profesional",
+    "requiresBackend": false,
+    "requiresLogin": false,
+    "requiresAnalytics": false,
+    "requiresAds": false,
+    "recommendedHosts": [
+      "GitHub Pages",
+      "Netlify",
+      "Vercel",
+      "Hosting estatico propio"
+    ],
+    "prePublishChecks": [
+      "Probar con servidor local",
+      "Probar navegacion en movil y escritorio",
+      "Revisar textos legales y privacidad",
+      "Verificar que no se pidan datos sensibles",
+      "Actualizar capturas publicas"
+    ]
+  },
+  "webApp": {
+    "cacheName": "google-workspace-trabajo-datos-web-v0-6-publica-v0-6-publica-profesional",
+    "publicationStatus": "publica-profesional-v0.6"
+  },
+  "professionalization": {
+    "tier": "curso-bandera-v1.0-beta",
+    "updatedAt": "2026-05-28",
+    "improvements": [
+      "Lecciones con teoria, ejemplo, error comun y ejercicio mas profundos.",
+      "Checklists orientados a evidencia y entregables.",
+      "Casos guiados con pasos, errores y decision responsable."
+    ]
+  },
+  "editorialPolish": {
+    "secondFeaturedBatch": "2026-06-01",
+    "status": "public-facing-copy-polished"
+  }
+}

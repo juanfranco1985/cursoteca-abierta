@@ -1,0 +1,169 @@
+{
+  "courseId": "emprendimiento-barrial-web",
+  "templateVersion": "0.6-publica-profesional",
+  "appName": "Emprendimiento Barrial",
+  "shortName": "Emprender Barrio",
+  "subtitle": "Curso práctico para convertir una idea en oferta, precio, proceso y primer plan de ventas.",
+  "description": "Ordená una idea de negocio local: propuesta, público, costos, precio, rutina de atención y primeros pasos para vender mejor.",
+  "audience": "Personas con pequeños negocios, revendedores, comerciantes barriales, emprendimientos familiares y trabajadores que quieren ordenar ventas, stock y caja sin sistemas complejos.",
+  "dataPaths": {
+    "course": "src/data/course_content.json",
+    "checklists": "src/data/checklists.json",
+    "incidents": "src/data/incidents.json",
+    "financialTools": "src/data/financial_tools.json",
+    "businessDecisions": "src/data/business_decisions.json"
+  },
+  "labels": {
+    "modules": "Módulos",
+    "checklists": "Checklists",
+    "incidents": "Casos de negocio",
+    "emergency": "Acción rápida",
+    "certificate": "Constancia",
+    "primaryAction": "Empezar curso",
+    "emergencyAction": "Tengo un problema en mi negocio",
+    "tools": "Herramientas"
+  },
+  "features": {
+    "modules": true,
+    "quizzes": true,
+    "checklists": true,
+    "incidents": true,
+    "emergency": true,
+    "certificate": true,
+    "progressExport": true,
+    "templateGuide": true,
+    "accessibilityPanel": true,
+    "pwaBasic": true,
+    "offlineCache": true,
+    "publishGuide": true,
+    "officialCloneTemplate": false,
+    "templateKit": true,
+    "cloneChecklist": true,
+    "dataContracts": true,
+    "validationScript": true,
+    "businessCalculators": true,
+    "publicationCandidate": true,
+    "stockControl": true,
+    "cashRegister": true,
+    "promotionEvaluator": true,
+    "businessMessages": true,
+    "businessDecisionSimulator": true,
+    "decisionReports": true,
+    "decisionDashboard": true,
+    "weeklyBusinessRoutine": true,
+    "printableBusinessReport": true,
+    "dailyOperationChecklist": true,
+    "mobileFormImprovements": true,
+    "publicReadme": true,
+    "publicationChecklist": true,
+    "screenshotGuide": true,
+    "legalDocs": true,
+    "privacyDocs": true,
+    "publicProfessionalEdition": true,
+    "requiresBackend": false,
+    "requiresLogin": false
+  },
+  "theme": {
+    "accent": "#4fb6aa",
+    "accent2": "#22c55e",
+    "danger": "#fb7185",
+    "warning": "#f59e0b",
+    "primary": "#d6a85c",
+    "background": "#21130b"
+  },
+  "quiz": {
+    "passingPercent": 70,
+    "saveIncomplete": false,
+    "showImmediateFeedback": true
+  },
+  "certificate": {
+    "title": "Constancia interna de Emprendimiento Barrial",
+    "minimumSuggestedProgress": 70,
+    "minimumSuggestedQuizAverage": 70,
+    "notOfficialNotice": "Esta constancia es educativa, no oficial, y no equivale a asesoramiento contable, legal, impositivo, financiero ni comercial profesional."
+  },
+  "emergency": {
+    "title": "Acción rápida para problemas del negocio",
+    "summary": "Guía breve para ordenar reclamos, caja, stock, cobros dudosos o decisiones urgentes sin actuar bajo presión.",
+    "firstSteps": [
+      "Frená la decisión apresurada y anotá qué pasó.",
+      "Separá el problema: caja, stock, cliente, proveedor, precio o entrega.",
+      "Guardá comprobantes, mensajes y capturas relevantes.",
+      "No prometas devoluciones, descuentos o entregas si todavía no verificaste datos.",
+      "Elegí el caso guiado más parecido y seguí los pasos."
+    ],
+    "avoid": [
+      "Responder enojado a un cliente.",
+      "Vender sin revisar stock.",
+      "Cambiar precios sin calcular margen.",
+      "Comprar mercadería solo porque está en oferta.",
+      "Mezclar plata personal con caja del negocio."
+    ],
+    "officialNotice": "Curso educativo. No reemplaza asesoramiento contable, legal, impositivo, financiero ni profesional."
+  },
+  "cloneNotes": "Candidato de publicación v0.5 de Emprendimiento Barrial Web. Mantiene curso, herramientas, simulador, tablero, rutina y reportes, con documentación pública final.",
+  "navigationHighlights": [
+    "Curso modular",
+    "Herramientas de negocio",
+    "Simulador de decisiones",
+    "Tablero visual",
+    "Rutina semanal",
+    "Reportes imprimibles",
+    "Checklist diaria",
+    "Publicación web"
+  ],
+  "responsibleNotice": "Contenido educativo. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. No invertir fuerte ni asumir deudas sin probar demanda, costos y capacidad real.",
+  "version": "0.5.0",
+  "webApp": {
+    "cacheName": "emprendimiento-barrial-web-v0-6-publica-v0-6-publica-profesional",
+    "publishTargets": [
+      "GitHub Pages",
+      "Netlify",
+      "Vercel",
+      "servidor estático propio",
+      "blog o portfolio personal"
+    ],
+    "recommendedTest": "Abrir con VS Code + Live Server y revisar DevTools > Application > Manifest + Service Worker.",
+    "publicationStatus": "publica-profesional-v0.6"
+  },
+  "publicEdition": {
+    "level": "publica-profesional",
+    "version": "0.6",
+    "generatedAt": "2026-05-26",
+    "sourceZip": "emprendimiento_barrial_web_v0_5.zip"
+  },
+  "publication": {
+    "version": "0.6-publica-profesional",
+    "status": "Publica profesional",
+    "requiresBackend": false,
+    "requiresLogin": false,
+    "requiresAnalytics": false,
+    "requiresAds": false,
+    "recommendedHosts": [
+      "GitHub Pages",
+      "Netlify",
+      "Vercel",
+      "Hosting estatico propio"
+    ],
+    "prePublishChecks": [
+      "Probar con servidor local",
+      "Probar navegacion en movil y escritorio",
+      "Revisar textos legales y privacidad",
+      "Verificar que no se pidan datos sensibles",
+      "Actualizar capturas publicas"
+    ]
+  },
+  "professionalization": {
+    "tier": "curso-bandera-v1.0-beta",
+    "updatedAt": "2026-05-28",
+    "improvements": [
+      "Lecciones con teoria, ejemplo, error comun y ejercicio mas profundos.",
+      "Checklists orientados a evidencia y entregables.",
+      "Casos guiados con pasos, errores y decision responsable."
+    ]
+  },
+  "editorialPolish": {
+    "firstFeaturedBatch": "2026-06-01",
+    "status": "public-facing-copy-polished"
+  }
+}

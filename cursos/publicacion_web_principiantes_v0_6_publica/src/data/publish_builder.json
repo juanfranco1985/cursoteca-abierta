@@ -1,0 +1,205 @@
+{
+  "courseId": "publicacion_web_principiantes",
+  "version": "0.3",
+  "templates": [
+    {
+      "id": "landing-personal",
+      "title": "Landing personal simple",
+      "description": "Página para presentarse y compartir enlaces.",
+      "recommendedPlatform": "GitHub Pages",
+      "fields": [
+        {
+          "id": "siteTitle",
+          "label": "Título del sitio",
+          "default": "Mi sitio personal"
+        },
+        {
+          "id": "heroTitle",
+          "label": "Título principal",
+          "default": "Hola, soy Juan y estoy creando proyectos web"
+        },
+        {
+          "id": "heroText",
+          "label": "Texto principal",
+          "default": "Este sitio reúne mis primeras prácticas de HTML, CSS y JavaScript."
+        },
+        {
+          "id": "ctaText",
+          "label": "Texto del botón",
+          "default": "Ver proyectos"
+        },
+        {
+          "id": "ctaLink",
+          "label": "Enlace del botón",
+          "default": "#proyectos"
+        },
+        {
+          "id": "sectionTitle",
+          "label": "Título de sección",
+          "default": "Proyectos destacados"
+        },
+        {
+          "id": "contactText",
+          "label": "Texto de contacto",
+          "default": "Podés contactarme para conocer más sobre mis trabajos."
+        }
+      ]
+    },
+    {
+      "id": "landing-product",
+      "title": "Landing de producto",
+      "description": "Página simple para presentar un producto, servicio o curso.",
+      "recommendedPlatform": "Netlify",
+      "fields": [
+        {
+          "id": "siteTitle",
+          "label": "Título del sitio",
+          "default": "Producto digital"
+        },
+        {
+          "id": "heroTitle",
+          "label": "Título principal",
+          "default": "Una solución simple para empezar mejor"
+        },
+        {
+          "id": "heroText",
+          "label": "Texto principal",
+          "default": "Presentá tu producto, beneficio principal y propuesta de valor en una página clara."
+        },
+        {
+          "id": "ctaText",
+          "label": "Texto del botón",
+          "default": "Quiero saber más"
+        },
+        {
+          "id": "ctaLink",
+          "label": "Enlace del botón",
+          "default": "#contacto"
+        },
+        {
+          "id": "sectionTitle",
+          "label": "Título de beneficios",
+          "default": "Beneficios principales"
+        },
+        {
+          "id": "contactText",
+          "label": "Texto de contacto",
+          "default": "Dejá tus datos o escribinos para recibir más información."
+        }
+      ]
+    },
+    {
+      "id": "landing-course",
+      "title": "Landing de curso web",
+      "description": "Página para presentar un curso estático de Aula Digital Práctica.",
+      "recommendedPlatform": "Netlify",
+      "fields": [
+        {
+          "id": "siteTitle",
+          "label": "Título del sitio",
+          "default": "Curso web práctico"
+        },
+        {
+          "id": "heroTitle",
+          "label": "Título principal",
+          "default": "Aprendé una habilidad digital paso a paso"
+        },
+        {
+          "id": "heroText",
+          "label": "Texto principal",
+          "default": "Curso web con lecciones, checklists, casos prácticos y progreso local."
+        },
+        {
+          "id": "ctaText",
+          "label": "Texto del botón",
+          "default": "Empezar curso"
+        },
+        {
+          "id": "ctaLink",
+          "label": "Enlace del botón",
+          "default": "index.html"
+        },
+        {
+          "id": "sectionTitle",
+          "label": "Título de contenidos",
+          "default": "Qué vas a encontrar"
+        },
+        {
+          "id": "contactText",
+          "label": "Texto final",
+          "default": "Este curso forma parte de Aula Digital Práctica."
+        }
+      ]
+    }
+  ],
+  "deployChecklist": [
+    {
+      "id": "deploy-index",
+      "text": "La carpeta final incluye index.html."
+    },
+    {
+      "id": "deploy-css",
+      "text": "styles.css está vinculado y carga correctamente."
+    },
+    {
+      "id": "deploy-js",
+      "text": "script.js existe si la página usa interacción."
+    },
+    {
+      "id": "deploy-assets",
+      "text": "Las imágenes y recursos usan rutas relativas."
+    },
+    {
+      "id": "deploy-readme",
+      "text": "README.md explica cómo abrir o publicar el sitio."
+    },
+    {
+      "id": "deploy-gitignore",
+      "text": ".gitignore evita archivos temporales o privados."
+    },
+    {
+      "id": "deploy-private",
+      "text": "No hay claves, tokens ni datos privados."
+    },
+    {
+      "id": "deploy-mobile",
+      "text": "La landing fue revisada en tamaño móvil."
+    },
+    {
+      "id": "deploy-platform",
+      "text": "La plataforma elegida coincide con el tipo de proyecto."
+    },
+    {
+      "id": "deploy-url",
+      "text": "La URL pública final fue verificada."
+    }
+  ],
+  "platformRules": [
+    {
+      "id": "rule-github",
+      "condition": "web HTML/CSS/JS simple o portfolio",
+      "platform": "GitHub Pages",
+      "reason": "Es suficiente para sitios estáticos simples y fortalece el uso de GitHub."
+    },
+    {
+      "id": "rule-netlify",
+      "condition": "landing rápida o curso estático exportado",
+      "platform": "Netlify",
+      "reason": "Permite deploys rápidos y carpetas estáticas limpias."
+    },
+    {
+      "id": "rule-vercel",
+      "condition": "React, Next.js o frontend moderno",
+      "platform": "Vercel",
+      "reason": "Está orientado a frameworks modernos y previews."
+    }
+  ],
+  "readmeSections": [
+    "Descripción",
+    "Tecnologías",
+    "Cómo probar localmente",
+    "Cómo publicar",
+    "Estado",
+    "Próximas mejoras"
+  ]
+}

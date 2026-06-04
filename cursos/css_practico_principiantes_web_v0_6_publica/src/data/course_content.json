@@ -1,0 +1,1050 @@
+{
+  "courseId": "css-practico-principiantes",
+  "title": "CSS Práctico para Principiantes",
+  "version": "0.6-publica",
+  "modules": [
+    {
+      "id": "m1",
+      "title": "Qué es CSS y cómo se conecta con CSS",
+      "description": "En este modulo vas a trabajar \"Qué es CSS y cómo se conecta con CSS\" dentro de CSS practico, selectores, espaciado, componentes visuales, Flexbox, formularios y responsive. La meta es construir una pieza pequena, probarla en navegador y dejar evidencia de que funciona para una persona real.",
+      "lessons": [
+        {
+          "id": "m1-l1",
+          "title": "Qué es CSS",
+          "keyIdea": "Idea clave: Qué es CSS sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Qué es CSS\" dentro del modulo \"Qué es CSS y cómo se conecta con CSS\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona tiene una pagina HTML funcional, pero necesita que se lea mejor, se ordene visualmente y responda en movil. Aplica \"Qué es CSS\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una pagina mejorada con estilos, layout responsive, botones/formularios cuidados y nota de decisiones visuales.",
+          "alert": "No sacrificar legibilidad, contraste ni navegacion por decoracion visual.",
+          "keyPoints": [
+            "Qué es CSS debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una pagina mejorada con estilos, layout responsive, botones/formularios cuidados y nota de decisiones visuales.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m1-l2",
+          "title": "CSS estructura y CSS presentación",
+          "keyIdea": "Idea clave: CSS estructura y CSS presentación sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"CSS estructura y CSS presentación\" dentro del modulo \"Qué es CSS y cómo se conecta con CSS\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona tiene una pagina HTML funcional, pero necesita que se lea mejor, se ordene visualmente y responda en movil. Aplica \"CSS estructura y CSS presentación\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una pagina mejorada con estilos, layout responsive, botones/formularios cuidados y nota de decisiones visuales.",
+          "alert": "No sacrificar legibilidad, contraste ni navegacion por decoracion visual.",
+          "keyPoints": [
+            "CSS estructura y CSS presentación debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una pagina mejorada con estilos, layout responsive, botones/formularios cuidados y nota de decisiones visuales.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m1-l3",
+          "title": "Formas de agregar CSS",
+          "keyIdea": "Idea clave: Formas de agregar CSS sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Formas de agregar CSS\" dentro del modulo \"Qué es CSS y cómo se conecta con CSS\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona tiene una pagina HTML funcional, pero necesita que se lea mejor, se ordene visualmente y responda en movil. Aplica \"Formas de agregar CSS\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una pagina mejorada con estilos, layout responsive, botones/formularios cuidados y nota de decisiones visuales.",
+          "alert": "No sacrificar legibilidad, contraste ni navegacion por decoracion visual.",
+          "keyPoints": [
+            "Formas de agregar CSS debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una pagina mejorada con estilos, layout responsive, botones/formularios cuidados y nota de decisiones visuales.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m1-l4",
+          "title": "Archivo styles.css",
+          "keyIdea": "Idea clave: Archivo styles.css sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Archivo styles.css\" dentro del modulo \"Qué es CSS y cómo se conecta con CSS\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona tiene una pagina HTML funcional, pero necesita que se lea mejor, se ordene visualmente y responda en movil. Aplica \"Archivo styles.css\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una pagina mejorada con estilos, layout responsive, botones/formularios cuidados y nota de decisiones visuales.",
+          "alert": "No sacrificar legibilidad, contraste ni navegacion por decoracion visual.",
+          "keyPoints": [
+            "Archivo styles.css debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una pagina mejorada con estilos, layout responsive, botones/formularios cuidados y nota de decisiones visuales.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m1-l5",
+          "title": "Cascada y prioridad básica",
+          "keyIdea": "Idea clave: Cascada y prioridad básica sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Cascada y prioridad básica\" dentro del modulo \"Qué es CSS y cómo se conecta con CSS\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona tiene una pagina HTML funcional, pero necesita que se lea mejor, se ordene visualmente y responda en movil. Aplica \"Cascada y prioridad básica\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una pagina mejorada con estilos, layout responsive, botones/formularios cuidados y nota de decisiones visuales.",
+          "alert": "No sacrificar legibilidad, contraste ni navegacion por decoracion visual.",
+          "keyPoints": [
+            "Cascada y prioridad básica debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una pagina mejorada con estilos, layout responsive, botones/formularios cuidados y nota de decisiones visuales.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m1-l6",
+          "title": "Primer estilo aplicado",
+          "keyIdea": "Idea clave: Primer estilo aplicado sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Primer estilo aplicado\" dentro del modulo \"Qué es CSS y cómo se conecta con CSS\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona tiene una pagina HTML funcional, pero necesita que se lea mejor, se ordene visualmente y responda en movil. Aplica \"Primer estilo aplicado\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una pagina mejorada con estilos, layout responsive, botones/formularios cuidados y nota de decisiones visuales.",
+          "alert": "No sacrificar legibilidad, contraste ni navegacion por decoracion visual.",
+          "keyPoints": [
+            "Primer estilo aplicado debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una pagina mejorada con estilos, layout responsive, botones/formularios cuidados y nota de decisiones visuales.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m1-q1",
+          "question": "Pregunta 1: ¿Cuál es una buena práctica relacionada con qué es css y cómo se conecta con css?",
+          "options": [
+            "Escribir reglas sin probarlas",
+            "Usar selectores claros y revisar el resultado",
+            "Poner todos los estilos inline",
+            "Ignorar el diseño móvil"
+          ],
+          "correctAnswerIndex": 1,
+          "feedback": "Correcto: CSS se aprende mejor aplicando reglas pequeñas, ordenadas y comprobando el resultado en navegador."
+        },
+        {
+          "id": "m1-q2",
+          "question": "Pregunta 2: ¿Cuál es una buena práctica relacionada con qué es css y cómo se conecta con css?",
+          "options": [
+            "Escribir reglas sin probarlas",
+            "Usar selectores claros y revisar el resultado",
+            "Poner todos los estilos inline",
+            "Ignorar el diseño móvil"
+          ],
+          "correctAnswerIndex": 1,
+          "feedback": "Correcto: CSS se aprende mejor aplicando reglas pequeñas, ordenadas y comprobando el resultado en navegador."
+        },
+        {
+          "id": "m1-q3",
+          "question": "Pregunta 3: ¿Cuál es una buena práctica relacionada con qué es css y cómo se conecta con css?",
+          "options": [
+            "Escribir reglas sin probarlas",
+            "Usar selectores claros y revisar el resultado",
+            "Poner todos los estilos inline",
+            "Ignorar el diseño móvil"
+          ],
+          "correctAnswerIndex": 1,
+          "feedback": "Correcto: CSS se aprende mejor aplicando reglas pequeñas, ordenadas y comprobando el resultado en navegador."
+        },
+        {
+          "id": "m1-q4",
+          "question": "Pregunta 4: ¿Cuál es una buena práctica relacionada con qué es css y cómo se conecta con css?",
+          "options": [
+            "Escribir reglas sin probarlas",
+            "Usar selectores claros y revisar el resultado",
+            "Poner todos los estilos inline",
+            "Ignorar el diseño móvil"
+          ],
+          "correctAnswerIndex": 1,
+          "feedback": "Correcto: CSS se aprende mejor aplicando reglas pequeñas, ordenadas y comprobando el resultado en navegador."
+        },
+        {
+          "id": "m1-q5",
+          "question": "Pregunta 5: ¿Cuál es una buena práctica relacionada con qué es css y cómo se conecta con css?",
+          "options": [
+            "Escribir reglas sin probarlas",
+            "Usar selectores claros y revisar el resultado",
+            "Poner todos los estilos inline",
+            "Ignorar el diseño móvil"
+          ],
+          "correctAnswerIndex": 1,
+          "feedback": "Correcto: CSS se aprende mejor aplicando reglas pequeñas, ordenadas y comprobando el resultado en navegador."
+        }
+      ],
+      "professionalOutcome": "crear layouts claros, aplicar color con criterio, cuidar espaciado y adaptar a movil. Entregable sugerido: una pagina estilizada con sistema basico de colores, espaciado, botones y responsive."
+    },
+    {
+      "id": "m2",
+      "title": "Selectores, propiedades y reglas básicas",
+      "description": "En este modulo vas a trabajar \"Selectores, propiedades y reglas básicas\" dentro de CSS practico, selectores, espaciado, componentes visuales, Flexbox, formularios y responsive. La meta es construir una pieza pequena, probarla en navegador y dejar evidencia de que funciona para una persona real.",
+      "lessons": [
+        {
+          "id": "m2-l1",
+          "title": "Selectores de etiqueta",
+          "keyIdea": "Idea clave: Selectores de etiqueta sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Selectores de etiqueta\" dentro del modulo \"Selectores, propiedades y reglas básicas\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona tiene una pagina HTML funcional, pero necesita que se lea mejor, se ordene visualmente y responda en movil. Aplica \"Selectores de etiqueta\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una pagina mejorada con estilos, layout responsive, botones/formularios cuidados y nota de decisiones visuales.",
+          "alert": "No sacrificar legibilidad, contraste ni navegacion por decoracion visual.",
+          "keyPoints": [
+            "Selectores de etiqueta debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una pagina mejorada con estilos, layout responsive, botones/formularios cuidados y nota de decisiones visuales.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m2-l2",
+          "title": "Clases e identificadores",
+          "keyIdea": "Idea clave: Clases e identificadores sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Clases e identificadores\" dentro del modulo \"Selectores, propiedades y reglas básicas\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona tiene una pagina HTML funcional, pero necesita que se lea mejor, se ordene visualmente y responda en movil. Aplica \"Clases e identificadores\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una pagina mejorada con estilos, layout responsive, botones/formularios cuidados y nota de decisiones visuales.",
+          "alert": "No sacrificar legibilidad, contraste ni navegacion por decoracion visual.",
+          "keyPoints": [
+            "Clases e identificadores debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una pagina mejorada con estilos, layout responsive, botones/formularios cuidados y nota de decisiones visuales.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m2-l3",
+          "title": "Propiedades y valores",
+          "keyIdea": "Idea clave: Propiedades y valores sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Propiedades y valores\" dentro del modulo \"Selectores, propiedades y reglas básicas\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona tiene una pagina HTML funcional, pero necesita que se lea mejor, se ordene visualmente y responda en movil. Aplica \"Propiedades y valores\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una pagina mejorada con estilos, layout responsive, botones/formularios cuidados y nota de decisiones visuales.",
+          "alert": "No sacrificar legibilidad, contraste ni navegacion por decoracion visual.",
+          "keyPoints": [
+            "Propiedades y valores debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una pagina mejorada con estilos, layout responsive, botones/formularios cuidados y nota de decisiones visuales.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m2-l4",
+          "title": "Agrupar reglas",
+          "keyIdea": "Idea clave: Agrupar reglas sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Agrupar reglas\" dentro del modulo \"Selectores, propiedades y reglas básicas\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona tiene una pagina HTML funcional, pero necesita que se lea mejor, se ordene visualmente y responda en movil. Aplica \"Agrupar reglas\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una pagina mejorada con estilos, layout responsive, botones/formularios cuidados y nota de decisiones visuales.",
+          "alert": "No sacrificar legibilidad, contraste ni navegacion por decoracion visual.",
+          "keyPoints": [
+            "Agrupar reglas debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una pagina mejorada con estilos, layout responsive, botones/formularios cuidados y nota de decisiones visuales.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m2-l5",
+          "title": "Comentarios y orden",
+          "keyIdea": "Idea clave: Comentarios y orden sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Comentarios y orden\" dentro del modulo \"Selectores, propiedades y reglas básicas\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona tiene una pagina HTML funcional, pero necesita que se lea mejor, se ordene visualmente y responda en movil. Aplica \"Comentarios y orden\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una pagina mejorada con estilos, layout responsive, botones/formularios cuidados y nota de decisiones visuales.",
+          "alert": "No sacrificar legibilidad, contraste ni navegacion por decoracion visual.",
+          "keyPoints": [
+            "Comentarios y orden debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una pagina mejorada con estilos, layout responsive, botones/formularios cuidados y nota de decisiones visuales.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m2-l6",
+          "title": "Errores comunes de sintaxis",
+          "keyIdea": "Idea clave: Errores comunes de sintaxis sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Errores comunes de sintaxis\" dentro del modulo \"Selectores, propiedades y reglas básicas\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona tiene una pagina HTML funcional, pero necesita que se lea mejor, se ordene visualmente y responda en movil. Aplica \"Errores comunes de sintaxis\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una pagina mejorada con estilos, layout responsive, botones/formularios cuidados y nota de decisiones visuales.",
+          "alert": "No sacrificar legibilidad, contraste ni navegacion por decoracion visual.",
+          "keyPoints": [
+            "Errores comunes de sintaxis debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una pagina mejorada con estilos, layout responsive, botones/formularios cuidados y nota de decisiones visuales.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m2-q1",
+          "question": "Pregunta 1: ¿Cuál es una buena práctica relacionada con selectores, propiedades y reglas básicas?",
+          "options": [
+            "Escribir reglas sin probarlas",
+            "Usar selectores claros y revisar el resultado",
+            "Poner todos los estilos inline",
+            "Ignorar el diseño móvil"
+          ],
+          "correctAnswerIndex": 1,
+          "feedback": "Correcto: CSS se aprende mejor aplicando reglas pequeñas, ordenadas y comprobando el resultado en navegador."
+        },
+        {
+          "id": "m2-q2",
+          "question": "Pregunta 2: ¿Cuál es una buena práctica relacionada con selectores, propiedades y reglas básicas?",
+          "options": [
+            "Escribir reglas sin probarlas",
+            "Usar selectores claros y revisar el resultado",
+            "Poner todos los estilos inline",
+            "Ignorar el diseño móvil"
+          ],
+          "correctAnswerIndex": 1,
+          "feedback": "Correcto: CSS se aprende mejor aplicando reglas pequeñas, ordenadas y comprobando el resultado en navegador."
+        },
+        {
+          "id": "m2-q3",
+          "question": "Pregunta 3: ¿Cuál es una buena práctica relacionada con selectores, propiedades y reglas básicas?",
+          "options": [
+            "Escribir reglas sin probarlas",
+            "Usar selectores claros y revisar el resultado",
+            "Poner todos los estilos inline",
+            "Ignorar el diseño móvil"
+          ],
+          "correctAnswerIndex": 1,
+          "feedback": "Correcto: CSS se aprende mejor aplicando reglas pequeñas, ordenadas y comprobando el resultado en navegador."
+        },
+        {
+          "id": "m2-q4",
+          "question": "Pregunta 4: ¿Cuál es una buena práctica relacionada con selectores, propiedades y reglas básicas?",
+          "options": [
+            "Escribir reglas sin probarlas",
+            "Usar selectores claros y revisar el resultado",
+            "Poner todos los estilos inline",
+            "Ignorar el diseño móvil"
+          ],
+          "correctAnswerIndex": 1,
+          "feedback": "Correcto: CSS se aprende mejor aplicando reglas pequeñas, ordenadas y comprobando el resultado en navegador."
+        },
+        {
+          "id": "m2-q5",
+          "question": "Pregunta 5: ¿Cuál es una buena práctica relacionada con selectores, propiedades y reglas básicas?",
+          "options": [
+            "Escribir reglas sin probarlas",
+            "Usar selectores claros y revisar el resultado",
+            "Poner todos los estilos inline",
+            "Ignorar el diseño móvil"
+          ],
+          "correctAnswerIndex": 1,
+          "feedback": "Correcto: CSS se aprende mejor aplicando reglas pequeñas, ordenadas y comprobando el resultado en navegador."
+        }
+      ],
+      "professionalOutcome": "crear layouts claros, aplicar color con criterio, cuidar espaciado y adaptar a movil. Entregable sugerido: una pagina estilizada con sistema basico de colores, espaciado, botones y responsive."
+    },
+    {
+      "id": "m3",
+      "title": "Colores, tipografías, márgenes y espaciado",
+      "description": "En este modulo vas a trabajar \"Colores, tipografías, márgenes y espaciado\" dentro de CSS practico, selectores, espaciado, componentes visuales, Flexbox, formularios y responsive. La meta es construir una pieza pequena, probarla en navegador y dejar evidencia de que funciona para una persona real.",
+      "lessons": [
+        {
+          "id": "m3-l1",
+          "title": "Colores y contraste",
+          "keyIdea": "Idea clave: Colores y contraste sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Colores y contraste\" dentro del modulo \"Colores, tipografías, márgenes y espaciado\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona tiene una pagina HTML funcional, pero necesita que se lea mejor, se ordene visualmente y responda en movil. Aplica \"Colores y contraste\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una pagina mejorada con estilos, layout responsive, botones/formularios cuidados y nota de decisiones visuales.",
+          "alert": "No sacrificar legibilidad, contraste ni navegacion por decoracion visual.",
+          "keyPoints": [
+            "Colores y contraste debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una pagina mejorada con estilos, layout responsive, botones/formularios cuidados y nota de decisiones visuales.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m3-l2",
+          "title": "Fuentes y tamaños",
+          "keyIdea": "Idea clave: Fuentes y tamaños sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Fuentes y tamaños\" dentro del modulo \"Colores, tipografías, márgenes y espaciado\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona tiene una pagina HTML funcional, pero necesita que se lea mejor, se ordene visualmente y responda en movil. Aplica \"Fuentes y tamaños\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una pagina mejorada con estilos, layout responsive, botones/formularios cuidados y nota de decisiones visuales.",
+          "alert": "No sacrificar legibilidad, contraste ni navegacion por decoracion visual.",
+          "keyPoints": [
+            "Fuentes y tamaños debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una pagina mejorada con estilos, layout responsive, botones/formularios cuidados y nota de decisiones visuales.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m3-l3",
+          "title": "Márgenes y padding",
+          "keyIdea": "Idea clave: Márgenes y padding sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Márgenes y padding\" dentro del modulo \"Colores, tipografías, márgenes y espaciado\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona tiene una pagina HTML funcional, pero necesita que se lea mejor, se ordene visualmente y responda en movil. Aplica \"Márgenes y padding\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una pagina mejorada con estilos, layout responsive, botones/formularios cuidados y nota de decisiones visuales.",
+          "alert": "No sacrificar legibilidad, contraste ni navegacion por decoracion visual.",
+          "keyPoints": [
+            "Márgenes y padding debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una pagina mejorada con estilos, layout responsive, botones/formularios cuidados y nota de decisiones visuales.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m3-l4",
+          "title": "Bordes y radios",
+          "keyIdea": "Idea clave: Bordes y radios sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Bordes y radios\" dentro del modulo \"Colores, tipografías, márgenes y espaciado\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona tiene una pagina HTML funcional, pero necesita que se lea mejor, se ordene visualmente y responda en movil. Aplica \"Bordes y radios\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una pagina mejorada con estilos, layout responsive, botones/formularios cuidados y nota de decisiones visuales.",
+          "alert": "No sacrificar legibilidad, contraste ni navegacion por decoracion visual.",
+          "keyPoints": [
+            "Bordes y radios debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una pagina mejorada con estilos, layout responsive, botones/formularios cuidados y nota de decisiones visuales.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m3-l5",
+          "title": "Espaciado visual",
+          "keyIdea": "Idea clave: Espaciado visual sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Espaciado visual\" dentro del modulo \"Colores, tipografías, márgenes y espaciado\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona tiene una pagina HTML funcional, pero necesita que se lea mejor, se ordene visualmente y responda en movil. Aplica \"Espaciado visual\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una pagina mejorada con estilos, layout responsive, botones/formularios cuidados y nota de decisiones visuales.",
+          "alert": "No sacrificar legibilidad, contraste ni navegacion por decoracion visual.",
+          "keyPoints": [
+            "Espaciado visual debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una pagina mejorada con estilos, layout responsive, botones/formularios cuidados y nota de decisiones visuales.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m3-l6",
+          "title": "Jerarquía visual",
+          "keyIdea": "Idea clave: Jerarquía visual sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Jerarquía visual\" dentro del modulo \"Colores, tipografías, márgenes y espaciado\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona tiene una pagina HTML funcional, pero necesita que se lea mejor, se ordene visualmente y responda en movil. Aplica \"Jerarquía visual\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una pagina mejorada con estilos, layout responsive, botones/formularios cuidados y nota de decisiones visuales.",
+          "alert": "No sacrificar legibilidad, contraste ni navegacion por decoracion visual.",
+          "keyPoints": [
+            "Jerarquía visual debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una pagina mejorada con estilos, layout responsive, botones/formularios cuidados y nota de decisiones visuales.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m3-q1",
+          "question": "Pregunta 1: ¿Cuál es una buena práctica relacionada con colores, tipografías, márgenes y espaciado?",
+          "options": [
+            "Escribir reglas sin probarlas",
+            "Usar selectores claros y revisar el resultado",
+            "Poner todos los estilos inline",
+            "Ignorar el diseño móvil"
+          ],
+          "correctAnswerIndex": 1,
+          "feedback": "Correcto: CSS se aprende mejor aplicando reglas pequeñas, ordenadas y comprobando el resultado en navegador."
+        },
+        {
+          "id": "m3-q2",
+          "question": "Pregunta 2: ¿Cuál es una buena práctica relacionada con colores, tipografías, márgenes y espaciado?",
+          "options": [
+            "Escribir reglas sin probarlas",
+            "Usar selectores claros y revisar el resultado",
+            "Poner todos los estilos inline",
+            "Ignorar el diseño móvil"
+          ],
+          "correctAnswerIndex": 1,
+          "feedback": "Correcto: CSS se aprende mejor aplicando reglas pequeñas, ordenadas y comprobando el resultado en navegador."
+        },
+        {
+          "id": "m3-q3",
+          "question": "Pregunta 3: ¿Cuál es una buena práctica relacionada con colores, tipografías, márgenes y espaciado?",
+          "options": [
+            "Escribir reglas sin probarlas",
+            "Usar selectores claros y revisar el resultado",
+            "Poner todos los estilos inline",
+            "Ignorar el diseño móvil"
+          ],
+          "correctAnswerIndex": 1,
+          "feedback": "Correcto: CSS se aprende mejor aplicando reglas pequeñas, ordenadas y comprobando el resultado en navegador."
+        },
+        {
+          "id": "m3-q4",
+          "question": "Pregunta 4: ¿Cuál es una buena práctica relacionada con colores, tipografías, márgenes y espaciado?",
+          "options": [
+            "Escribir reglas sin probarlas",
+            "Usar selectores claros y revisar el resultado",
+            "Poner todos los estilos inline",
+            "Ignorar el diseño móvil"
+          ],
+          "correctAnswerIndex": 1,
+          "feedback": "Correcto: CSS se aprende mejor aplicando reglas pequeñas, ordenadas y comprobando el resultado en navegador."
+        },
+        {
+          "id": "m3-q5",
+          "question": "Pregunta 5: ¿Cuál es una buena práctica relacionada con colores, tipografías, márgenes y espaciado?",
+          "options": [
+            "Escribir reglas sin probarlas",
+            "Usar selectores claros y revisar el resultado",
+            "Poner todos los estilos inline",
+            "Ignorar el diseño móvil"
+          ],
+          "correctAnswerIndex": 1,
+          "feedback": "Correcto: CSS se aprende mejor aplicando reglas pequeñas, ordenadas y comprobando el resultado en navegador."
+        }
+      ],
+      "professionalOutcome": "crear layouts claros, aplicar color con criterio, cuidar espaciado y adaptar a movil. Entregable sugerido: una pagina estilizada con sistema basico de colores, espaciado, botones y responsive."
+    },
+    {
+      "id": "m4",
+      "title": "Tarjetas, botones, imágenes y formularios",
+      "description": "En este modulo vas a trabajar \"Tarjetas, botones, imágenes y formularios\" dentro de CSS practico, selectores, espaciado, componentes visuales, Flexbox, formularios y responsive. La meta es construir una pieza pequena, probarla en navegador y dejar evidencia de que funciona para una persona real.",
+      "lessons": [
+        {
+          "id": "m4-l1",
+          "title": "Tarjetas simples",
+          "keyIdea": "Idea clave: Tarjetas simples sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Tarjetas simples\" dentro del modulo \"Tarjetas, botones, imágenes y formularios\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona tiene una pagina HTML funcional, pero necesita que se lea mejor, se ordene visualmente y responda en movil. Aplica \"Tarjetas simples\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una pagina mejorada con estilos, layout responsive, botones/formularios cuidados y nota de decisiones visuales.",
+          "alert": "No sacrificar legibilidad, contraste ni navegacion por decoracion visual.",
+          "keyPoints": [
+            "Tarjetas simples debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una pagina mejorada con estilos, layout responsive, botones/formularios cuidados y nota de decisiones visuales.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m4-l2",
+          "title": "Botones claros",
+          "keyIdea": "Idea clave: Botones claros sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Botones claros\" dentro del modulo \"Tarjetas, botones, imágenes y formularios\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona tiene una pagina HTML funcional, pero necesita que se lea mejor, se ordene visualmente y responda en movil. Aplica \"Botones claros\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una pagina mejorada con estilos, layout responsive, botones/formularios cuidados y nota de decisiones visuales.",
+          "alert": "No sacrificar legibilidad, contraste ni navegacion por decoracion visual.",
+          "keyPoints": [
+            "Botones claros debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una pagina mejorada con estilos, layout responsive, botones/formularios cuidados y nota de decisiones visuales.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m4-l3",
+          "title": "Imágenes adaptables",
+          "keyIdea": "Idea clave: Imágenes adaptables sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Imágenes adaptables\" dentro del modulo \"Tarjetas, botones, imágenes y formularios\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona tiene una pagina HTML funcional, pero necesita que se lea mejor, se ordene visualmente y responda en movil. Aplica \"Imágenes adaptables\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una pagina mejorada con estilos, layout responsive, botones/formularios cuidados y nota de decisiones visuales.",
+          "alert": "No sacrificar legibilidad, contraste ni navegacion por decoracion visual.",
+          "keyPoints": [
+            "Imágenes adaptables debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una pagina mejorada con estilos, layout responsive, botones/formularios cuidados y nota de decisiones visuales.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m4-l4",
+          "title": "Campos de formulario",
+          "keyIdea": "Idea clave: Campos de formulario sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Campos de formulario\" dentro del modulo \"Tarjetas, botones, imágenes y formularios\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona tiene una pagina HTML funcional, pero necesita que se lea mejor, se ordene visualmente y responda en movil. Aplica \"Campos de formulario\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una pagina mejorada con estilos, layout responsive, botones/formularios cuidados y nota de decisiones visuales.",
+          "alert": "No sacrificar legibilidad, contraste ni navegacion por decoracion visual.",
+          "keyPoints": [
+            "Campos de formulario debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una pagina mejorada con estilos, layout responsive, botones/formularios cuidados y nota de decisiones visuales.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m4-l5",
+          "title": "Estados hover y focus",
+          "keyIdea": "Idea clave: Estados hover y focus sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Estados hover y focus\" dentro del modulo \"Tarjetas, botones, imágenes y formularios\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona tiene una pagina HTML funcional, pero necesita que se lea mejor, se ordene visualmente y responda en movil. Aplica \"Estados hover y focus\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una pagina mejorada con estilos, layout responsive, botones/formularios cuidados y nota de decisiones visuales.",
+          "alert": "No sacrificar legibilidad, contraste ni navegacion por decoracion visual.",
+          "keyPoints": [
+            "Estados hover y focus debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una pagina mejorada con estilos, layout responsive, botones/formularios cuidados y nota de decisiones visuales.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m4-l6",
+          "title": "Componentes reutilizables",
+          "keyIdea": "Idea clave: Componentes reutilizables sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Componentes reutilizables\" dentro del modulo \"Tarjetas, botones, imágenes y formularios\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona tiene una pagina HTML funcional, pero necesita que se lea mejor, se ordene visualmente y responda en movil. Aplica \"Componentes reutilizables\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una pagina mejorada con estilos, layout responsive, botones/formularios cuidados y nota de decisiones visuales.",
+          "alert": "No sacrificar legibilidad, contraste ni navegacion por decoracion visual.",
+          "keyPoints": [
+            "Componentes reutilizables debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una pagina mejorada con estilos, layout responsive, botones/formularios cuidados y nota de decisiones visuales.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m4-q1",
+          "question": "Pregunta 1: ¿Cuál es una buena práctica relacionada con tarjetas, botones, imágenes y formularios?",
+          "options": [
+            "Escribir reglas sin probarlas",
+            "Usar selectores claros y revisar el resultado",
+            "Poner todos los estilos inline",
+            "Ignorar el diseño móvil"
+          ],
+          "correctAnswerIndex": 1,
+          "feedback": "Correcto: CSS se aprende mejor aplicando reglas pequeñas, ordenadas y comprobando el resultado en navegador."
+        },
+        {
+          "id": "m4-q2",
+          "question": "Pregunta 2: ¿Cuál es una buena práctica relacionada con tarjetas, botones, imágenes y formularios?",
+          "options": [
+            "Escribir reglas sin probarlas",
+            "Usar selectores claros y revisar el resultado",
+            "Poner todos los estilos inline",
+            "Ignorar el diseño móvil"
+          ],
+          "correctAnswerIndex": 1,
+          "feedback": "Correcto: CSS se aprende mejor aplicando reglas pequeñas, ordenadas y comprobando el resultado en navegador."
+        },
+        {
+          "id": "m4-q3",
+          "question": "Pregunta 3: ¿Cuál es una buena práctica relacionada con tarjetas, botones, imágenes y formularios?",
+          "options": [
+            "Escribir reglas sin probarlas",
+            "Usar selectores claros y revisar el resultado",
+            "Poner todos los estilos inline",
+            "Ignorar el diseño móvil"
+          ],
+          "correctAnswerIndex": 1,
+          "feedback": "Correcto: CSS se aprende mejor aplicando reglas pequeñas, ordenadas y comprobando el resultado en navegador."
+        },
+        {
+          "id": "m4-q4",
+          "question": "Pregunta 4: ¿Cuál es una buena práctica relacionada con tarjetas, botones, imágenes y formularios?",
+          "options": [
+            "Escribir reglas sin probarlas",
+            "Usar selectores claros y revisar el resultado",
+            "Poner todos los estilos inline",
+            "Ignorar el diseño móvil"
+          ],
+          "correctAnswerIndex": 1,
+          "feedback": "Correcto: CSS se aprende mejor aplicando reglas pequeñas, ordenadas y comprobando el resultado en navegador."
+        },
+        {
+          "id": "m4-q5",
+          "question": "Pregunta 5: ¿Cuál es una buena práctica relacionada con tarjetas, botones, imágenes y formularios?",
+          "options": [
+            "Escribir reglas sin probarlas",
+            "Usar selectores claros y revisar el resultado",
+            "Poner todos los estilos inline",
+            "Ignorar el diseño móvil"
+          ],
+          "correctAnswerIndex": 1,
+          "feedback": "Correcto: CSS se aprende mejor aplicando reglas pequeñas, ordenadas y comprobando el resultado en navegador."
+        }
+      ],
+      "professionalOutcome": "crear layouts claros, aplicar color con criterio, cuidar espaciado y adaptar a movil. Entregable sugerido: una pagina estilizada con sistema basico de colores, espaciado, botones y responsive."
+    },
+    {
+      "id": "m5",
+      "title": "Layout con Flexbox y diseño responsive",
+      "description": "En este modulo vas a trabajar \"Layout con Flexbox y diseño responsive\" dentro de CSS practico, selectores, espaciado, componentes visuales, Flexbox, formularios y responsive. La meta es construir una pieza pequena, probarla en navegador y dejar evidencia de que funciona para una persona real.",
+      "lessons": [
+        {
+          "id": "m5-l1",
+          "title": "Qué es layout",
+          "keyIdea": "Idea clave: Qué es layout sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Qué es layout\" dentro del modulo \"Layout con Flexbox y diseño responsive\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona tiene una pagina HTML funcional, pero necesita que se lea mejor, se ordene visualmente y responda en movil. Aplica \"Qué es layout\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una pagina mejorada con estilos, layout responsive, botones/formularios cuidados y nota de decisiones visuales.",
+          "alert": "No sacrificar legibilidad, contraste ni navegacion por decoracion visual.",
+          "keyPoints": [
+            "Qué es layout debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una pagina mejorada con estilos, layout responsive, botones/formularios cuidados y nota de decisiones visuales.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m5-l2",
+          "title": "Flexbox básico",
+          "keyIdea": "Idea clave: Flexbox básico sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Flexbox básico\" dentro del modulo \"Layout con Flexbox y diseño responsive\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona tiene una pagina HTML funcional, pero necesita que se lea mejor, se ordene visualmente y responda en movil. Aplica \"Flexbox básico\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una pagina mejorada con estilos, layout responsive, botones/formularios cuidados y nota de decisiones visuales.",
+          "alert": "No sacrificar legibilidad, contraste ni navegacion por decoracion visual.",
+          "keyPoints": [
+            "Flexbox básico debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una pagina mejorada con estilos, layout responsive, botones/formularios cuidados y nota de decisiones visuales.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m5-l3",
+          "title": "Alinear elementos",
+          "keyIdea": "Idea clave: Alinear elementos sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Alinear elementos\" dentro del modulo \"Layout con Flexbox y diseño responsive\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona tiene una pagina HTML funcional, pero necesita que se lea mejor, se ordene visualmente y responda en movil. Aplica \"Alinear elementos\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una pagina mejorada con estilos, layout responsive, botones/formularios cuidados y nota de decisiones visuales.",
+          "alert": "No sacrificar legibilidad, contraste ni navegacion por decoracion visual.",
+          "keyPoints": [
+            "Alinear elementos debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una pagina mejorada con estilos, layout responsive, botones/formularios cuidados y nota de decisiones visuales.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m5-l4",
+          "title": "Secciones con tarjetas",
+          "keyIdea": "Idea clave: Secciones con tarjetas sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Secciones con tarjetas\" dentro del modulo \"Layout con Flexbox y diseño responsive\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona tiene una pagina HTML funcional, pero necesita que se lea mejor, se ordene visualmente y responda en movil. Aplica \"Secciones con tarjetas\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una pagina mejorada con estilos, layout responsive, botones/formularios cuidados y nota de decisiones visuales.",
+          "alert": "No sacrificar legibilidad, contraste ni navegacion por decoracion visual.",
+          "keyPoints": [
+            "Secciones con tarjetas debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una pagina mejorada con estilos, layout responsive, botones/formularios cuidados y nota de decisiones visuales.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m5-l5",
+          "title": "Media queries",
+          "keyIdea": "Idea clave: Media queries sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Media queries\" dentro del modulo \"Layout con Flexbox y diseño responsive\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona tiene una pagina HTML funcional, pero necesita que se lea mejor, se ordene visualmente y responda en movil. Aplica \"Media queries\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una pagina mejorada con estilos, layout responsive, botones/formularios cuidados y nota de decisiones visuales.",
+          "alert": "No sacrificar legibilidad, contraste ni navegacion por decoracion visual.",
+          "keyPoints": [
+            "Media queries debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una pagina mejorada con estilos, layout responsive, botones/formularios cuidados y nota de decisiones visuales.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m5-l6",
+          "title": "Diseño móvil primero",
+          "keyIdea": "Idea clave: Diseño móvil primero sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Diseño móvil primero\" dentro del modulo \"Layout con Flexbox y diseño responsive\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona tiene una pagina HTML funcional, pero necesita que se lea mejor, se ordene visualmente y responda en movil. Aplica \"Diseño móvil primero\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una pagina mejorada con estilos, layout responsive, botones/formularios cuidados y nota de decisiones visuales.",
+          "alert": "No sacrificar legibilidad, contraste ni navegacion por decoracion visual.",
+          "keyPoints": [
+            "Diseño móvil primero debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una pagina mejorada con estilos, layout responsive, botones/formularios cuidados y nota de decisiones visuales.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m5-q1",
+          "question": "Pregunta 1: ¿Cuál es una buena práctica relacionada con layout con flexbox y diseño responsive?",
+          "options": [
+            "Escribir reglas sin probarlas",
+            "Usar selectores claros y revisar el resultado",
+            "Poner todos los estilos inline",
+            "Ignorar el diseño móvil"
+          ],
+          "correctAnswerIndex": 1,
+          "feedback": "Correcto: CSS se aprende mejor aplicando reglas pequeñas, ordenadas y comprobando el resultado en navegador."
+        },
+        {
+          "id": "m5-q2",
+          "question": "Pregunta 2: ¿Cuál es una buena práctica relacionada con layout con flexbox y diseño responsive?",
+          "options": [
+            "Escribir reglas sin probarlas",
+            "Usar selectores claros y revisar el resultado",
+            "Poner todos los estilos inline",
+            "Ignorar el diseño móvil"
+          ],
+          "correctAnswerIndex": 1,
+          "feedback": "Correcto: CSS se aprende mejor aplicando reglas pequeñas, ordenadas y comprobando el resultado en navegador."
+        },
+        {
+          "id": "m5-q3",
+          "question": "Pregunta 3: ¿Cuál es una buena práctica relacionada con layout con flexbox y diseño responsive?",
+          "options": [
+            "Escribir reglas sin probarlas",
+            "Usar selectores claros y revisar el resultado",
+            "Poner todos los estilos inline",
+            "Ignorar el diseño móvil"
+          ],
+          "correctAnswerIndex": 1,
+          "feedback": "Correcto: CSS se aprende mejor aplicando reglas pequeñas, ordenadas y comprobando el resultado en navegador."
+        },
+        {
+          "id": "m5-q4",
+          "question": "Pregunta 4: ¿Cuál es una buena práctica relacionada con layout con flexbox y diseño responsive?",
+          "options": [
+            "Escribir reglas sin probarlas",
+            "Usar selectores claros y revisar el resultado",
+            "Poner todos los estilos inline",
+            "Ignorar el diseño móvil"
+          ],
+          "correctAnswerIndex": 1,
+          "feedback": "Correcto: CSS se aprende mejor aplicando reglas pequeñas, ordenadas y comprobando el resultado en navegador."
+        },
+        {
+          "id": "m5-q5",
+          "question": "Pregunta 5: ¿Cuál es una buena práctica relacionada con layout con flexbox y diseño responsive?",
+          "options": [
+            "Escribir reglas sin probarlas",
+            "Usar selectores claros y revisar el resultado",
+            "Poner todos los estilos inline",
+            "Ignorar el diseño móvil"
+          ],
+          "correctAnswerIndex": 1,
+          "feedback": "Correcto: CSS se aprende mejor aplicando reglas pequeñas, ordenadas y comprobando el resultado en navegador."
+        }
+      ],
+      "professionalOutcome": "crear layouts claros, aplicar color con criterio, cuidar espaciado y adaptar a movil. Entregable sugerido: una pagina estilizada con sistema basico de colores, espaciado, botones y responsive."
+    },
+    {
+      "id": "m6",
+      "title": "Proyecto final: mejorar una landing page CSS",
+      "description": "En este modulo vas a trabajar \"Proyecto final: mejorar una landing page CSS\" dentro de CSS practico, selectores, espaciado, componentes visuales, Flexbox, formularios y responsive. La meta es construir una pieza pequena, probarla en navegador y dejar evidencia de que funciona para una persona real.",
+      "lessons": [
+        {
+          "id": "m6-l1",
+          "title": "Diagnóstico visual inicial",
+          "keyIdea": "Idea clave: Diagnóstico visual inicial sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Diagnóstico visual inicial\" dentro del modulo \"Proyecto final: mejorar una landing page CSS\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona tiene una pagina HTML funcional, pero necesita que se lea mejor, se ordene visualmente y responda en movil. Aplica \"Diagnóstico visual inicial\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una pagina mejorada con estilos, layout responsive, botones/formularios cuidados y nota de decisiones visuales.",
+          "alert": "No sacrificar legibilidad, contraste ni navegacion por decoracion visual.",
+          "keyPoints": [
+            "Diagnóstico visual inicial debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una pagina mejorada con estilos, layout responsive, botones/formularios cuidados y nota de decisiones visuales.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m6-l2",
+          "title": "Paleta y tipografía",
+          "keyIdea": "Idea clave: Paleta y tipografía sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Paleta y tipografía\" dentro del modulo \"Proyecto final: mejorar una landing page CSS\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona tiene una pagina HTML funcional, pero necesita que se lea mejor, se ordene visualmente y responda en movil. Aplica \"Paleta y tipografía\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una pagina mejorada con estilos, layout responsive, botones/formularios cuidados y nota de decisiones visuales.",
+          "alert": "No sacrificar legibilidad, contraste ni navegacion por decoracion visual.",
+          "keyPoints": [
+            "Paleta y tipografía debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una pagina mejorada con estilos, layout responsive, botones/formularios cuidados y nota de decisiones visuales.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m6-l3",
+          "title": "Hero y llamadas a la acción",
+          "keyIdea": "Idea clave: Hero y llamadas a la acción sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Hero y llamadas a la acción\" dentro del modulo \"Proyecto final: mejorar una landing page CSS\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona tiene una pagina HTML funcional, pero necesita que se lea mejor, se ordene visualmente y responda en movil. Aplica \"Hero y llamadas a la acción\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una pagina mejorada con estilos, layout responsive, botones/formularios cuidados y nota de decisiones visuales.",
+          "alert": "No sacrificar legibilidad, contraste ni navegacion por decoracion visual.",
+          "keyPoints": [
+            "Hero y llamadas a la acción debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una pagina mejorada con estilos, layout responsive, botones/formularios cuidados y nota de decisiones visuales.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m6-l4",
+          "title": "Secciones responsive",
+          "keyIdea": "Idea clave: Secciones responsive sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Secciones responsive\" dentro del modulo \"Proyecto final: mejorar una landing page CSS\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona tiene una pagina HTML funcional, pero necesita que se lea mejor, se ordene visualmente y responda en movil. Aplica \"Secciones responsive\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una pagina mejorada con estilos, layout responsive, botones/formularios cuidados y nota de decisiones visuales.",
+          "alert": "No sacrificar legibilidad, contraste ni navegacion por decoracion visual.",
+          "keyPoints": [
+            "Secciones responsive debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una pagina mejorada con estilos, layout responsive, botones/formularios cuidados y nota de decisiones visuales.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m6-l5",
+          "title": "Revisión de accesibilidad",
+          "keyIdea": "Idea clave: Revisión de accesibilidad sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Revisión de accesibilidad\" dentro del modulo \"Proyecto final: mejorar una landing page CSS\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona tiene una pagina HTML funcional, pero necesita que se lea mejor, se ordene visualmente y responda en movil. Aplica \"Revisión de accesibilidad\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una pagina mejorada con estilos, layout responsive, botones/formularios cuidados y nota de decisiones visuales.",
+          "alert": "No sacrificar legibilidad, contraste ni navegacion por decoracion visual.",
+          "keyPoints": [
+            "Revisión de accesibilidad debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una pagina mejorada con estilos, layout responsive, botones/formularios cuidados y nota de decisiones visuales.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m6-l6",
+          "title": "Preparar estilos para publicar",
+          "keyIdea": "Idea clave: Preparar estilos para publicar sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Preparar estilos para publicar\" dentro del modulo \"Proyecto final: mejorar una landing page CSS\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona tiene una pagina HTML funcional, pero necesita que se lea mejor, se ordene visualmente y responda en movil. Aplica \"Preparar estilos para publicar\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una pagina mejorada con estilos, layout responsive, botones/formularios cuidados y nota de decisiones visuales.",
+          "alert": "No sacrificar legibilidad, contraste ni navegacion por decoracion visual.",
+          "keyPoints": [
+            "Preparar estilos para publicar debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una pagina mejorada con estilos, layout responsive, botones/formularios cuidados y nota de decisiones visuales.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m6-q1",
+          "question": "Pregunta 1: ¿Cuál es una buena práctica relacionada con proyecto final: mejorar una landing page css?",
+          "options": [
+            "Escribir reglas sin probarlas",
+            "Usar selectores claros y revisar el resultado",
+            "Poner todos los estilos inline",
+            "Ignorar el diseño móvil"
+          ],
+          "correctAnswerIndex": 1,
+          "feedback": "Correcto: CSS se aprende mejor aplicando reglas pequeñas, ordenadas y comprobando el resultado en navegador."
+        },
+        {
+          "id": "m6-q2",
+          "question": "Pregunta 2: ¿Cuál es una buena práctica relacionada con proyecto final: mejorar una landing page css?",
+          "options": [
+            "Escribir reglas sin probarlas",
+            "Usar selectores claros y revisar el resultado",
+            "Poner todos los estilos inline",
+            "Ignorar el diseño móvil"
+          ],
+          "correctAnswerIndex": 1,
+          "feedback": "Correcto: CSS se aprende mejor aplicando reglas pequeñas, ordenadas y comprobando el resultado en navegador."
+        },
+        {
+          "id": "m6-q3",
+          "question": "Pregunta 3: ¿Cuál es una buena práctica relacionada con proyecto final: mejorar una landing page css?",
+          "options": [
+            "Escribir reglas sin probarlas",
+            "Usar selectores claros y revisar el resultado",
+            "Poner todos los estilos inline",
+            "Ignorar el diseño móvil"
+          ],
+          "correctAnswerIndex": 1,
+          "feedback": "Correcto: CSS se aprende mejor aplicando reglas pequeñas, ordenadas y comprobando el resultado en navegador."
+        },
+        {
+          "id": "m6-q4",
+          "question": "Pregunta 4: ¿Cuál es una buena práctica relacionada con proyecto final: mejorar una landing page css?",
+          "options": [
+            "Escribir reglas sin probarlas",
+            "Usar selectores claros y revisar el resultado",
+            "Poner todos los estilos inline",
+            "Ignorar el diseño móvil"
+          ],
+          "correctAnswerIndex": 1,
+          "feedback": "Correcto: CSS se aprende mejor aplicando reglas pequeñas, ordenadas y comprobando el resultado en navegador."
+        },
+        {
+          "id": "m6-q5",
+          "question": "Pregunta 5: ¿Cuál es una buena práctica relacionada con proyecto final: mejorar una landing page css?",
+          "options": [
+            "Escribir reglas sin probarlas",
+            "Usar selectores claros y revisar el resultado",
+            "Poner todos los estilos inline",
+            "Ignorar el diseño móvil"
+          ],
+          "correctAnswerIndex": 1,
+          "feedback": "Correcto: CSS se aprende mejor aplicando reglas pequeñas, ordenadas y comprobando el resultado en navegador."
+        }
+      ],
+      "professionalOutcome": "crear layouts claros, aplicar color con criterio, cuidar espaciado y adaptar a movil. Entregable sugerido: una pagina estilizada con sistema basico de colores, espaciado, botones y responsive."
+    }
+  ],
+  "publicationStatus": "publica-profesional-v0.6",
+  "appName": "CSS Practico para Principiantes",
+  "professionalization": {
+    "tier": "curso-bandera-v1.0-beta",
+    "updatedAt": "2026-05-28",
+    "focus": "Profundizacion visible de lecciones, practicas, checklists y casos."
+  },
+  "editorialPolish": {
+    "fourthEditorialBatch": "2026-06-02",
+    "status": "public-facing-copy-polished"
+  }
+}

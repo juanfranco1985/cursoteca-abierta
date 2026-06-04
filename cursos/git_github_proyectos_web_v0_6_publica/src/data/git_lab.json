@@ -1,0 +1,316 @@
+{
+  "courseId": "git_github_proyectos_web",
+  "version": "0.2",
+  "commands": [
+    {
+      "id": "cmd-status",
+      "command": "git status",
+      "purpose": "Muestra el estado del repositorio.",
+      "whenToUse": "Antes de agregar, commitear o diagnosticar.",
+      "example": "git status",
+      "commonMistake": "No revisar el estado antes de commitear."
+    },
+    {
+      "id": "cmd-add",
+      "command": "git add",
+      "purpose": "Agrega archivos al área de preparación.",
+      "whenToUse": "Cuando ya sabés qué archivos incluir.",
+      "example": "git add index.html styles.css",
+      "commonMistake": "Usar git add . sin revisar."
+    },
+    {
+      "id": "cmd-commit",
+      "command": "git commit",
+      "purpose": "Guarda una versión en el historial local.",
+      "whenToUse": "Cuando el cambio está probado.",
+      "example": "git commit -m \"Crear estructura inicial\"",
+      "commonMistake": "Usar mensajes genéricos."
+    },
+    {
+      "id": "cmd-log",
+      "command": "git log",
+      "purpose": "Muestra el historial de commits.",
+      "whenToUse": "Para revisar versiones guardadas.",
+      "example": "git log --oneline",
+      "commonMistake": "No leer el historial."
+    },
+    {
+      "id": "cmd-remote",
+      "command": "git remote",
+      "purpose": "Gestiona conexiones remotas.",
+      "whenToUse": "Para conectar con GitHub.",
+      "example": "git remote add origin URL",
+      "commonMistake": "Configurar URL equivocada."
+    },
+    {
+      "id": "cmd-push",
+      "command": "git push",
+      "purpose": "Sube commits al remoto.",
+      "whenToUse": "Después de commitear y configurar remoto.",
+      "example": "git push -u origin main",
+      "commonMistake": "Intentar push sin remoto."
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "scenario-init",
+      "title": "Iniciar repositorio",
+      "difficulty": "Inicial",
+      "context": "Tenés una carpeta web con HTML, CSS y JS.",
+      "objective": "Inicializar Git y preparar el primer commit.",
+      "simulatedStatus": "Untracked files:\\n  index.html\\n  styles.css\\n  script.js",
+      "correctCommand": "git add index.html styles.css script.js",
+      "wrongCommand": "git add C:/Users/Usuario/Documents",
+      "whyWrong": "Puede agregar archivos ajenos al proyecto.",
+      "reportHint": "Luego corresponde crear un commit claro.",
+      "steps": [
+        {
+          "id": "scenario-init-step-1",
+          "command": "git init",
+          "explanation": "Convierte la carpeta en repositorio."
+        },
+        {
+          "id": "scenario-init-step-2",
+          "command": "git status",
+          "explanation": "Muestra archivos sin seguimiento."
+        },
+        {
+          "id": "scenario-init-step-3",
+          "command": "git add index.html styles.css script.js",
+          "explanation": "Prepara archivos principales."
+        },
+        {
+          "id": "scenario-init-step-4",
+          "command": "git commit -m \"Crear estructura inicial\"",
+          "explanation": "Guarda la primera versión."
+        }
+      ]
+    },
+    {
+      "id": "scenario-commit",
+      "title": "Primer commit claro",
+      "difficulty": "Inicial",
+      "context": "Ya agregaste archivos al área de preparación.",
+      "objective": "Crear un commit descriptivo.",
+      "simulatedStatus": "Changes to be committed:\\n  new file: index.html\\n  new file: styles.css",
+      "correctCommand": "git commit -m \"Crear página inicial con estilos base\"",
+      "wrongCommand": "git commit -m \"cosas\"",
+      "whyWrong": "No explica qué cambió.",
+      "reportHint": "Un buen mensaje ayuda a leer el historial.",
+      "steps": [
+        {
+          "id": "scenario-commit-step-1",
+          "command": "git status",
+          "explanation": "Verifica archivos incluidos."
+        },
+        {
+          "id": "scenario-commit-step-2",
+          "command": "git commit -m \"Crear página inicial con estilos base\"",
+          "explanation": "Guarda una versión clara."
+        },
+        {
+          "id": "scenario-commit-step-3",
+          "command": "git log --oneline",
+          "explanation": "Revisa el historial."
+        }
+      ]
+    },
+    {
+      "id": "scenario-change",
+      "title": "Guardar una corrección",
+      "difficulty": "Inicial-media",
+      "context": "Corregiste styles.css y hay un archivo de pruebas suelto.",
+      "objective": "Agregar solo el archivo correcto.",
+      "simulatedStatus": "modified: styles.css\\nUntracked files:\\n  pruebas.txt",
+      "correctCommand": "git add styles.css",
+      "wrongCommand": "git add .",
+      "whyWrong": "Puede incluir pruebas.txt sin querer.",
+      "reportHint": "Separar cambios mejora el historial.",
+      "steps": [
+        {
+          "id": "scenario-change-step-1",
+          "command": "git status",
+          "explanation": "Revisa cambios."
+        },
+        {
+          "id": "scenario-change-step-2",
+          "command": "git add styles.css",
+          "explanation": "Agrega solo CSS."
+        },
+        {
+          "id": "scenario-change-step-3",
+          "command": "git commit -m \"Mejorar estilo del botón\"",
+          "explanation": "Guarda el cambio."
+        }
+      ]
+    },
+    {
+      "id": "scenario-gitignore",
+      "title": "Preparar .gitignore",
+      "difficulty": "Media",
+      "context": "Hay node_modules, dist y .env.",
+      "objective": "Evitar subir archivos innecesarios o sensibles.",
+      "simulatedStatus": "Untracked files:\\n  node_modules/\\n  .env\\n  dist/",
+      "correctCommand": "node_modules/\\n.env\\ndist/",
+      "wrongCommand": "*.html",
+      "whyWrong": "Ignora archivos centrales del sitio.",
+      "reportHint": "El .gitignore debe proteger sin ocultar el proyecto.",
+      "steps": [
+        {
+          "id": "scenario-gitignore-step-1",
+          "command": "crear .gitignore",
+          "explanation": "Define ignorados."
+        },
+        {
+          "id": "scenario-gitignore-step-2",
+          "command": "git status",
+          "explanation": "Verifica efecto."
+        },
+        {
+          "id": "scenario-gitignore-step-3",
+          "command": "git add .gitignore",
+          "explanation": "Agrega configuración."
+        },
+        {
+          "id": "scenario-gitignore-step-4",
+          "command": "git commit -m \"Agregar gitignore básico\"",
+          "explanation": "Guarda reglas."
+        }
+      ]
+    },
+    {
+      "id": "scenario-remote",
+      "title": "Conectar con GitHub",
+      "difficulty": "Media",
+      "context": "Creaste un repo vacío en GitHub.",
+      "objective": "Configurar remote origin.",
+      "simulatedStatus": "nothing to commit, working tree clean",
+      "correctCommand": "git remote add origin https://github.com/usuario/proyecto.git",
+      "wrongCommand": "git remote add origin URL_DE_OTRO_REPO",
+      "whyWrong": "Subirías a un repositorio equivocado.",
+      "reportHint": "Verificar con git remote -v.",
+      "steps": [
+        {
+          "id": "scenario-remote-step-1",
+          "command": "git remote add origin URL",
+          "explanation": "Conecta remoto."
+        },
+        {
+          "id": "scenario-remote-step-2",
+          "command": "git remote -v",
+          "explanation": "Verifica URL."
+        },
+        {
+          "id": "scenario-remote-step-3",
+          "command": "git push -u origin main",
+          "explanation": "Sube rama principal."
+        }
+      ]
+    },
+    {
+      "id": "scenario-push",
+      "title": "Subir proyecto",
+      "difficulty": "Media",
+      "context": "Ya tenés commits y remoto configurado.",
+      "objective": "Subir cambios a GitHub.",
+      "simulatedStatus": "On branch main\\nnothing to commit, working tree clean",
+      "correctCommand": "git push -u origin main",
+      "wrongCommand": "git push sin remoto configurado",
+      "whyWrong": "Git no sabe adónde subir.",
+      "reportHint": "Luego revisar archivos en GitHub.",
+      "steps": [
+        {
+          "id": "scenario-push-step-1",
+          "command": "git status",
+          "explanation": "Confirma estado limpio."
+        },
+        {
+          "id": "scenario-push-step-2",
+          "command": "git push -u origin main",
+          "explanation": "Sube commits."
+        },
+        {
+          "id": "scenario-push-step-3",
+          "command": "abrir GitHub",
+          "explanation": "Verifica archivos."
+        }
+      ]
+    },
+    {
+      "id": "scenario-error",
+      "title": "Detectar error común",
+      "difficulty": "Media-alta",
+      "context": "Git dice que no hay cambios, pero esperabas verlos.",
+      "objective": "Diagnosticar antes de ejecutar comandos al azar.",
+      "simulatedStatus": "nothing to commit, working tree clean",
+      "correctCommand": "verificar carpeta actual y guardar el archivo",
+      "wrongCommand": "git add . && git commit -m \"forzar\"",
+      "whyWrong": "No corrige carpeta equivocada ni archivo sin guardar.",
+      "reportHint": "Primero diagnosticar.",
+      "steps": [
+        {
+          "id": "scenario-error-step-1",
+          "command": "git status",
+          "explanation": "Lee estado."
+        },
+        {
+          "id": "scenario-error-step-2",
+          "command": "pwd / cd",
+          "explanation": "Verifica carpeta."
+        },
+        {
+          "id": "scenario-error-step-3",
+          "command": "guardar archivo",
+          "explanation": "Asegura cambios en disco."
+        }
+      ]
+    },
+    {
+      "id": "scenario-log",
+      "title": "Revisar historial",
+      "difficulty": "Inicial",
+      "context": "Querés ver versiones guardadas.",
+      "objective": "Leer commits recientes.",
+      "simulatedStatus": "a1b2c3d Mejorar botón\\nb2c3d4e Crear página inicial",
+      "correctCommand": "git log --oneline",
+      "wrongCommand": "borrar commits manualmente",
+      "whyWrong": "Manipular historial sin entender puede causar pérdida.",
+      "reportHint": "Mensajes claros hacen útil el historial.",
+      "steps": [
+        {
+          "id": "scenario-log-step-1",
+          "command": "git log --oneline",
+          "explanation": "Muestra historial resumido."
+        },
+        {
+          "id": "scenario-log-step-2",
+          "command": "leer mensajes",
+          "explanation": "Identifica cambios."
+        }
+      ]
+    }
+  ],
+  "comparisons": [
+    {
+      "id": "compare-add-all",
+      "title": "Agregar todo sin revisar",
+      "wrong": "git add .",
+      "right": "git status\\ngit add index.html styles.css",
+      "explanation": "Primero se revisa el estado."
+    },
+    {
+      "id": "compare-message",
+      "title": "Mensaje genérico",
+      "wrong": "git commit -m \"update\"",
+      "right": "git commit -m \"Crear formulario de contacto\"",
+      "explanation": "El mensaje debe explicar el cambio."
+    },
+    {
+      "id": "compare-secret",
+      "title": "Subir archivo sensible",
+      "wrong": "git add .env",
+      "right": "agregar .env a .gitignore",
+      "explanation": "No subir claves ni tokens."
+    }
+  ]
+}

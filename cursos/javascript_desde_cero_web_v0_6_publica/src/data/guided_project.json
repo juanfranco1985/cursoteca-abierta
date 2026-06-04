@@ -1,0 +1,143 @@
+{
+  "courseId": "javascript_desde_cero",
+  "version": "0.4",
+  "title": "Proyecto guiado: Lista de tareas práctica",
+  "description": "Construcción guiada de una mini app de tareas con validación, marcado de tareas y contador.",
+  "steps": [
+    {
+      "id": "guided-step-1",
+      "title": "Definir la estructura HTML",
+      "goal": "Crear el contenedor principal, input, botón, mensaje, lista y contador.",
+      "instructions": [
+        "Crear un título claro.",
+        "Agregar un input para escribir tareas.",
+        "Agregar un botón para guardar.",
+        "Crear una lista vacía.",
+        "Crear un contador de tareas."
+      ],
+      "checkpoint": "La página muestra los elementos aunque todavía no funcionen."
+    },
+    {
+      "id": "guided-step-2",
+      "title": "Capturar elementos con JavaScript",
+      "goal": "Seleccionar input, botón, lista, mensaje y contador.",
+      "instructions": [
+        "Usar document.querySelector.",
+        "Guardar cada elemento en una constante.",
+        "Verificar nombres de id.",
+        "Probar con console.log si hace falta."
+      ],
+      "checkpoint": "La consola no muestra errores de elementos inexistentes."
+    },
+    {
+      "id": "guided-step-3",
+      "title": "Agregar tareas con validación",
+      "goal": "Crear una función que no permita agregar tareas vacías.",
+      "instructions": [
+        "Leer el valor del input.",
+        "Aplicar trim.",
+        "Si está vacío, mostrar un mensaje.",
+        "Si tiene contenido, crear un li.",
+        "Agregarlo a la lista."
+      ],
+      "checkpoint": "La app agrega tareas reales y rechaza tareas vacías."
+    },
+    {
+      "id": "guided-step-4",
+      "title": "Marcar tareas como completadas",
+      "goal": "Permitir que una tarea cambie visualmente al hacer clic.",
+      "instructions": [
+        "Agregar evento click a cada tarea creada.",
+        "Alternar una clase completed.",
+        "Actualizar el contador."
+      ],
+      "checkpoint": "Las tareas se pueden marcar y desmarcar."
+    },
+    {
+      "id": "guided-step-5",
+      "title": "Probar, revisar y exportar",
+      "goal": "Revisar errores comunes y descargar el proyecto final.",
+      "instructions": [
+        "Probar tarea vacía.",
+        "Probar varias tareas.",
+        "Marcar y desmarcar tareas.",
+        "Revisar consola.",
+        "Descargar HTML final."
+      ],
+      "checkpoint": "La mini app funciona como práctica final."
+    }
+  ],
+  "fields": [
+    {
+      "id": "appTitle",
+      "label": "Título de la app",
+      "default": "Mi lista de tareas"
+    },
+    {
+      "id": "placeholder",
+      "label": "Texto del campo",
+      "default": "Escribir una tarea"
+    },
+    {
+      "id": "buttonText",
+      "label": "Texto del botón",
+      "default": "Agregar"
+    },
+    {
+      "id": "emptyMessage",
+      "label": "Mensaje si está vacío",
+      "default": "Escribí una tarea antes de agregar."
+    },
+    {
+      "id": "counterLabel",
+      "label": "Etiqueta del contador",
+      "default": "Tareas pendientes"
+    }
+  ],
+  "testChecklist": [
+    {
+      "id": "test-empty",
+      "text": "La app no agrega tareas vacías."
+    },
+    {
+      "id": "test-add",
+      "text": "La app permite agregar más de una tarea."
+    },
+    {
+      "id": "test-complete",
+      "text": "La app permite marcar y desmarcar tareas."
+    },
+    {
+      "id": "test-counter",
+      "text": "El contador se actualiza correctamente."
+    },
+    {
+      "id": "test-console",
+      "text": "La consola no muestra errores al usar la app."
+    },
+    {
+      "id": "test-mobile",
+      "text": "La app se puede usar en una pantalla pequeña."
+    }
+  ],
+  "commonErrors": [
+    {
+      "id": "error-selector",
+      "title": "El selector no coincide",
+      "symptom": "Aparece un error porque JavaScript no encuentra un elemento.",
+      "fix": "Revisar que el id del HTML coincida exactamente con el querySelector."
+    },
+    {
+      "id": "error-empty",
+      "title": "Se agregan tareas vacías",
+      "symptom": "La lista permite guardar elementos sin texto.",
+      "fix": "Usar trim() y cortar la función si el campo está vacío."
+    },
+    {
+      "id": "error-counter",
+      "title": "El contador no cambia",
+      "symptom": "Se agregan tareas pero el número queda igual.",
+      "fix": "Actualizar el contador cada vez que se agrega o se marca una tarea."
+    }
+  ]
+}

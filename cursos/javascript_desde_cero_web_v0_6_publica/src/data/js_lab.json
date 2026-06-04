@@ -1,0 +1,124 @@
+{
+  "courseId": "javascript_desde_cero",
+  "version": "0.2",
+  "examples": [
+    {
+      "id": "example-counter",
+      "title": "Contador básico",
+      "description": "Incrementa un número al hacer clic.",
+      "html": "<h1>Contador</h1>\n<p id=\"count\">0</p>\n<button id=\"addBtn\">Sumar</button>",
+      "css": "body { font-family: Arial, sans-serif; padding: 20px; }\nbutton { padding: 10px 14px; }",
+      "js": "let count = 0;\nconst countEl = document.querySelector('#count');\nconst btn = document.querySelector('#addBtn');\nbtn.addEventListener('click', () => {\n  count = count + 1;\n  countEl.textContent = count;\n});",
+      "learningGoal": "Entender variables, selección DOM y eventos."
+    },
+    {
+      "id": "example-show-hide",
+      "title": "Mostrar u ocultar contenido",
+      "description": "Alterna la visibilidad de una caja de texto.",
+      "html": "<button id=\"toggleBtn\">Mostrar/Ocultar</button>\n<p id=\"message\">Este mensaje se puede ocultar.</p>",
+      "css": ".hidden { display: none; }\nbody { font-family: Arial; padding: 20px; }",
+      "js": "const btn = document.querySelector('#toggleBtn');\nconst message = document.querySelector('#message');\nbtn.addEventListener('click', () => {\n  message.classList.toggle('hidden');\n});",
+      "learningGoal": "Usar classList.toggle para cambios visuales."
+    },
+    {
+      "id": "example-form",
+      "title": "Validar un formulario",
+      "description": "Evita enviar un campo vacío y muestra un mensaje.",
+      "html": "<label>Nombre: <input id=\"nameInput\"></label>\n<button id=\"sendBtn\">Enviar</button>\n<p id=\"result\"></p>",
+      "css": "body { font-family: Arial; padding: 20px; }\n.error { color: crimson; }\n.success { color: green; }",
+      "js": "const input = document.querySelector('#nameInput');\nconst btn = document.querySelector('#sendBtn');\nconst result = document.querySelector('#result');\nbtn.addEventListener('click', () => {\n  if (input.value.trim() === '') {\n    result.textContent = 'Escribí un nombre.';\n    result.className = 'error';\n  } else {\n    result.textContent = `Hola, ${input.value}`;\n    result.className = 'success';\n  }\n});",
+      "learningGoal": "Leer inputs, validar y mostrar feedback."
+    },
+    {
+      "id": "example-list",
+      "title": "Lista de tareas",
+      "description": "Agrega tareas a una lista desde un input.",
+      "html": "<input id=\"taskInput\" placeholder=\"Nueva tarea\">\n<button id=\"addTask\">Agregar</button>\n<ul id=\"taskList\"></ul>",
+      "css": "body { font-family: Arial; padding: 20px; }\nli { margin: 6px 0; }",
+      "js": "const input = document.querySelector('#taskInput');\nconst btn = document.querySelector('#addTask');\nconst list = document.querySelector('#taskList');\nbtn.addEventListener('click', () => {\n  const text = input.value.trim();\n  if (!text) return;\n  const li = document.createElement('li');\n  li.textContent = text;\n  list.appendChild(li);\n  input.value = '';\n});",
+      "learningGoal": "Crear elementos y agregarlos al DOM."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "exercise-change-text",
+      "title": "Cambiar texto con un botón",
+      "difficulty": "Inicial",
+      "prompt": "Crear un botón que cambie el texto de un párrafo.",
+      "starterHtml": "<p id=\"message\">Texto original</p>\n<button id=\"changeBtn\">Cambiar</button>",
+      "starterJs": "const message = document.querySelector('#message');\nconst btn = document.querySelector('#changeBtn');\n// Escribí el evento aquí",
+      "suggestedSolution": "btn.addEventListener('click', () => {\n  message.textContent = 'Texto cambiado con JavaScript';\n});",
+      "hint": "Usá addEventListener y textContent."
+    },
+    {
+      "id": "exercise-total",
+      "title": "Calcular un total",
+      "difficulty": "Inicial-media",
+      "prompt": "Leer precio y cantidad para mostrar un total.",
+      "starterHtml": "<input id=\"price\" value=\"100\">\n<input id=\"qty\" value=\"2\">\n<button id=\"calc\">Calcular</button>\n<p id=\"total\"></p>",
+      "starterJs": "const price = document.querySelector('#price');\nconst qty = document.querySelector('#qty');\nconst total = document.querySelector('#total');\nconst calc = document.querySelector('#calc');",
+      "suggestedSolution": "calc.addEventListener('click', () => {\n  const result = Number(price.value) * Number(qty.value);\n  total.textContent = `Total: $${result}`;\n});",
+      "hint": "Recordá convertir textos a números con Number()."
+    },
+    {
+      "id": "exercise-filter",
+      "title": "Filtrar una lista simple",
+      "difficulty": "Media",
+      "prompt": "Mostrar solo elementos que coincidan con una búsqueda.",
+      "starterHtml": "<input id=\"search\" placeholder=\"Buscar\">\n<ul><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>",
+      "starterJs": "const search = document.querySelector('#search');\nconst items = document.querySelectorAll('li');",
+      "suggestedSolution": "search.addEventListener('input', () => {\n  const term = search.value.toLowerCase();\n  items.forEach(item => {\n    item.style.display = item.textContent.toLowerCase().includes(term) ? '' : 'none';\n  });\n});",
+      "hint": "Usá input, forEach e includes()."
+    },
+    {
+      "id": "exercise-toggle-class",
+      "title": "Activar clase visual",
+      "difficulty": "Media",
+      "prompt": "Cambiar el estado visual de una tarjeta con una clase.",
+      "starterHtml": "<article id=\"card\">Tarjeta destacable</article>\n<button id=\"mark\">Destacar</button>",
+      "starterJs": "const card = document.querySelector('#card');\nconst mark = document.querySelector('#mark');",
+      "suggestedSolution": "mark.addEventListener('click', () => {\n  card.classList.toggle('active');\n});",
+      "hint": "Usá classList.toggle()."
+    }
+  ],
+  "comparisons": [
+    {
+      "id": "compare-selector",
+      "title": "Selector inexistente",
+      "wrong": "const title = document.querySelector('#titulo');\ntitle.textContent = 'Hola';",
+      "right": "const title = document.querySelector('#title');\nif (title) {\n  title.textContent = 'Hola';\n}",
+      "explanation": "Si el selector no existe, JavaScript no puede modificar el elemento. Conviene verificar que exista."
+    },
+    {
+      "id": "compare-number",
+      "title": "Sumar textos en vez de números",
+      "wrong": "const total = inputA.value + inputB.value;",
+      "right": "const total = Number(inputA.value) + Number(inputB.value);",
+      "explanation": "Los valores de input llegan como texto. Para sumar números hay que convertirlos."
+    },
+    {
+      "id": "compare-event",
+      "title": "Ejecutar función antes del clic",
+      "wrong": "button.addEventListener('click', showMessage());",
+      "right": "button.addEventListener('click', showMessage);",
+      "explanation": "En addEventListener se pasa la función, no el resultado de ejecutarla."
+    }
+  ],
+  "snippets": [
+    {
+      "id": "snippet-click",
+      "title": "Evento de clic",
+      "code": "button.addEventListener('click', () => {\n  console.log('Click detectado');\n});"
+    },
+    {
+      "id": "snippet-input",
+      "title": "Leer un input",
+      "code": "const value = input.value.trim();"
+    },
+    {
+      "id": "snippet-create",
+      "title": "Crear elemento",
+      "code": "const item = document.createElement('li');\nitem.textContent = 'Nuevo elemento';\nlist.appendChild(item);"
+    }
+  ]
+}

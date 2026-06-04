@@ -1,0 +1,713 @@
+{
+  "version": "0.4",
+  "title": "Laboratorio SQL simulado",
+  "description": "Ejercicios guiados, práctica libre, desafíos y ayudas paso a paso para aprender consultas SQL sin instalar una base de datos real.",
+  "tables": [
+    {
+      "id": "ventas_kiosco",
+      "title": "Ventas de kiosco",
+      "description": "Tabla simple para practicar SELECT, WHERE, ORDER BY y GROUP BY sobre ventas diarias.",
+      "columns": [
+        "fecha",
+        "producto",
+        "categoria",
+        "cantidad",
+        "precio_unitario",
+        "medio_pago"
+      ],
+      "rows": [
+        [
+          "2026-05-01",
+          "Alfajor",
+          "Golosinas",
+          12,
+          500,
+          "Efectivo"
+        ],
+        [
+          "2026-05-01",
+          "Gaseosa 500ml",
+          "Bebidas",
+          8,
+          1200,
+          "QR"
+        ],
+        [
+          "2026-05-02",
+          "Yerba 500g",
+          "Almacén",
+          4,
+          1900,
+          "Transferencia"
+        ],
+        [
+          "2026-05-02",
+          "Chocolate",
+          "Golosinas",
+          10,
+          850,
+          "QR"
+        ],
+        [
+          "2026-05-03",
+          "Agua mineral",
+          "Bebidas",
+          14,
+          700,
+          "Efectivo"
+        ],
+        [
+          "2026-05-03",
+          "Gaseosa 500ml",
+          "Bebidas",
+          5,
+          1200,
+          "QR"
+        ],
+        [
+          "2026-05-04",
+          "Alfajor",
+          "Golosinas",
+          9,
+          500,
+          "Efectivo"
+        ],
+        [
+          "2026-05-04",
+          "Yerba 500g",
+          "Almacén",
+          2,
+          1900,
+          "QR"
+        ]
+      ]
+    },
+    {
+      "id": "stock_productos",
+      "title": "Stock de productos",
+      "description": "Tabla para practicar filtros, mínimos de stock y detección de productos críticos.",
+      "columns": [
+        "producto",
+        "categoria",
+        "stock_actual",
+        "stock_minimo",
+        "costo_unitario",
+        "proveedor"
+      ],
+      "rows": [
+        [
+          "Alfajor",
+          "Golosinas",
+          18,
+          10,
+          320,
+          "Mayorista Norte"
+        ],
+        [
+          "Gaseosa 500ml",
+          "Bebidas",
+          6,
+          12,
+          850,
+          "Distribuidora Río"
+        ],
+        [
+          "Yerba 500g",
+          "Almacén",
+          3,
+          8,
+          1450,
+          "Mayorista Norte"
+        ],
+        [
+          "Chocolate",
+          "Golosinas",
+          20,
+          10,
+          620,
+          "Dulces Sur"
+        ],
+        [
+          "Agua mineral",
+          "Bebidas",
+          30,
+          15,
+          420,
+          "Distribuidora Río"
+        ]
+      ]
+    },
+    {
+      "id": "clientes_pedidos",
+      "title": "Clientes y pedidos",
+      "description": "Tablas relacionadas para practicar JOIN y análisis de pedidos por cliente.",
+      "columns": [
+        "pedido_id",
+        "cliente_id",
+        "cliente",
+        "producto",
+        "cantidad",
+        "total"
+      ],
+      "rows": [
+        [
+          101,
+          "C01",
+          "Ana",
+          "Alfajor",
+          4,
+          2000
+        ],
+        [
+          102,
+          "C02",
+          "Luis",
+          "Gaseosa 500ml",
+          2,
+          2400
+        ],
+        [
+          103,
+          "C01",
+          "Ana",
+          "Yerba 500g",
+          1,
+          1900
+        ],
+        [
+          104,
+          "C03",
+          "Marta",
+          "Chocolate",
+          3,
+          2550
+        ],
+        [
+          105,
+          "C02",
+          "Luis",
+          "Agua mineral",
+          6,
+          4200
+        ]
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "select_basico_ventas",
+      "level": "Inicial",
+      "topic": "SELECT",
+      "tableId": "ventas_kiosco",
+      "title": "Ver columnas importantes de ventas",
+      "objective": "Practicar una consulta SELECT simple para elegir columnas útiles.",
+      "prompt": "Mostrá fecha, producto, cantidad y medio de pago de todas las ventas.",
+      "query": "SELECT fecha, producto, cantidad, medio_pago\nFROM ventas_kiosco;",
+      "expectedColumns": [
+        "fecha",
+        "producto",
+        "cantidad",
+        "medio_pago"
+      ],
+      "expectedRows": [
+        [
+          "2026-05-01",
+          "Alfajor",
+          12,
+          "Efectivo"
+        ],
+        [
+          "2026-05-01",
+          "Gaseosa 500ml",
+          8,
+          "QR"
+        ],
+        [
+          "2026-05-02",
+          "Yerba 500g",
+          4,
+          "Transferencia"
+        ],
+        [
+          "2026-05-02",
+          "Chocolate",
+          10,
+          "QR"
+        ],
+        [
+          "2026-05-03",
+          "Agua mineral",
+          14,
+          "Efectivo"
+        ]
+      ],
+      "explanation": "SELECT permite elegir solo las columnas necesarias. En análisis de datos esto ayuda a reducir ruido antes de calcular métricas.",
+      "commonMistake": "Usar SELECT * siempre, incluso cuando solo se necesitan pocas columnas."
+    },
+    {
+      "id": "where_bebidas_qr",
+      "level": "Inicial",
+      "topic": "WHERE",
+      "tableId": "ventas_kiosco",
+      "title": "Filtrar ventas de bebidas pagadas con QR",
+      "objective": "Practicar filtros con más de una condición.",
+      "prompt": "Mostrá las ventas de la categoría Bebidas cuyo medio de pago fue QR.",
+      "query": "SELECT fecha, producto, cantidad, precio_unitario\nFROM ventas_kiosco\nWHERE categoria = 'Bebidas' AND medio_pago = 'QR';",
+      "expectedColumns": [
+        "fecha",
+        "producto",
+        "cantidad",
+        "precio_unitario"
+      ],
+      "expectedRows": [
+        [
+          "2026-05-01",
+          "Gaseosa 500ml",
+          8,
+          1200
+        ],
+        [
+          "2026-05-03",
+          "Gaseosa 500ml",
+          5,
+          1200
+        ]
+      ],
+      "explanation": "WHERE filtra filas. AND exige que se cumplan ambas condiciones al mismo tiempo.",
+      "commonMistake": "Confundir AND con OR y traer ventas que no cumplen las dos condiciones."
+    },
+    {
+      "id": "group_by_categoria",
+      "level": "Intermedio",
+      "topic": "GROUP BY",
+      "tableId": "ventas_kiosco",
+      "title": "Total vendido por categoría",
+      "objective": "Practicar agregaciones por grupo.",
+      "prompt": "Calculá unidades vendidas y facturación estimada por categoría.",
+      "query": "SELECT categoria,\n       SUM(cantidad) AS unidades,\n       SUM(cantidad * precio_unitario) AS facturacion\nFROM ventas_kiosco\nGROUP BY categoria\nORDER BY facturacion DESC;",
+      "expectedColumns": [
+        "categoria",
+        "unidades",
+        "facturacion"
+      ],
+      "expectedRows": [
+        [
+          "Bebidas",
+          27,
+          21800
+        ],
+        [
+          "Golosinas",
+          31,
+          17250
+        ],
+        [
+          "Almacén",
+          6,
+          11400
+        ]
+      ],
+      "explanation": "GROUP BY agrupa filas por una dimensión. SUM calcula indicadores sobre cada grupo.",
+      "commonMistake": "Agrupar por demasiadas columnas y terminar con resultados demasiado fragmentados."
+    },
+    {
+      "id": "stock_critico",
+      "level": "Intermedio",
+      "topic": "Filtros comparativos",
+      "tableId": "stock_productos",
+      "title": "Detectar productos bajo mínimo",
+      "objective": "Identificar productos que necesitan reposición.",
+      "prompt": "Mostrá productos cuyo stock actual es menor que el stock mínimo.",
+      "query": "SELECT producto, categoria, stock_actual, stock_minimo, proveedor\nFROM stock_productos\nWHERE stock_actual < stock_minimo\nORDER BY stock_actual ASC;",
+      "expectedColumns": [
+        "producto",
+        "categoria",
+        "stock_actual",
+        "stock_minimo",
+        "proveedor"
+      ],
+      "expectedRows": [
+        [
+          "Yerba 500g",
+          "Almacén",
+          3,
+          8,
+          "Mayorista Norte"
+        ],
+        [
+          "Gaseosa 500ml",
+          "Bebidas",
+          6,
+          12,
+          "Distribuidora Río"
+        ]
+      ],
+      "explanation": "SQL permite comparar columnas de la misma fila. Esto es útil para alertas operativas.",
+      "commonMistake": "Comparar stock_actual con un número fijo y olvidarse del mínimo propio de cada producto."
+    },
+    {
+      "id": "join_cliente_pedidos",
+      "level": "Intermedio",
+      "topic": "JOIN conceptual",
+      "tableId": "clientes_pedidos",
+      "title": "Pedidos por cliente",
+      "objective": "Entender la lógica de relacionar clientes y pedidos.",
+      "prompt": "Resumí cantidad de pedidos y total comprado por cliente.",
+      "query": "SELECT cliente,\n       COUNT(*) AS pedidos,\n       SUM(total) AS total_comprado\nFROM clientes_pedidos\nGROUP BY cliente\nORDER BY total_comprado DESC;",
+      "expectedColumns": [
+        "cliente",
+        "pedidos",
+        "total_comprado"
+      ],
+      "expectedRows": [
+        [
+          "Luis",
+          2,
+          6600
+        ],
+        [
+          "Ana",
+          2,
+          3900
+        ],
+        [
+          "Marta",
+          1,
+          2550
+        ]
+      ],
+      "explanation": "En bases reales, clientes y pedidos suelen estar en tablas separadas y se unen con JOIN. Este ejercicio resume esa lógica con una tabla simplificada.",
+      "commonMistake": "Contar productos en vez de pedidos o sumar precios unitarios sin multiplicar por cantidades."
+    },
+    {
+      "id": "fechas_ventas_dia",
+      "level": "Intermedio",
+      "topic": "Fechas",
+      "tableId": "ventas_kiosco",
+      "title": "Ventas por día",
+      "objective": "Practicar análisis temporal básico.",
+      "prompt": "Calculá facturación estimada por fecha.",
+      "query": "SELECT fecha,\n       SUM(cantidad * precio_unitario) AS facturacion\nFROM ventas_kiosco\nGROUP BY fecha\nORDER BY fecha;",
+      "expectedColumns": [
+        "fecha",
+        "facturacion"
+      ],
+      "expectedRows": [
+        [
+          "2026-05-01",
+          15600
+        ],
+        [
+          "2026-05-02",
+          16100
+        ],
+        [
+          "2026-05-03",
+          15800
+        ],
+        [
+          "2026-05-04",
+          8300
+        ]
+      ],
+      "explanation": "Agrupar por fecha permite ver evolución diaria. En casos reales conviene revisar feriados, promociones y datos faltantes.",
+      "commonMistake": "Ordenar fechas como texto mal formateado. El formato YYYY-MM-DD evita muchos problemas."
+    },
+    {
+      "id": "join_ventas_stock_categoria",
+      "title": "JOIN entre ventas y stock",
+      "topic": "JOIN",
+      "level": "intermedio",
+      "difficulty": "media",
+      "tableId": "ventas_kiosco",
+      "objective": "Unir ventas y stock para identificar productos vendidos con poco stock disponible.",
+      "prompt": "Relacioná ventas con stock por producto y mostrár el producto, unidades vendidas y stock actual.",
+      "query": "SELECT v.producto, SUM(v.cantidad) AS unidades_vendidas, s.stock_actual\nFROM ventas_kiosco v\nJOIN stock_productos s ON v.producto = s.producto\nGROUP BY v.producto, s.stock_actual\nORDER BY unidades_vendidas DESC;",
+      "expectedColumns": [
+        "producto",
+        "unidades_vendidas",
+        "stock_actual"
+      ],
+      "expectedRows": [
+        [
+          "Agua mineral",
+          14,
+          30
+        ],
+        [
+          "Alfajor",
+          21,
+          18
+        ],
+        [
+          "Chocolate",
+          10,
+          12
+        ],
+        [
+          "Gaseosa 500ml",
+          13,
+          10
+        ],
+        [
+          "Yerba 500g",
+          6,
+          5
+        ]
+      ],
+      "explanation": "El JOIN conecta dos tablas mediante una columna común. Luego GROUP BY permite sumar las ventas por producto y comparar con stock.",
+      "commonMistake": "Hacer JOIN sin condición clara o agrupar solo por producto sin incluir las columnas no agregadas.",
+      "rubric": [
+        "Usa JOIN con condición ON",
+        "Agrupa por producto",
+        "Calcula SUM(cantidad)",
+        "Ordena el resultado"
+      ]
+    },
+    {
+      "id": "fechas_ventas_por_dia",
+      "title": "Ventas agrupadas por fecha",
+      "topic": "Fechas",
+      "level": "intermedio",
+      "difficulty": "media",
+      "tableId": "ventas_kiosco",
+      "objective": "Agrupar ventas por día para ver qué fechas tuvieron mayor movimiento.",
+      "prompt": "Calculá el total vendido por fecha usando cantidad por precio unitario.",
+      "query": "SELECT fecha, SUM(cantidad * precio_unitario) AS total_vendido\nFROM ventas_kiosco\nGROUP BY fecha\nORDER BY fecha;",
+      "expectedColumns": [
+        "fecha",
+        "total_vendido"
+      ],
+      "expectedRows": [
+        [
+          "2026-05-01",
+          15600
+        ],
+        [
+          "2026-05-02",
+          16100
+        ],
+        [
+          "2026-05-03",
+          15800
+        ],
+        [
+          "2026-05-04",
+          8300
+        ]
+      ],
+      "explanation": "Multiplicar cantidad por precio_unitario permite estimar ingresos. GROUP BY fecha resume el resultado diario.",
+      "commonMistake": "Sumar solo precio_unitario sin multiplicar por cantidad.",
+      "rubric": [
+        "Calcula cantidad * precio_unitario",
+        "Agrupa por fecha",
+        "Ordena por fecha"
+      ]
+    },
+    {
+      "id": "calidad_datos_categorias",
+      "title": "Detectar categorías inconsistentes",
+      "topic": "Calidad de datos",
+      "level": "avanzado inicial",
+      "difficulty": "alta",
+      "tableId": "ventas_kiosco",
+      "objective": "Revisar categorías para detectar nombres mal escritos o mezclados.",
+      "prompt": "Listá categorías distintas y cuántas filas tiene cada una.",
+      "query": "SELECT categoria, COUNT(*) AS filas\nFROM ventas_kiosco\nGROUP BY categoria\nORDER BY filas DESC;",
+      "expectedColumns": [
+        "categoria",
+        "filas"
+      ],
+      "expectedRows": [
+        [
+          "Bebidas",
+          3
+        ],
+        [
+          "Golosinas",
+          3
+        ],
+        [
+          "Almacén",
+          2
+        ]
+      ],
+      "explanation": "COUNT por categoría ayuda a detectar variantes como Bebida/Bebidas, almacen/Almacén o textos duplicados por errores de carga.",
+      "commonMistake": "Mirar solo totales sin revisar valores únicos de las categorías.",
+      "rubric": [
+        "Usa COUNT(*)",
+        "Agrupa por categoría",
+        "Ordena para facilitar lectura"
+      ]
+    }
+  ],
+  "freePracticeTemplates": [
+    {
+      "id": "tpl_select_where",
+      "title": "SELECT con filtro",
+      "description": "Plantilla para traer columnas concretas y filtrar filas.",
+      "query": "SELECT columna_1, columna_2\nFROM nombre_tabla\nWHERE condicion\nORDER BY columna_1;"
+    },
+    {
+      "id": "tpl_group_by",
+      "title": "GROUP BY con indicador",
+      "description": "Plantilla para calcular totales, promedios o cantidades por grupo.",
+      "query": "SELECT grupo, COUNT(*) AS cantidad, SUM(valor) AS total\nFROM nombre_tabla\nGROUP BY grupo\nORDER BY total DESC;"
+    },
+    {
+      "id": "tpl_join",
+      "title": "JOIN básico",
+      "description": "Plantilla para unir dos tablas por una clave común.",
+      "query": "SELECT a.columna, b.columna\nFROM tabla_a a\nJOIN tabla_b b ON a.clave = b.clave;"
+    },
+    {
+      "id": "tpl_fecha",
+      "title": "Análisis por fecha",
+      "description": "Plantilla para resumir movimientos por día, mes o período.",
+      "query": "SELECT fecha, SUM(valor) AS total\nFROM nombre_tabla\nGROUP BY fecha\nORDER BY fecha;"
+    }
+  ],
+  "challenges": [
+    {
+      "id": "ch_select_productos_qr",
+      "title": "Productos cobrados por QR",
+      "difficulty": "baja",
+      "topic": "WHERE",
+      "prompt": "Mostrá producto, cantidad y medio de pago solo para ventas cobradas por QR.",
+      "expectedKeywords": [
+        "select",
+        "from",
+        "where",
+        "qr"
+      ],
+      "suggestedAnswer": "SELECT producto, cantidad, medio_pago\nFROM ventas_kiosco\nWHERE medio_pago = \"QR\";"
+    },
+    {
+      "id": "ch_total_categoria",
+      "title": "Total por categoría",
+      "difficulty": "media",
+      "topic": "GROUP BY",
+      "prompt": "Calculá unidades vendidas por categoría y ordená de mayor a menor.",
+      "expectedKeywords": [
+        "select",
+        "sum",
+        "from",
+        "group by",
+        "order by"
+      ],
+      "suggestedAnswer": "SELECT categoria, SUM(cantidad) AS unidades\nFROM ventas_kiosco\nGROUP BY categoria\nORDER BY unidades DESC;"
+    },
+    {
+      "id": "ch_stock_bajo",
+      "title": "Productos con stock bajo",
+      "difficulty": "media",
+      "topic": "WHERE",
+      "prompt": "Listá productos con stock actual menor o igual a 10.",
+      "expectedKeywords": [
+        "select",
+        "from",
+        "where",
+        "stock_actual"
+      ],
+      "suggestedAnswer": "SELECT producto, stock_actual\nFROM stock_productos\nWHERE stock_actual <= 10;"
+    },
+    {
+      "id": "ch_join_cliente_pedidos",
+      "title": "Pedidos con datos de cliente",
+      "difficulty": "alta",
+      "topic": "JOIN",
+      "prompt": "Uní clientes y pedidos para ver cliente, barrio y total del pedido.",
+      "expectedKeywords": [
+        "select",
+        "join",
+        "on",
+        "from"
+      ],
+      "suggestedAnswer": "SELECT c.cliente, c.barrio, p.total\nFROM clientes c\nJOIN pedidos p ON c.cliente_id = p.cliente_id;"
+    },
+    {
+      "id": "ch_fecha_total",
+      "title": "Venta total por día",
+      "difficulty": "alta",
+      "topic": "Fechas",
+      "prompt": "Calculá total vendido por fecha multiplicando cantidad por precio_unitario.",
+      "expectedKeywords": [
+        "select",
+        "sum",
+        "cantidad",
+        "precio_unitario",
+        "group by"
+      ],
+      "suggestedAnswer": "SELECT fecha, SUM(cantidad * precio_unitario) AS total_vendido\nFROM ventas_kiosco\nGROUP BY fecha\nORDER BY fecha;"
+    }
+  ],
+  "beginnerGuide": [
+    {
+      "title": "Definir la pregunta de análisis",
+      "description": "Antes de escribir SQL, redactá una pregunta concreta: qué querés saber, sobre qué período y con qué nivel de detalle.",
+      "example": "¿Qué categoría vendió más unidades durante mayo?"
+    },
+    {
+      "title": "Identificar la tabla adecuada",
+      "description": "Revisá qué tabla contiene las columnas necesarias. Si falta información, puede hacer falta un JOIN.",
+      "example": "ventas_kiosco tiene fecha, producto, categoría, cantidad y precio_unitario."
+    },
+    {
+      "title": "Elegir columnas con SELECT",
+      "description": "Mostrá solo las columnas necesarias para leer el resultado.",
+      "example": "SELECT categoria, cantidad"
+    },
+    {
+      "title": "Filtrar con WHERE",
+      "description": "Reducí el universo de datos usando condiciones claras.",
+      "example": "WHERE fecha >= '2026-05-01' AND medio_pago = 'QR'"
+    },
+    {
+      "title": "Medir con agregaciones",
+      "description": "Usá SUM, COUNT o AVG cuando necesitás totales, cantidades o promedios.",
+      "example": "SUM(cantidad * precio_unitario) AS total_vendido"
+    },
+    {
+      "title": "Agrupar y ordenar",
+      "description": "Usá GROUP BY para resumir por categoría, producto o fecha, y ORDER BY para ordenar el resultado.",
+      "example": "GROUP BY categoria\nORDER BY total_vendido DESC"
+    }
+  ],
+  "contextHelp": [
+    {
+      "clause": "SELECT",
+      "title": "Elegir columnas",
+      "description": "Indica qué columnas o cálculos querés ver en el resultado.",
+      "example": "SELECT producto, cantidad, precio_unitario\nFROM ventas_kiosco;",
+      "commonMistake": "Mostrar demasiadas columnas o usar SELECT * sin necesidad."
+    },
+    {
+      "clause": "WHERE",
+      "title": "Filtrar filas",
+      "description": "Permite quedarte solo con los registros que cumplen una condición.",
+      "example": "SELECT producto, medio_pago\nFROM ventas_kiosco\nWHERE medio_pago = 'QR';",
+      "commonMistake": "Olvidar comillas en textos o usar WHERE para condiciones agregadas que corresponden a HAVING."
+    },
+    {
+      "clause": "GROUP BY",
+      "title": "Agrupar para indicadores",
+      "description": "Agrupa filas para calcular SUM, COUNT, AVG u otros indicadores.",
+      "example": "SELECT categoria, SUM(cantidad) AS unidades\nFROM ventas_kiosco\nGROUP BY categoria;",
+      "commonMistake": "Seleccionar columnas no agregadas que no están en GROUP BY."
+    },
+    {
+      "clause": "JOIN",
+      "title": "Unir tablas",
+      "description": "Sirve para combinar datos de dos tablas relacionadas por una clave.",
+      "example": "SELECT c.cliente, p.total\nFROM clientes c\nJOIN pedidos p ON c.cliente_id = p.cliente_id;",
+      "commonMistake": "Hacer JOIN sin entender la clave o duplicar filas por relación incorrecta."
+    },
+    {
+      "clause": "Fechas",
+      "title": "Analizar períodos",
+      "description": "Permite filtrar o agrupar información por día, mes, semana o rango.",
+      "example": "SELECT fecha, SUM(cantidad * precio_unitario) AS total\nFROM ventas_kiosco\nGROUP BY fecha\nORDER BY fecha;",
+      "commonMistake": "No revisar el formato de fecha que usa el motor SQL real."
+    }
+  ]
+}

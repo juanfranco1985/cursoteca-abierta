@@ -1,0 +1,131 @@
+{
+  "courseId": "tableau-visualizacion-datos-web",
+  "templateVersion": "0.6-publica-profesional",
+  "appName": "Tableau para Visualización de Datos",
+  "shortName": "Tableau Datos",
+  "subtitle": "Curso practico para crear visualizaciones y dashboards claros, con filtros utiles y lectura responsable.",
+  "description": "Construye visualizaciones en Tableau con proposito: datos conectados, graficos adecuados, filtros, dashboards y relato visual.",
+  "audience": "Estudiantes, emprendedores, trabajadores administrativos, analistas iniciales y personas que quieren aprender visualización de datos desde cero.",
+  "dataPaths": {
+    "course": "src/data/course_content.json",
+    "checklists": "src/data/checklists.json",
+    "incidents": "src/data/incidents.json",
+    "visualizationLab": "src/data/visualization_lab.json",
+    "dashboardStoryboard": "src/data/dashboard_storyboard.json",
+    "storytellingLab": "src/data/storytelling_lab.json"
+  },
+  "labels": {
+    "modules": "Módulos",
+    "checklists": "Checklists",
+    "incidents": "Casos Tableau",
+    "emergency": "Acción rápida",
+    "certificate": "Constancia",
+    "primaryAction": "Empezar curso",
+    "emergencyAction": "Necesito elegir un gráfico"
+  },
+  "features": {
+    "modules": true,
+    "quizzes": true,
+    "checklists": true,
+    "incidents": true,
+    "emergency": true,
+    "certificate": true,
+    "progressExport": true,
+    "templateGuide": false,
+    "accessibilityPanel": true,
+    "pwaBasic": true,
+    "offlineCache": true,
+    "publishGuide": true,
+    "officialCloneTemplate": false,
+    "validationScript": true,
+    "visualizationLab": true,
+    "chartRecommender": true,
+    "visualComparison": true,
+    "visualReportExport": true,
+    "dashboardStoryboard": true,
+    "storyboardBuilder": true,
+    "dashboardTemplateSelector": true,
+    "storyboardReportExport": true,
+    "storytellingVisual": true,
+    "executivePresentationSimulator": true,
+    "misleadingVisualExamples": true,
+    "visualClarityChecklist": true,
+    "storytellingReportExport": true,
+    "mobileLabImprovements": true,
+    "publicProfessionalEdition": true,
+    "requiresBackend": false,
+    "requiresLogin": false
+  },
+  "theme": {
+    "accent": "#4fb6aa",
+    "accent2": "#ff8a3d",
+    "danger": "#fb7185",
+    "warning": "#f59e0b",
+    "primary": "#d6a85c",
+    "background": "#21130b"
+  },
+  "responsibleNotice": "Contenido educativo. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. No publicar dashboards con datos sensibles, permisos abiertos o metricas mal definidas.",
+  "cloneNotes": [
+    "Curso derivado de la plantilla web clonable.",
+    "Mantener datos de práctica anonimizados.",
+    "Evitar datos personales o empresariales reales sin autorización."
+  ],
+  "version": "0.4",
+  "publicCandidateVersion": "0.5",
+  "status": "Candidato de publicación v0.5",
+  "publication": {
+    "version": "0.6-publica-profesional",
+    "status": "Publica profesional",
+    "recommendedTest": "VS Code + Live Server",
+    "doNotOpenWithDoubleClick": true,
+    "privacySummary": "No requiere login, no envía datos a servidores y guarda progreso solo en localStorage.",
+    "publicReadiness": [
+      "README público",
+      "Guía de publicación",
+      "Guía de capturas",
+      "Aviso legal",
+      "Política de privacidad",
+      "Checklist de publicación"
+    ],
+    "requiresBackend": false,
+    "requiresLogin": false,
+    "requiresAnalytics": false,
+    "requiresAds": false,
+    "recommendedHosts": [
+      "GitHub Pages",
+      "Netlify",
+      "Vercel",
+      "Hosting estatico propio"
+    ],
+    "prePublishChecks": [
+      "Probar con servidor local",
+      "Probar navegacion en movil y escritorio",
+      "Revisar textos legales y privacidad",
+      "Verificar que no se pidan datos sensibles",
+      "Actualizar capturas publicas"
+    ]
+  },
+  "publicEdition": {
+    "level": "publica-profesional",
+    "version": "0.6",
+    "generatedAt": "2026-05-26",
+    "sourceZip": "tableau_visualizacion_datos_web_v0_5.zip"
+  },
+  "webApp": {
+    "cacheName": "tableau-visualizacion-datos-web-v0-6-publica-v0-6-publica-profesional",
+    "publicationStatus": "publica-profesional-v0.6"
+  },
+  "professionalization": {
+    "tier": "curso-bandera-v1.0-beta",
+    "updatedAt": "2026-05-28",
+    "improvements": [
+      "Lecciones con teoria, ejemplo, error comun y ejercicio mas profundos.",
+      "Checklists orientados a evidencia y entregables.",
+      "Casos guiados con pasos, errores y decision responsable."
+    ]
+  },
+  "editorialPolish": {
+    "thirdEditorialBatch": "2026-06-02",
+    "status": "public-facing-copy-polished"
+  }
+}

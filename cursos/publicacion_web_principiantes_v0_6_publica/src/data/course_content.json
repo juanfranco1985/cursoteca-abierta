@@ -1,0 +1,1056 @@
+{
+  "courseId": "publicacion_web_principiantes",
+  "title": "Publicación Web para Principiantes",
+  "version": "0.6-publica",
+  "modules": [
+    {
+      "id": "mod-1",
+      "title": "Qué significa publicar una web",
+      "description": "En este modulo vas a trabajar \"Qué significa publicar una web\" dentro de publicacion web estatica, GitHub Pages, Netlify, Vercel, dominios, enlaces y mantenimiento. La meta es construir una pieza pequena, probarla en navegador y dejar evidencia de que funciona para una persona real.",
+      "icon": "WEB",
+      "lessons": [
+        {
+          "id": "mod-1-lesson-1",
+          "title": "Qué es publicar una web",
+          "keyIdea": "Idea clave: Qué es publicar una web sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Qué es publicar una web\" dentro del modulo \"Qué significa publicar una web\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona ya tiene una landing o pagina simple y necesita subirla a internet sin romper rutas ni depender de configuraciones confusas. Aplica \"Qué es publicar una web\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una web publicada con URL, checklist de rutas, prueba en navegador y plan de mantenimiento minimo.",
+          "alert": "No publicar archivos internos, datos privados, claves ni borradores que no deban ser publicos.",
+          "keyPoints": [
+            "Qué es publicar una web debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una web publicada con URL, checklist de rutas, prueba en navegador y plan de mantenimiento minimo.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "mod-1-lesson-2",
+          "title": "Web local vs web pública",
+          "keyIdea": "Idea clave: Web local vs web pública sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Web local vs web pública\" dentro del modulo \"Qué significa publicar una web\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona ya tiene una landing o pagina simple y necesita subirla a internet sin romper rutas ni depender de configuraciones confusas. Aplica \"Web local vs web pública\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una web publicada con URL, checklist de rutas, prueba en navegador y plan de mantenimiento minimo.",
+          "alert": "No publicar archivos internos, datos privados, claves ni borradores que no deban ser publicos.",
+          "keyPoints": [
+            "Web local vs web pública debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una web publicada con URL, checklist de rutas, prueba en navegador y plan de mantenimiento minimo.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "mod-1-lesson-3",
+          "title": "Hosting estático",
+          "keyIdea": "Idea clave: Hosting estático sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Hosting estático\" dentro del modulo \"Qué significa publicar una web\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona ya tiene una landing o pagina simple y necesita subirla a internet sin romper rutas ni depender de configuraciones confusas. Aplica \"Hosting estático\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una web publicada con URL, checklist de rutas, prueba en navegador y plan de mantenimiento minimo.",
+          "alert": "No publicar archivos internos, datos privados, claves ni borradores que no deban ser publicos.",
+          "keyPoints": [
+            "Hosting estático debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una web publicada con URL, checklist de rutas, prueba en navegador y plan de mantenimiento minimo.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "mod-1-lesson-4",
+          "title": "Archivos necesarios",
+          "keyIdea": "Idea clave: Archivos necesarios sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Archivos necesarios\" dentro del modulo \"Qué significa publicar una web\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona ya tiene una landing o pagina simple y necesita subirla a internet sin romper rutas ni depender de configuraciones confusas. Aplica \"Archivos necesarios\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una web publicada con URL, checklist de rutas, prueba en navegador y plan de mantenimiento minimo.",
+          "alert": "No publicar archivos internos, datos privados, claves ni borradores que no deban ser publicos.",
+          "keyPoints": [
+            "Archivos necesarios debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una web publicada con URL, checklist de rutas, prueba en navegador y plan de mantenimiento minimo.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "mod-1-lesson-5",
+          "title": "URL pública",
+          "keyIdea": "Idea clave: URL pública sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"URL pública\" dentro del modulo \"Qué significa publicar una web\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona ya tiene una landing o pagina simple y necesita subirla a internet sin romper rutas ni depender de configuraciones confusas. Aplica \"URL pública\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una web publicada con URL, checklist de rutas, prueba en navegador y plan de mantenimiento minimo.",
+          "alert": "No publicar archivos internos, datos privados, claves ni borradores que no deban ser publicos.",
+          "keyPoints": [
+            "URL pública debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una web publicada con URL, checklist de rutas, prueba en navegador y plan de mantenimiento minimo.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "mod-1-lesson-6",
+          "title": "Buenas prácticas antes de publicar",
+          "keyIdea": "Idea clave: Buenas prácticas antes de publicar sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Buenas prácticas antes de publicar\" dentro del modulo \"Qué significa publicar una web\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona ya tiene una landing o pagina simple y necesita subirla a internet sin romper rutas ni depender de configuraciones confusas. Aplica \"Buenas prácticas antes de publicar\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una web publicada con URL, checklist de rutas, prueba en navegador y plan de mantenimiento minimo.",
+          "alert": "No publicar archivos internos, datos privados, claves ni borradores que no deban ser publicos.",
+          "keyPoints": [
+            "Buenas prácticas antes de publicar debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una web publicada con URL, checklist de rutas, prueba en navegador y plan de mantenimiento minimo.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "mod-1-q-1",
+          "question": "¿Qué significa publicar una web?",
+          "options": [
+            "Hacerla accesible mediante una URL pública",
+            "Guardar una carpeta en el escritorio",
+            "Cambiar el color de fondo",
+            "Borrar el código"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: publicar requiere preparar, revisar y verificar el proyecto."
+        },
+        {
+          "id": "mod-1-q-2",
+          "question": "¿Qué archivo suele ser el punto de entrada de una web estática?",
+          "options": [
+            "index.html",
+            "foto.png",
+            "notas.txt",
+            "backup.zip"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: publicar requiere preparar, revisar y verificar el proyecto."
+        },
+        {
+          "id": "mod-1-q-3",
+          "question": "¿Qué conviene revisar antes de publicar?",
+          "options": [
+            "Rutas, archivos y datos privados",
+            "Solo el nombre de la carpeta",
+            "Nada, se sube todo",
+            "Únicamente el logo"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: publicar requiere preparar, revisar y verificar el proyecto."
+        },
+        {
+          "id": "mod-1-q-4",
+          "question": "¿Qué problema pueden causar rutas mal escritas?",
+          "options": [
+            "CSS, JS o imágenes rotas",
+            "Mejor rendimiento automático",
+            "Más seguridad",
+            "Menos archivos"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: publicar requiere preparar, revisar y verificar el proyecto."
+        },
+        {
+          "id": "mod-1-q-5",
+          "question": "¿Qué documento ayuda a presentar el proyecto?",
+          "options": [
+            "README.md",
+            "Thumbs.db",
+            ".env",
+            "node_modules"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: publicar requiere preparar, revisar y verificar el proyecto."
+        }
+      ],
+      "professionalOutcome": "preparar archivos, revisar rutas, probar localmente y publicar una version beta. Entregable sugerido: un paquete publicable con estructura, README, prueba local y URL de despliegue."
+    },
+    {
+      "id": "mod-2",
+      "title": "Publicar con GitHub Pages",
+      "description": "En este modulo vas a trabajar \"Publicar con GitHub Pages\" dentro de publicacion web estatica, GitHub Pages, Netlify, Vercel, dominios, enlaces y mantenimiento. La meta es construir una pieza pequena, probarla en navegador y dejar evidencia de que funciona para una persona real.",
+      "icon": "WEB",
+      "lessons": [
+        {
+          "id": "mod-2-lesson-1",
+          "title": "Qué es GitHub Pages",
+          "keyIdea": "Idea clave: Qué es GitHub Pages sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Qué es GitHub Pages\" dentro del modulo \"Publicar con GitHub Pages\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona ya tiene una landing o pagina simple y necesita subirla a internet sin romper rutas ni depender de configuraciones confusas. Aplica \"Qué es GitHub Pages\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una web publicada con URL, checklist de rutas, prueba en navegador y plan de mantenimiento minimo.",
+          "alert": "No publicar archivos internos, datos privados, claves ni borradores que no deban ser publicos.",
+          "keyPoints": [
+            "Qué es GitHub Pages debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una web publicada con URL, checklist de rutas, prueba en navegador y plan de mantenimiento minimo.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "mod-2-lesson-2",
+          "title": "Preparar repositorio",
+          "keyIdea": "Idea clave: Preparar repositorio sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Preparar repositorio\" dentro del modulo \"Publicar con GitHub Pages\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona ya tiene una landing o pagina simple y necesita subirla a internet sin romper rutas ni depender de configuraciones confusas. Aplica \"Preparar repositorio\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una web publicada con URL, checklist de rutas, prueba en navegador y plan de mantenimiento minimo.",
+          "alert": "No publicar archivos internos, datos privados, claves ni borradores que no deban ser publicos.",
+          "keyPoints": [
+            "Preparar repositorio debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una web publicada con URL, checklist de rutas, prueba en navegador y plan de mantenimiento minimo.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "mod-2-lesson-3",
+          "title": "Elegir rama y carpeta",
+          "keyIdea": "Idea clave: Elegir rama y carpeta sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Elegir rama y carpeta\" dentro del modulo \"Publicar con GitHub Pages\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona ya tiene una landing o pagina simple y necesita subirla a internet sin romper rutas ni depender de configuraciones confusas. Aplica \"Elegir rama y carpeta\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una web publicada con URL, checklist de rutas, prueba en navegador y plan de mantenimiento minimo.",
+          "alert": "No publicar archivos internos, datos privados, claves ni borradores que no deban ser publicos.",
+          "keyPoints": [
+            "Elegir rama y carpeta debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una web publicada con URL, checklist de rutas, prueba en navegador y plan de mantenimiento minimo.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "mod-2-lesson-4",
+          "title": "Activar Pages",
+          "keyIdea": "Idea clave: Activar Pages sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Activar Pages\" dentro del modulo \"Publicar con GitHub Pages\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona ya tiene una landing o pagina simple y necesita subirla a internet sin romper rutas ni depender de configuraciones confusas. Aplica \"Activar Pages\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una web publicada con URL, checklist de rutas, prueba en navegador y plan de mantenimiento minimo.",
+          "alert": "No publicar archivos internos, datos privados, claves ni borradores que no deban ser publicos.",
+          "keyPoints": [
+            "Activar Pages debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una web publicada con URL, checklist de rutas, prueba en navegador y plan de mantenimiento minimo.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "mod-2-lesson-5",
+          "title": "Verificar publicación",
+          "keyIdea": "Idea clave: Verificar publicación sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Verificar publicación\" dentro del modulo \"Publicar con GitHub Pages\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona ya tiene una landing o pagina simple y necesita subirla a internet sin romper rutas ni depender de configuraciones confusas. Aplica \"Verificar publicación\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una web publicada con URL, checklist de rutas, prueba en navegador y plan de mantenimiento minimo.",
+          "alert": "No publicar archivos internos, datos privados, claves ni borradores que no deban ser publicos.",
+          "keyPoints": [
+            "Verificar publicación debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una web publicada con URL, checklist de rutas, prueba en navegador y plan de mantenimiento minimo.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "mod-2-lesson-6",
+          "title": "Errores frecuentes en Pages",
+          "keyIdea": "Idea clave: Errores frecuentes en Pages sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Errores frecuentes en Pages\" dentro del modulo \"Publicar con GitHub Pages\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona ya tiene una landing o pagina simple y necesita subirla a internet sin romper rutas ni depender de configuraciones confusas. Aplica \"Errores frecuentes en Pages\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una web publicada con URL, checklist de rutas, prueba en navegador y plan de mantenimiento minimo.",
+          "alert": "No publicar archivos internos, datos privados, claves ni borradores que no deban ser publicos.",
+          "keyPoints": [
+            "Errores frecuentes en Pages debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una web publicada con URL, checklist de rutas, prueba en navegador y plan de mantenimiento minimo.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "mod-2-q-1",
+          "question": "¿Qué significa publicar una web?",
+          "options": [
+            "Hacerla accesible mediante una URL pública",
+            "Guardar una carpeta en el escritorio",
+            "Cambiar el color de fondo",
+            "Borrar el código"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: publicar requiere preparar, revisar y verificar el proyecto."
+        },
+        {
+          "id": "mod-2-q-2",
+          "question": "¿Qué archivo suele ser el punto de entrada de una web estática?",
+          "options": [
+            "index.html",
+            "foto.png",
+            "notas.txt",
+            "backup.zip"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: publicar requiere preparar, revisar y verificar el proyecto."
+        },
+        {
+          "id": "mod-2-q-3",
+          "question": "¿Qué conviene revisar antes de publicar?",
+          "options": [
+            "Rutas, archivos y datos privados",
+            "Solo el nombre de la carpeta",
+            "Nada, se sube todo",
+            "Únicamente el logo"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: publicar requiere preparar, revisar y verificar el proyecto."
+        },
+        {
+          "id": "mod-2-q-4",
+          "question": "¿Qué problema pueden causar rutas mal escritas?",
+          "options": [
+            "CSS, JS o imágenes rotas",
+            "Mejor rendimiento automático",
+            "Más seguridad",
+            "Menos archivos"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: publicar requiere preparar, revisar y verificar el proyecto."
+        },
+        {
+          "id": "mod-2-q-5",
+          "question": "¿Qué documento ayuda a presentar el proyecto?",
+          "options": [
+            "README.md",
+            "Thumbs.db",
+            ".env",
+            "node_modules"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: publicar requiere preparar, revisar y verificar el proyecto."
+        }
+      ],
+      "professionalOutcome": "preparar archivos, revisar rutas, probar localmente y publicar una version beta. Entregable sugerido: un paquete publicable con estructura, README, prueba local y URL de despliegue."
+    },
+    {
+      "id": "mod-3",
+      "title": "Publicar con Netlify",
+      "description": "En este modulo vas a trabajar \"Publicar con Netlify\" dentro de publicacion web estatica, GitHub Pages, Netlify, Vercel, dominios, enlaces y mantenimiento. La meta es construir una pieza pequena, probarla en navegador y dejar evidencia de que funciona para una persona real.",
+      "icon": "WEB",
+      "lessons": [
+        {
+          "id": "mod-3-lesson-1",
+          "title": "Qué es Netlify",
+          "keyIdea": "Idea clave: Qué es Netlify sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Qué es Netlify\" dentro del modulo \"Publicar con Netlify\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona ya tiene una landing o pagina simple y necesita subirla a internet sin romper rutas ni depender de configuraciones confusas. Aplica \"Qué es Netlify\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una web publicada con URL, checklist de rutas, prueba en navegador y plan de mantenimiento minimo.",
+          "alert": "No publicar archivos internos, datos privados, claves ni borradores que no deban ser publicos.",
+          "keyPoints": [
+            "Qué es Netlify debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una web publicada con URL, checklist de rutas, prueba en navegador y plan de mantenimiento minimo.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "mod-3-lesson-2",
+          "title": "Subida manual de sitio",
+          "keyIdea": "Idea clave: Subida manual de sitio sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Subida manual de sitio\" dentro del modulo \"Publicar con Netlify\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona ya tiene una landing o pagina simple y necesita subirla a internet sin romper rutas ni depender de configuraciones confusas. Aplica \"Subida manual de sitio\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una web publicada con URL, checklist de rutas, prueba en navegador y plan de mantenimiento minimo.",
+          "alert": "No publicar archivos internos, datos privados, claves ni borradores que no deban ser publicos.",
+          "keyPoints": [
+            "Subida manual de sitio debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una web publicada con URL, checklist de rutas, prueba en navegador y plan de mantenimiento minimo.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "mod-3-lesson-3",
+          "title": "Conectar con GitHub",
+          "keyIdea": "Idea clave: Conectar con GitHub sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Conectar con GitHub\" dentro del modulo \"Publicar con Netlify\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona ya tiene una landing o pagina simple y necesita subirla a internet sin romper rutas ni depender de configuraciones confusas. Aplica \"Conectar con GitHub\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una web publicada con URL, checklist de rutas, prueba en navegador y plan de mantenimiento minimo.",
+          "alert": "No publicar archivos internos, datos privados, claves ni borradores que no deban ser publicos.",
+          "keyPoints": [
+            "Conectar con GitHub debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una web publicada con URL, checklist de rutas, prueba en navegador y plan de mantenimiento minimo.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "mod-3-lesson-4",
+          "title": "Deploy automático",
+          "keyIdea": "Idea clave: Deploy automático sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Deploy automático\" dentro del modulo \"Publicar con Netlify\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona ya tiene una landing o pagina simple y necesita subirla a internet sin romper rutas ni depender de configuraciones confusas. Aplica \"Deploy automático\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una web publicada con URL, checklist de rutas, prueba en navegador y plan de mantenimiento minimo.",
+          "alert": "No publicar archivos internos, datos privados, claves ni borradores que no deban ser publicos.",
+          "keyPoints": [
+            "Deploy automático debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una web publicada con URL, checklist de rutas, prueba en navegador y plan de mantenimiento minimo.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "mod-3-lesson-5",
+          "title": "Variables y límites básicos",
+          "keyIdea": "Idea clave: Variables y límites básicos sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Variables y límites básicos\" dentro del modulo \"Publicar con Netlify\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona ya tiene una landing o pagina simple y necesita subirla a internet sin romper rutas ni depender de configuraciones confusas. Aplica \"Variables y límites básicos\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una web publicada con URL, checklist de rutas, prueba en navegador y plan de mantenimiento minimo.",
+          "alert": "No publicar archivos internos, datos privados, claves ni borradores que no deban ser publicos.",
+          "keyPoints": [
+            "Variables y límites básicos debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una web publicada con URL, checklist de rutas, prueba en navegador y plan de mantenimiento minimo.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "mod-3-lesson-6",
+          "title": "Errores frecuentes en Netlify",
+          "keyIdea": "Idea clave: Errores frecuentes en Netlify sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Errores frecuentes en Netlify\" dentro del modulo \"Publicar con Netlify\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona ya tiene una landing o pagina simple y necesita subirla a internet sin romper rutas ni depender de configuraciones confusas. Aplica \"Errores frecuentes en Netlify\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una web publicada con URL, checklist de rutas, prueba en navegador y plan de mantenimiento minimo.",
+          "alert": "No publicar archivos internos, datos privados, claves ni borradores que no deban ser publicos.",
+          "keyPoints": [
+            "Errores frecuentes en Netlify debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una web publicada con URL, checklist de rutas, prueba en navegador y plan de mantenimiento minimo.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "mod-3-q-1",
+          "question": "¿Qué significa publicar una web?",
+          "options": [
+            "Hacerla accesible mediante una URL pública",
+            "Guardar una carpeta en el escritorio",
+            "Cambiar el color de fondo",
+            "Borrar el código"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: publicar requiere preparar, revisar y verificar el proyecto."
+        },
+        {
+          "id": "mod-3-q-2",
+          "question": "¿Qué archivo suele ser el punto de entrada de una web estática?",
+          "options": [
+            "index.html",
+            "foto.png",
+            "notas.txt",
+            "backup.zip"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: publicar requiere preparar, revisar y verificar el proyecto."
+        },
+        {
+          "id": "mod-3-q-3",
+          "question": "¿Qué conviene revisar antes de publicar?",
+          "options": [
+            "Rutas, archivos y datos privados",
+            "Solo el nombre de la carpeta",
+            "Nada, se sube todo",
+            "Únicamente el logo"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: publicar requiere preparar, revisar y verificar el proyecto."
+        },
+        {
+          "id": "mod-3-q-4",
+          "question": "¿Qué problema pueden causar rutas mal escritas?",
+          "options": [
+            "CSS, JS o imágenes rotas",
+            "Mejor rendimiento automático",
+            "Más seguridad",
+            "Menos archivos"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: publicar requiere preparar, revisar y verificar el proyecto."
+        },
+        {
+          "id": "mod-3-q-5",
+          "question": "¿Qué documento ayuda a presentar el proyecto?",
+          "options": [
+            "README.md",
+            "Thumbs.db",
+            ".env",
+            "node_modules"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: publicar requiere preparar, revisar y verificar el proyecto."
+        }
+      ],
+      "professionalOutcome": "preparar archivos, revisar rutas, probar localmente y publicar una version beta. Entregable sugerido: un paquete publicable con estructura, README, prueba local y URL de despliegue."
+    },
+    {
+      "id": "mod-4",
+      "title": "Publicar con Vercel",
+      "description": "En este modulo vas a trabajar \"Publicar con Vercel\" dentro de publicacion web estatica, GitHub Pages, Netlify, Vercel, dominios, enlaces y mantenimiento. La meta es construir una pieza pequena, probarla en navegador y dejar evidencia de que funciona para una persona real.",
+      "icon": "WEB",
+      "lessons": [
+        {
+          "id": "mod-4-lesson-1",
+          "title": "Qué es Vercel",
+          "keyIdea": "Idea clave: Qué es Vercel sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Qué es Vercel\" dentro del modulo \"Publicar con Vercel\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona ya tiene una landing o pagina simple y necesita subirla a internet sin romper rutas ni depender de configuraciones confusas. Aplica \"Qué es Vercel\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una web publicada con URL, checklist de rutas, prueba en navegador y plan de mantenimiento minimo.",
+          "alert": "No publicar archivos internos, datos privados, claves ni borradores que no deban ser publicos.",
+          "keyPoints": [
+            "Qué es Vercel debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una web publicada con URL, checklist de rutas, prueba en navegador y plan de mantenimiento minimo.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "mod-4-lesson-2",
+          "title": "Conectar repositorio",
+          "keyIdea": "Idea clave: Conectar repositorio sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Conectar repositorio\" dentro del modulo \"Publicar con Vercel\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona ya tiene una landing o pagina simple y necesita subirla a internet sin romper rutas ni depender de configuraciones confusas. Aplica \"Conectar repositorio\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una web publicada con URL, checklist de rutas, prueba en navegador y plan de mantenimiento minimo.",
+          "alert": "No publicar archivos internos, datos privados, claves ni borradores que no deban ser publicos.",
+          "keyPoints": [
+            "Conectar repositorio debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una web publicada con URL, checklist de rutas, prueba en navegador y plan de mantenimiento minimo.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "mod-4-lesson-3",
+          "title": "Configurar proyecto simple",
+          "keyIdea": "Idea clave: Configurar proyecto simple sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Configurar proyecto simple\" dentro del modulo \"Publicar con Vercel\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona ya tiene una landing o pagina simple y necesita subirla a internet sin romper rutas ni depender de configuraciones confusas. Aplica \"Configurar proyecto simple\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una web publicada con URL, checklist de rutas, prueba en navegador y plan de mantenimiento minimo.",
+          "alert": "No publicar archivos internos, datos privados, claves ni borradores que no deban ser publicos.",
+          "keyPoints": [
+            "Configurar proyecto simple debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una web publicada con URL, checklist de rutas, prueba en navegador y plan de mantenimiento minimo.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "mod-4-lesson-4",
+          "title": "Deploy y preview",
+          "keyIdea": "Idea clave: Deploy y preview sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Deploy y preview\" dentro del modulo \"Publicar con Vercel\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona ya tiene una landing o pagina simple y necesita subirla a internet sin romper rutas ni depender de configuraciones confusas. Aplica \"Deploy y preview\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una web publicada con URL, checklist de rutas, prueba en navegador y plan de mantenimiento minimo.",
+          "alert": "No publicar archivos internos, datos privados, claves ni borradores que no deban ser publicos.",
+          "keyPoints": [
+            "Deploy y preview debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una web publicada con URL, checklist de rutas, prueba en navegador y plan de mantenimiento minimo.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "mod-4-lesson-5",
+          "title": "Cuándo usar Vercel",
+          "keyIdea": "Idea clave: Cuándo usar Vercel sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Cuándo usar Vercel\" dentro del modulo \"Publicar con Vercel\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona ya tiene una landing o pagina simple y necesita subirla a internet sin romper rutas ni depender de configuraciones confusas. Aplica \"Cuándo usar Vercel\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una web publicada con URL, checklist de rutas, prueba en navegador y plan de mantenimiento minimo.",
+          "alert": "No publicar archivos internos, datos privados, claves ni borradores que no deban ser publicos.",
+          "keyPoints": [
+            "Cuándo usar Vercel debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una web publicada con URL, checklist de rutas, prueba en navegador y plan de mantenimiento minimo.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "mod-4-lesson-6",
+          "title": "Errores frecuentes en Vercel",
+          "keyIdea": "Idea clave: Errores frecuentes en Vercel sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Errores frecuentes en Vercel\" dentro del modulo \"Publicar con Vercel\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona ya tiene una landing o pagina simple y necesita subirla a internet sin romper rutas ni depender de configuraciones confusas. Aplica \"Errores frecuentes en Vercel\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una web publicada con URL, checklist de rutas, prueba en navegador y plan de mantenimiento minimo.",
+          "alert": "No publicar archivos internos, datos privados, claves ni borradores que no deban ser publicos.",
+          "keyPoints": [
+            "Errores frecuentes en Vercel debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una web publicada con URL, checklist de rutas, prueba en navegador y plan de mantenimiento minimo.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "mod-4-q-1",
+          "question": "¿Qué significa publicar una web?",
+          "options": [
+            "Hacerla accesible mediante una URL pública",
+            "Guardar una carpeta en el escritorio",
+            "Cambiar el color de fondo",
+            "Borrar el código"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: publicar requiere preparar, revisar y verificar el proyecto."
+        },
+        {
+          "id": "mod-4-q-2",
+          "question": "¿Qué archivo suele ser el punto de entrada de una web estática?",
+          "options": [
+            "index.html",
+            "foto.png",
+            "notas.txt",
+            "backup.zip"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: publicar requiere preparar, revisar y verificar el proyecto."
+        },
+        {
+          "id": "mod-4-q-3",
+          "question": "¿Qué conviene revisar antes de publicar?",
+          "options": [
+            "Rutas, archivos y datos privados",
+            "Solo el nombre de la carpeta",
+            "Nada, se sube todo",
+            "Únicamente el logo"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: publicar requiere preparar, revisar y verificar el proyecto."
+        },
+        {
+          "id": "mod-4-q-4",
+          "question": "¿Qué problema pueden causar rutas mal escritas?",
+          "options": [
+            "CSS, JS o imágenes rotas",
+            "Mejor rendimiento automático",
+            "Más seguridad",
+            "Menos archivos"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: publicar requiere preparar, revisar y verificar el proyecto."
+        },
+        {
+          "id": "mod-4-q-5",
+          "question": "¿Qué documento ayuda a presentar el proyecto?",
+          "options": [
+            "README.md",
+            "Thumbs.db",
+            ".env",
+            "node_modules"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: publicar requiere preparar, revisar y verificar el proyecto."
+        }
+      ],
+      "professionalOutcome": "preparar archivos, revisar rutas, probar localmente y publicar una version beta. Entregable sugerido: un paquete publicable con estructura, README, prueba local y URL de despliegue."
+    },
+    {
+      "id": "mod-5",
+      "title": "Dominios, enlaces, errores comunes y mantenimiento",
+      "description": "En este modulo vas a trabajar \"Dominios, enlaces, errores comunes y mantenimiento\" dentro de publicacion web estatica, GitHub Pages, Netlify, Vercel, dominios, enlaces y mantenimiento. La meta es construir una pieza pequena, probarla en navegador y dejar evidencia de que funciona para una persona real.",
+      "icon": "WEB",
+      "lessons": [
+        {
+          "id": "mod-5-lesson-1",
+          "title": "Dominios y subdominios",
+          "keyIdea": "Idea clave: Dominios y subdominios sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Dominios y subdominios\" dentro del modulo \"Dominios, enlaces, errores comunes y mantenimiento\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona ya tiene una landing o pagina simple y necesita subirla a internet sin romper rutas ni depender de configuraciones confusas. Aplica \"Dominios y subdominios\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una web publicada con URL, checklist de rutas, prueba en navegador y plan de mantenimiento minimo.",
+          "alert": "No publicar archivos internos, datos privados, claves ni borradores que no deban ser publicos.",
+          "keyPoints": [
+            "Dominios y subdominios debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una web publicada con URL, checklist de rutas, prueba en navegador y plan de mantenimiento minimo.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "mod-5-lesson-2",
+          "title": "Rutas relativas",
+          "keyIdea": "Idea clave: Rutas relativas sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Rutas relativas\" dentro del modulo \"Dominios, enlaces, errores comunes y mantenimiento\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona ya tiene una landing o pagina simple y necesita subirla a internet sin romper rutas ni depender de configuraciones confusas. Aplica \"Rutas relativas\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una web publicada con URL, checklist de rutas, prueba en navegador y plan de mantenimiento minimo.",
+          "alert": "No publicar archivos internos, datos privados, claves ni borradores que no deban ser publicos.",
+          "keyPoints": [
+            "Rutas relativas debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una web publicada con URL, checklist de rutas, prueba en navegador y plan de mantenimiento minimo.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "mod-5-lesson-3",
+          "title": "Caché del navegador",
+          "keyIdea": "Idea clave: Caché del navegador sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Caché del navegador\" dentro del modulo \"Dominios, enlaces, errores comunes y mantenimiento\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona ya tiene una landing o pagina simple y necesita subirla a internet sin romper rutas ni depender de configuraciones confusas. Aplica \"Caché del navegador\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una web publicada con URL, checklist de rutas, prueba en navegador y plan de mantenimiento minimo.",
+          "alert": "No publicar archivos internos, datos privados, claves ni borradores que no deban ser publicos.",
+          "keyPoints": [
+            "Caché del navegador debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una web publicada con URL, checklist de rutas, prueba en navegador y plan de mantenimiento minimo.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "mod-5-lesson-4",
+          "title": "Página 404",
+          "keyIdea": "Idea clave: Página 404 sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Página 404\" dentro del modulo \"Dominios, enlaces, errores comunes y mantenimiento\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona ya tiene una landing o pagina simple y necesita subirla a internet sin romper rutas ni depender de configuraciones confusas. Aplica \"Página 404\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una web publicada con URL, checklist de rutas, prueba en navegador y plan de mantenimiento minimo.",
+          "alert": "No publicar archivos internos, datos privados, claves ni borradores que no deban ser publicos.",
+          "keyPoints": [
+            "Página 404 debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una web publicada con URL, checklist de rutas, prueba en navegador y plan de mantenimiento minimo.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "mod-5-lesson-5",
+          "title": "Actualizar una web publicada",
+          "keyIdea": "Idea clave: Actualizar una web publicada sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Actualizar una web publicada\" dentro del modulo \"Dominios, enlaces, errores comunes y mantenimiento\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona ya tiene una landing o pagina simple y necesita subirla a internet sin romper rutas ni depender de configuraciones confusas. Aplica \"Actualizar una web publicada\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una web publicada con URL, checklist de rutas, prueba en navegador y plan de mantenimiento minimo.",
+          "alert": "No publicar archivos internos, datos privados, claves ni borradores que no deban ser publicos.",
+          "keyPoints": [
+            "Actualizar una web publicada debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una web publicada con URL, checklist de rutas, prueba en navegador y plan de mantenimiento minimo.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "mod-5-lesson-6",
+          "title": "Checklist de mantenimiento",
+          "keyIdea": "Idea clave: Checklist de mantenimiento sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Checklist de mantenimiento\" dentro del modulo \"Dominios, enlaces, errores comunes y mantenimiento\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona ya tiene una landing o pagina simple y necesita subirla a internet sin romper rutas ni depender de configuraciones confusas. Aplica \"Checklist de mantenimiento\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una web publicada con URL, checklist de rutas, prueba en navegador y plan de mantenimiento minimo.",
+          "alert": "No publicar archivos internos, datos privados, claves ni borradores que no deban ser publicos.",
+          "keyPoints": [
+            "Checklist de mantenimiento debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una web publicada con URL, checklist de rutas, prueba en navegador y plan de mantenimiento minimo.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "mod-5-q-1",
+          "question": "¿Qué significa publicar una web?",
+          "options": [
+            "Hacerla accesible mediante una URL pública",
+            "Guardar una carpeta en el escritorio",
+            "Cambiar el color de fondo",
+            "Borrar el código"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: publicar requiere preparar, revisar y verificar el proyecto."
+        },
+        {
+          "id": "mod-5-q-2",
+          "question": "¿Qué archivo suele ser el punto de entrada de una web estática?",
+          "options": [
+            "index.html",
+            "foto.png",
+            "notas.txt",
+            "backup.zip"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: publicar requiere preparar, revisar y verificar el proyecto."
+        },
+        {
+          "id": "mod-5-q-3",
+          "question": "¿Qué conviene revisar antes de publicar?",
+          "options": [
+            "Rutas, archivos y datos privados",
+            "Solo el nombre de la carpeta",
+            "Nada, se sube todo",
+            "Únicamente el logo"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: publicar requiere preparar, revisar y verificar el proyecto."
+        },
+        {
+          "id": "mod-5-q-4",
+          "question": "¿Qué problema pueden causar rutas mal escritas?",
+          "options": [
+            "CSS, JS o imágenes rotas",
+            "Mejor rendimiento automático",
+            "Más seguridad",
+            "Menos archivos"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: publicar requiere preparar, revisar y verificar el proyecto."
+        },
+        {
+          "id": "mod-5-q-5",
+          "question": "¿Qué documento ayuda a presentar el proyecto?",
+          "options": [
+            "README.md",
+            "Thumbs.db",
+            ".env",
+            "node_modules"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: publicar requiere preparar, revisar y verificar el proyecto."
+        }
+      ],
+      "professionalOutcome": "preparar archivos, revisar rutas, probar localmente y publicar una version beta. Entregable sugerido: un paquete publicable con estructura, README, prueba local y URL de despliegue."
+    },
+    {
+      "id": "mod-6",
+      "title": "Proyecto final: publicar una landing simple",
+      "description": "En este modulo vas a trabajar \"Proyecto final: publicar una landing simple\" dentro de publicacion web estatica, GitHub Pages, Netlify, Vercel, dominios, enlaces y mantenimiento. La meta es construir una pieza pequena, probarla en navegador y dejar evidencia de que funciona para una persona real.",
+      "icon": "WEB",
+      "lessons": [
+        {
+          "id": "mod-6-lesson-1",
+          "title": "Preparar landing",
+          "keyIdea": "Idea clave: Preparar landing sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Preparar landing\" dentro del modulo \"Proyecto final: publicar una landing simple\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona ya tiene una landing o pagina simple y necesita subirla a internet sin romper rutas ni depender de configuraciones confusas. Aplica \"Preparar landing\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una web publicada con URL, checklist de rutas, prueba en navegador y plan de mantenimiento minimo.",
+          "alert": "No publicar archivos internos, datos privados, claves ni borradores que no deban ser publicos.",
+          "keyPoints": [
+            "Preparar landing debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una web publicada con URL, checklist de rutas, prueba en navegador y plan de mantenimiento minimo.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "mod-6-lesson-2",
+          "title": "Revisar archivos",
+          "keyIdea": "Idea clave: Revisar archivos sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Revisar archivos\" dentro del modulo \"Proyecto final: publicar una landing simple\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona ya tiene una landing o pagina simple y necesita subirla a internet sin romper rutas ni depender de configuraciones confusas. Aplica \"Revisar archivos\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una web publicada con URL, checklist de rutas, prueba en navegador y plan de mantenimiento minimo.",
+          "alert": "No publicar archivos internos, datos privados, claves ni borradores que no deban ser publicos.",
+          "keyPoints": [
+            "Revisar archivos debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una web publicada con URL, checklist de rutas, prueba en navegador y plan de mantenimiento minimo.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "mod-6-lesson-3",
+          "title": "Crear README",
+          "keyIdea": "Idea clave: Crear README sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Crear README\" dentro del modulo \"Proyecto final: publicar una landing simple\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona ya tiene una landing o pagina simple y necesita subirla a internet sin romper rutas ni depender de configuraciones confusas. Aplica \"Crear README\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una web publicada con URL, checklist de rutas, prueba en navegador y plan de mantenimiento minimo.",
+          "alert": "No publicar archivos internos, datos privados, claves ni borradores que no deban ser publicos.",
+          "keyPoints": [
+            "Crear README debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una web publicada con URL, checklist de rutas, prueba en navegador y plan de mantenimiento minimo.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "mod-6-lesson-4",
+          "title": "Elegir plataforma",
+          "keyIdea": "Idea clave: Elegir plataforma sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Elegir plataforma\" dentro del modulo \"Proyecto final: publicar una landing simple\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona ya tiene una landing o pagina simple y necesita subirla a internet sin romper rutas ni depender de configuraciones confusas. Aplica \"Elegir plataforma\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una web publicada con URL, checklist de rutas, prueba en navegador y plan de mantenimiento minimo.",
+          "alert": "No publicar archivos internos, datos privados, claves ni borradores que no deban ser publicos.",
+          "keyPoints": [
+            "Elegir plataforma debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una web publicada con URL, checklist de rutas, prueba en navegador y plan de mantenimiento minimo.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "mod-6-lesson-5",
+          "title": "Simular publicación",
+          "keyIdea": "Idea clave: Simular publicación sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Simular publicación\" dentro del modulo \"Proyecto final: publicar una landing simple\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona ya tiene una landing o pagina simple y necesita subirla a internet sin romper rutas ni depender de configuraciones confusas. Aplica \"Simular publicación\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una web publicada con URL, checklist de rutas, prueba en navegador y plan de mantenimiento minimo.",
+          "alert": "No publicar archivos internos, datos privados, claves ni borradores que no deban ser publicos.",
+          "keyPoints": [
+            "Simular publicación debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una web publicada con URL, checklist de rutas, prueba en navegador y plan de mantenimiento minimo.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "mod-6-lesson-6",
+          "title": "Revisión final",
+          "keyIdea": "Idea clave: Revisión final sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Revisión final\" dentro del modulo \"Proyecto final: publicar una landing simple\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona ya tiene una landing o pagina simple y necesita subirla a internet sin romper rutas ni depender de configuraciones confusas. Aplica \"Revisión final\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una web publicada con URL, checklist de rutas, prueba en navegador y plan de mantenimiento minimo.",
+          "alert": "No publicar archivos internos, datos privados, claves ni borradores que no deban ser publicos.",
+          "keyPoints": [
+            "Revisión final debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: una web publicada con URL, checklist de rutas, prueba en navegador y plan de mantenimiento minimo.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "mod-6-q-1",
+          "question": "¿Qué significa publicar una web?",
+          "options": [
+            "Hacerla accesible mediante una URL pública",
+            "Guardar una carpeta en el escritorio",
+            "Cambiar el color de fondo",
+            "Borrar el código"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: publicar requiere preparar, revisar y verificar el proyecto."
+        },
+        {
+          "id": "mod-6-q-2",
+          "question": "¿Qué archivo suele ser el punto de entrada de una web estática?",
+          "options": [
+            "index.html",
+            "foto.png",
+            "notas.txt",
+            "backup.zip"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: publicar requiere preparar, revisar y verificar el proyecto."
+        },
+        {
+          "id": "mod-6-q-3",
+          "question": "¿Qué conviene revisar antes de publicar?",
+          "options": [
+            "Rutas, archivos y datos privados",
+            "Solo el nombre de la carpeta",
+            "Nada, se sube todo",
+            "Únicamente el logo"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: publicar requiere preparar, revisar y verificar el proyecto."
+        },
+        {
+          "id": "mod-6-q-4",
+          "question": "¿Qué problema pueden causar rutas mal escritas?",
+          "options": [
+            "CSS, JS o imágenes rotas",
+            "Mejor rendimiento automático",
+            "Más seguridad",
+            "Menos archivos"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: publicar requiere preparar, revisar y verificar el proyecto."
+        },
+        {
+          "id": "mod-6-q-5",
+          "question": "¿Qué documento ayuda a presentar el proyecto?",
+          "options": [
+            "README.md",
+            "Thumbs.db",
+            ".env",
+            "node_modules"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: publicar requiere preparar, revisar y verificar el proyecto."
+        }
+      ],
+      "professionalOutcome": "preparar archivos, revisar rutas, probar localmente y publicar una version beta. Entregable sugerido: un paquete publicable con estructura, README, prueba local y URL de despliegue."
+    }
+  ],
+  "publicationStatus": "publica-profesional-v0.6",
+  "appName": "Publicacion Web para Principiantes",
+  "professionalization": {
+    "tier": "curso-bandera-v1.0-beta",
+    "updatedAt": "2026-05-28",
+    "focus": "Profundizacion visible de lecciones, practicas, checklists y casos."
+  },
+  "editorialPolish": {
+    "fourthEditorialBatch": "2026-06-02",
+    "status": "public-facing-copy-polished"
+  }
+}

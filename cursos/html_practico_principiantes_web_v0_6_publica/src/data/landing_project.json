@@ -1,0 +1,109 @@
+{
+  "projectId": "landing-page-basica-v04",
+  "title": "Proyecto guiado: landing page básica",
+  "description": "Construí una landing page simple usando HTML semántico: hero, beneficios, imagen, llamada a la acción y contacto.",
+  "steps": [
+    {
+      "id": "lp_step_hero",
+      "title": "Hero principal",
+      "goal": "Presentar el propósito de la página con un título claro, un texto breve y un botón.",
+      "semanticHint": "Usá <header> para la presentación inicial y un enlace de acción visible.",
+      "accessibilityHint": "El título principal debe ser único y estar en <h1>."
+    },
+    {
+      "id": "lp_step_benefits",
+      "title": "Beneficios",
+      "goal": "Explicar tres razones por las que la propuesta es útil.",
+      "semanticHint": "Usá una sección <section> con lista <ul> o tarjetas internas.",
+      "accessibilityHint": "Cada beneficio debe poder entenderse sin depender solo de colores o emojis."
+    },
+    {
+      "id": "lp_step_image",
+      "title": "Imagen o recurso visual",
+      "goal": "Agregar una imagen representativa o un marcador de imagen.",
+      "semanticHint": "Usá <figure>, <img> y <figcaption> cuando corresponda.",
+      "accessibilityHint": "Toda imagen informativa necesita atributo alt descriptivo."
+    },
+    {
+      "id": "lp_step_cta",
+      "title": "Llamada a la acción",
+      "goal": "Indicar qué debe hacer el visitante después.",
+      "semanticHint": "Usá un enlace o botón claro dentro de una sección propia.",
+      "accessibilityHint": "El texto del enlace debe ser específico, no solo 'clic aquí'."
+    },
+    {
+      "id": "lp_step_contact",
+      "title": "Contacto básico",
+      "goal": "Agregar una forma simple de contacto o consulta.",
+      "semanticHint": "Usá <form>, <label>, <input> y <textarea> con relación clara.",
+      "accessibilityHint": "Cada campo debe tener su <label>."
+    }
+  ],
+  "fields": [
+    {
+      "id": "siteTitle",
+      "label": "Título principal",
+      "placeholder": "Ej: Taller de Alfabetización Digital"
+    },
+    {
+      "id": "siteSubtitle",
+      "label": "Subtítulo",
+      "placeholder": "Ej: Aprendé a usar herramientas digitales paso a paso"
+    },
+    {
+      "id": "audience",
+      "label": "Público objetivo",
+      "placeholder": "Ej: adultos, estudiantes, emprendedores"
+    },
+    {
+      "id": "benefitOne",
+      "label": "Beneficio 1",
+      "placeholder": "Ej: Aprender desde cero"
+    },
+    {
+      "id": "benefitTwo",
+      "label": "Beneficio 2",
+      "placeholder": "Ej: Practicar con ejemplos reales"
+    },
+    {
+      "id": "benefitThree",
+      "label": "Beneficio 3",
+      "placeholder": "Ej: Avanzar a tu ritmo"
+    },
+    {
+      "id": "imageAlt",
+      "label": "Descripción de imagen",
+      "placeholder": "Ej: Persona usando una computadora"
+    },
+    {
+      "id": "ctaText",
+      "label": "Texto de llamada a la acción",
+      "placeholder": "Ej: Inscribirme al taller"
+    },
+    {
+      "id": "contactEmail",
+      "label": "Email de contacto ficticio",
+      "placeholder": "Ej: contacto@ejemplo.com"
+    }
+  ],
+  "semanticChecklist": [
+    "Tiene un solo <h1> claro.",
+    "Usa <header>, <main>, <section> y <footer>.",
+    "Los títulos siguen un orden lógico.",
+    "Los enlaces tienen texto descriptivo.",
+    "El formulario usa etiquetas <label>."
+  ],
+  "accessibilityChecklist": [
+    "Las imágenes informativas tienen alt descriptivo.",
+    "El formulario puede entenderse sin colores.",
+    "El texto de llamada a la acción es específico.",
+    "La estructura se puede leer de arriba hacia abajo.",
+    "No usa etiquetas solo por apariencia."
+  ],
+  "starterTips": [
+    "Primero escribí el contenido. Después pensá en el diseño con CSS.",
+    "HTML define estructura, no decoración visual.",
+    "Una landing simple debe responder: qué ofrecés, para quién es y qué acción debe hacer la persona.",
+    "La accesibilidad empieza por títulos claros, labels y texto alternativo."
+  ]
+}

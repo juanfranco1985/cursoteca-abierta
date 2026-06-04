@@ -1,0 +1,353 @@
+{
+  "title": "Simulador de situaciones escolares",
+  "description": "Práctica educativa de decisiones frente a redes sociales, juegos, acoso, pedidos peligrosos y cuentas tomadas.",
+  "responsibleNotice": "Si hay amenaza, acoso, pedido sexual, extorsión, difusión de imágenes o riesgo para una persona, no lo enfrentes en soledad: pedí ayuda a familia, escuela o autoridad correspondiente.",
+  "scenarios": [
+    {
+      "id": "esc-desconocido-redes",
+      "category": "Redes sociales",
+      "title": "Un desconocido insiste por privado",
+      "context": "Una cuenta que no conocés te escribe varias veces, te halaga y quiere seguir hablando fuera de la app.",
+      "risk": "Puede ser intento de manipulación, grooming o búsqueda de datos personales.",
+      "goal": "Cortar el contacto, no dar datos y pedir ayuda si insiste.",
+      "maxScore": 100,
+      "options": [
+        {
+          "id": "bloquear-contar",
+          "label": "No responder, bloquear y contarle a un adulto de confianza",
+          "description": "Evitás seguir la conversación y sumás acompañamiento.",
+          "score": 100,
+          "feedback": "Es la respuesta más segura: corta la exposición y permite actuar acompañado.",
+          "nextSteps": [
+            "No envíes datos, fotos ni ubicación.",
+            "Hacé captura del perfil y mensajes si no te expone más.",
+            "Bloqueá y reportá la cuenta.",
+            "Contale a un adulto de confianza."
+          ]
+        },
+        {
+          "id": "seguir-chat",
+          "label": "Seguir hablando para ver qué quiere",
+          "description": "Intentás averiguar por tu cuenta.",
+          "score": 20,
+          "feedback": "Es riesgoso: prolongar la charla puede aumentar manipulación o presión.",
+          "nextSteps": [
+            "Cortá la conversación.",
+            "No compartas información.",
+            "Pedí ayuda y reportá la cuenta."
+          ]
+        },
+        {
+          "id": "pasar-whatsapp",
+          "label": "Pasarle WhatsApp porque parece amable",
+          "description": "Llevás la charla a un canal más privado.",
+          "score": 0,
+          "feedback": "Muy riesgoso: dar WhatsApp facilita presión, llamadas, ubicación o acceso a más datos.",
+          "nextSteps": [
+            "No compartas teléfono.",
+            "Bloqueá el contacto.",
+            "Pedí ayuda."
+          ]
+        }
+      ],
+      "evidence": [
+        "Usuario o enlace del perfil.",
+        "Capturas de mensajes sin reenviar contenido sensible.",
+        "Fecha y hora aproximada."
+      ],
+      "errorsToAvoid": [
+        "Pasar teléfono o ubicación.",
+        "Enviar fotos.",
+        "Borrar todo antes de pedir ayuda."
+      ]
+    },
+    {
+      "id": "esc-foto-dato-personal",
+      "category": "Privacidad",
+      "title": "Me piden una foto o dato personal",
+      "context": "Alguien del grupo o de redes te pide una foto, dirección, escuela, DNI o código para 'verificar' algo.",
+      "risk": "Exposición de privacidad, suplantación o presión posterior.",
+      "goal": "No entregar datos sensibles y pedir orientación.",
+      "maxScore": 100,
+      "options": [
+        {
+          "id": "negar-pedir-ayuda",
+          "label": "Decir que no, no enviar nada y pedir ayuda",
+          "description": "Priorizás privacidad y acompañamiento.",
+          "score": 100,
+          "feedback": "Correcto: los datos sensibles y fotos no deben entregarse bajo presión.",
+          "nextSteps": [
+            "No envíes fotos, códigos ni documentos.",
+            "Guardá evidencia del pedido.",
+            "Consultá con familia o docente."
+          ]
+        },
+        {
+          "id": "enviar-una-foto",
+          "label": "Enviar una foto 'normal' para que no molesten",
+          "description": "Intentás calmar la presión enviando algo.",
+          "score": 25,
+          "feedback": "Sigue siendo riesgoso: una imagen puede circular o usarse fuera de contexto.",
+          "nextSteps": [
+            "No envíes más contenido.",
+            "Pedí ayuda.",
+            "Reportá si hay presión."
+          ]
+        },
+        {
+          "id": "dar-datos-parciales",
+          "label": "Dar solo algunos datos",
+          "description": "Compartís parte de la información.",
+          "score": 35,
+          "feedback": "Los datos parciales también pueden combinarse y exponer identidad o cuentas.",
+          "nextSteps": [
+            "Cortá el envío de datos.",
+            "Revisá privacidad.",
+            "Pedí acompañamiento."
+          ]
+        }
+      ],
+      "evidence": [
+        "Mensaje donde piden la foto o dato.",
+        "Perfil o número que hizo el pedido.",
+        "Contexto de grupo o plataforma."
+      ],
+      "errorsToAvoid": [
+        "Enviar códigos.",
+        "Compartir escuela, domicilio o horarios.",
+        "Responder con enojo y exponerse más."
+      ]
+    },
+    {
+      "id": "esc-cuenta-juego-robada",
+      "category": "Juegos",
+      "title": "Me robaron una cuenta de juego",
+      "context": "Perdiste acceso a una cuenta de juego después de entrar a un sorteo, intercambio de skins o página externa.",
+      "risk": "Robo de cuenta, compras no autorizadas o pérdida de datos asociados.",
+      "goal": "Recuperar por canales oficiales y proteger correo/contraseña.",
+      "maxScore": 100,
+      "options": [
+        {
+          "id": "soporte-oficial",
+          "label": "Contactar soporte oficial y cambiar claves relacionadas",
+          "description": "Actuás por vía segura y protegés cuentas vinculadas.",
+          "score": 100,
+          "feedback": "Muy buena respuesta: evita caer en supuestos recuperadores y protege cuentas conectadas.",
+          "nextSteps": [
+            "Cambiá clave del correo asociado.",
+            "Revisá sesiones y 2FA.",
+            "Contactá soporte oficial del juego.",
+            "Guardá recibos y evidencia."
+          ]
+        },
+        {
+          "id": "pagar-recuperador",
+          "label": "Pagar a alguien que promete recuperarla",
+          "description": "Buscás solución rápida por fuera de la plataforma.",
+          "score": 5,
+          "feedback": "Muy riesgoso: puede ser otra estafa y pedirte más datos o dinero.",
+          "nextSteps": [
+            "No pagues recuperadores.",
+            "Usá canales oficiales.",
+            "Avisá a familia si hay compras o tarjeta asociada."
+          ]
+        },
+        {
+          "id": "crear-otra-cuenta",
+          "label": "Crear otra cuenta y olvidarme",
+          "description": "No revisás el daño ni las cuentas asociadas.",
+          "score": 40,
+          "feedback": "Puede dejar abierto el problema si el correo, clave o tarjeta quedaron comprometidos.",
+          "nextSteps": [
+            "Revisá correo asociado.",
+            "Cambiá contraseñas repetidas.",
+            "Contactá soporte si hay compras."
+          ]
+        }
+      ],
+      "evidence": [
+        "Fecha de pérdida de acceso.",
+        "Emails de cambio de clave.",
+        "Recibos o capturas de compras."
+      ],
+      "errorsToAvoid": [
+        "Entregar códigos a supuestos soportes.",
+        "Usar la misma contraseña en otro juego.",
+        "Pagar recuperadores informales."
+      ]
+    },
+    {
+      "id": "esc-amenaza-publicar",
+      "category": "Acoso/extorsión",
+      "title": "Me amenazan con publicar algo",
+      "context": "Alguien amenaza con publicar una foto, chat o información si no hacés lo que pide.",
+      "risk": "Extorsión, acoso grave y daño emocional o reputacional.",
+      "goal": "No ceder a la presión, conservar evidencia y pedir ayuda inmediata.",
+      "maxScore": 100,
+      "options": [
+        {
+          "id": "guardar-pedir-ayuda",
+          "label": "Guardar evidencia y pedir ayuda inmediata",
+          "description": "No negociás solo/a y buscás acompañamiento adulto.",
+          "score": 100,
+          "feedback": "Es la respuesta más segura ante amenaza o extorsión.",
+          "nextSteps": [
+            "No envíes más contenido ni dinero.",
+            "Guardá capturas, usuario, fecha y hora.",
+            "Pedí ayuda a una persona adulta de confianza.",
+            "Abrí la ruta grave si hay riesgo inmediato."
+          ]
+        },
+        {
+          "id": "ceder-pedido",
+          "label": "Hacer lo que pide para que pare",
+          "description": "Intentás frenar la amenaza obedeciendo.",
+          "score": 0,
+          "feedback": "Ceder suele aumentar la presión y las exigencias.",
+          "nextSteps": [
+            "No envíes más contenido.",
+            "Cortá contacto si es seguro.",
+            "Pedí ayuda urgente."
+          ]
+        },
+        {
+          "id": "amenazar-de-vuelta",
+          "label": "Amenazar de vuelta",
+          "description": "Respondés con enojo o exposición.",
+          "score": 25,
+          "feedback": "Puede escalar el conflicto y hacer más difícil conservar evidencia ordenada.",
+          "nextSteps": [
+            "No sigas discutiendo.",
+            "Conservá evidencia.",
+            "Pedí ayuda."
+          ]
+        }
+      ],
+      "evidence": [
+        "Capturas de amenaza completa.",
+        "Usuario, perfil, número o enlace.",
+        "Fechas, horarios y plataforma."
+      ],
+      "errorsToAvoid": [
+        "Pagar o enviar más contenido.",
+        "Borrar pruebas.",
+        "Enfrentarlo en soledad."
+      ]
+    },
+    {
+      "id": "esc-sorteo-falso",
+      "category": "Estafas",
+      "title": "Me invitan a un sorteo falso",
+      "context": "Un perfil promete premios, skins, entradas o beneficios si entrás a un link o pasás datos.",
+      "risk": "Phishing, robo de cuenta o instalación de app sospechosa.",
+      "goal": "Verificar antes de entrar y no entregar datos.",
+      "maxScore": 100,
+      "options": [
+        {
+          "id": "verificar-reportar",
+          "label": "No entrar, verificar y reportar si parece falso",
+          "description": "Revisás señales antes de tocar links.",
+          "score": 95,
+          "feedback": "Muy seguro: evita entregar credenciales o instalar cosas peligrosas.",
+          "nextSteps": [
+            "No abras links acortados o raros.",
+            "Buscá el sorteo desde el sitio oficial.",
+            "Reportá la cuenta si suplanta a otra."
+          ]
+        },
+        {
+          "id": "entrar-sin-datos",
+          "label": "Entrar al link pero no poner datos",
+          "description": "Creés que mirar no hace daño.",
+          "score": 45,
+          "feedback": "Abrir links también puede exponerte a engaños, descargas o páginas clonadas.",
+          "nextSteps": [
+            "Cerrá la página.",
+            "No descargues nada.",
+            "Revisá si inició sesión en sitios falsos."
+          ]
+        },
+        {
+          "id": "participar-completo",
+          "label": "Completar datos porque quiero participar",
+          "description": "Entregás usuario, contraseña o datos personales.",
+          "score": 0,
+          "feedback": "Riesgo alto de robo de cuenta o datos.",
+          "nextSteps": [
+            "Cambiá contraseña si la ingresaste.",
+            "Activá 2FA.",
+            "Avisá a un adulto si diste datos sensibles."
+          ]
+        }
+      ],
+      "evidence": [
+        "Link recibido.",
+        "Perfil que lo envió.",
+        "Captura de la publicación."
+      ],
+      "errorsToAvoid": [
+        "Ingresar contraseña.",
+        "Descargar archivos.",
+        "Reenviar el sorteo a otros grupos."
+      ]
+    },
+    {
+      "id": "esc-acoso-grupo",
+      "category": "Convivencia digital",
+      "title": "Un compañero me acosa en un grupo",
+      "context": "En un grupo escolar te insultan, te exponen o comparten burlas de forma repetida.",
+      "risk": "Ciberacoso, aislamiento y escalada del conflicto.",
+      "goal": "No alimentar la agresión, documentar y pedir intervención adulta/escolar.",
+      "maxScore": 100,
+      "options": [
+        {
+          "id": "documentar-escuela",
+          "label": "Guardar evidencia y pedir intervención de adulto/escuela",
+          "description": "Buscás resolverlo con acompañamiento.",
+          "score": 100,
+          "feedback": "Correcto: el acoso repetido no debe manejarse en soledad.",
+          "nextSteps": [
+            "Guardá capturas relevantes.",
+            "No respondas con insultos.",
+            "Hablá con familia, docente o preceptor.",
+            "Bloqueá o silenciá si ayuda a cuidarte."
+          ]
+        },
+        {
+          "id": "responder-insultos",
+          "label": "Responder con insultos",
+          "description": "Intentás defenderte atacando.",
+          "score": 25,
+          "feedback": "Puede escalar y confundirse la evidencia del acoso original.",
+          "nextSteps": [
+            "Dejá de responder.",
+            "Guardá evidencia.",
+            "Pedí ayuda."
+          ]
+        },
+        {
+          "id": "borrar-salir",
+          "label": "Borrar todo y salir del grupo",
+          "description": "Buscás que termine rápido.",
+          "score": 45,
+          "feedback": "Puede protegerte parcialmente, pero borrar todo deja menos evidencia para pedir ayuda.",
+          "nextSteps": [
+            "Guardá evidencia antes si es seguro.",
+            "Pedí acompañamiento.",
+            "Revisá privacidad."
+          ]
+        }
+      ],
+      "evidence": [
+        "Capturas con fecha/hora si aparecen.",
+        "Nombres del grupo y participantes relevantes.",
+        "Secuencia de mensajes, no solo uno aislado."
+      ],
+      "errorsToAvoid": [
+        "Responder con violencia.",
+        "Publicarlo en otro grupo.",
+        "Ocultarlo si te afecta mucho."
+      ]
+    }
+  ]
+}

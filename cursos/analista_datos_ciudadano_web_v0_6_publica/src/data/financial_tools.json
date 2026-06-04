@@ -1,0 +1,209 @@
+{
+  "budgetCategories": [
+    {
+      "id": "registros",
+      "label": "Cantidad de registros"
+    },
+    {
+      "id": "categorias",
+      "label": "Cantidad de categorías"
+    },
+    {
+      "id": "faltantes",
+      "label": "Celdas faltantes críticas"
+    },
+    {
+      "id": "duplicados",
+      "label": "Posibles duplicados"
+    },
+    {
+      "id": "errores",
+      "label": "Valores sospechosos"
+    },
+    {
+      "id": "acciones",
+      "label": "Acciones pendientes"
+    }
+  ],
+  "antExpenses": [
+    {
+      "id": "duplicados",
+      "label": "Duplicados detectados"
+    },
+    {
+      "id": "vacios",
+      "label": "Campos vacíos"
+    },
+    {
+      "id": "categorias",
+      "label": "Categorías mal escritas"
+    },
+    {
+      "id": "fechas",
+      "label": "Fechas con formato distinto"
+    },
+    {
+      "id": "totales",
+      "label": "Totales incoherentes"
+    }
+  ],
+  "messages": [
+    {
+      "id": "reporte_breve",
+      "title": "Reporte breve de hallazgo",
+      "body": "Detecté [hallazgo] en [tabla/período]. La evidencia principal es [dato]. Antes de decidir, conviene revisar [límite o dato faltante]. Próxima acción sugerida: [acción]."
+    },
+    {
+      "id": "pedido_datos",
+      "title": "Pedido de datos faltantes",
+      "body": "Para completar el análisis necesito confirmar: [dato faltante], [período], [fuente] y [criterio]. Sin esa información, la conclusión puede quedar incompleta."
+    },
+    {
+      "id": "alerta_calidad",
+      "title": "Alerta de calidad de datos",
+      "body": "Antes de usar esta tabla conviene revisar duplicados, fechas, categorías y valores extremos. No recomiendo tomar decisiones hasta validar esos puntos."
+    }
+  ],
+  "riskQuestions": [
+    {
+      "id": "q_missing",
+      "question": "¿Hay datos faltantes en columnas importantes?",
+      "weight": 2
+    },
+    {
+      "id": "q_duplicates",
+      "question": "¿Detectaste registros duplicados?",
+      "weight": 2
+    },
+    {
+      "id": "q_sensitive",
+      "question": "¿La tabla contiene datos personales o sensibles innecesarios?",
+      "weight": 3
+    },
+    {
+      "id": "q_unclear",
+      "question": "¿La pregunta de análisis está poco clara?",
+      "weight": 1
+    },
+    {
+      "id": "q_inconsistent",
+      "question": "¿Los totales o categorías no coinciden?",
+      "weight": 3
+    }
+  ],
+  "riskLevels": [
+    {
+      "min": 0,
+      "max": 2,
+      "label": "Calidad aceptable para práctica",
+      "advice": "Podés continuar, aclarando límites."
+    },
+    {
+      "min": 3,
+      "max": 6,
+      "label": "Revisión necesaria",
+      "advice": "Limpiá faltantes, duplicados y categorías antes de concluir."
+    },
+    {
+      "min": 7,
+      "max": 99,
+      "label": "No usar para decidir todavía",
+      "advice": "La tabla requiere limpieza y validación antes de cualquier reporte."
+    }
+  ],
+  "duePlannerDefaults": {
+    "categories": [
+      "Limpieza",
+      "Métrica",
+      "Reporte",
+      "Visualización",
+      "Revisión"
+    ],
+    "priorityRules": [
+      {
+        "days": 1,
+        "label": "urgente"
+      },
+      {
+        "days": 3,
+        "label": "alta"
+      },
+      {
+        "days": 7,
+        "label": "media"
+      }
+    ]
+  },
+  "specialChecklists": [
+    {
+      "id": "tabla_sucia",
+      "title": "Checklist ante tabla inconsistente",
+      "description": "Guía rápida antes de calcular.",
+      "items": [
+        "Conservar copia original",
+        "Buscar vacíos críticos",
+        "Revisar duplicados",
+        "Validar fechas",
+        "Controlar totales",
+        "Anotar cambios"
+      ]
+    },
+    {
+      "id": "reporte_externo",
+      "title": "Checklist antes de compartir un reporte",
+      "description": "Guía para comunicar con prudencia.",
+      "items": [
+        "Título y período claros",
+        "Fuente indicada",
+        "Datos sensibles eliminados",
+        "Conclusión prudente",
+        "Límites explicados",
+        "Próxima acción definida"
+      ]
+    }
+  ],
+  "commerceGuide": {
+    "title": "Guía de análisis para pequeños negocios",
+    "description": "Rutina simple para convertir registros de ventas, stock y gastos en decisiones prácticas.",
+    "sections": [
+      {
+        "kicker": "Ventas",
+        "title": "Qué mirar cada semana",
+        "items": [
+          "Producto más vendido",
+          "Categoría con mayor ingreso",
+          "Días de mayor movimiento",
+          "Medio de pago más usado"
+        ]
+      },
+      {
+        "kicker": "Stock",
+        "title": "Cruzar ventas y stock",
+        "items": [
+          "Alta venta y bajo stock",
+          "Baja venta y alto stock",
+          "Productos sin movimiento",
+          "Reposición prioritaria"
+        ]
+      },
+      {
+        "kicker": "Reporte",
+        "title": "Cierre simple",
+        "items": [
+          "Hallazgo principal",
+          "Dato que lo respalda",
+          "Límite del análisis",
+          "Acción para la semana siguiente"
+        ]
+      }
+    ],
+    "printableRoutine": [
+      "Exportar o copiar ventas de la semana",
+      "Revisar vacíos y duplicados",
+      "Agrupar por producto o categoría",
+      "Calcular total y cantidad",
+      "Escribir 3 hallazgos",
+      "Definir una acción concreta"
+    ]
+  }
+}

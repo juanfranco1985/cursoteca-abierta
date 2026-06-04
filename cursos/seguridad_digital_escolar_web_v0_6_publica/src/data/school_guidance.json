@@ -1,0 +1,157 @@
+{
+  "title": "Guías para familias, docentes y escuelas",
+  "description": "Material práctico para acompañar conversaciones difíciles, ordenar evidencia y actuar con cuidado ante situaciones digitales escolares.",
+  "familyGuides": [
+    {
+      "id": "familia-escuchar-sin-retar",
+      "title": "Escuchar sin retar primero",
+      "audience": "Familia",
+      "summary": "La primera respuesta adulta debe bajar el miedo y abrir conversación.",
+      "steps": [
+        "Agradecé que te lo contó.",
+        "No le quites el celular como primera reacción.",
+        "Preguntá qué pasó, cuándo empezó y qué necesita ahora.",
+        "Guardá capturas con fecha visible si corresponde.",
+        "Definí juntos el próximo paso seguro."
+      ],
+      "avoid": [
+        "Culpar al estudiante.",
+        "Publicar el caso en grupos.",
+        "Responder impulsivamente al agresor."
+      ]
+    },
+    {
+      "id": "familia-acompanar-cuenta-tomada",
+      "title": "Acompañar una cuenta tomada",
+      "audience": "Familia",
+      "summary": "Ordena recuperación, evidencia y avisos sin exponer más datos.",
+      "steps": [
+        "Intenten recuperar desde canales oficiales.",
+        "Cambien contraseña del correo principal desde dispositivo seguro.",
+        "Avisen a contactos cercanos que ignoren pedidos raros.",
+        "Revisen sesiones abiertas y métodos de recuperación.",
+        "Registren lo ocurrido en una nota simple."
+      ],
+      "avoid": [
+        "Pagar rescates.",
+        "Compartir códigos de verificación.",
+        "Instalar apps de recuperación desconocidas."
+      ]
+    },
+    {
+      "id": "familia-acoso-grupo",
+      "title": "Acompañar acoso en grupo",
+      "audience": "Familia",
+      "summary": "Prioriza seguridad emocional, evidencia y conversación con la escuela.",
+      "steps": [
+        "Pedí capturas sin responder agresivamente.",
+        "Anotá nombres, fechas y plataforma.",
+        "Hablá con preceptor, tutor o autoridad escolar.",
+        "Definan si conviene bloquear, silenciar o reportar.",
+        "Acompañá emocionalmente y observá cambios de ánimo."
+      ],
+      "avoid": [
+        "Exponer el caso públicamente.",
+        "Responder con insultos.",
+        "Minimizarlo como una broma."
+      ]
+    }
+  ],
+  "teacherGuides": [
+    {
+      "id": "docente-recibir-relato",
+      "title": "Recibir un relato de riesgo digital",
+      "audience": "Docente/Preceptor",
+      "summary": "Guía para escuchar, registrar y derivar sin investigar de manera invasiva.",
+      "steps": [
+        "Escuchá sin prometer confidencialidad absoluta.",
+        "Registrá fecha, hora, plataforma y relato básico.",
+        "No pidas ver material íntimo ni lo reenvíes.",
+        "Activá el protocolo interno de la institución.",
+        "Informá a directivos y familia según corresponda."
+      ],
+      "avoid": [
+        "Interrogar repetidamente.",
+        "Guardar evidencia sensible en dispositivos personales.",
+        "Resolver fuera del marco institucional."
+      ]
+    },
+    {
+      "id": "docente-evidencia-minima",
+      "title": "Evidencia mínima cuidada",
+      "audience": "Docente/Preceptor",
+      "summary": "Cómo preservar datos útiles sin multiplicar exposición.",
+      "steps": [
+        "Anotá quién reporta y qué plataforma está involucrada.",
+        "Indicá que no borren mensajes relevantes.",
+        "Solicitá capturas solo si no exponen material sensible.",
+        "Usá canales institucionales para escalar.",
+        "Dejá constancia breve de acciones tomadas."
+      ],
+      "avoid": [
+        "Compartir capturas en grupos docentes.",
+        "Descargar archivos sospechosos.",
+        "Pedir contraseñas al estudiante."
+      ]
+    },
+    {
+      "id": "docente-intervenir-grupo",
+      "title": "Intervenir ante acoso en grupo",
+      "audience": "Docente/Preceptor",
+      "summary": "Orden para actuar ante hostigamiento, amenazas o difusión no consentida.",
+      "steps": [
+        "Separá contención del estudiante afectado de la investigación.",
+        "Evitá exponer a la persona en clase.",
+        "Escalá a equipo directivo/orientación.",
+        "Documentá acciones y comunicaciones.",
+        "Planificá seguimiento posterior."
+      ],
+      "avoid": [
+        "Hacer una charla que señale a la víctima.",
+        "Pedir explicaciones públicas.",
+        "Tratar amenazas como simple conflicto menor."
+      ]
+    }
+  ],
+  "schoolProtocol": {
+    "id": "protocolo-escolar-casos-graves",
+    "title": "Protocolo educativo para casos graves",
+    "whenToUse": [
+      "Amenaza explícita o extorsión.",
+      "Pedido sexual o grooming.",
+      "Difusión o amenaza de difusión de imágenes íntimas.",
+      "Acoso sostenido con daño emocional.",
+      "Robo de cuenta usado para pedir dinero o datos."
+    ],
+    "steps": [
+      "Contener al estudiante y evitar exposición pública.",
+      "Conservar evidencia mínima necesaria sin reenviar material sensible.",
+      "Avisar a directivos/equipo de orientación según protocolo local.",
+      "Contactar a familia o adulto responsable de manera cuidada.",
+      "Reportar en la plataforma involucrada cuando corresponda.",
+      "Consultar canales oficiales o profesionales si la situación lo requiere.",
+      "Registrar acciones realizadas y responsables."
+    ],
+    "doNot": [
+      "No enfrentar al presunto agresor de forma improvisada.",
+      "No reenviar imágenes o capturas sensibles.",
+      "No prometer resultados garantizados.",
+      "No dejar solo al estudiante con la carga del problema."
+    ],
+    "responsibleNote": "Esta guía es educativa. Cada escuela debe seguir su normativa, protocolo institucional y canales oficiales correspondientes."
+  },
+  "conversationReport": {
+    "id": "reporte-conversacion-adulto-escuela",
+    "title": "Reporte imprimible para conversar con un adulto o la escuela",
+    "sections": [
+      "Qué ocurrió",
+      "Cuándo empezó",
+      "Dónde ocurrió",
+      "Quiénes están involucrados",
+      "Qué evidencia existe",
+      "Qué se necesita ahora",
+      "Adulto o área que acompañará",
+      "Próximo paso acordado"
+    ]
+  }
+}

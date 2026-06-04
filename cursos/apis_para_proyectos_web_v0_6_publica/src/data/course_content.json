@@ -1,0 +1,1050 @@
+{
+  "courseId": "apis-para-proyectos-web",
+  "title": "APIs para Proyectos Web",
+  "version": "0.6-publica",
+  "publicationStatus": "publica-profesional-v0.6",
+  "modules": [
+    {
+      "id": "m1",
+      "title": "Fundamentos de APIs y JSON",
+      "description": "En este modulo vas a trabajar \"Fundamentos de APIs y JSON\" dentro de APIs web, JSON, fetch, errores, datos externos, mini dashboards y mantenimiento. La meta es construir una pieza pequena, probarla en navegador y dejar evidencia de que funciona para una persona real.",
+      "lessons": [
+        {
+          "id": "m1-l1",
+          "title": "Que es una API",
+          "keyIdea": "Idea clave: Que es una API sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Que es una API\" dentro del modulo \"Fundamentos de APIs y JSON\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona quiere mostrar datos externos en una pagina y necesita que el proyecto responda bien aunque la API tarde o falle. Aplica \"Que es una API\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un componente o pagina con API, estado de carga, error controlado, dato mostrado y nota de mantenimiento.",
+          "alert": "No exponer claves privadas en frontend ni usar APIs sin revisar terminos, cuotas y permisos.",
+          "keyPoints": [
+            "Que es una API debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un componente o pagina con API, estado de carga, error controlado, dato mostrado y nota de mantenimiento.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m1-l2",
+          "title": "Cliente y servidor",
+          "keyIdea": "Idea clave: Cliente y servidor sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Cliente y servidor\" dentro del modulo \"Fundamentos de APIs y JSON\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona quiere mostrar datos externos en una pagina y necesita que el proyecto responda bien aunque la API tarde o falle. Aplica \"Cliente y servidor\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un componente o pagina con API, estado de carga, error controlado, dato mostrado y nota de mantenimiento.",
+          "alert": "No exponer claves privadas en frontend ni usar APIs sin revisar terminos, cuotas y permisos.",
+          "keyPoints": [
+            "Cliente y servidor debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un componente o pagina con API, estado de carga, error controlado, dato mostrado y nota de mantenimiento.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m1-l3",
+          "title": "Endpoints",
+          "keyIdea": "Idea clave: Endpoints sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Endpoints\" dentro del modulo \"Fundamentos de APIs y JSON\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona quiere mostrar datos externos en una pagina y necesita que el proyecto responda bien aunque la API tarde o falle. Aplica \"Endpoints\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un componente o pagina con API, estado de carga, error controlado, dato mostrado y nota de mantenimiento.",
+          "alert": "No exponer claves privadas en frontend ni usar APIs sin revisar terminos, cuotas y permisos.",
+          "keyPoints": [
+            "Endpoints debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un componente o pagina con API, estado de carga, error controlado, dato mostrado y nota de mantenimiento.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m1-l4",
+          "title": "Metodos HTTP basicos",
+          "keyIdea": "Idea clave: Metodos HTTP basicos sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Metodos HTTP basicos\" dentro del modulo \"Fundamentos de APIs y JSON\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona quiere mostrar datos externos en una pagina y necesita que el proyecto responda bien aunque la API tarde o falle. Aplica \"Metodos HTTP basicos\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un componente o pagina con API, estado de carga, error controlado, dato mostrado y nota de mantenimiento.",
+          "alert": "No exponer claves privadas en frontend ni usar APIs sin revisar terminos, cuotas y permisos.",
+          "keyPoints": [
+            "Metodos HTTP basicos debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un componente o pagina con API, estado de carga, error controlado, dato mostrado y nota de mantenimiento.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m1-l5",
+          "title": "JSON como formato",
+          "keyIdea": "Idea clave: JSON como formato sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"JSON como formato\" dentro del modulo \"Fundamentos de APIs y JSON\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona quiere mostrar datos externos en una pagina y necesita que el proyecto responda bien aunque la API tarde o falle. Aplica \"JSON como formato\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un componente o pagina con API, estado de carga, error controlado, dato mostrado y nota de mantenimiento.",
+          "alert": "No exponer claves privadas en frontend ni usar APIs sin revisar terminos, cuotas y permisos.",
+          "keyPoints": [
+            "JSON como formato debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un componente o pagina con API, estado de carga, error controlado, dato mostrado y nota de mantenimiento.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m1-l6",
+          "title": "Leer una respuesta simple",
+          "keyIdea": "Idea clave: Leer una respuesta simple sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Leer una respuesta simple\" dentro del modulo \"Fundamentos de APIs y JSON\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona quiere mostrar datos externos en una pagina y necesita que el proyecto responda bien aunque la API tarde o falle. Aplica \"Leer una respuesta simple\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un componente o pagina con API, estado de carga, error controlado, dato mostrado y nota de mantenimiento.",
+          "alert": "No exponer claves privadas en frontend ni usar APIs sin revisar terminos, cuotas y permisos.",
+          "keyPoints": [
+            "Leer una respuesta simple debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un componente o pagina con API, estado de carga, error controlado, dato mostrado y nota de mantenimiento.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m1-q1",
+          "question": "Pregunta 1: ¿cual es una buena practica en ",
+          "options": [
+            "Identificar endpoint, datos esperados y limite de uso antes de programar",
+            "Pegar cualquier URL sin leer documentacion",
+            "Guardar claves privadas en el navegador",
+            "Ignorar errores de red"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        },
+        {
+          "id": "m1-q2",
+          "question": "Pregunta 2: ¿cual es una buena practica en ",
+          "options": [
+            "Identificar endpoint, datos esperados y limite de uso antes de programar",
+            "Pegar cualquier URL sin leer documentacion",
+            "Guardar claves privadas en el navegador",
+            "Ignorar errores de red"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        },
+        {
+          "id": "m1-q3",
+          "question": "Pregunta 3: ¿cual es una buena practica en ",
+          "options": [
+            "Identificar endpoint, datos esperados y limite de uso antes de programar",
+            "Pegar cualquier URL sin leer documentacion",
+            "Guardar claves privadas en el navegador",
+            "Ignorar errores de red"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        },
+        {
+          "id": "m1-q4",
+          "question": "Pregunta 4: ¿cual es una buena practica en ",
+          "options": [
+            "Identificar endpoint, datos esperados y limite de uso antes de programar",
+            "Pegar cualquier URL sin leer documentacion",
+            "Guardar claves privadas en el navegador",
+            "Ignorar errores de red"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        },
+        {
+          "id": "m1-q5",
+          "question": "Pregunta 5: ¿cual es una buena practica en ",
+          "options": [
+            "Identificar endpoint, datos esperados y limite de uso antes de programar",
+            "Pegar cualquier URL sin leer documentacion",
+            "Guardar claves privadas en el navegador",
+            "Ignorar errores de red"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        }
+      ],
+      "professionalOutcome": "entender endpoints, parametros, respuestas, errores y limites de uso. Entregable sugerido: una pagina que consulta una API, muestra datos y maneja errores de forma clara."
+    },
+    {
+      "id": "m2",
+      "title": "Fetch y estados de carga",
+      "description": "En este modulo vas a trabajar \"Fetch y estados de carga\" dentro de APIs web, JSON, fetch, errores, datos externos, mini dashboards y mantenimiento. La meta es construir una pieza pequena, probarla en navegador y dejar evidencia de que funciona para una persona real.",
+      "lessons": [
+        {
+          "id": "m2-l1",
+          "title": "fetch paso a paso",
+          "keyIdea": "Idea clave: fetch paso a paso sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"fetch paso a paso\" dentro del modulo \"Fetch y estados de carga\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona quiere mostrar datos externos en una pagina y necesita que el proyecto responda bien aunque la API tarde o falle. Aplica \"fetch paso a paso\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un componente o pagina con API, estado de carga, error controlado, dato mostrado y nota de mantenimiento.",
+          "alert": "No exponer claves privadas en frontend ni usar APIs sin revisar terminos, cuotas y permisos.",
+          "keyPoints": [
+            "fetch paso a paso debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un componente o pagina con API, estado de carga, error controlado, dato mostrado y nota de mantenimiento.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m2-l2",
+          "title": "Promesas y async await",
+          "keyIdea": "Idea clave: Promesas y async await sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Promesas y async await\" dentro del modulo \"Fetch y estados de carga\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona quiere mostrar datos externos en una pagina y necesita que el proyecto responda bien aunque la API tarde o falle. Aplica \"Promesas y async await\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un componente o pagina con API, estado de carga, error controlado, dato mostrado y nota de mantenimiento.",
+          "alert": "No exponer claves privadas en frontend ni usar APIs sin revisar terminos, cuotas y permisos.",
+          "keyPoints": [
+            "Promesas y async await debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un componente o pagina con API, estado de carga, error controlado, dato mostrado y nota de mantenimiento.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m2-l3",
+          "title": "response.ok",
+          "keyIdea": "Idea clave: response.ok sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"response.ok\" dentro del modulo \"Fetch y estados de carga\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona quiere mostrar datos externos en una pagina y necesita que el proyecto responda bien aunque la API tarde o falle. Aplica \"response.ok\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un componente o pagina con API, estado de carga, error controlado, dato mostrado y nota de mantenimiento.",
+          "alert": "No exponer claves privadas en frontend ni usar APIs sin revisar terminos, cuotas y permisos.",
+          "keyPoints": [
+            "response.ok debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un componente o pagina con API, estado de carga, error controlado, dato mostrado y nota de mantenimiento.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m2-l4",
+          "title": "Parsear JSON",
+          "keyIdea": "Idea clave: Parsear JSON sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Parsear JSON\" dentro del modulo \"Fetch y estados de carga\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona quiere mostrar datos externos en una pagina y necesita que el proyecto responda bien aunque la API tarde o falle. Aplica \"Parsear JSON\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un componente o pagina con API, estado de carga, error controlado, dato mostrado y nota de mantenimiento.",
+          "alert": "No exponer claves privadas en frontend ni usar APIs sin revisar terminos, cuotas y permisos.",
+          "keyPoints": [
+            "Parsear JSON debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un componente o pagina con API, estado de carga, error controlado, dato mostrado y nota de mantenimiento.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m2-l5",
+          "title": "Loading state",
+          "keyIdea": "Idea clave: Loading state sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Loading state\" dentro del modulo \"Fetch y estados de carga\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona quiere mostrar datos externos en una pagina y necesita que el proyecto responda bien aunque la API tarde o falle. Aplica \"Loading state\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un componente o pagina con API, estado de carga, error controlado, dato mostrado y nota de mantenimiento.",
+          "alert": "No exponer claves privadas en frontend ni usar APIs sin revisar terminos, cuotas y permisos.",
+          "keyPoints": [
+            "Loading state debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un componente o pagina con API, estado de carga, error controlado, dato mostrado y nota de mantenimiento.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m2-l6",
+          "title": "Mostrar datos en pantalla",
+          "keyIdea": "Idea clave: Mostrar datos en pantalla sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Mostrar datos en pantalla\" dentro del modulo \"Fetch y estados de carga\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona quiere mostrar datos externos en una pagina y necesita que el proyecto responda bien aunque la API tarde o falle. Aplica \"Mostrar datos en pantalla\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un componente o pagina con API, estado de carga, error controlado, dato mostrado y nota de mantenimiento.",
+          "alert": "No exponer claves privadas en frontend ni usar APIs sin revisar terminos, cuotas y permisos.",
+          "keyPoints": [
+            "Mostrar datos en pantalla debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un componente o pagina con API, estado de carga, error controlado, dato mostrado y nota de mantenimiento.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m2-q1",
+          "question": "Pregunta 1: ¿cual es una buena practica en ",
+          "options": [
+            "Mostrar estados de carga, exito y error para orientar al usuario",
+            "Asumir que toda respuesta llega bien",
+            "Bloquear la pantalla sin aviso",
+            "Mezclar datos sin validar"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        },
+        {
+          "id": "m2-q2",
+          "question": "Pregunta 2: ¿cual es una buena practica en ",
+          "options": [
+            "Mostrar estados de carga, exito y error para orientar al usuario",
+            "Asumir que toda respuesta llega bien",
+            "Bloquear la pantalla sin aviso",
+            "Mezclar datos sin validar"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        },
+        {
+          "id": "m2-q3",
+          "question": "Pregunta 3: ¿cual es una buena practica en ",
+          "options": [
+            "Mostrar estados de carga, exito y error para orientar al usuario",
+            "Asumir que toda respuesta llega bien",
+            "Bloquear la pantalla sin aviso",
+            "Mezclar datos sin validar"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        },
+        {
+          "id": "m2-q4",
+          "question": "Pregunta 4: ¿cual es una buena practica en ",
+          "options": [
+            "Mostrar estados de carga, exito y error para orientar al usuario",
+            "Asumir que toda respuesta llega bien",
+            "Bloquear la pantalla sin aviso",
+            "Mezclar datos sin validar"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        },
+        {
+          "id": "m2-q5",
+          "question": "Pregunta 5: ¿cual es una buena practica en ",
+          "options": [
+            "Mostrar estados de carga, exito y error para orientar al usuario",
+            "Asumir que toda respuesta llega bien",
+            "Bloquear la pantalla sin aviso",
+            "Mezclar datos sin validar"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        }
+      ],
+      "professionalOutcome": "entender endpoints, parametros, respuestas, errores y limites de uso. Entregable sugerido: una pagina que consulta una API, muestra datos y maneja errores de forma clara."
+    },
+    {
+      "id": "m3",
+      "title": "Errores, seguridad y limites",
+      "description": "En este modulo vas a trabajar \"Errores, seguridad y limites\" dentro de APIs web, JSON, fetch, errores, datos externos, mini dashboards y mantenimiento. La meta es construir una pieza pequena, probarla en navegador y dejar evidencia de que funciona para una persona real.",
+      "lessons": [
+        {
+          "id": "m3-l1",
+          "title": "Errores de red",
+          "keyIdea": "Idea clave: Errores de red sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Errores de red\" dentro del modulo \"Errores, seguridad y limites\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona quiere mostrar datos externos en una pagina y necesita que el proyecto responda bien aunque la API tarde o falle. Aplica \"Errores de red\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un componente o pagina con API, estado de carga, error controlado, dato mostrado y nota de mantenimiento.",
+          "alert": "No exponer claves privadas en frontend ni usar APIs sin revisar terminos, cuotas y permisos.",
+          "keyPoints": [
+            "Errores de red debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un componente o pagina con API, estado de carga, error controlado, dato mostrado y nota de mantenimiento.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m3-l2",
+          "title": "Codigos de estado",
+          "keyIdea": "Idea clave: Codigos de estado sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Codigos de estado\" dentro del modulo \"Errores, seguridad y limites\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona quiere mostrar datos externos en una pagina y necesita que el proyecto responda bien aunque la API tarde o falle. Aplica \"Codigos de estado\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un componente o pagina con API, estado de carga, error controlado, dato mostrado y nota de mantenimiento.",
+          "alert": "No exponer claves privadas en frontend ni usar APIs sin revisar terminos, cuotas y permisos.",
+          "keyPoints": [
+            "Codigos de estado debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un componente o pagina con API, estado de carga, error controlado, dato mostrado y nota de mantenimiento.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m3-l3",
+          "title": "CORS explicado simple",
+          "keyIdea": "Idea clave: CORS explicado simple sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"CORS explicado simple\" dentro del modulo \"Errores, seguridad y limites\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona quiere mostrar datos externos en una pagina y necesita que el proyecto responda bien aunque la API tarde o falle. Aplica \"CORS explicado simple\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un componente o pagina con API, estado de carga, error controlado, dato mostrado y nota de mantenimiento.",
+          "alert": "No exponer claves privadas en frontend ni usar APIs sin revisar terminos, cuotas y permisos.",
+          "keyPoints": [
+            "CORS explicado simple debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un componente o pagina con API, estado de carga, error controlado, dato mostrado y nota de mantenimiento.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m3-l4",
+          "title": "Claves publicas y privadas",
+          "keyIdea": "Idea clave: Claves publicas y privadas sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Claves publicas y privadas\" dentro del modulo \"Errores, seguridad y limites\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona quiere mostrar datos externos en una pagina y necesita que el proyecto responda bien aunque la API tarde o falle. Aplica \"Claves publicas y privadas\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un componente o pagina con API, estado de carga, error controlado, dato mostrado y nota de mantenimiento.",
+          "alert": "No exponer claves privadas en frontend ni usar APIs sin revisar terminos, cuotas y permisos.",
+          "keyPoints": [
+            "Claves publicas y privadas debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un componente o pagina con API, estado de carga, error controlado, dato mostrado y nota de mantenimiento.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m3-l5",
+          "title": "Rate limits",
+          "keyIdea": "Idea clave: Rate limits sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Rate limits\" dentro del modulo \"Errores, seguridad y limites\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona quiere mostrar datos externos en una pagina y necesita que el proyecto responda bien aunque la API tarde o falle. Aplica \"Rate limits\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un componente o pagina con API, estado de carga, error controlado, dato mostrado y nota de mantenimiento.",
+          "alert": "No exponer claves privadas en frontend ni usar APIs sin revisar terminos, cuotas y permisos.",
+          "keyPoints": [
+            "Rate limits debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un componente o pagina con API, estado de carga, error controlado, dato mostrado y nota de mantenimiento.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m3-l6",
+          "title": "Privacidad de datos",
+          "keyIdea": "Idea clave: Privacidad de datos sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Privacidad de datos\" dentro del modulo \"Errores, seguridad y limites\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona quiere mostrar datos externos en una pagina y necesita que el proyecto responda bien aunque la API tarde o falle. Aplica \"Privacidad de datos\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un componente o pagina con API, estado de carga, error controlado, dato mostrado y nota de mantenimiento.",
+          "alert": "No exponer claves privadas en frontend ni usar APIs sin revisar terminos, cuotas y permisos.",
+          "keyPoints": [
+            "Privacidad de datos debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un componente o pagina con API, estado de carga, error controlado, dato mostrado y nota de mantenimiento.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m3-q1",
+          "question": "Pregunta 1: ¿cual es una buena practica en ",
+          "options": [
+            "Tratar errores y no exponer secretos en codigo publico",
+            "Subir tokens privados a GitHub",
+            "Culpar al usuario por fallos de red",
+            "Reintentar sin limite"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        },
+        {
+          "id": "m3-q2",
+          "question": "Pregunta 2: ¿cual es una buena practica en ",
+          "options": [
+            "Tratar errores y no exponer secretos en codigo publico",
+            "Subir tokens privados a GitHub",
+            "Culpar al usuario por fallos de red",
+            "Reintentar sin limite"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        },
+        {
+          "id": "m3-q3",
+          "question": "Pregunta 3: ¿cual es una buena practica en ",
+          "options": [
+            "Tratar errores y no exponer secretos en codigo publico",
+            "Subir tokens privados a GitHub",
+            "Culpar al usuario por fallos de red",
+            "Reintentar sin limite"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        },
+        {
+          "id": "m3-q4",
+          "question": "Pregunta 4: ¿cual es una buena practica en ",
+          "options": [
+            "Tratar errores y no exponer secretos en codigo publico",
+            "Subir tokens privados a GitHub",
+            "Culpar al usuario por fallos de red",
+            "Reintentar sin limite"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        },
+        {
+          "id": "m3-q5",
+          "question": "Pregunta 5: ¿cual es una buena practica en ",
+          "options": [
+            "Tratar errores y no exponer secretos en codigo publico",
+            "Subir tokens privados a GitHub",
+            "Culpar al usuario por fallos de red",
+            "Reintentar sin limite"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        }
+      ],
+      "professionalOutcome": "entender endpoints, parametros, respuestas, errores y limites de uso. Entregable sugerido: una pagina que consulta una API, muestra datos y maneja errores de forma clara."
+    },
+    {
+      "id": "m4",
+      "title": "APIs publicas y datos simulados",
+      "description": "En este modulo vas a trabajar \"APIs publicas y datos simulados\" dentro de APIs web, JSON, fetch, errores, datos externos, mini dashboards y mantenimiento. La meta es construir una pieza pequena, probarla en navegador y dejar evidencia de que funciona para una persona real.",
+      "lessons": [
+        {
+          "id": "m4-l1",
+          "title": "Elegir una API publica",
+          "keyIdea": "Idea clave: Elegir una API publica sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Elegir una API publica\" dentro del modulo \"APIs publicas y datos simulados\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona quiere mostrar datos externos en una pagina y necesita que el proyecto responda bien aunque la API tarde o falle. Aplica \"Elegir una API publica\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un componente o pagina con API, estado de carga, error controlado, dato mostrado y nota de mantenimiento.",
+          "alert": "No exponer claves privadas en frontend ni usar APIs sin revisar terminos, cuotas y permisos.",
+          "keyPoints": [
+            "Elegir una API publica debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un componente o pagina con API, estado de carga, error controlado, dato mostrado y nota de mantenimiento.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m4-l2",
+          "title": "Leer documentacion",
+          "keyIdea": "Idea clave: Leer documentacion sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Leer documentacion\" dentro del modulo \"APIs publicas y datos simulados\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona quiere mostrar datos externos en una pagina y necesita que el proyecto responda bien aunque la API tarde o falle. Aplica \"Leer documentacion\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un componente o pagina con API, estado de carga, error controlado, dato mostrado y nota de mantenimiento.",
+          "alert": "No exponer claves privadas en frontend ni usar APIs sin revisar terminos, cuotas y permisos.",
+          "keyPoints": [
+            "Leer documentacion debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un componente o pagina con API, estado de carga, error controlado, dato mostrado y nota de mantenimiento.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m4-l3",
+          "title": "Crear mock JSON",
+          "keyIdea": "Idea clave: Crear mock JSON sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Crear mock JSON\" dentro del modulo \"APIs publicas y datos simulados\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona quiere mostrar datos externos en una pagina y necesita que el proyecto responda bien aunque la API tarde o falle. Aplica \"Crear mock JSON\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un componente o pagina con API, estado de carga, error controlado, dato mostrado y nota de mantenimiento.",
+          "alert": "No exponer claves privadas en frontend ni usar APIs sin revisar terminos, cuotas y permisos.",
+          "keyPoints": [
+            "Crear mock JSON debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un componente o pagina con API, estado de carga, error controlado, dato mostrado y nota de mantenimiento.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m4-l4",
+          "title": "Fallback local",
+          "keyIdea": "Idea clave: Fallback local sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Fallback local\" dentro del modulo \"APIs publicas y datos simulados\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona quiere mostrar datos externos en una pagina y necesita que el proyecto responda bien aunque la API tarde o falle. Aplica \"Fallback local\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un componente o pagina con API, estado de carga, error controlado, dato mostrado y nota de mantenimiento.",
+          "alert": "No exponer claves privadas en frontend ni usar APIs sin revisar terminos, cuotas y permisos.",
+          "keyPoints": [
+            "Fallback local debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un componente o pagina con API, estado de carga, error controlado, dato mostrado y nota de mantenimiento.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m4-l5",
+          "title": "Transformar datos",
+          "keyIdea": "Idea clave: Transformar datos sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Transformar datos\" dentro del modulo \"APIs publicas y datos simulados\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona quiere mostrar datos externos en una pagina y necesita que el proyecto responda bien aunque la API tarde o falle. Aplica \"Transformar datos\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un componente o pagina con API, estado de carga, error controlado, dato mostrado y nota de mantenimiento.",
+          "alert": "No exponer claves privadas en frontend ni usar APIs sin revisar terminos, cuotas y permisos.",
+          "keyPoints": [
+            "Transformar datos debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un componente o pagina con API, estado de carga, error controlado, dato mostrado y nota de mantenimiento.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m4-l6",
+          "title": "Comparar fuentes",
+          "keyIdea": "Idea clave: Comparar fuentes sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Comparar fuentes\" dentro del modulo \"APIs publicas y datos simulados\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona quiere mostrar datos externos en una pagina y necesita que el proyecto responda bien aunque la API tarde o falle. Aplica \"Comparar fuentes\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un componente o pagina con API, estado de carga, error controlado, dato mostrado y nota de mantenimiento.",
+          "alert": "No exponer claves privadas en frontend ni usar APIs sin revisar terminos, cuotas y permisos.",
+          "keyPoints": [
+            "Comparar fuentes debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un componente o pagina con API, estado de carga, error controlado, dato mostrado y nota de mantenimiento.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m4-q1",
+          "question": "Pregunta 1: ¿cual es una buena practica en ",
+          "options": [
+            "Probar primero con mock JSON y luego conectar la API real",
+            "Depender de una API inestable desde el inicio",
+            "Usar datos personales reales",
+            "No registrar de donde salen los datos"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        },
+        {
+          "id": "m4-q2",
+          "question": "Pregunta 2: ¿cual es una buena practica en ",
+          "options": [
+            "Probar primero con mock JSON y luego conectar la API real",
+            "Depender de una API inestable desde el inicio",
+            "Usar datos personales reales",
+            "No registrar de donde salen los datos"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        },
+        {
+          "id": "m4-q3",
+          "question": "Pregunta 3: ¿cual es una buena practica en ",
+          "options": [
+            "Probar primero con mock JSON y luego conectar la API real",
+            "Depender de una API inestable desde el inicio",
+            "Usar datos personales reales",
+            "No registrar de donde salen los datos"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        },
+        {
+          "id": "m4-q4",
+          "question": "Pregunta 4: ¿cual es una buena practica en ",
+          "options": [
+            "Probar primero con mock JSON y luego conectar la API real",
+            "Depender de una API inestable desde el inicio",
+            "Usar datos personales reales",
+            "No registrar de donde salen los datos"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        },
+        {
+          "id": "m4-q5",
+          "question": "Pregunta 5: ¿cual es una buena practica en ",
+          "options": [
+            "Probar primero con mock JSON y luego conectar la API real",
+            "Depender de una API inestable desde el inicio",
+            "Usar datos personales reales",
+            "No registrar de donde salen los datos"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        }
+      ],
+      "professionalOutcome": "entender endpoints, parametros, respuestas, errores y limites de uso. Entregable sugerido: una pagina que consulta una API, muestra datos y maneja errores de forma clara."
+    },
+    {
+      "id": "m5",
+      "title": "Mini dashboard con datos",
+      "description": "En este modulo vas a trabajar \"Mini dashboard con datos\" dentro de APIs web, JSON, fetch, errores, datos externos, mini dashboards y mantenimiento. La meta es construir una pieza pequena, probarla en navegador y dejar evidencia de que funciona para una persona real.",
+      "lessons": [
+        {
+          "id": "m5-l1",
+          "title": "Modelo de datos",
+          "keyIdea": "Idea clave: Modelo de datos sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Modelo de datos\" dentro del modulo \"Mini dashboard con datos\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona quiere mostrar datos externos en una pagina y necesita que el proyecto responda bien aunque la API tarde o falle. Aplica \"Modelo de datos\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un componente o pagina con API, estado de carga, error controlado, dato mostrado y nota de mantenimiento.",
+          "alert": "No exponer claves privadas en frontend ni usar APIs sin revisar terminos, cuotas y permisos.",
+          "keyPoints": [
+            "Modelo de datos debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un componente o pagina con API, estado de carga, error controlado, dato mostrado y nota de mantenimiento.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m5-l2",
+          "title": "Tarjetas de resumen",
+          "keyIdea": "Idea clave: Tarjetas de resumen sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Tarjetas de resumen\" dentro del modulo \"Mini dashboard con datos\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona quiere mostrar datos externos en una pagina y necesita que el proyecto responda bien aunque la API tarde o falle. Aplica \"Tarjetas de resumen\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un componente o pagina con API, estado de carga, error controlado, dato mostrado y nota de mantenimiento.",
+          "alert": "No exponer claves privadas en frontend ni usar APIs sin revisar terminos, cuotas y permisos.",
+          "keyPoints": [
+            "Tarjetas de resumen debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un componente o pagina con API, estado de carga, error controlado, dato mostrado y nota de mantenimiento.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m5-l3",
+          "title": "Listas dinamicas",
+          "keyIdea": "Idea clave: Listas dinamicas sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Listas dinamicas\" dentro del modulo \"Mini dashboard con datos\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona quiere mostrar datos externos en una pagina y necesita que el proyecto responda bien aunque la API tarde o falle. Aplica \"Listas dinamicas\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un componente o pagina con API, estado de carga, error controlado, dato mostrado y nota de mantenimiento.",
+          "alert": "No exponer claves privadas en frontend ni usar APIs sin revisar terminos, cuotas y permisos.",
+          "keyPoints": [
+            "Listas dinamicas debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un componente o pagina con API, estado de carga, error controlado, dato mostrado y nota de mantenimiento.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m5-l4",
+          "title": "Filtros simples",
+          "keyIdea": "Idea clave: Filtros simples sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Filtros simples\" dentro del modulo \"Mini dashboard con datos\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona quiere mostrar datos externos en una pagina y necesita que el proyecto responda bien aunque la API tarde o falle. Aplica \"Filtros simples\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un componente o pagina con API, estado de carga, error controlado, dato mostrado y nota de mantenimiento.",
+          "alert": "No exponer claves privadas en frontend ni usar APIs sin revisar terminos, cuotas y permisos.",
+          "keyPoints": [
+            "Filtros simples debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un componente o pagina con API, estado de carga, error controlado, dato mostrado y nota de mantenimiento.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m5-l5",
+          "title": "Indicadores",
+          "keyIdea": "Idea clave: Indicadores sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Indicadores\" dentro del modulo \"Mini dashboard con datos\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona quiere mostrar datos externos en una pagina y necesita que el proyecto responda bien aunque la API tarde o falle. Aplica \"Indicadores\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un componente o pagina con API, estado de carga, error controlado, dato mostrado y nota de mantenimiento.",
+          "alert": "No exponer claves privadas en frontend ni usar APIs sin revisar terminos, cuotas y permisos.",
+          "keyPoints": [
+            "Indicadores debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un componente o pagina con API, estado de carga, error controlado, dato mostrado y nota de mantenimiento.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m5-l6",
+          "title": "Actualizacion manual",
+          "keyIdea": "Idea clave: Actualizacion manual sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Actualizacion manual\" dentro del modulo \"Mini dashboard con datos\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona quiere mostrar datos externos en una pagina y necesita que el proyecto responda bien aunque la API tarde o falle. Aplica \"Actualizacion manual\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un componente o pagina con API, estado de carga, error controlado, dato mostrado y nota de mantenimiento.",
+          "alert": "No exponer claves privadas en frontend ni usar APIs sin revisar terminos, cuotas y permisos.",
+          "keyPoints": [
+            "Actualizacion manual debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un componente o pagina con API, estado de carga, error controlado, dato mostrado y nota de mantenimiento.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m5-q1",
+          "question": "Pregunta 1: ¿cual es una buena practica en ",
+          "options": [
+            "Separar obtencion, transformacion y renderizado de datos",
+            "Construir todo dentro de un bloque confuso",
+            "Mostrar numeros sin contexto",
+            "No probar casos vacios"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        },
+        {
+          "id": "m5-q2",
+          "question": "Pregunta 2: ¿cual es una buena practica en ",
+          "options": [
+            "Separar obtencion, transformacion y renderizado de datos",
+            "Construir todo dentro de un bloque confuso",
+            "Mostrar numeros sin contexto",
+            "No probar casos vacios"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        },
+        {
+          "id": "m5-q3",
+          "question": "Pregunta 3: ¿cual es una buena practica en ",
+          "options": [
+            "Separar obtencion, transformacion y renderizado de datos",
+            "Construir todo dentro de un bloque confuso",
+            "Mostrar numeros sin contexto",
+            "No probar casos vacios"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        },
+        {
+          "id": "m5-q4",
+          "question": "Pregunta 4: ¿cual es una buena practica en ",
+          "options": [
+            "Separar obtencion, transformacion y renderizado de datos",
+            "Construir todo dentro de un bloque confuso",
+            "Mostrar numeros sin contexto",
+            "No probar casos vacios"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        },
+        {
+          "id": "m5-q5",
+          "question": "Pregunta 5: ¿cual es una buena practica en ",
+          "options": [
+            "Separar obtencion, transformacion y renderizado de datos",
+            "Construir todo dentro de un bloque confuso",
+            "Mostrar numeros sin contexto",
+            "No probar casos vacios"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        }
+      ],
+      "professionalOutcome": "entender endpoints, parametros, respuestas, errores y limites de uso. Entregable sugerido: una pagina que consulta una API, muestra datos y maneja errores de forma clara."
+    },
+    {
+      "id": "m6",
+      "title": "Publicacion y mantenimiento",
+      "description": "En este modulo vas a trabajar \"Publicacion y mantenimiento\" dentro de APIs web, JSON, fetch, errores, datos externos, mini dashboards y mantenimiento. La meta es construir una pieza pequena, probarla en navegador y dejar evidencia de que funciona para una persona real.",
+      "lessons": [
+        {
+          "id": "m6-l1",
+          "title": "Checklist antes de publicar",
+          "keyIdea": "Idea clave: Checklist antes de publicar sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Checklist antes de publicar\" dentro del modulo \"Publicacion y mantenimiento\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona quiere mostrar datos externos en una pagina y necesita que el proyecto responda bien aunque la API tarde o falle. Aplica \"Checklist antes de publicar\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un componente o pagina con API, estado de carga, error controlado, dato mostrado y nota de mantenimiento.",
+          "alert": "No exponer claves privadas en frontend ni usar APIs sin revisar terminos, cuotas y permisos.",
+          "keyPoints": [
+            "Checklist antes de publicar debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un componente o pagina con API, estado de carga, error controlado, dato mostrado y nota de mantenimiento.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m6-l2",
+          "title": "Variables y configuracion",
+          "keyIdea": "Idea clave: Variables y configuracion sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Variables y configuracion\" dentro del modulo \"Publicacion y mantenimiento\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona quiere mostrar datos externos en una pagina y necesita que el proyecto responda bien aunque la API tarde o falle. Aplica \"Variables y configuracion\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un componente o pagina con API, estado de carga, error controlado, dato mostrado y nota de mantenimiento.",
+          "alert": "No exponer claves privadas en frontend ni usar APIs sin revisar terminos, cuotas y permisos.",
+          "keyPoints": [
+            "Variables y configuracion debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un componente o pagina con API, estado de carga, error controlado, dato mostrado y nota de mantenimiento.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m6-l3",
+          "title": "Mensajes de error utiles",
+          "keyIdea": "Idea clave: Mensajes de error utiles sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Mensajes de error utiles\" dentro del modulo \"Publicacion y mantenimiento\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona quiere mostrar datos externos en una pagina y necesita que el proyecto responda bien aunque la API tarde o falle. Aplica \"Mensajes de error utiles\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un componente o pagina con API, estado de carga, error controlado, dato mostrado y nota de mantenimiento.",
+          "alert": "No exponer claves privadas en frontend ni usar APIs sin revisar terminos, cuotas y permisos.",
+          "keyPoints": [
+            "Mensajes de error utiles debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un componente o pagina con API, estado de carga, error controlado, dato mostrado y nota de mantenimiento.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m6-l4",
+          "title": "Pruebas manuales",
+          "keyIdea": "Idea clave: Pruebas manuales sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Pruebas manuales\" dentro del modulo \"Publicacion y mantenimiento\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona quiere mostrar datos externos en una pagina y necesita que el proyecto responda bien aunque la API tarde o falle. Aplica \"Pruebas manuales\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un componente o pagina con API, estado de carga, error controlado, dato mostrado y nota de mantenimiento.",
+          "alert": "No exponer claves privadas en frontend ni usar APIs sin revisar terminos, cuotas y permisos.",
+          "keyPoints": [
+            "Pruebas manuales debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un componente o pagina con API, estado de carga, error controlado, dato mostrado y nota de mantenimiento.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m6-l5",
+          "title": "Documentar endpoints",
+          "keyIdea": "Idea clave: Documentar endpoints sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Documentar endpoints\" dentro del modulo \"Publicacion y mantenimiento\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona quiere mostrar datos externos en una pagina y necesita que el proyecto responda bien aunque la API tarde o falle. Aplica \"Documentar endpoints\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un componente o pagina con API, estado de carga, error controlado, dato mostrado y nota de mantenimiento.",
+          "alert": "No exponer claves privadas en frontend ni usar APIs sin revisar terminos, cuotas y permisos.",
+          "keyPoints": [
+            "Documentar endpoints debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un componente o pagina con API, estado de carga, error controlado, dato mostrado y nota de mantenimiento.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m6-l6",
+          "title": "Mejoras futuras",
+          "keyIdea": "Idea clave: Mejoras futuras sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
+          "shortTheory": "En esta leccion vas a trabajar \"Mejoras futuras\" dentro del modulo \"Publicacion y mantenimiento\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
+          "practicalExample": "Una persona quiere mostrar datos externos en una pagina y necesita que el proyecto responda bien aunque la API tarde o falle. Aplica \"Mejoras futuras\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
+          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: un componente o pagina con API, estado de carga, error controlado, dato mostrado y nota de mantenimiento.",
+          "alert": "No exponer claves privadas en frontend ni usar APIs sin revisar terminos, cuotas y permisos.",
+          "keyPoints": [
+            "Mejoras futuras debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
+            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
+            "La entrega esperada es: un componente o pagina con API, estado de carga, error controlado, dato mostrado y nota de mantenimiento.",
+            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m6-q1",
+          "question": "Pregunta 1: ¿cual es una buena practica en ",
+          "options": [
+            "Publicar con README, advertencias y pruebas de red realizadas",
+            "Publicar sin explicar como funciona",
+            "No revisar permisos de la API",
+            "Dejar mensajes tecnicos incomprensibles"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        },
+        {
+          "id": "m6-q2",
+          "question": "Pregunta 2: ¿cual es una buena practica en ",
+          "options": [
+            "Publicar con README, advertencias y pruebas de red realizadas",
+            "Publicar sin explicar como funciona",
+            "No revisar permisos de la API",
+            "Dejar mensajes tecnicos incomprensibles"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        },
+        {
+          "id": "m6-q3",
+          "question": "Pregunta 3: ¿cual es una buena practica en ",
+          "options": [
+            "Publicar con README, advertencias y pruebas de red realizadas",
+            "Publicar sin explicar como funciona",
+            "No revisar permisos de la API",
+            "Dejar mensajes tecnicos incomprensibles"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        },
+        {
+          "id": "m6-q4",
+          "question": "Pregunta 4: ¿cual es una buena practica en ",
+          "options": [
+            "Publicar con README, advertencias y pruebas de red realizadas",
+            "Publicar sin explicar como funciona",
+            "No revisar permisos de la API",
+            "Dejar mensajes tecnicos incomprensibles"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        },
+        {
+          "id": "m6-q5",
+          "question": "Pregunta 5: ¿cual es una buena practica en ",
+          "options": [
+            "Publicar con README, advertencias y pruebas de red realizadas",
+            "Publicar sin explicar como funciona",
+            "No revisar permisos de la API",
+            "Dejar mensajes tecnicos incomprensibles"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+        }
+      ],
+      "professionalOutcome": "entender endpoints, parametros, respuestas, errores y limites de uso. Entregable sugerido: una pagina que consulta una API, muestra datos y maneja errores de forma clara."
+    }
+  ],
+  "appName": "APIs para Proyectos Web",
+  "professionalization": {
+    "tier": "curso-bandera-v1.0-beta",
+    "updatedAt": "2026-05-28",
+    "focus": "Profundizacion visible de lecciones, practicas, checklists y casos."
+  },
+  "editorialPolish": {
+    "fourthEditorialBatch": "2026-06-02",
+    "status": "public-facing-copy-polished"
+  }
+}

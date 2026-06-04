@@ -1,0 +1,84 @@
+{
+  "executiveScenarios": [
+    {
+      "id": "ventas-caen-zona-sur",
+      "title": "Explicar una caída de ventas",
+      "audience": "Dueño del negocio o responsable comercial",
+      "context": "El tablero muestra que las ventas bajaron 18% en la zona sur durante el último mes.",
+      "keyMessage": "La caída no es general: se concentra en una zona y en dos categorías.",
+      "recommendedStructure": [
+        "Abrir con el dato principal.",
+        "Mostrar dónde ocurre la caída.",
+        "Separar categoría, zona y período.",
+        "Aclarar límites del análisis.",
+        "Cerrar con una acción concreta."
+      ],
+      "suggestedVisuals": ["Línea mensual", "Barras por categoría", "Mapa o tabla por zona"],
+      "risks": ["Culpar a un área sin evidencia", "Confundir facturación con cantidad vendida", "Ignorar estacionalidad"]
+    },
+    {
+      "id": "stock-critico",
+      "title": "Presentar alerta de stock crítico",
+      "audience": "Encargado de compras o pequeño comerciante",
+      "context": "El tablero detecta productos con alta venta y pocas unidades disponibles.",
+      "keyMessage": "Hay productos que pueden cortar ventas si no se reponen a tiempo.",
+      "recommendedStructure": [
+        "Mostrar el listado priorizado.",
+        "Diferenciar urgencia alta, media y baja.",
+        "Comparar stock actual contra ventas recientes.",
+        "Proponer reposición ordenada.",
+        "Registrar productos que no deben comprarse de más."
+      ],
+      "suggestedVisuals": ["Tabla con semáforo", "Barras de unidades", "Tarjetas KPI"],
+      "risks": ["Comprar por intuición", "Reponer productos de baja rotación", "No revisar disponibilidad del proveedor"]
+    },
+    {
+      "id": "margen-vs-ventas",
+      "title": "Explicar margen versus ventas",
+      "audience": "Emprendedor o responsable financiero",
+      "context": "Algunos productos venden mucho pero dejan bajo margen, mientras otros venden menos y aportan más ganancia relativa.",
+      "keyMessage": "Vender más no siempre significa ganar más.",
+      "recommendedStructure": [
+        "Separar ventas brutas y margen.",
+        "Mostrar productos con alto volumen y bajo margen.",
+        "Mostrar productos con menor volumen y mejor rentabilidad.",
+        "Evitar conclusiones basadas en un solo indicador.",
+        "Proponer revisión de precios, promociones o compras."
+      ],
+      "suggestedVisuals": ["Dispersión", "Barras comparativas", "Matriz margen-volumen"],
+      "risks": ["Optimizar solo facturación", "Ignorar costos", "Usar promedios sin revisar casos extremos"]
+    }
+  ],
+  "dashboardReadingChecklist": [
+    "Identificar la pregunta que responde el tablero.",
+    "Revisar período, filtros y segmentadores activos.",
+    "Distinguir cantidad, facturación, margen y promedio.",
+    "Buscar tendencias antes que casos aislados.",
+    "Revisar si hay datos faltantes o valores atípicos.",
+    "No tomar decisiones con un único gráfico sin contexto.",
+    "Cerrar con una acción recomendada y una duda pendiente."
+  ],
+  "storytellingTips": [
+    "Empezar por la conclusión, no por todos los gráficos.",
+    "Usar una pregunta de negocio por pantalla o sección.",
+    "Mostrar primero lo importante y luego el detalle.",
+    "Aclarar límites de datos, períodos y supuestos.",
+    "Traducir métricas técnicas a decisiones concretas.",
+    "Evitar saturar con gráficos que no cambian la decisión."
+  ],
+  "presentationTemplate": {
+    "sections": [
+      "Pregunta de negocio",
+      "Hallazgo principal",
+      "Evidencia del dashboard",
+      "Riesgos o límites",
+      "Recomendación concreta",
+      "Próximo paso"
+    ],
+    "closingQuestions": [
+      "¿Qué decisión habilita este tablero?",
+      "¿Qué dato necesitamos validar antes de actuar?",
+      "¿Quién debería revisar este indicador cada semana?"
+    ]
+  }
+}

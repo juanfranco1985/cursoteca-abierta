@@ -1,0 +1,257 @@
+{
+  "promptLibraryVersion": "0.2",
+  "categories": [
+    {
+      "id": "clientes",
+      "title": "Atención a clientes",
+      "description": "Prompts para responder consultas, reclamos y pedidos comerciales sin perder tono profesional.",
+      "prompts": [
+        {
+          "id": "prompt_cliente_respuesta_clara",
+          "title": "Responder consulta de cliente",
+          "useCase": "Cuando un cliente pregunta por precio, disponibilidad o condiciones.",
+          "template": "Actúa como asistente de atención al cliente para un emprendimiento. Redacta una respuesta clara, amable y breve para este mensaje: [PEGAR MENSAJE DEL CLIENTE]. Incluye saludo, respuesta concreta, próximo paso y cierre cordial. No inventes datos que no estén en el mensaje.",
+          "tips": [
+            "Reemplazá los corchetes antes de usarlo.",
+            "Agregá datos reales de precio, stock y entrega.",
+            "Revisá que no prometa algo imposible."
+          ],
+          "privacyWarning": "No pegues datos sensibles del cliente: DNI, teléfono completo, dirección exacta o datos de pago."
+        },
+        {
+          "id": "prompt_reclamo_cliente",
+          "title": "Responder un reclamo sin escalar conflicto",
+          "useCase": "Cuando un cliente está molesto y necesitás ordenar una respuesta.",
+          "template": "Ayúdame a responder este reclamo de forma profesional y calmada: [PEGAR RECLAMO]. Mi objetivo es reconocer el problema, pedir los datos mínimos necesarios, explicar el próximo paso y evitar discutir. Redacta 2 versiones: una breve para WhatsApp y otra más formal para correo.",
+          "tips": [
+            "No copies una respuesta agresiva generada por IA.",
+            "Verificá primero si el reclamo es real.",
+            "Dejá registrado lo acordado."
+          ],
+          "privacyWarning": "Quitá nombres completos, números de pedido o datos privados si no son necesarios."
+        }
+      ]
+    },
+    {
+      "id": "resumenes",
+      "title": "Resumir y ordenar información",
+      "description": "Prompts para transformar textos largos en acciones, listas y decisiones.",
+      "prompts": [
+        {
+          "id": "prompt_resumen_accionable",
+          "title": "Resumen accionable",
+          "useCase": "Cuando tenés un texto largo y querés saber qué hacer.",
+          "template": "Resume el siguiente texto en español claro. Separá la respuesta en: 1) idea principal, 2) puntos importantes, 3) acciones recomendadas, 4) dudas o riesgos que debería verificar. Texto: [PEGAR TEXTO].",
+          "tips": [
+            "Pedí siempre dudas o riesgos.",
+            "Contrastá con la fuente original.",
+            "No tomes el resumen como verdad absoluta."
+          ],
+          "privacyWarning": "No subas contratos, datos internos o información de terceros sin permiso."
+        },
+        {
+          "id": "prompt_minuta_reunion",
+          "title": "Minuta de reunión",
+          "useCase": "Cuando necesitás ordenar notas desprolijas de una reunión.",
+          "template": "Convierte estas notas en una minuta clara. Usa secciones: resumen, decisiones tomadas, tareas pendientes, responsables, fechas y puntos abiertos. Notas: [PEGAR NOTAS]. Si falta información, indícalo sin inventar.",
+          "tips": [
+            "Verificá responsables y fechas.",
+            "No inventes compromisos.",
+            "Compartí la minuta para confirmación."
+          ],
+          "privacyWarning": "Evitá pegar conversaciones privadas completas si no tenés autorización."
+        }
+      ]
+    },
+    {
+      "id": "ventas",
+      "title": "Ventas y publicaciones",
+      "description": "Prompts para mejorar publicaciones, ofertas y mensajes comerciales.",
+      "prompts": [
+        {
+          "id": "prompt_publicacion_venta",
+          "title": "Mejorar publicación de venta",
+          "useCase": "Para Instagram, Facebook, WhatsApp o marketplace.",
+          "template": "Mejora esta publicación de venta para que sea clara, confiable y atractiva: [PEGAR TEXTO]. Producto/servicio: [PRODUCTO]. Público: [PÚBLICO]. Tono: cercano y profesional. Entrega 3 versiones: breve, completa y con llamada a la acción.",
+          "tips": [
+            "No exageres beneficios.",
+            "Incluí condiciones reales.",
+            "Agregá precio solo si estás seguro."
+          ],
+          "privacyWarning": "No uses testimonios ni garantías falsas."
+        },
+        {
+          "id": "prompt_objeciones_cliente",
+          "title": "Responder objeciones de compra",
+          "useCase": "Cuando alguien dice que es caro, que lo va a pensar o pide descuento.",
+          "template": "Dame respuestas respetuosas para estas objeciones de compra: [PEGAR OBJECIONES]. Mi producto/servicio es [DESCRIPCIÓN]. Quiero responder sin presionar y explicando valor real. Entrega 5 respuestas breves para WhatsApp.",
+          "tips": [
+            "No manipules al cliente.",
+            "Mostrá valor real.",
+            "Ofrecé alternativas honestas."
+          ],
+          "privacyWarning": "No prometas resultados económicos garantizados."
+        }
+      ]
+    },
+    {
+      "id": "organizacion",
+      "title": "Organización del trabajo",
+      "description": "Prompts para agendas, prioridades y planes semanales.",
+      "prompts": [
+        {
+          "id": "prompt_agenda_semanal",
+          "title": "Armar agenda semanal",
+          "useCase": "Cuando tenés muchas tareas y necesitás ordenarlas.",
+          "template": "Organiza esta lista de tareas en una agenda semanal realista: [PEGAR TAREAS]. Considera prioridad, urgencia, bloques de concentración, descansos y tareas pequeñas. Devuelve una tabla con día, bloque horario, tarea, duración estimada y criterio de finalización.",
+          "tips": [
+            "Ajustá horarios a tu realidad.",
+            "Separá urgente de importante.",
+            "Dejá margen para imprevistos."
+          ],
+          "privacyWarning": "No subas calendarios laborales con datos confidenciales."
+        },
+        {
+          "id": "prompt_plan_proyecto_simple",
+          "title": "Convertir idea en plan de trabajo",
+          "useCase": "Para empezar un proyecto pequeño sin perderse.",
+          "template": "Convierte esta idea en un plan de trabajo simple: [DESCRIBIR IDEA]. Quiero una versión para principiantes con objetivo, entregables, pasos, riesgos, materiales necesarios y primera acción concreta para hoy.",
+          "tips": [
+            "Pedí pasos pequeños.",
+            "Definí entregables concretos.",
+            "Revisá el alcance."
+          ],
+          "privacyWarning": "No compartas ideas sensibles de negocio si todavía no querés exponerlas."
+        }
+      ]
+    },
+    {
+      "id": "estudio",
+      "title": "Estudio y aprendizaje",
+      "description": "Prompts para estudiar mejor, practicar y verificar comprensión.",
+      "prompts": [
+        {
+          "id": "prompt_estudiar_tema",
+          "title": "Aprender un tema desde cero",
+          "useCase": "Cuando querés entender un concepto nuevo.",
+          "template": "Explícame [TEMA] desde cero, con lenguaje simple. Divide la explicación en: qué es, para qué sirve, ejemplo cotidiano, errores comunes, ejercicio corto y preguntas para comprobar si entendí.",
+          "tips": [
+            "Pedí ejemplos de tu contexto.",
+            "Hacé el ejercicio.",
+            "Verificá con otra fuente."
+          ],
+          "privacyWarning": "No reemplaza profesor, bibliografía ni material oficial de examen."
+        },
+        {
+          "id": "prompt_practica_examen",
+          "title": "Crear práctica tipo examen",
+          "useCase": "Cuando necesitás practicar activamente.",
+          "template": "Crea una práctica sobre [TEMA] con 10 preguntas de opción múltiple, 5 verdadero/falso y 3 preguntas abiertas. No muestres las respuestas hasta el final. Luego dame corrección y explicación de cada error.",
+          "tips": [
+            "Intentá responder antes de ver soluciones.",
+            "Pedí más dificultad si sale fácil.",
+            "No memorices sin entender."
+          ],
+          "privacyWarning": "No subas exámenes reales protegidos por derechos o reglas de institución."
+        }
+      ]
+    },
+    {
+      "id": "verificacion",
+      "title": "Verificación y seguridad",
+      "description": "Prompts para detectar errores, sesgos y datos inseguros en respuestas de IA.",
+      "prompts": [
+        {
+          "id": "prompt_verificar_respuesta_ia",
+          "title": "Auditar una respuesta de IA",
+          "useCase": "Cuando la IA te dio una respuesta que puede tener errores.",
+          "template": "Revisa críticamente esta respuesta de IA: [PEGAR RESPUESTA]. Señala afirmaciones que deberían verificarse, posibles errores, supuestos no probados, riesgos de usarla tal cual y preguntas que debería hacer antes de actuar.",
+          "tips": [
+            "Útil para temas legales, financieros, médicos o técnicos.",
+            "Buscá fuentes externas si importa.",
+            "No actúes solo por confianza en el texto."
+          ],
+          "privacyWarning": "No pegues datos personales o documentos internos completos."
+        },
+        {
+          "id": "prompt_privacidad_antes_de_subir",
+          "title": "Checklist de privacidad antes de usar IA",
+          "useCase": "Antes de pegar información sensible en una herramienta.",
+          "template": "Voy a usar IA para trabajar con esta información: [DESCRIBIR SIN PEGAR DATOS COMPLETOS]. Ayúdame a decidir qué datos debo quitar, anonimizar o resumir antes de subirla. Dame una lista de riesgo bajo, medio y alto.",
+          "tips": [
+            "Anonimizá datos personales.",
+            "Reemplazá nombres por roles.",
+            "No subas claves, tokens, documentos privados ni datos bancarios."
+          ],
+          "privacyWarning": "Nunca compartas contraseñas, códigos, claves API, datos bancarios o información médica sensible."
+        }
+      ]
+    }
+  ],
+  "labExercises": [
+    {
+      "id": "lab_cliente",
+      "title": "Laboratorio: responder a un cliente",
+      "objective": "Practicar una respuesta comercial clara y segura.",
+      "steps": [
+        "Elegí un mensaje ficticio de cliente.",
+        "Usá el prompt de atención a clientes.",
+        "Revisá si la respuesta inventa datos.",
+        "Ajustá tono, precio, stock y próximo paso."
+      ],
+      "successCriteria": [
+        "La respuesta es breve.",
+        "No promete datos falsos.",
+        "Tiene un próximo paso claro."
+      ]
+    },
+    {
+      "id": "lab_resumen",
+      "title": "Laboratorio: convertir texto en acciones",
+      "objective": "Transformar información larga en una lista útil.",
+      "steps": [
+        "Pegá un texto no sensible.",
+        "Usá el prompt de resumen accionable.",
+        "Separá acciones inmediatas y dudas.",
+        "Verificá contra el texto original."
+      ],
+      "successCriteria": [
+        "No pierde puntos importantes.",
+        "Distingue hechos de recomendaciones.",
+        "Lista riesgos o dudas."
+      ]
+    },
+    {
+      "id": "lab_publicacion",
+      "title": "Laboratorio: mejorar una publicación",
+      "objective": "Crear variantes de venta sin exagerar.",
+      "steps": [
+        "Tomá una publicación simple.",
+        "Usá el prompt de publicación de venta.",
+        "Compará versión breve, completa y CTA.",
+        "Eliminá promesas exageradas."
+      ],
+      "successCriteria": [
+        "La publicación es clara.",
+        "El CTA es honesto.",
+        "No hay beneficios inventados."
+      ]
+    },
+    {
+      "id": "lab_verificacion",
+      "title": "Laboratorio: auditar una respuesta de IA",
+      "objective": "Aprender a no confiar ciegamente.",
+      "steps": [
+        "Generá una respuesta sobre un tema importante.",
+        "Pegala en el prompt de auditoría.",
+        "Marcá afirmaciones verificables.",
+        "Buscá una fuente confiable antes de actuar."
+      ],
+      "successCriteria": [
+        "Detecta supuestos.",
+        "Pide verificación externa.",
+        "Diferencia consejo general de decisión real."
+      ]
+    }
+  ]
+}

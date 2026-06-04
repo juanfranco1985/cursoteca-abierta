@@ -1,0 +1,96 @@
+{
+  "courseId": "git_github_proyectos_web",
+  "templateVersion": "0.6-publica-profesional",
+  "version": "0.5",
+  "title": "Git y GitHub para Proyectos Web",
+  "subtitle": "Curso practico para versionar proyectos web, crear commits claros, usar GitHub y recuperar errores comunes.",
+  "description": "Organiza proyectos con Git y GitHub: repositorios, commits, historial, ramas, publicacion de codigo y recuperacion basica.",
+  "audience": "Principiantes,Estudiantes de desarrollo web,Creadores de proyectos web,Personas que quieren armar portfolio",
+  "category": "Desarrollo Web y Programación",
+  "route": "Ruta 5",
+  "dataPaths": {
+    "course": "src/data/course_content.json",
+    "checklists": "src/data/checklists.json",
+    "incidents": "src/data/incidents.json",
+    "gitLab": "src/data/git_lab.json",
+    "repoBuilder": "src/data/repo_builder.json",
+    "githubProject": "src/data/github_project.json"
+  },
+  "progressKey": "adp_git_github_proyectos_web_progress_v01",
+  "theme": {
+    "primary": "#d6a85c",
+    "accent": "#4fb6aa",
+    "background": "#21130b"
+  },
+  "legalNotice": "Curso educativo introductorio. No reemplaza documentación oficial de Git, GitHub ni prácticas profesionales de DevOps.",
+  "features": [
+    "cases",
+    "certificate",
+    "checklists",
+    "commandSimulator",
+    "commitTemplates",
+    "course",
+    "finalChecklist",
+    "gitLab",
+    "githubReport",
+    "gitignoreBuilder",
+    "guidedGithubProject",
+    "practiceReport",
+    "privacyNotice",
+    "progress",
+    "publicationDocs",
+    "pushSimulation",
+    "quiz",
+    "readmeBuilder",
+    "repoChecklist",
+    "screenshotsChecklist"
+  ],
+  "publicationStatus": "candidate",
+  "publicEdition": {
+    "level": "publica-profesional",
+    "version": "0.6",
+    "generatedAt": "2026-05-26",
+    "sourceZip": "git_github_proyectos_web_v0_5.zip"
+  },
+  "publication": {
+    "version": "0.6-publica-profesional",
+    "status": "Publica profesional",
+    "requiresBackend": false,
+    "requiresLogin": false,
+    "requiresAnalytics": false,
+    "requiresAds": false,
+    "recommendedHosts": [
+      "GitHub Pages",
+      "Netlify",
+      "Vercel",
+      "Hosting estatico propio"
+    ],
+    "prePublishChecks": [
+      "Probar con servidor local",
+      "Probar navegacion en movil y escritorio",
+      "Revisar textos legales y privacidad",
+      "Verificar que no se pidan datos sensibles",
+      "Actualizar capturas publicas"
+    ]
+  },
+  "webApp": {
+    "cacheName": "git-github-proyectos-web-v0-6-publica-v0-6-publica-profesional",
+    "publicationStatus": "publica-profesional-v0.6"
+  },
+  "responsibleNotice": "Contenido educativo. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. No subir claves, tokens, datos personales ni archivos privados al repositorio.",
+  "appName": "Git y GitHub para Proyectos Web",
+  "shortName": "Git y GitHub para Proyectos Web",
+  "professionalization": {
+    "tier": "curso-bandera-v1.0-beta",
+    "updatedAt": "2026-05-28",
+    "improvements": [
+      "Lecciones con teoria, ejemplo, error comun y ejercicio mas profundos.",
+      "Checklists orientados a evidencia y entregables.",
+      "Casos guiados con pasos, errores y decision responsable."
+    ]
+  },
+  "editorialPolish": {
+    "fourthEditorialBatch": "2026-06-02",
+    "status": "public-facing-copy-polished"
+  }
+}

@@ -1,0 +1,1056 @@
+{
+  "courseId": "excel-analisis-datos",
+  "title": "Excel para Analisis de Datos",
+  "version": "0.6-publica",
+  "publicationStatus": "publica-profesional-v0.6",
+  "modules": [
+    {
+      "id": "m1",
+      "title": "Datos para analizar",
+      "description": "En este modulo vas a trabajar \"Datos para analizar\" dentro de analisis en Excel, limpieza de planillas, funciones, tablas dinamicas, graficos y reportes. La meta es partir de una pregunta concreta, revisar la calidad de la informacion y cerrar con una evidencia que pueda explicarse.",
+      "learningRisk": "Punto clave",
+      "lessons": [
+        {
+          "id": "m1-l1",
+          "title": "Pregunta de negocio",
+          "keyIdea": "Idea clave: Pregunta de negocio sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Pregunta de negocio\" dentro del modulo \"Datos para analizar\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona tiene una planilla de ventas, turnos o gastos y necesita resumirla sin romper datos ni duplicar trabajo. Aplica \"Pregunta de negocio\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un reporte en Excel con datos limpios, tabla dinamica, grafico, lectura principal y control de errores.",
+          "alert": "No sobrescribir la planilla original sin copia, control de cambios o respaldo.",
+          "keyPoints": [
+            "Pregunta de negocio debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un reporte en Excel con datos limpios, tabla dinamica, grafico, lectura principal y control de errores.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m1-l2",
+          "title": "Tabla base",
+          "keyIdea": "Idea clave: Tabla base sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Tabla base\" dentro del modulo \"Datos para analizar\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona tiene una planilla de ventas, turnos o gastos y necesita resumirla sin romper datos ni duplicar trabajo. Aplica \"Tabla base\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un reporte en Excel con datos limpios, tabla dinamica, grafico, lectura principal y control de errores.",
+          "alert": "No sobrescribir la planilla original sin copia, control de cambios o respaldo.",
+          "keyPoints": [
+            "Tabla base debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un reporte en Excel con datos limpios, tabla dinamica, grafico, lectura principal y control de errores.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m1-l3",
+          "title": "Campos",
+          "keyIdea": "Idea clave: Campos sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Campos\" dentro del modulo \"Datos para analizar\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona tiene una planilla de ventas, turnos o gastos y necesita resumirla sin romper datos ni duplicar trabajo. Aplica \"Campos\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un reporte en Excel con datos limpios, tabla dinamica, grafico, lectura principal y control de errores.",
+          "alert": "No sobrescribir la planilla original sin copia, control de cambios o respaldo.",
+          "keyPoints": [
+            "Campos debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un reporte en Excel con datos limpios, tabla dinamica, grafico, lectura principal y control de errores.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m1-l4",
+          "title": "Granularidad",
+          "keyIdea": "Idea clave: Granularidad sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Granularidad\" dentro del modulo \"Datos para analizar\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona tiene una planilla de ventas, turnos o gastos y necesita resumirla sin romper datos ni duplicar trabajo. Aplica \"Granularidad\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un reporte en Excel con datos limpios, tabla dinamica, grafico, lectura principal y control de errores.",
+          "alert": "No sobrescribir la planilla original sin copia, control de cambios o respaldo.",
+          "keyPoints": [
+            "Granularidad debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un reporte en Excel con datos limpios, tabla dinamica, grafico, lectura principal y control de errores.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m1-l5",
+          "title": "Fuentes",
+          "keyIdea": "Idea clave: Fuentes sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Fuentes\" dentro del modulo \"Datos para analizar\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona tiene una planilla de ventas, turnos o gastos y necesita resumirla sin romper datos ni duplicar trabajo. Aplica \"Fuentes\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un reporte en Excel con datos limpios, tabla dinamica, grafico, lectura principal y control de errores.",
+          "alert": "No sobrescribir la planilla original sin copia, control de cambios o respaldo.",
+          "keyPoints": [
+            "Fuentes debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un reporte en Excel con datos limpios, tabla dinamica, grafico, lectura principal y control de errores.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m1-l6",
+          "title": "Diccionario",
+          "keyIdea": "Idea clave: Diccionario sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Diccionario\" dentro del modulo \"Datos para analizar\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona tiene una planilla de ventas, turnos o gastos y necesita resumirla sin romper datos ni duplicar trabajo. Aplica \"Diccionario\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un reporte en Excel con datos limpios, tabla dinamica, grafico, lectura principal y control de errores.",
+          "alert": "No sobrescribir la planilla original sin copia, control de cambios o respaldo.",
+          "keyPoints": [
+            "Diccionario debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un reporte en Excel con datos limpios, tabla dinamica, grafico, lectura principal y control de errores.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m1-q1",
+          "question": "Pregunta 1: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        },
+        {
+          "id": "m1-q2",
+          "question": "Pregunta 2: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        },
+        {
+          "id": "m1-q3",
+          "question": "Pregunta 3: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        },
+        {
+          "id": "m1-q4",
+          "question": "Pregunta 4: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        },
+        {
+          "id": "m1-q5",
+          "question": "Pregunta 5: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        }
+      ],
+      "professionalOutcome": "limpiar datos, calcular indicadores y construir una vista clara para decidir. Entregable sugerido: una planilla con datos limpios, indicadores, grafico principal y nota de lectura."
+    },
+    {
+      "id": "m2",
+      "title": "Limpieza en Excel",
+      "description": "En este modulo vas a trabajar \"Limpieza en Excel\" dentro de analisis en Excel, limpieza de planillas, funciones, tablas dinamicas, graficos y reportes. La meta es partir de una pregunta concreta, revisar la calidad de la informacion y cerrar con una evidencia que pueda explicarse.",
+      "learningRisk": "Punto clave",
+      "lessons": [
+        {
+          "id": "m2-l1",
+          "title": "Duplicados",
+          "keyIdea": "Idea clave: Duplicados sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Duplicados\" dentro del modulo \"Limpieza en Excel\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona tiene una planilla de ventas, turnos o gastos y necesita resumirla sin romper datos ni duplicar trabajo. Aplica \"Duplicados\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un reporte en Excel con datos limpios, tabla dinamica, grafico, lectura principal y control de errores.",
+          "alert": "No sobrescribir la planilla original sin copia, control de cambios o respaldo.",
+          "keyPoints": [
+            "Duplicados debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un reporte en Excel con datos limpios, tabla dinamica, grafico, lectura principal y control de errores.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m2-l2",
+          "title": "Espacios",
+          "keyIdea": "Idea clave: Espacios sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Espacios\" dentro del modulo \"Limpieza en Excel\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona tiene una planilla de ventas, turnos o gastos y necesita resumirla sin romper datos ni duplicar trabajo. Aplica \"Espacios\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un reporte en Excel con datos limpios, tabla dinamica, grafico, lectura principal y control de errores.",
+          "alert": "No sobrescribir la planilla original sin copia, control de cambios o respaldo.",
+          "keyPoints": [
+            "Espacios debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un reporte en Excel con datos limpios, tabla dinamica, grafico, lectura principal y control de errores.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m2-l3",
+          "title": "Fechas",
+          "keyIdea": "Idea clave: Fechas sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Fechas\" dentro del modulo \"Limpieza en Excel\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona tiene una planilla de ventas, turnos o gastos y necesita resumirla sin romper datos ni duplicar trabajo. Aplica \"Fechas\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un reporte en Excel con datos limpios, tabla dinamica, grafico, lectura principal y control de errores.",
+          "alert": "No sobrescribir la planilla original sin copia, control de cambios o respaldo.",
+          "keyPoints": [
+            "Fechas debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un reporte en Excel con datos limpios, tabla dinamica, grafico, lectura principal y control de errores.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m2-l4",
+          "title": "Texto en columnas",
+          "keyIdea": "Idea clave: Texto en columnas sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Texto en columnas\" dentro del modulo \"Limpieza en Excel\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona tiene una planilla de ventas, turnos o gastos y necesita resumirla sin romper datos ni duplicar trabajo. Aplica \"Texto en columnas\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un reporte en Excel con datos limpios, tabla dinamica, grafico, lectura principal y control de errores.",
+          "alert": "No sobrescribir la planilla original sin copia, control de cambios o respaldo.",
+          "keyPoints": [
+            "Texto en columnas debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un reporte en Excel con datos limpios, tabla dinamica, grafico, lectura principal y control de errores.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m2-l5",
+          "title": "Valores faltantes",
+          "keyIdea": "Idea clave: Valores faltantes sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Valores faltantes\" dentro del modulo \"Limpieza en Excel\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona tiene una planilla de ventas, turnos o gastos y necesita resumirla sin romper datos ni duplicar trabajo. Aplica \"Valores faltantes\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un reporte en Excel con datos limpios, tabla dinamica, grafico, lectura principal y control de errores.",
+          "alert": "No sobrescribir la planilla original sin copia, control de cambios o respaldo.",
+          "keyPoints": [
+            "Valores faltantes debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un reporte en Excel con datos limpios, tabla dinamica, grafico, lectura principal y control de errores.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m2-l6",
+          "title": "Control de calidad",
+          "keyIdea": "Idea clave: Control de calidad sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Control de calidad\" dentro del modulo \"Limpieza en Excel\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona tiene una planilla de ventas, turnos o gastos y necesita resumirla sin romper datos ni duplicar trabajo. Aplica \"Control de calidad\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un reporte en Excel con datos limpios, tabla dinamica, grafico, lectura principal y control de errores.",
+          "alert": "No sobrescribir la planilla original sin copia, control de cambios o respaldo.",
+          "keyPoints": [
+            "Control de calidad debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un reporte en Excel con datos limpios, tabla dinamica, grafico, lectura principal y control de errores.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m2-q1",
+          "question": "Pregunta 1: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        },
+        {
+          "id": "m2-q2",
+          "question": "Pregunta 2: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        },
+        {
+          "id": "m2-q3",
+          "question": "Pregunta 3: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        },
+        {
+          "id": "m2-q4",
+          "question": "Pregunta 4: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        },
+        {
+          "id": "m2-q5",
+          "question": "Pregunta 5: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        }
+      ],
+      "professionalOutcome": "limpiar datos, calcular indicadores y construir una vista clara para decidir. Entregable sugerido: una planilla con datos limpios, indicadores, grafico principal y nota de lectura."
+    },
+    {
+      "id": "m3",
+      "title": "Funciones utiles",
+      "description": "En este modulo vas a trabajar \"Funciones utiles\" dentro de analisis en Excel, limpieza de planillas, funciones, tablas dinamicas, graficos y reportes. La meta es partir de una pregunta concreta, revisar la calidad de la informacion y cerrar con una evidencia que pueda explicarse.",
+      "learningRisk": "Punto clave",
+      "lessons": [
+        {
+          "id": "m3-l1",
+          "title": "SUMAR.SI",
+          "keyIdea": "Idea clave: SUMAR.SI sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"SUMAR.SI\" dentro del modulo \"Funciones utiles\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona tiene una planilla de ventas, turnos o gastos y necesita resumirla sin romper datos ni duplicar trabajo. Aplica \"SUMAR.SI\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un reporte en Excel con datos limpios, tabla dinamica, grafico, lectura principal y control de errores.",
+          "alert": "No sobrescribir la planilla original sin copia, control de cambios o respaldo.",
+          "keyPoints": [
+            "SUMAR.SI debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un reporte en Excel con datos limpios, tabla dinamica, grafico, lectura principal y control de errores.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m3-l2",
+          "title": "CONTAR.SI",
+          "keyIdea": "Idea clave: CONTAR.SI sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"CONTAR.SI\" dentro del modulo \"Funciones utiles\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona tiene una planilla de ventas, turnos o gastos y necesita resumirla sin romper datos ni duplicar trabajo. Aplica \"CONTAR.SI\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un reporte en Excel con datos limpios, tabla dinamica, grafico, lectura principal y control de errores.",
+          "alert": "No sobrescribir la planilla original sin copia, control de cambios o respaldo.",
+          "keyPoints": [
+            "CONTAR.SI debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un reporte en Excel con datos limpios, tabla dinamica, grafico, lectura principal y control de errores.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m3-l3",
+          "title": "BUSCARX",
+          "keyIdea": "Idea clave: BUSCARX sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"BUSCARX\" dentro del modulo \"Funciones utiles\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona tiene una planilla de ventas, turnos o gastos y necesita resumirla sin romper datos ni duplicar trabajo. Aplica \"BUSCARX\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un reporte en Excel con datos limpios, tabla dinamica, grafico, lectura principal y control de errores.",
+          "alert": "No sobrescribir la planilla original sin copia, control de cambios o respaldo.",
+          "keyPoints": [
+            "BUSCARX debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un reporte en Excel con datos limpios, tabla dinamica, grafico, lectura principal y control de errores.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m3-l4",
+          "title": "SI",
+          "keyIdea": "Idea clave: SI sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"SI\" dentro del modulo \"Funciones utiles\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona tiene una planilla de ventas, turnos o gastos y necesita resumirla sin romper datos ni duplicar trabajo. Aplica \"SI\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un reporte en Excel con datos limpios, tabla dinamica, grafico, lectura principal y control de errores.",
+          "alert": "No sobrescribir la planilla original sin copia, control de cambios o respaldo.",
+          "keyPoints": [
+            "SI debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un reporte en Excel con datos limpios, tabla dinamica, grafico, lectura principal y control de errores.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m3-l5",
+          "title": "FECHA",
+          "keyIdea": "Idea clave: FECHA sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"FECHA\" dentro del modulo \"Funciones utiles\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona tiene una planilla de ventas, turnos o gastos y necesita resumirla sin romper datos ni duplicar trabajo. Aplica \"FECHA\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un reporte en Excel con datos limpios, tabla dinamica, grafico, lectura principal y control de errores.",
+          "alert": "No sobrescribir la planilla original sin copia, control de cambios o respaldo.",
+          "keyPoints": [
+            "FECHA debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un reporte en Excel con datos limpios, tabla dinamica, grafico, lectura principal y control de errores.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m3-l6",
+          "title": "Porcentajes",
+          "keyIdea": "Idea clave: Porcentajes sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Porcentajes\" dentro del modulo \"Funciones utiles\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona tiene una planilla de ventas, turnos o gastos y necesita resumirla sin romper datos ni duplicar trabajo. Aplica \"Porcentajes\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un reporte en Excel con datos limpios, tabla dinamica, grafico, lectura principal y control de errores.",
+          "alert": "No sobrescribir la planilla original sin copia, control de cambios o respaldo.",
+          "keyPoints": [
+            "Porcentajes debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un reporte en Excel con datos limpios, tabla dinamica, grafico, lectura principal y control de errores.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m3-q1",
+          "question": "Pregunta 1: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        },
+        {
+          "id": "m3-q2",
+          "question": "Pregunta 2: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        },
+        {
+          "id": "m3-q3",
+          "question": "Pregunta 3: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        },
+        {
+          "id": "m3-q4",
+          "question": "Pregunta 4: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        },
+        {
+          "id": "m3-q5",
+          "question": "Pregunta 5: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        }
+      ],
+      "professionalOutcome": "limpiar datos, calcular indicadores y construir una vista clara para decidir. Entregable sugerido: una planilla con datos limpios, indicadores, grafico principal y nota de lectura."
+    },
+    {
+      "id": "m4",
+      "title": "Tablas dinamicas",
+      "description": "En este modulo vas a trabajar \"Tablas dinamicas\" dentro de analisis en Excel, limpieza de planillas, funciones, tablas dinamicas, graficos y reportes. La meta es partir de una pregunta concreta, revisar la calidad de la informacion y cerrar con una evidencia que pueda explicarse.",
+      "learningRisk": "Punto clave",
+      "lessons": [
+        {
+          "id": "m4-l1",
+          "title": "Crear tabla dinamica",
+          "keyIdea": "Idea clave: Crear tabla dinamica sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Crear tabla dinamica\" dentro del modulo \"Tablas dinamicas\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona tiene una planilla de ventas, turnos o gastos y necesita resumirla sin romper datos ni duplicar trabajo. Aplica \"Crear tabla dinamica\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un reporte en Excel con datos limpios, tabla dinamica, grafico, lectura principal y control de errores.",
+          "alert": "No sobrescribir la planilla original sin copia, control de cambios o respaldo.",
+          "keyPoints": [
+            "Crear tabla dinamica debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un reporte en Excel con datos limpios, tabla dinamica, grafico, lectura principal y control de errores.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m4-l2",
+          "title": "Filas y columnas",
+          "keyIdea": "Idea clave: Filas y columnas sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Filas y columnas\" dentro del modulo \"Tablas dinamicas\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona tiene una planilla de ventas, turnos o gastos y necesita resumirla sin romper datos ni duplicar trabajo. Aplica \"Filas y columnas\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un reporte en Excel con datos limpios, tabla dinamica, grafico, lectura principal y control de errores.",
+          "alert": "No sobrescribir la planilla original sin copia, control de cambios o respaldo.",
+          "keyPoints": [
+            "Filas y columnas debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un reporte en Excel con datos limpios, tabla dinamica, grafico, lectura principal y control de errores.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m4-l3",
+          "title": "Valores",
+          "keyIdea": "Idea clave: Valores sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Valores\" dentro del modulo \"Tablas dinamicas\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona tiene una planilla de ventas, turnos o gastos y necesita resumirla sin romper datos ni duplicar trabajo. Aplica \"Valores\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un reporte en Excel con datos limpios, tabla dinamica, grafico, lectura principal y control de errores.",
+          "alert": "No sobrescribir la planilla original sin copia, control de cambios o respaldo.",
+          "keyPoints": [
+            "Valores debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un reporte en Excel con datos limpios, tabla dinamica, grafico, lectura principal y control de errores.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m4-l4",
+          "title": "Filtros",
+          "keyIdea": "Idea clave: Filtros sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Filtros\" dentro del modulo \"Tablas dinamicas\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona tiene una planilla de ventas, turnos o gastos y necesita resumirla sin romper datos ni duplicar trabajo. Aplica \"Filtros\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un reporte en Excel con datos limpios, tabla dinamica, grafico, lectura principal y control de errores.",
+          "alert": "No sobrescribir la planilla original sin copia, control de cambios o respaldo.",
+          "keyPoints": [
+            "Filtros debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un reporte en Excel con datos limpios, tabla dinamica, grafico, lectura principal y control de errores.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m4-l5",
+          "title": "Segmentadores",
+          "keyIdea": "Idea clave: Segmentadores sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Segmentadores\" dentro del modulo \"Tablas dinamicas\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona tiene una planilla de ventas, turnos o gastos y necesita resumirla sin romper datos ni duplicar trabajo. Aplica \"Segmentadores\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un reporte en Excel con datos limpios, tabla dinamica, grafico, lectura principal y control de errores.",
+          "alert": "No sobrescribir la planilla original sin copia, control de cambios o respaldo.",
+          "keyPoints": [
+            "Segmentadores debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un reporte en Excel con datos limpios, tabla dinamica, grafico, lectura principal y control de errores.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m4-l6",
+          "title": "Actualizar datos",
+          "keyIdea": "Idea clave: Actualizar datos sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Actualizar datos\" dentro del modulo \"Tablas dinamicas\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona tiene una planilla de ventas, turnos o gastos y necesita resumirla sin romper datos ni duplicar trabajo. Aplica \"Actualizar datos\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un reporte en Excel con datos limpios, tabla dinamica, grafico, lectura principal y control de errores.",
+          "alert": "No sobrescribir la planilla original sin copia, control de cambios o respaldo.",
+          "keyPoints": [
+            "Actualizar datos debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un reporte en Excel con datos limpios, tabla dinamica, grafico, lectura principal y control de errores.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m4-q1",
+          "question": "Pregunta 1: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        },
+        {
+          "id": "m4-q2",
+          "question": "Pregunta 2: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        },
+        {
+          "id": "m4-q3",
+          "question": "Pregunta 3: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        },
+        {
+          "id": "m4-q4",
+          "question": "Pregunta 4: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        },
+        {
+          "id": "m4-q5",
+          "question": "Pregunta 5: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        }
+      ],
+      "professionalOutcome": "limpiar datos, calcular indicadores y construir una vista clara para decidir. Entregable sugerido: una planilla con datos limpios, indicadores, grafico principal y nota de lectura."
+    },
+    {
+      "id": "m5",
+      "title": "Graficos y reportes",
+      "description": "En este modulo vas a trabajar \"Graficos y reportes\" dentro de analisis en Excel, limpieza de planillas, funciones, tablas dinamicas, graficos y reportes. La meta es partir de una pregunta concreta, revisar la calidad de la informacion y cerrar con una evidencia que pueda explicarse.",
+      "learningRisk": "Punto clave",
+      "lessons": [
+        {
+          "id": "m5-l1",
+          "title": "Elegir grafico",
+          "keyIdea": "Idea clave: Elegir grafico sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Elegir grafico\" dentro del modulo \"Graficos y reportes\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona tiene una planilla de ventas, turnos o gastos y necesita resumirla sin romper datos ni duplicar trabajo. Aplica \"Elegir grafico\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un reporte en Excel con datos limpios, tabla dinamica, grafico, lectura principal y control de errores.",
+          "alert": "No sobrescribir la planilla original sin copia, control de cambios o respaldo.",
+          "keyPoints": [
+            "Elegir grafico debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un reporte en Excel con datos limpios, tabla dinamica, grafico, lectura principal y control de errores.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m5-l2",
+          "title": "Titulos claros",
+          "keyIdea": "Idea clave: Titulos claros sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Titulos claros\" dentro del modulo \"Graficos y reportes\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona tiene una planilla de ventas, turnos o gastos y necesita resumirla sin romper datos ni duplicar trabajo. Aplica \"Titulos claros\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un reporte en Excel con datos limpios, tabla dinamica, grafico, lectura principal y control de errores.",
+          "alert": "No sobrescribir la planilla original sin copia, control de cambios o respaldo.",
+          "keyPoints": [
+            "Titulos claros debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un reporte en Excel con datos limpios, tabla dinamica, grafico, lectura principal y control de errores.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m5-l3",
+          "title": "Comparaciones",
+          "keyIdea": "Idea clave: Comparaciones sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Comparaciones\" dentro del modulo \"Graficos y reportes\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona tiene una planilla de ventas, turnos o gastos y necesita resumirla sin romper datos ni duplicar trabajo. Aplica \"Comparaciones\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un reporte en Excel con datos limpios, tabla dinamica, grafico, lectura principal y control de errores.",
+          "alert": "No sobrescribir la planilla original sin copia, control de cambios o respaldo.",
+          "keyPoints": [
+            "Comparaciones debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un reporte en Excel con datos limpios, tabla dinamica, grafico, lectura principal y control de errores.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m5-l4",
+          "title": "Tendencias",
+          "keyIdea": "Idea clave: Tendencias sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Tendencias\" dentro del modulo \"Graficos y reportes\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona tiene una planilla de ventas, turnos o gastos y necesita resumirla sin romper datos ni duplicar trabajo. Aplica \"Tendencias\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un reporte en Excel con datos limpios, tabla dinamica, grafico, lectura principal y control de errores.",
+          "alert": "No sobrescribir la planilla original sin copia, control de cambios o respaldo.",
+          "keyPoints": [
+            "Tendencias debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un reporte en Excel con datos limpios, tabla dinamica, grafico, lectura principal y control de errores.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m5-l5",
+          "title": "Anotaciones",
+          "keyIdea": "Idea clave: Anotaciones sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Anotaciones\" dentro del modulo \"Graficos y reportes\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona tiene una planilla de ventas, turnos o gastos y necesita resumirla sin romper datos ni duplicar trabajo. Aplica \"Anotaciones\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un reporte en Excel con datos limpios, tabla dinamica, grafico, lectura principal y control de errores.",
+          "alert": "No sobrescribir la planilla original sin copia, control de cambios o respaldo.",
+          "keyPoints": [
+            "Anotaciones debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un reporte en Excel con datos limpios, tabla dinamica, grafico, lectura principal y control de errores.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m5-l6",
+          "title": "Errores visuales",
+          "keyIdea": "Idea clave: Errores visuales sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Errores visuales\" dentro del modulo \"Graficos y reportes\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona tiene una planilla de ventas, turnos o gastos y necesita resumirla sin romper datos ni duplicar trabajo. Aplica \"Errores visuales\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un reporte en Excel con datos limpios, tabla dinamica, grafico, lectura principal y control de errores.",
+          "alert": "No sobrescribir la planilla original sin copia, control de cambios o respaldo.",
+          "keyPoints": [
+            "Errores visuales debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un reporte en Excel con datos limpios, tabla dinamica, grafico, lectura principal y control de errores.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m5-q1",
+          "question": "Pregunta 1: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        },
+        {
+          "id": "m5-q2",
+          "question": "Pregunta 2: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        },
+        {
+          "id": "m5-q3",
+          "question": "Pregunta 3: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        },
+        {
+          "id": "m5-q4",
+          "question": "Pregunta 4: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        },
+        {
+          "id": "m5-q5",
+          "question": "Pregunta 5: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        }
+      ],
+      "professionalOutcome": "limpiar datos, calcular indicadores y construir una vista clara para decidir. Entregable sugerido: una planilla con datos limpios, indicadores, grafico principal y nota de lectura."
+    },
+    {
+      "id": "m6",
+      "title": "Entrega final",
+      "description": "En este modulo vas a trabajar \"Entrega final\" dentro de analisis en Excel, limpieza de planillas, funciones, tablas dinamicas, graficos y reportes. La meta es partir de una pregunta concreta, revisar la calidad de la informacion y cerrar con una evidencia que pueda explicarse.",
+      "learningRisk": "Punto clave",
+      "lessons": [
+        {
+          "id": "m6-l1",
+          "title": "Resumen ejecutivo",
+          "keyIdea": "Idea clave: Resumen ejecutivo sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Resumen ejecutivo\" dentro del modulo \"Entrega final\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona tiene una planilla de ventas, turnos o gastos y necesita resumirla sin romper datos ni duplicar trabajo. Aplica \"Resumen ejecutivo\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un reporte en Excel con datos limpios, tabla dinamica, grafico, lectura principal y control de errores.",
+          "alert": "No sobrescribir la planilla original sin copia, control de cambios o respaldo.",
+          "keyPoints": [
+            "Resumen ejecutivo debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un reporte en Excel con datos limpios, tabla dinamica, grafico, lectura principal y control de errores.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m6-l2",
+          "title": "Hallazgos",
+          "keyIdea": "Idea clave: Hallazgos sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Hallazgos\" dentro del modulo \"Entrega final\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona tiene una planilla de ventas, turnos o gastos y necesita resumirla sin romper datos ni duplicar trabajo. Aplica \"Hallazgos\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un reporte en Excel con datos limpios, tabla dinamica, grafico, lectura principal y control de errores.",
+          "alert": "No sobrescribir la planilla original sin copia, control de cambios o respaldo.",
+          "keyPoints": [
+            "Hallazgos debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un reporte en Excel con datos limpios, tabla dinamica, grafico, lectura principal y control de errores.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m6-l3",
+          "title": "Limitaciones",
+          "keyIdea": "Idea clave: Limitaciones sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Limitaciones\" dentro del modulo \"Entrega final\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona tiene una planilla de ventas, turnos o gastos y necesita resumirla sin romper datos ni duplicar trabajo. Aplica \"Limitaciones\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un reporte en Excel con datos limpios, tabla dinamica, grafico, lectura principal y control de errores.",
+          "alert": "No sobrescribir la planilla original sin copia, control de cambios o respaldo.",
+          "keyPoints": [
+            "Limitaciones debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un reporte en Excel con datos limpios, tabla dinamica, grafico, lectura principal y control de errores.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m6-l4",
+          "title": "Archivo ordenado",
+          "keyIdea": "Idea clave: Archivo ordenado sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Archivo ordenado\" dentro del modulo \"Entrega final\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona tiene una planilla de ventas, turnos o gastos y necesita resumirla sin romper datos ni duplicar trabajo. Aplica \"Archivo ordenado\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un reporte en Excel con datos limpios, tabla dinamica, grafico, lectura principal y control de errores.",
+          "alert": "No sobrescribir la planilla original sin copia, control de cambios o respaldo.",
+          "keyPoints": [
+            "Archivo ordenado debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un reporte en Excel con datos limpios, tabla dinamica, grafico, lectura principal y control de errores.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m6-l5",
+          "title": "Revision",
+          "keyIdea": "Idea clave: Revision sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Revision\" dentro del modulo \"Entrega final\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona tiene una planilla de ventas, turnos o gastos y necesita resumirla sin romper datos ni duplicar trabajo. Aplica \"Revision\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un reporte en Excel con datos limpios, tabla dinamica, grafico, lectura principal y control de errores.",
+          "alert": "No sobrescribir la planilla original sin copia, control de cambios o respaldo.",
+          "keyPoints": [
+            "Revision debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un reporte en Excel con datos limpios, tabla dinamica, grafico, lectura principal y control de errores.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m6-l6",
+          "title": "Proxima pregunta",
+          "keyIdea": "Idea clave: Proxima pregunta sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Proxima pregunta\" dentro del modulo \"Entrega final\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una persona tiene una planilla de ventas, turnos o gastos y necesita resumirla sin romper datos ni duplicar trabajo. Aplica \"Proxima pregunta\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un reporte en Excel con datos limpios, tabla dinamica, grafico, lectura principal y control de errores.",
+          "alert": "No sobrescribir la planilla original sin copia, control de cambios o respaldo.",
+          "keyPoints": [
+            "Proxima pregunta debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un reporte en Excel con datos limpios, tabla dinamica, grafico, lectura principal y control de errores.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m6-q1",
+          "question": "Pregunta 1: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        },
+        {
+          "id": "m6-q2",
+          "question": "Pregunta 2: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        },
+        {
+          "id": "m6-q3",
+          "question": "Pregunta 3: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        },
+        {
+          "id": "m6-q4",
+          "question": "Pregunta 4: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        },
+        {
+          "id": "m6-q5",
+          "question": "Pregunta 5: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        }
+      ],
+      "professionalOutcome": "limpiar datos, calcular indicadores y construir una vista clara para decidir. Entregable sugerido: una planilla con datos limpios, indicadores, grafico principal y nota de lectura."
+    }
+  ],
+  "appName": "Excel para Analisis de Datos",
+  "professionalization": {
+    "tier": "curso-bandera-v1.0-beta",
+    "updatedAt": "2026-05-28",
+    "focus": "Profundizacion visible de lecciones, practicas, checklists y casos."
+  },
+  "editorialPolish": {
+    "thirdEditorialBatch": "2026-06-02",
+    "status": "public-facing-copy-polished"
+  }
+}

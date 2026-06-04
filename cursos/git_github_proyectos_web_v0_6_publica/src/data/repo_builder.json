@@ -1,0 +1,233 @@
+{
+  "courseId": "git_github_proyectos_web",
+  "version": "0.3",
+  "readmeTemplates": [
+    {
+      "id": "readme-basic-web",
+      "title": "README para proyecto web simple",
+      "description": "Plantilla para HTML, CSS y JavaScript.",
+      "fields": [
+        {
+          "id": "projectTitle",
+          "label": "Título del proyecto",
+          "default": "Mi proyecto web"
+        },
+        {
+          "id": "description",
+          "label": "Descripción breve",
+          "default": "Página web simple creada con HTML, CSS y JavaScript."
+        },
+        {
+          "id": "technologies",
+          "label": "Tecnologías usadas",
+          "default": "HTML, CSS, JavaScript"
+        },
+        {
+          "id": "howToRun",
+          "label": "Cómo probar",
+          "default": "Abrir index.html con Live Server."
+        },
+        {
+          "id": "status",
+          "label": "Estado actual",
+          "default": "Versión inicial en desarrollo."
+        },
+        {
+          "id": "nextSteps",
+          "label": "Próximas mejoras",
+          "default": "Mejorar diseño responsive y agregar nuevas secciones."
+        }
+      ]
+    },
+    {
+      "id": "readme-portfolio",
+      "title": "README para portfolio",
+      "description": "Plantilla para presentar un proyecto personal.",
+      "fields": [
+        {
+          "id": "projectTitle",
+          "label": "Título",
+          "default": "Portfolio personal"
+        },
+        {
+          "id": "description",
+          "label": "Descripción",
+          "default": "Sitio personal para mostrar proyectos y habilidades."
+        },
+        {
+          "id": "technologies",
+          "label": "Tecnologías",
+          "default": "HTML, CSS, JavaScript"
+        },
+        {
+          "id": "howToRun",
+          "label": "Cómo verlo",
+          "default": "Abrir con Live Server o publicar en GitHub Pages."
+        },
+        {
+          "id": "status",
+          "label": "Estado",
+          "default": "Prototipo funcional."
+        },
+        {
+          "id": "nextSteps",
+          "label": "Próximas mejoras",
+          "default": "Agregar proyectos reales, contacto y mejoras visuales."
+        }
+      ]
+    },
+    {
+      "id": "readme-course-practice",
+      "title": "README para práctica de curso",
+      "description": "Plantilla para ejercicios de aprendizaje.",
+      "fields": [
+        {
+          "id": "projectTitle",
+          "label": "Nombre de la práctica",
+          "default": "Práctica HTML CSS JS"
+        },
+        {
+          "id": "description",
+          "label": "Objetivo",
+          "default": "Practicar estructura, estilos e interacción básica."
+        },
+        {
+          "id": "technologies",
+          "label": "Tecnologías",
+          "default": "HTML, CSS, JavaScript"
+        },
+        {
+          "id": "howToRun",
+          "label": "Cómo ejecutar",
+          "default": "Clonar o descargar el repositorio y abrir index.html."
+        },
+        {
+          "id": "status",
+          "label": "Estado",
+          "default": "Práctica completada."
+        },
+        {
+          "id": "nextSteps",
+          "label": "Mejoras",
+          "default": "Refactorizar código y documentar aprendizajes."
+        }
+      ]
+    }
+  ],
+  "gitignoreTemplates": [
+    {
+      "id": "gitignore-basic-web",
+      "title": "Web simple",
+      "description": "Para proyectos HTML/CSS/JS sin Node.",
+      "entries": [
+        "*.log",
+        ".DS_Store",
+        "Thumbs.db",
+        "dist/",
+        "temp/",
+        "*.tmp"
+      ]
+    },
+    {
+      "id": "gitignore-node-web",
+      "title": "Proyecto web con Node",
+      "description": "Para proyectos con npm, dependencias o build.",
+      "entries": [
+        "node_modules/",
+        ".env",
+        ".env.local",
+        "dist/",
+        "build/",
+        ".cache/",
+        "coverage/",
+        "*.log"
+      ]
+    },
+    {
+      "id": "gitignore-course-export",
+      "title": "Curso web exportado",
+      "description": "Para paquetes educativos con capturas y archivos temporales.",
+      "entries": [
+        "node_modules/",
+        ".env",
+        "temp/",
+        "drafts/",
+        "*.log",
+        "*.tmp",
+        ".DS_Store",
+        "Thumbs.db"
+      ]
+    }
+  ],
+  "commitTemplates": [
+    {
+      "id": "commit-init",
+      "title": "Estructura inicial",
+      "message": "Crear estructura inicial del proyecto"
+    },
+    {
+      "id": "commit-content",
+      "title": "Contenido",
+      "message": "Agregar contenido principal"
+    },
+    {
+      "id": "commit-style",
+      "title": "Estilos",
+      "message": "Mejorar estilos y diseño responsive"
+    },
+    {
+      "id": "commit-js",
+      "title": "Interacción",
+      "message": "Agregar interacción con JavaScript"
+    },
+    {
+      "id": "commit-docs",
+      "title": "Documentación",
+      "message": "Actualizar README y documentación"
+    },
+    {
+      "id": "commit-fix",
+      "title": "Corrección",
+      "message": "Corregir errores de navegación y estilos"
+    },
+    {
+      "id": "commit-release",
+      "title": "Cierre",
+      "message": "Preparar versión candidata a publicación"
+    }
+  ],
+  "repoChecklist": [
+    {
+      "id": "repo-index",
+      "text": "El proyecto tiene index.html o punto de entrada claro."
+    },
+    {
+      "id": "repo-css",
+      "text": "Los estilos cargan correctamente."
+    },
+    {
+      "id": "repo-js",
+      "text": "JavaScript no muestra errores visibles en consola."
+    },
+    {
+      "id": "repo-readme",
+      "text": "README.md explica objetivo, uso, tecnologías y estado."
+    },
+    {
+      "id": "repo-gitignore",
+      "text": ".gitignore evita archivos temporales, privados o pesados."
+    },
+    {
+      "id": "repo-private",
+      "text": "No hay claves, tokens, correos privados ni datos sensibles."
+    },
+    {
+      "id": "repo-commit",
+      "text": "Los commits tienen mensajes descriptivos."
+    },
+    {
+      "id": "repo-github",
+      "text": "El repositorio en GitHub se ve ordenado y entendible."
+    }
+  ]
+}

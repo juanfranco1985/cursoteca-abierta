@@ -1,0 +1,80 @@
+{
+  "courseId": "accesibilidad-web-principiantes",
+  "templateVersion": "0.6-publica-profesional",
+  "appName": "Accesibilidad Web para Principiantes",
+  "shortName": "Accesibilidad Web",
+  "subtitle": "Curso practico para revisar sitios con criterio inclusivo: semantica, contraste, teclado, formularios y pruebas basicas.",
+  "description": "Aprende accesibilidad web desde lo concreto: detectar barreras, mejorar HTML, revisar contraste, navegar con teclado y probar formularios.",
+  "audience": "Principiantes de desarrollo web, docentes y creadores de sitios.",
+  "category": "Desarrollo web",
+  "status": "Publico profesional",
+  "dataPaths": {
+    "course": "src/data/course_content.json",
+    "checklists": "src/data/checklists.json",
+    "incidents": "src/data/incidents.json"
+  },
+  "labels": {
+    "modules": "Modulos",
+    "checklists": "Checklists",
+    "incidents": "Proyectos",
+    "emergency": "Practica rapida",
+    "certificate": "Constancia"
+  },
+  "features": {
+    "modules": true,
+    "quizzes": true,
+    "checklists": true,
+    "incidents": true,
+    "emergency": true,
+    "certificate": true,
+    "publicProfessionalEdition": true,
+    "requiresBackend": false,
+    "requiresLogin": false
+  },
+  "theme": {
+    "accent": "#4fb6aa",
+    "accent2": "#22c55e",
+    "danger": "#fb7185",
+    "warning": "#f59e0b",
+    "primary": "#d6a85c",
+    "background": "#21130b"
+  },
+  "certificate": {
+    "title": "Constancia interna - Accesibilidad Web para Principiantes",
+    "minimumSuggestedProgress": 70,
+    "minimumSuggestedQuizAverage": 70,
+    "notOfficialNotice": "Constancia educativa no oficial."
+  },
+  "responsibleNotice": "Contenido educativo. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. No asumir que una pagina es accesible solo porque se ve bien en pantalla propia.",
+  "publication": {
+    "version": "0.6-publica-profesional",
+    "status": "Publica profesional",
+    "requiresBackend": false,
+    "requiresLogin": false,
+    "requiresAnalytics": false,
+    "requiresAds": false,
+    "recommendedHosts": [
+      "GitHub Pages",
+      "Netlify",
+      "Vercel",
+      "Hosting estatico propio"
+    ]
+  },
+  "webApp": {
+    "cacheName": "accesibilidad_web_principiantes_v0_6_publica-cache-v0-6-publica-profesional",
+    "publicationStatus": "publica-profesional-v0.6"
+  },
+  "professionalization": {
+    "tier": "curso-bandera-v1.0-beta",
+    "updatedAt": "2026-05-28",
+    "improvements": [
+      "Lecciones con teoria, ejemplo, error comun y ejercicio mas profundos.",
+      "Checklists orientados a evidencia y entregables.",
+      "Casos guiados con pasos, errores y decision responsable."
+    ]
+  },
+  "editorialPolish": {
+    "fourthEditorialBatch": "2026-06-02",
+    "status": "public-facing-copy-polished"
+  }
+}

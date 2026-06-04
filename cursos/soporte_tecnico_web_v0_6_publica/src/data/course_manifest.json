@@ -1,0 +1,362 @@
+{
+  "courseId": "simulador-laboral-soporte-tecnico",
+  "templateVersion": "0.6-publica-profesional",
+  "appName": "Simulador Laboral de Soporte Técnico",
+  "shortName": "Soporte Técnico",
+  "subtitle": "Curso práctico para recibir un problema, hacer preguntas útiles, documentar y escalar correctamente.",
+  "description": "Entrená una rutina de soporte técnico inicial: entender el problema, preguntar mejor, probar con orden y dejar registro claro.",
+  "audience": "Principiantes en soporte técnico, estudiantes de informática, autodidactas, personas que quieren practicar mesa de ayuda y usuarios avanzados que desean ordenar su método de diagnóstico.",
+  "dataPaths": {
+    "course": "src/data/course_content.json",
+    "checklists": "src/data/checklists.json",
+    "incidents": "src/data/incidents.json"
+  },
+  "labels": {
+    "modules": "Módulos",
+    "checklists": "Checklists",
+    "incidents": "Tickets",
+    "emergency": "Incidente crítico",
+    "certificate": "Constancia",
+    "primaryAction": "Empezar entrenamiento",
+    "emergencyAction": "Tengo un ticket urgente",
+    "ticketBoard": "Tablero"
+  },
+  "features": {
+    "modules": true,
+    "quizzes": true,
+    "checklists": true,
+    "incidents": true,
+    "emergency": true,
+    "certificate": true,
+    "progressExport": true,
+    "templateGuide": true,
+    "accessibilityPanel": true,
+    "pwaBasic": true,
+    "offlineCache": true,
+    "publishGuide": true,
+    "officialCloneTemplate": true,
+    "templateKit": true,
+    "cloneChecklist": true,
+    "dataContracts": true,
+    "sampleCoursesRoadmap": true,
+    "validationScript": true,
+    "ticketSimulation": true,
+    "diagnosticPractice": true,
+    "helpDeskWorkflow": true,
+    "userCommunication": true,
+    "ticketBoard": true,
+    "ticketStatuses": true,
+    "ticketPriorities": true,
+    "resolutionScoring": true,
+    "performanceMetrics": true,
+    "ticketFeedback": true,
+    "ticketLog": true,
+    "ticketClosureExport": true,
+    "userConversationSimulator": true,
+    "documentationScore": true,
+    "escalationTemplate": true,
+    "advancedTicketBoard": true,
+    "ticketFilters": true,
+    "ticketQueue": true,
+    "educationalSla": true,
+    "slaTrafficLight": true,
+    "simulatedUserProfiles": true,
+    "advancedBoardMetrics": true,
+    "publicationReady": true,
+    "publicReadme": true,
+    "screenshotGuide": true,
+    "releaseChecklist": true,
+    "legalNotice": true,
+    "privacyPolicy": true,
+    "deploymentGuide": true,
+    "documentationCleanup": true,
+    "publicProfessionalEdition": true,
+    "requiresBackend": false,
+    "requiresLogin": false
+  },
+  "theme": {
+    "accent": "#4fb6aa",
+    "accent2": "#a78bfa",
+    "danger": "#fb7185",
+    "warning": "#f59e0b",
+    "primary": "#d6a85c",
+    "background": "#21130b"
+  },
+  "responsibleNotice": "Contenido educativo. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. No pedir contrasenas, no tomar control sin permiso y no borrar informacion sin respaldo.",
+  "cloneNotes": "v0.5 deja el simulador como candidato de publicación web: README público, guías de despliegue y capturas, aviso legal, privacidad y checklist final. Mantiene la compatibilidad de la plantilla clonable.",
+  "certificate": {
+    "title": "Constancia interna de entrenamiento en soporte técnico",
+    "minimumSuggestedProgress": 70,
+    "minimumSuggestedQuizAverage": 70,
+    "notOfficialNotice": "Esta constancia es educativa, no oficial, y no equivale a certificación laboral, técnica, profesional ni institucional."
+  },
+  "quiz": {
+    "passingPercent": 70,
+    "saveIncomplete": false,
+    "showImmediateFeedback": true
+  },
+  "accessibility": {
+    "fontScale": true,
+    "highContrast": true,
+    "reducedMotion": true
+  },
+  "webApp": {
+    "offlineReady": true,
+    "installable": true,
+    "recommendedRunMode": "VS Code + Live Server para prueba local; GitHub Pages, Netlify o Vercel para publicación.",
+    "cacheName": "soporte-tecnico-web-v0-6-publica-v0-6-publica-profesional",
+    "publishTargets": [
+      "GitHub Pages",
+      "Netlify",
+      "Vercel",
+      "Cloudflare Pages",
+      "hosting estático propio"
+    ],
+    "publicationStatus": "publica-profesional-v0.6"
+  },
+  "cloneKit": {
+    "editableFiles": [
+      "src/data/course_manifest.json",
+      "src/data/course_content.json",
+      "src/data/checklists.json",
+      "src/data/incidents.json",
+      "README.md"
+    ],
+    "doNotEditNormally": [
+      "src/app.js",
+      "styles.css",
+      "scripts/validate-template.mjs"
+    ]
+  },
+  "ticketBoard": {
+    "enabled": true,
+    "statuses": [
+      {
+        "id": "new",
+        "label": "Nuevo",
+        "description": "Ticket recibido, todavía sin diagnóstico."
+      },
+      {
+        "id": "diagnosing",
+        "label": "En diagnóstico",
+        "description": "Se están reuniendo síntomas, evidencias y pruebas seguras."
+      },
+      {
+        "id": "waiting_user",
+        "label": "Esperando usuario",
+        "description": "Falta información o validación del usuario."
+      },
+      {
+        "id": "escalated",
+        "label": "Escalado",
+        "description": "Requiere red, seguridad, proveedor, administrador o nivel superior."
+      },
+      {
+        "id": "resolved",
+        "label": "Resuelto",
+        "description": "Se aplicó una solución o cierre documentado."
+      }
+    ],
+    "priorities": [
+      {
+        "id": "low",
+        "label": "Baja",
+        "score": 1
+      },
+      {
+        "id": "medium",
+        "label": "Media",
+        "score": 2
+      },
+      {
+        "id": "high",
+        "label": "Alta",
+        "score": 3
+      },
+      {
+        "id": "critical",
+        "label": "Crítica",
+        "score": 4
+      }
+    ],
+    "scoreRules": [
+      "Priorizá por impacto, urgencia y riesgo: no todo ticket ruidoso es crítico.",
+      "Usá el semáforo SLA educativo para decidir qué atender primero.",
+      "Un ticket bien resuelto debe tener estado, prioridad, bitácora, evidencia no sensible y cierre o escalamiento claro.",
+      "La puntuación es educativa y no representa desempeño laboral real."
+    ]
+  },
+  "ticketDocumentation": {
+    "enabled": true,
+    "rules": [
+      "Registrar el síntoma reportado por el usuario sin interpretar de más.",
+      "Separar pruebas realizadas, evidencia observada e hipótesis.",
+      "No pedir ni guardar contraseñas, tokens, códigos 2FA ni datos sensibles.",
+      "Documentar impacto, alcance, próxima acción y validación con usuario.",
+      "Escalar con contexto suficiente cuando excede el nivel inicial."
+    ]
+  },
+  "conversationSimulator": {
+    "enabled": true,
+    "scenarios": [
+      {
+        "match": "internet",
+        "userMessage": "Hola, no tengo internet y necesito mandar una factura urgente. ¿Podés arreglarlo ya?",
+        "goodResponse": "Entiendo la urgencia. Para diagnosticarlo rápido: ¿el problema ocurre solo en tu equipo o también en otros? ¿Estás por Wi‑Fi o cable? ¿Qué mensaje aparece al abrir el navegador?",
+        "badResponse": "Debe ser tu router. Reinicialo y avisame.",
+        "checklist": [
+          "Reconocer urgencia",
+          "Preguntar alcance",
+          "Pedir síntoma verificable",
+          "Indicar próxima acción"
+        ]
+      },
+      {
+        "match": "contraseña",
+        "userMessage": "Me olvidé la contraseña. ¿Me la podés decir o cambiar desde tu lado?",
+        "goodResponse": "No puedo ver ni pedir tu contraseña. Te guío por el flujo oficial de recuperación y verificamos que puedas entrar sin compartir claves.",
+        "badResponse": "Pasame una clave nueva por WhatsApp y te la cambio.",
+        "checklist": [
+          "No pedir contraseña",
+          "Usar canal oficial",
+          "Validar identidad según política",
+          "Cerrar con prevención"
+        ]
+      },
+      {
+        "match": "hackeado",
+        "userMessage": "Creo que me hackearon. El navegador abre páginas raras y me aparecen avisos extraños.",
+        "goodResponse": "Vamos a tratarlo como posible incidente. No instales nada nuevo ni ingreses claves. Necesito saber cuándo empezó, qué navegador usás y si hay extensiones desconocidas.",
+        "badResponse": "Seguro es un virus, bajá cualquier antivirus gratis.",
+        "checklist": [
+          "Contener riesgo",
+          "Evitar acciones peligrosas",
+          "Reunir evidencia",
+          "Escalar si corresponde"
+        ]
+      }
+    ]
+  },
+  "ticketSla": {
+    "critical": {
+      "label": "Crítica",
+      "targetHours": 1,
+      "description": "Posible caída general, seguridad, datos o bloqueo grave. Revisar y escalar sin demora."
+    },
+    "high": {
+      "label": "Alta",
+      "targetHours": 4,
+      "description": "Afecta trabajo importante o riesgo operativo. Diagnóstico y comunicación durante la jornada."
+    },
+    "medium": {
+      "label": "Media",
+      "targetHours": 24,
+      "description": "Afecta a un usuario o tarea no crítica. Requiere seguimiento documentado."
+    },
+    "low": {
+      "label": "Baja",
+      "targetHours": 72,
+      "description": "Consulta, mejora o problema menor. Resolver cuando no desplace urgencias reales."
+    }
+  },
+  "userProfiles": [
+    {
+      "name": "María López",
+      "area": "Administración",
+      "digitalLevel": "Básico",
+      "communicationStyle": "Describe el problema con frases cortas y necesita preguntas guiadas.",
+      "risk": "Puede enviar capturas con datos sensibles si no se le indica qué ocultar.",
+      "ticketIds": [
+        "pc_no_internet",
+        "browser_pages"
+      ]
+    },
+    {
+      "name": "Tomás Ferreira",
+      "area": "Ventas",
+      "digitalLevel": "Intermedio",
+      "communicationStyle": "Está apurado y necesita saber impacto y tiempo estimado.",
+      "risk": "Tiende a probar soluciones por su cuenta antes de reportar.",
+      "ticketIds": [
+        "forgot_password",
+        "android_slow"
+      ]
+    },
+    {
+      "name": "Carla Medina",
+      "area": "Gerencia",
+      "digitalLevel": "Básico",
+      "communicationStyle": "Necesita mensajes breves, seguros y con próxima acción clara.",
+      "risk": "Sus cuentas tienen alto impacto operativo si hay sospecha de phishing o malware.",
+      "ticketIds": [
+        "wifi_not_working",
+        "app_wont_install"
+      ]
+    },
+    {
+      "name": "Nicolás Rivas",
+      "area": "Depósito / campo",
+      "digitalLevel": "Inicial",
+      "communicationStyle": "Reporta desde celular y puede tener mala conectividad.",
+      "risk": "Puede confundir falla de red, equipo, credenciales y aplicación.",
+      "ticketIds": [
+        "possible_hack",
+        "document_ticket"
+      ]
+    }
+  ],
+  "publication": {
+    "status": "Publica profesional",
+    "recommendedUrlSlug": "soporte-tecnico-web",
+    "publicTitle": "Simulador Laboral de Soporte Técnico",
+    "shortDescription": "Entrenamiento web interactivo para practicar mesa de ayuda, diagnóstico, tickets y documentación.",
+    "longDescription": "Curso y simulador web para principiantes en soporte técnico. Incluye módulos, lecciones, quizzes, checklists, tickets simulados, tablero laboral, SLA educativo, perfiles de usuario, bitácoras, escalamiento y constancia interna no oficial.",
+    "screenshots": [
+      "Home del simulador",
+      "Tablero de tickets",
+      "Cola priorizada",
+      "Detalle de ticket",
+      "Bitácora de ticket",
+      "Simulador de conversación",
+      "Constancia interna",
+      "Panel de accesibilidad"
+    ],
+    "version": "0.6-publica-profesional",
+    "requiresBackend": false,
+    "requiresLogin": false,
+    "requiresAnalytics": false,
+    "requiresAds": false,
+    "recommendedHosts": [
+      "GitHub Pages",
+      "Netlify",
+      "Vercel",
+      "Hosting estatico propio"
+    ],
+    "prePublishChecks": [
+      "Probar con servidor local",
+      "Probar navegacion en movil y escritorio",
+      "Revisar textos legales y privacidad",
+      "Verificar que no se pidan datos sensibles",
+      "Actualizar capturas publicas"
+    ]
+  },
+  "publicEdition": {
+    "level": "publica-profesional",
+    "version": "0.6",
+    "generatedAt": "2026-05-26",
+    "sourceZip": "soporte_tecnico_web_v0_5.zip"
+  },
+  "professionalization": {
+    "tier": "curso-bandera-v1.0-beta",
+    "updatedAt": "2026-05-28",
+    "improvements": [
+      "Lecciones con teoria, ejemplo, error comun y ejercicio mas profundos.",
+      "Checklists orientados a evidencia y entregables.",
+      "Casos guiados con pasos, errores y decision responsable."
+    ]
+  },
+  "editorialPolish": {
+    "secondFeaturedBatch": "2026-06-01",
+    "status": "public-facing-copy-polished"
+  }
+}

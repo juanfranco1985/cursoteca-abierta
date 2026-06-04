@@ -1,0 +1,24 @@
+# Checklist de publicación — Soporte Técnico v0.5
+
+- [ ] Probar con Live Server.
+- [ ] Verificar que no haya errores críticos en consola.
+- [ ] Probar Home.
+- [ ] Probar módulos y lecciones.
+- [ ] Probar quizzes.
+- [ ] Probar checklists.
+- [ ] Probar tickets simulados.
+- [ ] Probar tablero laboral.
+- [ ] Probar cola priorizada.
+- [ ] Probar bitácora.
+- [ ] Probar simulador de conversación.
+- [ ] Probar exportación `.txt`.
+- [ ] Probar constancia interna.
+- [ ] Probar accesibilidad.
+- [ ] Verificar manifest.
+- [ ] Verificar Service Worker.
+- [ ] Probar recarga offline después de primera carga.
+- [ ] Revisar README.
+- [ ] Revisar aviso legal.
+- [ ] Revisar privacidad.
+- [ ] Tomar capturas.
+- [ ] Publicar en hosting estático.

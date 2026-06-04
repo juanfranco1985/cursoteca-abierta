@@ -1,0 +1,80 @@
+{
+  "courseId": "tienda-online-principiantes",
+  "templateVersion": "0.6-publica-profesional",
+  "appName": "Tienda Online para Principiantes",
+  "shortName": "Tienda Online",
+  "subtitle": "Curso practico para preparar una tienda online clara: productos, precios, pagos, stock, envios y confianza.",
+  "description": "Arma una tienda online inicial con criterio: catalogo, fichas de producto, precios, medios de pago, stock, envios y atencion.",
+  "audience": "Emprendedores y pequenos negocios.",
+  "category": "Emprendimiento",
+  "status": "Publico profesional",
+  "dataPaths": {
+    "course": "src/data/course_content.json",
+    "checklists": "src/data/checklists.json",
+    "incidents": "src/data/incidents.json"
+  },
+  "labels": {
+    "modules": "Modulos",
+    "checklists": "Checklists",
+    "incidents": "Proyectos",
+    "emergency": "Practica rapida",
+    "certificate": "Constancia"
+  },
+  "features": {
+    "modules": true,
+    "quizzes": true,
+    "checklists": true,
+    "incidents": true,
+    "emergency": true,
+    "certificate": true,
+    "publicProfessionalEdition": true,
+    "requiresBackend": false,
+    "requiresLogin": false
+  },
+  "theme": {
+    "accent": "#4fb6aa",
+    "accent2": "#f97316",
+    "danger": "#fb7185",
+    "warning": "#f59e0b",
+    "primary": "#d6a85c",
+    "background": "#21130b"
+  },
+  "certificate": {
+    "title": "Constancia interna - Tienda Online para Principiantes",
+    "minimumSuggestedProgress": 70,
+    "minimumSuggestedQuizAverage": 70,
+    "notOfficialNotice": "Constancia educativa no oficial."
+  },
+  "responsibleNotice": "Contenido educativo. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. No vender productos sin aclarar condiciones, costos, stock, entrega y canales de reclamo.",
+  "publication": {
+    "version": "0.6-publica-profesional",
+    "status": "Publica profesional",
+    "requiresBackend": false,
+    "requiresLogin": false,
+    "requiresAnalytics": false,
+    "requiresAds": false,
+    "recommendedHosts": [
+      "GitHub Pages",
+      "Netlify",
+      "Vercel",
+      "Hosting estatico propio"
+    ]
+  },
+  "webApp": {
+    "cacheName": "tienda_online_principiantes_v0_6_publica-cache-v0-6-publica-profesional",
+    "publicationStatus": "publica-profesional-v0.6"
+  },
+  "professionalization": {
+    "tier": "curso-bandera-v1.0-beta",
+    "updatedAt": "2026-05-28",
+    "improvements": [
+      "Lecciones con teoria, ejemplo, error comun y ejercicio mas profundos.",
+      "Checklists orientados a evidencia y entregables.",
+      "Casos guiados con pasos, errores y decision responsable."
+    ]
+  },
+  "editorialPolish": {
+    "fourthEditorialBatch": "2026-06-02",
+    "status": "public-facing-copy-polished"
+  }
+}

@@ -1,0 +1,275 @@
+{
+  "courseId": "ia-practica-trabajadores-emprendedores",
+  "templateVersion": "0.6-publica-profesional",
+  "appName": "IA Práctica para Trabajadores y Emprendedores",
+  "shortName": "IA Práctica",
+  "subtitle": "Curso práctico para crear borradores útiles con IA, revisar resultados y decidir cuándo verificar con fuentes externas.",
+  "description": "Aprendé a usar IA generativa para trabajar, estudiar o emprender sin delegar el criterio: pedí mejores respuestas, revisá límites y documentá decisiones.",
+  "audience": "Trabajadores, emprendedores, estudiantes, comerciantes, administrativos y creadores que quieren usar IA con criterio práctico.",
+  "dataPaths": {
+    "course": "src/data/course_content.json",
+    "checklists": "src/data/checklists.json",
+    "incidents": "src/data/incidents.json",
+    "prompts": "src/data/prompts.json"
+  },
+  "labels": {
+    "modules": "Módulos",
+    "checklists": "Checklists",
+    "incidents": "Casos prácticos",
+    "emergency": "Uso responsable",
+    "certificate": "Constancia",
+    "primaryAction": "Empezar curso",
+    "emergencyAction": "Revisar riesgos antes de usar IA",
+    "prompts": "Prompts",
+    "promptBuilder": "Constructor"
+  },
+  "features": {
+    "modules": true,
+    "quizzes": true,
+    "checklists": true,
+    "incidents": true,
+    "emergency": true,
+    "certificate": true,
+    "progressExport": true,
+    "templateGuide": false,
+    "accessibilityPanel": true,
+    "pwaBasic": true,
+    "offlineCache": true,
+    "publishGuide": false,
+    "officialCloneTemplate": false,
+    "templateKit": false,
+    "cloneChecklist": false,
+    "dataContracts": false,
+    "sampleCoursesRoadmap": false,
+    "validationScript": false,
+    "promptLibrary": true,
+    "practiceLab": true,
+    "promptBuilder": true,
+    "promptDraftLocalSave": true,
+    "promptCopy": true,
+    "promptBuilderExamples": true,
+    "promptTxtExport": true,
+    "promptQualityRubric": true,
+    "labImprovedCards": true,
+    "builderAccessibilityReview": true,
+    "publicReadme": true,
+    "publicationCandidate": true,
+    "aiLegalNotice": true,
+    "aiPrivacyPolicy": true,
+    "screenshotsGuide": true,
+    "deploymentGuide": true,
+    "storeAssetsFolder": true,
+    "publishingChecklist": false,
+    "publicLightBuild": true,
+    "readyToShare": true,
+    "publicProfessionalEdition": true,
+    "requiresBackend": false,
+    "requiresLogin": false
+  },
+  "theme": {
+    "accent": "#4fb6aa",
+    "accent2": "#22d3ee",
+    "danger": "#fb7185",
+    "warning": "#fbbf24",
+    "primary": "#d6a85c",
+    "background": "#21130b"
+  },
+  "responsibleNotice": "Contenido educativo. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. No ingresar datos personales, claves, documentos privados ni informacion confidencial.",
+  "cloneNotes": [
+    "Versión pública liviana preparada para prueba en navegador.",
+    "El paquete conserva el curso, biblioteca de prompts, laboratorio, constructor, constancia, accesibilidad y privacidad.",
+    "La documentación interna de clonación y auditorías históricas fue retirada del ZIP público."
+  ],
+  "certificate": {
+    "title": "Constancia interna de avance en IA práctica",
+    "issuer": "IA Práctica para Trabajadores y Emprendedores",
+    "notOfficialNotice": "Esta constancia es interna, educativa y no equivale a una certificación oficial.",
+    "minimumSuggestedProgress": 70,
+    "minimumSuggestedQuizAverage": 70
+  },
+  "quiz": {
+    "passingPercent": 70,
+    "allowRetake": true,
+    "saveAttempts": true,
+    "showFeedbackAfterSelection": true
+  },
+  "accessibility": {
+    "fontScaleOptions": [
+      "normal",
+      "large",
+      "extra-large"
+    ],
+    "contrastOptions": [
+      "normal",
+      "high"
+    ],
+    "reducedMotionToggle": true,
+    "minTouchTargetDp": 48,
+    "responsiveTargets": [
+      "celular",
+      "tablet",
+      "escritorio"
+    ]
+  },
+  "webApp": {
+    "startUrl": "./",
+    "display": "standalone",
+    "scope": "./",
+    "cacheName": "ia-practica-web-v0-6-publica-v0-6-publica-profesional",
+    "publishTargets": [
+      "GitHub Pages",
+      "Netlify",
+      "Vercel",
+      "Hosting estático propio"
+    ],
+    "offlineNotice": "La app puede abrir la última versión cacheada después de una primera carga correcta con servidor web.",
+    "templatePublishReadiness": "v0.6 pública liviana: lista para prueba externa, demo web o integración en portal.",
+    "publicationStatus": "publica-profesional-v0.6",
+    "recommendedPublicPaths": [
+      "/",
+      "/#/modules",
+      "/#/prompts",
+      "/#/builder",
+      "/#/lab",
+      "/#/certificate",
+      "/#/publish"
+    ],
+    "version": "0.6-publica"
+  },
+  "promptLibrary": {
+    "title": "Biblioteca de prompts copiables",
+    "description": "Prompts editables para clientes, resúmenes, ventas, organización, estudio y verificación.",
+    "copyNotice": "Antes de copiar un prompt, reemplazá los campos entre corchetes y quitá información privada."
+  },
+  "promptBuilder": {
+    "version": "0.4",
+    "fields": [
+      "objective",
+      "context",
+      "audience",
+      "tone",
+      "outputFormat",
+      "constraints",
+      "privacy",
+      "verification"
+    ],
+    "localStorage": "curso-web:{courseId}:prompt-builder:v1",
+    "purpose": "Generar prompts propios con estructura segura y verificable para tareas laborales, comerciales y de estudio.",
+    "examples": [
+      {
+        "id": "ejemplo_cliente_molesto",
+        "title": "Responder a cliente molesto",
+        "draft": {
+          "objective": "redactar una respuesta breve para un cliente molesto por una demora",
+          "context": "El cliente compró un producto ayer. El envío se demoró 24 horas. No debo prometer descuentos ni fechas exactas que no pueda cumplir.",
+          "audience": "cliente minorista que escribe por WhatsApp",
+          "tone": "calmo, amable, responsable y profesional",
+          "outputFormat": "mensaje listo para copiar en WhatsApp, máximo 6 líneas",
+          "constraints": "no culpar al cliente, no inventar datos de envío, no prometer compensaciones no autorizadas",
+          "privacy": "no incluir datos personales, número de pedido real, teléfono, dirección ni datos de pago",
+          "verification": "señalar qué dato debo confirmar antes de enviar el mensaje"
+        }
+      },
+      {
+        "id": "ejemplo_resumen_reunion",
+        "title": "Resumir reunión de trabajo",
+        "draft": {
+          "objective": "convertir notas desordenadas de una reunión en acciones claras",
+          "context": "Tengo apuntes internos de una reunión. Necesito separar decisiones, tareas, responsables, fechas tentativas y dudas abiertas.",
+          "audience": "equipo administrativo pequeño",
+          "tone": "ordenado, neutral y ejecutivo",
+          "outputFormat": "tabla con columnas: tema, decisión, tarea, responsable, fecha, duda pendiente",
+          "constraints": "no inventar responsables ni fechas; marcar como pendiente lo que no esté claro",
+          "privacy": "anonimizar nombres propios y datos de clientes antes de pegar las notas",
+          "verification": "listar supuestos y puntos que debo revisar contra las notas originales"
+        }
+      },
+      {
+        "id": "ejemplo_publicacion_venta",
+        "title": "Publicación de venta",
+        "draft": {
+          "objective": "crear una publicación de venta clara para redes sociales",
+          "context": "Quiero promocionar un producto simple de un emprendimiento local, destacando beneficio, uso y forma de consultar stock.",
+          "audience": "clientes de Instagram y WhatsApp de un comercio barrial",
+          "tone": "cercano, simple, comercial sin exagerar",
+          "outputFormat": "3 versiones: corta, media y con llamada a la acción",
+          "constraints": "no prometer resultados milagrosos, no inventar precio, stock ni garantía",
+          "privacy": "no incluir dirección particular ni teléfono personal si no corresponde",
+          "verification": "indicar qué datos comerciales debo completar antes de publicar"
+        }
+      }
+    ],
+    "qualityRubric": [
+      {
+        "id": "rubric_objective",
+        "title": "Objetivo claro",
+        "description": "El prompt explica qué resultado se busca y evita pedidos vagos."
+      },
+      {
+        "id": "rubric_context",
+        "title": "Contexto suficiente",
+        "description": "Incluye información de situación, destinatario y límites del caso."
+      },
+      {
+        "id": "rubric_format",
+        "title": "Formato de salida",
+        "description": "Pide una estructura concreta: tabla, lista, mensaje, plan o checklist."
+      },
+      {
+        "id": "rubric_constraints",
+        "title": "Restricciones y límites",
+        "description": "Aclara qué no debe inventar, prometer o asumir la IA."
+      },
+      {
+        "id": "rubric_privacy",
+        "title": "Privacidad protegida",
+        "description": "Evita datos personales, bancarios, claves o información sensible."
+      },
+      {
+        "id": "rubric_verification",
+        "title": "Verificación final",
+        "description": "Pide marcar supuestos, riesgos y datos que deben confirmarse."
+      }
+    ]
+  },
+  "publication": {
+    "version": "0.6-publica-profesional",
+    "status": "Publica profesional",
+    "recommendedHosts": [
+      "GitHub Pages",
+      "Netlify",
+      "Vercel",
+      "Hosting estatico propio"
+    ],
+    "requiresBackend": false,
+    "requiresLogin": false,
+    "requiresAnalytics": false,
+    "requiresAds": false,
+    "prePublishChecks": [
+      "Probar con servidor local",
+      "Probar navegacion en movil y escritorio",
+      "Revisar textos legales y privacidad",
+      "Verificar que no se pidan datos sensibles",
+      "Actualizar capturas publicas"
+    ]
+  },
+  "publicEdition": {
+    "level": "publica-profesional",
+    "version": "0.6",
+    "generatedAt": "2026-05-26",
+    "sourceZip": "ia_practica_web_v0_6_publica.zip"
+  },
+  "professionalization": {
+    "tier": "curso-bandera-v1.0-beta",
+    "updatedAt": "2026-05-28",
+    "improvements": [
+      "Lecciones con teoria, ejemplo, error comun y ejercicio mas profundos.",
+      "Checklists orientados a evidencia y entregables.",
+      "Casos guiados con pasos, errores y decision responsable."
+    ]
+  },
+  "editorialPolish": {
+    "firstFeaturedBatch": "2026-06-01",
+    "status": "public-facing-copy-polished"
+  }
+}

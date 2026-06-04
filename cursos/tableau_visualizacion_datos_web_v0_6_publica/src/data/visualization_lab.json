@@ -1,0 +1,202 @@
+{
+  "datasets": [
+    {
+      "id": "ventas_mensuales",
+      "title": "Ventas mensuales por categoría",
+      "description": "Tabla simple para decidir si conviene una línea temporal, barras por categoría o tarjeta de KPI.",
+      "columns": [
+        "mes",
+        "categoria",
+        "ventas",
+        "margen"
+      ],
+      "rows": [
+        {
+          "mes": "Enero",
+          "categoria": "Bebidas",
+          "ventas": 120000,
+          "margen": 32000
+        },
+        {
+          "mes": "Febrero",
+          "categoria": "Bebidas",
+          "ventas": 135000,
+          "margen": 35500
+        },
+        {
+          "mes": "Marzo",
+          "categoria": "Bebidas",
+          "ventas": 98000,
+          "margen": 25000
+        },
+        {
+          "mes": "Enero",
+          "categoria": "Almacén",
+          "ventas": 180000,
+          "margen": 42000
+        },
+        {
+          "mes": "Febrero",
+          "categoria": "Almacén",
+          "ventas": 175000,
+          "margen": 41000
+        },
+        {
+          "mes": "Marzo",
+          "categoria": "Almacén",
+          "ventas": 210000,
+          "margen": 52000
+        }
+      ]
+    },
+    {
+      "id": "clientes_segmentos",
+      "title": "Clientes por segmento",
+      "description": "Dataset para comparar segmentos, detectar concentración y elegir visualizaciones de participación.",
+      "columns": [
+        "segmento",
+        "clientes",
+        "facturacion"
+      ],
+      "rows": [
+        {
+          "segmento": "Minorista",
+          "clientes": 80,
+          "facturacion": 320000
+        },
+        {
+          "segmento": "Mayorista",
+          "clientes": 12,
+          "facturacion": 510000
+        },
+        {
+          "segmento": "Frecuente",
+          "clientes": 35,
+          "facturacion": 260000
+        },
+        {
+          "segmento": "Nuevo",
+          "clientes": 42,
+          "facturacion": 145000
+        }
+      ]
+    },
+    {
+      "id": "stock_productos",
+      "title": "Stock y rotación de productos",
+      "description": "Dataset para visualizar prioridad de reposición y productos de baja rotación.",
+      "columns": [
+        "producto",
+        "stock",
+        "ventas_30d",
+        "rotacion"
+      ],
+      "rows": [
+        {
+          "producto": "Yerba",
+          "stock": 8,
+          "ventas_30d": 55,
+          "rotacion": "alta"
+        },
+        {
+          "producto": "Arroz",
+          "stock": 40,
+          "ventas_30d": 18,
+          "rotacion": "media"
+        },
+        {
+          "producto": "Galletitas",
+          "stock": 6,
+          "ventas_30d": 44,
+          "rotacion": "alta"
+        },
+        {
+          "producto": "Lentejas",
+          "stock": 65,
+          "ventas_30d": 7,
+          "rotacion": "baja"
+        },
+        {
+          "producto": "Aceite",
+          "stock": 10,
+          "ventas_30d": 32,
+          "rotacion": "media"
+        }
+      ]
+    }
+  ],
+  "visualQuestions": [
+    {
+      "id": "q_tendencia_ventas",
+      "question": "¿Cómo evolucionaron las ventas por mes?",
+      "datasetId": "ventas_mensuales",
+      "recommendedChart": "Línea o barras por mes",
+      "badChart": "Torta por mes",
+      "reason": "Una evolución temporal necesita conservar el orden del tiempo; una torta dificulta ver subidas y caídas."
+    },
+    {
+      "id": "q_comparar_categorias",
+      "question": "¿Qué categoría vende más?",
+      "datasetId": "ventas_mensuales",
+      "recommendedChart": "Barras por categoría",
+      "badChart": "Línea sin eje temporal real",
+      "reason": "La comparación entre categorías se lee mejor con barras ordenadas."
+    },
+    {
+      "id": "q_participacion_segmentos",
+      "question": "¿La facturación depende de pocos segmentos?",
+      "datasetId": "clientes_segmentos",
+      "recommendedChart": "Barras ordenadas o treemap conceptual",
+      "badChart": "Tabla larga sin resumen",
+      "reason": "Para concentración conviene ver proporciones y pesos relativos."
+    },
+    {
+      "id": "q_stock_critico",
+      "question": "¿Qué productos requieren atención de stock?",
+      "datasetId": "stock_productos",
+      "recommendedChart": "Barras con color por riesgo",
+      "badChart": "Gráfico circular de stock",
+      "reason": "El stock crítico requiere comparación clara por producto y umbrales visuales."
+    },
+    {
+      "id": "q_outlier",
+      "question": "¿Hay un valor atípico o segmento que destaca demasiado?",
+      "datasetId": "clientes_segmentos",
+      "recommendedChart": "Barras ordenadas con nota de hallazgo",
+      "badChart": "Promedio único sin detalle",
+      "reason": "Los atípicos se pierden si solo se muestra un KPI promedio."
+    }
+  ],
+  "chartTypes": [
+    {
+      "id": "bar",
+      "name": "Barras",
+      "bestFor": "Comparar categorías, productos, segmentos o rankings.",
+      "avoidWhen": "Hay demasiadas categorías o se busca una tendencia fina en el tiempo."
+    },
+    {
+      "id": "line",
+      "name": "Línea",
+      "bestFor": "Mostrar evolución temporal.",
+      "avoidWhen": "No existe un orden temporal claro."
+    },
+    {
+      "id": "kpi",
+      "name": "Tarjeta KPI",
+      "bestFor": "Mostrar un número principal como ventas totales, margen o clientes.",
+      "avoidWhen": "Se necesita explicar distribución o composición."
+    },
+    {
+      "id": "table",
+      "name": "Tabla",
+      "bestFor": "Revisar detalle, auditoría y valores exactos.",
+      "avoidWhen": "Se busca detectar patrones rápidamente."
+    },
+    {
+      "id": "scatter",
+      "name": "Dispersión",
+      "bestFor": "Explorar relación entre dos variables numéricas.",
+      "avoidWhen": "El público necesita una lectura inmediata y simple."
+    }
+  ]
+}

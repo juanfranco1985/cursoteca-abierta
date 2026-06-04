@@ -1,0 +1,1426 @@
+{
+  "appName": "Catálogo de Datos y Alation",
+  "version": "0.6-publica",
+  "modules": [
+    {
+      "id": "m1",
+      "title": "Qué es un catálogo de datos",
+      "description": "En este modulo vas a trabajar \"Qué es un catálogo de datos\" dentro de catalogo de datos, glosario, metadatos, responsables, linaje y confianza operativa. La meta es partir de una pregunta concreta, revisar la calidad de la informacion y cerrar con una evidencia que pueda explicarse.",
+      "commercialRisk": "Usar datos sin contexto, dueño o definición confiable",
+      "lessons": [
+        {
+          "id": "m1_l1",
+          "title": "Qué problema resuelve un catálogo",
+          "keyIdea": "Idea clave: Qué problema resuelve un catálogo sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Qué problema resuelve un catálogo\" dentro del modulo \"Qué es un catálogo de datos\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Un equipo usa varios datos con nombres parecidos y necesita saber cual es confiable, quien responde y como se usa. Aplica \"Qué problema resuelve un catálogo\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una ficha de dato catalogado con definicion, responsable, fuente, uso permitido y nivel de confianza.",
+          "alert": "No catalogar datos sensibles sin clasificacion, permiso y reglas claras de acceso.",
+          "keyPoints": [
+            "Qué problema resuelve un catálogo debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: una ficha de dato catalogado con definicion, responsable, fuente, uso permitido y nivel de confianza.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m1_l2",
+          "title": "Datos como activos de una organización",
+          "keyIdea": "Idea clave: Datos como activos de una organización sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Datos como activos de una organización\" dentro del modulo \"Qué es un catálogo de datos\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Un equipo usa varios datos con nombres parecidos y necesita saber cual es confiable, quien responde y como se usa. Aplica \"Datos como activos de una organización\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una ficha de dato catalogado con definicion, responsable, fuente, uso permitido y nivel de confianza.",
+          "alert": "No catalogar datos sensibles sin clasificacion, permiso y reglas claras de acceso.",
+          "keyPoints": [
+            "Datos como activos de una organización debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: una ficha de dato catalogado con definicion, responsable, fuente, uso permitido y nivel de confianza.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m1_l3",
+          "title": "Catálogo versus carpeta de archivos",
+          "keyIdea": "Idea clave: Catálogo versus carpeta de archivos sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Catálogo versus carpeta de archivos\" dentro del modulo \"Qué es un catálogo de datos\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Un equipo usa varios datos con nombres parecidos y necesita saber cual es confiable, quien responde y como se usa. Aplica \"Catálogo versus carpeta de archivos\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una ficha de dato catalogado con definicion, responsable, fuente, uso permitido y nivel de confianza.",
+          "alert": "No catalogar datos sensibles sin clasificacion, permiso y reglas claras de acceso.",
+          "keyPoints": [
+            "Catálogo versus carpeta de archivos debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: una ficha de dato catalogado con definicion, responsable, fuente, uso permitido y nivel de confianza.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m1_l4",
+          "title": "Búsqueda de datasets confiables",
+          "keyIdea": "Idea clave: Búsqueda de datasets confiables sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Búsqueda de datasets confiables\" dentro del modulo \"Qué es un catálogo de datos\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Un equipo usa varios datos con nombres parecidos y necesita saber cual es confiable, quien responde y como se usa. Aplica \"Búsqueda de datasets confiables\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una ficha de dato catalogado con definicion, responsable, fuente, uso permitido y nivel de confianza.",
+          "alert": "No catalogar datos sensibles sin clasificacion, permiso y reglas claras de acceso.",
+          "keyPoints": [
+            "Búsqueda de datasets confiables debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: una ficha de dato catalogado con definicion, responsable, fuente, uso permitido y nivel de confianza.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m1_l5",
+          "title": "Usuarios técnicos y usuarios de negocio",
+          "keyIdea": "Idea clave: Usuarios técnicos y usuarios de negocio sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Usuarios técnicos y usuarios de negocio\" dentro del modulo \"Qué es un catálogo de datos\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Un equipo usa varios datos con nombres parecidos y necesita saber cual es confiable, quien responde y como se usa. Aplica \"Usuarios técnicos y usuarios de negocio\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una ficha de dato catalogado con definicion, responsable, fuente, uso permitido y nivel de confianza.",
+          "alert": "No catalogar datos sensibles sin clasificacion, permiso y reglas claras de acceso.",
+          "keyPoints": [
+            "Usuarios técnicos y usuarios de negocio debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: una ficha de dato catalogado con definicion, responsable, fuente, uso permitido y nivel de confianza.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m1_l6",
+          "title": "Cuándo un catálogo agrega valor",
+          "keyIdea": "Idea clave: Cuándo un catálogo agrega valor sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Cuándo un catálogo agrega valor\" dentro del modulo \"Qué es un catálogo de datos\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Un equipo usa varios datos con nombres parecidos y necesita saber cual es confiable, quien responde y como se usa. Aplica \"Cuándo un catálogo agrega valor\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una ficha de dato catalogado con definicion, responsable, fuente, uso permitido y nivel de confianza.",
+          "alert": "No catalogar datos sensibles sin clasificacion, permiso y reglas claras de acceso.",
+          "keyPoints": [
+            "Cuándo un catálogo agrega valor debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: una ficha de dato catalogado con definicion, responsable, fuente, uso permitido y nivel de confianza.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "id": "m1_q1",
+          "question": "¿Cuál es el objetivo principal de un catálogo de datos?",
+          "options": [
+            "Hacer que los datos sean buscables, entendibles y confiables",
+            "Reemplazar todas las bases de datos",
+            "Crear gráficos automáticamente",
+            "Eliminar la necesidad de analistas"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Un catálogo ayuda a encontrar, entender y evaluar datos; no reemplaza los sistemas fuente."
+        },
+        {
+          "id": "m1_q2",
+          "question": "¿Qué elemento conviene documentar en una ficha de dataset?",
+          "options": [
+            "Propósito, dueño, actualización y límites",
+            "Contraseñas de acceso",
+            "Datos personales completos",
+            "Solo el nombre técnico"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Una ficha útil combina contexto técnico y de negocio sin exponer información sensible."
+        },
+        {
+          "id": "m1_q3",
+          "question": "¿Qué significa linaje de datos?",
+          "options": [
+            "Origen, transformaciones y destino de un dato",
+            "Color del dashboard",
+            "Nombre del usuario final",
+            "Cantidad de gráficos"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "El linaje permite entender dependencias e impacto ante cambios."
+        },
+        {
+          "id": "m1_q4",
+          "question": "¿Por qué importan las definiciones de negocio?",
+          "options": [
+            "Evitan que distintas áreas entiendan cosas diferentes",
+            "Hacen más lindo el reporte",
+            "Aumentan automáticamente ventas",
+            "Reemplazan auditorías"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Términos como cliente activo, venta neta o margen deben definirse con precisión."
+        },
+        {
+          "id": "m1_q5",
+          "question": "¿Qué práctica es más segura?",
+          "options": [
+            "Usar ejemplos ficticios y anonimizados",
+            "Subir datos internos sin permiso",
+            "Compartir capturas con clientes reales",
+            "Guardar claves en la descripción"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "La documentación debe proteger datos sensibles y respetar permisos."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m1_q1",
+          "question": "¿Cuál es el objetivo principal de un catálogo de datos?",
+          "options": [
+            "Hacer que los datos sean buscables, entendibles y confiables",
+            "Reemplazar todas las bases de datos",
+            "Crear gráficos automáticamente",
+            "Eliminar la necesidad de analistas"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Un catálogo ayuda a encontrar, entender y evaluar datos; no reemplaza los sistemas fuente."
+        },
+        {
+          "id": "m1_q2",
+          "question": "¿Qué elemento conviene documentar en una ficha de dataset?",
+          "options": [
+            "Propósito, dueño, actualización y límites",
+            "Contraseñas de acceso",
+            "Datos personales completos",
+            "Solo el nombre técnico"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Una ficha útil combina contexto técnico y de negocio sin exponer información sensible."
+        },
+        {
+          "id": "m1_q3",
+          "question": "¿Qué significa linaje de datos?",
+          "options": [
+            "Origen, transformaciones y destino de un dato",
+            "Color del dashboard",
+            "Nombre del usuario final",
+            "Cantidad de gráficos"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "El linaje permite entender dependencias e impacto ante cambios."
+        },
+        {
+          "id": "m1_q4",
+          "question": "¿Por qué importan las definiciones de negocio?",
+          "options": [
+            "Evitan que distintas áreas entiendan cosas diferentes",
+            "Hacen más lindo el reporte",
+            "Aumentan automáticamente ventas",
+            "Reemplazan auditorías"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Términos como cliente activo, venta neta o margen deben definirse con precisión."
+        },
+        {
+          "id": "m1_q5",
+          "question": "¿Qué práctica es más segura?",
+          "options": [
+            "Usar ejemplos ficticios y anonimizados",
+            "Subir datos internos sin permiso",
+            "Compartir capturas con clientes reales",
+            "Guardar claves en la descripción"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "La documentación debe proteger datos sensibles y respetar permisos."
+        }
+      ],
+      "professionalOutcome": "documentar activos de datos, definiciones, responsables y reglas de uso. Entregable sugerido: una ficha de catalogo con definicion, fuente, duenio, calidad, sensibilidad y usos."
+    },
+    {
+      "id": "m2",
+      "title": "Diccionario de datos y metadatos",
+      "description": "En este modulo vas a trabajar \"Diccionario de datos y metadatos\" dentro de catalogo de datos, glosario, metadatos, responsables, linaje y confianza operativa. La meta es partir de una pregunta concreta, revisar la calidad de la informacion y cerrar con una evidencia que pueda explicarse.",
+      "commercialRisk": "Usar datos sin contexto, dueño o definición confiable",
+      "lessons": [
+        {
+          "id": "m2_l1",
+          "title": "Qué son los metadatos",
+          "keyIdea": "Idea clave: Qué son los metadatos sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Qué son los metadatos\" dentro del modulo \"Diccionario de datos y metadatos\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Un equipo usa varios datos con nombres parecidos y necesita saber cual es confiable, quien responde y como se usa. Aplica \"Qué son los metadatos\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una ficha de dato catalogado con definicion, responsable, fuente, uso permitido y nivel de confianza.",
+          "alert": "No catalogar datos sensibles sin clasificacion, permiso y reglas claras de acceso.",
+          "keyPoints": [
+            "Qué son los metadatos debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: una ficha de dato catalogado con definicion, responsable, fuente, uso permitido y nivel de confianza.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m2_l2",
+          "title": "Diccionario de datos básico",
+          "keyIdea": "Idea clave: Diccionario de datos básico sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Diccionario de datos básico\" dentro del modulo \"Diccionario de datos y metadatos\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Un equipo usa varios datos con nombres parecidos y necesita saber cual es confiable, quien responde y como se usa. Aplica \"Diccionario de datos básico\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una ficha de dato catalogado con definicion, responsable, fuente, uso permitido y nivel de confianza.",
+          "alert": "No catalogar datos sensibles sin clasificacion, permiso y reglas claras de acceso.",
+          "keyPoints": [
+            "Diccionario de datos básico debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: una ficha de dato catalogado con definicion, responsable, fuente, uso permitido y nivel de confianza.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m2_l3",
+          "title": "Definiciones de negocio",
+          "keyIdea": "Idea clave: Definiciones de negocio sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Definiciones de negocio\" dentro del modulo \"Diccionario de datos y metadatos\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Un equipo usa varios datos con nombres parecidos y necesita saber cual es confiable, quien responde y como se usa. Aplica \"Definiciones de negocio\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una ficha de dato catalogado con definicion, responsable, fuente, uso permitido y nivel de confianza.",
+          "alert": "No catalogar datos sensibles sin clasificacion, permiso y reglas claras de acceso.",
+          "keyPoints": [
+            "Definiciones de negocio debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: una ficha de dato catalogado con definicion, responsable, fuente, uso permitido y nivel de confianza.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m2_l4",
+          "title": "Campos, tipos y ejemplos",
+          "keyIdea": "Idea clave: Campos, tipos y ejemplos sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Campos, tipos y ejemplos\" dentro del modulo \"Diccionario de datos y metadatos\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Un equipo usa varios datos con nombres parecidos y necesita saber cual es confiable, quien responde y como se usa. Aplica \"Campos, tipos y ejemplos\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una ficha de dato catalogado con definicion, responsable, fuente, uso permitido y nivel de confianza.",
+          "alert": "No catalogar datos sensibles sin clasificacion, permiso y reglas claras de acceso.",
+          "keyPoints": [
+            "Campos, tipos y ejemplos debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: una ficha de dato catalogado con definicion, responsable, fuente, uso permitido y nivel de confianza.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m2_l5",
+          "title": "Glosario común entre equipos",
+          "keyIdea": "Idea clave: Glosario común entre equipos sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Glosario común entre equipos\" dentro del modulo \"Diccionario de datos y metadatos\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Un equipo usa varios datos con nombres parecidos y necesita saber cual es confiable, quien responde y como se usa. Aplica \"Glosario común entre equipos\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una ficha de dato catalogado con definicion, responsable, fuente, uso permitido y nivel de confianza.",
+          "alert": "No catalogar datos sensibles sin clasificacion, permiso y reglas claras de acceso.",
+          "keyPoints": [
+            "Glosario común entre equipos debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: una ficha de dato catalogado con definicion, responsable, fuente, uso permitido y nivel de confianza.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m2_l6",
+          "title": "Errores frecuentes al documentar",
+          "keyIdea": "Idea clave: Errores frecuentes al documentar sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Errores frecuentes al documentar\" dentro del modulo \"Diccionario de datos y metadatos\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Un equipo usa varios datos con nombres parecidos y necesita saber cual es confiable, quien responde y como se usa. Aplica \"Errores frecuentes al documentar\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una ficha de dato catalogado con definicion, responsable, fuente, uso permitido y nivel de confianza.",
+          "alert": "No catalogar datos sensibles sin clasificacion, permiso y reglas claras de acceso.",
+          "keyPoints": [
+            "Errores frecuentes al documentar debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: una ficha de dato catalogado con definicion, responsable, fuente, uso permitido y nivel de confianza.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "id": "m2_q1",
+          "question": "¿Cuál es el objetivo principal de un catálogo de datos?",
+          "options": [
+            "Hacer que los datos sean buscables, entendibles y confiables",
+            "Reemplazar todas las bases de datos",
+            "Crear gráficos automáticamente",
+            "Eliminar la necesidad de analistas"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Un catálogo ayuda a encontrar, entender y evaluar datos; no reemplaza los sistemas fuente."
+        },
+        {
+          "id": "m2_q2",
+          "question": "¿Qué elemento conviene documentar en una ficha de dataset?",
+          "options": [
+            "Propósito, dueño, actualización y límites",
+            "Contraseñas de acceso",
+            "Datos personales completos",
+            "Solo el nombre técnico"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Una ficha útil combina contexto técnico y de negocio sin exponer información sensible."
+        },
+        {
+          "id": "m2_q3",
+          "question": "¿Qué significa linaje de datos?",
+          "options": [
+            "Origen, transformaciones y destino de un dato",
+            "Color del dashboard",
+            "Nombre del usuario final",
+            "Cantidad de gráficos"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "El linaje permite entender dependencias e impacto ante cambios."
+        },
+        {
+          "id": "m2_q4",
+          "question": "¿Por qué importan las definiciones de negocio?",
+          "options": [
+            "Evitan que distintas áreas entiendan cosas diferentes",
+            "Hacen más lindo el reporte",
+            "Aumentan automáticamente ventas",
+            "Reemplazan auditorías"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Términos como cliente activo, venta neta o margen deben definirse con precisión."
+        },
+        {
+          "id": "m2_q5",
+          "question": "¿Qué práctica es más segura?",
+          "options": [
+            "Usar ejemplos ficticios y anonimizados",
+            "Subir datos internos sin permiso",
+            "Compartir capturas con clientes reales",
+            "Guardar claves en la descripción"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "La documentación debe proteger datos sensibles y respetar permisos."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m2_q1",
+          "question": "¿Cuál es el objetivo principal de un catálogo de datos?",
+          "options": [
+            "Hacer que los datos sean buscables, entendibles y confiables",
+            "Reemplazar todas las bases de datos",
+            "Crear gráficos automáticamente",
+            "Eliminar la necesidad de analistas"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Un catálogo ayuda a encontrar, entender y evaluar datos; no reemplaza los sistemas fuente."
+        },
+        {
+          "id": "m2_q2",
+          "question": "¿Qué elemento conviene documentar en una ficha de dataset?",
+          "options": [
+            "Propósito, dueño, actualización y límites",
+            "Contraseñas de acceso",
+            "Datos personales completos",
+            "Solo el nombre técnico"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Una ficha útil combina contexto técnico y de negocio sin exponer información sensible."
+        },
+        {
+          "id": "m2_q3",
+          "question": "¿Qué significa linaje de datos?",
+          "options": [
+            "Origen, transformaciones y destino de un dato",
+            "Color del dashboard",
+            "Nombre del usuario final",
+            "Cantidad de gráficos"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "El linaje permite entender dependencias e impacto ante cambios."
+        },
+        {
+          "id": "m2_q4",
+          "question": "¿Por qué importan las definiciones de negocio?",
+          "options": [
+            "Evitan que distintas áreas entiendan cosas diferentes",
+            "Hacen más lindo el reporte",
+            "Aumentan automáticamente ventas",
+            "Reemplazan auditorías"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Términos como cliente activo, venta neta o margen deben definirse con precisión."
+        },
+        {
+          "id": "m2_q5",
+          "question": "¿Qué práctica es más segura?",
+          "options": [
+            "Usar ejemplos ficticios y anonimizados",
+            "Subir datos internos sin permiso",
+            "Compartir capturas con clientes reales",
+            "Guardar claves en la descripción"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "La documentación debe proteger datos sensibles y respetar permisos."
+        }
+      ],
+      "professionalOutcome": "documentar activos de datos, definiciones, responsables y reglas de uso. Entregable sugerido: una ficha de catalogo con definicion, fuente, duenio, calidad, sensibilidad y usos."
+    },
+    {
+      "id": "m3",
+      "title": "Gobierno de datos, roles y responsabilidades",
+      "description": "En este modulo vas a trabajar \"Gobierno de datos, roles y responsabilidades\" dentro de catalogo de datos, glosario, metadatos, responsables, linaje y confianza operativa. La meta es partir de una pregunta concreta, revisar la calidad de la informacion y cerrar con una evidencia que pueda explicarse.",
+      "commercialRisk": "Usar datos sin contexto, dueño o definición confiable",
+      "lessons": [
+        {
+          "id": "m3_l1",
+          "title": "Qué es gobierno de datos",
+          "keyIdea": "Idea clave: Qué es gobierno de datos sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Qué es gobierno de datos\" dentro del modulo \"Gobierno de datos, roles y responsabilidades\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Un equipo usa varios datos con nombres parecidos y necesita saber cual es confiable, quien responde y como se usa. Aplica \"Qué es gobierno de datos\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una ficha de dato catalogado con definicion, responsable, fuente, uso permitido y nivel de confianza.",
+          "alert": "No catalogar datos sensibles sin clasificacion, permiso y reglas claras de acceso.",
+          "keyPoints": [
+            "Qué es gobierno de datos debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: una ficha de dato catalogado con definicion, responsable, fuente, uso permitido y nivel de confianza.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m3_l2",
+          "title": "Propietario de dato y steward",
+          "keyIdea": "Idea clave: Propietario de dato y steward sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Propietario de dato y steward\" dentro del modulo \"Gobierno de datos, roles y responsabilidades\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Un equipo usa varios datos con nombres parecidos y necesita saber cual es confiable, quien responde y como se usa. Aplica \"Propietario de dato y steward\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una ficha de dato catalogado con definicion, responsable, fuente, uso permitido y nivel de confianza.",
+          "alert": "No catalogar datos sensibles sin clasificacion, permiso y reglas claras de acceso.",
+          "keyPoints": [
+            "Propietario de dato y steward debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: una ficha de dato catalogado con definicion, responsable, fuente, uso permitido y nivel de confianza.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m3_l3",
+          "title": "Responsabilidades de equipos",
+          "keyIdea": "Idea clave: Responsabilidades de equipos sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Responsabilidades de equipos\" dentro del modulo \"Gobierno de datos, roles y responsabilidades\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Un equipo usa varios datos con nombres parecidos y necesita saber cual es confiable, quien responde y como se usa. Aplica \"Responsabilidades de equipos\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una ficha de dato catalogado con definicion, responsable, fuente, uso permitido y nivel de confianza.",
+          "alert": "No catalogar datos sensibles sin clasificacion, permiso y reglas claras de acceso.",
+          "keyPoints": [
+            "Responsabilidades de equipos debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: una ficha de dato catalogado con definicion, responsable, fuente, uso permitido y nivel de confianza.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m3_l4",
+          "title": "Políticas y reglas de uso",
+          "keyIdea": "Idea clave: Políticas y reglas de uso sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Políticas y reglas de uso\" dentro del modulo \"Gobierno de datos, roles y responsabilidades\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Un equipo usa varios datos con nombres parecidos y necesita saber cual es confiable, quien responde y como se usa. Aplica \"Políticas y reglas de uso\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una ficha de dato catalogado con definicion, responsable, fuente, uso permitido y nivel de confianza.",
+          "alert": "No catalogar datos sensibles sin clasificacion, permiso y reglas claras de acceso.",
+          "keyPoints": [
+            "Políticas y reglas de uso debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: una ficha de dato catalogado con definicion, responsable, fuente, uso permitido y nivel de confianza.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m3_l5",
+          "title": "Pedidos de acceso y autorización",
+          "keyIdea": "Idea clave: Pedidos de acceso y autorización sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Pedidos de acceso y autorización\" dentro del modulo \"Gobierno de datos, roles y responsabilidades\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Un equipo usa varios datos con nombres parecidos y necesita saber cual es confiable, quien responde y como se usa. Aplica \"Pedidos de acceso y autorización\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una ficha de dato catalogado con definicion, responsable, fuente, uso permitido y nivel de confianza.",
+          "alert": "No catalogar datos sensibles sin clasificacion, permiso y reglas claras de acceso.",
+          "keyPoints": [
+            "Pedidos de acceso y autorización debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: una ficha de dato catalogado con definicion, responsable, fuente, uso permitido y nivel de confianza.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m3_l6",
+          "title": "Conflictos entre áreas",
+          "keyIdea": "Idea clave: Conflictos entre áreas sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Conflictos entre áreas\" dentro del modulo \"Gobierno de datos, roles y responsabilidades\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Un equipo usa varios datos con nombres parecidos y necesita saber cual es confiable, quien responde y como se usa. Aplica \"Conflictos entre áreas\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una ficha de dato catalogado con definicion, responsable, fuente, uso permitido y nivel de confianza.",
+          "alert": "No catalogar datos sensibles sin clasificacion, permiso y reglas claras de acceso.",
+          "keyPoints": [
+            "Conflictos entre áreas debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: una ficha de dato catalogado con definicion, responsable, fuente, uso permitido y nivel de confianza.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "id": "m3_q1",
+          "question": "¿Cuál es el objetivo principal de un catálogo de datos?",
+          "options": [
+            "Hacer que los datos sean buscables, entendibles y confiables",
+            "Reemplazar todas las bases de datos",
+            "Crear gráficos automáticamente",
+            "Eliminar la necesidad de analistas"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Un catálogo ayuda a encontrar, entender y evaluar datos; no reemplaza los sistemas fuente."
+        },
+        {
+          "id": "m3_q2",
+          "question": "¿Qué elemento conviene documentar en una ficha de dataset?",
+          "options": [
+            "Propósito, dueño, actualización y límites",
+            "Contraseñas de acceso",
+            "Datos personales completos",
+            "Solo el nombre técnico"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Una ficha útil combina contexto técnico y de negocio sin exponer información sensible."
+        },
+        {
+          "id": "m3_q3",
+          "question": "¿Qué significa linaje de datos?",
+          "options": [
+            "Origen, transformaciones y destino de un dato",
+            "Color del dashboard",
+            "Nombre del usuario final",
+            "Cantidad de gráficos"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "El linaje permite entender dependencias e impacto ante cambios."
+        },
+        {
+          "id": "m3_q4",
+          "question": "¿Por qué importan las definiciones de negocio?",
+          "options": [
+            "Evitan que distintas áreas entiendan cosas diferentes",
+            "Hacen más lindo el reporte",
+            "Aumentan automáticamente ventas",
+            "Reemplazan auditorías"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Términos como cliente activo, venta neta o margen deben definirse con precisión."
+        },
+        {
+          "id": "m3_q5",
+          "question": "¿Qué práctica es más segura?",
+          "options": [
+            "Usar ejemplos ficticios y anonimizados",
+            "Subir datos internos sin permiso",
+            "Compartir capturas con clientes reales",
+            "Guardar claves en la descripción"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "La documentación debe proteger datos sensibles y respetar permisos."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m3_q1",
+          "question": "¿Cuál es el objetivo principal de un catálogo de datos?",
+          "options": [
+            "Hacer que los datos sean buscables, entendibles y confiables",
+            "Reemplazar todas las bases de datos",
+            "Crear gráficos automáticamente",
+            "Eliminar la necesidad de analistas"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Un catálogo ayuda a encontrar, entender y evaluar datos; no reemplaza los sistemas fuente."
+        },
+        {
+          "id": "m3_q2",
+          "question": "¿Qué elemento conviene documentar en una ficha de dataset?",
+          "options": [
+            "Propósito, dueño, actualización y límites",
+            "Contraseñas de acceso",
+            "Datos personales completos",
+            "Solo el nombre técnico"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Una ficha útil combina contexto técnico y de negocio sin exponer información sensible."
+        },
+        {
+          "id": "m3_q3",
+          "question": "¿Qué significa linaje de datos?",
+          "options": [
+            "Origen, transformaciones y destino de un dato",
+            "Color del dashboard",
+            "Nombre del usuario final",
+            "Cantidad de gráficos"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "El linaje permite entender dependencias e impacto ante cambios."
+        },
+        {
+          "id": "m3_q4",
+          "question": "¿Por qué importan las definiciones de negocio?",
+          "options": [
+            "Evitan que distintas áreas entiendan cosas diferentes",
+            "Hacen más lindo el reporte",
+            "Aumentan automáticamente ventas",
+            "Reemplazan auditorías"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Términos como cliente activo, venta neta o margen deben definirse con precisión."
+        },
+        {
+          "id": "m3_q5",
+          "question": "¿Qué práctica es más segura?",
+          "options": [
+            "Usar ejemplos ficticios y anonimizados",
+            "Subir datos internos sin permiso",
+            "Compartir capturas con clientes reales",
+            "Guardar claves en la descripción"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "La documentación debe proteger datos sensibles y respetar permisos."
+        }
+      ],
+      "professionalOutcome": "documentar activos de datos, definiciones, responsables y reglas de uso. Entregable sugerido: una ficha de catalogo con definicion, fuente, duenio, calidad, sensibilidad y usos."
+    },
+    {
+      "id": "m4",
+      "title": "Calidad, confianza y certificación",
+      "description": "En este modulo vas a trabajar \"Calidad, confianza y certificación\" dentro de catalogo de datos, glosario, metadatos, responsables, linaje y confianza operativa. La meta es partir de una pregunta concreta, revisar la calidad de la informacion y cerrar con una evidencia que pueda explicarse.",
+      "commercialRisk": "Usar datos sin contexto, dueño o definición confiable",
+      "lessons": [
+        {
+          "id": "m4_l1",
+          "title": "Dimensiones de calidad de datos",
+          "keyIdea": "Idea clave: Dimensiones de calidad de datos sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Dimensiones de calidad de datos\" dentro del modulo \"Calidad, confianza y certificación\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Un equipo usa varios datos con nombres parecidos y necesita saber cual es confiable, quien responde y como se usa. Aplica \"Dimensiones de calidad de datos\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una ficha de dato catalogado con definicion, responsable, fuente, uso permitido y nivel de confianza.",
+          "alert": "No catalogar datos sensibles sin clasificacion, permiso y reglas claras de acceso.",
+          "keyPoints": [
+            "Dimensiones de calidad de datos debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: una ficha de dato catalogado con definicion, responsable, fuente, uso permitido y nivel de confianza.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m4_l2",
+          "title": "Completitud y consistencia",
+          "keyIdea": "Idea clave: Completitud y consistencia sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Completitud y consistencia\" dentro del modulo \"Calidad, confianza y certificación\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Un equipo usa varios datos con nombres parecidos y necesita saber cual es confiable, quien responde y como se usa. Aplica \"Completitud y consistencia\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una ficha de dato catalogado con definicion, responsable, fuente, uso permitido y nivel de confianza.",
+          "alert": "No catalogar datos sensibles sin clasificacion, permiso y reglas claras de acceso.",
+          "keyPoints": [
+            "Completitud y consistencia debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: una ficha de dato catalogado con definicion, responsable, fuente, uso permitido y nivel de confianza.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m4_l3",
+          "title": "Datos certificados",
+          "keyIdea": "Idea clave: Datos certificados sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Datos certificados\" dentro del modulo \"Calidad, confianza y certificación\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Un equipo usa varios datos con nombres parecidos y necesita saber cual es confiable, quien responde y como se usa. Aplica \"Datos certificados\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una ficha de dato catalogado con definicion, responsable, fuente, uso permitido y nivel de confianza.",
+          "alert": "No catalogar datos sensibles sin clasificacion, permiso y reglas claras de acceso.",
+          "keyPoints": [
+            "Datos certificados debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: una ficha de dato catalogado con definicion, responsable, fuente, uso permitido y nivel de confianza.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m4_l4",
+          "title": "Alertas de calidad",
+          "keyIdea": "Idea clave: Alertas de calidad sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Alertas de calidad\" dentro del modulo \"Calidad, confianza y certificación\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Un equipo usa varios datos con nombres parecidos y necesita saber cual es confiable, quien responde y como se usa. Aplica \"Alertas de calidad\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una ficha de dato catalogado con definicion, responsable, fuente, uso permitido y nivel de confianza.",
+          "alert": "No catalogar datos sensibles sin clasificacion, permiso y reglas claras de acceso.",
+          "keyPoints": [
+            "Alertas de calidad debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: una ficha de dato catalogado con definicion, responsable, fuente, uso permitido y nivel de confianza.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m4_l5",
+          "title": "Uso responsable de datasets",
+          "keyIdea": "Idea clave: Uso responsable de datasets sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Uso responsable de datasets\" dentro del modulo \"Calidad, confianza y certificación\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Un equipo usa varios datos con nombres parecidos y necesita saber cual es confiable, quien responde y como se usa. Aplica \"Uso responsable de datasets\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una ficha de dato catalogado con definicion, responsable, fuente, uso permitido y nivel de confianza.",
+          "alert": "No catalogar datos sensibles sin clasificacion, permiso y reglas claras de acceso.",
+          "keyPoints": [
+            "Uso responsable de datasets debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: una ficha de dato catalogado con definicion, responsable, fuente, uso permitido y nivel de confianza.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m4_l6",
+          "title": "Cuándo no usar un dato",
+          "keyIdea": "Idea clave: Cuándo no usar un dato sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Cuándo no usar un dato\" dentro del modulo \"Calidad, confianza y certificación\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Un equipo usa varios datos con nombres parecidos y necesita saber cual es confiable, quien responde y como se usa. Aplica \"Cuándo no usar un dato\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una ficha de dato catalogado con definicion, responsable, fuente, uso permitido y nivel de confianza.",
+          "alert": "No catalogar datos sensibles sin clasificacion, permiso y reglas claras de acceso.",
+          "keyPoints": [
+            "Cuándo no usar un dato debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: una ficha de dato catalogado con definicion, responsable, fuente, uso permitido y nivel de confianza.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "id": "m4_q1",
+          "question": "¿Cuál es el objetivo principal de un catálogo de datos?",
+          "options": [
+            "Hacer que los datos sean buscables, entendibles y confiables",
+            "Reemplazar todas las bases de datos",
+            "Crear gráficos automáticamente",
+            "Eliminar la necesidad de analistas"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Un catálogo ayuda a encontrar, entender y evaluar datos; no reemplaza los sistemas fuente."
+        },
+        {
+          "id": "m4_q2",
+          "question": "¿Qué elemento conviene documentar en una ficha de dataset?",
+          "options": [
+            "Propósito, dueño, actualización y límites",
+            "Contraseñas de acceso",
+            "Datos personales completos",
+            "Solo el nombre técnico"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Una ficha útil combina contexto técnico y de negocio sin exponer información sensible."
+        },
+        {
+          "id": "m4_q3",
+          "question": "¿Qué significa linaje de datos?",
+          "options": [
+            "Origen, transformaciones y destino de un dato",
+            "Color del dashboard",
+            "Nombre del usuario final",
+            "Cantidad de gráficos"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "El linaje permite entender dependencias e impacto ante cambios."
+        },
+        {
+          "id": "m4_q4",
+          "question": "¿Por qué importan las definiciones de negocio?",
+          "options": [
+            "Evitan que distintas áreas entiendan cosas diferentes",
+            "Hacen más lindo el reporte",
+            "Aumentan automáticamente ventas",
+            "Reemplazan auditorías"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Términos como cliente activo, venta neta o margen deben definirse con precisión."
+        },
+        {
+          "id": "m4_q5",
+          "question": "¿Qué práctica es más segura?",
+          "options": [
+            "Usar ejemplos ficticios y anonimizados",
+            "Subir datos internos sin permiso",
+            "Compartir capturas con clientes reales",
+            "Guardar claves en la descripción"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "La documentación debe proteger datos sensibles y respetar permisos."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m4_q1",
+          "question": "¿Cuál es el objetivo principal de un catálogo de datos?",
+          "options": [
+            "Hacer que los datos sean buscables, entendibles y confiables",
+            "Reemplazar todas las bases de datos",
+            "Crear gráficos automáticamente",
+            "Eliminar la necesidad de analistas"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Un catálogo ayuda a encontrar, entender y evaluar datos; no reemplaza los sistemas fuente."
+        },
+        {
+          "id": "m4_q2",
+          "question": "¿Qué elemento conviene documentar en una ficha de dataset?",
+          "options": [
+            "Propósito, dueño, actualización y límites",
+            "Contraseñas de acceso",
+            "Datos personales completos",
+            "Solo el nombre técnico"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Una ficha útil combina contexto técnico y de negocio sin exponer información sensible."
+        },
+        {
+          "id": "m4_q3",
+          "question": "¿Qué significa linaje de datos?",
+          "options": [
+            "Origen, transformaciones y destino de un dato",
+            "Color del dashboard",
+            "Nombre del usuario final",
+            "Cantidad de gráficos"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "El linaje permite entender dependencias e impacto ante cambios."
+        },
+        {
+          "id": "m4_q4",
+          "question": "¿Por qué importan las definiciones de negocio?",
+          "options": [
+            "Evitan que distintas áreas entiendan cosas diferentes",
+            "Hacen más lindo el reporte",
+            "Aumentan automáticamente ventas",
+            "Reemplazan auditorías"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Términos como cliente activo, venta neta o margen deben definirse con precisión."
+        },
+        {
+          "id": "m4_q5",
+          "question": "¿Qué práctica es más segura?",
+          "options": [
+            "Usar ejemplos ficticios y anonimizados",
+            "Subir datos internos sin permiso",
+            "Compartir capturas con clientes reales",
+            "Guardar claves en la descripción"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "La documentación debe proteger datos sensibles y respetar permisos."
+        }
+      ],
+      "professionalOutcome": "documentar activos de datos, definiciones, responsables y reglas de uso. Entregable sugerido: una ficha de catalogo con definicion, fuente, duenio, calidad, sensibilidad y usos."
+    },
+    {
+      "id": "m5",
+      "title": "Linaje, uso y trazabilidad",
+      "description": "En este modulo vas a trabajar \"Linaje, uso y trazabilidad\" dentro de catalogo de datos, glosario, metadatos, responsables, linaje y confianza operativa. La meta es partir de una pregunta concreta, revisar la calidad de la informacion y cerrar con una evidencia que pueda explicarse.",
+      "commercialRisk": "Usar datos sin contexto, dueño o definición confiable",
+      "lessons": [
+        {
+          "id": "m5_l1",
+          "title": "Qué es linaje de datos",
+          "keyIdea": "Idea clave: Qué es linaje de datos sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Qué es linaje de datos\" dentro del modulo \"Linaje, uso y trazabilidad\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Un equipo usa varios datos con nombres parecidos y necesita saber cual es confiable, quien responde y como se usa. Aplica \"Qué es linaje de datos\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una ficha de dato catalogado con definicion, responsable, fuente, uso permitido y nivel de confianza.",
+          "alert": "No catalogar datos sensibles sin clasificacion, permiso y reglas claras de acceso.",
+          "keyPoints": [
+            "Qué es linaje de datos debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: una ficha de dato catalogado con definicion, responsable, fuente, uso permitido y nivel de confianza.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m5_l2",
+          "title": "Origen, transformación y destino",
+          "keyIdea": "Idea clave: Origen, transformación y destino sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Origen, transformación y destino\" dentro del modulo \"Linaje, uso y trazabilidad\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Un equipo usa varios datos con nombres parecidos y necesita saber cual es confiable, quien responde y como se usa. Aplica \"Origen, transformación y destino\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una ficha de dato catalogado con definicion, responsable, fuente, uso permitido y nivel de confianza.",
+          "alert": "No catalogar datos sensibles sin clasificacion, permiso y reglas claras de acceso.",
+          "keyPoints": [
+            "Origen, transformación y destino debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: una ficha de dato catalogado con definicion, responsable, fuente, uso permitido y nivel de confianza.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m5_l3",
+          "title": "Impacto de cambios",
+          "keyIdea": "Idea clave: Impacto de cambios sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Impacto de cambios\" dentro del modulo \"Linaje, uso y trazabilidad\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Un equipo usa varios datos con nombres parecidos y necesita saber cual es confiable, quien responde y como se usa. Aplica \"Impacto de cambios\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una ficha de dato catalogado con definicion, responsable, fuente, uso permitido y nivel de confianza.",
+          "alert": "No catalogar datos sensibles sin clasificacion, permiso y reglas claras de acceso.",
+          "keyPoints": [
+            "Impacto de cambios debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: una ficha de dato catalogado con definicion, responsable, fuente, uso permitido y nivel de confianza.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m5_l4",
+          "title": "Reportes dependientes",
+          "keyIdea": "Idea clave: Reportes dependientes sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Reportes dependientes\" dentro del modulo \"Linaje, uso y trazabilidad\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Un equipo usa varios datos con nombres parecidos y necesita saber cual es confiable, quien responde y como se usa. Aplica \"Reportes dependientes\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una ficha de dato catalogado con definicion, responsable, fuente, uso permitido y nivel de confianza.",
+          "alert": "No catalogar datos sensibles sin clasificacion, permiso y reglas claras de acceso.",
+          "keyPoints": [
+            "Reportes dependientes debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: una ficha de dato catalogado con definicion, responsable, fuente, uso permitido y nivel de confianza.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m5_l5",
+          "title": "Trazabilidad de decisiones",
+          "keyIdea": "Idea clave: Trazabilidad de decisiones sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Trazabilidad de decisiones\" dentro del modulo \"Linaje, uso y trazabilidad\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Un equipo usa varios datos con nombres parecidos y necesita saber cual es confiable, quien responde y como se usa. Aplica \"Trazabilidad de decisiones\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una ficha de dato catalogado con definicion, responsable, fuente, uso permitido y nivel de confianza.",
+          "alert": "No catalogar datos sensibles sin clasificacion, permiso y reglas claras de acceso.",
+          "keyPoints": [
+            "Trazabilidad de decisiones debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: una ficha de dato catalogado con definicion, responsable, fuente, uso permitido y nivel de confianza.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m5_l6",
+          "title": "Documentar cambios importantes",
+          "keyIdea": "Idea clave: Documentar cambios importantes sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Documentar cambios importantes\" dentro del modulo \"Linaje, uso y trazabilidad\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Un equipo usa varios datos con nombres parecidos y necesita saber cual es confiable, quien responde y como se usa. Aplica \"Documentar cambios importantes\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una ficha de dato catalogado con definicion, responsable, fuente, uso permitido y nivel de confianza.",
+          "alert": "No catalogar datos sensibles sin clasificacion, permiso y reglas claras de acceso.",
+          "keyPoints": [
+            "Documentar cambios importantes debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: una ficha de dato catalogado con definicion, responsable, fuente, uso permitido y nivel de confianza.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "id": "m5_q1",
+          "question": "¿Cuál es el objetivo principal de un catálogo de datos?",
+          "options": [
+            "Hacer que los datos sean buscables, entendibles y confiables",
+            "Reemplazar todas las bases de datos",
+            "Crear gráficos automáticamente",
+            "Eliminar la necesidad de analistas"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Un catálogo ayuda a encontrar, entender y evaluar datos; no reemplaza los sistemas fuente."
+        },
+        {
+          "id": "m5_q2",
+          "question": "¿Qué elemento conviene documentar en una ficha de dataset?",
+          "options": [
+            "Propósito, dueño, actualización y límites",
+            "Contraseñas de acceso",
+            "Datos personales completos",
+            "Solo el nombre técnico"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Una ficha útil combina contexto técnico y de negocio sin exponer información sensible."
+        },
+        {
+          "id": "m5_q3",
+          "question": "¿Qué significa linaje de datos?",
+          "options": [
+            "Origen, transformaciones y destino de un dato",
+            "Color del dashboard",
+            "Nombre del usuario final",
+            "Cantidad de gráficos"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "El linaje permite entender dependencias e impacto ante cambios."
+        },
+        {
+          "id": "m5_q4",
+          "question": "¿Por qué importan las definiciones de negocio?",
+          "options": [
+            "Evitan que distintas áreas entiendan cosas diferentes",
+            "Hacen más lindo el reporte",
+            "Aumentan automáticamente ventas",
+            "Reemplazan auditorías"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Términos como cliente activo, venta neta o margen deben definirse con precisión."
+        },
+        {
+          "id": "m5_q5",
+          "question": "¿Qué práctica es más segura?",
+          "options": [
+            "Usar ejemplos ficticios y anonimizados",
+            "Subir datos internos sin permiso",
+            "Compartir capturas con clientes reales",
+            "Guardar claves en la descripción"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "La documentación debe proteger datos sensibles y respetar permisos."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m5_q1",
+          "question": "¿Cuál es el objetivo principal de un catálogo de datos?",
+          "options": [
+            "Hacer que los datos sean buscables, entendibles y confiables",
+            "Reemplazar todas las bases de datos",
+            "Crear gráficos automáticamente",
+            "Eliminar la necesidad de analistas"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Un catálogo ayuda a encontrar, entender y evaluar datos; no reemplaza los sistemas fuente."
+        },
+        {
+          "id": "m5_q2",
+          "question": "¿Qué elemento conviene documentar en una ficha de dataset?",
+          "options": [
+            "Propósito, dueño, actualización y límites",
+            "Contraseñas de acceso",
+            "Datos personales completos",
+            "Solo el nombre técnico"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Una ficha útil combina contexto técnico y de negocio sin exponer información sensible."
+        },
+        {
+          "id": "m5_q3",
+          "question": "¿Qué significa linaje de datos?",
+          "options": [
+            "Origen, transformaciones y destino de un dato",
+            "Color del dashboard",
+            "Nombre del usuario final",
+            "Cantidad de gráficos"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "El linaje permite entender dependencias e impacto ante cambios."
+        },
+        {
+          "id": "m5_q4",
+          "question": "¿Por qué importan las definiciones de negocio?",
+          "options": [
+            "Evitan que distintas áreas entiendan cosas diferentes",
+            "Hacen más lindo el reporte",
+            "Aumentan automáticamente ventas",
+            "Reemplazan auditorías"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Términos como cliente activo, venta neta o margen deben definirse con precisión."
+        },
+        {
+          "id": "m5_q5",
+          "question": "¿Qué práctica es más segura?",
+          "options": [
+            "Usar ejemplos ficticios y anonimizados",
+            "Subir datos internos sin permiso",
+            "Compartir capturas con clientes reales",
+            "Guardar claves en la descripción"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "La documentación debe proteger datos sensibles y respetar permisos."
+        }
+      ],
+      "professionalOutcome": "documentar activos de datos, definiciones, responsables y reglas de uso. Entregable sugerido: una ficha de catalogo con definicion, fuente, duenio, calidad, sensibilidad y usos."
+    },
+    {
+      "id": "m6",
+      "title": "Casos prácticos con enfoque Alation",
+      "description": "En este modulo vas a trabajar \"Casos prácticos con enfoque Alation\" dentro de catalogo de datos, glosario, metadatos, responsables, linaje y confianza operativa. La meta es partir de una pregunta concreta, revisar la calidad de la informacion y cerrar con una evidencia que pueda explicarse.",
+      "commercialRisk": "Usar datos sin contexto, dueño o definición confiable",
+      "lessons": [
+        {
+          "id": "m6_l1",
+          "title": "Buscar la tabla correcta",
+          "keyIdea": "Idea clave: Buscar la tabla correcta sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Buscar la tabla correcta\" dentro del modulo \"Casos prácticos con enfoque Alation\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Un equipo usa varios datos con nombres parecidos y necesita saber cual es confiable, quien responde y como se usa. Aplica \"Buscar la tabla correcta\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una ficha de dato catalogado con definicion, responsable, fuente, uso permitido y nivel de confianza.",
+          "alert": "No catalogar datos sensibles sin clasificacion, permiso y reglas claras de acceso.",
+          "keyPoints": [
+            "Buscar la tabla correcta debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: una ficha de dato catalogado con definicion, responsable, fuente, uso permitido y nivel de confianza.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m6_l2",
+          "title": "Comparar datasets parecidos",
+          "keyIdea": "Idea clave: Comparar datasets parecidos sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Comparar datasets parecidos\" dentro del modulo \"Casos prácticos con enfoque Alation\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Un equipo usa varios datos con nombres parecidos y necesita saber cual es confiable, quien responde y como se usa. Aplica \"Comparar datasets parecidos\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una ficha de dato catalogado con definicion, responsable, fuente, uso permitido y nivel de confianza.",
+          "alert": "No catalogar datos sensibles sin clasificacion, permiso y reglas claras de acceso.",
+          "keyPoints": [
+            "Comparar datasets parecidos debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: una ficha de dato catalogado con definicion, responsable, fuente, uso permitido y nivel de confianza.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m6_l3",
+          "title": "Documentar un dataset nuevo",
+          "keyIdea": "Idea clave: Documentar un dataset nuevo sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Documentar un dataset nuevo\" dentro del modulo \"Casos prácticos con enfoque Alation\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Un equipo usa varios datos con nombres parecidos y necesita saber cual es confiable, quien responde y como se usa. Aplica \"Documentar un dataset nuevo\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una ficha de dato catalogado con definicion, responsable, fuente, uso permitido y nivel de confianza.",
+          "alert": "No catalogar datos sensibles sin clasificacion, permiso y reglas claras de acceso.",
+          "keyPoints": [
+            "Documentar un dataset nuevo debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: una ficha de dato catalogado con definicion, responsable, fuente, uso permitido y nivel de confianza.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m6_l4",
+          "title": "Crear ficha entendible",
+          "keyIdea": "Idea clave: Crear ficha entendible sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Crear ficha entendible\" dentro del modulo \"Casos prácticos con enfoque Alation\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Un equipo usa varios datos con nombres parecidos y necesita saber cual es confiable, quien responde y como se usa. Aplica \"Crear ficha entendible\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una ficha de dato catalogado con definicion, responsable, fuente, uso permitido y nivel de confianza.",
+          "alert": "No catalogar datos sensibles sin clasificacion, permiso y reglas claras de acceso.",
+          "keyPoints": [
+            "Crear ficha entendible debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: una ficha de dato catalogado con definicion, responsable, fuente, uso permitido y nivel de confianza.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m6_l5",
+          "title": "Revisar dueño y calidad",
+          "keyIdea": "Idea clave: Revisar dueño y calidad sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Revisar dueño y calidad\" dentro del modulo \"Casos prácticos con enfoque Alation\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Un equipo usa varios datos con nombres parecidos y necesita saber cual es confiable, quien responde y como se usa. Aplica \"Revisar dueño y calidad\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una ficha de dato catalogado con definicion, responsable, fuente, uso permitido y nivel de confianza.",
+          "alert": "No catalogar datos sensibles sin clasificacion, permiso y reglas claras de acceso.",
+          "keyPoints": [
+            "Revisar dueño y calidad debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: una ficha de dato catalogado con definicion, responsable, fuente, uso permitido y nivel de confianza.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m6_l6",
+          "title": "Preparar consulta para equipo de datos",
+          "keyIdea": "Idea clave: Preparar consulta para equipo de datos sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Preparar consulta para equipo de datos\" dentro del modulo \"Casos prácticos con enfoque Alation\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Un equipo usa varios datos con nombres parecidos y necesita saber cual es confiable, quien responde y como se usa. Aplica \"Preparar consulta para equipo de datos\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una ficha de dato catalogado con definicion, responsable, fuente, uso permitido y nivel de confianza.",
+          "alert": "No catalogar datos sensibles sin clasificacion, permiso y reglas claras de acceso.",
+          "keyPoints": [
+            "Preparar consulta para equipo de datos debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: una ficha de dato catalogado con definicion, responsable, fuente, uso permitido y nivel de confianza.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quizQuestions": [
+        {
+          "id": "m6_q1",
+          "question": "¿Cuál es el objetivo principal de un catálogo de datos?",
+          "options": [
+            "Hacer que los datos sean buscables, entendibles y confiables",
+            "Reemplazar todas las bases de datos",
+            "Crear gráficos automáticamente",
+            "Eliminar la necesidad de analistas"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Un catálogo ayuda a encontrar, entender y evaluar datos; no reemplaza los sistemas fuente."
+        },
+        {
+          "id": "m6_q2",
+          "question": "¿Qué elemento conviene documentar en una ficha de dataset?",
+          "options": [
+            "Propósito, dueño, actualización y límites",
+            "Contraseñas de acceso",
+            "Datos personales completos",
+            "Solo el nombre técnico"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Una ficha útil combina contexto técnico y de negocio sin exponer información sensible."
+        },
+        {
+          "id": "m6_q3",
+          "question": "¿Qué significa linaje de datos?",
+          "options": [
+            "Origen, transformaciones y destino de un dato",
+            "Color del dashboard",
+            "Nombre del usuario final",
+            "Cantidad de gráficos"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "El linaje permite entender dependencias e impacto ante cambios."
+        },
+        {
+          "id": "m6_q4",
+          "question": "¿Por qué importan las definiciones de negocio?",
+          "options": [
+            "Evitan que distintas áreas entiendan cosas diferentes",
+            "Hacen más lindo el reporte",
+            "Aumentan automáticamente ventas",
+            "Reemplazan auditorías"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Términos como cliente activo, venta neta o margen deben definirse con precisión."
+        },
+        {
+          "id": "m6_q5",
+          "question": "¿Qué práctica es más segura?",
+          "options": [
+            "Usar ejemplos ficticios y anonimizados",
+            "Subir datos internos sin permiso",
+            "Compartir capturas con clientes reales",
+            "Guardar claves en la descripción"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "La documentación debe proteger datos sensibles y respetar permisos."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m6_q1",
+          "question": "¿Cuál es el objetivo principal de un catálogo de datos?",
+          "options": [
+            "Hacer que los datos sean buscables, entendibles y confiables",
+            "Reemplazar todas las bases de datos",
+            "Crear gráficos automáticamente",
+            "Eliminar la necesidad de analistas"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Un catálogo ayuda a encontrar, entender y evaluar datos; no reemplaza los sistemas fuente."
+        },
+        {
+          "id": "m6_q2",
+          "question": "¿Qué elemento conviene documentar en una ficha de dataset?",
+          "options": [
+            "Propósito, dueño, actualización y límites",
+            "Contraseñas de acceso",
+            "Datos personales completos",
+            "Solo el nombre técnico"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Una ficha útil combina contexto técnico y de negocio sin exponer información sensible."
+        },
+        {
+          "id": "m6_q3",
+          "question": "¿Qué significa linaje de datos?",
+          "options": [
+            "Origen, transformaciones y destino de un dato",
+            "Color del dashboard",
+            "Nombre del usuario final",
+            "Cantidad de gráficos"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "El linaje permite entender dependencias e impacto ante cambios."
+        },
+        {
+          "id": "m6_q4",
+          "question": "¿Por qué importan las definiciones de negocio?",
+          "options": [
+            "Evitan que distintas áreas entiendan cosas diferentes",
+            "Hacen más lindo el reporte",
+            "Aumentan automáticamente ventas",
+            "Reemplazan auditorías"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Términos como cliente activo, venta neta o margen deben definirse con precisión."
+        },
+        {
+          "id": "m6_q5",
+          "question": "¿Qué práctica es más segura?",
+          "options": [
+            "Usar ejemplos ficticios y anonimizados",
+            "Subir datos internos sin permiso",
+            "Compartir capturas con clientes reales",
+            "Guardar claves en la descripción"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "La documentación debe proteger datos sensibles y respetar permisos."
+        }
+      ],
+      "professionalOutcome": "documentar activos de datos, definiciones, responsables y reglas de uso. Entregable sugerido: una ficha de catalogo con definicion, fuente, duenio, calidad, sensibilidad y usos."
+    }
+  ],
+  "publicationStatus": "publica-profesional-v0.6",
+  "professionalization": {
+    "tier": "curso-bandera-v1.0-beta",
+    "updatedAt": "2026-05-28",
+    "focus": "Profundizacion visible de lecciones, practicas, checklists y casos."
+  },
+  "editorialPolish": {
+    "thirdEditorialBatch": "2026-06-02",
+    "status": "public-facing-copy-polished"
+  }
+}

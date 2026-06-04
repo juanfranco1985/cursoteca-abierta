@@ -1,0 +1,169 @@
+{
+  "version": "0.2",
+  "title": "Modo pedir ayuda y conservar evidencia",
+  "description": "Recursos claros para estudiantes, familias y escuela cuando aparece una situación de riesgo digital.",
+  "helpMessages": [
+    {
+      "id": "familia-cuenta",
+      "audience": "Familia o adulto de confianza",
+      "title": "Pedir ayuda por cuenta o mensaje raro",
+      "riskLevel": "revisar ya",
+      "text": "Necesito ayuda con algo que pasó en internet. Recibí mensajes raros o siento presión para responder. No quiero borrar nada todavía. ¿Podés acompañarme para revisar esto con calma?"
+    },
+    {
+      "id": "docente-acoso",
+      "audience": "Docente, preceptor o adulto de la escuela",
+      "title": "Avisar situación de acoso o amenaza",
+      "riskLevel": "actuar ahora",
+      "text": "Necesito contar una situación digital que me preocupa. Hay mensajes, burlas, amenazas o presión en un grupo/red. Tengo capturas o puedo mostrar la conversación. Quisiera pedir ayuda sin que se comparta de forma innecesaria."
+    },
+    {
+      "id": "familia-codigo",
+      "audience": "Familia",
+      "title": "Me pidieron un código o contraseña",
+      "riskLevel": "actuar ahora",
+      "text": "Me pidieron un código, clave o dato privado por chat/red/juego. No sé si es real. No voy a enviarlo. ¿Podés ayudarme a revisar la cuenta desde la app o sitio oficial?"
+    },
+    {
+      "id": "escuela-evidencia",
+      "audience": "Escuela",
+      "title": "Solicitar acompañamiento conservando evidencia",
+      "riskLevel": "revisar ya",
+      "text": "Quiero pedir acompañamiento por una situación digital. Antes de borrar o responder, necesito guardar evidencia: capturas, fechas, usuarios, enlaces y mensajes. ¿Podemos revisar el caso con un adulto responsable?"
+    },
+    {
+      "id": "plataforma-cuenta",
+      "audience": "Soporte de plataforma",
+      "title": "Reporte base para cuenta tomada o intento de robo",
+      "riskLevel": "revisar ya",
+      "text": "Solicito revisión de una cuenta con actividad sospechosa. Detecté accesos, mensajes o cambios que no reconozco. Necesito recuperar el control de la cuenta y revisar sesiones/dispositivos vinculados. No incluyo contraseñas ni códigos en este mensaje."
+    }
+  ],
+  "evidenceChecklist": [
+    {
+      "id": "ev-01",
+      "title": "No borrar la conversación original",
+      "why": "Borrar mensajes puede eliminar datos importantes de fecha, usuario, enlace o contexto."
+    },
+    {
+      "id": "ev-02",
+      "title": "Hacer capturas completas",
+      "why": "Incluir nombre de usuario, fecha/hora visible, mensaje anterior y posterior si ayuda a entender el contexto."
+    },
+    {
+      "id": "ev-03",
+      "title": "Guardar enlaces, nombres de usuario y perfiles",
+      "why": "Copiar el enlace del perfil o publicación puede ayudar a identificar la fuente sin interactuar de nuevo."
+    },
+    {
+      "id": "ev-04",
+      "title": "Registrar fecha, hora y plataforma",
+      "why": "Anotar dónde ocurrió: WhatsApp, Instagram, TikTok, juego, correo, aula virtual o grupo escolar."
+    },
+    {
+      "id": "ev-05",
+      "title": "No reenviar contenido íntimo o humillante",
+      "why": "Para pedir ayuda, mostrar evidencia a un adulto responsable sin difundir ni multiplicar el daño."
+    },
+    {
+      "id": "ev-06",
+      "title": "Guardar evidencia en un lugar seguro",
+      "why": "Puede ser una carpeta del dispositivo, una nube familiar o el celular de un adulto de confianza."
+    },
+    {
+      "id": "ev-07",
+      "title": "Anotar acciones realizadas",
+      "why": "Ejemplo: bloqueé, denuncié, cambié clave, avisé a familia, hablé con docente."
+    },
+    {
+      "id": "ev-08",
+      "title": "Consultar antes de responder si hay amenaza o extorsión",
+      "why": "Responder bajo presión puede empeorar el riesgo o entregar más información."
+    }
+  ],
+  "riskSignals": [
+    {
+      "level": "Rojo",
+      "title": "Actuar ahora",
+      "signals": [
+        "amenaza de publicar fotos o datos",
+        "pedido de imágenes íntimas",
+        "adulto/desconocido insiste en hablar en secreto",
+        "cuenta tomada o mensajes enviados en tu nombre",
+        "extorsión, miedo intenso o presión para actuar ya"
+      ]
+    },
+    {
+      "level": "Naranja",
+      "title": "Revisar ya con adulto",
+      "signals": [
+        "pedido de código de verificación",
+        "link de sorteo o premio",
+        "compañero/a acosa en grupo",
+        "alguien pide datos personales",
+        "cuenta de juego o red con actividad rara"
+      ]
+    },
+    {
+      "level": "Amarillo",
+      "title": "Prevenir y configurar",
+      "signals": [
+        "perfil público con mucha información",
+        "contraseña repetida",
+        "amigos/contactos desconocidos",
+        "permisos de apps que no entendés"
+      ]
+    }
+  ],
+  "orientationBlocks": [
+    {
+      "id": "estudiante",
+      "title": "Para estudiantes",
+      "items": [
+        "No tenés que resolverlo solo/a.",
+        "No compartas códigos, claves ni fotos por presión.",
+        "Pedí ayuda temprano, aunque te dé vergüenza.",
+        "Guardá evidencia antes de bloquear o borrar."
+      ]
+    },
+    {
+      "id": "familia",
+      "title": "Para familias",
+      "items": [
+        "Escuchar primero, sin culpar.",
+        "Ayudar a conservar evidencia.",
+        "Revisar cuentas desde canales oficiales.",
+        "Acompañar a la escuela o plataforma si corresponde."
+      ]
+    },
+    {
+      "id": "escuela",
+      "title": "Para escuela",
+      "items": [
+        "Preservar privacidad del estudiante.",
+        "Registrar hechos, fechas y canales.",
+        "Evitar revictimizar o difundir contenido.",
+        "Activar protocolos institucionales si corresponde."
+      ]
+    }
+  ],
+  "severeRoute": {
+    "title": "Ruta especial para casos graves",
+    "description": "Usar cuando hay amenaza, extorsión, grooming, difusión de imágenes, riesgo físico, datos sensibles o cuenta tomada con daño activo.",
+    "steps": [
+      "Cortar la conversación y no negociar bajo presión.",
+      "Avisar a un adulto responsable de inmediato.",
+      "Guardar evidencia sin reenviar contenido sensible.",
+      "Bloquear o denunciar solo después de preservar lo necesario, salvo riesgo inmediato.",
+      "Contactar escuela, familia, plataforma o autoridad competente según corresponda.",
+      "Registrar qué se hizo y qué respuesta se recibió."
+    ],
+    "doNot": [
+      "No pagar, no enviar más fotos, no mandar códigos.",
+      "No borrar todo por miedo antes de pedir ayuda.",
+      "No enfrentar solo/a a quien amenaza.",
+      "No difundir capturas en grupos escolares."
+    ],
+    "disclaimer": "Esta ruta es educativa. En situaciones graves o de riesgo real se debe pedir ayuda adulta e institucional y recurrir a canales oficiales."
+  }
+}

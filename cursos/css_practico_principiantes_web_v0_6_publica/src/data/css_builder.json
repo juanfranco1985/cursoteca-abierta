@@ -1,0 +1,133 @@
+{
+  "title": "Constructor visual de tarjetas y botones",
+  "description": "Herramienta educativa para combinar controles simples y generar HTML/CSS de tarjetas o botones.",
+  "presets": [
+    {
+      "id": "builder-card-product",
+      "type": "card",
+      "title": "Tarjeta de producto",
+      "description": "Una tarjeta simple con título, texto y botón.",
+      "defaults": {
+        "title": "Producto destacado",
+        "subtitle": "Ideal para una landing simple",
+        "buttonText": "Ver más",
+        "primaryColor": "#38bdf8",
+        "backgroundColor": "#ffffff",
+        "textColor": "#111827",
+        "borderRadius": 18,
+        "padding": 24,
+        "shadow": true,
+        "border": true,
+        "fontSize": 16
+      }
+    },
+    {
+      "id": "builder-card-profile",
+      "type": "card",
+      "title": "Tarjeta personal",
+      "description": "Una tarjeta para presentación personal o portfolio.",
+      "defaults": {
+        "title": "Hola, soy Ana",
+        "subtitle": "Aprendo desarrollo web paso a paso",
+        "buttonText": "Contactar",
+        "primaryColor": "#a78bfa",
+        "backgroundColor": "#f8fafc",
+        "textColor": "#0f172a",
+        "borderRadius": 22,
+        "padding": 26,
+        "shadow": true,
+        "border": false,
+        "fontSize": 17
+      }
+    },
+    {
+      "id": "builder-button-cta",
+      "type": "button",
+      "title": "Botón principal",
+      "description": "Un botón claro para llamadas a la acción.",
+      "defaults": {
+        "title": "",
+        "subtitle": "",
+        "buttonText": "Empezar ahora",
+        "primaryColor": "#f97316",
+        "backgroundColor": "#ffffff",
+        "textColor": "#111827",
+        "borderRadius": 14,
+        "padding": 14,
+        "shadow": true,
+        "border": false,
+        "fontSize": 16
+      }
+    }
+  ],
+  "controls": [
+    {
+      "id": "title",
+      "label": "Título",
+      "type": "text"
+    },
+    {
+      "id": "subtitle",
+      "label": "Texto descriptivo",
+      "type": "textarea"
+    },
+    {
+      "id": "buttonText",
+      "label": "Texto del botón",
+      "type": "text"
+    },
+    {
+      "id": "primaryColor",
+      "label": "Color principal",
+      "type": "color"
+    },
+    {
+      "id": "backgroundColor",
+      "label": "Fondo",
+      "type": "color"
+    },
+    {
+      "id": "textColor",
+      "label": "Color de texto",
+      "type": "color"
+    },
+    {
+      "id": "borderRadius",
+      "label": "Radio de borde",
+      "type": "range",
+      "min": 0,
+      "max": 40
+    },
+    {
+      "id": "padding",
+      "label": "Padding",
+      "type": "range",
+      "min": 8,
+      "max": 40
+    },
+    {
+      "id": "fontSize",
+      "label": "Tamaño de letra",
+      "type": "range",
+      "min": 13,
+      "max": 22
+    },
+    {
+      "id": "shadow",
+      "label": "Sombra",
+      "type": "checkbox"
+    },
+    {
+      "id": "border",
+      "label": "Borde",
+      "type": "checkbox"
+    }
+  ],
+  "tips": [
+    "Usá buen contraste entre fondo y texto.",
+    "No abuses de sombras fuertes: una sombra suave suele ser suficiente.",
+    "El padding ayuda a que una tarjeta respire.",
+    "Los botones deben ser fáciles de tocar en celular.",
+    "El border-radius da suavidad, pero demasiado radio puede restar claridad."
+  ]
+}

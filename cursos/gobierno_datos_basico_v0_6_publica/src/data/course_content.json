@@ -1,0 +1,1056 @@
+{
+  "courseId": "gobierno-datos-basico",
+  "title": "Gobierno de Datos Basico",
+  "version": "0.6-publica",
+  "publicationStatus": "publica-profesional-v0.6",
+  "modules": [
+    {
+      "id": "m1",
+      "title": "Fundamentos de gobierno de datos",
+      "description": "En este modulo vas a trabajar \"Fundamentos de gobierno de datos\" dentro de gobierno de datos, roles, glosario, catalogo, linaje, acceso y mejora operativa. La meta es partir de una pregunta concreta, revisar la calidad de la informacion y cerrar con una evidencia que pueda explicarse.",
+      "learningRisk": "Punto clave",
+      "lessons": [
+        {
+          "id": "m1-l1",
+          "title": "Dato como activo",
+          "keyIdea": "Idea clave: Dato como activo sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Dato como activo\" dentro del modulo \"Fundamentos de gobierno de datos\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una organizacion necesita que sus datos sean entendibles, confiables y usados con reglas compartidas. Aplica \"Dato como activo\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un esquema de gobierno con dato critico, rol responsable, definicion, regla de acceso y rutina de mejora.",
+          "alert": "No abrir acceso a datos por comodidad sin definir sensibilidad, necesidad y responsable.",
+          "keyPoints": [
+            "Dato como activo debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un esquema de gobierno con dato critico, rol responsable, definicion, regla de acceso y rutina de mejora.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m1-l2",
+          "title": "Confianza",
+          "keyIdea": "Idea clave: Confianza sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Confianza\" dentro del modulo \"Fundamentos de gobierno de datos\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una organizacion necesita que sus datos sean entendibles, confiables y usados con reglas compartidas. Aplica \"Confianza\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un esquema de gobierno con dato critico, rol responsable, definicion, regla de acceso y rutina de mejora.",
+          "alert": "No abrir acceso a datos por comodidad sin definir sensibilidad, necesidad y responsable.",
+          "keyPoints": [
+            "Confianza debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un esquema de gobierno con dato critico, rol responsable, definicion, regla de acceso y rutina de mejora.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m1-l3",
+          "title": "Responsabilidad",
+          "keyIdea": "Idea clave: Responsabilidad sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Responsabilidad\" dentro del modulo \"Fundamentos de gobierno de datos\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una organizacion necesita que sus datos sean entendibles, confiables y usados con reglas compartidas. Aplica \"Responsabilidad\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un esquema de gobierno con dato critico, rol responsable, definicion, regla de acceso y rutina de mejora.",
+          "alert": "No abrir acceso a datos por comodidad sin definir sensibilidad, necesidad y responsable.",
+          "keyPoints": [
+            "Responsabilidad debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un esquema de gobierno con dato critico, rol responsable, definicion, regla de acceso y rutina de mejora.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m1-l4",
+          "title": "Riesgos",
+          "keyIdea": "Idea clave: Riesgos sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Riesgos\" dentro del modulo \"Fundamentos de gobierno de datos\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una organizacion necesita que sus datos sean entendibles, confiables y usados con reglas compartidas. Aplica \"Riesgos\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un esquema de gobierno con dato critico, rol responsable, definicion, regla de acceso y rutina de mejora.",
+          "alert": "No abrir acceso a datos por comodidad sin definir sensibilidad, necesidad y responsable.",
+          "keyPoints": [
+            "Riesgos debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un esquema de gobierno con dato critico, rol responsable, definicion, regla de acceso y rutina de mejora.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m1-l5",
+          "title": "Beneficios",
+          "keyIdea": "Idea clave: Beneficios sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Beneficios\" dentro del modulo \"Fundamentos de gobierno de datos\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una organizacion necesita que sus datos sean entendibles, confiables y usados con reglas compartidas. Aplica \"Beneficios\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un esquema de gobierno con dato critico, rol responsable, definicion, regla de acceso y rutina de mejora.",
+          "alert": "No abrir acceso a datos por comodidad sin definir sensibilidad, necesidad y responsable.",
+          "keyPoints": [
+            "Beneficios debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un esquema de gobierno con dato critico, rol responsable, definicion, regla de acceso y rutina de mejora.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m1-l6",
+          "title": "Alcance inicial",
+          "keyIdea": "Idea clave: Alcance inicial sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Alcance inicial\" dentro del modulo \"Fundamentos de gobierno de datos\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una organizacion necesita que sus datos sean entendibles, confiables y usados con reglas compartidas. Aplica \"Alcance inicial\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un esquema de gobierno con dato critico, rol responsable, definicion, regla de acceso y rutina de mejora.",
+          "alert": "No abrir acceso a datos por comodidad sin definir sensibilidad, necesidad y responsable.",
+          "keyPoints": [
+            "Alcance inicial debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un esquema de gobierno con dato critico, rol responsable, definicion, regla de acceso y rutina de mejora.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m1-q1",
+          "question": "Pregunta 1: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        },
+        {
+          "id": "m1-q2",
+          "question": "Pregunta 2: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        },
+        {
+          "id": "m1-q3",
+          "question": "Pregunta 3: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        },
+        {
+          "id": "m1-q4",
+          "question": "Pregunta 4: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        },
+        {
+          "id": "m1-q5",
+          "question": "Pregunta 5: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        }
+      ],
+      "professionalOutcome": "definir roles, reglas minimas y controles para usar datos con responsabilidad. Entregable sugerido: una matriz RACI simple con datos criticos, responsables, reglas y controles."
+    },
+    {
+      "id": "m2",
+      "title": "Roles y responsabilidades",
+      "description": "En este modulo vas a trabajar \"Roles y responsabilidades\" dentro de gobierno de datos, roles, glosario, catalogo, linaje, acceso y mejora operativa. La meta es partir de una pregunta concreta, revisar la calidad de la informacion y cerrar con una evidencia que pueda explicarse.",
+      "learningRisk": "Punto clave",
+      "lessons": [
+        {
+          "id": "m2-l1",
+          "title": "Data owner",
+          "keyIdea": "Idea clave: Data owner sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Data owner\" dentro del modulo \"Roles y responsabilidades\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una organizacion necesita que sus datos sean entendibles, confiables y usados con reglas compartidas. Aplica \"Data owner\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un esquema de gobierno con dato critico, rol responsable, definicion, regla de acceso y rutina de mejora.",
+          "alert": "No abrir acceso a datos por comodidad sin definir sensibilidad, necesidad y responsable.",
+          "keyPoints": [
+            "Data owner debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un esquema de gobierno con dato critico, rol responsable, definicion, regla de acceso y rutina de mejora.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m2-l2",
+          "title": "Data steward",
+          "keyIdea": "Idea clave: Data steward sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Data steward\" dentro del modulo \"Roles y responsabilidades\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una organizacion necesita que sus datos sean entendibles, confiables y usados con reglas compartidas. Aplica \"Data steward\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un esquema de gobierno con dato critico, rol responsable, definicion, regla de acceso y rutina de mejora.",
+          "alert": "No abrir acceso a datos por comodidad sin definir sensibilidad, necesidad y responsable.",
+          "keyPoints": [
+            "Data steward debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un esquema de gobierno con dato critico, rol responsable, definicion, regla de acceso y rutina de mejora.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m2-l3",
+          "title": "Usuarios de negocio",
+          "keyIdea": "Idea clave: Usuarios de negocio sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Usuarios de negocio\" dentro del modulo \"Roles y responsabilidades\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una organizacion necesita que sus datos sean entendibles, confiables y usados con reglas compartidas. Aplica \"Usuarios de negocio\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un esquema de gobierno con dato critico, rol responsable, definicion, regla de acceso y rutina de mejora.",
+          "alert": "No abrir acceso a datos por comodidad sin definir sensibilidad, necesidad y responsable.",
+          "keyPoints": [
+            "Usuarios de negocio debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un esquema de gobierno con dato critico, rol responsable, definicion, regla de acceso y rutina de mejora.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m2-l4",
+          "title": "Equipo tecnico",
+          "keyIdea": "Idea clave: Equipo tecnico sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Equipo tecnico\" dentro del modulo \"Roles y responsabilidades\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una organizacion necesita que sus datos sean entendibles, confiables y usados con reglas compartidas. Aplica \"Equipo tecnico\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un esquema de gobierno con dato critico, rol responsable, definicion, regla de acceso y rutina de mejora.",
+          "alert": "No abrir acceso a datos por comodidad sin definir sensibilidad, necesidad y responsable.",
+          "keyPoints": [
+            "Equipo tecnico debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un esquema de gobierno con dato critico, rol responsable, definicion, regla de acceso y rutina de mejora.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m2-l5",
+          "title": "Comite simple",
+          "keyIdea": "Idea clave: Comite simple sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Comite simple\" dentro del modulo \"Roles y responsabilidades\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una organizacion necesita que sus datos sean entendibles, confiables y usados con reglas compartidas. Aplica \"Comite simple\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un esquema de gobierno con dato critico, rol responsable, definicion, regla de acceso y rutina de mejora.",
+          "alert": "No abrir acceso a datos por comodidad sin definir sensibilidad, necesidad y responsable.",
+          "keyPoints": [
+            "Comite simple debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un esquema de gobierno con dato critico, rol responsable, definicion, regla de acceso y rutina de mejora.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m2-l6",
+          "title": "RACI basico",
+          "keyIdea": "Idea clave: RACI basico sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"RACI basico\" dentro del modulo \"Roles y responsabilidades\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una organizacion necesita que sus datos sean entendibles, confiables y usados con reglas compartidas. Aplica \"RACI basico\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un esquema de gobierno con dato critico, rol responsable, definicion, regla de acceso y rutina de mejora.",
+          "alert": "No abrir acceso a datos por comodidad sin definir sensibilidad, necesidad y responsable.",
+          "keyPoints": [
+            "RACI basico debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un esquema de gobierno con dato critico, rol responsable, definicion, regla de acceso y rutina de mejora.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m2-q1",
+          "question": "Pregunta 1: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        },
+        {
+          "id": "m2-q2",
+          "question": "Pregunta 2: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        },
+        {
+          "id": "m2-q3",
+          "question": "Pregunta 3: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        },
+        {
+          "id": "m2-q4",
+          "question": "Pregunta 4: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        },
+        {
+          "id": "m2-q5",
+          "question": "Pregunta 5: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        }
+      ],
+      "professionalOutcome": "definir roles, reglas minimas y controles para usar datos con responsabilidad. Entregable sugerido: una matriz RACI simple con datos criticos, responsables, reglas y controles."
+    },
+    {
+      "id": "m3",
+      "title": "Definiciones y glosario",
+      "description": "En este modulo vas a trabajar \"Definiciones y glosario\" dentro de gobierno de datos, roles, glosario, catalogo, linaje, acceso y mejora operativa. La meta es partir de una pregunta concreta, revisar la calidad de la informacion y cerrar con una evidencia que pueda explicarse.",
+      "learningRisk": "Punto clave",
+      "lessons": [
+        {
+          "id": "m3-l1",
+          "title": "Terminos de negocio",
+          "keyIdea": "Idea clave: Terminos de negocio sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Terminos de negocio\" dentro del modulo \"Definiciones y glosario\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una organizacion necesita que sus datos sean entendibles, confiables y usados con reglas compartidas. Aplica \"Terminos de negocio\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un esquema de gobierno con dato critico, rol responsable, definicion, regla de acceso y rutina de mejora.",
+          "alert": "No abrir acceso a datos por comodidad sin definir sensibilidad, necesidad y responsable.",
+          "keyPoints": [
+            "Terminos de negocio debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un esquema de gobierno con dato critico, rol responsable, definicion, regla de acceso y rutina de mejora.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m3-l2",
+          "title": "Definicion valida",
+          "keyIdea": "Idea clave: Definicion valida sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Definicion valida\" dentro del modulo \"Definiciones y glosario\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una organizacion necesita que sus datos sean entendibles, confiables y usados con reglas compartidas. Aplica \"Definicion valida\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un esquema de gobierno con dato critico, rol responsable, definicion, regla de acceso y rutina de mejora.",
+          "alert": "No abrir acceso a datos por comodidad sin definir sensibilidad, necesidad y responsable.",
+          "keyPoints": [
+            "Definicion valida debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un esquema de gobierno con dato critico, rol responsable, definicion, regla de acceso y rutina de mejora.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m3-l3",
+          "title": "Ejemplos",
+          "keyIdea": "Idea clave: Ejemplos sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Ejemplos\" dentro del modulo \"Definiciones y glosario\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una organizacion necesita que sus datos sean entendibles, confiables y usados con reglas compartidas. Aplica \"Ejemplos\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un esquema de gobierno con dato critico, rol responsable, definicion, regla de acceso y rutina de mejora.",
+          "alert": "No abrir acceso a datos por comodidad sin definir sensibilidad, necesidad y responsable.",
+          "keyPoints": [
+            "Ejemplos debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un esquema de gobierno con dato critico, rol responsable, definicion, regla de acceso y rutina de mejora.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m3-l4",
+          "title": "Sinónimos",
+          "keyIdea": "Idea clave: Sinónimos sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Sinónimos\" dentro del modulo \"Definiciones y glosario\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una organizacion necesita que sus datos sean entendibles, confiables y usados con reglas compartidas. Aplica \"Sinónimos\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un esquema de gobierno con dato critico, rol responsable, definicion, regla de acceso y rutina de mejora.",
+          "alert": "No abrir acceso a datos por comodidad sin definir sensibilidad, necesidad y responsable.",
+          "keyPoints": [
+            "Sinónimos debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un esquema de gobierno con dato critico, rol responsable, definicion, regla de acceso y rutina de mejora.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m3-l5",
+          "title": "Cambios",
+          "keyIdea": "Idea clave: Cambios sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Cambios\" dentro del modulo \"Definiciones y glosario\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una organizacion necesita que sus datos sean entendibles, confiables y usados con reglas compartidas. Aplica \"Cambios\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un esquema de gobierno con dato critico, rol responsable, definicion, regla de acceso y rutina de mejora.",
+          "alert": "No abrir acceso a datos por comodidad sin definir sensibilidad, necesidad y responsable.",
+          "keyPoints": [
+            "Cambios debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un esquema de gobierno con dato critico, rol responsable, definicion, regla de acceso y rutina de mejora.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m3-l6",
+          "title": "Aprobacion",
+          "keyIdea": "Idea clave: Aprobacion sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Aprobacion\" dentro del modulo \"Definiciones y glosario\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una organizacion necesita que sus datos sean entendibles, confiables y usados con reglas compartidas. Aplica \"Aprobacion\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un esquema de gobierno con dato critico, rol responsable, definicion, regla de acceso y rutina de mejora.",
+          "alert": "No abrir acceso a datos por comodidad sin definir sensibilidad, necesidad y responsable.",
+          "keyPoints": [
+            "Aprobacion debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un esquema de gobierno con dato critico, rol responsable, definicion, regla de acceso y rutina de mejora.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m3-q1",
+          "question": "Pregunta 1: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        },
+        {
+          "id": "m3-q2",
+          "question": "Pregunta 2: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        },
+        {
+          "id": "m3-q3",
+          "question": "Pregunta 3: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        },
+        {
+          "id": "m3-q4",
+          "question": "Pregunta 4: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        },
+        {
+          "id": "m3-q5",
+          "question": "Pregunta 5: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        }
+      ],
+      "professionalOutcome": "definir roles, reglas minimas y controles para usar datos con responsabilidad. Entregable sugerido: una matriz RACI simple con datos criticos, responsables, reglas y controles."
+    },
+    {
+      "id": "m4",
+      "title": "Catalogo y linaje",
+      "description": "En este modulo vas a trabajar \"Catalogo y linaje\" dentro de gobierno de datos, roles, glosario, catalogo, linaje, acceso y mejora operativa. La meta es partir de una pregunta concreta, revisar la calidad de la informacion y cerrar con una evidencia que pueda explicarse.",
+      "learningRisk": "Punto clave",
+      "lessons": [
+        {
+          "id": "m4-l1",
+          "title": "Inventario de fuentes",
+          "keyIdea": "Idea clave: Inventario de fuentes sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Inventario de fuentes\" dentro del modulo \"Catalogo y linaje\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una organizacion necesita que sus datos sean entendibles, confiables y usados con reglas compartidas. Aplica \"Inventario de fuentes\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un esquema de gobierno con dato critico, rol responsable, definicion, regla de acceso y rutina de mejora.",
+          "alert": "No abrir acceso a datos por comodidad sin definir sensibilidad, necesidad y responsable.",
+          "keyPoints": [
+            "Inventario de fuentes debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un esquema de gobierno con dato critico, rol responsable, definicion, regla de acceso y rutina de mejora.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m4-l2",
+          "title": "Metadatos",
+          "keyIdea": "Idea clave: Metadatos sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Metadatos\" dentro del modulo \"Catalogo y linaje\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una organizacion necesita que sus datos sean entendibles, confiables y usados con reglas compartidas. Aplica \"Metadatos\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un esquema de gobierno con dato critico, rol responsable, definicion, regla de acceso y rutina de mejora.",
+          "alert": "No abrir acceso a datos por comodidad sin definir sensibilidad, necesidad y responsable.",
+          "keyPoints": [
+            "Metadatos debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un esquema de gobierno con dato critico, rol responsable, definicion, regla de acceso y rutina de mejora.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m4-l3",
+          "title": "Linaje simple",
+          "keyIdea": "Idea clave: Linaje simple sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Linaje simple\" dentro del modulo \"Catalogo y linaje\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una organizacion necesita que sus datos sean entendibles, confiables y usados con reglas compartidas. Aplica \"Linaje simple\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un esquema de gobierno con dato critico, rol responsable, definicion, regla de acceso y rutina de mejora.",
+          "alert": "No abrir acceso a datos por comodidad sin definir sensibilidad, necesidad y responsable.",
+          "keyPoints": [
+            "Linaje simple debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un esquema de gobierno con dato critico, rol responsable, definicion, regla de acceso y rutina de mejora.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m4-l4",
+          "title": "Dueño de fuente",
+          "keyIdea": "Idea clave: Dueño de fuente sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Dueño de fuente\" dentro del modulo \"Catalogo y linaje\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una organizacion necesita que sus datos sean entendibles, confiables y usados con reglas compartidas. Aplica \"Dueño de fuente\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un esquema de gobierno con dato critico, rol responsable, definicion, regla de acceso y rutina de mejora.",
+          "alert": "No abrir acceso a datos por comodidad sin definir sensibilidad, necesidad y responsable.",
+          "keyPoints": [
+            "Dueño de fuente debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un esquema de gobierno con dato critico, rol responsable, definicion, regla de acceso y rutina de mejora.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m4-l5",
+          "title": "Frecuencia",
+          "keyIdea": "Idea clave: Frecuencia sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Frecuencia\" dentro del modulo \"Catalogo y linaje\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una organizacion necesita que sus datos sean entendibles, confiables y usados con reglas compartidas. Aplica \"Frecuencia\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un esquema de gobierno con dato critico, rol responsable, definicion, regla de acceso y rutina de mejora.",
+          "alert": "No abrir acceso a datos por comodidad sin definir sensibilidad, necesidad y responsable.",
+          "keyPoints": [
+            "Frecuencia debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un esquema de gobierno con dato critico, rol responsable, definicion, regla de acceso y rutina de mejora.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m4-l6",
+          "title": "Documentacion minima",
+          "keyIdea": "Idea clave: Documentacion minima sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Documentacion minima\" dentro del modulo \"Catalogo y linaje\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una organizacion necesita que sus datos sean entendibles, confiables y usados con reglas compartidas. Aplica \"Documentacion minima\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un esquema de gobierno con dato critico, rol responsable, definicion, regla de acceso y rutina de mejora.",
+          "alert": "No abrir acceso a datos por comodidad sin definir sensibilidad, necesidad y responsable.",
+          "keyPoints": [
+            "Documentacion minima debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un esquema de gobierno con dato critico, rol responsable, definicion, regla de acceso y rutina de mejora.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m4-q1",
+          "question": "Pregunta 1: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        },
+        {
+          "id": "m4-q2",
+          "question": "Pregunta 2: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        },
+        {
+          "id": "m4-q3",
+          "question": "Pregunta 3: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        },
+        {
+          "id": "m4-q4",
+          "question": "Pregunta 4: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        },
+        {
+          "id": "m4-q5",
+          "question": "Pregunta 5: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        }
+      ],
+      "professionalOutcome": "definir roles, reglas minimas y controles para usar datos con responsabilidad. Entregable sugerido: una matriz RACI simple con datos criticos, responsables, reglas y controles."
+    },
+    {
+      "id": "m5",
+      "title": "Politicas de acceso",
+      "description": "En este modulo vas a trabajar \"Politicas de acceso\" dentro de gobierno de datos, roles, glosario, catalogo, linaje, acceso y mejora operativa. La meta es partir de una pregunta concreta, revisar la calidad de la informacion y cerrar con una evidencia que pueda explicarse.",
+      "learningRisk": "Punto clave",
+      "lessons": [
+        {
+          "id": "m5-l1",
+          "title": "Clasificacion",
+          "keyIdea": "Idea clave: Clasificacion sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Clasificacion\" dentro del modulo \"Politicas de acceso\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una organizacion necesita que sus datos sean entendibles, confiables y usados con reglas compartidas. Aplica \"Clasificacion\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un esquema de gobierno con dato critico, rol responsable, definicion, regla de acceso y rutina de mejora.",
+          "alert": "No abrir acceso a datos por comodidad sin definir sensibilidad, necesidad y responsable.",
+          "keyPoints": [
+            "Clasificacion debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un esquema de gobierno con dato critico, rol responsable, definicion, regla de acceso y rutina de mejora.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m5-l2",
+          "title": "Datos sensibles",
+          "keyIdea": "Idea clave: Datos sensibles sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Datos sensibles\" dentro del modulo \"Politicas de acceso\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una organizacion necesita que sus datos sean entendibles, confiables y usados con reglas compartidas. Aplica \"Datos sensibles\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un esquema de gobierno con dato critico, rol responsable, definicion, regla de acceso y rutina de mejora.",
+          "alert": "No abrir acceso a datos por comodidad sin definir sensibilidad, necesidad y responsable.",
+          "keyPoints": [
+            "Datos sensibles debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un esquema de gobierno con dato critico, rol responsable, definicion, regla de acceso y rutina de mejora.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m5-l3",
+          "title": "Permisos",
+          "keyIdea": "Idea clave: Permisos sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Permisos\" dentro del modulo \"Politicas de acceso\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una organizacion necesita que sus datos sean entendibles, confiables y usados con reglas compartidas. Aplica \"Permisos\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un esquema de gobierno con dato critico, rol responsable, definicion, regla de acceso y rutina de mejora.",
+          "alert": "No abrir acceso a datos por comodidad sin definir sensibilidad, necesidad y responsable.",
+          "keyPoints": [
+            "Permisos debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un esquema de gobierno con dato critico, rol responsable, definicion, regla de acceso y rutina de mejora.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m5-l4",
+          "title": "Solicitud de acceso",
+          "keyIdea": "Idea clave: Solicitud de acceso sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Solicitud de acceso\" dentro del modulo \"Politicas de acceso\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una organizacion necesita que sus datos sean entendibles, confiables y usados con reglas compartidas. Aplica \"Solicitud de acceso\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un esquema de gobierno con dato critico, rol responsable, definicion, regla de acceso y rutina de mejora.",
+          "alert": "No abrir acceso a datos por comodidad sin definir sensibilidad, necesidad y responsable.",
+          "keyPoints": [
+            "Solicitud de acceso debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un esquema de gobierno con dato critico, rol responsable, definicion, regla de acceso y rutina de mejora.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m5-l5",
+          "title": "Revision periodica",
+          "keyIdea": "Idea clave: Revision periodica sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Revision periodica\" dentro del modulo \"Politicas de acceso\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una organizacion necesita que sus datos sean entendibles, confiables y usados con reglas compartidas. Aplica \"Revision periodica\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un esquema de gobierno con dato critico, rol responsable, definicion, regla de acceso y rutina de mejora.",
+          "alert": "No abrir acceso a datos por comodidad sin definir sensibilidad, necesidad y responsable.",
+          "keyPoints": [
+            "Revision periodica debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un esquema de gobierno con dato critico, rol responsable, definicion, regla de acceso y rutina de mejora.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m5-l6",
+          "title": "Baja de accesos",
+          "keyIdea": "Idea clave: Baja de accesos sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Baja de accesos\" dentro del modulo \"Politicas de acceso\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una organizacion necesita que sus datos sean entendibles, confiables y usados con reglas compartidas. Aplica \"Baja de accesos\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un esquema de gobierno con dato critico, rol responsable, definicion, regla de acceso y rutina de mejora.",
+          "alert": "No abrir acceso a datos por comodidad sin definir sensibilidad, necesidad y responsable.",
+          "keyPoints": [
+            "Baja de accesos debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un esquema de gobierno con dato critico, rol responsable, definicion, regla de acceso y rutina de mejora.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m5-q1",
+          "question": "Pregunta 1: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        },
+        {
+          "id": "m5-q2",
+          "question": "Pregunta 2: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        },
+        {
+          "id": "m5-q3",
+          "question": "Pregunta 3: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        },
+        {
+          "id": "m5-q4",
+          "question": "Pregunta 4: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        },
+        {
+          "id": "m5-q5",
+          "question": "Pregunta 5: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        }
+      ],
+      "professionalOutcome": "definir roles, reglas minimas y controles para usar datos con responsabilidad. Entregable sugerido: una matriz RACI simple con datos criticos, responsables, reglas y controles."
+    },
+    {
+      "id": "m6",
+      "title": "Operacion y mejora",
+      "description": "En este modulo vas a trabajar \"Operacion y mejora\" dentro de gobierno de datos, roles, glosario, catalogo, linaje, acceso y mejora operativa. La meta es partir de una pregunta concreta, revisar la calidad de la informacion y cerrar con una evidencia que pueda explicarse.",
+      "learningRisk": "Punto clave",
+      "lessons": [
+        {
+          "id": "m6-l1",
+          "title": "Indicadores de gobierno",
+          "keyIdea": "Idea clave: Indicadores de gobierno sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Indicadores de gobierno\" dentro del modulo \"Operacion y mejora\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una organizacion necesita que sus datos sean entendibles, confiables y usados con reglas compartidas. Aplica \"Indicadores de gobierno\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un esquema de gobierno con dato critico, rol responsable, definicion, regla de acceso y rutina de mejora.",
+          "alert": "No abrir acceso a datos por comodidad sin definir sensibilidad, necesidad y responsable.",
+          "keyPoints": [
+            "Indicadores de gobierno debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un esquema de gobierno con dato critico, rol responsable, definicion, regla de acceso y rutina de mejora.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m6-l2",
+          "title": "Incidencias",
+          "keyIdea": "Idea clave: Incidencias sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Incidencias\" dentro del modulo \"Operacion y mejora\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una organizacion necesita que sus datos sean entendibles, confiables y usados con reglas compartidas. Aplica \"Incidencias\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un esquema de gobierno con dato critico, rol responsable, definicion, regla de acceso y rutina de mejora.",
+          "alert": "No abrir acceso a datos por comodidad sin definir sensibilidad, necesidad y responsable.",
+          "keyPoints": [
+            "Incidencias debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un esquema de gobierno con dato critico, rol responsable, definicion, regla de acceso y rutina de mejora.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m6-l3",
+          "title": "Reuniones cortas",
+          "keyIdea": "Idea clave: Reuniones cortas sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Reuniones cortas\" dentro del modulo \"Operacion y mejora\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una organizacion necesita que sus datos sean entendibles, confiables y usados con reglas compartidas. Aplica \"Reuniones cortas\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un esquema de gobierno con dato critico, rol responsable, definicion, regla de acceso y rutina de mejora.",
+          "alert": "No abrir acceso a datos por comodidad sin definir sensibilidad, necesidad y responsable.",
+          "keyPoints": [
+            "Reuniones cortas debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un esquema de gobierno con dato critico, rol responsable, definicion, regla de acceso y rutina de mejora.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m6-l4",
+          "title": "Priorizacion",
+          "keyIdea": "Idea clave: Priorizacion sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Priorizacion\" dentro del modulo \"Operacion y mejora\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una organizacion necesita que sus datos sean entendibles, confiables y usados con reglas compartidas. Aplica \"Priorizacion\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un esquema de gobierno con dato critico, rol responsable, definicion, regla de acceso y rutina de mejora.",
+          "alert": "No abrir acceso a datos por comodidad sin definir sensibilidad, necesidad y responsable.",
+          "keyPoints": [
+            "Priorizacion debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un esquema de gobierno con dato critico, rol responsable, definicion, regla de acceso y rutina de mejora.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m6-l5",
+          "title": "Comunicacion",
+          "keyIdea": "Idea clave: Comunicacion sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Comunicacion\" dentro del modulo \"Operacion y mejora\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una organizacion necesita que sus datos sean entendibles, confiables y usados con reglas compartidas. Aplica \"Comunicacion\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un esquema de gobierno con dato critico, rol responsable, definicion, regla de acceso y rutina de mejora.",
+          "alert": "No abrir acceso a datos por comodidad sin definir sensibilidad, necesidad y responsable.",
+          "keyPoints": [
+            "Comunicacion debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un esquema de gobierno con dato critico, rol responsable, definicion, regla de acceso y rutina de mejora.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m6-l6",
+          "title": "Plan trimestral",
+          "keyIdea": "Idea clave: Plan trimestral sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
+          "shortTheory": "En esta leccion vas a trabajar \"Plan trimestral\" dentro del modulo \"Operacion y mejora\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
+          "practicalExample": "Una organizacion necesita que sus datos sean entendibles, confiables y usados con reglas compartidas. Aplica \"Plan trimestral\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
+          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
+          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un esquema de gobierno con dato critico, rol responsable, definicion, regla de acceso y rutina de mejora.",
+          "alert": "No abrir acceso a datos por comodidad sin definir sensibilidad, necesidad y responsable.",
+          "keyPoints": [
+            "Plan trimestral debe responder una pregunta concreta, no solo producir un resultado tecnico.",
+            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
+            "La evidencia minima esperada es: un esquema de gobierno con dato critico, rol responsable, definicion, regla de acceso y rutina de mejora.",
+            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m6-q1",
+          "question": "Pregunta 1: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        },
+        {
+          "id": "m6-q2",
+          "question": "Pregunta 2: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        },
+        {
+          "id": "m6-q3",
+          "question": "Pregunta 3: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        },
+        {
+          "id": "m6-q4",
+          "question": "Pregunta 4: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        },
+        {
+          "id": "m6-q5",
+          "question": "Pregunta 5: ¿que conviene hacer al trabajar ",
+          "options": [
+            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
+            "Copiar una solucion larga sin entenderla",
+            "Publicar sin revisar fuentes ni limites",
+            "Mezclar datos reales sensibles en una practica inicial"
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+        }
+      ],
+      "professionalOutcome": "definir roles, reglas minimas y controles para usar datos con responsabilidad. Entregable sugerido: una matriz RACI simple con datos criticos, responsables, reglas y controles."
+    }
+  ],
+  "appName": "Gobierno de Datos Basico",
+  "professionalization": {
+    "tier": "curso-bandera-v1.0-beta",
+    "updatedAt": "2026-05-28",
+    "focus": "Profundizacion visible de lecciones, practicas, checklists y casos."
+  },
+  "editorialPolish": {
+    "thirdEditorialBatch": "2026-06-02",
+    "status": "public-facing-copy-polished"
+  }
+}
