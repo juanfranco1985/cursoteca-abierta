@@ -24,7 +24,7 @@ Leer una muestra amplia de cursos sensibles: privacidad, seguridad, finanzas, tr
 
 3. Textos legales/publicos.
 
-Definir textos finales de privacidad, publicidad, contacto, responsabilidad educativa y uso de datos.
+Ya existe una base beta publicada en el portal para nosotros, privacidad, contacto y publicidad. Falta validacion humana final y reemplazar el canal de contacto si se elige email, formulario externo o comunidad.
 
 4. Hosting final.
 
@@ -32,11 +32,11 @@ Elegir URL publica, publicar beta y repetir pruebas desde internet real.
 
 5. Publicidad/Ads.
 
-Definir formato de publicidad, ubicaciones aceptables y reglas para no afectar lectura ni accesibilidad.
+La beta queda sin anuncios activos. Antes de agregar publicidad, definir formato, ubicaciones aceptables y reglas para no afectar lectura ni accesibilidad.
 
 6. Contacto.
 
-Definir canal real de contacto: email, formulario externo, red social o comunidad.
+El canal beta inicial es GitHub Issues del repositorio publico. Antes de difusion masiva, confirmar si ese canal queda o se reemplaza por email, formulario externo, red social o comunidad.
 
 7. Capturas publicas.
 

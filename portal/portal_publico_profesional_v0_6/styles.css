@@ -701,7 +701,8 @@ button:hover {
 .route-band,
 #category-view,
 #destacados,
-#inventario {
+#inventario,
+#informacion {
   margin-top: 2.3rem;
 }
 
@@ -1107,6 +1108,48 @@ select:focus {
   margin-top: auto;
 }
 
+.public-info {
+  padding: 1.1rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background:
+    linear-gradient(135deg, rgba(255, 244, 220, .1), rgba(255, 244, 220, .028)),
+    rgba(33, 19, 11, .72);
+  box-shadow: var(--shadow), inset 0 1px 0 rgba(255, 244, 220, .13);
+  backdrop-filter: blur(18px) saturate(1.12);
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.info-grid article {
+  min-width: 0;
+  min-height: 100%;
+  padding: 1rem;
+  border: 1px solid rgba(214, 168, 92, .28);
+  border-radius: var(--radius);
+  background:
+    linear-gradient(145deg, rgba(255, 244, 220, .1), rgba(255, 244, 220, .026)),
+    rgba(58, 23, 18, .38);
+  box-shadow: inset 0 1px 0 rgba(255, 244, 220, .11);
+}
+
+.info-grid h3 {
+  margin-bottom: .65rem;
+}
+
+.info-grid p {
+  color: var(--muted);
+  margin: 0;
+}
+
+.info-grid .secondary-button {
+  margin-top: 1rem;
+}
+
 .secondary-link {
   color: var(--paper);
   font-weight: 900;
@@ -1125,6 +1168,32 @@ select:focus {
   padding: 2rem 1.25rem;
   background: rgba(33, 19, 11, .86);
   backdrop-filter: blur(16px);
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: .45rem;
+  margin-bottom: 1rem;
+}
+
+.footer-links a {
+  min-height: 36px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: .42rem .68rem;
+  border: 1px solid rgba(214, 168, 92, .24);
+  border-radius: 6px;
+  color: var(--paper);
+  text-decoration: none;
+  font-weight: 850;
+}
+
+.footer-links a:hover,
+.footer-links a:focus-visible {
+  background: rgba(214, 168, 92, .12);
 }
 
 :focus-visible {
@@ -1163,7 +1232,8 @@ select:focus {
 
   .route-grid,
   .category-grid,
-  .featured-grid {
+  .featured-grid,
+  .info-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
@@ -1224,7 +1294,8 @@ select:focus {
   .route-grid,
   .category-grid,
   .courses-grid,
-  .featured-grid {
+  .featured-grid,
+  .info-grid {
     grid-template-columns: 1fr;
   }
 
@@ -1280,6 +1351,7 @@ select:focus {
   .hero-copy,
   .hero-visual,
   .summary-panel,
+  .public-info,
   .category-card,
   .course-card {
     width: min(100%, 22.5rem);

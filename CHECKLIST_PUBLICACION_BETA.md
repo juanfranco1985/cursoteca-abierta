@@ -25,10 +25,10 @@
 
 ## Secciones publicas pendientes
 
-- [ ] Definir texto final de Nosotros.
-- [ ] Definir canal real de Contacto.
-- [ ] Definir politica de Privacidad.
-- [ ] Definir politica de Publicidad/Ads.
+- [x] Definir texto base de Nosotros para beta.
+- [x] Definir canal beta de Contacto por GitHub Issues.
+- [x] Definir politica base de Privacidad sin login, backend, formularios propios ni analitica.
+- [x] Definir politica base de Publicidad/Ads: sin anuncios activos en beta.
 - [ ] Decidir si `Como usar Cursoteca Abierta` queda como FAQ secundaria.
 
 ## Prueba funcional
@@ -45,6 +45,6 @@
 
 - [ ] Corregir hallazgos de la revision visual.
 - [ ] Corregir hallazgos editoriales.
-- [ ] Implementar o enlazar secciones publicas finales.
+- [ ] Validar o reemplazar secciones publicas finales antes de difusion masiva.
 - [ ] Confirmar hosting final.
 - [ ] Congelar version final y ZIPs.

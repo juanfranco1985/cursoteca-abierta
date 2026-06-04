@@ -23,7 +23,20 @@ zips/
 - 50 cursos gratuitos completos.
 - 8 estantes principales de aprendizaje.
 - Sitio estatico: sin backend, login ni base de datos.
+- Textos base de beta para nosotros, privacidad, contacto y publicidad.
 - Preparado para GitHub Pages, Netlify, Vercel u hosting propio.
+
+## URL publica
+
+```text
+https://juanfranco1985.github.io/cursoteca-abierta/
+```
+
+Repositorio:
+
+```text
+https://github.com/juanfranco1985/cursoteca-abierta
+```
 
 ## Prueba local
 

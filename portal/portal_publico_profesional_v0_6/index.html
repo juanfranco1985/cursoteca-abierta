@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Cursoteca Abierta - Portal de Cursos Gratuitos</title>
   <meta name="description" content="Cursoteca Abierta: biblioteca digital de 50 cursos practicos de acceso gratuito, organizada por categorias." />
-  <link rel="stylesheet" href="styles.css?v=20260601-0315" />
+  <link rel="stylesheet" href="styles.css?v=20260604-1900" />
 </head>
 <body>
   <a class="skip-link" href="#main">Saltar al contenido principal</a>
@@ -19,7 +19,7 @@
         <a href="#categorias">Categorias</a>
         <a href="#destacados">Destacados</a>
         <a href="#inventario">Catalogo</a>
-        <a href="#publicacion">Estado</a>
+        <a href="#informacion">Info</a>
       </div>
       <a class="nav-action" href="#categorias">Abrir catalogo</a>
     </nav>
@@ -125,12 +125,48 @@
       </div>
       <div id="courses-grid" class="courses-grid" aria-live="polite"></div>
     </section>
+
+    <section id="informacion" class="public-info" aria-labelledby="public-info-title">
+      <div class="section-heading">
+        <div><p class="eyebrow">Beta publica</p><h2 id="public-info-title">Informacion abierta del proyecto</h2></div>
+        <p class="result-count">Textos base para uso, privacidad y contacto</p>
+      </div>
+      <div class="info-grid">
+        <article>
+          <p class="eyebrow">Nosotros</p>
+          <h3>Una biblioteca educativa gratuita</h3>
+          <p>Cursoteca Abierta reune cursos practicos para aprendizaje autonomo, consulta cotidiana y formacion inicial. Los materiales tienen fines educativos y no reemplazan asesoramiento profesional, legal, financiero, medico ni tecnico especializado.</p>
+        </article>
+        <article>
+          <p class="eyebrow">Privacidad</p>
+          <h3>Sin cuentas ni formularios propios</h3>
+          <p>El portal no usa login, backend, base de datos, analitica ni formularios propios. Algunos cursos pueden guardar progreso en el dispositivo mediante el almacenamiento local del navegador.</p>
+        </article>
+        <article>
+          <p class="eyebrow">Contacto</p>
+          <h3>Canal beta de seguimiento</h3>
+          <p>Durante esta beta, los avisos de errores, mejoras y solicitudes de revision se centralizan en el repositorio publico del proyecto.</p>
+          <a class="secondary-button" href="https://github.com/juanfranco1985/cursoteca-abierta/issues">Abrir seguimiento</a>
+        </article>
+        <article>
+          <p class="eyebrow">Publicidad</p>
+          <h3>Sin anuncios activos</h3>
+          <p>La beta no tiene publicidad ni medicion comercial. Cualquier incorporacion futura deberia preservar legibilidad, accesibilidad y separacion clara entre aprendizaje y anuncios.</p>
+        </article>
+      </div>
+    </section>
   </main>
 
   <footer class="site-footer">
+    <nav class="footer-links" aria-label="Informacion del proyecto">
+      <a href="#informacion">Nosotros</a>
+      <a href="#informacion">Privacidad</a>
+      <a href="https://github.com/juanfranco1985/cursoteca-abierta/issues">Contacto</a>
+      <a href="https://github.com/juanfranco1985/cursoteca-abierta">Repositorio</a>
+    </nav>
     <p>Cursoteca Abierta - Biblioteca digital de cursos gratuitos.</p>
     <p>50 cursos listos para aprender, consultar y compartir.</p>
   </footer>
-  <script src="src/app.js?v=20260601-0315"></script>
+  <script src="src/app.js?v=20260604-1900"></script>
 </body>
 </html>
