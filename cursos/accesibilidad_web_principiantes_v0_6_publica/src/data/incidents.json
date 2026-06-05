@@ -1,441 +1,441 @@
 {
   "incidents": [
     {
-      "id": "case-1",
-      "title": "Caso inicial controlado: Accesibilidad Web para Principiantes",
-      "summary": "Practica aplicada para resolver una situacion de mejora de accesibilidad, semantica, teclado, contraste y lectura en sitios web con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una auditoria de accesibilidad inicial sin exponer datos sensibles y con una decision verificable.",
+      "id": "a11y-case-1",
+      "title": "Formulario de inscripcion que no se completa con teclado",
+      "summary": "Una persona no puede llegar al boton final sin mouse.",
+      "severity": "Practica guiada",
+      "immediateGoal": "Detectar el bloqueo de foco y proponer correccion verificable.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una auditoria de accesibilidad inicial.",
-        "Revisar el resultado contra este criterio: la pagina puede navegarse por teclado, leerse con claridad y entenderse sin depender solo del color.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Definir que paso antes de actuar: el flujo se detiene en un selector personalizado.",
+        "Separar datos reales de datos simulados y evitar compartir informacion sensible.",
+        "Aplicar el criterio del curso: recorrer con Tab, documentar el punto exacto y sugerir control nativo o foco gestionado.",
+        "Registrar evidencia: orden de foco, captura del control y recomendacion.",
+        "Decidir la accion minima segura y quien debe validarla si el caso es real.",
+        "Cerrar con una nota breve: resultado, duda pendiente y siguiente control."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "captura, problema, impacto, criterio WCAG basico, correccion y prueba",
-        "Decision final y motivo"
+        "Consigna o descripcion del caso",
+        "orden de foco, captura del control y recomendacion",
+        "Decision tomada y motivo",
+        "Captura o registro sin datos sensibles",
+        "Proxima accion"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Cambiar colores del boton sin corregir el bloqueo.",
+        "Usar datos privados en una practica educativa.",
+        "Aplicar una recomendacion sin revisar consecuencias.",
+        "Borrar evidencia antes de entender el problema.",
+        "Confundir ejemplo de practica con solucion definitiva."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Agregar prueba de teclado al checklist de publicacion.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Revisar si el caso se repite y convertirlo en checklist.",
+        "Pedir validacion externa si afecta cuentas, pagos, seguridad o derechos."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Cual es la mejor decision profesional en este caso?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Trabajar en una version controlada, guardar evidencia y validar antes de aplicar a un caso real.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: reduce riesgo y deja aprendizaje reutilizable."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Actuar rapido sin documentar porque el problema parece simple.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La falta de evidencia impide revisar errores y aprender."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Usar datos reales para que el ejercicio sea mas completo.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "En practicas educativas conviene usar datos simulados o anonimizados."
           }
         ]
       }
     },
     {
-      "id": "case-2",
-      "title": "Caso con datos incompletos: Accesibilidad Web para Principiantes",
-      "summary": "Practica aplicada para resolver una situacion de mejora de accesibilidad, semantica, teclado, contraste y lectura en sitios web con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una auditoria de accesibilidad inicial sin exponer datos sensibles y con una decision verificable.",
+      "id": "a11y-case-2",
+      "title": "Texto importante con bajo contraste",
+      "summary": "La informacion de vencimiento casi no se lee en movil.",
+      "severity": "Practica guiada",
+      "immediateGoal": "Medir contraste y corregir estilo sin perder jerarquia.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una auditoria de accesibilidad inicial.",
-        "Revisar el resultado contra este criterio: la pagina puede navegarse por teclado, leerse con claridad y entenderse sin depender solo del color.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Definir que paso antes de actuar: texto gris claro sobre fondo blanco.",
+        "Separar datos reales de datos simulados y evitar compartir informacion sensible.",
+        "Aplicar el criterio del curso: medir contraste, ajustar color/tamano y probar estados.",
+        "Registrar evidencia: valor inicial, valor corregido y captura comparativa.",
+        "Decidir la accion minima segura y quien debe validarla si el caso es real.",
+        "Cerrar con una nota breve: resultado, duda pendiente y siguiente control."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "captura, problema, impacto, criterio WCAG basico, correccion y prueba",
-        "Decision final y motivo"
+        "Consigna o descripcion del caso",
+        "valor inicial, valor corregido y captura comparativa",
+        "Decision tomada y motivo",
+        "Captura o registro sin datos sensibles",
+        "Proxima accion"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Aumentar brillo de pantalla y declarar resuelto.",
+        "Usar datos privados en una practica educativa.",
+        "Aplicar una recomendacion sin revisar consecuencias.",
+        "Borrar evidencia antes de entender el problema.",
+        "Confundir ejemplo de practica con solucion definitiva."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Crear tokens de color accesibles para el sitio.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Revisar si el caso se repite y convertirlo en checklist.",
+        "Pedir validacion externa si afecta cuentas, pagos, seguridad o derechos."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Cual es la mejor decision profesional en este caso?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Trabajar en una version controlada, guardar evidencia y validar antes de aplicar a un caso real.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: reduce riesgo y deja aprendizaje reutilizable."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Actuar rapido sin documentar porque el problema parece simple.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La falta de evidencia impide revisar errores y aprender."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Usar datos reales para que el ejercicio sea mas completo.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "En practicas educativas conviene usar datos simulados o anonimizados."
           }
         ]
       }
     },
     {
-      "id": "case-3",
-      "title": "Caso con presion de tiempo: Accesibilidad Web para Principiantes",
-      "summary": "Practica aplicada para resolver una situacion de mejora de accesibilidad, semantica, teclado, contraste y lectura en sitios web con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una auditoria de accesibilidad inicial sin exponer datos sensibles y con una decision verificable.",
+      "id": "a11y-case-3",
+      "title": "Error de formulario incomprensible",
+      "summary": "El usuario recibe 'dato invalido' y no sabe que corregir.",
+      "severity": "Practica guiada",
+      "immediateGoal": "Convertir el error en una instruccion accionable.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una auditoria de accesibilidad inicial.",
-        "Revisar el resultado contra este criterio: la pagina puede navegarse por teclado, leerse con claridad y entenderse sin depender solo del color.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Definir que paso antes de actuar: mensaje generico despues de enviar.",
+        "Separar datos reales de datos simulados y evitar compartir informacion sensible.",
+        "Aplicar el criterio del curso: asociar error al campo, explicar formato y preservar datos escritos.",
+        "Registrar evidencia: mensaje anterior, mensaje nuevo y prueba de correccion.",
+        "Decidir la accion minima segura y quien debe validarla si el caso es real.",
+        "Cerrar con una nota breve: resultado, duda pendiente y siguiente control."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "captura, problema, impacto, criterio WCAG basico, correccion y prueba",
-        "Decision final y motivo"
+        "Consigna o descripcion del caso",
+        "mensaje anterior, mensaje nuevo y prueba de correccion",
+        "Decision tomada y motivo",
+        "Captura o registro sin datos sensibles",
+        "Proxima accion"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Vaciar el formulario despues del error.",
+        "Usar datos privados en una practica educativa.",
+        "Aplicar una recomendacion sin revisar consecuencias.",
+        "Borrar evidencia antes de entender el problema.",
+        "Confundir ejemplo de practica con solucion definitiva."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Revisar todos los mensajes de validacion.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Revisar si el caso se repite y convertirlo en checklist.",
+        "Pedir validacion externa si afecta cuentas, pagos, seguridad o derechos."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Cual es la mejor decision profesional en este caso?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Trabajar en una version controlada, guardar evidencia y validar antes de aplicar a un caso real.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: reduce riesgo y deja aprendizaje reutilizable."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Actuar rapido sin documentar porque el problema parece simple.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La falta de evidencia impide revisar errores y aprender."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Usar datos reales para que el ejercicio sea mas completo.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "En practicas educativas conviene usar datos simulados o anonimizados."
           }
         ]
       }
     },
     {
-      "id": "case-4",
-      "title": "Caso de comunicacion con otra persona: Accesibilidad Web para Principiantes",
-      "summary": "Practica aplicada para resolver una situacion de mejora de accesibilidad, semantica, teclado, contraste y lectura en sitios web con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una auditoria de accesibilidad inicial sin exponer datos sensibles y con una decision verificable.",
+      "id": "a11y-case-4",
+      "title": "Pagina con enlaces 'ver mas'",
+      "summary": "Una lista de noticias repite el mismo enlace sin contexto.",
+      "severity": "Practica guiada",
+      "immediateGoal": "Mejorar nombres accesibles de enlaces repetidos.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una auditoria de accesibilidad inicial.",
-        "Revisar el resultado contra este criterio: la pagina puede navegarse por teclado, leerse con claridad y entenderse sin depender solo del color.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Definir que paso antes de actuar: links identicos para destinos diferentes.",
+        "Separar datos reales de datos simulados y evitar compartir informacion sensible.",
+        "Aplicar el criterio del curso: hacer textos descriptivos o aria-label contextual.",
+        "Registrar evidencia: lista de enlaces antes y despues.",
+        "Decidir la accion minima segura y quien debe validarla si el caso es real.",
+        "Cerrar con una nota breve: resultado, duda pendiente y siguiente control."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "captura, problema, impacto, criterio WCAG basico, correccion y prueba",
-        "Decision final y motivo"
+        "Consigna o descripcion del caso",
+        "lista de enlaces antes y despues",
+        "Decision tomada y motivo",
+        "Captura o registro sin datos sensibles",
+        "Proxima accion"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Agregar title y dejar el mismo texto ambiguo.",
+        "Usar datos privados en una practica educativa.",
+        "Aplicar una recomendacion sin revisar consecuencias.",
+        "Borrar evidencia antes de entender el problema.",
+        "Confundir ejemplo de practica con solucion definitiva."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Definir regla editorial para enlaces.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Revisar si el caso se repite y convertirlo en checklist.",
+        "Pedir validacion externa si afecta cuentas, pagos, seguridad o derechos."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Cual es la mejor decision profesional en este caso?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Trabajar en una version controlada, guardar evidencia y validar antes de aplicar a un caso real.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: reduce riesgo y deja aprendizaje reutilizable."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Actuar rapido sin documentar porque el problema parece simple.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La falta de evidencia impide revisar errores y aprender."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Usar datos reales para que el ejercicio sea mas completo.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "En practicas educativas conviene usar datos simulados o anonimizados."
           }
         ]
       }
     },
     {
-      "id": "case-5",
-      "title": "Caso de error frecuente: Accesibilidad Web para Principiantes",
-      "summary": "Practica aplicada para resolver una situacion de mejora de accesibilidad, semantica, teclado, contraste y lectura en sitios web con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una auditoria de accesibilidad inicial sin exponer datos sensibles y con una decision verificable.",
+      "id": "a11y-case-5",
+      "title": "Imagen informativa sin alternativa",
+      "summary": "Un grafico comunica requisitos pero no tiene texto equivalente.",
+      "severity": "Practica guiada",
+      "immediateGoal": "Escribir alternativa util para contenido visual importante.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una auditoria de accesibilidad inicial.",
-        "Revisar el resultado contra este criterio: la pagina puede navegarse por teclado, leerse con claridad y entenderse sin depender solo del color.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Definir que paso antes de actuar: imagen con texto incrustado.",
+        "Separar datos reales de datos simulados y evitar compartir informacion sensible.",
+        "Aplicar el criterio del curso: separar texto real, alt breve y descripcion si hace falta.",
+        "Registrar evidencia: contenido de la imagen y alternativa propuesta.",
+        "Decidir la accion minima segura y quien debe validarla si el caso es real.",
+        "Cerrar con una nota breve: resultado, duda pendiente y siguiente control."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "captura, problema, impacto, criterio WCAG basico, correccion y prueba",
-        "Decision final y motivo"
+        "Consigna o descripcion del caso",
+        "contenido de la imagen y alternativa propuesta",
+        "Decision tomada y motivo",
+        "Captura o registro sin datos sensibles",
+        "Proxima accion"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Poner alt='imagen' o dejar alt vacio.",
+        "Usar datos privados en una practica educativa.",
+        "Aplicar una recomendacion sin revisar consecuencias.",
+        "Borrar evidencia antes de entender el problema.",
+        "Confundir ejemplo de practica con solucion definitiva."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Evitar imagenes de texto en nuevas publicaciones.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Revisar si el caso se repite y convertirlo en checklist.",
+        "Pedir validacion externa si afecta cuentas, pagos, seguridad o derechos."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Cual es la mejor decision profesional en este caso?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Trabajar en una version controlada, guardar evidencia y validar antes de aplicar a un caso real.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: reduce riesgo y deja aprendizaje reutilizable."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Actuar rapido sin documentar porque el problema parece simple.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La falta de evidencia impide revisar errores y aprender."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Usar datos reales para que el ejercicio sea mas completo.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "En practicas educativas conviene usar datos simulados o anonimizados."
           }
         ]
       }
     },
     {
-      "id": "case-6",
-      "title": "Caso de mejora de proceso: Accesibilidad Web para Principiantes",
-      "summary": "Practica aplicada para resolver una situacion de mejora de accesibilidad, semantica, teclado, contraste y lectura en sitios web con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una auditoria de accesibilidad inicial sin exponer datos sensibles y con una decision verificable.",
+      "id": "a11y-case-6",
+      "title": "Menu movil dificil de cerrar",
+      "summary": "El menu abre pero el foco queda perdido y Escape no funciona.",
+      "severity": "Practica guiada",
+      "immediateGoal": "Documentar comportamiento esperado del menu.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una auditoria de accesibilidad inicial.",
-        "Revisar el resultado contra este criterio: la pagina puede navegarse por teclado, leerse con claridad y entenderse sin depender solo del color.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Definir que paso antes de actuar: componente personalizado sin gestion de foco.",
+        "Separar datos reales de datos simulados y evitar compartir informacion sensible.",
+        "Aplicar el criterio del curso: probar apertura, recorrido, cierre y retorno de foco.",
+        "Registrar evidencia: pasos de teclado y recomendacion de cierre.",
+        "Decidir la accion minima segura y quien debe validarla si el caso es real.",
+        "Cerrar con una nota breve: resultado, duda pendiente y siguiente control."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "captura, problema, impacto, criterio WCAG basico, correccion y prueba",
-        "Decision final y motivo"
+        "Consigna o descripcion del caso",
+        "pasos de teclado y recomendacion de cierre",
+        "Decision tomada y motivo",
+        "Captura o registro sin datos sensibles",
+        "Proxima accion"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Solo revisar el menu con tactil.",
+        "Usar datos privados en una practica educativa.",
+        "Aplicar una recomendacion sin revisar consecuencias.",
+        "Borrar evidencia antes de entender el problema.",
+        "Confundir ejemplo de practica con solucion definitiva."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Agregar prueba de menu a QA.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Revisar si el caso se repite y convertirlo en checklist.",
+        "Pedir validacion externa si afecta cuentas, pagos, seguridad o derechos."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Cual es la mejor decision profesional en este caso?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Trabajar en una version controlada, guardar evidencia y validar antes de aplicar a un caso real.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: reduce riesgo y deja aprendizaje reutilizable."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Actuar rapido sin documentar porque el problema parece simple.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La falta de evidencia impide revisar errores y aprender."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Usar datos reales para que el ejercicio sea mas completo.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "En practicas educativas conviene usar datos simulados o anonimizados."
           }
         ]
       }
     },
     {
-      "id": "case-7",
-      "title": "Caso de decision responsable: Accesibilidad Web para Principiantes",
-      "summary": "Practica aplicada para resolver una situacion de mejora de accesibilidad, semantica, teclado, contraste y lectura en sitios web con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una auditoria de accesibilidad inicial sin exponer datos sensibles y con una decision verificable.",
+      "id": "a11y-case-7",
+      "title": "Contenido que se rompe al hacer zoom",
+      "summary": "A 200% de zoom se superponen botones y texto.",
+      "severity": "Practica guiada",
+      "immediateGoal": "Detectar causa de layout rigido.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una auditoria de accesibilidad inicial.",
-        "Revisar el resultado contra este criterio: la pagina puede navegarse por teclado, leerse con claridad y entenderse sin depender solo del color.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Definir que paso antes de actuar: alto fijo y texto largo.",
+        "Separar datos reales de datos simulados y evitar compartir informacion sensible.",
+        "Aplicar el criterio del curso: probar zoom, eliminar restricciones y revisar responsive.",
+        "Registrar evidencia: captura 100%, captura 200% y ajuste CSS.",
+        "Decidir la accion minima segura y quien debe validarla si el caso es real.",
+        "Cerrar con una nota breve: resultado, duda pendiente y siguiente control."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "captura, problema, impacto, criterio WCAG basico, correccion y prueba",
-        "Decision final y motivo"
+        "Consigna o descripcion del caso",
+        "captura 100%, captura 200% y ajuste CSS",
+        "Decision tomada y motivo",
+        "Captura o registro sin datos sensibles",
+        "Proxima accion"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Reducir fuente para que entre.",
+        "Usar datos privados en una practica educativa.",
+        "Aplicar una recomendacion sin revisar consecuencias.",
+        "Borrar evidencia antes de entender el problema.",
+        "Confundir ejemplo de practica con solucion definitiva."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Usar restricciones fluidas en componentes.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Revisar si el caso se repite y convertirlo en checklist.",
+        "Pedir validacion externa si afecta cuentas, pagos, seguridad o derechos."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Cual es la mejor decision profesional en este caso?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Trabajar en una version controlada, guardar evidencia y validar antes de aplicar a un caso real.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: reduce riesgo y deja aprendizaje reutilizable."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Actuar rapido sin documentar porque el problema parece simple.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La falta de evidencia impide revisar errores y aprender."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Usar datos reales para que el ejercicio sea mas completo.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "En practicas educativas conviene usar datos simulados o anonimizados."
           }
         ]
       }
     },
     {
-      "id": "case-8",
-      "title": "Proyecto final integrador: Accesibilidad Web para Principiantes",
-      "summary": "Practica aplicada para resolver una situacion de mejora de accesibilidad, semantica, teclado, contraste y lectura en sitios web con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Proyecto final",
-      "immediateGoal": "Transformar el caso en una auditoria de accesibilidad inicial sin exponer datos sensibles y con una decision verificable.",
+      "id": "a11y-case-8",
+      "title": "Declaracion de accesibilidad exagerada",
+      "summary": "El equipo quiere decir que el sitio cumple todo tras una revision breve.",
+      "severity": "Practica guiada",
+      "immediateGoal": "Redactar alcance honesto de auditoria inicial.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una auditoria de accesibilidad inicial.",
-        "Revisar el resultado contra este criterio: la pagina puede navegarse por teclado, leerse con claridad y entenderse sin depender solo del color.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Definir que paso antes de actuar: revision parcial de pocas paginas.",
+        "Separar datos reales de datos simulados y evitar compartir informacion sensible.",
+        "Aplicar el criterio del curso: delimitar alcance, pruebas hechas y pendientes.",
+        "Registrar evidencia: alcance escrito y lista de pendientes.",
+        "Decidir la accion minima segura y quien debe validarla si el caso es real.",
+        "Cerrar con una nota breve: resultado, duda pendiente y siguiente control."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "captura, problema, impacto, criterio WCAG basico, correccion y prueba",
-        "Decision final y motivo"
+        "Consigna o descripcion del caso",
+        "alcance escrito y lista de pendientes",
+        "Decision tomada y motivo",
+        "Captura o registro sin datos sensibles",
+        "Proxima accion"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Prometer cumplimiento total sin evaluacion completa.",
+        "Usar datos privados en una practica educativa.",
+        "Aplicar una recomendacion sin revisar consecuencias.",
+        "Borrar evidencia antes de entender el problema.",
+        "Confundir ejemplo de practica con solucion definitiva."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Planificar auditoria experta si hay obligacion normativa.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Revisar si el caso se repite y convertirlo en checklist.",
+        "Pedir validacion externa si afecta cuentas, pagos, seguridad o derechos."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Cual es la mejor decision profesional en este caso?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Trabajar en una version controlada, guardar evidencia y validar antes de aplicar a un caso real.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: reduce riesgo y deja aprendizaje reutilizable."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Actuar rapido sin documentar porque el problema parece simple.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La falta de evidencia impide revisar errores y aprender."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Usar datos reales para que el ejercicio sea mas completo.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "En practicas educativas conviene usar datos simulados o anonimizados."
           }
         ]
       }

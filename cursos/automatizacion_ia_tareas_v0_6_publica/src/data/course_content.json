@@ -1,114 +1,114 @@
 {
   "courseId": "automatizacion-ia-tareas",
   "title": "Automatizacion con IA para Tareas Repetitivas",
-  "version": "0.6-publica",
-  "publicationStatus": "publica-profesional-v0.6",
+  "version": "0.7-tanda-1",
+  "publicationStatus": "publica-profesional-v0.7-tanda-1",
   "modules": [
     {
       "id": "m1",
-      "title": "Detectar tareas automatizables",
-      "description": "En este módulo vas a trabajar \"Detectar tareas automatizables\" dentro de automatización responsable de tareas simples con IA, plantillas y revisión humana. La meta es practicar una situación realista, reconocer el riesgo principal y cerrar con una evidencia útil para revisar.",
-      "learningRisk": "Punto clave",
+      "title": "Elegir la tarea correcta",
+      "description": "Separar tareas repetitivas, tareas de juicio humano y tareas que no conviene automatizar.",
+      "learningRisk": "Practicar sin evidencia deja una mejora dificil de sostener.",
       "lessons": [
         {
           "id": "m1-l1",
-          "title": "Mapa de tareas",
-          "keyIdea": "Idea clave: Mapa de tareas ayuda a ordenar una situación concreta, tomar una decisión más segura y dejar evidencia revisable.",
-          "shortTheory": "En esta lección vas a trabajar \"Mapa de tareas\" dentro del módulo \"Detectar tareas automatizables\". La prioridad es entender qué problema resuelve, qué datos o pasos conviene revisar y cómo saber si la acción fue suficiente.",
-          "practicalExample": "Una persona detecta una tarea repetida y quiere convertirla en un flujo pequeño con pasos claros y control final. Aplicá \"Mapa de tareas\" con una versión breve: anotá contexto, paso principal, control de seguridad y evidencia antes de avanzar.",
-          "commonMistake": "El error común es actuar rápido sin registrar contexto, usar una solución genérica o no revisar permisos, fuentes o consecuencias. Una práctica más profesional empieza chica, verifica y documenta.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí contexto, objetivo, acción principal, control y evidencia. Entrega esperada: un mapa de automatización con tarea, entrada, salida, herramienta, revisión humana y riesgo.",
-          "alert": "No automatizar decisiones sensibles, datos personales o respuestas criticas sin supervision humana.",
+          "title": "Inventario de tareas repetitivas",
+          "keyIdea": "Primero se observa el trabajo real antes de elegir herramientas.",
+          "shortTheory": "En esta leccion se trabaja inventario de tareas repetitivas dentro de elegir la tarea correcta. La meta es reconocer el problema real, tomar una decision simple y comprobarla con la tarea tiene reglas claras, bajo riesgo y resultado verificable.",
+          "practicalExample": "Un equipo copia datos entre correos, planillas y mensajes, y quiere ahorrar tiempo sin exponer informacion sensible. Practica inventario de tareas repetitivas sobre ese caso, compara una version inicial con una version corregida y registra mapa de proceso con pasos, frecuencia, datos y riesgo.",
+          "commonMistake": "Elegir una herramienta antes de entender el proceso.",
+          "whatToDoNow": "Lista diez tareas, frecuencia y tiempo aproximado.",
+          "alert": "No todo lo repetitivo debe automatizarse; algunas tareas requieren criterio humano.",
           "keyPoints": [
-            "Mapa de tareas debe terminar en una decisión, acción o registro concreto.",
-            "Una práctica pequeña y verificable es mejor que una solución amplia sin control.",
-            "La evidencia mínima esperada es: un mapa de automatización con tarea, entrada, salida, herramienta, revisión humana y riesgo.",
-            "El resultado debe poder explicarse y revisarse sin depender de memoria o intuición."
+            "Inventario de tareas repetitivas debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: la tarea tiene reglas claras, bajo riesgo y resultado verificable.",
+            "Evidencia minima: mapa de proceso con pasos, frecuencia, datos y riesgo.",
+            "Relacion con el proyecto final: flujo automatizado documentado con entrada, salida, control humano, riesgos y metrica de ahorro."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m1-l2",
-          "title": "Frecuencia",
-          "keyIdea": "Idea clave: Frecuencia ayuda a ordenar una situación concreta, tomar una decisión más segura y dejar evidencia revisable.",
-          "shortTheory": "En esta lección vas a trabajar \"Frecuencia\" dentro del módulo \"Detectar tareas automatizables\". La prioridad es entender qué problema resuelve, qué datos o pasos conviene revisar y cómo saber si la acción fue suficiente.",
-          "practicalExample": "Una persona detecta una tarea repetida y quiere convertirla en un flujo pequeño con pasos claros y control final. Aplicá \"Frecuencia\" con una versión breve: anotá contexto, paso principal, control de seguridad y evidencia antes de avanzar.",
-          "commonMistake": "El error común es actuar rápido sin registrar contexto, usar una solución genérica o no revisar permisos, fuentes o consecuencias. Una práctica más profesional empieza chica, verifica y documenta.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí contexto, objetivo, acción principal, control y evidencia. Entrega esperada: un mapa de automatización con tarea, entrada, salida, herramienta, revisión humana y riesgo.",
-          "alert": "No automatizar decisiones sensibles, datos personales o respuestas criticas sin supervision humana.",
+          "title": "Entrada, transformacion y salida",
+          "keyIdea": "Toda automatizacion recibe algo, lo transforma y entrega algo.",
+          "shortTheory": "En esta leccion se trabaja entrada, transformacion y salida dentro de elegir la tarea correcta. La meta es reconocer el problema real, tomar una decision simple y comprobarla con la tarea tiene reglas claras, bajo riesgo y resultado verificable.",
+          "practicalExample": "Un equipo copia datos entre correos, planillas y mensajes, y quiere ahorrar tiempo sin exponer informacion sensible. Practica entrada, transformacion y salida sobre ese caso, compara una version inicial con una version corregida y registra mapa de proceso con pasos, frecuencia, datos y riesgo.",
+          "commonMistake": "No definir que salida se considera correcta.",
+          "whatToDoNow": "Dibuja esos tres bloques para una tarea administrativa.",
+          "alert": "No todo lo repetitivo debe automatizarse; algunas tareas requieren criterio humano.",
           "keyPoints": [
-            "Frecuencia debe terminar en una decisión, acción o registro concreto.",
-            "Una práctica pequeña y verificable es mejor que una solución amplia sin control.",
-            "La evidencia mínima esperada es: un mapa de automatización con tarea, entrada, salida, herramienta, revisión humana y riesgo.",
-            "El resultado debe poder explicarse y revisarse sin depender de memoria o intuición."
+            "Entrada, transformacion y salida debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: la tarea tiene reglas claras, bajo riesgo y resultado verificable.",
+            "Evidencia minima: mapa de proceso con pasos, frecuencia, datos y riesgo.",
+            "Relacion con el proyecto final: flujo automatizado documentado con entrada, salida, control humano, riesgos y metrica de ahorro."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m1-l3",
-          "title": "Reglas claras",
-          "keyIdea": "Idea clave: Reglas claras ayuda a ordenar una situación concreta, tomar una decisión más segura y dejar evidencia revisable.",
-          "shortTheory": "En esta lección vas a trabajar \"Reglas claras\" dentro del módulo \"Detectar tareas automatizables\". La prioridad es entender qué problema resuelve, qué datos o pasos conviene revisar y cómo saber si la acción fue suficiente.",
-          "practicalExample": "Una persona detecta una tarea repetida y quiere convertirla en un flujo pequeño con pasos claros y control final. Aplicá \"Reglas claras\" con una versión breve: anotá contexto, paso principal, control de seguridad y evidencia antes de avanzar.",
-          "commonMistake": "El error común es actuar rápido sin registrar contexto, usar una solución genérica o no revisar permisos, fuentes o consecuencias. Una práctica más profesional empieza chica, verifica y documenta.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí contexto, objetivo, acción principal, control y evidencia. Entrega esperada: un mapa de automatización con tarea, entrada, salida, herramienta, revisión humana y riesgo.",
-          "alert": "No automatizar decisiones sensibles, datos personales o respuestas criticas sin supervision humana.",
+          "title": "Reglas claras o criterio humano",
+          "keyIdea": "La IA ayuda mas cuando el criterio puede explicarse y revisarse.",
+          "shortTheory": "En esta leccion se trabaja reglas claras o criterio humano dentro de elegir la tarea correcta. La meta es reconocer el problema real, tomar una decision simple y comprobarla con la tarea tiene reglas claras, bajo riesgo y resultado verificable.",
+          "practicalExample": "Un equipo copia datos entre correos, planillas y mensajes, y quiere ahorrar tiempo sin exponer informacion sensible. Practica reglas claras o criterio humano sobre ese caso, compara una version inicial con una version corregida y registra mapa de proceso con pasos, frecuencia, datos y riesgo.",
+          "commonMistake": "Delegar aprobaciones sensibles a una respuesta automatica.",
+          "whatToDoNow": "Marca pasos con regla y pasos con juicio.",
+          "alert": "No todo lo repetitivo debe automatizarse; algunas tareas requieren criterio humano.",
           "keyPoints": [
-            "Reglas claras debe terminar en una decisión, acción o registro concreto.",
-            "Una práctica pequeña y verificable es mejor que una solución amplia sin control.",
-            "La evidencia mínima esperada es: un mapa de automatización con tarea, entrada, salida, herramienta, revisión humana y riesgo.",
-            "El resultado debe poder explicarse y revisarse sin depender de memoria o intuición."
+            "Reglas claras o criterio humano debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: la tarea tiene reglas claras, bajo riesgo y resultado verificable.",
+            "Evidencia minima: mapa de proceso con pasos, frecuencia, datos y riesgo.",
+            "Relacion con el proyecto final: flujo automatizado documentado con entrada, salida, control humano, riesgos y metrica de ahorro."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m1-l4",
-          "title": "Datos necesarios",
-          "keyIdea": "Idea clave: Datos necesarios ayuda a ordenar una situación concreta, tomar una decisión más segura y dejar evidencia revisable.",
-          "shortTheory": "En esta lección vas a trabajar \"Datos necesarios\" dentro del módulo \"Detectar tareas automatizables\". La prioridad es entender qué problema resuelve, qué datos o pasos conviene revisar y cómo saber si la acción fue suficiente.",
-          "practicalExample": "Una persona detecta una tarea repetida y quiere convertirla en un flujo pequeño con pasos claros y control final. Aplicá \"Datos necesarios\" con una versión breve: anotá contexto, paso principal, control de seguridad y evidencia antes de avanzar.",
-          "commonMistake": "El error común es actuar rápido sin registrar contexto, usar una solución genérica o no revisar permisos, fuentes o consecuencias. Una práctica más profesional empieza chica, verifica y documenta.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí contexto, objetivo, acción principal, control y evidencia. Entrega esperada: un mapa de automatización con tarea, entrada, salida, herramienta, revisión humana y riesgo.",
-          "alert": "No automatizar decisiones sensibles, datos personales o respuestas criticas sin supervision humana.",
+          "title": "Volumen y frecuencia",
+          "keyIdea": "Automatizar tiene costo; conviene si la tarea se repite lo suficiente.",
+          "shortTheory": "En esta leccion se trabaja volumen y frecuencia dentro de elegir la tarea correcta. La meta es reconocer el problema real, tomar una decision simple y comprobarla con la tarea tiene reglas claras, bajo riesgo y resultado verificable.",
+          "practicalExample": "Un equipo copia datos entre correos, planillas y mensajes, y quiere ahorrar tiempo sin exponer informacion sensible. Practica volumen y frecuencia sobre ese caso, compara una version inicial con una version corregida y registra mapa de proceso con pasos, frecuencia, datos y riesgo.",
+          "commonMistake": "Automatizar algo que se hace una vez al mes.",
+          "whatToDoNow": "Calcula minutos por semana de una tarea.",
+          "alert": "No todo lo repetitivo debe automatizarse; algunas tareas requieren criterio humano.",
           "keyPoints": [
-            "Datos necesarios debe terminar en una decisión, acción o registro concreto.",
-            "Una práctica pequeña y verificable es mejor que una solución amplia sin control.",
-            "La evidencia mínima esperada es: un mapa de automatización con tarea, entrada, salida, herramienta, revisión humana y riesgo.",
-            "El resultado debe poder explicarse y revisarse sin depender de memoria o intuición."
+            "Volumen y frecuencia debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: la tarea tiene reglas claras, bajo riesgo y resultado verificable.",
+            "Evidencia minima: mapa de proceso con pasos, frecuencia, datos y riesgo.",
+            "Relacion con el proyecto final: flujo automatizado documentado con entrada, salida, control humano, riesgos y metrica de ahorro."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m1-l5",
-          "title": "Riesgo de error",
-          "keyIdea": "Idea clave: Riesgo de error ayuda a ordenar una situación concreta, tomar una decisión más segura y dejar evidencia revisable.",
-          "shortTheory": "En esta lección vas a trabajar \"Riesgo de error\" dentro del módulo \"Detectar tareas automatizables\". La prioridad es entender qué problema resuelve, qué datos o pasos conviene revisar y cómo saber si la acción fue suficiente.",
-          "practicalExample": "Una persona detecta una tarea repetida y quiere convertirla en un flujo pequeño con pasos claros y control final. Aplicá \"Riesgo de error\" con una versión breve: anotá contexto, paso principal, control de seguridad y evidencia antes de avanzar.",
-          "commonMistake": "El error común es actuar rápido sin registrar contexto, usar una solución genérica o no revisar permisos, fuentes o consecuencias. Una práctica más profesional empieza chica, verifica y documenta.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí contexto, objetivo, acción principal, control y evidencia. Entrega esperada: un mapa de automatización con tarea, entrada, salida, herramienta, revisión humana y riesgo.",
-          "alert": "No automatizar decisiones sensibles, datos personales o respuestas criticas sin supervision humana.",
+          "title": "Riesgo de datos",
+          "keyIdea": "Datos personales, clientes y finanzas cambian el nivel de cuidado.",
+          "shortTheory": "En esta leccion se trabaja riesgo de datos dentro de elegir la tarea correcta. La meta es reconocer el problema real, tomar una decision simple y comprobarla con la tarea tiene reglas claras, bajo riesgo y resultado verificable.",
+          "practicalExample": "Un equipo copia datos entre correos, planillas y mensajes, y quiere ahorrar tiempo sin exponer informacion sensible. Practica riesgo de datos sobre ese caso, compara una version inicial con una version corregida y registra mapa de proceso con pasos, frecuencia, datos y riesgo.",
+          "commonMistake": "Pegar bases reales en herramientas sin evaluar privacidad.",
+          "whatToDoNow": "Clasifica datos de una tarea como publicos, internos o sensibles.",
+          "alert": "No todo lo repetitivo debe automatizarse; algunas tareas requieren criterio humano.",
           "keyPoints": [
-            "Riesgo de error debe terminar en una decisión, acción o registro concreto.",
-            "Una práctica pequeña y verificable es mejor que una solución amplia sin control.",
-            "La evidencia mínima esperada es: un mapa de automatización con tarea, entrada, salida, herramienta, revisión humana y riesgo.",
-            "El resultado debe poder explicarse y revisarse sin depender de memoria o intuición."
+            "Riesgo de datos debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: la tarea tiene reglas claras, bajo riesgo y resultado verificable.",
+            "Evidencia minima: mapa de proceso con pasos, frecuencia, datos y riesgo.",
+            "Relacion con el proyecto final: flujo automatizado documentado con entrada, salida, control humano, riesgos y metrica de ahorro."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m1-l6",
-          "title": "Prioridad de automatizacion",
-          "keyIdea": "Idea clave: Prioridad de automatizacion ayuda a ordenar una situación concreta, tomar una decisión más segura y dejar evidencia revisable.",
-          "shortTheory": "En esta lección vas a trabajar \"Prioridad de automatizacion\" dentro del módulo \"Detectar tareas automatizables\". La prioridad es entender qué problema resuelve, qué datos o pasos conviene revisar y cómo saber si la acción fue suficiente.",
-          "practicalExample": "Una persona detecta una tarea repetida y quiere convertirla en un flujo pequeño con pasos claros y control final. Aplicá \"Prioridad de automatizacion\" con una versión breve: anotá contexto, paso principal, control de seguridad y evidencia antes de avanzar.",
-          "commonMistake": "El error común es actuar rápido sin registrar contexto, usar una solución genérica o no revisar permisos, fuentes o consecuencias. Una práctica más profesional empieza chica, verifica y documenta.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí contexto, objetivo, acción principal, control y evidencia. Entrega esperada: un mapa de automatización con tarea, entrada, salida, herramienta, revisión humana y riesgo.",
-          "alert": "No automatizar decisiones sensibles, datos personales o respuestas criticas sin supervision humana.",
+          "title": "Criterio de exito",
+          "keyIdea": "Ahorrar tiempo no alcanza si aumenta error o riesgo.",
+          "shortTheory": "En esta leccion se trabaja criterio de exito dentro de elegir la tarea correcta. La meta es reconocer el problema real, tomar una decision simple y comprobarla con la tarea tiene reglas claras, bajo riesgo y resultado verificable.",
+          "practicalExample": "Un equipo copia datos entre correos, planillas y mensajes, y quiere ahorrar tiempo sin exponer informacion sensible. Practica criterio de exito sobre ese caso, compara una version inicial con una version corregida y registra mapa de proceso con pasos, frecuencia, datos y riesgo.",
+          "commonMistake": "Medir exito solo por novedad de la IA.",
+          "whatToDoNow": "Define metrica: tiempo, errores, retrabajo y satisfaccion.",
+          "alert": "No todo lo repetitivo debe automatizarse; algunas tareas requieren criterio humano.",
           "keyPoints": [
-            "Prioridad de automatizacion debe terminar en una decisión, acción o registro concreto.",
-            "Una práctica pequeña y verificable es mejor que una solución amplia sin control.",
-            "La evidencia mínima esperada es: un mapa de automatización con tarea, entrada, salida, herramienta, revisión humana y riesgo.",
-            "El resultado debe poder explicarse y revisarse sin depender de memoria o intuición."
+            "Criterio de exito debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: la tarea tiene reglas claras, bajo riesgo y resultado verificable.",
+            "Evidencia minima: mapa de proceso con pasos, frecuencia, datos y riesgo.",
+            "Relacion con el proyecto final: flujo automatizado documentado con entrada, salida, control humano, riesgos y metrica de ahorro."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         }
@@ -116,172 +116,171 @@
       "quiz": [
         {
           "id": "m1-q1",
-          "question": "Pregunta 1: ¿que conviene hacer al trabajar ",
+          "question": "Cual es la mejor forma de empezar el modulo \"Elegir la tarea correcta\"?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Definir el caso, el usuario afectado y la evidencia que se va a revisar.",
+            "Copiar una solucion completa sin probarla.",
+            "Esperar a tener una herramienta perfecta antes de practicar.",
+            "Elegir la opcion mas vistosa aunque no resuelva el problema."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: el modulo se vuelve util cuando parte de un caso y de evidencia verificable."
         },
         {
           "id": "m1-q2",
-          "question": "Pregunta 2: ¿que conviene hacer al trabajar ",
+          "question": "Que evidencia sirve para cerrar \"Elegir la tarea correcta\" sin depender de opiniones?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "mapa de proceso con pasos, frecuencia, datos y riesgo",
+            "Una captura sin contexto.",
+            "Una frase como 'parece estar bien'.",
+            "La cantidad de colores o iconos usados."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: mapa de proceso con pasos, frecuencia, datos y riesgo permite revisar el resultado despues."
         },
         {
           "id": "m1-q3",
-          "question": "Pregunta 3: ¿que conviene hacer al trabajar ",
+          "question": "Que conducta aumenta el riesgo durante la practica?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Automatizar una decision sensible sin control humano.",
+            "Trabajar con datos simulados.",
+            "Anotar dudas antes de publicar o aplicar.",
+            "Probar en una version pequena."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: esa conducta elimina control y puede producir errores reales."
         },
         {
           "id": "m1-q4",
-          "question": "Pregunta 4: ¿que conviene hacer al trabajar ",
+          "question": "Cuando conviene pedir ayuda o validar con una fuente externa?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Cuando la tarea afecta dinero, salud, datos personales, contratos o derechos.",
+            "Nunca, porque el ejercicio es suficiente para cualquier caso.",
+            "Solo despues de borrar la evidencia.",
+            "Cuando el resultado se ve agradable visualmente."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: validar a tiempo evita decisiones inseguras o incompletas."
         },
         {
           "id": "m1-q5",
-          "question": "Pregunta 5: ¿que conviene hacer al trabajar ",
+          "question": "Cual es el entregable minimo del modulo \"Elegir la tarea correcta\"?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "matriz de oportunidad de automatizacion",
+            "Un resumen sin prueba.",
+            "Una lista de ideas sueltas.",
+            "Un archivo final sin explicar cambios."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: matriz de oportunidad de automatizacion deja avance verificable."
         }
-      ],
-      "professionalOutcome": "detectar tareas automatizables, crear flujos pequenos y mantener control humano. Entregable sugerido: un flujo documentado con entrada, proceso, salida, control y limite de uso."
+      ]
     },
     {
       "id": "m2",
-      "title": "Instrucciones para IA",
-      "description": "En este módulo vas a trabajar \"Instrucciones para IA\" dentro de automatización responsable de tareas simples con IA, plantillas y revisión humana. La meta es practicar una situación realista, reconocer el riesgo principal y cerrar con una evidencia útil para revisar.",
-      "learningRisk": "Punto clave",
+      "title": "Prompts de trabajo verificables",
+      "description": "Escribir instrucciones que produzcan salidas claras, comparables y revisables.",
+      "learningRisk": "Practicar sin evidencia deja una mejora dificil de sostener.",
       "lessons": [
         {
           "id": "m2-l1",
-          "title": "Contexto",
-          "keyIdea": "Idea clave: Contexto ayuda a ordenar una situación concreta, tomar una decisión más segura y dejar evidencia revisable.",
-          "shortTheory": "En esta lección vas a trabajar \"Contexto\" dentro del módulo \"Instrucciones para IA\". La prioridad es entender qué problema resuelve, qué datos o pasos conviene revisar y cómo saber si la acción fue suficiente.",
-          "practicalExample": "Una persona detecta una tarea repetida y quiere convertirla en un flujo pequeño con pasos claros y control final. Aplicá \"Contexto\" con una versión breve: anotá contexto, paso principal, control de seguridad y evidencia antes de avanzar.",
-          "commonMistake": "El error común es actuar rápido sin registrar contexto, usar una solución genérica o no revisar permisos, fuentes o consecuencias. Una práctica más profesional empieza chica, verifica y documenta.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí contexto, objetivo, acción principal, control y evidencia. Entrega esperada: un mapa de automatización con tarea, entrada, salida, herramienta, revisión humana y riesgo.",
-          "alert": "No automatizar decisiones sensibles, datos personales o respuestas criticas sin supervision humana.",
+          "title": "Contexto minimo",
+          "keyIdea": "Un buen prompt dice rol, objetivo, publico y datos disponibles.",
+          "shortTheory": "En esta leccion se trabaja contexto minimo dentro de prompts de trabajo verificables. La meta es reconocer el problema real, tomar una decision simple y comprobarla con otra persona puede usar el prompt y obtener una salida controlable.",
+          "practicalExample": "Un equipo copia datos entre correos, planillas y mensajes, y quiere ahorrar tiempo sin exponer informacion sensible. Practica contexto minimo sobre ese caso, compara una version inicial con una version corregida y registra prompt con contexto, tarea, formato, restricciones y ejemplo.",
+          "commonMistake": "Pedir 'mejoralo' sin explicar para quien ni para que.",
+          "whatToDoNow": "Reescribe un prompt vago agregando contexto.",
+          "alert": "La IA puede sonar segura y estar equivocada.",
           "keyPoints": [
-            "Contexto debe terminar en una decisión, acción o registro concreto.",
-            "Una práctica pequeña y verificable es mejor que una solución amplia sin control.",
-            "La evidencia mínima esperada es: un mapa de automatización con tarea, entrada, salida, herramienta, revisión humana y riesgo.",
-            "El resultado debe poder explicarse y revisarse sin depender de memoria o intuición."
+            "Contexto minimo debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: otra persona puede usar el prompt y obtener una salida controlable.",
+            "Evidencia minima: prompt con contexto, tarea, formato, restricciones y ejemplo.",
+            "Relacion con el proyecto final: flujo automatizado documentado con entrada, salida, control humano, riesgos y metrica de ahorro."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m2-l2",
-          "title": "Rol",
-          "keyIdea": "Idea clave: Rol ayuda a ordenar una situación concreta, tomar una decisión más segura y dejar evidencia revisable.",
-          "shortTheory": "En esta lección vas a trabajar \"Rol\" dentro del módulo \"Instrucciones para IA\". La prioridad es entender qué problema resuelve, qué datos o pasos conviene revisar y cómo saber si la acción fue suficiente.",
-          "practicalExample": "Una persona detecta una tarea repetida y quiere convertirla en un flujo pequeño con pasos claros y control final. Aplicá \"Rol\" con una versión breve: anotá contexto, paso principal, control de seguridad y evidencia antes de avanzar.",
-          "commonMistake": "El error común es actuar rápido sin registrar contexto, usar una solución genérica o no revisar permisos, fuentes o consecuencias. Una práctica más profesional empieza chica, verifica y documenta.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí contexto, objetivo, acción principal, control y evidencia. Entrega esperada: un mapa de automatización con tarea, entrada, salida, herramienta, revisión humana y riesgo.",
-          "alert": "No automatizar decisiones sensibles, datos personales o respuestas criticas sin supervision humana.",
+          "title": "Formato de salida",
+          "keyIdea": "Tablas, listas, JSON o pasos reducen ambiguedad.",
+          "shortTheory": "En esta leccion se trabaja formato de salida dentro de prompts de trabajo verificables. La meta es reconocer el problema real, tomar una decision simple y comprobarla con otra persona puede usar el prompt y obtener una salida controlable.",
+          "practicalExample": "Un equipo copia datos entre correos, planillas y mensajes, y quiere ahorrar tiempo sin exponer informacion sensible. Practica formato de salida sobre ese caso, compara una version inicial con una version corregida y registra prompt con contexto, tarea, formato, restricciones y ejemplo.",
+          "commonMistake": "Aceptar parrafos largos cuando necesitas copiar a planilla.",
+          "whatToDoNow": "Pide una respuesta en tabla con columnas definidas.",
+          "alert": "La IA puede sonar segura y estar equivocada.",
           "keyPoints": [
-            "Rol debe terminar en una decisión, acción o registro concreto.",
-            "Una práctica pequeña y verificable es mejor que una solución amplia sin control.",
-            "La evidencia mínima esperada es: un mapa de automatización con tarea, entrada, salida, herramienta, revisión humana y riesgo.",
-            "El resultado debe poder explicarse y revisarse sin depender de memoria o intuición."
+            "Formato de salida debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: otra persona puede usar el prompt y obtener una salida controlable.",
+            "Evidencia minima: prompt con contexto, tarea, formato, restricciones y ejemplo.",
+            "Relacion con el proyecto final: flujo automatizado documentado con entrada, salida, control humano, riesgos y metrica de ahorro."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m2-l3",
-          "title": "Formato de salida",
-          "keyIdea": "Idea clave: Formato de salida ayuda a ordenar una situación concreta, tomar una decisión más segura y dejar evidencia revisable.",
-          "shortTheory": "En esta lección vas a trabajar \"Formato de salida\" dentro del módulo \"Instrucciones para IA\". La prioridad es entender qué problema resuelve, qué datos o pasos conviene revisar y cómo saber si la acción fue suficiente.",
-          "practicalExample": "Una persona detecta una tarea repetida y quiere convertirla en un flujo pequeño con pasos claros y control final. Aplicá \"Formato de salida\" con una versión breve: anotá contexto, paso principal, control de seguridad y evidencia antes de avanzar.",
-          "commonMistake": "El error común es actuar rápido sin registrar contexto, usar una solución genérica o no revisar permisos, fuentes o consecuencias. Una práctica más profesional empieza chica, verifica y documenta.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí contexto, objetivo, acción principal, control y evidencia. Entrega esperada: un mapa de automatización con tarea, entrada, salida, herramienta, revisión humana y riesgo.",
-          "alert": "No automatizar decisiones sensibles, datos personales o respuestas criticas sin supervision humana.",
+          "title": "Restricciones y limites",
+          "keyIdea": "Decir que no debe hacer la IA evita excesos.",
+          "shortTheory": "En esta leccion se trabaja restricciones y limites dentro de prompts de trabajo verificables. La meta es reconocer el problema real, tomar una decision simple y comprobarla con otra persona puede usar el prompt y obtener una salida controlable.",
+          "practicalExample": "Un equipo copia datos entre correos, planillas y mensajes, y quiere ahorrar tiempo sin exponer informacion sensible. Practica restricciones y limites sobre ese caso, compara una version inicial con una version corregida y registra prompt con contexto, tarea, formato, restricciones y ejemplo.",
+          "commonMistake": "Permitir que complete informacion desconocida.",
+          "whatToDoNow": "Agrega restricciones: no inventar datos, marcar dudas, pedir faltantes.",
+          "alert": "La IA puede sonar segura y estar equivocada.",
           "keyPoints": [
-            "Formato de salida debe terminar en una decisión, acción o registro concreto.",
-            "Una práctica pequeña y verificable es mejor que una solución amplia sin control.",
-            "La evidencia mínima esperada es: un mapa de automatización con tarea, entrada, salida, herramienta, revisión humana y riesgo.",
-            "El resultado debe poder explicarse y revisarse sin depender de memoria o intuición."
+            "Restricciones y limites debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: otra persona puede usar el prompt y obtener una salida controlable.",
+            "Evidencia minima: prompt con contexto, tarea, formato, restricciones y ejemplo.",
+            "Relacion con el proyecto final: flujo automatizado documentado con entrada, salida, control humano, riesgos y metrica de ahorro."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m2-l4",
-          "title": "Ejemplos",
-          "keyIdea": "Idea clave: Ejemplos ayuda a ordenar una situación concreta, tomar una decisión más segura y dejar evidencia revisable.",
-          "shortTheory": "En esta lección vas a trabajar \"Ejemplos\" dentro del módulo \"Instrucciones para IA\". La prioridad es entender qué problema resuelve, qué datos o pasos conviene revisar y cómo saber si la acción fue suficiente.",
-          "practicalExample": "Una persona detecta una tarea repetida y quiere convertirla en un flujo pequeño con pasos claros y control final. Aplicá \"Ejemplos\" con una versión breve: anotá contexto, paso principal, control de seguridad y evidencia antes de avanzar.",
-          "commonMistake": "El error común es actuar rápido sin registrar contexto, usar una solución genérica o no revisar permisos, fuentes o consecuencias. Una práctica más profesional empieza chica, verifica y documenta.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí contexto, objetivo, acción principal, control y evidencia. Entrega esperada: un mapa de automatización con tarea, entrada, salida, herramienta, revisión humana y riesgo.",
-          "alert": "No automatizar decisiones sensibles, datos personales o respuestas criticas sin supervision humana.",
+          "title": "Ejemplos de entrada y salida",
+          "keyIdea": "Un ejemplo enseña estilo y estructura.",
+          "shortTheory": "En esta leccion se trabaja ejemplos de entrada y salida dentro de prompts de trabajo verificables. La meta es reconocer el problema real, tomar una decision simple y comprobarla con otra persona puede usar el prompt y obtener una salida controlable.",
+          "practicalExample": "Un equipo copia datos entre correos, planillas y mensajes, y quiere ahorrar tiempo sin exponer informacion sensible. Practica ejemplos de entrada y salida sobre ese caso, compara una version inicial con una version corregida y registra prompt con contexto, tarea, formato, restricciones y ejemplo.",
+          "commonMistake": "Dar ejemplos con datos reales sensibles.",
+          "whatToDoNow": "Incluye un ejemplo corto antes de pedir diez casos.",
+          "alert": "La IA puede sonar segura y estar equivocada.",
           "keyPoints": [
-            "Ejemplos debe terminar en una decisión, acción o registro concreto.",
-            "Una práctica pequeña y verificable es mejor que una solución amplia sin control.",
-            "La evidencia mínima esperada es: un mapa de automatización con tarea, entrada, salida, herramienta, revisión humana y riesgo.",
-            "El resultado debe poder explicarse y revisarse sin depender de memoria o intuición."
+            "Ejemplos de entrada y salida debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: otra persona puede usar el prompt y obtener una salida controlable.",
+            "Evidencia minima: prompt con contexto, tarea, formato, restricciones y ejemplo.",
+            "Relacion con el proyecto final: flujo automatizado documentado con entrada, salida, control humano, riesgos y metrica de ahorro."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m2-l5",
-          "title": "Restricciones",
-          "keyIdea": "Idea clave: Restricciones ayuda a ordenar una situación concreta, tomar una decisión más segura y dejar evidencia revisable.",
-          "shortTheory": "En esta lección vas a trabajar \"Restricciones\" dentro del módulo \"Instrucciones para IA\". La prioridad es entender qué problema resuelve, qué datos o pasos conviene revisar y cómo saber si la acción fue suficiente.",
-          "practicalExample": "Una persona detecta una tarea repetida y quiere convertirla en un flujo pequeño con pasos claros y control final. Aplicá \"Restricciones\" con una versión breve: anotá contexto, paso principal, control de seguridad y evidencia antes de avanzar.",
-          "commonMistake": "El error común es actuar rápido sin registrar contexto, usar una solución genérica o no revisar permisos, fuentes o consecuencias. Una práctica más profesional empieza chica, verifica y documenta.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí contexto, objetivo, acción principal, control y evidencia. Entrega esperada: un mapa de automatización con tarea, entrada, salida, herramienta, revisión humana y riesgo.",
-          "alert": "No automatizar decisiones sensibles, datos personales o respuestas criticas sin supervision humana.",
+          "title": "Checklist de revision",
+          "keyIdea": "Cada salida de IA necesita una revision definida.",
+          "shortTheory": "En esta leccion se trabaja checklist de revision dentro de prompts de trabajo verificables. La meta es reconocer el problema real, tomar una decision simple y comprobarla con otra persona puede usar el prompt y obtener una salida controlable.",
+          "practicalExample": "Un equipo copia datos entre correos, planillas y mensajes, y quiere ahorrar tiempo sin exponer informacion sensible. Practica checklist de revision sobre ese caso, compara una version inicial con una version corregida y registra prompt con contexto, tarea, formato, restricciones y ejemplo.",
+          "commonMistake": "Copiar y pegar sin leer.",
+          "whatToDoNow": "Crea checklist: exactitud, tono, datos, fuente y accion.",
+          "alert": "La IA puede sonar segura y estar equivocada.",
           "keyPoints": [
-            "Restricciones debe terminar en una decisión, acción o registro concreto.",
-            "Una práctica pequeña y verificable es mejor que una solución amplia sin control.",
-            "La evidencia mínima esperada es: un mapa de automatización con tarea, entrada, salida, herramienta, revisión humana y riesgo.",
-            "El resultado debe poder explicarse y revisarse sin depender de memoria o intuición."
+            "Checklist de revision debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: otra persona puede usar el prompt y obtener una salida controlable.",
+            "Evidencia minima: prompt con contexto, tarea, formato, restricciones y ejemplo.",
+            "Relacion con el proyecto final: flujo automatizado documentado con entrada, salida, control humano, riesgos y metrica de ahorro."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m2-l6",
-          "title": "Criterios de calidad",
-          "keyIdea": "Idea clave: Criterios de calidad ayuda a ordenar una situación concreta, tomar una decisión más segura y dejar evidencia revisable.",
-          "shortTheory": "En esta lección vas a trabajar \"Criterios de calidad\" dentro del módulo \"Instrucciones para IA\". La prioridad es entender qué problema resuelve, qué datos o pasos conviene revisar y cómo saber si la acción fue suficiente.",
-          "practicalExample": "Una persona detecta una tarea repetida y quiere convertirla en un flujo pequeño con pasos claros y control final. Aplicá \"Criterios de calidad\" con una versión breve: anotá contexto, paso principal, control de seguridad y evidencia antes de avanzar.",
-          "commonMistake": "El error común es actuar rápido sin registrar contexto, usar una solución genérica o no revisar permisos, fuentes o consecuencias. Una práctica más profesional empieza chica, verifica y documenta.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí contexto, objetivo, acción principal, control y evidencia. Entrega esperada: un mapa de automatización con tarea, entrada, salida, herramienta, revisión humana y riesgo.",
-          "alert": "No automatizar decisiones sensibles, datos personales o respuestas criticas sin supervision humana.",
+          "title": "Versionar prompts",
+          "keyIdea": "Si un prompt mejora, conviene guardar version y cambio.",
+          "shortTheory": "En esta leccion se trabaja versionar prompts dentro de prompts de trabajo verificables. La meta es reconocer el problema real, tomar una decision simple y comprobarla con otra persona puede usar el prompt y obtener una salida controlable.",
+          "practicalExample": "Un equipo copia datos entre correos, planillas y mensajes, y quiere ahorrar tiempo sin exponer informacion sensible. Practica versionar prompts sobre ese caso, compara una version inicial con una version corregida y registra prompt con contexto, tarea, formato, restricciones y ejemplo.",
+          "commonMistake": "Editar sin conservar la version que funcionaba.",
+          "whatToDoNow": "Nombra prompt v1, v2 y explica que cambio.",
+          "alert": "La IA puede sonar segura y estar equivocada.",
           "keyPoints": [
-            "Criterios de calidad debe terminar en una decisión, acción o registro concreto.",
-            "Una práctica pequeña y verificable es mejor que una solución amplia sin control.",
-            "La evidencia mínima esperada es: un mapa de automatización con tarea, entrada, salida, herramienta, revisión humana y riesgo.",
-            "El resultado debe poder explicarse y revisarse sin depender de memoria o intuición."
+            "Versionar prompts debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: otra persona puede usar el prompt y obtener una salida controlable.",
+            "Evidencia minima: prompt con contexto, tarea, formato, restricciones y ejemplo.",
+            "Relacion con el proyecto final: flujo automatizado documentado con entrada, salida, control humano, riesgos y metrica de ahorro."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         }
@@ -289,172 +288,171 @@
       "quiz": [
         {
           "id": "m2-q1",
-          "question": "Pregunta 1: ¿que conviene hacer al trabajar ",
+          "question": "Cual es la mejor forma de empezar el modulo \"Prompts de trabajo verificables\"?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Definir el caso, el usuario afectado y la evidencia que se va a revisar.",
+            "Copiar una solucion completa sin probarla.",
+            "Esperar a tener una herramienta perfecta antes de practicar.",
+            "Elegir la opcion mas vistosa aunque no resuelva el problema."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: el modulo se vuelve util cuando parte de un caso y de evidencia verificable."
         },
         {
           "id": "m2-q2",
-          "question": "Pregunta 2: ¿que conviene hacer al trabajar ",
+          "question": "Que evidencia sirve para cerrar \"Prompts de trabajo verificables\" sin depender de opiniones?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "prompt con contexto, tarea, formato, restricciones y ejemplo",
+            "Una captura sin contexto.",
+            "Una frase como 'parece estar bien'.",
+            "La cantidad de colores o iconos usados."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: prompt con contexto, tarea, formato, restricciones y ejemplo permite revisar el resultado despues."
         },
         {
           "id": "m2-q3",
-          "question": "Pregunta 3: ¿que conviene hacer al trabajar ",
+          "question": "Que conducta aumenta el riesgo durante la practica?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Pedir respuestas abiertas para tareas que necesitan formato fijo.",
+            "Trabajar con datos simulados.",
+            "Anotar dudas antes de publicar o aplicar.",
+            "Probar en una version pequena."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: esa conducta elimina control y puede producir errores reales."
         },
         {
           "id": "m2-q4",
-          "question": "Pregunta 4: ¿que conviene hacer al trabajar ",
+          "question": "Cuando conviene pedir ayuda o validar con una fuente externa?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Cuando el resultado se enviara a clientes, jefatura, organismos o publico.",
+            "Nunca, porque el ejercicio es suficiente para cualquier caso.",
+            "Solo despues de borrar la evidencia.",
+            "Cuando el resultado se ve agradable visualmente."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: validar a tiempo evita decisiones inseguras o incompletas."
         },
         {
           "id": "m2-q5",
-          "question": "Pregunta 5: ¿que conviene hacer al trabajar ",
+          "question": "Cual es el entregable minimo del modulo \"Prompts de trabajo verificables\"?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "biblioteca inicial de prompts operativos",
+            "Un resumen sin prueba.",
+            "Una lista de ideas sueltas.",
+            "Un archivo final sin explicar cambios."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: biblioteca inicial de prompts operativos deja avance verificable."
         }
-      ],
-      "professionalOutcome": "detectar tareas automatizables, crear flujos pequenos y mantener control humano. Entregable sugerido: un flujo documentado con entrada, proceso, salida, control y limite de uso."
+      ]
     },
     {
       "id": "m3",
-      "title": "Flujos simples",
-      "description": "En este módulo vas a trabajar \"Flujos simples\" dentro de automatización responsable de tareas simples con IA, plantillas y revisión humana. La meta es practicar una situación realista, reconocer el riesgo principal y cerrar con una evidencia útil para revisar.",
-      "learningRisk": "Punto clave",
+      "title": "Documentos, correos y textos repetidos",
+      "description": "Automatizar borradores, resumenes, respuestas y plantillas sin perder tono ni control.",
+      "learningRisk": "Practicar sin evidencia deja una mejora dificil de sostener.",
       "lessons": [
         {
           "id": "m3-l1",
-          "title": "Entrada",
-          "keyIdea": "Idea clave: Entrada ayuda a ordenar una situación concreta, tomar una decisión más segura y dejar evidencia revisable.",
-          "shortTheory": "En esta lección vas a trabajar \"Entrada\" dentro del módulo \"Flujos simples\". La prioridad es entender qué problema resuelve, qué datos o pasos conviene revisar y cómo saber si la acción fue suficiente.",
-          "practicalExample": "Una persona detecta una tarea repetida y quiere convertirla en un flujo pequeño con pasos claros y control final. Aplicá \"Entrada\" con una versión breve: anotá contexto, paso principal, control de seguridad y evidencia antes de avanzar.",
-          "commonMistake": "El error común es actuar rápido sin registrar contexto, usar una solución genérica o no revisar permisos, fuentes o consecuencias. Una práctica más profesional empieza chica, verifica y documenta.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí contexto, objetivo, acción principal, control y evidencia. Entrega esperada: un mapa de automatización con tarea, entrada, salida, herramienta, revisión humana y riesgo.",
-          "alert": "No automatizar decisiones sensibles, datos personales o respuestas criticas sin supervision humana.",
+          "title": "Responder correos frecuentes",
+          "keyIdea": "La IA puede armar borradores desde datos estructurados.",
+          "shortTheory": "En esta leccion se trabaja responder correos frecuentes dentro de documentos, correos y textos repetidos. La meta es reconocer el problema real, tomar una decision simple y comprobarla con el texto final conserva datos correctos, tono adecuado y aprobacion humana.",
+          "practicalExample": "Un equipo copia datos entre correos, planillas y mensajes, y quiere ahorrar tiempo sin exponer informacion sensible. Practica responder correos frecuentes sobre ese caso, compara una version inicial con una version corregida y registra plantilla de texto con revision humana y criterios de calidad.",
+          "commonMistake": "Enviar promesas o descuentos inventados.",
+          "whatToDoNow": "Crea prompt para responder consulta de horario con tono cordial.",
+          "alert": "La IA redacta borradores; la responsabilidad del envio sigue siendo humana.",
           "keyPoints": [
-            "Entrada debe terminar en una decisión, acción o registro concreto.",
-            "Una práctica pequeña y verificable es mejor que una solución amplia sin control.",
-            "La evidencia mínima esperada es: un mapa de automatización con tarea, entrada, salida, herramienta, revisión humana y riesgo.",
-            "El resultado debe poder explicarse y revisarse sin depender de memoria o intuición."
+            "Responder correos frecuentes debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: el texto final conserva datos correctos, tono adecuado y aprobacion humana.",
+            "Evidencia minima: plantilla de texto con revision humana y criterios de calidad.",
+            "Relacion con el proyecto final: flujo automatizado documentado con entrada, salida, control humano, riesgos y metrica de ahorro."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m3-l2",
-          "title": "Transformacion",
-          "keyIdea": "Idea clave: Transformacion ayuda a ordenar una situación concreta, tomar una decisión más segura y dejar evidencia revisable.",
-          "shortTheory": "En esta lección vas a trabajar \"Transformacion\" dentro del módulo \"Flujos simples\". La prioridad es entender qué problema resuelve, qué datos o pasos conviene revisar y cómo saber si la acción fue suficiente.",
-          "practicalExample": "Una persona detecta una tarea repetida y quiere convertirla en un flujo pequeño con pasos claros y control final. Aplicá \"Transformacion\" con una versión breve: anotá contexto, paso principal, control de seguridad y evidencia antes de avanzar.",
-          "commonMistake": "El error común es actuar rápido sin registrar contexto, usar una solución genérica o no revisar permisos, fuentes o consecuencias. Una práctica más profesional empieza chica, verifica y documenta.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí contexto, objetivo, acción principal, control y evidencia. Entrega esperada: un mapa de automatización con tarea, entrada, salida, herramienta, revisión humana y riesgo.",
-          "alert": "No automatizar decisiones sensibles, datos personales o respuestas criticas sin supervision humana.",
+          "title": "Resumir conversaciones",
+          "keyIdea": "Un resumen util separa hechos, pendientes y decisiones.",
+          "shortTheory": "En esta leccion se trabaja resumir conversaciones dentro de documentos, correos y textos repetidos. La meta es reconocer el problema real, tomar una decision simple y comprobarla con el texto final conserva datos correctos, tono adecuado y aprobacion humana.",
+          "practicalExample": "Un equipo copia datos entre correos, planillas y mensajes, y quiere ahorrar tiempo sin exponer informacion sensible. Practica resumir conversaciones sobre ese caso, compara una version inicial con una version corregida y registra plantilla de texto con revision humana y criterios de calidad.",
+          "commonMistake": "Borrar matices importantes por resumir demasiado.",
+          "whatToDoNow": "Resume un chat simulado en tres bloques.",
+          "alert": "La IA redacta borradores; la responsabilidad del envio sigue siendo humana.",
           "keyPoints": [
-            "Transformacion debe terminar en una decisión, acción o registro concreto.",
-            "Una práctica pequeña y verificable es mejor que una solución amplia sin control.",
-            "La evidencia mínima esperada es: un mapa de automatización con tarea, entrada, salida, herramienta, revisión humana y riesgo.",
-            "El resultado debe poder explicarse y revisarse sin depender de memoria o intuición."
+            "Resumir conversaciones debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: el texto final conserva datos correctos, tono adecuado y aprobacion humana.",
+            "Evidencia minima: plantilla de texto con revision humana y criterios de calidad.",
+            "Relacion con el proyecto final: flujo automatizado documentado con entrada, salida, control humano, riesgos y metrica de ahorro."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m3-l3",
-          "title": "Revision",
-          "keyIdea": "Idea clave: Revision ayuda a ordenar una situación concreta, tomar una decisión más segura y dejar evidencia revisable.",
-          "shortTheory": "En esta lección vas a trabajar \"Revision\" dentro del módulo \"Flujos simples\". La prioridad es entender qué problema resuelve, qué datos o pasos conviene revisar y cómo saber si la acción fue suficiente.",
-          "practicalExample": "Una persona detecta una tarea repetida y quiere convertirla en un flujo pequeño con pasos claros y control final. Aplicá \"Revision\" con una versión breve: anotá contexto, paso principal, control de seguridad y evidencia antes de avanzar.",
-          "commonMistake": "El error común es actuar rápido sin registrar contexto, usar una solución genérica o no revisar permisos, fuentes o consecuencias. Una práctica más profesional empieza chica, verifica y documenta.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí contexto, objetivo, acción principal, control y evidencia. Entrega esperada: un mapa de automatización con tarea, entrada, salida, herramienta, revisión humana y riesgo.",
-          "alert": "No automatizar decisiones sensibles, datos personales o respuestas criticas sin supervision humana.",
+          "title": "Convertir notas en acta",
+          "keyIdea": "Las notas crudas pueden transformarse en acuerdos y tareas.",
+          "shortTheory": "En esta leccion se trabaja convertir notas en acta dentro de documentos, correos y textos repetidos. La meta es reconocer el problema real, tomar una decision simple y comprobarla con el texto final conserva datos correctos, tono adecuado y aprobacion humana.",
+          "practicalExample": "Un equipo copia datos entre correos, planillas y mensajes, y quiere ahorrar tiempo sin exponer informacion sensible. Practica convertir notas en acta sobre ese caso, compara una version inicial con una version corregida y registra plantilla de texto con revision humana y criterios de calidad.",
+          "commonMistake": "Agregar responsables que no fueron acordados.",
+          "whatToDoNow": "Pide acta con responsables y fechas.",
+          "alert": "La IA redacta borradores; la responsabilidad del envio sigue siendo humana.",
           "keyPoints": [
-            "Revision debe terminar en una decisión, acción o registro concreto.",
-            "Una práctica pequeña y verificable es mejor que una solución amplia sin control.",
-            "La evidencia mínima esperada es: un mapa de automatización con tarea, entrada, salida, herramienta, revisión humana y riesgo.",
-            "El resultado debe poder explicarse y revisarse sin depender de memoria o intuición."
+            "Convertir notas en acta debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: el texto final conserva datos correctos, tono adecuado y aprobacion humana.",
+            "Evidencia minima: plantilla de texto con revision humana y criterios de calidad.",
+            "Relacion con el proyecto final: flujo automatizado documentado con entrada, salida, control humano, riesgos y metrica de ahorro."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m3-l4",
-          "title": "Salida",
-          "keyIdea": "Idea clave: Salida ayuda a ordenar una situación concreta, tomar una decisión más segura y dejar evidencia revisable.",
-          "shortTheory": "En esta lección vas a trabajar \"Salida\" dentro del módulo \"Flujos simples\". La prioridad es entender qué problema resuelve, qué datos o pasos conviene revisar y cómo saber si la acción fue suficiente.",
-          "practicalExample": "Una persona detecta una tarea repetida y quiere convertirla en un flujo pequeño con pasos claros y control final. Aplicá \"Salida\" con una versión breve: anotá contexto, paso principal, control de seguridad y evidencia antes de avanzar.",
-          "commonMistake": "El error común es actuar rápido sin registrar contexto, usar una solución genérica o no revisar permisos, fuentes o consecuencias. Una práctica más profesional empieza chica, verifica y documenta.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí contexto, objetivo, acción principal, control y evidencia. Entrega esperada: un mapa de automatización con tarea, entrada, salida, herramienta, revisión humana y riesgo.",
-          "alert": "No automatizar decisiones sensibles, datos personales o respuestas criticas sin supervision humana.",
+          "title": "Plantillas con variables",
+          "keyIdea": "Nombre, fecha, pedido y estado pueden insertarse de forma controlada.",
+          "shortTheory": "En esta leccion se trabaja plantillas con variables dentro de documentos, correos y textos repetidos. La meta es reconocer el problema real, tomar una decision simple y comprobarla con el texto final conserva datos correctos, tono adecuado y aprobacion humana.",
+          "practicalExample": "Un equipo copia datos entre correos, planillas y mensajes, y quiere ahorrar tiempo sin exponer informacion sensible. Practica plantillas con variables sobre ese caso, compara una version inicial con una version corregida y registra plantilla de texto con revision humana y criterios de calidad.",
+          "commonMistake": "Mezclar datos de dos clientes.",
+          "whatToDoNow": "Define variables para respuesta de envio.",
+          "alert": "La IA redacta borradores; la responsabilidad del envio sigue siendo humana.",
           "keyPoints": [
-            "Salida debe terminar en una decisión, acción o registro concreto.",
-            "Una práctica pequeña y verificable es mejor que una solución amplia sin control.",
-            "La evidencia mínima esperada es: un mapa de automatización con tarea, entrada, salida, herramienta, revisión humana y riesgo.",
-            "El resultado debe poder explicarse y revisarse sin depender de memoria o intuición."
+            "Plantillas con variables debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: el texto final conserva datos correctos, tono adecuado y aprobacion humana.",
+            "Evidencia minima: plantilla de texto con revision humana y criterios de calidad.",
+            "Relacion con el proyecto final: flujo automatizado documentado con entrada, salida, control humano, riesgos y metrica de ahorro."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m3-l5",
-          "title": "Registro",
-          "keyIdea": "Idea clave: Registro ayuda a ordenar una situación concreta, tomar una decisión más segura y dejar evidencia revisable.",
-          "shortTheory": "En esta lección vas a trabajar \"Registro\" dentro del módulo \"Flujos simples\". La prioridad es entender qué problema resuelve, qué datos o pasos conviene revisar y cómo saber si la acción fue suficiente.",
-          "practicalExample": "Una persona detecta una tarea repetida y quiere convertirla en un flujo pequeño con pasos claros y control final. Aplicá \"Registro\" con una versión breve: anotá contexto, paso principal, control de seguridad y evidencia antes de avanzar.",
-          "commonMistake": "El error común es actuar rápido sin registrar contexto, usar una solución genérica o no revisar permisos, fuentes o consecuencias. Una práctica más profesional empieza chica, verifica y documenta.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí contexto, objetivo, acción principal, control y evidencia. Entrega esperada: un mapa de automatización con tarea, entrada, salida, herramienta, revisión humana y riesgo.",
-          "alert": "No automatizar decisiones sensibles, datos personales o respuestas criticas sin supervision humana.",
+          "title": "Tono y marca",
+          "keyIdea": "La automatizacion debe sonar consistente con la organizacion.",
+          "shortTheory": "En esta leccion se trabaja tono y marca dentro de documentos, correos y textos repetidos. La meta es reconocer el problema real, tomar una decision simple y comprobarla con el texto final conserva datos correctos, tono adecuado y aprobacion humana.",
+          "practicalExample": "Un equipo copia datos entre correos, planillas y mensajes, y quiere ahorrar tiempo sin exponer informacion sensible. Practica tono y marca sobre ese caso, compara una version inicial con una version corregida y registra plantilla de texto con revision humana y criterios de calidad.",
+          "commonMistake": "Usar tono exagerado o frio segun salida aleatoria.",
+          "whatToDoNow": "Define tres reglas de tono y prueba un borrador.",
+          "alert": "La IA redacta borradores; la responsabilidad del envio sigue siendo humana.",
           "keyPoints": [
-            "Registro debe terminar en una decisión, acción o registro concreto.",
-            "Una práctica pequeña y verificable es mejor que una solución amplia sin control.",
-            "La evidencia mínima esperada es: un mapa de automatización con tarea, entrada, salida, herramienta, revisión humana y riesgo.",
-            "El resultado debe poder explicarse y revisarse sin depender de memoria o intuición."
+            "Tono y marca debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: el texto final conserva datos correctos, tono adecuado y aprobacion humana.",
+            "Evidencia minima: plantilla de texto con revision humana y criterios de calidad.",
+            "Relacion con el proyecto final: flujo automatizado documentado con entrada, salida, control humano, riesgos y metrica de ahorro."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m3-l6",
-          "title": "Iteracion",
-          "keyIdea": "Idea clave: Iteracion ayuda a ordenar una situación concreta, tomar una decisión más segura y dejar evidencia revisable.",
-          "shortTheory": "En esta lección vas a trabajar \"Iteracion\" dentro del módulo \"Flujos simples\". La prioridad es entender qué problema resuelve, qué datos o pasos conviene revisar y cómo saber si la acción fue suficiente.",
-          "practicalExample": "Una persona detecta una tarea repetida y quiere convertirla en un flujo pequeño con pasos claros y control final. Aplicá \"Iteracion\" con una versión breve: anotá contexto, paso principal, control de seguridad y evidencia antes de avanzar.",
-          "commonMistake": "El error común es actuar rápido sin registrar contexto, usar una solución genérica o no revisar permisos, fuentes o consecuencias. Una práctica más profesional empieza chica, verifica y documenta.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí contexto, objetivo, acción principal, control y evidencia. Entrega esperada: un mapa de automatización con tarea, entrada, salida, herramienta, revisión humana y riesgo.",
-          "alert": "No automatizar decisiones sensibles, datos personales o respuestas criticas sin supervision humana.",
+          "title": "Control antes de enviar",
+          "keyIdea": "Un paso humano final evita errores visibles.",
+          "shortTheory": "En esta leccion se trabaja control antes de enviar dentro de documentos, correos y textos repetidos. La meta es reconocer el problema real, tomar una decision simple y comprobarla con el texto final conserva datos correctos, tono adecuado y aprobacion humana.",
+          "practicalExample": "Un equipo copia datos entre correos, planillas y mensajes, y quiere ahorrar tiempo sin exponer informacion sensible. Practica control antes de enviar sobre ese caso, compara una version inicial con una version corregida y registra plantilla de texto con revision humana y criterios de calidad.",
+          "commonMistake": "Programar envio automatico sin aprobacion para casos sensibles.",
+          "whatToDoNow": "Disena una revision de 60 segundos antes de enviar.",
+          "alert": "La IA redacta borradores; la responsabilidad del envio sigue siendo humana.",
           "keyPoints": [
-            "Iteracion debe terminar en una decisión, acción o registro concreto.",
-            "Una práctica pequeña y verificable es mejor que una solución amplia sin control.",
-            "La evidencia mínima esperada es: un mapa de automatización con tarea, entrada, salida, herramienta, revisión humana y riesgo.",
-            "El resultado debe poder explicarse y revisarse sin depender de memoria o intuición."
+            "Control antes de enviar debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: el texto final conserva datos correctos, tono adecuado y aprobacion humana.",
+            "Evidencia minima: plantilla de texto con revision humana y criterios de calidad.",
+            "Relacion con el proyecto final: flujo automatizado documentado con entrada, salida, control humano, riesgos y metrica de ahorro."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         }
@@ -462,172 +460,171 @@
       "quiz": [
         {
           "id": "m3-q1",
-          "question": "Pregunta 1: ¿que conviene hacer al trabajar ",
+          "question": "Cual es la mejor forma de empezar el modulo \"Documentos, correos y textos repetidos\"?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Definir el caso, el usuario afectado y la evidencia que se va a revisar.",
+            "Copiar una solucion completa sin probarla.",
+            "Esperar a tener una herramienta perfecta antes de practicar.",
+            "Elegir la opcion mas vistosa aunque no resuelva el problema."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: el modulo se vuelve util cuando parte de un caso y de evidencia verificable."
         },
         {
           "id": "m3-q2",
-          "question": "Pregunta 2: ¿que conviene hacer al trabajar ",
+          "question": "Que evidencia sirve para cerrar \"Documentos, correos y textos repetidos\" sin depender de opiniones?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "plantilla de texto con revision humana y criterios de calidad",
+            "Una captura sin contexto.",
+            "Una frase como 'parece estar bien'.",
+            "La cantidad de colores o iconos usados."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: plantilla de texto con revision humana y criterios de calidad permite revisar el resultado despues."
         },
         {
           "id": "m3-q3",
-          "question": "Pregunta 3: ¿que conviene hacer al trabajar ",
+          "question": "Que conducta aumenta el riesgo durante la practica?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Enviar textos generados sin revisar datos, tono o promesas.",
+            "Trabajar con datos simulados.",
+            "Anotar dudas antes de publicar o aplicar.",
+            "Probar en una version pequena."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: esa conducta elimina control y puede producir errores reales."
         },
         {
           "id": "m3-q4",
-          "question": "Pregunta 4: ¿que conviene hacer al trabajar ",
+          "question": "Cuando conviene pedir ayuda o validar con una fuente externa?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Cuando el texto tiene valor legal, comercial, medico, financiero o publico.",
+            "Nunca, porque el ejercicio es suficiente para cualquier caso.",
+            "Solo despues de borrar la evidencia.",
+            "Cuando el resultado se ve agradable visualmente."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: validar a tiempo evita decisiones inseguras o incompletas."
         },
         {
           "id": "m3-q5",
-          "question": "Pregunta 5: ¿que conviene hacer al trabajar ",
+          "question": "Cual es el entregable minimo del modulo \"Documentos, correos y textos repetidos\"?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "flujo de borrador y revision",
+            "Un resumen sin prueba.",
+            "Una lista de ideas sueltas.",
+            "Un archivo final sin explicar cambios."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: flujo de borrador y revision deja avance verificable."
         }
-      ],
-      "professionalOutcome": "detectar tareas automatizables, crear flujos pequenos y mantener control humano. Entregable sugerido: un flujo documentado con entrada, proceso, salida, control y limite de uso."
+      ]
     },
     {
       "id": "m4",
-      "title": "Documentos y mensajes",
-      "description": "En este módulo vas a trabajar \"Documentos y mensajes\" dentro de automatización responsable de tareas simples con IA, plantillas y revisión humana. La meta es practicar una situación realista, reconocer el riesgo principal y cerrar con una evidencia útil para revisar.",
-      "learningRisk": "Punto clave",
+      "title": "Tablas, datos y pequenas operaciones",
+      "description": "Usar IA para limpiar, clasificar, resumir y preparar datos con trazabilidad.",
+      "learningRisk": "Practicar sin evidencia deja una mejora dificil de sostener.",
       "lessons": [
         {
           "id": "m4-l1",
-          "title": "Resumenes",
-          "keyIdea": "Idea clave: Resumenes ayuda a ordenar una situación concreta, tomar una decisión más segura y dejar evidencia revisable.",
-          "shortTheory": "En esta lección vas a trabajar \"Resumenes\" dentro del módulo \"Documentos y mensajes\". La prioridad es entender qué problema resuelve, qué datos o pasos conviene revisar y cómo saber si la acción fue suficiente.",
-          "practicalExample": "Una persona detecta una tarea repetida y quiere convertirla en un flujo pequeño con pasos claros y control final. Aplicá \"Resumenes\" con una versión breve: anotá contexto, paso principal, control de seguridad y evidencia antes de avanzar.",
-          "commonMistake": "El error común es actuar rápido sin registrar contexto, usar una solución genérica o no revisar permisos, fuentes o consecuencias. Una práctica más profesional empieza chica, verifica y documenta.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí contexto, objetivo, acción principal, control y evidencia. Entrega esperada: un mapa de automatización con tarea, entrada, salida, herramienta, revisión humana y riesgo.",
-          "alert": "No automatizar decisiones sensibles, datos personales o respuestas criticas sin supervision humana.",
+          "title": "Preparar datos de prueba",
+          "keyIdea": "Datos simulados permiten aprender sin exponer informacion.",
+          "shortTheory": "En esta leccion se trabaja preparar datos de prueba dentro de tablas, datos y pequenas operaciones. La meta es reconocer el problema real, tomar una decision simple y comprobarla con cada transformacion puede explicarse y revisarse con muestra.",
+          "practicalExample": "Un equipo copia datos entre correos, planillas y mensajes, y quiere ahorrar tiempo sin exponer informacion sensible. Practica preparar datos de prueba sobre ese caso, compara una version inicial con una version corregida y registra tabla de prueba con cambios, supuestos y validacion.",
+          "commonMistake": "Copiar base real completa en una herramienta externa.",
+          "whatToDoNow": "Crea una tabla ficticia con 10 filas.",
+          "alert": "Antes de pegar datos, quitar o simular informacion sensible.",
           "keyPoints": [
-            "Resumenes debe terminar en una decisión, acción o registro concreto.",
-            "Una práctica pequeña y verificable es mejor que una solución amplia sin control.",
-            "La evidencia mínima esperada es: un mapa de automatización con tarea, entrada, salida, herramienta, revisión humana y riesgo.",
-            "El resultado debe poder explicarse y revisarse sin depender de memoria o intuición."
+            "Preparar datos de prueba debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: cada transformacion puede explicarse y revisarse con muestra.",
+            "Evidencia minima: tabla de prueba con cambios, supuestos y validacion.",
+            "Relacion con el proyecto final: flujo automatizado documentado con entrada, salida, control humano, riesgos y metrica de ahorro."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m4-l2",
-          "title": "Correos",
-          "keyIdea": "Idea clave: Correos ayuda a ordenar una situación concreta, tomar una decisión más segura y dejar evidencia revisable.",
-          "shortTheory": "En esta lección vas a trabajar \"Correos\" dentro del módulo \"Documentos y mensajes\". La prioridad es entender qué problema resuelve, qué datos o pasos conviene revisar y cómo saber si la acción fue suficiente.",
-          "practicalExample": "Una persona detecta una tarea repetida y quiere convertirla en un flujo pequeño con pasos claros y control final. Aplicá \"Correos\" con una versión breve: anotá contexto, paso principal, control de seguridad y evidencia antes de avanzar.",
-          "commonMistake": "El error común es actuar rápido sin registrar contexto, usar una solución genérica o no revisar permisos, fuentes o consecuencias. Una práctica más profesional empieza chica, verifica y documenta.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí contexto, objetivo, acción principal, control y evidencia. Entrega esperada: un mapa de automatización con tarea, entrada, salida, herramienta, revisión humana y riesgo.",
-          "alert": "No automatizar decisiones sensibles, datos personales o respuestas criticas sin supervision humana.",
+          "title": "Clasificar registros",
+          "keyIdea": "La IA puede sugerir categorias, pero hay que revisar criterios.",
+          "shortTheory": "En esta leccion se trabaja clasificar registros dentro de tablas, datos y pequenas operaciones. La meta es reconocer el problema real, tomar una decision simple y comprobarla con cada transformacion puede explicarse y revisarse con muestra.",
+          "practicalExample": "Un equipo copia datos entre correos, planillas y mensajes, y quiere ahorrar tiempo sin exponer informacion sensible. Practica clasificar registros sobre ese caso, compara una version inicial con una version corregida y registra tabla de prueba con cambios, supuestos y validacion.",
+          "commonMistake": "Aceptar categorias sin definicion.",
+          "whatToDoNow": "Clasifica consultas por tema y revisa errores.",
+          "alert": "Antes de pegar datos, quitar o simular informacion sensible.",
           "keyPoints": [
-            "Correos debe terminar en una decisión, acción o registro concreto.",
-            "Una práctica pequeña y verificable es mejor que una solución amplia sin control.",
-            "La evidencia mínima esperada es: un mapa de automatización con tarea, entrada, salida, herramienta, revisión humana y riesgo.",
-            "El resultado debe poder explicarse y revisarse sin depender de memoria o intuición."
+            "Clasificar registros debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: cada transformacion puede explicarse y revisarse con muestra.",
+            "Evidencia minima: tabla de prueba con cambios, supuestos y validacion.",
+            "Relacion con el proyecto final: flujo automatizado documentado con entrada, salida, control humano, riesgos y metrica de ahorro."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m4-l3",
-          "title": "Respuestas frecuentes",
-          "keyIdea": "Idea clave: Respuestas frecuentes ayuda a ordenar una situación concreta, tomar una decisión más segura y dejar evidencia revisable.",
-          "shortTheory": "En esta lección vas a trabajar \"Respuestas frecuentes\" dentro del módulo \"Documentos y mensajes\". La prioridad es entender qué problema resuelve, qué datos o pasos conviene revisar y cómo saber si la acción fue suficiente.",
-          "practicalExample": "Una persona detecta una tarea repetida y quiere convertirla en un flujo pequeño con pasos claros y control final. Aplicá \"Respuestas frecuentes\" con una versión breve: anotá contexto, paso principal, control de seguridad y evidencia antes de avanzar.",
-          "commonMistake": "El error común es actuar rápido sin registrar contexto, usar una solución genérica o no revisar permisos, fuentes o consecuencias. Una práctica más profesional empieza chica, verifica y documenta.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí contexto, objetivo, acción principal, control y evidencia. Entrega esperada: un mapa de automatización con tarea, entrada, salida, herramienta, revisión humana y riesgo.",
-          "alert": "No automatizar decisiones sensibles, datos personales o respuestas criticas sin supervision humana.",
+          "title": "Limpiar textos",
+          "keyIdea": "Normalizar mayusculas, espacios y nombres mejora uso posterior.",
+          "shortTheory": "En esta leccion se trabaja limpiar textos dentro de tablas, datos y pequenas operaciones. La meta es reconocer el problema real, tomar una decision simple y comprobarla con cada transformacion puede explicarse y revisarse con muestra.",
+          "practicalExample": "Un equipo copia datos entre correos, planillas y mensajes, y quiere ahorrar tiempo sin exponer informacion sensible. Practica limpiar textos sobre ese caso, compara una version inicial con una version corregida y registra tabla de prueba con cambios, supuestos y validacion.",
+          "commonMistake": "Cambiar datos originales sin copia.",
+          "whatToDoNow": "Pide reglas de limpieza y muestra antes/despues.",
+          "alert": "Antes de pegar datos, quitar o simular informacion sensible.",
           "keyPoints": [
-            "Respuestas frecuentes debe terminar en una decisión, acción o registro concreto.",
-            "Una práctica pequeña y verificable es mejor que una solución amplia sin control.",
-            "La evidencia mínima esperada es: un mapa de automatización con tarea, entrada, salida, herramienta, revisión humana y riesgo.",
-            "El resultado debe poder explicarse y revisarse sin depender de memoria o intuición."
+            "Limpiar textos debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: cada transformacion puede explicarse y revisarse con muestra.",
+            "Evidencia minima: tabla de prueba con cambios, supuestos y validacion.",
+            "Relacion con el proyecto final: flujo automatizado documentado con entrada, salida, control humano, riesgos y metrica de ahorro."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m4-l4",
-          "title": "Plantillas",
-          "keyIdea": "Idea clave: Plantillas ayuda a ordenar una situación concreta, tomar una decisión más segura y dejar evidencia revisable.",
-          "shortTheory": "En esta lección vas a trabajar \"Plantillas\" dentro del módulo \"Documentos y mensajes\". La prioridad es entender qué problema resuelve, qué datos o pasos conviene revisar y cómo saber si la acción fue suficiente.",
-          "practicalExample": "Una persona detecta una tarea repetida y quiere convertirla en un flujo pequeño con pasos claros y control final. Aplicá \"Plantillas\" con una versión breve: anotá contexto, paso principal, control de seguridad y evidencia antes de avanzar.",
-          "commonMistake": "El error común es actuar rápido sin registrar contexto, usar una solución genérica o no revisar permisos, fuentes o consecuencias. Una práctica más profesional empieza chica, verifica y documenta.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí contexto, objetivo, acción principal, control y evidencia. Entrega esperada: un mapa de automatización con tarea, entrada, salida, herramienta, revisión humana y riesgo.",
-          "alert": "No automatizar decisiones sensibles, datos personales o respuestas criticas sin supervision humana.",
+          "title": "Extraer campos",
+          "keyIdea": "Desde textos se pueden extraer fecha, pedido, estado o prioridad.",
+          "shortTheory": "En esta leccion se trabaja extraer campos dentro de tablas, datos y pequenas operaciones. La meta es reconocer el problema real, tomar una decision simple y comprobarla con cada transformacion puede explicarse y revisarse con muestra.",
+          "practicalExample": "Un equipo copia datos entre correos, planillas y mensajes, y quiere ahorrar tiempo sin exponer informacion sensible. Practica extraer campos sobre ese caso, compara una version inicial con una version corregida y registra tabla de prueba con cambios, supuestos y validacion.",
+          "commonMistake": "No marcar campos dudosos.",
+          "whatToDoNow": "Extrae datos de cinco mensajes simulados.",
+          "alert": "Antes de pegar datos, quitar o simular informacion sensible.",
           "keyPoints": [
-            "Plantillas debe terminar en una decisión, acción o registro concreto.",
-            "Una práctica pequeña y verificable es mejor que una solución amplia sin control.",
-            "La evidencia mínima esperada es: un mapa de automatización con tarea, entrada, salida, herramienta, revisión humana y riesgo.",
-            "El resultado debe poder explicarse y revisarse sin depender de memoria o intuición."
+            "Extraer campos debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: cada transformacion puede explicarse y revisarse con muestra.",
+            "Evidencia minima: tabla de prueba con cambios, supuestos y validacion.",
+            "Relacion con el proyecto final: flujo automatizado documentado con entrada, salida, control humano, riesgos y metrica de ahorro."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m4-l5",
-          "title": "Tono",
-          "keyIdea": "Idea clave: Tono ayuda a ordenar una situación concreta, tomar una decisión más segura y dejar evidencia revisable.",
-          "shortTheory": "En esta lección vas a trabajar \"Tono\" dentro del módulo \"Documentos y mensajes\". La prioridad es entender qué problema resuelve, qué datos o pasos conviene revisar y cómo saber si la acción fue suficiente.",
-          "practicalExample": "Una persona detecta una tarea repetida y quiere convertirla en un flujo pequeño con pasos claros y control final. Aplicá \"Tono\" con una versión breve: anotá contexto, paso principal, control de seguridad y evidencia antes de avanzar.",
-          "commonMistake": "El error común es actuar rápido sin registrar contexto, usar una solución genérica o no revisar permisos, fuentes o consecuencias. Una práctica más profesional empieza chica, verifica y documenta.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí contexto, objetivo, acción principal, control y evidencia. Entrega esperada: un mapa de automatización con tarea, entrada, salida, herramienta, revisión humana y riesgo.",
-          "alert": "No automatizar decisiones sensibles, datos personales o respuestas criticas sin supervision humana.",
+          "title": "Validar muestras",
+          "keyIdea": "Revisar una muestra detecta errores antes de aplicar masivamente.",
+          "shortTheory": "En esta leccion se trabaja validar muestras dentro de tablas, datos y pequenas operaciones. La meta es reconocer el problema real, tomar una decision simple y comprobarla con cada transformacion puede explicarse y revisarse con muestra.",
+          "practicalExample": "Un equipo copia datos entre correos, planillas y mensajes, y quiere ahorrar tiempo sin exponer informacion sensible. Practica validar muestras sobre ese caso, compara una version inicial con una version corregida y registra tabla de prueba con cambios, supuestos y validacion.",
+          "commonMistake": "Procesar 1000 filas sin prueba pequena.",
+          "whatToDoNow": "Compara 10 resultados contra criterio humano.",
+          "alert": "Antes de pegar datos, quitar o simular informacion sensible.",
           "keyPoints": [
-            "Tono debe terminar en una decisión, acción o registro concreto.",
-            "Una práctica pequeña y verificable es mejor que una solución amplia sin control.",
-            "La evidencia mínima esperada es: un mapa de automatización con tarea, entrada, salida, herramienta, revisión humana y riesgo.",
-            "El resultado debe poder explicarse y revisarse sin depender de memoria o intuición."
+            "Validar muestras debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: cada transformacion puede explicarse y revisarse con muestra.",
+            "Evidencia minima: tabla de prueba con cambios, supuestos y validacion.",
+            "Relacion con el proyecto final: flujo automatizado documentado con entrada, salida, control humano, riesgos y metrica de ahorro."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m4-l6",
-          "title": "Revision humana",
-          "keyIdea": "Idea clave: Revision humana ayuda a ordenar una situación concreta, tomar una decisión más segura y dejar evidencia revisable.",
-          "shortTheory": "En esta lección vas a trabajar \"Revision humana\" dentro del módulo \"Documentos y mensajes\". La prioridad es entender qué problema resuelve, qué datos o pasos conviene revisar y cómo saber si la acción fue suficiente.",
-          "practicalExample": "Una persona detecta una tarea repetida y quiere convertirla en un flujo pequeño con pasos claros y control final. Aplicá \"Revision humana\" con una versión breve: anotá contexto, paso principal, control de seguridad y evidencia antes de avanzar.",
-          "commonMistake": "El error común es actuar rápido sin registrar contexto, usar una solución genérica o no revisar permisos, fuentes o consecuencias. Una práctica más profesional empieza chica, verifica y documenta.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí contexto, objetivo, acción principal, control y evidencia. Entrega esperada: un mapa de automatización con tarea, entrada, salida, herramienta, revisión humana y riesgo.",
-          "alert": "No automatizar decisiones sensibles, datos personales o respuestas criticas sin supervision humana.",
+          "title": "Registrar supuestos",
+          "keyIdea": "La automatizacion necesita dejar claro que asumio.",
+          "shortTheory": "En esta leccion se trabaja registrar supuestos dentro de tablas, datos y pequenas operaciones. La meta es reconocer el problema real, tomar una decision simple y comprobarla con cada transformacion puede explicarse y revisarse con muestra.",
+          "practicalExample": "Un equipo copia datos entre correos, planillas y mensajes, y quiere ahorrar tiempo sin exponer informacion sensible. Practica registrar supuestos sobre ese caso, compara una version inicial con una version corregida y registra tabla de prueba con cambios, supuestos y validacion.",
+          "commonMistake": "Ocultar dudas para que el resultado parezca perfecto.",
+          "whatToDoNow": "Escribe supuestos usados para clasificar.",
+          "alert": "Antes de pegar datos, quitar o simular informacion sensible.",
           "keyPoints": [
-            "Revision humana debe terminar en una decisión, acción o registro concreto.",
-            "Una práctica pequeña y verificable es mejor que una solución amplia sin control.",
-            "La evidencia mínima esperada es: un mapa de automatización con tarea, entrada, salida, herramienta, revisión humana y riesgo.",
-            "El resultado debe poder explicarse y revisarse sin depender de memoria o intuición."
+            "Registrar supuestos debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: cada transformacion puede explicarse y revisarse con muestra.",
+            "Evidencia minima: tabla de prueba con cambios, supuestos y validacion.",
+            "Relacion con el proyecto final: flujo automatizado documentado con entrada, salida, control humano, riesgos y metrica de ahorro."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         }
@@ -635,172 +632,171 @@
       "quiz": [
         {
           "id": "m4-q1",
-          "question": "Pregunta 1: ¿que conviene hacer al trabajar ",
+          "question": "Cual es la mejor forma de empezar el modulo \"Tablas, datos y pequenas operaciones\"?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Definir el caso, el usuario afectado y la evidencia que se va a revisar.",
+            "Copiar una solucion completa sin probarla.",
+            "Esperar a tener una herramienta perfecta antes de practicar.",
+            "Elegir la opcion mas vistosa aunque no resuelva el problema."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: el modulo se vuelve util cuando parte de un caso y de evidencia verificable."
         },
         {
           "id": "m4-q2",
-          "question": "Pregunta 2: ¿que conviene hacer al trabajar ",
+          "question": "Que evidencia sirve para cerrar \"Tablas, datos y pequenas operaciones\" sin depender de opiniones?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "tabla de prueba con cambios, supuestos y validacion",
+            "Una captura sin contexto.",
+            "Una frase como 'parece estar bien'.",
+            "La cantidad de colores o iconos usados."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: tabla de prueba con cambios, supuestos y validacion permite revisar el resultado despues."
         },
         {
           "id": "m4-q3",
-          "question": "Pregunta 3: ¿que conviene hacer al trabajar ",
+          "question": "Que conducta aumenta el riesgo durante la practica?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Procesar datos reales sensibles en herramientas no evaluadas.",
+            "Trabajar con datos simulados.",
+            "Anotar dudas antes de publicar o aplicar.",
+            "Probar en una version pequena."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: esa conducta elimina control y puede producir errores reales."
         },
         {
           "id": "m4-q4",
-          "question": "Pregunta 4: ¿que conviene hacer al trabajar ",
+          "question": "Cuando conviene pedir ayuda o validar con una fuente externa?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Cuando hay datos personales, financieros, laborales o confidenciales.",
+            "Nunca, porque el ejercicio es suficiente para cualquier caso.",
+            "Solo despues de borrar la evidencia.",
+            "Cuando el resultado se ve agradable visualmente."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: validar a tiempo evita decisiones inseguras o incompletas."
         },
         {
           "id": "m4-q5",
-          "question": "Pregunta 5: ¿que conviene hacer al trabajar ",
+          "question": "Cual es el entregable minimo del modulo \"Tablas, datos y pequenas operaciones\"?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "procedimiento de limpieza asistida",
+            "Un resumen sin prueba.",
+            "Una lista de ideas sueltas.",
+            "Un archivo final sin explicar cambios."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: procedimiento de limpieza asistida deja avance verificable."
         }
-      ],
-      "professionalOutcome": "detectar tareas automatizables, crear flujos pequenos y mantener control humano. Entregable sugerido: un flujo documentado con entrada, proceso, salida, control y limite de uso."
+      ]
     },
     {
       "id": "m5",
-      "title": "Datos y planillas",
-      "description": "En este módulo vas a trabajar \"Datos y planillas\" dentro de automatización responsable de tareas simples con IA, plantillas y revisión humana. La meta es practicar una situación realista, reconocer el riesgo principal y cerrar con una evidencia útil para revisar.",
-      "learningRisk": "Punto clave",
+      "title": "Flujos no-code y aprobaciones",
+      "description": "Conectar pasos entre herramientas manteniendo control de errores, permisos y aprobaciones.",
+      "learningRisk": "Practicar sin evidencia deja una mejora dificil de sostener.",
       "lessons": [
         {
           "id": "m5-l1",
-          "title": "Limpieza asistida",
-          "keyIdea": "Idea clave: Limpieza asistida ayuda a ordenar una situación concreta, tomar una decisión más segura y dejar evidencia revisable.",
-          "shortTheory": "En esta lección vas a trabajar \"Limpieza asistida\" dentro del módulo \"Datos y planillas\". La prioridad es entender qué problema resuelve, qué datos o pasos conviene revisar y cómo saber si la acción fue suficiente.",
-          "practicalExample": "Una persona detecta una tarea repetida y quiere convertirla en un flujo pequeño con pasos claros y control final. Aplicá \"Limpieza asistida\" con una versión breve: anotá contexto, paso principal, control de seguridad y evidencia antes de avanzar.",
-          "commonMistake": "El error común es actuar rápido sin registrar contexto, usar una solución genérica o no revisar permisos, fuentes o consecuencias. Una práctica más profesional empieza chica, verifica y documenta.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí contexto, objetivo, acción principal, control y evidencia. Entrega esperada: un mapa de automatización con tarea, entrada, salida, herramienta, revisión humana y riesgo.",
-          "alert": "No automatizar decisiones sensibles, datos personales o respuestas criticas sin supervision humana.",
+          "title": "Disparadores",
+          "keyIdea": "Un flujo empieza por evento: formulario, correo, fila nueva o horario.",
+          "shortTheory": "En esta leccion se trabaja disparadores dentro de flujos no-code y aprobaciones. La meta es reconocer el problema real, tomar una decision simple y comprobarla con el flujo tiene punto de inicio, salida, control de error y responsable.",
+          "practicalExample": "Un equipo copia datos entre correos, planillas y mensajes, y quiere ahorrar tiempo sin exponer informacion sensible. Practica disparadores sobre ese caso, compara una version inicial con una version corregida y registra diagrama de flujo con disparador, acciones, validaciones y fallback.",
+          "commonMistake": "No saber que evento activo la automatizacion.",
+          "whatToDoNow": "Define disparador para seguimiento de consultas.",
+          "alert": "Automatizar sin fallback convierte un error chico en error repetido.",
           "keyPoints": [
-            "Limpieza asistida debe terminar en una decisión, acción o registro concreto.",
-            "Una práctica pequeña y verificable es mejor que una solución amplia sin control.",
-            "La evidencia mínima esperada es: un mapa de automatización con tarea, entrada, salida, herramienta, revisión humana y riesgo.",
-            "El resultado debe poder explicarse y revisarse sin depender de memoria o intuición."
+            "Disparadores debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: el flujo tiene punto de inicio, salida, control de error y responsable.",
+            "Evidencia minima: diagrama de flujo con disparador, acciones, validaciones y fallback.",
+            "Relacion con el proyecto final: flujo automatizado documentado con entrada, salida, control humano, riesgos y metrica de ahorro."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m5-l2",
-          "title": "Clasificacion",
-          "keyIdea": "Idea clave: Clasificacion ayuda a ordenar una situación concreta, tomar una decisión más segura y dejar evidencia revisable.",
-          "shortTheory": "En esta lección vas a trabajar \"Clasificacion\" dentro del módulo \"Datos y planillas\". La prioridad es entender qué problema resuelve, qué datos o pasos conviene revisar y cómo saber si la acción fue suficiente.",
-          "practicalExample": "Una persona detecta una tarea repetida y quiere convertirla en un flujo pequeño con pasos claros y control final. Aplicá \"Clasificacion\" con una versión breve: anotá contexto, paso principal, control de seguridad y evidencia antes de avanzar.",
-          "commonMistake": "El error común es actuar rápido sin registrar contexto, usar una solución genérica o no revisar permisos, fuentes o consecuencias. Una práctica más profesional empieza chica, verifica y documenta.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí contexto, objetivo, acción principal, control y evidencia. Entrega esperada: un mapa de automatización con tarea, entrada, salida, herramienta, revisión humana y riesgo.",
-          "alert": "No automatizar decisiones sensibles, datos personales o respuestas criticas sin supervision humana.",
+          "title": "Acciones encadenadas",
+          "keyIdea": "Cada accion debe recibir datos correctos del paso anterior.",
+          "shortTheory": "En esta leccion se trabaja acciones encadenadas dentro de flujos no-code y aprobaciones. La meta es reconocer el problema real, tomar una decision simple y comprobarla con el flujo tiene punto de inicio, salida, control de error y responsable.",
+          "practicalExample": "Un equipo copia datos entre correos, planillas y mensajes, y quiere ahorrar tiempo sin exponer informacion sensible. Practica acciones encadenadas sobre ese caso, compara una version inicial con una version corregida y registra diagrama de flujo con disparador, acciones, validaciones y fallback.",
+          "commonMistake": "Conectar campos sin verificar nombres.",
+          "whatToDoNow": "Dibuja tres acciones: recibir, clasificar, avisar.",
+          "alert": "Automatizar sin fallback convierte un error chico en error repetido.",
           "keyPoints": [
-            "Clasificacion debe terminar en una decisión, acción o registro concreto.",
-            "Una práctica pequeña y verificable es mejor que una solución amplia sin control.",
-            "La evidencia mínima esperada es: un mapa de automatización con tarea, entrada, salida, herramienta, revisión humana y riesgo.",
-            "El resultado debe poder explicarse y revisarse sin depender de memoria o intuición."
+            "Acciones encadenadas debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: el flujo tiene punto de inicio, salida, control de error y responsable.",
+            "Evidencia minima: diagrama de flujo con disparador, acciones, validaciones y fallback.",
+            "Relacion con el proyecto final: flujo automatizado documentado con entrada, salida, control humano, riesgos y metrica de ahorro."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m5-l3",
-          "title": "Validaciones",
-          "keyIdea": "Idea clave: Validaciones ayuda a ordenar una situación concreta, tomar una decisión más segura y dejar evidencia revisable.",
-          "shortTheory": "En esta lección vas a trabajar \"Validaciones\" dentro del módulo \"Datos y planillas\". La prioridad es entender qué problema resuelve, qué datos o pasos conviene revisar y cómo saber si la acción fue suficiente.",
-          "practicalExample": "Una persona detecta una tarea repetida y quiere convertirla en un flujo pequeño con pasos claros y control final. Aplicá \"Validaciones\" con una versión breve: anotá contexto, paso principal, control de seguridad y evidencia antes de avanzar.",
-          "commonMistake": "El error común es actuar rápido sin registrar contexto, usar una solución genérica o no revisar permisos, fuentes o consecuencias. Una práctica más profesional empieza chica, verifica y documenta.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí contexto, objetivo, acción principal, control y evidencia. Entrega esperada: un mapa de automatización con tarea, entrada, salida, herramienta, revisión humana y riesgo.",
-          "alert": "No automatizar decisiones sensibles, datos personales o respuestas criticas sin supervision humana.",
+          "title": "Aprobacion humana",
+          "keyIdea": "Algunas salidas deben esperar revision antes de enviarse.",
+          "shortTheory": "En esta leccion se trabaja aprobacion humana dentro de flujos no-code y aprobaciones. La meta es reconocer el problema real, tomar una decision simple y comprobarla con el flujo tiene punto de inicio, salida, control de error y responsable.",
+          "practicalExample": "Un equipo copia datos entre correos, planillas y mensajes, y quiere ahorrar tiempo sin exponer informacion sensible. Practica aprobacion humana sobre ese caso, compara una version inicial con una version corregida y registra diagrama de flujo con disparador, acciones, validaciones y fallback.",
+          "commonMistake": "Enviar automatico a clientes sin revision.",
+          "whatToDoNow": "Agrega paso de aprobar borrador.",
+          "alert": "Automatizar sin fallback convierte un error chico en error repetido.",
           "keyPoints": [
-            "Validaciones debe terminar en una decisión, acción o registro concreto.",
-            "Una práctica pequeña y verificable es mejor que una solución amplia sin control.",
-            "La evidencia mínima esperada es: un mapa de automatización con tarea, entrada, salida, herramienta, revisión humana y riesgo.",
-            "El resultado debe poder explicarse y revisarse sin depender de memoria o intuición."
+            "Aprobacion humana debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: el flujo tiene punto de inicio, salida, control de error y responsable.",
+            "Evidencia minima: diagrama de flujo con disparador, acciones, validaciones y fallback.",
+            "Relacion con el proyecto final: flujo automatizado documentado con entrada, salida, control humano, riesgos y metrica de ahorro."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m5-l4",
-          "title": "Errores frecuentes",
-          "keyIdea": "Idea clave: Errores frecuentes ayuda a ordenar una situación concreta, tomar una decisión más segura y dejar evidencia revisable.",
-          "shortTheory": "En esta lección vas a trabajar \"Errores frecuentes\" dentro del módulo \"Datos y planillas\". La prioridad es entender qué problema resuelve, qué datos o pasos conviene revisar y cómo saber si la acción fue suficiente.",
-          "practicalExample": "Una persona detecta una tarea repetida y quiere convertirla en un flujo pequeño con pasos claros y control final. Aplicá \"Errores frecuentes\" con una versión breve: anotá contexto, paso principal, control de seguridad y evidencia antes de avanzar.",
-          "commonMistake": "El error común es actuar rápido sin registrar contexto, usar una solución genérica o no revisar permisos, fuentes o consecuencias. Una práctica más profesional empieza chica, verifica y documenta.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí contexto, objetivo, acción principal, control y evidencia. Entrega esperada: un mapa de automatización con tarea, entrada, salida, herramienta, revisión humana y riesgo.",
-          "alert": "No automatizar decisiones sensibles, datos personales o respuestas criticas sin supervision humana.",
+          "title": "Pruebas con muestra",
+          "keyIdea": "Un flujo se prueba con pocos casos antes de operar.",
+          "shortTheory": "En esta leccion se trabaja pruebas con muestra dentro de flujos no-code y aprobaciones. La meta es reconocer el problema real, tomar una decision simple y comprobarla con el flujo tiene punto de inicio, salida, control de error y responsable.",
+          "practicalExample": "Un equipo copia datos entre correos, planillas y mensajes, y quiere ahorrar tiempo sin exponer informacion sensible. Practica pruebas con muestra sobre ese caso, compara una version inicial con una version corregida y registra diagrama de flujo con disparador, acciones, validaciones y fallback.",
+          "commonMistake": "Activar en produccion con datos reales de entrada.",
+          "whatToDoNow": "Prepara tres casos: normal, incompleto y error.",
+          "alert": "Automatizar sin fallback convierte un error chico en error repetido.",
           "keyPoints": [
-            "Errores frecuentes debe terminar en una decisión, acción o registro concreto.",
-            "Una práctica pequeña y verificable es mejor que una solución amplia sin control.",
-            "La evidencia mínima esperada es: un mapa de automatización con tarea, entrada, salida, herramienta, revisión humana y riesgo.",
-            "El resultado debe poder explicarse y revisarse sin depender de memoria o intuición."
+            "Pruebas con muestra debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: el flujo tiene punto de inicio, salida, control de error y responsable.",
+            "Evidencia minima: diagrama de flujo con disparador, acciones, validaciones y fallback.",
+            "Relacion con el proyecto final: flujo automatizado documentado con entrada, salida, control humano, riesgos y metrica de ahorro."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m5-l5",
-          "title": "Muestras",
-          "keyIdea": "Idea clave: Muestras ayuda a ordenar una situación concreta, tomar una decisión más segura y dejar evidencia revisable.",
-          "shortTheory": "En esta lección vas a trabajar \"Muestras\" dentro del módulo \"Datos y planillas\". La prioridad es entender qué problema resuelve, qué datos o pasos conviene revisar y cómo saber si la acción fue suficiente.",
-          "practicalExample": "Una persona detecta una tarea repetida y quiere convertirla en un flujo pequeño con pasos claros y control final. Aplicá \"Muestras\" con una versión breve: anotá contexto, paso principal, control de seguridad y evidencia antes de avanzar.",
-          "commonMistake": "El error común es actuar rápido sin registrar contexto, usar una solución genérica o no revisar permisos, fuentes o consecuencias. Una práctica más profesional empieza chica, verifica y documenta.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí contexto, objetivo, acción principal, control y evidencia. Entrega esperada: un mapa de automatización con tarea, entrada, salida, herramienta, revisión humana y riesgo.",
-          "alert": "No automatizar decisiones sensibles, datos personales o respuestas criticas sin supervision humana.",
+          "title": "Manejo de errores",
+          "keyIdea": "Debe quedar claro que pasa si falta un dato o falla una herramienta.",
+          "shortTheory": "En esta leccion se trabaja manejo de errores dentro de flujos no-code y aprobaciones. La meta es reconocer el problema real, tomar una decision simple y comprobarla con el flujo tiene punto de inicio, salida, control de error y responsable.",
+          "practicalExample": "Un equipo copia datos entre correos, planillas y mensajes, y quiere ahorrar tiempo sin exponer informacion sensible. Practica manejo de errores sobre ese caso, compara una version inicial con una version corregida y registra diagrama de flujo con disparador, acciones, validaciones y fallback.",
+          "commonMistake": "Reintentar indefinidamente sin aviso.",
+          "whatToDoNow": "Define mensaje de error y responsable.",
+          "alert": "Automatizar sin fallback convierte un error chico en error repetido.",
           "keyPoints": [
-            "Muestras debe terminar en una decisión, acción o registro concreto.",
-            "Una práctica pequeña y verificable es mejor que una solución amplia sin control.",
-            "La evidencia mínima esperada es: un mapa de automatización con tarea, entrada, salida, herramienta, revisión humana y riesgo.",
-            "El resultado debe poder explicarse y revisarse sin depender de memoria o intuición."
+            "Manejo de errores debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: el flujo tiene punto de inicio, salida, control de error y responsable.",
+            "Evidencia minima: diagrama de flujo con disparador, acciones, validaciones y fallback.",
+            "Relacion con el proyecto final: flujo automatizado documentado con entrada, salida, control humano, riesgos y metrica de ahorro."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m5-l6",
-          "title": "Control manual",
-          "keyIdea": "Idea clave: Control manual ayuda a ordenar una situación concreta, tomar una decisión más segura y dejar evidencia revisable.",
-          "shortTheory": "En esta lección vas a trabajar \"Control manual\" dentro del módulo \"Datos y planillas\". La prioridad es entender qué problema resuelve, qué datos o pasos conviene revisar y cómo saber si la acción fue suficiente.",
-          "practicalExample": "Una persona detecta una tarea repetida y quiere convertirla en un flujo pequeño con pasos claros y control final. Aplicá \"Control manual\" con una versión breve: anotá contexto, paso principal, control de seguridad y evidencia antes de avanzar.",
-          "commonMistake": "El error común es actuar rápido sin registrar contexto, usar una solución genérica o no revisar permisos, fuentes o consecuencias. Una práctica más profesional empieza chica, verifica y documenta.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí contexto, objetivo, acción principal, control y evidencia. Entrega esperada: un mapa de automatización con tarea, entrada, salida, herramienta, revisión humana y riesgo.",
-          "alert": "No automatizar decisiones sensibles, datos personales o respuestas criticas sin supervision humana.",
+          "title": "Permisos de herramientas",
+          "keyIdea": "El flujo solo debe tener permisos necesarios.",
+          "shortTheory": "En esta leccion se trabaja permisos de herramientas dentro de flujos no-code y aprobaciones. La meta es reconocer el problema real, tomar una decision simple y comprobarla con el flujo tiene punto de inicio, salida, control de error y responsable.",
+          "practicalExample": "Un equipo copia datos entre correos, planillas y mensajes, y quiere ahorrar tiempo sin exponer informacion sensible. Practica permisos de herramientas sobre ese caso, compara una version inicial con una version corregida y registra diagrama de flujo con disparador, acciones, validaciones y fallback.",
+          "commonMistake": "Usar cuenta personal con acceso total.",
+          "whatToDoNow": "Lista cuentas y permisos que necesita un prototipo.",
+          "alert": "Automatizar sin fallback convierte un error chico en error repetido.",
           "keyPoints": [
-            "Control manual debe terminar en una decisión, acción o registro concreto.",
-            "Una práctica pequeña y verificable es mejor que una solución amplia sin control.",
-            "La evidencia mínima esperada es: un mapa de automatización con tarea, entrada, salida, herramienta, revisión humana y riesgo.",
-            "El resultado debe poder explicarse y revisarse sin depender de memoria o intuición."
+            "Permisos de herramientas debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: el flujo tiene punto de inicio, salida, control de error y responsable.",
+            "Evidencia minima: diagrama de flujo con disparador, acciones, validaciones y fallback.",
+            "Relacion con el proyecto final: flujo automatizado documentado con entrada, salida, control humano, riesgos y metrica de ahorro."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         }
@@ -808,172 +804,171 @@
       "quiz": [
         {
           "id": "m5-q1",
-          "question": "Pregunta 1: ¿que conviene hacer al trabajar ",
+          "question": "Cual es la mejor forma de empezar el modulo \"Flujos no-code y aprobaciones\"?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Definir el caso, el usuario afectado y la evidencia que se va a revisar.",
+            "Copiar una solucion completa sin probarla.",
+            "Esperar a tener una herramienta perfecta antes de practicar.",
+            "Elegir la opcion mas vistosa aunque no resuelva el problema."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: el modulo se vuelve util cuando parte de un caso y de evidencia verificable."
         },
         {
           "id": "m5-q2",
-          "question": "Pregunta 2: ¿que conviene hacer al trabajar ",
+          "question": "Que evidencia sirve para cerrar \"Flujos no-code y aprobaciones\" sin depender de opiniones?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "diagrama de flujo con disparador, acciones, validaciones y fallback",
+            "Una captura sin contexto.",
+            "Una frase como 'parece estar bien'.",
+            "La cantidad de colores o iconos usados."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: diagrama de flujo con disparador, acciones, validaciones y fallback permite revisar el resultado despues."
         },
         {
           "id": "m5-q3",
-          "question": "Pregunta 3: ¿que conviene hacer al trabajar ",
+          "question": "Que conducta aumenta el riesgo durante la practica?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Conectar cuentas reales sin probar con datos de ejemplo.",
+            "Trabajar con datos simulados.",
+            "Anotar dudas antes de publicar o aplicar.",
+            "Probar en una version pequena."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: esa conducta elimina control y puede producir errores reales."
         },
         {
           "id": "m5-q4",
-          "question": "Pregunta 4: ¿que conviene hacer al trabajar ",
+          "question": "Cuando conviene pedir ayuda o validar con una fuente externa?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Cuando el flujo envia mensajes, modifica bases, cobra, publica o borra archivos.",
+            "Nunca, porque el ejercicio es suficiente para cualquier caso.",
+            "Solo despues de borrar la evidencia.",
+            "Cuando el resultado se ve agradable visualmente."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: validar a tiempo evita decisiones inseguras o incompletas."
         },
         {
           "id": "m5-q5",
-          "question": "Pregunta 5: ¿que conviene hacer al trabajar ",
+          "question": "Cual es el entregable minimo del modulo \"Flujos no-code y aprobaciones\"?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "prototipo de flujo automatizado",
+            "Un resumen sin prueba.",
+            "Una lista de ideas sueltas.",
+            "Un archivo final sin explicar cambios."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: prototipo de flujo automatizado deja avance verificable."
         }
-      ],
-      "professionalOutcome": "detectar tareas automatizables, crear flujos pequenos y mantener control humano. Entregable sugerido: un flujo documentado con entrada, proceso, salida, control y limite de uso."
+      ]
     },
     {
       "id": "m6",
-      "title": "Seguridad y mejora",
-      "description": "En este módulo vas a trabajar \"Seguridad y mejora\" dentro de automatización responsable de tareas simples con IA, plantillas y revisión humana. La meta es practicar una situación realista, reconocer el riesgo principal y cerrar con una evidencia útil para revisar.",
-      "learningRisk": "Punto clave",
+      "title": "Gobierno, medicion y mantenimiento",
+      "description": "Documentar, medir, revisar y retirar automatizaciones cuando ya no sirven.",
+      "learningRisk": "Practicar sin evidencia deja una mejora dificil de sostener.",
       "lessons": [
         {
           "id": "m6-l1",
-          "title": "Datos sensibles",
-          "keyIdea": "Idea clave: Datos sensibles ayuda a ordenar una situación concreta, tomar una decisión más segura y dejar evidencia revisable.",
-          "shortTheory": "En esta lección vas a trabajar \"Datos sensibles\" dentro del módulo \"Seguridad y mejora\". La prioridad es entender qué problema resuelve, qué datos o pasos conviene revisar y cómo saber si la acción fue suficiente.",
-          "practicalExample": "Una persona detecta una tarea repetida y quiere convertirla en un flujo pequeño con pasos claros y control final. Aplicá \"Datos sensibles\" con una versión breve: anotá contexto, paso principal, control de seguridad y evidencia antes de avanzar.",
-          "commonMistake": "El error común es actuar rápido sin registrar contexto, usar una solución genérica o no revisar permisos, fuentes o consecuencias. Una práctica más profesional empieza chica, verifica y documenta.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí contexto, objetivo, acción principal, control y evidencia. Entrega esperada: un mapa de automatización con tarea, entrada, salida, herramienta, revisión humana y riesgo.",
-          "alert": "No automatizar decisiones sensibles, datos personales o respuestas criticas sin supervision humana.",
+          "title": "Dueno del flujo",
+          "keyIdea": "Toda automatizacion necesita responsable.",
+          "shortTheory": "En esta leccion se trabaja dueno del flujo dentro de gobierno, medicion y mantenimiento. La meta es reconocer el problema real, tomar una decision simple y comprobarla con la automatizacion puede mantenerse sin depender de una sola persona.",
+          "practicalExample": "Un equipo copia datos entre correos, planillas y mensajes, y quiere ahorrar tiempo sin exponer informacion sensible. Practica dueno del flujo sobre ese caso, compara una version inicial con una version corregida y registra ficha de automatizacion con dueno, version, metrica y revision.",
+          "commonMistake": "Crear flujos desde cuentas personales sin dueno.",
+          "whatToDoNow": "Asigna dueno, suplente y canal de aviso.",
+          "alert": "Una automatizacion abandonada puede seguir cometiendo errores.",
           "keyPoints": [
-            "Datos sensibles debe terminar en una decisión, acción o registro concreto.",
-            "Una práctica pequeña y verificable es mejor que una solución amplia sin control.",
-            "La evidencia mínima esperada es: un mapa de automatización con tarea, entrada, salida, herramienta, revisión humana y riesgo.",
-            "El resultado debe poder explicarse y revisarse sin depender de memoria o intuición."
+            "Dueno del flujo debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: la automatizacion puede mantenerse sin depender de una sola persona.",
+            "Evidencia minima: ficha de automatizacion con dueno, version, metrica y revision.",
+            "Relacion con el proyecto final: flujo automatizado documentado con entrada, salida, control humano, riesgos y metrica de ahorro."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m6-l2",
-          "title": "Trazabilidad",
-          "keyIdea": "Idea clave: Trazabilidad ayuda a ordenar una situación concreta, tomar una decisión más segura y dejar evidencia revisable.",
-          "shortTheory": "En esta lección vas a trabajar \"Trazabilidad\" dentro del módulo \"Seguridad y mejora\". La prioridad es entender qué problema resuelve, qué datos o pasos conviene revisar y cómo saber si la acción fue suficiente.",
-          "practicalExample": "Una persona detecta una tarea repetida y quiere convertirla en un flujo pequeño con pasos claros y control final. Aplicá \"Trazabilidad\" con una versión breve: anotá contexto, paso principal, control de seguridad y evidencia antes de avanzar.",
-          "commonMistake": "El error común es actuar rápido sin registrar contexto, usar una solución genérica o no revisar permisos, fuentes o consecuencias. Una práctica más profesional empieza chica, verifica y documenta.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí contexto, objetivo, acción principal, control y evidencia. Entrega esperada: un mapa de automatización con tarea, entrada, salida, herramienta, revisión humana y riesgo.",
-          "alert": "No automatizar decisiones sensibles, datos personales o respuestas criticas sin supervision humana.",
+          "title": "Documentacion minima",
+          "keyIdea": "La ficha debe explicar objetivo, entrada, salida, permisos y fallback.",
+          "shortTheory": "En esta leccion se trabaja documentacion minima dentro de gobierno, medicion y mantenimiento. La meta es reconocer el problema real, tomar una decision simple y comprobarla con la automatizacion puede mantenerse sin depender de una sola persona.",
+          "practicalExample": "Un equipo copia datos entre correos, planillas y mensajes, y quiere ahorrar tiempo sin exponer informacion sensible. Practica documentacion minima sobre ese caso, compara una version inicial con una version corregida y registra ficha de automatizacion con dueno, version, metrica y revision.",
+          "commonMistake": "Depender de memoria de quien lo creo.",
+          "whatToDoNow": "Completa ficha de un flujo simple.",
+          "alert": "Una automatizacion abandonada puede seguir cometiendo errores.",
           "keyPoints": [
-            "Trazabilidad debe terminar en una decisión, acción o registro concreto.",
-            "Una práctica pequeña y verificable es mejor que una solución amplia sin control.",
-            "La evidencia mínima esperada es: un mapa de automatización con tarea, entrada, salida, herramienta, revisión humana y riesgo.",
-            "El resultado debe poder explicarse y revisarse sin depender de memoria o intuición."
+            "Documentacion minima debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: la automatizacion puede mantenerse sin depender de una sola persona.",
+            "Evidencia minima: ficha de automatizacion con dueno, version, metrica y revision.",
+            "Relacion con el proyecto final: flujo automatizado documentado con entrada, salida, control humano, riesgos y metrica de ahorro."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m6-l3",
-          "title": "Versiones",
-          "keyIdea": "Idea clave: Versiones ayuda a ordenar una situación concreta, tomar una decisión más segura y dejar evidencia revisable.",
-          "shortTheory": "En esta lección vas a trabajar \"Versiones\" dentro del módulo \"Seguridad y mejora\". La prioridad es entender qué problema resuelve, qué datos o pasos conviene revisar y cómo saber si la acción fue suficiente.",
-          "practicalExample": "Una persona detecta una tarea repetida y quiere convertirla en un flujo pequeño con pasos claros y control final. Aplicá \"Versiones\" con una versión breve: anotá contexto, paso principal, control de seguridad y evidencia antes de avanzar.",
-          "commonMistake": "El error común es actuar rápido sin registrar contexto, usar una solución genérica o no revisar permisos, fuentes o consecuencias. Una práctica más profesional empieza chica, verifica y documenta.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí contexto, objetivo, acción principal, control y evidencia. Entrega esperada: un mapa de automatización con tarea, entrada, salida, herramienta, revisión humana y riesgo.",
-          "alert": "No automatizar decisiones sensibles, datos personales o respuestas criticas sin supervision humana.",
+          "title": "Metricas de valor",
+          "keyIdea": "Se mide tiempo ahorrado, errores, retrabajo y satisfaccion.",
+          "shortTheory": "En esta leccion se trabaja metricas de valor dentro de gobierno, medicion y mantenimiento. La meta es reconocer el problema real, tomar una decision simple y comprobarla con la automatizacion puede mantenerse sin depender de una sola persona.",
+          "practicalExample": "Un equipo copia datos entre correos, planillas y mensajes, y quiere ahorrar tiempo sin exponer informacion sensible. Practica metricas de valor sobre ese caso, compara una version inicial con una version corregida y registra ficha de automatizacion con dueno, version, metrica y revision.",
+          "commonMistake": "Medir solo cantidad de ejecuciones.",
+          "whatToDoNow": "Define antes/despues para una tarea.",
+          "alert": "Una automatizacion abandonada puede seguir cometiendo errores.",
           "keyPoints": [
-            "Versiones debe terminar en una decisión, acción o registro concreto.",
-            "Una práctica pequeña y verificable es mejor que una solución amplia sin control.",
-            "La evidencia mínima esperada es: un mapa de automatización con tarea, entrada, salida, herramienta, revisión humana y riesgo.",
-            "El resultado debe poder explicarse y revisarse sin depender de memoria o intuición."
+            "Metricas de valor debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: la automatizacion puede mantenerse sin depender de una sola persona.",
+            "Evidencia minima: ficha de automatizacion con dueno, version, metrica y revision.",
+            "Relacion con el proyecto final: flujo automatizado documentado con entrada, salida, control humano, riesgos y metrica de ahorro."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m6-l4",
-          "title": "Aprobaciones",
-          "keyIdea": "Idea clave: Aprobaciones ayuda a ordenar una situación concreta, tomar una decisión más segura y dejar evidencia revisable.",
-          "shortTheory": "En esta lección vas a trabajar \"Aprobaciones\" dentro del módulo \"Seguridad y mejora\". La prioridad es entender qué problema resuelve, qué datos o pasos conviene revisar y cómo saber si la acción fue suficiente.",
-          "practicalExample": "Una persona detecta una tarea repetida y quiere convertirla en un flujo pequeño con pasos claros y control final. Aplicá \"Aprobaciones\" con una versión breve: anotá contexto, paso principal, control de seguridad y evidencia antes de avanzar.",
-          "commonMistake": "El error común es actuar rápido sin registrar contexto, usar una solución genérica o no revisar permisos, fuentes o consecuencias. Una práctica más profesional empieza chica, verifica y documenta.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí contexto, objetivo, acción principal, control y evidencia. Entrega esperada: un mapa de automatización con tarea, entrada, salida, herramienta, revisión humana y riesgo.",
-          "alert": "No automatizar decisiones sensibles, datos personales o respuestas criticas sin supervision humana.",
+          "title": "Revision periodica",
+          "keyIdea": "Los procesos cambian; las automatizaciones tambien.",
+          "shortTheory": "En esta leccion se trabaja revision periodica dentro de gobierno, medicion y mantenimiento. La meta es reconocer el problema real, tomar una decision simple y comprobarla con la automatizacion puede mantenerse sin depender de una sola persona.",
+          "practicalExample": "Un equipo copia datos entre correos, planillas y mensajes, y quiere ahorrar tiempo sin exponer informacion sensible. Practica revision periodica sobre ese caso, compara una version inicial con una version corregida y registra ficha de automatizacion con dueno, version, metrica y revision.",
+          "commonMistake": "No revisar hasta que falle.",
+          "whatToDoNow": "Agenda revision mensual de prompts y flujos.",
+          "alert": "Una automatizacion abandonada puede seguir cometiendo errores.",
           "keyPoints": [
-            "Aprobaciones debe terminar en una decisión, acción o registro concreto.",
-            "Una práctica pequeña y verificable es mejor que una solución amplia sin control.",
-            "La evidencia mínima esperada es: un mapa de automatización con tarea, entrada, salida, herramienta, revisión humana y riesgo.",
-            "El resultado debe poder explicarse y revisarse sin depender de memoria o intuición."
+            "Revision periodica debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: la automatizacion puede mantenerse sin depender de una sola persona.",
+            "Evidencia minima: ficha de automatizacion con dueno, version, metrica y revision.",
+            "Relacion con el proyecto final: flujo automatizado documentado con entrada, salida, control humano, riesgos y metrica de ahorro."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m6-l5",
-          "title": "Medicion de tiempo",
-          "keyIdea": "Idea clave: Medicion de tiempo ayuda a ordenar una situación concreta, tomar una decisión más segura y dejar evidencia revisable.",
-          "shortTheory": "En esta lección vas a trabajar \"Medicion de tiempo\" dentro del módulo \"Seguridad y mejora\". La prioridad es entender qué problema resuelve, qué datos o pasos conviene revisar y cómo saber si la acción fue suficiente.",
-          "practicalExample": "Una persona detecta una tarea repetida y quiere convertirla en un flujo pequeño con pasos claros y control final. Aplicá \"Medicion de tiempo\" con una versión breve: anotá contexto, paso principal, control de seguridad y evidencia antes de avanzar.",
-          "commonMistake": "El error común es actuar rápido sin registrar contexto, usar una solución genérica o no revisar permisos, fuentes o consecuencias. Una práctica más profesional empieza chica, verifica y documenta.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí contexto, objetivo, acción principal, control y evidencia. Entrega esperada: un mapa de automatización con tarea, entrada, salida, herramienta, revisión humana y riesgo.",
-          "alert": "No automatizar decisiones sensibles, datos personales o respuestas criticas sin supervision humana.",
+          "title": "Control de cambios",
+          "keyIdea": "Versionar evita perder una configuracion que funcionaba.",
+          "shortTheory": "En esta leccion se trabaja control de cambios dentro de gobierno, medicion y mantenimiento. La meta es reconocer el problema real, tomar una decision simple y comprobarla con la automatizacion puede mantenerse sin depender de una sola persona.",
+          "practicalExample": "Un equipo copia datos entre correos, planillas y mensajes, y quiere ahorrar tiempo sin exponer informacion sensible. Practica control de cambios sobre ese caso, compara una version inicial con una version corregida y registra ficha de automatizacion con dueno, version, metrica y revision.",
+          "commonMistake": "Editar en caliente sin registro.",
+          "whatToDoNow": "Escribe historial v1, v2 y motivo de cambio.",
+          "alert": "Una automatizacion abandonada puede seguir cometiendo errores.",
           "keyPoints": [
-            "Medicion de tiempo debe terminar en una decisión, acción o registro concreto.",
-            "Una práctica pequeña y verificable es mejor que una solución amplia sin control.",
-            "La evidencia mínima esperada es: un mapa de automatización con tarea, entrada, salida, herramienta, revisión humana y riesgo.",
-            "El resultado debe poder explicarse y revisarse sin depender de memoria o intuición."
+            "Control de cambios debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: la automatizacion puede mantenerse sin depender de una sola persona.",
+            "Evidencia minima: ficha de automatizacion con dueno, version, metrica y revision.",
+            "Relacion con el proyecto final: flujo automatizado documentado con entrada, salida, control humano, riesgos y metrica de ahorro."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m6-l6",
-          "title": "Mejora continua",
-          "keyIdea": "Idea clave: Mejora continua ayuda a ordenar una situación concreta, tomar una decisión más segura y dejar evidencia revisable.",
-          "shortTheory": "En esta lección vas a trabajar \"Mejora continua\" dentro del módulo \"Seguridad y mejora\". La prioridad es entender qué problema resuelve, qué datos o pasos conviene revisar y cómo saber si la acción fue suficiente.",
-          "practicalExample": "Una persona detecta una tarea repetida y quiere convertirla en un flujo pequeño con pasos claros y control final. Aplicá \"Mejora continua\" con una versión breve: anotá contexto, paso principal, control de seguridad y evidencia antes de avanzar.",
-          "commonMistake": "El error común es actuar rápido sin registrar contexto, usar una solución genérica o no revisar permisos, fuentes o consecuencias. Una práctica más profesional empieza chica, verifica y documenta.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí contexto, objetivo, acción principal, control y evidencia. Entrega esperada: un mapa de automatización con tarea, entrada, salida, herramienta, revisión humana y riesgo.",
-          "alert": "No automatizar decisiones sensibles, datos personales o respuestas criticas sin supervision humana.",
+          "title": "Retirar automatizaciones",
+          "keyIdea": "Apagar tambien es parte del mantenimiento.",
+          "shortTheory": "En esta leccion se trabaja retirar automatizaciones dentro de gobierno, medicion y mantenimiento. La meta es reconocer el problema real, tomar una decision simple y comprobarla con la automatizacion puede mantenerse sin depender de una sola persona.",
+          "practicalExample": "Un equipo copia datos entre correos, planillas y mensajes, y quiere ahorrar tiempo sin exponer informacion sensible. Practica retirar automatizaciones sobre ese caso, compara una version inicial con una version corregida y registra ficha de automatizacion con dueno, version, metrica y revision.",
+          "commonMistake": "Dejar activo un flujo que ya no corresponde.",
+          "whatToDoNow": "Define criterios para pausar o retirar un flujo.",
+          "alert": "Una automatizacion abandonada puede seguir cometiendo errores.",
           "keyPoints": [
-            "Mejora continua debe terminar en una decisión, acción o registro concreto.",
-            "Una práctica pequeña y verificable es mejor que una solución amplia sin control.",
-            "La evidencia mínima esperada es: un mapa de automatización con tarea, entrada, salida, herramienta, revisión humana y riesgo.",
-            "El resultado debe poder explicarse y revisarse sin depender de memoria o intuición."
+            "Retirar automatizaciones debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: la automatizacion puede mantenerse sin depender de una sola persona.",
+            "Evidencia minima: ficha de automatizacion con dueno, version, metrica y revision.",
+            "Relacion con el proyecto final: flujo automatizado documentado con entrada, salida, control humano, riesgos y metrica de ahorro."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         }
@@ -981,76 +976,65 @@
       "quiz": [
         {
           "id": "m6-q1",
-          "question": "Pregunta 1: ¿que conviene hacer al trabajar ",
+          "question": "Cual es la mejor forma de empezar el modulo \"Gobierno, medicion y mantenimiento\"?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Definir el caso, el usuario afectado y la evidencia que se va a revisar.",
+            "Copiar una solucion completa sin probarla.",
+            "Esperar a tener una herramienta perfecta antes de practicar.",
+            "Elegir la opcion mas vistosa aunque no resuelva el problema."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: el modulo se vuelve util cuando parte de un caso y de evidencia verificable."
         },
         {
           "id": "m6-q2",
-          "question": "Pregunta 2: ¿que conviene hacer al trabajar ",
+          "question": "Que evidencia sirve para cerrar \"Gobierno, medicion y mantenimiento\" sin depender de opiniones?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "ficha de automatizacion con dueno, version, metrica y revision",
+            "Una captura sin contexto.",
+            "Una frase como 'parece estar bien'.",
+            "La cantidad de colores o iconos usados."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: ficha de automatizacion con dueno, version, metrica y revision permite revisar el resultado despues."
         },
         {
           "id": "m6-q3",
-          "question": "Pregunta 3: ¿que conviene hacer al trabajar ",
+          "question": "Que conducta aumenta el riesgo durante la practica?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Dejar flujos activos sin responsable ni revision.",
+            "Trabajar con datos simulados.",
+            "Anotar dudas antes de publicar o aplicar.",
+            "Probar en una version pequena."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: esa conducta elimina control y puede producir errores reales."
         },
         {
           "id": "m6-q4",
-          "question": "Pregunta 4: ¿que conviene hacer al trabajar ",
+          "question": "Cuando conviene pedir ayuda o validar con una fuente externa?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Cuando cambia una politica, herramienta, dato sensible o regulacion.",
+            "Nunca, porque el ejercicio es suficiente para cualquier caso.",
+            "Solo despues de borrar la evidencia.",
+            "Cuando el resultado se ve agradable visualmente."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: validar a tiempo evita decisiones inseguras o incompletas."
         },
         {
           "id": "m6-q5",
-          "question": "Pregunta 5: ¿que conviene hacer al trabajar ",
+          "question": "Cual es el entregable minimo del modulo \"Gobierno, medicion y mantenimiento\"?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "manual operativo de automatizacion",
+            "Un resumen sin prueba.",
+            "Una lista de ideas sueltas.",
+            "Un archivo final sin explicar cambios."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: manual operativo de automatizacion deja avance verificable."
         }
-      ],
-      "professionalOutcome": "detectar tareas automatizables, crear flujos pequenos y mantener control humano. Entregable sugerido: un flujo documentado con entrada, proceso, salida, control y limite de uso."
+      ]
     }
-  ],
-  "appName": "Automatizacion con IA para Tareas Repetitivas",
-  "professionalization": {
-    "tier": "curso-bandera-v1.0-beta",
-    "updatedAt": "2026-05-28",
-    "focus": "Profundizacion visible de lecciones, practicas, checklists y casos."
-  },
-  "editorialPolish": {
-    "secondFeaturedBatch": "2026-06-01",
-    "status": "public-facing-copy-polished"
-  }
+  ]
 }

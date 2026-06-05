@@ -30,15 +30,10 @@ El curso ahora cubre:
 
 ## Deuda real de contenido
 
-La auditoria encontro 32 cursos con patrones de contenido generico o repetido en `course_content.json`.
+La auditoria encontro originalmente 32 cursos con patrones de contenido generico o repetido en `course_content.json`.
 
-Cursos detectados:
+Pendientes actuales despues de UX/UI y tanda 1:
 
-- `accesibilidad_web_principiantes_v0_6_publica`
-- `alfabetizacion_digital_adultos_web_v0_6_publica`
-- `android_seguro_principiantes_v0_6_publica`
-- `atencion_cliente_whatsapp_redes_v0_6_publica`
-- `automatizacion_ia_tareas_v0_6_publica`
 - `calidad_datos_principiantes_v0_6_publica`
 - `ciudadano_digital_argentina_v0_6_publica`
 - `costos_precios_rentabilidad_v0_6_publica`
@@ -87,3 +82,15 @@ Cada tanda debe cerrar con:
 - casos/proyectos reales;
 - validacion de navegacion;
 - ZIP regenerado.
+
+## Tanda 1 de refuerzo
+
+Completada el 2026-06-04 con 5 cursos reforzados:
+
+- accesibilidad_web_principiantes_v0_6_publica: 6 modulos, 36 lecciones, 30 preguntas, 6 checklists y 8 casos guiados.
+- alfabetizacion_digital_adultos_web_v0_6_publica: 6 modulos, 36 lecciones, 30 preguntas, 6 checklists y 8 casos guiados.
+- android_seguro_principiantes_v0_6_publica: 6 modulos, 36 lecciones, 30 preguntas, 6 checklists y 8 casos guiados.
+- atencion_cliente_whatsapp_redes_v0_6_publica: 6 modulos, 36 lecciones, 30 preguntas, 6 checklists y 8 casos guiados.
+- automatizacion_ia_tareas_v0_6_publica: 6 modulos, 36 lecciones, 30 preguntas, 6 checklists y 8 casos guiados.
+
+Deuda de contenido generico despues de esta tanda: 27 cursos.

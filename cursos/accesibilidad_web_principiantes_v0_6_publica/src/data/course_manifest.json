@@ -1,11 +1,11 @@
 {
   "courseId": "accesibilidad-web-principiantes",
-  "templateVersion": "0.6-publica-profesional",
+  "templateVersion": "0.7-publica-profesional-tanda-1",
   "appName": "Accesibilidad Web para Principiantes",
   "shortName": "Accesibilidad Web",
-  "subtitle": "Curso practico para revisar sitios con criterio inclusivo: semantica, contraste, teclado, formularios y pruebas basicas.",
-  "description": "Aprende accesibilidad web desde lo concreto: detectar barreras, mejorar HTML, revisar contraste, navegar con teclado y probar formularios.",
-  "audience": "Principiantes de desarrollo web, docentes y creadores de sitios.",
+  "subtitle": "Barreras, HTML semantico, teclado, contraste, formularios y pruebas simples.",
+  "description": "Aprende a detectar barreras de accesibilidad, corregirlas con criterios verificables y documentar una mini auditoria web.",
+  "audience": "Principiantes de desarrollo web, docentes, creadores de sitios y equipos que publican contenidos digitales.",
   "category": "Desarrollo web",
   "status": "Publico profesional",
   "dataPaths": {
@@ -14,11 +14,12 @@
     "incidents": "src/data/incidents.json"
   },
   "labels": {
-    "modules": "Modulos",
-    "checklists": "Checklists",
-    "incidents": "Proyectos",
-    "emergency": "Practica rapida",
-    "certificate": "Constancia"
+    "modules": "Modulos de aprendizaje",
+    "checklists": "Checklists de aplicacion",
+    "incidents": "Casos guiados",
+    "emergency": "Ayuda rapida",
+    "certificate": "Constancia de avance",
+    "primaryAction": "Empezar curso"
   },
   "features": {
     "modules": true,
@@ -29,7 +30,9 @@
     "certificate": true,
     "publicProfessionalEdition": true,
     "requiresBackend": false,
-    "requiresLogin": false
+    "requiresLogin": false,
+    "reinforcedBatch1": true,
+    "publicationCandidate": true
   },
   "theme": {
     "accent": "#4fb6aa",
@@ -45,7 +48,7 @@
     "minimumSuggestedQuizAverage": 70,
     "notOfficialNotice": "Constancia educativa no oficial."
   },
-  "responsibleNotice": "Contenido educativo. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. No asumir que una pagina es accesible solo porque se ve bien en pantalla propia.",
+  "responsibleNotice": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar.",
   "publication": {
     "version": "0.6-publica-profesional",
     "status": "Publica profesional",
@@ -76,5 +79,19 @@
   "editorialPolish": {
     "fourthEditorialBatch": "2026-06-02",
     "status": "public-facing-copy-polished"
-  }
+  },
+  "cacheName": "accesibilidad_web_principiantes_v0_6_publica-cache-0.7-tanda-1",
+  "contentAudit": {
+    "status": "reforzado-tanda-1",
+    "date": "2026-06-04",
+    "modules": 6,
+    "lessons": 36,
+    "quizQuestions": 30,
+    "checklists": 6,
+    "cases": 8,
+    "notes": "Contenido reemplazado para reducir patrones genericos y mejorar practica aplicada."
+  },
+  "cloneNotes": [
+    "v0.7 tanda 1 reemplaza contenido generico por modulos, practicas, checklists y casos especificos."
+  ]
 }

@@ -1,441 +1,441 @@
 {
   "incidents": [
     {
-      "id": "no_encuentro_app",
-      "title": "Caso inicial controlado: Alfabetizacion Digital para Adultos",
-      "summary": "Practica aplicada para resolver una situacion de acompanamiento digital de adultos con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una guia de pasos clara y repetible sin exponer datos sensibles y con una decision verificable.",
+      "id": "alfa-case-1",
+      "title": "Mensaje que pide codigo de WhatsApp",
+      "summary": "Un supuesto familiar pide reenviar un codigo recibido por SMS.",
+      "severity": "Practica guiada",
+      "immediateGoal": "Detener la accion y proteger la cuenta.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una guia de pasos clara y repetible.",
-        "Revisar el resultado contra este criterio: otra persona puede seguir los pasos sin confundirse.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Definir que paso antes de actuar: pedido urgente de codigo.",
+        "Separar datos reales de datos simulados y evitar compartir informacion sensible.",
+        "Aplicar el criterio del curso: no compartir codigo, llamar por otro canal y revisar seguridad.",
+        "Registrar evidencia: captura del pedido ocultando datos sensibles.",
+        "Decidir la accion minima segura y quien debe validarla si el caso es real.",
+        "Cerrar con una nota breve: resultado, duda pendiente y siguiente control."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "capturas sin datos sensibles, una lista de pasos y una comprobacion final",
-        "Decision final y motivo"
+        "Consigna o descripcion del caso",
+        "captura del pedido ocultando datos sensibles",
+        "Decision tomada y motivo",
+        "Captura o registro sin datos sensibles",
+        "Proxima accion"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Enviar el codigo para ayudar rapido.",
+        "Usar datos privados en una practica educativa.",
+        "Aplicar una recomendacion sin revisar consecuencias.",
+        "Borrar evidencia antes de entender el problema.",
+        "Confundir ejemplo de practica con solucion definitiva."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Activar verificacion en dos pasos si corresponde.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Revisar si el caso se repite y convertirlo en checklist.",
+        "Pedir validacion externa si afecta cuentas, pagos, seguridad o derechos."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Cual es la mejor decision profesional en este caso?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Trabajar en una version controlada, guardar evidencia y validar antes de aplicar a un caso real.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: reduce riesgo y deja aprendizaje reutilizable."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Actuar rapido sin documentar porque el problema parece simple.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La falta de evidencia impide revisar errores y aprender."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Usar datos reales para que el ejercicio sea mas completo.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "En practicas educativas conviene usar datos simulados o anonimizados."
           }
         ]
       }
     },
     {
-      "id": "enviar_foto_whatsapp",
-      "title": "Caso con datos incompletos: Alfabetizacion Digital para Adultos",
-      "summary": "Practica aplicada para resolver una situacion de acompanamiento digital de adultos con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una guia de pasos clara y repetible sin exponer datos sensibles y con una decision verificable.",
+      "id": "alfa-case-2",
+      "title": "Turno perdido por no guardar comprobante",
+      "summary": "La persona cerro la pagina y no sabe fecha ni sede.",
+      "severity": "Practica guiada",
+      "immediateGoal": "Reconstruir evidencia y crear rutina de guardado.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una guia de pasos clara y repetible.",
-        "Revisar el resultado contra este criterio: otra persona puede seguir los pasos sin confundirse.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Definir que paso antes de actuar: cierre de pantalla sin captura.",
+        "Separar datos reales de datos simulados y evitar compartir informacion sensible.",
+        "Aplicar el criterio del curso: buscar correo, historial o cuenta y anotar datos.",
+        "Registrar evidencia: correo de confirmacion o captura recuperada.",
+        "Decidir la accion minima segura y quien debe validarla si el caso es real.",
+        "Cerrar con una nota breve: resultado, duda pendiente y siguiente control."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "capturas sin datos sensibles, una lista de pasos y una comprobacion final",
-        "Decision final y motivo"
+        "Consigna o descripcion del caso",
+        "correo de confirmacion o captura recuperada",
+        "Decision tomada y motivo",
+        "Captura o registro sin datos sensibles",
+        "Proxima accion"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Sacar otro turno sin revisar si ya habia uno.",
+        "Usar datos privados en una practica educativa.",
+        "Aplicar una recomendacion sin revisar consecuencias.",
+        "Borrar evidencia antes de entender el problema.",
+        "Confundir ejemplo de practica con solucion definitiva."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Guardar comprobantes con nombre claro.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Revisar si el caso se repite y convertirlo en checklist.",
+        "Pedir validacion externa si afecta cuentas, pagos, seguridad o derechos."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Cual es la mejor decision profesional en este caso?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Trabajar en una version controlada, guardar evidencia y validar antes de aplicar a un caso real.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: reduce riesgo y deja aprendizaje reutilizable."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Actuar rapido sin documentar porque el problema parece simple.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La falta de evidencia impide revisar errores y aprender."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Usar datos reales para que el ejercicio sea mas completo.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "En practicas educativas conviene usar datos simulados o anonimizados."
           }
         ]
       }
     },
     {
-      "id": "link_dudoso",
-      "title": "Caso con presion de tiempo: Alfabetizacion Digital para Adultos",
-      "summary": "Practica aplicada para resolver una situacion de acompanamiento digital de adultos con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una guia de pasos clara y repetible sin exponer datos sensibles y con una decision verificable.",
+      "id": "alfa-case-3",
+      "title": "Correo falso de banco",
+      "summary": "Llega un correo con logo que pide actualizar clave.",
+      "severity": "Practica guiada",
+      "immediateGoal": "Reconocer senales de phishing.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una guia de pasos clara y repetible.",
-        "Revisar el resultado contra este criterio: otra persona puede seguir los pasos sin confundirse.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Definir que paso antes de actuar: enlace con urgencia y pedido de clave.",
+        "Separar datos reales de datos simulados y evitar compartir informacion sensible.",
+        "Aplicar el criterio del curso: no abrir enlace, verificar desde app o sitio escrito manualmente.",
+        "Registrar evidencia: remitente, asunto y enlace sospechoso.",
+        "Decidir la accion minima segura y quien debe validarla si el caso es real.",
+        "Cerrar con una nota breve: resultado, duda pendiente y siguiente control."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "capturas sin datos sensibles, una lista de pasos y una comprobacion final",
-        "Decision final y motivo"
+        "Consigna o descripcion del caso",
+        "remitente, asunto y enlace sospechoso",
+        "Decision tomada y motivo",
+        "Captura o registro sin datos sensibles",
+        "Proxima accion"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Confiar en el logo del correo.",
+        "Usar datos privados en una practica educativa.",
+        "Aplicar una recomendacion sin revisar consecuencias.",
+        "Borrar evidencia antes de entender el problema.",
+        "Confundir ejemplo de practica con solucion definitiva."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Crear regla: banco nunca pide clave por correo.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Revisar si el caso se repite y convertirlo en checklist.",
+        "Pedir validacion externa si afecta cuentas, pagos, seguridad o derechos."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Cual es la mejor decision profesional en este caso?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Trabajar en una version controlada, guardar evidencia y validar antes de aplicar a un caso real.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: reduce riesgo y deja aprendizaje reutilizable."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Actuar rapido sin documentar porque el problema parece simple.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La falta de evidencia impide revisar errores y aprender."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Usar datos reales para que el ejercicio sea mas completo.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "En practicas educativas conviene usar datos simulados o anonimizados."
           }
         ]
       }
     },
     {
-      "id": "no_entro_correo",
-      "title": "Caso de comunicacion con otra persona: Alfabetizacion Digital para Adultos",
-      "summary": "Practica aplicada para resolver una situacion de acompanamiento digital de adultos con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una guia de pasos clara y repetible sin exponer datos sensibles y con una decision verificable.",
+      "id": "alfa-case-4",
+      "title": "Foto de documento enviada al chat equivocado",
+      "summary": "Se envio una imagen sensible a un contacto incorrecto.",
+      "severity": "Practica guiada",
+      "immediateGoal": "Reducir exposicion y aprender revision previa.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una guia de pasos clara y repetible.",
-        "Revisar el resultado contra este criterio: otra persona puede seguir los pasos sin confundirse.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Definir que paso antes de actuar: envio apresurado de imagen.",
+        "Separar datos reales de datos simulados y evitar compartir informacion sensible.",
+        "Aplicar el criterio del curso: avisar, borrar si es posible y revisar que datos quedaron expuestos.",
+        "Registrar evidencia: registro del envio sin republicar la imagen.",
+        "Decidir la accion minima segura y quien debe validarla si el caso es real.",
+        "Cerrar con una nota breve: resultado, duda pendiente y siguiente control."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "capturas sin datos sensibles, una lista de pasos y una comprobacion final",
-        "Decision final y motivo"
+        "Consigna o descripcion del caso",
+        "registro del envio sin republicar la imagen",
+        "Decision tomada y motivo",
+        "Captura o registro sin datos sensibles",
+        "Proxima accion"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Reenviar de nuevo para explicar.",
+        "Usar datos privados en una practica educativa.",
+        "Aplicar una recomendacion sin revisar consecuencias.",
+        "Borrar evidencia antes de entender el problema.",
+        "Confundir ejemplo de practica con solucion definitiva."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Usar lista de verificacion antes de mandar documentos.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Revisar si el caso se repite y convertirlo en checklist.",
+        "Pedir validacion externa si afecta cuentas, pagos, seguridad o derechos."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Cual es la mejor decision profesional en este caso?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Trabajar en una version controlada, guardar evidencia y validar antes de aplicar a un caso real.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: reduce riesgo y deja aprendizaje reutilizable."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Actuar rapido sin documentar porque el problema parece simple.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La falta de evidencia impide revisar errores y aprender."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Usar datos reales para que el ejercicio sea mas completo.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "En practicas educativas conviene usar datos simulados o anonimizados."
           }
         ]
       }
     },
     {
-      "id": "archivo_perdido",
-      "title": "Caso de error frecuente: Alfabetizacion Digital para Adultos",
-      "summary": "Practica aplicada para resolver una situacion de acompanamiento digital de adultos con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una guia de pasos clara y repetible sin exponer datos sensibles y con una decision verificable.",
+      "id": "alfa-case-5",
+      "title": "App desconocida instalada",
+      "summary": "Aparece una app que la persona no recuerda haber instalado.",
+      "severity": "Practica guiada",
+      "immediateGoal": "Revisar origen y permisos.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una guia de pasos clara y repetible.",
-        "Revisar el resultado contra este criterio: otra persona puede seguir los pasos sin confundirse.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Definir que paso antes de actuar: icono desconocido y permisos amplios.",
+        "Separar datos reales de datos simulados y evitar compartir informacion sensible.",
+        "Aplicar el criterio del curso: identificar app, revisar permisos y pedir ayuda si hay duda.",
+        "Registrar evidencia: nombre de app y permisos.",
+        "Decidir la accion minima segura y quien debe validarla si el caso es real.",
+        "Cerrar con una nota breve: resultado, duda pendiente y siguiente control."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "capturas sin datos sensibles, una lista de pasos y una comprobacion final",
-        "Decision final y motivo"
+        "Consigna o descripcion del caso",
+        "nombre de app y permisos",
+        "Decision tomada y motivo",
+        "Captura o registro sin datos sensibles",
+        "Proxima accion"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Abrir la app para ver que hace.",
+        "Usar datos privados en una practica educativa.",
+        "Aplicar una recomendacion sin revisar consecuencias.",
+        "Borrar evidencia antes de entender el problema.",
+        "Confundir ejemplo de practica con solucion definitiva."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Instalar solo desde tiendas oficiales.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Revisar si el caso se repite y convertirlo en checklist.",
+        "Pedir validacion externa si afecta cuentas, pagos, seguridad o derechos."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Cual es la mejor decision profesional en este caso?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Trabajar en una version controlada, guardar evidencia y validar antes de aplicar a un caso real.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: reduce riesgo y deja aprendizaje reutilizable."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Actuar rapido sin documentar porque el problema parece simple.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La falta de evidencia impide revisar errores y aprender."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Usar datos reales para que el ejercicio sea mas completo.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "En practicas educativas conviene usar datos simulados o anonimizados."
           }
         ]
       }
     },
     {
-      "id": "tramite_online",
-      "title": "Caso de mejora de proceso: Alfabetizacion Digital para Adultos",
-      "summary": "Practica aplicada para resolver una situacion de acompanamiento digital de adultos con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una guia de pasos clara y repetible sin exponer datos sensibles y con una decision verificable.",
+      "id": "alfa-case-6",
+      "title": "Problema al adjuntar un archivo",
+      "summary": "El comprobante esta descargado pero no aparece al adjuntar.",
+      "severity": "Practica guiada",
+      "immediateGoal": "Diferenciar fotos, descargas y archivos.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una guia de pasos clara y repetible.",
-        "Revisar el resultado contra este criterio: otra persona puede seguir los pasos sin confundirse.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Definir que paso antes de actuar: archivo en carpeta incorrecta.",
+        "Separar datos reales de datos simulados y evitar compartir informacion sensible.",
+        "Aplicar el criterio del curso: buscar por nombre, fecha y tipo de archivo.",
+        "Registrar evidencia: ubicacion encontrada o paso donde se trabo.",
+        "Decidir la accion minima segura y quien debe validarla si el caso es real.",
+        "Cerrar con una nota breve: resultado, duda pendiente y siguiente control."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "capturas sin datos sensibles, una lista de pasos y una comprobacion final",
-        "Decision final y motivo"
+        "Consigna o descripcion del caso",
+        "ubicacion encontrada o paso donde se trabo",
+        "Decision tomada y motivo",
+        "Captura o registro sin datos sensibles",
+        "Proxima accion"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Descargar muchas copias sin nombrarlas.",
+        "Usar datos privados en una practica educativa.",
+        "Aplicar una recomendacion sin revisar consecuencias.",
+        "Borrar evidencia antes de entender el problema.",
+        "Confundir ejemplo de practica con solucion definitiva."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Guardar comprobantes con nombre y carpeta simple.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Revisar si el caso se repite y convertirlo en checklist.",
+        "Pedir validacion externa si afecta cuentas, pagos, seguridad o derechos."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Cual es la mejor decision profesional en este caso?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Trabajar en una version controlada, guardar evidencia y validar antes de aplicar a un caso real.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: reduce riesgo y deja aprendizaje reutilizable."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Actuar rapido sin documentar porque el problema parece simple.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La falta de evidencia impide revisar errores y aprender."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Usar datos reales para que el ejercicio sea mas completo.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "En practicas educativas conviene usar datos simulados o anonimizados."
           }
         ]
       }
     },
     {
-      "id": "aviso_raro",
-      "title": "Caso de decision responsable: Alfabetizacion Digital para Adultos",
-      "summary": "Practica aplicada para resolver una situacion de acompanamiento digital de adultos con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una guia de pasos clara y repetible sin exponer datos sensibles y con una decision verificable.",
+      "id": "alfa-case-7",
+      "title": "Ayuda insegura en un local",
+      "summary": "Una persona desconocida ofrece resolver una cuenta pidiendo clave.",
+      "severity": "Practica guiada",
+      "immediateGoal": "Pedir ayuda sin entregar control total.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una guia de pasos clara y repetible.",
-        "Revisar el resultado contra este criterio: otra persona puede seguir los pasos sin confundirse.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Definir que paso antes de actuar: pedido de clave y celular desbloqueado.",
+        "Separar datos reales de datos simulados y evitar compartir informacion sensible.",
+        "Aplicar el criterio del curso: mantener el celular en mano y no dictar claves.",
+        "Registrar evidencia: descripcion del pedido.",
+        "Decidir la accion minima segura y quien debe validarla si el caso es real.",
+        "Cerrar con una nota breve: resultado, duda pendiente y siguiente control."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "capturas sin datos sensibles, una lista de pasos y una comprobacion final",
-        "Decision final y motivo"
+        "Consigna o descripcion del caso",
+        "descripcion del pedido",
+        "Decision tomada y motivo",
+        "Captura o registro sin datos sensibles",
+        "Proxima accion"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Entregar telefono y clave para terminar rapido.",
+        "Usar datos privados en una practica educativa.",
+        "Aplicar una recomendacion sin revisar consecuencias.",
+        "Borrar evidencia antes de entender el problema.",
+        "Confundir ejemplo de practica con solucion definitiva."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Definir personas confiables de ayuda.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Revisar si el caso se repite y convertirlo en checklist.",
+        "Pedir validacion externa si afecta cuentas, pagos, seguridad o derechos."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Cual es la mejor decision profesional en este caso?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Trabajar en una version controlada, guardar evidencia y validar antes de aplicar a un caso real.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: reduce riesgo y deja aprendizaje reutilizable."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Actuar rapido sin documentar porque el problema parece simple.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La falta de evidencia impide revisar errores y aprender."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Usar datos reales para que el ejercicio sea mas completo.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "En practicas educativas conviene usar datos simulados o anonimizados."
           }
         ]
       }
     },
     {
-      "id": "ayuda_sin_claves",
-      "title": "Proyecto final integrador: Alfabetizacion Digital para Adultos",
-      "summary": "Practica aplicada para resolver una situacion de acompanamiento digital de adultos con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Proyecto final",
-      "immediateGoal": "Transformar el caso en una guia de pasos clara y repetible sin exponer datos sensibles y con una decision verificable.",
+      "id": "alfa-case-8",
+      "title": "Pago duplicado por reintentar",
+      "summary": "Un sitio tarda y la persona presiona pagar varias veces.",
+      "severity": "Practica guiada",
+      "immediateGoal": "Pausar, guardar evidencia y consultar.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una guia de pasos clara y repetible.",
-        "Revisar el resultado contra este criterio: otra persona puede seguir los pasos sin confundirse.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Definir que paso antes de actuar: pantalla lenta despues de pago.",
+        "Separar datos reales de datos simulados y evitar compartir informacion sensible.",
+        "Aplicar el criterio del curso: no repetir, revisar comprobante y contactar soporte oficial.",
+        "Registrar evidencia: hora, captura y movimiento si existe.",
+        "Decidir la accion minima segura y quien debe validarla si el caso es real.",
+        "Cerrar con una nota breve: resultado, duda pendiente y siguiente control."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "capturas sin datos sensibles, una lista de pasos y una comprobacion final",
-        "Decision final y motivo"
+        "Consigna o descripcion del caso",
+        "hora, captura y movimiento si existe",
+        "Decision tomada y motivo",
+        "Captura o registro sin datos sensibles",
+        "Proxima accion"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Seguir tocando pagar por ansiedad.",
+        "Usar datos privados en una practica educativa.",
+        "Aplicar una recomendacion sin revisar consecuencias.",
+        "Borrar evidencia antes de entender el problema.",
+        "Confundir ejemplo de practica con solucion definitiva."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Crear regla de pausa en pagos.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Revisar si el caso se repite y convertirlo en checklist.",
+        "Pedir validacion externa si afecta cuentas, pagos, seguridad o derechos."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Cual es la mejor decision profesional en este caso?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Trabajar en una version controlada, guardar evidencia y validar antes de aplicar a un caso real.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: reduce riesgo y deja aprendizaje reutilizable."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Actuar rapido sin documentar porque el problema parece simple.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La falta de evidencia impide revisar errores y aprender."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Usar datos reales para que el ejercicio sea mas completo.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "En practicas educativas conviene usar datos simulados o anonimizados."
           }
         ]
       }

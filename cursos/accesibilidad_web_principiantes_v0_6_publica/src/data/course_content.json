@@ -1,114 +1,114 @@
 {
   "courseId": "accesibilidad-web-principiantes",
   "title": "Accesibilidad Web para Principiantes",
-  "version": "0.6-publica",
-  "publicationStatus": "publica-profesional-v0.6",
+  "version": "0.7-tanda-1",
+  "publicationStatus": "publica-profesional-v0.7-tanda-1",
   "modules": [
     {
       "id": "m1",
-      "title": "Fundamentos",
-      "description": "En este modulo vas a trabajar \"Fundamentos\" dentro de accesibilidad web, HTML semantico, contraste, teclado, formularios y pruebas de uso. La meta es construir una pieza pequena, probarla en navegador y dejar evidencia de que funciona para una persona real.",
-      "learningRisk": "Punto clave",
+      "title": "Accesibilidad como calidad de uso",
+      "description": "Entender accesibilidad como una condicion de uso real, no como un agregado estetico o legal al final.",
+      "learningRisk": "Practicar sin evidencia deja una mejora dificil de sostener.",
       "lessons": [
         {
           "id": "m1-l1",
-          "title": "Que es accesibilidad",
-          "keyIdea": "Idea clave: Que es accesibilidad sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
-          "shortTheory": "En esta leccion vas a trabajar \"Que es accesibilidad\" dentro del modulo \"Fundamentos\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
-          "practicalExample": "Una persona revisa una pagina que se ve bien, pero necesita confirmar si tambien puede usarse con teclado, lectores y ayudas simples. Aplica \"Que es accesibilidad\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
-          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una auditoria breve de accesibilidad con problema, evidencia, mejora aplicada y prueba posterior.",
-          "alert": "No asumir que una pagina es accesible solo porque se ve bien en pantalla propia.",
+          "title": "Accesibilidad no es solo discapacidad",
+          "keyIdea": "Tambien cubre contexto: poca luz, mala conexion, cansancio, edad, lesion temporal o dispositivos limitados.",
+          "shortTheory": "En esta leccion se trabaja accesibilidad no es solo discapacidad dentro de accesibilidad como calidad de uso. La meta es reconocer el problema real, tomar una decision simple y comprobarla con la mejora se puede explicar por problema, persona afectada y beneficio concreto.",
+          "practicalExample": "Una pagina de inscripcion a un taller se ve correcta, pero varias personas no logran completar el formulario. Practica accesibilidad no es solo discapacidad sobre ese caso, compara una version inicial con una version corregida y registra lista de barreras detectadas, usuario afectado y prioridad.",
+          "commonMistake": "Pensar que accesibilidad solo importa si hay una persona ciega usando lector de pantalla.",
+          "whatToDoNow": "Describe tres usuarios distintos para una misma pagina y anota que podria impedirles avanzar.",
+          "alert": "No asumir que funciona para todos porque funciona con mouse, buena vista o un dispositivo propio.",
           "keyPoints": [
-            "Que es accesibilidad debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
-            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
-            "La entrega esperada es: una auditoria breve de accesibilidad con problema, evidencia, mejora aplicada y prueba posterior.",
-            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+            "Accesibilidad no es solo discapacidad debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: la mejora se puede explicar por problema, persona afectada y beneficio concreto.",
+            "Evidencia minima: lista de barreras detectadas, usuario afectado y prioridad.",
+            "Relacion con el proyecto final: una mini auditoria con barrera, impacto, correccion aplicada y prueba posterior."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m1-l2",
-          "title": "Barreras comunes",
-          "keyIdea": "Idea clave: Barreras comunes sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
-          "shortTheory": "En esta leccion vas a trabajar \"Barreras comunes\" dentro del modulo \"Fundamentos\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
-          "practicalExample": "Una persona revisa una pagina que se ve bien, pero necesita confirmar si tambien puede usarse con teclado, lectores y ayudas simples. Aplica \"Barreras comunes\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
-          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una auditoria breve de accesibilidad con problema, evidencia, mejora aplicada y prueba posterior.",
-          "alert": "No asumir que una pagina es accesible solo porque se ve bien en pantalla propia.",
+          "title": "Barreras visibles e invisibles",
+          "keyIdea": "Una barrera puede estar en el color, el orden, el lenguaje, el foco, el formulario o la falta de alternativa.",
+          "shortTheory": "En esta leccion se trabaja barreras visibles e invisibles dentro de accesibilidad como calidad de uso. La meta es reconocer el problema real, tomar una decision simple y comprobarla con la mejora se puede explicar por problema, persona afectada y beneficio concreto.",
+          "practicalExample": "Una pagina de inscripcion a un taller se ve correcta, pero varias personas no logran completar el formulario. Practica barreras visibles e invisibles sobre ese caso, compara una version inicial con una version corregida y registra lista de barreras detectadas, usuario afectado y prioridad.",
+          "commonMistake": "Corregir solo colores y dejar enlaces ambiguos, errores confusos o botones inaccesibles.",
+          "whatToDoNow": "Revisa una pantalla y separa barreras visuales, de navegacion, de comprension y de operacion.",
+          "alert": "No asumir que funciona para todos porque funciona con mouse, buena vista o un dispositivo propio.",
           "keyPoints": [
-            "Barreras comunes debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
-            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
-            "La entrega esperada es: una auditoria breve de accesibilidad con problema, evidencia, mejora aplicada y prueba posterior.",
-            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+            "Barreras visibles e invisibles debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: la mejora se puede explicar por problema, persona afectada y beneficio concreto.",
+            "Evidencia minima: lista de barreras detectadas, usuario afectado y prioridad.",
+            "Relacion con el proyecto final: una mini auditoria con barrera, impacto, correccion aplicada y prueba posterior."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m1-l3",
-          "title": "WCAG en simple",
-          "keyIdea": "Idea clave: WCAG en simple sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
-          "shortTheory": "En esta leccion vas a trabajar \"WCAG en simple\" dentro del modulo \"Fundamentos\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
-          "practicalExample": "Una persona revisa una pagina que se ve bien, pero necesita confirmar si tambien puede usarse con teclado, lectores y ayudas simples. Aplica \"WCAG en simple\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
-          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una auditoria breve de accesibilidad con problema, evidencia, mejora aplicada y prueba posterior.",
-          "alert": "No asumir que una pagina es accesible solo porque se ve bien en pantalla propia.",
+          "title": "Principios POUR en lenguaje simple",
+          "keyIdea": "Perceptible, operable, comprensible y robusto ayudan a ordenar la revision sin memorizar toda la norma.",
+          "shortTheory": "En esta leccion se trabaja principios pour en lenguaje simple dentro de accesibilidad como calidad de uso. La meta es reconocer el problema real, tomar una decision simple y comprobarla con la mejora se puede explicar por problema, persona afectada y beneficio concreto.",
+          "practicalExample": "Una pagina de inscripcion a un taller se ve correcta, pero varias personas no logran completar el formulario. Practica principios pour en lenguaje simple sobre ese caso, compara una version inicial con una version corregida y registra lista de barreras detectadas, usuario afectado y prioridad.",
+          "commonMistake": "Usar POUR como teoria decorativa sin convertirlo en preguntas de prueba.",
+          "whatToDoNow": "Clasifica cinco problemas de una pagina usando esos cuatro principios.",
+          "alert": "No asumir que funciona para todos porque funciona con mouse, buena vista o un dispositivo propio.",
           "keyPoints": [
-            "WCAG en simple debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
-            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
-            "La entrega esperada es: una auditoria breve de accesibilidad con problema, evidencia, mejora aplicada y prueba posterior.",
-            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+            "Principios POUR en lenguaje simple debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: la mejora se puede explicar por problema, persona afectada y beneficio concreto.",
+            "Evidencia minima: lista de barreras detectadas, usuario afectado y prioridad.",
+            "Relacion con el proyecto final: una mini auditoria con barrera, impacto, correccion aplicada y prueba posterior."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m1-l4",
-          "title": "Discapacidad y contexto",
-          "keyIdea": "Idea clave: Discapacidad y contexto sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
-          "shortTheory": "En esta leccion vas a trabajar \"Discapacidad y contexto\" dentro del modulo \"Fundamentos\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
-          "practicalExample": "Una persona revisa una pagina que se ve bien, pero necesita confirmar si tambien puede usarse con teclado, lectores y ayudas simples. Aplica \"Discapacidad y contexto\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
-          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una auditoria breve de accesibilidad con problema, evidencia, mejora aplicada y prueba posterior.",
-          "alert": "No asumir que una pagina es accesible solo porque se ve bien en pantalla propia.",
+          "title": "Priorizar por impacto",
+          "keyIdea": "No todos los problemas bloquean igual: primero se corrige lo que impide leer, navegar, entender o completar una accion.",
+          "shortTheory": "En esta leccion se trabaja priorizar por impacto dentro de accesibilidad como calidad de uso. La meta es reconocer el problema real, tomar una decision simple y comprobarla con la mejora se puede explicar por problema, persona afectada y beneficio concreto.",
+          "practicalExample": "Una pagina de inscripcion a un taller se ve correcta, pero varias personas no logran completar el formulario. Practica priorizar por impacto sobre ese caso, compara una version inicial con una version corregida y registra lista de barreras detectadas, usuario afectado y prioridad.",
+          "commonMistake": "Empezar por detalles menores mientras una accion principal sigue bloqueada.",
+          "whatToDoNow": "Ordena diez hallazgos por bloqueo, frecuencia y esfuerzo de correccion.",
+          "alert": "No asumir que funciona para todos porque funciona con mouse, buena vista o un dispositivo propio.",
           "keyPoints": [
-            "Discapacidad y contexto debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
-            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
-            "La entrega esperada es: una auditoria breve de accesibilidad con problema, evidencia, mejora aplicada y prueba posterior.",
-            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+            "Priorizar por impacto debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: la mejora se puede explicar por problema, persona afectada y beneficio concreto.",
+            "Evidencia minima: lista de barreras detectadas, usuario afectado y prioridad.",
+            "Relacion con el proyecto final: una mini auditoria con barrera, impacto, correccion aplicada y prueba posterior."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m1-l5",
-          "title": "Beneficios",
-          "keyIdea": "Idea clave: Beneficios sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
-          "shortTheory": "En esta leccion vas a trabajar \"Beneficios\" dentro del modulo \"Fundamentos\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
-          "practicalExample": "Una persona revisa una pagina que se ve bien, pero necesita confirmar si tambien puede usarse con teclado, lectores y ayudas simples. Aplica \"Beneficios\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
-          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una auditoria breve de accesibilidad con problema, evidencia, mejora aplicada y prueba posterior.",
-          "alert": "No asumir que una pagina es accesible solo porque se ve bien en pantalla propia.",
+          "title": "Evidencia antes y despues",
+          "keyIdea": "La accesibilidad mejora cuando se puede comparar el problema inicial con la correccion aplicada.",
+          "shortTheory": "En esta leccion se trabaja evidencia antes y despues dentro de accesibilidad como calidad de uso. La meta es reconocer el problema real, tomar una decision simple y comprobarla con la mejora se puede explicar por problema, persona afectada y beneficio concreto.",
+          "practicalExample": "Una pagina de inscripcion a un taller se ve correcta, pero varias personas no logran completar el formulario. Practica evidencia antes y despues sobre ese caso, compara una version inicial con una version corregida y registra lista de barreras detectadas, usuario afectado y prioridad.",
+          "commonMistake": "Anotar 'mejorado' sin mostrar que cambio ni como se comprobo.",
+          "whatToDoNow": "Guarda captura, descripcion, cambio y prueba posterior de una barrera.",
+          "alert": "No asumir que funciona para todos porque funciona con mouse, buena vista o un dispositivo propio.",
           "keyPoints": [
-            "Beneficios debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
-            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
-            "La entrega esperada es: una auditoria breve de accesibilidad con problema, evidencia, mejora aplicada y prueba posterior.",
-            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+            "Evidencia antes y despues debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: la mejora se puede explicar por problema, persona afectada y beneficio concreto.",
+            "Evidencia minima: lista de barreras detectadas, usuario afectado y prioridad.",
+            "Relacion con el proyecto final: una mini auditoria con barrera, impacto, correccion aplicada y prueba posterior."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m1-l6",
-          "title": "Responsabilidad",
-          "keyIdea": "Idea clave: Responsabilidad sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
-          "shortTheory": "En esta leccion vas a trabajar \"Responsabilidad\" dentro del modulo \"Fundamentos\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
-          "practicalExample": "Una persona revisa una pagina que se ve bien, pero necesita confirmar si tambien puede usarse con teclado, lectores y ayudas simples. Aplica \"Responsabilidad\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
-          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una auditoria breve de accesibilidad con problema, evidencia, mejora aplicada y prueba posterior.",
-          "alert": "No asumir que una pagina es accesible solo porque se ve bien en pantalla propia.",
+          "title": "Alcance de una auditoria inicial",
+          "keyIdea": "Una auditoria principiante no promete cumplimiento total; delimita paginas, flujos y pruebas realizadas.",
+          "shortTheory": "En esta leccion se trabaja alcance de una auditoria inicial dentro de accesibilidad como calidad de uso. La meta es reconocer el problema real, tomar una decision simple y comprobarla con la mejora se puede explicar por problema, persona afectada y beneficio concreto.",
+          "practicalExample": "Una pagina de inscripcion a un taller se ve correcta, pero varias personas no logran completar el formulario. Practica alcance de una auditoria inicial sobre ese caso, compara una version inicial con una version corregida y registra lista de barreras detectadas, usuario afectado y prioridad.",
+          "commonMistake": "Decir 'sitio accesible' despues de revisar una sola pantalla.",
+          "whatToDoNow": "Redacta alcance, limitaciones y proximo paso de tu revision.",
+          "alert": "No asumir que funciona para todos porque funciona con mouse, buena vista o un dispositivo propio.",
           "keyPoints": [
-            "Responsabilidad debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
-            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
-            "La entrega esperada es: una auditoria breve de accesibilidad con problema, evidencia, mejora aplicada y prueba posterior.",
-            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+            "Alcance de una auditoria inicial debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: la mejora se puede explicar por problema, persona afectada y beneficio concreto.",
+            "Evidencia minima: lista de barreras detectadas, usuario afectado y prioridad.",
+            "Relacion con el proyecto final: una mini auditoria con barrera, impacto, correccion aplicada y prueba posterior."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         }
@@ -116,172 +116,171 @@
       "quiz": [
         {
           "id": "m1-q1",
-          "question": "Pregunta 1: ¿que conviene hacer al trabajar ",
+          "question": "Cual es la mejor forma de empezar el modulo \"Accesibilidad como calidad de uso\"?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Definir el caso, el usuario afectado y la evidencia que se va a revisar.",
+            "Copiar una solucion completa sin probarla.",
+            "Esperar a tener una herramienta perfecta antes de practicar.",
+            "Elegir la opcion mas vistosa aunque no resuelva el problema."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: el modulo se vuelve util cuando parte de un caso y de evidencia verificable."
         },
         {
           "id": "m1-q2",
-          "question": "Pregunta 2: ¿que conviene hacer al trabajar ",
+          "question": "Que evidencia sirve para cerrar \"Accesibilidad como calidad de uso\" sin depender de opiniones?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "lista de barreras detectadas, usuario afectado y prioridad",
+            "Una captura sin contexto.",
+            "Una frase como 'parece estar bien'.",
+            "La cantidad de colores o iconos usados."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: lista de barreras detectadas, usuario afectado y prioridad permite revisar el resultado despues."
         },
         {
           "id": "m1-q3",
-          "question": "Pregunta 3: ¿que conviene hacer al trabajar ",
+          "question": "Que conducta aumenta el riesgo durante la practica?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Decidir solo mirando la pagina en una pantalla propia.",
+            "Trabajar con datos simulados.",
+            "Anotar dudas antes de publicar o aplicar.",
+            "Probar en una version pequena."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: esa conducta elimina control y puede producir errores reales."
         },
         {
           "id": "m1-q4",
-          "question": "Pregunta 4: ¿que conviene hacer al trabajar ",
+          "question": "Cuando conviene pedir ayuda o validar con una fuente externa?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Cuando la mejora afecta normativa, educacion, salud, trabajo o servicios publicos.",
+            "Nunca, porque el ejercicio es suficiente para cualquier caso.",
+            "Solo despues de borrar la evidencia.",
+            "Cuando el resultado se ve agradable visualmente."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: validar a tiempo evita decisiones inseguras o incompletas."
         },
         {
           "id": "m1-q5",
-          "question": "Pregunta 5: ¿que conviene hacer al trabajar ",
+          "question": "Cual es el entregable minimo del modulo \"Accesibilidad como calidad de uso\"?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "mapa inicial de barreras y prioridades",
+            "Un resumen sin prueba.",
+            "Una lista de ideas sueltas.",
+            "Un archivo final sin explicar cambios."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: mapa inicial de barreras y prioridades deja avance verificable."
         }
-      ],
-      "professionalOutcome": "detectar barreras basicas y corregirlas con criterios verificables. Entregable sugerido: un reporte con barreras, prioridad, solucion aplicada y prueba posterior."
+      ]
     },
     {
       "id": "m2",
-      "title": "HTML semantico",
-      "description": "En este modulo vas a trabajar \"HTML semantico\" dentro de accesibilidad web, HTML semantico, contraste, teclado, formularios y pruebas de uso. La meta es construir una pieza pequena, probarla en navegador y dejar evidencia de que funciona para una persona real.",
-      "learningRisk": "Punto clave",
+      "title": "HTML semantico y lectura clara",
+      "description": "Ordenar estructura, titulos, enlaces, imagenes y regiones para que el contenido tenga sentido mas alla de lo visual.",
+      "learningRisk": "Practicar sin evidencia deja una mejora dificil de sostener.",
       "lessons": [
         {
           "id": "m2-l1",
-          "title": "Headings",
-          "keyIdea": "Idea clave: Headings sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
-          "shortTheory": "En esta leccion vas a trabajar \"Headings\" dentro del modulo \"HTML semantico\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
-          "practicalExample": "Una persona revisa una pagina que se ve bien, pero necesita confirmar si tambien puede usarse con teclado, lectores y ayudas simples. Aplica \"Headings\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
-          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una auditoria breve de accesibilidad con problema, evidencia, mejora aplicada y prueba posterior.",
-          "alert": "No asumir que una pagina es accesible solo porque se ve bien en pantalla propia.",
+          "title": "Titulos que arman un mapa",
+          "keyIdea": "Los headings deben contar la estructura de la pagina, no decorar tamanos de texto.",
+          "shortTheory": "En esta leccion se trabaja titulos que arman un mapa dentro de html semantico y lectura clara. La meta es reconocer el problema real, tomar una decision simple y comprobarla con la pagina mantiene sentido al leer titulos, enlaces y regiones en orden.",
+          "practicalExample": "Una pagina de inscripcion a un taller se ve correcta, pero varias personas no logran completar el formulario. Practica titulos que arman un mapa sobre ese caso, compara una version inicial con una version corregida y registra estructura de encabezados, enlaces descriptivos y alternativas revisadas.",
+          "commonMistake": "Saltar de H1 a H4 porque el tamano visual parece conveniente.",
+          "whatToDoNow": "Reordena H1, H2 y H3 de una pagina y verifica que se pueda entender el mapa sin ver el diseno.",
+          "alert": "No sacrificar semantica por una apariencia mas facil de maquetar.",
           "keyPoints": [
-            "Headings debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
-            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
-            "La entrega esperada es: una auditoria breve de accesibilidad con problema, evidencia, mejora aplicada y prueba posterior.",
-            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+            "Titulos que arman un mapa debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: la pagina mantiene sentido al leer titulos, enlaces y regiones en orden.",
+            "Evidencia minima: estructura de encabezados, enlaces descriptivos y alternativas revisadas.",
+            "Relacion con el proyecto final: una mini auditoria con barrera, impacto, correccion aplicada y prueba posterior."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m2-l2",
-          "title": "Landmarks",
-          "keyIdea": "Idea clave: Landmarks sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
-          "shortTheory": "En esta leccion vas a trabajar \"Landmarks\" dentro del modulo \"HTML semantico\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
-          "practicalExample": "Una persona revisa una pagina que se ve bien, pero necesita confirmar si tambien puede usarse con teclado, lectores y ayudas simples. Aplica \"Landmarks\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
-          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una auditoria breve de accesibilidad con problema, evidencia, mejora aplicada y prueba posterior.",
-          "alert": "No asumir que una pagina es accesible solo porque se ve bien en pantalla propia.",
+          "title": "Landmarks y regiones",
+          "keyIdea": "Header, nav, main, section y footer ayudan a moverse rapido con tecnologias de asistencia.",
+          "shortTheory": "En esta leccion se trabaja landmarks y regiones dentro de html semantico y lectura clara. La meta es reconocer el problema real, tomar una decision simple y comprobarla con la pagina mantiene sentido al leer titulos, enlaces y regiones en orden.",
+          "practicalExample": "Una pagina de inscripcion a un taller se ve correcta, pero varias personas no logran completar el formulario. Practica landmarks y regiones sobre ese caso, compara una version inicial con una version corregida y registra estructura de encabezados, enlaces descriptivos y alternativas revisadas.",
+          "commonMistake": "Repetir nav o main sin necesidad y crear ruido para quien navega por regiones.",
+          "whatToDoNow": "Marca las regiones principales de una pagina simple.",
+          "alert": "No sacrificar semantica por una apariencia mas facil de maquetar.",
           "keyPoints": [
-            "Landmarks debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
-            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
-            "La entrega esperada es: una auditoria breve de accesibilidad con problema, evidencia, mejora aplicada y prueba posterior.",
-            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+            "Landmarks y regiones debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: la pagina mantiene sentido al leer titulos, enlaces y regiones en orden.",
+            "Evidencia minima: estructura de encabezados, enlaces descriptivos y alternativas revisadas.",
+            "Relacion con el proyecto final: una mini auditoria con barrera, impacto, correccion aplicada y prueba posterior."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m2-l3",
-          "title": "Listas",
-          "keyIdea": "Idea clave: Listas sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
-          "shortTheory": "En esta leccion vas a trabajar \"Listas\" dentro del modulo \"HTML semantico\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
-          "practicalExample": "Una persona revisa una pagina que se ve bien, pero necesita confirmar si tambien puede usarse con teclado, lectores y ayudas simples. Aplica \"Listas\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
-          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una auditoria breve de accesibilidad con problema, evidencia, mejora aplicada y prueba posterior.",
-          "alert": "No asumir que una pagina es accesible solo porque se ve bien en pantalla propia.",
+          "title": "Enlaces y botones con nombre real",
+          "keyIdea": "El nombre accesible debe decir que pasa al activar el control.",
+          "shortTheory": "En esta leccion se trabaja enlaces y botones con nombre real dentro de html semantico y lectura clara. La meta es reconocer el problema real, tomar una decision simple y comprobarla con la pagina mantiene sentido al leer titulos, enlaces y regiones en orden.",
+          "practicalExample": "Una pagina de inscripcion a un taller se ve correcta, pero varias personas no logran completar el formulario. Practica enlaces y botones con nombre real sobre ese caso, compara una version inicial con una version corregida y registra estructura de encabezados, enlaces descriptivos y alternativas revisadas.",
+          "commonMistake": "Poner iconos sin texto ni aria-label cuando el icono no se entiende solo.",
+          "whatToDoNow": "Reemplaza enlaces 'click aqui' por textos que indiquen destino o accion.",
+          "alert": "No sacrificar semantica por una apariencia mas facil de maquetar.",
           "keyPoints": [
-            "Listas debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
-            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
-            "La entrega esperada es: una auditoria breve de accesibilidad con problema, evidencia, mejora aplicada y prueba posterior.",
-            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+            "Enlaces y botones con nombre real debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: la pagina mantiene sentido al leer titulos, enlaces y regiones en orden.",
+            "Evidencia minima: estructura de encabezados, enlaces descriptivos y alternativas revisadas.",
+            "Relacion con el proyecto final: una mini auditoria con barrera, impacto, correccion aplicada y prueba posterior."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m2-l4",
-          "title": "Botones y enlaces",
-          "keyIdea": "Idea clave: Botones y enlaces sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
-          "shortTheory": "En esta leccion vas a trabajar \"Botones y enlaces\" dentro del modulo \"HTML semantico\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
-          "practicalExample": "Una persona revisa una pagina que se ve bien, pero necesita confirmar si tambien puede usarse con teclado, lectores y ayudas simples. Aplica \"Botones y enlaces\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
-          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una auditoria breve de accesibilidad con problema, evidencia, mejora aplicada y prueba posterior.",
-          "alert": "No asumir que una pagina es accesible solo porque se ve bien en pantalla propia.",
+          "title": "Imagenes con alternativa util",
+          "keyIdea": "El alt depende de la funcion de la imagen: informar, decorar, explicar o enlazar.",
+          "shortTheory": "En esta leccion se trabaja imagenes con alternativa util dentro de html semantico y lectura clara. La meta es reconocer el problema real, tomar una decision simple y comprobarla con la pagina mantiene sentido al leer titulos, enlaces y regiones en orden.",
+          "practicalExample": "Una pagina de inscripcion a un taller se ve correcta, pero varias personas no logran completar el formulario. Practica imagenes con alternativa util sobre ese caso, compara una version inicial con una version corregida y registra estructura de encabezados, enlaces descriptivos y alternativas revisadas.",
+          "commonMistake": "Describir todos los detalles visuales aunque no aporten a la tarea.",
+          "whatToDoNow": "Escribe alt para una imagen informativa, una decorativa y una imagen dentro de un enlace.",
+          "alert": "No sacrificar semantica por una apariencia mas facil de maquetar.",
           "keyPoints": [
-            "Botones y enlaces debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
-            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
-            "La entrega esperada es: una auditoria breve de accesibilidad con problema, evidencia, mejora aplicada y prueba posterior.",
-            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+            "Imagenes con alternativa util debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: la pagina mantiene sentido al leer titulos, enlaces y regiones en orden.",
+            "Evidencia minima: estructura de encabezados, enlaces descriptivos y alternativas revisadas.",
+            "Relacion con el proyecto final: una mini auditoria con barrera, impacto, correccion aplicada y prueba posterior."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m2-l5",
-          "title": "Tablas",
-          "keyIdea": "Idea clave: Tablas sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
-          "shortTheory": "En esta leccion vas a trabajar \"Tablas\" dentro del modulo \"HTML semantico\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
-          "practicalExample": "Una persona revisa una pagina que se ve bien, pero necesita confirmar si tambien puede usarse con teclado, lectores y ayudas simples. Aplica \"Tablas\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
-          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una auditoria breve de accesibilidad con problema, evidencia, mejora aplicada y prueba posterior.",
-          "alert": "No asumir que una pagina es accesible solo porque se ve bien en pantalla propia.",
+          "title": "Tablas y listas con proposito",
+          "keyIdea": "Listas y tablas deben elegirse por estructura de informacion, no por comodidad visual.",
+          "shortTheory": "En esta leccion se trabaja tablas y listas con proposito dentro de html semantico y lectura clara. La meta es reconocer el problema real, tomar una decision simple y comprobarla con la pagina mantiene sentido al leer titulos, enlaces y regiones en orden.",
+          "practicalExample": "Una pagina de inscripcion a un taller se ve correcta, pero varias personas no logran completar el formulario. Practica tablas y listas con proposito sobre ese caso, compara una version inicial con una version corregida y registra estructura de encabezados, enlaces descriptivos y alternativas revisadas.",
+          "commonMistake": "Usar tablas para maquetar columnas decorativas.",
+          "whatToDoNow": "Convierte un bloque de texto en lista y una comparacion en tabla con encabezados.",
+          "alert": "No sacrificar semantica por una apariencia mas facil de maquetar.",
           "keyPoints": [
-            "Tablas debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
-            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
-            "La entrega esperada es: una auditoria breve de accesibilidad con problema, evidencia, mejora aplicada y prueba posterior.",
-            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+            "Tablas y listas con proposito debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: la pagina mantiene sentido al leer titulos, enlaces y regiones en orden.",
+            "Evidencia minima: estructura de encabezados, enlaces descriptivos y alternativas revisadas.",
+            "Relacion con el proyecto final: una mini auditoria con barrera, impacto, correccion aplicada y prueba posterior."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m2-l6",
-          "title": "Orden logico",
-          "keyIdea": "Idea clave: Orden logico sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
-          "shortTheory": "En esta leccion vas a trabajar \"Orden logico\" dentro del modulo \"HTML semantico\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
-          "practicalExample": "Una persona revisa una pagina que se ve bien, pero necesita confirmar si tambien puede usarse con teclado, lectores y ayudas simples. Aplica \"Orden logico\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
-          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una auditoria breve de accesibilidad con problema, evidencia, mejora aplicada y prueba posterior.",
-          "alert": "No asumir que una pagina es accesible solo porque se ve bien en pantalla propia.",
+          "title": "Lenguaje comprensible",
+          "keyIdea": "La claridad tambien es accesibilidad: frases cortas, accion visible y palabras consistentes reducen errores.",
+          "shortTheory": "En esta leccion se trabaja lenguaje comprensible dentro de html semantico y lectura clara. La meta es reconocer el problema real, tomar una decision simple y comprobarla con la pagina mantiene sentido al leer titulos, enlaces y regiones en orden.",
+          "practicalExample": "Una pagina de inscripcion a un taller se ve correcta, pero varias personas no logran completar el formulario. Practica lenguaje comprensible sobre ese caso, compara una version inicial con una version corregida y registra estructura de encabezados, enlaces descriptivos y alternativas revisadas.",
+          "commonMistake": "Usar jerga interna del equipo en acciones que ve el publico.",
+          "whatToDoNow": "Reescribe instrucciones largas de un formulario en pasos cortos.",
+          "alert": "No sacrificar semantica por una apariencia mas facil de maquetar.",
           "keyPoints": [
-            "Orden logico debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
-            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
-            "La entrega esperada es: una auditoria breve de accesibilidad con problema, evidencia, mejora aplicada y prueba posterior.",
-            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+            "Lenguaje comprensible debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: la pagina mantiene sentido al leer titulos, enlaces y regiones en orden.",
+            "Evidencia minima: estructura de encabezados, enlaces descriptivos y alternativas revisadas.",
+            "Relacion con el proyecto final: una mini auditoria con barrera, impacto, correccion aplicada y prueba posterior."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         }
@@ -289,172 +288,171 @@
       "quiz": [
         {
           "id": "m2-q1",
-          "question": "Pregunta 1: ¿que conviene hacer al trabajar ",
+          "question": "Cual es la mejor forma de empezar el modulo \"HTML semantico y lectura clara\"?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Definir el caso, el usuario afectado y la evidencia que se va a revisar.",
+            "Copiar una solucion completa sin probarla.",
+            "Esperar a tener una herramienta perfecta antes de practicar.",
+            "Elegir la opcion mas vistosa aunque no resuelva el problema."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: el modulo se vuelve util cuando parte de un caso y de evidencia verificable."
         },
         {
           "id": "m2-q2",
-          "question": "Pregunta 2: ¿que conviene hacer al trabajar ",
+          "question": "Que evidencia sirve para cerrar \"HTML semantico y lectura clara\" sin depender de opiniones?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "estructura de encabezados, enlaces descriptivos y alternativas revisadas",
+            "Una captura sin contexto.",
+            "Una frase como 'parece estar bien'.",
+            "La cantidad de colores o iconos usados."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: estructura de encabezados, enlaces descriptivos y alternativas revisadas permite revisar el resultado despues."
         },
         {
           "id": "m2-q3",
-          "question": "Pregunta 3: ¿que conviene hacer al trabajar ",
+          "question": "Que conducta aumenta el riesgo durante la practica?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Usar divs y textos visuales sin marcar funcion ni jerarquia.",
+            "Trabajar con datos simulados.",
+            "Anotar dudas antes de publicar o aplicar.",
+            "Probar en una version pequena."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: esa conducta elimina control y puede producir errores reales."
         },
         {
           "id": "m2-q4",
-          "question": "Pregunta 4: ¿que conviene hacer al trabajar ",
+          "question": "Cuando conviene pedir ayuda o validar con una fuente externa?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Cuando un componente propio reemplaza controles nativos importantes.",
+            "Nunca, porque el ejercicio es suficiente para cualquier caso.",
+            "Solo despues de borrar la evidencia.",
+            "Cuando el resultado se ve agradable visualmente."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: validar a tiempo evita decisiones inseguras o incompletas."
         },
         {
           "id": "m2-q5",
-          "question": "Pregunta 5: ¿que conviene hacer al trabajar ",
+          "question": "Cual es el entregable minimo del modulo \"HTML semantico y lectura clara\"?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "pagina o fragmento HTML con semantica corregida",
+            "Un resumen sin prueba.",
+            "Una lista de ideas sueltas.",
+            "Un archivo final sin explicar cambios."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: pagina o fragmento HTML con semantica corregida deja avance verificable."
         }
-      ],
-      "professionalOutcome": "detectar barreras basicas y corregirlas con criterios verificables. Entregable sugerido: un reporte con barreras, prioridad, solucion aplicada y prueba posterior."
+      ]
     },
     {
       "id": "m3",
-      "title": "Contraste y lectura",
-      "description": "En este modulo vas a trabajar \"Contraste y lectura\" dentro de accesibilidad web, HTML semantico, contraste, teclado, formularios y pruebas de uso. La meta es construir una pieza pequena, probarla en navegador y dejar evidencia de que funciona para una persona real.",
-      "learningRisk": "Punto clave",
+      "title": "Teclado, foco y navegacion",
+      "description": "Probar que una persona pueda recorrer, entender y operar la interfaz sin mouse.",
+      "learningRisk": "Practicar sin evidencia deja una mejora dificil de sostener.",
       "lessons": [
         {
           "id": "m3-l1",
-          "title": "Contraste",
-          "keyIdea": "Idea clave: Contraste sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
-          "shortTheory": "En esta leccion vas a trabajar \"Contraste\" dentro del modulo \"Contraste y lectura\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
-          "practicalExample": "Una persona revisa una pagina que se ve bien, pero necesita confirmar si tambien puede usarse con teclado, lectores y ayudas simples. Aplica \"Contraste\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
-          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una auditoria breve de accesibilidad con problema, evidencia, mejora aplicada y prueba posterior.",
-          "alert": "No asumir que una pagina es accesible solo porque se ve bien en pantalla propia.",
+          "title": "Recorrido con Tab y Shift Tab",
+          "keyIdea": "El orden de foco debe seguir el orden logico de lectura y tarea.",
+          "shortTheory": "En esta leccion se trabaja recorrido con tab y shift tab dentro de teclado, foco y navegacion. La meta es reconocer el problema real, tomar una decision simple y comprobarla con todo control importante se alcanza, se entiende y se activa con teclado.",
+          "practicalExample": "Una pagina de inscripcion a un taller se ve correcta, pero varias personas no logran completar el formulario. Practica recorrido con tab y shift tab sobre ese caso, compara una version inicial con una version corregida y registra recorrido de teclado anotado, foco visible y bloqueos corregidos.",
+          "commonMistake": "Mover elementos visualmente con CSS y dejar un orden de foco incoherente.",
+          "whatToDoNow": "Recorre una pagina completa con Tab y anota saltos inesperados.",
+          "alert": "No ocultar el foco porque molesta visualmente: el foco es orientacion.",
           "keyPoints": [
-            "Contraste debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
-            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
-            "La entrega esperada es: una auditoria breve de accesibilidad con problema, evidencia, mejora aplicada y prueba posterior.",
-            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+            "Recorrido con Tab y Shift Tab debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: todo control importante se alcanza, se entiende y se activa con teclado.",
+            "Evidencia minima: recorrido de teclado anotado, foco visible y bloqueos corregidos.",
+            "Relacion con el proyecto final: una mini auditoria con barrera, impacto, correccion aplicada y prueba posterior."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m3-l2",
-          "title": "Tamano de texto",
-          "keyIdea": "Idea clave: Tamano de texto sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
-          "shortTheory": "En esta leccion vas a trabajar \"Tamano de texto\" dentro del modulo \"Contraste y lectura\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
-          "practicalExample": "Una persona revisa una pagina que se ve bien, pero necesita confirmar si tambien puede usarse con teclado, lectores y ayudas simples. Aplica \"Tamano de texto\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
-          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una auditoria breve de accesibilidad con problema, evidencia, mejora aplicada y prueba posterior.",
-          "alert": "No asumir que una pagina es accesible solo porque se ve bien en pantalla propia.",
+          "title": "Foco visible",
+          "keyIdea": "La persona debe ver donde esta antes de activar un enlace, boton o campo.",
+          "shortTheory": "En esta leccion se trabaja foco visible dentro de teclado, foco y navegacion. La meta es reconocer el problema real, tomar una decision simple y comprobarla con todo control importante se alcanza, se entiende y se activa con teclado.",
+          "practicalExample": "Una pagina de inscripcion a un taller se ve correcta, pero varias personas no logran completar el formulario. Practica foco visible sobre ese caso, compara una version inicial con una version corregida y registra recorrido de teclado anotado, foco visible y bloqueos corregidos.",
+          "commonMistake": "Eliminar outline globalmente sin reemplazo accesible.",
+          "whatToDoNow": "Aumenta contraste y grosor del foco en botones y enlaces.",
+          "alert": "No ocultar el foco porque molesta visualmente: el foco es orientacion.",
           "keyPoints": [
-            "Tamano de texto debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
-            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
-            "La entrega esperada es: una auditoria breve de accesibilidad con problema, evidencia, mejora aplicada y prueba posterior.",
-            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+            "Foco visible debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: todo control importante se alcanza, se entiende y se activa con teclado.",
+            "Evidencia minima: recorrido de teclado anotado, foco visible y bloqueos corregidos.",
+            "Relacion con el proyecto final: una mini auditoria con barrera, impacto, correccion aplicada y prueba posterior."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m3-l3",
-          "title": "Espaciado",
-          "keyIdea": "Idea clave: Espaciado sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
-          "shortTheory": "En esta leccion vas a trabajar \"Espaciado\" dentro del modulo \"Contraste y lectura\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
-          "practicalExample": "Una persona revisa una pagina que se ve bien, pero necesita confirmar si tambien puede usarse con teclado, lectores y ayudas simples. Aplica \"Espaciado\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
-          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una auditoria breve de accesibilidad con problema, evidencia, mejora aplicada y prueba posterior.",
-          "alert": "No asumir que una pagina es accesible solo porque se ve bien en pantalla propia.",
+          "title": "Skip link",
+          "keyIdea": "Un enlace de salto permite pasar navegacion repetida e ir al contenido principal.",
+          "shortTheory": "En esta leccion se trabaja skip link dentro de teclado, foco y navegacion. La meta es reconocer el problema real, tomar una decision simple y comprobarla con todo control importante se alcanza, se entiende y se activa con teclado.",
+          "practicalExample": "Una pagina de inscripcion a un taller se ve correcta, pero varias personas no logran completar el formulario. Practica skip link sobre ese caso, compara una version inicial con una version corregida y registra recorrido de teclado anotado, foco visible y bloqueos corregidos.",
+          "commonMistake": "Crear el enlace pero apuntarlo a un id inexistente.",
+          "whatToDoNow": "Agrega y prueba un skip link que aparezca al recibir foco.",
+          "alert": "No ocultar el foco porque molesta visualmente: el foco es orientacion.",
           "keyPoints": [
-            "Espaciado debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
-            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
-            "La entrega esperada es: una auditoria breve de accesibilidad con problema, evidencia, mejora aplicada y prueba posterior.",
-            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+            "Skip link debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: todo control importante se alcanza, se entiende y se activa con teclado.",
+            "Evidencia minima: recorrido de teclado anotado, foco visible y bloqueos corregidos.",
+            "Relacion con el proyecto final: una mini auditoria con barrera, impacto, correccion aplicada y prueba posterior."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m3-l4",
-          "title": "No depender del color",
-          "keyIdea": "Idea clave: No depender del color sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
-          "shortTheory": "En esta leccion vas a trabajar \"No depender del color\" dentro del modulo \"Contraste y lectura\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
-          "practicalExample": "Una persona revisa una pagina que se ve bien, pero necesita confirmar si tambien puede usarse con teclado, lectores y ayudas simples. Aplica \"No depender del color\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
-          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una auditoria breve de accesibilidad con problema, evidencia, mejora aplicada y prueba posterior.",
-          "alert": "No asumir que una pagina es accesible solo porque se ve bien en pantalla propia.",
+          "title": "Menus desplegables simples",
+          "keyIdea": "Un menu debe abrirse, cerrarse y recorrerse de forma predecible.",
+          "shortTheory": "En esta leccion se trabaja menus desplegables simples dentro de teclado, foco y navegacion. La meta es reconocer el problema real, tomar una decision simple y comprobarla con todo control importante se alcanza, se entiende y se activa con teclado.",
+          "practicalExample": "Una pagina de inscripcion a un taller se ve correcta, pero varias personas no logran completar el formulario. Practica menus desplegables simples sobre ese caso, compara una version inicial con una version corregida y registra recorrido de teclado anotado, foco visible y bloqueos corregidos.",
+          "commonMistake": "Dejar el foco perdido dentro de contenido oculto.",
+          "whatToDoNow": "Prueba abrir, cerrar con Escape y volver el foco al boton del menu.",
+          "alert": "No ocultar el foco porque molesta visualmente: el foco es orientacion.",
           "keyPoints": [
-            "No depender del color debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
-            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
-            "La entrega esperada es: una auditoria breve de accesibilidad con problema, evidencia, mejora aplicada y prueba posterior.",
-            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+            "Menus desplegables simples debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: todo control importante se alcanza, se entiende y se activa con teclado.",
+            "Evidencia minima: recorrido de teclado anotado, foco visible y bloqueos corregidos.",
+            "Relacion con el proyecto final: una mini auditoria con barrera, impacto, correccion aplicada y prueba posterior."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m3-l5",
-          "title": "Foco visible",
-          "keyIdea": "Idea clave: Foco visible sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
-          "shortTheory": "En esta leccion vas a trabajar \"Foco visible\" dentro del modulo \"Contraste y lectura\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
-          "practicalExample": "Una persona revisa una pagina que se ve bien, pero necesita confirmar si tambien puede usarse con teclado, lectores y ayudas simples. Aplica \"Foco visible\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
-          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una auditoria breve de accesibilidad con problema, evidencia, mejora aplicada y prueba posterior.",
-          "alert": "No asumir que una pagina es accesible solo porque se ve bien en pantalla propia.",
+          "title": "Modales sin trampa",
+          "keyIdea": "Un modal debe atrapar foco mientras esta abierto y devolverlo al cerrar.",
+          "shortTheory": "En esta leccion se trabaja modales sin trampa dentro de teclado, foco y navegacion. La meta es reconocer el problema real, tomar una decision simple y comprobarla con todo control importante se alcanza, se entiende y se activa con teclado.",
+          "practicalExample": "Una pagina de inscripcion a un taller se ve correcta, pero varias personas no logran completar el formulario. Practica modales sin trampa sobre ese caso, compara una version inicial con una version corregida y registra recorrido de teclado anotado, foco visible y bloqueos corregidos.",
+          "commonMistake": "Permitir que Tab navegue por la pagina que queda detras.",
+          "whatToDoNow": "Dibuja el recorrido de foco de un modal de confirmacion.",
+          "alert": "No ocultar el foco porque molesta visualmente: el foco es orientacion.",
           "keyPoints": [
-            "Foco visible debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
-            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
-            "La entrega esperada es: una auditoria breve de accesibilidad con problema, evidencia, mejora aplicada y prueba posterior.",
-            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+            "Modales sin trampa debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: todo control importante se alcanza, se entiende y se activa con teclado.",
+            "Evidencia minima: recorrido de teclado anotado, foco visible y bloqueos corregidos.",
+            "Relacion con el proyecto final: una mini auditoria con barrera, impacto, correccion aplicada y prueba posterior."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m3-l6",
-          "title": "Modo responsive",
-          "keyIdea": "Idea clave: Modo responsive sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
-          "shortTheory": "En esta leccion vas a trabajar \"Modo responsive\" dentro del modulo \"Contraste y lectura\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
-          "practicalExample": "Una persona revisa una pagina que se ve bien, pero necesita confirmar si tambien puede usarse con teclado, lectores y ayudas simples. Aplica \"Modo responsive\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
-          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una auditoria breve de accesibilidad con problema, evidencia, mejora aplicada y prueba posterior.",
-          "alert": "No asumir que una pagina es accesible solo porque se ve bien en pantalla propia.",
+          "title": "Estados activos y actuales",
+          "keyIdea": "La navegacion necesita indicar pagina, paso o pestaña actual tambien para lectores.",
+          "shortTheory": "En esta leccion se trabaja estados activos y actuales dentro de teclado, foco y navegacion. La meta es reconocer el problema real, tomar una decision simple y comprobarla con todo control importante se alcanza, se entiende y se activa con teclado.",
+          "practicalExample": "Una pagina de inscripcion a un taller se ve correcta, pero varias personas no logran completar el formulario. Practica estados activos y actuales sobre ese caso, compara una version inicial con una version corregida y registra recorrido de teclado anotado, foco visible y bloqueos corregidos.",
+          "commonMistake": "Depender solo de un color para indicar ubicacion.",
+          "whatToDoNow": "Agrega aria-current en el enlace de seccion activa.",
+          "alert": "No ocultar el foco porque molesta visualmente: el foco es orientacion.",
           "keyPoints": [
-            "Modo responsive debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
-            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
-            "La entrega esperada es: una auditoria breve de accesibilidad con problema, evidencia, mejora aplicada y prueba posterior.",
-            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+            "Estados activos y actuales debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: todo control importante se alcanza, se entiende y se activa con teclado.",
+            "Evidencia minima: recorrido de teclado anotado, foco visible y bloqueos corregidos.",
+            "Relacion con el proyecto final: una mini auditoria con barrera, impacto, correccion aplicada y prueba posterior."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         }
@@ -462,172 +460,171 @@
       "quiz": [
         {
           "id": "m3-q1",
-          "question": "Pregunta 1: ¿que conviene hacer al trabajar ",
+          "question": "Cual es la mejor forma de empezar el modulo \"Teclado, foco y navegacion\"?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Definir el caso, el usuario afectado y la evidencia que se va a revisar.",
+            "Copiar una solucion completa sin probarla.",
+            "Esperar a tener una herramienta perfecta antes de practicar.",
+            "Elegir la opcion mas vistosa aunque no resuelva el problema."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: el modulo se vuelve util cuando parte de un caso y de evidencia verificable."
         },
         {
           "id": "m3-q2",
-          "question": "Pregunta 2: ¿que conviene hacer al trabajar ",
+          "question": "Que evidencia sirve para cerrar \"Teclado, foco y navegacion\" sin depender de opiniones?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "recorrido de teclado anotado, foco visible y bloqueos corregidos",
+            "Una captura sin contexto.",
+            "Una frase como 'parece estar bien'.",
+            "La cantidad de colores o iconos usados."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: recorrido de teclado anotado, foco visible y bloqueos corregidos permite revisar el resultado despues."
         },
         {
           "id": "m3-q3",
-          "question": "Pregunta 3: ¿que conviene hacer al trabajar ",
+          "question": "Que conducta aumenta el riesgo durante la practica?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Probar solo con mouse o pantalla tactil.",
+            "Trabajar con datos simulados.",
+            "Anotar dudas antes de publicar o aplicar.",
+            "Probar en una version pequena."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: esa conducta elimina control y puede producir errores reales."
         },
         {
           "id": "m3-q4",
-          "question": "Pregunta 4: ¿que conviene hacer al trabajar ",
+          "question": "Cuando conviene pedir ayuda o validar con una fuente externa?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Cuando aparecen modales, menus complejos, carruseles o componentes personalizados.",
+            "Nunca, porque el ejercicio es suficiente para cualquier caso.",
+            "Solo despues de borrar la evidencia.",
+            "Cuando el resultado se ve agradable visualmente."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: validar a tiempo evita decisiones inseguras o incompletas."
         },
         {
           "id": "m3-q5",
-          "question": "Pregunta 5: ¿que conviene hacer al trabajar ",
+          "question": "Cual es el entregable minimo del modulo \"Teclado, foco y navegacion\"?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "prueba de teclado documentada con correcciones",
+            "Un resumen sin prueba.",
+            "Una lista de ideas sueltas.",
+            "Un archivo final sin explicar cambios."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: prueba de teclado documentada con correcciones deja avance verificable."
         }
-      ],
-      "professionalOutcome": "detectar barreras basicas y corregirlas con criterios verificables. Entregable sugerido: un reporte con barreras, prioridad, solucion aplicada y prueba posterior."
+      ]
     },
     {
       "id": "m4",
-      "title": "Teclado",
-      "description": "En este modulo vas a trabajar \"Teclado\" dentro de accesibilidad web, HTML semantico, contraste, teclado, formularios y pruebas de uso. La meta es construir una pieza pequena, probarla en navegador y dejar evidencia de que funciona para una persona real.",
-      "learningRisk": "Punto clave",
+      "title": "Contraste, tamano y percepcion",
+      "description": "Mejorar legibilidad, estados visuales y mensajes sin depender solo del color.",
+      "learningRisk": "Practicar sin evidencia deja una mejora dificil de sostener.",
       "lessons": [
         {
           "id": "m4-l1",
-          "title": "Tab order",
-          "keyIdea": "Idea clave: Tab order sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
-          "shortTheory": "En esta leccion vas a trabajar \"Tab order\" dentro del modulo \"Teclado\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
-          "practicalExample": "Una persona revisa una pagina que se ve bien, pero necesita confirmar si tambien puede usarse con teclado, lectores y ayudas simples. Aplica \"Tab order\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
-          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una auditoria breve de accesibilidad con problema, evidencia, mejora aplicada y prueba posterior.",
-          "alert": "No asumir que una pagina es accesible solo porque se ve bien en pantalla propia.",
+          "title": "Contraste de texto",
+          "keyIdea": "El texto debe separarse del fondo con contraste suficiente en estados normales y deshabilitados.",
+          "shortTheory": "En esta leccion se trabaja contraste de texto dentro de contraste, tamano y percepcion. La meta es reconocer el problema real, tomar una decision simple y comprobarla con la informacion se comprende con zoom, bajo contraste ambiental y sin distinguir colores.",
+          "practicalExample": "Una pagina de inscripcion a un taller se ve correcta, pero varias personas no logran completar el formulario. Practica contraste de texto sobre ese caso, compara una version inicial con una version corregida y registra contraste revisado, estados distinguibles y texto legible en movil.",
+          "commonMistake": "Medir solo un color de marca y olvidar hover, foco y error.",
+          "whatToDoNow": "Mide contraste de texto principal, enlaces y botones.",
+          "alert": "Un color lindo que no se lee es un bloqueo, no un detalle estetico.",
           "keyPoints": [
-            "Tab order debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
-            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
-            "La entrega esperada es: una auditoria breve de accesibilidad con problema, evidencia, mejora aplicada y prueba posterior.",
-            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+            "Contraste de texto debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: la informacion se comprende con zoom, bajo contraste ambiental y sin distinguir colores.",
+            "Evidencia minima: contraste revisado, estados distinguibles y texto legible en movil.",
+            "Relacion con el proyecto final: una mini auditoria con barrera, impacto, correccion aplicada y prueba posterior."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m4-l2",
-          "title": "Focus",
-          "keyIdea": "Idea clave: Focus sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
-          "shortTheory": "En esta leccion vas a trabajar \"Focus\" dentro del modulo \"Teclado\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
-          "practicalExample": "Una persona revisa una pagina que se ve bien, pero necesita confirmar si tambien puede usarse con teclado, lectores y ayudas simples. Aplica \"Focus\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
-          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una auditoria breve de accesibilidad con problema, evidencia, mejora aplicada y prueba posterior.",
-          "alert": "No asumir que una pagina es accesible solo porque se ve bien en pantalla propia.",
+          "title": "No depender solo del color",
+          "keyIdea": "El color debe reforzar informacion, no ser el unico canal.",
+          "shortTheory": "En esta leccion se trabaja no depender solo del color dentro de contraste, tamano y percepcion. La meta es reconocer el problema real, tomar una decision simple y comprobarla con la informacion se comprende con zoom, bajo contraste ambiental y sin distinguir colores.",
+          "practicalExample": "Una pagina de inscripcion a un taller se ve correcta, pero varias personas no logran completar el formulario. Practica no depender solo del color sobre ese caso, compara una version inicial con una version corregida y registra contraste revisado, estados distinguibles y texto legible en movil.",
+          "commonMistake": "Mostrar errores solo con borde rojo.",
+          "whatToDoNow": "Agrega texto o icono a mensajes de exito, error y advertencia.",
+          "alert": "Un color lindo que no se lee es un bloqueo, no un detalle estetico.",
           "keyPoints": [
-            "Focus debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
-            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
-            "La entrega esperada es: una auditoria breve de accesibilidad con problema, evidencia, mejora aplicada y prueba posterior.",
-            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+            "No depender solo del color debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: la informacion se comprende con zoom, bajo contraste ambiental y sin distinguir colores.",
+            "Evidencia minima: contraste revisado, estados distinguibles y texto legible en movil.",
+            "Relacion con el proyecto final: una mini auditoria con barrera, impacto, correccion aplicada y prueba posterior."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m4-l3",
-          "title": "Skip link",
-          "keyIdea": "Idea clave: Skip link sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
-          "shortTheory": "En esta leccion vas a trabajar \"Skip link\" dentro del modulo \"Teclado\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
-          "practicalExample": "Una persona revisa una pagina que se ve bien, pero necesita confirmar si tambien puede usarse con teclado, lectores y ayudas simples. Aplica \"Skip link\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
-          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una auditoria breve de accesibilidad con problema, evidencia, mejora aplicada y prueba posterior.",
-          "alert": "No asumir que una pagina es accesible solo porque se ve bien en pantalla propia.",
+          "title": "Tamano y espaciado",
+          "keyIdea": "Texto, interlineado y espacios tactiles reducen esfuerzo y errores.",
+          "shortTheory": "En esta leccion se trabaja tamano y espaciado dentro de contraste, tamano y percepcion. La meta es reconocer el problema real, tomar una decision simple y comprobarla con la informacion se comprende con zoom, bajo contraste ambiental y sin distinguir colores.",
+          "practicalExample": "Una pagina de inscripcion a un taller se ve correcta, pero varias personas no logran completar el formulario. Practica tamano y espaciado sobre ese caso, compara una version inicial con una version corregida y registra contraste revisado, estados distinguibles y texto legible en movil.",
+          "commonMistake": "Achicar texto para que todo entre en una sola pantalla.",
+          "whatToDoNow": "Revisa una tarjeta en movil y aumenta legibilidad sin romper jerarquia.",
+          "alert": "Un color lindo que no se lee es un bloqueo, no un detalle estetico.",
           "keyPoints": [
-            "Skip link debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
-            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
-            "La entrega esperada es: una auditoria breve de accesibilidad con problema, evidencia, mejora aplicada y prueba posterior.",
-            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+            "Tamano y espaciado debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: la informacion se comprende con zoom, bajo contraste ambiental y sin distinguir colores.",
+            "Evidencia minima: contraste revisado, estados distinguibles y texto legible en movil.",
+            "Relacion con el proyecto final: una mini auditoria con barrera, impacto, correccion aplicada y prueba posterior."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m4-l4",
-          "title": "Dialogos",
-          "keyIdea": "Idea clave: Dialogos sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
-          "shortTheory": "En esta leccion vas a trabajar \"Dialogos\" dentro del modulo \"Teclado\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
-          "practicalExample": "Una persona revisa una pagina que se ve bien, pero necesita confirmar si tambien puede usarse con teclado, lectores y ayudas simples. Aplica \"Dialogos\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
-          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una auditoria breve de accesibilidad con problema, evidencia, mejora aplicada y prueba posterior.",
-          "alert": "No asumir que una pagina es accesible solo porque se ve bien en pantalla propia.",
+          "title": "Iconos con significado",
+          "keyIdea": "Un icono necesita etiqueta, contexto o repeticion suficiente para ser entendido.",
+          "shortTheory": "En esta leccion se trabaja iconos con significado dentro de contraste, tamano y percepcion. La meta es reconocer el problema real, tomar una decision simple y comprobarla con la informacion se comprende con zoom, bajo contraste ambiental y sin distinguir colores.",
+          "practicalExample": "Una pagina de inscripcion a un taller se ve correcta, pero varias personas no logran completar el formulario. Practica iconos con significado sobre ese caso, compara una version inicial con una version corregida y registra contraste revisado, estados distinguibles y texto legible en movil.",
+          "commonMistake": "Usar iconos decorativos como unica instruccion.",
+          "whatToDoNow": "Etiqueta tres iconos de accion y prueba si se entienden fuera de contexto.",
+          "alert": "Un color lindo que no se lee es un bloqueo, no un detalle estetico.",
           "keyPoints": [
-            "Dialogos debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
-            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
-            "La entrega esperada es: una auditoria breve de accesibilidad con problema, evidencia, mejora aplicada y prueba posterior.",
-            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+            "Iconos con significado debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: la informacion se comprende con zoom, bajo contraste ambiental y sin distinguir colores.",
+            "Evidencia minima: contraste revisado, estados distinguibles y texto legible en movil.",
+            "Relacion con el proyecto final: una mini auditoria con barrera, impacto, correccion aplicada y prueba posterior."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m4-l5",
-          "title": "Menus",
-          "keyIdea": "Idea clave: Menus sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
-          "shortTheory": "En esta leccion vas a trabajar \"Menus\" dentro del modulo \"Teclado\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
-          "practicalExample": "Una persona revisa una pagina que se ve bien, pero necesita confirmar si tambien puede usarse con teclado, lectores y ayudas simples. Aplica \"Menus\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
-          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una auditoria breve de accesibilidad con problema, evidencia, mejora aplicada y prueba posterior.",
-          "alert": "No asumir que una pagina es accesible solo porque se ve bien en pantalla propia.",
+          "title": "Zoom y responsive",
+          "keyIdea": "La interfaz debe soportar aumento de texto y pantallas pequenas sin solapar contenido.",
+          "shortTheory": "En esta leccion se trabaja zoom y responsive dentro de contraste, tamano y percepcion. La meta es reconocer el problema real, tomar una decision simple y comprobarla con la informacion se comprende con zoom, bajo contraste ambiental y sin distinguir colores.",
+          "practicalExample": "Una pagina de inscripcion a un taller se ve correcta, pero varias personas no logran completar el formulario. Practica zoom y responsive sobre ese caso, compara una version inicial con una version corregida y registra contraste revisado, estados distinguibles y texto legible en movil.",
+          "commonMistake": "Fijar alturas que cortan texto cuando el usuario aumenta fuente.",
+          "whatToDoNow": "Prueba 200% de zoom y ancho movil en una pagina.",
+          "alert": "Un color lindo que no se lee es un bloqueo, no un detalle estetico.",
           "keyPoints": [
-            "Menus debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
-            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
-            "La entrega esperada es: una auditoria breve de accesibilidad con problema, evidencia, mejora aplicada y prueba posterior.",
-            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+            "Zoom y responsive debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: la informacion se comprende con zoom, bajo contraste ambiental y sin distinguir colores.",
+            "Evidencia minima: contraste revisado, estados distinguibles y texto legible en movil.",
+            "Relacion con el proyecto final: una mini auditoria con barrera, impacto, correccion aplicada y prueba posterior."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m4-l6",
-          "title": "Prueba manual",
-          "keyIdea": "Idea clave: Prueba manual sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
-          "shortTheory": "En esta leccion vas a trabajar \"Prueba manual\" dentro del modulo \"Teclado\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
-          "practicalExample": "Una persona revisa una pagina que se ve bien, pero necesita confirmar si tambien puede usarse con teclado, lectores y ayudas simples. Aplica \"Prueba manual\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
-          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una auditoria breve de accesibilidad con problema, evidencia, mejora aplicada y prueba posterior.",
-          "alert": "No asumir que una pagina es accesible solo porque se ve bien en pantalla propia.",
+          "title": "Movimiento y distraccion",
+          "keyIdea": "Animaciones, parpadeos y transiciones pueden afectar comprension o comodidad.",
+          "shortTheory": "En esta leccion se trabaja movimiento y distraccion dentro de contraste, tamano y percepcion. La meta es reconocer el problema real, tomar una decision simple y comprobarla con la informacion se comprende con zoom, bajo contraste ambiental y sin distinguir colores.",
+          "practicalExample": "Una pagina de inscripcion a un taller se ve correcta, pero varias personas no logran completar el formulario. Practica movimiento y distraccion sobre ese caso, compara una version inicial con una version corregida y registra contraste revisado, estados distinguibles y texto legible en movil.",
+          "commonMistake": "Animar elementos criticos sin respetar preferencias de movimiento reducido.",
+          "whatToDoNow": "Identifica animaciones no esenciales y define alternativa reducida.",
+          "alert": "Un color lindo que no se lee es un bloqueo, no un detalle estetico.",
           "keyPoints": [
-            "Prueba manual debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
-            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
-            "La entrega esperada es: una auditoria breve de accesibilidad con problema, evidencia, mejora aplicada y prueba posterior.",
-            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+            "Movimiento y distraccion debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: la informacion se comprende con zoom, bajo contraste ambiental y sin distinguir colores.",
+            "Evidencia minima: contraste revisado, estados distinguibles y texto legible en movil.",
+            "Relacion con el proyecto final: una mini auditoria con barrera, impacto, correccion aplicada y prueba posterior."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         }
@@ -635,172 +632,171 @@
       "quiz": [
         {
           "id": "m4-q1",
-          "question": "Pregunta 1: ¿que conviene hacer al trabajar ",
+          "question": "Cual es la mejor forma de empezar el modulo \"Contraste, tamano y percepcion\"?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Definir el caso, el usuario afectado y la evidencia que se va a revisar.",
+            "Copiar una solucion completa sin probarla.",
+            "Esperar a tener una herramienta perfecta antes de practicar.",
+            "Elegir la opcion mas vistosa aunque no resuelva el problema."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: el modulo se vuelve util cuando parte de un caso y de evidencia verificable."
         },
         {
           "id": "m4-q2",
-          "question": "Pregunta 2: ¿que conviene hacer al trabajar ",
+          "question": "Que evidencia sirve para cerrar \"Contraste, tamano y percepcion\" sin depender de opiniones?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "contraste revisado, estados distinguibles y texto legible en movil",
+            "Una captura sin contexto.",
+            "Una frase como 'parece estar bien'.",
+            "La cantidad de colores o iconos usados."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: contraste revisado, estados distinguibles y texto legible en movil permite revisar el resultado despues."
         },
         {
           "id": "m4-q3",
-          "question": "Pregunta 3: ¿que conviene hacer al trabajar ",
+          "question": "Que conducta aumenta el riesgo durante la practica?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Elegir colores por marca sin medir contraste ni estados.",
+            "Trabajar con datos simulados.",
+            "Anotar dudas antes de publicar o aplicar.",
+            "Probar en una version pequena."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: esa conducta elimina control y puede producir errores reales."
         },
         {
           "id": "m4-q4",
-          "question": "Pregunta 4: ¿que conviene hacer al trabajar ",
+          "question": "Cuando conviene pedir ayuda o validar con una fuente externa?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Cuando el sitio tiene requisitos de marca, gobierno, educacion o servicios masivos.",
+            "Nunca, porque el ejercicio es suficiente para cualquier caso.",
+            "Solo despues de borrar la evidencia.",
+            "Cuando el resultado se ve agradable visualmente."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: validar a tiempo evita decisiones inseguras o incompletas."
         },
         {
           "id": "m4-q5",
-          "question": "Pregunta 5: ¿que conviene hacer al trabajar ",
+          "question": "Cual es el entregable minimo del modulo \"Contraste, tamano y percepcion\"?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "lista de ajustes visuales con prueba de legibilidad",
+            "Un resumen sin prueba.",
+            "Una lista de ideas sueltas.",
+            "Un archivo final sin explicar cambios."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: lista de ajustes visuales con prueba de legibilidad deja avance verificable."
         }
-      ],
-      "professionalOutcome": "detectar barreras basicas y corregirlas con criterios verificables. Entregable sugerido: un reporte con barreras, prioridad, solucion aplicada y prueba posterior."
+      ]
     },
     {
       "id": "m5",
-      "title": "Formularios",
-      "description": "En este modulo vas a trabajar \"Formularios\" dentro de accesibilidad web, HTML semantico, contraste, teclado, formularios y pruebas de uso. La meta es construir una pieza pequena, probarla en navegador y dejar evidencia de que funciona para una persona real.",
-      "learningRisk": "Punto clave",
+      "title": "Formularios, errores y ayuda",
+      "description": "Diseñar campos, instrucciones, validaciones y confirmaciones que eviten abandono y errores repetidos.",
+      "learningRisk": "Practicar sin evidencia deja una mejora dificil de sostener.",
       "lessons": [
         {
           "id": "m5-l1",
-          "title": "Labels",
-          "keyIdea": "Idea clave: Labels sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
-          "shortTheory": "En esta leccion vas a trabajar \"Labels\" dentro del modulo \"Formularios\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
-          "practicalExample": "Una persona revisa una pagina que se ve bien, pero necesita confirmar si tambien puede usarse con teclado, lectores y ayudas simples. Aplica \"Labels\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
-          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una auditoria breve de accesibilidad con problema, evidencia, mejora aplicada y prueba posterior.",
-          "alert": "No asumir que una pagina es accesible solo porque se ve bien en pantalla propia.",
+          "title": "Label visible y asociado",
+          "keyIdea": "Cada campo necesita una etiqueta que permanezca visible y este conectada al input.",
+          "shortTheory": "En esta leccion se trabaja label visible y asociado dentro de formularios, errores y ayuda. La meta es reconocer el problema real, tomar una decision simple y comprobarla con una persona puede completar, corregir y confirmar el envio sin adivinar.",
+          "practicalExample": "Una pagina de inscripcion a un taller se ve correcta, pero varias personas no logran completar el formulario. Practica label visible y asociado sobre ese caso, compara una version inicial con una version corregida y registra formulario probado con etiquetas, instrucciones, errores y confirmacion.",
+          "commonMistake": "Usar placeholder como unica etiqueta.",
+          "whatToDoNow": "Asocia labels a nombre, correo y telefono.",
+          "alert": "Nunca pedir mas datos de los necesarios para la tarea.",
           "keyPoints": [
-            "Labels debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
-            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
-            "La entrega esperada es: una auditoria breve de accesibilidad con problema, evidencia, mejora aplicada y prueba posterior.",
-            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+            "Label visible y asociado debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: una persona puede completar, corregir y confirmar el envio sin adivinar.",
+            "Evidencia minima: formulario probado con etiquetas, instrucciones, errores y confirmacion.",
+            "Relacion con el proyecto final: una mini auditoria con barrera, impacto, correccion aplicada y prueba posterior."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m5-l2",
-          "title": "Errores",
-          "keyIdea": "Idea clave: Errores sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
-          "shortTheory": "En esta leccion vas a trabajar \"Errores\" dentro del modulo \"Formularios\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
-          "practicalExample": "Una persona revisa una pagina que se ve bien, pero necesita confirmar si tambien puede usarse con teclado, lectores y ayudas simples. Aplica \"Errores\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
-          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una auditoria breve de accesibilidad con problema, evidencia, mejora aplicada y prueba posterior.",
-          "alert": "No asumir que una pagina es accesible solo porque se ve bien en pantalla propia.",
+          "title": "Instrucciones antes del error",
+          "keyIdea": "La ayuda debe aparecer antes de que la persona falle.",
+          "shortTheory": "En esta leccion se trabaja instrucciones antes del error dentro de formularios, errores y ayuda. La meta es reconocer el problema real, tomar una decision simple y comprobarla con una persona puede completar, corregir y confirmar el envio sin adivinar.",
+          "practicalExample": "Una pagina de inscripcion a un taller se ve correcta, pero varias personas no logran completar el formulario. Practica instrucciones antes del error sobre ese caso, compara una version inicial con una version corregida y registra formulario probado con etiquetas, instrucciones, errores y confirmacion.",
+          "commonMistake": "Reprender al usuario despues de un error que el sistema podia prevenir.",
+          "whatToDoNow": "Agrega formato esperado y ejemplo seguro en un campo complejo.",
+          "alert": "Nunca pedir mas datos de los necesarios para la tarea.",
           "keyPoints": [
-            "Errores debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
-            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
-            "La entrega esperada es: una auditoria breve de accesibilidad con problema, evidencia, mejora aplicada y prueba posterior.",
-            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+            "Instrucciones antes del error debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: una persona puede completar, corregir y confirmar el envio sin adivinar.",
+            "Evidencia minima: formulario probado con etiquetas, instrucciones, errores y confirmacion.",
+            "Relacion con el proyecto final: una mini auditoria con barrera, impacto, correccion aplicada y prueba posterior."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m5-l3",
-          "title": "Ayuda",
-          "keyIdea": "Idea clave: Ayuda sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
-          "shortTheory": "En esta leccion vas a trabajar \"Ayuda\" dentro del modulo \"Formularios\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
-          "practicalExample": "Una persona revisa una pagina que se ve bien, pero necesita confirmar si tambien puede usarse con teclado, lectores y ayudas simples. Aplica \"Ayuda\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
-          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una auditoria breve de accesibilidad con problema, evidencia, mejora aplicada y prueba posterior.",
-          "alert": "No asumir que una pagina es accesible solo porque se ve bien en pantalla propia.",
+          "title": "Mensajes de error accionables",
+          "keyIdea": "Un buen error explica que paso, donde y como corregirlo.",
+          "shortTheory": "En esta leccion se trabaja mensajes de error accionables dentro de formularios, errores y ayuda. La meta es reconocer el problema real, tomar una decision simple y comprobarla con una persona puede completar, corregir y confirmar el envio sin adivinar.",
+          "practicalExample": "Una pagina de inscripcion a un taller se ve correcta, pero varias personas no logran completar el formulario. Practica mensajes de error accionables sobre ese caso, compara una version inicial con una version corregida y registra formulario probado con etiquetas, instrucciones, errores y confirmacion.",
+          "commonMistake": "Mostrar 'dato invalido' sin decir cual dato ni por que.",
+          "whatToDoNow": "Reescribe tres errores genericos para que indiquen accion.",
+          "alert": "Nunca pedir mas datos de los necesarios para la tarea.",
           "keyPoints": [
-            "Ayuda debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
-            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
-            "La entrega esperada es: una auditoria breve de accesibilidad con problema, evidencia, mejora aplicada y prueba posterior.",
-            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+            "Mensajes de error accionables debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: una persona puede completar, corregir y confirmar el envio sin adivinar.",
+            "Evidencia minima: formulario probado con etiquetas, instrucciones, errores y confirmacion.",
+            "Relacion con el proyecto final: una mini auditoria con barrera, impacto, correccion aplicada y prueba posterior."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m5-l4",
-          "title": "Requeridos",
-          "keyIdea": "Idea clave: Requeridos sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
-          "shortTheory": "En esta leccion vas a trabajar \"Requeridos\" dentro del modulo \"Formularios\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
-          "practicalExample": "Una persona revisa una pagina que se ve bien, pero necesita confirmar si tambien puede usarse con teclado, lectores y ayudas simples. Aplica \"Requeridos\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
-          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una auditoria breve de accesibilidad con problema, evidencia, mejora aplicada y prueba posterior.",
-          "alert": "No asumir que una pagina es accesible solo porque se ve bien en pantalla propia.",
+          "title": "Campos obligatorios y opcionales",
+          "keyIdea": "La obligacion debe ser clara y consistente desde el inicio.",
+          "shortTheory": "En esta leccion se trabaja campos obligatorios y opcionales dentro de formularios, errores y ayuda. La meta es reconocer el problema real, tomar una decision simple y comprobarla con una persona puede completar, corregir y confirmar el envio sin adivinar.",
+          "practicalExample": "Una pagina de inscripcion a un taller se ve correcta, pero varias personas no logran completar el formulario. Practica campos obligatorios y opcionales sobre ese caso, compara una version inicial con una version corregida y registra formulario probado con etiquetas, instrucciones, errores y confirmacion.",
+          "commonMistake": "Dejar que el usuario descubra campos requeridos al final.",
+          "whatToDoNow": "Marca campos obligatorios y explica por que se pide cada dato sensible.",
+          "alert": "Nunca pedir mas datos de los necesarios para la tarea.",
           "keyPoints": [
-            "Requeridos debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
-            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
-            "La entrega esperada es: una auditoria breve de accesibilidad con problema, evidencia, mejora aplicada y prueba posterior.",
-            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+            "Campos obligatorios y opcionales debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: una persona puede completar, corregir y confirmar el envio sin adivinar.",
+            "Evidencia minima: formulario probado con etiquetas, instrucciones, errores y confirmacion.",
+            "Relacion con el proyecto final: una mini auditoria con barrera, impacto, correccion aplicada y prueba posterior."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m5-l5",
-          "title": "Autocompletar",
-          "keyIdea": "Idea clave: Autocompletar sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
-          "shortTheory": "En esta leccion vas a trabajar \"Autocompletar\" dentro del modulo \"Formularios\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
-          "practicalExample": "Una persona revisa una pagina que se ve bien, pero necesita confirmar si tambien puede usarse con teclado, lectores y ayudas simples. Aplica \"Autocompletar\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
-          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una auditoria breve de accesibilidad con problema, evidencia, mejora aplicada y prueba posterior.",
-          "alert": "No asumir que una pagina es accesible solo porque se ve bien en pantalla propia.",
+          "title": "Confirmacion y recuperacion",
+          "keyIdea": "Despues de enviar, la persona necesita saber si la accion se completo y que hacer luego.",
+          "shortTheory": "En esta leccion se trabaja confirmacion y recuperacion dentro de formularios, errores y ayuda. La meta es reconocer el problema real, tomar una decision simple y comprobarla con una persona puede completar, corregir y confirmar el envio sin adivinar.",
+          "practicalExample": "Una pagina de inscripcion a un taller se ve correcta, pero varias personas no logran completar el formulario. Practica confirmacion y recuperacion sobre ese caso, compara una version inicial con una version corregida y registra formulario probado con etiquetas, instrucciones, errores y confirmacion.",
+          "commonMistake": "Vaciar el formulario sin confirmar resultado.",
+          "whatToDoNow": "Redacta pantalla de confirmacion con numero, correo o proximo paso.",
+          "alert": "Nunca pedir mas datos de los necesarios para la tarea.",
           "keyPoints": [
-            "Autocompletar debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
-            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
-            "La entrega esperada es: una auditoria breve de accesibilidad con problema, evidencia, mejora aplicada y prueba posterior.",
-            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+            "Confirmacion y recuperacion debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: una persona puede completar, corregir y confirmar el envio sin adivinar.",
+            "Evidencia minima: formulario probado con etiquetas, instrucciones, errores y confirmacion.",
+            "Relacion con el proyecto final: una mini auditoria con barrera, impacto, correccion aplicada y prueba posterior."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m5-l6",
-          "title": "Mensajes",
-          "keyIdea": "Idea clave: Mensajes sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
-          "shortTheory": "En esta leccion vas a trabajar \"Mensajes\" dentro del modulo \"Formularios\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
-          "practicalExample": "Una persona revisa una pagina que se ve bien, pero necesita confirmar si tambien puede usarse con teclado, lectores y ayudas simples. Aplica \"Mensajes\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
-          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una auditoria breve de accesibilidad con problema, evidencia, mejora aplicada y prueba posterior.",
-          "alert": "No asumir que una pagina es accesible solo porque se ve bien en pantalla propia.",
+          "title": "Privacidad en formularios",
+          "keyIdea": "Accesibilidad y privacidad se cruzan cuando pedimos datos: menos datos, mejor explicacion y mas control.",
+          "shortTheory": "En esta leccion se trabaja privacidad en formularios dentro de formularios, errores y ayuda. La meta es reconocer el problema real, tomar una decision simple y comprobarla con una persona puede completar, corregir y confirmar el envio sin adivinar.",
+          "practicalExample": "Una pagina de inscripcion a un taller se ve correcta, pero varias personas no logran completar el formulario. Practica privacidad en formularios sobre ese caso, compara una version inicial con una version corregida y registra formulario probado con etiquetas, instrucciones, errores y confirmacion.",
+          "commonMistake": "Copiar formularios largos de otra organizacion sin revisar necesidad.",
+          "whatToDoNow": "Elimina un campo innecesario y agrega texto de uso de datos.",
+          "alert": "Nunca pedir mas datos de los necesarios para la tarea.",
           "keyPoints": [
-            "Mensajes debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
-            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
-            "La entrega esperada es: una auditoria breve de accesibilidad con problema, evidencia, mejora aplicada y prueba posterior.",
-            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+            "Privacidad en formularios debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: una persona puede completar, corregir y confirmar el envio sin adivinar.",
+            "Evidencia minima: formulario probado con etiquetas, instrucciones, errores y confirmacion.",
+            "Relacion con el proyecto final: una mini auditoria con barrera, impacto, correccion aplicada y prueba posterior."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         }
@@ -808,172 +804,171 @@
       "quiz": [
         {
           "id": "m5-q1",
-          "question": "Pregunta 1: ¿que conviene hacer al trabajar ",
+          "question": "Cual es la mejor forma de empezar el modulo \"Formularios, errores y ayuda\"?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Definir el caso, el usuario afectado y la evidencia que se va a revisar.",
+            "Copiar una solucion completa sin probarla.",
+            "Esperar a tener una herramienta perfecta antes de practicar.",
+            "Elegir la opcion mas vistosa aunque no resuelva el problema."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: el modulo se vuelve util cuando parte de un caso y de evidencia verificable."
         },
         {
           "id": "m5-q2",
-          "question": "Pregunta 2: ¿que conviene hacer al trabajar ",
+          "question": "Que evidencia sirve para cerrar \"Formularios, errores y ayuda\" sin depender de opiniones?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "formulario probado con etiquetas, instrucciones, errores y confirmacion",
+            "Una captura sin contexto.",
+            "Una frase como 'parece estar bien'.",
+            "La cantidad de colores o iconos usados."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: formulario probado con etiquetas, instrucciones, errores y confirmacion permite revisar el resultado despues."
         },
         {
           "id": "m5-q3",
-          "question": "Pregunta 3: ¿que conviene hacer al trabajar ",
+          "question": "Que conducta aumenta el riesgo durante la practica?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Validar solo despues de enviar y mostrar mensajes ambiguos.",
+            "Trabajar con datos simulados.",
+            "Anotar dudas antes de publicar o aplicar.",
+            "Probar en una version pequena."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: esa conducta elimina control y puede producir errores reales."
         },
         {
           "id": "m5-q4",
-          "question": "Pregunta 4: ¿que conviene hacer al trabajar ",
+          "question": "Cuando conviene pedir ayuda o validar con una fuente externa?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Cuando se piden datos personales, pagos, turnos, salud o informacion sensible.",
+            "Nunca, porque el ejercicio es suficiente para cualquier caso.",
+            "Solo despues de borrar la evidencia.",
+            "Cuando el resultado se ve agradable visualmente."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: validar a tiempo evita decisiones inseguras o incompletas."
         },
         {
           "id": "m5-q5",
-          "question": "Pregunta 5: ¿que conviene hacer al trabajar ",
+          "question": "Cual es el entregable minimo del modulo \"Formularios, errores y ayuda\"?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "formulario corregido con prueba de error",
+            "Un resumen sin prueba.",
+            "Una lista de ideas sueltas.",
+            "Un archivo final sin explicar cambios."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: formulario corregido con prueba de error deja avance verificable."
         }
-      ],
-      "professionalOutcome": "detectar barreras basicas y corregirlas con criterios verificables. Entregable sugerido: un reporte con barreras, prioridad, solucion aplicada y prueba posterior."
+      ]
     },
     {
       "id": "m6",
-      "title": "Pruebas",
-      "description": "En este modulo vas a trabajar \"Pruebas\" dentro de accesibilidad web, HTML semantico, contraste, teclado, formularios y pruebas de uso. La meta es construir una pieza pequena, probarla en navegador y dejar evidencia de que funciona para una persona real.",
-      "learningRisk": "Punto clave",
+      "title": "Prueba manual y reporte",
+      "description": "Cerrar una revision accesible con evidencia, recomendaciones claras y un backlog posible.",
+      "learningRisk": "Practicar sin evidencia deja una mejora dificil de sostener.",
       "lessons": [
         {
           "id": "m6-l1",
-          "title": "Lector de pantalla basico",
-          "keyIdea": "Idea clave: Lector de pantalla basico sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
-          "shortTheory": "En esta leccion vas a trabajar \"Lector de pantalla basico\" dentro del modulo \"Pruebas\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
-          "practicalExample": "Una persona revisa una pagina que se ve bien, pero necesita confirmar si tambien puede usarse con teclado, lectores y ayudas simples. Aplica \"Lector de pantalla basico\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
-          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una auditoria breve de accesibilidad con problema, evidencia, mejora aplicada y prueba posterior.",
-          "alert": "No asumir que una pagina es accesible solo porque se ve bien en pantalla propia.",
+          "title": "Prueba con teclado",
+          "keyIdea": "La prueba manual mas barata y reveladora es recorrer el flujo sin mouse.",
+          "shortTheory": "En esta leccion se trabaja prueba con teclado dentro de prueba manual y reporte. La meta es reconocer el problema real, tomar una decision simple y comprobarla con cada hallazgo puede ser entendido y corregido por otra persona.",
+          "practicalExample": "Una pagina de inscripcion a un taller se ve correcta, pero varias personas no logran completar el formulario. Practica prueba con teclado sobre ese caso, compara una version inicial con una version corregida y registra reporte breve con hallazgos, severidad, evidencia, solucion y retest.",
+          "commonMistake": "Probar solo la home y no el flujo completo.",
+          "whatToDoNow": "Graba o anota el recorrido de foco de una tarea principal.",
+          "alert": "Una auditoria inicial no reemplaza una evaluacion experta completa.",
           "keyPoints": [
-            "Lector de pantalla basico debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
-            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
-            "La entrega esperada es: una auditoria breve de accesibilidad con problema, evidencia, mejora aplicada y prueba posterior.",
-            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+            "Prueba con teclado debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: cada hallazgo puede ser entendido y corregido por otra persona.",
+            "Evidencia minima: reporte breve con hallazgos, severidad, evidencia, solucion y retest.",
+            "Relacion con el proyecto final: una mini auditoria con barrera, impacto, correccion aplicada y prueba posterior."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m6-l2",
-          "title": "Validador",
-          "keyIdea": "Idea clave: Validador sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
-          "shortTheory": "En esta leccion vas a trabajar \"Validador\" dentro del modulo \"Pruebas\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
-          "practicalExample": "Una persona revisa una pagina que se ve bien, pero necesita confirmar si tambien puede usarse con teclado, lectores y ayudas simples. Aplica \"Validador\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
-          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una auditoria breve de accesibilidad con problema, evidencia, mejora aplicada y prueba posterior.",
-          "alert": "No asumir que una pagina es accesible solo porque se ve bien en pantalla propia.",
+          "title": "Prueba con lector basica",
+          "keyIdea": "No hace falta ser experto para detectar nombres confusos, orden raro o controles sin etiqueta.",
+          "shortTheory": "En esta leccion se trabaja prueba con lector basica dentro de prueba manual y reporte. La meta es reconocer el problema real, tomar una decision simple y comprobarla con cada hallazgo puede ser entendido y corregido por otra persona.",
+          "practicalExample": "Una pagina de inscripcion a un taller se ve correcta, pero varias personas no logran completar el formulario. Practica prueba con lector basica sobre ese caso, compara una version inicial con una version corregida y registra reporte breve con hallazgos, severidad, evidencia, solucion y retest.",
+          "commonMistake": "Simular lector mirando el DOM sin escuchar la experiencia.",
+          "whatToDoNow": "Escucha titulos, enlaces y campos con una herramienta disponible.",
+          "alert": "Una auditoria inicial no reemplaza una evaluacion experta completa.",
           "keyPoints": [
-            "Validador debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
-            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
-            "La entrega esperada es: una auditoria breve de accesibilidad con problema, evidencia, mejora aplicada y prueba posterior.",
-            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+            "Prueba con lector basica debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: cada hallazgo puede ser entendido y corregido por otra persona.",
+            "Evidencia minima: reporte breve con hallazgos, severidad, evidencia, solucion y retest.",
+            "Relacion con el proyecto final: una mini auditoria con barrera, impacto, correccion aplicada y prueba posterior."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m6-l3",
-          "title": "Navegacion teclado",
-          "keyIdea": "Idea clave: Navegacion teclado sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
-          "shortTheory": "En esta leccion vas a trabajar \"Navegacion teclado\" dentro del modulo \"Pruebas\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
-          "practicalExample": "Una persona revisa una pagina que se ve bien, pero necesita confirmar si tambien puede usarse con teclado, lectores y ayudas simples. Aplica \"Navegacion teclado\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
-          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una auditoria breve de accesibilidad con problema, evidencia, mejora aplicada y prueba posterior.",
-          "alert": "No asumir que una pagina es accesible solo porque se ve bien en pantalla propia.",
+          "title": "Severidad y prioridad",
+          "keyIdea": "Severidad mide impacto; prioridad combina impacto, frecuencia y esfuerzo.",
+          "shortTheory": "En esta leccion se trabaja severidad y prioridad dentro de prueba manual y reporte. La meta es reconocer el problema real, tomar una decision simple y comprobarla con cada hallazgo puede ser entendido y corregido por otra persona.",
+          "practicalExample": "Una pagina de inscripcion a un taller se ve correcta, pero varias personas no logran completar el formulario. Practica severidad y prioridad sobre ese caso, compara una version inicial con una version corregida y registra reporte breve con hallazgos, severidad, evidencia, solucion y retest.",
+          "commonMistake": "Marcar todo como urgente y perder foco.",
+          "whatToDoNow": "Clasifica cinco hallazgos en bloqueante, alto, medio o bajo.",
+          "alert": "Una auditoria inicial no reemplaza una evaluacion experta completa.",
           "keyPoints": [
-            "Navegacion teclado debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
-            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
-            "La entrega esperada es: una auditoria breve de accesibilidad con problema, evidencia, mejora aplicada y prueba posterior.",
-            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+            "Severidad y prioridad debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: cada hallazgo puede ser entendido y corregido por otra persona.",
+            "Evidencia minima: reporte breve con hallazgos, severidad, evidencia, solucion y retest.",
+            "Relacion con el proyecto final: una mini auditoria con barrera, impacto, correccion aplicada y prueba posterior."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m6-l4",
-          "title": "Zoom",
-          "keyIdea": "Idea clave: Zoom sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
-          "shortTheory": "En esta leccion vas a trabajar \"Zoom\" dentro del modulo \"Pruebas\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
-          "practicalExample": "Una persona revisa una pagina que se ve bien, pero necesita confirmar si tambien puede usarse con teclado, lectores y ayudas simples. Aplica \"Zoom\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
-          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una auditoria breve de accesibilidad con problema, evidencia, mejora aplicada y prueba posterior.",
-          "alert": "No asumir que una pagina es accesible solo porque se ve bien en pantalla propia.",
+          "title": "Redaccion del hallazgo",
+          "keyIdea": "Un hallazgo util dice problema, evidencia, impacto, recomendacion y criterio de cierre.",
+          "shortTheory": "En esta leccion se trabaja redaccion del hallazgo dentro de prueba manual y reporte. La meta es reconocer el problema real, tomar una decision simple y comprobarla con cada hallazgo puede ser entendido y corregido por otra persona.",
+          "practicalExample": "Una pagina de inscripcion a un taller se ve correcta, pero varias personas no logran completar el formulario. Practica redaccion del hallazgo sobre ese caso, compara una version inicial con una version corregida y registra reporte breve con hallazgos, severidad, evidencia, solucion y retest.",
+          "commonMistake": "Escribir 'arreglar accesibilidad' como tarea unica.",
+          "whatToDoNow": "Escribe un hallazgo completo sobre un error de formulario.",
+          "alert": "Una auditoria inicial no reemplaza una evaluacion experta completa.",
           "keyPoints": [
-            "Zoom debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
-            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
-            "La entrega esperada es: una auditoria breve de accesibilidad con problema, evidencia, mejora aplicada y prueba posterior.",
-            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+            "Redaccion del hallazgo debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: cada hallazgo puede ser entendido y corregido por otra persona.",
+            "Evidencia minima: reporte breve con hallazgos, severidad, evidencia, solucion y retest.",
+            "Relacion con el proyecto final: una mini auditoria con barrera, impacto, correccion aplicada y prueba posterior."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m6-l5",
-          "title": "Alt text",
-          "keyIdea": "Idea clave: Alt text sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
-          "shortTheory": "En esta leccion vas a trabajar \"Alt text\" dentro del modulo \"Pruebas\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
-          "practicalExample": "Una persona revisa una pagina que se ve bien, pero necesita confirmar si tambien puede usarse con teclado, lectores y ayudas simples. Aplica \"Alt text\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
-          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una auditoria breve de accesibilidad con problema, evidencia, mejora aplicada y prueba posterior.",
-          "alert": "No asumir que una pagina es accesible solo porque se ve bien en pantalla propia.",
+          "title": "Retest",
+          "keyIdea": "Una correccion no termina hasta probar que resolvio el problema sin crear otro.",
+          "shortTheory": "En esta leccion se trabaja retest dentro de prueba manual y reporte. La meta es reconocer el problema real, tomar una decision simple y comprobarla con cada hallazgo puede ser entendido y corregido por otra persona.",
+          "practicalExample": "Una pagina de inscripcion a un taller se ve correcta, pero varias personas no logran completar el formulario. Practica retest sobre ese caso, compara una version inicial con una version corregida y registra reporte breve con hallazgos, severidad, evidencia, solucion y retest.",
+          "commonMistake": "Cerrar el ticket apenas se modifica el codigo.",
+          "whatToDoNow": "Define como vas a retestear un foco, un contraste y una etiqueta.",
+          "alert": "Una auditoria inicial no reemplaza una evaluacion experta completa.",
           "keyPoints": [
-            "Alt text debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
-            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
-            "La entrega esperada es: una auditoria breve de accesibilidad con problema, evidencia, mejora aplicada y prueba posterior.",
-            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+            "Retest debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: cada hallazgo puede ser entendido y corregido por otra persona.",
+            "Evidencia minima: reporte breve con hallazgos, severidad, evidencia, solucion y retest.",
+            "Relacion con el proyecto final: una mini auditoria con barrera, impacto, correccion aplicada y prueba posterior."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m6-l6",
-          "title": "Plan de mejora",
-          "keyIdea": "Idea clave: Plan de mejora sirve para convertir una idea web en una pieza funcional, revisable y facil de mejorar.",
-          "shortTheory": "En esta leccion vas a trabajar \"Plan de mejora\" dentro del modulo \"Pruebas\". El foco es entender que problema resuelve, como se implementa y como comprobar que la solucion funciona en el navegador.",
-          "practicalExample": "Una persona revisa una pagina que se ve bien, pero necesita confirmar si tambien puede usarse con teclado, lectores y ayudas simples. Aplica \"Plan de mejora\" con una version pequena: define objetivo, paso principal, prueba, resultado esperado y evidencia.",
-          "commonMistake": "El error comun es copiar codigo sin entenderlo, no probar estados reales o dejar una interfaz que funciona solo en una pantalla ideal.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe objetivo, accion, prueba, resultado y mejora pendiente. Entrega esperada: una auditoria breve de accesibilidad con problema, evidencia, mejora aplicada y prueba posterior.",
-          "alert": "No asumir que una pagina es accesible solo porque se ve bien en pantalla propia.",
+          "title": "Backlog accesible",
+          "keyIdea": "La accesibilidad mejora por ciclos: critico ahora, importante despues, aprendizaje continuo.",
+          "shortTheory": "En esta leccion se trabaja backlog accesible dentro de prueba manual y reporte. La meta es reconocer el problema real, tomar una decision simple y comprobarla con cada hallazgo puede ser entendido y corregido por otra persona.",
+          "practicalExample": "Una pagina de inscripcion a un taller se ve correcta, pero varias personas no logran completar el formulario. Practica backlog accesible sobre ese caso, compara una version inicial con una version corregida y registra reporte breve con hallazgos, severidad, evidencia, solucion y retest.",
+          "commonMistake": "Guardar la auditoria en un documento que nadie vuelve a abrir.",
+          "whatToDoNow": "Arma un backlog de 5 mejoras con responsable y fecha de revision.",
+          "alert": "Una auditoria inicial no reemplaza una evaluacion experta completa.",
           "keyPoints": [
-            "Plan de mejora debe terminar en una pieza web que pueda abrirse, probarse o explicarse.",
-            "La prueba en navegador y el control de errores son parte del aprendizaje, no un paso opcional.",
-            "La entrega esperada es: una auditoria breve de accesibilidad con problema, evidencia, mejora aplicada y prueba posterior.",
-            "El resultado debe quedar ordenado para poder mantenerlo, publicarlo o mejorarlo."
+            "Backlog accesible debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: cada hallazgo puede ser entendido y corregido por otra persona.",
+            "Evidencia minima: reporte breve con hallazgos, severidad, evidencia, solucion y retest.",
+            "Relacion con el proyecto final: una mini auditoria con barrera, impacto, correccion aplicada y prueba posterior."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         }
@@ -981,76 +976,65 @@
       "quiz": [
         {
           "id": "m6-q1",
-          "question": "Pregunta 1: ¿que conviene hacer al trabajar ",
+          "question": "Cual es la mejor forma de empezar el modulo \"Prueba manual y reporte\"?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Definir el caso, el usuario afectado y la evidencia que se va a revisar.",
+            "Copiar una solucion completa sin probarla.",
+            "Esperar a tener una herramienta perfecta antes de practicar.",
+            "Elegir la opcion mas vistosa aunque no resuelva el problema."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: el modulo se vuelve util cuando parte de un caso y de evidencia verificable."
         },
         {
           "id": "m6-q2",
-          "question": "Pregunta 2: ¿que conviene hacer al trabajar ",
+          "question": "Que evidencia sirve para cerrar \"Prueba manual y reporte\" sin depender de opiniones?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "reporte breve con hallazgos, severidad, evidencia, solucion y retest",
+            "Una captura sin contexto.",
+            "Una frase como 'parece estar bien'.",
+            "La cantidad de colores o iconos usados."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: reporte breve con hallazgos, severidad, evidencia, solucion y retest permite revisar el resultado despues."
         },
         {
           "id": "m6-q3",
-          "question": "Pregunta 3: ¿que conviene hacer al trabajar ",
+          "question": "Que conducta aumenta el riesgo durante la practica?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Entregar una lista de problemas sin severidad ni prueba posterior.",
+            "Trabajar con datos simulados.",
+            "Anotar dudas antes de publicar o aplicar.",
+            "Probar en una version pequena."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: esa conducta elimina control y puede producir errores reales."
         },
         {
           "id": "m6-q4",
-          "question": "Pregunta 4: ¿que conviene hacer al trabajar ",
+          "question": "Cuando conviene pedir ayuda o validar con una fuente externa?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Cuando se declara cumplimiento normativo o se auditan servicios criticos.",
+            "Nunca, porque el ejercicio es suficiente para cualquier caso.",
+            "Solo despues de borrar la evidencia.",
+            "Cuando el resultado se ve agradable visualmente."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: validar a tiempo evita decisiones inseguras o incompletas."
         },
         {
           "id": "m6-q5",
-          "question": "Pregunta 5: ¿que conviene hacer al trabajar ",
+          "question": "Cual es el entregable minimo del modulo \"Prueba manual y reporte\"?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "reporte de auditoria inicial priorizado",
+            "Un resumen sin prueba.",
+            "Una lista de ideas sueltas.",
+            "Un archivo final sin explicar cambios."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: reporte de auditoria inicial priorizado deja avance verificable."
         }
-      ],
-      "professionalOutcome": "detectar barreras basicas y corregirlas con criterios verificables. Entregable sugerido: un reporte con barreras, prioridad, solucion aplicada y prueba posterior."
+      ]
     }
-  ],
-  "appName": "Accesibilidad Web para Principiantes",
-  "professionalization": {
-    "tier": "curso-bandera-v1.0-beta",
-    "updatedAt": "2026-05-28",
-    "focus": "Profundizacion visible de lecciones, practicas, checklists y casos."
-  },
-  "editorialPolish": {
-    "fourthEditorialBatch": "2026-06-02",
-    "status": "public-facing-copy-polished"
-  }
+  ]
 }

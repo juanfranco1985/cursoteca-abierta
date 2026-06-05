@@ -1,114 +1,114 @@
 {
   "courseId": "android-seguro-principiantes",
   "title": "Android Seguro para Principiantes",
-  "version": "0.6-publica",
-  "publicationStatus": "publica-profesional-v0.6",
+  "version": "0.7-tanda-1",
+  "publicationStatus": "publica-profesional-v0.7-tanda-1",
   "modules": [
     {
       "id": "m1",
-      "title": "Bases de seguridad Android",
-      "description": "En este módulo vas a trabajar \"Bases de seguridad Android\" dentro de uso seguro de teléfonos Android, apps, permisos, copias y configuración básica. La meta es practicar una situación realista, reconocer el riesgo principal y cerrar con una evidencia útil para revisar.",
-      "learningRisk": "Punto clave",
+      "title": "Mapa de seguridad del telefono",
+      "description": "Reconocer ajustes clave y dejar una base segura antes de instalar, compartir o resolver incidentes.",
+      "learningRisk": "Practicar sin evidencia deja una mejora dificil de sostener.",
       "lessons": [
         {
           "id": "m1-l1",
-          "title": "Como se protege Android",
-          "keyIdea": "Idea clave: Como se protege Android ayuda a ordenar una situación concreta, tomar una decisión más segura y dejar evidencia revisable.",
-          "shortTheory": "En esta lección vas a trabajar \"Como se protege Android\" dentro del módulo \"Bases de seguridad Android\". La prioridad es entender qué problema resuelve, qué datos o pasos conviene revisar y cómo saber si la acción fue suficiente.",
-          "practicalExample": "Una persona necesita revisar su teléfono, instalar una app o recuperar control sin exponer cuentas ni datos personales. Aplicá \"Como se protege Android\" con una versión breve: anotá contexto, paso principal, control de seguridad y evidencia antes de avanzar.",
-          "commonMistake": "El error común es actuar rápido sin registrar contexto, usar una solución genérica o no revisar permisos, fuentes o consecuencias. Una práctica más profesional empieza chica, verifica y documenta.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí contexto, objetivo, acción principal, control y evidencia. Entrega esperada: una lista de revisión del teléfono con permisos, cuentas, copias y acciones pendientes.",
-          "alert": "No instalar APKs desconocidas, no compartir codigos de verificacion y no dar permisos innecesarios a apps.",
+          "title": "Pantalla de bloqueo",
+          "keyIdea": "PIN, patron, huella o rostro son la primera barrera si se pierde el equipo.",
+          "shortTheory": "En esta leccion se trabaja pantalla de bloqueo dentro de mapa de seguridad del telefono. La meta es reconocer el problema real, tomar una decision simple y comprobarla con se identifican bloqueo, actualizaciones, cuenta, permisos y copias.",
+          "practicalExample": "Un telefono Android recibe enlaces sospechosos, instala apps nuevas y guarda cuentas personales importantes. Practica pantalla de bloqueo sobre ese caso, compara una version inicial con una version corregida y registra mapa de ajustes revisados y estado inicial del telefono.",
+          "commonMistake": "Usar patron visible o PIN facil como 1234.",
+          "whatToDoNow": "Revisa tipo de bloqueo y tiempo de bloqueo automatico.",
+          "alert": "Antes de cambiar algo critico, verificar copia y cuenta de recuperacion.",
           "keyPoints": [
-            "Como se protege Android debe terminar en una decisión, acción o registro concreto.",
-            "Una práctica pequeña y verificable es mejor que una solución amplia sin control.",
-            "La evidencia mínima esperada es: una lista de revisión del teléfono con permisos, cuentas, copias y acciones pendientes.",
-            "El resultado debe poder explicarse y revisarse sin depender de memoria o intuición."
+            "Pantalla de bloqueo debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: se identifican bloqueo, actualizaciones, cuenta, permisos y copias.",
+            "Evidencia minima: mapa de ajustes revisados y estado inicial del telefono.",
+            "Relacion con el proyecto final: plan de seguridad del celular con ajustes, permisos, copia, recuperacion y respuesta ante incidentes."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m1-l2",
-          "title": "Actualizaciones",
-          "keyIdea": "Idea clave: Actualizaciones ayuda a ordenar una situación concreta, tomar una decisión más segura y dejar evidencia revisable.",
-          "shortTheory": "En esta lección vas a trabajar \"Actualizaciones\" dentro del módulo \"Bases de seguridad Android\". La prioridad es entender qué problema resuelve, qué datos o pasos conviene revisar y cómo saber si la acción fue suficiente.",
-          "practicalExample": "Una persona necesita revisar su teléfono, instalar una app o recuperar control sin exponer cuentas ni datos personales. Aplicá \"Actualizaciones\" con una versión breve: anotá contexto, paso principal, control de seguridad y evidencia antes de avanzar.",
-          "commonMistake": "El error común es actuar rápido sin registrar contexto, usar una solución genérica o no revisar permisos, fuentes o consecuencias. Una práctica más profesional empieza chica, verifica y documenta.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí contexto, objetivo, acción principal, control y evidencia. Entrega esperada: una lista de revisión del teléfono con permisos, cuentas, copias y acciones pendientes.",
-          "alert": "No instalar APKs desconocidas, no compartir codigos de verificacion y no dar permisos innecesarios a apps.",
+          "title": "Actualizaciones del sistema",
+          "keyIdea": "Las actualizaciones corrigen fallas de seguridad y estabilidad.",
+          "shortTheory": "En esta leccion se trabaja actualizaciones del sistema dentro de mapa de seguridad del telefono. La meta es reconocer el problema real, tomar una decision simple y comprobarla con se identifican bloqueo, actualizaciones, cuenta, permisos y copias.",
+          "practicalExample": "Un telefono Android recibe enlaces sospechosos, instala apps nuevas y guarda cuentas personales importantes. Practica actualizaciones del sistema sobre ese caso, compara una version inicial con una version corregida y registra mapa de ajustes revisados y estado inicial del telefono.",
+          "commonMistake": "Posponer actualizaciones indefinidamente por miedo.",
+          "whatToDoNow": "Ubica donde Android muestra version y actualizaciones.",
+          "alert": "Antes de cambiar algo critico, verificar copia y cuenta de recuperacion.",
           "keyPoints": [
-            "Actualizaciones debe terminar en una decisión, acción o registro concreto.",
-            "Una práctica pequeña y verificable es mejor que una solución amplia sin control.",
-            "La evidencia mínima esperada es: una lista de revisión del teléfono con permisos, cuentas, copias y acciones pendientes.",
-            "El resultado debe poder explicarse y revisarse sin depender de memoria o intuición."
+            "Actualizaciones del sistema debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: se identifican bloqueo, actualizaciones, cuenta, permisos y copias.",
+            "Evidencia minima: mapa de ajustes revisados y estado inicial del telefono.",
+            "Relacion con el proyecto final: plan de seguridad del celular con ajustes, permisos, copia, recuperacion y respuesta ante incidentes."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m1-l3",
-          "title": "Bloqueo de pantalla",
-          "keyIdea": "Idea clave: Bloqueo de pantalla ayuda a ordenar una situación concreta, tomar una decisión más segura y dejar evidencia revisable.",
-          "shortTheory": "En esta lección vas a trabajar \"Bloqueo de pantalla\" dentro del módulo \"Bases de seguridad Android\". La prioridad es entender qué problema resuelve, qué datos o pasos conviene revisar y cómo saber si la acción fue suficiente.",
-          "practicalExample": "Una persona necesita revisar su teléfono, instalar una app o recuperar control sin exponer cuentas ni datos personales. Aplicá \"Bloqueo de pantalla\" con una versión breve: anotá contexto, paso principal, control de seguridad y evidencia antes de avanzar.",
-          "commonMistake": "El error común es actuar rápido sin registrar contexto, usar una solución genérica o no revisar permisos, fuentes o consecuencias. Una práctica más profesional empieza chica, verifica y documenta.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí contexto, objetivo, acción principal, control y evidencia. Entrega esperada: una lista de revisión del teléfono con permisos, cuentas, copias y acciones pendientes.",
-          "alert": "No instalar APKs desconocidas, no compartir codigos de verificacion y no dar permisos innecesarios a apps.",
+          "title": "Cuenta de Google vinculada",
+          "keyIdea": "La cuenta principal permite recuperar, localizar y proteger el telefono.",
+          "shortTheory": "En esta leccion se trabaja cuenta de google vinculada dentro de mapa de seguridad del telefono. La meta es reconocer el problema real, tomar una decision simple y comprobarla con se identifican bloqueo, actualizaciones, cuenta, permisos y copias.",
+          "practicalExample": "Un telefono Android recibe enlaces sospechosos, instala apps nuevas y guarda cuentas personales importantes. Practica cuenta de google vinculada sobre ese caso, compara una version inicial con una version corregida y registra mapa de ajustes revisados y estado inicial del telefono.",
+          "commonMistake": "Usar cuenta prestada para un celular personal.",
+          "whatToDoNow": "Verifica que la cuenta sea propia y tenga recuperacion.",
+          "alert": "Antes de cambiar algo critico, verificar copia y cuenta de recuperacion.",
           "keyPoints": [
-            "Bloqueo de pantalla debe terminar en una decisión, acción o registro concreto.",
-            "Una práctica pequeña y verificable es mejor que una solución amplia sin control.",
-            "La evidencia mínima esperada es: una lista de revisión del teléfono con permisos, cuentas, copias y acciones pendientes.",
-            "El resultado debe poder explicarse y revisarse sin depender de memoria o intuición."
+            "Cuenta de Google vinculada debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: se identifican bloqueo, actualizaciones, cuenta, permisos y copias.",
+            "Evidencia minima: mapa de ajustes revisados y estado inicial del telefono.",
+            "Relacion con el proyecto final: plan de seguridad del celular con ajustes, permisos, copia, recuperacion y respuesta ante incidentes."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m1-l4",
-          "title": "Cuentas de Google",
-          "keyIdea": "Idea clave: Cuentas de Google ayuda a ordenar una situación concreta, tomar una decisión más segura y dejar evidencia revisable.",
-          "shortTheory": "En esta lección vas a trabajar \"Cuentas de Google\" dentro del módulo \"Bases de seguridad Android\". La prioridad es entender qué problema resuelve, qué datos o pasos conviene revisar y cómo saber si la acción fue suficiente.",
-          "practicalExample": "Una persona necesita revisar su teléfono, instalar una app o recuperar control sin exponer cuentas ni datos personales. Aplicá \"Cuentas de Google\" con una versión breve: anotá contexto, paso principal, control de seguridad y evidencia antes de avanzar.",
-          "commonMistake": "El error común es actuar rápido sin registrar contexto, usar una solución genérica o no revisar permisos, fuentes o consecuencias. Una práctica más profesional empieza chica, verifica y documenta.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí contexto, objetivo, acción principal, control y evidencia. Entrega esperada: una lista de revisión del teléfono con permisos, cuentas, copias y acciones pendientes.",
-          "alert": "No instalar APKs desconocidas, no compartir codigos de verificacion y no dar permisos innecesarios a apps.",
+          "title": "Play Protect y tienda oficial",
+          "keyIdea": "Instalar desde fuentes confiables reduce riesgo de apps maliciosas.",
+          "shortTheory": "En esta leccion se trabaja play protect y tienda oficial dentro de mapa de seguridad del telefono. La meta es reconocer el problema real, tomar una decision simple y comprobarla con se identifican bloqueo, actualizaciones, cuenta, permisos y copias.",
+          "practicalExample": "Un telefono Android recibe enlaces sospechosos, instala apps nuevas y guarda cuentas personales importantes. Practica play protect y tienda oficial sobre ese caso, compara una version inicial con una version corregida y registra mapa de ajustes revisados y estado inicial del telefono.",
+          "commonMistake": "Instalar APKs de enlaces enviados por chat.",
+          "whatToDoNow": "Busca Play Protect y revisa ultimo analisis.",
+          "alert": "Antes de cambiar algo critico, verificar copia y cuenta de recuperacion.",
           "keyPoints": [
-            "Cuentas de Google debe terminar en una decisión, acción o registro concreto.",
-            "Una práctica pequeña y verificable es mejor que una solución amplia sin control.",
-            "La evidencia mínima esperada es: una lista de revisión del teléfono con permisos, cuentas, copias y acciones pendientes.",
-            "El resultado debe poder explicarse y revisarse sin depender de memoria o intuición."
+            "Play Protect y tienda oficial debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: se identifican bloqueo, actualizaciones, cuenta, permisos y copias.",
+            "Evidencia minima: mapa de ajustes revisados y estado inicial del telefono.",
+            "Relacion con el proyecto final: plan de seguridad del celular con ajustes, permisos, copia, recuperacion y respuesta ante incidentes."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m1-l5",
-          "title": "Play Protect",
-          "keyIdea": "Idea clave: Play Protect ayuda a ordenar una situación concreta, tomar una decisión más segura y dejar evidencia revisable.",
-          "shortTheory": "En esta lección vas a trabajar \"Play Protect\" dentro del módulo \"Bases de seguridad Android\". La prioridad es entender qué problema resuelve, qué datos o pasos conviene revisar y cómo saber si la acción fue suficiente.",
-          "practicalExample": "Una persona necesita revisar su teléfono, instalar una app o recuperar control sin exponer cuentas ni datos personales. Aplicá \"Play Protect\" con una versión breve: anotá contexto, paso principal, control de seguridad y evidencia antes de avanzar.",
-          "commonMistake": "El error común es actuar rápido sin registrar contexto, usar una solución genérica o no revisar permisos, fuentes o consecuencias. Una práctica más profesional empieza chica, verifica y documenta.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí contexto, objetivo, acción principal, control y evidencia. Entrega esperada: una lista de revisión del teléfono con permisos, cuentas, copias y acciones pendientes.",
-          "alert": "No instalar APKs desconocidas, no compartir codigos de verificacion y no dar permisos innecesarios a apps.",
+          "title": "Copia de seguridad",
+          "keyIdea": "Una copia ayuda si se pierde, rompe o cambia el equipo.",
+          "shortTheory": "En esta leccion se trabaja copia de seguridad dentro de mapa de seguridad del telefono. La meta es reconocer el problema real, tomar una decision simple y comprobarla con se identifican bloqueo, actualizaciones, cuenta, permisos y copias.",
+          "practicalExample": "Un telefono Android recibe enlaces sospechosos, instala apps nuevas y guarda cuentas personales importantes. Practica copia de seguridad sobre ese caso, compara una version inicial con una version corregida y registra mapa de ajustes revisados y estado inicial del telefono.",
+          "commonMistake": "Descubrir que no habia copia despues de perder el celular.",
+          "whatToDoNow": "Revisa si fotos, contactos y ajustes tienen copia activada.",
+          "alert": "Antes de cambiar algo critico, verificar copia y cuenta de recuperacion.",
           "keyPoints": [
-            "Play Protect debe terminar en una decisión, acción o registro concreto.",
-            "Una práctica pequeña y verificable es mejor que una solución amplia sin control.",
-            "La evidencia mínima esperada es: una lista de revisión del teléfono con permisos, cuentas, copias y acciones pendientes.",
-            "El resultado debe poder explicarse y revisarse sin depender de memoria o intuición."
+            "Copia de seguridad debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: se identifican bloqueo, actualizaciones, cuenta, permisos y copias.",
+            "Evidencia minima: mapa de ajustes revisados y estado inicial del telefono.",
+            "Relacion con el proyecto final: plan de seguridad del celular con ajustes, permisos, copia, recuperacion y respuesta ante incidentes."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m1-l6",
-          "title": "Backups seguros",
-          "keyIdea": "Idea clave: Backups seguros ayuda a ordenar una situación concreta, tomar una decisión más segura y dejar evidencia revisable.",
-          "shortTheory": "En esta lección vas a trabajar \"Backups seguros\" dentro del módulo \"Bases de seguridad Android\". La prioridad es entender qué problema resuelve, qué datos o pasos conviene revisar y cómo saber si la acción fue suficiente.",
-          "practicalExample": "Una persona necesita revisar su teléfono, instalar una app o recuperar control sin exponer cuentas ni datos personales. Aplicá \"Backups seguros\" con una versión breve: anotá contexto, paso principal, control de seguridad y evidencia antes de avanzar.",
-          "commonMistake": "El error común es actuar rápido sin registrar contexto, usar una solución genérica o no revisar permisos, fuentes o consecuencias. Una práctica más profesional empieza chica, verifica y documenta.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí contexto, objetivo, acción principal, control y evidencia. Entrega esperada: una lista de revisión del teléfono con permisos, cuentas, copias y acciones pendientes.",
-          "alert": "No instalar APKs desconocidas, no compartir codigos de verificacion y no dar permisos innecesarios a apps.",
+          "title": "Datos visibles en bloqueo",
+          "keyIdea": "Notificaciones en pantalla bloqueada pueden exponer codigos o mensajes.",
+          "shortTheory": "En esta leccion se trabaja datos visibles en bloqueo dentro de mapa de seguridad del telefono. La meta es reconocer el problema real, tomar una decision simple y comprobarla con se identifican bloqueo, actualizaciones, cuenta, permisos y copias.",
+          "practicalExample": "Un telefono Android recibe enlaces sospechosos, instala apps nuevas y guarda cuentas personales importantes. Practica datos visibles en bloqueo sobre ese caso, compara una version inicial con una version corregida y registra mapa de ajustes revisados y estado inicial del telefono.",
+          "commonMistake": "Mostrar SMS completos con codigos en pantalla bloqueada.",
+          "whatToDoNow": "Configura notificaciones sensibles para que no muestren contenido.",
+          "alert": "Antes de cambiar algo critico, verificar copia y cuenta de recuperacion.",
           "keyPoints": [
-            "Backups seguros debe terminar en una decisión, acción o registro concreto.",
-            "Una práctica pequeña y verificable es mejor que una solución amplia sin control.",
-            "La evidencia mínima esperada es: una lista de revisión del teléfono con permisos, cuentas, copias y acciones pendientes.",
-            "El resultado debe poder explicarse y revisarse sin depender de memoria o intuición."
+            "Datos visibles en bloqueo debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: se identifican bloqueo, actualizaciones, cuenta, permisos y copias.",
+            "Evidencia minima: mapa de ajustes revisados y estado inicial del telefono.",
+            "Relacion con el proyecto final: plan de seguridad del celular con ajustes, permisos, copia, recuperacion y respuesta ante incidentes."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         }
@@ -116,172 +116,171 @@
       "quiz": [
         {
           "id": "m1-q1",
-          "question": "Pregunta 1: ¿que conviene hacer al trabajar ",
+          "question": "Cual es la mejor forma de empezar el modulo \"Mapa de seguridad del telefono\"?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Definir el caso, el usuario afectado y la evidencia que se va a revisar.",
+            "Copiar una solucion completa sin probarla.",
+            "Esperar a tener una herramienta perfecta antes de practicar.",
+            "Elegir la opcion mas vistosa aunque no resuelva el problema."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: el modulo se vuelve util cuando parte de un caso y de evidencia verificable."
         },
         {
           "id": "m1-q2",
-          "question": "Pregunta 2: ¿que conviene hacer al trabajar ",
+          "question": "Que evidencia sirve para cerrar \"Mapa de seguridad del telefono\" sin depender de opiniones?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "mapa de ajustes revisados y estado inicial del telefono",
+            "Una captura sin contexto.",
+            "Una frase como 'parece estar bien'.",
+            "La cantidad de colores o iconos usados."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: mapa de ajustes revisados y estado inicial del telefono permite revisar el resultado despues."
         },
         {
           "id": "m1-q3",
-          "question": "Pregunta 3: ¿que conviene hacer al trabajar ",
+          "question": "Que conducta aumenta el riesgo durante la practica?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Tocar ajustes sensibles sin entender si borran datos o cambian cuentas.",
+            "Trabajar con datos simulados.",
+            "Anotar dudas antes de publicar o aplicar.",
+            "Probar en una version pequena."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: esa conducta elimina control y puede producir errores reales."
         },
         {
           "id": "m1-q4",
-          "question": "Pregunta 4: ¿que conviene hacer al trabajar ",
+          "question": "Cuando conviene pedir ayuda o validar con una fuente externa?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Cuando aparece restablecer, borrar datos, cambiar cuenta principal o pago.",
+            "Nunca, porque el ejercicio es suficiente para cualquier caso.",
+            "Solo despues de borrar la evidencia.",
+            "Cuando el resultado se ve agradable visualmente."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: validar a tiempo evita decisiones inseguras o incompletas."
         },
         {
           "id": "m1-q5",
-          "question": "Pregunta 5: ¿que conviene hacer al trabajar ",
+          "question": "Cual es el entregable minimo del modulo \"Mapa de seguridad del telefono\"?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "diagnostico inicial del Android",
+            "Un resumen sin prueba.",
+            "Una lista de ideas sueltas.",
+            "Un archivo final sin explicar cambios."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: diagnostico inicial del Android deja avance verificable."
         }
-      ],
-      "professionalOutcome": "configurar el telefono con menos riesgo, reconocer permisos peligrosos y recuperar control ante problemas. Entregable sugerido: un checklist de telefono seguro con ajustes, permisos, copias y acciones de emergencia."
+      ]
     },
     {
       "id": "m2",
-      "title": "Permisos y privacidad",
-      "description": "En este módulo vas a trabajar \"Permisos y privacidad\" dentro de uso seguro de teléfonos Android, apps, permisos, copias y configuración básica. La meta es practicar una situación realista, reconocer el riesgo principal y cerrar con una evidencia útil para revisar.",
-      "learningRisk": "Punto clave",
+      "title": "Permisos y privacidad de apps",
+      "description": "Entender que permisos pide cada app y como reducir acceso innecesario.",
+      "learningRisk": "Practicar sin evidencia deja una mejora dificil de sostener.",
       "lessons": [
         {
           "id": "m2-l1",
-          "title": "Permisos normales y sensibles",
-          "keyIdea": "Idea clave: Permisos normales y sensibles ayuda a ordenar una situación concreta, tomar una decisión más segura y dejar evidencia revisable.",
-          "shortTheory": "En esta lección vas a trabajar \"Permisos normales y sensibles\" dentro del módulo \"Permisos y privacidad\". La prioridad es entender qué problema resuelve, qué datos o pasos conviene revisar y cómo saber si la acción fue suficiente.",
-          "practicalExample": "Una persona necesita revisar su teléfono, instalar una app o recuperar control sin exponer cuentas ni datos personales. Aplicá \"Permisos normales y sensibles\" con una versión breve: anotá contexto, paso principal, control de seguridad y evidencia antes de avanzar.",
-          "commonMistake": "El error común es actuar rápido sin registrar contexto, usar una solución genérica o no revisar permisos, fuentes o consecuencias. Una práctica más profesional empieza chica, verifica y documenta.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí contexto, objetivo, acción principal, control y evidencia. Entrega esperada: una lista de revisión del teléfono con permisos, cuentas, copias y acciones pendientes.",
-          "alert": "No instalar APKs desconocidas, no compartir codigos de verificacion y no dar permisos innecesarios a apps.",
+          "title": "Que son permisos",
+          "keyIdea": "Los permisos son accesos: camara, microfono, contactos, ubicacion, archivos o notificaciones.",
+          "shortTheory": "En esta leccion se trabaja que son permisos dentro de permisos y privacidad de apps. La meta es reconocer el problema real, tomar una decision simple y comprobarla con cada permiso sensible tiene razon, limite o revocacion.",
+          "practicalExample": "Un telefono Android recibe enlaces sospechosos, instala apps nuevas y guarda cuentas personales importantes. Practica que son permisos sobre ese caso, compara una version inicial con una version corregida y registra lista de apps con permisos sensibles y decision tomada.",
+          "commonMistake": "Pensar que permiso significa seguridad garantizada.",
+          "whatToDoNow": "Elige tres apps y anota que permisos tienen.",
+          "alert": "Un permiso innecesario puede exponer ubicacion, contactos, microfono o archivos.",
           "keyPoints": [
-            "Permisos normales y sensibles debe terminar en una decisión, acción o registro concreto.",
-            "Una práctica pequeña y verificable es mejor que una solución amplia sin control.",
-            "La evidencia mínima esperada es: una lista de revisión del teléfono con permisos, cuentas, copias y acciones pendientes.",
-            "El resultado debe poder explicarse y revisarse sin depender de memoria o intuición."
+            "Que son permisos debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: cada permiso sensible tiene razon, limite o revocacion.",
+            "Evidencia minima: lista de apps con permisos sensibles y decision tomada.",
+            "Relacion con el proyecto final: plan de seguridad del celular con ajustes, permisos, copia, recuperacion y respuesta ante incidentes."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m2-l2",
-          "title": "Ubicacion",
-          "keyIdea": "Idea clave: Ubicacion ayuda a ordenar una situación concreta, tomar una decisión más segura y dejar evidencia revisable.",
-          "shortTheory": "En esta lección vas a trabajar \"Ubicacion\" dentro del módulo \"Permisos y privacidad\". La prioridad es entender qué problema resuelve, qué datos o pasos conviene revisar y cómo saber si la acción fue suficiente.",
-          "practicalExample": "Una persona necesita revisar su teléfono, instalar una app o recuperar control sin exponer cuentas ni datos personales. Aplicá \"Ubicacion\" con una versión breve: anotá contexto, paso principal, control de seguridad y evidencia antes de avanzar.",
-          "commonMistake": "El error común es actuar rápido sin registrar contexto, usar una solución genérica o no revisar permisos, fuentes o consecuencias. Una práctica más profesional empieza chica, verifica y documenta.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí contexto, objetivo, acción principal, control y evidencia. Entrega esperada: una lista de revisión del teléfono con permisos, cuentas, copias y acciones pendientes.",
-          "alert": "No instalar APKs desconocidas, no compartir codigos de verificacion y no dar permisos innecesarios a apps.",
+          "title": "Ubicacion precisa o aproximada",
+          "keyIdea": "No todas las apps necesitan saber exactamente donde estas.",
+          "shortTheory": "En esta leccion se trabaja ubicacion precisa o aproximada dentro de permisos y privacidad de apps. La meta es reconocer el problema real, tomar una decision simple y comprobarla con cada permiso sensible tiene razon, limite o revocacion.",
+          "practicalExample": "Un telefono Android recibe enlaces sospechosos, instala apps nuevas y guarda cuentas personales importantes. Practica ubicacion precisa o aproximada sobre ese caso, compara una version inicial con una version corregida y registra lista de apps con permisos sensibles y decision tomada.",
+          "commonMistake": "Dejar ubicacion precisa siempre activa para apps que no la necesitan.",
+          "whatToDoNow": "Revisa ubicacion en clima, mapas y redes.",
+          "alert": "Un permiso innecesario puede exponer ubicacion, contactos, microfono o archivos.",
           "keyPoints": [
-            "Ubicacion debe terminar en una decisión, acción o registro concreto.",
-            "Una práctica pequeña y verificable es mejor que una solución amplia sin control.",
-            "La evidencia mínima esperada es: una lista de revisión del teléfono con permisos, cuentas, copias y acciones pendientes.",
-            "El resultado debe poder explicarse y revisarse sin depender de memoria o intuición."
+            "Ubicacion precisa o aproximada debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: cada permiso sensible tiene razon, limite o revocacion.",
+            "Evidencia minima: lista de apps con permisos sensibles y decision tomada.",
+            "Relacion con el proyecto final: plan de seguridad del celular con ajustes, permisos, copia, recuperacion y respuesta ante incidentes."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m2-l3",
           "title": "Camara y microfono",
-          "keyIdea": "Idea clave: Camara y microfono ayuda a ordenar una situación concreta, tomar una decisión más segura y dejar evidencia revisable.",
-          "shortTheory": "En esta lección vas a trabajar \"Camara y microfono\" dentro del módulo \"Permisos y privacidad\". La prioridad es entender qué problema resuelve, qué datos o pasos conviene revisar y cómo saber si la acción fue suficiente.",
-          "practicalExample": "Una persona necesita revisar su teléfono, instalar una app o recuperar control sin exponer cuentas ni datos personales. Aplicá \"Camara y microfono\" con una versión breve: anotá contexto, paso principal, control de seguridad y evidencia antes de avanzar.",
-          "commonMistake": "El error común es actuar rápido sin registrar contexto, usar una solución genérica o no revisar permisos, fuentes o consecuencias. Una práctica más profesional empieza chica, verifica y documenta.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí contexto, objetivo, acción principal, control y evidencia. Entrega esperada: una lista de revisión del teléfono con permisos, cuentas, copias y acciones pendientes.",
-          "alert": "No instalar APKs desconocidas, no compartir codigos de verificacion y no dar permisos innecesarios a apps.",
+          "keyIdea": "Estos permisos deben activarse solo para funciones claras.",
+          "shortTheory": "En esta leccion se trabaja camara y microfono dentro de permisos y privacidad de apps. La meta es reconocer el problema real, tomar una decision simple y comprobarla con cada permiso sensible tiene razon, limite o revocacion.",
+          "practicalExample": "Un telefono Android recibe enlaces sospechosos, instala apps nuevas y guarda cuentas personales importantes. Practica camara y microfono sobre ese caso, compara una version inicial con una version corregida y registra lista de apps con permisos sensibles y decision tomada.",
+          "commonMistake": "Permitir microfono a apps sin funcion de audio.",
+          "whatToDoNow": "Revisa que apps pueden usar camara y microfono.",
+          "alert": "Un permiso innecesario puede exponer ubicacion, contactos, microfono o archivos.",
           "keyPoints": [
-            "Camara y microfono debe terminar en una decisión, acción o registro concreto.",
-            "Una práctica pequeña y verificable es mejor que una solución amplia sin control.",
-            "La evidencia mínima esperada es: una lista de revisión del teléfono con permisos, cuentas, copias y acciones pendientes.",
-            "El resultado debe poder explicarse y revisarse sin depender de memoria o intuición."
+            "Camara y microfono debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: cada permiso sensible tiene razon, limite o revocacion.",
+            "Evidencia minima: lista de apps con permisos sensibles y decision tomada.",
+            "Relacion con el proyecto final: plan de seguridad del celular con ajustes, permisos, copia, recuperacion y respuesta ante incidentes."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m2-l4",
           "title": "Contactos y archivos",
-          "keyIdea": "Idea clave: Contactos y archivos ayuda a ordenar una situación concreta, tomar una decisión más segura y dejar evidencia revisable.",
-          "shortTheory": "En esta lección vas a trabajar \"Contactos y archivos\" dentro del módulo \"Permisos y privacidad\". La prioridad es entender qué problema resuelve, qué datos o pasos conviene revisar y cómo saber si la acción fue suficiente.",
-          "practicalExample": "Una persona necesita revisar su teléfono, instalar una app o recuperar control sin exponer cuentas ni datos personales. Aplicá \"Contactos y archivos\" con una versión breve: anotá contexto, paso principal, control de seguridad y evidencia antes de avanzar.",
-          "commonMistake": "El error común es actuar rápido sin registrar contexto, usar una solución genérica o no revisar permisos, fuentes o consecuencias. Una práctica más profesional empieza chica, verifica y documenta.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí contexto, objetivo, acción principal, control y evidencia. Entrega esperada: una lista de revisión del teléfono con permisos, cuentas, copias y acciones pendientes.",
-          "alert": "No instalar APKs desconocidas, no compartir codigos de verificacion y no dar permisos innecesarios a apps.",
+          "keyIdea": "Contactos y archivos pueden exponer informacion de otras personas.",
+          "shortTheory": "En esta leccion se trabaja contactos y archivos dentro de permisos y privacidad de apps. La meta es reconocer el problema real, tomar una decision simple y comprobarla con cada permiso sensible tiene razon, limite o revocacion.",
+          "practicalExample": "Un telefono Android recibe enlaces sospechosos, instala apps nuevas y guarda cuentas personales importantes. Practica contactos y archivos sobre ese caso, compara una version inicial con una version corregida y registra lista de apps con permisos sensibles y decision tomada.",
+          "commonMistake": "Permitir contactos a juegos o apps de dudoso origen.",
+          "whatToDoNow": "Revisa apps con acceso a contactos y almacenamiento.",
+          "alert": "Un permiso innecesario puede exponer ubicacion, contactos, microfono o archivos.",
           "keyPoints": [
-            "Contactos y archivos debe terminar en una decisión, acción o registro concreto.",
-            "Una práctica pequeña y verificable es mejor que una solución amplia sin control.",
-            "La evidencia mínima esperada es: una lista de revisión del teléfono con permisos, cuentas, copias y acciones pendientes.",
-            "El resultado debe poder explicarse y revisarse sin depender de memoria o intuición."
+            "Contactos y archivos debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: cada permiso sensible tiene razon, limite o revocacion.",
+            "Evidencia minima: lista de apps con permisos sensibles y decision tomada.",
+            "Relacion con el proyecto final: plan de seguridad del celular con ajustes, permisos, copia, recuperacion y respuesta ante incidentes."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m2-l5",
-          "title": "Permisos en segundo plano",
-          "keyIdea": "Idea clave: Permisos en segundo plano ayuda a ordenar una situación concreta, tomar una decisión más segura y dejar evidencia revisable.",
-          "shortTheory": "En esta lección vas a trabajar \"Permisos en segundo plano\" dentro del módulo \"Permisos y privacidad\". La prioridad es entender qué problema resuelve, qué datos o pasos conviene revisar y cómo saber si la acción fue suficiente.",
-          "practicalExample": "Una persona necesita revisar su teléfono, instalar una app o recuperar control sin exponer cuentas ni datos personales. Aplicá \"Permisos en segundo plano\" con una versión breve: anotá contexto, paso principal, control de seguridad y evidencia antes de avanzar.",
-          "commonMistake": "El error común es actuar rápido sin registrar contexto, usar una solución genérica o no revisar permisos, fuentes o consecuencias. Una práctica más profesional empieza chica, verifica y documenta.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí contexto, objetivo, acción principal, control y evidencia. Entrega esperada: una lista de revisión del teléfono con permisos, cuentas, copias y acciones pendientes.",
-          "alert": "No instalar APKs desconocidas, no compartir codigos de verificacion y no dar permisos innecesarios a apps.",
+          "title": "Permisos de accesibilidad",
+          "keyIdea": "Accesibilidad puede controlar pantalla; es util pero sensible.",
+          "shortTheory": "En esta leccion se trabaja permisos de accesibilidad dentro de permisos y privacidad de apps. La meta es reconocer el problema real, tomar una decision simple y comprobarla con cada permiso sensible tiene razon, limite o revocacion.",
+          "practicalExample": "Un telefono Android recibe enlaces sospechosos, instala apps nuevas y guarda cuentas personales importantes. Practica permisos de accesibilidad sobre ese caso, compara una version inicial con una version corregida y registra lista de apps con permisos sensibles y decision tomada.",
+          "commonMistake": "Activar accesibilidad por instrucciones de un desconocido.",
+          "whatToDoNow": "Identifica si alguna app tiene permisos de accesibilidad.",
+          "alert": "Un permiso innecesario puede exponer ubicacion, contactos, microfono o archivos.",
           "keyPoints": [
-            "Permisos en segundo plano debe terminar en una decisión, acción o registro concreto.",
-            "Una práctica pequeña y verificable es mejor que una solución amplia sin control.",
-            "La evidencia mínima esperada es: una lista de revisión del teléfono con permisos, cuentas, copias y acciones pendientes.",
-            "El resultado debe poder explicarse y revisarse sin depender de memoria o intuición."
+            "Permisos de accesibilidad debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: cada permiso sensible tiene razon, limite o revocacion.",
+            "Evidencia minima: lista de apps con permisos sensibles y decision tomada.",
+            "Relacion con el proyecto final: plan de seguridad del celular con ajustes, permisos, copia, recuperacion y respuesta ante incidentes."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m2-l6",
-          "title": "Revision periodica",
-          "keyIdea": "Idea clave: Revision periodica ayuda a ordenar una situación concreta, tomar una decisión más segura y dejar evidencia revisable.",
-          "shortTheory": "En esta lección vas a trabajar \"Revision periodica\" dentro del módulo \"Permisos y privacidad\". La prioridad es entender qué problema resuelve, qué datos o pasos conviene revisar y cómo saber si la acción fue suficiente.",
-          "practicalExample": "Una persona necesita revisar su teléfono, instalar una app o recuperar control sin exponer cuentas ni datos personales. Aplicá \"Revision periodica\" con una versión breve: anotá contexto, paso principal, control de seguridad y evidencia antes de avanzar.",
-          "commonMistake": "El error común es actuar rápido sin registrar contexto, usar una solución genérica o no revisar permisos, fuentes o consecuencias. Una práctica más profesional empieza chica, verifica y documenta.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí contexto, objetivo, acción principal, control y evidencia. Entrega esperada: una lista de revisión del teléfono con permisos, cuentas, copias y acciones pendientes.",
-          "alert": "No instalar APKs desconocidas, no compartir codigos de verificacion y no dar permisos innecesarios a apps.",
+          "title": "Permisos temporales",
+          "keyIdea": "Muchas tareas funcionan con permisos solo mientras se usa la app.",
+          "shortTheory": "En esta leccion se trabaja permisos temporales dentro de permisos y privacidad de apps. La meta es reconocer el problema real, tomar una decision simple y comprobarla con cada permiso sensible tiene razon, limite o revocacion.",
+          "practicalExample": "Un telefono Android recibe enlaces sospechosos, instala apps nuevas y guarda cuentas personales importantes. Practica permisos temporales sobre ese caso, compara una version inicial con una version corregida y registra lista de apps con permisos sensibles y decision tomada.",
+          "commonMistake": "Elegir 'siempre' por comodidad.",
+          "whatToDoNow": "Cambia un permiso a 'solo al usar' cuando sea razonable.",
+          "alert": "Un permiso innecesario puede exponer ubicacion, contactos, microfono o archivos.",
           "keyPoints": [
-            "Revision periodica debe terminar en una decisión, acción o registro concreto.",
-            "Una práctica pequeña y verificable es mejor que una solución amplia sin control.",
-            "La evidencia mínima esperada es: una lista de revisión del teléfono con permisos, cuentas, copias y acciones pendientes.",
-            "El resultado debe poder explicarse y revisarse sin depender de memoria o intuición."
+            "Permisos temporales debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: cada permiso sensible tiene razon, limite o revocacion.",
+            "Evidencia minima: lista de apps con permisos sensibles y decision tomada.",
+            "Relacion con el proyecto final: plan de seguridad del celular con ajustes, permisos, copia, recuperacion y respuesta ante incidentes."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         }
@@ -289,172 +288,171 @@
       "quiz": [
         {
           "id": "m2-q1",
-          "question": "Pregunta 1: ¿que conviene hacer al trabajar ",
+          "question": "Cual es la mejor forma de empezar el modulo \"Permisos y privacidad de apps\"?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Definir el caso, el usuario afectado y la evidencia que se va a revisar.",
+            "Copiar una solucion completa sin probarla.",
+            "Esperar a tener una herramienta perfecta antes de practicar.",
+            "Elegir la opcion mas vistosa aunque no resuelva el problema."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: el modulo se vuelve util cuando parte de un caso y de evidencia verificable."
         },
         {
           "id": "m2-q2",
-          "question": "Pregunta 2: ¿que conviene hacer al trabajar ",
+          "question": "Que evidencia sirve para cerrar \"Permisos y privacidad de apps\" sin depender de opiniones?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "lista de apps con permisos sensibles y decision tomada",
+            "Una captura sin contexto.",
+            "Una frase como 'parece estar bien'.",
+            "La cantidad de colores o iconos usados."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: lista de apps con permisos sensibles y decision tomada permite revisar el resultado despues."
         },
         {
           "id": "m2-q3",
-          "question": "Pregunta 3: ¿que conviene hacer al trabajar ",
+          "question": "Que conducta aumenta el riesgo durante la practica?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Aceptar todos los permisos para que una app deje de molestar.",
+            "Trabajar con datos simulados.",
+            "Anotar dudas antes de publicar o aplicar.",
+            "Probar en una version pequena."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: esa conducta elimina control y puede producir errores reales."
         },
         {
           "id": "m2-q4",
-          "question": "Pregunta 4: ¿que conviene hacer al trabajar ",
+          "question": "Cuando conviene pedir ayuda o validar con una fuente externa?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Cuando una app pide accesibilidad, administrador, SMS, ubicacion permanente o datos bancarios.",
+            "Nunca, porque el ejercicio es suficiente para cualquier caso.",
+            "Solo despues de borrar la evidencia.",
+            "Cuando el resultado se ve agradable visualmente."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: validar a tiempo evita decisiones inseguras o incompletas."
         },
         {
           "id": "m2-q5",
-          "question": "Pregunta 5: ¿que conviene hacer al trabajar ",
+          "question": "Cual es el entregable minimo del modulo \"Permisos y privacidad de apps\"?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "revision de permisos del telefono",
+            "Un resumen sin prueba.",
+            "Una lista de ideas sueltas.",
+            "Un archivo final sin explicar cambios."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: revision de permisos del telefono deja avance verificable."
         }
-      ],
-      "professionalOutcome": "configurar el telefono con menos riesgo, reconocer permisos peligrosos y recuperar control ante problemas. Entregable sugerido: un checklist de telefono seguro con ajustes, permisos, copias y acciones de emergencia."
+      ]
     },
     {
       "id": "m3",
-      "title": "Apps y descargas",
-      "description": "En este módulo vas a trabajar \"Apps y descargas\" dentro de uso seguro de teléfonos Android, apps, permisos, copias y configuración básica. La meta es practicar una situación realista, reconocer el riesgo principal y cerrar con una evidencia útil para revisar.",
-      "learningRisk": "Punto clave",
+      "title": "Apps confiables y apps sospechosas",
+      "description": "Instalar, actualizar, revisar y eliminar apps con criterio.",
+      "learningRisk": "Practicar sin evidencia deja una mejora dificil de sostener.",
       "lessons": [
         {
           "id": "m3-l1",
-          "title": "Play Store",
-          "keyIdea": "Idea clave: Play Store ayuda a ordenar una situación concreta, tomar una decisión más segura y dejar evidencia revisable.",
-          "shortTheory": "En esta lección vas a trabajar \"Play Store\" dentro del módulo \"Apps y descargas\". La prioridad es entender qué problema resuelve, qué datos o pasos conviene revisar y cómo saber si la acción fue suficiente.",
-          "practicalExample": "Una persona necesita revisar su teléfono, instalar una app o recuperar control sin exponer cuentas ni datos personales. Aplicá \"Play Store\" con una versión breve: anotá contexto, paso principal, control de seguridad y evidencia antes de avanzar.",
-          "commonMistake": "El error común es actuar rápido sin registrar contexto, usar una solución genérica o no revisar permisos, fuentes o consecuencias. Una práctica más profesional empieza chica, verifica y documenta.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí contexto, objetivo, acción principal, control y evidencia. Entrega esperada: una lista de revisión del teléfono con permisos, cuentas, copias y acciones pendientes.",
-          "alert": "No instalar APKs desconocidas, no compartir codigos de verificacion y no dar permisos innecesarios a apps.",
+          "title": "Origen de instalacion",
+          "keyIdea": "La tienda, el desarrollador y las opiniones ayudan a evaluar confianza.",
+          "shortTheory": "En esta leccion se trabaja origen de instalacion dentro de apps confiables y apps sospechosas. La meta es reconocer el problema real, tomar una decision simple y comprobarla con cada app instalada tiene origen, uso y permisos razonables.",
+          "practicalExample": "Un telefono Android recibe enlaces sospechosos, instala apps nuevas y guarda cuentas personales importantes. Practica origen de instalacion sobre ese caso, compara una version inicial con una version corregida y registra inventario de apps dudosas, origen y accion tomada.",
+          "commonMistake": "Instalar desde un boton llamativo de publicidad.",
+          "whatToDoNow": "Revisa ficha de una app antes de instalar.",
+          "alert": "Si no sabes para que sirve una app, no la abras para investigar con datos reales.",
           "keyPoints": [
-            "Play Store debe terminar en una decisión, acción o registro concreto.",
-            "Una práctica pequeña y verificable es mejor que una solución amplia sin control.",
-            "La evidencia mínima esperada es: una lista de revisión del teléfono con permisos, cuentas, copias y acciones pendientes.",
-            "El resultado debe poder explicarse y revisarse sin depender de memoria o intuición."
+            "Origen de instalacion debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: cada app instalada tiene origen, uso y permisos razonables.",
+            "Evidencia minima: inventario de apps dudosas, origen y accion tomada.",
+            "Relacion con el proyecto final: plan de seguridad del celular con ajustes, permisos, copia, recuperacion y respuesta ante incidentes."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m3-l2",
-          "title": "APKs y sideloading",
-          "keyIdea": "Idea clave: APKs y sideloading ayuda a ordenar una situación concreta, tomar una decisión más segura y dejar evidencia revisable.",
-          "shortTheory": "En esta lección vas a trabajar \"APKs y sideloading\" dentro del módulo \"Apps y descargas\". La prioridad es entender qué problema resuelve, qué datos o pasos conviene revisar y cómo saber si la acción fue suficiente.",
-          "practicalExample": "Una persona necesita revisar su teléfono, instalar una app o recuperar control sin exponer cuentas ni datos personales. Aplicá \"APKs y sideloading\" con una versión breve: anotá contexto, paso principal, control de seguridad y evidencia antes de avanzar.",
-          "commonMistake": "El error común es actuar rápido sin registrar contexto, usar una solución genérica o no revisar permisos, fuentes o consecuencias. Una práctica más profesional empieza chica, verifica y documenta.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí contexto, objetivo, acción principal, control y evidencia. Entrega esperada: una lista de revisión del teléfono con permisos, cuentas, copias y acciones pendientes.",
-          "alert": "No instalar APKs desconocidas, no compartir codigos de verificacion y no dar permisos innecesarios a apps.",
+          "title": "Apps que no uso",
+          "keyIdea": "Menos apps reducen permisos, notificaciones y superficie de riesgo.",
+          "shortTheory": "En esta leccion se trabaja apps que no uso dentro de apps confiables y apps sospechosas. La meta es reconocer el problema real, tomar una decision simple y comprobarla con cada app instalada tiene origen, uso y permisos razonables.",
+          "practicalExample": "Un telefono Android recibe enlaces sospechosos, instala apps nuevas y guarda cuentas personales importantes. Practica apps que no uso sobre ese caso, compara una version inicial con una version corregida y registra inventario de apps dudosas, origen y accion tomada.",
+          "commonMistake": "Conservar apps desconocidas por si acaso.",
+          "whatToDoNow": "Lista apps que no usaste en 60 dias.",
+          "alert": "Si no sabes para que sirve una app, no la abras para investigar con datos reales.",
           "keyPoints": [
-            "APKs y sideloading debe terminar en una decisión, acción o registro concreto.",
-            "Una práctica pequeña y verificable es mejor que una solución amplia sin control.",
-            "La evidencia mínima esperada es: una lista de revisión del teléfono con permisos, cuentas, copias y acciones pendientes.",
-            "El resultado debe poder explicarse y revisarse sin depender de memoria o intuición."
+            "Apps que no uso debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: cada app instalada tiene origen, uso y permisos razonables.",
+            "Evidencia minima: inventario de apps dudosas, origen y accion tomada.",
+            "Relacion con el proyecto final: plan de seguridad del celular con ajustes, permisos, copia, recuperacion y respuesta ante incidentes."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m3-l3",
-          "title": "Apps falsas",
-          "keyIdea": "Idea clave: Apps falsas ayuda a ordenar una situación concreta, tomar una decisión más segura y dejar evidencia revisable.",
-          "shortTheory": "En esta lección vas a trabajar \"Apps falsas\" dentro del módulo \"Apps y descargas\". La prioridad es entender qué problema resuelve, qué datos o pasos conviene revisar y cómo saber si la acción fue suficiente.",
-          "practicalExample": "Una persona necesita revisar su teléfono, instalar una app o recuperar control sin exponer cuentas ni datos personales. Aplicá \"Apps falsas\" con una versión breve: anotá contexto, paso principal, control de seguridad y evidencia antes de avanzar.",
-          "commonMistake": "El error común es actuar rápido sin registrar contexto, usar una solución genérica o no revisar permisos, fuentes o consecuencias. Una práctica más profesional empieza chica, verifica y documenta.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí contexto, objetivo, acción principal, control y evidencia. Entrega esperada: una lista de revisión del teléfono con permisos, cuentas, copias y acciones pendientes.",
-          "alert": "No instalar APKs desconocidas, no compartir codigos de verificacion y no dar permisos innecesarios a apps.",
+          "title": "Desinstalar o desactivar",
+          "keyIdea": "Algunas apps se desinstalan; otras solo se desactivan si son del sistema.",
+          "shortTheory": "En esta leccion se trabaja desinstalar o desactivar dentro de apps confiables y apps sospechosas. La meta es reconocer el problema real, tomar una decision simple y comprobarla con cada app instalada tiene origen, uso y permisos razonables.",
+          "practicalExample": "Un telefono Android recibe enlaces sospechosos, instala apps nuevas y guarda cuentas personales importantes. Practica desinstalar o desactivar sobre ese caso, compara una version inicial con una version corregida y registra inventario de apps dudosas, origen y accion tomada.",
+          "commonMistake": "Desactivar algo critico sin saber si afecta llamadas o cuenta.",
+          "whatToDoNow": "Diferencia desinstalar, desactivar y forzar detencion.",
+          "alert": "Si no sabes para que sirve una app, no la abras para investigar con datos reales.",
           "keyPoints": [
-            "Apps falsas debe terminar en una decisión, acción o registro concreto.",
-            "Una práctica pequeña y verificable es mejor que una solución amplia sin control.",
-            "La evidencia mínima esperada es: una lista de revisión del teléfono con permisos, cuentas, copias y acciones pendientes.",
-            "El resultado debe poder explicarse y revisarse sin depender de memoria o intuición."
+            "Desinstalar o desactivar debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: cada app instalada tiene origen, uso y permisos razonables.",
+            "Evidencia minima: inventario de apps dudosas, origen y accion tomada.",
+            "Relacion con el proyecto final: plan de seguridad del celular con ajustes, permisos, copia, recuperacion y respuesta ante incidentes."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m3-l4",
-          "title": "Resenas y permisos",
-          "keyIdea": "Idea clave: Resenas y permisos ayuda a ordenar una situación concreta, tomar una decisión más segura y dejar evidencia revisable.",
-          "shortTheory": "En esta lección vas a trabajar \"Resenas y permisos\" dentro del módulo \"Apps y descargas\". La prioridad es entender qué problema resuelve, qué datos o pasos conviene revisar y cómo saber si la acción fue suficiente.",
-          "practicalExample": "Una persona necesita revisar su teléfono, instalar una app o recuperar control sin exponer cuentas ni datos personales. Aplicá \"Resenas y permisos\" con una versión breve: anotá contexto, paso principal, control de seguridad y evidencia antes de avanzar.",
-          "commonMistake": "El error común es actuar rápido sin registrar contexto, usar una solución genérica o no revisar permisos, fuentes o consecuencias. Una práctica más profesional empieza chica, verifica y documenta.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí contexto, objetivo, acción principal, control y evidencia. Entrega esperada: una lista de revisión del teléfono con permisos, cuentas, copias y acciones pendientes.",
-          "alert": "No instalar APKs desconocidas, no compartir codigos de verificacion y no dar permisos innecesarios a apps.",
+          "title": "Apps de limpieza milagrosa",
+          "keyIdea": "Muchas prometen velocidad y piden permisos excesivos.",
+          "shortTheory": "En esta leccion se trabaja apps de limpieza milagrosa dentro de apps confiables y apps sospechosas. La meta es reconocer el problema real, tomar una decision simple y comprobarla con cada app instalada tiene origen, uso y permisos razonables.",
+          "practicalExample": "Un telefono Android recibe enlaces sospechosos, instala apps nuevas y guarda cuentas personales importantes. Practica apps de limpieza milagrosa sobre ese caso, compara una version inicial con una version corregida y registra inventario de apps dudosas, origen y accion tomada.",
+          "commonMistake": "Instalar limpiadores que muestran miedo o alertas falsas.",
+          "whatToDoNow": "Evalua una app de limpieza por permisos, anuncios y desarrollador.",
+          "alert": "Si no sabes para que sirve una app, no la abras para investigar con datos reales.",
           "keyPoints": [
-            "Resenas y permisos debe terminar en una decisión, acción o registro concreto.",
-            "Una práctica pequeña y verificable es mejor que una solución amplia sin control.",
-            "La evidencia mínima esperada es: una lista de revisión del teléfono con permisos, cuentas, copias y acciones pendientes.",
-            "El resultado debe poder explicarse y revisarse sin depender de memoria o intuición."
+            "Apps de limpieza milagrosa debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: cada app instalada tiene origen, uso y permisos razonables.",
+            "Evidencia minima: inventario de apps dudosas, origen y accion tomada.",
+            "Relacion con el proyecto final: plan de seguridad del celular con ajustes, permisos, copia, recuperacion y respuesta ante incidentes."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m3-l5",
-          "title": "Eliminar apps sospechosas",
-          "keyIdea": "Idea clave: Eliminar apps sospechosas ayuda a ordenar una situación concreta, tomar una decisión más segura y dejar evidencia revisable.",
-          "shortTheory": "En esta lección vas a trabajar \"Eliminar apps sospechosas\" dentro del módulo \"Apps y descargas\". La prioridad es entender qué problema resuelve, qué datos o pasos conviene revisar y cómo saber si la acción fue suficiente.",
-          "practicalExample": "Una persona necesita revisar su teléfono, instalar una app o recuperar control sin exponer cuentas ni datos personales. Aplicá \"Eliminar apps sospechosas\" con una versión breve: anotá contexto, paso principal, control de seguridad y evidencia antes de avanzar.",
-          "commonMistake": "El error común es actuar rápido sin registrar contexto, usar una solución genérica o no revisar permisos, fuentes o consecuencias. Una práctica más profesional empieza chica, verifica y documenta.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí contexto, objetivo, acción principal, control y evidencia. Entrega esperada: una lista de revisión del teléfono con permisos, cuentas, copias y acciones pendientes.",
-          "alert": "No instalar APKs desconocidas, no compartir codigos de verificacion y no dar permisos innecesarios a apps.",
+          "title": "Acceso remoto",
+          "keyIdea": "Apps de control remoto pueden entregar el telefono a otra persona.",
+          "shortTheory": "En esta leccion se trabaja acceso remoto dentro de apps confiables y apps sospechosas. La meta es reconocer el problema real, tomar una decision simple y comprobarla con cada app instalada tiene origen, uso y permisos razonables.",
+          "practicalExample": "Un telefono Android recibe enlaces sospechosos, instala apps nuevas y guarda cuentas personales importantes. Practica acceso remoto sobre ese caso, compara una version inicial con una version corregida y registra inventario de apps dudosas, origen y accion tomada.",
+          "commonMistake": "Instalar control remoto por indicacion de un supuesto banco.",
+          "whatToDoNow": "Identifica senales de una app de asistencia remota.",
+          "alert": "Si no sabes para que sirve una app, no la abras para investigar con datos reales.",
           "keyPoints": [
-            "Eliminar apps sospechosas debe terminar en una decisión, acción o registro concreto.",
-            "Una práctica pequeña y verificable es mejor que una solución amplia sin control.",
-            "La evidencia mínima esperada es: una lista de revisión del teléfono con permisos, cuentas, copias y acciones pendientes.",
-            "El resultado debe poder explicarse y revisarse sin depender de memoria o intuición."
+            "Acceso remoto debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: cada app instalada tiene origen, uso y permisos razonables.",
+            "Evidencia minima: inventario de apps dudosas, origen y accion tomada.",
+            "Relacion con el proyecto final: plan de seguridad del celular con ajustes, permisos, copia, recuperacion y respuesta ante incidentes."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m3-l6",
-          "title": "Alternativas seguras",
-          "keyIdea": "Idea clave: Alternativas seguras ayuda a ordenar una situación concreta, tomar una decisión más segura y dejar evidencia revisable.",
-          "shortTheory": "En esta lección vas a trabajar \"Alternativas seguras\" dentro del módulo \"Apps y descargas\". La prioridad es entender qué problema resuelve, qué datos o pasos conviene revisar y cómo saber si la acción fue suficiente.",
-          "practicalExample": "Una persona necesita revisar su teléfono, instalar una app o recuperar control sin exponer cuentas ni datos personales. Aplicá \"Alternativas seguras\" con una versión breve: anotá contexto, paso principal, control de seguridad y evidencia antes de avanzar.",
-          "commonMistake": "El error común es actuar rápido sin registrar contexto, usar una solución genérica o no revisar permisos, fuentes o consecuencias. Una práctica más profesional empieza chica, verifica y documenta.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí contexto, objetivo, acción principal, control y evidencia. Entrega esperada: una lista de revisión del teléfono con permisos, cuentas, copias y acciones pendientes.",
-          "alert": "No instalar APKs desconocidas, no compartir codigos de verificacion y no dar permisos innecesarios a apps.",
+          "title": "Actualizaciones de apps",
+          "keyIdea": "Actualizar desde tienda oficial corrige fallas y evita versiones falsas.",
+          "shortTheory": "En esta leccion se trabaja actualizaciones de apps dentro de apps confiables y apps sospechosas. La meta es reconocer el problema real, tomar una decision simple y comprobarla con cada app instalada tiene origen, uso y permisos razonables.",
+          "practicalExample": "Un telefono Android recibe enlaces sospechosos, instala apps nuevas y guarda cuentas personales importantes. Practica actualizaciones de apps sobre ese caso, compara una version inicial con una version corregida y registra inventario de apps dudosas, origen y accion tomada.",
+          "commonMistake": "Actualizar desde enlaces externos.",
+          "whatToDoNow": "Revisa actualizaciones pendientes en Play Store.",
+          "alert": "Si no sabes para que sirve una app, no la abras para investigar con datos reales.",
           "keyPoints": [
-            "Alternativas seguras debe terminar en una decisión, acción o registro concreto.",
-            "Una práctica pequeña y verificable es mejor que una solución amplia sin control.",
-            "La evidencia mínima esperada es: una lista de revisión del teléfono con permisos, cuentas, copias y acciones pendientes.",
-            "El resultado debe poder explicarse y revisarse sin depender de memoria o intuición."
+            "Actualizaciones de apps debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: cada app instalada tiene origen, uso y permisos razonables.",
+            "Evidencia minima: inventario de apps dudosas, origen y accion tomada.",
+            "Relacion con el proyecto final: plan de seguridad del celular con ajustes, permisos, copia, recuperacion y respuesta ante incidentes."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         }
@@ -462,172 +460,171 @@
       "quiz": [
         {
           "id": "m3-q1",
-          "question": "Pregunta 1: ¿que conviene hacer al trabajar ",
+          "question": "Cual es la mejor forma de empezar el modulo \"Apps confiables y apps sospechosas\"?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Definir el caso, el usuario afectado y la evidencia que se va a revisar.",
+            "Copiar una solucion completa sin probarla.",
+            "Esperar a tener una herramienta perfecta antes de practicar.",
+            "Elegir la opcion mas vistosa aunque no resuelva el problema."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: el modulo se vuelve util cuando parte de un caso y de evidencia verificable."
         },
         {
           "id": "m3-q2",
-          "question": "Pregunta 2: ¿que conviene hacer al trabajar ",
+          "question": "Que evidencia sirve para cerrar \"Apps confiables y apps sospechosas\" sin depender de opiniones?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "inventario de apps dudosas, origen y accion tomada",
+            "Una captura sin contexto.",
+            "Una frase como 'parece estar bien'.",
+            "La cantidad de colores o iconos usados."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: inventario de apps dudosas, origen y accion tomada permite revisar el resultado despues."
         },
         {
           "id": "m3-q3",
-          "question": "Pregunta 3: ¿que conviene hacer al trabajar ",
+          "question": "Que conducta aumenta el riesgo durante la practica?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Instalar apps desde anuncios, premios o supuestos soportes.",
+            "Trabajar con datos simulados.",
+            "Anotar dudas antes de publicar o aplicar.",
+            "Probar en una version pequena."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: esa conducta elimina control y puede producir errores reales."
         },
         {
           "id": "m3-q4",
-          "question": "Pregunta 4: ¿que conviene hacer al trabajar ",
+          "question": "Cuando conviene pedir ayuda o validar con una fuente externa?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Cuando una app pide pago, acceso remoto, claves o permisos de administrador.",
+            "Nunca, porque el ejercicio es suficiente para cualquier caso.",
+            "Solo despues de borrar la evidencia.",
+            "Cuando el resultado se ve agradable visualmente."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: validar a tiempo evita decisiones inseguras o incompletas."
         },
         {
           "id": "m3-q5",
-          "question": "Pregunta 5: ¿que conviene hacer al trabajar ",
+          "question": "Cual es el entregable minimo del modulo \"Apps confiables y apps sospechosas\"?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "limpieza basica de apps",
+            "Un resumen sin prueba.",
+            "Una lista de ideas sueltas.",
+            "Un archivo final sin explicar cambios."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: limpieza basica de apps deja avance verificable."
         }
-      ],
-      "professionalOutcome": "configurar el telefono con menos riesgo, reconocer permisos peligrosos y recuperar control ante problemas. Entregable sugerido: un checklist de telefono seguro con ajustes, permisos, copias y acciones de emergencia."
+      ]
     },
     {
       "id": "m4",
-      "title": "Cuentas y recuperacion",
-      "description": "En este módulo vas a trabajar \"Cuentas y recuperacion\" dentro de uso seguro de teléfonos Android, apps, permisos, copias y configuración básica. La meta es practicar una situación realista, reconocer el riesgo principal y cerrar con una evidencia útil para revisar.",
-      "learningRisk": "Punto clave",
+      "title": "Mensajes, enlaces y descargas",
+      "description": "Reconocer fraudes por SMS, WhatsApp, correo, QR y navegador.",
+      "learningRisk": "Practicar sin evidencia deja una mejora dificil de sostener.",
       "lessons": [
         {
           "id": "m4-l1",
-          "title": "Cuenta principal",
-          "keyIdea": "Idea clave: Cuenta principal ayuda a ordenar una situación concreta, tomar una decisión más segura y dejar evidencia revisable.",
-          "shortTheory": "En esta lección vas a trabajar \"Cuenta principal\" dentro del módulo \"Cuentas y recuperacion\". La prioridad es entender qué problema resuelve, qué datos o pasos conviene revisar y cómo saber si la acción fue suficiente.",
-          "practicalExample": "Una persona necesita revisar su teléfono, instalar una app o recuperar control sin exponer cuentas ni datos personales. Aplicá \"Cuenta principal\" con una versión breve: anotá contexto, paso principal, control de seguridad y evidencia antes de avanzar.",
-          "commonMistake": "El error común es actuar rápido sin registrar contexto, usar una solución genérica o no revisar permisos, fuentes o consecuencias. Una práctica más profesional empieza chica, verifica y documenta.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí contexto, objetivo, acción principal, control y evidencia. Entrega esperada: una lista de revisión del teléfono con permisos, cuentas, copias y acciones pendientes.",
-          "alert": "No instalar APKs desconocidas, no compartir codigos de verificacion y no dar permisos innecesarios a apps.",
+          "title": "Dominios y direcciones",
+          "keyIdea": "La direccion del sitio importa mas que el logo.",
+          "shortTheory": "En esta leccion se trabaja dominios y direcciones dentro de mensajes, enlaces y descargas. La meta es reconocer el problema real, tomar una decision simple y comprobarla con se decide abrir, verificar o detener segun senales observables.",
+          "practicalExample": "Un telefono Android recibe enlaces sospechosos, instala apps nuevas y guarda cuentas personales importantes. Practica dominios y direcciones sobre ese caso, compara una version inicial con una version corregida y registra analisis de mensaje sospechoso con senales de riesgo.",
+          "commonMistake": "Confiar en colores o logos parecidos.",
+          "whatToDoNow": "Compara dominio oficial y dominio sospechoso.",
+          "alert": "Un enlace puede parecer conocido y llevar a un sitio falso.",
           "keyPoints": [
-            "Cuenta principal debe terminar en una decisión, acción o registro concreto.",
-            "Una práctica pequeña y verificable es mejor que una solución amplia sin control.",
-            "La evidencia mínima esperada es: una lista de revisión del teléfono con permisos, cuentas, copias y acciones pendientes.",
-            "El resultado debe poder explicarse y revisarse sin depender de memoria o intuición."
+            "Dominios y direcciones debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: se decide abrir, verificar o detener segun senales observables.",
+            "Evidencia minima: analisis de mensaje sospechoso con senales de riesgo.",
+            "Relacion con el proyecto final: plan de seguridad del celular con ajustes, permisos, copia, recuperacion y respuesta ante incidentes."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m4-l2",
-          "title": "Doble factor",
-          "keyIdea": "Idea clave: Doble factor ayuda a ordenar una situación concreta, tomar una decisión más segura y dejar evidencia revisable.",
-          "shortTheory": "En esta lección vas a trabajar \"Doble factor\" dentro del módulo \"Cuentas y recuperacion\". La prioridad es entender qué problema resuelve, qué datos o pasos conviene revisar y cómo saber si la acción fue suficiente.",
-          "practicalExample": "Una persona necesita revisar su teléfono, instalar una app o recuperar control sin exponer cuentas ni datos personales. Aplicá \"Doble factor\" con una versión breve: anotá contexto, paso principal, control de seguridad y evidencia antes de avanzar.",
-          "commonMistake": "El error común es actuar rápido sin registrar contexto, usar una solución genérica o no revisar permisos, fuentes o consecuencias. Una práctica más profesional empieza chica, verifica y documenta.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí contexto, objetivo, acción principal, control y evidencia. Entrega esperada: una lista de revisión del teléfono con permisos, cuentas, copias y acciones pendientes.",
-          "alert": "No instalar APKs desconocidas, no compartir codigos de verificacion y no dar permisos innecesarios a apps.",
+          "title": "Urgencia y miedo",
+          "keyIdea": "El fraude presiona para que no pienses.",
+          "shortTheory": "En esta leccion se trabaja urgencia y miedo dentro de mensajes, enlaces y descargas. La meta es reconocer el problema real, tomar una decision simple y comprobarla con se decide abrir, verificar o detener segun senales observables.",
+          "practicalExample": "Un telefono Android recibe enlaces sospechosos, instala apps nuevas y guarda cuentas personales importantes. Practica urgencia y miedo sobre ese caso, compara una version inicial con una version corregida y registra analisis de mensaje sospechoso con senales de riesgo.",
+          "commonMistake": "Responder antes de confirmar por otro canal.",
+          "whatToDoNow": "Subraya palabras de urgencia en mensajes simulados.",
+          "alert": "Un enlace puede parecer conocido y llevar a un sitio falso.",
           "keyPoints": [
-            "Doble factor debe terminar en una decisión, acción o registro concreto.",
-            "Una práctica pequeña y verificable es mejor que una solución amplia sin control.",
-            "La evidencia mínima esperada es: una lista de revisión del teléfono con permisos, cuentas, copias y acciones pendientes.",
-            "El resultado debe poder explicarse y revisarse sin depender de memoria o intuición."
+            "Urgencia y miedo debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: se decide abrir, verificar o detener segun senales observables.",
+            "Evidencia minima: analisis de mensaje sospechoso con senales de riesgo.",
+            "Relacion con el proyecto final: plan de seguridad del celular con ajustes, permisos, copia, recuperacion y respuesta ante incidentes."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m4-l3",
-          "title": "Codigos de recuperacion",
-          "keyIdea": "Idea clave: Codigos de recuperacion ayuda a ordenar una situación concreta, tomar una decisión más segura y dejar evidencia revisable.",
-          "shortTheory": "En esta lección vas a trabajar \"Codigos de recuperacion\" dentro del módulo \"Cuentas y recuperacion\". La prioridad es entender qué problema resuelve, qué datos o pasos conviene revisar y cómo saber si la acción fue suficiente.",
-          "practicalExample": "Una persona necesita revisar su teléfono, instalar una app o recuperar control sin exponer cuentas ni datos personales. Aplicá \"Codigos de recuperacion\" con una versión breve: anotá contexto, paso principal, control de seguridad y evidencia antes de avanzar.",
-          "commonMistake": "El error común es actuar rápido sin registrar contexto, usar una solución genérica o no revisar permisos, fuentes o consecuencias. Una práctica más profesional empieza chica, verifica y documenta.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí contexto, objetivo, acción principal, control y evidencia. Entrega esperada: una lista de revisión del teléfono con permisos, cuentas, copias y acciones pendientes.",
-          "alert": "No instalar APKs desconocidas, no compartir codigos de verificacion y no dar permisos innecesarios a apps.",
+          "title": "QR desconocidos",
+          "keyIdea": "Un QR es un enlace escondido: hay que revisar destino.",
+          "shortTheory": "En esta leccion se trabaja qr desconocidos dentro de mensajes, enlaces y descargas. La meta es reconocer el problema real, tomar una decision simple y comprobarla con se decide abrir, verificar o detener segun senales observables.",
+          "practicalExample": "Un telefono Android recibe enlaces sospechosos, instala apps nuevas y guarda cuentas personales importantes. Practica qr desconocidos sobre ese caso, compara una version inicial con una version corregida y registra analisis de mensaje sospechoso con senales de riesgo.",
+          "commonMistake": "Escanear QR pegados en lugares publicos sin verificar.",
+          "whatToDoNow": "Define cuando escanear y cuando no.",
+          "alert": "Un enlace puede parecer conocido y llevar a un sitio falso.",
           "keyPoints": [
-            "Codigos de recuperacion debe terminar en una decisión, acción o registro concreto.",
-            "Una práctica pequeña y verificable es mejor que una solución amplia sin control.",
-            "La evidencia mínima esperada es: una lista de revisión del teléfono con permisos, cuentas, copias y acciones pendientes.",
-            "El resultado debe poder explicarse y revisarse sin depender de memoria o intuición."
+            "QR desconocidos debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: se decide abrir, verificar o detener segun senales observables.",
+            "Evidencia minima: analisis de mensaje sospechoso con senales de riesgo.",
+            "Relacion con el proyecto final: plan de seguridad del celular con ajustes, permisos, copia, recuperacion y respuesta ante incidentes."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m4-l4",
-          "title": "Sesiones activas",
-          "keyIdea": "Idea clave: Sesiones activas ayuda a ordenar una situación concreta, tomar una decisión más segura y dejar evidencia revisable.",
-          "shortTheory": "En esta lección vas a trabajar \"Sesiones activas\" dentro del módulo \"Cuentas y recuperacion\". La prioridad es entender qué problema resuelve, qué datos o pasos conviene revisar y cómo saber si la acción fue suficiente.",
-          "practicalExample": "Una persona necesita revisar su teléfono, instalar una app o recuperar control sin exponer cuentas ni datos personales. Aplicá \"Sesiones activas\" con una versión breve: anotá contexto, paso principal, control de seguridad y evidencia antes de avanzar.",
-          "commonMistake": "El error común es actuar rápido sin registrar contexto, usar una solución genérica o no revisar permisos, fuentes o consecuencias. Una práctica más profesional empieza chica, verifica y documenta.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí contexto, objetivo, acción principal, control y evidencia. Entrega esperada: una lista de revisión del teléfono con permisos, cuentas, copias y acciones pendientes.",
-          "alert": "No instalar APKs desconocidas, no compartir codigos de verificacion y no dar permisos innecesarios a apps.",
+          "title": "Descargas del navegador",
+          "keyIdea": "Archivos descargados pueden ser utiles o peligrosos.",
+          "shortTheory": "En esta leccion se trabaja descargas del navegador dentro de mensajes, enlaces y descargas. La meta es reconocer el problema real, tomar una decision simple y comprobarla con se decide abrir, verificar o detener segun senales observables.",
+          "practicalExample": "Un telefono Android recibe enlaces sospechosos, instala apps nuevas y guarda cuentas personales importantes. Practica descargas del navegador sobre ese caso, compara una version inicial con una version corregida y registra analisis de mensaje sospechoso con senales de riesgo.",
+          "commonMistake": "Abrir archivos ejecutables o raros enviados por chat.",
+          "whatToDoNow": "Revisa nombre, origen y extension de una descarga.",
+          "alert": "Un enlace puede parecer conocido y llevar a un sitio falso.",
           "keyPoints": [
-            "Sesiones activas debe terminar en una decisión, acción o registro concreto.",
-            "Una práctica pequeña y verificable es mejor que una solución amplia sin control.",
-            "La evidencia mínima esperada es: una lista de revisión del teléfono con permisos, cuentas, copias y acciones pendientes.",
-            "El resultado debe poder explicarse y revisarse sin depender de memoria o intuición."
+            "Descargas del navegador debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: se decide abrir, verificar o detener segun senales observables.",
+            "Evidencia minima: analisis de mensaje sospechoso con senales de riesgo.",
+            "Relacion con el proyecto final: plan de seguridad del celular con ajustes, permisos, copia, recuperacion y respuesta ante incidentes."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m4-l5",
-          "title": "Correo alternativo",
-          "keyIdea": "Idea clave: Correo alternativo ayuda a ordenar una situación concreta, tomar una decisión más segura y dejar evidencia revisable.",
-          "shortTheory": "En esta lección vas a trabajar \"Correo alternativo\" dentro del módulo \"Cuentas y recuperacion\". La prioridad es entender qué problema resuelve, qué datos o pasos conviene revisar y cómo saber si la acción fue suficiente.",
-          "practicalExample": "Una persona necesita revisar su teléfono, instalar una app o recuperar control sin exponer cuentas ni datos personales. Aplicá \"Correo alternativo\" con una versión breve: anotá contexto, paso principal, control de seguridad y evidencia antes de avanzar.",
-          "commonMistake": "El error común es actuar rápido sin registrar contexto, usar una solución genérica o no revisar permisos, fuentes o consecuencias. Una práctica más profesional empieza chica, verifica y documenta.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí contexto, objetivo, acción principal, control y evidencia. Entrega esperada: una lista de revisión del teléfono con permisos, cuentas, copias y acciones pendientes.",
-          "alert": "No instalar APKs desconocidas, no compartir codigos de verificacion y no dar permisos innecesarios a apps.",
+          "title": "SMS de supuesta entrega",
+          "keyIdea": "Mensajes de paquetes son una excusa frecuente para robar datos.",
+          "shortTheory": "En esta leccion se trabaja sms de supuesta entrega dentro de mensajes, enlaces y descargas. La meta es reconocer el problema real, tomar una decision simple y comprobarla con se decide abrir, verificar o detener segun senales observables.",
+          "practicalExample": "Un telefono Android recibe enlaces sospechosos, instala apps nuevas y guarda cuentas personales importantes. Practica sms de supuesta entrega sobre ese caso, compara una version inicial con una version corregida y registra analisis de mensaje sospechoso con senales de riesgo.",
+          "commonMistake": "Pagar una tasa por enlace recibido.",
+          "whatToDoNow": "Escribe pasos para verificar una entrega desde fuente oficial.",
+          "alert": "Un enlace puede parecer conocido y llevar a un sitio falso.",
           "keyPoints": [
-            "Correo alternativo debe terminar en una decisión, acción o registro concreto.",
-            "Una práctica pequeña y verificable es mejor que una solución amplia sin control.",
-            "La evidencia mínima esperada es: una lista de revisión del teléfono con permisos, cuentas, copias y acciones pendientes.",
-            "El resultado debe poder explicarse y revisarse sin depender de memoria o intuición."
+            "SMS de supuesta entrega debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: se decide abrir, verificar o detener segun senales observables.",
+            "Evidencia minima: analisis de mensaje sospechoso con senales de riesgo.",
+            "Relacion con el proyecto final: plan de seguridad del celular con ajustes, permisos, copia, recuperacion y respuesta ante incidentes."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m4-l6",
-          "title": "Cambio de clave",
-          "keyIdea": "Idea clave: Cambio de clave ayuda a ordenar una situación concreta, tomar una decisión más segura y dejar evidencia revisable.",
-          "shortTheory": "En esta lección vas a trabajar \"Cambio de clave\" dentro del módulo \"Cuentas y recuperacion\". La prioridad es entender qué problema resuelve, qué datos o pasos conviene revisar y cómo saber si la acción fue suficiente.",
-          "practicalExample": "Una persona necesita revisar su teléfono, instalar una app o recuperar control sin exponer cuentas ni datos personales. Aplicá \"Cambio de clave\" con una versión breve: anotá contexto, paso principal, control de seguridad y evidencia antes de avanzar.",
-          "commonMistake": "El error común es actuar rápido sin registrar contexto, usar una solución genérica o no revisar permisos, fuentes o consecuencias. Una práctica más profesional empieza chica, verifica y documenta.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí contexto, objetivo, acción principal, control y evidencia. Entrega esperada: una lista de revisión del teléfono con permisos, cuentas, copias y acciones pendientes.",
-          "alert": "No instalar APKs desconocidas, no compartir codigos de verificacion y no dar permisos innecesarios a apps.",
+          "title": "Reportar y borrar",
+          "keyIdea": "Reportar ayuda a cortar fraude y borrar reduce tentacion.",
+          "shortTheory": "En esta leccion se trabaja reportar y borrar dentro de mensajes, enlaces y descargas. La meta es reconocer el problema real, tomar una decision simple y comprobarla con se decide abrir, verificar o detener segun senales observables.",
+          "practicalExample": "Un telefono Android recibe enlaces sospechosos, instala apps nuevas y guarda cuentas personales importantes. Practica reportar y borrar sobre ese caso, compara una version inicial con una version corregida y registra analisis de mensaje sospechoso con senales de riesgo.",
+          "commonMistake": "Seguir conversando con quien presiona.",
+          "whatToDoNow": "Ubica opciones de reportar en mensajes o WhatsApp.",
+          "alert": "Un enlace puede parecer conocido y llevar a un sitio falso.",
           "keyPoints": [
-            "Cambio de clave debe terminar en una decisión, acción o registro concreto.",
-            "Una práctica pequeña y verificable es mejor que una solución amplia sin control.",
-            "La evidencia mínima esperada es: una lista de revisión del teléfono con permisos, cuentas, copias y acciones pendientes.",
-            "El resultado debe poder explicarse y revisarse sin depender de memoria o intuición."
+            "Reportar y borrar debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: se decide abrir, verificar o detener segun senales observables.",
+            "Evidencia minima: analisis de mensaje sospechoso con senales de riesgo.",
+            "Relacion con el proyecto final: plan de seguridad del celular con ajustes, permisos, copia, recuperacion y respuesta ante incidentes."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         }
@@ -635,172 +632,171 @@
       "quiz": [
         {
           "id": "m4-q1",
-          "question": "Pregunta 1: ¿que conviene hacer al trabajar ",
+          "question": "Cual es la mejor forma de empezar el modulo \"Mensajes, enlaces y descargas\"?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Definir el caso, el usuario afectado y la evidencia que se va a revisar.",
+            "Copiar una solucion completa sin probarla.",
+            "Esperar a tener una herramienta perfecta antes de practicar.",
+            "Elegir la opcion mas vistosa aunque no resuelva el problema."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: el modulo se vuelve util cuando parte de un caso y de evidencia verificable."
         },
         {
           "id": "m4-q2",
-          "question": "Pregunta 2: ¿que conviene hacer al trabajar ",
+          "question": "Que evidencia sirve para cerrar \"Mensajes, enlaces y descargas\" sin depender de opiniones?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "analisis de mensaje sospechoso con senales de riesgo",
+            "Una captura sin contexto.",
+            "Una frase como 'parece estar bien'.",
+            "La cantidad de colores o iconos usados."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: analisis de mensaje sospechoso con senales de riesgo permite revisar el resultado despues."
         },
         {
           "id": "m4-q3",
-          "question": "Pregunta 3: ¿que conviene hacer al trabajar ",
+          "question": "Que conducta aumenta el riesgo durante la practica?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Abrir enlaces por urgencia, premio o amenaza.",
+            "Trabajar con datos simulados.",
+            "Anotar dudas antes de publicar o aplicar.",
+            "Probar en una version pequena."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: esa conducta elimina control y puede producir errores reales."
         },
         {
           "id": "m4-q4",
-          "question": "Pregunta 4: ¿que conviene hacer al trabajar ",
+          "question": "Cuando conviene pedir ayuda o validar con una fuente externa?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Cuando el mensaje habla de banco, deuda, cuenta bloqueada, paquete, premio o codigo.",
+            "Nunca, porque el ejercicio es suficiente para cualquier caso.",
+            "Solo despues de borrar la evidencia.",
+            "Cuando el resultado se ve agradable visualmente."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: validar a tiempo evita decisiones inseguras o incompletas."
         },
         {
           "id": "m4-q5",
-          "question": "Pregunta 5: ¿que conviene hacer al trabajar ",
+          "question": "Cual es el entregable minimo del modulo \"Mensajes, enlaces y descargas\"?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "matriz simple de enlaces sospechosos",
+            "Un resumen sin prueba.",
+            "Una lista de ideas sueltas.",
+            "Un archivo final sin explicar cambios."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: matriz simple de enlaces sospechosos deja avance verificable."
         }
-      ],
-      "professionalOutcome": "configurar el telefono con menos riesgo, reconocer permisos peligrosos y recuperar control ante problemas. Entregable sugerido: un checklist de telefono seguro con ajustes, permisos, copias y acciones de emergencia."
+      ]
     },
     {
       "id": "m5",
-      "title": "Redes, Wi-Fi y pagos",
-      "description": "En este módulo vas a trabajar \"Redes, Wi-Fi y pagos\" dentro de uso seguro de teléfonos Android, apps, permisos, copias y configuración básica. La meta es practicar una situación realista, reconocer el riesgo principal y cerrar con una evidencia útil para revisar.",
-      "learningRisk": "Punto clave",
+      "title": "Cuentas, verificacion y recuperacion",
+      "description": "Proteger Google, WhatsApp y cuentas importantes con recuperacion y doble verificacion.",
+      "learningRisk": "Practicar sin evidencia deja una mejora dificil de sostener.",
       "lessons": [
         {
           "id": "m5-l1",
-          "title": "Wi-Fi publico",
-          "keyIdea": "Idea clave: Wi-Fi publico ayuda a ordenar una situación concreta, tomar una decisión más segura y dejar evidencia revisable.",
-          "shortTheory": "En esta lección vas a trabajar \"Wi-Fi publico\" dentro del módulo \"Redes, Wi-Fi y pagos\". La prioridad es entender qué problema resuelve, qué datos o pasos conviene revisar y cómo saber si la acción fue suficiente.",
-          "practicalExample": "Una persona necesita revisar su teléfono, instalar una app o recuperar control sin exponer cuentas ni datos personales. Aplicá \"Wi-Fi publico\" con una versión breve: anotá contexto, paso principal, control de seguridad y evidencia antes de avanzar.",
-          "commonMistake": "El error común es actuar rápido sin registrar contexto, usar una solución genérica o no revisar permisos, fuentes o consecuencias. Una práctica más profesional empieza chica, verifica y documenta.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí contexto, objetivo, acción principal, control y evidencia. Entrega esperada: una lista de revisión del teléfono con permisos, cuentas, copias y acciones pendientes.",
-          "alert": "No instalar APKs desconocidas, no compartir codigos de verificacion y no dar permisos innecesarios a apps.",
+          "title": "Clave fuerte y unica",
+          "keyIdea": "Repetir clave permite que un problema se vuelva muchos.",
+          "shortTheory": "En esta leccion se trabaja clave fuerte y unica dentro de cuentas, verificacion y recuperacion. La meta es reconocer el problema real, tomar una decision simple y comprobarla con cada cuenta importante tiene recuperacion propia y verificacion adecuada.",
+          "practicalExample": "Un telefono Android recibe enlaces sospechosos, instala apps nuevas y guarda cuentas personales importantes. Practica clave fuerte y unica sobre ese caso, compara una version inicial con una version corregida y registra estado de recuperacion y verificacion de cuentas principales.",
+          "commonMistake": "Usar la misma clave para correo, banco y redes.",
+          "whatToDoNow": "Identifica cuentas donde nunca deberias repetir clave.",
+          "alert": "El codigo de verificacion sirve para entrar: no se reenvia.",
           "keyPoints": [
-            "Wi-Fi publico debe terminar en una decisión, acción o registro concreto.",
-            "Una práctica pequeña y verificable es mejor que una solución amplia sin control.",
-            "La evidencia mínima esperada es: una lista de revisión del teléfono con permisos, cuentas, copias y acciones pendientes.",
-            "El resultado debe poder explicarse y revisarse sin depender de memoria o intuición."
+            "Clave fuerte y unica debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: cada cuenta importante tiene recuperacion propia y verificacion adecuada.",
+            "Evidencia minima: estado de recuperacion y verificacion de cuentas principales.",
+            "Relacion con el proyecto final: plan de seguridad del celular con ajustes, permisos, copia, recuperacion y respuesta ante incidentes."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m5-l2",
-          "title": "Bluetooth",
-          "keyIdea": "Idea clave: Bluetooth ayuda a ordenar una situación concreta, tomar una decisión más segura y dejar evidencia revisable.",
-          "shortTheory": "En esta lección vas a trabajar \"Bluetooth\" dentro del módulo \"Redes, Wi-Fi y pagos\". La prioridad es entender qué problema resuelve, qué datos o pasos conviene revisar y cómo saber si la acción fue suficiente.",
-          "practicalExample": "Una persona necesita revisar su teléfono, instalar una app o recuperar control sin exponer cuentas ni datos personales. Aplicá \"Bluetooth\" con una versión breve: anotá contexto, paso principal, control de seguridad y evidencia antes de avanzar.",
-          "commonMistake": "El error común es actuar rápido sin registrar contexto, usar una solución genérica o no revisar permisos, fuentes o consecuencias. Una práctica más profesional empieza chica, verifica y documenta.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí contexto, objetivo, acción principal, control y evidencia. Entrega esperada: una lista de revisión del teléfono con permisos, cuentas, copias y acciones pendientes.",
-          "alert": "No instalar APKs desconocidas, no compartir codigos de verificacion y no dar permisos innecesarios a apps.",
+          "title": "Verificacion en dos pasos",
+          "keyIdea": "Agrega una segunda barrera aunque alguien sepa la clave.",
+          "shortTheory": "En esta leccion se trabaja verificacion en dos pasos dentro de cuentas, verificacion y recuperacion. La meta es reconocer el problema real, tomar una decision simple y comprobarla con cada cuenta importante tiene recuperacion propia y verificacion adecuada.",
+          "practicalExample": "Un telefono Android recibe enlaces sospechosos, instala apps nuevas y guarda cuentas personales importantes. Practica verificacion en dos pasos sobre ese caso, compara una version inicial con una version corregida y registra estado de recuperacion y verificacion de cuentas principales.",
+          "commonMistake": "Guardar codigos de respaldo en un chat visible.",
+          "whatToDoNow": "Revisa donde se activa en Google o WhatsApp.",
+          "alert": "El codigo de verificacion sirve para entrar: no se reenvia.",
           "keyPoints": [
-            "Bluetooth debe terminar en una decisión, acción o registro concreto.",
-            "Una práctica pequeña y verificable es mejor que una solución amplia sin control.",
-            "La evidencia mínima esperada es: una lista de revisión del teléfono con permisos, cuentas, copias y acciones pendientes.",
-            "El resultado debe poder explicarse y revisarse sin depender de memoria o intuición."
+            "Verificacion en dos pasos debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: cada cuenta importante tiene recuperacion propia y verificacion adecuada.",
+            "Evidencia minima: estado de recuperacion y verificacion de cuentas principales.",
+            "Relacion con el proyecto final: plan de seguridad del celular con ajustes, permisos, copia, recuperacion y respuesta ante incidentes."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m5-l3",
-          "title": "NFC",
-          "keyIdea": "Idea clave: NFC ayuda a ordenar una situación concreta, tomar una decisión más segura y dejar evidencia revisable.",
-          "shortTheory": "En esta lección vas a trabajar \"NFC\" dentro del módulo \"Redes, Wi-Fi y pagos\". La prioridad es entender qué problema resuelve, qué datos o pasos conviene revisar y cómo saber si la acción fue suficiente.",
-          "practicalExample": "Una persona necesita revisar su teléfono, instalar una app o recuperar control sin exponer cuentas ni datos personales. Aplicá \"NFC\" con una versión breve: anotá contexto, paso principal, control de seguridad y evidencia antes de avanzar.",
-          "commonMistake": "El error común es actuar rápido sin registrar contexto, usar una solución genérica o no revisar permisos, fuentes o consecuencias. Una práctica más profesional empieza chica, verifica y documenta.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí contexto, objetivo, acción principal, control y evidencia. Entrega esperada: una lista de revisión del teléfono con permisos, cuentas, copias y acciones pendientes.",
-          "alert": "No instalar APKs desconocidas, no compartir codigos de verificacion y no dar permisos innecesarios a apps.",
+          "title": "Metodos de recuperacion",
+          "keyIdea": "Telefono y correo alternativo deben estar actualizados.",
+          "shortTheory": "En esta leccion se trabaja metodos de recuperacion dentro de cuentas, verificacion y recuperacion. La meta es reconocer el problema real, tomar una decision simple y comprobarla con cada cuenta importante tiene recuperacion propia y verificacion adecuada.",
+          "practicalExample": "Un telefono Android recibe enlaces sospechosos, instala apps nuevas y guarda cuentas personales importantes. Practica metodos de recuperacion sobre ese caso, compara una version inicial con una version corregida y registra estado de recuperacion y verificacion de cuentas principales.",
+          "commonMistake": "Mantener un numero viejo que ya no usas.",
+          "whatToDoNow": "Verifica recuperacion de cuenta principal.",
+          "alert": "El codigo de verificacion sirve para entrar: no se reenvia.",
           "keyPoints": [
-            "NFC debe terminar en una decisión, acción o registro concreto.",
-            "Una práctica pequeña y verificable es mejor que una solución amplia sin control.",
-            "La evidencia mínima esperada es: una lista de revisión del teléfono con permisos, cuentas, copias y acciones pendientes.",
-            "El resultado debe poder explicarse y revisarse sin depender de memoria o intuición."
+            "Metodos de recuperacion debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: cada cuenta importante tiene recuperacion propia y verificacion adecuada.",
+            "Evidencia minima: estado de recuperacion y verificacion de cuentas principales.",
+            "Relacion con el proyecto final: plan de seguridad del celular con ajustes, permisos, copia, recuperacion y respuesta ante incidentes."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m5-l4",
-          "title": "Billeteras en el celular",
-          "keyIdea": "Idea clave: Billeteras en el celular ayuda a ordenar una situación concreta, tomar una decisión más segura y dejar evidencia revisable.",
-          "shortTheory": "En esta lección vas a trabajar \"Billeteras en el celular\" dentro del módulo \"Redes, Wi-Fi y pagos\". La prioridad es entender qué problema resuelve, qué datos o pasos conviene revisar y cómo saber si la acción fue suficiente.",
-          "practicalExample": "Una persona necesita revisar su teléfono, instalar una app o recuperar control sin exponer cuentas ni datos personales. Aplicá \"Billeteras en el celular\" con una versión breve: anotá contexto, paso principal, control de seguridad y evidencia antes de avanzar.",
-          "commonMistake": "El error común es actuar rápido sin registrar contexto, usar una solución genérica o no revisar permisos, fuentes o consecuencias. Una práctica más profesional empieza chica, verifica y documenta.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí contexto, objetivo, acción principal, control y evidencia. Entrega esperada: una lista de revisión del teléfono con permisos, cuentas, copias y acciones pendientes.",
-          "alert": "No instalar APKs desconocidas, no compartir codigos de verificacion y no dar permisos innecesarios a apps.",
+          "title": "Dispositivos conectados",
+          "keyIdea": "Las cuentas muestran donde estan abiertas.",
+          "shortTheory": "En esta leccion se trabaja dispositivos conectados dentro de cuentas, verificacion y recuperacion. La meta es reconocer el problema real, tomar una decision simple y comprobarla con cada cuenta importante tiene recuperacion propia y verificacion adecuada.",
+          "practicalExample": "Un telefono Android recibe enlaces sospechosos, instala apps nuevas y guarda cuentas personales importantes. Practica dispositivos conectados sobre ese caso, compara una version inicial con una version corregida y registra estado de recuperacion y verificacion de cuentas principales.",
+          "commonMistake": "Ignorar avisos de inicio de sesion.",
+          "whatToDoNow": "Revisa sesiones activas y cierra desconocidas.",
+          "alert": "El codigo de verificacion sirve para entrar: no se reenvia.",
           "keyPoints": [
-            "Billeteras en el celular debe terminar en una decisión, acción o registro concreto.",
-            "Una práctica pequeña y verificable es mejor que una solución amplia sin control.",
-            "La evidencia mínima esperada es: una lista de revisión del teléfono con permisos, cuentas, copias y acciones pendientes.",
-            "El resultado debe poder explicarse y revisarse sin depender de memoria o intuición."
+            "Dispositivos conectados debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: cada cuenta importante tiene recuperacion propia y verificacion adecuada.",
+            "Evidencia minima: estado de recuperacion y verificacion de cuentas principales.",
+            "Relacion con el proyecto final: plan de seguridad del celular con ajustes, permisos, copia, recuperacion y respuesta ante incidentes."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m5-l5",
-          "title": "QR sospechosos",
-          "keyIdea": "Idea clave: QR sospechosos ayuda a ordenar una situación concreta, tomar una decisión más segura y dejar evidencia revisable.",
-          "shortTheory": "En esta lección vas a trabajar \"QR sospechosos\" dentro del módulo \"Redes, Wi-Fi y pagos\". La prioridad es entender qué problema resuelve, qué datos o pasos conviene revisar y cómo saber si la acción fue suficiente.",
-          "practicalExample": "Una persona necesita revisar su teléfono, instalar una app o recuperar control sin exponer cuentas ni datos personales. Aplicá \"QR sospechosos\" con una versión breve: anotá contexto, paso principal, control de seguridad y evidencia antes de avanzar.",
-          "commonMistake": "El error común es actuar rápido sin registrar contexto, usar una solución genérica o no revisar permisos, fuentes o consecuencias. Una práctica más profesional empieza chica, verifica y documenta.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí contexto, objetivo, acción principal, control y evidencia. Entrega esperada: una lista de revisión del teléfono con permisos, cuentas, copias y acciones pendientes.",
-          "alert": "No instalar APKs desconocidas, no compartir codigos de verificacion y no dar permisos innecesarios a apps.",
+          "title": "WhatsApp en otros dispositivos",
+          "keyIdea": "WhatsApp Web y dispositivos vinculados deben revisarse.",
+          "shortTheory": "En esta leccion se trabaja whatsapp en otros dispositivos dentro de cuentas, verificacion y recuperacion. La meta es reconocer el problema real, tomar una decision simple y comprobarla con cada cuenta importante tiene recuperacion propia y verificacion adecuada.",
+          "practicalExample": "Un telefono Android recibe enlaces sospechosos, instala apps nuevas y guarda cuentas personales importantes. Practica whatsapp en otros dispositivos sobre ese caso, compara una version inicial con una version corregida y registra estado de recuperacion y verificacion de cuentas principales.",
+          "commonMistake": "Dejar abierto WhatsApp en una computadora compartida.",
+          "whatToDoNow": "Mira dispositivos vinculados y cierra los que no reconozcas.",
+          "alert": "El codigo de verificacion sirve para entrar: no se reenvia.",
           "keyPoints": [
-            "QR sospechosos debe terminar en una decisión, acción o registro concreto.",
-            "Una práctica pequeña y verificable es mejor que una solución amplia sin control.",
-            "La evidencia mínima esperada es: una lista de revisión del teléfono con permisos, cuentas, copias y acciones pendientes.",
-            "El resultado debe poder explicarse y revisarse sin depender de memoria o intuición."
+            "WhatsApp en otros dispositivos debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: cada cuenta importante tiene recuperacion propia y verificacion adecuada.",
+            "Evidencia minima: estado de recuperacion y verificacion de cuentas principales.",
+            "Relacion con el proyecto final: plan de seguridad del celular con ajustes, permisos, copia, recuperacion y respuesta ante incidentes."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m5-l6",
-          "title": "VPN con cautela",
-          "keyIdea": "Idea clave: VPN con cautela ayuda a ordenar una situación concreta, tomar una decisión más segura y dejar evidencia revisable.",
-          "shortTheory": "En esta lección vas a trabajar \"VPN con cautela\" dentro del módulo \"Redes, Wi-Fi y pagos\". La prioridad es entender qué problema resuelve, qué datos o pasos conviene revisar y cómo saber si la acción fue suficiente.",
-          "practicalExample": "Una persona necesita revisar su teléfono, instalar una app o recuperar control sin exponer cuentas ni datos personales. Aplicá \"VPN con cautela\" con una versión breve: anotá contexto, paso principal, control de seguridad y evidencia antes de avanzar.",
-          "commonMistake": "El error común es actuar rápido sin registrar contexto, usar una solución genérica o no revisar permisos, fuentes o consecuencias. Una práctica más profesional empieza chica, verifica y documenta.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí contexto, objetivo, acción principal, control y evidencia. Entrega esperada: una lista de revisión del teléfono con permisos, cuentas, copias y acciones pendientes.",
-          "alert": "No instalar APKs desconocidas, no compartir codigos de verificacion y no dar permisos innecesarios a apps.",
+          "title": "Administrador de contrasenas",
+          "keyIdea": "Guardar claves de forma segura es mejor que repetir o anotar mal.",
+          "shortTheory": "En esta leccion se trabaja administrador de contrasenas dentro de cuentas, verificacion y recuperacion. La meta es reconocer el problema real, tomar una decision simple y comprobarla con cada cuenta importante tiene recuperacion propia y verificacion adecuada.",
+          "practicalExample": "Un telefono Android recibe enlaces sospechosos, instala apps nuevas y guarda cuentas personales importantes. Practica administrador de contrasenas sobre ese caso, compara una version inicial con una version corregida y registra estado de recuperacion y verificacion de cuentas principales.",
+          "commonMistake": "Mandarse claves por mensaje.",
+          "whatToDoNow": "Compara memoria, papel visible y gestor integrado.",
+          "alert": "El codigo de verificacion sirve para entrar: no se reenvia.",
           "keyPoints": [
-            "VPN con cautela debe terminar en una decisión, acción o registro concreto.",
-            "Una práctica pequeña y verificable es mejor que una solución amplia sin control.",
-            "La evidencia mínima esperada es: una lista de revisión del teléfono con permisos, cuentas, copias y acciones pendientes.",
-            "El resultado debe poder explicarse y revisarse sin depender de memoria o intuición."
+            "Administrador de contrasenas debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: cada cuenta importante tiene recuperacion propia y verificacion adecuada.",
+            "Evidencia minima: estado de recuperacion y verificacion de cuentas principales.",
+            "Relacion con el proyecto final: plan de seguridad del celular con ajustes, permisos, copia, recuperacion y respuesta ante incidentes."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         }
@@ -808,172 +804,171 @@
       "quiz": [
         {
           "id": "m5-q1",
-          "question": "Pregunta 1: ¿que conviene hacer al trabajar ",
+          "question": "Cual es la mejor forma de empezar el modulo \"Cuentas, verificacion y recuperacion\"?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Definir el caso, el usuario afectado y la evidencia que se va a revisar.",
+            "Copiar una solucion completa sin probarla.",
+            "Esperar a tener una herramienta perfecta antes de practicar.",
+            "Elegir la opcion mas vistosa aunque no resuelva el problema."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: el modulo se vuelve util cuando parte de un caso y de evidencia verificable."
         },
         {
           "id": "m5-q2",
-          "question": "Pregunta 2: ¿que conviene hacer al trabajar ",
+          "question": "Que evidencia sirve para cerrar \"Cuentas, verificacion y recuperacion\" sin depender de opiniones?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "estado de recuperacion y verificacion de cuentas principales",
+            "Una captura sin contexto.",
+            "Una frase como 'parece estar bien'.",
+            "La cantidad de colores o iconos usados."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: estado de recuperacion y verificacion de cuentas principales permite revisar el resultado despues."
         },
         {
           "id": "m5-q3",
-          "question": "Pregunta 3: ¿que conviene hacer al trabajar ",
+          "question": "Que conducta aumenta el riesgo durante la practica?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Usar una sola clave repetida o compartir codigos.",
+            "Trabajar con datos simulados.",
+            "Anotar dudas antes de publicar o aplicar.",
+            "Probar en una version pequena."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: esa conducta elimina control y puede producir errores reales."
         },
         {
           "id": "m5-q4",
-          "question": "Pregunta 4: ¿que conviene hacer al trabajar ",
+          "question": "Cuando conviene pedir ayuda o validar con una fuente externa?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Cuando se pierde acceso, aparece inicio de sesion desconocido o piden codigos.",
+            "Nunca, porque el ejercicio es suficiente para cualquier caso.",
+            "Solo despues de borrar la evidencia.",
+            "Cuando el resultado se ve agradable visualmente."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: validar a tiempo evita decisiones inseguras o incompletas."
         },
         {
           "id": "m5-q5",
-          "question": "Pregunta 5: ¿que conviene hacer al trabajar ",
+          "question": "Cual es el entregable minimo del modulo \"Cuentas, verificacion y recuperacion\"?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "plan de proteccion de cuentas",
+            "Un resumen sin prueba.",
+            "Una lista de ideas sueltas.",
+            "Un archivo final sin explicar cambios."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: plan de proteccion de cuentas deja avance verificable."
         }
-      ],
-      "professionalOutcome": "configurar el telefono con menos riesgo, reconocer permisos peligrosos y recuperar control ante problemas. Entregable sugerido: un checklist de telefono seguro con ajustes, permisos, copias y acciones de emergencia."
+      ]
     },
     {
       "id": "m6",
-      "title": "Respuesta ante sospechas",
-      "description": "En este módulo vas a trabajar \"Respuesta ante sospechas\" dentro de uso seguro de teléfonos Android, apps, permisos, copias y configuración básica. La meta es practicar una situación realista, reconocer el riesgo principal y cerrar con una evidencia útil para revisar.",
-      "learningRisk": "Punto clave",
+      "title": "Respuesta ante perdida o sospecha",
+      "description": "Actuar con calma ante robo, perdida, cuenta tomada o app peligrosa.",
+      "learningRisk": "Practicar sin evidencia deja una mejora dificil de sostener.",
       "lessons": [
         {
           "id": "m6-l1",
-          "title": "Sintomas de compromiso",
-          "keyIdea": "Idea clave: Sintomas de compromiso ayuda a ordenar una situación concreta, tomar una decisión más segura y dejar evidencia revisable.",
-          "shortTheory": "En esta lección vas a trabajar \"Sintomas de compromiso\" dentro del módulo \"Respuesta ante sospechas\". La prioridad es entender qué problema resuelve, qué datos o pasos conviene revisar y cómo saber si la acción fue suficiente.",
-          "practicalExample": "Una persona necesita revisar su teléfono, instalar una app o recuperar control sin exponer cuentas ni datos personales. Aplicá \"Sintomas de compromiso\" con una versión breve: anotá contexto, paso principal, control de seguridad y evidencia antes de avanzar.",
-          "commonMistake": "El error común es actuar rápido sin registrar contexto, usar una solución genérica o no revisar permisos, fuentes o consecuencias. Una práctica más profesional empieza chica, verifica y documenta.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí contexto, objetivo, acción principal, control y evidencia. Entrega esperada: una lista de revisión del teléfono con permisos, cuentas, copias y acciones pendientes.",
-          "alert": "No instalar APKs desconocidas, no compartir codigos de verificacion y no dar permisos innecesarios a apps.",
+          "title": "Perdi el telefono",
+          "keyIdea": "El orden importa: localizar, bloquear, avisar y proteger cuentas.",
+          "shortTheory": "En esta leccion se trabaja perdi el telefono dentro de respuesta ante perdida o sospecha. La meta es reconocer el problema real, tomar una decision simple y comprobarla con se prioriza bloquear dano, preservar evidencia y recuperar control.",
+          "practicalExample": "Un telefono Android recibe enlaces sospechosos, instala apps nuevas y guarda cuentas personales importantes. Practica perdi el telefono sobre ese caso, compara una version inicial con una version corregida y registra plan de emergencia con pasos, contactos y evidencia.",
+          "commonMistake": "Esperar muchas horas para bloquear por si aparece.",
+          "whatToDoNow": "Escribe pasos si pierdes el equipo hoy.",
+          "alert": "En emergencias reales, priorizar cuentas, dinero y seguridad personal.",
           "keyPoints": [
-            "Sintomas de compromiso debe terminar en una decisión, acción o registro concreto.",
-            "Una práctica pequeña y verificable es mejor que una solución amplia sin control.",
-            "La evidencia mínima esperada es: una lista de revisión del teléfono con permisos, cuentas, copias y acciones pendientes.",
-            "El resultado debe poder explicarse y revisarse sin depender de memoria o intuición."
+            "Perdi el telefono debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: se prioriza bloquear dano, preservar evidencia y recuperar control.",
+            "Evidencia minima: plan de emergencia con pasos, contactos y evidencia.",
+            "Relacion con el proyecto final: plan de seguridad del celular con ajustes, permisos, copia, recuperacion y respuesta ante incidentes."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m6-l2",
-          "title": "Modo seguro",
-          "keyIdea": "Idea clave: Modo seguro ayuda a ordenar una situación concreta, tomar una decisión más segura y dejar evidencia revisable.",
-          "shortTheory": "En esta lección vas a trabajar \"Modo seguro\" dentro del módulo \"Respuesta ante sospechas\". La prioridad es entender qué problema resuelve, qué datos o pasos conviene revisar y cómo saber si la acción fue suficiente.",
-          "practicalExample": "Una persona necesita revisar su teléfono, instalar una app o recuperar control sin exponer cuentas ni datos personales. Aplicá \"Modo seguro\" con una versión breve: anotá contexto, paso principal, control de seguridad y evidencia antes de avanzar.",
-          "commonMistake": "El error común es actuar rápido sin registrar contexto, usar una solución genérica o no revisar permisos, fuentes o consecuencias. Una práctica más profesional empieza chica, verifica y documenta.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí contexto, objetivo, acción principal, control y evidencia. Entrega esperada: una lista de revisión del teléfono con permisos, cuentas, copias y acciones pendientes.",
-          "alert": "No instalar APKs desconocidas, no compartir codigos de verificacion y no dar permisos innecesarios a apps.",
+          "title": "Cuenta sospechosa",
+          "keyIdea": "Un aviso de acceso desconocido requiere cambiar clave y cerrar sesiones.",
+          "shortTheory": "En esta leccion se trabaja cuenta sospechosa dentro de respuesta ante perdida o sospecha. La meta es reconocer el problema real, tomar una decision simple y comprobarla con se prioriza bloquear dano, preservar evidencia y recuperar control.",
+          "practicalExample": "Un telefono Android recibe enlaces sospechosos, instala apps nuevas y guarda cuentas personales importantes. Practica cuenta sospechosa sobre ese caso, compara una version inicial con una version corregida y registra plan de emergencia con pasos, contactos y evidencia.",
+          "commonMistake": "Ignorar el correo de alerta.",
+          "whatToDoNow": "Define que haras ante un inicio de sesion no reconocido.",
+          "alert": "En emergencias reales, priorizar cuentas, dinero y seguridad personal.",
           "keyPoints": [
-            "Modo seguro debe terminar en una decisión, acción o registro concreto.",
-            "Una práctica pequeña y verificable es mejor que una solución amplia sin control.",
-            "La evidencia mínima esperada es: una lista de revisión del teléfono con permisos, cuentas, copias y acciones pendientes.",
-            "El resultado debe poder explicarse y revisarse sin depender de memoria o intuición."
+            "Cuenta sospechosa debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: se prioriza bloquear dano, preservar evidencia y recuperar control.",
+            "Evidencia minima: plan de emergencia con pasos, contactos y evidencia.",
+            "Relacion con el proyecto final: plan de seguridad del celular con ajustes, permisos, copia, recuperacion y respuesta ante incidentes."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m6-l3",
-          "title": "Cambiar claves",
-          "keyIdea": "Idea clave: Cambiar claves ayuda a ordenar una situación concreta, tomar una decisión más segura y dejar evidencia revisable.",
-          "shortTheory": "En esta lección vas a trabajar \"Cambiar claves\" dentro del módulo \"Respuesta ante sospechas\". La prioridad es entender qué problema resuelve, qué datos o pasos conviene revisar y cómo saber si la acción fue suficiente.",
-          "practicalExample": "Una persona necesita revisar su teléfono, instalar una app o recuperar control sin exponer cuentas ni datos personales. Aplicá \"Cambiar claves\" con una versión breve: anotá contexto, paso principal, control de seguridad y evidencia antes de avanzar.",
-          "commonMistake": "El error común es actuar rápido sin registrar contexto, usar una solución genérica o no revisar permisos, fuentes o consecuencias. Una práctica más profesional empieza chica, verifica y documenta.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí contexto, objetivo, acción principal, control y evidencia. Entrega esperada: una lista de revisión del teléfono con permisos, cuentas, copias y acciones pendientes.",
-          "alert": "No instalar APKs desconocidas, no compartir codigos de verificacion y no dar permisos innecesarios a apps.",
+          "title": "App maliciosa posible",
+          "keyIdea": "No siempre hay que abrir la app para confirmar; se revisan permisos y origen.",
+          "shortTheory": "En esta leccion se trabaja app maliciosa posible dentro de respuesta ante perdida o sospecha. La meta es reconocer el problema real, tomar una decision simple y comprobarla con se prioriza bloquear dano, preservar evidencia y recuperar control.",
+          "practicalExample": "Un telefono Android recibe enlaces sospechosos, instala apps nuevas y guarda cuentas personales importantes. Practica app maliciosa posible sobre ese caso, compara una version inicial con una version corregida y registra plan de emergencia con pasos, contactos y evidencia.",
+          "commonMistake": "Dar permisos para ver si se arregla.",
+          "whatToDoNow": "Prepara pasos para app desconocida.",
+          "alert": "En emergencias reales, priorizar cuentas, dinero y seguridad personal.",
           "keyPoints": [
-            "Cambiar claves debe terminar en una decisión, acción o registro concreto.",
-            "Una práctica pequeña y verificable es mejor que una solución amplia sin control.",
-            "La evidencia mínima esperada es: una lista de revisión del teléfono con permisos, cuentas, copias y acciones pendientes.",
-            "El resultado debe poder explicarse y revisarse sin depender de memoria o intuición."
+            "App maliciosa posible debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: se prioriza bloquear dano, preservar evidencia y recuperar control.",
+            "Evidencia minima: plan de emergencia con pasos, contactos y evidencia.",
+            "Relacion con el proyecto final: plan de seguridad del celular con ajustes, permisos, copia, recuperacion y respuesta ante incidentes."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m6-l4",
-          "title": "Revisar movimientos",
-          "keyIdea": "Idea clave: Revisar movimientos ayuda a ordenar una situación concreta, tomar una decisión más segura y dejar evidencia revisable.",
-          "shortTheory": "En esta lección vas a trabajar \"Revisar movimientos\" dentro del módulo \"Respuesta ante sospechas\". La prioridad es entender qué problema resuelve, qué datos o pasos conviene revisar y cómo saber si la acción fue suficiente.",
-          "practicalExample": "Una persona necesita revisar su teléfono, instalar una app o recuperar control sin exponer cuentas ni datos personales. Aplicá \"Revisar movimientos\" con una versión breve: anotá contexto, paso principal, control de seguridad y evidencia antes de avanzar.",
-          "commonMistake": "El error común es actuar rápido sin registrar contexto, usar una solución genérica o no revisar permisos, fuentes o consecuencias. Una práctica más profesional empieza chica, verifica y documenta.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí contexto, objetivo, acción principal, control y evidencia. Entrega esperada: una lista de revisión del teléfono con permisos, cuentas, copias y acciones pendientes.",
-          "alert": "No instalar APKs desconocidas, no compartir codigos de verificacion y no dar permisos innecesarios a apps.",
+          "title": "Banco o billetera en riesgo",
+          "keyIdea": "Si hay dinero involucrado, se contacta canal oficial y se bloquea rapido.",
+          "shortTheory": "En esta leccion se trabaja banco o billetera en riesgo dentro de respuesta ante perdida o sospecha. La meta es reconocer el problema real, tomar una decision simple y comprobarla con se prioriza bloquear dano, preservar evidencia y recuperar control.",
+          "practicalExample": "Un telefono Android recibe enlaces sospechosos, instala apps nuevas y guarda cuentas personales importantes. Practica banco o billetera en riesgo sobre ese caso, compara una version inicial con una version corregida y registra plan de emergencia con pasos, contactos y evidencia.",
+          "commonMistake": "Seguir instrucciones de un numero recibido por chat.",
+          "whatToDoNow": "Anota canales oficiales de tu banco o billetera.",
+          "alert": "En emergencias reales, priorizar cuentas, dinero y seguridad personal.",
           "keyPoints": [
-            "Revisar movimientos debe terminar en una decisión, acción o registro concreto.",
-            "Una práctica pequeña y verificable es mejor que una solución amplia sin control.",
-            "La evidencia mínima esperada es: una lista de revisión del teléfono con permisos, cuentas, copias y acciones pendientes.",
-            "El resultado debe poder explicarse y revisarse sin depender de memoria o intuición."
+            "Banco o billetera en riesgo debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: se prioriza bloquear dano, preservar evidencia y recuperar control.",
+            "Evidencia minima: plan de emergencia con pasos, contactos y evidencia.",
+            "Relacion con el proyecto final: plan de seguridad del celular con ajustes, permisos, copia, recuperacion y respuesta ante incidentes."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m6-l5",
-          "title": "Guardar evidencia",
-          "keyIdea": "Idea clave: Guardar evidencia ayuda a ordenar una situación concreta, tomar una decisión más segura y dejar evidencia revisable.",
-          "shortTheory": "En esta lección vas a trabajar \"Guardar evidencia\" dentro del módulo \"Respuesta ante sospechas\". La prioridad es entender qué problema resuelve, qué datos o pasos conviene revisar y cómo saber si la acción fue suficiente.",
-          "practicalExample": "Una persona necesita revisar su teléfono, instalar una app o recuperar control sin exponer cuentas ni datos personales. Aplicá \"Guardar evidencia\" con una versión breve: anotá contexto, paso principal, control de seguridad y evidencia antes de avanzar.",
-          "commonMistake": "El error común es actuar rápido sin registrar contexto, usar una solución genérica o no revisar permisos, fuentes o consecuencias. Una práctica más profesional empieza chica, verifica y documenta.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí contexto, objetivo, acción principal, control y evidencia. Entrega esperada: una lista de revisión del teléfono con permisos, cuentas, copias y acciones pendientes.",
-          "alert": "No instalar APKs desconocidas, no compartir codigos de verificacion y no dar permisos innecesarios a apps.",
+          "title": "Preservar evidencia",
+          "keyIdea": "Capturas, fechas y mensajes ayudan a soporte o denuncia.",
+          "shortTheory": "En esta leccion se trabaja preservar evidencia dentro de respuesta ante perdida o sospecha. La meta es reconocer el problema real, tomar una decision simple y comprobarla con se prioriza bloquear dano, preservar evidencia y recuperar control.",
+          "practicalExample": "Un telefono Android recibe enlaces sospechosos, instala apps nuevas y guarda cuentas personales importantes. Practica preservar evidencia sobre ese caso, compara una version inicial con una version corregida y registra plan de emergencia con pasos, contactos y evidencia.",
+          "commonMistake": "Borrar mensajes por verguenza antes de pedir ayuda.",
+          "whatToDoNow": "Crea formato de registro de incidente.",
+          "alert": "En emergencias reales, priorizar cuentas, dinero y seguridad personal.",
           "keyPoints": [
-            "Guardar evidencia debe terminar en una decisión, acción o registro concreto.",
-            "Una práctica pequeña y verificable es mejor que una solución amplia sin control.",
-            "La evidencia mínima esperada es: una lista de revisión del teléfono con permisos, cuentas, copias y acciones pendientes.",
-            "El resultado debe poder explicarse y revisarse sin depender de memoria o intuición."
+            "Preservar evidencia debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: se prioriza bloquear dano, preservar evidencia y recuperar control.",
+            "Evidencia minima: plan de emergencia con pasos, contactos y evidencia.",
+            "Relacion con el proyecto final: plan de seguridad del celular con ajustes, permisos, copia, recuperacion y respuesta ante incidentes."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m6-l6",
-          "title": "Soporte oficial",
-          "keyIdea": "Idea clave: Soporte oficial ayuda a ordenar una situación concreta, tomar una decisión más segura y dejar evidencia revisable.",
-          "shortTheory": "En esta lección vas a trabajar \"Soporte oficial\" dentro del módulo \"Respuesta ante sospechas\". La prioridad es entender qué problema resuelve, qué datos o pasos conviene revisar y cómo saber si la acción fue suficiente.",
-          "practicalExample": "Una persona necesita revisar su teléfono, instalar una app o recuperar control sin exponer cuentas ni datos personales. Aplicá \"Soporte oficial\" con una versión breve: anotá contexto, paso principal, control de seguridad y evidencia antes de avanzar.",
-          "commonMistake": "El error común es actuar rápido sin registrar contexto, usar una solución genérica o no revisar permisos, fuentes o consecuencias. Una práctica más profesional empieza chica, verifica y documenta.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí contexto, objetivo, acción principal, control y evidencia. Entrega esperada: una lista de revisión del teléfono con permisos, cuentas, copias y acciones pendientes.",
-          "alert": "No instalar APKs desconocidas, no compartir codigos de verificacion y no dar permisos innecesarios a apps.",
+          "title": "Despues del incidente",
+          "keyIdea": "La recuperacion incluye revisar permisos, claves, copias y aprendizajes.",
+          "shortTheory": "En esta leccion se trabaja despues del incidente dentro de respuesta ante perdida o sospecha. La meta es reconocer el problema real, tomar una decision simple y comprobarla con se prioriza bloquear dano, preservar evidencia y recuperar control.",
+          "practicalExample": "Un telefono Android recibe enlaces sospechosos, instala apps nuevas y guarda cuentas personales importantes. Practica despues del incidente sobre ese caso, compara una version inicial con una version corregida y registra plan de emergencia con pasos, contactos y evidencia.",
+          "commonMistake": "Cambiar una clave y no revisar el resto.",
+          "whatToDoNow": "Arma checklist de revision posterior.",
+          "alert": "En emergencias reales, priorizar cuentas, dinero y seguridad personal.",
           "keyPoints": [
-            "Soporte oficial debe terminar en una decisión, acción o registro concreto.",
-            "Una práctica pequeña y verificable es mejor que una solución amplia sin control.",
-            "La evidencia mínima esperada es: una lista de revisión del teléfono con permisos, cuentas, copias y acciones pendientes.",
-            "El resultado debe poder explicarse y revisarse sin depender de memoria o intuición."
+            "Despues del incidente debe dejar una accion observable, no solo una definicion.",
+            "Criterio de cierre: se prioriza bloquear dano, preservar evidencia y recuperar control.",
+            "Evidencia minima: plan de emergencia con pasos, contactos y evidencia.",
+            "Relacion con el proyecto final: plan de seguridad del celular con ajustes, permisos, copia, recuperacion y respuesta ante incidentes."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         }
@@ -981,76 +976,65 @@
       "quiz": [
         {
           "id": "m6-q1",
-          "question": "Pregunta 1: ¿que conviene hacer al trabajar ",
+          "question": "Cual es la mejor forma de empezar el modulo \"Respuesta ante perdida o sospecha\"?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Definir el caso, el usuario afectado y la evidencia que se va a revisar.",
+            "Copiar una solucion completa sin probarla.",
+            "Esperar a tener una herramienta perfecta antes de practicar.",
+            "Elegir la opcion mas vistosa aunque no resuelva el problema."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: el modulo se vuelve util cuando parte de un caso y de evidencia verificable."
         },
         {
           "id": "m6-q2",
-          "question": "Pregunta 2: ¿que conviene hacer al trabajar ",
+          "question": "Que evidencia sirve para cerrar \"Respuesta ante perdida o sospecha\" sin depender de opiniones?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "plan de emergencia con pasos, contactos y evidencia",
+            "Una captura sin contexto.",
+            "Una frase como 'parece estar bien'.",
+            "La cantidad de colores o iconos usados."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: plan de emergencia con pasos, contactos y evidencia permite revisar el resultado despues."
         },
         {
           "id": "m6-q3",
-          "question": "Pregunta 3: ¿que conviene hacer al trabajar ",
+          "question": "Que conducta aumenta el riesgo durante la practica?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Borrar todo o confrontar sin preservar evidencia.",
+            "Trabajar con datos simulados.",
+            "Anotar dudas antes de publicar o aplicar.",
+            "Probar en una version pequena."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: esa conducta elimina control y puede producir errores reales."
         },
         {
           "id": "m6-q4",
-          "question": "Pregunta 4: ¿que conviene hacer al trabajar ",
+          "question": "Cuando conviene pedir ayuda o validar con una fuente externa?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Siempre que haya perdida de equipo, dinero, amenazas, extorsion o acceso no autorizado.",
+            "Nunca, porque el ejercicio es suficiente para cualquier caso.",
+            "Solo despues de borrar la evidencia.",
+            "Cuando el resultado se ve agradable visualmente."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: validar a tiempo evita decisiones inseguras o incompletas."
         },
         {
           "id": "m6-q5",
-          "question": "Pregunta 5: ¿que conviene hacer al trabajar ",
+          "question": "Cual es el entregable minimo del modulo \"Respuesta ante perdida o sospecha\"?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "protocolo personal de emergencia Android",
+            "Un resumen sin prueba.",
+            "Una lista de ideas sueltas.",
+            "Un archivo final sin explicar cambios."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: protocolo personal de emergencia Android deja avance verificable."
         }
-      ],
-      "professionalOutcome": "configurar el telefono con menos riesgo, reconocer permisos peligrosos y recuperar control ante problemas. Entregable sugerido: un checklist de telefono seguro con ajustes, permisos, copias y acciones de emergencia."
+      ]
     }
-  ],
-  "appName": "Android Seguro para Principiantes",
-  "professionalization": {
-    "tier": "curso-bandera-v1.0-beta",
-    "updatedAt": "2026-05-28",
-    "focus": "Profundizacion visible de lecciones, practicas, checklists y casos."
-  },
-  "editorialPolish": {
-    "secondFeaturedBatch": "2026-06-01",
-    "status": "public-facing-copy-polished"
-  }
+  ]
 }

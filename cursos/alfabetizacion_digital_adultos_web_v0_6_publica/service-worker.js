@@ -1,4 +1,4 @@
-const CACHE_NAME = "alfabetizacion-digital-adultos-web-v0-6-publica-cache-v0-6-publica-profesional-nav-v1";
+const CACHE_NAME = "alfabetizacion_digital_adultos_web_v0_6_publica-cache-0.7-tanda-1";
 const APP_SHELL = [
   "./",
   "./index.html",

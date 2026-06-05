@@ -42,7 +42,8 @@
 - [ ] Revisar vista movil.
 - [x] Agregar regreso visible al menu principal en los 50 cursos.
 - [x] Reforzar curso UX/UI Basico como primera muestra de contenido no generico.
-- [ ] Reforzar los 32 cursos detectados con patrones de contenido generico.
+- [x] Reforzar primera tanda de 5 cursos detectados con patrones de contenido generico.
+- [ ] Reforzar los 27 cursos restantes con patrones de contenido generico.
 
 ## Cierre v1.0
 

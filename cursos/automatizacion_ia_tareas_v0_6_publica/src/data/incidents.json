@@ -1,441 +1,441 @@
 {
   "incidents": [
     {
-      "id": "case-1",
-      "title": "Caso inicial controlado: Automatizacion con IA para Tareas Repetitivas",
-      "summary": "Practica aplicada para resolver una situacion de automatizacion responsable de tareas simples con IA, plantillas y revision humana con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en un flujo simple de automatizacion asistida por IA sin exponer datos sensibles y con una decision verificable.",
+      "id": "autoia-case-1",
+      "title": "Prompt que inventa datos de clientes",
+      "summary": "Un borrador agrega informacion que no estaba en la consulta.",
+      "severity": "Practica guiada",
+      "immediateGoal": "Agregar restricciones y revision humana.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir un flujo simple de automatizacion asistida por IA.",
-        "Revisar el resultado contra este criterio: la automatizacion ahorra tiempo sin ocultar errores ni quitar revision humana.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Definir que paso antes de actuar: salida con datos no provistos.",
+        "Separar datos reales de datos simulados y evitar compartir informacion sensible.",
+        "Aplicar el criterio del curso: ajustar prompt para marcar faltantes y prohibir inventar.",
+        "Registrar evidencia: prompt anterior, salida incorrecta y version corregida.",
+        "Decidir la accion minima segura y quien debe validarla si el caso es real.",
+        "Cerrar con una nota breve: resultado, duda pendiente y siguiente control."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "tarea original, frecuencia, plantilla, salida generada, revision y ahorro estimado",
-        "Decision final y motivo"
+        "Consigna o descripcion del caso",
+        "prompt anterior, salida incorrecta y version corregida",
+        "Decision tomada y motivo",
+        "Captura o registro sin datos sensibles",
+        "Proxima accion"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Enviar el texto porque esta bien escrito.",
+        "Usar datos privados en una practica educativa.",
+        "Aplicar una recomendacion sin revisar consecuencias.",
+        "Borrar evidencia antes de entender el problema.",
+        "Confundir ejemplo de practica con solucion definitiva."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Agregar checklist de no inventar datos.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Revisar si el caso se repite y convertirlo en checklist.",
+        "Pedir validacion externa si afecta cuentas, pagos, seguridad o derechos."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Cual es la mejor decision profesional en este caso?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Trabajar en una version controlada, guardar evidencia y validar antes de aplicar a un caso real.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: reduce riesgo y deja aprendizaje reutilizable."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Actuar rapido sin documentar porque el problema parece simple.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La falta de evidencia impide revisar errores y aprender."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Usar datos reales para que el ejercicio sea mas completo.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "En practicas educativas conviene usar datos simulados o anonimizados."
           }
         ]
       }
     },
     {
-      "id": "case-2",
-      "title": "Caso con datos incompletos: Automatizacion con IA para Tareas Repetitivas",
-      "summary": "Practica aplicada para resolver una situacion de automatizacion responsable de tareas simples con IA, plantillas y revision humana con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en un flujo simple de automatizacion asistida por IA sin exponer datos sensibles y con una decision verificable.",
+      "id": "autoia-case-2",
+      "title": "Base real pegada en herramienta no evaluada",
+      "summary": "Se uso una lista con datos personales para probar IA.",
+      "severity": "Practica guiada",
+      "immediateGoal": "Detener exposicion y crear datos simulados.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir un flujo simple de automatizacion asistida por IA.",
-        "Revisar el resultado contra este criterio: la automatizacion ahorra tiempo sin ocultar errores ni quitar revision humana.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Definir que paso antes de actuar: uso de datos sensibles en prueba.",
+        "Separar datos reales de datos simulados y evitar compartir informacion sensible.",
+        "Aplicar el criterio del curso: pausar, documentar, reemplazar con datos ficticios y consultar politica.",
+        "Registrar evidencia: tipo de datos expuestos y herramienta usada.",
+        "Decidir la accion minima segura y quien debe validarla si el caso es real.",
+        "Cerrar con una nota breve: resultado, duda pendiente y siguiente control."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "tarea original, frecuencia, plantilla, salida generada, revision y ahorro estimado",
-        "Decision final y motivo"
+        "Consigna o descripcion del caso",
+        "tipo de datos expuestos y herramienta usada",
+        "Decision tomada y motivo",
+        "Captura o registro sin datos sensibles",
+        "Proxima accion"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Seguir probando porque ya se pego una vez.",
+        "Usar datos privados en una practica educativa.",
+        "Aplicar una recomendacion sin revisar consecuencias.",
+        "Borrar evidencia antes de entender el problema.",
+        "Confundir ejemplo de practica con solucion definitiva."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Crear dataset simulado para practicas.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Revisar si el caso se repite y convertirlo en checklist.",
+        "Pedir validacion externa si afecta cuentas, pagos, seguridad o derechos."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Cual es la mejor decision profesional en este caso?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Trabajar en una version controlada, guardar evidencia y validar antes de aplicar a un caso real.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: reduce riesgo y deja aprendizaje reutilizable."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Actuar rapido sin documentar porque el problema parece simple.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La falta de evidencia impide revisar errores y aprender."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Usar datos reales para que el ejercicio sea mas completo.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "En practicas educativas conviene usar datos simulados o anonimizados."
           }
         ]
       }
     },
     {
-      "id": "case-3",
-      "title": "Caso con presion de tiempo: Automatizacion con IA para Tareas Repetitivas",
-      "summary": "Practica aplicada para resolver una situacion de automatizacion responsable de tareas simples con IA, plantillas y revision humana con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en un flujo simple de automatizacion asistida por IA sin exponer datos sensibles y con una decision verificable.",
+      "id": "autoia-case-3",
+      "title": "Flujo envia correos duplicados",
+      "summary": "Una automatizacion se dispara dos veces por cada fila.",
+      "severity": "Practica guiada",
+      "immediateGoal": "Identificar disparador y cortar repeticion.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir un flujo simple de automatizacion asistida por IA.",
-        "Revisar el resultado contra este criterio: la automatizacion ahorra tiempo sin ocultar errores ni quitar revision humana.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Definir que paso antes de actuar: duplicacion de evento.",
+        "Separar datos reales de datos simulados y evitar compartir informacion sensible.",
+        "Aplicar el criterio del curso: pausar flujo, revisar logs y agregar condicion de enviado.",
+        "Registrar evidencia: hora, filas afectadas y correos enviados.",
+        "Decidir la accion minima segura y quien debe validarla si el caso es real.",
+        "Cerrar con una nota breve: resultado, duda pendiente y siguiente control."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "tarea original, frecuencia, plantilla, salida generada, revision y ahorro estimado",
-        "Decision final y motivo"
+        "Consigna o descripcion del caso",
+        "hora, filas afectadas y correos enviados",
+        "Decision tomada y motivo",
+        "Captura o registro sin datos sensibles",
+        "Proxima accion"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Borrar filas sin entender causa.",
+        "Usar datos privados en una practica educativa.",
+        "Aplicar una recomendacion sin revisar consecuencias.",
+        "Borrar evidencia antes de entender el problema.",
+        "Confundir ejemplo de practica con solucion definitiva."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Agregar prueba de duplicados.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Revisar si el caso se repite y convertirlo en checklist.",
+        "Pedir validacion externa si afecta cuentas, pagos, seguridad o derechos."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Cual es la mejor decision profesional en este caso?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Trabajar en una version controlada, guardar evidencia y validar antes de aplicar a un caso real.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: reduce riesgo y deja aprendizaje reutilizable."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Actuar rapido sin documentar porque el problema parece simple.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La falta de evidencia impide revisar errores y aprender."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Usar datos reales para que el ejercicio sea mas completo.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "En practicas educativas conviene usar datos simulados o anonimizados."
           }
         ]
       }
     },
     {
-      "id": "case-4",
-      "title": "Caso de comunicacion con otra persona: Automatizacion con IA para Tareas Repetitivas",
-      "summary": "Practica aplicada para resolver una situacion de automatizacion responsable de tareas simples con IA, plantillas y revision humana con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en un flujo simple de automatizacion asistida por IA sin exponer datos sensibles y con una decision verificable.",
+      "id": "autoia-case-4",
+      "title": "Resumen de reunion pierde un acuerdo",
+      "summary": "La IA resume pero omite una decision importante.",
+      "severity": "Practica guiada",
+      "immediateGoal": "Mejorar formato de acta y revision.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir un flujo simple de automatizacion asistida por IA.",
-        "Revisar el resultado contra este criterio: la automatizacion ahorra tiempo sin ocultar errores ni quitar revision humana.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Definir que paso antes de actuar: resumen incompleto.",
+        "Separar datos reales de datos simulados y evitar compartir informacion sensible.",
+        "Aplicar el criterio del curso: pedir secciones obligatorias y validar contra notas.",
+        "Registrar evidencia: nota original, resumen y correccion.",
+        "Decidir la accion minima segura y quien debe validarla si el caso es real.",
+        "Cerrar con una nota breve: resultado, duda pendiente y siguiente control."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "tarea original, frecuencia, plantilla, salida generada, revision y ahorro estimado",
-        "Decision final y motivo"
+        "Consigna o descripcion del caso",
+        "nota original, resumen y correccion",
+        "Decision tomada y motivo",
+        "Captura o registro sin datos sensibles",
+        "Proxima accion"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Publicar acta sin revisar con participantes.",
+        "Usar datos privados en una practica educativa.",
+        "Aplicar una recomendacion sin revisar consecuencias.",
+        "Borrar evidencia antes de entender el problema.",
+        "Confundir ejemplo de practica con solucion definitiva."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Usar plantilla de acuerdos y pendientes.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Revisar si el caso se repite y convertirlo en checklist.",
+        "Pedir validacion externa si afecta cuentas, pagos, seguridad o derechos."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Cual es la mejor decision profesional en este caso?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Trabajar en una version controlada, guardar evidencia y validar antes de aplicar a un caso real.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: reduce riesgo y deja aprendizaje reutilizable."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Actuar rapido sin documentar porque el problema parece simple.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La falta de evidencia impide revisar errores y aprender."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Usar datos reales para que el ejercicio sea mas completo.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "En practicas educativas conviene usar datos simulados o anonimizados."
           }
         ]
       }
     },
     {
-      "id": "case-5",
-      "title": "Caso de error frecuente: Automatizacion con IA para Tareas Repetitivas",
-      "summary": "Practica aplicada para resolver una situacion de automatizacion responsable de tareas simples con IA, plantillas y revision humana con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en un flujo simple de automatizacion asistida por IA sin exponer datos sensibles y con una decision verificable.",
+      "id": "autoia-case-5",
+      "title": "Clasificacion automatica sesgada",
+      "summary": "La IA marca como baja prioridad consultas con palabras informales.",
+      "severity": "Practica guiada",
+      "immediateGoal": "Revisar criterio de clasificacion.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir un flujo simple de automatizacion asistida por IA.",
-        "Revisar el resultado contra este criterio: la automatizacion ahorra tiempo sin ocultar errores ni quitar revision humana.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Definir que paso antes de actuar: prioridad mal asignada.",
+        "Separar datos reales de datos simulados y evitar compartir informacion sensible.",
+        "Aplicar el criterio del curso: definir reglas, probar muestra y agregar revision humana.",
+        "Registrar evidencia: casos mal clasificados y regla corregida.",
+        "Decidir la accion minima segura y quien debe validarla si el caso es real.",
+        "Cerrar con una nota breve: resultado, duda pendiente y siguiente control."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "tarea original, frecuencia, plantilla, salida generada, revision y ahorro estimado",
-        "Decision final y motivo"
+        "Consigna o descripcion del caso",
+        "casos mal clasificados y regla corregida",
+        "Decision tomada y motivo",
+        "Captura o registro sin datos sensibles",
+        "Proxima accion"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Confiar en la etiqueta por estar automatizada.",
+        "Usar datos privados en una practica educativa.",
+        "Aplicar una recomendacion sin revisar consecuencias.",
+        "Borrar evidencia antes de entender el problema.",
+        "Confundir ejemplo de practica con solucion definitiva."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Auditar muestras semanalmente.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Revisar si el caso se repite y convertirlo en checklist.",
+        "Pedir validacion externa si afecta cuentas, pagos, seguridad o derechos."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Cual es la mejor decision profesional en este caso?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Trabajar en una version controlada, guardar evidencia y validar antes de aplicar a un caso real.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: reduce riesgo y deja aprendizaje reutilizable."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Actuar rapido sin documentar porque el problema parece simple.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La falta de evidencia impide revisar errores y aprender."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Usar datos reales para que el ejercicio sea mas completo.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "En practicas educativas conviene usar datos simulados o anonimizados."
           }
         ]
       }
     },
     {
-      "id": "case-6",
-      "title": "Caso de mejora de proceso: Automatizacion con IA para Tareas Repetitivas",
-      "summary": "Practica aplicada para resolver una situacion de automatizacion responsable de tareas simples con IA, plantillas y revision humana con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en un flujo simple de automatizacion asistida por IA sin exponer datos sensibles y con una decision verificable.",
+      "id": "autoia-case-6",
+      "title": "Cuenta personal sostiene flujo de trabajo",
+      "summary": "Si una persona se va, la automatizacion queda inaccesible.",
+      "severity": "Practica guiada",
+      "immediateGoal": "Pasar a cuenta y documentacion controlada.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir un flujo simple de automatizacion asistida por IA.",
-        "Revisar el resultado contra este criterio: la automatizacion ahorra tiempo sin ocultar errores ni quitar revision humana.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Definir que paso antes de actuar: flujo creado con cuenta personal.",
+        "Separar datos reales de datos simulados y evitar compartir informacion sensible.",
+        "Aplicar el criterio del curso: registrar dueno, permisos y migracion segura.",
+        "Registrar evidencia: cuenta usada, permisos y dependencias.",
+        "Decidir la accion minima segura y quien debe validarla si el caso es real.",
+        "Cerrar con una nota breve: resultado, duda pendiente y siguiente control."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "tarea original, frecuencia, plantilla, salida generada, revision y ahorro estimado",
-        "Decision final y motivo"
+        "Consigna o descripcion del caso",
+        "cuenta usada, permisos y dependencias",
+        "Decision tomada y motivo",
+        "Captura o registro sin datos sensibles",
+        "Proxima accion"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Compartir clave de la cuenta personal.",
+        "Usar datos privados en una practica educativa.",
+        "Aplicar una recomendacion sin revisar consecuencias.",
+        "Borrar evidencia antes de entender el problema.",
+        "Confundir ejemplo de practica con solucion definitiva."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Usar cuentas institucionales o compartidas seguras.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Revisar si el caso se repite y convertirlo en checklist.",
+        "Pedir validacion externa si afecta cuentas, pagos, seguridad o derechos."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Cual es la mejor decision profesional en este caso?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Trabajar en una version controlada, guardar evidencia y validar antes de aplicar a un caso real.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: reduce riesgo y deja aprendizaje reutilizable."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Actuar rapido sin documentar porque el problema parece simple.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La falta de evidencia impide revisar errores y aprender."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Usar datos reales para que el ejercicio sea mas completo.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "En practicas educativas conviene usar datos simulados o anonimizados."
           }
         ]
       }
     },
     {
-      "id": "case-7",
-      "title": "Caso de decision responsable: Automatizacion con IA para Tareas Repetitivas",
-      "summary": "Practica aplicada para resolver una situacion de automatizacion responsable de tareas simples con IA, plantillas y revision humana con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en un flujo simple de automatizacion asistida por IA sin exponer datos sensibles y con una decision verificable.",
+      "id": "autoia-case-7",
+      "title": "Respuesta automatica promete descuento",
+      "summary": "Un flujo responde a reclamos con una promesa no autorizada.",
+      "severity": "Practica guiada",
+      "immediateGoal": "Agregar aprobacion humana en casos comerciales.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir un flujo simple de automatizacion asistida por IA.",
-        "Revisar el resultado contra este criterio: la automatizacion ahorra tiempo sin ocultar errores ni quitar revision humana.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Definir que paso antes de actuar: texto automatizado con compromiso.",
+        "Separar datos reales de datos simulados y evitar compartir informacion sensible.",
+        "Aplicar el criterio del curso: pausar envio automatico y convertir en borrador revisable.",
+        "Registrar evidencia: mensaje enviado y condicion que lo genero.",
+        "Decidir la accion minima segura y quien debe validarla si el caso es real.",
+        "Cerrar con una nota breve: resultado, duda pendiente y siguiente control."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "tarea original, frecuencia, plantilla, salida generada, revision y ahorro estimado",
-        "Decision final y motivo"
+        "Consigna o descripcion del caso",
+        "mensaje enviado y condicion que lo genero",
+        "Decision tomada y motivo",
+        "Captura o registro sin datos sensibles",
+        "Proxima accion"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Dejar activo para ahorrar tiempo.",
+        "Usar datos privados en una practica educativa.",
+        "Aplicar una recomendacion sin revisar consecuencias.",
+        "Borrar evidencia antes de entender el problema.",
+        "Confundir ejemplo de practica con solucion definitiva."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Separar respuestas informativas de decisiones comerciales.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Revisar si el caso se repite y convertirlo en checklist.",
+        "Pedir validacion externa si afecta cuentas, pagos, seguridad o derechos."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Cual es la mejor decision profesional en este caso?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Trabajar en una version controlada, guardar evidencia y validar antes de aplicar a un caso real.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: reduce riesgo y deja aprendizaje reutilizable."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Actuar rapido sin documentar porque el problema parece simple.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La falta de evidencia impide revisar errores y aprender."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Usar datos reales para que el ejercicio sea mas completo.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "En practicas educativas conviene usar datos simulados o anonimizados."
           }
         ]
       }
     },
     {
-      "id": "case-8",
-      "title": "Proyecto final integrador: Automatizacion con IA para Tareas Repetitivas",
-      "summary": "Practica aplicada para resolver una situacion de automatizacion responsable de tareas simples con IA, plantillas y revision humana con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Proyecto final",
-      "immediateGoal": "Transformar el caso en un flujo simple de automatizacion asistida por IA sin exponer datos sensibles y con una decision verificable.",
+      "id": "autoia-case-8",
+      "title": "Automatizacion sin metrica real",
+      "summary": "El equipo cree ahorrar tiempo pero hay mas retrabajo.",
+      "severity": "Practica guiada",
+      "immediateGoal": "Medir antes/despues y decidir continuidad.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir un flujo simple de automatizacion asistida por IA.",
-        "Revisar el resultado contra este criterio: la automatizacion ahorra tiempo sin ocultar errores ni quitar revision humana.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Definir que paso antes de actuar: aumento de correcciones manuales.",
+        "Separar datos reales de datos simulados y evitar compartir informacion sensible.",
+        "Aplicar el criterio del curso: medir tiempo, errores y satisfaccion por dos semanas.",
+        "Registrar evidencia: datos antes/despues y decision.",
+        "Decidir la accion minima segura y quien debe validarla si el caso es real.",
+        "Cerrar con una nota breve: resultado, duda pendiente y siguiente control."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "tarea original, frecuencia, plantilla, salida generada, revision y ahorro estimado",
-        "Decision final y motivo"
+        "Consigna o descripcion del caso",
+        "datos antes/despues y decision",
+        "Decision tomada y motivo",
+        "Captura o registro sin datos sensibles",
+        "Proxima accion"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Mantener por orgullo tecnico.",
+        "Usar datos privados en una practica educativa.",
+        "Aplicar una recomendacion sin revisar consecuencias.",
+        "Borrar evidencia antes de entender el problema.",
+        "Confundir ejemplo de practica con solucion definitiva."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Retirar o redisenar flujos sin valor.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Revisar si el caso se repite y convertirlo en checklist.",
+        "Pedir validacion externa si afecta cuentas, pagos, seguridad o derechos."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Cual es la mejor decision profesional en este caso?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Trabajar en una version controlada, guardar evidencia y validar antes de aplicar a un caso real.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: reduce riesgo y deja aprendizaje reutilizable."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Actuar rapido sin documentar porque el problema parece simple.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La falta de evidencia impide revisar errores y aprender."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Usar datos reales para que el ejercicio sea mas completo.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "En practicas educativas conviene usar datos simulados o anonimizados."
           }
         ]
       }
