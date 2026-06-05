@@ -1,1056 +1,1040 @@
 {
   "courseId": "javascript_desde_cero",
   "title": "JavaScript desde Cero",
-  "version": "0.6-publica",
+  "version": "0.7-tanda-3",
+  "publicationStatus": "publica-profesional-v0.7-tanda-3",
   "modules": [
     {
-      "id": "mod-1",
-      "title": "Qué es JavaScript y para qué sirve",
-      "description": "En este módulo vas a trabajar \"Qué es JavaScript y para qué sirve\" dentro de desarrollo web inicial con prácticas pequeñas, consola y código verificable. El objetivo es practicar con situaciones concretas, entender qué decisión mejora y cerrar con una evidencia simple.",
-      "icon": "JS",
+      "id": "m1",
+      "title": "Modelo mental de JavaScript",
+      "description": "Entender donde corre JavaScript, que modifica y como se conecta con HTML/CSS.",
+      "learningRisk": "Practicar sin evidencia puede dejar errores invisibles o decisiones dificiles de sostener.",
       "lessons": [
         {
-          "id": "mod-1-lesson-1",
-          "title": "Qué problema resuelve JavaScript",
-          "keyIdea": "Idea clave: Qué problema resuelve JavaScript sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Qué problema resuelve JavaScript\" dentro del módulo \"Qué es JavaScript y para qué sirve\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona está creando una página sencilla y necesita agregar interacción, validar datos o entender un error de consola. Aplicá \"Qué problema resuelve JavaScript\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un fragmento de código probado, una captura o nota del error corregido y una mejora pendiente.",
-          "alert": "No pegar codigo desconocido en proyectos importantes sin probarlo en un archivo aislado.",
+          "id": "m1-l1",
+          "title": "HTML, CSS y JS",
+          "keyIdea": "HTML, CSS y JS sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja html, css y js dentro de modelo mental de javascript. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Una pagina estatica necesita botones, formularios, listas, filtros y mensajes de error que respondan al usuario. Aplica html, css y js sobre ese escenario, guarda diagrama de pagina, script, datos y resultado visible y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de html, css y js, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "JavaScript mejora la pagina, pero tambien puede romperla si no se prueba.",
           "keyPoints": [
-            "Qué problema resuelve JavaScript debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: un fragmento de código probado, una captura o nota del error corregido y una mejora pendiente.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "HTML, CSS y JS debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: la persona explica que parte cambia JS y que parte no.",
+            "Evidencia minima: diagrama de pagina, script, datos y resultado visible.",
+            "Entregable final relacionado: mini app web con entrada de datos, validacion, estado, renderizado y pruebas manuales."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
-          "id": "mod-1-lesson-2",
-          "title": "HTML, CSS y JavaScript trabajando juntos",
-          "keyIdea": "Idea clave: HTML, CSS y JavaScript trabajando juntos sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"HTML, CSS y JavaScript trabajando juntos\" dentro del módulo \"Qué es JavaScript y para qué sirve\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona está creando una página sencilla y necesita agregar interacción, validar datos o entender un error de consola. Aplicá \"HTML, CSS y JavaScript trabajando juntos\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un fragmento de código probado, una captura o nota del error corregido y una mejora pendiente.",
-          "alert": "No pegar codigo desconocido en proyectos importantes sin probarlo en un archivo aislado.",
+          "id": "m1-l2",
+          "title": "Consola del navegador",
+          "keyIdea": "Consola del navegador sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja consola del navegador dentro de modelo mental de javascript. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Una pagina estatica necesita botones, formularios, listas, filtros y mensajes de error que respondan al usuario. Aplica consola del navegador sobre ese escenario, guarda diagrama de pagina, script, datos y resultado visible y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de consola del navegador, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "JavaScript mejora la pagina, pero tambien puede romperla si no se prueba.",
           "keyPoints": [
-            "HTML, CSS y JavaScript trabajando juntos debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: un fragmento de código probado, una captura o nota del error corregido y una mejora pendiente.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Consola del navegador debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: la persona explica que parte cambia JS y que parte no.",
+            "Evidencia minima: diagrama de pagina, script, datos y resultado visible.",
+            "Entregable final relacionado: mini app web con entrada de datos, validacion, estado, renderizado y pruebas manuales."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
-          "id": "mod-1-lesson-3",
-          "title": "Dónde se escribe JavaScript",
-          "keyIdea": "Idea clave: Dónde se escribe JavaScript sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Dónde se escribe JavaScript\" dentro del módulo \"Qué es JavaScript y para qué sirve\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona está creando una página sencilla y necesita agregar interacción, validar datos o entender un error de consola. Aplicá \"Dónde se escribe JavaScript\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un fragmento de código probado, una captura o nota del error corregido y una mejora pendiente.",
-          "alert": "No pegar codigo desconocido en proyectos importantes sin probarlo en un archivo aislado.",
+          "id": "m1-l3",
+          "title": "Variables y tipos",
+          "keyIdea": "Variables y tipos sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja variables y tipos dentro de modelo mental de javascript. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Una pagina estatica necesita botones, formularios, listas, filtros y mensajes de error que respondan al usuario. Aplica variables y tipos sobre ese escenario, guarda diagrama de pagina, script, datos y resultado visible y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de variables y tipos, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "JavaScript mejora la pagina, pero tambien puede romperla si no se prueba.",
           "keyPoints": [
-            "Dónde se escribe JavaScript debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: un fragmento de código probado, una captura o nota del error corregido y una mejora pendiente.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Variables y tipos debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: la persona explica que parte cambia JS y que parte no.",
+            "Evidencia minima: diagrama de pagina, script, datos y resultado visible.",
+            "Entregable final relacionado: mini app web con entrada de datos, validacion, estado, renderizado y pruebas manuales."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
-          "id": "mod-1-lesson-4",
-          "title": "La consola del navegador",
-          "keyIdea": "Idea clave: La consola del navegador sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"La consola del navegador\" dentro del módulo \"Qué es JavaScript y para qué sirve\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona está creando una página sencilla y necesita agregar interacción, validar datos o entender un error de consola. Aplicá \"La consola del navegador\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un fragmento de código probado, una captura o nota del error corregido y una mejora pendiente.",
-          "alert": "No pegar codigo desconocido en proyectos importantes sin probarlo en un archivo aislado.",
+          "id": "m1-l4",
+          "title": "Funciones",
+          "keyIdea": "Funciones sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja funciones dentro de modelo mental de javascript. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Una pagina estatica necesita botones, formularios, listas, filtros y mensajes de error que respondan al usuario. Aplica funciones sobre ese escenario, guarda diagrama de pagina, script, datos y resultado visible y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de funciones, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "JavaScript mejora la pagina, pero tambien puede romperla si no se prueba.",
           "keyPoints": [
-            "La consola del navegador debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: un fragmento de código probado, una captura o nota del error corregido y una mejora pendiente.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Funciones debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: la persona explica que parte cambia JS y que parte no.",
+            "Evidencia minima: diagrama de pagina, script, datos y resultado visible.",
+            "Entregable final relacionado: mini app web con entrada de datos, validacion, estado, renderizado y pruebas manuales."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
-          "id": "mod-1-lesson-5",
-          "title": "Errores comunes al empezar",
-          "keyIdea": "Idea clave: Errores comunes al empezar sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Errores comunes al empezar\" dentro del módulo \"Qué es JavaScript y para qué sirve\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona está creando una página sencilla y necesita agregar interacción, validar datos o entender un error de consola. Aplicá \"Errores comunes al empezar\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un fragmento de código probado, una captura o nota del error corregido y una mejora pendiente.",
-          "alert": "No pegar codigo desconocido en proyectos importantes sin probarlo en un archivo aislado.",
+          "id": "m1-l5",
+          "title": "Orden de ejecucion",
+          "keyIdea": "Orden de ejecucion sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja orden de ejecucion dentro de modelo mental de javascript. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Una pagina estatica necesita botones, formularios, listas, filtros y mensajes de error que respondan al usuario. Aplica orden de ejecucion sobre ese escenario, guarda diagrama de pagina, script, datos y resultado visible y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de orden de ejecucion, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "JavaScript mejora la pagina, pero tambien puede romperla si no se prueba.",
           "keyPoints": [
-            "Errores comunes al empezar debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: un fragmento de código probado, una captura o nota del error corregido y una mejora pendiente.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Orden de ejecucion debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: la persona explica que parte cambia JS y que parte no.",
+            "Evidencia minima: diagrama de pagina, script, datos y resultado visible.",
+            "Entregable final relacionado: mini app web con entrada de datos, validacion, estado, renderizado y pruebas manuales."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
-          "id": "mod-1-lesson-6",
-          "title": "Primer script: mostrar un mensaje",
-          "keyIdea": "Idea clave: Primer script: mostrar un mensaje sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Primer script: mostrar un mensaje\" dentro del módulo \"Qué es JavaScript y para qué sirve\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona está creando una página sencilla y necesita agregar interacción, validar datos o entender un error de consola. Aplicá \"Primer script: mostrar un mensaje\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un fragmento de código probado, una captura o nota del error corregido y una mejora pendiente.",
-          "alert": "No pegar codigo desconocido en proyectos importantes sin probarlo en un archivo aislado.",
+          "id": "m1-l6",
+          "title": "Errores iniciales",
+          "keyIdea": "Errores iniciales sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja errores iniciales dentro de modelo mental de javascript. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Una pagina estatica necesita botones, formularios, listas, filtros y mensajes de error que respondan al usuario. Aplica errores iniciales sobre ese escenario, guarda diagrama de pagina, script, datos y resultado visible y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de errores iniciales, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "JavaScript mejora la pagina, pero tambien puede romperla si no se prueba.",
           "keyPoints": [
-            "Primer script: mostrar un mensaje debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: un fragmento de código probado, una captura o nota del error corregido y una mejora pendiente.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Errores iniciales debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: la persona explica que parte cambia JS y que parte no.",
+            "Evidencia minima: diagrama de pagina, script, datos y resultado visible.",
+            "Entregable final relacionado: mini app web con entrada de datos, validacion, estado, renderizado y pruebas manuales."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         }
       ],
       "quiz": [
         {
-          "id": "mod-1-q-1",
-          "question": "¿Cuál es una buena práctica al trabajar con este tema?",
+          "id": "m1-q1",
+          "question": "Que conviene definir primero en \"Modelo mental de JavaScript\"?",
           "options": [
-            "Probar ejemplos pequeños y entenderlos",
-            "Escribir todo en una sola línea",
-            "Evitar la consola",
-            "No revisar errores"
+            "Objetivo, entrada, salida esperada y evidencia de prueba.",
+            "La herramienta mas vistosa disponible.",
+            "Un resultado final sin pasos intermedios.",
+            "Una respuesta rapida sin revisar contexto."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: en JavaScript conviene avanzar con ejemplos claros, pruebas pequeñas y revisión de errores."
+          "feedback": "Correcto: el trabajo mejora cuando se sabe que entra, que sale y como se comprueba."
         },
         {
-          "id": "mod-1-q-2",
-          "question": "¿Qué herramienta del navegador ayuda a revisar errores de JavaScript?",
+          "id": "m1-q2",
+          "question": "Que evidencia permite cerrar el modulo con mas confianza?",
           "options": [
-            "La consola del navegador",
-            "El bloc de notas únicamente",
-            "La papelera",
-            "El historial de descargas"
+            "diagrama de pagina, script, datos y resultado visible",
+            "Un comentario general sin prueba.",
+            "Una captura sin explicar que se valido.",
+            "Una herramienta abierta en pantalla."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: en JavaScript conviene avanzar con ejemplos claros, pruebas pequeñas y revisión de errores."
+          "feedback": "Correcto: diagrama de pagina, script, datos y resultado visible permite revisar y mantener el resultado."
         },
         {
-          "id": "mod-1-q-3",
-          "question": "¿Qué conviene hacer antes de copiar código en un proyecto importante?",
+          "id": "m1-q3",
+          "question": "Que conducta aumenta la probabilidad de error?",
           "options": [
-            "Entenderlo y probarlo primero",
-            "Pegar sin mirar",
-            "Eliminar HTML",
-            "Cambiar archivos al azar"
+            "Copiar scripts sin saber que elemento modifican.",
+            "Usar datos de prueba antes de aplicar a un caso real.",
+            "Separar errores de funcionamiento y errores de interpretacion.",
+            "Guardar supuestos y decisiones."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: en JavaScript conviene avanzar con ejemplos claros, pruebas pequeñas y revisión de errores."
+          "feedback": "Correcto: esa conducta oculta problemas y dificulta corregirlos."
         },
         {
-          "id": "mod-1-q-4",
-          "question": "¿Qué relación tiene JavaScript con HTML y CSS?",
+          "id": "m1-q4",
+          "question": "Cuando corresponde pedir validacion externa o revisar una fuente confiable?",
           "options": [
-            "Agrega lógica e interacción",
-            "Reemplaza siempre a HTML",
-            "Solo sirve para imágenes",
-            "No se usa en navegador"
+            "Cuando el codigo manipula datos personales, pagos o acciones irreversibles.",
+            "Nunca, porque la practica educativa reemplaza cualquier revision.",
+            "Solo cuando el resultado se ve mal.",
+            "Despues de publicar sin pruebas."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: en JavaScript conviene avanzar con ejemplos claros, pruebas pequeñas y revisión de errores."
+          "feedback": "Correcto: algunas decisiones requieren soporte, fuente oficial o una persona competente."
         },
         {
-          "id": "mod-1-q-5",
-          "question": "¿Por qué es útil dividir problemas en pasos pequeños?",
+          "id": "m1-q5",
+          "question": "Cual es el entregable minimo de \"Modelo mental de JavaScript\"?",
           "options": [
-            "Porque facilita detectar errores",
-            "Porque hace innecesaria la práctica",
-            "Porque evita aprender sintaxis",
-            "Porque impide probar"
+            "mapa de funcionamiento de una pagina interactiva",
+            "Una lista de ideas sin evidencia.",
+            "Una copia de pantalla sin explicacion.",
+            "Un archivo final sin criterio de cierre."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: en JavaScript conviene avanzar con ejemplos claros, pruebas pequeñas y revisión de errores."
+          "feedback": "Correcto: mapa de funcionamiento de una pagina interactiva deja avance verificable."
         }
-      ],
-      "professionalOutcome": "construir interacciones simples, leer errores y mejorar una pagina paso a paso. Entregable sugerido: un ejemplo funcionando con una mejora propia y una nota sobre el error aprendido."
+      ]
     },
     {
-      "id": "mod-2",
-      "title": "Variables, tipos de datos y operaciones",
-      "description": "En este módulo vas a trabajar \"Variables, tipos de datos y operaciones\" dentro de desarrollo web inicial con prácticas pequeñas, consola y código verificable. El objetivo es practicar con situaciones concretas, entender qué decisión mejora y cerrar con una evidencia simple.",
-      "icon": "JS",
+      "id": "m2",
+      "title": "DOM y eventos",
+      "description": "Seleccionar elementos, escuchar acciones y actualizar pantalla.",
+      "learningRisk": "Practicar sin evidencia puede dejar errores invisibles o decisiones dificiles de sostener.",
       "lessons": [
         {
-          "id": "mod-2-lesson-1",
-          "title": "Variables con let y const",
-          "keyIdea": "Idea clave: Variables con let y const sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Variables con let y const\" dentro del módulo \"Variables, tipos de datos y operaciones\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona está creando una página sencilla y necesita agregar interacción, validar datos o entender un error de consola. Aplicá \"Variables con let y const\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un fragmento de código probado, una captura o nota del error corregido y una mejora pendiente.",
-          "alert": "No pegar codigo desconocido en proyectos importantes sin probarlo en un archivo aislado.",
-          "keyPoints": [
-            "Variables con let y const debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: un fragmento de código probado, una captura o nota del error corregido y una mejora pendiente.",
-            "El criterio de calidad debe poder revisarse por otra persona."
-          ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
-        },
-        {
-          "id": "mod-2-lesson-2",
-          "title": "Textos, números y booleanos",
-          "keyIdea": "Idea clave: Textos, números y booleanos sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Textos, números y booleanos\" dentro del módulo \"Variables, tipos de datos y operaciones\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona está creando una página sencilla y necesita agregar interacción, validar datos o entender un error de consola. Aplicá \"Textos, números y booleanos\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un fragmento de código probado, una captura o nota del error corregido y una mejora pendiente.",
-          "alert": "No pegar codigo desconocido en proyectos importantes sin probarlo en un archivo aislado.",
-          "keyPoints": [
-            "Textos, números y booleanos debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: un fragmento de código probado, una captura o nota del error corregido y una mejora pendiente.",
-            "El criterio de calidad debe poder revisarse por otra persona."
-          ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
-        },
-        {
-          "id": "mod-2-lesson-3",
-          "title": "Operaciones básicas",
-          "keyIdea": "Idea clave: Operaciones básicas sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Operaciones básicas\" dentro del módulo \"Variables, tipos de datos y operaciones\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona está creando una página sencilla y necesita agregar interacción, validar datos o entender un error de consola. Aplicá \"Operaciones básicas\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un fragmento de código probado, una captura o nota del error corregido y una mejora pendiente.",
-          "alert": "No pegar codigo desconocido en proyectos importantes sin probarlo en un archivo aislado.",
-          "keyPoints": [
-            "Operaciones básicas debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: un fragmento de código probado, una captura o nota del error corregido y una mejora pendiente.",
-            "El criterio de calidad debe poder revisarse por otra persona."
-          ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
-        },
-        {
-          "id": "mod-2-lesson-4",
-          "title": "Concatenación y plantillas de texto",
-          "keyIdea": "Idea clave: Concatenación y plantillas de texto sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Concatenación y plantillas de texto\" dentro del módulo \"Variables, tipos de datos y operaciones\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona está creando una página sencilla y necesita agregar interacción, validar datos o entender un error de consola. Aplicá \"Concatenación y plantillas de texto\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un fragmento de código probado, una captura o nota del error corregido y una mejora pendiente.",
-          "alert": "No pegar codigo desconocido en proyectos importantes sin probarlo en un archivo aislado.",
-          "keyPoints": [
-            "Concatenación y plantillas de texto debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: un fragmento de código probado, una captura o nota del error corregido y una mejora pendiente.",
-            "El criterio de calidad debe poder revisarse por otra persona."
-          ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
-        },
-        {
-          "id": "mod-2-lesson-5",
-          "title": "Arrays simples",
-          "keyIdea": "Idea clave: Arrays simples sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Arrays simples\" dentro del módulo \"Variables, tipos de datos y operaciones\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona está creando una página sencilla y necesita agregar interacción, validar datos o entender un error de consola. Aplicá \"Arrays simples\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un fragmento de código probado, una captura o nota del error corregido y una mejora pendiente.",
-          "alert": "No pegar codigo desconocido en proyectos importantes sin probarlo en un archivo aislado.",
-          "keyPoints": [
-            "Arrays simples debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: un fragmento de código probado, una captura o nota del error corregido y una mejora pendiente.",
-            "El criterio de calidad debe poder revisarse por otra persona."
-          ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
-        },
-        {
-          "id": "mod-2-lesson-6",
-          "title": "Objetos simples",
-          "keyIdea": "Idea clave: Objetos simples sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Objetos simples\" dentro del módulo \"Variables, tipos de datos y operaciones\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona está creando una página sencilla y necesita agregar interacción, validar datos o entender un error de consola. Aplicá \"Objetos simples\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un fragmento de código probado, una captura o nota del error corregido y una mejora pendiente.",
-          "alert": "No pegar codigo desconocido en proyectos importantes sin probarlo en un archivo aislado.",
-          "keyPoints": [
-            "Objetos simples debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: un fragmento de código probado, una captura o nota del error corregido y una mejora pendiente.",
-            "El criterio de calidad debe poder revisarse por otra persona."
-          ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
-        }
-      ],
-      "quiz": [
-        {
-          "id": "mod-2-q-1",
-          "question": "¿Cuál es una buena práctica al trabajar con este tema?",
-          "options": [
-            "Probar ejemplos pequeños y entenderlos",
-            "Escribir todo en una sola línea",
-            "Evitar la consola",
-            "No revisar errores"
-          ],
-          "correctAnswerIndex": 0,
-          "feedback": "Correcto: en JavaScript conviene avanzar con ejemplos claros, pruebas pequeñas y revisión de errores."
-        },
-        {
-          "id": "mod-2-q-2",
-          "question": "¿Qué herramienta del navegador ayuda a revisar errores de JavaScript?",
-          "options": [
-            "La consola del navegador",
-            "El bloc de notas únicamente",
-            "La papelera",
-            "El historial de descargas"
-          ],
-          "correctAnswerIndex": 0,
-          "feedback": "Correcto: en JavaScript conviene avanzar con ejemplos claros, pruebas pequeñas y revisión de errores."
-        },
-        {
-          "id": "mod-2-q-3",
-          "question": "¿Qué conviene hacer antes de copiar código en un proyecto importante?",
-          "options": [
-            "Entenderlo y probarlo primero",
-            "Pegar sin mirar",
-            "Eliminar HTML",
-            "Cambiar archivos al azar"
-          ],
-          "correctAnswerIndex": 0,
-          "feedback": "Correcto: en JavaScript conviene avanzar con ejemplos claros, pruebas pequeñas y revisión de errores."
-        },
-        {
-          "id": "mod-2-q-4",
-          "question": "¿Qué relación tiene JavaScript con HTML y CSS?",
-          "options": [
-            "Agrega lógica e interacción",
-            "Reemplaza siempre a HTML",
-            "Solo sirve para imágenes",
-            "No se usa en navegador"
-          ],
-          "correctAnswerIndex": 0,
-          "feedback": "Correcto: en JavaScript conviene avanzar con ejemplos claros, pruebas pequeñas y revisión de errores."
-        },
-        {
-          "id": "mod-2-q-5",
-          "question": "¿Por qué es útil dividir problemas en pasos pequeños?",
-          "options": [
-            "Porque facilita detectar errores",
-            "Porque hace innecesaria la práctica",
-            "Porque evita aprender sintaxis",
-            "Porque impide probar"
-          ],
-          "correctAnswerIndex": 0,
-          "feedback": "Correcto: en JavaScript conviene avanzar con ejemplos claros, pruebas pequeñas y revisión de errores."
-        }
-      ],
-      "professionalOutcome": "construir interacciones simples, leer errores y mejorar una pagina paso a paso. Entregable sugerido: un ejemplo funcionando con una mejora propia y una nota sobre el error aprendido."
-    },
-    {
-      "id": "mod-3",
-      "title": "Condicionales y decisiones",
-      "description": "En este módulo vas a trabajar \"Condicionales y decisiones\" dentro de desarrollo web inicial con prácticas pequeñas, consola y código verificable. El objetivo es practicar con situaciones concretas, entender qué decisión mejora y cerrar con una evidencia simple.",
-      "icon": "JS",
-      "lessons": [
-        {
-          "id": "mod-3-lesson-1",
-          "title": "Comparaciones básicas",
-          "keyIdea": "Idea clave: Comparaciones básicas sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Comparaciones básicas\" dentro del módulo \"Condicionales y decisiones\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona está creando una página sencilla y necesita agregar interacción, validar datos o entender un error de consola. Aplicá \"Comparaciones básicas\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un fragmento de código probado, una captura o nota del error corregido y una mejora pendiente.",
-          "alert": "No pegar codigo desconocido en proyectos importantes sin probarlo en un archivo aislado.",
-          "keyPoints": [
-            "Comparaciones básicas debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: un fragmento de código probado, una captura o nota del error corregido y una mejora pendiente.",
-            "El criterio de calidad debe poder revisarse por otra persona."
-          ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
-        },
-        {
-          "id": "mod-3-lesson-2",
-          "title": "if y else",
-          "keyIdea": "Idea clave: if y else sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"if y else\" dentro del módulo \"Condicionales y decisiones\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona está creando una página sencilla y necesita agregar interacción, validar datos o entender un error de consola. Aplicá \"if y else\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un fragmento de código probado, una captura o nota del error corregido y una mejora pendiente.",
-          "alert": "No pegar codigo desconocido en proyectos importantes sin probarlo en un archivo aislado.",
-          "keyPoints": [
-            "if y else debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: un fragmento de código probado, una captura o nota del error corregido y una mejora pendiente.",
-            "El criterio de calidad debe poder revisarse por otra persona."
-          ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
-        },
-        {
-          "id": "mod-3-lesson-3",
-          "title": "else if",
-          "keyIdea": "Idea clave: else if sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"else if\" dentro del módulo \"Condicionales y decisiones\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona está creando una página sencilla y necesita agregar interacción, validar datos o entender un error de consola. Aplicá \"else if\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un fragmento de código probado, una captura o nota del error corregido y una mejora pendiente.",
-          "alert": "No pegar codigo desconocido en proyectos importantes sin probarlo en un archivo aislado.",
-          "keyPoints": [
-            "else if debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: un fragmento de código probado, una captura o nota del error corregido y una mejora pendiente.",
-            "El criterio de calidad debe poder revisarse por otra persona."
-          ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
-        },
-        {
-          "id": "mod-3-lesson-4",
-          "title": "Operadores lógicos",
-          "keyIdea": "Idea clave: Operadores lógicos sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Operadores lógicos\" dentro del módulo \"Condicionales y decisiones\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona está creando una página sencilla y necesita agregar interacción, validar datos o entender un error de consola. Aplicá \"Operadores lógicos\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un fragmento de código probado, una captura o nota del error corregido y una mejora pendiente.",
-          "alert": "No pegar codigo desconocido en proyectos importantes sin probarlo en un archivo aislado.",
-          "keyPoints": [
-            "Operadores lógicos debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: un fragmento de código probado, una captura o nota del error corregido y una mejora pendiente.",
-            "El criterio de calidad debe poder revisarse por otra persona."
-          ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
-        },
-        {
-          "id": "mod-3-lesson-5",
-          "title": "Validar una condición del usuario",
-          "keyIdea": "Idea clave: Validar una condición del usuario sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Validar una condición del usuario\" dentro del módulo \"Condicionales y decisiones\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona está creando una página sencilla y necesita agregar interacción, validar datos o entender un error de consola. Aplicá \"Validar una condición del usuario\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un fragmento de código probado, una captura o nota del error corregido y una mejora pendiente.",
-          "alert": "No pegar codigo desconocido en proyectos importantes sin probarlo en un archivo aislado.",
-          "keyPoints": [
-            "Validar una condición del usuario debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: un fragmento de código probado, una captura o nota del error corregido y una mejora pendiente.",
-            "El criterio de calidad debe poder revisarse por otra persona."
-          ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
-        },
-        {
-          "id": "mod-3-lesson-6",
-          "title": "Errores comunes en condiciones",
-          "keyIdea": "Idea clave: Errores comunes en condiciones sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Errores comunes en condiciones\" dentro del módulo \"Condicionales y decisiones\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona está creando una página sencilla y necesita agregar interacción, validar datos o entender un error de consola. Aplicá \"Errores comunes en condiciones\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un fragmento de código probado, una captura o nota del error corregido y una mejora pendiente.",
-          "alert": "No pegar codigo desconocido en proyectos importantes sin probarlo en un archivo aislado.",
-          "keyPoints": [
-            "Errores comunes en condiciones debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: un fragmento de código probado, una captura o nota del error corregido y una mejora pendiente.",
-            "El criterio de calidad debe poder revisarse por otra persona."
-          ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
-        }
-      ],
-      "quiz": [
-        {
-          "id": "mod-3-q-1",
-          "question": "¿Cuál es una buena práctica al trabajar con este tema?",
-          "options": [
-            "Probar ejemplos pequeños y entenderlos",
-            "Escribir todo en una sola línea",
-            "Evitar la consola",
-            "No revisar errores"
-          ],
-          "correctAnswerIndex": 0,
-          "feedback": "Correcto: en JavaScript conviene avanzar con ejemplos claros, pruebas pequeñas y revisión de errores."
-        },
-        {
-          "id": "mod-3-q-2",
-          "question": "¿Qué herramienta del navegador ayuda a revisar errores de JavaScript?",
-          "options": [
-            "La consola del navegador",
-            "El bloc de notas únicamente",
-            "La papelera",
-            "El historial de descargas"
-          ],
-          "correctAnswerIndex": 0,
-          "feedback": "Correcto: en JavaScript conviene avanzar con ejemplos claros, pruebas pequeñas y revisión de errores."
-        },
-        {
-          "id": "mod-3-q-3",
-          "question": "¿Qué conviene hacer antes de copiar código en un proyecto importante?",
-          "options": [
-            "Entenderlo y probarlo primero",
-            "Pegar sin mirar",
-            "Eliminar HTML",
-            "Cambiar archivos al azar"
-          ],
-          "correctAnswerIndex": 0,
-          "feedback": "Correcto: en JavaScript conviene avanzar con ejemplos claros, pruebas pequeñas y revisión de errores."
-        },
-        {
-          "id": "mod-3-q-4",
-          "question": "¿Qué relación tiene JavaScript con HTML y CSS?",
-          "options": [
-            "Agrega lógica e interacción",
-            "Reemplaza siempre a HTML",
-            "Solo sirve para imágenes",
-            "No se usa en navegador"
-          ],
-          "correctAnswerIndex": 0,
-          "feedback": "Correcto: en JavaScript conviene avanzar con ejemplos claros, pruebas pequeñas y revisión de errores."
-        },
-        {
-          "id": "mod-3-q-5",
-          "question": "¿Por qué es útil dividir problemas en pasos pequeños?",
-          "options": [
-            "Porque facilita detectar errores",
-            "Porque hace innecesaria la práctica",
-            "Porque evita aprender sintaxis",
-            "Porque impide probar"
-          ],
-          "correctAnswerIndex": 0,
-          "feedback": "Correcto: en JavaScript conviene avanzar con ejemplos claros, pruebas pequeñas y revisión de errores."
-        }
-      ],
-      "professionalOutcome": "construir interacciones simples, leer errores y mejorar una pagina paso a paso. Entregable sugerido: un ejemplo funcionando con una mejora propia y una nota sobre el error aprendido."
-    },
-    {
-      "id": "mod-4",
-      "title": "Funciones y eventos",
-      "description": "En este módulo vas a trabajar \"Funciones y eventos\" dentro de desarrollo web inicial con prácticas pequeñas, consola y código verificable. El objetivo es practicar con situaciones concretas, entender qué decisión mejora y cerrar con una evidencia simple.",
-      "icon": "JS",
-      "lessons": [
-        {
-          "id": "mod-4-lesson-1",
-          "title": "Qué es una función",
-          "keyIdea": "Idea clave: Qué es una función sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Qué es una función\" dentro del módulo \"Funciones y eventos\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona está creando una página sencilla y necesita agregar interacción, validar datos o entender un error de consola. Aplicá \"Qué es una función\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un fragmento de código probado, una captura o nota del error corregido y una mejora pendiente.",
-          "alert": "No pegar codigo desconocido en proyectos importantes sin probarlo en un archivo aislado.",
-          "keyPoints": [
-            "Qué es una función debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: un fragmento de código probado, una captura o nota del error corregido y una mejora pendiente.",
-            "El criterio de calidad debe poder revisarse por otra persona."
-          ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
-        },
-        {
-          "id": "mod-4-lesson-2",
-          "title": "Parámetros y retorno",
-          "keyIdea": "Idea clave: Parámetros y retorno sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Parámetros y retorno\" dentro del módulo \"Funciones y eventos\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona está creando una página sencilla y necesita agregar interacción, validar datos o entender un error de consola. Aplicá \"Parámetros y retorno\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un fragmento de código probado, una captura o nota del error corregido y una mejora pendiente.",
-          "alert": "No pegar codigo desconocido en proyectos importantes sin probarlo en un archivo aislado.",
-          "keyPoints": [
-            "Parámetros y retorno debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: un fragmento de código probado, una captura o nota del error corregido y una mejora pendiente.",
-            "El criterio de calidad debe poder revisarse por otra persona."
-          ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
-        },
-        {
-          "id": "mod-4-lesson-3",
-          "title": "Eventos de clic",
-          "keyIdea": "Idea clave: Eventos de clic sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Eventos de clic\" dentro del módulo \"Funciones y eventos\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona está creando una página sencilla y necesita agregar interacción, validar datos o entender un error de consola. Aplicá \"Eventos de clic\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un fragmento de código probado, una captura o nota del error corregido y una mejora pendiente.",
-          "alert": "No pegar codigo desconocido en proyectos importantes sin probarlo en un archivo aislado.",
-          "keyPoints": [
-            "Eventos de clic debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: un fragmento de código probado, una captura o nota del error corregido y una mejora pendiente.",
-            "El criterio de calidad debe poder revisarse por otra persona."
-          ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
-        },
-        {
-          "id": "mod-4-lesson-4",
-          "title": "Eventos de formulario",
-          "keyIdea": "Idea clave: Eventos de formulario sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Eventos de formulario\" dentro del módulo \"Funciones y eventos\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona está creando una página sencilla y necesita agregar interacción, validar datos o entender un error de consola. Aplicá \"Eventos de formulario\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un fragmento de código probado, una captura o nota del error corregido y una mejora pendiente.",
-          "alert": "No pegar codigo desconocido en proyectos importantes sin probarlo en un archivo aislado.",
-          "keyPoints": [
-            "Eventos de formulario debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: un fragmento de código probado, una captura o nota del error corregido y una mejora pendiente.",
-            "El criterio de calidad debe poder revisarse por otra persona."
-          ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
-        },
-        {
-          "id": "mod-4-lesson-5",
-          "title": "Organizar acciones en funciones",
-          "keyIdea": "Idea clave: Organizar acciones en funciones sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Organizar acciones en funciones\" dentro del módulo \"Funciones y eventos\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona está creando una página sencilla y necesita agregar interacción, validar datos o entender un error de consola. Aplicá \"Organizar acciones en funciones\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un fragmento de código probado, una captura o nota del error corregido y una mejora pendiente.",
-          "alert": "No pegar codigo desconocido en proyectos importantes sin probarlo en un archivo aislado.",
-          "keyPoints": [
-            "Organizar acciones en funciones debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: un fragmento de código probado, una captura o nota del error corregido y una mejora pendiente.",
-            "El criterio de calidad debe poder revisarse por otra persona."
-          ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
-        },
-        {
-          "id": "mod-4-lesson-6",
-          "title": "Evitar código repetido",
-          "keyIdea": "Idea clave: Evitar código repetido sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Evitar código repetido\" dentro del módulo \"Funciones y eventos\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona está creando una página sencilla y necesita agregar interacción, validar datos o entender un error de consola. Aplicá \"Evitar código repetido\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un fragmento de código probado, una captura o nota del error corregido y una mejora pendiente.",
-          "alert": "No pegar codigo desconocido en proyectos importantes sin probarlo en un archivo aislado.",
-          "keyPoints": [
-            "Evitar código repetido debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: un fragmento de código probado, una captura o nota del error corregido y una mejora pendiente.",
-            "El criterio de calidad debe poder revisarse por otra persona."
-          ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
-        }
-      ],
-      "quiz": [
-        {
-          "id": "mod-4-q-1",
-          "question": "¿Cuál es una buena práctica al trabajar con este tema?",
-          "options": [
-            "Probar ejemplos pequeños y entenderlos",
-            "Escribir todo en una sola línea",
-            "Evitar la consola",
-            "No revisar errores"
-          ],
-          "correctAnswerIndex": 0,
-          "feedback": "Correcto: en JavaScript conviene avanzar con ejemplos claros, pruebas pequeñas y revisión de errores."
-        },
-        {
-          "id": "mod-4-q-2",
-          "question": "¿Qué herramienta del navegador ayuda a revisar errores de JavaScript?",
-          "options": [
-            "La consola del navegador",
-            "El bloc de notas únicamente",
-            "La papelera",
-            "El historial de descargas"
-          ],
-          "correctAnswerIndex": 0,
-          "feedback": "Correcto: en JavaScript conviene avanzar con ejemplos claros, pruebas pequeñas y revisión de errores."
-        },
-        {
-          "id": "mod-4-q-3",
-          "question": "¿Qué conviene hacer antes de copiar código en un proyecto importante?",
-          "options": [
-            "Entenderlo y probarlo primero",
-            "Pegar sin mirar",
-            "Eliminar HTML",
-            "Cambiar archivos al azar"
-          ],
-          "correctAnswerIndex": 0,
-          "feedback": "Correcto: en JavaScript conviene avanzar con ejemplos claros, pruebas pequeñas y revisión de errores."
-        },
-        {
-          "id": "mod-4-q-4",
-          "question": "¿Qué relación tiene JavaScript con HTML y CSS?",
-          "options": [
-            "Agrega lógica e interacción",
-            "Reemplaza siempre a HTML",
-            "Solo sirve para imágenes",
-            "No se usa en navegador"
-          ],
-          "correctAnswerIndex": 0,
-          "feedback": "Correcto: en JavaScript conviene avanzar con ejemplos claros, pruebas pequeñas y revisión de errores."
-        },
-        {
-          "id": "mod-4-q-5",
-          "question": "¿Por qué es útil dividir problemas en pasos pequeños?",
-          "options": [
-            "Porque facilita detectar errores",
-            "Porque hace innecesaria la práctica",
-            "Porque evita aprender sintaxis",
-            "Porque impide probar"
-          ],
-          "correctAnswerIndex": 0,
-          "feedback": "Correcto: en JavaScript conviene avanzar con ejemplos claros, pruebas pequeñas y revisión de errores."
-        }
-      ],
-      "professionalOutcome": "construir interacciones simples, leer errores y mejorar una pagina paso a paso. Entregable sugerido: un ejemplo funcionando con una mejora propia y una nota sobre el error aprendido."
-    },
-    {
-      "id": "mod-5",
-      "title": "DOM: modificar una página con JavaScript",
-      "description": "En este módulo vas a trabajar \"DOM: modificar una página con JavaScript\" dentro de desarrollo web inicial con prácticas pequeñas, consola y código verificable. El objetivo es practicar con situaciones concretas, entender qué decisión mejora y cerrar con una evidencia simple.",
-      "icon": "JS",
-      "lessons": [
-        {
-          "id": "mod-5-lesson-1",
-          "title": "Qué es el DOM",
-          "keyIdea": "Idea clave: Qué es el DOM sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Qué es el DOM\" dentro del módulo \"DOM: modificar una página con JavaScript\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona está creando una página sencilla y necesita agregar interacción, validar datos o entender un error de consola. Aplicá \"Qué es el DOM\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un fragmento de código probado, una captura o nota del error corregido y una mejora pendiente.",
-          "alert": "No pegar codigo desconocido en proyectos importantes sin probarlo en un archivo aislado.",
-          "keyPoints": [
-            "Qué es el DOM debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: un fragmento de código probado, una captura o nota del error corregido y una mejora pendiente.",
-            "El criterio de calidad debe poder revisarse por otra persona."
-          ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
-        },
-        {
-          "id": "mod-5-lesson-2",
+          "id": "m2-l1",
           "title": "Seleccionar elementos",
-          "keyIdea": "Idea clave: Seleccionar elementos sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Seleccionar elementos\" dentro del módulo \"DOM: modificar una página con JavaScript\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona está creando una página sencilla y necesita agregar interacción, validar datos o entender un error de consola. Aplicá \"Seleccionar elementos\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un fragmento de código probado, una captura o nota del error corregido y una mejora pendiente.",
-          "alert": "No pegar codigo desconocido en proyectos importantes sin probarlo en un archivo aislado.",
+          "keyIdea": "Seleccionar elementos sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja seleccionar elementos dentro de dom y eventos. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Una pagina estatica necesita botones, formularios, listas, filtros y mensajes de error que respondan al usuario. Aplica seleccionar elementos sobre ese escenario, guarda boton o control que cambia contenido verificable y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de seleccionar elementos, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "Cada evento necesita un estado esperado y un error posible.",
           "keyPoints": [
-            "Seleccionar elementos debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: un fragmento de código probado, una captura o nota del error corregido y una mejora pendiente.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Seleccionar elementos debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: la accion del usuario produce un cambio claro y reversible.",
+            "Evidencia minima: boton o control que cambia contenido verificable.",
+            "Entregable final relacionado: mini app web con entrada de datos, validacion, estado, renderizado y pruebas manuales."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
-          "id": "mod-5-lesson-3",
-          "title": "Cambiar texto y contenido",
-          "keyIdea": "Idea clave: Cambiar texto y contenido sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Cambiar texto y contenido\" dentro del módulo \"DOM: modificar una página con JavaScript\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona está creando una página sencilla y necesita agregar interacción, validar datos o entender un error de consola. Aplicá \"Cambiar texto y contenido\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un fragmento de código probado, una captura o nota del error corregido y una mejora pendiente.",
-          "alert": "No pegar codigo desconocido en proyectos importantes sin probarlo en un archivo aislado.",
+          "id": "m2-l2",
+          "title": "click y input",
+          "keyIdea": "click y input sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja click y input dentro de dom y eventos. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Una pagina estatica necesita botones, formularios, listas, filtros y mensajes de error que respondan al usuario. Aplica click y input sobre ese escenario, guarda boton o control que cambia contenido verificable y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de click y input, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "Cada evento necesita un estado esperado y un error posible.",
           "keyPoints": [
-            "Cambiar texto y contenido debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: un fragmento de código probado, una captura o nota del error corregido y una mejora pendiente.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "click y input debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: la accion del usuario produce un cambio claro y reversible.",
+            "Evidencia minima: boton o control que cambia contenido verificable.",
+            "Entregable final relacionado: mini app web con entrada de datos, validacion, estado, renderizado y pruebas manuales."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
-          "id": "mod-5-lesson-4",
-          "title": "Modificar clases y estilos",
-          "keyIdea": "Idea clave: Modificar clases y estilos sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Modificar clases y estilos\" dentro del módulo \"DOM: modificar una página con JavaScript\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona está creando una página sencilla y necesita agregar interacción, validar datos o entender un error de consola. Aplicá \"Modificar clases y estilos\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un fragmento de código probado, una captura o nota del error corregido y una mejora pendiente.",
-          "alert": "No pegar codigo desconocido en proyectos importantes sin probarlo en un archivo aislado.",
+          "id": "m2-l3",
+          "title": "Cambiar texto y clases",
+          "keyIdea": "Cambiar texto y clases sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja cambiar texto y clases dentro de dom y eventos. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Una pagina estatica necesita botones, formularios, listas, filtros y mensajes de error que respondan al usuario. Aplica cambiar texto y clases sobre ese escenario, guarda boton o control que cambia contenido verificable y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de cambiar texto y clases, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "Cada evento necesita un estado esperado y un error posible.",
           "keyPoints": [
-            "Modificar clases y estilos debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: un fragmento de código probado, una captura o nota del error corregido y una mejora pendiente.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Cambiar texto y clases debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: la accion del usuario produce un cambio claro y reversible.",
+            "Evidencia minima: boton o control que cambia contenido verificable.",
+            "Entregable final relacionado: mini app web con entrada de datos, validacion, estado, renderizado y pruebas manuales."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
-          "id": "mod-5-lesson-5",
+          "id": "m2-l4",
           "title": "Crear elementos",
-          "keyIdea": "Idea clave: Crear elementos sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Crear elementos\" dentro del módulo \"DOM: modificar una página con JavaScript\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona está creando una página sencilla y necesita agregar interacción, validar datos o entender un error de consola. Aplicá \"Crear elementos\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un fragmento de código probado, una captura o nota del error corregido y una mejora pendiente.",
-          "alert": "No pegar codigo desconocido en proyectos importantes sin probarlo en un archivo aislado.",
+          "keyIdea": "Crear elementos sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja crear elementos dentro de dom y eventos. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Una pagina estatica necesita botones, formularios, listas, filtros y mensajes de error que respondan al usuario. Aplica crear elementos sobre ese escenario, guarda boton o control que cambia contenido verificable y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de crear elementos, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "Cada evento necesita un estado esperado y un error posible.",
           "keyPoints": [
-            "Crear elementos debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: un fragmento de código probado, una captura o nota del error corregido y una mejora pendiente.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Crear elementos debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: la accion del usuario produce un cambio claro y reversible.",
+            "Evidencia minima: boton o control que cambia contenido verificable.",
+            "Entregable final relacionado: mini app web con entrada de datos, validacion, estado, renderizado y pruebas manuales."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
-          "id": "mod-5-lesson-6",
-          "title": "Leer valores de formularios",
-          "keyIdea": "Idea clave: Leer valores de formularios sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Leer valores de formularios\" dentro del módulo \"DOM: modificar una página con JavaScript\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona está creando una página sencilla y necesita agregar interacción, validar datos o entender un error de consola. Aplicá \"Leer valores de formularios\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un fragmento de código probado, una captura o nota del error corregido y una mejora pendiente.",
-          "alert": "No pegar codigo desconocido en proyectos importantes sin probarlo en un archivo aislado.",
+          "id": "m2-l5",
+          "title": "Delegacion simple",
+          "keyIdea": "Delegacion simple sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja delegacion simple dentro de dom y eventos. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Una pagina estatica necesita botones, formularios, listas, filtros y mensajes de error que respondan al usuario. Aplica delegacion simple sobre ese escenario, guarda boton o control que cambia contenido verificable y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de delegacion simple, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "Cada evento necesita un estado esperado y un error posible.",
           "keyPoints": [
-            "Leer valores de formularios debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: un fragmento de código probado, una captura o nota del error corregido y una mejora pendiente.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Delegacion simple debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: la accion del usuario produce un cambio claro y reversible.",
+            "Evidencia minima: boton o control que cambia contenido verificable.",
+            "Entregable final relacionado: mini app web con entrada de datos, validacion, estado, renderizado y pruebas manuales."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m2-l6",
+          "title": "Estados de foco y accesibilidad",
+          "keyIdea": "Estados de foco y accesibilidad sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja estados de foco y accesibilidad dentro de dom y eventos. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Una pagina estatica necesita botones, formularios, listas, filtros y mensajes de error que respondan al usuario. Aplica estados de foco y accesibilidad sobre ese escenario, guarda boton o control que cambia contenido verificable y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de estados de foco y accesibilidad, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "Cada evento necesita un estado esperado y un error posible.",
+          "keyPoints": [
+            "Estados de foco y accesibilidad debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: la accion del usuario produce un cambio claro y reversible.",
+            "Evidencia minima: boton o control que cambia contenido verificable.",
+            "Entregable final relacionado: mini app web con entrada de datos, validacion, estado, renderizado y pruebas manuales."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         }
       ],
       "quiz": [
         {
-          "id": "mod-5-q-1",
-          "question": "¿Cuál es una buena práctica al trabajar con este tema?",
+          "id": "m2-q1",
+          "question": "Que conviene definir primero en \"DOM y eventos\"?",
           "options": [
-            "Probar ejemplos pequeños y entenderlos",
-            "Escribir todo en una sola línea",
-            "Evitar la consola",
-            "No revisar errores"
+            "Objetivo, entrada, salida esperada y evidencia de prueba.",
+            "La herramienta mas vistosa disponible.",
+            "Un resultado final sin pasos intermedios.",
+            "Una respuesta rapida sin revisar contexto."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: en JavaScript conviene avanzar con ejemplos claros, pruebas pequeñas y revisión de errores."
+          "feedback": "Correcto: el trabajo mejora cuando se sabe que entra, que sale y como se comprueba."
         },
         {
-          "id": "mod-5-q-2",
-          "question": "¿Qué herramienta del navegador ayuda a revisar errores de JavaScript?",
+          "id": "m2-q2",
+          "question": "Que evidencia permite cerrar el modulo con mas confianza?",
           "options": [
-            "La consola del navegador",
-            "El bloc de notas únicamente",
-            "La papelera",
-            "El historial de descargas"
+            "boton o control que cambia contenido verificable",
+            "Un comentario general sin prueba.",
+            "Una captura sin explicar que se valido.",
+            "Una herramienta abierta en pantalla."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: en JavaScript conviene avanzar con ejemplos claros, pruebas pequeñas y revisión de errores."
+          "feedback": "Correcto: boton o control que cambia contenido verificable permite revisar y mantener el resultado."
         },
         {
-          "id": "mod-5-q-3",
-          "question": "¿Qué conviene hacer antes de copiar código en un proyecto importante?",
+          "id": "m2-q3",
+          "question": "Que conducta aumenta la probabilidad de error?",
           "options": [
-            "Entenderlo y probarlo primero",
-            "Pegar sin mirar",
-            "Eliminar HTML",
-            "Cambiar archivos al azar"
+            "Usar selectores fragiles o repetir codigo sin necesidad.",
+            "Usar datos de prueba antes de aplicar a un caso real.",
+            "Separar errores de funcionamiento y errores de interpretacion.",
+            "Guardar supuestos y decisiones."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: en JavaScript conviene avanzar con ejemplos claros, pruebas pequeñas y revisión de errores."
+          "feedback": "Correcto: esa conducta oculta problemas y dificulta corregirlos."
         },
         {
-          "id": "mod-5-q-4",
-          "question": "¿Qué relación tiene JavaScript con HTML y CSS?",
+          "id": "m2-q4",
+          "question": "Cuando corresponde pedir validacion externa o revisar una fuente confiable?",
           "options": [
-            "Agrega lógica e interacción",
-            "Reemplaza siempre a HTML",
-            "Solo sirve para imágenes",
-            "No se usa en navegador"
+            "Cuando la interfaz controla informacion sensible o publicacion.",
+            "Nunca, porque la practica educativa reemplaza cualquier revision.",
+            "Solo cuando el resultado se ve mal.",
+            "Despues de publicar sin pruebas."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: en JavaScript conviene avanzar con ejemplos claros, pruebas pequeñas y revisión de errores."
+          "feedback": "Correcto: algunas decisiones requieren soporte, fuente oficial o una persona competente."
         },
         {
-          "id": "mod-5-q-5",
-          "question": "¿Por qué es útil dividir problemas en pasos pequeños?",
+          "id": "m2-q5",
+          "question": "Cual es el entregable minimo de \"DOM y eventos\"?",
           "options": [
-            "Porque facilita detectar errores",
-            "Porque hace innecesaria la práctica",
-            "Porque evita aprender sintaxis",
-            "Porque impide probar"
+            "interaccion DOM documentada",
+            "Una lista de ideas sin evidencia.",
+            "Una copia de pantalla sin explicacion.",
+            "Un archivo final sin criterio de cierre."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: en JavaScript conviene avanzar con ejemplos claros, pruebas pequeñas y revisión de errores."
+          "feedback": "Correcto: interaccion DOM documentada deja avance verificable."
         }
-      ],
-      "professionalOutcome": "construir interacciones simples, leer errores y mejorar una pagina paso a paso. Entregable sugerido: un ejemplo funcionando con una mejora propia y una nota sobre el error aprendido."
+      ]
     },
     {
-      "id": "mod-6",
-      "title": "Proyecto final: mini app interactiva",
-      "description": "En este módulo vas a trabajar \"Proyecto final: mini app interactiva\" dentro de desarrollo web inicial con prácticas pequeñas, consola y código verificable. El objetivo es practicar con situaciones concretas, entender qué decisión mejora y cerrar con una evidencia simple.",
-      "icon": "JS",
+      "id": "m3",
+      "title": "Datos y arrays",
+      "description": "Guardar listas, recorrerlas, filtrar, ordenar y mostrarlas.",
+      "learningRisk": "Practicar sin evidencia puede dejar errores invisibles o decisiones dificiles de sostener.",
       "lessons": [
         {
-          "id": "mod-6-lesson-1",
-          "title": "Definir una mini app",
-          "keyIdea": "Idea clave: Definir una mini app sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Definir una mini app\" dentro del módulo \"Proyecto final: mini app interactiva\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona está creando una página sencilla y necesita agregar interacción, validar datos o entender un error de consola. Aplicá \"Definir una mini app\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un fragmento de código probado, una captura o nota del error corregido y una mejora pendiente.",
-          "alert": "No pegar codigo desconocido en proyectos importantes sin probarlo en un archivo aislado.",
+          "id": "m3-l1",
+          "title": "Objetos simples",
+          "keyIdea": "Objetos simples sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja objetos simples dentro de datos y arrays. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Una pagina estatica necesita botones, formularios, listas, filtros y mensajes de error que respondan al usuario. Aplica objetos simples sobre ese escenario, guarda lista renderizada desde datos de prueba y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de objetos simples, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "No mezcles datos de prueba con datos reales sensibles.",
           "keyPoints": [
-            "Definir una mini app debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: un fragmento de código probado, una captura o nota del error corregido y una mejora pendiente.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Objetos simples debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: los datos se separan del HTML y se pueden actualizar.",
+            "Evidencia minima: lista renderizada desde datos de prueba.",
+            "Entregable final relacionado: mini app web con entrada de datos, validacion, estado, renderizado y pruebas manuales."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
-          "id": "mod-6-lesson-2",
-          "title": "Crear estructura HTML",
-          "keyIdea": "Idea clave: Crear estructura HTML sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Crear estructura HTML\" dentro del módulo \"Proyecto final: mini app interactiva\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona está creando una página sencilla y necesita agregar interacción, validar datos o entender un error de consola. Aplicá \"Crear estructura HTML\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un fragmento de código probado, una captura o nota del error corregido y una mejora pendiente.",
-          "alert": "No pegar codigo desconocido en proyectos importantes sin probarlo en un archivo aislado.",
+          "id": "m3-l2",
+          "title": "Arrays",
+          "keyIdea": "Arrays sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja arrays dentro de datos y arrays. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Una pagina estatica necesita botones, formularios, listas, filtros y mensajes de error que respondan al usuario. Aplica arrays sobre ese escenario, guarda lista renderizada desde datos de prueba y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de arrays, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "No mezcles datos de prueba con datos reales sensibles.",
           "keyPoints": [
-            "Crear estructura HTML debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: un fragmento de código probado, una captura o nota del error corregido y una mejora pendiente.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Arrays debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: los datos se separan del HTML y se pueden actualizar.",
+            "Evidencia minima: lista renderizada desde datos de prueba.",
+            "Entregable final relacionado: mini app web con entrada de datos, validacion, estado, renderizado y pruebas manuales."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
-          "id": "mod-6-lesson-3",
-          "title": "Dar estilo inicial",
-          "keyIdea": "Idea clave: Dar estilo inicial sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Dar estilo inicial\" dentro del módulo \"Proyecto final: mini app interactiva\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona está creando una página sencilla y necesita agregar interacción, validar datos o entender un error de consola. Aplicá \"Dar estilo inicial\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un fragmento de código probado, una captura o nota del error corregido y una mejora pendiente.",
-          "alert": "No pegar codigo desconocido en proyectos importantes sin probarlo en un archivo aislado.",
+          "id": "m3-l3",
+          "title": "map y forEach",
+          "keyIdea": "map y forEach sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja map y foreach dentro de datos y arrays. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Una pagina estatica necesita botones, formularios, listas, filtros y mensajes de error que respondan al usuario. Aplica map y foreach sobre ese escenario, guarda lista renderizada desde datos de prueba y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de map y foreach, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "No mezcles datos de prueba con datos reales sensibles.",
           "keyPoints": [
-            "Dar estilo inicial debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: un fragmento de código probado, una captura o nota del error corregido y una mejora pendiente.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "map y forEach debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: los datos se separan del HTML y se pueden actualizar.",
+            "Evidencia minima: lista renderizada desde datos de prueba.",
+            "Entregable final relacionado: mini app web con entrada de datos, validacion, estado, renderizado y pruebas manuales."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
-          "id": "mod-6-lesson-4",
-          "title": "Agregar interacción",
-          "keyIdea": "Idea clave: Agregar interacción sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Agregar interacción\" dentro del módulo \"Proyecto final: mini app interactiva\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona está creando una página sencilla y necesita agregar interacción, validar datos o entender un error de consola. Aplicá \"Agregar interacción\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un fragmento de código probado, una captura o nota del error corregido y una mejora pendiente.",
-          "alert": "No pegar codigo desconocido en proyectos importantes sin probarlo en un archivo aislado.",
+          "id": "m3-l4",
+          "title": "filter",
+          "keyIdea": "filter sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja filter dentro de datos y arrays. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Una pagina estatica necesita botones, formularios, listas, filtros y mensajes de error que respondan al usuario. Aplica filter sobre ese escenario, guarda lista renderizada desde datos de prueba y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de filter, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "No mezcles datos de prueba con datos reales sensibles.",
           "keyPoints": [
-            "Agregar interacción debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: un fragmento de código probado, una captura o nota del error corregido y una mejora pendiente.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "filter debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: los datos se separan del HTML y se pueden actualizar.",
+            "Evidencia minima: lista renderizada desde datos de prueba.",
+            "Entregable final relacionado: mini app web con entrada de datos, validacion, estado, renderizado y pruebas manuales."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
-          "id": "mod-6-lesson-5",
-          "title": "Validar y probar",
-          "keyIdea": "Idea clave: Validar y probar sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Validar y probar\" dentro del módulo \"Proyecto final: mini app interactiva\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona está creando una página sencilla y necesita agregar interacción, validar datos o entender un error de consola. Aplicá \"Validar y probar\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un fragmento de código probado, una captura o nota del error corregido y una mejora pendiente.",
-          "alert": "No pegar codigo desconocido en proyectos importantes sin probarlo en un archivo aislado.",
+          "id": "m3-l5",
+          "title": "sort basico",
+          "keyIdea": "sort basico sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja sort basico dentro de datos y arrays. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Una pagina estatica necesita botones, formularios, listas, filtros y mensajes de error que respondan al usuario. Aplica sort basico sobre ese escenario, guarda lista renderizada desde datos de prueba y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de sort basico, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "No mezcles datos de prueba con datos reales sensibles.",
           "keyPoints": [
-            "Validar y probar debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: un fragmento de código probado, una captura o nota del error corregido y una mejora pendiente.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "sort basico debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: los datos se separan del HTML y se pueden actualizar.",
+            "Evidencia minima: lista renderizada desde datos de prueba.",
+            "Entregable final relacionado: mini app web con entrada de datos, validacion, estado, renderizado y pruebas manuales."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
-          "id": "mod-6-lesson-6",
-          "title": "Preparar para publicar",
-          "keyIdea": "Idea clave: Preparar para publicar sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Preparar para publicar\" dentro del módulo \"Proyecto final: mini app interactiva\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona está creando una página sencilla y necesita agregar interacción, validar datos o entender un error de consola. Aplicá \"Preparar para publicar\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un fragmento de código probado, una captura o nota del error corregido y una mejora pendiente.",
-          "alert": "No pegar codigo desconocido en proyectos importantes sin probarlo en un archivo aislado.",
+          "id": "m3-l6",
+          "title": "Render desde datos",
+          "keyIdea": "Render desde datos sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja render desde datos dentro de datos y arrays. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Una pagina estatica necesita botones, formularios, listas, filtros y mensajes de error que respondan al usuario. Aplica render desde datos sobre ese escenario, guarda lista renderizada desde datos de prueba y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de render desde datos, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "No mezcles datos de prueba con datos reales sensibles.",
           "keyPoints": [
-            "Preparar para publicar debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: un fragmento de código probado, una captura o nota del error corregido y una mejora pendiente.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Render desde datos debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: los datos se separan del HTML y se pueden actualizar.",
+            "Evidencia minima: lista renderizada desde datos de prueba.",
+            "Entregable final relacionado: mini app web con entrada de datos, validacion, estado, renderizado y pruebas manuales."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         }
       ],
       "quiz": [
         {
-          "id": "mod-6-q-1",
-          "question": "¿Cuál es una buena práctica al trabajar con este tema?",
+          "id": "m3-q1",
+          "question": "Que conviene definir primero en \"Datos y arrays\"?",
           "options": [
-            "Probar ejemplos pequeños y entenderlos",
-            "Escribir todo en una sola línea",
-            "Evitar la consola",
-            "No revisar errores"
+            "Objetivo, entrada, salida esperada y evidencia de prueba.",
+            "La herramienta mas vistosa disponible.",
+            "Un resultado final sin pasos intermedios.",
+            "Una respuesta rapida sin revisar contexto."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: en JavaScript conviene avanzar con ejemplos claros, pruebas pequeñas y revisión de errores."
+          "feedback": "Correcto: el trabajo mejora cuando se sabe que entra, que sale y como se comprueba."
         },
         {
-          "id": "mod-6-q-2",
-          "question": "¿Qué herramienta del navegador ayuda a revisar errores de JavaScript?",
+          "id": "m3-q2",
+          "question": "Que evidencia permite cerrar el modulo con mas confianza?",
           "options": [
-            "La consola del navegador",
-            "El bloc de notas únicamente",
-            "La papelera",
-            "El historial de descargas"
+            "lista renderizada desde datos de prueba",
+            "Un comentario general sin prueba.",
+            "Una captura sin explicar que se valido.",
+            "Una herramienta abierta en pantalla."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: en JavaScript conviene avanzar con ejemplos claros, pruebas pequeñas y revisión de errores."
+          "feedback": "Correcto: lista renderizada desde datos de prueba permite revisar y mantener el resultado."
         },
         {
-          "id": "mod-6-q-3",
-          "question": "¿Qué conviene hacer antes de copiar código en un proyecto importante?",
+          "id": "m3-q3",
+          "question": "Que conducta aumenta la probabilidad de error?",
           "options": [
-            "Entenderlo y probarlo primero",
-            "Pegar sin mirar",
-            "Eliminar HTML",
-            "Cambiar archivos al azar"
+            "Escribir cada item a mano en HTML.",
+            "Usar datos de prueba antes de aplicar a un caso real.",
+            "Separar errores de funcionamiento y errores de interpretacion.",
+            "Guardar supuestos y decisiones."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: en JavaScript conviene avanzar con ejemplos claros, pruebas pequeñas y revisión de errores."
+          "feedback": "Correcto: esa conducta oculta problemas y dificulta corregirlos."
         },
         {
-          "id": "mod-6-q-4",
-          "question": "¿Qué relación tiene JavaScript con HTML y CSS?",
+          "id": "m3-q4",
+          "question": "Cuando corresponde pedir validacion externa o revisar una fuente confiable?",
           "options": [
-            "Agrega lógica e interacción",
-            "Reemplaza siempre a HTML",
-            "Solo sirve para imágenes",
-            "No se usa en navegador"
+            "Cuando los datos vienen de usuarios o fuentes externas.",
+            "Nunca, porque la practica educativa reemplaza cualquier revision.",
+            "Solo cuando el resultado se ve mal.",
+            "Despues de publicar sin pruebas."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: en JavaScript conviene avanzar con ejemplos claros, pruebas pequeñas y revisión de errores."
+          "feedback": "Correcto: algunas decisiones requieren soporte, fuente oficial o una persona competente."
         },
         {
-          "id": "mod-6-q-5",
-          "question": "¿Por qué es útil dividir problemas en pasos pequeños?",
+          "id": "m3-q5",
+          "question": "Cual es el entregable minimo de \"Datos y arrays\"?",
           "options": [
-            "Porque facilita detectar errores",
-            "Porque hace innecesaria la práctica",
-            "Porque evita aprender sintaxis",
-            "Porque impide probar"
+            "render de lista dinamica",
+            "Una lista de ideas sin evidencia.",
+            "Una copia de pantalla sin explicacion.",
+            "Un archivo final sin criterio de cierre."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: en JavaScript conviene avanzar con ejemplos claros, pruebas pequeñas y revisión de errores."
+          "feedback": "Correcto: render de lista dinamica deja avance verificable."
+        }
+      ]
+    },
+    {
+      "id": "m4",
+      "title": "Formularios y validacion",
+      "description": "Leer entradas, validar campos y mostrar mensajes claros.",
+      "learningRisk": "Practicar sin evidencia puede dejar errores invisibles o decisiones dificiles de sostener.",
+      "lessons": [
+        {
+          "id": "m4-l1",
+          "title": "Leer inputs",
+          "keyIdea": "Leer inputs sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja leer inputs dentro de formularios y validacion. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Una pagina estatica necesita botones, formularios, listas, filtros y mensajes de error que respondan al usuario. Aplica leer inputs sobre ese escenario, guarda formulario con validacion, mensajes y preservacion de datos y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de leer inputs, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "Un error claro vale mas que un formulario vistoso.",
+          "keyPoints": [
+            "Leer inputs debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: el usuario entiende que corregir y no pierde lo escrito.",
+            "Evidencia minima: formulario con validacion, mensajes y preservacion de datos.",
+            "Entregable final relacionado: mini app web con entrada de datos, validacion, estado, renderizado y pruebas manuales."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m4-l2",
+          "title": "Validar requeridos",
+          "keyIdea": "Validar requeridos sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja validar requeridos dentro de formularios y validacion. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Una pagina estatica necesita botones, formularios, listas, filtros y mensajes de error que respondan al usuario. Aplica validar requeridos sobre ese escenario, guarda formulario con validacion, mensajes y preservacion de datos y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de validar requeridos, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "Un error claro vale mas que un formulario vistoso.",
+          "keyPoints": [
+            "Validar requeridos debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: el usuario entiende que corregir y no pierde lo escrito.",
+            "Evidencia minima: formulario con validacion, mensajes y preservacion de datos.",
+            "Entregable final relacionado: mini app web con entrada de datos, validacion, estado, renderizado y pruebas manuales."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m4-l3",
+          "title": "Mensajes de error",
+          "keyIdea": "Mensajes de error sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja mensajes de error dentro de formularios y validacion. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Una pagina estatica necesita botones, formularios, listas, filtros y mensajes de error que respondan al usuario. Aplica mensajes de error sobre ese escenario, guarda formulario con validacion, mensajes y preservacion de datos y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de mensajes de error, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "Un error claro vale mas que un formulario vistoso.",
+          "keyPoints": [
+            "Mensajes de error debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: el usuario entiende que corregir y no pierde lo escrito.",
+            "Evidencia minima: formulario con validacion, mensajes y preservacion de datos.",
+            "Entregable final relacionado: mini app web con entrada de datos, validacion, estado, renderizado y pruebas manuales."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m4-l4",
+          "title": "Prevenir envio",
+          "keyIdea": "Prevenir envio sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja prevenir envio dentro de formularios y validacion. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Una pagina estatica necesita botones, formularios, listas, filtros y mensajes de error que respondan al usuario. Aplica prevenir envio sobre ese escenario, guarda formulario con validacion, mensajes y preservacion de datos y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de prevenir envio, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "Un error claro vale mas que un formulario vistoso.",
+          "keyPoints": [
+            "Prevenir envio debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: el usuario entiende que corregir y no pierde lo escrito.",
+            "Evidencia minima: formulario con validacion, mensajes y preservacion de datos.",
+            "Entregable final relacionado: mini app web con entrada de datos, validacion, estado, renderizado y pruebas manuales."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m4-l5",
+          "title": "Guardar temporalmente",
+          "keyIdea": "Guardar temporalmente sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja guardar temporalmente dentro de formularios y validacion. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Una pagina estatica necesita botones, formularios, listas, filtros y mensajes de error que respondan al usuario. Aplica guardar temporalmente sobre ese escenario, guarda formulario con validacion, mensajes y preservacion de datos y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de guardar temporalmente, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "Un error claro vale mas que un formulario vistoso.",
+          "keyPoints": [
+            "Guardar temporalmente debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: el usuario entiende que corregir y no pierde lo escrito.",
+            "Evidencia minima: formulario con validacion, mensajes y preservacion de datos.",
+            "Entregable final relacionado: mini app web con entrada de datos, validacion, estado, renderizado y pruebas manuales."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m4-l6",
+          "title": "Confirmacion final",
+          "keyIdea": "Confirmacion final sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja confirmacion final dentro de formularios y validacion. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Una pagina estatica necesita botones, formularios, listas, filtros y mensajes de error que respondan al usuario. Aplica confirmacion final sobre ese escenario, guarda formulario con validacion, mensajes y preservacion de datos y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de confirmacion final, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "Un error claro vale mas que un formulario vistoso.",
+          "keyPoints": [
+            "Confirmacion final debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: el usuario entiende que corregir y no pierde lo escrito.",
+            "Evidencia minima: formulario con validacion, mensajes y preservacion de datos.",
+            "Entregable final relacionado: mini app web con entrada de datos, validacion, estado, renderizado y pruebas manuales."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         }
       ],
-      "professionalOutcome": "construir interacciones simples, leer errores y mejorar una pagina paso a paso. Entregable sugerido: un ejemplo funcionando con una mejora propia y una nota sobre el error aprendido."
+      "quiz": [
+        {
+          "id": "m4-q1",
+          "question": "Que conviene definir primero en \"Formularios y validacion\"?",
+          "options": [
+            "Objetivo, entrada, salida esperada y evidencia de prueba.",
+            "La herramienta mas vistosa disponible.",
+            "Un resultado final sin pasos intermedios.",
+            "Una respuesta rapida sin revisar contexto."
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el trabajo mejora cuando se sabe que entra, que sale y como se comprueba."
+        },
+        {
+          "id": "m4-q2",
+          "question": "Que evidencia permite cerrar el modulo con mas confianza?",
+          "options": [
+            "formulario con validacion, mensajes y preservacion de datos",
+            "Un comentario general sin prueba.",
+            "Una captura sin explicar que se valido.",
+            "Una herramienta abierta en pantalla."
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: formulario con validacion, mensajes y preservacion de datos permite revisar y mantener el resultado."
+        },
+        {
+          "id": "m4-q3",
+          "question": "Que conducta aumenta la probabilidad de error?",
+          "options": [
+            "Validar solo con alertas genericas.",
+            "Usar datos de prueba antes de aplicar a un caso real.",
+            "Separar errores de funcionamiento y errores de interpretacion.",
+            "Guardar supuestos y decisiones."
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: esa conducta oculta problemas y dificulta corregirlos."
+        },
+        {
+          "id": "m4-q4",
+          "question": "Cuando corresponde pedir validacion externa o revisar una fuente confiable?",
+          "options": [
+            "Cuando se piden datos personales, pagos, salud o credenciales.",
+            "Nunca, porque la practica educativa reemplaza cualquier revision.",
+            "Solo cuando el resultado se ve mal.",
+            "Despues de publicar sin pruebas."
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: algunas decisiones requieren soporte, fuente oficial o una persona competente."
+        },
+        {
+          "id": "m4-q5",
+          "question": "Cual es el entregable minimo de \"Formularios y validacion\"?",
+          "options": [
+            "formulario interactivo validado",
+            "Una lista de ideas sin evidencia.",
+            "Una copia de pantalla sin explicacion.",
+            "Un archivo final sin criterio de cierre."
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: formulario interactivo validado deja avance verificable."
+        }
+      ]
+    },
+    {
+      "id": "m5",
+      "title": "Estado, almacenamiento y errores",
+      "description": "Controlar estado de la app, localStorage y errores comunes.",
+      "learningRisk": "Practicar sin evidencia puede dejar errores invisibles o decisiones dificiles de sostener.",
+      "lessons": [
+        {
+          "id": "m5-l1",
+          "title": "Estado en memoria",
+          "keyIdea": "Estado en memoria sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja estado en memoria dentro de estado, almacenamiento y errores. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Una pagina estatica necesita botones, formularios, listas, filtros y mensajes de error que respondan al usuario. Aplica estado en memoria sobre ese escenario, guarda estado visible y prueba de recarga o error y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de estado en memoria, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "No guardes datos sensibles en almacenamiento local.",
+          "keyPoints": [
+            "Estado en memoria debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: la app no pierde informacion importante sin avisar.",
+            "Evidencia minima: estado visible y prueba de recarga o error.",
+            "Entregable final relacionado: mini app web con entrada de datos, validacion, estado, renderizado y pruebas manuales."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m5-l2",
+          "title": "localStorage",
+          "keyIdea": "localStorage sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja localstorage dentro de estado, almacenamiento y errores. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Una pagina estatica necesita botones, formularios, listas, filtros y mensajes de error que respondan al usuario. Aplica localstorage sobre ese escenario, guarda estado visible y prueba de recarga o error y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de localstorage, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "No guardes datos sensibles en almacenamiento local.",
+          "keyPoints": [
+            "localStorage debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: la app no pierde informacion importante sin avisar.",
+            "Evidencia minima: estado visible y prueba de recarga o error.",
+            "Entregable final relacionado: mini app web con entrada de datos, validacion, estado, renderizado y pruebas manuales."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m5-l3",
+          "title": "Reset seguro",
+          "keyIdea": "Reset seguro sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja reset seguro dentro de estado, almacenamiento y errores. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Una pagina estatica necesita botones, formularios, listas, filtros y mensajes de error que respondan al usuario. Aplica reset seguro sobre ese escenario, guarda estado visible y prueba de recarga o error y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de reset seguro, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "No guardes datos sensibles en almacenamiento local.",
+          "keyPoints": [
+            "Reset seguro debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: la app no pierde informacion importante sin avisar.",
+            "Evidencia minima: estado visible y prueba de recarga o error.",
+            "Entregable final relacionado: mini app web con entrada de datos, validacion, estado, renderizado y pruebas manuales."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m5-l4",
+          "title": "try/catch basico",
+          "keyIdea": "try/catch basico sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja try/catch basico dentro de estado, almacenamiento y errores. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Una pagina estatica necesita botones, formularios, listas, filtros y mensajes de error que respondan al usuario. Aplica try/catch basico sobre ese escenario, guarda estado visible y prueba de recarga o error y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de try/catch basico, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "No guardes datos sensibles en almacenamiento local.",
+          "keyPoints": [
+            "try/catch basico debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: la app no pierde informacion importante sin avisar.",
+            "Evidencia minima: estado visible y prueba de recarga o error.",
+            "Entregable final relacionado: mini app web con entrada de datos, validacion, estado, renderizado y pruebas manuales."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m5-l5",
+          "title": "Estados vacios",
+          "keyIdea": "Estados vacios sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja estados vacios dentro de estado, almacenamiento y errores. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Una pagina estatica necesita botones, formularios, listas, filtros y mensajes de error que respondan al usuario. Aplica estados vacios sobre ese escenario, guarda estado visible y prueba de recarga o error y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de estados vacios, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "No guardes datos sensibles en almacenamiento local.",
+          "keyPoints": [
+            "Estados vacios debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: la app no pierde informacion importante sin avisar.",
+            "Evidencia minima: estado visible y prueba de recarga o error.",
+            "Entregable final relacionado: mini app web con entrada de datos, validacion, estado, renderizado y pruebas manuales."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m5-l6",
+          "title": "Mensajes de fallo",
+          "keyIdea": "Mensajes de fallo sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja mensajes de fallo dentro de estado, almacenamiento y errores. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Una pagina estatica necesita botones, formularios, listas, filtros y mensajes de error que respondan al usuario. Aplica mensajes de fallo sobre ese escenario, guarda estado visible y prueba de recarga o error y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de mensajes de fallo, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "No guardes datos sensibles en almacenamiento local.",
+          "keyPoints": [
+            "Mensajes de fallo debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: la app no pierde informacion importante sin avisar.",
+            "Evidencia minima: estado visible y prueba de recarga o error.",
+            "Entregable final relacionado: mini app web con entrada de datos, validacion, estado, renderizado y pruebas manuales."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m5-q1",
+          "question": "Que conviene definir primero en \"Estado, almacenamiento y errores\"?",
+          "options": [
+            "Objetivo, entrada, salida esperada y evidencia de prueba.",
+            "La herramienta mas vistosa disponible.",
+            "Un resultado final sin pasos intermedios.",
+            "Una respuesta rapida sin revisar contexto."
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el trabajo mejora cuando se sabe que entra, que sale y como se comprueba."
+        },
+        {
+          "id": "m5-q2",
+          "question": "Que evidencia permite cerrar el modulo con mas confianza?",
+          "options": [
+            "estado visible y prueba de recarga o error",
+            "Un comentario general sin prueba.",
+            "Una captura sin explicar que se valido.",
+            "Una herramienta abierta en pantalla."
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: estado visible y prueba de recarga o error permite revisar y mantener el resultado."
+        },
+        {
+          "id": "m5-q3",
+          "question": "Que conducta aumenta la probabilidad de error?",
+          "options": [
+            "Guardar todo sin pensar privacidad ni limpieza.",
+            "Usar datos de prueba antes de aplicar a un caso real.",
+            "Separar errores de funcionamiento y errores de interpretacion.",
+            "Guardar supuestos y decisiones."
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: esa conducta oculta problemas y dificulta corregirlos."
+        },
+        {
+          "id": "m5-q4",
+          "question": "Cuando corresponde pedir validacion externa o revisar una fuente confiable?",
+          "options": [
+            "Cuando localStorage contiene datos personales o compartidos.",
+            "Nunca, porque la practica educativa reemplaza cualquier revision.",
+            "Solo cuando el resultado se ve mal.",
+            "Despues de publicar sin pruebas."
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: algunas decisiones requieren soporte, fuente oficial o una persona competente."
+        },
+        {
+          "id": "m5-q5",
+          "question": "Cual es el entregable minimo de \"Estado, almacenamiento y errores\"?",
+          "options": [
+            "mini app con estado persistente simple",
+            "Una lista de ideas sin evidencia.",
+            "Una copia de pantalla sin explicacion.",
+            "Un archivo final sin criterio de cierre."
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: mini app con estado persistente simple deja avance verificable."
+        }
+      ]
+    },
+    {
+      "id": "m6",
+      "title": "Proyecto final y publicacion",
+      "description": "Unir conceptos en una mini app mantenible y publicable.",
+      "learningRisk": "Practicar sin evidencia puede dejar errores invisibles o decisiones dificiles de sostener.",
+      "lessons": [
+        {
+          "id": "m6-l1",
+          "title": "Definir proyecto",
+          "keyIdea": "Definir proyecto sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja definir proyecto dentro de proyecto final y publicacion. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Una pagina estatica necesita botones, formularios, listas, filtros y mensajes de error que respondan al usuario. Aplica definir proyecto sobre ese escenario, guarda mini app probada en escritorio y movil y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de definir proyecto, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "Antes de publicar, probar como usuario nuevo.",
+          "keyPoints": [
+            "Definir proyecto debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: la app cumple flujo principal, errores y accesibilidad basica.",
+            "Evidencia minima: mini app probada en escritorio y movil.",
+            "Entregable final relacionado: mini app web con entrada de datos, validacion, estado, renderizado y pruebas manuales."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m6-l2",
+          "title": "Estructura de archivos",
+          "keyIdea": "Estructura de archivos sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja estructura de archivos dentro de proyecto final y publicacion. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Una pagina estatica necesita botones, formularios, listas, filtros y mensajes de error que respondan al usuario. Aplica estructura de archivos sobre ese escenario, guarda mini app probada en escritorio y movil y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de estructura de archivos, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "Antes de publicar, probar como usuario nuevo.",
+          "keyPoints": [
+            "Estructura de archivos debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: la app cumple flujo principal, errores y accesibilidad basica.",
+            "Evidencia minima: mini app probada en escritorio y movil.",
+            "Entregable final relacionado: mini app web con entrada de datos, validacion, estado, renderizado y pruebas manuales."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m6-l3",
+          "title": "Pruebas manuales",
+          "keyIdea": "Pruebas manuales sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja pruebas manuales dentro de proyecto final y publicacion. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Una pagina estatica necesita botones, formularios, listas, filtros y mensajes de error que respondan al usuario. Aplica pruebas manuales sobre ese escenario, guarda mini app probada en escritorio y movil y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de pruebas manuales, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "Antes de publicar, probar como usuario nuevo.",
+          "keyPoints": [
+            "Pruebas manuales debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: la app cumple flujo principal, errores y accesibilidad basica.",
+            "Evidencia minima: mini app probada en escritorio y movil.",
+            "Entregable final relacionado: mini app web con entrada de datos, validacion, estado, renderizado y pruebas manuales."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m6-l4",
+          "title": "Accesibilidad",
+          "keyIdea": "Accesibilidad sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja accesibilidad dentro de proyecto final y publicacion. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Una pagina estatica necesita botones, formularios, listas, filtros y mensajes de error que respondan al usuario. Aplica accesibilidad sobre ese escenario, guarda mini app probada en escritorio y movil y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de accesibilidad, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "Antes de publicar, probar como usuario nuevo.",
+          "keyPoints": [
+            "Accesibilidad debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: la app cumple flujo principal, errores y accesibilidad basica.",
+            "Evidencia minima: mini app probada en escritorio y movil.",
+            "Entregable final relacionado: mini app web con entrada de datos, validacion, estado, renderizado y pruebas manuales."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m6-l5",
+          "title": "Refactor minimo",
+          "keyIdea": "Refactor minimo sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja refactor minimo dentro de proyecto final y publicacion. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Una pagina estatica necesita botones, formularios, listas, filtros y mensajes de error que respondan al usuario. Aplica refactor minimo sobre ese escenario, guarda mini app probada en escritorio y movil y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de refactor minimo, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "Antes de publicar, probar como usuario nuevo.",
+          "keyPoints": [
+            "Refactor minimo debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: la app cumple flujo principal, errores y accesibilidad basica.",
+            "Evidencia minima: mini app probada en escritorio y movil.",
+            "Entregable final relacionado: mini app web con entrada de datos, validacion, estado, renderizado y pruebas manuales."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m6-l6",
+          "title": "Publicacion estatica",
+          "keyIdea": "Publicacion estatica sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja publicacion estatica dentro de proyecto final y publicacion. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Una pagina estatica necesita botones, formularios, listas, filtros y mensajes de error que respondan al usuario. Aplica publicacion estatica sobre ese escenario, guarda mini app probada en escritorio y movil y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de publicacion estatica, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "Antes de publicar, probar como usuario nuevo.",
+          "keyPoints": [
+            "Publicacion estatica debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: la app cumple flujo principal, errores y accesibilidad basica.",
+            "Evidencia minima: mini app probada en escritorio y movil.",
+            "Entregable final relacionado: mini app web con entrada de datos, validacion, estado, renderizado y pruebas manuales."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m6-q1",
+          "question": "Que conviene definir primero en \"Proyecto final y publicacion\"?",
+          "options": [
+            "Objetivo, entrada, salida esperada y evidencia de prueba.",
+            "La herramienta mas vistosa disponible.",
+            "Un resultado final sin pasos intermedios.",
+            "Una respuesta rapida sin revisar contexto."
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: el trabajo mejora cuando se sabe que entra, que sale y como se comprueba."
+        },
+        {
+          "id": "m6-q2",
+          "question": "Que evidencia permite cerrar el modulo con mas confianza?",
+          "options": [
+            "mini app probada en escritorio y movil",
+            "Un comentario general sin prueba.",
+            "Una captura sin explicar que se valido.",
+            "Una herramienta abierta en pantalla."
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: mini app probada en escritorio y movil permite revisar y mantener el resultado."
+        },
+        {
+          "id": "m6-q3",
+          "question": "Que conducta aumenta la probabilidad de error?",
+          "options": [
+            "Publicar sin probar flujo completo.",
+            "Usar datos de prueba antes de aplicar a un caso real.",
+            "Separar errores de funcionamiento y errores de interpretacion.",
+            "Guardar supuestos y decisiones."
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: esa conducta oculta problemas y dificulta corregirlos."
+        },
+        {
+          "id": "m6-q4",
+          "question": "Cuando corresponde pedir validacion externa o revisar una fuente confiable?",
+          "options": [
+            "Cuando la app sera usada por otras personas o recopila datos.",
+            "Nunca, porque la practica educativa reemplaza cualquier revision.",
+            "Solo cuando el resultado se ve mal.",
+            "Despues de publicar sin pruebas."
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: algunas decisiones requieren soporte, fuente oficial o una persona competente."
+        },
+        {
+          "id": "m6-q5",
+          "question": "Cual es el entregable minimo de \"Proyecto final y publicacion\"?",
+          "options": [
+            "mini app JavaScript final",
+            "Una lista de ideas sin evidencia.",
+            "Una copia de pantalla sin explicacion.",
+            "Un archivo final sin criterio de cierre."
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: mini app JavaScript final deja avance verificable."
+        }
+      ]
     }
-  ],
-  "publicationStatus": "publica-profesional-v0.6",
-  "appName": "JavaScript desde Cero",
-  "professionalization": {
-    "tier": "curso-bandera-v1.0-beta",
-    "updatedAt": "2026-05-28",
-    "focus": "Profundizacion visible de lecciones, practicas, checklists y casos."
-  },
-  "editorialPolish": {
-    "firstFeaturedBatch": "2026-06-01",
-    "status": "public-facing-copy-polished"
-  }
+  ]
 }

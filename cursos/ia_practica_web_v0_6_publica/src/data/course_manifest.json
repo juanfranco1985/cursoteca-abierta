@@ -1,11 +1,11 @@
 {
   "courseId": "ia-practica-trabajadores-emprendedores",
-  "templateVersion": "0.6-publica-profesional",
-  "appName": "IA Práctica para Trabajadores y Emprendedores",
-  "shortName": "IA Práctica",
-  "subtitle": "Curso práctico para crear borradores útiles con IA, revisar resultados y decidir cuándo verificar con fuentes externas.",
-  "description": "Aprendé a usar IA generativa para trabajar, estudiar o emprender sin delegar el criterio: pedí mejores respuestas, revisá límites y documentá decisiones.",
-  "audience": "Trabajadores, emprendedores, estudiantes, comerciantes, administrativos y creadores que quieren usar IA con criterio práctico.",
+  "templateVersion": "0.7-publica-profesional-tanda-3",
+  "appName": "IA Practica para Trabajadores y Emprendedores",
+  "shortName": "IA Practica",
+  "subtitle": "Prompts, privacidad, verificacion, automatizacion liviana y uso responsable.",
+  "description": "Curso practico para usar IA en tareas reales de trabajo sin exponer datos sensibles ni delegar decisiones criticas.",
+  "audience": "Trabajadores, emprendedores, docentes y equipos chicos que quieren usar IA con criterio operativo.",
   "dataPaths": {
     "course": "src/data/course_content.json",
     "checklists": "src/data/checklists.json",
@@ -13,11 +13,11 @@
     "prompts": "src/data/prompts.json"
   },
   "labels": {
-    "modules": "Módulos",
-    "checklists": "Checklists",
-    "incidents": "Casos prácticos",
-    "emergency": "Uso responsable",
-    "certificate": "Constancia",
+    "modules": "Modulos de aprendizaje",
+    "checklists": "Checklists de practica",
+    "incidents": "Casos guiados",
+    "emergency": "Ayuda rapida",
+    "certificate": "Constancia de avance",
     "primaryAction": "Empezar curso",
     "emergencyAction": "Revisar riesgos antes de usar IA",
     "prompts": "Prompts",
@@ -64,7 +64,8 @@
     "readyToShare": true,
     "publicProfessionalEdition": true,
     "requiresBackend": false,
-    "requiresLogin": false
+    "requiresLogin": false,
+    "reinforcedBatch3": true
   },
   "theme": {
     "accent": "#4fb6aa",
@@ -74,11 +75,12 @@
     "primary": "#d6a85c",
     "background": "#21130b"
   },
-  "responsibleNotice": "Contenido educativo. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. No ingresar datos personales, claves, documentos privados ni informacion confidencial.",
+  "responsibleNotice": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar.",
   "cloneNotes": [
     "Versión pública liviana preparada para prueba en navegador.",
     "El paquete conserva el curso, biblioteca de prompts, laboratorio, constructor, constancia, accesibilidad y privacidad.",
-    "La documentación interna de clonación y auditorías históricas fue retirada del ZIP público."
+    "La documentación interna de clonación y auditorías históricas fue retirada del ZIP público.",
+    "v0.7 tanda 3 reemplaza contenido generico por modulos, practicas, checklists y casos especificos en cursos de alta visibilidad."
   ],
   "certificate": {
     "title": "Constancia interna de avance en IA práctica",
@@ -271,5 +273,16 @@
   "editorialPolish": {
     "firstFeaturedBatch": "2026-06-01",
     "status": "public-facing-copy-polished"
+  },
+  "cacheName": "ia_practica_web_v0_6_publica-cache-0.7-tanda-3",
+  "contentAudit": {
+    "status": "reforzado-tanda-3",
+    "date": "2026-06-05",
+    "modules": 6,
+    "lessons": 36,
+    "quizQuestions": 30,
+    "checklists": 6,
+    "cases": 8,
+    "notes": "Contenido reemplazado para reducir patrones genericos en cursos de alta visibilidad."
   }
 }

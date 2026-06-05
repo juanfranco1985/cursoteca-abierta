@@ -1,442 +1,441 @@
 {
-  "courseId": "javascript_desde_cero",
   "incidents": [
     {
-      "id": "case-1",
-      "title": "Caso inicial controlado: JavaScript desde Cero",
-      "summary": "Practica aplicada para resolver una situacion de desarrollo web inicial con practicas pequenas, consola y codigo verificable con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en un mini componente funcional en HTML, CSS y JavaScript sin exponer datos sensibles y con una decision verificable.",
+      "id": "js0-case-1",
+      "title": "Boton que no hace nada",
+      "summary": "El evento no se conecta al elemento correcto.",
+      "severity": "Practica guiada",
+      "immediateGoal": "Diagnosticar selector y timing.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Describir el problema inicial: click sin respuesta.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir un mini componente funcional en HTML, CSS y JavaScript.",
-        "Revisar el resultado contra este criterio: la interaccion funciona, se entiende y puede explicarse linea por linea.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: verificar selector, carga del script y listener.",
+        "Guardar evidencia: error de consola y correccion.",
+        "Validar el resultado contra una prueba pequena y una persona o fuente confiable si corresponde.",
+        "Cerrar con decision, limite detectado y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "codigo fuente, captura del navegador, error corregido y explicacion breve",
-        "Decision final y motivo"
+        "Consigna o caso de partida",
+        "error de consola y correccion",
+        "Version inicial y version corregida",
+        "Decision tomada y motivo",
+        "Duda o riesgo pendiente"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Cambiar CSS sin revisar JS.",
+        "Usar datos sensibles en practicas educativas.",
+        "Publicar sin revisar estados de error.",
+        "Copiar resultados sin entender supuestos.",
+        "Medir exito solo por apariencia."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Crear checklist de eventos.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
+        "Actualizar el checklist del curso.",
         "Definir el siguiente caso de practica."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision muestra mejor criterio profesional?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Probar en pequeno, guardar evidencia, revisar limites y recien despues aplicar o publicar.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: reduce errores y deja aprendizaje transferible."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Usar el primer resultado porque parece correcto.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La apariencia no alcanza sin prueba ni criterio de cierre."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Agregar datos reales para que la practica sea mas completa.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Las practicas deben usar datos simulados o anonimizados."
           }
         ]
       }
     },
     {
-      "id": "case-2",
-      "title": "Caso con datos incompletos: JavaScript desde Cero",
-      "summary": "Practica aplicada para resolver una situacion de desarrollo web inicial con practicas pequenas, consola y codigo verificable con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en un mini componente funcional en HTML, CSS y JavaScript sin exponer datos sensibles y con una decision verificable.",
+      "id": "js0-case-2",
+      "title": "Formulario que borra datos",
+      "summary": "Al fallar validacion se pierde lo escrito.",
+      "severity": "Practica guiada",
+      "immediateGoal": "Preservar entrada y explicar error.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Describir el problema inicial: submit sin prevenir comportamiento.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir un mini componente funcional en HTML, CSS y JavaScript.",
-        "Revisar el resultado contra este criterio: la interaccion funciona, se entiende y puede explicarse linea por linea.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: usar preventDefault y mensajes por campo.",
+        "Guardar evidencia: formulario antes/despues.",
+        "Validar el resultado contra una prueba pequena y una persona o fuente confiable si corresponde.",
+        "Cerrar con decision, limite detectado y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "codigo fuente, captura del navegador, error corregido y explicacion breve",
-        "Decision final y motivo"
+        "Consigna o caso de partida",
+        "formulario antes/despues",
+        "Version inicial y version corregida",
+        "Decision tomada y motivo",
+        "Duda o riesgo pendiente"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Mostrar alert y recargar.",
+        "Usar datos sensibles en practicas educativas.",
+        "Publicar sin revisar estados de error.",
+        "Copiar resultados sin entender supuestos.",
+        "Medir exito solo por apariencia."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Probar campos vacios y validos.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
+        "Actualizar el checklist del curso.",
         "Definir el siguiente caso de practica."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision muestra mejor criterio profesional?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Probar en pequeno, guardar evidencia, revisar limites y recien despues aplicar o publicar.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: reduce errores y deja aprendizaje transferible."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Usar el primer resultado porque parece correcto.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La apariencia no alcanza sin prueba ni criterio de cierre."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Agregar datos reales para que la practica sea mas completa.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Las practicas deben usar datos simulados o anonimizados."
           }
         ]
       }
     },
     {
-      "id": "case-3",
-      "title": "Caso con presion de tiempo: JavaScript desde Cero",
-      "summary": "Practica aplicada para resolver una situacion de desarrollo web inicial con practicas pequenas, consola y codigo verificable con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en un mini componente funcional en HTML, CSS y JavaScript sin exponer datos sensibles y con una decision verificable.",
+      "id": "js0-case-3",
+      "title": "Lista repetida duplicada",
+      "summary": "Cada render agrega items sin limpiar contenedor.",
+      "severity": "Practica guiada",
+      "immediateGoal": "Controlar renderizado.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Describir el problema inicial: duplicacion tras filtrar.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir un mini componente funcional en HTML, CSS y JavaScript.",
-        "Revisar el resultado contra este criterio: la interaccion funciona, se entiende y puede explicarse linea por linea.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: limpiar contenedor o renderizar desde estado.",
+        "Guardar evidencia: captura antes/despues.",
+        "Validar el resultado contra una prueba pequena y una persona o fuente confiable si corresponde.",
+        "Cerrar con decision, limite detectado y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "codigo fuente, captura del navegador, error corregido y explicacion breve",
-        "Decision final y motivo"
+        "Consigna o caso de partida",
+        "captura antes/despues",
+        "Version inicial y version corregida",
+        "Decision tomada y motivo",
+        "Duda o riesgo pendiente"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Crear mas condiciones sin entender render.",
+        "Usar datos sensibles en practicas educativas.",
+        "Publicar sin revisar estados de error.",
+        "Copiar resultados sin entender supuestos.",
+        "Medir exito solo por apariencia."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Separar datos y vista.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
+        "Actualizar el checklist del curso.",
         "Definir el siguiente caso de practica."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision muestra mejor criterio profesional?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Probar en pequeno, guardar evidencia, revisar limites y recien despues aplicar o publicar.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: reduce errores y deja aprendizaje transferible."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Usar el primer resultado porque parece correcto.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La apariencia no alcanza sin prueba ni criterio de cierre."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Agregar datos reales para que la practica sea mas completa.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Las practicas deben usar datos simulados o anonimizados."
           }
         ]
       }
     },
     {
-      "id": "case-4",
-      "title": "Caso de comunicacion con otra persona: JavaScript desde Cero",
-      "summary": "Practica aplicada para resolver una situacion de desarrollo web inicial con practicas pequenas, consola y codigo verificable con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en un mini componente funcional en HTML, CSS y JavaScript sin exponer datos sensibles y con una decision verificable.",
+      "id": "js0-case-4",
+      "title": "localStorage con datos sensibles",
+      "summary": "La app guarda informacion que no deberia quedar en el navegador.",
+      "severity": "Practica guiada",
+      "immediateGoal": "Reducir persistencia.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Describir el problema inicial: almacenamiento innecesario.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir un mini componente funcional en HTML, CSS y JavaScript.",
-        "Revisar el resultado contra este criterio: la interaccion funciona, se entiende y puede explicarse linea por linea.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: guardar solo preferencias no sensibles o limpiar.",
+        "Guardar evidencia: clave localStorage revisada.",
+        "Validar el resultado contra una prueba pequena y una persona o fuente confiable si corresponde.",
+        "Cerrar con decision, limite detectado y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "codigo fuente, captura del navegador, error corregido y explicacion breve",
-        "Decision final y motivo"
+        "Consigna o caso de partida",
+        "clave localStorage revisada",
+        "Version inicial y version corregida",
+        "Decision tomada y motivo",
+        "Duda o riesgo pendiente"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Guardar todo por comodidad.",
+        "Usar datos sensibles en practicas educativas.",
+        "Publicar sin revisar estados de error.",
+        "Copiar resultados sin entender supuestos.",
+        "Medir exito solo por apariencia."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Documentar que se guarda.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
+        "Actualizar el checklist del curso.",
         "Definir el siguiente caso de practica."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision muestra mejor criterio profesional?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Probar en pequeno, guardar evidencia, revisar limites y recien despues aplicar o publicar.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: reduce errores y deja aprendizaje transferible."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Usar el primer resultado porque parece correcto.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La apariencia no alcanza sin prueba ni criterio de cierre."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Agregar datos reales para que la practica sea mas completa.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Las practicas deben usar datos simulados o anonimizados."
           }
         ]
       }
     },
     {
-      "id": "case-5",
-      "title": "Caso de error frecuente: JavaScript desde Cero",
-      "summary": "Practica aplicada para resolver una situacion de desarrollo web inicial con practicas pequenas, consola y codigo verificable con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en un mini componente funcional en HTML, CSS y JavaScript sin exponer datos sensibles y con una decision verificable.",
+      "id": "js0-case-5",
+      "title": "Filtro no encuentra mayusculas",
+      "summary": "La busqueda falla por diferencias de texto.",
+      "severity": "Practica guiada",
+      "immediateGoal": "Normalizar comparacion.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Describir el problema inicial: busqueda sensible a mayusculas.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir un mini componente funcional en HTML, CSS y JavaScript.",
-        "Revisar el resultado contra este criterio: la interaccion funciona, se entiende y puede explicarse linea por linea.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: usar lowerCase y trim.",
+        "Guardar evidencia: casos de prueba.",
+        "Validar el resultado contra una prueba pequena y una persona o fuente confiable si corresponde.",
+        "Cerrar con decision, limite detectado y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "codigo fuente, captura del navegador, error corregido y explicacion breve",
-        "Decision final y motivo"
+        "Consigna o caso de partida",
+        "casos de prueba",
+        "Version inicial y version corregida",
+        "Decision tomada y motivo",
+        "Duda o riesgo pendiente"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Duplicar datos con variantes.",
+        "Usar datos sensibles en practicas educativas.",
+        "Publicar sin revisar estados de error.",
+        "Copiar resultados sin entender supuestos.",
+        "Medir exito solo por apariencia."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Agregar pruebas de busqueda.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
+        "Actualizar el checklist del curso.",
         "Definir el siguiente caso de practica."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision muestra mejor criterio profesional?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Probar en pequeno, guardar evidencia, revisar limites y recien despues aplicar o publicar.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: reduce errores y deja aprendizaje transferible."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Usar el primer resultado porque parece correcto.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La apariencia no alcanza sin prueba ni criterio de cierre."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Agregar datos reales para que la practica sea mas completa.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Las practicas deben usar datos simulados o anonimizados."
           }
         ]
       }
     },
     {
-      "id": "case-6",
-      "title": "Caso de mejora de proceso: JavaScript desde Cero",
-      "summary": "Practica aplicada para resolver una situacion de desarrollo web inicial con practicas pequenas, consola y codigo verificable con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en un mini componente funcional en HTML, CSS y JavaScript sin exponer datos sensibles y con una decision verificable.",
+      "id": "js0-case-6",
+      "title": "Error silencioso",
+      "summary": "La consola muestra error pero la interfaz no avisa.",
+      "severity": "Practica guiada",
+      "immediateGoal": "Mostrar estado de fallo amigable.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Describir el problema inicial: JSON o dato inesperado.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir un mini componente funcional en HTML, CSS y JavaScript.",
-        "Revisar el resultado contra este criterio: la interaccion funciona, se entiende y puede explicarse linea por linea.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: capturar error y renderizar mensaje.",
+        "Guardar evidencia: mensaje de consola y UI.",
+        "Validar el resultado contra una prueba pequena y una persona o fuente confiable si corresponde.",
+        "Cerrar con decision, limite detectado y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "codigo fuente, captura del navegador, error corregido y explicacion breve",
-        "Decision final y motivo"
+        "Consigna o caso de partida",
+        "mensaje de consola y UI",
+        "Version inicial y version corregida",
+        "Decision tomada y motivo",
+        "Duda o riesgo pendiente"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Ignorar porque a veces funciona.",
+        "Usar datos sensibles en practicas educativas.",
+        "Publicar sin revisar estados de error.",
+        "Copiar resultados sin entender supuestos.",
+        "Medir exito solo por apariencia."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Crear estados loading/error/empty.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
+        "Actualizar el checklist del curso.",
         "Definir el siguiente caso de practica."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision muestra mejor criterio profesional?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Probar en pequeno, guardar evidencia, revisar limites y recien despues aplicar o publicar.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: reduce errores y deja aprendizaje transferible."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Usar el primer resultado porque parece correcto.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La apariencia no alcanza sin prueba ni criterio de cierre."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Agregar datos reales para que la practica sea mas completa.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Las practicas deben usar datos simulados o anonimizados."
           }
         ]
       }
     },
     {
-      "id": "case-7",
-      "title": "Caso de decision responsable: JavaScript desde Cero",
-      "summary": "Practica aplicada para resolver una situacion de desarrollo web inicial con practicas pequenas, consola y codigo verificable con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en un mini componente funcional en HTML, CSS y JavaScript sin exponer datos sensibles y con una decision verificable.",
+      "id": "js0-case-7",
+      "title": "Funcion gigante",
+      "summary": "Todo el codigo esta en un bloque dificil de mantener.",
+      "severity": "Practica guiada",
+      "immediateGoal": "Separar responsabilidades.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Describir el problema inicial: codigo repetido y confuso.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir un mini componente funcional en HTML, CSS y JavaScript.",
-        "Revisar el resultado contra este criterio: la interaccion funciona, se entiende y puede explicarse linea por linea.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: extraer leer datos, validar y renderizar.",
+        "Guardar evidencia: funciones antes/despues.",
+        "Validar el resultado contra una prueba pequena y una persona o fuente confiable si corresponde.",
+        "Cerrar con decision, limite detectado y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "codigo fuente, captura del navegador, error corregido y explicacion breve",
-        "Decision final y motivo"
+        "Consigna o caso de partida",
+        "funciones antes/despues",
+        "Version inicial y version corregida",
+        "Decision tomada y motivo",
+        "Duda o riesgo pendiente"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Refactorizar sin probar.",
+        "Usar datos sensibles en practicas educativas.",
+        "Publicar sin revisar estados de error.",
+        "Copiar resultados sin entender supuestos.",
+        "Medir exito solo por apariencia."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Cambiar de a poco.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
+        "Actualizar el checklist del curso.",
         "Definir el siguiente caso de practica."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision muestra mejor criterio profesional?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Probar en pequeno, guardar evidencia, revisar limites y recien despues aplicar o publicar.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: reduce errores y deja aprendizaje transferible."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Usar el primer resultado porque parece correcto.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La apariencia no alcanza sin prueba ni criterio de cierre."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Agregar datos reales para que la practica sea mas completa.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Las practicas deben usar datos simulados o anonimizados."
           }
         ]
       }
     },
     {
-      "id": "case-8",
-      "title": "Proyecto final integrador: JavaScript desde Cero",
-      "summary": "Practica aplicada para resolver una situacion de desarrollo web inicial con practicas pequenas, consola y codigo verificable con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Proyecto final",
-      "immediateGoal": "Transformar el caso en un mini componente funcional en HTML, CSS y JavaScript sin exponer datos sensibles y con una decision verificable.",
+      "id": "js0-case-8",
+      "title": "Mini app que no funciona en movil",
+      "summary": "El flujo se probo solo en escritorio.",
+      "severity": "Practica guiada",
+      "immediateGoal": "Validar viewport y tactil.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Describir el problema inicial: botones chicos o layout roto.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir un mini componente funcional en HTML, CSS y JavaScript.",
-        "Revisar el resultado contra este criterio: la interaccion funciona, se entiende y puede explicarse linea por linea.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: probar ancho movil y ajustar controles.",
+        "Guardar evidencia: capturas desktop/movil.",
+        "Validar el resultado contra una prueba pequena y una persona o fuente confiable si corresponde.",
+        "Cerrar con decision, limite detectado y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "codigo fuente, captura del navegador, error corregido y explicacion breve",
-        "Decision final y motivo"
+        "Consigna o caso de partida",
+        "capturas desktop/movil",
+        "Version inicial y version corregida",
+        "Decision tomada y motivo",
+        "Duda o riesgo pendiente"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Asumir que responsive es solo CSS.",
+        "Usar datos sensibles en practicas educativas.",
+        "Publicar sin revisar estados de error.",
+        "Copiar resultados sin entender supuestos.",
+        "Medir exito solo por apariencia."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Agregar prueba movil antes de publicar.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
+        "Actualizar el checklist del curso.",
         "Definir el siguiente caso de practica."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision muestra mejor criterio profesional?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Probar en pequeno, guardar evidencia, revisar limites y recien despues aplicar o publicar.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: reduce errores y deja aprendizaje transferible."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Usar el primer resultado porque parece correcto.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La apariencia no alcanza sin prueba ni criterio de cierre."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Agregar datos reales para que la practica sea mas completa.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Las practicas deben usar datos simulados o anonimizados."
           }
         ]
       }

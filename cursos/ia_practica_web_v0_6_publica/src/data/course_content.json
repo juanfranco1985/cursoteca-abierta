@@ -1,1426 +1,1040 @@
 {
-  "appName": "IA Práctica para Trabajadores y Emprendedores",
-  "version": "0.6-publica",
+  "courseId": "ia-practica-trabajadores-emprendedores",
+  "title": "IA Practica para Trabajadores y Emprendedores",
+  "version": "0.7-tanda-3",
+  "publicationStatus": "publica-profesional-v0.7-tanda-3",
   "modules": [
     {
       "id": "m1",
-      "title": "Fundamentos de IA generativa",
-      "description": "En este módulo vas a trabajar \"Fundamentos de IA generativa\" dentro de uso responsable de IA generativa en trabajo, ventas, estudio y organización. El objetivo es practicar con situaciones concretas, entender qué decisión mejora y cerrar con una evidencia simple.",
-      "commercialRisk": "Comprensión inicial",
+      "title": "IA como asistente de trabajo",
+      "description": "Entender que la IA ayuda a preparar borradores, ordenar informacion y acelerar tareas, pero no reemplaza criterio humano.",
+      "learningRisk": "Practicar sin evidencia puede dejar errores invisibles o decisiones dificiles de sostener.",
       "lessons": [
         {
-          "id": "m1_l1",
-          "title": "Qué es la IA generativa",
-          "keyIdea": "Idea clave: Qué es la IA generativa sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Qué es la IA generativa\" dentro del módulo \"Fundamentos de IA generativa\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona necesita preparar un borrador, ordenar ideas, responder consultas o mejorar una tarea usando IA con revisión humana. Aplicá \"Qué es la IA generativa\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un prompt mejorado, una respuesta revisada y una lista de verificaciones pendientes.",
-          "alert": "No ingresar datos personales, claves, documentos privados ni informacion confidencial.",
+          "id": "m1-l1",
+          "title": "Que puede y que no puede hacer la IA",
+          "keyIdea": "Que puede y que no puede hacer la IA sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja que puede y que no puede hacer la ia dentro de ia como asistente de trabajo. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Un equipo necesita responder consultas, resumir informacion, ordenar ideas y revisar textos usando IA sin filtrar datos privados. Aplica que puede y que no puede hacer la ia sobre ese escenario, guarda mapa de tareas aptas, dudosas y no aptas para IA y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de que puede y que no puede hacer la ia, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "No pegues datos sensibles en herramientas sin evaluar privacidad.",
           "keyPoints": [
-            "Qué es la IA generativa debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: un prompt mejorado, una respuesta revisada y una lista de verificaciones pendientes.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Que puede y que no puede hacer la IA debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: cada tarea tiene beneficio, riesgo y control humano definido.",
+            "Evidencia minima: mapa de tareas aptas, dudosas y no aptas para IA.",
+            "Entregable final relacionado: kit de prompts y flujo de trabajo con criterios de privacidad, revision humana y evidencia."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
-          "id": "m1_l2",
-          "title": "Qué puede y qué no puede hacer",
-          "keyIdea": "Idea clave: Qué puede y qué no puede hacer sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Qué puede y qué no puede hacer\" dentro del módulo \"Fundamentos de IA generativa\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona necesita preparar un borrador, ordenar ideas, responder consultas o mejorar una tarea usando IA con revisión humana. Aplicá \"Qué puede y qué no puede hacer\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un prompt mejorado, una respuesta revisada y una lista de verificaciones pendientes.",
-          "alert": "No ingresar datos personales, claves, documentos privados ni informacion confidencial.",
+          "id": "m1-l2",
+          "title": "Tareas repetitivas y tareas de criterio",
+          "keyIdea": "Tareas repetitivas y tareas de criterio sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja tareas repetitivas y tareas de criterio dentro de ia como asistente de trabajo. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Un equipo necesita responder consultas, resumir informacion, ordenar ideas y revisar textos usando IA sin filtrar datos privados. Aplica tareas repetitivas y tareas de criterio sobre ese escenario, guarda mapa de tareas aptas, dudosas y no aptas para IA y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de tareas repetitivas y tareas de criterio, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "No pegues datos sensibles en herramientas sin evaluar privacidad.",
           "keyPoints": [
-            "Qué puede y qué no puede hacer debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: un prompt mejorado, una respuesta revisada y una lista de verificaciones pendientes.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Tareas repetitivas y tareas de criterio debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: cada tarea tiene beneficio, riesgo y control humano definido.",
+            "Evidencia minima: mapa de tareas aptas, dudosas y no aptas para IA.",
+            "Entregable final relacionado: kit de prompts y flujo de trabajo con criterios de privacidad, revision humana y evidencia."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
-          "id": "m1_l3",
-          "title": "Diferencia entre asistente y fuente definitiva",
-          "keyIdea": "Idea clave: Diferencia entre asistente y fuente definitiva sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Diferencia entre asistente y fuente definitiva\" dentro del módulo \"Fundamentos de IA generativa\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona necesita preparar un borrador, ordenar ideas, responder consultas o mejorar una tarea usando IA con revisión humana. Aplicá \"Diferencia entre asistente y fuente definitiva\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un prompt mejorado, una respuesta revisada y una lista de verificaciones pendientes.",
-          "alert": "No ingresar datos personales, claves, documentos privados ni informacion confidencial.",
+          "id": "m1-l3",
+          "title": "Datos publicos, internos y sensibles",
+          "keyIdea": "Datos publicos, internos y sensibles sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja datos publicos, internos y sensibles dentro de ia como asistente de trabajo. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Un equipo necesita responder consultas, resumir informacion, ordenar ideas y revisar textos usando IA sin filtrar datos privados. Aplica datos publicos, internos y sensibles sobre ese escenario, guarda mapa de tareas aptas, dudosas y no aptas para IA y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de datos publicos, internos y sensibles, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "No pegues datos sensibles en herramientas sin evaluar privacidad.",
           "keyPoints": [
-            "Diferencia entre asistente y fuente definitiva debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: un prompt mejorado, una respuesta revisada y una lista de verificaciones pendientes.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Datos publicos, internos y sensibles debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: cada tarea tiene beneficio, riesgo y control humano definido.",
+            "Evidencia minima: mapa de tareas aptas, dudosas y no aptas para IA.",
+            "Entregable final relacionado: kit de prompts y flujo de trabajo con criterios de privacidad, revision humana y evidencia."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
-          "id": "m1_l4",
-          "title": "Usos reales para trabajadores",
-          "keyIdea": "Idea clave: Usos reales para trabajadores sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Usos reales para trabajadores\" dentro del módulo \"Fundamentos de IA generativa\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona necesita preparar un borrador, ordenar ideas, responder consultas o mejorar una tarea usando IA con revisión humana. Aplicá \"Usos reales para trabajadores\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un prompt mejorado, una respuesta revisada y una lista de verificaciones pendientes.",
-          "alert": "No ingresar datos personales, claves, documentos privados ni informacion confidencial.",
+          "id": "m1-l4",
+          "title": "Control humano obligatorio",
+          "keyIdea": "Control humano obligatorio sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja control humano obligatorio dentro de ia como asistente de trabajo. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Un equipo necesita responder consultas, resumir informacion, ordenar ideas y revisar textos usando IA sin filtrar datos privados. Aplica control humano obligatorio sobre ese escenario, guarda mapa de tareas aptas, dudosas y no aptas para IA y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de control humano obligatorio, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "No pegues datos sensibles en herramientas sin evaluar privacidad.",
           "keyPoints": [
-            "Usos reales para trabajadores debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: un prompt mejorado, una respuesta revisada y una lista de verificaciones pendientes.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Control humano obligatorio debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: cada tarea tiene beneficio, riesgo y control humano definido.",
+            "Evidencia minima: mapa de tareas aptas, dudosas y no aptas para IA.",
+            "Entregable final relacionado: kit de prompts y flujo de trabajo con criterios de privacidad, revision humana y evidencia."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
-          "id": "m1_l5",
-          "title": "Usos reales para emprendedores",
-          "keyIdea": "Idea clave: Usos reales para emprendedores sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Usos reales para emprendedores\" dentro del módulo \"Fundamentos de IA generativa\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona necesita preparar un borrador, ordenar ideas, responder consultas o mejorar una tarea usando IA con revisión humana. Aplicá \"Usos reales para emprendedores\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un prompt mejorado, una respuesta revisada y una lista de verificaciones pendientes.",
-          "alert": "No ingresar datos personales, claves, documentos privados ni informacion confidencial.",
+          "id": "m1-l5",
+          "title": "Beneficio real vs novedad",
+          "keyIdea": "Beneficio real vs novedad sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja beneficio real vs novedad dentro de ia como asistente de trabajo. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Un equipo necesita responder consultas, resumir informacion, ordenar ideas y revisar textos usando IA sin filtrar datos privados. Aplica beneficio real vs novedad sobre ese escenario, guarda mapa de tareas aptas, dudosas y no aptas para IA y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de beneficio real vs novedad, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "No pegues datos sensibles en herramientas sin evaluar privacidad.",
           "keyPoints": [
-            "Usos reales para emprendedores debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: un prompt mejorado, una respuesta revisada y una lista de verificaciones pendientes.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Beneficio real vs novedad debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: cada tarea tiene beneficio, riesgo y control humano definido.",
+            "Evidencia minima: mapa de tareas aptas, dudosas y no aptas para IA.",
+            "Entregable final relacionado: kit de prompts y flujo de trabajo con criterios de privacidad, revision humana y evidencia."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
-          "id": "m1_l6",
-          "title": "Primer flujo seguro de uso",
-          "keyIdea": "Idea clave: Primer flujo seguro de uso sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Primer flujo seguro de uso\" dentro del módulo \"Fundamentos de IA generativa\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona necesita preparar un borrador, ordenar ideas, responder consultas o mejorar una tarea usando IA con revisión humana. Aplicá \"Primer flujo seguro de uso\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un prompt mejorado, una respuesta revisada y una lista de verificaciones pendientes.",
-          "alert": "No ingresar datos personales, claves, documentos privados ni informacion confidencial.",
+          "id": "m1-l6",
+          "title": "Mapa de usos permitidos",
+          "keyIdea": "Mapa de usos permitidos sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja mapa de usos permitidos dentro de ia como asistente de trabajo. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Un equipo necesita responder consultas, resumir informacion, ordenar ideas y revisar textos usando IA sin filtrar datos privados. Aplica mapa de usos permitidos sobre ese escenario, guarda mapa de tareas aptas, dudosas y no aptas para IA y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de mapa de usos permitidos, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "No pegues datos sensibles en herramientas sin evaluar privacidad.",
           "keyPoints": [
-            "Primer flujo seguro de uso debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: un prompt mejorado, una respuesta revisada y una lista de verificaciones pendientes.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Mapa de usos permitidos debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: cada tarea tiene beneficio, riesgo y control humano definido.",
+            "Evidencia minima: mapa de tareas aptas, dudosas y no aptas para IA.",
+            "Entregable final relacionado: kit de prompts y flujo de trabajo con criterios de privacidad, revision humana y evidencia."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
-        }
-      ],
-      "quizQuestions": [
-        {
-          "id": "m1_q1",
-          "question": "¿Cuál es una forma correcta de entender la IA generativa?",
-          "options": [
-            "Como una herramienta que genera borradores y ayuda a pensar",
-            "Como una fuente infalible",
-            "Como reemplazo total de toda revisión humana",
-            "Como un sistema que siempre conoce datos actuales"
-          ],
-          "correctAnswerIndex": 0,
-          "feedback": "La IA generativa es útil como asistente, pero requiere criterio y revisión."
-        },
-        {
-          "id": "m1_q2",
-          "question": "¿Qué riesgo debe recordarse siempre?",
-          "options": [
-            "Que puede equivocarse o inventar información",
-            "Que nunca escribe textos largos",
-            "Que solo sirve para programar",
-            "Que no puede ordenar ideas"
-          ],
-          "correctAnswerIndex": 0,
-          "feedback": "Las respuestas pueden ser convincentes y aun así incorrectas."
-        },
-        {
-          "id": "m1_q3",
-          "question": "¿Cuál es un uso laboral razonable?",
-          "options": [
-            "Ordenar una lista de tareas",
-            "Compartir contraseñas",
-            "Tomar decisiones legales sin verificar",
-            "Publicar datos privados"
-          ],
-          "correctAnswerIndex": 0,
-          "feedback": "Ordenar tareas es un uso seguro y práctico si no se exponen datos sensibles."
-        },
-        {
-          "id": "m1_q4",
-          "question": "¿Qué conviene definir antes de usar IA?",
-          "options": [
-            "Objetivo y formato esperado",
-            "La clave del correo",
-            "Datos bancarios completos",
-            "El número de tarjeta"
-          ],
-          "correctAnswerIndex": 0,
-          "feedback": "Objetivo, contexto permitido y formato mejoran la respuesta."
-        },
-        {
-          "id": "m1_q5",
-          "question": "¿Qué significa usar IA con criterio?",
-          "options": [
-            "Revisar y adaptar la respuesta",
-            "Copiar todo sin leer",
-            "Aceptar cualquier dato",
-            "Evitar toda verificación"
-          ],
-          "correctAnswerIndex": 0,
-          "feedback": "La revisión humana es parte central del uso responsable."
         }
       ],
       "quiz": [
         {
-          "id": "m1_q1",
-          "question": "¿Cuál es una forma correcta de entender la IA generativa?",
+          "id": "m1-q1",
+          "question": "Que conviene definir primero en \"IA como asistente de trabajo\"?",
           "options": [
-            "Como una herramienta que genera borradores y ayuda a pensar",
-            "Como una fuente infalible",
-            "Como reemplazo total de toda revisión humana",
-            "Como un sistema que siempre conoce datos actuales"
+            "Objetivo, entrada, salida esperada y evidencia de prueba.",
+            "La herramienta mas vistosa disponible.",
+            "Un resultado final sin pasos intermedios.",
+            "Una respuesta rapida sin revisar contexto."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "La IA generativa es útil como asistente, pero requiere criterio y revisión."
+          "feedback": "Correcto: el trabajo mejora cuando se sabe que entra, que sale y como se comprueba."
         },
         {
-          "id": "m1_q2",
-          "question": "¿Qué riesgo debe recordarse siempre?",
+          "id": "m1-q2",
+          "question": "Que evidencia permite cerrar el modulo con mas confianza?",
           "options": [
-            "Que puede equivocarse o inventar información",
-            "Que nunca escribe textos largos",
-            "Que solo sirve para programar",
-            "Que no puede ordenar ideas"
+            "mapa de tareas aptas, dudosas y no aptas para IA",
+            "Un comentario general sin prueba.",
+            "Una captura sin explicar que se valido.",
+            "Una herramienta abierta en pantalla."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Las respuestas pueden ser convincentes y aun así incorrectas."
+          "feedback": "Correcto: mapa de tareas aptas, dudosas y no aptas para IA permite revisar y mantener el resultado."
         },
         {
-          "id": "m1_q3",
-          "question": "¿Cuál es un uso laboral razonable?",
+          "id": "m1-q3",
+          "question": "Que conducta aumenta la probabilidad de error?",
           "options": [
-            "Ordenar una lista de tareas",
-            "Compartir contraseñas",
-            "Tomar decisiones legales sin verificar",
-            "Publicar datos privados"
+            "Usar IA para decidir temas sensibles sin revision humana.",
+            "Usar datos de prueba antes de aplicar a un caso real.",
+            "Separar errores de funcionamiento y errores de interpretacion.",
+            "Guardar supuestos y decisiones."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Ordenar tareas es un uso seguro y práctico si no se exponen datos sensibles."
+          "feedback": "Correcto: esa conducta oculta problemas y dificulta corregirlos."
         },
         {
-          "id": "m1_q4",
-          "question": "¿Qué conviene definir antes de usar IA?",
+          "id": "m1-q4",
+          "question": "Cuando corresponde pedir validacion externa o revisar una fuente confiable?",
           "options": [
-            "Objetivo y formato esperado",
-            "La clave del correo",
-            "Datos bancarios completos",
-            "El número de tarjeta"
+            "Cuando la tarea afecta clientes, dinero, salud, datos personales o derechos.",
+            "Nunca, porque la practica educativa reemplaza cualquier revision.",
+            "Solo cuando el resultado se ve mal.",
+            "Despues de publicar sin pruebas."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Objetivo, contexto permitido y formato mejoran la respuesta."
+          "feedback": "Correcto: algunas decisiones requieren soporte, fuente oficial o una persona competente."
         },
         {
-          "id": "m1_q5",
-          "question": "¿Qué significa usar IA con criterio?",
+          "id": "m1-q5",
+          "question": "Cual es el entregable minimo de \"IA como asistente de trabajo\"?",
           "options": [
-            "Revisar y adaptar la respuesta",
-            "Copiar todo sin leer",
-            "Aceptar cualquier dato",
-            "Evitar toda verificación"
+            "matriz de uso de IA por tarea",
+            "Una lista de ideas sin evidencia.",
+            "Una copia de pantalla sin explicacion.",
+            "Un archivo final sin criterio de cierre."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "La revisión humana es parte central del uso responsable."
+          "feedback": "Correcto: matriz de uso de IA por tarea deja avance verificable."
         }
-      ],
-      "professionalOutcome": "crear borradores utiles, revisar resultados y decidir cuando verificar con fuentes externas. Entregable sugerido: un prompt final con contexto seguro, formato esperado y checklist de revision."
+      ]
     },
     {
       "id": "m2",
-      "title": "Prompts claros y reutilizables",
-      "description": "En este módulo vas a trabajar \"Prompts claros y reutilizables\" dentro de uso responsable de IA generativa en trabajo, ventas, estudio y organización. El objetivo es practicar con situaciones concretas, entender qué decisión mejora y cerrar con una evidencia simple.",
-      "commercialRisk": "Diseño de prompts",
+      "title": "Prompts utiles y verificables",
+      "description": "Construir instrucciones con contexto, objetivo, formato, restricciones y ejemplo.",
+      "learningRisk": "Practicar sin evidencia puede dejar errores invisibles o decisiones dificiles de sostener.",
       "lessons": [
         {
-          "id": "m2_l1",
-          "title": "La estructura mínima de un buen prompt",
-          "keyIdea": "Idea clave: La estructura mínima de un buen prompt sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"La estructura mínima de un buen prompt\" dentro del módulo \"Prompts claros y reutilizables\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona necesita preparar un borrador, ordenar ideas, responder consultas o mejorar una tarea usando IA con revisión humana. Aplicá \"La estructura mínima de un buen prompt\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un prompt mejorado, una respuesta revisada y una lista de verificaciones pendientes.",
-          "alert": "No ingresar datos personales, claves, documentos privados ni informacion confidencial.",
+          "id": "m2-l1",
+          "title": "Contexto y rol",
+          "keyIdea": "Contexto y rol sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja contexto y rol dentro de prompts utiles y verificables. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Un equipo necesita responder consultas, resumir informacion, ordenar ideas y revisar textos usando IA sin filtrar datos privados. Aplica contexto y rol sobre ese escenario, guarda prompt con contexto, salida esperada, restricciones y criterio de revision y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de contexto y rol, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "Un prompt bueno tambien dice que no debe inventar.",
           "keyPoints": [
-            "La estructura mínima de un buen prompt debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: un prompt mejorado, una respuesta revisada y una lista de verificaciones pendientes.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Contexto y rol debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: otra persona puede reutilizar el prompt y revisar si la salida sirve.",
+            "Evidencia minima: prompt con contexto, salida esperada, restricciones y criterio de revision.",
+            "Entregable final relacionado: kit de prompts y flujo de trabajo con criterios de privacidad, revision humana y evidencia."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
-          "id": "m2_l2",
-          "title": "Dar contexto sin exponer datos sensibles",
-          "keyIdea": "Idea clave: Dar contexto sin exponer datos sensibles sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Dar contexto sin exponer datos sensibles\" dentro del módulo \"Prompts claros y reutilizables\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona necesita preparar un borrador, ordenar ideas, responder consultas o mejorar una tarea usando IA con revisión humana. Aplicá \"Dar contexto sin exponer datos sensibles\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un prompt mejorado, una respuesta revisada y una lista de verificaciones pendientes.",
-          "alert": "No ingresar datos personales, claves, documentos privados ni informacion confidencial.",
+          "id": "m2-l2",
+          "title": "Objetivo de la salida",
+          "keyIdea": "Objetivo de la salida sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja objetivo de la salida dentro de prompts utiles y verificables. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Un equipo necesita responder consultas, resumir informacion, ordenar ideas y revisar textos usando IA sin filtrar datos privados. Aplica objetivo de la salida sobre ese escenario, guarda prompt con contexto, salida esperada, restricciones y criterio de revision y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de objetivo de la salida, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "Un prompt bueno tambien dice que no debe inventar.",
           "keyPoints": [
-            "Dar contexto sin exponer datos sensibles debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: un prompt mejorado, una respuesta revisada y una lista de verificaciones pendientes.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Objetivo de la salida debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: otra persona puede reutilizar el prompt y revisar si la salida sirve.",
+            "Evidencia minima: prompt con contexto, salida esperada, restricciones y criterio de revision.",
+            "Entregable final relacionado: kit de prompts y flujo de trabajo con criterios de privacidad, revision humana y evidencia."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
-          "id": "m2_l3",
-          "title": "Pedir formato de salida",
-          "keyIdea": "Idea clave: Pedir formato de salida sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Pedir formato de salida\" dentro del módulo \"Prompts claros y reutilizables\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona necesita preparar un borrador, ordenar ideas, responder consultas o mejorar una tarea usando IA con revisión humana. Aplicá \"Pedir formato de salida\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un prompt mejorado, una respuesta revisada y una lista de verificaciones pendientes.",
-          "alert": "No ingresar datos personales, claves, documentos privados ni informacion confidencial.",
+          "id": "m2-l3",
+          "title": "Formato pedido",
+          "keyIdea": "Formato pedido sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja formato pedido dentro de prompts utiles y verificables. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Un equipo necesita responder consultas, resumir informacion, ordenar ideas y revisar textos usando IA sin filtrar datos privados. Aplica formato pedido sobre ese escenario, guarda prompt con contexto, salida esperada, restricciones y criterio de revision y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de formato pedido, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "Un prompt bueno tambien dice que no debe inventar.",
           "keyPoints": [
-            "Pedir formato de salida debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: un prompt mejorado, una respuesta revisada y una lista de verificaciones pendientes.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Formato pedido debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: otra persona puede reutilizar el prompt y revisar si la salida sirve.",
+            "Evidencia minima: prompt con contexto, salida esperada, restricciones y criterio de revision.",
+            "Entregable final relacionado: kit de prompts y flujo de trabajo con criterios de privacidad, revision humana y evidencia."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
-          "id": "m2_l4",
-          "title": "Iterar en vez de esperar perfección",
-          "keyIdea": "Idea clave: Iterar en vez de esperar perfección sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Iterar en vez de esperar perfección\" dentro del módulo \"Prompts claros y reutilizables\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona necesita preparar un borrador, ordenar ideas, responder consultas o mejorar una tarea usando IA con revisión humana. Aplicá \"Iterar en vez de esperar perfección\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un prompt mejorado, una respuesta revisada y una lista de verificaciones pendientes.",
-          "alert": "No ingresar datos personales, claves, documentos privados ni informacion confidencial.",
+          "id": "m2-l4",
+          "title": "Restricciones",
+          "keyIdea": "Restricciones sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja restricciones dentro de prompts utiles y verificables. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Un equipo necesita responder consultas, resumir informacion, ordenar ideas y revisar textos usando IA sin filtrar datos privados. Aplica restricciones sobre ese escenario, guarda prompt con contexto, salida esperada, restricciones y criterio de revision y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de restricciones, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "Un prompt bueno tambien dice que no debe inventar.",
           "keyPoints": [
-            "Iterar en vez de esperar perfección debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: un prompt mejorado, una respuesta revisada y una lista de verificaciones pendientes.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Restricciones debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: otra persona puede reutilizar el prompt y revisar si la salida sirve.",
+            "Evidencia minima: prompt con contexto, salida esperada, restricciones y criterio de revision.",
+            "Entregable final relacionado: kit de prompts y flujo de trabajo con criterios de privacidad, revision humana y evidencia."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
-          "id": "m2_l5",
-          "title": "Crear prompts reutilizables",
-          "keyIdea": "Idea clave: Crear prompts reutilizables sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Crear prompts reutilizables\" dentro del módulo \"Prompts claros y reutilizables\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona necesita preparar un borrador, ordenar ideas, responder consultas o mejorar una tarea usando IA con revisión humana. Aplicá \"Crear prompts reutilizables\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un prompt mejorado, una respuesta revisada y una lista de verificaciones pendientes.",
-          "alert": "No ingresar datos personales, claves, documentos privados ni informacion confidencial.",
+          "id": "m2-l5",
+          "title": "Ejemplos seguros",
+          "keyIdea": "Ejemplos seguros sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja ejemplos seguros dentro de prompts utiles y verificables. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Un equipo necesita responder consultas, resumir informacion, ordenar ideas y revisar textos usando IA sin filtrar datos privados. Aplica ejemplos seguros sobre ese escenario, guarda prompt con contexto, salida esperada, restricciones y criterio de revision y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de ejemplos seguros, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "Un prompt bueno tambien dice que no debe inventar.",
           "keyPoints": [
-            "Crear prompts reutilizables debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: un prompt mejorado, una respuesta revisada y una lista de verificaciones pendientes.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Ejemplos seguros debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: otra persona puede reutilizar el prompt y revisar si la salida sirve.",
+            "Evidencia minima: prompt con contexto, salida esperada, restricciones y criterio de revision.",
+            "Entregable final relacionado: kit de prompts y flujo de trabajo con criterios de privacidad, revision humana y evidencia."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
-          "id": "m2_l6",
-          "title": "Evaluar si el prompt funcionó",
-          "keyIdea": "Idea clave: Evaluar si el prompt funcionó sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Evaluar si el prompt funcionó\" dentro del módulo \"Prompts claros y reutilizables\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona necesita preparar un borrador, ordenar ideas, responder consultas o mejorar una tarea usando IA con revisión humana. Aplicá \"Evaluar si el prompt funcionó\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un prompt mejorado, una respuesta revisada y una lista de verificaciones pendientes.",
-          "alert": "No ingresar datos personales, claves, documentos privados ni informacion confidencial.",
+          "id": "m2-l6",
+          "title": "Versionado de prompts",
+          "keyIdea": "Versionado de prompts sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja versionado de prompts dentro de prompts utiles y verificables. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Un equipo necesita responder consultas, resumir informacion, ordenar ideas y revisar textos usando IA sin filtrar datos privados. Aplica versionado de prompts sobre ese escenario, guarda prompt con contexto, salida esperada, restricciones y criterio de revision y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de versionado de prompts, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "Un prompt bueno tambien dice que no debe inventar.",
           "keyPoints": [
-            "Evaluar si el prompt funcionó debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: un prompt mejorado, una respuesta revisada y una lista de verificaciones pendientes.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Versionado de prompts debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: otra persona puede reutilizar el prompt y revisar si la salida sirve.",
+            "Evidencia minima: prompt con contexto, salida esperada, restricciones y criterio de revision.",
+            "Entregable final relacionado: kit de prompts y flujo de trabajo con criterios de privacidad, revision humana y evidencia."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
-        }
-      ],
-      "quizQuestions": [
-        {
-          "id": "m2_q1",
-          "question": "¿Qué elemento mejora mucho un prompt?",
-          "options": [
-            "Contexto claro",
-            "Ambigüedad total",
-            "Datos privados innecesarios",
-            "Una sola palabra"
-          ],
-          "correctAnswerIndex": 0,
-          "feedback": "El contexto ayuda a que la IA entienda la situación."
-        },
-        {
-          "id": "m2_q2",
-          "question": "¿Qué formato se puede pedir?",
-          "options": [
-            "Tabla, lista o pasos",
-            "Solo imágenes obligatorias",
-            "Datos secretos",
-            "Contraseñas"
-          ],
-          "correctAnswerIndex": 0,
-          "feedback": "Pedir formato hace la salida más accionable."
-        },
-        {
-          "id": "m2_q3",
-          "question": "¿Qué es iterar un prompt?",
-          "options": [
-            "Mejorarlo con nuevas indicaciones",
-            "Borrar el objetivo",
-            "No revisar nada",
-            "Cambiar de tema sin explicación"
-          ],
-          "correctAnswerIndex": 0,
-          "feedback": "Iterar permite convertir un borrador en algo usable."
-        },
-        {
-          "id": "m2_q4",
-          "question": "¿Qué debe evitarse al dar contexto?",
-          "options": [
-            "Exponer datos sensibles",
-            "Explicar el objetivo",
-            "Pedir tono",
-            "Pedir estructura"
-          ],
-          "correctAnswerIndex": 0,
-          "feedback": "El contexto útil no debe incluir información privada innecesaria."
-        },
-        {
-          "id": "m2_q5",
-          "question": "¿Para qué sirve una plantilla de prompt?",
-          "options": [
-            "Para repetir tareas con consistencia",
-            "Para compartir claves",
-            "Para evitar revisar",
-            "Para ocultar errores"
-          ],
-          "correctAnswerIndex": 0,
-          "feedback": "Las plantillas aceleran trabajos repetidos."
         }
       ],
       "quiz": [
         {
-          "id": "m2_q1",
-          "question": "¿Qué elemento mejora mucho un prompt?",
+          "id": "m2-q1",
+          "question": "Que conviene definir primero en \"Prompts utiles y verificables\"?",
           "options": [
-            "Contexto claro",
-            "Ambigüedad total",
-            "Datos privados innecesarios",
-            "Una sola palabra"
+            "Objetivo, entrada, salida esperada y evidencia de prueba.",
+            "La herramienta mas vistosa disponible.",
+            "Un resultado final sin pasos intermedios.",
+            "Una respuesta rapida sin revisar contexto."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "El contexto ayuda a que la IA entienda la situación."
+          "feedback": "Correcto: el trabajo mejora cuando se sabe que entra, que sale y como se comprueba."
         },
         {
-          "id": "m2_q2",
-          "question": "¿Qué formato se puede pedir?",
+          "id": "m2-q2",
+          "question": "Que evidencia permite cerrar el modulo con mas confianza?",
           "options": [
-            "Tabla, lista o pasos",
-            "Solo imágenes obligatorias",
-            "Datos secretos",
-            "Contraseñas"
+            "prompt con contexto, salida esperada, restricciones y criterio de revision",
+            "Un comentario general sin prueba.",
+            "Una captura sin explicar que se valido.",
+            "Una herramienta abierta en pantalla."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Pedir formato hace la salida más accionable."
+          "feedback": "Correcto: prompt con contexto, salida esperada, restricciones y criterio de revision permite revisar y mantener el resultado."
         },
         {
-          "id": "m2_q3",
-          "question": "¿Qué es iterar un prompt?",
+          "id": "m2-q3",
+          "question": "Que conducta aumenta la probabilidad de error?",
           "options": [
-            "Mejorarlo con nuevas indicaciones",
-            "Borrar el objetivo",
-            "No revisar nada",
-            "Cambiar de tema sin explicación"
+            "Pedir respuestas generales para tareas que necesitan formato preciso.",
+            "Usar datos de prueba antes de aplicar a un caso real.",
+            "Separar errores de funcionamiento y errores de interpretacion.",
+            "Guardar supuestos y decisiones."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Iterar permite convertir un borrador en algo usable."
+          "feedback": "Correcto: esa conducta oculta problemas y dificulta corregirlos."
         },
         {
-          "id": "m2_q4",
-          "question": "¿Qué debe evitarse al dar contexto?",
+          "id": "m2-q4",
+          "question": "Cuando corresponde pedir validacion externa o revisar una fuente confiable?",
           "options": [
-            "Exponer datos sensibles",
-            "Explicar el objetivo",
-            "Pedir tono",
-            "Pedir estructura"
+            "Cuando la salida sera enviada a clientes, publico o autoridades.",
+            "Nunca, porque la practica educativa reemplaza cualquier revision.",
+            "Solo cuando el resultado se ve mal.",
+            "Despues de publicar sin pruebas."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "El contexto útil no debe incluir información privada innecesaria."
+          "feedback": "Correcto: algunas decisiones requieren soporte, fuente oficial o una persona competente."
         },
         {
-          "id": "m2_q5",
-          "question": "¿Para qué sirve una plantilla de prompt?",
+          "id": "m2-q5",
+          "question": "Cual es el entregable minimo de \"Prompts utiles y verificables\"?",
           "options": [
-            "Para repetir tareas con consistencia",
-            "Para compartir claves",
-            "Para evitar revisar",
-            "Para ocultar errores"
+            "biblioteca inicial de prompts",
+            "Una lista de ideas sin evidencia.",
+            "Una copia de pantalla sin explicacion.",
+            "Un archivo final sin criterio de cierre."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Las plantillas aceleran trabajos repetidos."
+          "feedback": "Correcto: biblioteca inicial de prompts deja avance verificable."
         }
-      ],
-      "professionalOutcome": "crear borradores utiles, revisar resultados y decidir cuando verificar con fuentes externas. Entregable sugerido: un prompt final con contexto seguro, formato esperado y checklist de revision."
+      ]
     },
     {
       "id": "m3",
-      "title": "IA para redactar, resumir y organizar",
-      "description": "En este módulo vas a trabajar \"IA para redactar, resumir y organizar\" dentro de uso responsable de IA generativa en trabajo, ventas, estudio y organización. El objetivo es practicar con situaciones concretas, entender qué decisión mejora y cerrar con una evidencia simple.",
-      "commercialRisk": "Productividad escrita",
+      "title": "Privacidad y seguridad",
+      "description": "Reducir exposicion de datos al preparar consultas, ejemplos y archivos.",
+      "learningRisk": "Practicar sin evidencia puede dejar errores invisibles o decisiones dificiles de sostener.",
       "lessons": [
         {
-          "id": "m3_l1",
-          "title": "Redactar textos de trabajo",
-          "keyIdea": "Idea clave: Redactar textos de trabajo sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Redactar textos de trabajo\" dentro del módulo \"IA para redactar, resumir y organizar\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona necesita preparar un borrador, ordenar ideas, responder consultas o mejorar una tarea usando IA con revisión humana. Aplicá \"Redactar textos de trabajo\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un prompt mejorado, una respuesta revisada y una lista de verificaciones pendientes.",
-          "alert": "No ingresar datos personales, claves, documentos privados ni informacion confidencial.",
+          "id": "m3-l1",
+          "title": "Anonimizar datos",
+          "keyIdea": "Anonimizar datos sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja anonimizar datos dentro de privacidad y seguridad. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Un equipo necesita responder consultas, resumir informacion, ordenar ideas y revisar textos usando IA sin filtrar datos privados. Aplica anonimizar datos sobre ese escenario, guarda version anonimizada de un caso antes de usar IA y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de anonimizar datos, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "Si no sabes si un dato es sensible, tratalo como sensible.",
           "keyPoints": [
-            "Redactar textos de trabajo debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: un prompt mejorado, una respuesta revisada y una lista de verificaciones pendientes.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Anonimizar datos debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: el ejercicio no contiene datos personales innecesarios.",
+            "Evidencia minima: version anonimizada de un caso antes de usar IA.",
+            "Entregable final relacionado: kit de prompts y flujo de trabajo con criterios de privacidad, revision humana y evidencia."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
-          "id": "m3_l2",
-          "title": "Resumir sin perder lo importante",
-          "keyIdea": "Idea clave: Resumir sin perder lo importante sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Resumir sin perder lo importante\" dentro del módulo \"IA para redactar, resumir y organizar\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona necesita preparar un borrador, ordenar ideas, responder consultas o mejorar una tarea usando IA con revisión humana. Aplicá \"Resumir sin perder lo importante\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un prompt mejorado, una respuesta revisada y una lista de verificaciones pendientes.",
-          "alert": "No ingresar datos personales, claves, documentos privados ni informacion confidencial.",
+          "id": "m3-l2",
+          "title": "Minimizar informacion",
+          "keyIdea": "Minimizar informacion sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja minimizar informacion dentro de privacidad y seguridad. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Un equipo necesita responder consultas, resumir informacion, ordenar ideas y revisar textos usando IA sin filtrar datos privados. Aplica minimizar informacion sobre ese escenario, guarda version anonimizada de un caso antes de usar IA y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de minimizar informacion, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "Si no sabes si un dato es sensible, tratalo como sensible.",
           "keyPoints": [
-            "Resumir sin perder lo importante debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: un prompt mejorado, una respuesta revisada y una lista de verificaciones pendientes.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Minimizar informacion debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: el ejercicio no contiene datos personales innecesarios.",
+            "Evidencia minima: version anonimizada de un caso antes de usar IA.",
+            "Entregable final relacionado: kit de prompts y flujo de trabajo con criterios de privacidad, revision humana y evidencia."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
-          "id": "m3_l3",
-          "title": "Ordenar notas desprolijas",
-          "keyIdea": "Idea clave: Ordenar notas desprolijas sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Ordenar notas desprolijas\" dentro del módulo \"IA para redactar, resumir y organizar\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona necesita preparar un borrador, ordenar ideas, responder consultas o mejorar una tarea usando IA con revisión humana. Aplicá \"Ordenar notas desprolijas\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un prompt mejorado, una respuesta revisada y una lista de verificaciones pendientes.",
-          "alert": "No ingresar datos personales, claves, documentos privados ni informacion confidencial.",
+          "id": "m3-l3",
+          "title": "Archivos y adjuntos",
+          "keyIdea": "Archivos y adjuntos sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja archivos y adjuntos dentro de privacidad y seguridad. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Un equipo necesita responder consultas, resumir informacion, ordenar ideas y revisar textos usando IA sin filtrar datos privados. Aplica archivos y adjuntos sobre ese escenario, guarda version anonimizada de un caso antes de usar IA y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de archivos y adjuntos, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "Si no sabes si un dato es sensible, tratalo como sensible.",
           "keyPoints": [
-            "Ordenar notas desprolijas debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: un prompt mejorado, una respuesta revisada y una lista de verificaciones pendientes.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Archivos y adjuntos debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: el ejercicio no contiene datos personales innecesarios.",
+            "Evidencia minima: version anonimizada de un caso antes de usar IA.",
+            "Entregable final relacionado: kit de prompts y flujo de trabajo con criterios de privacidad, revision humana y evidencia."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
-          "id": "m3_l4",
-          "title": "Crear documentos base",
-          "keyIdea": "Idea clave: Crear documentos base sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Crear documentos base\" dentro del módulo \"IA para redactar, resumir y organizar\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona necesita preparar un borrador, ordenar ideas, responder consultas o mejorar una tarea usando IA con revisión humana. Aplicá \"Crear documentos base\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un prompt mejorado, una respuesta revisada y una lista de verificaciones pendientes.",
-          "alert": "No ingresar datos personales, claves, documentos privados ni informacion confidencial.",
+          "id": "m3-l4",
+          "title": "Historial de herramientas",
+          "keyIdea": "Historial de herramientas sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja historial de herramientas dentro de privacidad y seguridad. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Un equipo necesita responder consultas, resumir informacion, ordenar ideas y revisar textos usando IA sin filtrar datos privados. Aplica historial de herramientas sobre ese escenario, guarda version anonimizada de un caso antes de usar IA y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de historial de herramientas, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "Si no sabes si un dato es sensible, tratalo como sensible.",
           "keyPoints": [
-            "Crear documentos base debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: un prompt mejorado, una respuesta revisada y una lista de verificaciones pendientes.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Historial de herramientas debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: el ejercicio no contiene datos personales innecesarios.",
+            "Evidencia minima: version anonimizada de un caso antes de usar IA.",
+            "Entregable final relacionado: kit de prompts y flujo de trabajo con criterios de privacidad, revision humana y evidencia."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
-          "id": "m3_l5",
-          "title": "Reescribir con distinto tono",
-          "keyIdea": "Idea clave: Reescribir con distinto tono sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Reescribir con distinto tono\" dentro del módulo \"IA para redactar, resumir y organizar\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona necesita preparar un borrador, ordenar ideas, responder consultas o mejorar una tarea usando IA con revisión humana. Aplicá \"Reescribir con distinto tono\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un prompt mejorado, una respuesta revisada y una lista de verificaciones pendientes.",
-          "alert": "No ingresar datos personales, claves, documentos privados ni informacion confidencial.",
+          "id": "m3-l5",
+          "title": "Permisos y cuentas",
+          "keyIdea": "Permisos y cuentas sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja permisos y cuentas dentro de privacidad y seguridad. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Un equipo necesita responder consultas, resumir informacion, ordenar ideas y revisar textos usando IA sin filtrar datos privados. Aplica permisos y cuentas sobre ese escenario, guarda version anonimizada de un caso antes de usar IA y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de permisos y cuentas, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "Si no sabes si un dato es sensible, tratalo como sensible.",
           "keyPoints": [
-            "Reescribir con distinto tono debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: un prompt mejorado, una respuesta revisada y una lista de verificaciones pendientes.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Permisos y cuentas debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: el ejercicio no contiene datos personales innecesarios.",
+            "Evidencia minima: version anonimizada de un caso antes de usar IA.",
+            "Entregable final relacionado: kit de prompts y flujo de trabajo con criterios de privacidad, revision humana y evidencia."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
-          "id": "m3_l6",
-          "title": "Revisión humana final",
-          "keyIdea": "Idea clave: Revisión humana final sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Revisión humana final\" dentro del módulo \"IA para redactar, resumir y organizar\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona necesita preparar un borrador, ordenar ideas, responder consultas o mejorar una tarea usando IA con revisión humana. Aplicá \"Revisión humana final\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un prompt mejorado, una respuesta revisada y una lista de verificaciones pendientes.",
-          "alert": "No ingresar datos personales, claves, documentos privados ni informacion confidencial.",
+          "id": "m3-l6",
+          "title": "Registro de riesgos",
+          "keyIdea": "Registro de riesgos sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja registro de riesgos dentro de privacidad y seguridad. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Un equipo necesita responder consultas, resumir informacion, ordenar ideas y revisar textos usando IA sin filtrar datos privados. Aplica registro de riesgos sobre ese escenario, guarda version anonimizada de un caso antes de usar IA y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de registro de riesgos, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "Si no sabes si un dato es sensible, tratalo como sensible.",
           "keyPoints": [
-            "Revisión humana final debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: un prompt mejorado, una respuesta revisada y una lista de verificaciones pendientes.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Registro de riesgos debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: el ejercicio no contiene datos personales innecesarios.",
+            "Evidencia minima: version anonimizada de un caso antes de usar IA.",
+            "Entregable final relacionado: kit de prompts y flujo de trabajo con criterios de privacidad, revision humana y evidencia."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
-        }
-      ],
-      "quizQuestions": [
-        {
-          "id": "m3_q1",
-          "question": "¿Qué texto puede ayudar a crear la IA?",
-          "options": [
-            "Un borrador de correo",
-            "Una contraseña segura revelada a terceros",
-            "Una garantía legal absoluta",
-            "Un pago confirmado sin verificar"
-          ],
-          "correctAnswerIndex": 0,
-          "feedback": "Los borradores son uno de los usos más seguros y útiles."
-        },
-        {
-          "id": "m3_q2",
-          "question": "¿Qué debe conservar un buen resumen?",
-          "options": [
-            "Decisiones y próximos pasos",
-            "Solo frases lindas",
-            "Datos inventados",
-            "Contraseñas"
-          ],
-          "correctAnswerIndex": 0,
-          "feedback": "Un resumen útil conserva lo accionable."
-        },
-        {
-          "id": "m3_q3",
-          "question": "¿Qué conviene hacer antes de enviar un texto generado?",
-          "options": [
-            "Revisarlo",
-            "Mandarlo sin leer",
-            "Agregar datos privados",
-            "Eliminar contexto"
-          ],
-          "correctAnswerIndex": 0,
-          "feedback": "La revisión humana evita errores de tono o contenido."
-        },
-        {
-          "id": "m3_q4",
-          "question": "¿Qué puede hacer la IA con notas desordenadas?",
-          "options": [
-            "Ordenarlas por temas y acciones",
-            "Garantizar verdades",
-            "Confirmar pagos",
-            "Reemplazar evidencia"
-          ],
-          "correctAnswerIndex": 0,
-          "feedback": "Ordenar información es un uso práctico."
-        },
-        {
-          "id": "m3_q5",
-          "question": "¿Qué significa ajustar tono?",
-          "options": [
-            "Adaptar el mensaje al destinatario",
-            "Mentir sobre el producto",
-            "Aumentar promesas",
-            "Quitar toda claridad"
-          ],
-          "correctAnswerIndex": 0,
-          "feedback": "El tono debe ser claro y adecuado al contexto."
         }
       ],
       "quiz": [
         {
-          "id": "m3_q1",
-          "question": "¿Qué texto puede ayudar a crear la IA?",
+          "id": "m3-q1",
+          "question": "Que conviene definir primero en \"Privacidad y seguridad\"?",
           "options": [
-            "Un borrador de correo",
-            "Una contraseña segura revelada a terceros",
-            "Una garantía legal absoluta",
-            "Un pago confirmado sin verificar"
+            "Objetivo, entrada, salida esperada y evidencia de prueba.",
+            "La herramienta mas vistosa disponible.",
+            "Un resultado final sin pasos intermedios.",
+            "Una respuesta rapida sin revisar contexto."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Los borradores son uno de los usos más seguros y útiles."
+          "feedback": "Correcto: el trabajo mejora cuando se sabe que entra, que sale y como se comprueba."
         },
         {
-          "id": "m3_q2",
-          "question": "¿Qué debe conservar un buen resumen?",
+          "id": "m3-q2",
+          "question": "Que evidencia permite cerrar el modulo con mas confianza?",
           "options": [
-            "Decisiones y próximos pasos",
-            "Solo frases lindas",
-            "Datos inventados",
-            "Contraseñas"
+            "version anonimizada de un caso antes de usar IA",
+            "Un comentario general sin prueba.",
+            "Una captura sin explicar que se valido.",
+            "Una herramienta abierta en pantalla."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Un resumen útil conserva lo accionable."
+          "feedback": "Correcto: version anonimizada de un caso antes de usar IA permite revisar y mantener el resultado."
         },
         {
-          "id": "m3_q3",
-          "question": "¿Qué conviene hacer antes de enviar un texto generado?",
+          "id": "m3-q3",
+          "question": "Que conducta aumenta la probabilidad de error?",
           "options": [
-            "Revisarlo",
-            "Mandarlo sin leer",
-            "Agregar datos privados",
-            "Eliminar contexto"
+            "Pegar chats, documentos o bases reales completas.",
+            "Usar datos de prueba antes de aplicar a un caso real.",
+            "Separar errores de funcionamiento y errores de interpretacion.",
+            "Guardar supuestos y decisiones."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "La revisión humana evita errores de tono o contenido."
+          "feedback": "Correcto: esa conducta oculta problemas y dificulta corregirlos."
         },
         {
-          "id": "m3_q4",
-          "question": "¿Qué puede hacer la IA con notas desordenadas?",
+          "id": "m3-q4",
+          "question": "Cuando corresponde pedir validacion externa o revisar una fuente confiable?",
           "options": [
-            "Ordenarlas por temas y acciones",
-            "Garantizar verdades",
-            "Confirmar pagos",
-            "Reemplazar evidencia"
+            "Cuando aparecen nombres, documentos, datos bancarios, salud o informacion laboral sensible.",
+            "Nunca, porque la practica educativa reemplaza cualquier revision.",
+            "Solo cuando el resultado se ve mal.",
+            "Despues de publicar sin pruebas."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Ordenar información es un uso práctico."
+          "feedback": "Correcto: algunas decisiones requieren soporte, fuente oficial o una persona competente."
         },
         {
-          "id": "m3_q5",
-          "question": "¿Qué significa ajustar tono?",
+          "id": "m3-q5",
+          "question": "Cual es el entregable minimo de \"Privacidad y seguridad\"?",
           "options": [
-            "Adaptar el mensaje al destinatario",
-            "Mentir sobre el producto",
-            "Aumentar promesas",
-            "Quitar toda claridad"
+            "protocolo de anonimizado",
+            "Una lista de ideas sin evidencia.",
+            "Una copia de pantalla sin explicacion.",
+            "Un archivo final sin criterio de cierre."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "El tono debe ser claro y adecuado al contexto."
+          "feedback": "Correcto: protocolo de anonimizado deja avance verificable."
         }
-      ],
-      "professionalOutcome": "crear borradores utiles, revisar resultados y decidir cuando verificar con fuentes externas. Entregable sugerido: un prompt final con contexto seguro, formato esperado y checklist de revision."
+      ]
     },
     {
       "id": "m4",
-      "title": "IA para ventas, atención y emprendimientos",
-      "description": "En este módulo vas a trabajar \"IA para ventas, atención y emprendimientos\" dentro de uso responsable de IA generativa en trabajo, ventas, estudio y organización. El objetivo es practicar con situaciones concretas, entender qué decisión mejora y cerrar con una evidencia simple.",
-      "commercialRisk": "Uso comercial",
+      "title": "Verificar respuestas",
+      "description": "Detectar errores, alucinaciones, sesgos, omisiones y supuestos antes de usar la salida.",
+      "learningRisk": "Practicar sin evidencia puede dejar errores invisibles o decisiones dificiles de sostener.",
       "lessons": [
         {
-          "id": "m4_l1",
-          "title": "Responder mejor a clientes",
-          "keyIdea": "Idea clave: Responder mejor a clientes sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Responder mejor a clientes\" dentro del módulo \"IA para ventas, atención y emprendimientos\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona necesita preparar un borrador, ordenar ideas, responder consultas o mejorar una tarea usando IA con revisión humana. Aplicá \"Responder mejor a clientes\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un prompt mejorado, una respuesta revisada y una lista de verificaciones pendientes.",
-          "alert": "No ingresar datos personales, claves, documentos privados ni informacion confidencial.",
+          "id": "m4-l1",
+          "title": "Hechos y fuentes",
+          "keyIdea": "Hechos y fuentes sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja hechos y fuentes dentro de verificar respuestas. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Un equipo necesita responder consultas, resumir informacion, ordenar ideas y revisar textos usando IA sin filtrar datos privados. Aplica hechos y fuentes sobre ese escenario, guarda checklist de verificacion aplicado a una respuesta de IA y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de hechos y fuentes, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "La seguridad del tono no prueba exactitud.",
           "keyPoints": [
-            "Responder mejor a clientes debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: un prompt mejorado, una respuesta revisada y una lista de verificaciones pendientes.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Hechos y fuentes debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: la salida se revisa por exactitud, fuente, tono, faltantes y accion.",
+            "Evidencia minima: checklist de verificacion aplicado a una respuesta de IA.",
+            "Entregable final relacionado: kit de prompts y flujo de trabajo con criterios de privacidad, revision humana y evidencia."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
-          "id": "m4_l2",
-          "title": "Crear publicaciones de venta",
-          "keyIdea": "Idea clave: Crear publicaciones de venta sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Crear publicaciones de venta\" dentro del módulo \"IA para ventas, atención y emprendimientos\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona necesita preparar un borrador, ordenar ideas, responder consultas o mejorar una tarea usando IA con revisión humana. Aplicá \"Crear publicaciones de venta\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un prompt mejorado, una respuesta revisada y una lista de verificaciones pendientes.",
-          "alert": "No ingresar datos personales, claves, documentos privados ni informacion confidencial.",
+          "id": "m4-l2",
+          "title": "Supuestos ocultos",
+          "keyIdea": "Supuestos ocultos sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja supuestos ocultos dentro de verificar respuestas. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Un equipo necesita responder consultas, resumir informacion, ordenar ideas y revisar textos usando IA sin filtrar datos privados. Aplica supuestos ocultos sobre ese escenario, guarda checklist de verificacion aplicado a una respuesta de IA y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de supuestos ocultos, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "La seguridad del tono no prueba exactitud.",
           "keyPoints": [
-            "Crear publicaciones de venta debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: un prompt mejorado, una respuesta revisada y una lista de verificaciones pendientes.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Supuestos ocultos debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: la salida se revisa por exactitud, fuente, tono, faltantes y accion.",
+            "Evidencia minima: checklist de verificacion aplicado a una respuesta de IA.",
+            "Entregable final relacionado: kit de prompts y flujo de trabajo con criterios de privacidad, revision humana y evidencia."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
-          "id": "m4_l3",
-          "title": "Armar descripciones de productos",
-          "keyIdea": "Idea clave: Armar descripciones de productos sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Armar descripciones de productos\" dentro del módulo \"IA para ventas, atención y emprendimientos\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona necesita preparar un borrador, ordenar ideas, responder consultas o mejorar una tarea usando IA con revisión humana. Aplicá \"Armar descripciones de productos\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un prompt mejorado, una respuesta revisada y una lista de verificaciones pendientes.",
-          "alert": "No ingresar datos personales, claves, documentos privados ni informacion confidencial.",
+          "id": "m4-l3",
+          "title": "Errores por omision",
+          "keyIdea": "Errores por omision sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja errores por omision dentro de verificar respuestas. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Un equipo necesita responder consultas, resumir informacion, ordenar ideas y revisar textos usando IA sin filtrar datos privados. Aplica errores por omision sobre ese escenario, guarda checklist de verificacion aplicado a una respuesta de IA y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de errores por omision, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "La seguridad del tono no prueba exactitud.",
           "keyPoints": [
-            "Armar descripciones de productos debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: un prompt mejorado, una respuesta revisada y una lista de verificaciones pendientes.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Errores por omision debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: la salida se revisa por exactitud, fuente, tono, faltantes y accion.",
+            "Evidencia minima: checklist de verificacion aplicado a una respuesta de IA.",
+            "Entregable final relacionado: kit de prompts y flujo de trabajo con criterios de privacidad, revision humana y evidencia."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
-          "id": "m4_l4",
-          "title": "Preparar mensajes de seguimiento",
-          "keyIdea": "Idea clave: Preparar mensajes de seguimiento sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Preparar mensajes de seguimiento\" dentro del módulo \"IA para ventas, atención y emprendimientos\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona necesita preparar un borrador, ordenar ideas, responder consultas o mejorar una tarea usando IA con revisión humana. Aplicá \"Preparar mensajes de seguimiento\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un prompt mejorado, una respuesta revisada y una lista de verificaciones pendientes.",
-          "alert": "No ingresar datos personales, claves, documentos privados ni informacion confidencial.",
+          "id": "m4-l4",
+          "title": "Tono y publico",
+          "keyIdea": "Tono y publico sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja tono y publico dentro de verificar respuestas. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Un equipo necesita responder consultas, resumir informacion, ordenar ideas y revisar textos usando IA sin filtrar datos privados. Aplica tono y publico sobre ese escenario, guarda checklist de verificacion aplicado a una respuesta de IA y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de tono y publico, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "La seguridad del tono no prueba exactitud.",
           "keyPoints": [
-            "Preparar mensajes de seguimiento debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: un prompt mejorado, una respuesta revisada y una lista de verificaciones pendientes.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Tono y publico debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: la salida se revisa por exactitud, fuente, tono, faltantes y accion.",
+            "Evidencia minima: checklist de verificacion aplicado a una respuesta de IA.",
+            "Entregable final relacionado: kit de prompts y flujo de trabajo con criterios de privacidad, revision humana y evidencia."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
-          "id": "m4_l5",
-          "title": "Resolver reclamos con calma",
-          "keyIdea": "Idea clave: Resolver reclamos con calma sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Resolver reclamos con calma\" dentro del módulo \"IA para ventas, atención y emprendimientos\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona necesita preparar un borrador, ordenar ideas, responder consultas o mejorar una tarea usando IA con revisión humana. Aplicá \"Resolver reclamos con calma\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un prompt mejorado, una respuesta revisada y una lista de verificaciones pendientes.",
-          "alert": "No ingresar datos personales, claves, documentos privados ni informacion confidencial.",
+          "id": "m4-l5",
+          "title": "Prueba con casos limite",
+          "keyIdea": "Prueba con casos limite sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja prueba con casos limite dentro de verificar respuestas. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Un equipo necesita responder consultas, resumir informacion, ordenar ideas y revisar textos usando IA sin filtrar datos privados. Aplica prueba con casos limite sobre ese escenario, guarda checklist de verificacion aplicado a una respuesta de IA y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de prueba con casos limite, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "La seguridad del tono no prueba exactitud.",
           "keyPoints": [
-            "Resolver reclamos con calma debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: un prompt mejorado, una respuesta revisada y una lista de verificaciones pendientes.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Prueba con casos limite debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: la salida se revisa por exactitud, fuente, tono, faltantes y accion.",
+            "Evidencia minima: checklist de verificacion aplicado a una respuesta de IA.",
+            "Entregable final relacionado: kit de prompts y flujo de trabajo con criterios de privacidad, revision humana y evidencia."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
-          "id": "m4_l6",
-          "title": "Crear una mini guía comercial",
-          "keyIdea": "Idea clave: Crear una mini guía comercial sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Crear una mini guía comercial\" dentro del módulo \"IA para ventas, atención y emprendimientos\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona necesita preparar un borrador, ordenar ideas, responder consultas o mejorar una tarea usando IA con revisión humana. Aplicá \"Crear una mini guía comercial\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un prompt mejorado, una respuesta revisada y una lista de verificaciones pendientes.",
-          "alert": "No ingresar datos personales, claves, documentos privados ni informacion confidencial.",
+          "id": "m4-l6",
+          "title": "Decision de usar o descartar",
+          "keyIdea": "Decision de usar o descartar sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja decision de usar o descartar dentro de verificar respuestas. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Un equipo necesita responder consultas, resumir informacion, ordenar ideas y revisar textos usando IA sin filtrar datos privados. Aplica decision de usar o descartar sobre ese escenario, guarda checklist de verificacion aplicado a una respuesta de IA y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de decision de usar o descartar, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "La seguridad del tono no prueba exactitud.",
           "keyPoints": [
-            "Crear una mini guía comercial debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: un prompt mejorado, una respuesta revisada y una lista de verificaciones pendientes.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Decision de usar o descartar debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: la salida se revisa por exactitud, fuente, tono, faltantes y accion.",
+            "Evidencia minima: checklist de verificacion aplicado a una respuesta de IA.",
+            "Entregable final relacionado: kit de prompts y flujo de trabajo con criterios de privacidad, revision humana y evidencia."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
-        }
-      ],
-      "quizQuestions": [
-        {
-          "id": "m4_q1",
-          "question": "¿Qué debe tener una respuesta a cliente?",
-          "options": [
-            "Claridad y pasos concretos",
-            "Presión innecesaria",
-            "Promesas falsas",
-            "Datos inventados"
-          ],
-          "correctAnswerIndex": 0,
-          "feedback": "La atención mejora con claridad y calma."
-        },
-        {
-          "id": "m4_q2",
-          "question": "¿Qué debe evitar una publicación de venta?",
-          "options": [
-            "Promesas exageradas",
-            "Beneficios claros",
-            "Precio transparente",
-            "Llamado a la acción"
-          ],
-          "correctAnswerIndex": 0,
-          "feedback": "La honestidad evita reclamos y mala experiencia."
-        },
-        {
-          "id": "m4_q3",
-          "question": "¿Cómo puede ayudar IA ante un reclamo?",
-          "options": [
-            "Bajando tensión y ordenando respuesta",
-            "Insultando al cliente",
-            "Negando todo sin revisar",
-            "Inventando políticas"
-          ],
-          "correctAnswerIndex": 0,
-          "feedback": "Una respuesta calma puede ordenar el conflicto."
-        },
-        {
-          "id": "m4_q4",
-          "question": "¿Qué conviene documentar para atención?",
-          "options": [
-            "Respuestas frecuentes",
-            "Claves de cuentas",
-            "Datos bancarios completos",
-            "Códigos de verificación"
-          ],
-          "correctAnswerIndex": 0,
-          "feedback": "Las respuestas frecuentes aceleran atención sin exponer datos."
-        },
-        {
-          "id": "m4_q5",
-          "question": "¿Qué es seguimiento comercial sano?",
-          "options": [
-            "Recordar con respeto y claridad",
-            "Acosar al cliente",
-            "Presionar sin pausa",
-            "Prometer descuentos falsos"
-          ],
-          "correctAnswerIndex": 0,
-          "feedback": "El seguimiento debe ser útil, no invasivo."
         }
       ],
       "quiz": [
         {
-          "id": "m4_q1",
-          "question": "¿Qué debe tener una respuesta a cliente?",
+          "id": "m4-q1",
+          "question": "Que conviene definir primero en \"Verificar respuestas\"?",
           "options": [
-            "Claridad y pasos concretos",
-            "Presión innecesaria",
-            "Promesas falsas",
-            "Datos inventados"
+            "Objetivo, entrada, salida esperada y evidencia de prueba.",
+            "La herramienta mas vistosa disponible.",
+            "Un resultado final sin pasos intermedios.",
+            "Una respuesta rapida sin revisar contexto."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "La atención mejora con claridad y calma."
+          "feedback": "Correcto: el trabajo mejora cuando se sabe que entra, que sale y como se comprueba."
         },
         {
-          "id": "m4_q2",
-          "question": "¿Qué debe evitar una publicación de venta?",
+          "id": "m4-q2",
+          "question": "Que evidencia permite cerrar el modulo con mas confianza?",
           "options": [
-            "Promesas exageradas",
-            "Beneficios claros",
-            "Precio transparente",
-            "Llamado a la acción"
+            "checklist de verificacion aplicado a una respuesta de IA",
+            "Un comentario general sin prueba.",
+            "Una captura sin explicar que se valido.",
+            "Una herramienta abierta en pantalla."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "La honestidad evita reclamos y mala experiencia."
+          "feedback": "Correcto: checklist de verificacion aplicado a una respuesta de IA permite revisar y mantener el resultado."
         },
         {
-          "id": "m4_q3",
-          "question": "¿Cómo puede ayudar IA ante un reclamo?",
+          "id": "m4-q3",
+          "question": "Que conducta aumenta la probabilidad de error?",
           "options": [
-            "Bajando tensión y ordenando respuesta",
-            "Insultando al cliente",
-            "Negando todo sin revisar",
-            "Inventando políticas"
+            "Copiar y pegar una respuesta porque suena profesional.",
+            "Usar datos de prueba antes de aplicar a un caso real.",
+            "Separar errores de funcionamiento y errores de interpretacion.",
+            "Guardar supuestos y decisiones."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Una respuesta calma puede ordenar el conflicto."
+          "feedback": "Correcto: esa conducta oculta problemas y dificulta corregirlos."
         },
         {
-          "id": "m4_q4",
-          "question": "¿Qué conviene documentar para atención?",
+          "id": "m4-q4",
+          "question": "Cuando corresponde pedir validacion externa o revisar una fuente confiable?",
           "options": [
-            "Respuestas frecuentes",
-            "Claves de cuentas",
-            "Datos bancarios completos",
-            "Códigos de verificación"
+            "Cuando se citan datos, leyes, precios, salud, finanzas o instrucciones tecnicas.",
+            "Nunca, porque la practica educativa reemplaza cualquier revision.",
+            "Solo cuando el resultado se ve mal.",
+            "Despues de publicar sin pruebas."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Las respuestas frecuentes aceleran atención sin exponer datos."
+          "feedback": "Correcto: algunas decisiones requieren soporte, fuente oficial o una persona competente."
         },
         {
-          "id": "m4_q5",
-          "question": "¿Qué es seguimiento comercial sano?",
+          "id": "m4-q5",
+          "question": "Cual es el entregable minimo de \"Verificar respuestas\"?",
           "options": [
-            "Recordar con respeto y claridad",
-            "Acosar al cliente",
-            "Presionar sin pausa",
-            "Prometer descuentos falsos"
+            "proceso de revision de respuestas",
+            "Una lista de ideas sin evidencia.",
+            "Una copia de pantalla sin explicacion.",
+            "Un archivo final sin criterio de cierre."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "El seguimiento debe ser útil, no invasivo."
+          "feedback": "Correcto: proceso de revision de respuestas deja avance verificable."
         }
-      ],
-      "professionalOutcome": "crear borradores utiles, revisar resultados y decidir cuando verificar con fuentes externas. Entregable sugerido: un prompt final con contexto seguro, formato esperado y checklist de revision."
+      ]
     },
     {
       "id": "m5",
-      "title": "IA para estudiar y trabajar mejor",
-      "description": "En este módulo vas a trabajar \"IA para estudiar y trabajar mejor\" dentro de uso responsable de IA generativa en trabajo, ventas, estudio y organización. El objetivo es practicar con situaciones concretas, entender qué decisión mejora y cerrar con una evidencia simple.",
-      "commercialRisk": "Aprendizaje y trabajo",
+      "title": "Flujos de trabajo con IA",
+      "description": "Integrar IA en procesos chicos: correo, resumen, planilla, ideas, atencion o documentacion.",
+      "learningRisk": "Practicar sin evidencia puede dejar errores invisibles o decisiones dificiles de sostener.",
       "lessons": [
         {
-          "id": "m5_l1",
-          "title": "Estudiar con explicaciones simples",
-          "keyIdea": "Idea clave: Estudiar con explicaciones simples sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Estudiar con explicaciones simples\" dentro del módulo \"IA para estudiar y trabajar mejor\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona necesita preparar un borrador, ordenar ideas, responder consultas o mejorar una tarea usando IA con revisión humana. Aplicá \"Estudiar con explicaciones simples\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un prompt mejorado, una respuesta revisada y una lista de verificaciones pendientes.",
-          "alert": "No ingresar datos personales, claves, documentos privados ni informacion confidencial.",
+          "id": "m5-l1",
+          "title": "Borradores de correo",
+          "keyIdea": "Borradores de correo sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja borradores de correo dentro de flujos de trabajo con ia. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Un equipo necesita responder consultas, resumir informacion, ordenar ideas y revisar textos usando IA sin filtrar datos privados. Aplica borradores de correo sobre ese escenario, guarda flujo con entrada, prompt, salida, revision y archivo final y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de borradores de correo, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "La IA debe quedar dentro de un proceso, no al mando del proceso.",
           "keyPoints": [
-            "Estudiar con explicaciones simples debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: un prompt mejorado, una respuesta revisada y una lista de verificaciones pendientes.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Borradores de correo debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: el flujo ahorra tiempo sin aumentar errores ni exposicion.",
+            "Evidencia minima: flujo con entrada, prompt, salida, revision y archivo final.",
+            "Entregable final relacionado: kit de prompts y flujo de trabajo con criterios de privacidad, revision humana y evidencia."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
-          "id": "m5_l2",
-          "title": "Practicar con preguntas",
-          "keyIdea": "Idea clave: Practicar con preguntas sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Practicar con preguntas\" dentro del módulo \"IA para estudiar y trabajar mejor\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona necesita preparar un borrador, ordenar ideas, responder consultas o mejorar una tarea usando IA con revisión humana. Aplicá \"Practicar con preguntas\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un prompt mejorado, una respuesta revisada y una lista de verificaciones pendientes.",
-          "alert": "No ingresar datos personales, claves, documentos privados ni informacion confidencial.",
+          "id": "m5-l2",
+          "title": "Resumenes de reuniones",
+          "keyIdea": "Resumenes de reuniones sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja resumenes de reuniones dentro de flujos de trabajo con ia. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Un equipo necesita responder consultas, resumir informacion, ordenar ideas y revisar textos usando IA sin filtrar datos privados. Aplica resumenes de reuniones sobre ese escenario, guarda flujo con entrada, prompt, salida, revision y archivo final y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de resumenes de reuniones, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "La IA debe quedar dentro de un proceso, no al mando del proceso.",
           "keyPoints": [
-            "Practicar con preguntas debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: un prompt mejorado, una respuesta revisada y una lista de verificaciones pendientes.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Resumenes de reuniones debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: el flujo ahorra tiempo sin aumentar errores ni exposicion.",
+            "Evidencia minima: flujo con entrada, prompt, salida, revision y archivo final.",
+            "Entregable final relacionado: kit de prompts y flujo de trabajo con criterios de privacidad, revision humana y evidencia."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
-          "id": "m5_l3",
-          "title": "Planificar una semana de trabajo",
-          "keyIdea": "Idea clave: Planificar una semana de trabajo sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Planificar una semana de trabajo\" dentro del módulo \"IA para estudiar y trabajar mejor\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona necesita preparar un borrador, ordenar ideas, responder consultas o mejorar una tarea usando IA con revisión humana. Aplicá \"Planificar una semana de trabajo\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un prompt mejorado, una respuesta revisada y una lista de verificaciones pendientes.",
-          "alert": "No ingresar datos personales, claves, documentos privados ni informacion confidencial.",
+          "id": "m5-l3",
+          "title": "Ideas y planificacion",
+          "keyIdea": "Ideas y planificacion sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja ideas y planificacion dentro de flujos de trabajo con ia. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Un equipo necesita responder consultas, resumir informacion, ordenar ideas y revisar textos usando IA sin filtrar datos privados. Aplica ideas y planificacion sobre ese escenario, guarda flujo con entrada, prompt, salida, revision y archivo final y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de ideas y planificacion, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "La IA debe quedar dentro de un proceso, no al mando del proceso.",
           "keyPoints": [
-            "Planificar una semana de trabajo debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: un prompt mejorado, una respuesta revisada y una lista de verificaciones pendientes.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Ideas y planificacion debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: el flujo ahorra tiempo sin aumentar errores ni exposicion.",
+            "Evidencia minima: flujo con entrada, prompt, salida, revision y archivo final.",
+            "Entregable final relacionado: kit de prompts y flujo de trabajo con criterios de privacidad, revision humana y evidencia."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
-          "id": "m5_l4",
-          "title": "Descomponer problemas grandes",
-          "keyIdea": "Idea clave: Descomponer problemas grandes sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Descomponer problemas grandes\" dentro del módulo \"IA para estudiar y trabajar mejor\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona necesita preparar un borrador, ordenar ideas, responder consultas o mejorar una tarea usando IA con revisión humana. Aplicá \"Descomponer problemas grandes\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un prompt mejorado, una respuesta revisada y una lista de verificaciones pendientes.",
-          "alert": "No ingresar datos personales, claves, documentos privados ni informacion confidencial.",
+          "id": "m5-l4",
+          "title": "Clasificacion simple",
+          "keyIdea": "Clasificacion simple sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja clasificacion simple dentro de flujos de trabajo con ia. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Un equipo necesita responder consultas, resumir informacion, ordenar ideas y revisar textos usando IA sin filtrar datos privados. Aplica clasificacion simple sobre ese escenario, guarda flujo con entrada, prompt, salida, revision y archivo final y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de clasificacion simple, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "La IA debe quedar dentro de un proceso, no al mando del proceso.",
           "keyPoints": [
-            "Descomponer problemas grandes debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: un prompt mejorado, una respuesta revisada y una lista de verificaciones pendientes.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Clasificacion simple debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: el flujo ahorra tiempo sin aumentar errores ni exposicion.",
+            "Evidencia minima: flujo con entrada, prompt, salida, revision y archivo final.",
+            "Entregable final relacionado: kit de prompts y flujo de trabajo con criterios de privacidad, revision humana y evidencia."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
-          "id": "m5_l5",
-          "title": "Aprender herramientas nuevas",
-          "keyIdea": "Idea clave: Aprender herramientas nuevas sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Aprender herramientas nuevas\" dentro del módulo \"IA para estudiar y trabajar mejor\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona necesita preparar un borrador, ordenar ideas, responder consultas o mejorar una tarea usando IA con revisión humana. Aplicá \"Aprender herramientas nuevas\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un prompt mejorado, una respuesta revisada y una lista de verificaciones pendientes.",
-          "alert": "No ingresar datos personales, claves, documentos privados ni informacion confidencial.",
+          "id": "m5-l5",
+          "title": "Plantillas reutilizables",
+          "keyIdea": "Plantillas reutilizables sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja plantillas reutilizables dentro de flujos de trabajo con ia. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Un equipo necesita responder consultas, resumir informacion, ordenar ideas y revisar textos usando IA sin filtrar datos privados. Aplica plantillas reutilizables sobre ese escenario, guarda flujo con entrada, prompt, salida, revision y archivo final y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de plantillas reutilizables, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "La IA debe quedar dentro de un proceso, no al mando del proceso.",
           "keyPoints": [
-            "Aprender herramientas nuevas debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: un prompt mejorado, una respuesta revisada y una lista de verificaciones pendientes.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Plantillas reutilizables debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: el flujo ahorra tiempo sin aumentar errores ni exposicion.",
+            "Evidencia minima: flujo con entrada, prompt, salida, revision y archivo final.",
+            "Entregable final relacionado: kit de prompts y flujo de trabajo con criterios de privacidad, revision humana y evidencia."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
-          "id": "m5_l6",
-          "title": "Convertir una idea en plan",
-          "keyIdea": "Idea clave: Convertir una idea en plan sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Convertir una idea en plan\" dentro del módulo \"IA para estudiar y trabajar mejor\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona necesita preparar un borrador, ordenar ideas, responder consultas o mejorar una tarea usando IA con revisión humana. Aplicá \"Convertir una idea en plan\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un prompt mejorado, una respuesta revisada y una lista de verificaciones pendientes.",
-          "alert": "No ingresar datos personales, claves, documentos privados ni informacion confidencial.",
+          "id": "m5-l6",
+          "title": "Aprobacion final",
+          "keyIdea": "Aprobacion final sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja aprobacion final dentro de flujos de trabajo con ia. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Un equipo necesita responder consultas, resumir informacion, ordenar ideas y revisar textos usando IA sin filtrar datos privados. Aplica aprobacion final sobre ese escenario, guarda flujo con entrada, prompt, salida, revision y archivo final y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de aprobacion final, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "La IA debe quedar dentro de un proceso, no al mando del proceso.",
           "keyPoints": [
-            "Convertir una idea en plan debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: un prompt mejorado, una respuesta revisada y una lista de verificaciones pendientes.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Aprobacion final debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: el flujo ahorra tiempo sin aumentar errores ni exposicion.",
+            "Evidencia minima: flujo con entrada, prompt, salida, revision y archivo final.",
+            "Entregable final relacionado: kit de prompts y flujo de trabajo con criterios de privacidad, revision humana y evidencia."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
-        }
-      ],
-      "quizQuestions": [
-        {
-          "id": "m5_q1",
-          "question": "¿Cómo puede ayudar IA a estudiar?",
-          "options": [
-            "Explicando y generando práctica",
-            "Aprobando por vos",
-            "Garantizando memoria",
-            "Eliminando todo esfuerzo"
-          ],
-          "correctAnswerIndex": 0,
-          "feedback": "La IA acompaña el estudio, no lo reemplaza."
-        },
-        {
-          "id": "m5_q2",
-          "question": "¿Qué ayuda a planificar mejor?",
-          "options": [
-            "Prioridad y tiempo estimado",
-            "Una lista infinita",
-            "Datos falsos",
-            "Tareas sin orden"
-          ],
-          "correctAnswerIndex": 0,
-          "feedback": "Ordenar por prioridad permite ejecutar mejor."
-        },
-        {
-          "id": "m5_q3",
-          "question": "¿Qué significa descomponer un problema?",
-          "options": [
-            "Dividirlo en pasos manejables",
-            "Hacerlo más confuso",
-            "Ignorarlo",
-            "Publicarlo sin resolver"
-          ],
-          "correctAnswerIndex": 0,
-          "feedback": "Los pasos pequeños reducen bloqueo."
-        },
-        {
-          "id": "m5_q4",
-          "question": "¿Qué puede crear IA para aprender una herramienta?",
-          "options": [
-            "Ruta de aprendizaje",
-            "Credenciales privadas",
-            "Acceso pago gratuito",
-            "Certificación oficial falsa"
-          ],
-          "correctAnswerIndex": 0,
-          "feedback": "Una ruta orienta el aprendizaje."
-        },
-        {
-          "id": "m5_q5",
-          "question": "¿Qué debe tener un plan de trabajo?",
-          "options": [
-            "Objetivos y entregables",
-            "Solo frases motivacionales",
-            "Promesas imposibles",
-            "Datos sensibles"
-          ],
-          "correctAnswerIndex": 0,
-          "feedback": "Un plan útil define acciones concretas."
         }
       ],
       "quiz": [
         {
-          "id": "m5_q1",
-          "question": "¿Cómo puede ayudar IA a estudiar?",
+          "id": "m5-q1",
+          "question": "Que conviene definir primero en \"Flujos de trabajo con IA\"?",
           "options": [
-            "Explicando y generando práctica",
-            "Aprobando por vos",
-            "Garantizando memoria",
-            "Eliminando todo esfuerzo"
+            "Objetivo, entrada, salida esperada y evidencia de prueba.",
+            "La herramienta mas vistosa disponible.",
+            "Un resultado final sin pasos intermedios.",
+            "Una respuesta rapida sin revisar contexto."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "La IA acompaña el estudio, no lo reemplaza."
+          "feedback": "Correcto: el trabajo mejora cuando se sabe que entra, que sale y como se comprueba."
         },
         {
-          "id": "m5_q2",
-          "question": "¿Qué ayuda a planificar mejor?",
+          "id": "m5-q2",
+          "question": "Que evidencia permite cerrar el modulo con mas confianza?",
           "options": [
-            "Prioridad y tiempo estimado",
-            "Una lista infinita",
-            "Datos falsos",
-            "Tareas sin orden"
+            "flujo con entrada, prompt, salida, revision y archivo final",
+            "Un comentario general sin prueba.",
+            "Una captura sin explicar que se valido.",
+            "Una herramienta abierta en pantalla."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Ordenar por prioridad permite ejecutar mejor."
+          "feedback": "Correcto: flujo con entrada, prompt, salida, revision y archivo final permite revisar y mantener el resultado."
         },
         {
-          "id": "m5_q3",
-          "question": "¿Qué significa descomponer un problema?",
+          "id": "m5-q3",
+          "question": "Que conducta aumenta la probabilidad de error?",
           "options": [
-            "Dividirlo en pasos manejables",
-            "Hacerlo más confuso",
-            "Ignorarlo",
-            "Publicarlo sin resolver"
+            "Automatizar envio o publicacion sin paso de aprobacion.",
+            "Usar datos de prueba antes de aplicar a un caso real.",
+            "Separar errores de funcionamiento y errores de interpretacion.",
+            "Guardar supuestos y decisiones."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Los pasos pequeños reducen bloqueo."
+          "feedback": "Correcto: esa conducta oculta problemas y dificulta corregirlos."
         },
         {
-          "id": "m5_q4",
-          "question": "¿Qué puede crear IA para aprender una herramienta?",
+          "id": "m5-q4",
+          "question": "Cuando corresponde pedir validacion externa o revisar una fuente confiable?",
           "options": [
-            "Ruta de aprendizaje",
-            "Credenciales privadas",
-            "Acceso pago gratuito",
-            "Certificación oficial falsa"
+            "Cuando la salida impacta clientes, contratos, pagos o reputacion.",
+            "Nunca, porque la practica educativa reemplaza cualquier revision.",
+            "Solo cuando el resultado se ve mal.",
+            "Despues de publicar sin pruebas."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Una ruta orienta el aprendizaje."
+          "feedback": "Correcto: algunas decisiones requieren soporte, fuente oficial o una persona competente."
         },
         {
-          "id": "m5_q5",
-          "question": "¿Qué debe tener un plan de trabajo?",
+          "id": "m5-q5",
+          "question": "Cual es el entregable minimo de \"Flujos de trabajo con IA\"?",
           "options": [
-            "Objetivos y entregables",
-            "Solo frases motivacionales",
-            "Promesas imposibles",
-            "Datos sensibles"
+            "flujo operativo asistido por IA",
+            "Una lista de ideas sin evidencia.",
+            "Una copia de pantalla sin explicacion.",
+            "Un archivo final sin criterio de cierre."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Un plan útil define acciones concretas."
+          "feedback": "Correcto: flujo operativo asistido por IA deja avance verificable."
         }
-      ],
-      "professionalOutcome": "crear borradores utiles, revisar resultados y decidir cuando verificar con fuentes externas. Entregable sugerido: un prompt final con contexto seguro, formato esperado y checklist de revision."
+      ]
     },
     {
       "id": "m6",
-      "title": "Riesgos, privacidad y verificación",
-      "description": "En este módulo vas a trabajar \"Riesgos, privacidad y verificación\" dentro de uso responsable de IA generativa en trabajo, ventas, estudio y organización. El objetivo es practicar con situaciones concretas, entender qué decisión mejora y cerrar con una evidencia simple.",
-      "commercialRisk": "Uso responsable",
+      "title": "Mejora y mantenimiento",
+      "description": "Medir si la IA ayuda realmente y mantener prompts actualizados.",
+      "learningRisk": "Practicar sin evidencia puede dejar errores invisibles o decisiones dificiles de sostener.",
       "lessons": [
         {
-          "id": "m6_l1",
-          "title": "No subir datos sensibles",
-          "keyIdea": "Idea clave: No subir datos sensibles sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"No subir datos sensibles\" dentro del módulo \"Riesgos, privacidad y verificación\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona necesita preparar un borrador, ordenar ideas, responder consultas o mejorar una tarea usando IA con revisión humana. Aplicá \"No subir datos sensibles\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un prompt mejorado, una respuesta revisada y una lista de verificaciones pendientes.",
-          "alert": "No ingresar datos personales, claves, documentos privados ni informacion confidencial.",
+          "id": "m6-l1",
+          "title": "Medir ahorro real",
+          "keyIdea": "Medir ahorro real sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja medir ahorro real dentro de mejora y mantenimiento. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Un equipo necesita responder consultas, resumir informacion, ordenar ideas y revisar textos usando IA sin filtrar datos privados. Aplica medir ahorro real sobre ese escenario, guarda comparacion antes/despues con tiempo, errores y calidad y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de medir ahorro real, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "Una practica con IA se revisa igual que cualquier proceso de trabajo.",
           "keyPoints": [
-            "No subir datos sensibles debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: un prompt mejorado, una respuesta revisada y una lista de verificaciones pendientes.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Medir ahorro real debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: la mejora tiene metrica y proxima revision.",
+            "Evidencia minima: comparacion antes/despues con tiempo, errores y calidad.",
+            "Entregable final relacionado: kit de prompts y flujo de trabajo con criterios de privacidad, revision humana y evidencia."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
-          "id": "m6_l2",
-          "title": "Detectar respuestas inventadas",
-          "keyIdea": "Idea clave: Detectar respuestas inventadas sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Detectar respuestas inventadas\" dentro del módulo \"Riesgos, privacidad y verificación\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona necesita preparar un borrador, ordenar ideas, responder consultas o mejorar una tarea usando IA con revisión humana. Aplicá \"Detectar respuestas inventadas\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un prompt mejorado, una respuesta revisada y una lista de verificaciones pendientes.",
-          "alert": "No ingresar datos personales, claves, documentos privados ni informacion confidencial.",
+          "id": "m6-l2",
+          "title": "Medir calidad",
+          "keyIdea": "Medir calidad sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja medir calidad dentro de mejora y mantenimiento. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Un equipo necesita responder consultas, resumir informacion, ordenar ideas y revisar textos usando IA sin filtrar datos privados. Aplica medir calidad sobre ese escenario, guarda comparacion antes/despues con tiempo, errores y calidad y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de medir calidad, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "Una practica con IA se revisa igual que cualquier proceso de trabajo.",
           "keyPoints": [
-            "Detectar respuestas inventadas debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: un prompt mejorado, una respuesta revisada y una lista de verificaciones pendientes.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Medir calidad debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: la mejora tiene metrica y proxima revision.",
+            "Evidencia minima: comparacion antes/despues con tiempo, errores y calidad.",
+            "Entregable final relacionado: kit de prompts y flujo de trabajo con criterios de privacidad, revision humana y evidencia."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
-          "id": "m6_l3",
-          "title": "Evitar dependencia total",
-          "keyIdea": "Idea clave: Evitar dependencia total sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Evitar dependencia total\" dentro del módulo \"Riesgos, privacidad y verificación\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona necesita preparar un borrador, ordenar ideas, responder consultas o mejorar una tarea usando IA con revisión humana. Aplicá \"Evitar dependencia total\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un prompt mejorado, una respuesta revisada y una lista de verificaciones pendientes.",
-          "alert": "No ingresar datos personales, claves, documentos privados ni informacion confidencial.",
+          "id": "m6-l3",
+          "title": "Registro de prompts",
+          "keyIdea": "Registro de prompts sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja registro de prompts dentro de mejora y mantenimiento. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Un equipo necesita responder consultas, resumir informacion, ordenar ideas y revisar textos usando IA sin filtrar datos privados. Aplica registro de prompts sobre ese escenario, guarda comparacion antes/despues con tiempo, errores y calidad y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de registro de prompts, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "Una practica con IA se revisa igual que cualquier proceso de trabajo.",
           "keyPoints": [
-            "Evitar dependencia total debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: un prompt mejorado, una respuesta revisada y una lista de verificaciones pendientes.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Registro de prompts debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: la mejora tiene metrica y proxima revision.",
+            "Evidencia minima: comparacion antes/despues con tiempo, errores y calidad.",
+            "Entregable final relacionado: kit de prompts y flujo de trabajo con criterios de privacidad, revision humana y evidencia."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
-          "id": "m6_l4",
-          "title": "Sesgos y tono inadecuado",
-          "keyIdea": "Idea clave: Sesgos y tono inadecuado sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Sesgos y tono inadecuado\" dentro del módulo \"Riesgos, privacidad y verificación\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona necesita preparar un borrador, ordenar ideas, responder consultas o mejorar una tarea usando IA con revisión humana. Aplicá \"Sesgos y tono inadecuado\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un prompt mejorado, una respuesta revisada y una lista de verificaciones pendientes.",
-          "alert": "No ingresar datos personales, claves, documentos privados ni informacion confidencial.",
+          "id": "m6-l4",
+          "title": "Actualizar restricciones",
+          "keyIdea": "Actualizar restricciones sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja actualizar restricciones dentro de mejora y mantenimiento. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Un equipo necesita responder consultas, resumir informacion, ordenar ideas y revisar textos usando IA sin filtrar datos privados. Aplica actualizar restricciones sobre ese escenario, guarda comparacion antes/despues con tiempo, errores y calidad y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de actualizar restricciones, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "Una practica con IA se revisa igual que cualquier proceso de trabajo.",
           "keyPoints": [
-            "Sesgos y tono inadecuado debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: un prompt mejorado, una respuesta revisada y una lista de verificaciones pendientes.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Actualizar restricciones debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: la mejora tiene metrica y proxima revision.",
+            "Evidencia minima: comparacion antes/despues con tiempo, errores y calidad.",
+            "Entregable final relacionado: kit de prompts y flujo de trabajo con criterios de privacidad, revision humana y evidencia."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
-          "id": "m6_l5",
-          "title": "Verificación antes de publicar",
-          "keyIdea": "Idea clave: Verificación antes de publicar sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Verificación antes de publicar\" dentro del módulo \"Riesgos, privacidad y verificación\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona necesita preparar un borrador, ordenar ideas, responder consultas o mejorar una tarea usando IA con revisión humana. Aplicá \"Verificación antes de publicar\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un prompt mejorado, una respuesta revisada y una lista de verificaciones pendientes.",
-          "alert": "No ingresar datos personales, claves, documentos privados ni informacion confidencial.",
+          "id": "m6-l5",
+          "title": "Retirar usos riesgosos",
+          "keyIdea": "Retirar usos riesgosos sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja retirar usos riesgosos dentro de mejora y mantenimiento. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Un equipo necesita responder consultas, resumir informacion, ordenar ideas y revisar textos usando IA sin filtrar datos privados. Aplica retirar usos riesgosos sobre ese escenario, guarda comparacion antes/despues con tiempo, errores y calidad y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de retirar usos riesgosos, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "Una practica con IA se revisa igual que cualquier proceso de trabajo.",
           "keyPoints": [
-            "Verificación antes de publicar debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: un prompt mejorado, una respuesta revisada y una lista de verificaciones pendientes.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Retirar usos riesgosos debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: la mejora tiene metrica y proxima revision.",
+            "Evidencia minima: comparacion antes/despues con tiempo, errores y calidad.",
+            "Entregable final relacionado: kit de prompts y flujo de trabajo con criterios de privacidad, revision humana y evidencia."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
-          "id": "m6_l6",
-          "title": "Regla final de uso responsable",
-          "keyIdea": "Idea clave: Regla final de uso responsable sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Regla final de uso responsable\" dentro del módulo \"Riesgos, privacidad y verificación\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona necesita preparar un borrador, ordenar ideas, responder consultas o mejorar una tarea usando IA con revisión humana. Aplicá \"Regla final de uso responsable\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: un prompt mejorado, una respuesta revisada y una lista de verificaciones pendientes.",
-          "alert": "No ingresar datos personales, claves, documentos privados ni informacion confidencial.",
+          "id": "m6-l6",
+          "title": "Rutina de mejora",
+          "keyIdea": "Rutina de mejora sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja rutina de mejora dentro de mejora y mantenimiento. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Un equipo necesita responder consultas, resumir informacion, ordenar ideas y revisar textos usando IA sin filtrar datos privados. Aplica rutina de mejora sobre ese escenario, guarda comparacion antes/despues con tiempo, errores y calidad y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de rutina de mejora, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "Una practica con IA se revisa igual que cualquier proceso de trabajo.",
           "keyPoints": [
-            "Regla final de uso responsable debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: un prompt mejorado, una respuesta revisada y una lista de verificaciones pendientes.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Rutina de mejora debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: la mejora tiene metrica y proxima revision.",
+            "Evidencia minima: comparacion antes/despues con tiempo, errores y calidad.",
+            "Entregable final relacionado: kit de prompts y flujo de trabajo con criterios de privacidad, revision humana y evidencia."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
-        }
-      ],
-      "quizQuestions": [
-        {
-          "id": "m6_q1",
-          "question": "¿Qué dato no conviene subir a IA pública?",
-          "options": [
-            "Contraseñas o datos de clientes",
-            "Un ejemplo ficticio",
-            "Una consigna general",
-            "Un título de módulo"
-          ],
-          "correctAnswerIndex": 0,
-          "feedback": "La privacidad es una regla central."
-        },
-        {
-          "id": "m6_q2",
-          "question": "¿Qué es una respuesta inventada?",
-          "options": [
-            "Una afirmación falsa presentada con seguridad",
-            "Una lista ordenada",
-            "Un resumen breve",
-            "Una mejora de estilo"
-          ],
-          "correctAnswerIndex": 0,
-          "feedback": "Las alucinaciones pueden parecer confiables."
-        },
-        {
-          "id": "m6_q3",
-          "question": "¿Qué hacer con información importante?",
-          "options": [
-            "Verificarla en fuentes confiables",
-            "Publicarla sin revisar",
-            "Creerla siempre",
-            "Borrar dudas"
-          ],
-          "correctAnswerIndex": 0,
-          "feedback": "La verificación reduce errores."
-        },
-        {
-          "id": "m6_q4",
-          "question": "¿Qué uso es responsable?",
-          "options": [
-            "Usar IA como borrador revisable",
-            "Delegar todo criterio",
-            "Subir datos sensibles",
-            "Copiar sin leer"
-          ],
-          "correctAnswerIndex": 0,
-          "feedback": "La IA debe funcionar como copiloto."
-        },
-        {
-          "id": "m6_q5",
-          "question": "¿Qué riesgo trae la dependencia total?",
-          "options": [
-            "Perder criterio propio",
-            "Aprender más rápido siempre",
-            "Tener garantía de calidad",
-            "Eliminar errores"
-          ],
-          "correctAnswerIndex": 0,
-          "feedback": "El criterio propio sigue siendo imprescindible."
         }
       ],
       "quiz": [
         {
-          "id": "m6_q1",
-          "question": "¿Qué dato no conviene subir a IA pública?",
+          "id": "m6-q1",
+          "question": "Que conviene definir primero en \"Mejora y mantenimiento\"?",
           "options": [
-            "Contraseñas o datos de clientes",
-            "Un ejemplo ficticio",
-            "Una consigna general",
-            "Un título de módulo"
+            "Objetivo, entrada, salida esperada y evidencia de prueba.",
+            "La herramienta mas vistosa disponible.",
+            "Un resultado final sin pasos intermedios.",
+            "Una respuesta rapida sin revisar contexto."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "La privacidad es una regla central."
+          "feedback": "Correcto: el trabajo mejora cuando se sabe que entra, que sale y como se comprueba."
         },
         {
-          "id": "m6_q2",
-          "question": "¿Qué es una respuesta inventada?",
+          "id": "m6-q2",
+          "question": "Que evidencia permite cerrar el modulo con mas confianza?",
           "options": [
-            "Una afirmación falsa presentada con seguridad",
-            "Una lista ordenada",
-            "Un resumen breve",
-            "Una mejora de estilo"
+            "comparacion antes/despues con tiempo, errores y calidad",
+            "Un comentario general sin prueba.",
+            "Una captura sin explicar que se valido.",
+            "Una herramienta abierta en pantalla."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Las alucinaciones pueden parecer confiables."
+          "feedback": "Correcto: comparacion antes/despues con tiempo, errores y calidad permite revisar y mantener el resultado."
         },
         {
-          "id": "m6_q3",
-          "question": "¿Qué hacer con información importante?",
+          "id": "m6-q3",
+          "question": "Que conducta aumenta la probabilidad de error?",
           "options": [
-            "Verificarla en fuentes confiables",
-            "Publicarla sin revisar",
-            "Creerla siempre",
-            "Borrar dudas"
+            "Mantener prompts que producen errores porque ya estan instalados.",
+            "Usar datos de prueba antes de aplicar a un caso real.",
+            "Separar errores de funcionamiento y errores de interpretacion.",
+            "Guardar supuestos y decisiones."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "La verificación reduce errores."
+          "feedback": "Correcto: esa conducta oculta problemas y dificulta corregirlos."
         },
         {
-          "id": "m6_q4",
-          "question": "¿Qué uso es responsable?",
+          "id": "m6-q4",
+          "question": "Cuando corresponde pedir validacion externa o revisar una fuente confiable?",
           "options": [
-            "Usar IA como borrador revisable",
-            "Delegar todo criterio",
-            "Subir datos sensibles",
-            "Copiar sin leer"
+            "Cuando cambia una politica, herramienta, cliente o tipo de dato.",
+            "Nunca, porque la practica educativa reemplaza cualquier revision.",
+            "Solo cuando el resultado se ve mal.",
+            "Despues de publicar sin pruebas."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "La IA debe funcionar como copiloto."
+          "feedback": "Correcto: algunas decisiones requieren soporte, fuente oficial o una persona competente."
         },
         {
-          "id": "m6_q5",
-          "question": "¿Qué riesgo trae la dependencia total?",
+          "id": "m6-q5",
+          "question": "Cual es el entregable minimo de \"Mejora y mantenimiento\"?",
           "options": [
-            "Perder criterio propio",
-            "Aprender más rápido siempre",
-            "Tener garantía de calidad",
-            "Eliminar errores"
+            "plan de mejora de IA de 30 dias",
+            "Una lista de ideas sin evidencia.",
+            "Una copia de pantalla sin explicacion.",
+            "Un archivo final sin criterio de cierre."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "El criterio propio sigue siendo imprescindible."
+          "feedback": "Correcto: plan de mejora de IA de 30 dias deja avance verificable."
         }
-      ],
-      "professionalOutcome": "crear borradores utiles, revisar resultados y decidir cuando verificar con fuentes externas. Entregable sugerido: un prompt final con contexto seguro, formato esperado y checklist de revision."
+      ]
     }
-  ],
-  "publicationStatus": "publica-profesional-v0.6",
-  "professionalization": {
-    "tier": "curso-bandera-v1.0-beta",
-    "updatedAt": "2026-05-28",
-    "focus": "Profundizacion visible de lecciones, practicas, checklists y casos."
-  },
-  "editorialPolish": {
-    "firstFeaturedBatch": "2026-06-01",
-    "status": "public-facing-copy-polished"
-  }
+  ]
 }

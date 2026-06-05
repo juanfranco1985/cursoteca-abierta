@@ -32,7 +32,7 @@ El curso ahora cubre:
 
 La auditoria encontro originalmente 32 cursos con patrones de contenido generico o repetido en `course_content.json`.
 
-Pendientes actuales despues de UX/UI, tanda 1 y tanda 2:
+Pendientes actuales despues de UX/UI, tanda 1, tanda 2 y tanda 3:
 
 - `calidad_datos_principiantes_v0_6_publica`
 - `ciudadano_digital_argentina_v0_6_publica`
@@ -42,14 +42,9 @@ Pendientes actuales despues de UX/UI, tanda 1 y tanda 2:
 - `emprendimiento_barrial_web_v0_6_publica`
 - `estadistica_basica_decisiones_v0_6_publica`
 - `excel_analisis_datos_v0_6_publica`
-- `excel_google_sheets_desde_cero_v0_6_publica`
 - `gobierno_datos_basico_v0_6_publica`
-- `ia_practica_web_v0_6_publica`
-- `javascript_desde_cero_web_v0_6_publica`
 - `marketing_digital_barrial_v0_6_publica`
 - `notion_trello_organizacion_v0_6_publica`
-- `power_bi_principiantes_web_v0_6_publica`
-- `python_datos_desde_cero_v0_6_publica`
 - `seguridad_digital_docentes_v0_6_publica`
 - `seguridad_familiar_internet_v0_6_publica`
 - `storytelling_datos_v0_6_publica`
@@ -101,4 +96,16 @@ Completada el 2026-06-04 con 5 cursos sensibles reforzados:
 - primeros_auxilios_digitales_web_v0_6_publica: 6 modulos, 36 lecciones, 30 preguntas, 6 checklists y 8 casos guiados.
 
 Deuda de contenido generico despues de esta tanda: 22 cursos.
+
+## Tanda 3 de refuerzo
+
+Completada el 2026-06-05 con 5 cursos de alta visibilidad reforzados:
+
+- ia_practica_web_v0_6_publica: 6 modulos, 36 lecciones, 30 preguntas, 6 checklists y 8 casos guiados.
+- javascript_desde_cero_web_v0_6_publica: 6 modulos, 36 lecciones, 30 preguntas, 6 checklists y 8 casos guiados.
+- power_bi_principiantes_web_v0_6_publica: 6 modulos, 36 lecciones, 30 preguntas, 6 checklists y 8 casos guiados.
+- python_datos_desde_cero_v0_6_publica: 6 modulos, 36 lecciones, 30 preguntas, 6 checklists y 8 casos guiados.
+- excel_google_sheets_desde_cero_v0_6_publica: 6 modulos, 36 lecciones, 30 preguntas, 6 checklists y 8 casos guiados.
+
+Deuda de contenido generico despues de esta tanda: 17 cursos.
 

@@ -1,4 +1,4 @@
-const CACHE_NAME = "power-bi-principiantes-web-v0-6-publica-cache-v0-6-publica-profesional-nav-v1";
+const CACHE_NAME = "power_bi_principiantes_web_v0_6_publica-cache-0.7-tanda-3";
 const APP_SHELL = [
   "./",
   "./index.html",

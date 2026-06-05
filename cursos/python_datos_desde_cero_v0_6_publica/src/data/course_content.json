@@ -1,114 +1,114 @@
 {
   "courseId": "python-datos-cero",
   "title": "Python para Datos desde Cero",
-  "version": "0.6-publica",
-  "publicationStatus": "publica-profesional-v0.6",
+  "version": "0.7-tanda-3",
+  "publicationStatus": "publica-profesional-v0.7-tanda-3",
   "modules": [
     {
       "id": "m1",
-      "title": "Primer entorno Python",
-      "description": "En este modulo vas a trabajar \"Primer entorno Python\" dentro de Python para datos, entorno inicial, CSV, pandas, analisis simple, graficos y reproducibilidad. La meta es partir de una pregunta concreta, revisar la calidad de la informacion y cerrar con una evidencia que pueda explicarse.",
-      "learningRisk": "Punto clave",
+      "title": "Primeros pasos en Python",
+      "description": "Entender variables, tipos, errores y ejecucion de codigo.",
+      "learningRisk": "Practicar sin evidencia puede dejar errores invisibles o decisiones dificiles de sostener.",
       "lessons": [
         {
           "id": "m1-l1",
-          "title": "Que es Python",
-          "keyIdea": "Idea clave: Que es Python sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
-          "shortTheory": "En esta leccion vas a trabajar \"Que es Python\" dentro del modulo \"Primer entorno Python\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
-          "practicalExample": "Una persona quiere repetir un analisis sin hacerlo manualmente cada vez y necesita dejar pasos claros en codigo. Aplica \"Que es Python\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
-          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un notebook o script breve con carga de datos, limpieza, resumen, grafico y conclusion.",
-          "alert": "No ejecutar codigo desconocido sobre archivos importantes sin copia y entorno de prueba.",
+          "title": "Instalar o usar entorno",
+          "keyIdea": "Instalar o usar entorno sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja instalar o usar entorno dentro de primeros pasos en python. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Una persona recibe archivos CSV con ventas, gastos o registros y necesita limpiarlos, analizarlos y explicar hallazgos. Aplica instalar o usar entorno sobre ese escenario, guarda script pequeno con variables y salida revisada y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de instalar o usar entorno, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "Primero entender, despues automatizar.",
           "keyPoints": [
-            "Que es Python debe responder una pregunta concreta, no solo producir un resultado tecnico.",
-            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
-            "La evidencia minima esperada es: un notebook o script breve con carga de datos, limpieza, resumen, grafico y conclusion.",
-            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+            "Instalar o usar entorno debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: el codigo corre y la persona explica cada linea.",
+            "Evidencia minima: script pequeno con variables y salida revisada.",
+            "Entregable final relacionado: notebook o script simple que carga datos, limpia columnas, calcula indicadores y exporta un resumen."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m1-l2",
-          "title": "Editor o notebook",
-          "keyIdea": "Idea clave: Editor o notebook sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
-          "shortTheory": "En esta leccion vas a trabajar \"Editor o notebook\" dentro del modulo \"Primer entorno Python\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
-          "practicalExample": "Una persona quiere repetir un analisis sin hacerlo manualmente cada vez y necesita dejar pasos claros en codigo. Aplica \"Editor o notebook\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
-          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un notebook o script breve con carga de datos, limpieza, resumen, grafico y conclusion.",
-          "alert": "No ejecutar codigo desconocido sobre archivos importantes sin copia y entorno de prueba.",
+          "title": "print y comentarios",
+          "keyIdea": "print y comentarios sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja print y comentarios dentro de primeros pasos en python. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Una persona recibe archivos CSV con ventas, gastos o registros y necesita limpiarlos, analizarlos y explicar hallazgos. Aplica print y comentarios sobre ese escenario, guarda script pequeno con variables y salida revisada y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de print y comentarios, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "Primero entender, despues automatizar.",
           "keyPoints": [
-            "Editor o notebook debe responder una pregunta concreta, no solo producir un resultado tecnico.",
-            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
-            "La evidencia minima esperada es: un notebook o script breve con carga de datos, limpieza, resumen, grafico y conclusion.",
-            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+            "print y comentarios debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: el codigo corre y la persona explica cada linea.",
+            "Evidencia minima: script pequeno con variables y salida revisada.",
+            "Entregable final relacionado: notebook o script simple que carga datos, limpia columnas, calcula indicadores y exporta un resumen."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m1-l3",
-          "title": "Primer script",
-          "keyIdea": "Idea clave: Primer script sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
-          "shortTheory": "En esta leccion vas a trabajar \"Primer script\" dentro del modulo \"Primer entorno Python\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
-          "practicalExample": "Una persona quiere repetir un analisis sin hacerlo manualmente cada vez y necesita dejar pasos claros en codigo. Aplica \"Primer script\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
-          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un notebook o script breve con carga de datos, limpieza, resumen, grafico y conclusion.",
-          "alert": "No ejecutar codigo desconocido sobre archivos importantes sin copia y entorno de prueba.",
+          "title": "Variables",
+          "keyIdea": "Variables sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja variables dentro de primeros pasos en python. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Una persona recibe archivos CSV con ventas, gastos o registros y necesita limpiarlos, analizarlos y explicar hallazgos. Aplica variables sobre ese escenario, guarda script pequeno con variables y salida revisada y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de variables, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "Primero entender, despues automatizar.",
           "keyPoints": [
-            "Primer script debe responder una pregunta concreta, no solo producir un resultado tecnico.",
-            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
-            "La evidencia minima esperada es: un notebook o script breve con carga de datos, limpieza, resumen, grafico y conclusion.",
-            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+            "Variables debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: el codigo corre y la persona explica cada linea.",
+            "Evidencia minima: script pequeno con variables y salida revisada.",
+            "Entregable final relacionado: notebook o script simple que carga datos, limpia columnas, calcula indicadores y exporta un resumen."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m1-l4",
-          "title": "Errores comunes",
-          "keyIdea": "Idea clave: Errores comunes sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
-          "shortTheory": "En esta leccion vas a trabajar \"Errores comunes\" dentro del modulo \"Primer entorno Python\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
-          "practicalExample": "Una persona quiere repetir un analisis sin hacerlo manualmente cada vez y necesita dejar pasos claros en codigo. Aplica \"Errores comunes\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
-          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un notebook o script breve con carga de datos, limpieza, resumen, grafico y conclusion.",
-          "alert": "No ejecutar codigo desconocido sobre archivos importantes sin copia y entorno de prueba.",
+          "title": "Tipos",
+          "keyIdea": "Tipos sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja tipos dentro de primeros pasos en python. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Una persona recibe archivos CSV con ventas, gastos o registros y necesita limpiarlos, analizarlos y explicar hallazgos. Aplica tipos sobre ese escenario, guarda script pequeno con variables y salida revisada y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de tipos, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "Primero entender, despues automatizar.",
           "keyPoints": [
-            "Errores comunes debe responder una pregunta concreta, no solo producir un resultado tecnico.",
-            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
-            "La evidencia minima esperada es: un notebook o script breve con carga de datos, limpieza, resumen, grafico y conclusion.",
-            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+            "Tipos debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: el codigo corre y la persona explica cada linea.",
+            "Evidencia minima: script pequeno con variables y salida revisada.",
+            "Entregable final relacionado: notebook o script simple que carga datos, limpia columnas, calcula indicadores y exporta un resumen."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m1-l5",
-          "title": "Comentarios",
-          "keyIdea": "Idea clave: Comentarios sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
-          "shortTheory": "En esta leccion vas a trabajar \"Comentarios\" dentro del modulo \"Primer entorno Python\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
-          "practicalExample": "Una persona quiere repetir un analisis sin hacerlo manualmente cada vez y necesita dejar pasos claros en codigo. Aplica \"Comentarios\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
-          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un notebook o script breve con carga de datos, limpieza, resumen, grafico y conclusion.",
-          "alert": "No ejecutar codigo desconocido sobre archivos importantes sin copia y entorno de prueba.",
+          "title": "Errores comunes",
+          "keyIdea": "Errores comunes sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja errores comunes dentro de primeros pasos en python. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Una persona recibe archivos CSV con ventas, gastos o registros y necesita limpiarlos, analizarlos y explicar hallazgos. Aplica errores comunes sobre ese escenario, guarda script pequeno con variables y salida revisada y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de errores comunes, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "Primero entender, despues automatizar.",
           "keyPoints": [
-            "Comentarios debe responder una pregunta concreta, no solo producir un resultado tecnico.",
-            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
-            "La evidencia minima esperada es: un notebook o script breve con carga de datos, limpieza, resumen, grafico y conclusion.",
-            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+            "Errores comunes debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: el codigo corre y la persona explica cada linea.",
+            "Evidencia minima: script pequeno con variables y salida revisada.",
+            "Entregable final relacionado: notebook o script simple que carga datos, limpia columnas, calcula indicadores y exporta un resumen."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m1-l6",
-          "title": "Guardar practica",
-          "keyIdea": "Idea clave: Guardar practica sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
-          "shortTheory": "En esta leccion vas a trabajar \"Guardar practica\" dentro del modulo \"Primer entorno Python\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
-          "practicalExample": "Una persona quiere repetir un analisis sin hacerlo manualmente cada vez y necesita dejar pasos claros en codigo. Aplica \"Guardar practica\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
-          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un notebook o script breve con carga de datos, limpieza, resumen, grafico y conclusion.",
-          "alert": "No ejecutar codigo desconocido sobre archivos importantes sin copia y entorno de prueba.",
+          "title": "Ejecutar por bloques",
+          "keyIdea": "Ejecutar por bloques sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja ejecutar por bloques dentro de primeros pasos en python. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Una persona recibe archivos CSV con ventas, gastos o registros y necesita limpiarlos, analizarlos y explicar hallazgos. Aplica ejecutar por bloques sobre ese escenario, guarda script pequeno con variables y salida revisada y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de ejecutar por bloques, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "Primero entender, despues automatizar.",
           "keyPoints": [
-            "Guardar practica debe responder una pregunta concreta, no solo producir un resultado tecnico.",
-            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
-            "La evidencia minima esperada es: un notebook o script breve con carga de datos, limpieza, resumen, grafico y conclusion.",
-            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+            "Ejecutar por bloques debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: el codigo corre y la persona explica cada linea.",
+            "Evidencia minima: script pequeno con variables y salida revisada.",
+            "Entregable final relacionado: notebook o script simple que carga datos, limpia columnas, calcula indicadores y exporta un resumen."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         }
@@ -116,172 +116,171 @@
       "quiz": [
         {
           "id": "m1-q1",
-          "question": "Pregunta 1: ¿que conviene hacer al trabajar ",
+          "question": "Que conviene definir primero en \"Primeros pasos en Python\"?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Objetivo, entrada, salida esperada y evidencia de prueba.",
+            "La herramienta mas vistosa disponible.",
+            "Un resultado final sin pasos intermedios.",
+            "Una respuesta rapida sin revisar contexto."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: el trabajo mejora cuando se sabe que entra, que sale y como se comprueba."
         },
         {
           "id": "m1-q2",
-          "question": "Pregunta 2: ¿que conviene hacer al trabajar ",
+          "question": "Que evidencia permite cerrar el modulo con mas confianza?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "script pequeno con variables y salida revisada",
+            "Un comentario general sin prueba.",
+            "Una captura sin explicar que se valido.",
+            "Una herramienta abierta en pantalla."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: script pequeno con variables y salida revisada permite revisar y mantener el resultado."
         },
         {
           "id": "m1-q3",
-          "question": "Pregunta 3: ¿que conviene hacer al trabajar ",
+          "question": "Que conducta aumenta la probabilidad de error?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Copiar codigo sin ejecutar por partes.",
+            "Usar datos de prueba antes de aplicar a un caso real.",
+            "Separar errores de funcionamiento y errores de interpretacion.",
+            "Guardar supuestos y decisiones."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: esa conducta oculta problemas y dificulta corregirlos."
         },
         {
           "id": "m1-q4",
-          "question": "Pregunta 4: ¿que conviene hacer al trabajar ",
+          "question": "Cuando corresponde pedir validacion externa o revisar una fuente confiable?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Cuando el script manipula archivos reales o datos sensibles.",
+            "Nunca, porque la practica educativa reemplaza cualquier revision.",
+            "Solo cuando el resultado se ve mal.",
+            "Despues de publicar sin pruebas."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: algunas decisiones requieren soporte, fuente oficial o una persona competente."
         },
         {
           "id": "m1-q5",
-          "question": "Pregunta 5: ¿que conviene hacer al trabajar ",
+          "question": "Cual es el entregable minimo de \"Primeros pasos en Python\"?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "primer script documentado",
+            "Una lista de ideas sin evidencia.",
+            "Una copia de pantalla sin explicacion.",
+            "Un archivo final sin criterio de cierre."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: primer script documentado deja avance verificable."
         }
-      ],
-      "professionalOutcome": "leer archivos, limpiar columnas, calcular resultados y explicar el proceso. Entregable sugerido: un script o notebook con entrada, limpieza, calculo, salida y explicacion."
+      ]
     },
     {
       "id": "m2",
-      "title": "Datos basicos",
-      "description": "En este modulo vas a trabajar \"Datos basicos\" dentro de Python para datos, entorno inicial, CSV, pandas, analisis simple, graficos y reproducibilidad. La meta es partir de una pregunta concreta, revisar la calidad de la informacion y cerrar con una evidencia que pueda explicarse.",
-      "learningRisk": "Punto clave",
+      "title": "Colecciones y control",
+      "description": "Usar listas, diccionarios, condicionales y bucles para ordenar informacion.",
+      "learningRisk": "Practicar sin evidencia puede dejar errores invisibles o decisiones dificiles de sostener.",
       "lessons": [
         {
           "id": "m2-l1",
-          "title": "Variables",
-          "keyIdea": "Idea clave: Variables sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
-          "shortTheory": "En esta leccion vas a trabajar \"Variables\" dentro del modulo \"Datos basicos\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
-          "practicalExample": "Una persona quiere repetir un analisis sin hacerlo manualmente cada vez y necesita dejar pasos claros en codigo. Aplica \"Variables\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
-          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un notebook o script breve con carga de datos, limpieza, resumen, grafico y conclusion.",
-          "alert": "No ejecutar codigo desconocido sobre archivos importantes sin copia y entorno de prueba.",
+          "title": "Listas",
+          "keyIdea": "Listas sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja listas dentro de colecciones y control. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Una persona recibe archivos CSV con ventas, gastos o registros y necesita limpiarlos, analizarlos y explicar hallazgos. Aplica listas sobre ese escenario, guarda estructura de datos con recorrido y resultado esperado y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de listas, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "Las estructuras ayudan si se nombran con claridad.",
           "keyPoints": [
-            "Variables debe responder una pregunta concreta, no solo producir un resultado tecnico.",
-            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
-            "La evidencia minima esperada es: un notebook o script breve con carga de datos, limpieza, resumen, grafico y conclusion.",
-            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+            "Listas debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: los datos se recorren sin perder significado.",
+            "Evidencia minima: estructura de datos con recorrido y resultado esperado.",
+            "Entregable final relacionado: notebook o script simple que carga datos, limpia columnas, calcula indicadores y exporta un resumen."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m2-l2",
-          "title": "Tipos de datos",
-          "keyIdea": "Idea clave: Tipos de datos sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
-          "shortTheory": "En esta leccion vas a trabajar \"Tipos de datos\" dentro del modulo \"Datos basicos\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
-          "practicalExample": "Una persona quiere repetir un analisis sin hacerlo manualmente cada vez y necesita dejar pasos claros en codigo. Aplica \"Tipos de datos\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
-          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un notebook o script breve con carga de datos, limpieza, resumen, grafico y conclusion.",
-          "alert": "No ejecutar codigo desconocido sobre archivos importantes sin copia y entorno de prueba.",
+          "title": "Diccionarios",
+          "keyIdea": "Diccionarios sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja diccionarios dentro de colecciones y control. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Una persona recibe archivos CSV con ventas, gastos o registros y necesita limpiarlos, analizarlos y explicar hallazgos. Aplica diccionarios sobre ese escenario, guarda estructura de datos con recorrido y resultado esperado y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de diccionarios, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "Las estructuras ayudan si se nombran con claridad.",
           "keyPoints": [
-            "Tipos de datos debe responder una pregunta concreta, no solo producir un resultado tecnico.",
-            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
-            "La evidencia minima esperada es: un notebook o script breve con carga de datos, limpieza, resumen, grafico y conclusion.",
-            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+            "Diccionarios debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: los datos se recorren sin perder significado.",
+            "Evidencia minima: estructura de datos con recorrido y resultado esperado.",
+            "Entregable final relacionado: notebook o script simple que carga datos, limpia columnas, calcula indicadores y exporta un resumen."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m2-l3",
-          "title": "Listas",
-          "keyIdea": "Idea clave: Listas sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
-          "shortTheory": "En esta leccion vas a trabajar \"Listas\" dentro del modulo \"Datos basicos\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
-          "practicalExample": "Una persona quiere repetir un analisis sin hacerlo manualmente cada vez y necesita dejar pasos claros en codigo. Aplica \"Listas\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
-          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un notebook o script breve con carga de datos, limpieza, resumen, grafico y conclusion.",
-          "alert": "No ejecutar codigo desconocido sobre archivos importantes sin copia y entorno de prueba.",
+          "title": "if",
+          "keyIdea": "if sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja if dentro de colecciones y control. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Una persona recibe archivos CSV con ventas, gastos o registros y necesita limpiarlos, analizarlos y explicar hallazgos. Aplica if sobre ese escenario, guarda estructura de datos con recorrido y resultado esperado y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de if, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "Las estructuras ayudan si se nombran con claridad.",
           "keyPoints": [
-            "Listas debe responder una pregunta concreta, no solo producir un resultado tecnico.",
-            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
-            "La evidencia minima esperada es: un notebook o script breve con carga de datos, limpieza, resumen, grafico y conclusion.",
-            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+            "if debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: los datos se recorren sin perder significado.",
+            "Evidencia minima: estructura de datos con recorrido y resultado esperado.",
+            "Entregable final relacionado: notebook o script simple que carga datos, limpia columnas, calcula indicadores y exporta un resumen."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m2-l4",
-          "title": "Diccionarios",
-          "keyIdea": "Idea clave: Diccionarios sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
-          "shortTheory": "En esta leccion vas a trabajar \"Diccionarios\" dentro del modulo \"Datos basicos\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
-          "practicalExample": "Una persona quiere repetir un analisis sin hacerlo manualmente cada vez y necesita dejar pasos claros en codigo. Aplica \"Diccionarios\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
-          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un notebook o script breve con carga de datos, limpieza, resumen, grafico y conclusion.",
-          "alert": "No ejecutar codigo desconocido sobre archivos importantes sin copia y entorno de prueba.",
+          "title": "for",
+          "keyIdea": "for sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja for dentro de colecciones y control. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Una persona recibe archivos CSV con ventas, gastos o registros y necesita limpiarlos, analizarlos y explicar hallazgos. Aplica for sobre ese escenario, guarda estructura de datos con recorrido y resultado esperado y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de for, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "Las estructuras ayudan si se nombran con claridad.",
           "keyPoints": [
-            "Diccionarios debe responder una pregunta concreta, no solo producir un resultado tecnico.",
-            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
-            "La evidencia minima esperada es: un notebook o script breve con carga de datos, limpieza, resumen, grafico y conclusion.",
-            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+            "for debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: los datos se recorren sin perder significado.",
+            "Evidencia minima: estructura de datos con recorrido y resultado esperado.",
+            "Entregable final relacionado: notebook o script simple que carga datos, limpia columnas, calcula indicadores y exporta un resumen."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m2-l5",
-          "title": "Bucles",
-          "keyIdea": "Idea clave: Bucles sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
-          "shortTheory": "En esta leccion vas a trabajar \"Bucles\" dentro del modulo \"Datos basicos\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
-          "practicalExample": "Una persona quiere repetir un analisis sin hacerlo manualmente cada vez y necesita dejar pasos claros en codigo. Aplica \"Bucles\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
-          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un notebook o script breve con carga de datos, limpieza, resumen, grafico y conclusion.",
-          "alert": "No ejecutar codigo desconocido sobre archivos importantes sin copia y entorno de prueba.",
+          "title": "Funciones simples",
+          "keyIdea": "Funciones simples sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja funciones simples dentro de colecciones y control. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Una persona recibe archivos CSV con ventas, gastos o registros y necesita limpiarlos, analizarlos y explicar hallazgos. Aplica funciones simples sobre ese escenario, guarda estructura de datos con recorrido y resultado esperado y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de funciones simples, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "Las estructuras ayudan si se nombran con claridad.",
           "keyPoints": [
-            "Bucles debe responder una pregunta concreta, no solo producir un resultado tecnico.",
-            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
-            "La evidencia minima esperada es: un notebook o script breve con carga de datos, limpieza, resumen, grafico y conclusion.",
-            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+            "Funciones simples debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: los datos se recorren sin perder significado.",
+            "Evidencia minima: estructura de datos con recorrido y resultado esperado.",
+            "Entregable final relacionado: notebook o script simple que carga datos, limpia columnas, calcula indicadores y exporta un resumen."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m2-l6",
-          "title": "Condiciones",
-          "keyIdea": "Idea clave: Condiciones sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
-          "shortTheory": "En esta leccion vas a trabajar \"Condiciones\" dentro del modulo \"Datos basicos\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
-          "practicalExample": "Una persona quiere repetir un analisis sin hacerlo manualmente cada vez y necesita dejar pasos claros en codigo. Aplica \"Condiciones\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
-          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un notebook o script breve con carga de datos, limpieza, resumen, grafico y conclusion.",
-          "alert": "No ejecutar codigo desconocido sobre archivos importantes sin copia y entorno de prueba.",
+          "title": "Pruebas con casos chicos",
+          "keyIdea": "Pruebas con casos chicos sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja pruebas con casos chicos dentro de colecciones y control. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Una persona recibe archivos CSV con ventas, gastos o registros y necesita limpiarlos, analizarlos y explicar hallazgos. Aplica pruebas con casos chicos sobre ese escenario, guarda estructura de datos con recorrido y resultado esperado y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de pruebas con casos chicos, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "Las estructuras ayudan si se nombran con claridad.",
           "keyPoints": [
-            "Condiciones debe responder una pregunta concreta, no solo producir un resultado tecnico.",
-            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
-            "La evidencia minima esperada es: un notebook o script breve con carga de datos, limpieza, resumen, grafico y conclusion.",
-            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+            "Pruebas con casos chicos debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: los datos se recorren sin perder significado.",
+            "Evidencia minima: estructura de datos con recorrido y resultado esperado.",
+            "Entregable final relacionado: notebook o script simple que carga datos, limpia columnas, calcula indicadores y exporta un resumen."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         }
@@ -289,172 +288,171 @@
       "quiz": [
         {
           "id": "m2-q1",
-          "question": "Pregunta 1: ¿que conviene hacer al trabajar ",
+          "question": "Que conviene definir primero en \"Colecciones y control\"?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Objetivo, entrada, salida esperada y evidencia de prueba.",
+            "La herramienta mas vistosa disponible.",
+            "Un resultado final sin pasos intermedios.",
+            "Una respuesta rapida sin revisar contexto."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: el trabajo mejora cuando se sabe que entra, que sale y como se comprueba."
         },
         {
           "id": "m2-q2",
-          "question": "Pregunta 2: ¿que conviene hacer al trabajar ",
+          "question": "Que evidencia permite cerrar el modulo con mas confianza?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "estructura de datos con recorrido y resultado esperado",
+            "Un comentario general sin prueba.",
+            "Una captura sin explicar que se valido.",
+            "Una herramienta abierta en pantalla."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: estructura de datos con recorrido y resultado esperado permite revisar y mantener el resultado."
         },
         {
           "id": "m2-q3",
-          "question": "Pregunta 3: ¿que conviene hacer al trabajar ",
+          "question": "Que conducta aumenta la probabilidad de error?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Usar muchas variables sueltas para datos repetidos.",
+            "Usar datos de prueba antes de aplicar a un caso real.",
+            "Separar errores de funcionamiento y errores de interpretacion.",
+            "Guardar supuestos y decisiones."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: esa conducta oculta problemas y dificulta corregirlos."
         },
         {
           "id": "m2-q4",
-          "question": "Pregunta 4: ¿que conviene hacer al trabajar ",
+          "question": "Cuando corresponde pedir validacion externa o revisar una fuente confiable?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Cuando hay datos personales o grandes volumenes.",
+            "Nunca, porque la practica educativa reemplaza cualquier revision.",
+            "Solo cuando el resultado se ve mal.",
+            "Despues de publicar sin pruebas."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: algunas decisiones requieren soporte, fuente oficial o una persona competente."
         },
         {
           "id": "m2-q5",
-          "question": "Pregunta 5: ¿que conviene hacer al trabajar ",
+          "question": "Cual es el entregable minimo de \"Colecciones y control\"?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "ejercicio de listas y diccionarios",
+            "Una lista de ideas sin evidencia.",
+            "Una copia de pantalla sin explicacion.",
+            "Un archivo final sin criterio de cierre."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: ejercicio de listas y diccionarios deja avance verificable."
         }
-      ],
-      "professionalOutcome": "leer archivos, limpiar columnas, calcular resultados y explicar el proceso. Entregable sugerido: un script o notebook con entrada, limpieza, calculo, salida y explicacion."
+      ]
     },
     {
       "id": "m3",
-      "title": "Archivos CSV",
-      "description": "En este modulo vas a trabajar \"Archivos CSV\" dentro de Python para datos, entorno inicial, CSV, pandas, analisis simple, graficos y reproducibilidad. La meta es partir de una pregunta concreta, revisar la calidad de la informacion y cerrar con una evidencia que pueda explicarse.",
-      "learningRisk": "Punto clave",
+      "title": "Archivos y datos tabulares",
+      "description": "Leer CSV, revisar columnas, filas y tipos antes de analizar.",
+      "learningRisk": "Practicar sin evidencia puede dejar errores invisibles o decisiones dificiles de sostener.",
       "lessons": [
         {
           "id": "m3-l1",
-          "title": "Estructura CSV",
-          "keyIdea": "Idea clave: Estructura CSV sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
-          "shortTheory": "En esta leccion vas a trabajar \"Estructura CSV\" dentro del modulo \"Archivos CSV\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
-          "practicalExample": "Una persona quiere repetir un analisis sin hacerlo manualmente cada vez y necesita dejar pasos claros en codigo. Aplica \"Estructura CSV\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
-          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un notebook o script breve con carga de datos, limpieza, resumen, grafico y conclusion.",
-          "alert": "No ejecutar codigo desconocido sobre archivos importantes sin copia y entorno de prueba.",
+          "title": "Rutas de archivo",
+          "keyIdea": "Rutas de archivo sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja rutas de archivo dentro de archivos y datos tabulares. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Una persona recibe archivos CSV con ventas, gastos o registros y necesita limpiarlos, analizarlos y explicar hallazgos. Aplica rutas de archivo sobre ese escenario, guarda archivo cargado con inspeccion inicial y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de rutas de archivo, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "Nunca asumas que un CSV esta limpio.",
           "keyPoints": [
-            "Estructura CSV debe responder una pregunta concreta, no solo producir un resultado tecnico.",
-            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
-            "La evidencia minima esperada es: un notebook o script breve con carga de datos, limpieza, resumen, grafico y conclusion.",
-            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+            "Rutas de archivo debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: se conocen columnas, filas, faltantes y tipos.",
+            "Evidencia minima: archivo cargado con inspeccion inicial.",
+            "Entregable final relacionado: notebook o script simple que carga datos, limpia columnas, calcula indicadores y exporta un resumen."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m3-l2",
-          "title": "Abrir archivo",
-          "keyIdea": "Idea clave: Abrir archivo sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
-          "shortTheory": "En esta leccion vas a trabajar \"Abrir archivo\" dentro del modulo \"Archivos CSV\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
-          "practicalExample": "Una persona quiere repetir un analisis sin hacerlo manualmente cada vez y necesita dejar pasos claros en codigo. Aplica \"Abrir archivo\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
-          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un notebook o script breve con carga de datos, limpieza, resumen, grafico y conclusion.",
-          "alert": "No ejecutar codigo desconocido sobre archivos importantes sin copia y entorno de prueba.",
+          "title": "Leer CSV",
+          "keyIdea": "Leer CSV sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja leer csv dentro de archivos y datos tabulares. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Una persona recibe archivos CSV con ventas, gastos o registros y necesita limpiarlos, analizarlos y explicar hallazgos. Aplica leer csv sobre ese escenario, guarda archivo cargado con inspeccion inicial y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de leer csv, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "Nunca asumas que un CSV esta limpio.",
           "keyPoints": [
-            "Abrir archivo debe responder una pregunta concreta, no solo producir un resultado tecnico.",
-            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
-            "La evidencia minima esperada es: un notebook o script breve con carga de datos, limpieza, resumen, grafico y conclusion.",
-            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+            "Leer CSV debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: se conocen columnas, filas, faltantes y tipos.",
+            "Evidencia minima: archivo cargado con inspeccion inicial.",
+            "Entregable final relacionado: notebook o script simple que carga datos, limpia columnas, calcula indicadores y exporta un resumen."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m3-l3",
-          "title": "Columnas",
-          "keyIdea": "Idea clave: Columnas sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
-          "shortTheory": "En esta leccion vas a trabajar \"Columnas\" dentro del modulo \"Archivos CSV\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
-          "practicalExample": "Una persona quiere repetir un analisis sin hacerlo manualmente cada vez y necesita dejar pasos claros en codigo. Aplica \"Columnas\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
-          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un notebook o script breve con carga de datos, limpieza, resumen, grafico y conclusion.",
-          "alert": "No ejecutar codigo desconocido sobre archivos importantes sin copia y entorno de prueba.",
+          "title": "Ver primeras filas",
+          "keyIdea": "Ver primeras filas sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja ver primeras filas dentro de archivos y datos tabulares. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Una persona recibe archivos CSV con ventas, gastos o registros y necesita limpiarlos, analizarlos y explicar hallazgos. Aplica ver primeras filas sobre ese escenario, guarda archivo cargado con inspeccion inicial y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de ver primeras filas, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "Nunca asumas que un CSV esta limpio.",
           "keyPoints": [
-            "Columnas debe responder una pregunta concreta, no solo producir un resultado tecnico.",
-            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
-            "La evidencia minima esperada es: un notebook o script breve con carga de datos, limpieza, resumen, grafico y conclusion.",
-            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+            "Ver primeras filas debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: se conocen columnas, filas, faltantes y tipos.",
+            "Evidencia minima: archivo cargado con inspeccion inicial.",
+            "Entregable final relacionado: notebook o script simple que carga datos, limpia columnas, calcula indicadores y exporta un resumen."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m3-l4",
-          "title": "Filas",
-          "keyIdea": "Idea clave: Filas sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
-          "shortTheory": "En esta leccion vas a trabajar \"Filas\" dentro del modulo \"Archivos CSV\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
-          "practicalExample": "Una persona quiere repetir un analisis sin hacerlo manualmente cada vez y necesita dejar pasos claros en codigo. Aplica \"Filas\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
-          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un notebook o script breve con carga de datos, limpieza, resumen, grafico y conclusion.",
-          "alert": "No ejecutar codigo desconocido sobre archivos importantes sin copia y entorno de prueba.",
+          "title": "Columnas",
+          "keyIdea": "Columnas sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja columnas dentro de archivos y datos tabulares. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Una persona recibe archivos CSV con ventas, gastos o registros y necesita limpiarlos, analizarlos y explicar hallazgos. Aplica columnas sobre ese escenario, guarda archivo cargado con inspeccion inicial y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de columnas, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "Nunca asumas que un CSV esta limpio.",
           "keyPoints": [
-            "Filas debe responder una pregunta concreta, no solo producir un resultado tecnico.",
-            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
-            "La evidencia minima esperada es: un notebook o script breve con carga de datos, limpieza, resumen, grafico y conclusion.",
-            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+            "Columnas debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: se conocen columnas, filas, faltantes y tipos.",
+            "Evidencia minima: archivo cargado con inspeccion inicial.",
+            "Entregable final relacionado: notebook o script simple que carga datos, limpia columnas, calcula indicadores y exporta un resumen."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m3-l5",
-          "title": "Codificacion",
-          "keyIdea": "Idea clave: Codificacion sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
-          "shortTheory": "En esta leccion vas a trabajar \"Codificacion\" dentro del modulo \"Archivos CSV\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
-          "practicalExample": "Una persona quiere repetir un analisis sin hacerlo manualmente cada vez y necesita dejar pasos claros en codigo. Aplica \"Codificacion\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
-          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un notebook o script breve con carga de datos, limpieza, resumen, grafico y conclusion.",
-          "alert": "No ejecutar codigo desconocido sobre archivos importantes sin copia y entorno de prueba.",
+          "title": "Tipos de datos",
+          "keyIdea": "Tipos de datos sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja tipos de datos dentro de archivos y datos tabulares. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Una persona recibe archivos CSV con ventas, gastos o registros y necesita limpiarlos, analizarlos y explicar hallazgos. Aplica tipos de datos sobre ese escenario, guarda archivo cargado con inspeccion inicial y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de tipos de datos, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "Nunca asumas que un CSV esta limpio.",
           "keyPoints": [
-            "Codificacion debe responder una pregunta concreta, no solo producir un resultado tecnico.",
-            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
-            "La evidencia minima esperada es: un notebook o script breve con carga de datos, limpieza, resumen, grafico y conclusion.",
-            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+            "Tipos de datos debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: se conocen columnas, filas, faltantes y tipos.",
+            "Evidencia minima: archivo cargado con inspeccion inicial.",
+            "Entregable final relacionado: notebook o script simple que carga datos, limpia columnas, calcula indicadores y exporta un resumen."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m3-l6",
-          "title": "Errores de carga",
-          "keyIdea": "Idea clave: Errores de carga sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
-          "shortTheory": "En esta leccion vas a trabajar \"Errores de carga\" dentro del modulo \"Archivos CSV\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
-          "practicalExample": "Una persona quiere repetir un analisis sin hacerlo manualmente cada vez y necesita dejar pasos claros en codigo. Aplica \"Errores de carga\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
-          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un notebook o script breve con carga de datos, limpieza, resumen, grafico y conclusion.",
-          "alert": "No ejecutar codigo desconocido sobre archivos importantes sin copia y entorno de prueba.",
+          "title": "Faltantes",
+          "keyIdea": "Faltantes sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja faltantes dentro de archivos y datos tabulares. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Una persona recibe archivos CSV con ventas, gastos o registros y necesita limpiarlos, analizarlos y explicar hallazgos. Aplica faltantes sobre ese escenario, guarda archivo cargado con inspeccion inicial y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de faltantes, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "Nunca asumas que un CSV esta limpio.",
           "keyPoints": [
-            "Errores de carga debe responder una pregunta concreta, no solo producir un resultado tecnico.",
-            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
-            "La evidencia minima esperada es: un notebook o script breve con carga de datos, limpieza, resumen, grafico y conclusion.",
-            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+            "Faltantes debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: se conocen columnas, filas, faltantes y tipos.",
+            "Evidencia minima: archivo cargado con inspeccion inicial.",
+            "Entregable final relacionado: notebook o script simple que carga datos, limpia columnas, calcula indicadores y exporta un resumen."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         }
@@ -462,172 +460,171 @@
       "quiz": [
         {
           "id": "m3-q1",
-          "question": "Pregunta 1: ¿que conviene hacer al trabajar ",
+          "question": "Que conviene definir primero en \"Archivos y datos tabulares\"?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Objetivo, entrada, salida esperada y evidencia de prueba.",
+            "La herramienta mas vistosa disponible.",
+            "Un resultado final sin pasos intermedios.",
+            "Una respuesta rapida sin revisar contexto."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: el trabajo mejora cuando se sabe que entra, que sale y como se comprueba."
         },
         {
           "id": "m3-q2",
-          "question": "Pregunta 2: ¿que conviene hacer al trabajar ",
+          "question": "Que evidencia permite cerrar el modulo con mas confianza?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "archivo cargado con inspeccion inicial",
+            "Un comentario general sin prueba.",
+            "Una captura sin explicar que se valido.",
+            "Una herramienta abierta en pantalla."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: archivo cargado con inspeccion inicial permite revisar y mantener el resultado."
         },
         {
           "id": "m3-q3",
-          "question": "Pregunta 3: ¿que conviene hacer al trabajar ",
+          "question": "Que conducta aumenta la probabilidad de error?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Analizar sin mirar estructura ni calidad.",
+            "Usar datos de prueba antes de aplicar a un caso real.",
+            "Separar errores de funcionamiento y errores de interpretacion.",
+            "Guardar supuestos y decisiones."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: esa conducta oculta problemas y dificulta corregirlos."
         },
         {
           "id": "m3-q4",
-          "question": "Pregunta 4: ¿que conviene hacer al trabajar ",
+          "question": "Cuando corresponde pedir validacion externa o revisar una fuente confiable?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Cuando el archivo contiene clientes, empleados o datos privados.",
+            "Nunca, porque la practica educativa reemplaza cualquier revision.",
+            "Solo cuando el resultado se ve mal.",
+            "Despues de publicar sin pruebas."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: algunas decisiones requieren soporte, fuente oficial o una persona competente."
         },
         {
           "id": "m3-q5",
-          "question": "Pregunta 5: ¿que conviene hacer al trabajar ",
+          "question": "Cual es el entregable minimo de \"Archivos y datos tabulares\"?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "lectura de CSV documentada",
+            "Una lista de ideas sin evidencia.",
+            "Una copia de pantalla sin explicacion.",
+            "Un archivo final sin criterio de cierre."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: lectura de CSV documentada deja avance verificable."
         }
-      ],
-      "professionalOutcome": "leer archivos, limpiar columnas, calcular resultados y explicar el proceso. Entregable sugerido: un script o notebook con entrada, limpieza, calculo, salida y explicacion."
+      ]
     },
     {
       "id": "m4",
-      "title": "Pandas inicial",
-      "description": "En este modulo vas a trabajar \"Pandas inicial\" dentro de Python para datos, entorno inicial, CSV, pandas, analisis simple, graficos y reproducibilidad. La meta es partir de una pregunta concreta, revisar la calidad de la informacion y cerrar con una evidencia que pueda explicarse.",
-      "learningRisk": "Punto clave",
+      "title": "Limpieza con pandas",
+      "description": "Renombrar, filtrar, corregir tipos y preparar datos para indicadores.",
+      "learningRisk": "Practicar sin evidencia puede dejar errores invisibles o decisiones dificiles de sostener.",
       "lessons": [
         {
           "id": "m4-l1",
-          "title": "DataFrame",
-          "keyIdea": "Idea clave: DataFrame sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
-          "shortTheory": "En esta leccion vas a trabajar \"DataFrame\" dentro del modulo \"Pandas inicial\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
-          "practicalExample": "Una persona quiere repetir un analisis sin hacerlo manualmente cada vez y necesita dejar pasos claros en codigo. Aplica \"DataFrame\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
-          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un notebook o script breve con carga de datos, limpieza, resumen, grafico y conclusion.",
-          "alert": "No ejecutar codigo desconocido sobre archivos importantes sin copia y entorno de prueba.",
+          "title": "Renombrar columnas",
+          "keyIdea": "Renombrar columnas sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja renombrar columnas dentro de limpieza con pandas. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Una persona recibe archivos CSV con ventas, gastos o registros y necesita limpiarlos, analizarlos y explicar hallazgos. Aplica renombrar columnas sobre ese escenario, guarda dataset limpio con reglas aplicadas y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de renombrar columnas, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "Limpieza sin registro es dificil de auditar.",
           "keyPoints": [
-            "DataFrame debe responder una pregunta concreta, no solo producir un resultado tecnico.",
-            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
-            "La evidencia minima esperada es: un notebook o script breve con carga de datos, limpieza, resumen, grafico y conclusion.",
-            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+            "Renombrar columnas debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: cada limpieza tiene motivo y prueba.",
+            "Evidencia minima: dataset limpio con reglas aplicadas.",
+            "Entregable final relacionado: notebook o script simple que carga datos, limpia columnas, calcula indicadores y exporta un resumen."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m4-l2",
-          "title": "Ver primeras filas",
-          "keyIdea": "Idea clave: Ver primeras filas sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
-          "shortTheory": "En esta leccion vas a trabajar \"Ver primeras filas\" dentro del modulo \"Pandas inicial\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
-          "practicalExample": "Una persona quiere repetir un analisis sin hacerlo manualmente cada vez y necesita dejar pasos claros en codigo. Aplica \"Ver primeras filas\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
-          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un notebook o script breve con carga de datos, limpieza, resumen, grafico y conclusion.",
-          "alert": "No ejecutar codigo desconocido sobre archivos importantes sin copia y entorno de prueba.",
+          "title": "Filtrar filas",
+          "keyIdea": "Filtrar filas sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja filtrar filas dentro de limpieza con pandas. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Una persona recibe archivos CSV con ventas, gastos o registros y necesita limpiarlos, analizarlos y explicar hallazgos. Aplica filtrar filas sobre ese escenario, guarda dataset limpio con reglas aplicadas y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de filtrar filas, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "Limpieza sin registro es dificil de auditar.",
           "keyPoints": [
-            "Ver primeras filas debe responder una pregunta concreta, no solo producir un resultado tecnico.",
-            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
-            "La evidencia minima esperada es: un notebook o script breve con carga de datos, limpieza, resumen, grafico y conclusion.",
-            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+            "Filtrar filas debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: cada limpieza tiene motivo y prueba.",
+            "Evidencia minima: dataset limpio con reglas aplicadas.",
+            "Entregable final relacionado: notebook o script simple que carga datos, limpia columnas, calcula indicadores y exporta un resumen."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m4-l3",
-          "title": "Seleccionar columnas",
-          "keyIdea": "Idea clave: Seleccionar columnas sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
-          "shortTheory": "En esta leccion vas a trabajar \"Seleccionar columnas\" dentro del modulo \"Pandas inicial\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
-          "practicalExample": "Una persona quiere repetir un analisis sin hacerlo manualmente cada vez y necesita dejar pasos claros en codigo. Aplica \"Seleccionar columnas\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
-          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un notebook o script breve con carga de datos, limpieza, resumen, grafico y conclusion.",
-          "alert": "No ejecutar codigo desconocido sobre archivos importantes sin copia y entorno de prueba.",
+          "title": "Convertir fechas",
+          "keyIdea": "Convertir fechas sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja convertir fechas dentro de limpieza con pandas. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Una persona recibe archivos CSV con ventas, gastos o registros y necesita limpiarlos, analizarlos y explicar hallazgos. Aplica convertir fechas sobre ese escenario, guarda dataset limpio con reglas aplicadas y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de convertir fechas, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "Limpieza sin registro es dificil de auditar.",
           "keyPoints": [
-            "Seleccionar columnas debe responder una pregunta concreta, no solo producir un resultado tecnico.",
-            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
-            "La evidencia minima esperada es: un notebook o script breve con carga de datos, limpieza, resumen, grafico y conclusion.",
-            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+            "Convertir fechas debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: cada limpieza tiene motivo y prueba.",
+            "Evidencia minima: dataset limpio con reglas aplicadas.",
+            "Entregable final relacionado: notebook o script simple que carga datos, limpia columnas, calcula indicadores y exporta un resumen."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m4-l4",
-          "title": "Filtros",
-          "keyIdea": "Idea clave: Filtros sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
-          "shortTheory": "En esta leccion vas a trabajar \"Filtros\" dentro del modulo \"Pandas inicial\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
-          "practicalExample": "Una persona quiere repetir un analisis sin hacerlo manualmente cada vez y necesita dejar pasos claros en codigo. Aplica \"Filtros\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
-          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un notebook o script breve con carga de datos, limpieza, resumen, grafico y conclusion.",
-          "alert": "No ejecutar codigo desconocido sobre archivos importantes sin copia y entorno de prueba.",
+          "title": "Rellenar o excluir faltantes",
+          "keyIdea": "Rellenar o excluir faltantes sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja rellenar o excluir faltantes dentro de limpieza con pandas. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Una persona recibe archivos CSV con ventas, gastos o registros y necesita limpiarlos, analizarlos y explicar hallazgos. Aplica rellenar o excluir faltantes sobre ese escenario, guarda dataset limpio con reglas aplicadas y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de rellenar o excluir faltantes, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "Limpieza sin registro es dificil de auditar.",
           "keyPoints": [
-            "Filtros debe responder una pregunta concreta, no solo producir un resultado tecnico.",
-            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
-            "La evidencia minima esperada es: un notebook o script breve con carga de datos, limpieza, resumen, grafico y conclusion.",
-            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+            "Rellenar o excluir faltantes debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: cada limpieza tiene motivo y prueba.",
+            "Evidencia minima: dataset limpio con reglas aplicadas.",
+            "Entregable final relacionado: notebook o script simple que carga datos, limpia columnas, calcula indicadores y exporta un resumen."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m4-l5",
-          "title": "Ordenar",
-          "keyIdea": "Idea clave: Ordenar sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
-          "shortTheory": "En esta leccion vas a trabajar \"Ordenar\" dentro del modulo \"Pandas inicial\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
-          "practicalExample": "Una persona quiere repetir un analisis sin hacerlo manualmente cada vez y necesita dejar pasos claros en codigo. Aplica \"Ordenar\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
-          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un notebook o script breve con carga de datos, limpieza, resumen, grafico y conclusion.",
-          "alert": "No ejecutar codigo desconocido sobre archivos importantes sin copia y entorno de prueba.",
+          "title": "Eliminar duplicados",
+          "keyIdea": "Eliminar duplicados sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja eliminar duplicados dentro de limpieza con pandas. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Una persona recibe archivos CSV con ventas, gastos o registros y necesita limpiarlos, analizarlos y explicar hallazgos. Aplica eliminar duplicados sobre ese escenario, guarda dataset limpio con reglas aplicadas y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de eliminar duplicados, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "Limpieza sin registro es dificil de auditar.",
           "keyPoints": [
-            "Ordenar debe responder una pregunta concreta, no solo producir un resultado tecnico.",
-            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
-            "La evidencia minima esperada es: un notebook o script breve con carga de datos, limpieza, resumen, grafico y conclusion.",
-            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+            "Eliminar duplicados debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: cada limpieza tiene motivo y prueba.",
+            "Evidencia minima: dataset limpio con reglas aplicadas.",
+            "Entregable final relacionado: notebook o script simple que carga datos, limpia columnas, calcula indicadores y exporta un resumen."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m4-l6",
-          "title": "Valores faltantes",
-          "keyIdea": "Idea clave: Valores faltantes sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
-          "shortTheory": "En esta leccion vas a trabajar \"Valores faltantes\" dentro del modulo \"Pandas inicial\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
-          "practicalExample": "Una persona quiere repetir un analisis sin hacerlo manualmente cada vez y necesita dejar pasos claros en codigo. Aplica \"Valores faltantes\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
-          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un notebook o script breve con carga de datos, limpieza, resumen, grafico y conclusion.",
-          "alert": "No ejecutar codigo desconocido sobre archivos importantes sin copia y entorno de prueba.",
+          "title": "Guardar version limpia",
+          "keyIdea": "Guardar version limpia sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja guardar version limpia dentro de limpieza con pandas. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Una persona recibe archivos CSV con ventas, gastos o registros y necesita limpiarlos, analizarlos y explicar hallazgos. Aplica guardar version limpia sobre ese escenario, guarda dataset limpio con reglas aplicadas y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de guardar version limpia, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "Limpieza sin registro es dificil de auditar.",
           "keyPoints": [
-            "Valores faltantes debe responder una pregunta concreta, no solo producir un resultado tecnico.",
-            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
-            "La evidencia minima esperada es: un notebook o script breve con carga de datos, limpieza, resumen, grafico y conclusion.",
-            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+            "Guardar version limpia debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: cada limpieza tiene motivo y prueba.",
+            "Evidencia minima: dataset limpio con reglas aplicadas.",
+            "Entregable final relacionado: notebook o script simple que carga datos, limpia columnas, calcula indicadores y exporta un resumen."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         }
@@ -635,172 +632,171 @@
       "quiz": [
         {
           "id": "m4-q1",
-          "question": "Pregunta 1: ¿que conviene hacer al trabajar ",
+          "question": "Que conviene definir primero en \"Limpieza con pandas\"?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Objetivo, entrada, salida esperada y evidencia de prueba.",
+            "La herramienta mas vistosa disponible.",
+            "Un resultado final sin pasos intermedios.",
+            "Una respuesta rapida sin revisar contexto."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: el trabajo mejora cuando se sabe que entra, que sale y como se comprueba."
         },
         {
           "id": "m4-q2",
-          "question": "Pregunta 2: ¿que conviene hacer al trabajar ",
+          "question": "Que evidencia permite cerrar el modulo con mas confianza?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "dataset limpio con reglas aplicadas",
+            "Un comentario general sin prueba.",
+            "Una captura sin explicar que se valido.",
+            "Una herramienta abierta en pantalla."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: dataset limpio con reglas aplicadas permite revisar y mantener el resultado."
         },
         {
           "id": "m4-q3",
-          "question": "Pregunta 3: ¿que conviene hacer al trabajar ",
+          "question": "Que conducta aumenta la probabilidad de error?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Sobrescribir datos originales sin copia.",
+            "Usar datos de prueba antes de aplicar a un caso real.",
+            "Separar errores de funcionamiento y errores de interpretacion.",
+            "Guardar supuestos y decisiones."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: esa conducta oculta problemas y dificulta corregirlos."
         },
         {
           "id": "m4-q4",
-          "question": "Pregunta 4: ¿que conviene hacer al trabajar ",
+          "question": "Cuando corresponde pedir validacion externa o revisar una fuente confiable?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Cuando la limpieza afecta reportes oficiales o financieros.",
+            "Nunca, porque la practica educativa reemplaza cualquier revision.",
+            "Solo cuando el resultado se ve mal.",
+            "Despues de publicar sin pruebas."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: algunas decisiones requieren soporte, fuente oficial o una persona competente."
         },
         {
           "id": "m4-q5",
-          "question": "Pregunta 5: ¿que conviene hacer al trabajar ",
+          "question": "Cual es el entregable minimo de \"Limpieza con pandas\"?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "procedimiento de limpieza",
+            "Una lista de ideas sin evidencia.",
+            "Una copia de pantalla sin explicacion.",
+            "Un archivo final sin criterio de cierre."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: procedimiento de limpieza deja avance verificable."
         }
-      ],
-      "professionalOutcome": "leer archivos, limpiar columnas, calcular resultados y explicar el proceso. Entregable sugerido: un script o notebook con entrada, limpieza, calculo, salida y explicacion."
+      ]
     },
     {
       "id": "m5",
-      "title": "Analisis simple",
-      "description": "En este modulo vas a trabajar \"Analisis simple\" dentro de Python para datos, entorno inicial, CSV, pandas, analisis simple, graficos y reproducibilidad. La meta es partir de una pregunta concreta, revisar la calidad de la informacion y cerrar con una evidencia que pueda explicarse.",
-      "learningRisk": "Punto clave",
+      "title": "Analisis y visualizacion basica",
+      "description": "Calcular indicadores, agrupar datos y crear graficos simples.",
+      "learningRisk": "Practicar sin evidencia puede dejar errores invisibles o decisiones dificiles de sostener.",
       "lessons": [
         {
           "id": "m5-l1",
-          "title": "Conteos",
-          "keyIdea": "Idea clave: Conteos sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
-          "shortTheory": "En esta leccion vas a trabajar \"Conteos\" dentro del modulo \"Analisis simple\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
-          "practicalExample": "Una persona quiere repetir un analisis sin hacerlo manualmente cada vez y necesita dejar pasos claros en codigo. Aplica \"Conteos\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
-          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un notebook o script breve con carga de datos, limpieza, resumen, grafico y conclusion.",
-          "alert": "No ejecutar codigo desconocido sobre archivos importantes sin copia y entorno de prueba.",
+          "title": "sum y count",
+          "keyIdea": "sum y count sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja sum y count dentro de analisis y visualizacion basica. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Una persona recibe archivos CSV con ventas, gastos o registros y necesita limpiarlos, analizarlos y explicar hallazgos. Aplica sum y count sobre ese escenario, guarda tabla resumen y grafico basico con interpretacion y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de sum y count, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "Un grafico necesita titulo, contexto y lectura.",
           "keyPoints": [
-            "Conteos debe responder una pregunta concreta, no solo producir un resultado tecnico.",
-            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
-            "La evidencia minima esperada es: un notebook o script breve con carga de datos, limpieza, resumen, grafico y conclusion.",
-            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+            "sum y count debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: el resultado responde una pregunta concreta.",
+            "Evidencia minima: tabla resumen y grafico basico con interpretacion.",
+            "Entregable final relacionado: notebook o script simple que carga datos, limpia columnas, calcula indicadores y exporta un resumen."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m5-l2",
-          "title": "Promedios",
-          "keyIdea": "Idea clave: Promedios sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
-          "shortTheory": "En esta leccion vas a trabajar \"Promedios\" dentro del modulo \"Analisis simple\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
-          "practicalExample": "Una persona quiere repetir un analisis sin hacerlo manualmente cada vez y necesita dejar pasos claros en codigo. Aplica \"Promedios\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
-          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un notebook o script breve con carga de datos, limpieza, resumen, grafico y conclusion.",
-          "alert": "No ejecutar codigo desconocido sobre archivos importantes sin copia y entorno de prueba.",
+          "title": "groupby",
+          "keyIdea": "groupby sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja groupby dentro de analisis y visualizacion basica. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Una persona recibe archivos CSV con ventas, gastos o registros y necesita limpiarlos, analizarlos y explicar hallazgos. Aplica groupby sobre ese escenario, guarda tabla resumen y grafico basico con interpretacion y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de groupby, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "Un grafico necesita titulo, contexto y lectura.",
           "keyPoints": [
-            "Promedios debe responder una pregunta concreta, no solo producir un resultado tecnico.",
-            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
-            "La evidencia minima esperada es: un notebook o script breve con carga de datos, limpieza, resumen, grafico y conclusion.",
-            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+            "groupby debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: el resultado responde una pregunta concreta.",
+            "Evidencia minima: tabla resumen y grafico basico con interpretacion.",
+            "Entregable final relacionado: notebook o script simple que carga datos, limpia columnas, calcula indicadores y exporta un resumen."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m5-l3",
-          "title": "Agrupar",
-          "keyIdea": "Idea clave: Agrupar sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
-          "shortTheory": "En esta leccion vas a trabajar \"Agrupar\" dentro del modulo \"Analisis simple\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
-          "practicalExample": "Una persona quiere repetir un analisis sin hacerlo manualmente cada vez y necesita dejar pasos claros en codigo. Aplica \"Agrupar\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
-          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un notebook o script breve con carga de datos, limpieza, resumen, grafico y conclusion.",
-          "alert": "No ejecutar codigo desconocido sobre archivos importantes sin copia y entorno de prueba.",
+          "title": "Promedios",
+          "keyIdea": "Promedios sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja promedios dentro de analisis y visualizacion basica. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Una persona recibe archivos CSV con ventas, gastos o registros y necesita limpiarlos, analizarlos y explicar hallazgos. Aplica promedios sobre ese escenario, guarda tabla resumen y grafico basico con interpretacion y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de promedios, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "Un grafico necesita titulo, contexto y lectura.",
           "keyPoints": [
-            "Agrupar debe responder una pregunta concreta, no solo producir un resultado tecnico.",
-            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
-            "La evidencia minima esperada es: un notebook o script breve con carga de datos, limpieza, resumen, grafico y conclusion.",
-            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+            "Promedios debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: el resultado responde una pregunta concreta.",
+            "Evidencia minima: tabla resumen y grafico basico con interpretacion.",
+            "Entregable final relacionado: notebook o script simple que carga datos, limpia columnas, calcula indicadores y exporta un resumen."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m5-l4",
-          "title": "Crear columnas",
-          "keyIdea": "Idea clave: Crear columnas sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
-          "shortTheory": "En esta leccion vas a trabajar \"Crear columnas\" dentro del modulo \"Analisis simple\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
-          "practicalExample": "Una persona quiere repetir un analisis sin hacerlo manualmente cada vez y necesita dejar pasos claros en codigo. Aplica \"Crear columnas\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
-          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un notebook o script breve con carga de datos, limpieza, resumen, grafico y conclusion.",
-          "alert": "No ejecutar codigo desconocido sobre archivos importantes sin copia y entorno de prueba.",
+          "title": "Ordenar resultados",
+          "keyIdea": "Ordenar resultados sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja ordenar resultados dentro de analisis y visualizacion basica. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Una persona recibe archivos CSV con ventas, gastos o registros y necesita limpiarlos, analizarlos y explicar hallazgos. Aplica ordenar resultados sobre ese escenario, guarda tabla resumen y grafico basico con interpretacion y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de ordenar resultados, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "Un grafico necesita titulo, contexto y lectura.",
           "keyPoints": [
-            "Crear columnas debe responder una pregunta concreta, no solo producir un resultado tecnico.",
-            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
-            "La evidencia minima esperada es: un notebook o script breve con carga de datos, limpieza, resumen, grafico y conclusion.",
-            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+            "Ordenar resultados debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: el resultado responde una pregunta concreta.",
+            "Evidencia minima: tabla resumen y grafico basico con interpretacion.",
+            "Entregable final relacionado: notebook o script simple que carga datos, limpia columnas, calcula indicadores y exporta un resumen."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m5-l5",
-          "title": "Exportar resultados",
-          "keyIdea": "Idea clave: Exportar resultados sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
-          "shortTheory": "En esta leccion vas a trabajar \"Exportar resultados\" dentro del modulo \"Analisis simple\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
-          "practicalExample": "Una persona quiere repetir un analisis sin hacerlo manualmente cada vez y necesita dejar pasos claros en codigo. Aplica \"Exportar resultados\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
-          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un notebook o script breve con carga de datos, limpieza, resumen, grafico y conclusion.",
-          "alert": "No ejecutar codigo desconocido sobre archivos importantes sin copia y entorno de prueba.",
+          "title": "Graficos simples",
+          "keyIdea": "Graficos simples sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja graficos simples dentro de analisis y visualizacion basica. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Una persona recibe archivos CSV con ventas, gastos o registros y necesita limpiarlos, analizarlos y explicar hallazgos. Aplica graficos simples sobre ese escenario, guarda tabla resumen y grafico basico con interpretacion y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de graficos simples, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "Un grafico necesita titulo, contexto y lectura.",
           "keyPoints": [
-            "Exportar resultados debe responder una pregunta concreta, no solo producir un resultado tecnico.",
-            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
-            "La evidencia minima esperada es: un notebook o script breve con carga de datos, limpieza, resumen, grafico y conclusion.",
-            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+            "Graficos simples debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: el resultado responde una pregunta concreta.",
+            "Evidencia minima: tabla resumen y grafico basico con interpretacion.",
+            "Entregable final relacionado: notebook o script simple que carga datos, limpia columnas, calcula indicadores y exporta un resumen."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m5-l6",
-          "title": "Control de calidad",
-          "keyIdea": "Idea clave: Control de calidad sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
-          "shortTheory": "En esta leccion vas a trabajar \"Control de calidad\" dentro del modulo \"Analisis simple\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
-          "practicalExample": "Una persona quiere repetir un analisis sin hacerlo manualmente cada vez y necesita dejar pasos claros en codigo. Aplica \"Control de calidad\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
-          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un notebook o script breve con carga de datos, limpieza, resumen, grafico y conclusion.",
-          "alert": "No ejecutar codigo desconocido sobre archivos importantes sin copia y entorno de prueba.",
+          "title": "Interpretar hallazgos",
+          "keyIdea": "Interpretar hallazgos sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja interpretar hallazgos dentro de analisis y visualizacion basica. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Una persona recibe archivos CSV con ventas, gastos o registros y necesita limpiarlos, analizarlos y explicar hallazgos. Aplica interpretar hallazgos sobre ese escenario, guarda tabla resumen y grafico basico con interpretacion y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de interpretar hallazgos, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "Un grafico necesita titulo, contexto y lectura.",
           "keyPoints": [
-            "Control de calidad debe responder una pregunta concreta, no solo producir un resultado tecnico.",
-            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
-            "La evidencia minima esperada es: un notebook o script breve con carga de datos, limpieza, resumen, grafico y conclusion.",
-            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+            "Interpretar hallazgos debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: el resultado responde una pregunta concreta.",
+            "Evidencia minima: tabla resumen y grafico basico con interpretacion.",
+            "Entregable final relacionado: notebook o script simple que carga datos, limpia columnas, calcula indicadores y exporta un resumen."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         }
@@ -808,172 +804,171 @@
       "quiz": [
         {
           "id": "m5-q1",
-          "question": "Pregunta 1: ¿que conviene hacer al trabajar ",
+          "question": "Que conviene definir primero en \"Analisis y visualizacion basica\"?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Objetivo, entrada, salida esperada y evidencia de prueba.",
+            "La herramienta mas vistosa disponible.",
+            "Un resultado final sin pasos intermedios.",
+            "Una respuesta rapida sin revisar contexto."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: el trabajo mejora cuando se sabe que entra, que sale y como se comprueba."
         },
         {
           "id": "m5-q2",
-          "question": "Pregunta 2: ¿que conviene hacer al trabajar ",
+          "question": "Que evidencia permite cerrar el modulo con mas confianza?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "tabla resumen y grafico basico con interpretacion",
+            "Un comentario general sin prueba.",
+            "Una captura sin explicar que se valido.",
+            "Una herramienta abierta en pantalla."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: tabla resumen y grafico basico con interpretacion permite revisar y mantener el resultado."
         },
         {
           "id": "m5-q3",
-          "question": "Pregunta 3: ¿que conviene hacer al trabajar ",
+          "question": "Que conducta aumenta la probabilidad de error?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Crear graficos sin pregunta ni conclusion.",
+            "Usar datos de prueba antes de aplicar a un caso real.",
+            "Separar errores de funcionamiento y errores de interpretacion.",
+            "Guardar supuestos y decisiones."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: esa conducta oculta problemas y dificulta corregirlos."
         },
         {
           "id": "m5-q4",
-          "question": "Pregunta 4: ¿que conviene hacer al trabajar ",
+          "question": "Cuando corresponde pedir validacion externa o revisar una fuente confiable?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Cuando el resultado se usara para tomar decisiones.",
+            "Nunca, porque la practica educativa reemplaza cualquier revision.",
+            "Solo cuando el resultado se ve mal.",
+            "Despues de publicar sin pruebas."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: algunas decisiones requieren soporte, fuente oficial o una persona competente."
         },
         {
           "id": "m5-q5",
-          "question": "Pregunta 5: ¿que conviene hacer al trabajar ",
+          "question": "Cual es el entregable minimo de \"Analisis y visualizacion basica\"?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "analisis exploratorio inicial",
+            "Una lista de ideas sin evidencia.",
+            "Una copia de pantalla sin explicacion.",
+            "Un archivo final sin criterio de cierre."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: analisis exploratorio inicial deja avance verificable."
         }
-      ],
-      "professionalOutcome": "leer archivos, limpiar columnas, calcular resultados y explicar el proceso. Entregable sugerido: un script o notebook con entrada, limpieza, calculo, salida y explicacion."
+      ]
     },
     {
       "id": "m6",
-      "title": "Graficos y entrega",
-      "description": "En este modulo vas a trabajar \"Graficos y entrega\" dentro de Python para datos, entorno inicial, CSV, pandas, analisis simple, graficos y reproducibilidad. La meta es partir de una pregunta concreta, revisar la calidad de la informacion y cerrar con una evidencia que pueda explicarse.",
-      "learningRisk": "Punto clave",
+      "title": "Reporte reproducible",
+      "description": "Convertir el analisis en script o notebook que otra persona pueda repetir.",
+      "learningRisk": "Practicar sin evidencia puede dejar errores invisibles o decisiones dificiles de sostener.",
       "lessons": [
         {
           "id": "m6-l1",
-          "title": "Grafico de barras",
-          "keyIdea": "Idea clave: Grafico de barras sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
-          "shortTheory": "En esta leccion vas a trabajar \"Grafico de barras\" dentro del modulo \"Graficos y entrega\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
-          "practicalExample": "Una persona quiere repetir un analisis sin hacerlo manualmente cada vez y necesita dejar pasos claros en codigo. Aplica \"Grafico de barras\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
-          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un notebook o script breve con carga de datos, limpieza, resumen, grafico y conclusion.",
-          "alert": "No ejecutar codigo desconocido sobre archivos importantes sin copia y entorno de prueba.",
+          "title": "Orden del notebook",
+          "keyIdea": "Orden del notebook sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja orden del notebook dentro de reporte reproducible. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Una persona recibe archivos CSV con ventas, gastos o registros y necesita limpiarlos, analizarlos y explicar hallazgos. Aplica orden del notebook sobre ese escenario, guarda archivo con pasos, parametros y salida final y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de orden del notebook, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "Reproducible significa que el proceso importa tanto como el resultado.",
           "keyPoints": [
-            "Grafico de barras debe responder una pregunta concreta, no solo producir un resultado tecnico.",
-            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
-            "La evidencia minima esperada es: un notebook o script breve con carga de datos, limpieza, resumen, grafico y conclusion.",
-            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+            "Orden del notebook debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: otra persona puede ejecutar y obtener el mismo resultado.",
+            "Evidencia minima: archivo con pasos, parametros y salida final.",
+            "Entregable final relacionado: notebook o script simple que carga datos, limpia columnas, calcula indicadores y exporta un resumen."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m6-l2",
-          "title": "Grafico de linea",
-          "keyIdea": "Idea clave: Grafico de linea sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
-          "shortTheory": "En esta leccion vas a trabajar \"Grafico de linea\" dentro del modulo \"Graficos y entrega\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
-          "practicalExample": "Una persona quiere repetir un analisis sin hacerlo manualmente cada vez y necesita dejar pasos claros en codigo. Aplica \"Grafico de linea\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
-          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un notebook o script breve con carga de datos, limpieza, resumen, grafico y conclusion.",
-          "alert": "No ejecutar codigo desconocido sobre archivos importantes sin copia y entorno de prueba.",
+          "title": "Funciones reutilizables",
+          "keyIdea": "Funciones reutilizables sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja funciones reutilizables dentro de reporte reproducible. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Una persona recibe archivos CSV con ventas, gastos o registros y necesita limpiarlos, analizarlos y explicar hallazgos. Aplica funciones reutilizables sobre ese escenario, guarda archivo con pasos, parametros y salida final y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de funciones reutilizables, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "Reproducible significa que el proceso importa tanto como el resultado.",
           "keyPoints": [
-            "Grafico de linea debe responder una pregunta concreta, no solo producir un resultado tecnico.",
-            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
-            "La evidencia minima esperada es: un notebook o script breve con carga de datos, limpieza, resumen, grafico y conclusion.",
-            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+            "Funciones reutilizables debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: otra persona puede ejecutar y obtener el mismo resultado.",
+            "Evidencia minima: archivo con pasos, parametros y salida final.",
+            "Entregable final relacionado: notebook o script simple que carga datos, limpia columnas, calcula indicadores y exporta un resumen."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m6-l3",
-          "title": "Titulos",
-          "keyIdea": "Idea clave: Titulos sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
-          "shortTheory": "En esta leccion vas a trabajar \"Titulos\" dentro del modulo \"Graficos y entrega\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
-          "practicalExample": "Una persona quiere repetir un analisis sin hacerlo manualmente cada vez y necesita dejar pasos claros en codigo. Aplica \"Titulos\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
-          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un notebook o script breve con carga de datos, limpieza, resumen, grafico y conclusion.",
-          "alert": "No ejecutar codigo desconocido sobre archivos importantes sin copia y entorno de prueba.",
+          "title": "Exportar CSV",
+          "keyIdea": "Exportar CSV sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja exportar csv dentro de reporte reproducible. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Una persona recibe archivos CSV con ventas, gastos o registros y necesita limpiarlos, analizarlos y explicar hallazgos. Aplica exportar csv sobre ese escenario, guarda archivo con pasos, parametros y salida final y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de exportar csv, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "Reproducible significa que el proceso importa tanto como el resultado.",
           "keyPoints": [
-            "Titulos debe responder una pregunta concreta, no solo producir un resultado tecnico.",
-            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
-            "La evidencia minima esperada es: un notebook o script breve con carga de datos, limpieza, resumen, grafico y conclusion.",
-            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+            "Exportar CSV debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: otra persona puede ejecutar y obtener el mismo resultado.",
+            "Evidencia minima: archivo con pasos, parametros y salida final.",
+            "Entregable final relacionado: notebook o script simple que carga datos, limpia columnas, calcula indicadores y exporta un resumen."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m6-l4",
-          "title": "Guardar imagen",
-          "keyIdea": "Idea clave: Guardar imagen sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
-          "shortTheory": "En esta leccion vas a trabajar \"Guardar imagen\" dentro del modulo \"Graficos y entrega\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
-          "practicalExample": "Una persona quiere repetir un analisis sin hacerlo manualmente cada vez y necesita dejar pasos claros en codigo. Aplica \"Guardar imagen\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
-          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un notebook o script breve con carga de datos, limpieza, resumen, grafico y conclusion.",
-          "alert": "No ejecutar codigo desconocido sobre archivos importantes sin copia y entorno de prueba.",
+          "title": "Exportar resumen",
+          "keyIdea": "Exportar resumen sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja exportar resumen dentro de reporte reproducible. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Una persona recibe archivos CSV con ventas, gastos o registros y necesita limpiarlos, analizarlos y explicar hallazgos. Aplica exportar resumen sobre ese escenario, guarda archivo con pasos, parametros y salida final y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de exportar resumen, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "Reproducible significa que el proceso importa tanto como el resultado.",
           "keyPoints": [
-            "Guardar imagen debe responder una pregunta concreta, no solo producir un resultado tecnico.",
-            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
-            "La evidencia minima esperada es: un notebook o script breve con carga de datos, limpieza, resumen, grafico y conclusion.",
-            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+            "Exportar resumen debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: otra persona puede ejecutar y obtener el mismo resultado.",
+            "Evidencia minima: archivo con pasos, parametros y salida final.",
+            "Entregable final relacionado: notebook o script simple que carga datos, limpia columnas, calcula indicadores y exporta un resumen."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m6-l5",
-          "title": "Notebook limpio",
-          "keyIdea": "Idea clave: Notebook limpio sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
-          "shortTheory": "En esta leccion vas a trabajar \"Notebook limpio\" dentro del modulo \"Graficos y entrega\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
-          "practicalExample": "Una persona quiere repetir un analisis sin hacerlo manualmente cada vez y necesita dejar pasos claros en codigo. Aplica \"Notebook limpio\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
-          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un notebook o script breve con carga de datos, limpieza, resumen, grafico y conclusion.",
-          "alert": "No ejecutar codigo desconocido sobre archivos importantes sin copia y entorno de prueba.",
+          "title": "README breve",
+          "keyIdea": "README breve sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja readme breve dentro de reporte reproducible. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Una persona recibe archivos CSV con ventas, gastos o registros y necesita limpiarlos, analizarlos y explicar hallazgos. Aplica readme breve sobre ese escenario, guarda archivo con pasos, parametros y salida final y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de readme breve, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "Reproducible significa que el proceso importa tanto como el resultado.",
           "keyPoints": [
-            "Notebook limpio debe responder una pregunta concreta, no solo producir un resultado tecnico.",
-            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
-            "La evidencia minima esperada es: un notebook o script breve con carga de datos, limpieza, resumen, grafico y conclusion.",
-            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+            "README breve debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: otra persona puede ejecutar y obtener el mismo resultado.",
+            "Evidencia minima: archivo con pasos, parametros y salida final.",
+            "Entregable final relacionado: notebook o script simple que carga datos, limpia columnas, calcula indicadores y exporta un resumen."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m6-l6",
-          "title": "Resumen final",
-          "keyIdea": "Idea clave: Resumen final sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
-          "shortTheory": "En esta leccion vas a trabajar \"Resumen final\" dentro del modulo \"Graficos y entrega\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
-          "practicalExample": "Una persona quiere repetir un analisis sin hacerlo manualmente cada vez y necesita dejar pasos claros en codigo. Aplica \"Resumen final\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
-          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: un notebook o script breve con carga de datos, limpieza, resumen, grafico y conclusion.",
-          "alert": "No ejecutar codigo desconocido sobre archivos importantes sin copia y entorno de prueba.",
+          "title": "Revision final",
+          "keyIdea": "Revision final sirve para convertir una practica tecnica en un resultado que otra persona pueda revisar, probar y mejorar.",
+          "shortTheory": "En esta leccion se trabaja revision final dentro de reporte reproducible. La meta es entender el concepto, aplicarlo en un caso pequeno y comprobar el resultado con evidencia.",
+          "practicalExample": "Una persona recibe archivos CSV con ventas, gastos o registros y necesita limpiarlos, analizarlos y explicar hallazgos. Aplica revision final sobre ese escenario, guarda archivo con pasos, parametros y salida final y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar por copia o intuicion sin probar datos, estados de error, casos limite ni claridad del resultado.",
+          "whatToDoNow": "Practica de 25 minutos: arma una version pequena de revision final, prueba el resultado y registra evidencia, duda y proxima mejora.",
+          "alert": "Reproducible significa que el proceso importa tanto como el resultado.",
           "keyPoints": [
-            "Resumen final debe responder una pregunta concreta, no solo producir un resultado tecnico.",
-            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
-            "La evidencia minima esperada es: un notebook o script breve con carga de datos, limpieza, resumen, grafico y conclusion.",
-            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+            "Revision final debe producir una salida observable, no solo una definicion.",
+            "Criterio de cierre: otra persona puede ejecutar y obtener el mismo resultado.",
+            "Evidencia minima: archivo con pasos, parametros y salida final.",
+            "Entregable final relacionado: notebook o script simple que carga datos, limpia columnas, calcula indicadores y exporta un resumen."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         }
@@ -981,76 +976,65 @@
       "quiz": [
         {
           "id": "m6-q1",
-          "question": "Pregunta 1: ¿que conviene hacer al trabajar ",
+          "question": "Que conviene definir primero en \"Reporte reproducible\"?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Objetivo, entrada, salida esperada y evidencia de prueba.",
+            "La herramienta mas vistosa disponible.",
+            "Un resultado final sin pasos intermedios.",
+            "Una respuesta rapida sin revisar contexto."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: el trabajo mejora cuando se sabe que entra, que sale y como se comprueba."
         },
         {
           "id": "m6-q2",
-          "question": "Pregunta 2: ¿que conviene hacer al trabajar ",
+          "question": "Que evidencia permite cerrar el modulo con mas confianza?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "archivo con pasos, parametros y salida final",
+            "Un comentario general sin prueba.",
+            "Una captura sin explicar que se valido.",
+            "Una herramienta abierta en pantalla."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: archivo con pasos, parametros y salida final permite revisar y mantener el resultado."
         },
         {
           "id": "m6-q3",
-          "question": "Pregunta 3: ¿que conviene hacer al trabajar ",
+          "question": "Que conducta aumenta la probabilidad de error?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Arreglar resultados manualmente despues de exportar.",
+            "Usar datos de prueba antes de aplicar a un caso real.",
+            "Separar errores de funcionamiento y errores de interpretacion.",
+            "Guardar supuestos y decisiones."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: esa conducta oculta problemas y dificulta corregirlos."
         },
         {
           "id": "m6-q4",
-          "question": "Pregunta 4: ¿que conviene hacer al trabajar ",
+          "question": "Cuando corresponde pedir validacion externa o revisar una fuente confiable?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Cuando el reporte se comparte o se actualiza periodicamente.",
+            "Nunca, porque la practica educativa reemplaza cualquier revision.",
+            "Solo cuando el resultado se ve mal.",
+            "Despues de publicar sin pruebas."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: algunas decisiones requieren soporte, fuente oficial o una persona competente."
         },
         {
           "id": "m6-q5",
-          "question": "Pregunta 5: ¿que conviene hacer al trabajar ",
+          "question": "Cual es el entregable minimo de \"Reporte reproducible\"?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "reporte reproducible",
+            "Una lista de ideas sin evidencia.",
+            "Una copia de pantalla sin explicacion.",
+            "Un archivo final sin criterio de cierre."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: reporte reproducible deja avance verificable."
         }
-      ],
-      "professionalOutcome": "leer archivos, limpiar columnas, calcular resultados y explicar el proceso. Entregable sugerido: un script o notebook con entrada, limpieza, calculo, salida y explicacion."
+      ]
     }
-  ],
-  "appName": "Python para Datos desde Cero",
-  "professionalization": {
-    "tier": "curso-bandera-v1.0-beta",
-    "updatedAt": "2026-05-28",
-    "focus": "Profundizacion visible de lecciones, practicas, checklists y casos."
-  },
-  "editorialPolish": {
-    "thirdEditorialBatch": "2026-06-02",
-    "status": "public-facing-copy-polished"
-  }
+  ]
 }
