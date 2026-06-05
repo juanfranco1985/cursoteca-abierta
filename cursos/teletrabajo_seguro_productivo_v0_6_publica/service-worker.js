@@ -1,4 +1,4 @@
-const CACHE_NAME = "teletrabajo_seguro_productivo_v0_6_publica-cache-v0-6-publica-profesional-nav-v1";
+const CACHE_NAME = "teletrabajo_seguro_productivo_v0_6_publica-cache-0.7-tanda-4";
 const APP_SHELL = [
   "./",
   "./index.html",
