@@ -22,6 +22,7 @@ zips/
 
 - 50 cursos y guias gratuitas publicadas como biblioteca inicial.
 - Reestructuracion editorial en curso para profundizar teoria, ejemplos, casos y fuentes.
+- Insumo de investigacion v0.9 incorporado en `investigacion/cursoteca_investigacion_profesional_web_v0_9/`.
 - 8 estantes principales de aprendizaje.
 - Sitio estatico: sin backend, login ni base de datos.
 - Textos base de beta para nosotros, privacidad, contacto y publicidad.

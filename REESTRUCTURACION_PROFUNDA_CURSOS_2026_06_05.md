@@ -24,6 +24,20 @@ El diagnostico general recibido el 2026-06-05 refuerza cuatro decisiones de prod
 
 Accion aplicada: se ajusto la promesa publica del portal a "biblioteca inicial en ampliacion editorial", se agregaron rutas recomendadas y se explicito la metodologia de revision.
 
+## Insumo de investigacion v0.9
+
+El paquete `cursoteca_investigacion_profesional_web_v0_9.zip` fue incorporado al repositorio como insumo editorial:
+
+`investigacion/cursoteca_investigacion_profesional_web_v0_9/`
+
+Validacion local:
+
+- 50 fichas individuales.
+- 50 slugs coinciden con las 50 carpetas de cursos.
+- 0 cursos sin ficha.
+
+Advertencia: este paquete no debe aplicarse como reescritura automatica. Varias fichas todavia contienen conceptos genericos o conceptos cruzados de otro dominio. Debe usarse como matriz de objetivos, fuentes y productos finales, con verificacion de fuentes primarias antes de cada tanda.
+
 ## Nuevo criterio editorial
 
 Cada leccion profunda debe dejar de ser una variacion de plantilla y pasar a una pieza teorica aplicable. La estructura objetivo es:
