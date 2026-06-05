@@ -3,245 +3,209 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Cursoteca Abierta - Portal de Cursos Gratuitos</title>
-  <meta name="description" content="Cursoteca Abierta: biblioteca inicial de cursos gratuitos y guias practicas en ampliacion editorial." />
-  <link rel="stylesheet" href="styles.css?v=20260605-credibilidad" />
+  <title>Cursoteca Abierta - Sala de Estudio Profesional</title>
+  <meta name="description" content="Cursoteca Abierta: sala de estudio digital con cursos gratuitos, estantes tematicos y materiales en mejora editorial." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css?v=20260605-sala-estudio" />
 </head>
 <body>
   <a class="skip-link" href="#main">Saltar al contenido principal</a>
-  <nav class="floating-menu" aria-label="Accesos rapidos">
-    <a href="#inicio">Menu</a>
-    <a href="#rutas">Rutas</a>
-    <a href="#categorias">Estantes</a>
-    <a href="#inventario">Buscar</a>
-  </nav>
-  <header class="site-header" id="inicio">
-    <nav class="topbar" aria-label="Navegacion principal">
-      <a class="brand" href="#inicio" aria-label="Cursoteca Abierta">
-        <span class="brand-mark" aria-hidden="true"></span>
-        <span>Cursoteca Abierta</span>
-      </a>
-      <div class="nav-links">
-        <a href="#categorias">Categorias</a>
-        <a href="#rutas">Rutas</a>
-        <a href="#destacados">Destacados</a>
+
+  <nav class="meson-nav" aria-label="Navegacion principal">
+    <a class="logo-club" href="#inicio" aria-label="Cursoteca Abierta">Cursoteca Abierta</a>
+    <div class="controles-meson">
+      <label class="sr-only" for="selector-ambiente">Ambiente de lectura</label>
+      <select class="selector-candil" id="selector-ambiente">
+        <option value="candil">Tarde de candil</option>
+        <option value="claro">Manana clara</option>
+        <option value="nocturno">Estudio nocturno</option>
+      </select>
+      <div class="menu-meson" aria-label="Accesos del portal">
+        <a href="#categorias">Estanterias</a>
+        <a href="#destacados">Mesa de lectura</a>
         <a href="#inventario">Catalogo</a>
         <a href="#informacion">Info</a>
       </div>
-      <a class="nav-action" href="#categorias">Abrir catalogo</a>
-    </nav>
+    </div>
+  </nav>
 
-    <div class="hero-shell">
-      <div class="hero-copy">
-        <p class="eyebrow">Biblioteca digital abierta</p>
-        <h1>Conocimiento practico al alcance de todos</h1>
-        <p class="hero-text">Una biblioteca inicial con 50 cursos y guias gratuitas para aprender ciudadania digital, IA, datos, emprendimiento, productividad y desarrollo web. El catalogo esta publicado y la profundidad editorial se amplia por etapas.</p>
-        <div class="hero-actions">
-          <a class="button-link" href="#categorias">Explorar catalogo</a>
-          <a class="secondary-button" href="#inventario">Ver todos los cursos</a>
-        </div>
-      </div>
-
-      <div class="hero-visual" aria-label="Biblioteca digital de Cursoteca Abierta">
-        <div class="library-window" aria-hidden="true">
-          <span class="book-spine"></span>
-          <span class="book-spine"></span>
-          <span class="book-spine"></span>
-          <span class="book-spine"></span>
-          <span class="book-spine"></span>
-          <span class="book-spine"></span>
-        </div>
-        <div class="open-book" aria-hidden="true">
-          <span class="page page-left"></span>
-          <span class="page page-right"></span>
-          <span class="book-glow"></span>
-        </div>
-        <aside class="hero-hud" aria-label="Estado del portal">
-          <div class="hud-row"><span>Cursos abiertos</span><strong id="course-count">50</strong></div>
-          <div class="hud-row"><span>Estantes</span><strong>8</strong></div>
-          <div class="hud-row"><span>Acceso</span><strong>Gratis</strong></div>
-          <div class="hud-row"><span>Catalogo</span><strong>Activo</strong></div>
-        </aside>
-        <div class="reading-card" aria-hidden="true">
-          <span>Catalogo vivo</span>
-          <strong>50 cursos y guias</strong>
-          <span>1 piloto profundo publicado</span>
-        </div>
-      </div>
+  <header class="cabecera-focalizada" id="inicio">
+    <p class="eyebrow">Biblioteca digital abierta</p>
+    <h1 class="titulo-principal">Que conocimiento queres retirar hoy?</h1>
+    <p class="bajada-principal">Una sala de estudio con cursos gratuitos, estantes tematicos, rutas sugeridas y materiales que se estan profundizando por tandas editoriales.</p>
+    <div class="buscador-biblioteca">
+      <label class="sr-only" for="search-input">Buscar cursos</label>
+      <input type="search" class="buscador-input" id="search-input" placeholder="Buscar por titulo, tema, publico o estado..." autocomplete="off" />
+    </div>
+    <div class="hero-metricas" aria-label="Estado del catalogo">
+      <span><strong id="course-count">50</strong> cursos abiertos</span>
+      <span>8 estantes principales</span>
+      <span>Acceso gratuito</span>
     </div>
   </header>
 
-  <main id="main" class="main-layout">
-    <section class="summary-panel" id="publicacion" aria-labelledby="summary-title">
-      <div>
-        <p class="eyebrow">Estado general</p>
-        <h2 id="summary-title">Biblioteca inicial en ampliacion editorial</h2>
-        <p>Los 50 materiales estan disponibles como cursos abiertos y guias practicas. La prioridad actual es profundizar teoria, ejemplos, casos y fuentes en los cursos principales antes de sumar mas cantidad.</p>
-      </div>
-      <div class="summary-grid">
-        <article><strong>50</strong><span>cursos y guias</span></article>
-        <article><strong>8</strong><span>estantes principales</span></article>
-        <article><strong>1</strong><span>piloto profundo</span></article>
-        <article><strong>v0.8</strong><span>en mejora editorial</span></article>
-      </div>
-    </section>
+  <main id="main" class="contenedor-layout">
+    <aside class="fichero-sidebar" aria-label="Fichero de navegacion">
+      <div class="fichero-bloque">
+        <h2 class="fichero-titulo">Fichero de estantes</h2>
+        <ul class="lista-indices" id="shelf-index"></ul>
 
-    <section class="quick-start" aria-labelledby="quick-start-title">
-      <div class="section-heading">
-        <div><p class="eyebrow">Empezar rapido</p><h2 id="quick-start-title">Elegir por necesidad</h2></div>
-        <p class="result-count">Atajos para no entrar al catalogo a ciegas</p>
-      </div>
-      <div class="quick-grid">
-        <a href="#categorias" class="quick-card">
-          <span>01</span>
-          <strong>Quiero orientarme</strong>
-          <small>Ver los 8 estantes y elegir una ruta.</small>
-        </a>
-        <a href="#destacados" class="quick-card">
-          <span>02</span>
-          <strong>Quiero empezar hoy</strong>
-          <small>Abrir una seleccion breve de cursos destacados.</small>
-        </a>
-        <a href="#inventario" class="quick-card">
-          <span>03</span>
-          <strong>Busco un tema puntual</strong>
-          <small>Usar buscador y filtro por categoria.</small>
-        </a>
-        <a href="../../cursos/ux_ui_basico_sitios_apps_v0_6_publica/index.html" class="quick-card">
-          <span>04</span>
-          <strong>Revisar UX/UI</strong>
-          <small>Entrar al primer curso reestructurado con teoria profunda y fuentes.</small>
-        </a>
-      </div>
-    </section>
-
-    <section class="quick-start learning-routes" id="rutas" aria-labelledby="routes-title">
-      <div class="section-heading">
-        <div><p class="eyebrow">Rutas recomendadas</p><h2 id="routes-title">Por donde empezar</h2></div>
-        <p class="result-count">Caminos breves para no perderse en el catalogo</p>
-      </div>
-      <div class="quick-grid">
-        <a href="#categorias" class="quick-card">
-          <span>01</span>
-          <strong>Base digital</strong>
-          <small>Empezar por ciudadania digital, seguridad, privacidad y uso responsable del navegador.</small>
-        </a>
-        <a href="#categorias" class="quick-card">
-          <span>02</span>
-          <strong>Trabajo e IA</strong>
-          <small>Seguir con IA practica, productividad, teletrabajo y herramientas para organizar informacion.</small>
-        </a>
-        <a href="#categorias" class="quick-card">
-          <span>03</span>
-          <strong>Datos y decisiones</strong>
-          <small>Avanzar con planillas, datos, BI, SQL, calidad y storytelling.</small>
-        </a>
-        <a href="../../cursos/ux_ui_basico_sitios_apps_v0_6_publica/index.html" class="quick-card">
-          <span>04</span>
-          <strong>Piloto profundo</strong>
-          <small>Ver el nuevo modelo editorial aplicado en UX/UI Basico.</small>
-        </a>
-      </div>
-    </section>
-
-    <section class="route-band" id="categorias" aria-labelledby="categories-title">
-      <div class="section-heading">
-        <div><p class="eyebrow">Entrada principal</p><h2 id="categories-title">Estantes de aprendizaje</h2></div>
-        <p class="result-count">Catalogo agrupado por objetivo profesional</p>
-      </div>
-      <div id="category-hub" class="category-grid" aria-live="polite"></div>
-    </section>
-
-    <section id="category-view" class="category-view" aria-labelledby="category-view-title" hidden>
-      <div class="category-view-header">
-        <div>
-          <p class="eyebrow">Estante seleccionado</p>
-          <h2 id="category-view-title">Cursos del estante</h2>
-          <p id="category-view-description" class="result-count"></p>
+        <div class="progreso-global-contenedor" aria-label="Progreso local de exploracion">
+          <span class="progreso-titulo-macro">Volumenes abiertos</span>
+          <div class="barra-macro-bg">
+            <div class="barra-macro-fill" id="barra-progreso-global"></div>
+          </div>
+          <span class="texto-macro-porcentaje" id="texto-progreso-global">0% explorado</span>
         </div>
-        <div class="category-view-actions">
-          <p id="category-view-count" class="result-count"></p>
-          <button id="back-to-categories" class="secondary-button" type="button">Volver a estantes</button>
+
+        <div class="filtro-compacto">
+          <label for="category-filter">Filtrar categoria</label>
+          <select id="category-filter">
+            <option value="all">Todas las categorias</option>
+          </select>
+          <button id="reset-filters" type="button">Limpiar filtros</button>
         </div>
       </div>
-      <div id="category-courses-grid" class="courses-grid" aria-live="polite"></div>
-    </section>
+    </aside>
 
-    <section id="destacados" aria-labelledby="featured-title">
-      <div class="section-heading">
-        <div><p class="eyebrow">Mesa de lectura</p><h2 id="featured-title">Cursos destacados</h2></div>
-        <p class="result-count">Seleccion breve para empezar</p>
-      </div>
-      <div id="featured-grid" class="courses-grid featured-grid" aria-live="polite"></div>
-    </section>
+    <div class="estanteria-contenido">
+      <section class="seccion-estante ruta-inicial" id="rutas" aria-labelledby="routes-title">
+        <div class="estante-indicador">
+          <div>
+            <p class="eyebrow">Rutas recomendadas</p>
+            <h2 id="routes-title">Por donde empezar</h2>
+          </div>
+          <p class="result-count">Atajos para entrar sin recorrer todo el inventario</p>
+        </div>
+        <div class="quick-grid">
+          <a href="#categorias" class="quick-card">
+            <span>01</span>
+            <strong>Base digital</strong>
+            <small>Ciudadania digital, seguridad, privacidad y autonomia cotidiana.</small>
+          </a>
+          <a href="#destacados" class="quick-card">
+            <span>02</span>
+            <strong>Primeros completos</strong>
+            <small>Cursos marcados como completo v1 y materiales reforzados.</small>
+          </a>
+          <a href="#inventario" class="quick-card">
+            <span>03</span>
+            <strong>Busqueda puntual</strong>
+            <small>Encontrar un tema por titulo, categoria, publico o etiqueta.</small>
+          </a>
+          <a href="../../cursos/ux_ui_basico_sitios_apps_v0_6_publica/index.html" class="quick-card" data-course-open="ux_ui_basico_sitios_apps_v0_6_publica">
+            <span>04</span>
+            <strong>Piloto UX/UI</strong>
+            <small>Revisar el primer modelo de curso reestructurado en profundidad.</small>
+          </a>
+        </div>
+      </section>
 
-    <nav class="toolbar" aria-label="Filtros del portal">
-      <label class="search-label" for="search-input">Buscar</label>
-      <input id="search-input" type="search" placeholder="Buscar por titulo, tema o publico..." />
-      <label class="search-label" for="category-filter">Categoria</label>
-      <select id="category-filter"><option value="all">Todas las categorias</option></select>
-      <button id="reset-filters" type="button">Limpiar</button>
-    </nav>
+      <section class="seccion-estante" id="categorias" aria-labelledby="categories-title">
+        <div class="estante-indicador">
+          <div>
+            <p class="eyebrow">Entrada principal</p>
+            <h2 id="categories-title">Estanterias de aprendizaje</h2>
+          </div>
+          <p class="result-count">Catalogo agrupado por objetivo</p>
+        </div>
+        <div id="category-hub" class="category-grid" aria-live="polite"></div>
+      </section>
 
-    <section id="inventario" aria-labelledby="courses-title">
-      <div class="section-heading">
-        <div><p class="eyebrow">Inventario</p><h2 id="courses-title">Catalogo completo</h2></div>
-        <p id="result-count" class="result-count"></p>
-      </div>
-      <div id="courses-grid" class="courses-grid" aria-live="polite"></div>
-    </section>
+      <section id="category-view" class="category-view seccion-estante" aria-labelledby="category-view-title" hidden>
+        <div class="category-view-header">
+          <div>
+            <p class="eyebrow">Estante seleccionado</p>
+            <h2 id="category-view-title">Cursos del estante</h2>
+            <p id="category-view-description" class="result-count"></p>
+          </div>
+          <div class="category-view-actions">
+            <p id="category-view-count" class="result-count"></p>
+            <button id="back-to-categories" class="secondary-button" type="button">Volver a estanterias</button>
+          </div>
+        </div>
+        <div id="category-courses-grid" class="grid-libros" aria-live="polite"></div>
+      </section>
 
-    <section id="informacion" class="public-info" aria-labelledby="public-info-title">
-      <div class="section-heading">
-        <div><p class="eyebrow">Beta publica</p><h2 id="public-info-title">Informacion abierta del proyecto</h2></div>
-        <p class="result-count">Metodologia, privacidad, estado editorial y contacto</p>
-      </div>
-      <div class="info-grid">
-        <article>
-          <p class="eyebrow">Nosotros</p>
-          <h3>Una biblioteca educativa gratuita</h3>
-          <p>Cursoteca Abierta reune cursos y guias practicas para aprendizaje autonomo, consulta cotidiana y formacion inicial. El proyecto esta en ampliacion editorial: la publicacion existe, pero la profundidad teorica se esta reforzando por tandas.</p>
-        </article>
-        <article>
-          <p class="eyebrow">Metodologia</p>
-          <h3>Como se revisan los cursos</h3>
-          <p>La nueva revision prioriza teoria especifica, ejemplos reales, contraejemplos, ejercicios con resultado, casos contextualizados, fuentes externas y fecha de actualizacion. UX/UI Basico es el primer piloto profundo de este criterio.</p>
-        </article>
-        <article>
-          <p class="eyebrow">Estado editorial</p>
-          <h3>Calidad antes que volumen</h3>
-          <p>El objetivo inmediato no es sumar mas cursos, sino enriquecer los cursos principales. Los materiales no deben presentarse como equivalentes en profundidad hasta pasar por la nueva puerta de calidad editorial.</p>
-        </article>
-        <article>
-          <p class="eyebrow">Privacidad</p>
-          <h3>Sin cuentas ni formularios propios</h3>
-          <p>El portal no usa login, backend, base de datos, analitica ni formularios propios. Algunos cursos pueden guardar progreso en el dispositivo mediante el almacenamiento local del navegador.</p>
-        </article>
-        <article>
-          <p class="eyebrow">Contacto</p>
-          <h3>Canal beta de seguimiento</h3>
-          <p>Durante esta beta, los avisos de errores, mejoras y solicitudes de revision se centralizan en el repositorio publico del proyecto.</p>
-          <a class="secondary-button" href="https://github.com/juanfranco1985/cursoteca-abierta/issues">Abrir seguimiento</a>
-        </article>
-        <article>
-          <p class="eyebrow">Publicidad</p>
-          <h3>Sin anuncios activos</h3>
-          <p>La beta no tiene publicidad ni medicion comercial. Cualquier incorporacion futura deberia preservar legibilidad, accesibilidad y separacion clara entre aprendizaje y anuncios.</p>
-        </article>
-      </div>
-    </section>
+      <section class="seccion-estante" id="destacados" aria-labelledby="featured-title">
+        <div class="estante-indicador">
+          <div>
+            <p class="eyebrow">Mesa de lectura</p>
+            <h2 id="featured-title">Cursos destacados</h2>
+          </div>
+          <p class="result-count">Seleccion breve para empezar</p>
+        </div>
+        <div id="featured-grid" class="grid-libros featured-grid" aria-live="polite"></div>
+      </section>
+
+      <section class="seccion-estante" id="inventario" aria-labelledby="courses-title">
+        <div class="estante-indicador">
+          <div>
+            <p class="eyebrow">Inventario</p>
+            <h2 id="courses-title">Catalogo completo</h2>
+          </div>
+          <p id="result-count" class="result-count"></p>
+        </div>
+        <div id="courses-grid" class="grid-libros" aria-live="polite"></div>
+      </section>
+
+      <section id="informacion" class="seccion-estante public-info" aria-labelledby="public-info-title">
+        <div class="estante-indicador">
+          <div>
+            <p class="eyebrow">Beta publica</p>
+            <h2 id="public-info-title">Informacion abierta del proyecto</h2>
+          </div>
+          <p class="result-count">Metodologia, privacidad, estado editorial y contacto</p>
+        </div>
+        <div class="info-grid">
+          <article>
+            <p class="eyebrow">Nosotros</p>
+            <h3>Una biblioteca educativa gratuita</h3>
+            <p>Cursoteca Abierta reune cursos y guias practicas para aprendizaje autonomo, consulta cotidiana y formacion inicial.</p>
+          </article>
+          <article>
+            <p class="eyebrow">Metodo</p>
+            <h3>Profundizacion por tandas</h3>
+            <p>La revision prioriza teoria especifica, ejemplos reales, contraejemplos, ejercicios con resultado, casos contextualizados, fuentes externas y fecha de actualizacion.</p>
+          </article>
+          <article>
+            <p class="eyebrow">Estado editorial</p>
+            <h3>Calidad antes que volumen</h3>
+            <p>Los cursos se publican como catalogo abierto y se enriquecen por etapas. Los materiales completos v1 quedan marcados en el inventario.</p>
+          </article>
+          <article>
+            <p class="eyebrow">Privacidad</p>
+            <h3>Sin cuentas ni formularios propios</h3>
+            <p>El portal no usa login, backend, base de datos, analitica ni formularios propios. Los marcadores de lectura se guardan solo en este navegador.</p>
+          </article>
+          <article>
+            <p class="eyebrow">Seguimiento</p>
+            <h3>Canal beta</h3>
+            <p>Los avisos de errores, mejoras y solicitudes de revision se centralizan en el repositorio publico del proyecto.</p>
+            <a class="secondary-button" href="https://github.com/juanfranco1985/cursoteca-abierta/issues">Abrir seguimiento</a>
+          </article>
+          <article>
+            <p class="eyebrow">Acceso</p>
+            <h3>Biblioteca abierta</h3>
+            <p>Los cursos se abren directamente desde el navegador y los paquetes ZIP quedan disponibles para descarga desde el repositorio.</p>
+          </article>
+        </div>
+      </section>
+    </div>
   </main>
 
   <footer class="site-footer">
     <nav class="footer-links" aria-label="Informacion del proyecto">
-      <a href="#informacion">Nosotros</a>
-      <a href="#informacion">Privacidad</a>
-      <a href="https://github.com/juanfranco1985/cursoteca-abierta/issues">Contacto</a>
+      <a href="#inicio">Menu principal</a>
+      <a href="#categorias">Estanterias</a>
+      <a href="#inventario">Catalogo</a>
       <a href="https://github.com/juanfranco1985/cursoteca-abierta">Repositorio</a>
     </nav>
-    <p>Cursoteca Abierta - Biblioteca digital de cursos gratuitos.</p>
-    <p>50 cursos y guias abiertas en proceso de ampliacion editorial.</p>
+    <p>Cursoteca Abierta - Sala de estudio digital de cursos gratuitos.</p>
   </footer>
-  <script src="src/app.js?v=20260605-credibilidad"></script>
+
+  <script src="src/app.js?v=20260605-sala-estudio"></script>
 </body>
 </html>
