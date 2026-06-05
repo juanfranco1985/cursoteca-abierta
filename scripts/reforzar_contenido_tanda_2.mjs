@@ -546,7 +546,7 @@ const courses = [
   {
     folder: "finanzas_digitales_seguras_web_v0_6_publica",
     shortId: "findig",
-    courseId: "finanzas-digitales-seguras",
+    courseId: "finanzas-digitales-seguras-argentina",
     title: "Finanzas Digitales Seguras Argentina",
     shortName: "Finanzas Digitales",
     subtitle: "Billeteras, transferencias, comprobantes, tarjetas, presupuesto y respuesta ante fraudes.",
@@ -780,7 +780,7 @@ courses.push(
   {
     folder: "primeros_auxilios_digitales_web_v0_6_publica",
     shortId: "padig",
-    courseId: "primeros-auxilios-digitales",
+    courseId: "primeros-auxilios-digitales-web",
     title: "Primeros Auxilios Digitales",
     shortName: "Auxilios Digitales",
     subtitle: "Robo de cuentas, links, billeteras, dispositivos, evidencia, bloqueo y recuperacion.",
