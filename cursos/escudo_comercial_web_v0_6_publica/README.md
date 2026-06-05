@@ -28,3 +28,7 @@ Este curso fue marcado como curso bandera el 2026-05-28. Se reforzaron lecciones
 Enfoque: prevencion comercial digital para proteger ventas, cobros, cuentas y reputacion.
 
 Entregable sugerido: un protocolo comercial con reglas de cobro, entrega, atencion, evidencia y emergencia.
+
+## Reescritura curso completo v1
+
+Actualizado el 2026-06-05 con teoria ampliada, objetivos, modulos, caso integrador, actividades, evaluacion, glosario, producto final y fuentes recomendadas.

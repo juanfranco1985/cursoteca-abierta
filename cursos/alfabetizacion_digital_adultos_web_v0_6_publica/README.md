@@ -28,3 +28,7 @@ Este curso fue marcado como curso bandera el 2026-05-27. Se reforzaron lecciones
 Enfoque: acompanamiento digital de adultos.
 
 Entregable sugerido: una ficha de procedimiento con objetivo, pasos, alerta y comprobacion final.
+
+## Reescritura curso completo v1
+
+Actualizado el 2026-06-05 con teoria ampliada, objetivos, modulos, caso integrador, actividades, evaluacion, glosario, producto final y fuentes recomendadas.

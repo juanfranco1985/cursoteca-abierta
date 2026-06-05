@@ -15,3 +15,7 @@ Este curso fue marcado como curso bandera el 2026-05-27. Se reforzaron lecciones
 Enfoque: uso seguro de telefonos Android, apps, permisos, copias y configuracion basica.
 
 Entregable sugerido: un checklist de telefono seguro con ajustes, permisos, copias y acciones de emergencia.
+
+## Reescritura curso completo v1
+
+Actualizado el 2026-06-05 con teoria ampliada, objetivos, modulos, caso integrador, actividades, evaluacion, glosario, producto final y fuentes recomendadas.

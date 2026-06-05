@@ -74,6 +74,10 @@ function esc(value = "") {
     .replaceAll("'", "&#039;");
 }
 
+function formatText(value = "") {
+  return esc(value).replace(/\n{2,}/g, "<br><br>").replace(/\n/g, "<br>");
+}
+
 function list(items = []) {
   if (!items.length) return "<p>No hay elementos cargados todavía.</p>";
   return `<ul>${items.map(item => `<li>${esc(item)}</li>`).join("")}</ul>`;
@@ -512,6 +516,37 @@ function lessonNavigation(moduleId, lessonId) {
     </nav>`;
 }
 
+function renderTheorySections(lesson) {
+  const sections = Array.isArray(lesson.theorySections) ? lesson.theorySections : [];
+  if (!sections.length) return "";
+  return `
+    <div class="theory-stack">
+      ${sections.map(section => `
+        <section class="theory-block">
+          <h3>${esc(section.title || "Bloque teorico")}</h3>
+          <p>${formatText(section.body || "")}</p>
+        </section>`).join("")}
+    </div>`;
+}
+
+function renderReferences(lesson) {
+  const references = Array.isArray(lesson.references) ? lesson.references : [];
+  if (!references.length) return "";
+  return `
+    <div class="card reading-card source-card">
+      <h2>Fuentes usadas</h2>
+      <ul class="source-list">
+        ${references.map(ref => `
+          <li>
+            <a href="${esc(ref.url || "#")}" target="_blank" rel="noopener">
+              <strong>${esc(ref.title || ref.key || "Fuente")}</strong>
+              <span>${esc(ref.organization || ref.note || "")}</span>
+            </a>
+          </li>`).join("")}
+      </ul>
+    </div>`;
+}
+
 function renderLesson(moduleId, lessonId) {
   const module = getModule(moduleId);
   const lesson = getLesson(moduleId, lessonId);
@@ -529,12 +564,12 @@ function renderLesson(moduleId, lessonId) {
           <a class="btn ghost" href="#/module/${module.id}">Volver al módulo</a>
         </div>
       </div>
-      <div class="card reading-card"><h2>Teoría breve</h2><p>${esc(lesson.shortTheory || lesson.content || "")}</p></div>
-      <div class="card reading-card"><h2>Ejemplo práctico</h2><p>${esc(lesson.practicalExample || "")}</p></div>
-      <div class="card alert"><h2>Error común</h2><p>${esc(lesson.commonMistake || "")}</p></div>
-      <div class="card reading-card"><h2>Qué hacer ahora</h2><p>${esc(lesson.whatToDoNow || lesson.recommendedAction || "")}</p></div>
+      <div class="card reading-card"><h2>Teoría aplicada</h2><p>${formatText(lesson.shortTheory || lesson.content || "")}</p>${renderTheorySections(lesson)}</div>
+      <div class="card reading-card"><h2>Ejemplo práctico</h2><p>${formatText(lesson.practicalExample || "")}</p></div>\n      ${lesson.counterExample ? `<div class="card reading-card counter-card"><h2>Contraejemplo</h2><p>${formatText(lesson.counterExample)}</p></div>` : ""}
+      <div class="card alert"><h2>Error común</h2><p>${formatText(lesson.commonMistake || "")}</p></div>
+      <div class="card reading-card"><h2>Qué hacer ahora</h2><p>${formatText(lesson.whatToDoNow || lesson.recommendedAction || "")}</p></div>
       ${lesson.alert ? `<div class="card danger-card"><h2>Alerta</h2><p>${esc(lesson.alert)}</p></div>` : ""}
-      <div class="card"><h2>Conceptos clave</h2>${list(lesson.keyPoints)}</div>
+      <div class="card"><h2>Conceptos clave</h2>${list(lesson.keyPoints)}</div>\n      ${renderReferences(lesson)}\n      ${renderReferences(lesson)}\n      ${renderReferences(lesson)}
       <div class="card"><h2>Nota responsable</h2><p>${esc(lesson.responsibleNote || manifest.responsibleNotice || "Contenido educativo. No reemplaza asesoramiento profesional ni canales oficiales.")}</p></div>
       ${lessonNavigation(moduleId, lessonId)}
     </article>`;

@@ -1,1050 +1,1043 @@
 {
   "courseId": "astronomia-general-curiosos",
   "title": "Astronomia General para Curiosos",
-  "version": "0.6-publica",
-  "publicationStatus": "publica-profesional-v0.6",
+  "version": "1.0-curso-completo-v1",
+  "publicationStatus": "publica-curso-completo-v1",
+  "depthModel": {
+    "status": "curso-completo-v1",
+    "updatedAt": "2026-06-05",
+    "sourcePackage": "cursos_01_05_reescritos_v1",
+    "theoryArchitecture": [
+      "presentacion del curso",
+      "objetivos de aprendizaje",
+      "modulos teoricos",
+      "caso practico integrador",
+      "actividades",
+      "evaluacion final",
+      "glosario",
+      "producto final",
+      "fuentes recomendadas"
+    ]
+  },
+  "presentation": "La astronomía es una de las formas más antiguas y profundas de conocimiento humano. Desde las primeras civilizaciones que observaron el movimiento de la Luna y las estrellas hasta los telescopios espaciales modernos que estudian galaxias, exoplanetas y agujeros negros, la astronomía ha sido una herramienta para comprender nuestro lugar en el universo.\n\nEste curso está pensado para personas curiosas que desean iniciarse en la astronomía sin necesidad de conocimientos matemáticos avanzados. Su objetivo no es formar astrónomos profesionales, sino construir una base conceptual seria para entender qué estudia la astronomía, cómo se observa el cielo, qué sabemos del sistema solar, cómo nacen y mueren las estrellas, qué son las galaxias y cómo leer noticias astronómicas con pensamiento crítico.",
+  "objectives": [
+    "Explicar qué estudia la astronomía y diferenciarla de creencias no científicas como la astrología.",
+    "Reconocer los principales objetos del cielo: estrellas, planetas, satélites, asteroides, cometas, nebulosas y galaxias.",
+    "Comprender la estructura básica del sistema solar.",
+    "Entender por qué se producen fenómenos como fases lunares, eclipses, estaciones y movimiento aparente del cielo.",
+    "Interpretar de manera básica noticias sobre descubrimientos astronómicos.",
+    "Distinguir entre observación a simple vista, observación con telescopios e investigación astronómica profesional.",
+    "Desarrollar una actitud crítica frente a mitos, exageraciones y pseudociencias relacionadas con el espacio."
+  ],
+  "finalProduct": "El estudiante debe producir una “Guía personal de iniciación astronómica” con resumen de objetos del cielo, esquema del sistema solar, registro de observación lunar, análisis crítico de una noticia astronómica y lista de fuentes confiables para seguir aprendiendo.",
+  "glossary": "Astronomía: ciencia que estudia los cuerpos celestes y el universo.\n\nAstrología: sistema de creencias que relaciona posiciones celestes con personalidad o destino humano, sin validación científica.\n\nSistema solar: conjunto de cuerpos ligados gravitacionalmente al Sol.\n\nPlaneta: cuerpo que orbita una estrella, tiene forma aproximadamente esférica y domina su órbita.\n\nPlaneta enano: cuerpo que orbita el Sol y tiene forma aproximadamente esférica, pero no domina su órbita.\n\nAsteroide: cuerpo menor rocoso o metálico que orbita el Sol.\n\nCometa: cuerpo compuesto por hielo, polvo y material volátil que puede formar cola al acercarse al Sol.\n\nEstrella: esfera de plasma que produce energía mediante fusión nuclear.\n\nGalaxia: sistema enorme de estrellas, gas, polvo y materia oscura unido por gravedad.\n\nExoplaneta: planeta que orbita una estrella distinta del Sol.\n\nAño luz: distancia que recorre la luz en un año.\n\nConstelación: región definida del cielo utilizada para ubicar objetos celestes.\n\nTelescopio: instrumento que capta luz u otra radiación para estudiar objetos lejanos.\n\nEclipse: alineación de cuerpos celestes que produce ocultamiento total o parcial de uno de ellos.\n\nZona habitable: región alrededor de una estrella donde podría existir agua líquida bajo ciertas condiciones.",
+  "sourceBank": {
+    "source-1": {
+      "title": "NASA Solar System Exploration",
+      "organization": "NASA Solar System Exploration",
+      "url": "https://solarsystem.nasa.gov/",
+      "note": "Fuente recomendada por el paquete de reescritura v1."
+    },
+    "source-2": {
+      "title": "NASA Exoplanet Exploration",
+      "organization": "NASA Exoplanet Exploration",
+      "url": "https://exoplanets.nasa.gov/",
+      "note": "Fuente recomendada por el paquete de reescritura v1."
+    },
+    "source-3": {
+      "title": "International Astronomical Union",
+      "organization": "International Astronomical Union",
+      "url": "https://www.iau.org/",
+      "note": "Fuente recomendada por el paquete de reescritura v1."
+    },
+    "source-4": {
+      "title": "European Space Agency",
+      "organization": "European Space Agency",
+      "url": "https://www.esa.int/",
+      "note": "Fuente recomendada por el paquete de reescritura v1."
+    },
+    "source-5": {
+      "title": "Recursos educativos de observatorios astronómicos",
+      "organization": "Recursos educativos de observatorios astronómicos",
+      "url": "#",
+      "note": "Fuente recomendada por el paquete de reescritura v1."
+    }
+  },
   "modules": [
     {
       "id": "m1",
-      "title": "Mirar el cielo",
-      "description": "En este modulo vas a trabajar \"Mirar el cielo\" dentro de astronomia para curiosos, observacion, sistema solar, Luna, estrellas, galaxias y aprendizaje continuo. La meta es entender una idea con fuentes confiables, explicarla con palabras propias y dejar una pregunta para seguir aprendiendo.",
+      "title": "Qué es la astronomía",
+      "description": "La astronomía es la ciencia que estudia los cuerpos celestes, sus movimientos, su composición, su origen, su evolución y las leyes físicas que explican su comportamiento.  Su campo de estudio incluye planetas, lunas, asteroides, cometas, estrellas, nebulosas, galaxias, cúmulos, agujeros negros y el universo en su conjunto.",
+      "learningRisk": "Estudiar el tema como una lista de datos sin comprender fundamentos, limites ni aplicacion.",
+      "commercialRisk": "Tomar decisiones practicas sin criterio, fuente ni producto verificable.",
       "lessons": [
         {
           "id": "m1-l1",
-          "title": "Cielo diurno y nocturno",
-          "keyIdea": "Idea clave: Cielo diurno y nocturno ayuda a comprender un concepto complejo sin perder rigor ni depender de frases hechas.",
-          "shortTheory": "En esta leccion vas a trabajar \"Cielo diurno y nocturno\" dentro del modulo \"Mirar el cielo\". El foco es distinguir observacion, explicacion, limite y fuente para construir una comprension honesta.",
-          "practicalExample": "Una persona quiere entender mejor lo que ve en el cielo sin perderse entre datos sueltos, mitos o explicaciones demasiado tecnicas. Aplica \"Cielo diurno y nocturno\" con una version pequena: define contexto, accion principal, evidencia y proximo paso.",
-          "commonMistake": "El error comun es quedarse con una curiosidad superficial, repetir una analogia sin limites o usar una fuente llamativa pero poco confiable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe contexto, accion, evidencia, limite y proximo paso. Entrega esperada: una guia de observacion con objeto elegido, dato clave, como mirarlo, fuente confiable y pregunta siguiente.",
-          "alert": "No mirar el Sol directamente ni usar instrumentos sin filtros certificados.",
-          "keyPoints": [
-            "Cielo diurno y nocturno debe poder explicarse con una idea central y un limite claro.",
-            "Una buena fuente y una pregunta nueva valen mas que una respuesta decorativa.",
-            "La entrega esperada es: una guia de observacion con objeto elegido, dato clave, como mirarlo, fuente confiable y pregunta siguiente.",
-            "El resultado debe invitar a seguir aprendiendo sin confundir divulgacion con certeza absoluta."
+          "title": "Qué es la astronomía",
+          "keyIdea": "Qué es la astronomía: La astronomía es la ciencia que estudia los cuerpos celestes, sus movimientos, su composición, su origen, su evolución y las leyes físicas que explican su comportamiento.",
+          "shortTheory": "La astronomía es la ciencia que estudia los cuerpos celestes, sus movimientos, su composición, su origen, su evolución y las leyes físicas que explican su comportamiento.  Su campo de estudio incluye planetas, lunas, asteroides, cometas, estrellas, nebulosas, galaxias, cúmulos, agujeros negros y el universo en su conjunto.",
+          "theorySections": [
+            {
+              "title": "Fundamento",
+              "body": "La astronomía es la ciencia que estudia los cuerpos celestes, sus movimientos, su composición, su origen, su evolución y las leyes físicas que explican su comportamiento. Su campo de estudio incluye planetas, lunas, asteroides, cometas, estrellas, nebulosas, galaxias, cúmulos, agujeros negros y el universo en su conjunto.\n\nA diferencia de una simple contemplación del cielo, la astronomía científica se basa en observaciones sistemáticas, mediciones verificables y modelos que pueden contrastarse con evidencia."
+            },
+            {
+              "title": "Criterios y detalles",
+              "body": "Astronomía y astrología\n\nLa astronomía es una ciencia: observa, mide, calcula, publica resultados y revisa sus conclusiones cuando aparece nueva evidencia. La astrología, en cambio, sostiene que la posición de los astros influye sobre la personalidad o el destino humano, pero no utiliza un método científico verificable ni produce predicciones comprobables bajo estándares experimentales."
+            }
           ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
-        },
-        {
-          "id": "m1-l2",
-          "title": "Puntos cardinales",
-          "keyIdea": "Idea clave: Puntos cardinales ayuda a comprender un concepto complejo sin perder rigor ni depender de frases hechas.",
-          "shortTheory": "En esta leccion vas a trabajar \"Puntos cardinales\" dentro del modulo \"Mirar el cielo\". El foco es distinguir observacion, explicacion, limite y fuente para construir una comprension honesta.",
-          "practicalExample": "Una persona quiere entender mejor lo que ve en el cielo sin perderse entre datos sueltos, mitos o explicaciones demasiado tecnicas. Aplica \"Puntos cardinales\" con una version pequena: define contexto, accion principal, evidencia y proximo paso.",
-          "commonMistake": "El error comun es quedarse con una curiosidad superficial, repetir una analogia sin limites o usar una fuente llamativa pero poco confiable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe contexto, accion, evidencia, limite y proximo paso. Entrega esperada: una guia de observacion con objeto elegido, dato clave, como mirarlo, fuente confiable y pregunta siguiente.",
-          "alert": "No mirar el Sol directamente ni usar instrumentos sin filtros certificados.",
+          "practicalExample": "Aplicacion sugerida: Diferenciar ciencia y pseudociencia a partir de tres titulares.. Actividad 1: Diferenciar ciencia y pseudociencia a partir de tres titulares.",
+          "counterExample": "Contraejemplo: tratar \"Qué es la astronomía\" como una receta aislada, sin contexto, evidencia ni criterio de calidad.",
+          "commonMistake": "Error frecuente: memorizar el concepto sin poder explicar para que sirve, que limite tiene y como se aplica en una situacion concreta.",
+          "whatToDoNow": "Actividad: escribe una ficha breve sobre \"Qué es la astronomía\" con definicion, ejemplo, riesgo, fuente consultada y una accion concreta vinculada al producto final: Guia personal de iniciacion astronomica.",
+          "alert": "Validar decisiones importantes con fuentes oficiales o personas competentes. No usar datos sensibles reales en practicas educativas.",
           "keyPoints": [
-            "Puntos cardinales debe poder explicarse con una idea central y un limite claro.",
-            "Una buena fuente y una pregunta nueva valen mas que una respuesta decorativa.",
-            "La entrega esperada es: una guia de observacion con objeto elegido, dato clave, como mirarlo, fuente confiable y pregunta siguiente.",
-            "El resultado debe invitar a seguir aprendiendo sin confundir divulgacion con certeza absoluta."
+            "La astronomía es la ciencia que estudia los cuerpos celestes, sus movimientos, su composición, su origen, su evolución y las leyes físicas que explican su comportamiento.",
+            "Su campo de estudio incluye planetas, lunas, asteroides, cometas, estrellas, nebulosas, galaxias, cúmulos, agujeros negros y el universo en su conjunto.",
+            "A diferencia de una simple contemplación del cielo, la astronomía científica se basa en observaciones sistemáticas, mediciones verificables y modelos que pueden contrastarse con evidencia.",
+            "Astronomía y astrología La astronomía es una ciencia: observa, mide, calcula, publica resultados y revisa sus conclusiones cuando aparece nueva evidencia."
           ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
-        },
-        {
-          "id": "m1-l3",
-          "title": "Movimiento aparente",
-          "keyIdea": "Idea clave: Movimiento aparente ayuda a comprender un concepto complejo sin perder rigor ni depender de frases hechas.",
-          "shortTheory": "En esta leccion vas a trabajar \"Movimiento aparente\" dentro del modulo \"Mirar el cielo\". El foco es distinguir observacion, explicacion, limite y fuente para construir una comprension honesta.",
-          "practicalExample": "Una persona quiere entender mejor lo que ve en el cielo sin perderse entre datos sueltos, mitos o explicaciones demasiado tecnicas. Aplica \"Movimiento aparente\" con una version pequena: define contexto, accion principal, evidencia y proximo paso.",
-          "commonMistake": "El error comun es quedarse con una curiosidad superficial, repetir una analogia sin limites o usar una fuente llamativa pero poco confiable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe contexto, accion, evidencia, limite y proximo paso. Entrega esperada: una guia de observacion con objeto elegido, dato clave, como mirarlo, fuente confiable y pregunta siguiente.",
-          "alert": "No mirar el Sol directamente ni usar instrumentos sin filtros certificados.",
-          "keyPoints": [
-            "Movimiento aparente debe poder explicarse con una idea central y un limite claro.",
-            "Una buena fuente y una pregunta nueva valen mas que una respuesta decorativa.",
-            "La entrega esperada es: una guia de observacion con objeto elegido, dato clave, como mirarlo, fuente confiable y pregunta siguiente.",
-            "El resultado debe invitar a seguir aprendiendo sin confundir divulgacion con certeza absoluta."
+          "references": [
+            {
+              "title": "NASA Solar System Exploration",
+              "organization": "NASA Solar System Exploration",
+              "url": "https://solarsystem.nasa.gov/",
+              "note": "Fuente recomendada por el paquete de reescritura v1."
+            },
+            {
+              "title": "NASA Exoplanet Exploration",
+              "organization": "NASA Exoplanet Exploration",
+              "url": "https://exoplanets.nasa.gov/",
+              "note": "Fuente recomendada por el paquete de reescritura v1."
+            },
+            {
+              "title": "International Astronomical Union",
+              "organization": "International Astronomical Union",
+              "url": "https://www.iau.org/",
+              "note": "Fuente recomendada por el paquete de reescritura v1."
+            },
+            {
+              "title": "European Space Agency",
+              "organization": "European Space Agency",
+              "url": "https://www.esa.int/",
+              "note": "Fuente recomendada por el paquete de reescritura v1."
+            },
+            {
+              "title": "Recursos educativos de observatorios astronómicos",
+              "organization": "Recursos educativos de observatorios astronómicos",
+              "url": "#",
+              "note": "Fuente recomendada por el paquete de reescritura v1."
+            }
           ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
-        },
-        {
-          "id": "m1-l4",
-          "title": "Constelaciones",
-          "keyIdea": "Idea clave: Constelaciones ayuda a comprender un concepto complejo sin perder rigor ni depender de frases hechas.",
-          "shortTheory": "En esta leccion vas a trabajar \"Constelaciones\" dentro del modulo \"Mirar el cielo\". El foco es distinguir observacion, explicacion, limite y fuente para construir una comprension honesta.",
-          "practicalExample": "Una persona quiere entender mejor lo que ve en el cielo sin perderse entre datos sueltos, mitos o explicaciones demasiado tecnicas. Aplica \"Constelaciones\" con una version pequena: define contexto, accion principal, evidencia y proximo paso.",
-          "commonMistake": "El error comun es quedarse con una curiosidad superficial, repetir una analogia sin limites o usar una fuente llamativa pero poco confiable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe contexto, accion, evidencia, limite y proximo paso. Entrega esperada: una guia de observacion con objeto elegido, dato clave, como mirarlo, fuente confiable y pregunta siguiente.",
-          "alert": "No mirar el Sol directamente ni usar instrumentos sin filtros certificados.",
-          "keyPoints": [
-            "Constelaciones debe poder explicarse con una idea central y un limite claro.",
-            "Una buena fuente y una pregunta nueva valen mas que una respuesta decorativa.",
-            "La entrega esperada es: una guia de observacion con objeto elegido, dato clave, como mirarlo, fuente confiable y pregunta siguiente.",
-            "El resultado debe invitar a seguir aprendiendo sin confundir divulgacion con certeza absoluta."
-          ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
-        },
-        {
-          "id": "m1-l5",
-          "title": "Contaminacion luminica",
-          "keyIdea": "Idea clave: Contaminacion luminica ayuda a comprender un concepto complejo sin perder rigor ni depender de frases hechas.",
-          "shortTheory": "En esta leccion vas a trabajar \"Contaminacion luminica\" dentro del modulo \"Mirar el cielo\". El foco es distinguir observacion, explicacion, limite y fuente para construir una comprension honesta.",
-          "practicalExample": "Una persona quiere entender mejor lo que ve en el cielo sin perderse entre datos sueltos, mitos o explicaciones demasiado tecnicas. Aplica \"Contaminacion luminica\" con una version pequena: define contexto, accion principal, evidencia y proximo paso.",
-          "commonMistake": "El error comun es quedarse con una curiosidad superficial, repetir una analogia sin limites o usar una fuente llamativa pero poco confiable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe contexto, accion, evidencia, limite y proximo paso. Entrega esperada: una guia de observacion con objeto elegido, dato clave, como mirarlo, fuente confiable y pregunta siguiente.",
-          "alert": "No mirar el Sol directamente ni usar instrumentos sin filtros certificados.",
-          "keyPoints": [
-            "Contaminacion luminica debe poder explicarse con una idea central y un limite claro.",
-            "Una buena fuente y una pregunta nueva valen mas que una respuesta decorativa.",
-            "La entrega esperada es: una guia de observacion con objeto elegido, dato clave, como mirarlo, fuente confiable y pregunta siguiente.",
-            "El resultado debe invitar a seguir aprendiendo sin confundir divulgacion con certeza absoluta."
-          ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
-        },
-        {
-          "id": "m1-l6",
-          "title": "Seguridad al observar",
-          "keyIdea": "Idea clave: Seguridad al observar ayuda a comprender un concepto complejo sin perder rigor ni depender de frases hechas.",
-          "shortTheory": "En esta leccion vas a trabajar \"Seguridad al observar\" dentro del modulo \"Mirar el cielo\". El foco es distinguir observacion, explicacion, limite y fuente para construir una comprension honesta.",
-          "practicalExample": "Una persona quiere entender mejor lo que ve en el cielo sin perderse entre datos sueltos, mitos o explicaciones demasiado tecnicas. Aplica \"Seguridad al observar\" con una version pequena: define contexto, accion principal, evidencia y proximo paso.",
-          "commonMistake": "El error comun es quedarse con una curiosidad superficial, repetir una analogia sin limites o usar una fuente llamativa pero poco confiable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe contexto, accion, evidencia, limite y proximo paso. Entrega esperada: una guia de observacion con objeto elegido, dato clave, como mirarlo, fuente confiable y pregunta siguiente.",
-          "alert": "No mirar el Sol directamente ni usar instrumentos sin filtros certificados.",
-          "keyPoints": [
-            "Seguridad al observar debe poder explicarse con una idea central y un limite claro.",
-            "Una buena fuente y una pregunta nueva valen mas que una respuesta decorativa.",
-            "La entrega esperada es: una guia de observacion con objeto elegido, dato clave, como mirarlo, fuente confiable y pregunta siguiente.",
-            "El resultado debe invitar a seguir aprendiendo sin confundir divulgacion con certeza absoluta."
-          ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+          "responsibleNote": "Contenido educativo. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. En temas de seguridad, datos personales, dinero, comercios, tramites o derechos, valida decisiones criticas con fuentes oficiales o una persona competente."
         }
       ],
       "quiz": [
         {
           "id": "m1-q1",
-          "question": "Pregunta 1: ¿cual es una buena practica en ",
+          "question": "Que debe poder explicar el estudiante al cerrar \"Qué es la astronomía\"?",
           "options": [
-            "Observar con paciencia, anotar condiciones y cuidar la seguridad",
-            "Mirar el Sol directamente",
-            "Confundir brillo con cercania",
-            "No registrar fecha ni lugar"
+            "Concepto, utilidad, limite y aplicacion a un caso concreto.",
+            "Solo una definicion memorizada.",
+            "Una opinion sin evidencia.",
+            "Una lista de palabras tecnicas sin contexto."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+          "feedback": "La norma de curso completo exige comprension, aplicacion y criterio."
         },
         {
           "id": "m1-q2",
-          "question": "Pregunta 2: ¿cual es una buena practica en ",
+          "question": "Cual es una mala forma de estudiar \"Qué es la astronomía\"?",
           "options": [
-            "Observar con paciencia, anotar condiciones y cuidar la seguridad",
-            "Mirar el Sol directamente",
-            "Confundir brillo con cercania",
-            "No registrar fecha ni lugar"
+            "Aplicarlo a un caso y revisar fuentes.",
+            "Tomar notas de conceptos y limites.",
+            "Memorizar frases sin poder usarlas.",
+            "Comparar un ejemplo con un contraejemplo."
           ],
-          "correctAnswerIndex": 0,
-          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+          "correctAnswerIndex": 2,
+          "feedback": "La repeticion sin aplicacion fue uno de los problemas que esta version corrige."
         },
         {
           "id": "m1-q3",
-          "question": "Pregunta 3: ¿cual es una buena practica en ",
+          "question": "Que evidencia conviene guardar en este modulo?",
           "options": [
-            "Observar con paciencia, anotar condiciones y cuidar la seguridad",
-            "Mirar el Sol directamente",
-            "Confundir brillo con cercania",
-            "No registrar fecha ni lugar"
+            "Una ficha con Qué es la astronomía aplicada al producto final.",
+            "Una captura sin explicacion.",
+            "Un resumen copiado sin fuente.",
+            "Una promesa de mejora sin criterio."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
-        },
-        {
-          "id": "m1-q4",
-          "question": "Pregunta 4: ¿cual es una buena practica en ",
-          "options": [
-            "Observar con paciencia, anotar condiciones y cuidar la seguridad",
-            "Mirar el Sol directamente",
-            "Confundir brillo con cercania",
-            "No registrar fecha ni lugar"
-          ],
-          "correctAnswerIndex": 0,
-          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
-        },
-        {
-          "id": "m1-q5",
-          "question": "Pregunta 5: ¿cual es una buena practica en ",
-          "options": [
-            "Observar con paciencia, anotar condiciones y cuidar la seguridad",
-            "Mirar el Sol directamente",
-            "Confundir brillo con cercania",
-            "No registrar fecha ni lugar"
-          ],
-          "correctAnswerIndex": 0,
-          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+          "feedback": "La evidencia debe conectar teoria, practica y producto final."
         }
-      ],
-      "professionalOutcome": "comprender conceptos basicos, observar con criterio y distinguir ciencia de afirmaciones dudosas. Entregable sugerido: una ficha de observacion con objeto, ubicacion, fuente, explicacion y pregunta abierta."
+      ]
     },
     {
       "id": "m2",
-      "title": "Sistema solar",
-      "description": "En este modulo vas a trabajar \"Sistema solar\" dentro de astronomia para curiosos, observacion, sistema solar, Luna, estrellas, galaxias y aprendizaje continuo. La meta es entender una idea con fuentes confiables, explicarla con palabras propias y dejar una pregunta para seguir aprendiendo.",
+      "title": "El cielo visto desde la Tierra",
+      "description": "Cuando miramos el cielo, parece que las estrellas estuvieran pegadas a una gran esfera que rodea la Tierra.  Esta ilusión se llama esfera celeste.",
+      "learningRisk": "Estudiar el tema como una lista de datos sin comprender fundamentos, limites ni aplicacion.",
+      "commercialRisk": "Tomar decisiones practicas sin criterio, fuente ni producto verificable.",
       "lessons": [
         {
           "id": "m2-l1",
-          "title": "El Sol como estrella",
-          "keyIdea": "Idea clave: El Sol como estrella ayuda a comprender un concepto complejo sin perder rigor ni depender de frases hechas.",
-          "shortTheory": "En esta leccion vas a trabajar \"El Sol como estrella\" dentro del modulo \"Sistema solar\". El foco es distinguir observacion, explicacion, limite y fuente para construir una comprension honesta.",
-          "practicalExample": "Una persona quiere entender mejor lo que ve en el cielo sin perderse entre datos sueltos, mitos o explicaciones demasiado tecnicas. Aplica \"El Sol como estrella\" con una version pequena: define contexto, accion principal, evidencia y proximo paso.",
-          "commonMistake": "El error comun es quedarse con una curiosidad superficial, repetir una analogia sin limites o usar una fuente llamativa pero poco confiable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe contexto, accion, evidencia, limite y proximo paso. Entrega esperada: una guia de observacion con objeto elegido, dato clave, como mirarlo, fuente confiable y pregunta siguiente.",
-          "alert": "No mirar el Sol directamente ni usar instrumentos sin filtros certificados.",
-          "keyPoints": [
-            "El Sol como estrella debe poder explicarse con una idea central y un limite claro.",
-            "Una buena fuente y una pregunta nueva valen mas que una respuesta decorativa.",
-            "La entrega esperada es: una guia de observacion con objeto elegido, dato clave, como mirarlo, fuente confiable y pregunta siguiente.",
-            "El resultado debe invitar a seguir aprendiendo sin confundir divulgacion con certeza absoluta."
+          "title": "El cielo visto desde la Tierra",
+          "keyIdea": "El cielo visto desde la Tierra: Cuando miramos el cielo, parece que las estrellas estuvieran pegadas a una gran esfera que rodea la Tierra.",
+          "shortTheory": "Cuando miramos el cielo, parece que las estrellas estuvieran pegadas a una gran esfera que rodea la Tierra.  Esta ilusión se llama esfera celeste.",
+          "theorySections": [
+            {
+              "title": "Fundamento",
+              "body": "Cuando miramos el cielo, parece que las estrellas estuvieran pegadas a una gran esfera que rodea la Tierra. Esta ilusión se llama esfera celeste. Aunque sabemos que las estrellas están a distancias muy diferentes, la esfera celeste sigue siendo útil para ubicarlas desde nuestra perspectiva."
+            },
+            {
+              "title": "Criterios y detalles",
+              "body": "Desde la Tierra, vemos que el Sol, la Luna, los planetas y las estrellas parecen moverse. Ese movimiento aparente se debe principalmente a la rotación terrestre. La Tierra gira sobre su eje, y por eso el cielo parece desplazarse de este a oeste."
+            },
+            {
+              "title": "Aplicacion y limites",
+              "body": "Las constelaciones son regiones del cielo definidas convencionalmente. En astronomía moderna, una constelación no es solo un dibujo imaginario formado por estrellas brillantes, sino una zona oficial del cielo."
+            }
           ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
-        },
-        {
-          "id": "m2-l2",
-          "title": "Planetas rocosos",
-          "keyIdea": "Idea clave: Planetas rocosos ayuda a comprender un concepto complejo sin perder rigor ni depender de frases hechas.",
-          "shortTheory": "En esta leccion vas a trabajar \"Planetas rocosos\" dentro del modulo \"Sistema solar\". El foco es distinguir observacion, explicacion, limite y fuente para construir una comprension honesta.",
-          "practicalExample": "Una persona quiere entender mejor lo que ve en el cielo sin perderse entre datos sueltos, mitos o explicaciones demasiado tecnicas. Aplica \"Planetas rocosos\" con una version pequena: define contexto, accion principal, evidencia y proximo paso.",
-          "commonMistake": "El error comun es quedarse con una curiosidad superficial, repetir una analogia sin limites o usar una fuente llamativa pero poco confiable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe contexto, accion, evidencia, limite y proximo paso. Entrega esperada: una guia de observacion con objeto elegido, dato clave, como mirarlo, fuente confiable y pregunta siguiente.",
-          "alert": "No mirar el Sol directamente ni usar instrumentos sin filtros certificados.",
+          "practicalExample": "Aplicacion sugerida: Crear un mapa simple del sistema solar.. Actividad 2: Crear un mapa simple del sistema solar.",
+          "counterExample": "Contraejemplo: tratar \"El cielo visto desde la Tierra\" como una receta aislada, sin contexto, evidencia ni criterio de calidad.",
+          "commonMistake": "Error frecuente: memorizar el concepto sin poder explicar para que sirve, que limite tiene y como se aplica en una situacion concreta.",
+          "whatToDoNow": "Actividad: escribe una ficha breve sobre \"El cielo visto desde la Tierra\" con definicion, ejemplo, riesgo, fuente consultada y una accion concreta vinculada al producto final: Guia personal de iniciacion astronomica.",
+          "alert": "Validar decisiones importantes con fuentes oficiales o personas competentes. No usar datos sensibles reales en practicas educativas.",
           "keyPoints": [
-            "Planetas rocosos debe poder explicarse con una idea central y un limite claro.",
-            "Una buena fuente y una pregunta nueva valen mas que una respuesta decorativa.",
-            "La entrega esperada es: una guia de observacion con objeto elegido, dato clave, como mirarlo, fuente confiable y pregunta siguiente.",
-            "El resultado debe invitar a seguir aprendiendo sin confundir divulgacion con certeza absoluta."
+            "Cuando miramos el cielo, parece que las estrellas estuvieran pegadas a una gran esfera que rodea la Tierra.",
+            "Esta ilusión se llama esfera celeste.",
+            "Aunque sabemos que las estrellas están a distancias muy diferentes, la esfera celeste sigue siendo útil para ubicarlas desde nuestra perspectiva.",
+            "Desde la Tierra, vemos que el Sol, la Luna, los planetas y las estrellas parecen moverse."
           ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
-        },
-        {
-          "id": "m2-l3",
-          "title": "Gigantes gaseosos",
-          "keyIdea": "Idea clave: Gigantes gaseosos ayuda a comprender un concepto complejo sin perder rigor ni depender de frases hechas.",
-          "shortTheory": "En esta leccion vas a trabajar \"Gigantes gaseosos\" dentro del modulo \"Sistema solar\". El foco es distinguir observacion, explicacion, limite y fuente para construir una comprension honesta.",
-          "practicalExample": "Una persona quiere entender mejor lo que ve en el cielo sin perderse entre datos sueltos, mitos o explicaciones demasiado tecnicas. Aplica \"Gigantes gaseosos\" con una version pequena: define contexto, accion principal, evidencia y proximo paso.",
-          "commonMistake": "El error comun es quedarse con una curiosidad superficial, repetir una analogia sin limites o usar una fuente llamativa pero poco confiable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe contexto, accion, evidencia, limite y proximo paso. Entrega esperada: una guia de observacion con objeto elegido, dato clave, como mirarlo, fuente confiable y pregunta siguiente.",
-          "alert": "No mirar el Sol directamente ni usar instrumentos sin filtros certificados.",
-          "keyPoints": [
-            "Gigantes gaseosos debe poder explicarse con una idea central y un limite claro.",
-            "Una buena fuente y una pregunta nueva valen mas que una respuesta decorativa.",
-            "La entrega esperada es: una guia de observacion con objeto elegido, dato clave, como mirarlo, fuente confiable y pregunta siguiente.",
-            "El resultado debe invitar a seguir aprendiendo sin confundir divulgacion con certeza absoluta."
+          "references": [
+            {
+              "title": "NASA Solar System Exploration",
+              "organization": "NASA Solar System Exploration",
+              "url": "https://solarsystem.nasa.gov/",
+              "note": "Fuente recomendada por el paquete de reescritura v1."
+            },
+            {
+              "title": "NASA Exoplanet Exploration",
+              "organization": "NASA Exoplanet Exploration",
+              "url": "https://exoplanets.nasa.gov/",
+              "note": "Fuente recomendada por el paquete de reescritura v1."
+            },
+            {
+              "title": "International Astronomical Union",
+              "organization": "International Astronomical Union",
+              "url": "https://www.iau.org/",
+              "note": "Fuente recomendada por el paquete de reescritura v1."
+            },
+            {
+              "title": "European Space Agency",
+              "organization": "European Space Agency",
+              "url": "https://www.esa.int/",
+              "note": "Fuente recomendada por el paquete de reescritura v1."
+            },
+            {
+              "title": "Recursos educativos de observatorios astronómicos",
+              "organization": "Recursos educativos de observatorios astronómicos",
+              "url": "#",
+              "note": "Fuente recomendada por el paquete de reescritura v1."
+            }
           ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
-        },
-        {
-          "id": "m2-l4",
-          "title": "Lunas importantes",
-          "keyIdea": "Idea clave: Lunas importantes ayuda a comprender un concepto complejo sin perder rigor ni depender de frases hechas.",
-          "shortTheory": "En esta leccion vas a trabajar \"Lunas importantes\" dentro del modulo \"Sistema solar\". El foco es distinguir observacion, explicacion, limite y fuente para construir una comprension honesta.",
-          "practicalExample": "Una persona quiere entender mejor lo que ve en el cielo sin perderse entre datos sueltos, mitos o explicaciones demasiado tecnicas. Aplica \"Lunas importantes\" con una version pequena: define contexto, accion principal, evidencia y proximo paso.",
-          "commonMistake": "El error comun es quedarse con una curiosidad superficial, repetir una analogia sin limites o usar una fuente llamativa pero poco confiable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe contexto, accion, evidencia, limite y proximo paso. Entrega esperada: una guia de observacion con objeto elegido, dato clave, como mirarlo, fuente confiable y pregunta siguiente.",
-          "alert": "No mirar el Sol directamente ni usar instrumentos sin filtros certificados.",
-          "keyPoints": [
-            "Lunas importantes debe poder explicarse con una idea central y un limite claro.",
-            "Una buena fuente y una pregunta nueva valen mas que una respuesta decorativa.",
-            "La entrega esperada es: una guia de observacion con objeto elegido, dato clave, como mirarlo, fuente confiable y pregunta siguiente.",
-            "El resultado debe invitar a seguir aprendiendo sin confundir divulgacion con certeza absoluta."
-          ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
-        },
-        {
-          "id": "m2-l5",
-          "title": "Asteroides y cometas",
-          "keyIdea": "Idea clave: Asteroides y cometas ayuda a comprender un concepto complejo sin perder rigor ni depender de frases hechas.",
-          "shortTheory": "En esta leccion vas a trabajar \"Asteroides y cometas\" dentro del modulo \"Sistema solar\". El foco es distinguir observacion, explicacion, limite y fuente para construir una comprension honesta.",
-          "practicalExample": "Una persona quiere entender mejor lo que ve en el cielo sin perderse entre datos sueltos, mitos o explicaciones demasiado tecnicas. Aplica \"Asteroides y cometas\" con una version pequena: define contexto, accion principal, evidencia y proximo paso.",
-          "commonMistake": "El error comun es quedarse con una curiosidad superficial, repetir una analogia sin limites o usar una fuente llamativa pero poco confiable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe contexto, accion, evidencia, limite y proximo paso. Entrega esperada: una guia de observacion con objeto elegido, dato clave, como mirarlo, fuente confiable y pregunta siguiente.",
-          "alert": "No mirar el Sol directamente ni usar instrumentos sin filtros certificados.",
-          "keyPoints": [
-            "Asteroides y cometas debe poder explicarse con una idea central y un limite claro.",
-            "Una buena fuente y una pregunta nueva valen mas que una respuesta decorativa.",
-            "La entrega esperada es: una guia de observacion con objeto elegido, dato clave, como mirarlo, fuente confiable y pregunta siguiente.",
-            "El resultado debe invitar a seguir aprendiendo sin confundir divulgacion con certeza absoluta."
-          ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
-        },
-        {
-          "id": "m2-l6",
-          "title": "Escalas y distancias",
-          "keyIdea": "Idea clave: Escalas y distancias ayuda a comprender un concepto complejo sin perder rigor ni depender de frases hechas.",
-          "shortTheory": "En esta leccion vas a trabajar \"Escalas y distancias\" dentro del modulo \"Sistema solar\". El foco es distinguir observacion, explicacion, limite y fuente para construir una comprension honesta.",
-          "practicalExample": "Una persona quiere entender mejor lo que ve en el cielo sin perderse entre datos sueltos, mitos o explicaciones demasiado tecnicas. Aplica \"Escalas y distancias\" con una version pequena: define contexto, accion principal, evidencia y proximo paso.",
-          "commonMistake": "El error comun es quedarse con una curiosidad superficial, repetir una analogia sin limites o usar una fuente llamativa pero poco confiable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe contexto, accion, evidencia, limite y proximo paso. Entrega esperada: una guia de observacion con objeto elegido, dato clave, como mirarlo, fuente confiable y pregunta siguiente.",
-          "alert": "No mirar el Sol directamente ni usar instrumentos sin filtros certificados.",
-          "keyPoints": [
-            "Escalas y distancias debe poder explicarse con una idea central y un limite claro.",
-            "Una buena fuente y una pregunta nueva valen mas que una respuesta decorativa.",
-            "La entrega esperada es: una guia de observacion con objeto elegido, dato clave, como mirarlo, fuente confiable y pregunta siguiente.",
-            "El resultado debe invitar a seguir aprendiendo sin confundir divulgacion con certeza absoluta."
-          ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+          "responsibleNote": "Contenido educativo. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. En temas de seguridad, datos personales, dinero, comercios, tramites o derechos, valida decisiones criticas con fuentes oficiales o una persona competente."
         }
       ],
       "quiz": [
         {
           "id": "m2-q1",
-          "question": "Pregunta 1: ¿cual es una buena practica en ",
+          "question": "Que debe poder explicar el estudiante al cerrar \"El cielo visto desde la Tierra\"?",
           "options": [
-            "Comparar tamanos y distancias con modelos a escala",
-            "Pensar que las distancias son pequenas",
-            "Confundir planeta y estrella",
-            "Ignorar escalas"
+            "Concepto, utilidad, limite y aplicacion a un caso concreto.",
+            "Solo una definicion memorizada.",
+            "Una opinion sin evidencia.",
+            "Una lista de palabras tecnicas sin contexto."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+          "feedback": "La norma de curso completo exige comprension, aplicacion y criterio."
         },
         {
           "id": "m2-q2",
-          "question": "Pregunta 2: ¿cual es una buena practica en ",
+          "question": "Cual es una mala forma de estudiar \"El cielo visto desde la Tierra\"?",
           "options": [
-            "Comparar tamanos y distancias con modelos a escala",
-            "Pensar que las distancias son pequenas",
-            "Confundir planeta y estrella",
-            "Ignorar escalas"
+            "Aplicarlo a un caso y revisar fuentes.",
+            "Tomar notas de conceptos y limites.",
+            "Memorizar frases sin poder usarlas.",
+            "Comparar un ejemplo con un contraejemplo."
           ],
-          "correctAnswerIndex": 0,
-          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+          "correctAnswerIndex": 2,
+          "feedback": "La repeticion sin aplicacion fue uno de los problemas que esta version corrige."
         },
         {
           "id": "m2-q3",
-          "question": "Pregunta 3: ¿cual es una buena practica en ",
+          "question": "Que evidencia conviene guardar en este modulo?",
           "options": [
-            "Comparar tamanos y distancias con modelos a escala",
-            "Pensar que las distancias son pequenas",
-            "Confundir planeta y estrella",
-            "Ignorar escalas"
+            "Una ficha con El cielo visto desde la Tierra aplicada al producto final.",
+            "Una captura sin explicacion.",
+            "Un resumen copiado sin fuente.",
+            "Una promesa de mejora sin criterio."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
-        },
-        {
-          "id": "m2-q4",
-          "question": "Pregunta 4: ¿cual es una buena practica en ",
-          "options": [
-            "Comparar tamanos y distancias con modelos a escala",
-            "Pensar que las distancias son pequenas",
-            "Confundir planeta y estrella",
-            "Ignorar escalas"
-          ],
-          "correctAnswerIndex": 0,
-          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
-        },
-        {
-          "id": "m2-q5",
-          "question": "Pregunta 5: ¿cual es una buena practica en ",
-          "options": [
-            "Comparar tamanos y distancias con modelos a escala",
-            "Pensar que las distancias son pequenas",
-            "Confundir planeta y estrella",
-            "Ignorar escalas"
-          ],
-          "correctAnswerIndex": 0,
-          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+          "feedback": "La evidencia debe conectar teoria, practica y producto final."
         }
-      ],
-      "professionalOutcome": "comprender conceptos basicos, observar con criterio y distinguir ciencia de afirmaciones dudosas. Entregable sugerido: una ficha de observacion con objeto, ubicacion, fuente, explicacion y pregunta abierta."
+      ]
     },
     {
       "id": "m3",
-      "title": "La Luna y los eclipses",
-      "description": "En este modulo vas a trabajar \"La Luna y los eclipses\" dentro de astronomia para curiosos, observacion, sistema solar, Luna, estrellas, galaxias y aprendizaje continuo. La meta es entender una idea con fuentes confiables, explicarla con palabras propias y dejar una pregunta para seguir aprendiendo.",
+      "title": "El sistema solar",
+      "description": "El sistema solar es el conjunto de objetos ligados gravitacionalmente al Sol.  Incluye planetas, lunas, planetas enanos, asteroides, cometas, polvo interplanetario y otros cuerpos menores.",
+      "learningRisk": "Estudiar el tema como una lista de datos sin comprender fundamentos, limites ni aplicacion.",
+      "commercialRisk": "Tomar decisiones practicas sin criterio, fuente ni producto verificable.",
       "lessons": [
         {
           "id": "m3-l1",
-          "title": "Fases lunares",
-          "keyIdea": "Idea clave: Fases lunares ayuda a comprender un concepto complejo sin perder rigor ni depender de frases hechas.",
-          "shortTheory": "En esta leccion vas a trabajar \"Fases lunares\" dentro del modulo \"La Luna y los eclipses\". El foco es distinguir observacion, explicacion, limite y fuente para construir una comprension honesta.",
-          "practicalExample": "Una persona quiere entender mejor lo que ve en el cielo sin perderse entre datos sueltos, mitos o explicaciones demasiado tecnicas. Aplica \"Fases lunares\" con una version pequena: define contexto, accion principal, evidencia y proximo paso.",
-          "commonMistake": "El error comun es quedarse con una curiosidad superficial, repetir una analogia sin limites o usar una fuente llamativa pero poco confiable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe contexto, accion, evidencia, limite y proximo paso. Entrega esperada: una guia de observacion con objeto elegido, dato clave, como mirarlo, fuente confiable y pregunta siguiente.",
-          "alert": "No mirar el Sol directamente ni usar instrumentos sin filtros certificados.",
-          "keyPoints": [
-            "Fases lunares debe poder explicarse con una idea central y un limite claro.",
-            "Una buena fuente y una pregunta nueva valen mas que una respuesta decorativa.",
-            "La entrega esperada es: una guia de observacion con objeto elegido, dato clave, como mirarlo, fuente confiable y pregunta siguiente.",
-            "El resultado debe invitar a seguir aprendiendo sin confundir divulgacion con certeza absoluta."
+          "title": "El sistema solar",
+          "keyIdea": "El sistema solar: El sistema solar es el conjunto de objetos ligados gravitacionalmente al Sol.",
+          "shortTheory": "El sistema solar es el conjunto de objetos ligados gravitacionalmente al Sol.  Incluye planetas, lunas, planetas enanos, asteroides, cometas, polvo interplanetario y otros cuerpos menores.",
+          "theorySections": [
+            {
+              "title": "Fundamento",
+              "body": "El sistema solar es el conjunto de objetos ligados gravitacionalmente al Sol. Incluye planetas, lunas, planetas enanos, asteroides, cometas, polvo interplanetario y otros cuerpos menores.\n\nEl Sol es una estrella. No es una bola de fuego en el sentido cotidiano, sino una enorme esfera de plasma donde ocurren reacciones de fusión nuclear. En su núcleo, el hidrógeno se transforma en helio y libera energía."
+            },
+            {
+              "title": "Criterios y detalles",
+              "body": "Los planetas interiores son Mercurio, Venus, Tierra y Marte. Son rocosos, relativamente pequeños y están más cerca del Sol. Los planetas exteriores son Júpiter, Saturno, Urano y Neptuno. Son mucho más grandes y están compuestos principalmente por gases o hielos.\n\nAdemás de los planetas, existen planetas enanos como Ceres, Plutón, Haumea, Makemake y Eris. También existen asteroides, cometas y meteoroides."
+            }
           ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
-        },
-        {
-          "id": "m3-l2",
-          "title": "Orbita lunar",
-          "keyIdea": "Idea clave: Orbita lunar ayuda a comprender un concepto complejo sin perder rigor ni depender de frases hechas.",
-          "shortTheory": "En esta leccion vas a trabajar \"Orbita lunar\" dentro del modulo \"La Luna y los eclipses\". El foco es distinguir observacion, explicacion, limite y fuente para construir una comprension honesta.",
-          "practicalExample": "Una persona quiere entender mejor lo que ve en el cielo sin perderse entre datos sueltos, mitos o explicaciones demasiado tecnicas. Aplica \"Orbita lunar\" con una version pequena: define contexto, accion principal, evidencia y proximo paso.",
-          "commonMistake": "El error comun es quedarse con una curiosidad superficial, repetir una analogia sin limites o usar una fuente llamativa pero poco confiable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe contexto, accion, evidencia, limite y proximo paso. Entrega esperada: una guia de observacion con objeto elegido, dato clave, como mirarlo, fuente confiable y pregunta siguiente.",
-          "alert": "No mirar el Sol directamente ni usar instrumentos sin filtros certificados.",
+          "practicalExample": "Aplicacion sugerida: Realizar un diario de observación lunar durante siete noches.. Actividad 3: Realizar un diario de observación lunar durante siete noches.",
+          "counterExample": "Contraejemplo: tratar \"El sistema solar\" como una receta aislada, sin contexto, evidencia ni criterio de calidad.",
+          "commonMistake": "Error frecuente: memorizar el concepto sin poder explicar para que sirve, que limite tiene y como se aplica en una situacion concreta.",
+          "whatToDoNow": "Actividad: escribe una ficha breve sobre \"El sistema solar\" con definicion, ejemplo, riesgo, fuente consultada y una accion concreta vinculada al producto final: Guia personal de iniciacion astronomica.",
+          "alert": "Validar decisiones importantes con fuentes oficiales o personas competentes. No usar datos sensibles reales en practicas educativas.",
           "keyPoints": [
-            "Orbita lunar debe poder explicarse con una idea central y un limite claro.",
-            "Una buena fuente y una pregunta nueva valen mas que una respuesta decorativa.",
-            "La entrega esperada es: una guia de observacion con objeto elegido, dato clave, como mirarlo, fuente confiable y pregunta siguiente.",
-            "El resultado debe invitar a seguir aprendiendo sin confundir divulgacion con certeza absoluta."
+            "El sistema solar es el conjunto de objetos ligados gravitacionalmente al Sol.",
+            "Incluye planetas, lunas, planetas enanos, asteroides, cometas, polvo interplanetario y otros cuerpos menores.",
+            "No es una bola de fuego en el sentido cotidiano, sino una enorme esfera de plasma donde ocurren reacciones de fusión nuclear.",
+            "En su núcleo, el hidrógeno se transforma en helio y libera energía."
           ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
-        },
-        {
-          "id": "m3-l3",
-          "title": "Mareas",
-          "keyIdea": "Idea clave: Mareas ayuda a comprender un concepto complejo sin perder rigor ni depender de frases hechas.",
-          "shortTheory": "En esta leccion vas a trabajar \"Mareas\" dentro del modulo \"La Luna y los eclipses\". El foco es distinguir observacion, explicacion, limite y fuente para construir una comprension honesta.",
-          "practicalExample": "Una persona quiere entender mejor lo que ve en el cielo sin perderse entre datos sueltos, mitos o explicaciones demasiado tecnicas. Aplica \"Mareas\" con una version pequena: define contexto, accion principal, evidencia y proximo paso.",
-          "commonMistake": "El error comun es quedarse con una curiosidad superficial, repetir una analogia sin limites o usar una fuente llamativa pero poco confiable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe contexto, accion, evidencia, limite y proximo paso. Entrega esperada: una guia de observacion con objeto elegido, dato clave, como mirarlo, fuente confiable y pregunta siguiente.",
-          "alert": "No mirar el Sol directamente ni usar instrumentos sin filtros certificados.",
-          "keyPoints": [
-            "Mareas debe poder explicarse con una idea central y un limite claro.",
-            "Una buena fuente y una pregunta nueva valen mas que una respuesta decorativa.",
-            "La entrega esperada es: una guia de observacion con objeto elegido, dato clave, como mirarlo, fuente confiable y pregunta siguiente.",
-            "El resultado debe invitar a seguir aprendiendo sin confundir divulgacion con certeza absoluta."
+          "references": [
+            {
+              "title": "NASA Solar System Exploration",
+              "organization": "NASA Solar System Exploration",
+              "url": "https://solarsystem.nasa.gov/",
+              "note": "Fuente recomendada por el paquete de reescritura v1."
+            },
+            {
+              "title": "NASA Exoplanet Exploration",
+              "organization": "NASA Exoplanet Exploration",
+              "url": "https://exoplanets.nasa.gov/",
+              "note": "Fuente recomendada por el paquete de reescritura v1."
+            },
+            {
+              "title": "International Astronomical Union",
+              "organization": "International Astronomical Union",
+              "url": "https://www.iau.org/",
+              "note": "Fuente recomendada por el paquete de reescritura v1."
+            },
+            {
+              "title": "European Space Agency",
+              "organization": "European Space Agency",
+              "url": "https://www.esa.int/",
+              "note": "Fuente recomendada por el paquete de reescritura v1."
+            },
+            {
+              "title": "Recursos educativos de observatorios astronómicos",
+              "organization": "Recursos educativos de observatorios astronómicos",
+              "url": "#",
+              "note": "Fuente recomendada por el paquete de reescritura v1."
+            }
           ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
-        },
-        {
-          "id": "m3-l4",
-          "title": "Eclipse lunar",
-          "keyIdea": "Idea clave: Eclipse lunar ayuda a comprender un concepto complejo sin perder rigor ni depender de frases hechas.",
-          "shortTheory": "En esta leccion vas a trabajar \"Eclipse lunar\" dentro del modulo \"La Luna y los eclipses\". El foco es distinguir observacion, explicacion, limite y fuente para construir una comprension honesta.",
-          "practicalExample": "Una persona quiere entender mejor lo que ve en el cielo sin perderse entre datos sueltos, mitos o explicaciones demasiado tecnicas. Aplica \"Eclipse lunar\" con una version pequena: define contexto, accion principal, evidencia y proximo paso.",
-          "commonMistake": "El error comun es quedarse con una curiosidad superficial, repetir una analogia sin limites o usar una fuente llamativa pero poco confiable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe contexto, accion, evidencia, limite y proximo paso. Entrega esperada: una guia de observacion con objeto elegido, dato clave, como mirarlo, fuente confiable y pregunta siguiente.",
-          "alert": "No mirar el Sol directamente ni usar instrumentos sin filtros certificados.",
-          "keyPoints": [
-            "Eclipse lunar debe poder explicarse con una idea central y un limite claro.",
-            "Una buena fuente y una pregunta nueva valen mas que una respuesta decorativa.",
-            "La entrega esperada es: una guia de observacion con objeto elegido, dato clave, como mirarlo, fuente confiable y pregunta siguiente.",
-            "El resultado debe invitar a seguir aprendiendo sin confundir divulgacion con certeza absoluta."
-          ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
-        },
-        {
-          "id": "m3-l5",
-          "title": "Eclipse solar",
-          "keyIdea": "Idea clave: Eclipse solar ayuda a comprender un concepto complejo sin perder rigor ni depender de frases hechas.",
-          "shortTheory": "En esta leccion vas a trabajar \"Eclipse solar\" dentro del modulo \"La Luna y los eclipses\". El foco es distinguir observacion, explicacion, limite y fuente para construir una comprension honesta.",
-          "practicalExample": "Una persona quiere entender mejor lo que ve en el cielo sin perderse entre datos sueltos, mitos o explicaciones demasiado tecnicas. Aplica \"Eclipse solar\" con una version pequena: define contexto, accion principal, evidencia y proximo paso.",
-          "commonMistake": "El error comun es quedarse con una curiosidad superficial, repetir una analogia sin limites o usar una fuente llamativa pero poco confiable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe contexto, accion, evidencia, limite y proximo paso. Entrega esperada: una guia de observacion con objeto elegido, dato clave, como mirarlo, fuente confiable y pregunta siguiente.",
-          "alert": "No mirar el Sol directamente ni usar instrumentos sin filtros certificados.",
-          "keyPoints": [
-            "Eclipse solar debe poder explicarse con una idea central y un limite claro.",
-            "Una buena fuente y una pregunta nueva valen mas que una respuesta decorativa.",
-            "La entrega esperada es: una guia de observacion con objeto elegido, dato clave, como mirarlo, fuente confiable y pregunta siguiente.",
-            "El resultado debe invitar a seguir aprendiendo sin confundir divulgacion con certeza absoluta."
-          ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
-        },
-        {
-          "id": "m3-l6",
-          "title": "Calendario de observacion",
-          "keyIdea": "Idea clave: Calendario de observacion ayuda a comprender un concepto complejo sin perder rigor ni depender de frases hechas.",
-          "shortTheory": "En esta leccion vas a trabajar \"Calendario de observacion\" dentro del modulo \"La Luna y los eclipses\". El foco es distinguir observacion, explicacion, limite y fuente para construir una comprension honesta.",
-          "practicalExample": "Una persona quiere entender mejor lo que ve en el cielo sin perderse entre datos sueltos, mitos o explicaciones demasiado tecnicas. Aplica \"Calendario de observacion\" con una version pequena: define contexto, accion principal, evidencia y proximo paso.",
-          "commonMistake": "El error comun es quedarse con una curiosidad superficial, repetir una analogia sin limites o usar una fuente llamativa pero poco confiable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe contexto, accion, evidencia, limite y proximo paso. Entrega esperada: una guia de observacion con objeto elegido, dato clave, como mirarlo, fuente confiable y pregunta siguiente.",
-          "alert": "No mirar el Sol directamente ni usar instrumentos sin filtros certificados.",
-          "keyPoints": [
-            "Calendario de observacion debe poder explicarse con una idea central y un limite claro.",
-            "Una buena fuente y una pregunta nueva valen mas que una respuesta decorativa.",
-            "La entrega esperada es: una guia de observacion con objeto elegido, dato clave, como mirarlo, fuente confiable y pregunta siguiente.",
-            "El resultado debe invitar a seguir aprendiendo sin confundir divulgacion con certeza absoluta."
-          ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+          "responsibleNote": "Contenido educativo. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. En temas de seguridad, datos personales, dinero, comercios, tramites o derechos, valida decisiones criticas con fuentes oficiales o una persona competente."
         }
       ],
       "quiz": [
         {
           "id": "m3-q1",
-          "question": "Pregunta 1: ¿cual es una buena practica en ",
+          "question": "Que debe poder explicar el estudiante al cerrar \"El sistema solar\"?",
           "options": [
-            "Explicar fases por geometria Sol Tierra Luna",
-            "Creer que las fases son sombra de la Tierra",
-            "Observar eclipses solares sin proteccion",
-            "No distinguir eclipse lunar y solar"
+            "Concepto, utilidad, limite y aplicacion a un caso concreto.",
+            "Solo una definicion memorizada.",
+            "Una opinion sin evidencia.",
+            "Una lista de palabras tecnicas sin contexto."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+          "feedback": "La norma de curso completo exige comprension, aplicacion y criterio."
         },
         {
           "id": "m3-q2",
-          "question": "Pregunta 2: ¿cual es una buena practica en ",
+          "question": "Cual es una mala forma de estudiar \"El sistema solar\"?",
           "options": [
-            "Explicar fases por geometria Sol Tierra Luna",
-            "Creer que las fases son sombra de la Tierra",
-            "Observar eclipses solares sin proteccion",
-            "No distinguir eclipse lunar y solar"
+            "Aplicarlo a un caso y revisar fuentes.",
+            "Tomar notas de conceptos y limites.",
+            "Memorizar frases sin poder usarlas.",
+            "Comparar un ejemplo con un contraejemplo."
           ],
-          "correctAnswerIndex": 0,
-          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+          "correctAnswerIndex": 2,
+          "feedback": "La repeticion sin aplicacion fue uno de los problemas que esta version corrige."
         },
         {
           "id": "m3-q3",
-          "question": "Pregunta 3: ¿cual es una buena practica en ",
+          "question": "Que evidencia conviene guardar en este modulo?",
           "options": [
-            "Explicar fases por geometria Sol Tierra Luna",
-            "Creer que las fases son sombra de la Tierra",
-            "Observar eclipses solares sin proteccion",
-            "No distinguir eclipse lunar y solar"
+            "Una ficha con El sistema solar aplicada al producto final.",
+            "Una captura sin explicacion.",
+            "Un resumen copiado sin fuente.",
+            "Una promesa de mejora sin criterio."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
-        },
-        {
-          "id": "m3-q4",
-          "question": "Pregunta 4: ¿cual es una buena practica en ",
-          "options": [
-            "Explicar fases por geometria Sol Tierra Luna",
-            "Creer que las fases son sombra de la Tierra",
-            "Observar eclipses solares sin proteccion",
-            "No distinguir eclipse lunar y solar"
-          ],
-          "correctAnswerIndex": 0,
-          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
-        },
-        {
-          "id": "m3-q5",
-          "question": "Pregunta 5: ¿cual es una buena practica en ",
-          "options": [
-            "Explicar fases por geometria Sol Tierra Luna",
-            "Creer que las fases son sombra de la Tierra",
-            "Observar eclipses solares sin proteccion",
-            "No distinguir eclipse lunar y solar"
-          ],
-          "correctAnswerIndex": 0,
-          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+          "feedback": "La evidencia debe conectar teoria, practica y producto final."
         }
-      ],
-      "professionalOutcome": "comprender conceptos basicos, observar con criterio y distinguir ciencia de afirmaciones dudosas. Entregable sugerido: una ficha de observacion con objeto, ubicacion, fuente, explicacion y pregunta abierta."
+      ]
     },
     {
       "id": "m4",
-      "title": "Estrellas",
-      "description": "En este modulo vas a trabajar \"Estrellas\" dentro de astronomia para curiosos, observacion, sistema solar, Luna, estrellas, galaxias y aprendizaje continuo. La meta es entender una idea con fuentes confiables, explicarla con palabras propias y dejar una pregunta para seguir aprendiendo.",
+      "title": "La Luna, fases y eclipses",
+      "description": "La Luna es el satélite natural de la Tierra.  Su presencia influye en las mareas y estabiliza parcialmente la inclinación del eje terrestre.",
+      "learningRisk": "Estudiar el tema como una lista de datos sin comprender fundamentos, limites ni aplicacion.",
+      "commercialRisk": "Tomar decisiones practicas sin criterio, fuente ni producto verificable.",
       "lessons": [
         {
           "id": "m4-l1",
-          "title": "Que es una estrella",
-          "keyIdea": "Idea clave: Que es una estrella ayuda a comprender un concepto complejo sin perder rigor ni depender de frases hechas.",
-          "shortTheory": "En esta leccion vas a trabajar \"Que es una estrella\" dentro del modulo \"Estrellas\". El foco es distinguir observacion, explicacion, limite y fuente para construir una comprension honesta.",
-          "practicalExample": "Una persona quiere entender mejor lo que ve en el cielo sin perderse entre datos sueltos, mitos o explicaciones demasiado tecnicas. Aplica \"Que es una estrella\" con una version pequena: define contexto, accion principal, evidencia y proximo paso.",
-          "commonMistake": "El error comun es quedarse con una curiosidad superficial, repetir una analogia sin limites o usar una fuente llamativa pero poco confiable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe contexto, accion, evidencia, limite y proximo paso. Entrega esperada: una guia de observacion con objeto elegido, dato clave, como mirarlo, fuente confiable y pregunta siguiente.",
-          "alert": "No mirar el Sol directamente ni usar instrumentos sin filtros certificados.",
-          "keyPoints": [
-            "Que es una estrella debe poder explicarse con una idea central y un limite claro.",
-            "Una buena fuente y una pregunta nueva valen mas que una respuesta decorativa.",
-            "La entrega esperada es: una guia de observacion con objeto elegido, dato clave, como mirarlo, fuente confiable y pregunta siguiente.",
-            "El resultado debe invitar a seguir aprendiendo sin confundir divulgacion con certeza absoluta."
+          "title": "La Luna, fases y eclipses",
+          "keyIdea": "La Luna, fases y eclipses: La Luna es el satélite natural de la Tierra.",
+          "shortTheory": "La Luna es el satélite natural de la Tierra.  Su presencia influye en las mareas y estabiliza parcialmente la inclinación del eje terrestre.",
+          "theorySections": [
+            {
+              "title": "Fundamento",
+              "body": "La Luna es el satélite natural de la Tierra. Su presencia influye en las mareas y estabiliza parcialmente la inclinación del eje terrestre."
+            },
+            {
+              "title": "Criterios y detalles",
+              "body": "Las fases lunares no se producen porque la sombra de la Tierra cubra la Luna cada mes. Se producen porque vemos distintas porciones de la mitad iluminada de la Luna a medida que esta orbita la Tierra."
+            },
+            {
+              "title": "Aplicacion y limites",
+              "body": "Un eclipse ocurre cuando tres cuerpos se alinean de manera precisa. Un eclipse solar ocurre cuando la Luna se interpone entre la Tierra y el Sol. Un eclipse lunar ocurre cuando la Tierra se interpone entre el Sol y la Luna."
+            }
           ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
-        },
-        {
-          "id": "m4-l2",
-          "title": "Color y temperatura",
-          "keyIdea": "Idea clave: Color y temperatura ayuda a comprender un concepto complejo sin perder rigor ni depender de frases hechas.",
-          "shortTheory": "En esta leccion vas a trabajar \"Color y temperatura\" dentro del modulo \"Estrellas\". El foco es distinguir observacion, explicacion, limite y fuente para construir una comprension honesta.",
-          "practicalExample": "Una persona quiere entender mejor lo que ve en el cielo sin perderse entre datos sueltos, mitos o explicaciones demasiado tecnicas. Aplica \"Color y temperatura\" con una version pequena: define contexto, accion principal, evidencia y proximo paso.",
-          "commonMistake": "El error comun es quedarse con una curiosidad superficial, repetir una analogia sin limites o usar una fuente llamativa pero poco confiable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe contexto, accion, evidencia, limite y proximo paso. Entrega esperada: una guia de observacion con objeto elegido, dato clave, como mirarlo, fuente confiable y pregunta siguiente.",
-          "alert": "No mirar el Sol directamente ni usar instrumentos sin filtros certificados.",
+          "practicalExample": "Aplicacion sugerida: Analizar críticamente una noticia astronómica.. Actividad 4: Analizar críticamente una noticia astronómica.",
+          "counterExample": "Contraejemplo: tratar \"La Luna, fases y eclipses\" como una receta aislada, sin contexto, evidencia ni criterio de calidad.",
+          "commonMistake": "Error frecuente: memorizar el concepto sin poder explicar para que sirve, que limite tiene y como se aplica en una situacion concreta.",
+          "whatToDoNow": "Actividad: escribe una ficha breve sobre \"La Luna, fases y eclipses\" con definicion, ejemplo, riesgo, fuente consultada y una accion concreta vinculada al producto final: Guia personal de iniciacion astronomica.",
+          "alert": "Validar decisiones importantes con fuentes oficiales o personas competentes. No usar datos sensibles reales en practicas educativas.",
           "keyPoints": [
-            "Color y temperatura debe poder explicarse con una idea central y un limite claro.",
-            "Una buena fuente y una pregunta nueva valen mas que una respuesta decorativa.",
-            "La entrega esperada es: una guia de observacion con objeto elegido, dato clave, como mirarlo, fuente confiable y pregunta siguiente.",
-            "El resultado debe invitar a seguir aprendiendo sin confundir divulgacion con certeza absoluta."
+            "La Luna es el satélite natural de la Tierra.",
+            "Su presencia influye en las mareas y estabiliza parcialmente la inclinación del eje terrestre.",
+            "Las fases lunares no se producen porque la sombra de la Tierra cubra la Luna cada mes.",
+            "Se producen porque vemos distintas porciones de la mitad iluminada de la Luna a medida que esta orbita la Tierra."
           ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
-        },
-        {
-          "id": "m4-l3",
-          "title": "Magnitud y brillo",
-          "keyIdea": "Idea clave: Magnitud y brillo ayuda a comprender un concepto complejo sin perder rigor ni depender de frases hechas.",
-          "shortTheory": "En esta leccion vas a trabajar \"Magnitud y brillo\" dentro del modulo \"Estrellas\". El foco es distinguir observacion, explicacion, limite y fuente para construir una comprension honesta.",
-          "practicalExample": "Una persona quiere entender mejor lo que ve en el cielo sin perderse entre datos sueltos, mitos o explicaciones demasiado tecnicas. Aplica \"Magnitud y brillo\" con una version pequena: define contexto, accion principal, evidencia y proximo paso.",
-          "commonMistake": "El error comun es quedarse con una curiosidad superficial, repetir una analogia sin limites o usar una fuente llamativa pero poco confiable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe contexto, accion, evidencia, limite y proximo paso. Entrega esperada: una guia de observacion con objeto elegido, dato clave, como mirarlo, fuente confiable y pregunta siguiente.",
-          "alert": "No mirar el Sol directamente ni usar instrumentos sin filtros certificados.",
-          "keyPoints": [
-            "Magnitud y brillo debe poder explicarse con una idea central y un limite claro.",
-            "Una buena fuente y una pregunta nueva valen mas que una respuesta decorativa.",
-            "La entrega esperada es: una guia de observacion con objeto elegido, dato clave, como mirarlo, fuente confiable y pregunta siguiente.",
-            "El resultado debe invitar a seguir aprendiendo sin confundir divulgacion con certeza absoluta."
+          "references": [
+            {
+              "title": "NASA Solar System Exploration",
+              "organization": "NASA Solar System Exploration",
+              "url": "https://solarsystem.nasa.gov/",
+              "note": "Fuente recomendada por el paquete de reescritura v1."
+            },
+            {
+              "title": "NASA Exoplanet Exploration",
+              "organization": "NASA Exoplanet Exploration",
+              "url": "https://exoplanets.nasa.gov/",
+              "note": "Fuente recomendada por el paquete de reescritura v1."
+            },
+            {
+              "title": "International Astronomical Union",
+              "organization": "International Astronomical Union",
+              "url": "https://www.iau.org/",
+              "note": "Fuente recomendada por el paquete de reescritura v1."
+            },
+            {
+              "title": "European Space Agency",
+              "organization": "European Space Agency",
+              "url": "https://www.esa.int/",
+              "note": "Fuente recomendada por el paquete de reescritura v1."
+            },
+            {
+              "title": "Recursos educativos de observatorios astronómicos",
+              "organization": "Recursos educativos de observatorios astronómicos",
+              "url": "#",
+              "note": "Fuente recomendada por el paquete de reescritura v1."
+            }
           ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
-        },
-        {
-          "id": "m4-l4",
-          "title": "Nebulosas",
-          "keyIdea": "Idea clave: Nebulosas ayuda a comprender un concepto complejo sin perder rigor ni depender de frases hechas.",
-          "shortTheory": "En esta leccion vas a trabajar \"Nebulosas\" dentro del modulo \"Estrellas\". El foco es distinguir observacion, explicacion, limite y fuente para construir una comprension honesta.",
-          "practicalExample": "Una persona quiere entender mejor lo que ve en el cielo sin perderse entre datos sueltos, mitos o explicaciones demasiado tecnicas. Aplica \"Nebulosas\" con una version pequena: define contexto, accion principal, evidencia y proximo paso.",
-          "commonMistake": "El error comun es quedarse con una curiosidad superficial, repetir una analogia sin limites o usar una fuente llamativa pero poco confiable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe contexto, accion, evidencia, limite y proximo paso. Entrega esperada: una guia de observacion con objeto elegido, dato clave, como mirarlo, fuente confiable y pregunta siguiente.",
-          "alert": "No mirar el Sol directamente ni usar instrumentos sin filtros certificados.",
-          "keyPoints": [
-            "Nebulosas debe poder explicarse con una idea central y un limite claro.",
-            "Una buena fuente y una pregunta nueva valen mas que una respuesta decorativa.",
-            "La entrega esperada es: una guia de observacion con objeto elegido, dato clave, como mirarlo, fuente confiable y pregunta siguiente.",
-            "El resultado debe invitar a seguir aprendiendo sin confundir divulgacion con certeza absoluta."
-          ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
-        },
-        {
-          "id": "m4-l5",
-          "title": "Supernovas",
-          "keyIdea": "Idea clave: Supernovas ayuda a comprender un concepto complejo sin perder rigor ni depender de frases hechas.",
-          "shortTheory": "En esta leccion vas a trabajar \"Supernovas\" dentro del modulo \"Estrellas\". El foco es distinguir observacion, explicacion, limite y fuente para construir una comprension honesta.",
-          "practicalExample": "Una persona quiere entender mejor lo que ve en el cielo sin perderse entre datos sueltos, mitos o explicaciones demasiado tecnicas. Aplica \"Supernovas\" con una version pequena: define contexto, accion principal, evidencia y proximo paso.",
-          "commonMistake": "El error comun es quedarse con una curiosidad superficial, repetir una analogia sin limites o usar una fuente llamativa pero poco confiable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe contexto, accion, evidencia, limite y proximo paso. Entrega esperada: una guia de observacion con objeto elegido, dato clave, como mirarlo, fuente confiable y pregunta siguiente.",
-          "alert": "No mirar el Sol directamente ni usar instrumentos sin filtros certificados.",
-          "keyPoints": [
-            "Supernovas debe poder explicarse con una idea central y un limite claro.",
-            "Una buena fuente y una pregunta nueva valen mas que una respuesta decorativa.",
-            "La entrega esperada es: una guia de observacion con objeto elegido, dato clave, como mirarlo, fuente confiable y pregunta siguiente.",
-            "El resultado debe invitar a seguir aprendiendo sin confundir divulgacion con certeza absoluta."
-          ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
-        },
-        {
-          "id": "m4-l6",
-          "title": "Agujeros negros",
-          "keyIdea": "Idea clave: Agujeros negros ayuda a comprender un concepto complejo sin perder rigor ni depender de frases hechas.",
-          "shortTheory": "En esta leccion vas a trabajar \"Agujeros negros\" dentro del modulo \"Estrellas\". El foco es distinguir observacion, explicacion, limite y fuente para construir una comprension honesta.",
-          "practicalExample": "Una persona quiere entender mejor lo que ve en el cielo sin perderse entre datos sueltos, mitos o explicaciones demasiado tecnicas. Aplica \"Agujeros negros\" con una version pequena: define contexto, accion principal, evidencia y proximo paso.",
-          "commonMistake": "El error comun es quedarse con una curiosidad superficial, repetir una analogia sin limites o usar una fuente llamativa pero poco confiable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe contexto, accion, evidencia, limite y proximo paso. Entrega esperada: una guia de observacion con objeto elegido, dato clave, como mirarlo, fuente confiable y pregunta siguiente.",
-          "alert": "No mirar el Sol directamente ni usar instrumentos sin filtros certificados.",
-          "keyPoints": [
-            "Agujeros negros debe poder explicarse con una idea central y un limite claro.",
-            "Una buena fuente y una pregunta nueva valen mas que una respuesta decorativa.",
-            "La entrega esperada es: una guia de observacion con objeto elegido, dato clave, como mirarlo, fuente confiable y pregunta siguiente.",
-            "El resultado debe invitar a seguir aprendiendo sin confundir divulgacion con certeza absoluta."
-          ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+          "responsibleNote": "Contenido educativo. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. En temas de seguridad, datos personales, dinero, comercios, tramites o derechos, valida decisiones criticas con fuentes oficiales o una persona competente."
         }
       ],
       "quiz": [
         {
           "id": "m4-q1",
-          "question": "Pregunta 1: ¿cual es una buena practica en ",
+          "question": "Que debe poder explicar el estudiante al cerrar \"La Luna, fases y eclipses\"?",
           "options": [
-            "Relacionar color, temperatura y etapa evolutiva con cautela",
-            "Pensar que todas las estrellas son iguales",
-            "Confundir brillo aparente con luminosidad",
-            "Exagerar agujeros negros"
+            "Concepto, utilidad, limite y aplicacion a un caso concreto.",
+            "Solo una definicion memorizada.",
+            "Una opinion sin evidencia.",
+            "Una lista de palabras tecnicas sin contexto."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+          "feedback": "La norma de curso completo exige comprension, aplicacion y criterio."
         },
         {
           "id": "m4-q2",
-          "question": "Pregunta 2: ¿cual es una buena practica en ",
+          "question": "Cual es una mala forma de estudiar \"La Luna, fases y eclipses\"?",
           "options": [
-            "Relacionar color, temperatura y etapa evolutiva con cautela",
-            "Pensar que todas las estrellas son iguales",
-            "Confundir brillo aparente con luminosidad",
-            "Exagerar agujeros negros"
+            "Aplicarlo a un caso y revisar fuentes.",
+            "Tomar notas de conceptos y limites.",
+            "Memorizar frases sin poder usarlas.",
+            "Comparar un ejemplo con un contraejemplo."
           ],
-          "correctAnswerIndex": 0,
-          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+          "correctAnswerIndex": 2,
+          "feedback": "La repeticion sin aplicacion fue uno de los problemas que esta version corrige."
         },
         {
           "id": "m4-q3",
-          "question": "Pregunta 3: ¿cual es una buena practica en ",
+          "question": "Que evidencia conviene guardar en este modulo?",
           "options": [
-            "Relacionar color, temperatura y etapa evolutiva con cautela",
-            "Pensar que todas las estrellas son iguales",
-            "Confundir brillo aparente con luminosidad",
-            "Exagerar agujeros negros"
+            "Una ficha con La Luna, fases y eclipses aplicada al producto final.",
+            "Una captura sin explicacion.",
+            "Un resumen copiado sin fuente.",
+            "Una promesa de mejora sin criterio."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
-        },
-        {
-          "id": "m4-q4",
-          "question": "Pregunta 4: ¿cual es una buena practica en ",
-          "options": [
-            "Relacionar color, temperatura y etapa evolutiva con cautela",
-            "Pensar que todas las estrellas son iguales",
-            "Confundir brillo aparente con luminosidad",
-            "Exagerar agujeros negros"
-          ],
-          "correctAnswerIndex": 0,
-          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
-        },
-        {
-          "id": "m4-q5",
-          "question": "Pregunta 5: ¿cual es una buena practica en ",
-          "options": [
-            "Relacionar color, temperatura y etapa evolutiva con cautela",
-            "Pensar que todas las estrellas son iguales",
-            "Confundir brillo aparente con luminosidad",
-            "Exagerar agujeros negros"
-          ],
-          "correctAnswerIndex": 0,
-          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+          "feedback": "La evidencia debe conectar teoria, practica y producto final."
         }
-      ],
-      "professionalOutcome": "comprender conceptos basicos, observar con criterio y distinguir ciencia de afirmaciones dudosas. Entregable sugerido: una ficha de observacion con objeto, ubicacion, fuente, explicacion y pregunta abierta."
+      ]
     },
     {
       "id": "m5",
-      "title": "Galaxias y universo",
-      "description": "En este modulo vas a trabajar \"Galaxias y universo\" dentro de astronomia para curiosos, observacion, sistema solar, Luna, estrellas, galaxias y aprendizaje continuo. La meta es entender una idea con fuentes confiables, explicarla con palabras propias y dejar una pregunta para seguir aprendiendo.",
+      "title": "Estrellas",
+      "description": "Una estrella es una enorme esfera de gas caliente, principalmente hidrógeno y helio, que produce energía mediante fusión nuclear.  El Sol es la estrella más cercana a la Tierra.",
+      "learningRisk": "Estudiar el tema como una lista de datos sin comprender fundamentos, limites ni aplicacion.",
+      "commercialRisk": "Tomar decisiones practicas sin criterio, fuente ni producto verificable.",
       "lessons": [
         {
           "id": "m5-l1",
-          "title": "Via Lactea",
-          "keyIdea": "Idea clave: Via Lactea ayuda a comprender un concepto complejo sin perder rigor ni depender de frases hechas.",
-          "shortTheory": "En esta leccion vas a trabajar \"Via Lactea\" dentro del modulo \"Galaxias y universo\". El foco es distinguir observacion, explicacion, limite y fuente para construir una comprension honesta.",
-          "practicalExample": "Una persona quiere entender mejor lo que ve en el cielo sin perderse entre datos sueltos, mitos o explicaciones demasiado tecnicas. Aplica \"Via Lactea\" con una version pequena: define contexto, accion principal, evidencia y proximo paso.",
-          "commonMistake": "El error comun es quedarse con una curiosidad superficial, repetir una analogia sin limites o usar una fuente llamativa pero poco confiable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe contexto, accion, evidencia, limite y proximo paso. Entrega esperada: una guia de observacion con objeto elegido, dato clave, como mirarlo, fuente confiable y pregunta siguiente.",
-          "alert": "No mirar el Sol directamente ni usar instrumentos sin filtros certificados.",
-          "keyPoints": [
-            "Via Lactea debe poder explicarse con una idea central y un limite claro.",
-            "Una buena fuente y una pregunta nueva valen mas que una respuesta decorativa.",
-            "La entrega esperada es: una guia de observacion con objeto elegido, dato clave, como mirarlo, fuente confiable y pregunta siguiente.",
-            "El resultado debe invitar a seguir aprendiendo sin confundir divulgacion con certeza absoluta."
+          "title": "Estrellas",
+          "keyIdea": "Estrellas: Una estrella es una enorme esfera de gas caliente, principalmente hidrógeno y helio, que produce energía mediante fusión nuclear.",
+          "shortTheory": "Una estrella es una enorme esfera de gas caliente, principalmente hidrógeno y helio, que produce energía mediante fusión nuclear.  El Sol es la estrella más cercana a la Tierra.",
+          "theorySections": [
+            {
+              "title": "Fundamento",
+              "body": "Una estrella es una enorme esfera de gas caliente, principalmente hidrógeno y helio, que produce energía mediante fusión nuclear. El Sol es la estrella más cercana a la Tierra."
+            },
+            {
+              "title": "Criterios y detalles",
+              "body": "El brillo aparente de una estrella depende de dos factores: cuánta luz emite realmente y qué tan lejos está de nosotros. El color de una estrella está relacionado con su temperatura superficial: las más calientes tienden a verse azuladas o blancas; las más frías, rojizas o anaranjadas."
+            },
+            {
+              "title": "Aplicacion y limites",
+              "body": "Las estrellas nacen en nubes de gas y polvo llamadas nebulosas. Durante la mayor parte de su vida fusionan hidrógeno en helio. Su evolución depende principalmente de su masa."
+            }
           ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
-        },
-        {
-          "id": "m5-l2",
-          "title": "Tipos de galaxias",
-          "keyIdea": "Idea clave: Tipos de galaxias ayuda a comprender un concepto complejo sin perder rigor ni depender de frases hechas.",
-          "shortTheory": "En esta leccion vas a trabajar \"Tipos de galaxias\" dentro del modulo \"Galaxias y universo\". El foco es distinguir observacion, explicacion, limite y fuente para construir una comprension honesta.",
-          "practicalExample": "Una persona quiere entender mejor lo que ve en el cielo sin perderse entre datos sueltos, mitos o explicaciones demasiado tecnicas. Aplica \"Tipos de galaxias\" con una version pequena: define contexto, accion principal, evidencia y proximo paso.",
-          "commonMistake": "El error comun es quedarse con una curiosidad superficial, repetir una analogia sin limites o usar una fuente llamativa pero poco confiable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe contexto, accion, evidencia, limite y proximo paso. Entrega esperada: una guia de observacion con objeto elegido, dato clave, como mirarlo, fuente confiable y pregunta siguiente.",
-          "alert": "No mirar el Sol directamente ni usar instrumentos sin filtros certificados.",
+          "practicalExample": "Aplicacion sugerida: Diferenciar ciencia y pseudociencia a partir de tres titulares.. Actividad 1: Diferenciar ciencia y pseudociencia a partir de tres titulares.",
+          "counterExample": "Contraejemplo: tratar \"Estrellas\" como una receta aislada, sin contexto, evidencia ni criterio de calidad.",
+          "commonMistake": "Error frecuente: memorizar el concepto sin poder explicar para que sirve, que limite tiene y como se aplica en una situacion concreta.",
+          "whatToDoNow": "Actividad: escribe una ficha breve sobre \"Estrellas\" con definicion, ejemplo, riesgo, fuente consultada y una accion concreta vinculada al producto final: Guia personal de iniciacion astronomica.",
+          "alert": "Validar decisiones importantes con fuentes oficiales o personas competentes. No usar datos sensibles reales en practicas educativas.",
           "keyPoints": [
-            "Tipos de galaxias debe poder explicarse con una idea central y un limite claro.",
-            "Una buena fuente y una pregunta nueva valen mas que una respuesta decorativa.",
-            "La entrega esperada es: una guia de observacion con objeto elegido, dato clave, como mirarlo, fuente confiable y pregunta siguiente.",
-            "El resultado debe invitar a seguir aprendiendo sin confundir divulgacion con certeza absoluta."
+            "Una estrella es una enorme esfera de gas caliente, principalmente hidrógeno y helio, que produce energía mediante fusión nuclear.",
+            "El Sol es la estrella más cercana a la Tierra.",
+            "El brillo aparente de una estrella depende de dos factores: cuánta luz emite realmente y qué tan lejos está de nosotros.",
+            "El color de una estrella está relacionado con su temperatura superficial: las más calientes tienden a verse azuladas o blancas; las más frías, rojizas o anaranjadas."
           ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
-        },
-        {
-          "id": "m5-l3",
-          "title": "Cumulos",
-          "keyIdea": "Idea clave: Cumulos ayuda a comprender un concepto complejo sin perder rigor ni depender de frases hechas.",
-          "shortTheory": "En esta leccion vas a trabajar \"Cumulos\" dentro del modulo \"Galaxias y universo\". El foco es distinguir observacion, explicacion, limite y fuente para construir una comprension honesta.",
-          "practicalExample": "Una persona quiere entender mejor lo que ve en el cielo sin perderse entre datos sueltos, mitos o explicaciones demasiado tecnicas. Aplica \"Cumulos\" con una version pequena: define contexto, accion principal, evidencia y proximo paso.",
-          "commonMistake": "El error comun es quedarse con una curiosidad superficial, repetir una analogia sin limites o usar una fuente llamativa pero poco confiable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe contexto, accion, evidencia, limite y proximo paso. Entrega esperada: una guia de observacion con objeto elegido, dato clave, como mirarlo, fuente confiable y pregunta siguiente.",
-          "alert": "No mirar el Sol directamente ni usar instrumentos sin filtros certificados.",
-          "keyPoints": [
-            "Cumulos debe poder explicarse con una idea central y un limite claro.",
-            "Una buena fuente y una pregunta nueva valen mas que una respuesta decorativa.",
-            "La entrega esperada es: una guia de observacion con objeto elegido, dato clave, como mirarlo, fuente confiable y pregunta siguiente.",
-            "El resultado debe invitar a seguir aprendiendo sin confundir divulgacion con certeza absoluta."
+          "references": [
+            {
+              "title": "NASA Solar System Exploration",
+              "organization": "NASA Solar System Exploration",
+              "url": "https://solarsystem.nasa.gov/",
+              "note": "Fuente recomendada por el paquete de reescritura v1."
+            },
+            {
+              "title": "NASA Exoplanet Exploration",
+              "organization": "NASA Exoplanet Exploration",
+              "url": "https://exoplanets.nasa.gov/",
+              "note": "Fuente recomendada por el paquete de reescritura v1."
+            },
+            {
+              "title": "International Astronomical Union",
+              "organization": "International Astronomical Union",
+              "url": "https://www.iau.org/",
+              "note": "Fuente recomendada por el paquete de reescritura v1."
+            },
+            {
+              "title": "European Space Agency",
+              "organization": "European Space Agency",
+              "url": "https://www.esa.int/",
+              "note": "Fuente recomendada por el paquete de reescritura v1."
+            },
+            {
+              "title": "Recursos educativos de observatorios astronómicos",
+              "organization": "Recursos educativos de observatorios astronómicos",
+              "url": "#",
+              "note": "Fuente recomendada por el paquete de reescritura v1."
+            }
           ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
-        },
-        {
-          "id": "m5-l4",
-          "title": "Expansion cosmica",
-          "keyIdea": "Idea clave: Expansion cosmica ayuda a comprender un concepto complejo sin perder rigor ni depender de frases hechas.",
-          "shortTheory": "En esta leccion vas a trabajar \"Expansion cosmica\" dentro del modulo \"Galaxias y universo\". El foco es distinguir observacion, explicacion, limite y fuente para construir una comprension honesta.",
-          "practicalExample": "Una persona quiere entender mejor lo que ve en el cielo sin perderse entre datos sueltos, mitos o explicaciones demasiado tecnicas. Aplica \"Expansion cosmica\" con una version pequena: define contexto, accion principal, evidencia y proximo paso.",
-          "commonMistake": "El error comun es quedarse con una curiosidad superficial, repetir una analogia sin limites o usar una fuente llamativa pero poco confiable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe contexto, accion, evidencia, limite y proximo paso. Entrega esperada: una guia de observacion con objeto elegido, dato clave, como mirarlo, fuente confiable y pregunta siguiente.",
-          "alert": "No mirar el Sol directamente ni usar instrumentos sin filtros certificados.",
-          "keyPoints": [
-            "Expansion cosmica debe poder explicarse con una idea central y un limite claro.",
-            "Una buena fuente y una pregunta nueva valen mas que una respuesta decorativa.",
-            "La entrega esperada es: una guia de observacion con objeto elegido, dato clave, como mirarlo, fuente confiable y pregunta siguiente.",
-            "El resultado debe invitar a seguir aprendiendo sin confundir divulgacion con certeza absoluta."
-          ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
-        },
-        {
-          "id": "m5-l5",
-          "title": "Big Bang",
-          "keyIdea": "Idea clave: Big Bang ayuda a comprender un concepto complejo sin perder rigor ni depender de frases hechas.",
-          "shortTheory": "En esta leccion vas a trabajar \"Big Bang\" dentro del modulo \"Galaxias y universo\". El foco es distinguir observacion, explicacion, limite y fuente para construir una comprension honesta.",
-          "practicalExample": "Una persona quiere entender mejor lo que ve en el cielo sin perderse entre datos sueltos, mitos o explicaciones demasiado tecnicas. Aplica \"Big Bang\" con una version pequena: define contexto, accion principal, evidencia y proximo paso.",
-          "commonMistake": "El error comun es quedarse con una curiosidad superficial, repetir una analogia sin limites o usar una fuente llamativa pero poco confiable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe contexto, accion, evidencia, limite y proximo paso. Entrega esperada: una guia de observacion con objeto elegido, dato clave, como mirarlo, fuente confiable y pregunta siguiente.",
-          "alert": "No mirar el Sol directamente ni usar instrumentos sin filtros certificados.",
-          "keyPoints": [
-            "Big Bang debe poder explicarse con una idea central y un limite claro.",
-            "Una buena fuente y una pregunta nueva valen mas que una respuesta decorativa.",
-            "La entrega esperada es: una guia de observacion con objeto elegido, dato clave, como mirarlo, fuente confiable y pregunta siguiente.",
-            "El resultado debe invitar a seguir aprendiendo sin confundir divulgacion con certeza absoluta."
-          ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
-        },
-        {
-          "id": "m5-l6",
-          "title": "Materia oscura y energia oscura",
-          "keyIdea": "Idea clave: Materia oscura y energia oscura ayuda a comprender un concepto complejo sin perder rigor ni depender de frases hechas.",
-          "shortTheory": "En esta leccion vas a trabajar \"Materia oscura y energia oscura\" dentro del modulo \"Galaxias y universo\". El foco es distinguir observacion, explicacion, limite y fuente para construir una comprension honesta.",
-          "practicalExample": "Una persona quiere entender mejor lo que ve en el cielo sin perderse entre datos sueltos, mitos o explicaciones demasiado tecnicas. Aplica \"Materia oscura y energia oscura\" con una version pequena: define contexto, accion principal, evidencia y proximo paso.",
-          "commonMistake": "El error comun es quedarse con una curiosidad superficial, repetir una analogia sin limites o usar una fuente llamativa pero poco confiable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe contexto, accion, evidencia, limite y proximo paso. Entrega esperada: una guia de observacion con objeto elegido, dato clave, como mirarlo, fuente confiable y pregunta siguiente.",
-          "alert": "No mirar el Sol directamente ni usar instrumentos sin filtros certificados.",
-          "keyPoints": [
-            "Materia oscura y energia oscura debe poder explicarse con una idea central y un limite claro.",
-            "Una buena fuente y una pregunta nueva valen mas que una respuesta decorativa.",
-            "La entrega esperada es: una guia de observacion con objeto elegido, dato clave, como mirarlo, fuente confiable y pregunta siguiente.",
-            "El resultado debe invitar a seguir aprendiendo sin confundir divulgacion con certeza absoluta."
-          ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+          "responsibleNote": "Contenido educativo. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. En temas de seguridad, datos personales, dinero, comercios, tramites o derechos, valida decisiones criticas con fuentes oficiales o una persona competente."
         }
       ],
       "quiz": [
         {
           "id": "m5-q1",
-          "question": "Pregunta 1: ¿cual es una buena practica en ",
+          "question": "Que debe poder explicar el estudiante al cerrar \"Estrellas\"?",
           "options": [
-            "Separar observacion, modelo y pregunta abierta",
-            "Presentar hipotesis como certezas absolutas",
-            "Usar escalas sin explicar",
-            "Confundir galaxia con sistema solar"
+            "Concepto, utilidad, limite y aplicacion a un caso concreto.",
+            "Solo una definicion memorizada.",
+            "Una opinion sin evidencia.",
+            "Una lista de palabras tecnicas sin contexto."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+          "feedback": "La norma de curso completo exige comprension, aplicacion y criterio."
         },
         {
           "id": "m5-q2",
-          "question": "Pregunta 2: ¿cual es una buena practica en ",
+          "question": "Cual es una mala forma de estudiar \"Estrellas\"?",
           "options": [
-            "Separar observacion, modelo y pregunta abierta",
-            "Presentar hipotesis como certezas absolutas",
-            "Usar escalas sin explicar",
-            "Confundir galaxia con sistema solar"
+            "Aplicarlo a un caso y revisar fuentes.",
+            "Tomar notas de conceptos y limites.",
+            "Memorizar frases sin poder usarlas.",
+            "Comparar un ejemplo con un contraejemplo."
           ],
-          "correctAnswerIndex": 0,
-          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+          "correctAnswerIndex": 2,
+          "feedback": "La repeticion sin aplicacion fue uno de los problemas que esta version corrige."
         },
         {
           "id": "m5-q3",
-          "question": "Pregunta 3: ¿cual es una buena practica en ",
+          "question": "Que evidencia conviene guardar en este modulo?",
           "options": [
-            "Separar observacion, modelo y pregunta abierta",
-            "Presentar hipotesis como certezas absolutas",
-            "Usar escalas sin explicar",
-            "Confundir galaxia con sistema solar"
+            "Una ficha con Estrellas aplicada al producto final.",
+            "Una captura sin explicacion.",
+            "Un resumen copiado sin fuente.",
+            "Una promesa de mejora sin criterio."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
-        },
-        {
-          "id": "m5-q4",
-          "question": "Pregunta 4: ¿cual es una buena practica en ",
-          "options": [
-            "Separar observacion, modelo y pregunta abierta",
-            "Presentar hipotesis como certezas absolutas",
-            "Usar escalas sin explicar",
-            "Confundir galaxia con sistema solar"
-          ],
-          "correctAnswerIndex": 0,
-          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
-        },
-        {
-          "id": "m5-q5",
-          "question": "Pregunta 5: ¿cual es una buena practica en ",
-          "options": [
-            "Separar observacion, modelo y pregunta abierta",
-            "Presentar hipotesis como certezas absolutas",
-            "Usar escalas sin explicar",
-            "Confundir galaxia con sistema solar"
-          ],
-          "correctAnswerIndex": 0,
-          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+          "feedback": "La evidencia debe conectar teoria, practica y producto final."
         }
-      ],
-      "professionalOutcome": "comprender conceptos basicos, observar con criterio y distinguir ciencia de afirmaciones dudosas. Entregable sugerido: una ficha de observacion con objeto, ubicacion, fuente, explicacion y pregunta abierta."
+      ]
     },
     {
       "id": "m6",
-      "title": "Como seguir aprendiendo",
-      "description": "En este modulo vas a trabajar \"Como seguir aprendiendo\" dentro de astronomia para curiosos, observacion, sistema solar, Luna, estrellas, galaxias y aprendizaje continuo. La meta es entender una idea con fuentes confiables, explicarla con palabras propias y dejar una pregunta para seguir aprendiendo.",
+      "title": "Galaxias y universo",
+      "description": "Una galaxia es un enorme sistema formado por estrellas, gas, polvo, materia oscura y otros objetos ligados por gravedad.  La Vía Láctea es la galaxia donde se encuentra el sistema solar.",
+      "learningRisk": "Estudiar el tema como una lista de datos sin comprender fundamentos, limites ni aplicacion.",
+      "commercialRisk": "Tomar decisiones practicas sin criterio, fuente ni producto verificable.",
       "lessons": [
         {
           "id": "m6-l1",
-          "title": "Fuentes confiables",
-          "keyIdea": "Idea clave: Fuentes confiables ayuda a comprender un concepto complejo sin perder rigor ni depender de frases hechas.",
-          "shortTheory": "En esta leccion vas a trabajar \"Fuentes confiables\" dentro del modulo \"Como seguir aprendiendo\". El foco es distinguir observacion, explicacion, limite y fuente para construir una comprension honesta.",
-          "practicalExample": "Una persona quiere entender mejor lo que ve en el cielo sin perderse entre datos sueltos, mitos o explicaciones demasiado tecnicas. Aplica \"Fuentes confiables\" con una version pequena: define contexto, accion principal, evidencia y proximo paso.",
-          "commonMistake": "El error comun es quedarse con una curiosidad superficial, repetir una analogia sin limites o usar una fuente llamativa pero poco confiable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe contexto, accion, evidencia, limite y proximo paso. Entrega esperada: una guia de observacion con objeto elegido, dato clave, como mirarlo, fuente confiable y pregunta siguiente.",
-          "alert": "No mirar el Sol directamente ni usar instrumentos sin filtros certificados.",
-          "keyPoints": [
-            "Fuentes confiables debe poder explicarse con una idea central y un limite claro.",
-            "Una buena fuente y una pregunta nueva valen mas que una respuesta decorativa.",
-            "La entrega esperada es: una guia de observacion con objeto elegido, dato clave, como mirarlo, fuente confiable y pregunta siguiente.",
-            "El resultado debe invitar a seguir aprendiendo sin confundir divulgacion con certeza absoluta."
+          "title": "Galaxias y universo",
+          "keyIdea": "Galaxias y universo: Una galaxia es un enorme sistema formado por estrellas, gas, polvo, materia oscura y otros objetos ligados por gravedad.",
+          "shortTheory": "Una galaxia es un enorme sistema formado por estrellas, gas, polvo, materia oscura y otros objetos ligados por gravedad.  La Vía Láctea es la galaxia donde se encuentra el sistema solar.",
+          "theorySections": [
+            {
+              "title": "Fundamento",
+              "body": "Una galaxia es un enorme sistema formado por estrellas, gas, polvo, materia oscura y otros objetos ligados por gravedad. La Vía Láctea es la galaxia donde se encuentra el sistema solar."
+            },
+            {
+              "title": "Criterios y detalles",
+              "body": "Uno de los mayores desafíos de la astronomía es comprender escalas. Las distancias astronómicas son tan grandes que se usan unidades especiales como unidad astronómica, año luz y pársec."
+            }
           ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
-        },
-        {
-          "id": "m6-l2",
-          "title": "Mapas del cielo",
-          "keyIdea": "Idea clave: Mapas del cielo ayuda a comprender un concepto complejo sin perder rigor ni depender de frases hechas.",
-          "shortTheory": "En esta leccion vas a trabajar \"Mapas del cielo\" dentro del modulo \"Como seguir aprendiendo\". El foco es distinguir observacion, explicacion, limite y fuente para construir una comprension honesta.",
-          "practicalExample": "Una persona quiere entender mejor lo que ve en el cielo sin perderse entre datos sueltos, mitos o explicaciones demasiado tecnicas. Aplica \"Mapas del cielo\" con una version pequena: define contexto, accion principal, evidencia y proximo paso.",
-          "commonMistake": "El error comun es quedarse con una curiosidad superficial, repetir una analogia sin limites o usar una fuente llamativa pero poco confiable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe contexto, accion, evidencia, limite y proximo paso. Entrega esperada: una guia de observacion con objeto elegido, dato clave, como mirarlo, fuente confiable y pregunta siguiente.",
-          "alert": "No mirar el Sol directamente ni usar instrumentos sin filtros certificados.",
+          "practicalExample": "Aplicacion sugerida: Crear un mapa simple del sistema solar.. Actividad 2: Crear un mapa simple del sistema solar.",
+          "counterExample": "Contraejemplo: tratar \"Galaxias y universo\" como una receta aislada, sin contexto, evidencia ni criterio de calidad.",
+          "commonMistake": "Error frecuente: memorizar el concepto sin poder explicar para que sirve, que limite tiene y como se aplica en una situacion concreta.",
+          "whatToDoNow": "Actividad: escribe una ficha breve sobre \"Galaxias y universo\" con definicion, ejemplo, riesgo, fuente consultada y una accion concreta vinculada al producto final: Guia personal de iniciacion astronomica.",
+          "alert": "Validar decisiones importantes con fuentes oficiales o personas competentes. No usar datos sensibles reales en practicas educativas.",
           "keyPoints": [
-            "Mapas del cielo debe poder explicarse con una idea central y un limite claro.",
-            "Una buena fuente y una pregunta nueva valen mas que una respuesta decorativa.",
-            "La entrega esperada es: una guia de observacion con objeto elegido, dato clave, como mirarlo, fuente confiable y pregunta siguiente.",
-            "El resultado debe invitar a seguir aprendiendo sin confundir divulgacion con certeza absoluta."
+            "Una galaxia es un enorme sistema formado por estrellas, gas, polvo, materia oscura y otros objetos ligados por gravedad.",
+            "La Vía Láctea es la galaxia donde se encuentra el sistema solar.",
+            "Uno de los mayores desafíos de la astronomía es comprender escalas.",
+            "Las distancias astronómicas son tan grandes que se usan unidades especiales como unidad astronómica, año luz y pársec."
           ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
-        },
-        {
-          "id": "m6-l3",
-          "title": "Binoculares y telescopios",
-          "keyIdea": "Idea clave: Binoculares y telescopios ayuda a comprender un concepto complejo sin perder rigor ni depender de frases hechas.",
-          "shortTheory": "En esta leccion vas a trabajar \"Binoculares y telescopios\" dentro del modulo \"Como seguir aprendiendo\". El foco es distinguir observacion, explicacion, limite y fuente para construir una comprension honesta.",
-          "practicalExample": "Una persona quiere entender mejor lo que ve en el cielo sin perderse entre datos sueltos, mitos o explicaciones demasiado tecnicas. Aplica \"Binoculares y telescopios\" con una version pequena: define contexto, accion principal, evidencia y proximo paso.",
-          "commonMistake": "El error comun es quedarse con una curiosidad superficial, repetir una analogia sin limites o usar una fuente llamativa pero poco confiable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe contexto, accion, evidencia, limite y proximo paso. Entrega esperada: una guia de observacion con objeto elegido, dato clave, como mirarlo, fuente confiable y pregunta siguiente.",
-          "alert": "No mirar el Sol directamente ni usar instrumentos sin filtros certificados.",
-          "keyPoints": [
-            "Binoculares y telescopios debe poder explicarse con una idea central y un limite claro.",
-            "Una buena fuente y una pregunta nueva valen mas que una respuesta decorativa.",
-            "La entrega esperada es: una guia de observacion con objeto elegido, dato clave, como mirarlo, fuente confiable y pregunta siguiente.",
-            "El resultado debe invitar a seguir aprendiendo sin confundir divulgacion con certeza absoluta."
+          "references": [
+            {
+              "title": "NASA Solar System Exploration",
+              "organization": "NASA Solar System Exploration",
+              "url": "https://solarsystem.nasa.gov/",
+              "note": "Fuente recomendada por el paquete de reescritura v1."
+            },
+            {
+              "title": "NASA Exoplanet Exploration",
+              "organization": "NASA Exoplanet Exploration",
+              "url": "https://exoplanets.nasa.gov/",
+              "note": "Fuente recomendada por el paquete de reescritura v1."
+            },
+            {
+              "title": "International Astronomical Union",
+              "organization": "International Astronomical Union",
+              "url": "https://www.iau.org/",
+              "note": "Fuente recomendada por el paquete de reescritura v1."
+            },
+            {
+              "title": "European Space Agency",
+              "organization": "European Space Agency",
+              "url": "https://www.esa.int/",
+              "note": "Fuente recomendada por el paquete de reescritura v1."
+            },
+            {
+              "title": "Recursos educativos de observatorios astronómicos",
+              "organization": "Recursos educativos de observatorios astronómicos",
+              "url": "#",
+              "note": "Fuente recomendada por el paquete de reescritura v1."
+            }
           ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
-        },
-        {
-          "id": "m6-l4",
-          "title": "Astrofotografia inicial",
-          "keyIdea": "Idea clave: Astrofotografia inicial ayuda a comprender un concepto complejo sin perder rigor ni depender de frases hechas.",
-          "shortTheory": "En esta leccion vas a trabajar \"Astrofotografia inicial\" dentro del modulo \"Como seguir aprendiendo\". El foco es distinguir observacion, explicacion, limite y fuente para construir una comprension honesta.",
-          "practicalExample": "Una persona quiere entender mejor lo que ve en el cielo sin perderse entre datos sueltos, mitos o explicaciones demasiado tecnicas. Aplica \"Astrofotografia inicial\" con una version pequena: define contexto, accion principal, evidencia y proximo paso.",
-          "commonMistake": "El error comun es quedarse con una curiosidad superficial, repetir una analogia sin limites o usar una fuente llamativa pero poco confiable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe contexto, accion, evidencia, limite y proximo paso. Entrega esperada: una guia de observacion con objeto elegido, dato clave, como mirarlo, fuente confiable y pregunta siguiente.",
-          "alert": "No mirar el Sol directamente ni usar instrumentos sin filtros certificados.",
-          "keyPoints": [
-            "Astrofotografia inicial debe poder explicarse con una idea central y un limite claro.",
-            "Una buena fuente y una pregunta nueva valen mas que una respuesta decorativa.",
-            "La entrega esperada es: una guia de observacion con objeto elegido, dato clave, como mirarlo, fuente confiable y pregunta siguiente.",
-            "El resultado debe invitar a seguir aprendiendo sin confundir divulgacion con certeza absoluta."
-          ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
-        },
-        {
-          "id": "m6-l5",
-          "title": "Ciencia ciudadana",
-          "keyIdea": "Idea clave: Ciencia ciudadana ayuda a comprender un concepto complejo sin perder rigor ni depender de frases hechas.",
-          "shortTheory": "En esta leccion vas a trabajar \"Ciencia ciudadana\" dentro del modulo \"Como seguir aprendiendo\". El foco es distinguir observacion, explicacion, limite y fuente para construir una comprension honesta.",
-          "practicalExample": "Una persona quiere entender mejor lo que ve en el cielo sin perderse entre datos sueltos, mitos o explicaciones demasiado tecnicas. Aplica \"Ciencia ciudadana\" con una version pequena: define contexto, accion principal, evidencia y proximo paso.",
-          "commonMistake": "El error comun es quedarse con una curiosidad superficial, repetir una analogia sin limites o usar una fuente llamativa pero poco confiable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe contexto, accion, evidencia, limite y proximo paso. Entrega esperada: una guia de observacion con objeto elegido, dato clave, como mirarlo, fuente confiable y pregunta siguiente.",
-          "alert": "No mirar el Sol directamente ni usar instrumentos sin filtros certificados.",
-          "keyPoints": [
-            "Ciencia ciudadana debe poder explicarse con una idea central y un limite claro.",
-            "Una buena fuente y una pregunta nueva valen mas que una respuesta decorativa.",
-            "La entrega esperada es: una guia de observacion con objeto elegido, dato clave, como mirarlo, fuente confiable y pregunta siguiente.",
-            "El resultado debe invitar a seguir aprendiendo sin confundir divulgacion con certeza absoluta."
-          ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
-        },
-        {
-          "id": "m6-l6",
-          "title": "Plan personal de observacion",
-          "keyIdea": "Idea clave: Plan personal de observacion ayuda a comprender un concepto complejo sin perder rigor ni depender de frases hechas.",
-          "shortTheory": "En esta leccion vas a trabajar \"Plan personal de observacion\" dentro del modulo \"Como seguir aprendiendo\". El foco es distinguir observacion, explicacion, limite y fuente para construir una comprension honesta.",
-          "practicalExample": "Una persona quiere entender mejor lo que ve en el cielo sin perderse entre datos sueltos, mitos o explicaciones demasiado tecnicas. Aplica \"Plan personal de observacion\" con una version pequena: define contexto, accion principal, evidencia y proximo paso.",
-          "commonMistake": "El error comun es quedarse con una curiosidad superficial, repetir una analogia sin limites o usar una fuente llamativa pero poco confiable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe contexto, accion, evidencia, limite y proximo paso. Entrega esperada: una guia de observacion con objeto elegido, dato clave, como mirarlo, fuente confiable y pregunta siguiente.",
-          "alert": "No mirar el Sol directamente ni usar instrumentos sin filtros certificados.",
-          "keyPoints": [
-            "Plan personal de observacion debe poder explicarse con una idea central y un limite claro.",
-            "Una buena fuente y una pregunta nueva valen mas que una respuesta decorativa.",
-            "La entrega esperada es: una guia de observacion con objeto elegido, dato clave, como mirarlo, fuente confiable y pregunta siguiente.",
-            "El resultado debe invitar a seguir aprendiendo sin confundir divulgacion con certeza absoluta."
-          ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+          "responsibleNote": "Contenido educativo. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. En temas de seguridad, datos personales, dinero, comercios, tramites o derechos, valida decisiones criticas con fuentes oficiales o una persona competente."
         }
       ],
       "quiz": [
         {
           "id": "m6-q1",
-          "question": "Pregunta 1: ¿cual es una buena practica en ",
+          "question": "Que debe poder explicar el estudiante al cerrar \"Galaxias y universo\"?",
           "options": [
-            "Combinar observacion, fuentes confiables y registro personal",
-            "Comprar equipo caro sin objetivo",
-            "Compartir datos falsos",
-            "No verificar imagenes virales"
+            "Concepto, utilidad, limite y aplicacion a un caso concreto.",
+            "Solo una definicion memorizada.",
+            "Una opinion sin evidencia.",
+            "Una lista de palabras tecnicas sin contexto."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+          "feedback": "La norma de curso completo exige comprension, aplicacion y criterio."
         },
         {
           "id": "m6-q2",
-          "question": "Pregunta 2: ¿cual es una buena practica en ",
+          "question": "Cual es una mala forma de estudiar \"Galaxias y universo\"?",
           "options": [
-            "Combinar observacion, fuentes confiables y registro personal",
-            "Comprar equipo caro sin objetivo",
-            "Compartir datos falsos",
-            "No verificar imagenes virales"
+            "Aplicarlo a un caso y revisar fuentes.",
+            "Tomar notas de conceptos y limites.",
+            "Memorizar frases sin poder usarlas.",
+            "Comparar un ejemplo con un contraejemplo."
           ],
-          "correctAnswerIndex": 0,
-          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+          "correctAnswerIndex": 2,
+          "feedback": "La repeticion sin aplicacion fue uno de los problemas que esta version corrige."
         },
         {
           "id": "m6-q3",
-          "question": "Pregunta 3: ¿cual es una buena practica en ",
+          "question": "Que evidencia conviene guardar en este modulo?",
           "options": [
-            "Combinar observacion, fuentes confiables y registro personal",
-            "Comprar equipo caro sin objetivo",
-            "Compartir datos falsos",
-            "No verificar imagenes virales"
+            "Una ficha con Galaxias y universo aplicada al producto final.",
+            "Una captura sin explicacion.",
+            "Un resumen copiado sin fuente.",
+            "Una promesa de mejora sin criterio."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
-        },
+          "feedback": "La evidencia debe conectar teoria, practica y producto final."
+        }
+      ]
+    },
+    {
+      "id": "m7",
+      "title": "Exoplanetas y búsqueda de vida",
+      "description": "Un exoplaneta es un planeta que orbita una estrella distinta del Sol.  El descubrimiento de exoplanetas cambió nuestra visión del universo: los sistemas planetarios no son una rareza, sino una parte fundamental de la astronomía moderna.",
+      "learningRisk": "Estudiar el tema como una lista de datos sin comprender fundamentos, limites ni aplicacion.",
+      "commercialRisk": "Tomar decisiones practicas sin criterio, fuente ni producto verificable.",
+      "lessons": [
         {
-          "id": "m6-q4",
-          "question": "Pregunta 4: ¿cual es una buena practica en ",
-          "options": [
-            "Combinar observacion, fuentes confiables y registro personal",
-            "Comprar equipo caro sin objetivo",
-            "Compartir datos falsos",
-            "No verificar imagenes virales"
+          "id": "m7-l1",
+          "title": "Exoplanetas y búsqueda de vida",
+          "keyIdea": "Exoplanetas y búsqueda de vida: Un exoplaneta es un planeta que orbita una estrella distinta del Sol.",
+          "shortTheory": "Un exoplaneta es un planeta que orbita una estrella distinta del Sol.  El descubrimiento de exoplanetas cambió nuestra visión del universo: los sistemas planetarios no son una rareza, sino una parte fundamental de la astronomía moderna.",
+          "theorySections": [
+            {
+              "title": "Fundamento",
+              "body": "Un exoplaneta es un planeta que orbita una estrella distinta del Sol. El descubrimiento de exoplanetas cambió nuestra visión del universo: los sistemas planetarios no son una rareza, sino una parte fundamental de la astronomía moderna."
+            },
+            {
+              "title": "Criterios y detalles",
+              "body": "Dos métodos importantes de detección son el método de tránsito y el método de velocidad radial. La zona habitable es la región alrededor de una estrella donde, bajo ciertas condiciones, podría existir agua líquida en la superficie de un planeta."
+            }
           ],
-          "correctAnswerIndex": 0,
-          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
-        },
-        {
-          "id": "m6-q5",
-          "question": "Pregunta 5: ¿cual es una buena practica en ",
-          "options": [
-            "Combinar observacion, fuentes confiables y registro personal",
-            "Comprar equipo caro sin objetivo",
-            "Compartir datos falsos",
-            "No verificar imagenes virales"
+          "practicalExample": "Aplicacion sugerida: Realizar un diario de observación lunar durante siete noches.. Actividad 3: Realizar un diario de observación lunar durante siete noches.",
+          "counterExample": "Contraejemplo: tratar \"Exoplanetas y búsqueda de vida\" como una receta aislada, sin contexto, evidencia ni criterio de calidad.",
+          "commonMistake": "Error frecuente: memorizar el concepto sin poder explicar para que sirve, que limite tiene y como se aplica en una situacion concreta.",
+          "whatToDoNow": "Actividad: escribe una ficha breve sobre \"Exoplanetas y búsqueda de vida\" con definicion, ejemplo, riesgo, fuente consultada y una accion concreta vinculada al producto final: Guia personal de iniciacion astronomica.",
+          "alert": "Validar decisiones importantes con fuentes oficiales o personas competentes. No usar datos sensibles reales en practicas educativas.",
+          "keyPoints": [
+            "Un exoplaneta es un planeta que orbita una estrella distinta del Sol.",
+            "El descubrimiento de exoplanetas cambió nuestra visión del universo: los sistemas planetarios no son una rareza, sino una parte fundamental de la astronomía moderna.",
+            "Dos métodos importantes de detección son el método de tránsito y el método de velocidad radial.",
+            "La zona habitable es la región alrededor de una estrella donde, bajo ciertas condiciones, podría existir agua líquida en la superficie de un planeta."
           ],
-          "correctAnswerIndex": 0,
-          "feedback": "Correcto: conviene avanzar con pasos verificables, ejemplos pequenos y limites claros."
+          "references": [
+            {
+              "title": "NASA Solar System Exploration",
+              "organization": "NASA Solar System Exploration",
+              "url": "https://solarsystem.nasa.gov/",
+              "note": "Fuente recomendada por el paquete de reescritura v1."
+            },
+            {
+              "title": "NASA Exoplanet Exploration",
+              "organization": "NASA Exoplanet Exploration",
+              "url": "https://exoplanets.nasa.gov/",
+              "note": "Fuente recomendada por el paquete de reescritura v1."
+            },
+            {
+              "title": "International Astronomical Union",
+              "organization": "International Astronomical Union",
+              "url": "https://www.iau.org/",
+              "note": "Fuente recomendada por el paquete de reescritura v1."
+            },
+            {
+              "title": "European Space Agency",
+              "organization": "European Space Agency",
+              "url": "https://www.esa.int/",
+              "note": "Fuente recomendada por el paquete de reescritura v1."
+            },
+            {
+              "title": "Recursos educativos de observatorios astronómicos",
+              "organization": "Recursos educativos de observatorios astronómicos",
+              "url": "#",
+              "note": "Fuente recomendada por el paquete de reescritura v1."
+            }
+          ],
+          "responsibleNote": "Contenido educativo. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. En temas de seguridad, datos personales, dinero, comercios, tramites o derechos, valida decisiones criticas con fuentes oficiales o una persona competente."
         }
       ],
-      "professionalOutcome": "comprender conceptos basicos, observar con criterio y distinguir ciencia de afirmaciones dudosas. Entregable sugerido: una ficha de observacion con objeto, ubicacion, fuente, explicacion y pregunta abierta."
+      "quiz": [
+        {
+          "id": "m7-q1",
+          "question": "Que debe poder explicar el estudiante al cerrar \"Exoplanetas y búsqueda de vida\"?",
+          "options": [
+            "Concepto, utilidad, limite y aplicacion a un caso concreto.",
+            "Solo una definicion memorizada.",
+            "Una opinion sin evidencia.",
+            "Una lista de palabras tecnicas sin contexto."
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "La norma de curso completo exige comprension, aplicacion y criterio."
+        },
+        {
+          "id": "m7-q2",
+          "question": "Cual es una mala forma de estudiar \"Exoplanetas y búsqueda de vida\"?",
+          "options": [
+            "Aplicarlo a un caso y revisar fuentes.",
+            "Tomar notas de conceptos y limites.",
+            "Memorizar frases sin poder usarlas.",
+            "Comparar un ejemplo con un contraejemplo."
+          ],
+          "correctAnswerIndex": 2,
+          "feedback": "La repeticion sin aplicacion fue uno de los problemas que esta version corrige."
+        },
+        {
+          "id": "m7-q3",
+          "question": "Que evidencia conviene guardar en este modulo?",
+          "options": [
+            "Una ficha con Exoplanetas y búsqueda de vida aplicada al producto final.",
+            "Una captura sin explicacion.",
+            "Un resumen copiado sin fuente.",
+            "Una promesa de mejora sin criterio."
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "La evidencia debe conectar teoria, practica y producto final."
+        }
+      ]
+    },
+    {
+      "id": "m8",
+      "title": "Telescopios e instrumentos",
+      "description": "Un telescopio no solo sirve para aumentar objetos.  Su función principal es captar más luz que el ojo humano.",
+      "learningRisk": "Estudiar el tema como una lista de datos sin comprender fundamentos, limites ni aplicacion.",
+      "commercialRisk": "Tomar decisiones practicas sin criterio, fuente ni producto verificable.",
+      "lessons": [
+        {
+          "id": "m8-l1",
+          "title": "Telescopios e instrumentos",
+          "keyIdea": "Telescopios e instrumentos: Un telescopio no solo sirve para aumentar objetos.",
+          "shortTheory": "Un telescopio no solo sirve para aumentar objetos.  Su función principal es captar más luz que el ojo humano.",
+          "theorySections": [
+            {
+              "title": "Fundamento",
+              "body": "Un telescopio no solo sirve para aumentar objetos. Su función principal es captar más luz que el ojo humano. Cuanta más luz capta un instrumento, más objetos débiles puede detectar."
+            },
+            {
+              "title": "Criterios y detalles",
+              "body": "La astronomía moderna estudia el universo en muchas longitudes de onda: luz visible, radio, infrarrojo, ultravioleta, rayos X y rayos gamma. Los telescopios espaciales evitan distorsiones de la atmósfera y permiten observar radiación que no llega bien a la superficie terrestre."
+            }
+          ],
+          "practicalExample": "Aplicacion sugerida: Analizar críticamente una noticia astronómica.. Actividad 4: Analizar críticamente una noticia astronómica.",
+          "counterExample": "Contraejemplo: tratar \"Telescopios e instrumentos\" como una receta aislada, sin contexto, evidencia ni criterio de calidad.",
+          "commonMistake": "Error frecuente: memorizar el concepto sin poder explicar para que sirve, que limite tiene y como se aplica en una situacion concreta.",
+          "whatToDoNow": "Actividad: escribe una ficha breve sobre \"Telescopios e instrumentos\" con definicion, ejemplo, riesgo, fuente consultada y una accion concreta vinculada al producto final: Guia personal de iniciacion astronomica.",
+          "alert": "Validar decisiones importantes con fuentes oficiales o personas competentes. No usar datos sensibles reales en practicas educativas.",
+          "keyPoints": [
+            "Un telescopio no solo sirve para aumentar objetos.",
+            "Su función principal es captar más luz que el ojo humano.",
+            "Cuanta más luz capta un instrumento, más objetos débiles puede detectar.",
+            "La astronomía moderna estudia el universo en muchas longitudes de onda: luz visible, radio, infrarrojo, ultravioleta, rayos X y rayos gamma."
+          ],
+          "references": [
+            {
+              "title": "NASA Solar System Exploration",
+              "organization": "NASA Solar System Exploration",
+              "url": "https://solarsystem.nasa.gov/",
+              "note": "Fuente recomendada por el paquete de reescritura v1."
+            },
+            {
+              "title": "NASA Exoplanet Exploration",
+              "organization": "NASA Exoplanet Exploration",
+              "url": "https://exoplanets.nasa.gov/",
+              "note": "Fuente recomendada por el paquete de reescritura v1."
+            },
+            {
+              "title": "International Astronomical Union",
+              "organization": "International Astronomical Union",
+              "url": "https://www.iau.org/",
+              "note": "Fuente recomendada por el paquete de reescritura v1."
+            },
+            {
+              "title": "European Space Agency",
+              "organization": "European Space Agency",
+              "url": "https://www.esa.int/",
+              "note": "Fuente recomendada por el paquete de reescritura v1."
+            },
+            {
+              "title": "Recursos educativos de observatorios astronómicos",
+              "organization": "Recursos educativos de observatorios astronómicos",
+              "url": "#",
+              "note": "Fuente recomendada por el paquete de reescritura v1."
+            }
+          ],
+          "responsibleNote": "Contenido educativo. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. En temas de seguridad, datos personales, dinero, comercios, tramites o derechos, valida decisiones criticas con fuentes oficiales o una persona competente."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m8-q1",
+          "question": "Que debe poder explicar el estudiante al cerrar \"Telescopios e instrumentos\"?",
+          "options": [
+            "Concepto, utilidad, limite y aplicacion a un caso concreto.",
+            "Solo una definicion memorizada.",
+            "Una opinion sin evidencia.",
+            "Una lista de palabras tecnicas sin contexto."
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "La norma de curso completo exige comprension, aplicacion y criterio."
+        },
+        {
+          "id": "m8-q2",
+          "question": "Cual es una mala forma de estudiar \"Telescopios e instrumentos\"?",
+          "options": [
+            "Aplicarlo a un caso y revisar fuentes.",
+            "Tomar notas de conceptos y limites.",
+            "Memorizar frases sin poder usarlas.",
+            "Comparar un ejemplo con un contraejemplo."
+          ],
+          "correctAnswerIndex": 2,
+          "feedback": "La repeticion sin aplicacion fue uno de los problemas que esta version corrige."
+        },
+        {
+          "id": "m8-q3",
+          "question": "Que evidencia conviene guardar en este modulo?",
+          "options": [
+            "Una ficha con Telescopios e instrumentos aplicada al producto final.",
+            "Una captura sin explicacion.",
+            "Un resumen copiado sin fuente.",
+            "Una promesa de mejora sin criterio."
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "La evidencia debe conectar teoria, practica y producto final."
+        }
+      ]
+    },
+    {
+      "id": "m9",
+      "title": "Pensamiento crítico en astronomía",
+      "description": "Las noticias sobre el espacio suelen usar titulares exagerados.  Un lector crítico debe preguntarse cuál es la fuente original, si el hallazgo fue confirmado, si se habla de evidencia o hipótesis y si el titular exagera lo que dice el estudio.",
+      "learningRisk": "Estudiar el tema como una lista de datos sin comprender fundamentos, limites ni aplicacion.",
+      "commercialRisk": "Tomar decisiones practicas sin criterio, fuente ni producto verificable.",
+      "lessons": [
+        {
+          "id": "m9-l1",
+          "title": "Pensamiento crítico en astronomía",
+          "keyIdea": "Pensamiento crítico en astronomía: Las noticias sobre el espacio suelen usar titulares exagerados.",
+          "shortTheory": "Las noticias sobre el espacio suelen usar titulares exagerados.  Un lector crítico debe preguntarse cuál es la fuente original, si el hallazgo fue confirmado, si se habla de evidencia o hipótesis y si el titular exagera lo que dice el estudio.",
+          "theorySections": [
+            {
+              "title": "Fundamento",
+              "body": "Las noticias sobre el espacio suelen usar titulares exagerados. Un lector crítico debe preguntarse cuál es la fuente original, si el hallazgo fue confirmado, si se habla de evidencia o hipótesis y si el titular exagera lo que dice el estudio."
+            },
+            {
+              "title": "Criterios y detalles",
+              "body": "La ciencia no es una lista de verdades fijas. Es un proceso de revisión permanente. Las ideas cambian cuando aparece mejor evidencia."
+            }
+          ],
+          "practicalExample": "Aplicacion sugerida: Diferenciar ciencia y pseudociencia a partir de tres titulares.. Actividad 1: Diferenciar ciencia y pseudociencia a partir de tres titulares.",
+          "counterExample": "Contraejemplo: tratar \"Pensamiento crítico en astronomía\" como una receta aislada, sin contexto, evidencia ni criterio de calidad.",
+          "commonMistake": "Error frecuente: memorizar el concepto sin poder explicar para que sirve, que limite tiene y como se aplica en una situacion concreta.",
+          "whatToDoNow": "Actividad: escribe una ficha breve sobre \"Pensamiento crítico en astronomía\" con definicion, ejemplo, riesgo, fuente consultada y una accion concreta vinculada al producto final: Guia personal de iniciacion astronomica.",
+          "alert": "Validar decisiones importantes con fuentes oficiales o personas competentes. No usar datos sensibles reales en practicas educativas.",
+          "keyPoints": [
+            "Las noticias sobre el espacio suelen usar titulares exagerados.",
+            "Un lector crítico debe preguntarse cuál es la fuente original, si el hallazgo fue confirmado, si se habla de evidencia o hipótesis y si el titular exagera lo que dice el estudio.",
+            "La ciencia no es una lista de verdades fijas.",
+            "Es un proceso de revisión permanente."
+          ],
+          "references": [
+            {
+              "title": "NASA Solar System Exploration",
+              "organization": "NASA Solar System Exploration",
+              "url": "https://solarsystem.nasa.gov/",
+              "note": "Fuente recomendada por el paquete de reescritura v1."
+            },
+            {
+              "title": "NASA Exoplanet Exploration",
+              "organization": "NASA Exoplanet Exploration",
+              "url": "https://exoplanets.nasa.gov/",
+              "note": "Fuente recomendada por el paquete de reescritura v1."
+            },
+            {
+              "title": "International Astronomical Union",
+              "organization": "International Astronomical Union",
+              "url": "https://www.iau.org/",
+              "note": "Fuente recomendada por el paquete de reescritura v1."
+            },
+            {
+              "title": "European Space Agency",
+              "organization": "European Space Agency",
+              "url": "https://www.esa.int/",
+              "note": "Fuente recomendada por el paquete de reescritura v1."
+            },
+            {
+              "title": "Recursos educativos de observatorios astronómicos",
+              "organization": "Recursos educativos de observatorios astronómicos",
+              "url": "#",
+              "note": "Fuente recomendada por el paquete de reescritura v1."
+            }
+          ],
+          "responsibleNote": "Contenido educativo. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. En temas de seguridad, datos personales, dinero, comercios, tramites o derechos, valida decisiones criticas con fuentes oficiales o una persona competente."
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m9-q1",
+          "question": "Que debe poder explicar el estudiante al cerrar \"Pensamiento crítico en astronomía\"?",
+          "options": [
+            "Concepto, utilidad, limite y aplicacion a un caso concreto.",
+            "Solo una definicion memorizada.",
+            "Una opinion sin evidencia.",
+            "Una lista de palabras tecnicas sin contexto."
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "La norma de curso completo exige comprension, aplicacion y criterio."
+        },
+        {
+          "id": "m9-q2",
+          "question": "Cual es una mala forma de estudiar \"Pensamiento crítico en astronomía\"?",
+          "options": [
+            "Aplicarlo a un caso y revisar fuentes.",
+            "Tomar notas de conceptos y limites.",
+            "Memorizar frases sin poder usarlas.",
+            "Comparar un ejemplo con un contraejemplo."
+          ],
+          "correctAnswerIndex": 2,
+          "feedback": "La repeticion sin aplicacion fue uno de los problemas que esta version corrige."
+        },
+        {
+          "id": "m9-q3",
+          "question": "Que evidencia conviene guardar en este modulo?",
+          "options": [
+            "Una ficha con Pensamiento crítico en astronomía aplicada al producto final.",
+            "Una captura sin explicacion.",
+            "Un resumen copiado sin fuente.",
+            "Una promesa de mejora sin criterio."
+          ],
+          "correctAnswerIndex": 0,
+          "feedback": "La evidencia debe conectar teoria, practica y producto final."
+        }
+      ]
     }
-  ],
-  "appName": "Astronomia General para Curiosos",
-  "professionalization": {
-    "tier": "curso-bandera-v1.0-beta",
-    "updatedAt": "2026-05-28",
-    "focus": "Profundizacion visible de lecciones, practicas, checklists y casos."
-  },
-  "editorialPolish": {
-    "fifthEditorialBatch": "2026-06-02",
-    "status": "public-facing-copy-polished"
-  }
+  ]
 }

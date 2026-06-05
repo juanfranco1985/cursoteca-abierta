@@ -1,441 +1,160 @@
 {
   "incidents": [
     {
-      "id": "andsec-case-1",
-      "title": "SMS de paquete retenido",
-      "summary": "Un SMS pide pagar una tasa para liberar una entrega.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Evitar pago y robo de datos.",
+      "id": "android_seguro_principiantes-case-1",
+      "title": "Caso practico integrador",
+      "summary": "Aplicar Android Seguro para Principiantes a un caso realista.",
+      "severity": "Practica integradora",
+      "immediateGoal": "Aplicar la teoria completa del curso a una situacion realista.",
       "steps": [
-        "Definir que paso antes de actuar: link corto y urgencia por paquete.",
-        "Separar datos reales de datos simulados y evitar compartir informacion sensible.",
-        "Aplicar el criterio del curso: no abrir, verificar en sitio oficial de correo o comercio.",
-        "Registrar evidencia: captura del SMS y dominio sospechoso.",
-        "Decidir la accion minima segura y quien debe validarla si el caso es real.",
-        "Cerrar con una nota breve: resultado, duda pendiente y siguiente control."
+        "Describir el contexto del caso.",
+        "Identificar conceptos teoricos necesarios.",
+        "Aplicar el criterio del curso paso a paso.",
+        "Registrar evidencia y limite de la decision.",
+        "Contrastar con fuentes recomendadas.",
+        "Cerrar con producto final, duda pendiente y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Consigna o descripcion del caso",
-        "captura del SMS y dominio sospechoso",
-        "Decision tomada y motivo",
-        "Captura o registro sin datos sensibles",
-        "Proxima accion"
+        "Descripcion del caso",
+        "Conceptos usados",
+        "Fuente consultada",
+        "Decision o produccion final",
+        "Riesgo, limite o duda pendiente"
       ],
       "errorsToAvoid": [
-        "Pagar desde el enlace recibido.",
-        "Usar datos privados en una practica educativa.",
-        "Aplicar una recomendacion sin revisar consecuencias.",
-        "Borrar evidencia antes de entender el problema.",
-        "Confundir ejemplo de practica con solucion definitiva."
+        "Resolver por intuicion sin explicar criterio.",
+        "Copiar una fuente sin sintetizar.",
+        "Usar datos sensibles reales en la practica.",
+        "Cerrar el curso sin producto verificable."
       ],
       "aftercare": [
-        "Guardar regla para entregas: verificar desde fuente oficial.",
-        "Guardar una plantilla reutilizable.",
-        "Revisar si el caso se repite y convertirlo en checklist.",
-        "Pedir validacion externa si afecta cuentas, pagos, seguridad o derechos."
+        "Aplicar Android Seguro para Principiantes a un caso realista.",
+        "Guardar la entrega final.",
+        "Revisar el checklist antes de marcar el curso como completo."
       ],
       "guidedDecision": {
-        "question": "Cual es la mejor decision profesional en este caso?",
+        "question": "Que decision muestra mejor criterio de curso completo?",
         "options": [
           {
-            "text": "Trabajar en una version controlada, guardar evidencia y validar antes de aplicar a un caso real.",
+            "text": "Conectar teoria, caso, fuente, limite y producto verificable.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y deja aprendizaje reutilizable."
+            "feedback": "Correcto: esa es la diferencia entre ficha introductoria y curso completo."
           },
           {
-            "text": "Actuar rapido sin documentar porque el problema parece simple.",
+            "text": "Repetir una definicion sin aplicarla.",
             "isCorrect": false,
-            "feedback": "La falta de evidencia impide revisar errores y aprender."
+            "feedback": "La definicion aislada no alcanza."
           },
           {
-            "text": "Usar datos reales para que el ejercicio sea mas completo.",
+            "text": "Cerrar sin evidencia ni fuente.",
             "isCorrect": false,
-            "feedback": "En practicas educativas conviene usar datos simulados o anonimizados."
+            "feedback": "Falta verificacion y producto final."
           }
         ]
       }
     },
     {
-      "id": "andsec-case-2",
-      "title": "App de acceso remoto indicada por supuesto soporte",
-      "summary": "Una llamada pide instalar una app para solucionar un problema bancario.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Detener posible control del telefono.",
+      "id": "android_seguro_principiantes-case-2",
+      "title": "Evaluacion final",
+      "summary": "Responder preguntas conceptuales y producir una entrega practica.",
+      "severity": "Practica integradora",
+      "immediateGoal": "Comprobar comprension conceptual y produccion practica.",
       "steps": [
-        "Definir que paso antes de actuar: pedido de instalar app y compartir pantalla.",
-        "Separar datos reales de datos simulados y evitar compartir informacion sensible.",
-        "Aplicar el criterio del curso: cortar comunicacion, no instalar y llamar al canal oficial.",
-        "Registrar evidencia: numero, app solicitada y hora.",
-        "Decidir la accion minima segura y quien debe validarla si el caso es real.",
-        "Cerrar con una nota breve: resultado, duda pendiente y siguiente control."
+        "Describir el contexto del caso.",
+        "Identificar conceptos teoricos necesarios.",
+        "Aplicar el criterio del curso paso a paso.",
+        "Registrar evidencia y limite de la decision.",
+        "Contrastar con fuentes recomendadas.",
+        "Cerrar con producto final, duda pendiente y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Consigna o descripcion del caso",
-        "numero, app solicitada y hora",
-        "Decision tomada y motivo",
-        "Captura o registro sin datos sensibles",
-        "Proxima accion"
+        "Descripcion del caso",
+        "Conceptos usados",
+        "Fuente consultada",
+        "Decision o produccion final",
+        "Riesgo, limite o duda pendiente"
       ],
       "errorsToAvoid": [
-        "Instalar para que el soporte vea la pantalla.",
-        "Usar datos privados en una practica educativa.",
-        "Aplicar una recomendacion sin revisar consecuencias.",
-        "Borrar evidencia antes de entender el problema.",
-        "Confundir ejemplo de practica con solucion definitiva."
+        "Resolver por intuicion sin explicar criterio.",
+        "Copiar una fuente sin sintetizar.",
+        "Usar datos sensibles reales en la practica.",
+        "Cerrar el curso sin producto verificable."
       ],
       "aftercare": [
-        "Bloquear numero y revisar apps instaladas.",
-        "Guardar una plantilla reutilizable.",
-        "Revisar si el caso se repite y convertirlo en checklist.",
-        "Pedir validacion externa si afecta cuentas, pagos, seguridad o derechos."
+        "Responder preguntas conceptuales y producir una entrega practica.",
+        "Guardar la entrega final.",
+        "Revisar el checklist antes de marcar el curso como completo."
       ],
       "guidedDecision": {
-        "question": "Cual es la mejor decision profesional en este caso?",
+        "question": "Que decision muestra mejor criterio de curso completo?",
         "options": [
           {
-            "text": "Trabajar en una version controlada, guardar evidencia y validar antes de aplicar a un caso real.",
+            "text": "Conectar teoria, caso, fuente, limite y producto verificable.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y deja aprendizaje reutilizable."
+            "feedback": "Correcto: esa es la diferencia entre ficha introductoria y curso completo."
           },
           {
-            "text": "Actuar rapido sin documentar porque el problema parece simple.",
+            "text": "Repetir una definicion sin aplicarla.",
             "isCorrect": false,
-            "feedback": "La falta de evidencia impide revisar errores y aprender."
+            "feedback": "La definicion aislada no alcanza."
           },
           {
-            "text": "Usar datos reales para que el ejercicio sea mas completo.",
+            "text": "Cerrar sin evidencia ni fuente.",
             "isCorrect": false,
-            "feedback": "En practicas educativas conviene usar datos simulados o anonimizados."
+            "feedback": "Falta verificacion y producto final."
           }
         ]
       }
     },
     {
-      "id": "andsec-case-3",
-      "title": "Telefono perdido en transporte",
-      "summary": "El equipo tiene cuentas abiertas y notificaciones visibles.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Bloquear equipo y proteger cuentas.",
+      "id": "android_seguro_principiantes-case-3",
+      "title": "Producto final del curso",
+      "summary": "Al finalizar, el estudiante debe crear su Plan Android Seguro, una guía personal de configuración y respuesta. Ese plan debe permitirle: - usar bloqueo fuerte; - proteger su cuenta Google; - instalar apps con criterio; - revisar permisos; - mantener actualizaciones; - evitar enlaces sospechosos; - cuidar notificaciones; - hacer copias de seguridad; - actuar ante pérdida o robo; - revisar el dispositivo una vez por mes. El curso termina cuando el estudiante no solo “usa Android”, sino que entiende cómo cuidarlo.",
+      "severity": "Practica integradora",
+      "immediateGoal": "Cerrar el curso con una evidencia concreta de aprendizaje.",
       "steps": [
-        "Definir que paso antes de actuar: perdida fisica del celular.",
-        "Separar datos reales de datos simulados y evitar compartir informacion sensible.",
-        "Aplicar el criterio del curso: usar localizar, bloquear, cerrar sesiones y avisar a operadora si hace falta.",
-        "Registrar evidencia: hora, lugar y acciones realizadas.",
-        "Decidir la accion minima segura y quien debe validarla si el caso es real.",
-        "Cerrar con una nota breve: resultado, duda pendiente y siguiente control."
+        "Describir el contexto del caso.",
+        "Identificar conceptos teoricos necesarios.",
+        "Aplicar el criterio del curso paso a paso.",
+        "Registrar evidencia y limite de la decision.",
+        "Contrastar con fuentes recomendadas.",
+        "Cerrar con producto final, duda pendiente y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Consigna o descripcion del caso",
-        "hora, lugar y acciones realizadas",
-        "Decision tomada y motivo",
-        "Captura o registro sin datos sensibles",
-        "Proxima accion"
+        "Descripcion del caso",
+        "Conceptos usados",
+        "Fuente consultada",
+        "Decision o produccion final",
+        "Riesgo, limite o duda pendiente"
       ],
       "errorsToAvoid": [
-        "Esperar al dia siguiente sin bloquear.",
-        "Usar datos privados en una practica educativa.",
-        "Aplicar una recomendacion sin revisar consecuencias.",
-        "Borrar evidencia antes de entender el problema.",
-        "Confundir ejemplo de practica con solucion definitiva."
+        "Resolver por intuicion sin explicar criterio.",
+        "Copiar una fuente sin sintetizar.",
+        "Usar datos sensibles reales en la practica.",
+        "Cerrar el curso sin producto verificable."
       ],
       "aftercare": [
-        "Revisar bloqueo automatico y copia.",
-        "Guardar una plantilla reutilizable.",
-        "Revisar si el caso se repite y convertirlo en checklist.",
-        "Pedir validacion externa si afecta cuentas, pagos, seguridad o derechos."
+        "Al finalizar, el estudiante debe crear su Plan Android Seguro, una guía personal de configuración y respuesta.\n\nEse plan debe permitirle:\n\n- usar bloqueo fuerte;\n- proteger su cuenta Google;\n- instalar apps con criterio;\n- revisar permisos;\n- mantener actualizaciones;\n- evitar enlaces sospechosos;\n- cuidar notificaciones;\n- hacer copias de seguridad;\n- actuar ante pérdida o robo;\n- revisar el dispositivo una vez por mes.\n\nEl curso termina cuando el estudiante no solo “usa Android”, sino que entiende cómo cuidarlo.",
+        "Guardar la entrega final.",
+        "Revisar el checklist antes de marcar el curso como completo."
       ],
       "guidedDecision": {
-        "question": "Cual es la mejor decision profesional en este caso?",
+        "question": "Que decision muestra mejor criterio de curso completo?",
         "options": [
           {
-            "text": "Trabajar en una version controlada, guardar evidencia y validar antes de aplicar a un caso real.",
+            "text": "Conectar teoria, caso, fuente, limite y producto verificable.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y deja aprendizaje reutilizable."
+            "feedback": "Correcto: esa es la diferencia entre ficha introductoria y curso completo."
           },
           {
-            "text": "Actuar rapido sin documentar porque el problema parece simple.",
+            "text": "Repetir una definicion sin aplicarla.",
             "isCorrect": false,
-            "feedback": "La falta de evidencia impide revisar errores y aprender."
+            "feedback": "La definicion aislada no alcanza."
           },
           {
-            "text": "Usar datos reales para que el ejercicio sea mas completo.",
+            "text": "Cerrar sin evidencia ni fuente.",
             "isCorrect": false,
-            "feedback": "En practicas educativas conviene usar datos simulados o anonimizados."
-          }
-        ]
-      }
-    },
-    {
-      "id": "andsec-case-4",
-      "title": "WhatsApp vinculado en computadora desconocida",
-      "summary": "Aparece una sesion que la persona no reconoce.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Cerrar sesion y revisar verificacion.",
-      "steps": [
-        "Definir que paso antes de actuar: dispositivo vinculado sospechoso.",
-        "Separar datos reales de datos simulados y evitar compartir informacion sensible.",
-        "Aplicar el criterio del curso: cerrar dispositivo, activar verificacion y avisar contactos si hubo mensajes raros.",
-        "Registrar evidencia: nombre del dispositivo y hora.",
-        "Decidir la accion minima segura y quien debe validarla si el caso es real.",
-        "Cerrar con una nota breve: resultado, duda pendiente y siguiente control."
-      ],
-      "evidenceToPreserve": [
-        "Consigna o descripcion del caso",
-        "nombre del dispositivo y hora",
-        "Decision tomada y motivo",
-        "Captura o registro sin datos sensibles",
-        "Proxima accion"
-      ],
-      "errorsToAvoid": [
-        "Ignorar porque WhatsApp sigue funcionando.",
-        "Usar datos privados en una practica educativa.",
-        "Aplicar una recomendacion sin revisar consecuencias.",
-        "Borrar evidencia antes de entender el problema.",
-        "Confundir ejemplo de practica con solucion definitiva."
-      ],
-      "aftercare": [
-        "Revisar dispositivos vinculados mensualmente.",
-        "Guardar una plantilla reutilizable.",
-        "Revisar si el caso se repite y convertirlo en checklist.",
-        "Pedir validacion externa si afecta cuentas, pagos, seguridad o derechos."
-      ],
-      "guidedDecision": {
-        "question": "Cual es la mejor decision profesional en este caso?",
-        "options": [
-          {
-            "text": "Trabajar en una version controlada, guardar evidencia y validar antes de aplicar a un caso real.",
-            "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y deja aprendizaje reutilizable."
-          },
-          {
-            "text": "Actuar rapido sin documentar porque el problema parece simple.",
-            "isCorrect": false,
-            "feedback": "La falta de evidencia impide revisar errores y aprender."
-          },
-          {
-            "text": "Usar datos reales para que el ejercicio sea mas completo.",
-            "isCorrect": false,
-            "feedback": "En practicas educativas conviene usar datos simulados o anonimizados."
-          }
-        ]
-      }
-    },
-    {
-      "id": "andsec-case-5",
-      "title": "Permiso de ubicacion siempre activo",
-      "summary": "Una app simple registra ubicacion permanente.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Limitar permiso al uso real.",
-      "steps": [
-        "Definir que paso antes de actuar: permiso de ubicacion 'siempre'.",
-        "Separar datos reales de datos simulados y evitar compartir informacion sensible.",
-        "Aplicar el criterio del curso: cambiar permiso, evaluar necesidad y desinstalar si no corresponde.",
-        "Registrar evidencia: permiso antes y despues.",
-        "Decidir la accion minima segura y quien debe validarla si el caso es real.",
-        "Cerrar con una nota breve: resultado, duda pendiente y siguiente control."
-      ],
-      "evidenceToPreserve": [
-        "Consigna o descripcion del caso",
-        "permiso antes y despues",
-        "Decision tomada y motivo",
-        "Captura o registro sin datos sensibles",
-        "Proxima accion"
-      ],
-      "errorsToAvoid": [
-        "Dejar permiso siempre por comodidad.",
-        "Usar datos privados en una practica educativa.",
-        "Aplicar una recomendacion sin revisar consecuencias.",
-        "Borrar evidencia antes de entender el problema.",
-        "Confundir ejemplo de practica con solucion definitiva."
-      ],
-      "aftercare": [
-        "Revisar permisos sensibles cada mes.",
-        "Guardar una plantilla reutilizable.",
-        "Revisar si el caso se repite y convertirlo en checklist.",
-        "Pedir validacion externa si afecta cuentas, pagos, seguridad o derechos."
-      ],
-      "guidedDecision": {
-        "question": "Cual es la mejor decision profesional en este caso?",
-        "options": [
-          {
-            "text": "Trabajar en una version controlada, guardar evidencia y validar antes de aplicar a un caso real.",
-            "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y deja aprendizaje reutilizable."
-          },
-          {
-            "text": "Actuar rapido sin documentar porque el problema parece simple.",
-            "isCorrect": false,
-            "feedback": "La falta de evidencia impide revisar errores y aprender."
-          },
-          {
-            "text": "Usar datos reales para que el ejercicio sea mas completo.",
-            "isCorrect": false,
-            "feedback": "En practicas educativas conviene usar datos simulados o anonimizados."
-          }
-        ]
-      }
-    },
-    {
-      "id": "andsec-case-6",
-      "title": "Anuncio de limpieza con alerta falsa",
-      "summary": "Una pagina dice que el telefono tiene virus y ofrece app.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Evitar instalacion por miedo.",
-      "steps": [
-        "Definir que paso antes de actuar: alerta del navegador con boton llamativo.",
-        "Separar datos reales de datos simulados y evitar compartir informacion sensible.",
-        "Aplicar el criterio del curso: cerrar pestana, no instalar y revisar Play Protect.",
-        "Registrar evidencia: captura de alerta si no expone datos.",
-        "Decidir la accion minima segura y quien debe validarla si el caso es real.",
-        "Cerrar con una nota breve: resultado, duda pendiente y siguiente control."
-      ],
-      "evidenceToPreserve": [
-        "Consigna o descripcion del caso",
-        "captura de alerta si no expone datos",
-        "Decision tomada y motivo",
-        "Captura o registro sin datos sensibles",
-        "Proxima accion"
-      ],
-      "errorsToAvoid": [
-        "Instalar la app sugerida por la alerta.",
-        "Usar datos privados en una practica educativa.",
-        "Aplicar una recomendacion sin revisar consecuencias.",
-        "Borrar evidencia antes de entender el problema.",
-        "Confundir ejemplo de practica con solucion definitiva."
-      ],
-      "aftercare": [
-        "Evitar sitios con ventanas agresivas.",
-        "Guardar una plantilla reutilizable.",
-        "Revisar si el caso se repite y convertirlo en checklist.",
-        "Pedir validacion externa si afecta cuentas, pagos, seguridad o derechos."
-      ],
-      "guidedDecision": {
-        "question": "Cual es la mejor decision profesional en este caso?",
-        "options": [
-          {
-            "text": "Trabajar en una version controlada, guardar evidencia y validar antes de aplicar a un caso real.",
-            "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y deja aprendizaje reutilizable."
-          },
-          {
-            "text": "Actuar rapido sin documentar porque el problema parece simple.",
-            "isCorrect": false,
-            "feedback": "La falta de evidencia impide revisar errores y aprender."
-          },
-          {
-            "text": "Usar datos reales para que el ejercicio sea mas completo.",
-            "isCorrect": false,
-            "feedback": "En practicas educativas conviene usar datos simulados o anonimizados."
-          }
-        ]
-      }
-    },
-    {
-      "id": "andsec-case-7",
-      "title": "Codigo de verificacion pedido por contacto conocido",
-      "summary": "Un amigo pide reenviar un codigo para recuperar su cuenta.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Proteger cuenta propia.",
-      "steps": [
-        "Definir que paso antes de actuar: pedido de codigo por chat.",
-        "Separar datos reales de datos simulados y evitar compartir informacion sensible.",
-        "Aplicar el criterio del curso: no reenviar, verificar por llamada y reportar si sospecha.",
-        "Registrar evidencia: mensaje recibido.",
-        "Decidir la accion minima segura y quien debe validarla si el caso es real.",
-        "Cerrar con una nota breve: resultado, duda pendiente y siguiente control."
-      ],
-      "evidenceToPreserve": [
-        "Consigna o descripcion del caso",
-        "mensaje recibido",
-        "Decision tomada y motivo",
-        "Captura o registro sin datos sensibles",
-        "Proxima accion"
-      ],
-      "errorsToAvoid": [
-        "Enviar el codigo por confianza.",
-        "Usar datos privados en una practica educativa.",
-        "Aplicar una recomendacion sin revisar consecuencias.",
-        "Borrar evidencia antes de entender el problema.",
-        "Confundir ejemplo de practica con solucion definitiva."
-      ],
-      "aftercare": [
-        "Activar verificacion en dos pasos.",
-        "Guardar una plantilla reutilizable.",
-        "Revisar si el caso se repite y convertirlo en checklist.",
-        "Pedir validacion externa si afecta cuentas, pagos, seguridad o derechos."
-      ],
-      "guidedDecision": {
-        "question": "Cual es la mejor decision profesional en este caso?",
-        "options": [
-          {
-            "text": "Trabajar en una version controlada, guardar evidencia y validar antes de aplicar a un caso real.",
-            "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y deja aprendizaje reutilizable."
-          },
-          {
-            "text": "Actuar rapido sin documentar porque el problema parece simple.",
-            "isCorrect": false,
-            "feedback": "La falta de evidencia impide revisar errores y aprender."
-          },
-          {
-            "text": "Usar datos reales para que el ejercicio sea mas completo.",
-            "isCorrect": false,
-            "feedback": "En practicas educativas conviene usar datos simulados o anonimizados."
-          }
-        ]
-      }
-    },
-    {
-      "id": "andsec-case-8",
-      "title": "App desconocida con permiso de accesibilidad",
-      "summary": "Una app tiene permiso sensible y no se reconoce.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Reducir riesgo sin borrar evidencia.",
-      "steps": [
-        "Definir que paso antes de actuar: permiso de accesibilidad activo.",
-        "Separar datos reales de datos simulados y evitar compartir informacion sensible.",
-        "Aplicar el criterio del curso: desactivar permiso, identificar app y pedir ayuda si hay dinero/cuentas.",
-        "Registrar evidencia: nombre, permiso y fecha.",
-        "Decidir la accion minima segura y quien debe validarla si el caso es real.",
-        "Cerrar con una nota breve: resultado, duda pendiente y siguiente control."
-      ],
-      "evidenceToPreserve": [
-        "Consigna o descripcion del caso",
-        "nombre, permiso y fecha",
-        "Decision tomada y motivo",
-        "Captura o registro sin datos sensibles",
-        "Proxima accion"
-      ],
-      "errorsToAvoid": [
-        "Abrir la app y darle mas permisos.",
-        "Usar datos privados en una practica educativa.",
-        "Aplicar una recomendacion sin revisar consecuencias.",
-        "Borrar evidencia antes de entender el problema.",
-        "Confundir ejemplo de practica con solucion definitiva."
-      ],
-      "aftercare": [
-        "Revisar apps instaladas recientemente.",
-        "Guardar una plantilla reutilizable.",
-        "Revisar si el caso se repite y convertirlo en checklist.",
-        "Pedir validacion externa si afecta cuentas, pagos, seguridad o derechos."
-      ],
-      "guidedDecision": {
-        "question": "Cual es la mejor decision profesional en este caso?",
-        "options": [
-          {
-            "text": "Trabajar en una version controlada, guardar evidencia y validar antes de aplicar a un caso real.",
-            "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y deja aprendizaje reutilizable."
-          },
-          {
-            "text": "Actuar rapido sin documentar porque el problema parece simple.",
-            "isCorrect": false,
-            "feedback": "La falta de evidencia impide revisar errores y aprender."
-          },
-          {
-            "text": "Usar datos reales para que el ejercicio sea mas completo.",
-            "isCorrect": false,
-            "feedback": "En practicas educativas conviene usar datos simulados o anonimizados."
+            "feedback": "Falta verificacion y producto final."
           }
         ]
       }

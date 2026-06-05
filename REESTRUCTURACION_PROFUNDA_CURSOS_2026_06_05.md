@@ -138,3 +138,15 @@ Antes de marcar un curso como reestructurado:
 - Inventario y portal sincronizados.
 - JSON parseado correctamente.
 - Zip actualizado.
+
+## Cursos completos v1 incorporados
+
+El 2026-06-05 se integraron los primeros cinco cursos reescritos que empiezan a cumplir la norma de curso completo:
+
+- Astronomia General para Curiosos: 9 modulos, 9 lecciones, producto final: Guia personal de iniciacion astronomica.
+- Computacion Cuantica para Curiosos: 12 modulos, 12 lecciones, producto final: Mapa conceptual de computacion cuantica sin humo.
+- Escudo Comercial Digital Argentina: 10 modulos, 34 lecciones, producto final: Escudo comercial digital minimo para un comercio.
+- Alfabetizacion Digital para Adultos: 11 modulos, 44 lecciones, producto final: Carpeta personal de autonomia digital.
+- Android Seguro para Principiantes: 12 modulos, 46 lecciones, producto final: Checklist de telefono Android seguro.
+
+Estos cursos ya reemplazan la estructura templada anterior en sus JSON de curso y quedan marcados como `Curso completo v1` en portal e inventario.

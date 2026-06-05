@@ -4,11 +4,11 @@ Fecha: 2026-05-26
 
 | Curso | Ruta | Estado | Version | ZIP |
 |---|---|---|---|---|
-| Astronomia General para Curiosos | Contenido Plus | Publico profesional | v0.6 publica profesional | `zips/astronomia_general_curiosos_v0_6_publica.zip` |
-| Computacion Cuantica para Curiosos | Contenido Plus | Publico profesional | v0.6 publica profesional | `zips/computacion_cuantica_curiosos_v0_6_publica.zip` |
-| Escudo Comercial Digital Argentina | Plantilla y portal | Publico profesional | v0.6 publica profesional | `zips/escudo_comercial_web_v0_6_publica.zip` |
-| Alfabetización Digital para Adultos | Ruta 1 - Ciudadania Digital y Seguridad | Publico profesional | v0.6 publica profesional | `zips/alfabetizacion_digital_adultos_web_v0_6_publica.zip` |
-| Android Seguro para Principiantes | Ruta 1 - Ciudadania Digital y Seguridad | Publico profesional | v0.6 publica profesional | `zips/android_seguro_principiantes_v0_6_publica.zip` |
+| Astronomia General para Curiosos | Contenido Plus | Curso completo v1 | v1 curso completo | `zips/astronomia_general_curiosos_v0_6_publica.zip` |
+| Computacion Cuantica para Curiosos | Contenido Plus | Curso completo v1 | v1 curso completo | `zips/computacion_cuantica_curiosos_v0_6_publica.zip` |
+| Escudo Comercial Digital Argentina | Plantilla y portal | Curso completo v1 | v1 curso completo | `zips/escudo_comercial_web_v0_6_publica.zip` |
+| Alfabetización Digital para Adultos | Ruta 1 - Ciudadania Digital y Seguridad | Curso completo v1 | v1 curso completo | `zips/alfabetizacion_digital_adultos_web_v0_6_publica.zip` |
+| Android Seguro para Principiantes | Ruta 1 - Ciudadania Digital y Seguridad | Curso completo v1 | v1 curso completo | `zips/android_seguro_principiantes_v0_6_publica.zip` |
 | Ciudadano Digital Argentina | Ruta 1 - Ciudadania Digital y Seguridad | Publico profesional | v0.6 publica profesional | `zips/ciudadano_digital_argentina_v0_6_publica.zip` |
 | Cuidado Digital para Adultos Mayores y Familias | Ruta 1 - Ciudadania Digital y Seguridad | Publico profesional | v0.6 publica profesional | `zips/cuidado_digital_mayores_familias_v0_6_publica.zip` |
 | Finanzas Digitales Seguras Argentina | Ruta 1 - Ciudadania Digital y Seguridad | Publico profesional | v0.6 publica profesional | `zips/finanzas_digitales_seguras_web_v0_6_publica.zip` |
