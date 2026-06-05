@@ -1,11 +1,11 @@
 {
   "courseId": "gobierno-datos-basico",
-  "templateVersion": "0.6-publica-profesional",
+  "templateVersion": "0.7-publica-profesional-tanda-5",
   "appName": "Gobierno de Datos Basico",
-  "shortName": "Gobierno Datos",
-  "subtitle": "Curso practico para definir roles, glosarios, catalogo, acceso, reglas de uso y mejora continua de datos.",
-  "description": "Ordena el trabajo con datos desde la gestion: roles, definiciones, catalogo, linaje, politicas de acceso y operacion.",
-  "audience": "Equipos de datos, BI y operaciones.",
+  "shortName": "Gobierno de Datos",
+  "subtitle": "Roles, catalogo, definiciones, calidad, privacidad, acceso, linaje y acuerdos.",
+  "description": "Curso practico para ordenar responsabilidades, definiciones y controles de datos sin burocracia excesiva.",
+  "audience": "Equipos chicos, organizaciones, escuelas, municipios, emprendimientos y areas que comparten datos entre personas.",
   "category": "Gobierno de datos",
   "status": "Publico profesional",
   "dataPaths": {
@@ -14,11 +14,12 @@
     "incidents": "src/data/incidents.json"
   },
   "labels": {
-    "modules": "Modulos",
-    "checklists": "Checklists",
-    "incidents": "Proyectos",
-    "emergency": "Practica rapida",
-    "certificate": "Constancia"
+    "modules": "Modulos de aprendizaje",
+    "checklists": "Checklists de datos",
+    "incidents": "Casos guiados",
+    "emergency": "Ayuda rapida",
+    "certificate": "Constancia de avance",
+    "primaryAction": "Empezar curso"
   },
   "features": {
     "modules": true,
@@ -29,7 +30,9 @@
     "certificate": true,
     "publicProfessionalEdition": true,
     "requiresBackend": false,
-    "requiresLogin": false
+    "requiresLogin": false,
+    "reinforcedBatch5": true,
+    "publicationCandidate": true
   },
   "theme": {
     "accent": "#4fb6aa",
@@ -45,7 +48,7 @@
     "minimumSuggestedQuizAverage": 70,
     "notOfficialNotice": "Constancia educativa no oficial."
   },
-  "responsibleNotice": "Contenido educativo. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. No abrir acceso a datos por comodidad sin definir sensibilidad, necesidad y responsable.",
+  "responsibleNotice": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar.",
   "publication": {
     "version": "0.6-publica-profesional",
     "status": "Publica profesional",
@@ -76,5 +79,19 @@
   "editorialPolish": {
     "thirdEditorialBatch": "2026-06-02",
     "status": "public-facing-copy-polished"
-  }
+  },
+  "cacheName": "gobierno_datos_basico_v0_6_publica-cache-0.7-tanda-5",
+  "contentAudit": {
+    "status": "reforzado-tanda-5",
+    "date": "2026-06-05",
+    "modules": 6,
+    "lessons": 36,
+    "quizQuestions": 30,
+    "checklists": 6,
+    "cases": 8,
+    "notes": "Contenido reemplazado para reducir patrones genericos en cursos de datos, analisis y comunicacion."
+  },
+  "cloneNotes": [
+    "v0.7 tanda 5 reemplaza contenido generico por modulos, practicas, checklists y casos especificos en cursos de datos."
+  ]
 }

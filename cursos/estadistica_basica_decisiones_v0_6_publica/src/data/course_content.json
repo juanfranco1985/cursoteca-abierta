@@ -1,114 +1,114 @@
 {
   "courseId": "estadistica-basica-decisiones",
   "title": "Estadistica Basica para Decisiones",
-  "version": "0.6-publica",
-  "publicationStatus": "publica-profesional-v0.6",
+  "version": "0.7-tanda-5",
+  "publicationStatus": "publica-profesional-v0.7-tanda-5",
   "modules": [
     {
       "id": "m1",
-      "title": "Preguntas y datos",
-      "description": "En este modulo vas a trabajar \"Preguntas y datos\" dentro de estadistica aplicada a decisiones, medidas de centro, dispersion, muestras, sesgos y comparacion. La meta es partir de una pregunta concreta, revisar la calidad de la informacion y cerrar con una evidencia que pueda explicarse.",
-      "learningRisk": "Punto clave",
+      "title": "Pregunta y datos",
+      "description": "Definir que decision se quiere apoyar y que datos alcanzan para responder.",
+      "learningRisk": "Trabajar con datos sin evidencia puede producir confianza falsa, decisiones pobres o exposicion de informacion sensible.",
       "lessons": [
         {
           "id": "m1-l1",
-          "title": "Pregunta estadistica",
-          "keyIdea": "Idea clave: Pregunta estadistica sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
-          "shortTheory": "En esta leccion vas a trabajar \"Pregunta estadistica\" dentro del modulo \"Preguntas y datos\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
-          "practicalExample": "Una persona debe comparar resultados y necesita evitar conclusiones rapidas basadas solo en un promedio aislado. Aplica \"Pregunta estadistica\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
-          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una nota de decision con pregunta, medida usada, variabilidad, sesgo posible y conclusion prudente.",
-          "alert": "No tomar decisiones importantes solo con promedios sin revisar dispersion, muestra y contexto.",
+          "title": "Decision",
+          "keyIdea": "Decision ayuda a que el dato, indicador o mensaje sea revisable y no dependa de intuicion.",
+          "shortTheory": "En esta leccion se trabaja decision dentro de pregunta y datos. La meta es pasar de una idea general a un criterio de trabajo que se pueda comprobar con evidencia.",
+          "practicalExample": "Un equipo necesita interpretar ventas, encuestas o indicadores y decidir sin confundir ruido, tendencia, promedio o excepcion. Aplica decision, guarda pregunta de decision con variable, periodo y poblacion y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar con datos o graficos que parecen correctos sin revisar origen, definicion, calidad, contexto ni consecuencia de uso.",
+          "whatToDoNow": "Practica de 25 minutos: aplica decision sobre una muestra pequena, compara resultado esperado contra resultado obtenido y registra limite, evidencia y proxima mejora.",
+          "alert": "La estadistica no arregla una pregunta mal formulada.",
           "keyPoints": [
-            "Pregunta estadistica debe responder una pregunta concreta, no solo producir un resultado tecnico.",
-            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
-            "La evidencia minima esperada es: una nota de decision con pregunta, medida usada, variabilidad, sesgo posible y conclusion prudente.",
-            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+            "Decision debe terminar en una salida observable, no solo en una definicion.",
+            "Criterio de cierre: la pregunta puede responderse con datos disponibles y limites claros.",
+            "Evidencia minima: pregunta de decision con variable, periodo y poblacion.",
+            "Entregable final relacionado: informe estadistico simple con pregunta, muestra, resumen, comparacion, incertidumbre y recomendacion responsable."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m1-l2",
-          "title": "Unidad de analisis",
-          "keyIdea": "Idea clave: Unidad de analisis sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
-          "shortTheory": "En esta leccion vas a trabajar \"Unidad de analisis\" dentro del modulo \"Preguntas y datos\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
-          "practicalExample": "Una persona debe comparar resultados y necesita evitar conclusiones rapidas basadas solo en un promedio aislado. Aplica \"Unidad de analisis\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
-          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una nota de decision con pregunta, medida usada, variabilidad, sesgo posible y conclusion prudente.",
-          "alert": "No tomar decisiones importantes solo con promedios sin revisar dispersion, muestra y contexto.",
+          "title": "Variable",
+          "keyIdea": "Variable ayuda a que el dato, indicador o mensaje sea revisable y no dependa de intuicion.",
+          "shortTheory": "En esta leccion se trabaja variable dentro de pregunta y datos. La meta es pasar de una idea general a un criterio de trabajo que se pueda comprobar con evidencia.",
+          "practicalExample": "Un equipo necesita interpretar ventas, encuestas o indicadores y decidir sin confundir ruido, tendencia, promedio o excepcion. Aplica variable, guarda pregunta de decision con variable, periodo y poblacion y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar con datos o graficos que parecen correctos sin revisar origen, definicion, calidad, contexto ni consecuencia de uso.",
+          "whatToDoNow": "Practica de 25 minutos: aplica variable sobre una muestra pequena, compara resultado esperado contra resultado obtenido y registra limite, evidencia y proxima mejora.",
+          "alert": "La estadistica no arregla una pregunta mal formulada.",
           "keyPoints": [
-            "Unidad de analisis debe responder una pregunta concreta, no solo producir un resultado tecnico.",
-            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
-            "La evidencia minima esperada es: una nota de decision con pregunta, medida usada, variabilidad, sesgo posible y conclusion prudente.",
-            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+            "Variable debe terminar en una salida observable, no solo en una definicion.",
+            "Criterio de cierre: la pregunta puede responderse con datos disponibles y limites claros.",
+            "Evidencia minima: pregunta de decision con variable, periodo y poblacion.",
+            "Entregable final relacionado: informe estadistico simple con pregunta, muestra, resumen, comparacion, incertidumbre y recomendacion responsable."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m1-l3",
-          "title": "Variables",
-          "keyIdea": "Idea clave: Variables sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
-          "shortTheory": "En esta leccion vas a trabajar \"Variables\" dentro del modulo \"Preguntas y datos\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
-          "practicalExample": "Una persona debe comparar resultados y necesita evitar conclusiones rapidas basadas solo en un promedio aislado. Aplica \"Variables\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
-          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una nota de decision con pregunta, medida usada, variabilidad, sesgo posible y conclusion prudente.",
-          "alert": "No tomar decisiones importantes solo con promedios sin revisar dispersion, muestra y contexto.",
+          "title": "Unidad de analisis",
+          "keyIdea": "Unidad de analisis ayuda a que el dato, indicador o mensaje sea revisable y no dependa de intuicion.",
+          "shortTheory": "En esta leccion se trabaja unidad de analisis dentro de pregunta y datos. La meta es pasar de una idea general a un criterio de trabajo que se pueda comprobar con evidencia.",
+          "practicalExample": "Un equipo necesita interpretar ventas, encuestas o indicadores y decidir sin confundir ruido, tendencia, promedio o excepcion. Aplica unidad de analisis, guarda pregunta de decision con variable, periodo y poblacion y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar con datos o graficos que parecen correctos sin revisar origen, definicion, calidad, contexto ni consecuencia de uso.",
+          "whatToDoNow": "Practica de 25 minutos: aplica unidad de analisis sobre una muestra pequena, compara resultado esperado contra resultado obtenido y registra limite, evidencia y proxima mejora.",
+          "alert": "La estadistica no arregla una pregunta mal formulada.",
           "keyPoints": [
-            "Variables debe responder una pregunta concreta, no solo producir un resultado tecnico.",
-            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
-            "La evidencia minima esperada es: una nota de decision con pregunta, medida usada, variabilidad, sesgo posible y conclusion prudente.",
-            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+            "Unidad de analisis debe terminar en una salida observable, no solo en una definicion.",
+            "Criterio de cierre: la pregunta puede responderse con datos disponibles y limites claros.",
+            "Evidencia minima: pregunta de decision con variable, periodo y poblacion.",
+            "Entregable final relacionado: informe estadistico simple con pregunta, muestra, resumen, comparacion, incertidumbre y recomendacion responsable."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m1-l4",
-          "title": "Fuente",
-          "keyIdea": "Idea clave: Fuente sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
-          "shortTheory": "En esta leccion vas a trabajar \"Fuente\" dentro del modulo \"Preguntas y datos\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
-          "practicalExample": "Una persona debe comparar resultados y necesita evitar conclusiones rapidas basadas solo en un promedio aislado. Aplica \"Fuente\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
-          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una nota de decision con pregunta, medida usada, variabilidad, sesgo posible y conclusion prudente.",
-          "alert": "No tomar decisiones importantes solo con promedios sin revisar dispersion, muestra y contexto.",
+          "title": "Periodo",
+          "keyIdea": "Periodo ayuda a que el dato, indicador o mensaje sea revisable y no dependa de intuicion.",
+          "shortTheory": "En esta leccion se trabaja periodo dentro de pregunta y datos. La meta es pasar de una idea general a un criterio de trabajo que se pueda comprobar con evidencia.",
+          "practicalExample": "Un equipo necesita interpretar ventas, encuestas o indicadores y decidir sin confundir ruido, tendencia, promedio o excepcion. Aplica periodo, guarda pregunta de decision con variable, periodo y poblacion y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar con datos o graficos que parecen correctos sin revisar origen, definicion, calidad, contexto ni consecuencia de uso.",
+          "whatToDoNow": "Practica de 25 minutos: aplica periodo sobre una muestra pequena, compara resultado esperado contra resultado obtenido y registra limite, evidencia y proxima mejora.",
+          "alert": "La estadistica no arregla una pregunta mal formulada.",
           "keyPoints": [
-            "Fuente debe responder una pregunta concreta, no solo producir un resultado tecnico.",
-            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
-            "La evidencia minima esperada es: una nota de decision con pregunta, medida usada, variabilidad, sesgo posible y conclusion prudente.",
-            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+            "Periodo debe terminar en una salida observable, no solo en una definicion.",
+            "Criterio de cierre: la pregunta puede responderse con datos disponibles y limites claros.",
+            "Evidencia minima: pregunta de decision con variable, periodo y poblacion.",
+            "Entregable final relacionado: informe estadistico simple con pregunta, muestra, resumen, comparacion, incertidumbre y recomendacion responsable."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m1-l5",
-          "title": "Periodo",
-          "keyIdea": "Idea clave: Periodo sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
-          "shortTheory": "En esta leccion vas a trabajar \"Periodo\" dentro del modulo \"Preguntas y datos\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
-          "practicalExample": "Una persona debe comparar resultados y necesita evitar conclusiones rapidas basadas solo en un promedio aislado. Aplica \"Periodo\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
-          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una nota de decision con pregunta, medida usada, variabilidad, sesgo posible y conclusion prudente.",
-          "alert": "No tomar decisiones importantes solo con promedios sin revisar dispersion, muestra y contexto.",
+          "title": "Poblacion",
+          "keyIdea": "Poblacion ayuda a que el dato, indicador o mensaje sea revisable y no dependa de intuicion.",
+          "shortTheory": "En esta leccion se trabaja poblacion dentro de pregunta y datos. La meta es pasar de una idea general a un criterio de trabajo que se pueda comprobar con evidencia.",
+          "practicalExample": "Un equipo necesita interpretar ventas, encuestas o indicadores y decidir sin confundir ruido, tendencia, promedio o excepcion. Aplica poblacion, guarda pregunta de decision con variable, periodo y poblacion y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar con datos o graficos que parecen correctos sin revisar origen, definicion, calidad, contexto ni consecuencia de uso.",
+          "whatToDoNow": "Practica de 25 minutos: aplica poblacion sobre una muestra pequena, compara resultado esperado contra resultado obtenido y registra limite, evidencia y proxima mejora.",
+          "alert": "La estadistica no arregla una pregunta mal formulada.",
           "keyPoints": [
-            "Periodo debe responder una pregunta concreta, no solo producir un resultado tecnico.",
-            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
-            "La evidencia minima esperada es: una nota de decision con pregunta, medida usada, variabilidad, sesgo posible y conclusion prudente.",
-            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+            "Poblacion debe terminar en una salida observable, no solo en una definicion.",
+            "Criterio de cierre: la pregunta puede responderse con datos disponibles y limites claros.",
+            "Evidencia minima: pregunta de decision con variable, periodo y poblacion.",
+            "Entregable final relacionado: informe estadistico simple con pregunta, muestra, resumen, comparacion, incertidumbre y recomendacion responsable."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m1-l6",
-          "title": "Limitaciones",
-          "keyIdea": "Idea clave: Limitaciones sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
-          "shortTheory": "En esta leccion vas a trabajar \"Limitaciones\" dentro del modulo \"Preguntas y datos\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
-          "practicalExample": "Una persona debe comparar resultados y necesita evitar conclusiones rapidas basadas solo en un promedio aislado. Aplica \"Limitaciones\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
-          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una nota de decision con pregunta, medida usada, variabilidad, sesgo posible y conclusion prudente.",
-          "alert": "No tomar decisiones importantes solo con promedios sin revisar dispersion, muestra y contexto.",
+          "title": "Dato necesario",
+          "keyIdea": "Dato necesario ayuda a que el dato, indicador o mensaje sea revisable y no dependa de intuicion.",
+          "shortTheory": "En esta leccion se trabaja dato necesario dentro de pregunta y datos. La meta es pasar de una idea general a un criterio de trabajo que se pueda comprobar con evidencia.",
+          "practicalExample": "Un equipo necesita interpretar ventas, encuestas o indicadores y decidir sin confundir ruido, tendencia, promedio o excepcion. Aplica dato necesario, guarda pregunta de decision con variable, periodo y poblacion y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar con datos o graficos que parecen correctos sin revisar origen, definicion, calidad, contexto ni consecuencia de uso.",
+          "whatToDoNow": "Practica de 25 minutos: aplica dato necesario sobre una muestra pequena, compara resultado esperado contra resultado obtenido y registra limite, evidencia y proxima mejora.",
+          "alert": "La estadistica no arregla una pregunta mal formulada.",
           "keyPoints": [
-            "Limitaciones debe responder una pregunta concreta, no solo producir un resultado tecnico.",
-            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
-            "La evidencia minima esperada es: una nota de decision con pregunta, medida usada, variabilidad, sesgo posible y conclusion prudente.",
-            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+            "Dato necesario debe terminar en una salida observable, no solo en una definicion.",
+            "Criterio de cierre: la pregunta puede responderse con datos disponibles y limites claros.",
+            "Evidencia minima: pregunta de decision con variable, periodo y poblacion.",
+            "Entregable final relacionado: informe estadistico simple con pregunta, muestra, resumen, comparacion, incertidumbre y recomendacion responsable."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         }
@@ -116,172 +116,171 @@
       "quiz": [
         {
           "id": "m1-q1",
-          "question": "Pregunta 1: ¿que conviene hacer al trabajar ",
+          "question": "Que conviene definir primero en \"Pregunta y datos\"?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Pregunta, dato necesario, fuente, criterio de calidad y evidencia de cierre.",
+            "El grafico mas vistoso.",
+            "Una conclusion antes de revisar datos.",
+            "La herramienta que ya esta abierta."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: datos utiles empiezan con pregunta, fuente y criterio verificable."
         },
         {
           "id": "m1-q2",
-          "question": "Pregunta 2: ¿que conviene hacer al trabajar ",
+          "question": "Que evidencia permite cerrar el modulo con mas confianza?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "pregunta de decision con variable, periodo y poblacion",
+            "Una captura sin explicar filtros ni fuente.",
+            "Una frase como 'parece estar bien'.",
+            "Un numero aislado sin periodo ni definicion."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: pregunta de decision con variable, periodo y poblacion permite revisar el resultado despues."
         },
         {
           "id": "m1-q3",
-          "question": "Pregunta 3: ¿que conviene hacer al trabajar ",
+          "question": "Que conducta aumenta el riesgo de una mala decision con datos?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Buscar numeros sin saber que decision se tomara.",
+            "Validar una muestra antes de generalizar.",
+            "Documentar supuestos y limites.",
+            "Separar dato, interpretacion y recomendacion."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: esa conducta oculta errores y puede llevar a decisiones equivocadas."
         },
         {
           "id": "m1-q4",
-          "question": "Pregunta 4: ¿que conviene hacer al trabajar ",
+          "question": "Cuando corresponde pedir validacion externa o revisar una fuente confiable?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Cuando la decision afecta personas, dinero, salud, educacion o derechos.",
+            "Nunca, porque un ejercicio introductorio reemplaza cualquier revision.",
+            "Solo despues de publicar el informe.",
+            "Cuando el grafico usa muchos colores."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: algunos datos requieren fuente oficial, responsable del dato o una persona competente."
         },
         {
           "id": "m1-q5",
-          "question": "Pregunta 5: ¿que conviene hacer al trabajar ",
+          "question": "Cual es el entregable minimo de \"Pregunta y datos\"?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "ficha de pregunta estadistica",
+            "Una tabla sin fuente ni fecha.",
+            "Un grafico sin lectura principal.",
+            "Un archivo final sin criterios de calidad."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: ficha de pregunta estadistica deja avance verificable."
         }
-      ],
-      "professionalOutcome": "calcular indicadores simples, evitar conclusiones apresuradas y comunicar incertidumbre. Entregable sugerido: una ficha de decision con metrica, comparacion, interpretacion, limite y accion."
+      ]
     },
     {
       "id": "m2",
-      "title": "Medidas de centro",
-      "description": "En este modulo vas a trabajar \"Medidas de centro\" dentro de estadistica aplicada a decisiones, medidas de centro, dispersion, muestras, sesgos y comparacion. La meta es partir de una pregunta concreta, revisar la calidad de la informacion y cerrar con una evidencia que pueda explicarse.",
-      "learningRisk": "Punto clave",
+      "title": "Muestras y sesgos",
+      "description": "Entender cuando los datos representan bien o mal la realidad que se quiere analizar.",
+      "learningRisk": "Trabajar con datos sin evidencia puede producir confianza falsa, decisiones pobres o exposicion de informacion sensible.",
       "lessons": [
         {
           "id": "m2-l1",
-          "title": "Promedio",
-          "keyIdea": "Idea clave: Promedio sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
-          "shortTheory": "En esta leccion vas a trabajar \"Promedio\" dentro del modulo \"Medidas de centro\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
-          "practicalExample": "Una persona debe comparar resultados y necesita evitar conclusiones rapidas basadas solo en un promedio aislado. Aplica \"Promedio\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
-          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una nota de decision con pregunta, medida usada, variabilidad, sesgo posible y conclusion prudente.",
-          "alert": "No tomar decisiones importantes solo con promedios sin revisar dispersion, muestra y contexto.",
+          "title": "Poblacion",
+          "keyIdea": "Poblacion ayuda a que el dato, indicador o mensaje sea revisable y no dependa de intuicion.",
+          "shortTheory": "En esta leccion se trabaja poblacion dentro de muestras y sesgos. La meta es pasar de una idea general a un criterio de trabajo que se pueda comprobar con evidencia.",
+          "practicalExample": "Un equipo necesita interpretar ventas, encuestas o indicadores y decidir sin confundir ruido, tendencia, promedio o excepcion. Aplica poblacion, guarda descripcion de muestra con posibles sesgos y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar con datos o graficos que parecen correctos sin revisar origen, definicion, calidad, contexto ni consecuencia de uso.",
+          "whatToDoNow": "Practica de 25 minutos: aplica poblacion sobre una muestra pequena, compara resultado esperado contra resultado obtenido y registra limite, evidencia y proxima mejora.",
+          "alert": "Una muestra sesgada puede sonar precisa y estar equivocada.",
           "keyPoints": [
-            "Promedio debe responder una pregunta concreta, no solo producir un resultado tecnico.",
-            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
-            "La evidencia minima esperada es: una nota de decision con pregunta, medida usada, variabilidad, sesgo posible y conclusion prudente.",
-            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+            "Poblacion debe terminar en una salida observable, no solo en una definicion.",
+            "Criterio de cierre: la muestra se interpreta segun como fue obtenida.",
+            "Evidencia minima: descripcion de muestra con posibles sesgos.",
+            "Entregable final relacionado: informe estadistico simple con pregunta, muestra, resumen, comparacion, incertidumbre y recomendacion responsable."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m2-l2",
-          "title": "Mediana",
-          "keyIdea": "Idea clave: Mediana sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
-          "shortTheory": "En esta leccion vas a trabajar \"Mediana\" dentro del modulo \"Medidas de centro\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
-          "practicalExample": "Una persona debe comparar resultados y necesita evitar conclusiones rapidas basadas solo en un promedio aislado. Aplica \"Mediana\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
-          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una nota de decision con pregunta, medida usada, variabilidad, sesgo posible y conclusion prudente.",
-          "alert": "No tomar decisiones importantes solo con promedios sin revisar dispersion, muestra y contexto.",
+          "title": "Muestra",
+          "keyIdea": "Muestra ayuda a que el dato, indicador o mensaje sea revisable y no dependa de intuicion.",
+          "shortTheory": "En esta leccion se trabaja muestra dentro de muestras y sesgos. La meta es pasar de una idea general a un criterio de trabajo que se pueda comprobar con evidencia.",
+          "practicalExample": "Un equipo necesita interpretar ventas, encuestas o indicadores y decidir sin confundir ruido, tendencia, promedio o excepcion. Aplica muestra, guarda descripcion de muestra con posibles sesgos y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar con datos o graficos que parecen correctos sin revisar origen, definicion, calidad, contexto ni consecuencia de uso.",
+          "whatToDoNow": "Practica de 25 minutos: aplica muestra sobre una muestra pequena, compara resultado esperado contra resultado obtenido y registra limite, evidencia y proxima mejora.",
+          "alert": "Una muestra sesgada puede sonar precisa y estar equivocada.",
           "keyPoints": [
-            "Mediana debe responder una pregunta concreta, no solo producir un resultado tecnico.",
-            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
-            "La evidencia minima esperada es: una nota de decision con pregunta, medida usada, variabilidad, sesgo posible y conclusion prudente.",
-            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+            "Muestra debe terminar en una salida observable, no solo en una definicion.",
+            "Criterio de cierre: la muestra se interpreta segun como fue obtenida.",
+            "Evidencia minima: descripcion de muestra con posibles sesgos.",
+            "Entregable final relacionado: informe estadistico simple con pregunta, muestra, resumen, comparacion, incertidumbre y recomendacion responsable."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m2-l3",
-          "title": "Moda",
-          "keyIdea": "Idea clave: Moda sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
-          "shortTheory": "En esta leccion vas a trabajar \"Moda\" dentro del modulo \"Medidas de centro\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
-          "practicalExample": "Una persona debe comparar resultados y necesita evitar conclusiones rapidas basadas solo en un promedio aislado. Aplica \"Moda\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
-          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una nota de decision con pregunta, medida usada, variabilidad, sesgo posible y conclusion prudente.",
-          "alert": "No tomar decisiones importantes solo con promedios sin revisar dispersion, muestra y contexto.",
+          "title": "Sesgo de seleccion",
+          "keyIdea": "Sesgo de seleccion ayuda a que el dato, indicador o mensaje sea revisable y no dependa de intuicion.",
+          "shortTheory": "En esta leccion se trabaja sesgo de seleccion dentro de muestras y sesgos. La meta es pasar de una idea general a un criterio de trabajo que se pueda comprobar con evidencia.",
+          "practicalExample": "Un equipo necesita interpretar ventas, encuestas o indicadores y decidir sin confundir ruido, tendencia, promedio o excepcion. Aplica sesgo de seleccion, guarda descripcion de muestra con posibles sesgos y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar con datos o graficos que parecen correctos sin revisar origen, definicion, calidad, contexto ni consecuencia de uso.",
+          "whatToDoNow": "Practica de 25 minutos: aplica sesgo de seleccion sobre una muestra pequena, compara resultado esperado contra resultado obtenido y registra limite, evidencia y proxima mejora.",
+          "alert": "Una muestra sesgada puede sonar precisa y estar equivocada.",
           "keyPoints": [
-            "Moda debe responder una pregunta concreta, no solo producir un resultado tecnico.",
-            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
-            "La evidencia minima esperada es: una nota de decision con pregunta, medida usada, variabilidad, sesgo posible y conclusion prudente.",
-            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+            "Sesgo de seleccion debe terminar en una salida observable, no solo en una definicion.",
+            "Criterio de cierre: la muestra se interpreta segun como fue obtenida.",
+            "Evidencia minima: descripcion de muestra con posibles sesgos.",
+            "Entregable final relacionado: informe estadistico simple con pregunta, muestra, resumen, comparacion, incertidumbre y recomendacion responsable."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m2-l4",
-          "title": "Valores extremos",
-          "keyIdea": "Idea clave: Valores extremos sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
-          "shortTheory": "En esta leccion vas a trabajar \"Valores extremos\" dentro del modulo \"Medidas de centro\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
-          "practicalExample": "Una persona debe comparar resultados y necesita evitar conclusiones rapidas basadas solo en un promedio aislado. Aplica \"Valores extremos\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
-          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una nota de decision con pregunta, medida usada, variabilidad, sesgo posible y conclusion prudente.",
-          "alert": "No tomar decisiones importantes solo con promedios sin revisar dispersion, muestra y contexto.",
+          "title": "No respuesta",
+          "keyIdea": "No respuesta ayuda a que el dato, indicador o mensaje sea revisable y no dependa de intuicion.",
+          "shortTheory": "En esta leccion se trabaja no respuesta dentro de muestras y sesgos. La meta es pasar de una idea general a un criterio de trabajo que se pueda comprobar con evidencia.",
+          "practicalExample": "Un equipo necesita interpretar ventas, encuestas o indicadores y decidir sin confundir ruido, tendencia, promedio o excepcion. Aplica no respuesta, guarda descripcion de muestra con posibles sesgos y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar con datos o graficos que parecen correctos sin revisar origen, definicion, calidad, contexto ni consecuencia de uso.",
+          "whatToDoNow": "Practica de 25 minutos: aplica no respuesta sobre una muestra pequena, compara resultado esperado contra resultado obtenido y registra limite, evidencia y proxima mejora.",
+          "alert": "Una muestra sesgada puede sonar precisa y estar equivocada.",
           "keyPoints": [
-            "Valores extremos debe responder una pregunta concreta, no solo producir un resultado tecnico.",
-            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
-            "La evidencia minima esperada es: una nota de decision con pregunta, medida usada, variabilidad, sesgo posible y conclusion prudente.",
-            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+            "No respuesta debe terminar en una salida observable, no solo en una definicion.",
+            "Criterio de cierre: la muestra se interpreta segun como fue obtenida.",
+            "Evidencia minima: descripcion de muestra con posibles sesgos.",
+            "Entregable final relacionado: informe estadistico simple con pregunta, muestra, resumen, comparacion, incertidumbre y recomendacion responsable."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m2-l5",
-          "title": "Comparaciones",
-          "keyIdea": "Idea clave: Comparaciones sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
-          "shortTheory": "En esta leccion vas a trabajar \"Comparaciones\" dentro del modulo \"Medidas de centro\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
-          "practicalExample": "Una persona debe comparar resultados y necesita evitar conclusiones rapidas basadas solo en un promedio aislado. Aplica \"Comparaciones\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
-          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una nota de decision con pregunta, medida usada, variabilidad, sesgo posible y conclusion prudente.",
-          "alert": "No tomar decisiones importantes solo con promedios sin revisar dispersion, muestra y contexto.",
+          "title": "Tamaño",
+          "keyIdea": "Tamaño ayuda a que el dato, indicador o mensaje sea revisable y no dependa de intuicion.",
+          "shortTheory": "En esta leccion se trabaja tamaño dentro de muestras y sesgos. La meta es pasar de una idea general a un criterio de trabajo que se pueda comprobar con evidencia.",
+          "practicalExample": "Un equipo necesita interpretar ventas, encuestas o indicadores y decidir sin confundir ruido, tendencia, promedio o excepcion. Aplica tamaño, guarda descripcion de muestra con posibles sesgos y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar con datos o graficos que parecen correctos sin revisar origen, definicion, calidad, contexto ni consecuencia de uso.",
+          "whatToDoNow": "Practica de 25 minutos: aplica tamaño sobre una muestra pequena, compara resultado esperado contra resultado obtenido y registra limite, evidencia y proxima mejora.",
+          "alert": "Una muestra sesgada puede sonar precisa y estar equivocada.",
           "keyPoints": [
-            "Comparaciones debe responder una pregunta concreta, no solo producir un resultado tecnico.",
-            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
-            "La evidencia minima esperada es: una nota de decision con pregunta, medida usada, variabilidad, sesgo posible y conclusion prudente.",
-            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+            "Tamaño debe terminar en una salida observable, no solo en una definicion.",
+            "Criterio de cierre: la muestra se interpreta segun como fue obtenida.",
+            "Evidencia minima: descripcion de muestra con posibles sesgos.",
+            "Entregable final relacionado: informe estadistico simple con pregunta, muestra, resumen, comparacion, incertidumbre y recomendacion responsable."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m2-l6",
-          "title": "Interpretacion",
-          "keyIdea": "Idea clave: Interpretacion sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
-          "shortTheory": "En esta leccion vas a trabajar \"Interpretacion\" dentro del modulo \"Medidas de centro\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
-          "practicalExample": "Una persona debe comparar resultados y necesita evitar conclusiones rapidas basadas solo en un promedio aislado. Aplica \"Interpretacion\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
-          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una nota de decision con pregunta, medida usada, variabilidad, sesgo posible y conclusion prudente.",
-          "alert": "No tomar decisiones importantes solo con promedios sin revisar dispersion, muestra y contexto.",
+          "title": "Alcance",
+          "keyIdea": "Alcance ayuda a que el dato, indicador o mensaje sea revisable y no dependa de intuicion.",
+          "shortTheory": "En esta leccion se trabaja alcance dentro de muestras y sesgos. La meta es pasar de una idea general a un criterio de trabajo que se pueda comprobar con evidencia.",
+          "practicalExample": "Un equipo necesita interpretar ventas, encuestas o indicadores y decidir sin confundir ruido, tendencia, promedio o excepcion. Aplica alcance, guarda descripcion de muestra con posibles sesgos y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar con datos o graficos que parecen correctos sin revisar origen, definicion, calidad, contexto ni consecuencia de uso.",
+          "whatToDoNow": "Practica de 25 minutos: aplica alcance sobre una muestra pequena, compara resultado esperado contra resultado obtenido y registra limite, evidencia y proxima mejora.",
+          "alert": "Una muestra sesgada puede sonar precisa y estar equivocada.",
           "keyPoints": [
-            "Interpretacion debe responder una pregunta concreta, no solo producir un resultado tecnico.",
-            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
-            "La evidencia minima esperada es: una nota de decision con pregunta, medida usada, variabilidad, sesgo posible y conclusion prudente.",
-            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+            "Alcance debe terminar en una salida observable, no solo en una definicion.",
+            "Criterio de cierre: la muestra se interpreta segun como fue obtenida.",
+            "Evidencia minima: descripcion de muestra con posibles sesgos.",
+            "Entregable final relacionado: informe estadistico simple con pregunta, muestra, resumen, comparacion, incertidumbre y recomendacion responsable."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         }
@@ -289,172 +288,171 @@
       "quiz": [
         {
           "id": "m2-q1",
-          "question": "Pregunta 1: ¿que conviene hacer al trabajar ",
+          "question": "Que conviene definir primero en \"Muestras y sesgos\"?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Pregunta, dato necesario, fuente, criterio de calidad y evidencia de cierre.",
+            "El grafico mas vistoso.",
+            "Una conclusion antes de revisar datos.",
+            "La herramienta que ya esta abierta."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: datos utiles empiezan con pregunta, fuente y criterio verificable."
         },
         {
           "id": "m2-q2",
-          "question": "Pregunta 2: ¿que conviene hacer al trabajar ",
+          "question": "Que evidencia permite cerrar el modulo con mas confianza?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "descripcion de muestra con posibles sesgos",
+            "Una captura sin explicar filtros ni fuente.",
+            "Una frase como 'parece estar bien'.",
+            "Un numero aislado sin periodo ni definicion."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: descripcion de muestra con posibles sesgos permite revisar el resultado despues."
         },
         {
           "id": "m2-q3",
-          "question": "Pregunta 3: ¿que conviene hacer al trabajar ",
+          "question": "Que conducta aumenta el riesgo de una mala decision con datos?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Generalizar una encuesta pequena como si fuera toda la poblacion.",
+            "Validar una muestra antes de generalizar.",
+            "Documentar supuestos y limites.",
+            "Separar dato, interpretacion y recomendacion."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: esa conducta oculta errores y puede llevar a decisiones equivocadas."
         },
         {
           "id": "m2-q4",
-          "question": "Pregunta 4: ¿que conviene hacer al trabajar ",
+          "question": "Cuando corresponde pedir validacion externa o revisar una fuente confiable?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Cuando se publican resultados o se comparan grupos.",
+            "Nunca, porque un ejercicio introductorio reemplaza cualquier revision.",
+            "Solo despues de publicar el informe.",
+            "Cuando el grafico usa muchos colores."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: algunos datos requieren fuente oficial, responsable del dato o una persona competente."
         },
         {
           "id": "m2-q5",
-          "question": "Pregunta 5: ¿que conviene hacer al trabajar ",
+          "question": "Cual es el entregable minimo de \"Muestras y sesgos\"?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "evaluacion de muestra",
+            "Una tabla sin fuente ni fecha.",
+            "Un grafico sin lectura principal.",
+            "Un archivo final sin criterios de calidad."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: evaluacion de muestra deja avance verificable."
         }
-      ],
-      "professionalOutcome": "calcular indicadores simples, evitar conclusiones apresuradas y comunicar incertidumbre. Entregable sugerido: una ficha de decision con metrica, comparacion, interpretacion, limite y accion."
+      ]
     },
     {
       "id": "m3",
-      "title": "Dispersion",
-      "description": "En este modulo vas a trabajar \"Dispersion\" dentro de estadistica aplicada a decisiones, medidas de centro, dispersion, muestras, sesgos y comparacion. La meta es partir de una pregunta concreta, revisar la calidad de la informacion y cerrar con una evidencia que pueda explicarse.",
-      "learningRisk": "Punto clave",
+      "title": "Resumenes numericos",
+      "description": "Usar conteos, porcentajes, media, mediana y percentiles segun el caso.",
+      "learningRisk": "Trabajar con datos sin evidencia puede producir confianza falsa, decisiones pobres o exposicion de informacion sensible.",
       "lessons": [
         {
           "id": "m3-l1",
-          "title": "Rango",
-          "keyIdea": "Idea clave: Rango sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
-          "shortTheory": "En esta leccion vas a trabajar \"Rango\" dentro del modulo \"Dispersion\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
-          "practicalExample": "Una persona debe comparar resultados y necesita evitar conclusiones rapidas basadas solo en un promedio aislado. Aplica \"Rango\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
-          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una nota de decision con pregunta, medida usada, variabilidad, sesgo posible y conclusion prudente.",
-          "alert": "No tomar decisiones importantes solo con promedios sin revisar dispersion, muestra y contexto.",
+          "title": "Conteos",
+          "keyIdea": "Conteos ayuda a que el dato, indicador o mensaje sea revisable y no dependa de intuicion.",
+          "shortTheory": "En esta leccion se trabaja conteos dentro de resumenes numericos. La meta es pasar de una idea general a un criterio de trabajo que se pueda comprobar con evidencia.",
+          "practicalExample": "Un equipo necesita interpretar ventas, encuestas o indicadores y decidir sin confundir ruido, tendencia, promedio o excepcion. Aplica conteos, guarda tabla resumen con medida elegida y justificacion y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar con datos o graficos que parecen correctos sin revisar origen, definicion, calidad, contexto ni consecuencia de uso.",
+          "whatToDoNow": "Practica de 25 minutos: aplica conteos sobre una muestra pequena, compara resultado esperado contra resultado obtenido y registra limite, evidencia y proxima mejora.",
+          "alert": "Un promedio puede esconder desigualdad.",
           "keyPoints": [
-            "Rango debe responder una pregunta concreta, no solo producir un resultado tecnico.",
-            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
-            "La evidencia minima esperada es: una nota de decision con pregunta, medida usada, variabilidad, sesgo posible y conclusion prudente.",
-            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+            "Conteos debe terminar en una salida observable, no solo en una definicion.",
+            "Criterio de cierre: la medida elegida representa el fenomeno sin ocultar extremos.",
+            "Evidencia minima: tabla resumen con medida elegida y justificacion.",
+            "Entregable final relacionado: informe estadistico simple con pregunta, muestra, resumen, comparacion, incertidumbre y recomendacion responsable."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m3-l2",
-          "title": "Desvio en simple",
-          "keyIdea": "Idea clave: Desvio en simple sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
-          "shortTheory": "En esta leccion vas a trabajar \"Desvio en simple\" dentro del modulo \"Dispersion\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
-          "practicalExample": "Una persona debe comparar resultados y necesita evitar conclusiones rapidas basadas solo en un promedio aislado. Aplica \"Desvio en simple\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
-          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una nota de decision con pregunta, medida usada, variabilidad, sesgo posible y conclusion prudente.",
-          "alert": "No tomar decisiones importantes solo con promedios sin revisar dispersion, muestra y contexto.",
+          "title": "Porcentajes",
+          "keyIdea": "Porcentajes ayuda a que el dato, indicador o mensaje sea revisable y no dependa de intuicion.",
+          "shortTheory": "En esta leccion se trabaja porcentajes dentro de resumenes numericos. La meta es pasar de una idea general a un criterio de trabajo que se pueda comprobar con evidencia.",
+          "practicalExample": "Un equipo necesita interpretar ventas, encuestas o indicadores y decidir sin confundir ruido, tendencia, promedio o excepcion. Aplica porcentajes, guarda tabla resumen con medida elegida y justificacion y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar con datos o graficos que parecen correctos sin revisar origen, definicion, calidad, contexto ni consecuencia de uso.",
+          "whatToDoNow": "Practica de 25 minutos: aplica porcentajes sobre una muestra pequena, compara resultado esperado contra resultado obtenido y registra limite, evidencia y proxima mejora.",
+          "alert": "Un promedio puede esconder desigualdad.",
           "keyPoints": [
-            "Desvio en simple debe responder una pregunta concreta, no solo producir un resultado tecnico.",
-            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
-            "La evidencia minima esperada es: una nota de decision con pregunta, medida usada, variabilidad, sesgo posible y conclusion prudente.",
-            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+            "Porcentajes debe terminar en una salida observable, no solo en una definicion.",
+            "Criterio de cierre: la medida elegida representa el fenomeno sin ocultar extremos.",
+            "Evidencia minima: tabla resumen con medida elegida y justificacion.",
+            "Entregable final relacionado: informe estadistico simple con pregunta, muestra, resumen, comparacion, incertidumbre y recomendacion responsable."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m3-l3",
-          "title": "Percentiles",
-          "keyIdea": "Idea clave: Percentiles sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
-          "shortTheory": "En esta leccion vas a trabajar \"Percentiles\" dentro del modulo \"Dispersion\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
-          "practicalExample": "Una persona debe comparar resultados y necesita evitar conclusiones rapidas basadas solo en un promedio aislado. Aplica \"Percentiles\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
-          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una nota de decision con pregunta, medida usada, variabilidad, sesgo posible y conclusion prudente.",
-          "alert": "No tomar decisiones importantes solo con promedios sin revisar dispersion, muestra y contexto.",
+          "title": "Media",
+          "keyIdea": "Media ayuda a que el dato, indicador o mensaje sea revisable y no dependa de intuicion.",
+          "shortTheory": "En esta leccion se trabaja media dentro de resumenes numericos. La meta es pasar de una idea general a un criterio de trabajo que se pueda comprobar con evidencia.",
+          "practicalExample": "Un equipo necesita interpretar ventas, encuestas o indicadores y decidir sin confundir ruido, tendencia, promedio o excepcion. Aplica media, guarda tabla resumen con medida elegida y justificacion y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar con datos o graficos que parecen correctos sin revisar origen, definicion, calidad, contexto ni consecuencia de uso.",
+          "whatToDoNow": "Practica de 25 minutos: aplica media sobre una muestra pequena, compara resultado esperado contra resultado obtenido y registra limite, evidencia y proxima mejora.",
+          "alert": "Un promedio puede esconder desigualdad.",
           "keyPoints": [
-            "Percentiles debe responder una pregunta concreta, no solo producir un resultado tecnico.",
-            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
-            "La evidencia minima esperada es: una nota de decision con pregunta, medida usada, variabilidad, sesgo posible y conclusion prudente.",
-            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+            "Media debe terminar en una salida observable, no solo en una definicion.",
+            "Criterio de cierre: la medida elegida representa el fenomeno sin ocultar extremos.",
+            "Evidencia minima: tabla resumen con medida elegida y justificacion.",
+            "Entregable final relacionado: informe estadistico simple con pregunta, muestra, resumen, comparacion, incertidumbre y recomendacion responsable."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m3-l4",
-          "title": "Variacion",
-          "keyIdea": "Idea clave: Variacion sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
-          "shortTheory": "En esta leccion vas a trabajar \"Variacion\" dentro del modulo \"Dispersion\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
-          "practicalExample": "Una persona debe comparar resultados y necesita evitar conclusiones rapidas basadas solo en un promedio aislado. Aplica \"Variacion\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
-          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una nota de decision con pregunta, medida usada, variabilidad, sesgo posible y conclusion prudente.",
-          "alert": "No tomar decisiones importantes solo con promedios sin revisar dispersion, muestra y contexto.",
+          "title": "Mediana",
+          "keyIdea": "Mediana ayuda a que el dato, indicador o mensaje sea revisable y no dependa de intuicion.",
+          "shortTheory": "En esta leccion se trabaja mediana dentro de resumenes numericos. La meta es pasar de una idea general a un criterio de trabajo que se pueda comprobar con evidencia.",
+          "practicalExample": "Un equipo necesita interpretar ventas, encuestas o indicadores y decidir sin confundir ruido, tendencia, promedio o excepcion. Aplica mediana, guarda tabla resumen con medida elegida y justificacion y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar con datos o graficos que parecen correctos sin revisar origen, definicion, calidad, contexto ni consecuencia de uso.",
+          "whatToDoNow": "Practica de 25 minutos: aplica mediana sobre una muestra pequena, compara resultado esperado contra resultado obtenido y registra limite, evidencia y proxima mejora.",
+          "alert": "Un promedio puede esconder desigualdad.",
           "keyPoints": [
-            "Variacion debe responder una pregunta concreta, no solo producir un resultado tecnico.",
-            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
-            "La evidencia minima esperada es: una nota de decision con pregunta, medida usada, variabilidad, sesgo posible y conclusion prudente.",
-            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+            "Mediana debe terminar en una salida observable, no solo en una definicion.",
+            "Criterio de cierre: la medida elegida representa el fenomeno sin ocultar extremos.",
+            "Evidencia minima: tabla resumen con medida elegida y justificacion.",
+            "Entregable final relacionado: informe estadistico simple con pregunta, muestra, resumen, comparacion, incertidumbre y recomendacion responsable."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m3-l5",
-          "title": "Datos atipicos",
-          "keyIdea": "Idea clave: Datos atipicos sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
-          "shortTheory": "En esta leccion vas a trabajar \"Datos atipicos\" dentro del modulo \"Dispersion\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
-          "practicalExample": "Una persona debe comparar resultados y necesita evitar conclusiones rapidas basadas solo en un promedio aislado. Aplica \"Datos atipicos\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
-          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una nota de decision con pregunta, medida usada, variabilidad, sesgo posible y conclusion prudente.",
-          "alert": "No tomar decisiones importantes solo con promedios sin revisar dispersion, muestra y contexto.",
+          "title": "Percentiles",
+          "keyIdea": "Percentiles ayuda a que el dato, indicador o mensaje sea revisable y no dependa de intuicion.",
+          "shortTheory": "En esta leccion se trabaja percentiles dentro de resumenes numericos. La meta es pasar de una idea general a un criterio de trabajo que se pueda comprobar con evidencia.",
+          "practicalExample": "Un equipo necesita interpretar ventas, encuestas o indicadores y decidir sin confundir ruido, tendencia, promedio o excepcion. Aplica percentiles, guarda tabla resumen con medida elegida y justificacion y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar con datos o graficos que parecen correctos sin revisar origen, definicion, calidad, contexto ni consecuencia de uso.",
+          "whatToDoNow": "Practica de 25 minutos: aplica percentiles sobre una muestra pequena, compara resultado esperado contra resultado obtenido y registra limite, evidencia y proxima mejora.",
+          "alert": "Un promedio puede esconder desigualdad.",
           "keyPoints": [
-            "Datos atipicos debe responder una pregunta concreta, no solo producir un resultado tecnico.",
-            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
-            "La evidencia minima esperada es: una nota de decision con pregunta, medida usada, variabilidad, sesgo posible y conclusion prudente.",
-            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+            "Percentiles debe terminar en una salida observable, no solo en una definicion.",
+            "Criterio de cierre: la medida elegida representa el fenomeno sin ocultar extremos.",
+            "Evidencia minima: tabla resumen con medida elegida y justificacion.",
+            "Entregable final relacionado: informe estadistico simple con pregunta, muestra, resumen, comparacion, incertidumbre y recomendacion responsable."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m3-l6",
-          "title": "Lectura prudente",
-          "keyIdea": "Idea clave: Lectura prudente sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
-          "shortTheory": "En esta leccion vas a trabajar \"Lectura prudente\" dentro del modulo \"Dispersion\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
-          "practicalExample": "Una persona debe comparar resultados y necesita evitar conclusiones rapidas basadas solo en un promedio aislado. Aplica \"Lectura prudente\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
-          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una nota de decision con pregunta, medida usada, variabilidad, sesgo posible y conclusion prudente.",
-          "alert": "No tomar decisiones importantes solo con promedios sin revisar dispersion, muestra y contexto.",
+          "title": "Lectura conjunta",
+          "keyIdea": "Lectura conjunta ayuda a que el dato, indicador o mensaje sea revisable y no dependa de intuicion.",
+          "shortTheory": "En esta leccion se trabaja lectura conjunta dentro de resumenes numericos. La meta es pasar de una idea general a un criterio de trabajo que se pueda comprobar con evidencia.",
+          "practicalExample": "Un equipo necesita interpretar ventas, encuestas o indicadores y decidir sin confundir ruido, tendencia, promedio o excepcion. Aplica lectura conjunta, guarda tabla resumen con medida elegida y justificacion y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar con datos o graficos que parecen correctos sin revisar origen, definicion, calidad, contexto ni consecuencia de uso.",
+          "whatToDoNow": "Practica de 25 minutos: aplica lectura conjunta sobre una muestra pequena, compara resultado esperado contra resultado obtenido y registra limite, evidencia y proxima mejora.",
+          "alert": "Un promedio puede esconder desigualdad.",
           "keyPoints": [
-            "Lectura prudente debe responder una pregunta concreta, no solo producir un resultado tecnico.",
-            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
-            "La evidencia minima esperada es: una nota de decision con pregunta, medida usada, variabilidad, sesgo posible y conclusion prudente.",
-            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+            "Lectura conjunta debe terminar en una salida observable, no solo en una definicion.",
+            "Criterio de cierre: la medida elegida representa el fenomeno sin ocultar extremos.",
+            "Evidencia minima: tabla resumen con medida elegida y justificacion.",
+            "Entregable final relacionado: informe estadistico simple con pregunta, muestra, resumen, comparacion, incertidumbre y recomendacion responsable."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         }
@@ -462,172 +460,171 @@
       "quiz": [
         {
           "id": "m3-q1",
-          "question": "Pregunta 1: ¿que conviene hacer al trabajar ",
+          "question": "Que conviene definir primero en \"Resumenes numericos\"?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Pregunta, dato necesario, fuente, criterio de calidad y evidencia de cierre.",
+            "El grafico mas vistoso.",
+            "Una conclusion antes de revisar datos.",
+            "La herramienta que ya esta abierta."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: datos utiles empiezan con pregunta, fuente y criterio verificable."
         },
         {
           "id": "m3-q2",
-          "question": "Pregunta 2: ¿que conviene hacer al trabajar ",
+          "question": "Que evidencia permite cerrar el modulo con mas confianza?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "tabla resumen con medida elegida y justificacion",
+            "Una captura sin explicar filtros ni fuente.",
+            "Una frase como 'parece estar bien'.",
+            "Un numero aislado sin periodo ni definicion."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: tabla resumen con medida elegida y justificacion permite revisar el resultado despues."
         },
         {
           "id": "m3-q3",
-          "question": "Pregunta 3: ¿que conviene hacer al trabajar ",
+          "question": "Que conducta aumenta el riesgo de una mala decision con datos?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Usar solo promedio cuando hay valores extremos.",
+            "Validar una muestra antes de generalizar.",
+            "Documentar supuestos y limites.",
+            "Separar dato, interpretacion y recomendacion."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: esa conducta oculta errores y puede llevar a decisiones equivocadas."
         },
         {
           "id": "m3-q4",
-          "question": "Pregunta 4: ¿que conviene hacer al trabajar ",
+          "question": "Cuando corresponde pedir validacion externa o revisar una fuente confiable?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Cuando el indicador define metas, premios o politicas.",
+            "Nunca, porque un ejercicio introductorio reemplaza cualquier revision.",
+            "Solo despues de publicar el informe.",
+            "Cuando el grafico usa muchos colores."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: algunos datos requieren fuente oficial, responsable del dato o una persona competente."
         },
         {
           "id": "m3-q5",
-          "question": "Pregunta 5: ¿que conviene hacer al trabajar ",
+          "question": "Cual es el entregable minimo de \"Resumenes numericos\"?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "resumen estadistico",
+            "Una tabla sin fuente ni fecha.",
+            "Un grafico sin lectura principal.",
+            "Un archivo final sin criterios de calidad."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: resumen estadistico deja avance verificable."
         }
-      ],
-      "professionalOutcome": "calcular indicadores simples, evitar conclusiones apresuradas y comunicar incertidumbre. Entregable sugerido: una ficha de decision con metrica, comparacion, interpretacion, limite y accion."
+      ]
     },
     {
       "id": "m4",
-      "title": "Muestras y sesgos",
-      "description": "En este modulo vas a trabajar \"Muestras y sesgos\" dentro de estadistica aplicada a decisiones, medidas de centro, dispersion, muestras, sesgos y comparacion. La meta es partir de una pregunta concreta, revisar la calidad de la informacion y cerrar con una evidencia que pueda explicarse.",
-      "learningRisk": "Punto clave",
+      "title": "Variacion e incertidumbre",
+      "description": "Reconocer dispersion, variabilidad, error y cambios que pueden ser ruido.",
+      "learningRisk": "Trabajar con datos sin evidencia puede producir confianza falsa, decisiones pobres o exposicion de informacion sensible.",
       "lessons": [
         {
           "id": "m4-l1",
-          "title": "Poblacion",
-          "keyIdea": "Idea clave: Poblacion sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
-          "shortTheory": "En esta leccion vas a trabajar \"Poblacion\" dentro del modulo \"Muestras y sesgos\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
-          "practicalExample": "Una persona debe comparar resultados y necesita evitar conclusiones rapidas basadas solo en un promedio aislado. Aplica \"Poblacion\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
-          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una nota de decision con pregunta, medida usada, variabilidad, sesgo posible y conclusion prudente.",
-          "alert": "No tomar decisiones importantes solo con promedios sin revisar dispersion, muestra y contexto.",
+          "title": "Rango",
+          "keyIdea": "Rango ayuda a que el dato, indicador o mensaje sea revisable y no dependa de intuicion.",
+          "shortTheory": "En esta leccion se trabaja rango dentro de variacion e incertidumbre. La meta es pasar de una idea general a un criterio de trabajo que se pueda comprobar con evidencia.",
+          "practicalExample": "Un equipo necesita interpretar ventas, encuestas o indicadores y decidir sin confundir ruido, tendencia, promedio o excepcion. Aplica rango, guarda grafico o tabla con variacion y lectura prudente y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar con datos o graficos que parecen correctos sin revisar origen, definicion, calidad, contexto ni consecuencia de uso.",
+          "whatToDoNow": "Practica de 25 minutos: aplica rango sobre una muestra pequena, compara resultado esperado contra resultado obtenido y registra limite, evidencia y proxima mejora.",
+          "alert": "No todo movimiento del dato es una señal.",
           "keyPoints": [
-            "Poblacion debe responder una pregunta concreta, no solo producir un resultado tecnico.",
-            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
-            "La evidencia minima esperada es: una nota de decision con pregunta, medida usada, variabilidad, sesgo posible y conclusion prudente.",
-            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+            "Rango debe terminar en una salida observable, no solo en una definicion.",
+            "Criterio de cierre: la conclusion distingue cambio real de variacion esperable.",
+            "Evidencia minima: grafico o tabla con variacion y lectura prudente.",
+            "Entregable final relacionado: informe estadistico simple con pregunta, muestra, resumen, comparacion, incertidumbre y recomendacion responsable."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m4-l2",
-          "title": "Muestra",
-          "keyIdea": "Idea clave: Muestra sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
-          "shortTheory": "En esta leccion vas a trabajar \"Muestra\" dentro del modulo \"Muestras y sesgos\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
-          "practicalExample": "Una persona debe comparar resultados y necesita evitar conclusiones rapidas basadas solo en un promedio aislado. Aplica \"Muestra\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
-          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una nota de decision con pregunta, medida usada, variabilidad, sesgo posible y conclusion prudente.",
-          "alert": "No tomar decisiones importantes solo con promedios sin revisar dispersion, muestra y contexto.",
+          "title": "Desvio simple",
+          "keyIdea": "Desvio simple ayuda a que el dato, indicador o mensaje sea revisable y no dependa de intuicion.",
+          "shortTheory": "En esta leccion se trabaja desvio simple dentro de variacion e incertidumbre. La meta es pasar de una idea general a un criterio de trabajo que se pueda comprobar con evidencia.",
+          "practicalExample": "Un equipo necesita interpretar ventas, encuestas o indicadores y decidir sin confundir ruido, tendencia, promedio o excepcion. Aplica desvio simple, guarda grafico o tabla con variacion y lectura prudente y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar con datos o graficos que parecen correctos sin revisar origen, definicion, calidad, contexto ni consecuencia de uso.",
+          "whatToDoNow": "Practica de 25 minutos: aplica desvio simple sobre una muestra pequena, compara resultado esperado contra resultado obtenido y registra limite, evidencia y proxima mejora.",
+          "alert": "No todo movimiento del dato es una señal.",
           "keyPoints": [
-            "Muestra debe responder una pregunta concreta, no solo producir un resultado tecnico.",
-            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
-            "La evidencia minima esperada es: una nota de decision con pregunta, medida usada, variabilidad, sesgo posible y conclusion prudente.",
-            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+            "Desvio simple debe terminar en una salida observable, no solo en una definicion.",
+            "Criterio de cierre: la conclusion distingue cambio real de variacion esperable.",
+            "Evidencia minima: grafico o tabla con variacion y lectura prudente.",
+            "Entregable final relacionado: informe estadistico simple con pregunta, muestra, resumen, comparacion, incertidumbre y recomendacion responsable."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m4-l3",
-          "title": "Sesgo de seleccion",
-          "keyIdea": "Idea clave: Sesgo de seleccion sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
-          "shortTheory": "En esta leccion vas a trabajar \"Sesgo de seleccion\" dentro del modulo \"Muestras y sesgos\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
-          "practicalExample": "Una persona debe comparar resultados y necesita evitar conclusiones rapidas basadas solo en un promedio aislado. Aplica \"Sesgo de seleccion\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
-          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una nota de decision con pregunta, medida usada, variabilidad, sesgo posible y conclusion prudente.",
-          "alert": "No tomar decisiones importantes solo con promedios sin revisar dispersion, muestra y contexto.",
+          "title": "Variacion temporal",
+          "keyIdea": "Variacion temporal ayuda a que el dato, indicador o mensaje sea revisable y no dependa de intuicion.",
+          "shortTheory": "En esta leccion se trabaja variacion temporal dentro de variacion e incertidumbre. La meta es pasar de una idea general a un criterio de trabajo que se pueda comprobar con evidencia.",
+          "practicalExample": "Un equipo necesita interpretar ventas, encuestas o indicadores y decidir sin confundir ruido, tendencia, promedio o excepcion. Aplica variacion temporal, guarda grafico o tabla con variacion y lectura prudente y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar con datos o graficos que parecen correctos sin revisar origen, definicion, calidad, contexto ni consecuencia de uso.",
+          "whatToDoNow": "Practica de 25 minutos: aplica variacion temporal sobre una muestra pequena, compara resultado esperado contra resultado obtenido y registra limite, evidencia y proxima mejora.",
+          "alert": "No todo movimiento del dato es una señal.",
           "keyPoints": [
-            "Sesgo de seleccion debe responder una pregunta concreta, no solo producir un resultado tecnico.",
-            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
-            "La evidencia minima esperada es: una nota de decision con pregunta, medida usada, variabilidad, sesgo posible y conclusion prudente.",
-            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+            "Variacion temporal debe terminar en una salida observable, no solo en una definicion.",
+            "Criterio de cierre: la conclusion distingue cambio real de variacion esperable.",
+            "Evidencia minima: grafico o tabla con variacion y lectura prudente.",
+            "Entregable final relacionado: informe estadistico simple con pregunta, muestra, resumen, comparacion, incertidumbre y recomendacion responsable."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m4-l4",
-          "title": "Tamano de muestra",
-          "keyIdea": "Idea clave: Tamano de muestra sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
-          "shortTheory": "En esta leccion vas a trabajar \"Tamano de muestra\" dentro del modulo \"Muestras y sesgos\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
-          "practicalExample": "Una persona debe comparar resultados y necesita evitar conclusiones rapidas basadas solo en un promedio aislado. Aplica \"Tamano de muestra\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
-          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una nota de decision con pregunta, medida usada, variabilidad, sesgo posible y conclusion prudente.",
-          "alert": "No tomar decisiones importantes solo con promedios sin revisar dispersion, muestra y contexto.",
+          "title": "Ruido",
+          "keyIdea": "Ruido ayuda a que el dato, indicador o mensaje sea revisable y no dependa de intuicion.",
+          "shortTheory": "En esta leccion se trabaja ruido dentro de variacion e incertidumbre. La meta es pasar de una idea general a un criterio de trabajo que se pueda comprobar con evidencia.",
+          "practicalExample": "Un equipo necesita interpretar ventas, encuestas o indicadores y decidir sin confundir ruido, tendencia, promedio o excepcion. Aplica ruido, guarda grafico o tabla con variacion y lectura prudente y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar con datos o graficos que parecen correctos sin revisar origen, definicion, calidad, contexto ni consecuencia de uso.",
+          "whatToDoNow": "Practica de 25 minutos: aplica ruido sobre una muestra pequena, compara resultado esperado contra resultado obtenido y registra limite, evidencia y proxima mejora.",
+          "alert": "No todo movimiento del dato es una señal.",
           "keyPoints": [
-            "Tamano de muestra debe responder una pregunta concreta, no solo producir un resultado tecnico.",
-            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
-            "La evidencia minima esperada es: una nota de decision con pregunta, medida usada, variabilidad, sesgo posible y conclusion prudente.",
-            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+            "Ruido debe terminar en una salida observable, no solo en una definicion.",
+            "Criterio de cierre: la conclusion distingue cambio real de variacion esperable.",
+            "Evidencia minima: grafico o tabla con variacion y lectura prudente.",
+            "Entregable final relacionado: informe estadistico simple con pregunta, muestra, resumen, comparacion, incertidumbre y recomendacion responsable."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m4-l5",
-          "title": "Encuestas",
-          "keyIdea": "Idea clave: Encuestas sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
-          "shortTheory": "En esta leccion vas a trabajar \"Encuestas\" dentro del modulo \"Muestras y sesgos\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
-          "practicalExample": "Una persona debe comparar resultados y necesita evitar conclusiones rapidas basadas solo en un promedio aislado. Aplica \"Encuestas\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
-          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una nota de decision con pregunta, medida usada, variabilidad, sesgo posible y conclusion prudente.",
-          "alert": "No tomar decisiones importantes solo con promedios sin revisar dispersion, muestra y contexto.",
+          "title": "Margen aproximado",
+          "keyIdea": "Margen aproximado ayuda a que el dato, indicador o mensaje sea revisable y no dependa de intuicion.",
+          "shortTheory": "En esta leccion se trabaja margen aproximado dentro de variacion e incertidumbre. La meta es pasar de una idea general a un criterio de trabajo que se pueda comprobar con evidencia.",
+          "practicalExample": "Un equipo necesita interpretar ventas, encuestas o indicadores y decidir sin confundir ruido, tendencia, promedio o excepcion. Aplica margen aproximado, guarda grafico o tabla con variacion y lectura prudente y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar con datos o graficos que parecen correctos sin revisar origen, definicion, calidad, contexto ni consecuencia de uso.",
+          "whatToDoNow": "Practica de 25 minutos: aplica margen aproximado sobre una muestra pequena, compara resultado esperado contra resultado obtenido y registra limite, evidencia y proxima mejora.",
+          "alert": "No todo movimiento del dato es una señal.",
           "keyPoints": [
-            "Encuestas debe responder una pregunta concreta, no solo producir un resultado tecnico.",
-            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
-            "La evidencia minima esperada es: una nota de decision con pregunta, medida usada, variabilidad, sesgo posible y conclusion prudente.",
-            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+            "Margen aproximado debe terminar en una salida observable, no solo en una definicion.",
+            "Criterio de cierre: la conclusion distingue cambio real de variacion esperable.",
+            "Evidencia minima: grafico o tabla con variacion y lectura prudente.",
+            "Entregable final relacionado: informe estadistico simple con pregunta, muestra, resumen, comparacion, incertidumbre y recomendacion responsable."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m4-l6",
-          "title": "Representatividad",
-          "keyIdea": "Idea clave: Representatividad sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
-          "shortTheory": "En esta leccion vas a trabajar \"Representatividad\" dentro del modulo \"Muestras y sesgos\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
-          "practicalExample": "Una persona debe comparar resultados y necesita evitar conclusiones rapidas basadas solo en un promedio aislado. Aplica \"Representatividad\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
-          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una nota de decision con pregunta, medida usada, variabilidad, sesgo posible y conclusion prudente.",
-          "alert": "No tomar decisiones importantes solo con promedios sin revisar dispersion, muestra y contexto.",
+          "title": "Cautela",
+          "keyIdea": "Cautela ayuda a que el dato, indicador o mensaje sea revisable y no dependa de intuicion.",
+          "shortTheory": "En esta leccion se trabaja cautela dentro de variacion e incertidumbre. La meta es pasar de una idea general a un criterio de trabajo que se pueda comprobar con evidencia.",
+          "practicalExample": "Un equipo necesita interpretar ventas, encuestas o indicadores y decidir sin confundir ruido, tendencia, promedio o excepcion. Aplica cautela, guarda grafico o tabla con variacion y lectura prudente y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar con datos o graficos que parecen correctos sin revisar origen, definicion, calidad, contexto ni consecuencia de uso.",
+          "whatToDoNow": "Practica de 25 minutos: aplica cautela sobre una muestra pequena, compara resultado esperado contra resultado obtenido y registra limite, evidencia y proxima mejora.",
+          "alert": "No todo movimiento del dato es una señal.",
           "keyPoints": [
-            "Representatividad debe responder una pregunta concreta, no solo producir un resultado tecnico.",
-            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
-            "La evidencia minima esperada es: una nota de decision con pregunta, medida usada, variabilidad, sesgo posible y conclusion prudente.",
-            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+            "Cautela debe terminar en una salida observable, no solo en una definicion.",
+            "Criterio de cierre: la conclusion distingue cambio real de variacion esperable.",
+            "Evidencia minima: grafico o tabla con variacion y lectura prudente.",
+            "Entregable final relacionado: informe estadistico simple con pregunta, muestra, resumen, comparacion, incertidumbre y recomendacion responsable."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         }
@@ -635,172 +632,171 @@
       "quiz": [
         {
           "id": "m4-q1",
-          "question": "Pregunta 1: ¿que conviene hacer al trabajar ",
+          "question": "Que conviene definir primero en \"Variacion e incertidumbre\"?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Pregunta, dato necesario, fuente, criterio de calidad y evidencia de cierre.",
+            "El grafico mas vistoso.",
+            "Una conclusion antes de revisar datos.",
+            "La herramienta que ya esta abierta."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: datos utiles empiezan con pregunta, fuente y criterio verificable."
         },
         {
           "id": "m4-q2",
-          "question": "Pregunta 2: ¿que conviene hacer al trabajar ",
+          "question": "Que evidencia permite cerrar el modulo con mas confianza?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "grafico o tabla con variacion y lectura prudente",
+            "Una captura sin explicar filtros ni fuente.",
+            "Una frase como 'parece estar bien'.",
+            "Un numero aislado sin periodo ni definicion."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: grafico o tabla con variacion y lectura prudente permite revisar el resultado despues."
         },
         {
           "id": "m4-q3",
-          "question": "Pregunta 3: ¿que conviene hacer al trabajar ",
+          "question": "Que conducta aumenta el riesgo de una mala decision con datos?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Decir que todo cambio pequeno es tendencia.",
+            "Validar una muestra antes de generalizar.",
+            "Documentar supuestos y limites.",
+            "Separar dato, interpretacion y recomendacion."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: esa conducta oculta errores y puede llevar a decisiones equivocadas."
         },
         {
           "id": "m4-q4",
-          "question": "Pregunta 4: ¿que conviene hacer al trabajar ",
+          "question": "Cuando corresponde pedir validacion externa o revisar una fuente confiable?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Cuando se decide cambiar procesos por diferencias pequenas.",
+            "Nunca, porque un ejercicio introductorio reemplaza cualquier revision.",
+            "Solo despues de publicar el informe.",
+            "Cuando el grafico usa muchos colores."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: algunos datos requieren fuente oficial, responsable del dato o una persona competente."
         },
         {
           "id": "m4-q5",
-          "question": "Pregunta 5: ¿que conviene hacer al trabajar ",
+          "question": "Cual es el entregable minimo de \"Variacion e incertidumbre\"?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "analisis de variacion",
+            "Una tabla sin fuente ni fecha.",
+            "Un grafico sin lectura principal.",
+            "Un archivo final sin criterios de calidad."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: analisis de variacion deja avance verificable."
         }
-      ],
-      "professionalOutcome": "calcular indicadores simples, evitar conclusiones apresuradas y comunicar incertidumbre. Entregable sugerido: una ficha de decision con metrica, comparacion, interpretacion, limite y accion."
+      ]
     },
     {
       "id": "m5",
-      "title": "Comparaciones",
-      "description": "En este modulo vas a trabajar \"Comparaciones\" dentro de estadistica aplicada a decisiones, medidas de centro, dispersion, muestras, sesgos y comparacion. La meta es partir de una pregunta concreta, revisar la calidad de la informacion y cerrar con una evidencia que pueda explicarse.",
-      "learningRisk": "Punto clave",
+      "title": "Comparaciones justas",
+      "description": "Comparar periodos, grupos o categorias evitando bases distintas y conclusiones falsas.",
+      "learningRisk": "Trabajar con datos sin evidencia puede producir confianza falsa, decisiones pobres o exposicion de informacion sensible.",
       "lessons": [
         {
           "id": "m5-l1",
-          "title": "Antes y despues",
-          "keyIdea": "Idea clave: Antes y despues sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
-          "shortTheory": "En esta leccion vas a trabajar \"Antes y despues\" dentro del modulo \"Comparaciones\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
-          "practicalExample": "Una persona debe comparar resultados y necesita evitar conclusiones rapidas basadas solo en un promedio aislado. Aplica \"Antes y despues\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
-          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una nota de decision con pregunta, medida usada, variabilidad, sesgo posible y conclusion prudente.",
-          "alert": "No tomar decisiones importantes solo con promedios sin revisar dispersion, muestra y contexto.",
+          "title": "Misma base",
+          "keyIdea": "Misma base ayuda a que el dato, indicador o mensaje sea revisable y no dependa de intuicion.",
+          "shortTheory": "En esta leccion se trabaja misma base dentro de comparaciones justas. La meta es pasar de una idea general a un criterio de trabajo que se pueda comprobar con evidencia.",
+          "practicalExample": "Un equipo necesita interpretar ventas, encuestas o indicadores y decidir sin confundir ruido, tendencia, promedio o excepcion. Aplica misma base, guarda comparacion con bases, filtros y contexto documentados y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar con datos o graficos que parecen correctos sin revisar origen, definicion, calidad, contexto ni consecuencia de uso.",
+          "whatToDoNow": "Practica de 25 minutos: aplica misma base sobre una muestra pequena, compara resultado esperado contra resultado obtenido y registra limite, evidencia y proxima mejora.",
+          "alert": "Comparar mal puede ser peor que no comparar.",
           "keyPoints": [
-            "Antes y despues debe responder una pregunta concreta, no solo producir un resultado tecnico.",
-            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
-            "La evidencia minima esperada es: una nota de decision con pregunta, medida usada, variabilidad, sesgo posible y conclusion prudente.",
-            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+            "Misma base debe terminar en una salida observable, no solo en una definicion.",
+            "Criterio de cierre: los grupos comparados tienen definicion y escala compatible.",
+            "Evidencia minima: comparacion con bases, filtros y contexto documentados.",
+            "Entregable final relacionado: informe estadistico simple con pregunta, muestra, resumen, comparacion, incertidumbre y recomendacion responsable."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m5-l2",
-          "title": "Grupos",
-          "keyIdea": "Idea clave: Grupos sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
-          "shortTheory": "En esta leccion vas a trabajar \"Grupos\" dentro del modulo \"Comparaciones\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
-          "practicalExample": "Una persona debe comparar resultados y necesita evitar conclusiones rapidas basadas solo en un promedio aislado. Aplica \"Grupos\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
-          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una nota de decision con pregunta, medida usada, variabilidad, sesgo posible y conclusion prudente.",
-          "alert": "No tomar decisiones importantes solo con promedios sin revisar dispersion, muestra y contexto.",
+          "title": "Tasas",
+          "keyIdea": "Tasas ayuda a que el dato, indicador o mensaje sea revisable y no dependa de intuicion.",
+          "shortTheory": "En esta leccion se trabaja tasas dentro de comparaciones justas. La meta es pasar de una idea general a un criterio de trabajo que se pueda comprobar con evidencia.",
+          "practicalExample": "Un equipo necesita interpretar ventas, encuestas o indicadores y decidir sin confundir ruido, tendencia, promedio o excepcion. Aplica tasas, guarda comparacion con bases, filtros y contexto documentados y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar con datos o graficos que parecen correctos sin revisar origen, definicion, calidad, contexto ni consecuencia de uso.",
+          "whatToDoNow": "Practica de 25 minutos: aplica tasas sobre una muestra pequena, compara resultado esperado contra resultado obtenido y registra limite, evidencia y proxima mejora.",
+          "alert": "Comparar mal puede ser peor que no comparar.",
           "keyPoints": [
-            "Grupos debe responder una pregunta concreta, no solo producir un resultado tecnico.",
-            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
-            "La evidencia minima esperada es: una nota de decision con pregunta, medida usada, variabilidad, sesgo posible y conclusion prudente.",
-            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+            "Tasas debe terminar en una salida observable, no solo en una definicion.",
+            "Criterio de cierre: los grupos comparados tienen definicion y escala compatible.",
+            "Evidencia minima: comparacion con bases, filtros y contexto documentados.",
+            "Entregable final relacionado: informe estadistico simple con pregunta, muestra, resumen, comparacion, incertidumbre y recomendacion responsable."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m5-l3",
-          "title": "Tasas",
-          "keyIdea": "Idea clave: Tasas sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
-          "shortTheory": "En esta leccion vas a trabajar \"Tasas\" dentro del modulo \"Comparaciones\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
-          "practicalExample": "Una persona debe comparar resultados y necesita evitar conclusiones rapidas basadas solo en un promedio aislado. Aplica \"Tasas\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
-          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una nota de decision con pregunta, medida usada, variabilidad, sesgo posible y conclusion prudente.",
-          "alert": "No tomar decisiones importantes solo con promedios sin revisar dispersion, muestra y contexto.",
+          "title": "Periodos",
+          "keyIdea": "Periodos ayuda a que el dato, indicador o mensaje sea revisable y no dependa de intuicion.",
+          "shortTheory": "En esta leccion se trabaja periodos dentro de comparaciones justas. La meta es pasar de una idea general a un criterio de trabajo que se pueda comprobar con evidencia.",
+          "practicalExample": "Un equipo necesita interpretar ventas, encuestas o indicadores y decidir sin confundir ruido, tendencia, promedio o excepcion. Aplica periodos, guarda comparacion con bases, filtros y contexto documentados y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar con datos o graficos que parecen correctos sin revisar origen, definicion, calidad, contexto ni consecuencia de uso.",
+          "whatToDoNow": "Practica de 25 minutos: aplica periodos sobre una muestra pequena, compara resultado esperado contra resultado obtenido y registra limite, evidencia y proxima mejora.",
+          "alert": "Comparar mal puede ser peor que no comparar.",
           "keyPoints": [
-            "Tasas debe responder una pregunta concreta, no solo producir un resultado tecnico.",
-            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
-            "La evidencia minima esperada es: una nota de decision con pregunta, medida usada, variabilidad, sesgo posible y conclusion prudente.",
-            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+            "Periodos debe terminar en una salida observable, no solo en una definicion.",
+            "Criterio de cierre: los grupos comparados tienen definicion y escala compatible.",
+            "Evidencia minima: comparacion con bases, filtros y contexto documentados.",
+            "Entregable final relacionado: informe estadistico simple con pregunta, muestra, resumen, comparacion, incertidumbre y recomendacion responsable."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m5-l4",
-          "title": "Porcentajes",
-          "keyIdea": "Idea clave: Porcentajes sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
-          "shortTheory": "En esta leccion vas a trabajar \"Porcentajes\" dentro del modulo \"Comparaciones\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
-          "practicalExample": "Una persona debe comparar resultados y necesita evitar conclusiones rapidas basadas solo en un promedio aislado. Aplica \"Porcentajes\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
-          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una nota de decision con pregunta, medida usada, variabilidad, sesgo posible y conclusion prudente.",
-          "alert": "No tomar decisiones importantes solo con promedios sin revisar dispersion, muestra y contexto.",
+          "title": "Segmentos",
+          "keyIdea": "Segmentos ayuda a que el dato, indicador o mensaje sea revisable y no dependa de intuicion.",
+          "shortTheory": "En esta leccion se trabaja segmentos dentro de comparaciones justas. La meta es pasar de una idea general a un criterio de trabajo que se pueda comprobar con evidencia.",
+          "practicalExample": "Un equipo necesita interpretar ventas, encuestas o indicadores y decidir sin confundir ruido, tendencia, promedio o excepcion. Aplica segmentos, guarda comparacion con bases, filtros y contexto documentados y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar con datos o graficos que parecen correctos sin revisar origen, definicion, calidad, contexto ni consecuencia de uso.",
+          "whatToDoNow": "Practica de 25 minutos: aplica segmentos sobre una muestra pequena, compara resultado esperado contra resultado obtenido y registra limite, evidencia y proxima mejora.",
+          "alert": "Comparar mal puede ser peor que no comparar.",
           "keyPoints": [
-            "Porcentajes debe responder una pregunta concreta, no solo producir un resultado tecnico.",
-            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
-            "La evidencia minima esperada es: una nota de decision con pregunta, medida usada, variabilidad, sesgo posible y conclusion prudente.",
-            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+            "Segmentos debe terminar en una salida observable, no solo en una definicion.",
+            "Criterio de cierre: los grupos comparados tienen definicion y escala compatible.",
+            "Evidencia minima: comparacion con bases, filtros y contexto documentados.",
+            "Entregable final relacionado: informe estadistico simple con pregunta, muestra, resumen, comparacion, incertidumbre y recomendacion responsable."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m5-l5",
-          "title": "Base de comparacion",
-          "keyIdea": "Idea clave: Base de comparacion sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
-          "shortTheory": "En esta leccion vas a trabajar \"Base de comparacion\" dentro del modulo \"Comparaciones\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
-          "practicalExample": "Una persona debe comparar resultados y necesita evitar conclusiones rapidas basadas solo en un promedio aislado. Aplica \"Base de comparacion\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
-          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una nota de decision con pregunta, medida usada, variabilidad, sesgo posible y conclusion prudente.",
-          "alert": "No tomar decisiones importantes solo con promedios sin revisar dispersion, muestra y contexto.",
+          "title": "Normalizacion",
+          "keyIdea": "Normalizacion ayuda a que el dato, indicador o mensaje sea revisable y no dependa de intuicion.",
+          "shortTheory": "En esta leccion se trabaja normalizacion dentro de comparaciones justas. La meta es pasar de una idea general a un criterio de trabajo que se pueda comprobar con evidencia.",
+          "practicalExample": "Un equipo necesita interpretar ventas, encuestas o indicadores y decidir sin confundir ruido, tendencia, promedio o excepcion. Aplica normalizacion, guarda comparacion con bases, filtros y contexto documentados y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar con datos o graficos que parecen correctos sin revisar origen, definicion, calidad, contexto ni consecuencia de uso.",
+          "whatToDoNow": "Practica de 25 minutos: aplica normalizacion sobre una muestra pequena, compara resultado esperado contra resultado obtenido y registra limite, evidencia y proxima mejora.",
+          "alert": "Comparar mal puede ser peor que no comparar.",
           "keyPoints": [
-            "Base de comparacion debe responder una pregunta concreta, no solo producir un resultado tecnico.",
-            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
-            "La evidencia minima esperada es: una nota de decision con pregunta, medida usada, variabilidad, sesgo posible y conclusion prudente.",
-            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+            "Normalizacion debe terminar en una salida observable, no solo en una definicion.",
+            "Criterio de cierre: los grupos comparados tienen definicion y escala compatible.",
+            "Evidencia minima: comparacion con bases, filtros y contexto documentados.",
+            "Entregable final relacionado: informe estadistico simple con pregunta, muestra, resumen, comparacion, incertidumbre y recomendacion responsable."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m5-l6",
-          "title": "Causalidad vs correlacion",
-          "keyIdea": "Idea clave: Causalidad vs correlacion sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
-          "shortTheory": "En esta leccion vas a trabajar \"Causalidad vs correlacion\" dentro del modulo \"Comparaciones\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
-          "practicalExample": "Una persona debe comparar resultados y necesita evitar conclusiones rapidas basadas solo en un promedio aislado. Aplica \"Causalidad vs correlacion\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
-          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una nota de decision con pregunta, medida usada, variabilidad, sesgo posible y conclusion prudente.",
-          "alert": "No tomar decisiones importantes solo con promedios sin revisar dispersion, muestra y contexto.",
+          "title": "Contexto",
+          "keyIdea": "Contexto ayuda a que el dato, indicador o mensaje sea revisable y no dependa de intuicion.",
+          "shortTheory": "En esta leccion se trabaja contexto dentro de comparaciones justas. La meta es pasar de una idea general a un criterio de trabajo que se pueda comprobar con evidencia.",
+          "practicalExample": "Un equipo necesita interpretar ventas, encuestas o indicadores y decidir sin confundir ruido, tendencia, promedio o excepcion. Aplica contexto, guarda comparacion con bases, filtros y contexto documentados y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar con datos o graficos que parecen correctos sin revisar origen, definicion, calidad, contexto ni consecuencia de uso.",
+          "whatToDoNow": "Practica de 25 minutos: aplica contexto sobre una muestra pequena, compara resultado esperado contra resultado obtenido y registra limite, evidencia y proxima mejora.",
+          "alert": "Comparar mal puede ser peor que no comparar.",
           "keyPoints": [
-            "Causalidad vs correlacion debe responder una pregunta concreta, no solo producir un resultado tecnico.",
-            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
-            "La evidencia minima esperada es: una nota de decision con pregunta, medida usada, variabilidad, sesgo posible y conclusion prudente.",
-            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+            "Contexto debe terminar en una salida observable, no solo en una definicion.",
+            "Criterio de cierre: los grupos comparados tienen definicion y escala compatible.",
+            "Evidencia minima: comparacion con bases, filtros y contexto documentados.",
+            "Entregable final relacionado: informe estadistico simple con pregunta, muestra, resumen, comparacion, incertidumbre y recomendacion responsable."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         }
@@ -808,172 +804,171 @@
       "quiz": [
         {
           "id": "m5-q1",
-          "question": "Pregunta 1: ¿que conviene hacer al trabajar ",
+          "question": "Que conviene definir primero en \"Comparaciones justas\"?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Pregunta, dato necesario, fuente, criterio de calidad y evidencia de cierre.",
+            "El grafico mas vistoso.",
+            "Una conclusion antes de revisar datos.",
+            "La herramienta que ya esta abierta."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: datos utiles empiezan con pregunta, fuente y criterio verificable."
         },
         {
           "id": "m5-q2",
-          "question": "Pregunta 2: ¿que conviene hacer al trabajar ",
+          "question": "Que evidencia permite cerrar el modulo con mas confianza?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "comparacion con bases, filtros y contexto documentados",
+            "Una captura sin explicar filtros ni fuente.",
+            "Una frase como 'parece estar bien'.",
+            "Un numero aislado sin periodo ni definicion."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: comparacion con bases, filtros y contexto documentados permite revisar el resultado despues."
         },
         {
           "id": "m5-q3",
-          "question": "Pregunta 3: ¿que conviene hacer al trabajar ",
+          "question": "Que conducta aumenta el riesgo de una mala decision con datos?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Comparar cantidades sin mirar tamanos de grupo.",
+            "Validar una muestra antes de generalizar.",
+            "Documentar supuestos y limites.",
+            "Separar dato, interpretacion y recomendacion."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: esa conducta oculta errores y puede llevar a decisiones equivocadas."
         },
         {
           "id": "m5-q4",
-          "question": "Pregunta 4: ¿que conviene hacer al trabajar ",
+          "question": "Cuando corresponde pedir validacion externa o revisar una fuente confiable?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Cuando la comparacion afecta evaluaciones o recursos.",
+            "Nunca, porque un ejercicio introductorio reemplaza cualquier revision.",
+            "Solo despues de publicar el informe.",
+            "Cuando el grafico usa muchos colores."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: algunos datos requieren fuente oficial, responsable del dato o una persona competente."
         },
         {
           "id": "m5-q5",
-          "question": "Pregunta 5: ¿que conviene hacer al trabajar ",
+          "question": "Cual es el entregable minimo de \"Comparaciones justas\"?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "comparacion responsable",
+            "Una tabla sin fuente ni fecha.",
+            "Un grafico sin lectura principal.",
+            "Un archivo final sin criterios de calidad."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: comparacion responsable deja avance verificable."
         }
-      ],
-      "professionalOutcome": "calcular indicadores simples, evitar conclusiones apresuradas y comunicar incertidumbre. Entregable sugerido: una ficha de decision con metrica, comparacion, interpretacion, limite y accion."
+      ]
     },
     {
       "id": "m6",
-      "title": "Decision informada",
-      "description": "En este modulo vas a trabajar \"Decision informada\" dentro de estadistica aplicada a decisiones, medidas de centro, dispersion, muestras, sesgos y comparacion. La meta es partir de una pregunta concreta, revisar la calidad de la informacion y cerrar con una evidencia que pueda explicarse.",
-      "learningRisk": "Punto clave",
+      "title": "Comunicar conclusiones",
+      "description": "Escribir hallazgos con dato, contexto, limite y accion sugerida.",
+      "learningRisk": "Trabajar con datos sin evidencia puede producir confianza falsa, decisiones pobres o exposicion de informacion sensible.",
       "lessons": [
         {
           "id": "m6-l1",
           "title": "Hallazgo",
-          "keyIdea": "Idea clave: Hallazgo sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
-          "shortTheory": "En esta leccion vas a trabajar \"Hallazgo\" dentro del modulo \"Decision informada\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
-          "practicalExample": "Una persona debe comparar resultados y necesita evitar conclusiones rapidas basadas solo en un promedio aislado. Aplica \"Hallazgo\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
-          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una nota de decision con pregunta, medida usada, variabilidad, sesgo posible y conclusion prudente.",
-          "alert": "No tomar decisiones importantes solo con promedios sin revisar dispersion, muestra y contexto.",
+          "keyIdea": "Hallazgo ayuda a que el dato, indicador o mensaje sea revisable y no dependa de intuicion.",
+          "shortTheory": "En esta leccion se trabaja hallazgo dentro de comunicar conclusiones. La meta es pasar de una idea general a un criterio de trabajo que se pueda comprobar con evidencia.",
+          "practicalExample": "Un equipo necesita interpretar ventas, encuestas o indicadores y decidir sin confundir ruido, tendencia, promedio o excepcion. Aplica hallazgo, guarda recomendacion con evidencia, limite y siguiente paso y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar con datos o graficos que parecen correctos sin revisar origen, definicion, calidad, contexto ni consecuencia de uso.",
+          "whatToDoNow": "Practica de 25 minutos: aplica hallazgo sobre una muestra pequena, compara resultado esperado contra resultado obtenido y registra limite, evidencia y proxima mejora.",
+          "alert": "Una buena conclusion incluye lo que no se sabe.",
           "keyPoints": [
-            "Hallazgo debe responder una pregunta concreta, no solo producir un resultado tecnico.",
-            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
-            "La evidencia minima esperada es: una nota de decision con pregunta, medida usada, variabilidad, sesgo posible y conclusion prudente.",
-            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+            "Hallazgo debe terminar en una salida observable, no solo en una definicion.",
+            "Criterio de cierre: la conclusion no promete mas de lo que los datos permiten.",
+            "Evidencia minima: recomendacion con evidencia, limite y siguiente paso.",
+            "Entregable final relacionado: informe estadistico simple con pregunta, muestra, resumen, comparacion, incertidumbre y recomendacion responsable."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m6-l2",
-          "title": "Evidencia",
-          "keyIdea": "Idea clave: Evidencia sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
-          "shortTheory": "En esta leccion vas a trabajar \"Evidencia\" dentro del modulo \"Decision informada\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
-          "practicalExample": "Una persona debe comparar resultados y necesita evitar conclusiones rapidas basadas solo en un promedio aislado. Aplica \"Evidencia\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
-          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una nota de decision con pregunta, medida usada, variabilidad, sesgo posible y conclusion prudente.",
-          "alert": "No tomar decisiones importantes solo con promedios sin revisar dispersion, muestra y contexto.",
+          "title": "Contexto",
+          "keyIdea": "Contexto ayuda a que el dato, indicador o mensaje sea revisable y no dependa de intuicion.",
+          "shortTheory": "En esta leccion se trabaja contexto dentro de comunicar conclusiones. La meta es pasar de una idea general a un criterio de trabajo que se pueda comprobar con evidencia.",
+          "practicalExample": "Un equipo necesita interpretar ventas, encuestas o indicadores y decidir sin confundir ruido, tendencia, promedio o excepcion. Aplica contexto, guarda recomendacion con evidencia, limite y siguiente paso y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar con datos o graficos que parecen correctos sin revisar origen, definicion, calidad, contexto ni consecuencia de uso.",
+          "whatToDoNow": "Practica de 25 minutos: aplica contexto sobre una muestra pequena, compara resultado esperado contra resultado obtenido y registra limite, evidencia y proxima mejora.",
+          "alert": "Una buena conclusion incluye lo que no se sabe.",
           "keyPoints": [
-            "Evidencia debe responder una pregunta concreta, no solo producir un resultado tecnico.",
-            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
-            "La evidencia minima esperada es: una nota de decision con pregunta, medida usada, variabilidad, sesgo posible y conclusion prudente.",
-            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+            "Contexto debe terminar en una salida observable, no solo en una definicion.",
+            "Criterio de cierre: la conclusion no promete mas de lo que los datos permiten.",
+            "Evidencia minima: recomendacion con evidencia, limite y siguiente paso.",
+            "Entregable final relacionado: informe estadistico simple con pregunta, muestra, resumen, comparacion, incertidumbre y recomendacion responsable."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m6-l3",
-          "title": "Incertidumbre",
-          "keyIdea": "Idea clave: Incertidumbre sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
-          "shortTheory": "En esta leccion vas a trabajar \"Incertidumbre\" dentro del modulo \"Decision informada\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
-          "practicalExample": "Una persona debe comparar resultados y necesita evitar conclusiones rapidas basadas solo en un promedio aislado. Aplica \"Incertidumbre\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
-          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una nota de decision con pregunta, medida usada, variabilidad, sesgo posible y conclusion prudente.",
-          "alert": "No tomar decisiones importantes solo con promedios sin revisar dispersion, muestra y contexto.",
+          "title": "Limites",
+          "keyIdea": "Limites ayuda a que el dato, indicador o mensaje sea revisable y no dependa de intuicion.",
+          "shortTheory": "En esta leccion se trabaja limites dentro de comunicar conclusiones. La meta es pasar de una idea general a un criterio de trabajo que se pueda comprobar con evidencia.",
+          "practicalExample": "Un equipo necesita interpretar ventas, encuestas o indicadores y decidir sin confundir ruido, tendencia, promedio o excepcion. Aplica limites, guarda recomendacion con evidencia, limite y siguiente paso y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar con datos o graficos que parecen correctos sin revisar origen, definicion, calidad, contexto ni consecuencia de uso.",
+          "whatToDoNow": "Practica de 25 minutos: aplica limites sobre una muestra pequena, compara resultado esperado contra resultado obtenido y registra limite, evidencia y proxima mejora.",
+          "alert": "Una buena conclusion incluye lo que no se sabe.",
           "keyPoints": [
-            "Incertidumbre debe responder una pregunta concreta, no solo producir un resultado tecnico.",
-            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
-            "La evidencia minima esperada es: una nota de decision con pregunta, medida usada, variabilidad, sesgo posible y conclusion prudente.",
-            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+            "Limites debe terminar en una salida observable, no solo en una definicion.",
+            "Criterio de cierre: la conclusion no promete mas de lo que los datos permiten.",
+            "Evidencia minima: recomendacion con evidencia, limite y siguiente paso.",
+            "Entregable final relacionado: informe estadistico simple con pregunta, muestra, resumen, comparacion, incertidumbre y recomendacion responsable."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m6-l4",
-          "title": "Alternativas",
-          "keyIdea": "Idea clave: Alternativas sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
-          "shortTheory": "En esta leccion vas a trabajar \"Alternativas\" dentro del modulo \"Decision informada\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
-          "practicalExample": "Una persona debe comparar resultados y necesita evitar conclusiones rapidas basadas solo en un promedio aislado. Aplica \"Alternativas\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
-          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una nota de decision con pregunta, medida usada, variabilidad, sesgo posible y conclusion prudente.",
-          "alert": "No tomar decisiones importantes solo con promedios sin revisar dispersion, muestra y contexto.",
+          "title": "Visual simple",
+          "keyIdea": "Visual simple ayuda a que el dato, indicador o mensaje sea revisable y no dependa de intuicion.",
+          "shortTheory": "En esta leccion se trabaja visual simple dentro de comunicar conclusiones. La meta es pasar de una idea general a un criterio de trabajo que se pueda comprobar con evidencia.",
+          "practicalExample": "Un equipo necesita interpretar ventas, encuestas o indicadores y decidir sin confundir ruido, tendencia, promedio o excepcion. Aplica visual simple, guarda recomendacion con evidencia, limite y siguiente paso y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar con datos o graficos que parecen correctos sin revisar origen, definicion, calidad, contexto ni consecuencia de uso.",
+          "whatToDoNow": "Practica de 25 minutos: aplica visual simple sobre una muestra pequena, compara resultado esperado contra resultado obtenido y registra limite, evidencia y proxima mejora.",
+          "alert": "Una buena conclusion incluye lo que no se sabe.",
           "keyPoints": [
-            "Alternativas debe responder una pregunta concreta, no solo producir un resultado tecnico.",
-            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
-            "La evidencia minima esperada es: una nota de decision con pregunta, medida usada, variabilidad, sesgo posible y conclusion prudente.",
-            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+            "Visual simple debe terminar en una salida observable, no solo en una definicion.",
+            "Criterio de cierre: la conclusion no promete mas de lo que los datos permiten.",
+            "Evidencia minima: recomendacion con evidencia, limite y siguiente paso.",
+            "Entregable final relacionado: informe estadistico simple con pregunta, muestra, resumen, comparacion, incertidumbre y recomendacion responsable."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m6-l5",
           "title": "Recomendacion",
-          "keyIdea": "Idea clave: Recomendacion sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
-          "shortTheory": "En esta leccion vas a trabajar \"Recomendacion\" dentro del modulo \"Decision informada\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
-          "practicalExample": "Una persona debe comparar resultados y necesita evitar conclusiones rapidas basadas solo en un promedio aislado. Aplica \"Recomendacion\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
-          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una nota de decision con pregunta, medida usada, variabilidad, sesgo posible y conclusion prudente.",
-          "alert": "No tomar decisiones importantes solo con promedios sin revisar dispersion, muestra y contexto.",
+          "keyIdea": "Recomendacion ayuda a que el dato, indicador o mensaje sea revisable y no dependa de intuicion.",
+          "shortTheory": "En esta leccion se trabaja recomendacion dentro de comunicar conclusiones. La meta es pasar de una idea general a un criterio de trabajo que se pueda comprobar con evidencia.",
+          "practicalExample": "Un equipo necesita interpretar ventas, encuestas o indicadores y decidir sin confundir ruido, tendencia, promedio o excepcion. Aplica recomendacion, guarda recomendacion con evidencia, limite y siguiente paso y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar con datos o graficos que parecen correctos sin revisar origen, definicion, calidad, contexto ni consecuencia de uso.",
+          "whatToDoNow": "Practica de 25 minutos: aplica recomendacion sobre una muestra pequena, compara resultado esperado contra resultado obtenido y registra limite, evidencia y proxima mejora.",
+          "alert": "Una buena conclusion incluye lo que no se sabe.",
           "keyPoints": [
-            "Recomendacion debe responder una pregunta concreta, no solo producir un resultado tecnico.",
-            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
-            "La evidencia minima esperada es: una nota de decision con pregunta, medida usada, variabilidad, sesgo posible y conclusion prudente.",
-            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+            "Recomendacion debe terminar en una salida observable, no solo en una definicion.",
+            "Criterio de cierre: la conclusion no promete mas de lo que los datos permiten.",
+            "Evidencia minima: recomendacion con evidencia, limite y siguiente paso.",
+            "Entregable final relacionado: informe estadistico simple con pregunta, muestra, resumen, comparacion, incertidumbre y recomendacion responsable."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
           "id": "m6-l6",
           "title": "Proxima medicion",
-          "keyIdea": "Idea clave: Proxima medicion sirve para pasar de datos sueltos a una respuesta clara, verificable y util.",
-          "shortTheory": "En esta leccion vas a trabajar \"Proxima medicion\" dentro del modulo \"Decision informada\". El punto central es conectar pregunta, fuente, metodo y resultado para que la conclusion no dependa de intuicion o copia mecanica.",
-          "practicalExample": "Una persona debe comparar resultados y necesita evitar conclusiones rapidas basadas solo en un promedio aislado. Aplica \"Proxima medicion\" con una version pequena: define la pregunta, revisa la fuente, ejecuta el paso principal y anota que evidencia confirma el resultado.",
-          "commonMistake": "El error comun es saltar directo al grafico, formula o consulta sin validar definiciones, calidad del dato o contexto. Una practica profesional documenta supuestos y deja rastro revisable.",
-          "whatToDoNow": "Ejercicio de 20 minutos: toma un caso real o simulado del curso. Escribe pregunta, dato usado, paso aplicado, resultado y limite de la conclusion. Entrega esperada: una nota de decision con pregunta, medida usada, variabilidad, sesgo posible y conclusion prudente.",
-          "alert": "No tomar decisiones importantes solo con promedios sin revisar dispersion, muestra y contexto.",
+          "keyIdea": "Proxima medicion ayuda a que el dato, indicador o mensaje sea revisable y no dependa de intuicion.",
+          "shortTheory": "En esta leccion se trabaja proxima medicion dentro de comunicar conclusiones. La meta es pasar de una idea general a un criterio de trabajo que se pueda comprobar con evidencia.",
+          "practicalExample": "Un equipo necesita interpretar ventas, encuestas o indicadores y decidir sin confundir ruido, tendencia, promedio o excepcion. Aplica proxima medicion, guarda recomendacion con evidencia, limite y siguiente paso y anota que decision permite tomar.",
+          "commonMistake": "El error habitual es avanzar con datos o graficos que parecen correctos sin revisar origen, definicion, calidad, contexto ni consecuencia de uso.",
+          "whatToDoNow": "Practica de 25 minutos: aplica proxima medicion sobre una muestra pequena, compara resultado esperado contra resultado obtenido y registra limite, evidencia y proxima mejora.",
+          "alert": "Una buena conclusion incluye lo que no se sabe.",
           "keyPoints": [
-            "Proxima medicion debe responder una pregunta concreta, no solo producir un resultado tecnico.",
-            "La fuente, la definicion y el control de calidad importan tanto como la herramienta.",
-            "La evidencia minima esperada es: una nota de decision con pregunta, medida usada, variabilidad, sesgo posible y conclusion prudente.",
-            "El resultado debe poder revisarse, explicarse y mejorarse con nuevos datos."
+            "Proxima medicion debe terminar en una salida observable, no solo en una definicion.",
+            "Criterio de cierre: la conclusion no promete mas de lo que los datos permiten.",
+            "Evidencia minima: recomendacion con evidencia, limite y siguiente paso.",
+            "Entregable final relacionado: informe estadistico simple con pregunta, muestra, resumen, comparacion, incertidumbre y recomendacion responsable."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         }
@@ -981,76 +976,65 @@
       "quiz": [
         {
           "id": "m6-q1",
-          "question": "Pregunta 1: ¿que conviene hacer al trabajar ",
+          "question": "Que conviene definir primero en \"Comunicar conclusiones\"?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Pregunta, dato necesario, fuente, criterio de calidad y evidencia de cierre.",
+            "El grafico mas vistoso.",
+            "Una conclusion antes de revisar datos.",
+            "La herramienta que ya esta abierta."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: datos utiles empiezan con pregunta, fuente y criterio verificable."
         },
         {
           "id": "m6-q2",
-          "question": "Pregunta 2: ¿que conviene hacer al trabajar ",
+          "question": "Que evidencia permite cerrar el modulo con mas confianza?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "recomendacion con evidencia, limite y siguiente paso",
+            "Una captura sin explicar filtros ni fuente.",
+            "Una frase como 'parece estar bien'.",
+            "Un numero aislado sin periodo ni definicion."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: recomendacion con evidencia, limite y siguiente paso permite revisar el resultado despues."
         },
         {
           "id": "m6-q3",
-          "question": "Pregunta 3: ¿que conviene hacer al trabajar ",
+          "question": "Que conducta aumenta el riesgo de una mala decision con datos?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Presentar una conclusion fuerte con datos debiles.",
+            "Validar una muestra antes de generalizar.",
+            "Documentar supuestos y limites.",
+            "Separar dato, interpretacion y recomendacion."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: esa conducta oculta errores y puede llevar a decisiones equivocadas."
         },
         {
           "id": "m6-q4",
-          "question": "Pregunta 4: ¿que conviene hacer al trabajar ",
+          "question": "Cuando corresponde pedir validacion externa o revisar una fuente confiable?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "Cuando el informe se usa para decisiones publicas o laborales.",
+            "Nunca, porque un ejercicio introductorio reemplaza cualquier revision.",
+            "Solo despues de publicar el informe.",
+            "Cuando el grafico usa muchos colores."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: algunos datos requieren fuente oficial, responsable del dato o una persona competente."
         },
         {
           "id": "m6-q5",
-          "question": "Pregunta 5: ¿que conviene hacer al trabajar ",
+          "question": "Cual es el entregable minimo de \"Comunicar conclusiones\"?",
           "options": [
-            "Avanzar con un ejemplo pequeno, verificarlo y documentar el resultado",
-            "Copiar una solucion larga sin entenderla",
-            "Publicar sin revisar fuentes ni limites",
-            "Mezclar datos reales sensibles en una practica inicial"
+            "informe estadistico breve",
+            "Una tabla sin fuente ni fecha.",
+            "Un grafico sin lectura principal.",
+            "Un archivo final sin criterios de calidad."
           ],
           "correctAnswerIndex": 0,
-          "feedback": "Correcto: el aprendizaje profesional se apoya en practicas pequenas, verificables y bien documentadas."
+          "feedback": "Correcto: informe estadistico breve deja avance verificable."
         }
-      ],
-      "professionalOutcome": "calcular indicadores simples, evitar conclusiones apresuradas y comunicar incertidumbre. Entregable sugerido: una ficha de decision con metrica, comparacion, interpretacion, limite y accion."
+      ]
     }
-  ],
-  "appName": "Estadistica Basica para Decisiones",
-  "professionalization": {
-    "tier": "curso-bandera-v1.0-beta",
-    "updatedAt": "2026-05-28",
-    "focus": "Profundizacion visible de lecciones, practicas, checklists y casos."
-  },
-  "editorialPolish": {
-    "thirdEditorialBatch": "2026-06-02",
-    "status": "public-facing-copy-polished"
-  }
+  ]
 }

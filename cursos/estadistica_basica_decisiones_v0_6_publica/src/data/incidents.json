@@ -1,441 +1,441 @@
 {
   "incidents": [
     {
-      "id": "case-1",
-      "title": "Caso inicial controlado: Estadistica Basica para Decisiones",
-      "summary": "Practica aplicada para resolver una situacion de uso practico de estadistica descriptiva para tomar decisiones con menos intuicion con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una lectura estadistica breve sin exponer datos sensibles y con una decision verificable.",
+      "id": "estad-case-1",
+      "title": "Promedio engañoso",
+      "summary": "Una venta muy grande sube el promedio mensual.",
+      "severity": "Practica guiada",
+      "immediateGoal": "Comparar media y mediana.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Describir el problema inicial: valor extremo.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una lectura estadistica breve.",
-        "Revisar el resultado contra este criterio: la conclusion explica que muestran los datos y que no permiten afirmar.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: calcular ambas medidas y explicar diferencia.",
+        "Guardar evidencia: tabla con media, mediana y outlier.",
+        "Validar con una muestra, fuente confiable o responsable del dato si corresponde.",
+        "Cerrar con decision, limite detectado y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "datos usados, medida calculada, comparacion, variacion, muestra y advertencia de limite",
-        "Decision final y motivo"
+        "Fuente o archivo de partida",
+        "tabla con media, mediana y outlier",
+        "Version inicial y version corregida",
+        "Decision tomada y motivo",
+        "Duda o riesgo pendiente"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Concluir solo con el promedio.",
+        "Usar datos sensibles en practicas educativas.",
+        "Cambiar resultados manualmente para que cierren.",
+        "Publicar sin explicar filtros, periodo o fuente.",
+        "Confundir correlacion, tendencia o apariencia con causa."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Revisar extremos en cada reporte.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Actualizar el checklist del curso.",
+        "Definir siguiente caso de practica."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision muestra mejor criterio profesional con datos?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Verificar fuente, calidad, definicion y limites antes de comunicar o decidir.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: reduce errores y deja trazabilidad."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Usar el resultado porque el grafico se ve claro.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La claridad visual no prueba calidad ni contexto."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Ocultar dudas para que el informe parezca mas firme.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Los limites bien escritos aumentan confianza responsable."
           }
         ]
       }
     },
     {
-      "id": "case-2",
-      "title": "Caso con datos incompletos: Estadistica Basica para Decisiones",
-      "summary": "Practica aplicada para resolver una situacion de uso practico de estadistica descriptiva para tomar decisiones con menos intuicion con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una lectura estadistica breve sin exponer datos sensibles y con una decision verificable.",
+      "id": "estad-case-2",
+      "title": "Encuesta de pocos amigos",
+      "summary": "Se quiere decidir con respuestas de un grupo no representativo.",
+      "severity": "Practica guiada",
+      "immediateGoal": "Marcar sesgo de muestra.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Describir el problema inicial: muestra de conveniencia.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una lectura estadistica breve.",
-        "Revisar el resultado contra este criterio: la conclusion explica que muestran los datos y que no permiten afirmar.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: describir sesgo y limitar conclusion.",
+        "Guardar evidencia: ficha de muestra.",
+        "Validar con una muestra, fuente confiable o responsable del dato si corresponde.",
+        "Cerrar con decision, limite detectado y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "datos usados, medida calculada, comparacion, variacion, muestra y advertencia de limite",
-        "Decision final y motivo"
+        "Fuente o archivo de partida",
+        "ficha de muestra",
+        "Version inicial y version corregida",
+        "Decision tomada y motivo",
+        "Duda o riesgo pendiente"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Publicar como opinion general.",
+        "Usar datos sensibles en practicas educativas.",
+        "Cambiar resultados manualmente para que cierren.",
+        "Publicar sin explicar filtros, periodo o fuente.",
+        "Confundir correlacion, tendencia o apariencia con causa."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Mejorar metodo de recoleccion.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Actualizar el checklist del curso.",
+        "Definir siguiente caso de practica."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision muestra mejor criterio profesional con datos?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Verificar fuente, calidad, definicion y limites antes de comunicar o decidir.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: reduce errores y deja trazabilidad."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Usar el resultado porque el grafico se ve claro.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La claridad visual no prueba calidad ni contexto."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Ocultar dudas para que el informe parezca mas firme.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Los limites bien escritos aumentan confianza responsable."
           }
         ]
       }
     },
     {
-      "id": "case-3",
-      "title": "Caso con presion de tiempo: Estadistica Basica para Decisiones",
-      "summary": "Practica aplicada para resolver una situacion de uso practico de estadistica descriptiva para tomar decisiones con menos intuicion con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una lectura estadistica breve sin exponer datos sensibles y con una decision verificable.",
+      "id": "estad-case-3",
+      "title": "Cambio pequeño exagerado",
+      "summary": "Un indicador sube 1 punto y se anuncia gran mejora.",
+      "severity": "Practica guiada",
+      "immediateGoal": "Evaluar variacion.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Describir el problema inicial: diferencia pequeña entre periodos.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una lectura estadistica breve.",
-        "Revisar el resultado contra este criterio: la conclusion explica que muestran los datos y que no permiten afirmar.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: comparar historico y tamaño de base.",
+        "Guardar evidencia: serie con variacion.",
+        "Validar con una muestra, fuente confiable o responsable del dato si corresponde.",
+        "Cerrar con decision, limite detectado y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "datos usados, medida calculada, comparacion, variacion, muestra y advertencia de limite",
-        "Decision final y motivo"
+        "Fuente o archivo de partida",
+        "serie con variacion",
+        "Version inicial y version corregida",
+        "Decision tomada y motivo",
+        "Duda o riesgo pendiente"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Convertir ruido en noticia.",
+        "Usar datos sensibles en practicas educativas.",
+        "Cambiar resultados manualmente para que cierren.",
+        "Publicar sin explicar filtros, periodo o fuente.",
+        "Confundir correlacion, tendencia o apariencia con causa."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Definir umbral de cambio relevante.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Actualizar el checklist del curso.",
+        "Definir siguiente caso de practica."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision muestra mejor criterio profesional con datos?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Verificar fuente, calidad, definicion y limites antes de comunicar o decidir.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: reduce errores y deja trazabilidad."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Usar el resultado porque el grafico se ve claro.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La claridad visual no prueba calidad ni contexto."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Ocultar dudas para que el informe parezca mas firme.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Los limites bien escritos aumentan confianza responsable."
           }
         ]
       }
     },
     {
-      "id": "case-4",
-      "title": "Caso de comunicacion con otra persona: Estadistica Basica para Decisiones",
-      "summary": "Practica aplicada para resolver una situacion de uso practico de estadistica descriptiva para tomar decisiones con menos intuicion con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una lectura estadistica breve sin exponer datos sensibles y con una decision verificable.",
+      "id": "estad-case-4",
+      "title": "Comparacion injusta de sucursales",
+      "summary": "Se compara ventas absolutas de locales de distinto tamaño.",
+      "severity": "Practica guiada",
+      "immediateGoal": "Normalizar indicador.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Describir el problema inicial: bases desiguales.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una lectura estadistica breve.",
-        "Revisar el resultado contra este criterio: la conclusion explica que muestran los datos y que no permiten afirmar.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: usar tasa, promedio por dia o venta por superficie.",
+        "Guardar evidencia: comparacion normalizada.",
+        "Validar con una muestra, fuente confiable o responsable del dato si corresponde.",
+        "Cerrar con decision, limite detectado y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "datos usados, medida calculada, comparacion, variacion, muestra y advertencia de limite",
-        "Decision final y motivo"
+        "Fuente o archivo de partida",
+        "comparacion normalizada",
+        "Version inicial y version corregida",
+        "Decision tomada y motivo",
+        "Duda o riesgo pendiente"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Premiar solo por volumen absoluto.",
+        "Usar datos sensibles en practicas educativas.",
+        "Cambiar resultados manualmente para que cierren.",
+        "Publicar sin explicar filtros, periodo o fuente.",
+        "Confundir correlacion, tendencia o apariencia con causa."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Definir metrica justa.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Actualizar el checklist del curso.",
+        "Definir siguiente caso de practica."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision muestra mejor criterio profesional con datos?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Verificar fuente, calidad, definicion y limites antes de comunicar o decidir.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: reduce errores y deja trazabilidad."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Usar el resultado porque el grafico se ve claro.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La claridad visual no prueba calidad ni contexto."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Ocultar dudas para que el informe parezca mas firme.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Los limites bien escritos aumentan confianza responsable."
           }
         ]
       }
     },
     {
-      "id": "case-5",
-      "title": "Caso de error frecuente: Estadistica Basica para Decisiones",
-      "summary": "Practica aplicada para resolver una situacion de uso practico de estadistica descriptiva para tomar decisiones con menos intuicion con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una lectura estadistica breve sin exponer datos sensibles y con una decision verificable.",
+      "id": "estad-case-5",
+      "title": "Porcentaje sin denominador",
+      "summary": "Se informa 40% sin decir de cuantos casos.",
+      "severity": "Practica guiada",
+      "immediateGoal": "Mostrar base.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Describir el problema inicial: porcentaje aislado.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una lectura estadistica breve.",
-        "Revisar el resultado contra este criterio: la conclusion explica que muestran los datos y que no permiten afirmar.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: agregar numerador, denominador y periodo.",
+        "Guardar evidencia: indicador corregido.",
+        "Validar con una muestra, fuente confiable o responsable del dato si corresponde.",
+        "Cerrar con decision, limite detectado y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "datos usados, medida calculada, comparacion, variacion, muestra y advertencia de limite",
-        "Decision final y motivo"
+        "Fuente o archivo de partida",
+        "indicador corregido",
+        "Version inicial y version corregida",
+        "Decision tomada y motivo",
+        "Duda o riesgo pendiente"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Usar porcentaje para impresionar.",
+        "Usar datos sensibles en practicas educativas.",
+        "Cambiar resultados manualmente para que cierren.",
+        "Publicar sin explicar filtros, periodo o fuente.",
+        "Confundir correlacion, tendencia o apariencia con causa."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Checklist de indicadores.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Actualizar el checklist del curso.",
+        "Definir siguiente caso de practica."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision muestra mejor criterio profesional con datos?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Verificar fuente, calidad, definicion y limites antes de comunicar o decidir.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: reduce errores y deja trazabilidad."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Usar el resultado porque el grafico se ve claro.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La claridad visual no prueba calidad ni contexto."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Ocultar dudas para que el informe parezca mas firme.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Los limites bien escritos aumentan confianza responsable."
           }
         ]
       }
     },
     {
-      "id": "case-6",
-      "title": "Caso de mejora de proceso: Estadistica Basica para Decisiones",
-      "summary": "Practica aplicada para resolver una situacion de uso practico de estadistica descriptiva para tomar decisiones con menos intuicion con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una lectura estadistica breve sin exponer datos sensibles y con una decision verificable.",
+      "id": "estad-case-6",
+      "title": "Grafico de tendencia con pocos puntos",
+      "summary": "Tres meses se interpretan como tendencia firme.",
+      "severity": "Practica guiada",
+      "immediateGoal": "Agregar contexto temporal.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Describir el problema inicial: serie corta.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una lectura estadistica breve.",
-        "Revisar el resultado contra este criterio: la conclusion explica que muestran los datos y que no permiten afirmar.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: ampliar periodo o escribir limite.",
+        "Guardar evidencia: grafico con nota de alcance.",
+        "Validar con una muestra, fuente confiable o responsable del dato si corresponde.",
+        "Cerrar con decision, limite detectado y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "datos usados, medida calculada, comparacion, variacion, muestra y advertencia de limite",
-        "Decision final y motivo"
+        "Fuente o archivo de partida",
+        "grafico con nota de alcance",
+        "Version inicial y version corregida",
+        "Decision tomada y motivo",
+        "Duda o riesgo pendiente"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Proyectar futuro con pocos datos.",
+        "Usar datos sensibles en practicas educativas.",
+        "Cambiar resultados manualmente para que cierren.",
+        "Publicar sin explicar filtros, periodo o fuente.",
+        "Confundir correlacion, tendencia o apariencia con causa."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Recolectar mas periodos.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Actualizar el checklist del curso.",
+        "Definir siguiente caso de practica."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision muestra mejor criterio profesional con datos?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Verificar fuente, calidad, definicion y limites antes de comunicar o decidir.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: reduce errores y deja trazabilidad."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Usar el resultado porque el grafico se ve claro.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La claridad visual no prueba calidad ni contexto."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Ocultar dudas para que el informe parezca mas firme.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Los limites bien escritos aumentan confianza responsable."
           }
         ]
       }
     },
     {
-      "id": "case-7",
-      "title": "Caso de decision responsable: Estadistica Basica para Decisiones",
-      "summary": "Practica aplicada para resolver una situacion de uso practico de estadistica descriptiva para tomar decisiones con menos intuicion con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una lectura estadistica breve sin exponer datos sensibles y con una decision verificable.",
+      "id": "estad-case-7",
+      "title": "Datos con faltantes ignorados",
+      "summary": "No responden varias personas y se calculan porcentajes igual.",
+      "severity": "Practica guiada",
+      "immediateGoal": "Medir no respuesta.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Describir el problema inicial: faltantes en encuesta.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una lectura estadistica breve.",
-        "Revisar el resultado contra este criterio: la conclusion explica que muestran los datos y que no permiten afirmar.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: separar validos, faltantes y total.",
+        "Guardar evidencia: tabla de respuesta.",
+        "Validar con una muestra, fuente confiable o responsable del dato si corresponde.",
+        "Cerrar con decision, limite detectado y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "datos usados, medida calculada, comparacion, variacion, muestra y advertencia de limite",
-        "Decision final y motivo"
+        "Fuente o archivo de partida",
+        "tabla de respuesta",
+        "Version inicial y version corregida",
+        "Decision tomada y motivo",
+        "Duda o riesgo pendiente"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Borrar faltantes sin mencionarlos.",
+        "Usar datos sensibles en practicas educativas.",
+        "Cambiar resultados manualmente para que cierren.",
+        "Publicar sin explicar filtros, periodo o fuente.",
+        "Confundir correlacion, tendencia o apariencia con causa."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Mejorar formulario.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Actualizar el checklist del curso.",
+        "Definir siguiente caso de practica."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision muestra mejor criterio profesional con datos?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Verificar fuente, calidad, definicion y limites antes de comunicar o decidir.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: reduce errores y deja trazabilidad."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Usar el resultado porque el grafico se ve claro.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La claridad visual no prueba calidad ni contexto."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Ocultar dudas para que el informe parezca mas firme.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Los limites bien escritos aumentan confianza responsable."
           }
         ]
       }
     },
     {
-      "id": "case-8",
-      "title": "Proyecto final integrador: Estadistica Basica para Decisiones",
-      "summary": "Practica aplicada para resolver una situacion de uso practico de estadistica descriptiva para tomar decisiones con menos intuicion con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Proyecto final",
-      "immediateGoal": "Transformar el caso en una lectura estadistica breve sin exponer datos sensibles y con una decision verificable.",
+      "id": "estad-case-8",
+      "title": "Conclusion sin accion",
+      "summary": "El informe tiene numeros pero no ayuda a decidir.",
+      "severity": "Practica guiada",
+      "immediateGoal": "Escribir recomendacion prudente.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Describir el problema inicial: hallazgos sueltos.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una lectura estadistica breve.",
-        "Revisar el resultado contra este criterio: la conclusion explica que muestran los datos y que no permiten afirmar.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: conectar dato, limite y siguiente paso.",
+        "Guardar evidencia: conclusion reescrita.",
+        "Validar con una muestra, fuente confiable o responsable del dato si corresponde.",
+        "Cerrar con decision, limite detectado y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "datos usados, medida calculada, comparacion, variacion, muestra y advertencia de limite",
-        "Decision final y motivo"
+        "Fuente o archivo de partida",
+        "conclusion reescrita",
+        "Version inicial y version corregida",
+        "Decision tomada y motivo",
+        "Duda o riesgo pendiente"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Agregar mas tablas.",
+        "Usar datos sensibles en practicas educativas.",
+        "Cambiar resultados manualmente para que cierren.",
+        "Publicar sin explicar filtros, periodo o fuente.",
+        "Confundir correlacion, tendencia o apariencia con causa."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Usar plantilla de decision.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Actualizar el checklist del curso.",
+        "Definir siguiente caso de practica."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision muestra mejor criterio profesional con datos?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Verificar fuente, calidad, definicion y limites antes de comunicar o decidir.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: reduce errores y deja trazabilidad."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Usar el resultado porque el grafico se ve claro.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La claridad visual no prueba calidad ni contexto."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Ocultar dudas para que el informe parezca mas firme.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Los limites bien escritos aumentan confianza responsable."
           }
         ]
       }

@@ -46,7 +46,8 @@
 - [x] Reforzar segunda tanda de 5 cursos sensibles.
 - [x] Reforzar tercera tanda de 5 cursos de alta visibilidad.
 - [x] Reforzar cuarta tanda de 5 cursos de trabajo y emprendimiento.
-- [ ] Reforzar los 12 cursos restantes con patrones de contenido generico.
+- [x] Reforzar quinta tanda de 5 cursos de datos y analisis.
+- [ ] Reforzar los 7 cursos restantes con patrones de contenido generico.
 
 ## Cierre v1.0
 

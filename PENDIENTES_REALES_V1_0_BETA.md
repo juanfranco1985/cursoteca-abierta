@@ -22,7 +22,7 @@ Verificar escritorio, notebook y movil. Revisar portada, estantes, tarjetas, bus
 
 Leer una muestra amplia de cursos sensibles: privacidad, seguridad, finanzas, tramites, monotributo, educacion financiera y salud digital.
 
-La auditoria del 2026-06-04 detecto 32 cursos con patrones de contenido generico. UX/UI Basico fue reforzado como primera muestra, la tanda 1 reforzo 5 cursos adicionales, la tanda 2 reforzo 5 cursos sensibles y la tanda 3 reforzo 5 cursos de alta visibilidad y la tanda 4 reforzo 5 cursos de trabajo y emprendimiento. Quedan 12 cursos por trabajar antes de considerar v1.0 final.
+La auditoria del 2026-06-04 detecto 32 cursos con patrones de contenido generico. UX/UI Basico fue reforzado como primera muestra; la tanda 1 reforzo 5 cursos adicionales, la tanda 2 reforzo 5 cursos sensibles, la tanda 3 reforzo 5 cursos de alta visibilidad, la tanda 4 reforzo 5 cursos de trabajo y emprendimiento, y la tanda 5 reforzo 5 cursos de datos y analisis. Quedan 7 cursos por trabajar antes de considerar v1.0 final.
 
 3. Textos legales/publicos.
 

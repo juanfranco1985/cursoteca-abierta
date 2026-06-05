@@ -1,441 +1,441 @@
 {
   "incidents": [
     {
-      "id": "case-1",
-      "title": "Caso inicial controlado: Excel para Analisis de Datos",
-      "summary": "Practica aplicada para resolver una situacion de analisis practico en Excel con tablas, formulas, filtros, validacion y graficos simples con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una planilla de analisis organizada sin exponer datos sensibles y con una decision verificable.",
+      "id": "exanal-case-1",
+      "title": "Tabla dinamica no actualiza",
+      "summary": "Se agregan filas pero el resumen no cambia.",
+      "severity": "Practica guiada",
+      "immediateGoal": "Usar tabla como origen.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Describir el problema inicial: rango fijo.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una planilla de analisis organizada.",
-        "Revisar el resultado contra este criterio: la planilla puede actualizarse sin romper formulas ni perder trazabilidad.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: convertir rango en tabla y actualizar origen.",
+        "Guardar evidencia: origen corregido.",
+        "Validar con una muestra, fuente confiable o responsable del dato si corresponde.",
+        "Cerrar con decision, limite detectado y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "archivo base, tabla limpia, formulas usadas, filtros, grafico y conclusion",
-        "Decision final y motivo"
+        "Fuente o archivo de partida",
+        "origen corregido",
+        "Version inicial y version corregida",
+        "Decision tomada y motivo",
+        "Duda o riesgo pendiente"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Copiar filas manualmente dentro del resumen.",
+        "Usar datos sensibles en practicas educativas.",
+        "Cambiar resultados manualmente para que cierren.",
+        "Publicar sin explicar filtros, periodo o fuente.",
+        "Confundir correlacion, tendencia o apariencia con causa."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Usar tablas en reportes recurrentes.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Actualizar el checklist del curso.",
+        "Definir siguiente caso de practica."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision muestra mejor criterio profesional con datos?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Verificar fuente, calidad, definicion y limites antes de comunicar o decidir.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: reduce errores y deja trazabilidad."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Usar el resultado porque el grafico se ve claro.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La claridad visual no prueba calidad ni contexto."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Ocultar dudas para que el informe parezca mas firme.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Los limites bien escritos aumentan confianza responsable."
           }
         ]
       }
     },
     {
-      "id": "case-2",
-      "title": "Caso con datos incompletos: Excel para Analisis de Datos",
-      "summary": "Practica aplicada para resolver una situacion de analisis practico en Excel con tablas, formulas, filtros, validacion y graficos simples con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una planilla de analisis organizada sin exponer datos sensibles y con una decision verificable.",
+      "id": "exanal-case-2",
+      "title": "Fechas importadas como texto",
+      "summary": "Los meses no agrupan correctamente.",
+      "severity": "Practica guiada",
+      "immediateGoal": "Convertir y validar fechas.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Describir el problema inicial: tipo incorrecto.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una planilla de analisis organizada.",
-        "Revisar el resultado contra este criterio: la planilla puede actualizarse sin romper formulas ni perder trazabilidad.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: identificar formato y convertir con control.",
+        "Guardar evidencia: conteo de fechas validas.",
+        "Validar con una muestra, fuente confiable o responsable del dato si corresponde.",
+        "Cerrar con decision, limite detectado y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "archivo base, tabla limpia, formulas usadas, filtros, grafico y conclusion",
-        "Decision final y motivo"
+        "Fuente o archivo de partida",
+        "conteo de fechas validas",
+        "Version inicial y version corregida",
+        "Decision tomada y motivo",
+        "Duda o riesgo pendiente"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Cambiar formato visual sin convertir.",
+        "Usar datos sensibles en practicas educativas.",
+        "Cambiar resultados manualmente para que cierren.",
+        "Publicar sin explicar filtros, periodo o fuente.",
+        "Confundir correlacion, tendencia o apariencia con causa."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Crear control de importacion.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Actualizar el checklist del curso.",
+        "Definir siguiente caso de practica."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision muestra mejor criterio profesional con datos?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Verificar fuente, calidad, definicion y limites antes de comunicar o decidir.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: reduce errores y deja trazabilidad."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Usar el resultado porque el grafico se ve claro.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La claridad visual no prueba calidad ni contexto."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Ocultar dudas para que el informe parezca mas firme.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Los limites bien escritos aumentan confianza responsable."
           }
         ]
       }
     },
     {
-      "id": "case-3",
-      "title": "Caso con presion de tiempo: Excel para Analisis de Datos",
-      "summary": "Practica aplicada para resolver una situacion de analisis practico en Excel con tablas, formulas, filtros, validacion y graficos simples con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una planilla de analisis organizada sin exponer datos sensibles y con una decision verificable.",
+      "id": "exanal-case-3",
+      "title": "Formula arrastrada rompe referencias",
+      "summary": "Un indicador cambia porque una celda fija se movio.",
+      "severity": "Practica guiada",
+      "immediateGoal": "Auditar referencias.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Describir el problema inicial: referencia relativa incorrecta.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una planilla de analisis organizada.",
-        "Revisar el resultado contra este criterio: la planilla puede actualizarse sin romper formulas ni perder trazabilidad.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: separar referencias relativas y absolutas.",
+        "Guardar evidencia: formula antes/despues.",
+        "Validar con una muestra, fuente confiable o responsable del dato si corresponde.",
+        "Cerrar con decision, limite detectado y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "archivo base, tabla limpia, formulas usadas, filtros, grafico y conclusion",
-        "Decision final y motivo"
+        "Fuente o archivo de partida",
+        "formula antes/despues",
+        "Version inicial y version corregida",
+        "Decision tomada y motivo",
+        "Duda o riesgo pendiente"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Editar resultado final.",
+        "Usar datos sensibles en practicas educativas.",
+        "Cambiar resultados manualmente para que cierren.",
+        "Publicar sin explicar filtros, periodo o fuente.",
+        "Confundir correlacion, tendencia o apariencia con causa."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Probar formulas antes de copiar.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Actualizar el checklist del curso.",
+        "Definir siguiente caso de practica."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision muestra mejor criterio profesional con datos?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Verificar fuente, calidad, definicion y limites antes de comunicar o decidir.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: reduce errores y deja trazabilidad."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Usar el resultado porque el grafico se ve claro.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La claridad visual no prueba calidad ni contexto."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Ocultar dudas para que el informe parezca mas firme.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Los limites bien escritos aumentan confianza responsable."
           }
         ]
       }
     },
     {
-      "id": "case-4",
-      "title": "Caso de comunicacion con otra persona: Excel para Analisis de Datos",
-      "summary": "Practica aplicada para resolver una situacion de analisis practico en Excel con tablas, formulas, filtros, validacion y graficos simples con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una planilla de analisis organizada sin exponer datos sensibles y con una decision verificable.",
+      "id": "exanal-case-4",
+      "title": "Duplicados inflan indicadores",
+      "summary": "La venta aparece dos veces en el reporte.",
+      "severity": "Practica guiada",
+      "immediateGoal": "Detectar duplicados.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Describir el problema inicial: clave repetida.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una planilla de analisis organizada.",
-        "Revisar el resultado contra este criterio: la planilla puede actualizarse sin romper formulas ni perder trazabilidad.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: usar conteo, formato condicional y criterio de resolucion.",
+        "Guardar evidencia: lista de duplicados.",
+        "Validar con una muestra, fuente confiable o responsable del dato si corresponde.",
+        "Cerrar con decision, limite detectado y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "archivo base, tabla limpia, formulas usadas, filtros, grafico y conclusion",
-        "Decision final y motivo"
+        "Fuente o archivo de partida",
+        "lista de duplicados",
+        "Version inicial y version corregida",
+        "Decision tomada y motivo",
+        "Duda o riesgo pendiente"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Eliminar todo repetido sin revisar.",
+        "Usar datos sensibles en practicas educativas.",
+        "Cambiar resultados manualmente para que cierren.",
+        "Publicar sin explicar filtros, periodo o fuente.",
+        "Confundir correlacion, tendencia o apariencia con causa."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Validar clave unica.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Actualizar el checklist del curso.",
+        "Definir siguiente caso de practica."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision muestra mejor criterio profesional con datos?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Verificar fuente, calidad, definicion y limites antes de comunicar o decidir.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: reduce errores y deja trazabilidad."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Usar el resultado porque el grafico se ve claro.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La claridad visual no prueba calidad ni contexto."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Ocultar dudas para que el informe parezca mas firme.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Los limites bien escritos aumentan confianza responsable."
           }
         ]
       }
     },
     {
-      "id": "case-5",
-      "title": "Caso de error frecuente: Excel para Analisis de Datos",
-      "summary": "Practica aplicada para resolver una situacion de analisis practico en Excel con tablas, formulas, filtros, validacion y graficos simples con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una planilla de analisis organizada sin exponer datos sensibles y con una decision verificable.",
+      "id": "exanal-case-5",
+      "title": "Grafico sin pregunta",
+      "summary": "El reporte muestra varias visualizaciones pero no decide nada.",
+      "severity": "Practica guiada",
+      "immediateGoal": "Reformular visuales.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Describir el problema inicial: dashboard decorativo.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una planilla de analisis organizada.",
-        "Revisar el resultado contra este criterio: la planilla puede actualizarse sin romper formulas ni perder trazabilidad.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: asociar cada grafico a una pregunta.",
+        "Guardar evidencia: mapa pregunta-grafico.",
+        "Validar con una muestra, fuente confiable o responsable del dato si corresponde.",
+        "Cerrar con decision, limite detectado y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "archivo base, tabla limpia, formulas usadas, filtros, grafico y conclusion",
-        "Decision final y motivo"
+        "Fuente o archivo de partida",
+        "mapa pregunta-grafico",
+        "Version inicial y version corregida",
+        "Decision tomada y motivo",
+        "Duda o riesgo pendiente"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Agregar mas colores.",
+        "Usar datos sensibles en practicas educativas.",
+        "Cambiar resultados manualmente para que cierren.",
+        "Publicar sin explicar filtros, periodo o fuente.",
+        "Confundir correlacion, tendencia o apariencia con causa."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Checklist de visualizacion.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Actualizar el checklist del curso.",
+        "Definir siguiente caso de practica."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision muestra mejor criterio profesional con datos?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Verificar fuente, calidad, definicion y limites antes de comunicar o decidir.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: reduce errores y deja trazabilidad."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Usar el resultado porque el grafico se ve claro.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La claridad visual no prueba calidad ni contexto."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Ocultar dudas para que el informe parezca mas firme.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Los limites bien escritos aumentan confianza responsable."
           }
         ]
       }
     },
     {
-      "id": "case-6",
-      "title": "Caso de mejora de proceso: Excel para Analisis de Datos",
-      "summary": "Practica aplicada para resolver una situacion de analisis practico en Excel con tablas, formulas, filtros, validacion y graficos simples con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una planilla de analisis organizada sin exponer datos sensibles y con una decision verificable.",
+      "id": "exanal-case-6",
+      "title": "Filtro oculto cambia resultado",
+      "summary": "Una tabla esta filtrada y nadie lo nota.",
+      "severity": "Practica guiada",
+      "immediateGoal": "Mostrar contexto.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Describir el problema inicial: resultado inesperado.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una planilla de analisis organizada.",
-        "Revisar el resultado contra este criterio: la planilla puede actualizarse sin romper formulas ni perder trazabilidad.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: revisar filtros activos y agregar nota.",
+        "Guardar evidencia: captura con filtros.",
+        "Validar con una muestra, fuente confiable o responsable del dato si corresponde.",
+        "Cerrar con decision, limite detectado y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "archivo base, tabla limpia, formulas usadas, filtros, grafico y conclusion",
-        "Decision final y motivo"
+        "Fuente o archivo de partida",
+        "captura con filtros",
+        "Version inicial y version corregida",
+        "Decision tomada y motivo",
+        "Duda o riesgo pendiente"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Copiar tabla filtrada como total.",
+        "Usar datos sensibles en practicas educativas.",
+        "Cambiar resultados manualmente para que cierren.",
+        "Publicar sin explicar filtros, periodo o fuente.",
+        "Confundir correlacion, tendencia o apariencia con causa."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Agregar tarjeta de filtros.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Actualizar el checklist del curso.",
+        "Definir siguiente caso de practica."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision muestra mejor criterio profesional con datos?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Verificar fuente, calidad, definicion y limites antes de comunicar o decidir.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: reduce errores y deja trazabilidad."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Usar el resultado porque el grafico se ve claro.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La claridad visual no prueba calidad ni contexto."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Ocultar dudas para que el informe parezca mas firme.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Los limites bien escritos aumentan confianza responsable."
           }
         ]
       }
     },
     {
-      "id": "case-7",
-      "title": "Caso de decision responsable: Excel para Analisis de Datos",
-      "summary": "Practica aplicada para resolver una situacion de analisis practico en Excel con tablas, formulas, filtros, validacion y graficos simples con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una planilla de analisis organizada sin exponer datos sensibles y con una decision verificable.",
+      "id": "exanal-case-7",
+      "title": "Archivo pesado y lento",
+      "summary": "El Excel tarda mucho en abrir.",
+      "severity": "Practica guiada",
+      "immediateGoal": "Limpiar estructura.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Describir el problema inicial: formulas y formatos excesivos.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una planilla de analisis organizada.",
-        "Revisar el resultado contra este criterio: la planilla puede actualizarse sin romper formulas ni perder trazabilidad.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: revisar rangos usados, formatos y hojas ocultas.",
+        "Guardar evidencia: archivo optimizado.",
+        "Validar con una muestra, fuente confiable o responsable del dato si corresponde.",
+        "Cerrar con decision, limite detectado y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "archivo base, tabla limpia, formulas usadas, filtros, grafico y conclusion",
-        "Decision final y motivo"
+        "Fuente o archivo de partida",
+        "archivo optimizado",
+        "Version inicial y version corregida",
+        "Decision tomada y motivo",
+        "Duda o riesgo pendiente"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Seguir duplicando hojas.",
+        "Usar datos sensibles en practicas educativas.",
+        "Cambiar resultados manualmente para que cierren.",
+        "Publicar sin explicar filtros, periodo o fuente.",
+        "Confundir correlacion, tendencia o apariencia con causa."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Crear version historica separada.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Actualizar el checklist del curso.",
+        "Definir siguiente caso de practica."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision muestra mejor criterio profesional con datos?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Verificar fuente, calidad, definicion y limites antes de comunicar o decidir.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: reduce errores y deja trazabilidad."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Usar el resultado porque el grafico se ve claro.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La claridad visual no prueba calidad ni contexto."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Ocultar dudas para que el informe parezca mas firme.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Los limites bien escritos aumentan confianza responsable."
           }
         ]
       }
     },
     {
-      "id": "case-8",
-      "title": "Proyecto final integrador: Excel para Analisis de Datos",
-      "summary": "Practica aplicada para resolver una situacion de analisis practico en Excel con tablas, formulas, filtros, validacion y graficos simples con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Proyecto final",
-      "immediateGoal": "Transformar el caso en una planilla de analisis organizada sin exponer datos sensibles y con una decision verificable.",
+      "id": "exanal-case-8",
+      "title": "Reporte mensual no reproducible",
+      "summary": "Cada mes se arma de forma distinta.",
+      "severity": "Practica guiada",
+      "immediateGoal": "Documentar proceso.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Describir el problema inicial: pasos manuales dispersos.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una planilla de analisis organizada.",
-        "Revisar el resultado contra este criterio: la planilla puede actualizarse sin romper formulas ni perder trazabilidad.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: escribir secuencia de importacion, limpieza y actualizacion.",
+        "Guardar evidencia: README interno.",
+        "Validar con una muestra, fuente confiable o responsable del dato si corresponde.",
+        "Cerrar con decision, limite detectado y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "archivo base, tabla limpia, formulas usadas, filtros, grafico y conclusion",
-        "Decision final y motivo"
+        "Fuente o archivo de partida",
+        "README interno",
+        "Version inicial y version corregida",
+        "Decision tomada y motivo",
+        "Duda o riesgo pendiente"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Depender de memoria.",
+        "Usar datos sensibles en practicas educativas.",
+        "Cambiar resultados manualmente para que cierren.",
+        "Publicar sin explicar filtros, periodo o fuente.",
+        "Confundir correlacion, tendencia o apariencia con causa."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Usar checklist mensual.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Actualizar el checklist del curso.",
+        "Definir siguiente caso de practica."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision muestra mejor criterio profesional con datos?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Verificar fuente, calidad, definicion y limites antes de comunicar o decidir.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: reduce errores y deja trazabilidad."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Usar el resultado porque el grafico se ve claro.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La claridad visual no prueba calidad ni contexto."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Ocultar dudas para que el informe parezca mas firme.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Los limites bien escritos aumentan confianza responsable."
           }
         ]
       }

@@ -1,441 +1,441 @@
 {
   "incidents": [
     {
-      "id": "case-1",
-      "title": "Caso inicial controlado: Storytelling con Datos",
-      "summary": "Practica aplicada para resolver una situacion de comunicacion de datos con narrativa, visualizaciones y recomendaciones accionables con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una mini presentacion de datos sin exponer datos sensibles y con una decision verificable.",
+      "id": "story-case-1",
+      "title": "Grafico bonito sin mensaje",
+      "summary": "La presentacion tiene visuales pero nadie sabe que decidir.",
+      "severity": "Practica guiada",
+      "immediateGoal": "Definir hallazgo central.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Describir el problema inicial: slides decorativos.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una mini presentacion de datos.",
-        "Revisar el resultado contra este criterio: la audiencia entiende que paso, por que importa y que decision se propone.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: escribir una frase accionable por grafico.",
+        "Guardar evidencia: visual con titulo accionable.",
+        "Validar con una muestra, fuente confiable o responsable del dato si corresponde.",
+        "Cerrar con decision, limite detectado y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "audiencia, pregunta, dato clave, grafico elegido, mensaje y decision sugerida",
-        "Decision final y motivo"
+        "Fuente o archivo de partida",
+        "visual con titulo accionable",
+        "Version inicial y version corregida",
+        "Decision tomada y motivo",
+        "Duda o riesgo pendiente"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Agregar mas visuales.",
+        "Usar datos sensibles en practicas educativas.",
+        "Cambiar resultados manualmente para que cierren.",
+        "Publicar sin explicar filtros, periodo o fuente.",
+        "Confundir correlacion, tendencia o apariencia con causa."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Usar plantilla de hallazgo.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Actualizar el checklist del curso.",
+        "Definir siguiente caso de practica."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision muestra mejor criterio profesional con datos?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Verificar fuente, calidad, definicion y limites antes de comunicar o decidir.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: reduce errores y deja trazabilidad."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Usar el resultado porque el grafico se ve claro.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La claridad visual no prueba calidad ni contexto."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Ocultar dudas para que el informe parezca mas firme.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Los limites bien escritos aumentan confianza responsable."
           }
         ]
       }
     },
     {
-      "id": "case-2",
-      "title": "Caso con datos incompletos: Storytelling con Datos",
-      "summary": "Practica aplicada para resolver una situacion de comunicacion de datos con narrativa, visualizaciones y recomendaciones accionables con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una mini presentacion de datos sin exponer datos sensibles y con una decision verificable.",
+      "id": "story-case-2",
+      "title": "Eje recortado exagera cambio",
+      "summary": "Una diferencia pequena parece enorme.",
+      "severity": "Practica guiada",
+      "immediateGoal": "Usar escala honesta.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Describir el problema inicial: eje vertical manipulado.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una mini presentacion de datos.",
-        "Revisar el resultado contra este criterio: la audiencia entiende que paso, por que importa y que decision se propone.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: mostrar escala adecuada y explicar variacion.",
+        "Guardar evidencia: grafico antes/despues.",
+        "Validar con una muestra, fuente confiable o responsable del dato si corresponde.",
+        "Cerrar con decision, limite detectado y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "audiencia, pregunta, dato clave, grafico elegido, mensaje y decision sugerida",
-        "Decision final y motivo"
+        "Fuente o archivo de partida",
+        "grafico antes/despues",
+        "Version inicial y version corregida",
+        "Decision tomada y motivo",
+        "Duda o riesgo pendiente"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Recortar para impactar mas.",
+        "Usar datos sensibles en practicas educativas.",
+        "Cambiar resultados manualmente para que cierren.",
+        "Publicar sin explicar filtros, periodo o fuente.",
+        "Confundir correlacion, tendencia o apariencia con causa."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Checklist de escalas.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Actualizar el checklist del curso.",
+        "Definir siguiente caso de practica."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision muestra mejor criterio profesional con datos?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Verificar fuente, calidad, definicion y limites antes de comunicar o decidir.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: reduce errores y deja trazabilidad."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Usar el resultado porque el grafico se ve claro.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La claridad visual no prueba calidad ni contexto."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Ocultar dudas para que el informe parezca mas firme.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Los limites bien escritos aumentan confianza responsable."
           }
         ]
       }
     },
     {
-      "id": "case-3",
-      "title": "Caso con presion de tiempo: Storytelling con Datos",
-      "summary": "Practica aplicada para resolver una situacion de comunicacion de datos con narrativa, visualizaciones y recomendaciones accionables con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una mini presentacion de datos sin exponer datos sensibles y con una decision verificable.",
+      "id": "story-case-3",
+      "title": "Sin fuente ni fecha",
+      "summary": "El publico no puede evaluar vigencia.",
+      "severity": "Practica guiada",
+      "immediateGoal": "Agregar contexto.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Describir el problema inicial: dato aislado.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una mini presentacion de datos.",
-        "Revisar el resultado contra este criterio: la audiencia entiende que paso, por que importa y que decision se propone.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: incluir fuente, periodo y fecha de corte.",
+        "Guardar evidencia: nota de contexto.",
+        "Validar con una muestra, fuente confiable o responsable del dato si corresponde.",
+        "Cerrar con decision, limite detectado y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "audiencia, pregunta, dato clave, grafico elegido, mensaje y decision sugerida",
-        "Decision final y motivo"
+        "Fuente o archivo de partida",
+        "nota de contexto",
+        "Version inicial y version corregida",
+        "Decision tomada y motivo",
+        "Duda o riesgo pendiente"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Decir que el dato es interno y alcanza.",
+        "Usar datos sensibles en practicas educativas.",
+        "Cambiar resultados manualmente para que cierren.",
+        "Publicar sin explicar filtros, periodo o fuente.",
+        "Confundir correlacion, tendencia o apariencia con causa."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Bloque fijo de fuente.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Actualizar el checklist del curso.",
+        "Definir siguiente caso de practica."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision muestra mejor criterio profesional con datos?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Verificar fuente, calidad, definicion y limites antes de comunicar o decidir.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: reduce errores y deja trazabilidad."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Usar el resultado porque el grafico se ve claro.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La claridad visual no prueba calidad ni contexto."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Ocultar dudas para que el informe parezca mas firme.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Los limites bien escritos aumentan confianza responsable."
           }
         ]
       }
     },
     {
-      "id": "case-4",
-      "title": "Caso de comunicacion con otra persona: Storytelling con Datos",
-      "summary": "Practica aplicada para resolver una situacion de comunicacion de datos con narrativa, visualizaciones y recomendaciones accionables con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una mini presentacion de datos sin exponer datos sensibles y con una decision verificable.",
+      "id": "story-case-4",
+      "title": "Demasiados datos por slide",
+      "summary": "La audiencia se pierde entre tablas.",
+      "severity": "Practica guiada",
+      "immediateGoal": "Priorizar mensaje.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Describir el problema inicial: slide saturada.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una mini presentacion de datos.",
-        "Revisar el resultado contra este criterio: la audiencia entiende que paso, por que importa y que decision se propone.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: separar detalle de mensaje principal.",
+        "Guardar evidencia: slide simplificada.",
+        "Validar con una muestra, fuente confiable o responsable del dato si corresponde.",
+        "Cerrar con decision, limite detectado y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "audiencia, pregunta, dato clave, grafico elegido, mensaje y decision sugerida",
-        "Decision final y motivo"
+        "Fuente o archivo de partida",
+        "slide simplificada",
+        "Version inicial y version corregida",
+        "Decision tomada y motivo",
+        "Duda o riesgo pendiente"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Achicar texto para que entre todo.",
+        "Usar datos sensibles en practicas educativas.",
+        "Cambiar resultados manualmente para que cierren.",
+        "Publicar sin explicar filtros, periodo o fuente.",
+        "Confundir correlacion, tendencia o apariencia con causa."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Anexo para detalle.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Actualizar el checklist del curso.",
+        "Definir siguiente caso de practica."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision muestra mejor criterio profesional con datos?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Verificar fuente, calidad, definicion y limites antes de comunicar o decidir.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: reduce errores y deja trazabilidad."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Usar el resultado porque el grafico se ve claro.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La claridad visual no prueba calidad ni contexto."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Ocultar dudas para que el informe parezca mas firme.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Los limites bien escritos aumentan confianza responsable."
           }
         ]
       }
     },
     {
-      "id": "case-5",
-      "title": "Caso de error frecuente: Storytelling con Datos",
-      "summary": "Practica aplicada para resolver una situacion de comunicacion de datos con narrativa, visualizaciones y recomendaciones accionables con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una mini presentacion de datos sin exponer datos sensibles y con una decision verificable.",
+      "id": "story-case-5",
+      "title": "Conclusion mas fuerte que la evidencia",
+      "summary": "Se recomienda una accion grande con datos debiles.",
+      "severity": "Practica guiada",
+      "immediateGoal": "Ajustar tono y limite.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Describir el problema inicial: muestra pequena o incompleta.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una mini presentacion de datos.",
-        "Revisar el resultado contra este criterio: la audiencia entiende que paso, por que importa y que decision se propone.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: formular recomendacion prudente y proximo experimento.",
+        "Guardar evidencia: conclusion reescrita.",
+        "Validar con una muestra, fuente confiable o responsable del dato si corresponde.",
+        "Cerrar con decision, limite detectado y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "audiencia, pregunta, dato clave, grafico elegido, mensaje y decision sugerida",
-        "Decision final y motivo"
+        "Fuente o archivo de partida",
+        "conclusion reescrita",
+        "Version inicial y version corregida",
+        "Decision tomada y motivo",
+        "Duda o riesgo pendiente"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Ocultar incertidumbre.",
+        "Usar datos sensibles en practicas educativas.",
+        "Cambiar resultados manualmente para que cierren.",
+        "Publicar sin explicar filtros, periodo o fuente.",
+        "Confundir correlacion, tendencia o apariencia con causa."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Definir nivel de confianza.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Actualizar el checklist del curso.",
+        "Definir siguiente caso de practica."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision muestra mejor criterio profesional con datos?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Verificar fuente, calidad, definicion y limites antes de comunicar o decidir.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: reduce errores y deja trazabilidad."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Usar el resultado porque el grafico se ve claro.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La claridad visual no prueba calidad ni contexto."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Ocultar dudas para que el informe parezca mas firme.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Los limites bien escritos aumentan confianza responsable."
           }
         ]
       }
     },
     {
-      "id": "case-6",
-      "title": "Caso de mejora de proceso: Storytelling con Datos",
-      "summary": "Practica aplicada para resolver una situacion de comunicacion de datos con narrativa, visualizaciones y recomendaciones accionables con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una mini presentacion de datos sin exponer datos sensibles y con una decision verificable.",
+      "id": "story-case-6",
+      "title": "Color confunde categorias",
+      "summary": "El grafico usa colores sin significado.",
+      "severity": "Practica guiada",
+      "immediateGoal": "Dar funcion al color.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Describir el problema inicial: paleta arbitraria.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una mini presentacion de datos.",
-        "Revisar el resultado contra este criterio: la audiencia entiende que paso, por que importa y que decision se propone.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: usar color para resaltar hallazgo o estado.",
+        "Guardar evidencia: grafico recoloreado.",
+        "Validar con una muestra, fuente confiable o responsable del dato si corresponde.",
+        "Cerrar con decision, limite detectado y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "audiencia, pregunta, dato clave, grafico elegido, mensaje y decision sugerida",
-        "Decision final y motivo"
+        "Fuente o archivo de partida",
+        "grafico recoloreado",
+        "Version inicial y version corregida",
+        "Decision tomada y motivo",
+        "Duda o riesgo pendiente"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Usar muchos colores para decorar.",
+        "Usar datos sensibles en practicas educativas.",
+        "Cambiar resultados manualmente para que cierren.",
+        "Publicar sin explicar filtros, periodo o fuente.",
+        "Confundir correlacion, tendencia o apariencia con causa."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Crear regla de color.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Actualizar el checklist del curso.",
+        "Definir siguiente caso de practica."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision muestra mejor criterio profesional con datos?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Verificar fuente, calidad, definicion y limites antes de comunicar o decidir.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: reduce errores y deja trazabilidad."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Usar el resultado porque el grafico se ve claro.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La claridad visual no prueba calidad ni contexto."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Ocultar dudas para que el informe parezca mas firme.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Los limites bien escritos aumentan confianza responsable."
           }
         ]
       }
     },
     {
-      "id": "case-7",
-      "title": "Caso de decision responsable: Storytelling con Datos",
-      "summary": "Practica aplicada para resolver una situacion de comunicacion de datos con narrativa, visualizaciones y recomendaciones accionables con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una mini presentacion de datos sin exponer datos sensibles y con una decision verificable.",
+      "id": "story-case-7",
+      "title": "Datos personales en presentacion",
+      "summary": "Una tabla muestra nombres o datos sensibles.",
+      "severity": "Practica guiada",
+      "immediateGoal": "Anonimizar.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Describir el problema inicial: detalle innecesario.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una mini presentacion de datos.",
-        "Revisar el resultado contra este criterio: la audiencia entiende que paso, por que importa y que decision se propone.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: agregar agregados o ejemplos simulados.",
+        "Guardar evidencia: version anonima.",
+        "Validar con una muestra, fuente confiable o responsable del dato si corresponde.",
+        "Cerrar con decision, limite detectado y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "audiencia, pregunta, dato clave, grafico elegido, mensaje y decision sugerida",
-        "Decision final y motivo"
+        "Fuente o archivo de partida",
+        "version anonima",
+        "Version inicial y version corregida",
+        "Decision tomada y motivo",
+        "Duda o riesgo pendiente"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Tapar parcialmente en captura.",
+        "Usar datos sensibles en practicas educativas.",
+        "Cambiar resultados manualmente para que cierren.",
+        "Publicar sin explicar filtros, periodo o fuente.",
+        "Confundir correlacion, tendencia o apariencia con causa."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Revision de privacidad.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Actualizar el checklist del curso.",
+        "Definir siguiente caso de practica."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision muestra mejor criterio profesional con datos?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Verificar fuente, calidad, definicion y limites antes de comunicar o decidir.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: reduce errores y deja trazabilidad."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Usar el resultado porque el grafico se ve claro.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La claridad visual no prueba calidad ni contexto."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Ocultar dudas para que el informe parezca mas firme.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Los limites bien escritos aumentan confianza responsable."
           }
         ]
       }
     },
     {
-      "id": "case-8",
-      "title": "Proyecto final integrador: Storytelling con Datos",
-      "summary": "Practica aplicada para resolver una situacion de comunicacion de datos con narrativa, visualizaciones y recomendaciones accionables con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Proyecto final",
-      "immediateGoal": "Transformar el caso en una mini presentacion de datos sin exponer datos sensibles y con una decision verificable.",
+      "id": "story-case-8",
+      "title": "Audiencia equivocada",
+      "summary": "El informe tecnico se envia a publico no tecnico.",
+      "severity": "Practica guiada",
+      "immediateGoal": "Adaptar lenguaje.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Describir el problema inicial: preguntas basicas de comprension.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una mini presentacion de datos.",
-        "Revisar el resultado contra este criterio: la audiencia entiende que paso, por que importa y que decision se propone.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: reescribir en lenguaje de decision.",
+        "Guardar evidencia: version para audiencia.",
+        "Validar con una muestra, fuente confiable o responsable del dato si corresponde.",
+        "Cerrar con decision, limite detectado y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "audiencia, pregunta, dato clave, grafico elegido, mensaje y decision sugerida",
-        "Decision final y motivo"
+        "Fuente o archivo de partida",
+        "version para audiencia",
+        "Version inicial y version corregida",
+        "Decision tomada y motivo",
+        "Duda o riesgo pendiente"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Decir que la audiencia debe saber mas.",
+        "Usar datos sensibles en practicas educativas.",
+        "Cambiar resultados manualmente para que cierren.",
+        "Publicar sin explicar filtros, periodo o fuente.",
+        "Confundir correlacion, tendencia o apariencia con causa."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Preparar dos niveles de detalle.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Actualizar el checklist del curso.",
+        "Definir siguiente caso de practica."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision muestra mejor criterio profesional con datos?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Verificar fuente, calidad, definicion y limites antes de comunicar o decidir.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: reduce errores y deja trazabilidad."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Usar el resultado porque el grafico se ve claro.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La claridad visual no prueba calidad ni contexto."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Ocultar dudas para que el informe parezca mas firme.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Los limites bien escritos aumentan confianza responsable."
           }
         ]
       }

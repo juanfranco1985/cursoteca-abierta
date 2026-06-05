@@ -32,19 +32,14 @@ El curso ahora cubre:
 
 La auditoria encontro originalmente 32 cursos con patrones de contenido generico o repetido en `course_content.json`.
 
-Pendientes actuales despues de UX/UI, tanda 1, tanda 2, tanda 3 y tanda 4:
+Pendientes actuales despues de UX/UI, tanda 1, tanda 2, tanda 3, tanda 4 y tanda 5:
 
-- `calidad_datos_principiantes_v0_6_publica`
 - `ciudadano_digital_argentina_v0_6_publica`
 - `costos_precios_rentabilidad_v0_6_publica`
 - `cuidado_digital_mayores_familias_v0_6_publica`
 - `emprendimiento_barrial_web_v0_6_publica`
-- `estadistica_basica_decisiones_v0_6_publica`
-- `excel_analisis_datos_v0_6_publica`
-- `gobierno_datos_basico_v0_6_publica`
 - `seguridad_digital_docentes_v0_6_publica`
 - `seguridad_familiar_internet_v0_6_publica`
-- `storytelling_datos_v0_6_publica`
 - `whatsapp_business_avanzado_v0_6_publica`
 
 ## Recomendacion
@@ -115,4 +110,16 @@ Completada el 2026-06-05 con 5 cursos de trabajo y emprendimiento reforzados:
 - tienda_online_principiantes_v0_6_publica: 6 modulos, 36 lecciones, 30 preguntas, 6 checklists y 8 casos guiados.
 
 Deuda de contenido generico despues de esta tanda: 12 cursos.
+
+## Tanda 5 de refuerzo
+
+Completada el 2026-06-05 con 5 cursos de datos y analisis reforzados:
+
+- calidad_datos_principiantes_v0_6_publica: 6 modulos, 36 lecciones, 30 preguntas, 6 checklists y 8 casos guiados.
+- estadistica_basica_decisiones_v0_6_publica: 6 modulos, 36 lecciones, 30 preguntas, 6 checklists y 8 casos guiados.
+- excel_analisis_datos_v0_6_publica: 6 modulos, 36 lecciones, 30 preguntas, 6 checklists y 8 casos guiados.
+- gobierno_datos_basico_v0_6_publica: 6 modulos, 36 lecciones, 30 preguntas, 6 checklists y 8 casos guiados.
+- storytelling_datos_v0_6_publica: 6 modulos, 36 lecciones, 30 preguntas, 6 checklists y 8 casos guiados.
+
+Deuda de contenido generico despues de esta tanda: 7 cursos.
 
