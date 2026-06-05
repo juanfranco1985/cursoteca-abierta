@@ -1,441 +1,441 @@
 {
   "incidents": [
     {
-      "id": "case-1",
-      "title": "Caso inicial controlado: Costos, Precios y Rentabilidad",
-      "summary": "Practica aplicada para resolver una situacion de calculo basico de costos, precios, margen y rentabilidad para pequenos negocios con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una ficha de costos y precio sin exponer datos sensibles y con una decision verificable.",
+      "id": "costos-case-1",
+      "title": "Precio que no cubre comisiones",
+      "summary": "El negocio vende por plataforma y olvida la comision.",
+      "severity": "Practica comercial",
+      "immediateGoal": "Recalcular precio real.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Describir el problema inicial: margen menor al esperado.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una ficha de costos y precio.",
-        "Revisar el resultado contra este criterio: el precio cubre costos, muestra margen y permite explicar la decision.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: sumar comision, empaque y envio absorbido al costo unitario.",
+        "Guardar evidencia: ficha de precio corregida.",
+        "Validar con muestra pequena, cliente, proveedor o persona competente si corresponde.",
+        "Cerrar con decision, limite detectado y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "lista de costos, precio propuesto, margen, punto de equilibrio y decision",
-        "Decision final y motivo"
+        "Caso o decision de partida",
+        "ficha de precio corregida",
+        "Calculo o version inicial y version corregida",
+        "Decision tomada y motivo",
+        "Riesgo o duda pendiente"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Subir ventas sin revisar margen.",
+        "Usar datos sensibles de clientes o proveedores en practicas educativas.",
+        "Cambiar numeros para que la idea parezca rentable.",
+        "Prometer precios, entregas o stock sin capacidad real.",
+        "Medir exito solo por ventas sin mirar margen ni caja."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Crear regla por canal de venta.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
+        "Actualizar el checklist del curso.",
         "Definir el siguiente caso de practica."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision muestra mejor criterio comercial?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Probar en pequeno, calcular margen/caja, guardar evidencia y ajustar antes de crecer.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: protege caja, aprendizaje y relacion con clientes."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Avanzar rapido porque la oportunidad parece buena.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La oportunidad necesita numeros y capacidad real."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Copiar precio o estrategia de otro negocio.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Otro negocio puede tener costos, publico y escala distintos."
           }
         ]
       }
     },
     {
-      "id": "case-2",
-      "title": "Caso con datos incompletos: Costos, Precios y Rentabilidad",
-      "summary": "Practica aplicada para resolver una situacion de calculo basico de costos, precios, margen y rentabilidad para pequenos negocios con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una ficha de costos y precio sin exponer datos sensibles y con una decision verificable.",
+      "id": "costos-case-2",
+      "title": "Promocion con perdida",
+      "summary": "Una oferta atrae clientes pero deja margen negativo.",
+      "severity": "Practica comercial",
+      "immediateGoal": "Probar promocion con numeros.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Describir el problema inicial: descuento improvisado.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una ficha de costos y precio.",
-        "Revisar el resultado contra este criterio: el precio cubre costos, muestra margen y permite explicar la decision.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: calcular margen antes/despues y limite de unidades.",
+        "Guardar evidencia: simulacion de promocion.",
+        "Validar con muestra pequena, cliente, proveedor o persona competente si corresponde.",
+        "Cerrar con decision, limite detectado y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "lista de costos, precio propuesto, margen, punto de equilibrio y decision",
-        "Decision final y motivo"
+        "Caso o decision de partida",
+        "simulacion de promocion",
+        "Calculo o version inicial y version corregida",
+        "Decision tomada y motivo",
+        "Riesgo o duda pendiente"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Copiar descuentos de otros negocios.",
+        "Usar datos sensibles de clientes o proveedores en practicas educativas.",
+        "Cambiar numeros para que la idea parezca rentable.",
+        "Prometer precios, entregas o stock sin capacidad real.",
+        "Medir exito solo por ventas sin mirar margen ni caja."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Plantilla de promociones.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
+        "Actualizar el checklist del curso.",
         "Definir el siguiente caso de practica."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision muestra mejor criterio comercial?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Probar en pequeno, calcular margen/caja, guardar evidencia y ajustar antes de crecer.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: protege caja, aprendizaje y relacion con clientes."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Avanzar rapido porque la oportunidad parece buena.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La oportunidad necesita numeros y capacidad real."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Copiar precio o estrategia de otro negocio.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Otro negocio puede tener costos, publico y escala distintos."
           }
         ]
       }
     },
     {
-      "id": "case-3",
-      "title": "Caso con presion de tiempo: Costos, Precios y Rentabilidad",
-      "summary": "Practica aplicada para resolver una situacion de calculo basico de costos, precios, margen y rentabilidad para pequenos negocios con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una ficha de costos y precio sin exponer datos sensibles y con una decision verificable.",
+      "id": "costos-case-3",
+      "title": "Compra mayorista que ahoga caja",
+      "summary": "El descuento parece bueno pero inmoviliza dinero.",
+      "severity": "Practica comercial",
+      "immediateGoal": "Evaluar caja y rotacion.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Describir el problema inicial: oferta por volumen.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una ficha de costos y precio.",
-        "Revisar el resultado contra este criterio: el precio cubre costos, muestra margen y permite explicar la decision.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: comparar ahorro, stock, vencimiento y pagos pendientes.",
+        "Guardar evidencia: escenario de compra.",
+        "Validar con muestra pequena, cliente, proveedor o persona competente si corresponde.",
+        "Cerrar con decision, limite detectado y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "lista de costos, precio propuesto, margen, punto de equilibrio y decision",
-        "Decision final y motivo"
+        "Caso o decision de partida",
+        "escenario de compra",
+        "Calculo o version inicial y version corregida",
+        "Decision tomada y motivo",
+        "Riesgo o duda pendiente"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Comprar porque el precio baja.",
+        "Usar datos sensibles de clientes o proveedores en practicas educativas.",
+        "Cambiar numeros para que la idea parezca rentable.",
+        "Prometer precios, entregas o stock sin capacidad real.",
+        "Medir exito solo por ventas sin mirar margen ni caja."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Definir limite de compra.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
+        "Actualizar el checklist del curso.",
         "Definir el siguiente caso de practica."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision muestra mejor criterio comercial?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Probar en pequeno, calcular margen/caja, guardar evidencia y ajustar antes de crecer.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: protege caja, aprendizaje y relacion con clientes."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Avanzar rapido porque la oportunidad parece buena.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La oportunidad necesita numeros y capacidad real."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Copiar precio o estrategia de otro negocio.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Otro negocio puede tener costos, publico y escala distintos."
           }
         ]
       }
     },
     {
-      "id": "case-4",
-      "title": "Caso de comunicacion con otra persona: Costos, Precios y Rentabilidad",
-      "summary": "Practica aplicada para resolver una situacion de calculo basico de costos, precios, margen y rentabilidad para pequenos negocios con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una ficha de costos y precio sin exponer datos sensibles y con una decision verificable.",
+      "id": "costos-case-4",
+      "title": "Servicio sin costo de tiempo",
+      "summary": "Un oficio cobra materiales pero no tiempo propio.",
+      "severity": "Practica comercial",
+      "immediateGoal": "Incluir horas de trabajo.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Describir el problema inicial: precio de servicio bajo.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una ficha de costos y precio.",
-        "Revisar el resultado contra este criterio: el precio cubre costos, muestra margen y permite explicar la decision.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: estimar horas, traslado y preparacion.",
+        "Guardar evidencia: ficha de servicio.",
+        "Validar con muestra pequena, cliente, proveedor o persona competente si corresponde.",
+        "Cerrar con decision, limite detectado y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "lista de costos, precio propuesto, margen, punto de equilibrio y decision",
-        "Decision final y motivo"
+        "Caso o decision de partida",
+        "ficha de servicio",
+        "Calculo o version inicial y version corregida",
+        "Decision tomada y motivo",
+        "Riesgo o duda pendiente"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Cobrar solo materiales.",
+        "Usar datos sensibles de clientes o proveedores en practicas educativas.",
+        "Cambiar numeros para que la idea parezca rentable.",
+        "Prometer precios, entregas o stock sin capacidad real.",
+        "Medir exito solo por ventas sin mirar margen ni caja."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Actualizar tarifa por tipo de trabajo.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
+        "Actualizar el checklist del curso.",
         "Definir el siguiente caso de practica."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision muestra mejor criterio comercial?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Probar en pequeno, calcular margen/caja, guardar evidencia y ajustar antes de crecer.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: protege caja, aprendizaje y relacion con clientes."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Avanzar rapido porque la oportunidad parece buena.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La oportunidad necesita numeros y capacidad real."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Copiar precio o estrategia de otro negocio.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Otro negocio puede tener costos, publico y escala distintos."
           }
         ]
       }
     },
     {
-      "id": "case-5",
-      "title": "Caso de error frecuente: Costos, Precios y Rentabilidad",
-      "summary": "Practica aplicada para resolver una situacion de calculo basico de costos, precios, margen y rentabilidad para pequenos negocios con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una ficha de costos y precio sin exponer datos sensibles y con una decision verificable.",
+      "id": "costos-case-5",
+      "title": "Producto estrella poco rentable",
+      "summary": "Se vende mucho pero deja poco margen.",
+      "severity": "Practica comercial",
+      "immediateGoal": "Medir margen por producto.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Describir el problema inicial: alta rotacion con baja caja.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una ficha de costos y precio.",
-        "Revisar el resultado contra este criterio: el precio cubre costos, muestra margen y permite explicar la decision.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: calcular margen unitario y total.",
+        "Guardar evidencia: ranking de rentabilidad.",
+        "Validar con muestra pequena, cliente, proveedor o persona competente si corresponde.",
+        "Cerrar con decision, limite detectado y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "lista de costos, precio propuesto, margen, punto de equilibrio y decision",
-        "Decision final y motivo"
+        "Caso o decision de partida",
+        "ranking de rentabilidad",
+        "Calculo o version inicial y version corregida",
+        "Decision tomada y motivo",
+        "Riesgo o duda pendiente"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Priorizar solo volumen.",
+        "Usar datos sensibles de clientes o proveedores en practicas educativas.",
+        "Cambiar numeros para que la idea parezca rentable.",
+        "Prometer precios, entregas o stock sin capacidad real.",
+        "Medir exito solo por ventas sin mirar margen ni caja."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Revisar mix de productos.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
+        "Actualizar el checklist del curso.",
         "Definir el siguiente caso de practica."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision muestra mejor criterio comercial?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Probar en pequeno, calcular margen/caja, guardar evidencia y ajustar antes de crecer.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: protege caja, aprendizaje y relacion con clientes."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Avanzar rapido porque la oportunidad parece buena.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La oportunidad necesita numeros y capacidad real."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Copiar precio o estrategia de otro negocio.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Otro negocio puede tener costos, publico y escala distintos."
           }
         ]
       }
     },
     {
-      "id": "case-6",
-      "title": "Caso de mejora de proceso: Costos, Precios y Rentabilidad",
-      "summary": "Practica aplicada para resolver una situacion de calculo basico de costos, precios, margen y rentabilidad para pequenos negocios con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una ficha de costos y precio sin exponer datos sensibles y con una decision verificable.",
+      "id": "costos-case-6",
+      "title": "Aumento de proveedor",
+      "summary": "Sube el costo y el precio queda viejo.",
+      "severity": "Practica comercial",
+      "immediateGoal": "Actualizar precio con criterio.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Describir el problema inicial: nuevo costo de compra.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una ficha de costos y precio.",
-        "Revisar el resultado contra este criterio: el precio cubre costos, muestra margen y permite explicar la decision.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: recalcular margen, evaluar comunicacion y fecha de cambio.",
+        "Guardar evidencia: precio antes/despues.",
+        "Validar con muestra pequena, cliente, proveedor o persona competente si corresponde.",
+        "Cerrar con decision, limite detectado y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "lista de costos, precio propuesto, margen, punto de equilibrio y decision",
-        "Decision final y motivo"
+        "Caso o decision de partida",
+        "precio antes/despues",
+        "Calculo o version inicial y version corregida",
+        "Decision tomada y motivo",
+        "Riesgo o duda pendiente"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Absorber aumento hasta perder margen.",
+        "Usar datos sensibles de clientes o proveedores en practicas educativas.",
+        "Cambiar numeros para que la idea parezca rentable.",
+        "Prometer precios, entregas o stock sin capacidad real.",
+        "Medir exito solo por ventas sin mirar margen ni caja."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Revision mensual de costos.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
+        "Actualizar el checklist del curso.",
         "Definir el siguiente caso de practica."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision muestra mejor criterio comercial?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Probar en pequeno, calcular margen/caja, guardar evidencia y ajustar antes de crecer.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: protege caja, aprendizaje y relacion con clientes."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Avanzar rapido porque la oportunidad parece buena.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La oportunidad necesita numeros y capacidad real."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Copiar precio o estrategia de otro negocio.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Otro negocio puede tener costos, publico y escala distintos."
           }
         ]
       }
     },
     {
-      "id": "case-7",
-      "title": "Caso de decision responsable: Costos, Precios y Rentabilidad",
-      "summary": "Practica aplicada para resolver una situacion de calculo basico de costos, precios, margen y rentabilidad para pequenos negocios con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una ficha de costos y precio sin exponer datos sensibles y con una decision verificable.",
+      "id": "costos-case-7",
+      "title": "Punto de equilibrio desconocido",
+      "summary": "No se sabe cuanto vender para cubrir gastos.",
+      "severity": "Practica comercial",
+      "immediateGoal": "Calcular minimo viable.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Describir el problema inicial: gastos fijos acumulados.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una ficha de costos y precio.",
-        "Revisar el resultado contra este criterio: el precio cubre costos, muestra margen y permite explicar la decision.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: dividir costos fijos por margen unitario.",
+        "Guardar evidencia: unidades y ventas necesarias.",
+        "Validar con muestra pequena, cliente, proveedor o persona competente si corresponde.",
+        "Cerrar con decision, limite detectado y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "lista de costos, precio propuesto, margen, punto de equilibrio y decision",
-        "Decision final y motivo"
+        "Caso o decision de partida",
+        "unidades y ventas necesarias",
+        "Calculo o version inicial y version corregida",
+        "Decision tomada y motivo",
+        "Riesgo o duda pendiente"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Confiar en sensacion de movimiento.",
+        "Usar datos sensibles de clientes o proveedores en practicas educativas.",
+        "Cambiar numeros para que la idea parezca rentable.",
+        "Prometer precios, entregas o stock sin capacidad real.",
+        "Medir exito solo por ventas sin mirar margen ni caja."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Control semanal de avance.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
+        "Actualizar el checklist del curso.",
         "Definir el siguiente caso de practica."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision muestra mejor criterio comercial?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Probar en pequeno, calcular margen/caja, guardar evidencia y ajustar antes de crecer.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: protege caja, aprendizaje y relacion con clientes."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Avanzar rapido porque la oportunidad parece buena.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La oportunidad necesita numeros y capacidad real."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Copiar precio o estrategia de otro negocio.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Otro negocio puede tener costos, publico y escala distintos."
           }
         ]
       }
     },
     {
-      "id": "case-8",
-      "title": "Proyecto final integrador: Costos, Precios y Rentabilidad",
-      "summary": "Practica aplicada para resolver una situacion de calculo basico de costos, precios, margen y rentabilidad para pequenos negocios con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Proyecto final",
-      "immediateGoal": "Transformar el caso en una ficha de costos y precio sin exponer datos sensibles y con una decision verificable.",
+      "id": "costos-case-8",
+      "title": "Caja mezclada con dinero personal",
+      "summary": "No se distingue plata del negocio y de la casa.",
+      "severity": "Practica comercial",
+      "immediateGoal": "Separar caja.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Describir el problema inicial: retiros y pagos mezclados.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una ficha de costos y precio.",
-        "Revisar el resultado contra este criterio: el precio cubre costos, muestra margen y permite explicar la decision.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: registrar entradas, salidas y retiro definido.",
+        "Guardar evidencia: flujo de caja separado.",
+        "Validar con muestra pequena, cliente, proveedor o persona competente si corresponde.",
+        "Cerrar con decision, limite detectado y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "lista de costos, precio propuesto, margen, punto de equilibrio y decision",
-        "Decision final y motivo"
+        "Caso o decision de partida",
+        "flujo de caja separado",
+        "Calculo o version inicial y version corregida",
+        "Decision tomada y motivo",
+        "Riesgo o duda pendiente"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Usar caja como billetera comun.",
+        "Usar datos sensibles de clientes o proveedores en practicas educativas.",
+        "Cambiar numeros para que la idea parezca rentable.",
+        "Prometer precios, entregas o stock sin capacidad real.",
+        "Medir exito solo por ventas sin mirar margen ni caja."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Definir retiro y reserva.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
+        "Actualizar el checklist del curso.",
         "Definir el siguiente caso de practica."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision muestra mejor criterio comercial?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Probar en pequeno, calcular margen/caja, guardar evidencia y ajustar antes de crecer.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: protege caja, aprendizaje y relacion con clientes."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Avanzar rapido porque la oportunidad parece buena.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La oportunidad necesita numeros y capacidad real."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Copiar precio o estrategia de otro negocio.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Otro negocio puede tener costos, publico y escala distintos."
           }
         ]
       }

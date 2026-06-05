@@ -32,10 +32,9 @@ El curso ahora cubre:
 
 La auditoria encontro originalmente 32 cursos con patrones de contenido generico o repetido en `course_content.json`.
 
-Pendientes actuales despues de UX/UI, tanda 1, tanda 2, tanda 3, tanda 4, tanda 5 y tanda 6:
+Pendientes actuales despues de UX/UI y tandas 1 a 7:
 
-- `costos_precios_rentabilidad_v0_6_publica`
-- `emprendimiento_barrial_web_v0_6_publica`
+- Sin cursos pendientes por contenido generico.
 
 ## Recomendacion
 
@@ -129,4 +128,13 @@ Completada el 2026-06-05 con 5 cursos de ciudadania, seguridad digital y comunic
 - whatsapp_business_avanzado_v0_6_publica: 6 modulos, 36 lecciones, 30 preguntas, 6 checklists y 8 casos guiados.
 
 Deuda de contenido generico despues de esta tanda: 2 cursos.
+
+## Tanda 7 final de refuerzo
+
+Completada el 2026-06-05 con los 2 cursos comerciales restantes reforzados:
+
+- costos_precios_rentabilidad_v0_6_publica: 6 modulos, 36 lecciones, 30 preguntas, 6 checklists y 8 casos guiados.
+- emprendimiento_barrial_web_v0_6_publica: 6 modulos, 36 lecciones, 30 preguntas, 6 checklists y 8 casos guiados.
+
+Deuda de contenido generico despues de esta tanda: 0 cursos.
 

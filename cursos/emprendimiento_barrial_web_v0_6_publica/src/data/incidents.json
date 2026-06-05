@@ -1,441 +1,441 @@
 {
   "incidents": [
     {
-      "id": "price_too_low",
-      "title": "Caso inicial controlado: Emprendimiento Barrial",
-      "summary": "Practica aplicada para resolver una situacion de organizacion practica de una idea, servicio o venta local con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en un mapa simple del emprendimiento sin exponer datos sensibles y con una decision verificable.",
+      "id": "barrio-case-1",
+      "title": "Compra inicial demasiado grande",
+      "summary": "Se invierte en mucho stock sin validar demanda.",
+      "severity": "Practica comercial",
+      "immediateGoal": "Reducir riesgo de arranque.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Describir el problema inicial: compra por entusiasmo.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir un mapa simple del emprendimiento.",
-        "Revisar el resultado contra este criterio: la idea se puede probar en pequeno antes de escalar.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: definir prueba chica, stock minimo y metrica de venta.",
+        "Guardar evidencia: lista de compra reducida.",
+        "Validar con muestra pequena, cliente, proveedor o persona competente si corresponde.",
+        "Cerrar con decision, limite detectado y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "oferta escrita, costo estimado, cliente objetivo, canal y prueba de venta",
-        "Decision final y motivo"
+        "Caso o decision de partida",
+        "lista de compra reducida",
+        "Calculo o version inicial y version corregida",
+        "Decision tomada y motivo",
+        "Riesgo o duda pendiente"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Comprar variedad para parecer negocio grande.",
+        "Usar datos sensibles de clientes o proveedores en practicas educativas.",
+        "Cambiar numeros para que la idea parezca rentable.",
+        "Prometer precios, entregas o stock sin capacidad real.",
+        "Medir exito solo por ventas sin mirar margen ni caja."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Medir rotacion semanal.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
+        "Actualizar el checklist del curso.",
         "Definir el siguiente caso de practica."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision muestra mejor criterio comercial?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Probar en pequeno, calcular margen/caja, guardar evidencia y ajustar antes de crecer.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: protege caja, aprendizaje y relacion con clientes."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Avanzar rapido porque la oportunidad parece buena.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La oportunidad necesita numeros y capacidad real."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Copiar precio o estrategia de otro negocio.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Otro negocio puede tener costos, publico y escala distintos."
           }
         ]
       }
     },
     {
-      "id": "stock_out",
-      "title": "Caso con datos incompletos: Emprendimiento Barrial",
-      "summary": "Practica aplicada para resolver una situacion de organizacion practica de una idea, servicio o venta local con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en un mapa simple del emprendimiento sin exponer datos sensibles y con una decision verificable.",
+      "id": "barrio-case-2",
+      "title": "Cliente pide fiado",
+      "summary": "La relacion barrial presiona la caja.",
+      "severity": "Practica comercial",
+      "immediateGoal": "Definir regla de fiado.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Describir el problema inicial: pedido de pago diferido.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir un mapa simple del emprendimiento.",
-        "Revisar el resultado contra este criterio: la idea se puede probar en pequeno antes de escalar.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: establecer monto, plazo y registro o alternativa.",
+        "Guardar evidencia: politica de fiado.",
+        "Validar con muestra pequena, cliente, proveedor o persona competente si corresponde.",
+        "Cerrar con decision, limite detectado y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "oferta escrita, costo estimado, cliente objetivo, canal y prueba de venta",
-        "Decision final y motivo"
+        "Caso o decision de partida",
+        "politica de fiado",
+        "Calculo o version inicial y version corregida",
+        "Decision tomada y motivo",
+        "Riesgo o duda pendiente"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Aceptar sin anotar por confianza.",
+        "Usar datos sensibles de clientes o proveedores en practicas educativas.",
+        "Cambiar numeros para que la idea parezca rentable.",
+        "Prometer precios, entregas o stock sin capacidad real.",
+        "Medir exito solo por ventas sin mirar margen ni caja."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Revisar deuda semanal.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
+        "Actualizar el checklist del curso.",
         "Definir el siguiente caso de practica."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision muestra mejor criterio comercial?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Probar en pequeno, calcular margen/caja, guardar evidencia y ajustar antes de crecer.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: protege caja, aprendizaje y relacion con clientes."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Avanzar rapido porque la oportunidad parece buena.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La oportunidad necesita numeros y capacidad real."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Copiar precio o estrategia de otro negocio.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Otro negocio puede tener costos, publico y escala distintos."
           }
         ]
       }
     },
     {
-      "id": "supplier_offer",
-      "title": "Caso con presion de tiempo: Emprendimiento Barrial",
-      "summary": "Practica aplicada para resolver una situacion de organizacion practica de una idea, servicio o venta local con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en un mapa simple del emprendimiento sin exponer datos sensibles y con una decision verificable.",
+      "id": "barrio-case-3",
+      "title": "Pedido mal entendido por WhatsApp",
+      "summary": "Se entrega algo distinto a lo pedido.",
+      "severity": "Practica comercial",
+      "immediateGoal": "Confirmar pedido estructurado.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Describir el problema inicial: chat ambiguo.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir un mapa simple del emprendimiento.",
-        "Revisar el resultado contra este criterio: la idea se puede probar en pequeno antes de escalar.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: confirmar producto, cantidad, precio, entrega y pago.",
+        "Guardar evidencia: mensaje de confirmacion.",
+        "Validar con muestra pequena, cliente, proveedor o persona competente si corresponde.",
+        "Cerrar con decision, limite detectado y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "oferta escrita, costo estimado, cliente objetivo, canal y prueba de venta",
-        "Decision final y motivo"
+        "Caso o decision de partida",
+        "mensaje de confirmacion",
+        "Calculo o version inicial y version corregida",
+        "Decision tomada y motivo",
+        "Riesgo o duda pendiente"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Armar pedido con informacion incompleta.",
+        "Usar datos sensibles de clientes o proveedores en practicas educativas.",
+        "Cambiar numeros para que la idea parezca rentable.",
+        "Prometer precios, entregas o stock sin capacidad real.",
+        "Medir exito solo por ventas sin mirar margen ni caja."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Usar plantilla de pedido.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
+        "Actualizar el checklist del curso.",
         "Definir el siguiente caso de practica."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision muestra mejor criterio comercial?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Probar en pequeno, calcular margen/caja, guardar evidencia y ajustar antes de crecer.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: protege caja, aprendizaje y relacion con clientes."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Avanzar rapido porque la oportunidad parece buena.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La oportunidad necesita numeros y capacidad real."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Copiar precio o estrategia de otro negocio.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Otro negocio puede tener costos, publico y escala distintos."
           }
         ]
       }
     },
     {
-      "id": "customer_claim",
-      "title": "Caso de comunicacion con otra persona: Emprendimiento Barrial",
-      "summary": "Practica aplicada para resolver una situacion de organizacion practica de una idea, servicio o venta local con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en un mapa simple del emprendimiento sin exponer datos sensibles y con una decision verificable.",
+      "id": "barrio-case-4",
+      "title": "Proveedor ofrece descuento fuerte",
+      "summary": "La oferta puede inmovilizar caja.",
+      "severity": "Practica comercial",
+      "immediateGoal": "Evaluar compra mayorista.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Describir el problema inicial: descuento por volumen.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir un mapa simple del emprendimiento.",
-        "Revisar el resultado contra este criterio: la idea se puede probar en pequeno antes de escalar.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: calcular rotacion, margen y vencimiento.",
+        "Guardar evidencia: simulacion de compra.",
+        "Validar con muestra pequena, cliente, proveedor o persona competente si corresponde.",
+        "Cerrar con decision, limite detectado y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "oferta escrita, costo estimado, cliente objetivo, canal y prueba de venta",
-        "Decision final y motivo"
+        "Caso o decision de partida",
+        "simulacion de compra",
+        "Calculo o version inicial y version corregida",
+        "Decision tomada y motivo",
+        "Riesgo o duda pendiente"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Comprar por miedo a perder descuento.",
+        "Usar datos sensibles de clientes o proveedores en practicas educativas.",
+        "Cambiar numeros para que la idea parezca rentable.",
+        "Prometer precios, entregas o stock sin capacidad real.",
+        "Medir exito solo por ventas sin mirar margen ni caja."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Definir regla de proveedor.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
+        "Actualizar el checklist del curso.",
         "Definir el siguiente caso de practica."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision muestra mejor criterio comercial?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Probar en pequeno, calcular margen/caja, guardar evidencia y ajustar antes de crecer.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: protege caja, aprendizaje y relacion con clientes."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Avanzar rapido porque la oportunidad parece buena.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La oportunidad necesita numeros y capacidad real."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Copiar precio o estrategia de otro negocio.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Otro negocio puede tener costos, publico y escala distintos."
           }
         ]
       }
     },
     {
-      "id": "daily_cash_difference",
-      "title": "Caso de error frecuente: Emprendimiento Barrial",
-      "summary": "Practica aplicada para resolver una situacion de organizacion practica de una idea, servicio o venta local con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en un mapa simple del emprendimiento sin exponer datos sensibles y con una decision verificable.",
+      "id": "barrio-case-5",
+      "title": "Promocion atrae muchos pedidos",
+      "summary": "El negocio no puede entregar a tiempo.",
+      "severity": "Practica comercial",
+      "immediateGoal": "Ajustar capacidad.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Describir el problema inicial: demanda mayor a la prevista.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir un mapa simple del emprendimiento.",
-        "Revisar el resultado contra este criterio: la idea se puede probar en pequeno antes de escalar.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: limitar cupos, avisar plazos y priorizar calidad.",
+        "Guardar evidencia: plan de cupos.",
+        "Validar con muestra pequena, cliente, proveedor o persona competente si corresponde.",
+        "Cerrar con decision, limite detectado y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "oferta escrita, costo estimado, cliente objetivo, canal y prueba de venta",
-        "Decision final y motivo"
+        "Caso o decision de partida",
+        "plan de cupos",
+        "Calculo o version inicial y version corregida",
+        "Decision tomada y motivo",
+        "Riesgo o duda pendiente"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Aceptar todo para no perder ventas.",
+        "Usar datos sensibles de clientes o proveedores en practicas educativas.",
+        "Cambiar numeros para que la idea parezca rentable.",
+        "Prometer precios, entregas o stock sin capacidad real.",
+        "Medir exito solo por ventas sin mirar margen ni caja."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Calcular capacidad antes de promocionar.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
+        "Actualizar el checklist del curso.",
         "Definir el siguiente caso de practica."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision muestra mejor criterio comercial?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Probar en pequeno, calcular margen/caja, guardar evidencia y ajustar antes de crecer.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: protege caja, aprendizaje y relacion con clientes."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Avanzar rapido porque la oportunidad parece buena.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La oportunidad necesita numeros y capacidad real."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Copiar precio o estrategia de otro negocio.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Otro negocio puede tener costos, publico y escala distintos."
           }
         ]
       }
     },
     {
-      "id": "slow_product",
-      "title": "Caso de mejora de proceso: Emprendimiento Barrial",
-      "summary": "Practica aplicada para resolver una situacion de organizacion practica de una idea, servicio o venta local con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en un mapa simple del emprendimiento sin exponer datos sensibles y con una decision verificable.",
+      "id": "barrio-case-6",
+      "title": "Reclamo publico de cliente",
+      "summary": "Un cliente se queja en redes o grupo vecinal.",
+      "severity": "Practica comercial",
+      "immediateGoal": "Responder con evidencia y calma.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Describir el problema inicial: queja visible.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir un mapa simple del emprendimiento.",
-        "Revisar el resultado contra este criterio: la idea se puede probar en pequeno antes de escalar.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: revisar caso, responder con respeto y proponer solucion.",
+        "Guardar evidencia: registro del reclamo.",
+        "Validar con muestra pequena, cliente, proveedor o persona competente si corresponde.",
+        "Cerrar con decision, limite detectado y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "oferta escrita, costo estimado, cliente objetivo, canal y prueba de venta",
-        "Decision final y motivo"
+        "Caso o decision de partida",
+        "registro del reclamo",
+        "Calculo o version inicial y version corregida",
+        "Decision tomada y motivo",
+        "Riesgo o duda pendiente"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Discutir en publico.",
+        "Usar datos sensibles de clientes o proveedores en practicas educativas.",
+        "Cambiar numeros para que la idea parezca rentable.",
+        "Prometer precios, entregas o stock sin capacidad real.",
+        "Medir exito solo por ventas sin mirar margen ni caja."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Registrar causa y correccion.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
+        "Actualizar el checklist del curso.",
         "Definir el siguiente caso de practica."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision muestra mejor criterio comercial?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Probar en pequeno, calcular margen/caja, guardar evidencia y ajustar antes de crecer.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: protege caja, aprendizaje y relacion con clientes."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Avanzar rapido porque la oportunidad parece buena.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La oportunidad necesita numeros y capacidad real."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Copiar precio o estrategia de otro negocio.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Otro negocio puede tener costos, publico y escala distintos."
           }
         ]
       }
     },
     {
-      "id": "whatsapp_order_confusion",
-      "title": "Caso de decision responsable: Emprendimiento Barrial",
-      "summary": "Practica aplicada para resolver una situacion de organizacion practica de una idea, servicio o venta local con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en un mapa simple del emprendimiento sin exponer datos sensibles y con una decision verificable.",
+      "id": "barrio-case-7",
+      "title": "Ventas suben pero caja baja",
+      "summary": "Hay movimiento, pero falta dinero para reponer.",
+      "severity": "Practica comercial",
+      "immediateGoal": "Separar venta, margen y caja.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Describir el problema inicial: caja insuficiente.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir un mapa simple del emprendimiento.",
-        "Revisar el resultado contra este criterio: la idea se puede probar en pequeno antes de escalar.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: revisar costos, fiado, stock y retiros.",
+        "Guardar evidencia: flujo de caja corregido.",
+        "Validar con muestra pequena, cliente, proveedor o persona competente si corresponde.",
+        "Cerrar con decision, limite detectado y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "oferta escrita, costo estimado, cliente objetivo, canal y prueba de venta",
-        "Decision final y motivo"
+        "Caso o decision de partida",
+        "flujo de caja corregido",
+        "Calculo o version inicial y version corregida",
+        "Decision tomada y motivo",
+        "Riesgo o duda pendiente"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Pensar que vender mas siempre resuelve.",
+        "Usar datos sensibles de clientes o proveedores en practicas educativas.",
+        "Cambiar numeros para que la idea parezca rentable.",
+        "Prometer precios, entregas o stock sin capacidad real.",
+        "Medir exito solo por ventas sin mirar margen ni caja."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Control diario de caja.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
+        "Actualizar el checklist del curso.",
         "Definir el siguiente caso de practica."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision muestra mejor criterio comercial?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Probar en pequeno, calcular margen/caja, guardar evidencia y ajustar antes de crecer.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: protege caja, aprendizaje y relacion con clientes."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Avanzar rapido porque la oportunidad parece buena.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La oportunidad necesita numeros y capacidad real."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Copiar precio o estrategia de otro negocio.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Otro negocio puede tener costos, publico y escala distintos."
           }
         ]
       }
     },
     {
-      "id": "promotion_decision",
-      "title": "Proyecto final integrador: Emprendimiento Barrial",
-      "summary": "Practica aplicada para resolver una situacion de organizacion practica de una idea, servicio o venta local con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Proyecto final",
-      "immediateGoal": "Transformar el caso en un mapa simple del emprendimiento sin exponer datos sensibles y con una decision verificable.",
+      "id": "barrio-case-8",
+      "title": "Crecimiento sin rutina",
+      "summary": "Se agregan productos y canales sin control.",
+      "severity": "Practica comercial",
+      "immediateGoal": "Ordenar antes de crecer.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Describir el problema inicial: desorden operativo.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir un mapa simple del emprendimiento.",
-        "Revisar el resultado contra este criterio: la idea se puede probar en pequeno antes de escalar.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: priorizar productos rentables, canales y responsables.",
+        "Guardar evidencia: plan de 30 dias ajustado.",
+        "Validar con muestra pequena, cliente, proveedor o persona competente si corresponde.",
+        "Cerrar con decision, limite detectado y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "oferta escrita, costo estimado, cliente objetivo, canal y prueba de venta",
-        "Decision final y motivo"
+        "Caso o decision de partida",
+        "plan de 30 dias ajustado",
+        "Calculo o version inicial y version corregida",
+        "Decision tomada y motivo",
+        "Riesgo o duda pendiente"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Abrir otro canal para vender mas.",
+        "Usar datos sensibles de clientes o proveedores en practicas educativas.",
+        "Cambiar numeros para que la idea parezca rentable.",
+        "Prometer precios, entregas o stock sin capacidad real.",
+        "Medir exito solo por ventas sin mirar margen ni caja."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Revision semanal de foco.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
+        "Actualizar el checklist del curso.",
         "Definir el siguiente caso de practica."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision muestra mejor criterio comercial?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Probar en pequeno, calcular margen/caja, guardar evidencia y ajustar antes de crecer.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: protege caja, aprendizaje y relacion con clientes."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Avanzar rapido porque la oportunidad parece buena.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La oportunidad necesita numeros y capacidad real."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Copiar precio o estrategia de otro negocio.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Otro negocio puede tener costos, publico y escala distintos."
           }
         ]
       }

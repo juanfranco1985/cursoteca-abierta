@@ -1,11 +1,11 @@
 {
   "courseId": "emprendimiento-barrial-web",
-  "templateVersion": "0.6-publica-profesional",
+  "templateVersion": "0.7-publica-profesional-tanda-7-final",
   "appName": "Emprendimiento Barrial",
-  "shortName": "Emprender Barrio",
-  "subtitle": "Curso práctico para convertir una idea en oferta, precio, proceso y primer plan de ventas.",
-  "description": "Ordená una idea de negocio local: propuesta, público, costos, precio, rutina de atención y primeros pasos para vender mejor.",
-  "audience": "Personas con pequeños negocios, revendedores, comerciantes barriales, emprendimientos familiares y trabajadores que quieren ordenar ventas, stock y caja sin sistemas complejos.",
+  "shortName": "Emprendimiento Barrial",
+  "subtitle": "Idea, barrio, cliente, oferta, costos, canales, operacion, ventas y mejora.",
+  "description": "Curso practico para iniciar o mejorar un emprendimiento barrial con foco, numeros simples, trato cercano y decisiones sostenibles.",
+  "audience": "Personas que venden en su barrio, feriantes, oficios, comercios familiares y emprendimientos de escala chica.",
   "dataPaths": {
     "course": "src/data/course_content.json",
     "checklists": "src/data/checklists.json",
@@ -14,11 +14,11 @@
     "businessDecisions": "src/data/business_decisions.json"
   },
   "labels": {
-    "modules": "Módulos",
-    "checklists": "Checklists",
-    "incidents": "Casos de negocio",
-    "emergency": "Acción rápida",
-    "certificate": "Constancia",
+    "modules": "Modulos de aprendizaje",
+    "checklists": "Checklists de decision",
+    "incidents": "Casos guiados",
+    "emergency": "Ayuda rapida",
+    "certificate": "Constancia de avance",
     "primaryAction": "Empezar curso",
     "emergencyAction": "Tengo un problema en mi negocio",
     "tools": "Herramientas"
@@ -61,7 +61,8 @@
     "privacyDocs": true,
     "publicProfessionalEdition": true,
     "requiresBackend": false,
-    "requiresLogin": false
+    "requiresLogin": false,
+    "reinforcedBatch7Final": true
   },
   "theme": {
     "accent": "#4fb6aa",
@@ -101,7 +102,40 @@
     ],
     "officialNotice": "Curso educativo. No reemplaza asesoramiento contable, legal, impositivo, financiero ni profesional."
   },
-  "cloneNotes": "Candidato de publicación v0.5 de Emprendimiento Barrial Web. Mantiene curso, herramientas, simulador, tablero, rutina y reportes, con documentación pública final.",
+  "cloneNotes": [
+    "C",
+    "a",
+    "n",
+    "d",
+    "i",
+    "t",
+    "o",
+    " ",
+    "e",
+    "p",
+    "u",
+    "b",
+    "l",
+    "c",
+    "ó",
+    "v",
+    "0",
+    ".",
+    "5",
+    "E",
+    "m",
+    "r",
+    "B",
+    "W",
+    "M",
+    "s",
+    ",",
+    "h",
+    "y",
+    "ú",
+    "f",
+    "v0.7 tanda 7 final reemplaza contenido generico por modulos, practicas, checklists y casos especificos; deuda generica cerrada."
+  ],
   "navigationHighlights": [
     "Curso modular",
     "Herramientas de negocio",
@@ -112,7 +146,7 @@
     "Checklist diaria",
     "Publicación web"
   ],
-  "responsibleNotice": "Contenido educativo. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. No invertir fuerte ni asumir deudas sin probar demanda, costos y capacidad real.",
+  "responsibleNotice": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar.",
   "version": "0.5.0",
   "webApp": {
     "cacheName": "emprendimiento-barrial-web-v0-6-publica-v0-6-publica-profesional",
@@ -165,5 +199,16 @@
   "editorialPolish": {
     "firstFeaturedBatch": "2026-06-01",
     "status": "public-facing-copy-polished"
+  },
+  "cacheName": "emprendimiento_barrial_web_v0_6_publica-cache-0.7-tanda-7-final",
+  "contentAudit": {
+    "status": "reforzado-tanda-7-final",
+    "date": "2026-06-05",
+    "modules": 6,
+    "lessons": 36,
+    "quizQuestions": 30,
+    "checklists": 6,
+    "cases": 8,
+    "notes": "Contenido reemplazado para cerrar la deuda de contenido generico en cursos comerciales y de emprendimiento."
   }
 }

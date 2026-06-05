@@ -48,7 +48,8 @@
 - [x] Reforzar cuarta tanda de 5 cursos de trabajo y emprendimiento.
 - [x] Reforzar quinta tanda de 5 cursos de datos y analisis.
 - [x] Reforzar sexta tanda de 5 cursos de ciudadania y seguridad digital.
-- [ ] Reforzar los 2 cursos restantes con patrones de contenido generico.
+- [x] Reforzar tanda final de 2 cursos comerciales.
+- [x] Cerrar deuda de contenido generico detectada en la auditoria.
 
 ## Cierre v1.0
 
