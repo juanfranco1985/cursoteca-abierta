@@ -32,34 +32,29 @@ El curso ahora cubre:
 
 La auditoria encontro originalmente 32 cursos con patrones de contenido generico o repetido en `course_content.json`.
 
-Pendientes actuales despues de UX/UI y tanda 1:
+Pendientes actuales despues de UX/UI, tanda 1 y tanda 2:
 
 - `calidad_datos_principiantes_v0_6_publica`
 - `ciudadano_digital_argentina_v0_6_publica`
 - `costos_precios_rentabilidad_v0_6_publica`
 - `cuidado_digital_mayores_familias_v0_6_publica`
 - `cv_linkedin_busqueda_laboral_v0_6_publica`
-- `educacion_financiera_basica_argentina_v0_6_publica`
 - `emprendimiento_barrial_web_v0_6_publica`
 - `estadistica_basica_decisiones_v0_6_publica`
 - `excel_analisis_datos_v0_6_publica`
 - `excel_google_sheets_desde_cero_v0_6_publica`
-- `finanzas_digitales_seguras_web_v0_6_publica`
 - `gobierno_datos_basico_v0_6_publica`
 - `ia_practica_web_v0_6_publica`
 - `javascript_desde_cero_web_v0_6_publica`
 - `marketing_digital_barrial_v0_6_publica`
-- `monotributo_organizacion_administrativa_v0_6_publica`
 - `notion_trello_organizacion_v0_6_publica`
 - `power_bi_principiantes_web_v0_6_publica`
-- `primeros_auxilios_digitales_web_v0_6_publica`
 - `python_datos_desde_cero_v0_6_publica`
 - `seguridad_digital_docentes_v0_6_publica`
 - `seguridad_familiar_internet_v0_6_publica`
 - `storytelling_datos_v0_6_publica`
 - `teletrabajo_seguro_productivo_v0_6_publica`
 - `tienda_online_principiantes_v0_6_publica`
-- `tramites_digitales_argentina_v0_6_publica`
 - `whatsapp_business_avanzado_v0_6_publica`
 
 ## Recomendacion
@@ -94,3 +89,16 @@ Completada el 2026-06-04 con 5 cursos reforzados:
 - automatizacion_ia_tareas_v0_6_publica: 6 modulos, 36 lecciones, 30 preguntas, 6 checklists y 8 casos guiados.
 
 Deuda de contenido generico despues de esta tanda: 27 cursos.
+
+## Tanda 2 de refuerzo
+
+Completada el 2026-06-04 con 5 cursos sensibles reforzados:
+
+- finanzas_digitales_seguras_web_v0_6_publica: 6 modulos, 36 lecciones, 30 preguntas, 6 checklists y 8 casos guiados.
+- tramites_digitales_argentina_v0_6_publica: 6 modulos, 36 lecciones, 30 preguntas, 6 checklists y 8 casos guiados.
+- monotributo_organizacion_administrativa_v0_6_publica: 6 modulos, 36 lecciones, 30 preguntas, 6 checklists y 8 casos guiados.
+- educacion_financiera_basica_argentina_v0_6_publica: 6 modulos, 36 lecciones, 30 preguntas, 6 checklists y 8 casos guiados.
+- primeros_auxilios_digitales_web_v0_6_publica: 6 modulos, 36 lecciones, 30 preguntas, 6 checklists y 8 casos guiados.
+
+Deuda de contenido generico despues de esta tanda: 22 cursos.
+

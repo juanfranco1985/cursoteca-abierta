@@ -1,11 +1,11 @@
 {
   "courseId": "finanzas-digitales-seguras-argentina",
-  "templateVersion": "0.6-publica-profesional",
+  "templateVersion": "0.7-publica-profesional-tanda-2",
   "appName": "Finanzas Digitales Seguras Argentina",
-  "shortName": "Finanzas Seguras",
-  "subtitle": "Curso práctico para operar con menos riesgo, registrar movimientos y detectar señales de alerta.",
-  "description": "Usá billeteras, transferencias, tarjetas y comprobantes con más control: verificá operaciones, ordená gastos y evitá decisiones apuradas.",
-  "audience": "Usuarios de billeteras virtuales, jóvenes, familias, comerciantes, emprendedores y personas que empiezan a usar cuentas digitales.",
+  "shortName": "Finanzas Digitales",
+  "subtitle": "Billeteras, transferencias, comprobantes, tarjetas, presupuesto y respuesta ante fraudes.",
+  "description": "Curso practico para usar pagos digitales con mas control, verificar operaciones y actuar con calma ante movimientos sospechosos.",
+  "audience": "Personas que usan billeteras, transferencias, QR, tarjetas o ventas digitales en Argentina.",
   "dataPaths": {
     "course": "src/data/course_content.json",
     "checklists": "src/data/checklists.json",
@@ -13,11 +13,11 @@
     "financialTools": "src/data/financial_tools.json"
   },
   "labels": {
-    "modules": "Módulos",
-    "checklists": "Checklists",
-    "incidents": "Casos financieros",
-    "emergency": "Emergencia",
-    "certificate": "Constancia",
+    "modules": "Modulos de aprendizaje",
+    "checklists": "Checklists operativos",
+    "incidents": "Casos guiados",
+    "emergency": "Ayuda rapida",
+    "certificate": "Constancia de avance",
     "primaryAction": "Empezar curso",
     "emergencyAction": "Tengo un problema financiero digital",
     "tools": "Herramientas"
@@ -68,7 +68,8 @@
     "finalDocsCleanup": true,
     "publicProfessionalEdition": true,
     "requiresBackend": false,
-    "requiresLogin": false
+    "requiresLogin": false,
+    "reinforcedBatch2": true
   },
   "theme": {
     "accent": "#4fb6aa",
@@ -89,12 +90,13 @@
     "minimumSuggestedQuizAverage": 70,
     "notOfficialNotice": "Esta constancia es educativa, no oficial, y no equivale a asesoramiento financiero, bancario, legal ni contable."
   },
-  "responsibleNotice": "Contenido educativo. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. No compartir CVU/alias junto con claves, tokens, codigos o capturas completas de cuenta.",
+  "responsibleNotice": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar.",
   "cloneNotes": [
     "La v0.5 deja Finanzas Digitales Seguras Argentina como candidato de publicación web estática.",
     "Se agregan guías públicas, privacidad, aviso legal financiero-educativo, checklist de publicación y carpeta de capturas.",
     "El motor conserva progreso local, herramientas, casos, checklists, certificado y accesibilidad sin backend ni login.",
-    "Para publicar, probar primero con Live Server y luego subir la carpeta completa a GitHub Pages, Netlify, Vercel u hosting estático."
+    "Para publicar, probar primero con Live Server y luego subir la carpeta completa a GitHub Pages, Netlify, Vercel u hosting estático.",
+    "v0.7 tanda 2 reemplaza contenido generico por modulos, practicas, checklists y casos especificos en cursos sensibles."
   ],
   "homeHighlights": [
     "Herramientas educativas de presupuesto y gastos hormiga",
@@ -159,5 +161,16 @@
   "editorialPolish": {
     "firstFeaturedBatch": "2026-06-01",
     "status": "public-facing-copy-polished"
+  },
+  "cacheName": "finanzas_digitales_seguras_web_v0_6_publica-cache-0.7-tanda-2",
+  "contentAudit": {
+    "status": "reforzado-tanda-2",
+    "date": "2026-06-04",
+    "modules": 6,
+    "lessons": 36,
+    "quizQuestions": 30,
+    "checklists": 6,
+    "cases": 8,
+    "notes": "Contenido reemplazado para reducir patrones genericos en cursos sensibles."
   }
 }

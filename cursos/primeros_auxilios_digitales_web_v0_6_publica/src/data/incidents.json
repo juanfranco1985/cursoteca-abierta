@@ -1,441 +1,441 @@
 {
   "incidents": [
     {
-      "id": "whatsapp_robado",
-      "title": "Caso inicial controlado: Primeros Auxilios Digitales",
-      "summary": "Practica aplicada para resolver una situacion de respuesta ante estafas, robo de cuentas, mensajes sospechosos y urgencias digitales con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en un protocolo de primeros 5 minutos, primera hora y primeras 48 horas sin exponer datos sensibles y con una decision verificable.",
+      "id": "padig-case-1",
+      "title": "WhatsApp robado",
+      "summary": "Contactos reciben mensajes pidiendo dinero.",
+      "severity": "Practica sensible",
+      "immediateGoal": "Recuperar cuenta y avisar contactos.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Detener la accion automatica y describir el disparador: codigo compartido o sesion tomada.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir un protocolo de primeros 5 minutos, primera hora y primeras 48 horas.",
-        "Revisar el resultado contra este criterio: el plan diferencia urgencia real, sospecha y verificacion oficial.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: intentar recuperacion oficial, avisar por otro canal y activar verificacion.",
+        "Guardar evidencia: mensajes enviados y hora de perdida.",
+        "Definir si alcanza con una accion propia o si corresponde canal oficial, profesional o soporte competente.",
+        "Cerrar con decision, motivo, limite del ejercicio y siguiente control."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "capturas, horarios, usuario/contacto, plataforma afectada y pasos realizados",
-        "Decision final y motivo"
+        "Descripcion del caso",
+        "mensajes enviados y hora de perdida",
+        "Fecha aproximada y canal usado",
+        "Decision tomada y motivo",
+        "Duda que requiere validacion externa"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Pedir a contactos que respondan al chat tomado.",
+        "Compartir claves, codigos, documentos completos o datos bancarios.",
+        "Confiar solo en capturas o mensajes reenviados.",
+        "Borrar evidencia antes de entender el problema.",
+        "Tomar una practica educativa como recomendacion profesional definitiva."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Activar verificacion en dos pasos.",
+        "Actualizar checklist personal o familiar.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Revisar si hace falta bloquear, reclamar, denunciar o consultar por canales oficiales."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision reduce mejor el riesgo?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Pausar, verificar por canal oficial, guardar evidencia y actuar solo con informacion suficiente.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: baja la probabilidad de fraude, error o exposicion de datos."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Responder rapido para no perder tiempo.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La rapidez sin verificacion puede agravar el problema."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Enviar mas datos para que otra persona decida.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "En temas sensibles se comparte lo minimo necesario y por canales confiables."
           }
         ]
       }
     },
     {
-      "id": "link_sospechoso",
-      "title": "Caso con datos incompletos: Primeros Auxilios Digitales",
-      "summary": "Practica aplicada para resolver una situacion de respuesta ante estafas, robo de cuentas, mensajes sospechosos y urgencias digitales con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en un protocolo de primeros 5 minutos, primera hora y primeras 48 horas sin exponer datos sensibles y con una decision verificable.",
+      "id": "padig-case-2",
+      "title": "Correo principal comprometido",
+      "summary": "Llegan avisos de accesos desconocidos.",
+      "severity": "Practica sensible",
+      "immediateGoal": "Cerrar sesiones y proteger cuentas vinculadas.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Detener la accion automatica y describir el disparador: inicio de sesion no reconocido.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir un protocolo de primeros 5 minutos, primera hora y primeras 48 horas.",
-        "Revisar el resultado contra este criterio: el plan diferencia urgencia real, sospecha y verificacion oficial.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: cambiar clave desde dispositivo seguro y revisar recuperacion.",
+        "Guardar evidencia: alertas, dispositivos y cambios realizados.",
+        "Definir si alcanza con una accion propia o si corresponde canal oficial, profesional o soporte competente.",
+        "Cerrar con decision, motivo, limite del ejercicio y siguiente control."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "capturas, horarios, usuario/contacto, plataforma afectada y pasos realizados",
-        "Decision final y motivo"
+        "Descripcion del caso",
+        "alertas, dispositivos y cambios realizados",
+        "Fecha aproximada y canal usado",
+        "Decision tomada y motivo",
+        "Duda que requiere validacion externa"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Ignorar porque todavia entra.",
+        "Compartir claves, codigos, documentos completos o datos bancarios.",
+        "Confiar solo en capturas o mensajes reenviados.",
+        "Borrar evidencia antes de entender el problema.",
+        "Tomar una practica educativa como recomendacion profesional definitiva."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Revisar cuentas que dependen del correo.",
+        "Actualizar checklist personal o familiar.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Revisar si hace falta bloquear, reclamar, denunciar o consultar por canales oficiales."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision reduce mejor el riesgo?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Pausar, verificar por canal oficial, guardar evidencia y actuar solo con informacion suficiente.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: baja la probabilidad de fraude, error o exposicion de datos."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Responder rapido para no perder tiempo.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La rapidez sin verificacion puede agravar el problema."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Enviar mas datos para que otra persona decida.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "En temas sensibles se comparte lo minimo necesario y por canales confiables."
           }
         ]
       }
     },
     {
-      "id": "datos_entregados",
-      "title": "Caso con presion de tiempo: Primeros Auxilios Digitales",
-      "summary": "Practica aplicada para resolver una situacion de respuesta ante estafas, robo de cuentas, mensajes sospechosos y urgencias digitales con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en un protocolo de primeros 5 minutos, primera hora y primeras 48 horas sin exponer datos sensibles y con una decision verificable.",
+      "id": "padig-case-3",
+      "title": "Link de banco abierto",
+      "summary": "La persona ingreso datos en un sitio falso.",
+      "severity": "Practica sensible",
+      "immediateGoal": "Cortar dano y contactar entidad.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Detener la accion automatica y describir el disparador: datos cargados en phishing.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir un protocolo de primeros 5 minutos, primera hora y primeras 48 horas.",
-        "Revisar el resultado contra este criterio: el plan diferencia urgencia real, sospecha y verificacion oficial.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: bloquear medio, cambiar claves y reclamar oficialmente.",
+        "Guardar evidencia: link, hora y datos ingresados.",
+        "Definir si alcanza con una accion propia o si corresponde canal oficial, profesional o soporte competente.",
+        "Cerrar con decision, motivo, limite del ejercicio y siguiente control."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "capturas, horarios, usuario/contacto, plataforma afectada y pasos realizados",
-        "Decision final y motivo"
+        "Descripcion del caso",
+        "link, hora y datos ingresados",
+        "Fecha aproximada y canal usado",
+        "Decision tomada y motivo",
+        "Duda que requiere validacion externa"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Volver al link para verificar.",
+        "Compartir claves, codigos, documentos completos o datos bancarios.",
+        "Confiar solo en capturas o mensajes reenviados.",
+        "Borrar evidencia antes de entender el problema.",
+        "Tomar una practica educativa como recomendacion profesional definitiva."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Revisar movimientos por 30 dias.",
+        "Actualizar checklist personal o familiar.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Revisar si hace falta bloquear, reclamar, denunciar o consultar por canales oficiales."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision reduce mejor el riesgo?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Pausar, verificar por canal oficial, guardar evidencia y actuar solo con informacion suficiente.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: baja la probabilidad de fraude, error o exposicion de datos."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Responder rapido para no perder tiempo.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La rapidez sin verificacion puede agravar el problema."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Enviar mas datos para que otra persona decida.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "En temas sensibles se comparte lo minimo necesario y por canales confiables."
           }
         ]
       }
     },
     {
-      "id": "app_sospechosa",
-      "title": "Caso de comunicacion con otra persona: Primeros Auxilios Digitales",
-      "summary": "Practica aplicada para resolver una situacion de respuesta ante estafas, robo de cuentas, mensajes sospechosos y urgencias digitales con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en un protocolo de primeros 5 minutos, primera hora y primeras 48 horas sin exponer datos sensibles y con una decision verificable.",
+      "id": "padig-case-4",
+      "title": "Telefono perdido",
+      "summary": "El celular tiene billeteras, correo y redes abiertas.",
+      "severity": "Practica sensible",
+      "immediateGoal": "Bloquear dispositivo y cuentas.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Detener la accion automatica y describir el disparador: perdida fisica.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir un protocolo de primeros 5 minutos, primera hora y primeras 48 horas.",
-        "Revisar el resultado contra este criterio: el plan diferencia urgencia real, sospecha y verificacion oficial.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: localizar/bloquear, cerrar sesiones y avisar operadora si corresponde.",
+        "Guardar evidencia: hora, lugar y acciones.",
+        "Definir si alcanza con una accion propia o si corresponde canal oficial, profesional o soporte competente.",
+        "Cerrar con decision, motivo, limite del ejercicio y siguiente control."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "capturas, horarios, usuario/contacto, plataforma afectada y pasos realizados",
-        "Decision final y motivo"
+        "Descripcion del caso",
+        "hora, lugar y acciones",
+        "Fecha aproximada y canal usado",
+        "Decision tomada y motivo",
+        "Duda que requiere validacion externa"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Esperar sin bloquear por si aparece.",
+        "Compartir claves, codigos, documentos completos o datos bancarios.",
+        "Confiar solo en capturas o mensajes reenviados.",
+        "Borrar evidencia antes de entender el problema.",
+        "Tomar una practica educativa como recomendacion profesional definitiva."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Revisar bloqueo, copia y alertas.",
+        "Actualizar checklist personal o familiar.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Revisar si hace falta bloquear, reclamar, denunciar o consultar por canales oficiales."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision reduce mejor el riesgo?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Pausar, verificar por canal oficial, guardar evidencia y actuar solo con informacion suficiente.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: baja la probabilidad de fraude, error o exposicion de datos."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Responder rapido para no perder tiempo.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La rapidez sin verificacion puede agravar el problema."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Enviar mas datos para que otra persona decida.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "En temas sensibles se comparte lo minimo necesario y por canales confiables."
           }
         ]
       }
     },
     {
-      "id": "movimiento_desconocido",
-      "title": "Caso de error frecuente: Primeros Auxilios Digitales",
-      "summary": "Practica aplicada para resolver una situacion de respuesta ante estafas, robo de cuentas, mensajes sospechosos y urgencias digitales con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en un protocolo de primeros 5 minutos, primera hora y primeras 48 horas sin exponer datos sensibles y con una decision verificable.",
+      "id": "padig-case-5",
+      "title": "Comprobante falso en venta",
+      "summary": "Un cliente presiona con una captura.",
+      "severity": "Practica sensible",
+      "immediateGoal": "Evitar entrega y preservar evidencia.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Detener la accion automatica y describir el disparador: captura sin acreditacion.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir un protocolo de primeros 5 minutos, primera hora y primeras 48 horas.",
-        "Revisar el resultado contra este criterio: el plan diferencia urgencia real, sospecha y verificacion oficial.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: verificar app oficial y pausar entrega.",
+        "Guardar evidencia: chat, comprobante y estado oficial.",
+        "Definir si alcanza con una accion propia o si corresponde canal oficial, profesional o soporte competente.",
+        "Cerrar con decision, motivo, limite del ejercicio y siguiente control."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "capturas, horarios, usuario/contacto, plataforma afectada y pasos realizados",
-        "Decision final y motivo"
+        "Descripcion del caso",
+        "chat, comprobante y estado oficial",
+        "Fecha aproximada y canal usado",
+        "Decision tomada y motivo",
+        "Duda que requiere validacion externa"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Entregar producto por presion.",
+        "Compartir claves, codigos, documentos completos o datos bancarios.",
+        "Confiar solo en capturas o mensajes reenviados.",
+        "Borrar evidencia antes de entender el problema.",
+        "Tomar una practica educativa como recomendacion profesional definitiva."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Agregar regla de cobro seguro.",
+        "Actualizar checklist personal o familiar.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Revisar si hace falta bloquear, reclamar, denunciar o consultar por canales oficiales."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision reduce mejor el riesgo?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Pausar, verificar por canal oficial, guardar evidencia y actuar solo con informacion suficiente.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: baja la probabilidad de fraude, error o exposicion de datos."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Responder rapido para no perder tiempo.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La rapidez sin verificacion puede agravar el problema."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Enviar mas datos para que otra persona decida.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "En temas sensibles se comparte lo minimo necesario y por canales confiables."
           }
         ]
       }
     },
     {
-      "id": "transferencia_desconocida",
-      "title": "Caso de mejora de proceso: Primeros Auxilios Digitales",
-      "summary": "Practica aplicada para resolver una situacion de respuesta ante estafas, robo de cuentas, mensajes sospechosos y urgencias digitales con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en un protocolo de primeros 5 minutos, primera hora y primeras 48 horas sin exponer datos sensibles y con una decision verificable.",
+      "id": "padig-case-6",
+      "title": "Amenaza o extorsion digital",
+      "summary": "Alguien amenaza publicar informacion.",
+      "severity": "Practica sensible",
+      "immediateGoal": "Preservar evidencia y buscar ayuda competente.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Detener la accion automatica y describir el disparador: mensaje amenazante.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir un protocolo de primeros 5 minutos, primera hora y primeras 48 horas.",
-        "Revisar el resultado contra este criterio: el plan diferencia urgencia real, sospecha y verificacion oficial.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: no negociar por impulso, guardar evidencia y consultar canal adecuado.",
+        "Guardar evidencia: mensajes, usuarios, fechas.",
+        "Definir si alcanza con una accion propia o si corresponde canal oficial, profesional o soporte competente.",
+        "Cerrar con decision, motivo, limite del ejercicio y siguiente control."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "capturas, horarios, usuario/contacto, plataforma afectada y pasos realizados",
-        "Decision final y motivo"
+        "Descripcion del caso",
+        "mensajes, usuarios, fechas",
+        "Fecha aproximada y canal usado",
+        "Decision tomada y motivo",
+        "Duda que requiere validacion externa"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Borrar o responder con mas informacion.",
+        "Compartir claves, codigos, documentos completos o datos bancarios.",
+        "Confiar solo en capturas o mensajes reenviados.",
+        "Borrar evidencia antes de entender el problema.",
+        "Tomar una practica educativa como recomendacion profesional definitiva."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Revisar privacidad y apoyo legal/psicologico si corresponde.",
+        "Actualizar checklist personal o familiar.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Revisar si hace falta bloquear, reclamar, denunciar o consultar por canales oficiales."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision reduce mejor el riesgo?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Pausar, verificar por canal oficial, guardar evidencia y actuar solo con informacion suficiente.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: baja la probabilidad de fraude, error o exposicion de datos."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Responder rapido para no perder tiempo.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La rapidez sin verificacion puede agravar el problema."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Enviar mas datos para que otra persona decida.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "En temas sensibles se comparte lo minimo necesario y por canales confiables."
           }
         ]
       }
     },
     {
-      "id": "cuenta_social_tomada",
-      "title": "Caso de decision responsable: Primeros Auxilios Digitales",
-      "summary": "Practica aplicada para resolver una situacion de respuesta ante estafas, robo de cuentas, mensajes sospechosos y urgencias digitales con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en un protocolo de primeros 5 minutos, primera hora y primeras 48 horas sin exponer datos sensibles y con una decision verificable.",
+      "id": "padig-case-7",
+      "title": "Archivo sospechoso descargado",
+      "summary": "Se abrio un adjunto inesperado.",
+      "severity": "Practica sensible",
+      "immediateGoal": "Reducir dano y revisar dispositivo.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Detener la accion automatica y describir el disparador: archivo de origen dudoso.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir un protocolo de primeros 5 minutos, primera hora y primeras 48 horas.",
-        "Revisar el resultado contra este criterio: el plan diferencia urgencia real, sospecha y verificacion oficial.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: desconectar si hace falta, no ingresar claves y consultar soporte.",
+        "Guardar evidencia: nombre del archivo, origen y acciones.",
+        "Definir si alcanza con una accion propia o si corresponde canal oficial, profesional o soporte competente.",
+        "Cerrar con decision, motivo, limite del ejercicio y siguiente control."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "capturas, horarios, usuario/contacto, plataforma afectada y pasos realizados",
-        "Decision final y motivo"
+        "Descripcion del caso",
+        "nombre del archivo, origen y acciones",
+        "Fecha aproximada y canal usado",
+        "Decision tomada y motivo",
+        "Duda que requiere validacion externa"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Seguir usando cuentas sensibles en el mismo equipo.",
+        "Compartir claves, codigos, documentos completos o datos bancarios.",
+        "Confiar solo en capturas o mensajes reenviados.",
+        "Borrar evidencia antes de entender el problema.",
+        "Tomar una practica educativa como recomendacion profesional definitiva."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Actualizar sistema y cambiar claves desde equipo seguro.",
+        "Actualizar checklist personal o familiar.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Revisar si hace falta bloquear, reclamar, denunciar o consultar por canales oficiales."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision reduce mejor el riesgo?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Pausar, verificar por canal oficial, guardar evidencia y actuar solo con informacion suficiente.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: baja la probabilidad de fraude, error o exposicion de datos."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Responder rapido para no perder tiempo.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La rapidez sin verificacion puede agravar el problema."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Enviar mas datos para que otra persona decida.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "En temas sensibles se comparte lo minimo necesario y por canales confiables."
           }
         ]
       }
     },
     {
-      "id": "amenaza_extorsion",
-      "title": "Proyecto final integrador: Primeros Auxilios Digitales",
-      "summary": "Practica aplicada para resolver una situacion de respuesta ante estafas, robo de cuentas, mensajes sospechosos y urgencias digitales con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Proyecto final",
-      "immediateGoal": "Transformar el caso en un protocolo de primeros 5 minutos, primera hora y primeras 48 horas sin exponer datos sensibles y con una decision verificable.",
+      "id": "padig-case-8",
+      "title": "Cuenta de red social suplanta identidad",
+      "summary": "Publican o escriben como si fuera la persona.",
+      "severity": "Practica sensible",
+      "immediateGoal": "Reportar, avisar y recuperar control.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Detener la accion automatica y describir el disparador: perfil tomado o falso.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir un protocolo de primeros 5 minutos, primera hora y primeras 48 horas.",
-        "Revisar el resultado contra este criterio: el plan diferencia urgencia real, sospecha y verificacion oficial.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: reportar, guardar URLs/capturas y avisar por canal alternativo.",
+        "Guardar evidencia: URL, capturas y mensajes.",
+        "Definir si alcanza con una accion propia o si corresponde canal oficial, profesional o soporte competente.",
+        "Cerrar con decision, motivo, limite del ejercicio y siguiente control."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "capturas, horarios, usuario/contacto, plataforma afectada y pasos realizados",
-        "Decision final y motivo"
+        "Descripcion del caso",
+        "URL, capturas y mensajes",
+        "Fecha aproximada y canal usado",
+        "Decision tomada y motivo",
+        "Duda que requiere validacion externa"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Discutir publicamente desde otra cuenta.",
+        "Compartir claves, codigos, documentos completos o datos bancarios.",
+        "Confiar solo en capturas o mensajes reenviados.",
+        "Borrar evidencia antes de entender el problema.",
+        "Tomar una practica educativa como recomendacion profesional definitiva."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Reforzar claves y revisar sesiones.",
+        "Actualizar checklist personal o familiar.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Revisar si hace falta bloquear, reclamar, denunciar o consultar por canales oficiales."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision reduce mejor el riesgo?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Pausar, verificar por canal oficial, guardar evidencia y actuar solo con informacion suficiente.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: baja la probabilidad de fraude, error o exposicion de datos."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Responder rapido para no perder tiempo.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La rapidez sin verificacion puede agravar el problema."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Enviar mas datos para que otra persona decida.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "En temas sensibles se comparte lo minimo necesario y por canales confiables."
           }
         ]
       }

@@ -1,441 +1,441 @@
 {
   "incidents": [
     {
-      "id": "unknown_card_charge",
-      "title": "Caso inicial controlado: Finanzas Digitales Seguras Argentina",
-      "summary": "Practica aplicada para resolver una situacion de uso cotidiano de billeteras, transferencias, tarjetas, comprobantes y gastos con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una rutina de control financiero digital sin exponer datos sensibles y con una decision verificable.",
+      "id": "findig-case-1",
+      "title": "Comprobante falso por WhatsApp",
+      "summary": "Un comprador envia captura y presiona para retirar el producto.",
+      "severity": "Practica sensible",
+      "immediateGoal": "Evitar entrega sin acreditacion real.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Detener la accion automatica y describir el disparador: captura de pago sin movimiento acreditado.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una rutina de control financiero digital.",
-        "Revisar el resultado contra este criterio: cada movimiento importante queda verificado en la app oficial.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: verificar en app oficial y usar mensaje de pausa.",
+        "Guardar evidencia: captura recibida, hora y estado real en app.",
+        "Definir si alcanza con una accion propia o si corresponde canal oficial, profesional o soporte competente.",
+        "Cerrar con decision, motivo, limite del ejercicio y siguiente control."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "comprobantes oficiales, movimientos en la app, presupuesto simple y registro de dudas",
-        "Decision final y motivo"
+        "Descripcion del caso",
+        "captura recibida, hora y estado real en app",
+        "Fecha aproximada y canal usado",
+        "Decision tomada y motivo",
+        "Duda que requiere validacion externa"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Entregar producto por miedo a perder la venta.",
+        "Compartir claves, codigos, documentos completos o datos bancarios.",
+        "Confiar solo en capturas o mensajes reenviados.",
+        "Borrar evidencia antes de entender el problema.",
+        "Tomar una practica educativa como recomendacion profesional definitiva."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Agregar regla: solo se entrega con acreditacion oficial.",
+        "Actualizar checklist personal o familiar.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Revisar si hace falta bloquear, reclamar, denunciar o consultar por canales oficiales."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision reduce mejor el riesgo?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Pausar, verificar por canal oficial, guardar evidencia y actuar solo con informacion suficiente.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: baja la probabilidad de fraude, error o exposicion de datos."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Responder rapido para no perder tiempo.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La rapidez sin verificacion puede agravar el problema."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Enviar mas datos para que otra persona decida.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "En temas sensibles se comparte lo minimo necesario y por canales confiables."
           }
         ]
       }
     },
     {
-      "id": "fake_receipt_finance",
-      "title": "Caso con datos incompletos: Finanzas Digitales Seguras Argentina",
-      "summary": "Practica aplicada para resolver una situacion de uso cotidiano de billeteras, transferencias, tarjetas, comprobantes y gastos con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una rutina de control financiero digital sin exponer datos sensibles y con una decision verificable.",
+      "id": "findig-case-2",
+      "title": "Transferencia desconocida y pedido de devolucion",
+      "summary": "Alguien dice haberse equivocado y exige devolver dinero ya.",
+      "severity": "Practica sensible",
+      "immediateGoal": "No mover fondos sin verificar origen.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Detener la accion automatica y describir el disparador: presion por devolucion inmediata.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una rutina de control financiero digital.",
-        "Revisar el resultado contra este criterio: cada movimiento importante queda verificado en la app oficial.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: consultar entidad y no operar desde datos enviados por tercero.",
+        "Guardar evidencia: mensaje, monto y consulta oficial.",
+        "Definir si alcanza con una accion propia o si corresponde canal oficial, profesional o soporte competente.",
+        "Cerrar con decision, motivo, limite del ejercicio y siguiente control."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "comprobantes oficiales, movimientos en la app, presupuesto simple y registro de dudas",
-        "Decision final y motivo"
+        "Descripcion del caso",
+        "mensaje, monto y consulta oficial",
+        "Fecha aproximada y canal usado",
+        "Decision tomada y motivo",
+        "Duda que requiere validacion externa"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Devolver a un alias enviado por chat.",
+        "Compartir claves, codigos, documentos completos o datos bancarios.",
+        "Confiar solo en capturas o mensajes reenviados.",
+        "Borrar evidencia antes de entender el problema.",
+        "Tomar una practica educativa como recomendacion profesional definitiva."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Guardar mensaje copiable de devolucion dudosa.",
+        "Actualizar checklist personal o familiar.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Revisar si hace falta bloquear, reclamar, denunciar o consultar por canales oficiales."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision reduce mejor el riesgo?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Pausar, verificar por canal oficial, guardar evidencia y actuar solo con informacion suficiente.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: baja la probabilidad de fraude, error o exposicion de datos."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Responder rapido para no perder tiempo.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La rapidez sin verificacion puede agravar el problema."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Enviar mas datos para que otra persona decida.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "En temas sensibles se comparte lo minimo necesario y por canales confiables."
           }
         ]
       }
     },
     {
-      "id": "wrong_transfer_return",
-      "title": "Caso con presion de tiempo: Finanzas Digitales Seguras Argentina",
-      "summary": "Practica aplicada para resolver una situacion de uso cotidiano de billeteras, transferencias, tarjetas, comprobantes y gastos con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una rutina de control financiero digital sin exponer datos sensibles y con una decision verificable.",
+      "id": "findig-case-3",
+      "title": "SMS de bloqueo de billetera",
+      "summary": "Un mensaje indica que la cuenta sera bloqueada si no se entra al link.",
+      "severity": "Practica sensible",
+      "immediateGoal": "Reconocer phishing financiero.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Detener la accion automatica y describir el disparador: link con amenaza de bloqueo.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una rutina de control financiero digital.",
-        "Revisar el resultado contra este criterio: cada movimiento importante queda verificado en la app oficial.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: entrar por app oficial y reportar mensaje.",
+        "Guardar evidencia: remitente, link y captura sin tocar.",
+        "Definir si alcanza con una accion propia o si corresponde canal oficial, profesional o soporte competente.",
+        "Cerrar con decision, motivo, limite del ejercicio y siguiente control."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "comprobantes oficiales, movimientos en la app, presupuesto simple y registro de dudas",
-        "Decision final y motivo"
+        "Descripcion del caso",
+        "remitente, link y captura sin tocar",
+        "Fecha aproximada y canal usado",
+        "Decision tomada y motivo",
+        "Duda que requiere validacion externa"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Ingresar clave desde el link.",
+        "Compartir claves, codigos, documentos completos o datos bancarios.",
+        "Confiar solo en capturas o mensajes reenviados.",
+        "Borrar evidencia antes de entender el problema.",
+        "Tomar una practica educativa como recomendacion profesional definitiva."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Activar alertas y revisar sesiones.",
+        "Actualizar checklist personal o familiar.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Revisar si hace falta bloquear, reclamar, denunciar o consultar por canales oficiales."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision reduce mejor el riesgo?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Pausar, verificar por canal oficial, guardar evidencia y actuar solo con informacion suficiente.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: baja la probabilidad de fraude, error o exposicion de datos."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Responder rapido para no perder tiempo.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La rapidez sin verificacion puede agravar el problema."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Enviar mas datos para que otra persona decida.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "En temas sensibles se comparte lo minimo necesario y por canales confiables."
           }
         ]
       }
     },
     {
-      "id": "phishing_bank_wallet",
-      "title": "Caso de comunicacion con otra persona: Finanzas Digitales Seguras Argentina",
-      "summary": "Practica aplicada para resolver una situacion de uso cotidiano de billeteras, transferencias, tarjetas, comprobantes y gastos con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una rutina de control financiero digital sin exponer datos sensibles y con una decision verificable.",
+      "id": "findig-case-4",
+      "title": "Pago duplicado por reintento",
+      "summary": "La app tardo y la persona presiono pagar dos veces.",
+      "severity": "Practica sensible",
+      "immediateGoal": "Pausar, verificar y reclamar con evidencia.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Detener la accion automatica y describir el disparador: operacion lenta o error ambiguo.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una rutina de control financiero digital.",
-        "Revisar el resultado contra este criterio: cada movimiento importante queda verificado en la app oficial.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: no reintentar hasta revisar movimientos.",
+        "Guardar evidencia: hora, comprobantes y estado de ambos pagos.",
+        "Definir si alcanza con una accion propia o si corresponde canal oficial, profesional o soporte competente.",
+        "Cerrar con decision, motivo, limite del ejercicio y siguiente control."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "comprobantes oficiales, movimientos en la app, presupuesto simple y registro de dudas",
-        "Decision final y motivo"
+        "Descripcion del caso",
+        "hora, comprobantes y estado de ambos pagos",
+        "Fecha aproximada y canal usado",
+        "Decision tomada y motivo",
+        "Duda que requiere validacion externa"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Seguir intentando sin revisar.",
+        "Compartir claves, codigos, documentos completos o datos bancarios.",
+        "Confiar solo en capturas o mensajes reenviados.",
+        "Borrar evidencia antes de entender el problema.",
+        "Tomar una practica educativa como recomendacion profesional definitiva."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Crear regla de espera ante pagos lentos.",
+        "Actualizar checklist personal o familiar.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Revisar si hace falta bloquear, reclamar, denunciar o consultar por canales oficiales."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision reduce mejor el riesgo?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Pausar, verificar por canal oficial, guardar evidencia y actuar solo con informacion suficiente.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: baja la probabilidad de fraude, error o exposicion de datos."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Responder rapido para no perder tiempo.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La rapidez sin verificacion puede agravar el problema."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Enviar mas datos para que otra persona decida.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "En temas sensibles se comparte lo minimo necesario y por canales confiables."
           }
         ]
       }
     },
     {
-      "id": "loan_activated_suspect",
-      "title": "Caso de error frecuente: Finanzas Digitales Seguras Argentina",
-      "summary": "Practica aplicada para resolver una situacion de uso cotidiano de billeteras, transferencias, tarjetas, comprobantes y gastos con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una rutina de control financiero digital sin exponer datos sensibles y con una decision verificable.",
+      "id": "findig-case-5",
+      "title": "Tarjeta con consumo no reconocido",
+      "summary": "Aparece un gasto que la persona no identifica.",
+      "severity": "Practica sensible",
+      "immediateGoal": "Bloquear si corresponde y reclamar.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Detener la accion automatica y describir el disparador: movimiento desconocido.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una rutina de control financiero digital.",
-        "Revisar el resultado contra este criterio: cada movimiento importante queda verificado en la app oficial.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: verificar, bloquear medio afectado y registrar reclamo.",
+        "Guardar evidencia: fecha, comercio, monto y numero de reclamo.",
+        "Definir si alcanza con una accion propia o si corresponde canal oficial, profesional o soporte competente.",
+        "Cerrar con decision, motivo, limite del ejercicio y siguiente control."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "comprobantes oficiales, movimientos en la app, presupuesto simple y registro de dudas",
-        "Decision final y motivo"
+        "Descripcion del caso",
+        "fecha, comercio, monto y numero de reclamo",
+        "Fecha aproximada y canal usado",
+        "Decision tomada y motivo",
+        "Duda que requiere validacion externa"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Esperar al cierre de resumen sin hacer nada.",
+        "Compartir claves, codigos, documentos completos o datos bancarios.",
+        "Confiar solo en capturas o mensajes reenviados.",
+        "Borrar evidencia antes de entender el problema.",
+        "Tomar una practica educativa como recomendacion profesional definitiva."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Revisar alertas y limites.",
+        "Actualizar checklist personal o familiar.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Revisar si hace falta bloquear, reclamar, denunciar o consultar por canales oficiales."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision reduce mejor el riesgo?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Pausar, verificar por canal oficial, guardar evidencia y actuar solo con informacion suficiente.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: baja la probabilidad de fraude, error o exposicion de datos."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Responder rapido para no perder tiempo.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La rapidez sin verificacion puede agravar el problema."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Enviar mas datos para que otra persona decida.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "En temas sensibles se comparte lo minimo necesario y por canales confiables."
           }
         ]
       }
     },
     {
-      "id": "lost_phone_finance",
-      "title": "Caso de mejora de proceso: Finanzas Digitales Seguras Argentina",
-      "summary": "Practica aplicada para resolver una situacion de uso cotidiano de billeteras, transferencias, tarjetas, comprobantes y gastos con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una rutina de control financiero digital sin exponer datos sensibles y con una decision verificable.",
+      "id": "findig-case-6",
+      "title": "Llamada que pide instalar app",
+      "summary": "Supuesto soporte pide instalar acceso remoto para anular un gasto.",
+      "severity": "Practica sensible",
+      "immediateGoal": "Cortar posible fraude.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Detener la accion automatica y describir el disparador: pedido de app y codigo.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una rutina de control financiero digital.",
-        "Revisar el resultado contra este criterio: cada movimiento importante queda verificado en la app oficial.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: cortar, no instalar y llamar al canal oficial.",
+        "Guardar evidencia: numero, app solicitada y horario.",
+        "Definir si alcanza con una accion propia o si corresponde canal oficial, profesional o soporte competente.",
+        "Cerrar con decision, motivo, limite del ejercicio y siguiente control."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "comprobantes oficiales, movimientos en la app, presupuesto simple y registro de dudas",
-        "Decision final y motivo"
+        "Descripcion del caso",
+        "numero, app solicitada y horario",
+        "Fecha aproximada y canal usado",
+        "Decision tomada y motivo",
+        "Duda que requiere validacion externa"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Instalar para que el operador ayude.",
+        "Compartir claves, codigos, documentos completos o datos bancarios.",
+        "Confiar solo en capturas o mensajes reenviados.",
+        "Borrar evidencia antes de entender el problema.",
+        "Tomar una practica educativa como recomendacion profesional definitiva."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Revisar apps y permisos.",
+        "Actualizar checklist personal o familiar.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Revisar si hace falta bloquear, reclamar, denunciar o consultar por canales oficiales."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision reduce mejor el riesgo?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Pausar, verificar por canal oficial, guardar evidencia y actuar solo con informacion suficiente.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: baja la probabilidad de fraude, error o exposicion de datos."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Responder rapido para no perder tiempo.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La rapidez sin verificacion puede agravar el problema."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Enviar mas datos para que otra persona decida.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "En temas sensibles se comparte lo minimo necesario y por canales confiables."
           }
         ]
       }
     },
     {
-      "id": "qr_replaced",
-      "title": "Caso de decision responsable: Finanzas Digitales Seguras Argentina",
-      "summary": "Practica aplicada para resolver una situacion de uso cotidiano de billeteras, transferencias, tarjetas, comprobantes y gastos con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una rutina de control financiero digital sin exponer datos sensibles y con una decision verificable.",
+      "id": "findig-case-7",
+      "title": "Vencimiento pagado desde link falso",
+      "summary": "Un aviso de servicio impago lleva a un sitio no oficial.",
+      "severity": "Practica sensible",
+      "immediateGoal": "Distinguir deuda real de fraude.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Detener la accion automatica y describir el disparador: link de pago recibido por mensaje.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una rutina de control financiero digital.",
-        "Revisar el resultado contra este criterio: cada movimiento importante queda verificado en la app oficial.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: buscar deuda en canal oficial.",
+        "Guardar evidencia: mensaje, dominio y deuda oficial.",
+        "Definir si alcanza con una accion propia o si corresponde canal oficial, profesional o soporte competente.",
+        "Cerrar con decision, motivo, limite del ejercicio y siguiente control."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "comprobantes oficiales, movimientos en la app, presupuesto simple y registro de dudas",
-        "Decision final y motivo"
+        "Descripcion del caso",
+        "mensaje, dominio y deuda oficial",
+        "Fecha aproximada y canal usado",
+        "Decision tomada y motivo",
+        "Duda que requiere validacion externa"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Pagar por el link por urgencia.",
+        "Compartir claves, codigos, documentos completos o datos bancarios.",
+        "Confiar solo en capturas o mensajes reenviados.",
+        "Borrar evidencia antes de entender el problema.",
+        "Tomar una practica educativa como recomendacion profesional definitiva."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Usar planificador de vencimientos.",
+        "Actualizar checklist personal o familiar.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Revisar si hace falta bloquear, reclamar, denunciar o consultar por canales oficiales."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision reduce mejor el riesgo?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Pausar, verificar por canal oficial, guardar evidencia y actuar solo con informacion suficiente.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: baja la probabilidad de fraude, error o exposicion de datos."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Responder rapido para no perder tiempo.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La rapidez sin verificacion puede agravar el problema."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Enviar mas datos para que otra persona decida.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "En temas sensibles se comparte lo minimo necesario y por canales confiables."
           }
         ]
       }
     },
     {
-      "id": "subscription_spending",
-      "title": "Proyecto final integrador: Finanzas Digitales Seguras Argentina",
-      "summary": "Practica aplicada para resolver una situacion de uso cotidiano de billeteras, transferencias, tarjetas, comprobantes y gastos con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Proyecto final",
-      "immediateGoal": "Transformar el caso en una rutina de control financiero digital sin exponer datos sensibles y con una decision verificable.",
+      "id": "findig-case-8",
+      "title": "Clave compartida con familiar",
+      "summary": "Para recibir ayuda se compartio la clave de una billetera.",
+      "severity": "Practica sensible",
+      "immediateGoal": "Recuperar control y establecer ayuda segura.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Detener la accion automatica y describir el disparador: clave dictada o enviada.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una rutina de control financiero digital.",
-        "Revisar el resultado contra este criterio: cada movimiento importante queda verificado en la app oficial.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: cambiar clave, cerrar sesiones y definir ayuda sin claves.",
+        "Guardar evidencia: fecha y cuenta afectada.",
+        "Definir si alcanza con una accion propia o si corresponde canal oficial, profesional o soporte competente.",
+        "Cerrar con decision, motivo, limite del ejercicio y siguiente control."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "comprobantes oficiales, movimientos en la app, presupuesto simple y registro de dudas",
-        "Decision final y motivo"
+        "Descripcion del caso",
+        "fecha y cuenta afectada",
+        "Fecha aproximada y canal usado",
+        "Decision tomada y motivo",
+        "Duda que requiere validacion externa"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Mantener la clave porque es familiar.",
+        "Compartir claves, codigos, documentos completos o datos bancarios.",
+        "Confiar solo en capturas o mensajes reenviados.",
+        "Borrar evidencia antes de entender el problema.",
+        "Tomar una practica educativa como recomendacion profesional definitiva."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Crear regla familiar de no compartir credenciales.",
+        "Actualizar checklist personal o familiar.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Revisar si hace falta bloquear, reclamar, denunciar o consultar por canales oficiales."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision reduce mejor el riesgo?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Pausar, verificar por canal oficial, guardar evidencia y actuar solo con informacion suficiente.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: baja la probabilidad de fraude, error o exposicion de datos."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Responder rapido para no perder tiempo.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La rapidez sin verificacion puede agravar el problema."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Enviar mas datos para que otra persona decida.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "En temas sensibles se comparte lo minimo necesario y por canales confiables."
           }
         ]
       }

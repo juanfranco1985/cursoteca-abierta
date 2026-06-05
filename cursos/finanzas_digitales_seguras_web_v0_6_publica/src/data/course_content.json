@@ -1,1054 +1,1040 @@
 {
-  "appName": "Finanzas Digitales Seguras Argentina",
-  "version": "0.6-publica",
+  "courseId": "finanzas-digitales-seguras",
+  "title": "Finanzas Digitales Seguras Argentina",
+  "version": "0.7-tanda-2",
+  "publicationStatus": "publica-profesional-v0.7-tanda-2",
   "modules": [
     {
       "id": "m1",
-      "title": "Cómo funcionan las finanzas digitales",
-      "description": "En este módulo vas a trabajar \"Cómo funcionan las finanzas digitales\" dentro de uso cotidiano de billeteras, transferencias, tarjetas, comprobantes y gastos. El objetivo es practicar con situaciones concretas, entender qué decisión mejora y cerrar con una evidencia simple.",
-      "commercialRisk": "Confusión entre app oficial, comprobante y dinero acreditado",
+      "title": "Mapa de dinero digital",
+      "description": "Identificar cuentas, billeteras, tarjetas, claves, limites y canales oficiales antes de operar.",
+      "learningRisk": "Practicar sin evidencia puede llevar a decisiones inseguras o dificiles de corregir.",
       "lessons": [
         {
-          "id": "m1_l1",
-          "title": "Billeteras, bancos y cuentas digitales",
-          "keyIdea": "Idea clave: Billeteras, bancos y cuentas digitales sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Billeteras, bancos y cuentas digitales\" dentro del módulo \"Cómo funcionan las finanzas digitales\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona o pequeño comercio necesita cobrar, pagar, verificar un comprobante o revisar movimientos sin exponer datos sensibles. Aplicá \"Billeteras, bancos y cuentas digitales\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: una hoja de control con operación, canal, comprobación, riesgo detectado y siguiente paso.",
-          "alert": "No compartir CVU/alias junto con claves, tokens, codigos o capturas completas de cuenta.",
+          "id": "m1-l1",
+          "title": "Cuentas, billeteras y tarjetas",
+          "keyIdea": "Cada medio cumple una funcion distinta y expone riesgos distintos.",
+          "shortTheory": "En esta leccion se trabaja cuentas, billeteras y tarjetas dentro de mapa de dinero digital. El foco es separar hechos, riesgos, datos necesarios y pasos seguros antes de actuar.",
+          "practicalExample": "Una persona cobra por QR, recibe comprobantes por WhatsApp y necesita ordenar gastos, vencimientos y riesgos. La practica consiste en aplicar cuentas, billeteras y tarjetas, registrar mapa de medios de pago, cuentas y canales oficiales y decidir el siguiente paso sin compartir datos sensibles.",
+          "commonMistake": "Usar la misma cuenta para todo sin limites ni alertas.",
+          "whatToDoNow": "Listar cuenta bancaria, billetera, tarjeta y uso principal.",
+          "alert": "El canal oficial se abre desde la app o sitio escrito por vos, no desde un link recibido.",
           "keyPoints": [
-            "Billeteras, bancos y cuentas digitales debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: una hoja de control con operación, canal, comprobación, riesgo detectado y siguiente paso.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Finanzas: Cuentas, billeteras y tarjetas debe poder explicarse a otra persona sin exponer datos sensibles.",
+            "Criterio de cierre: cada medio tiene uso, riesgo, limite y canal de soporte identificado.",
+            "Evidencia minima: mapa de medios de pago, cuentas y canales oficiales.",
+            "Entregable del curso: protocolo personal de finanzas digitales con presupuesto, verificacion de pagos, alertas y respuesta ante incidentes."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
-          "id": "m1_l2",
-          "title": "CVU, CBU y alias",
-          "keyIdea": "Idea clave: CVU, CBU y alias sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"CVU, CBU y alias\" dentro del módulo \"Cómo funcionan las finanzas digitales\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona o pequeño comercio necesita cobrar, pagar, verificar un comprobante o revisar movimientos sin exponer datos sensibles. Aplicá \"CVU, CBU y alias\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: una hoja de control con operación, canal, comprobación, riesgo detectado y siguiente paso.",
-          "alert": "No compartir CVU/alias junto con claves, tokens, codigos o capturas completas de cuenta.",
+          "id": "m1-l2",
+          "title": "Alias, CBU, CVU y QR",
+          "keyIdea": "Saber que dato identifica una cuenta evita enviar o cobrar mal.",
+          "shortTheory": "En esta leccion se trabaja alias, cbu, cvu y qr dentro de mapa de dinero digital. El foco es separar hechos, riesgos, datos necesarios y pasos seguros antes de actuar.",
+          "practicalExample": "Una persona cobra por QR, recibe comprobantes por WhatsApp y necesita ordenar gastos, vencimientos y riesgos. La practica consiste en aplicar alias, cbu, cvu y qr, registrar mapa de medios de pago, cuentas y canales oficiales y decidir el siguiente paso sin compartir datos sensibles.",
+          "commonMistake": "Confiar solo en el nombre que aparece en una captura.",
+          "whatToDoNow": "Comparar alias, CBU/CVU y QR en un caso simulado.",
+          "alert": "El canal oficial se abre desde la app o sitio escrito por vos, no desde un link recibido.",
           "keyPoints": [
-            "CVU, CBU y alias debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: una hoja de control con operación, canal, comprobación, riesgo detectado y siguiente paso.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Finanzas: Alias, CBU, CVU y QR debe poder explicarse a otra persona sin exponer datos sensibles.",
+            "Criterio de cierre: cada medio tiene uso, riesgo, limite y canal de soporte identificado.",
+            "Evidencia minima: mapa de medios de pago, cuentas y canales oficiales.",
+            "Entregable del curso: protocolo personal de finanzas digitales con presupuesto, verificacion de pagos, alertas y respuesta ante incidentes."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
-          "id": "m1_l3",
-          "title": "QR y pagos presenciales",
-          "keyIdea": "Idea clave: QR y pagos presenciales sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"QR y pagos presenciales\" dentro del módulo \"Cómo funcionan las finanzas digitales\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona o pequeño comercio necesita cobrar, pagar, verificar un comprobante o revisar movimientos sin exponer datos sensibles. Aplicá \"QR y pagos presenciales\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: una hoja de control con operación, canal, comprobación, riesgo detectado y siguiente paso.",
-          "alert": "No compartir CVU/alias junto con claves, tokens, codigos o capturas completas de cuenta.",
+          "id": "m1-l3",
+          "title": "Claves, PIN y biometria",
+          "keyIdea": "Las credenciales son llaves: no se comparten ni se dictan.",
+          "shortTheory": "En esta leccion se trabaja claves, pin y biometria dentro de mapa de dinero digital. El foco es separar hechos, riesgos, datos necesarios y pasos seguros antes de actuar.",
+          "practicalExample": "Una persona cobra por QR, recibe comprobantes por WhatsApp y necesita ordenar gastos, vencimientos y riesgos. La practica consiste en aplicar claves, pin y biometria, registrar mapa de medios de pago, cuentas y canales oficiales y decidir el siguiente paso sin compartir datos sensibles.",
+          "commonMistake": "Reenviar un codigo para que otro 'ayude'.",
+          "whatToDoNow": "Escribir reglas personales para claves y codigos.",
+          "alert": "El canal oficial se abre desde la app o sitio escrito por vos, no desde un link recibido.",
           "keyPoints": [
-            "QR y pagos presenciales debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: una hoja de control con operación, canal, comprobación, riesgo detectado y siguiente paso.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Finanzas: Claves, PIN y biometria debe poder explicarse a otra persona sin exponer datos sensibles.",
+            "Criterio de cierre: cada medio tiene uso, riesgo, limite y canal de soporte identificado.",
+            "Evidencia minima: mapa de medios de pago, cuentas y canales oficiales.",
+            "Entregable del curso: protocolo personal de finanzas digitales con presupuesto, verificacion de pagos, alertas y respuesta ante incidentes."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
-          "id": "m1_l4",
-          "title": "Movimientos pendientes y acreditados",
-          "keyIdea": "Idea clave: Movimientos pendientes y acreditados sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Movimientos pendientes y acreditados\" dentro del módulo \"Cómo funcionan las finanzas digitales\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona o pequeño comercio necesita cobrar, pagar, verificar un comprobante o revisar movimientos sin exponer datos sensibles. Aplicá \"Movimientos pendientes y acreditados\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: una hoja de control con operación, canal, comprobación, riesgo detectado y siguiente paso.",
-          "alert": "No compartir CVU/alias junto con claves, tokens, codigos o capturas completas de cuenta.",
-          "keyPoints": [
-            "Movimientos pendientes y acreditados debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: una hoja de control con operación, canal, comprobación, riesgo detectado y siguiente paso.",
-            "El criterio de calidad debe poder revisarse por otra persona."
-          ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
-        },
-        {
-          "id": "m1_l5",
-          "title": "Datos sensibles financieros",
-          "keyIdea": "Idea clave: Datos sensibles financieros sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Datos sensibles financieros\" dentro del módulo \"Cómo funcionan las finanzas digitales\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona o pequeño comercio necesita cobrar, pagar, verificar un comprobante o revisar movimientos sin exponer datos sensibles. Aplicá \"Datos sensibles financieros\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: una hoja de control con operación, canal, comprobación, riesgo detectado y siguiente paso.",
-          "alert": "No compartir CVU/alias junto con claves, tokens, codigos o capturas completas de cuenta.",
-          "keyPoints": [
-            "Datos sensibles financieros debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: una hoja de control con operación, canal, comprobación, riesgo detectado y siguiente paso.",
-            "El criterio de calidad debe poder revisarse por otra persona."
-          ],
-          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
-        },
-        {
-          "id": "m1_l6",
+          "id": "m1-l4",
           "title": "Canales oficiales",
-          "keyIdea": "Idea clave: Canales oficiales sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Canales oficiales\" dentro del módulo \"Cómo funcionan las finanzas digitales\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona o pequeño comercio necesita cobrar, pagar, verificar un comprobante o revisar movimientos sin exponer datos sensibles. Aplicá \"Canales oficiales\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: una hoja de control con operación, canal, comprobación, riesgo detectado y siguiente paso.",
-          "alert": "No compartir CVU/alias junto con claves, tokens, codigos o capturas completas de cuenta.",
+          "keyIdea": "La verificacion se hace desde app, sitio o telefono oficial.",
+          "shortTheory": "En esta leccion se trabaja canales oficiales dentro de mapa de dinero digital. El foco es separar hechos, riesgos, datos necesarios y pasos seguros antes de actuar.",
+          "practicalExample": "Una persona cobra por QR, recibe comprobantes por WhatsApp y necesita ordenar gastos, vencimientos y riesgos. La practica consiste en aplicar canales oficiales, registrar mapa de medios de pago, cuentas y canales oficiales y decidir el siguiente paso sin compartir datos sensibles.",
+          "commonMistake": "Entrar al soporte desde anuncios o mensajes.",
+          "whatToDoNow": "Guardar canales oficiales de banco, billetera y tarjeta.",
+          "alert": "El canal oficial se abre desde la app o sitio escrito por vos, no desde un link recibido.",
           "keyPoints": [
-            "Canales oficiales debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: una hoja de control con operación, canal, comprobación, riesgo detectado y siguiente paso.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Finanzas: Canales oficiales debe poder explicarse a otra persona sin exponer datos sensibles.",
+            "Criterio de cierre: cada medio tiene uso, riesgo, limite y canal de soporte identificado.",
+            "Evidencia minima: mapa de medios de pago, cuentas y canales oficiales.",
+            "Entregable del curso: protocolo personal de finanzas digitales con presupuesto, verificacion de pagos, alertas y respuesta ante incidentes."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m1-l5",
+          "title": "Limites y notificaciones",
+          "keyIdea": "Los limites reducen dano y las alertas avisan rapido.",
+          "shortTheory": "En esta leccion se trabaja limites y notificaciones dentro de mapa de dinero digital. El foco es separar hechos, riesgos, datos necesarios y pasos seguros antes de actuar.",
+          "practicalExample": "Una persona cobra por QR, recibe comprobantes por WhatsApp y necesita ordenar gastos, vencimientos y riesgos. La practica consiste en aplicar limites y notificaciones, registrar mapa de medios de pago, cuentas y canales oficiales y decidir el siguiente paso sin compartir datos sensibles.",
+          "commonMistake": "Tener limites altos sin necesidad.",
+          "whatToDoNow": "Revisar que alertas conviene activar.",
+          "alert": "El canal oficial se abre desde la app o sitio escrito por vos, no desde un link recibido.",
+          "keyPoints": [
+            "Finanzas: Limites y notificaciones debe poder explicarse a otra persona sin exponer datos sensibles.",
+            "Criterio de cierre: cada medio tiene uso, riesgo, limite y canal de soporte identificado.",
+            "Evidencia minima: mapa de medios de pago, cuentas y canales oficiales.",
+            "Entregable del curso: protocolo personal de finanzas digitales con presupuesto, verificacion de pagos, alertas y respuesta ante incidentes."
+          ],
+          "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
+        },
+        {
+          "id": "m1-l6",
+          "title": "Evidencia financiera minima",
+          "keyIdea": "Fecha, monto, medio y estado ayudan a reclamar.",
+          "shortTheory": "En esta leccion se trabaja evidencia financiera minima dentro de mapa de dinero digital. El foco es separar hechos, riesgos, datos necesarios y pasos seguros antes de actuar.",
+          "practicalExample": "Una persona cobra por QR, recibe comprobantes por WhatsApp y necesita ordenar gastos, vencimientos y riesgos. La practica consiste en aplicar evidencia financiera minima, registrar mapa de medios de pago, cuentas y canales oficiales y decidir el siguiente paso sin compartir datos sensibles.",
+          "commonMistake": "Guardar capturas sueltas sin contexto.",
+          "whatToDoNow": "Crear una ficha de comprobante seguro.",
+          "alert": "El canal oficial se abre desde la app o sitio escrito por vos, no desde un link recibido.",
+          "keyPoints": [
+            "Finanzas: Evidencia financiera minima debe poder explicarse a otra persona sin exponer datos sensibles.",
+            "Criterio de cierre: cada medio tiene uso, riesgo, limite y canal de soporte identificado.",
+            "Evidencia minima: mapa de medios de pago, cuentas y canales oficiales.",
+            "Entregable del curso: protocolo personal de finanzas digitales con presupuesto, verificacion de pagos, alertas y respuesta ante incidentes."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         }
       ],
       "quiz": [
         {
-          "id": "m1_q1",
-          "question": "¿Qué acción es más segura ante un pago mostrado solo como captura?",
+          "id": "m1-q1",
+          "question": "Que conviene hacer primero en \"Mapa de dinero digital\"?",
           "options": [
-            "Entregar igual si el comprador apura",
-            "Verificar en la app oficial si el dinero está acreditado",
-            "Pedir otra captura",
-            "Borrar la conversación"
+            "Identificar hechos, datos sensibles, riesgo y evidencia antes de actuar.",
+            "Resolver rapido para que la situacion no incomode.",
+            "Copiar la primera respuesta que parezca correcta.",
+            "Compartir mas datos para recibir ayuda mas rapido."
           ],
-          "correctAnswerIndex": 1,
-          "feedback": "La acreditación se confirma desde la cuenta propia o canal oficial."
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: en temas sensibles, ordenar el caso reduce errores y exposicion."
         },
         {
-          "id": "m1_q2",
-          "question": "¿Qué dato no deberías compartir por chat o llamada?",
+          "id": "m1-q2",
+          "question": "Que evidencia permite revisar el resultado?",
           "options": [
-            "Alias para recibir una transferencia",
-            "Nombre de fantasía del comercio",
-            "Código de verificación o token",
-            "Precio de un producto"
+            "mapa de medios de pago, cuentas y canales oficiales",
+            "Una opinion general sin fecha.",
+            "Una captura sin contexto ni fuente.",
+            "Un mensaje reenviado sin verificacion."
           ],
-          "correctAnswerIndex": 2,
-          "feedback": "Los códigos y tokens permiten autorizar accesos u operaciones."
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: mapa de medios de pago, cuentas y canales oficiales deja trazabilidad."
         },
         {
-          "id": "m1_q3",
-          "question": "¿Qué señal aumenta el riesgo de estafa?",
+          "id": "m1-q3",
+          "question": "Que accion aumenta el riesgo?",
           "options": [
-            "Te dan tiempo para verificar",
-            "Usan canal oficial",
-            "Exigen actuar ya y no consultar",
-            "El movimiento aparece acreditado"
+            "Guardar claves o codigos en chats y operar desde links recibidos.",
+            "Usar datos simulados para practicar.",
+            "Pedir validacion oficial si hay dudas.",
+            "Anotar limites del ejercicio."
           ],
-          "correctAnswerIndex": 2,
-          "feedback": "La presión es una técnica frecuente de manipulación."
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: esa accion elimina control y puede afectar dinero, cuentas o derechos."
         },
         {
-          "id": "m1_q4",
-          "question": "¿Qué conviene conservar ante un incidente?",
+          "id": "m1-q4",
+          "question": "Cuando se debe escalar o consultar una fuente competente?",
           "options": [
-            "Solo el último mensaje",
-            "Capturas, comprobantes, fechas, montos y conversación completa",
-            "Nada, para no confundirse",
-            "Solo el audio si existe"
+            "Cuando hay acceso desconocido, perdida de telefono, movimiento no reconocido o pedido de codigo.",
+            "Nunca, porque un curso introductorio alcanza para todo.",
+            "Solo cuando ya se perdio la evidencia.",
+            "Cuando la respuesta generada suena segura."
           ],
-          "correctAnswerIndex": 1,
-          "feedback": "La evidencia ordenada ayuda en reclamos y reportes."
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: la validacion externa es parte del cuidado en temas sensibles."
         },
         {
-          "id": "m1_q5",
-          "question": "¿Qué frase es más responsable?",
+          "id": "m1-q5",
+          "question": "Cual es el entregable minimo de \"Mapa de dinero digital\"?",
           "options": [
-            "Esto garantiza recuperar el dinero",
-            "No hace falta contactar al banco",
-            "Puede ayudar a ordenar la respuesta y reducir riesgos",
-            "Ignorá todos los movimientos raros"
+            "mapa personal de finanzas digitales",
+            "Una lista de ideas sin prioridad.",
+            "Una decision sin evidencia.",
+            "Un resumen que no indica riesgos."
           ],
-          "correctAnswerIndex": 2,
-          "feedback": "No se deben prometer resultados absolutos."
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: mapa personal de finanzas digitales permite continuar con orden."
         }
-      ],
-      "professionalOutcome": "operar con menos riesgo, registrar movimientos y detectar senales de alerta. Entregable sugerido: una hoja de control con operacion, canal, comprobacion, riesgo y siguiente paso."
+      ]
     },
     {
       "id": "m2",
-      "title": "Transferencias, comprobantes y QR",
-      "description": "En este módulo vas a trabajar \"Transferencias, comprobantes y QR\" dentro de uso cotidiano de billeteras, transferencias, tarjetas, comprobantes y gastos. El objetivo es practicar con situaciones concretas, entender qué decisión mejora y cerrar con una evidencia simple.",
-      "commercialRisk": "Comprobantes falsos, devolución engañosa o entrega anticipada",
+      "title": "Presupuesto y vencimientos",
+      "description": "Ordenar ingresos, gastos, deudas, vencimientos y margen de maniobra mensual.",
+      "learningRisk": "Practicar sin evidencia puede llevar a decisiones inseguras o dificiles de corregir.",
       "lessons": [
         {
-          "id": "m2_l1",
-          "title": "Comprobantes falsos",
-          "keyIdea": "Idea clave: Comprobantes falsos sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Comprobantes falsos\" dentro del módulo \"Transferencias, comprobantes y QR\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona o pequeño comercio necesita cobrar, pagar, verificar un comprobante o revisar movimientos sin exponer datos sensibles. Aplicá \"Comprobantes falsos\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: una hoja de control con operación, canal, comprobación, riesgo detectado y siguiente paso.",
-          "alert": "No compartir CVU/alias junto con claves, tokens, codigos o capturas completas de cuenta.",
+          "id": "m2-l1",
+          "title": "Ingresos reales y estimados",
+          "keyIdea": "Separar ingresos seguros de esperados evita gastar dinero que no entro.",
+          "shortTheory": "En esta leccion se trabaja ingresos reales y estimados dentro de presupuesto y vencimientos. El foco es separar hechos, riesgos, datos necesarios y pasos seguros antes de actuar.",
+          "practicalExample": "Una persona cobra por QR, recibe comprobantes por WhatsApp y necesita ordenar gastos, vencimientos y riesgos. La practica consiste en aplicar ingresos reales y estimados, registrar presupuesto mensual con vencimientos y pagos criticos y decidir el siguiente paso sin compartir datos sensibles.",
+          "commonMistake": "Contar como disponible un pago aun pendiente.",
+          "whatToDoNow": "Armar dos columnas: confirmado y posible.",
+          "alert": "Un vencimiento urgente no justifica entrar por un link dudoso.",
           "keyPoints": [
-            "Comprobantes falsos debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: una hoja de control con operación, canal, comprobación, riesgo detectado y siguiente paso.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Presupuesto: Ingresos reales y estimados debe poder explicarse a otra persona sin exponer datos sensibles.",
+            "Criterio de cierre: el presupuesto muestra saldo estimado, pagos cercanos y decisiones posibles.",
+            "Evidencia minima: presupuesto mensual con vencimientos y pagos criticos.",
+            "Entregable del curso: protocolo personal de finanzas digitales con presupuesto, verificacion de pagos, alertas y respuesta ante incidentes."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
-          "id": "m2_l2",
-          "title": "Transferencia desconocida",
-          "keyIdea": "Idea clave: Transferencia desconocida sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Transferencia desconocida\" dentro del módulo \"Transferencias, comprobantes y QR\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona o pequeño comercio necesita cobrar, pagar, verificar un comprobante o revisar movimientos sin exponer datos sensibles. Aplicá \"Transferencia desconocida\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: una hoja de control con operación, canal, comprobación, riesgo detectado y siguiente paso.",
-          "alert": "No compartir CVU/alias junto con claves, tokens, codigos o capturas completas de cuenta.",
+          "id": "m2-l2",
+          "title": "Gastos fijos y variables",
+          "keyIdea": "Distinguir gastos permite encontrar margen de ajuste.",
+          "shortTheory": "En esta leccion se trabaja gastos fijos y variables dentro de presupuesto y vencimientos. El foco es separar hechos, riesgos, datos necesarios y pasos seguros antes de actuar.",
+          "practicalExample": "Una persona cobra por QR, recibe comprobantes por WhatsApp y necesita ordenar gastos, vencimientos y riesgos. La practica consiste en aplicar gastos fijos y variables, registrar presupuesto mensual con vencimientos y pagos criticos y decidir el siguiente paso sin compartir datos sensibles.",
+          "commonMistake": "Meter todo en 'otros' y perder control.",
+          "whatToDoNow": "Clasificar gastos del mes en fijos, variables y evitables.",
+          "alert": "Un vencimiento urgente no justifica entrar por un link dudoso.",
           "keyPoints": [
-            "Transferencia desconocida debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: una hoja de control con operación, canal, comprobación, riesgo detectado y siguiente paso.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Presupuesto: Gastos fijos y variables debe poder explicarse a otra persona sin exponer datos sensibles.",
+            "Criterio de cierre: el presupuesto muestra saldo estimado, pagos cercanos y decisiones posibles.",
+            "Evidencia minima: presupuesto mensual con vencimientos y pagos criticos.",
+            "Entregable del curso: protocolo personal de finanzas digitales con presupuesto, verificacion de pagos, alertas y respuesta ante incidentes."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
-          "id": "m2_l3",
-          "title": "Pedido de devolución urgente",
-          "keyIdea": "Idea clave: Pedido de devolución urgente sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Pedido de devolución urgente\" dentro del módulo \"Transferencias, comprobantes y QR\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona o pequeño comercio necesita cobrar, pagar, verificar un comprobante o revisar movimientos sin exponer datos sensibles. Aplicá \"Pedido de devolución urgente\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: una hoja de control con operación, canal, comprobación, riesgo detectado y siguiente paso.",
-          "alert": "No compartir CVU/alias junto con claves, tokens, codigos o capturas completas de cuenta.",
+          "id": "m2-l3",
+          "title": "Vencimientos criticos",
+          "keyIdea": "No todos los pagos pesan igual: vivienda, servicios, tarjeta y deudas tienen prioridad.",
+          "shortTheory": "En esta leccion se trabaja vencimientos criticos dentro de presupuesto y vencimientos. El foco es separar hechos, riesgos, datos necesarios y pasos seguros antes de actuar.",
+          "practicalExample": "Una persona cobra por QR, recibe comprobantes por WhatsApp y necesita ordenar gastos, vencimientos y riesgos. La practica consiste en aplicar vencimientos criticos, registrar presupuesto mensual con vencimientos y pagos criticos y decidir el siguiente paso sin compartir datos sensibles.",
+          "commonMistake": "Pagar primero lo menos importante por comodidad.",
+          "whatToDoNow": "Ordenar cinco vencimientos por fecha e impacto.",
+          "alert": "Un vencimiento urgente no justifica entrar por un link dudoso.",
           "keyPoints": [
-            "Pedido de devolución urgente debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: una hoja de control con operación, canal, comprobación, riesgo detectado y siguiente paso.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Presupuesto: Vencimientos criticos debe poder explicarse a otra persona sin exponer datos sensibles.",
+            "Criterio de cierre: el presupuesto muestra saldo estimado, pagos cercanos y decisiones posibles.",
+            "Evidencia minima: presupuesto mensual con vencimientos y pagos criticos.",
+            "Entregable del curso: protocolo personal de finanzas digitales con presupuesto, verificacion de pagos, alertas y respuesta ante incidentes."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
-          "id": "m2_l4",
-          "title": "QR reemplazado o alterado",
-          "keyIdea": "Idea clave: QR reemplazado o alterado sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"QR reemplazado o alterado\" dentro del módulo \"Transferencias, comprobantes y QR\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona o pequeño comercio necesita cobrar, pagar, verificar un comprobante o revisar movimientos sin exponer datos sensibles. Aplicá \"QR reemplazado o alterado\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: una hoja de control con operación, canal, comprobación, riesgo detectado y siguiente paso.",
-          "alert": "No compartir CVU/alias junto con claves, tokens, codigos o capturas completas de cuenta.",
+          "id": "m2-l4",
+          "title": "Debitos automaticos",
+          "keyIdea": "Los debitos ayudan, pero tambien ocultan gastos olvidados.",
+          "shortTheory": "En esta leccion se trabaja debitos automaticos dentro de presupuesto y vencimientos. El foco es separar hechos, riesgos, datos necesarios y pasos seguros antes de actuar.",
+          "practicalExample": "Una persona cobra por QR, recibe comprobantes por WhatsApp y necesita ordenar gastos, vencimientos y riesgos. La practica consiste en aplicar debitos automaticos, registrar presupuesto mensual con vencimientos y pagos criticos y decidir el siguiente paso sin compartir datos sensibles.",
+          "commonMistake": "No mirar debitos hasta que falta saldo.",
+          "whatToDoNow": "Revisar debitos y suscripciones activas.",
+          "alert": "Un vencimiento urgente no justifica entrar por un link dudoso.",
           "keyPoints": [
-            "QR reemplazado o alterado debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: una hoja de control con operación, canal, comprobación, riesgo detectado y siguiente paso.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Presupuesto: Debitos automaticos debe poder explicarse a otra persona sin exponer datos sensibles.",
+            "Criterio de cierre: el presupuesto muestra saldo estimado, pagos cercanos y decisiones posibles.",
+            "Evidencia minima: presupuesto mensual con vencimientos y pagos criticos.",
+            "Entregable del curso: protocolo personal de finanzas digitales con presupuesto, verificacion de pagos, alertas y respuesta ante incidentes."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
-          "id": "m2_l5",
-          "title": "Capturas de pantalla y edición",
-          "keyIdea": "Idea clave: Capturas de pantalla y edición sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Capturas de pantalla y edición\" dentro del módulo \"Transferencias, comprobantes y QR\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona o pequeño comercio necesita cobrar, pagar, verificar un comprobante o revisar movimientos sin exponer datos sensibles. Aplicá \"Capturas de pantalla y edición\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: una hoja de control con operación, canal, comprobación, riesgo detectado y siguiente paso.",
-          "alert": "No compartir CVU/alias junto con claves, tokens, codigos o capturas completas de cuenta.",
+          "id": "m2-l5",
+          "title": "Gastos hormiga digitales",
+          "keyIdea": "Suscripciones, apps y comisiones pequenas se acumulan.",
+          "shortTheory": "En esta leccion se trabaja gastos hormiga digitales dentro de presupuesto y vencimientos. El foco es separar hechos, riesgos, datos necesarios y pasos seguros antes de actuar.",
+          "practicalExample": "Una persona cobra por QR, recibe comprobantes por WhatsApp y necesita ordenar gastos, vencimientos y riesgos. La practica consiste en aplicar gastos hormiga digitales, registrar presupuesto mensual con vencimientos y pagos criticos y decidir el siguiente paso sin compartir datos sensibles.",
+          "commonMistake": "Desestimar importes chicos sin multiplicarlos.",
+          "whatToDoNow": "Usar la herramienta de gastos hormiga con valores simulados.",
+          "alert": "Un vencimiento urgente no justifica entrar por un link dudoso.",
           "keyPoints": [
-            "Capturas de pantalla y edición debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: una hoja de control con operación, canal, comprobación, riesgo detectado y siguiente paso.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Presupuesto: Gastos hormiga digitales debe poder explicarse a otra persona sin exponer datos sensibles.",
+            "Criterio de cierre: el presupuesto muestra saldo estimado, pagos cercanos y decisiones posibles.",
+            "Evidencia minima: presupuesto mensual con vencimientos y pagos criticos.",
+            "Entregable del curso: protocolo personal de finanzas digitales con presupuesto, verificacion de pagos, alertas y respuesta ante incidentes."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
-          "id": "m2_l6",
-          "title": "Registro propio de cobros",
-          "keyIdea": "Idea clave: Registro propio de cobros sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Registro propio de cobros\" dentro del módulo \"Transferencias, comprobantes y QR\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona o pequeño comercio necesita cobrar, pagar, verificar un comprobante o revisar movimientos sin exponer datos sensibles. Aplicá \"Registro propio de cobros\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: una hoja de control con operación, canal, comprobación, riesgo detectado y siguiente paso.",
-          "alert": "No compartir CVU/alias junto con claves, tokens, codigos o capturas completas de cuenta.",
+          "id": "m2-l6",
+          "title": "Decision de ajuste",
+          "keyIdea": "Un presupuesto sirve si cambia una decision.",
+          "shortTheory": "En esta leccion se trabaja decision de ajuste dentro de presupuesto y vencimientos. El foco es separar hechos, riesgos, datos necesarios y pasos seguros antes de actuar.",
+          "practicalExample": "Una persona cobra por QR, recibe comprobantes por WhatsApp y necesita ordenar gastos, vencimientos y riesgos. La practica consiste en aplicar decision de ajuste, registrar presupuesto mensual con vencimientos y pagos criticos y decidir el siguiente paso sin compartir datos sensibles.",
+          "commonMistake": "Hacer cuentas sin definir proximo paso.",
+          "whatToDoNow": "Elegir una accion: bajar gasto, renegociar, postergar o consultar.",
+          "alert": "Un vencimiento urgente no justifica entrar por un link dudoso.",
           "keyPoints": [
-            "Registro propio de cobros debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: una hoja de control con operación, canal, comprobación, riesgo detectado y siguiente paso.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Presupuesto: Decision de ajuste debe poder explicarse a otra persona sin exponer datos sensibles.",
+            "Criterio de cierre: el presupuesto muestra saldo estimado, pagos cercanos y decisiones posibles.",
+            "Evidencia minima: presupuesto mensual con vencimientos y pagos criticos.",
+            "Entregable del curso: protocolo personal de finanzas digitales con presupuesto, verificacion de pagos, alertas y respuesta ante incidentes."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         }
       ],
       "quiz": [
         {
-          "id": "m2_q1",
-          "question": "¿Qué acción es más segura ante un pago mostrado solo como captura?",
+          "id": "m2-q1",
+          "question": "Que conviene hacer primero en \"Presupuesto y vencimientos\"?",
           "options": [
-            "Entregar igual si el comprador apura",
-            "Verificar en la app oficial si el dinero está acreditado",
-            "Pedir otra captura",
-            "Borrar la conversación"
+            "Identificar hechos, datos sensibles, riesgo y evidencia antes de actuar.",
+            "Resolver rapido para que la situacion no incomode.",
+            "Copiar la primera respuesta que parezca correcta.",
+            "Compartir mas datos para recibir ayuda mas rapido."
           ],
-          "correctAnswerIndex": 1,
-          "feedback": "La acreditación se confirma desde la cuenta propia o canal oficial."
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: en temas sensibles, ordenar el caso reduce errores y exposicion."
         },
         {
-          "id": "m2_q2",
-          "question": "¿Qué dato no deberías compartir por chat o llamada?",
+          "id": "m2-q2",
+          "question": "Que evidencia permite revisar el resultado?",
           "options": [
-            "Alias para recibir una transferencia",
-            "Nombre de fantasía del comercio",
-            "Código de verificación o token",
-            "Precio de un producto"
+            "presupuesto mensual con vencimientos y pagos criticos",
+            "Una opinion general sin fecha.",
+            "Una captura sin contexto ni fuente.",
+            "Un mensaje reenviado sin verificacion."
           ],
-          "correctAnswerIndex": 2,
-          "feedback": "Los códigos y tokens permiten autorizar accesos u operaciones."
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: presupuesto mensual con vencimientos y pagos criticos deja trazabilidad."
         },
         {
-          "id": "m2_q3",
-          "question": "¿Qué señal aumenta el riesgo de estafa?",
+          "id": "m2-q3",
+          "question": "Que accion aumenta el riesgo?",
           "options": [
-            "Te dan tiempo para verificar",
-            "Usan canal oficial",
-            "Exigen actuar ya y no consultar",
-            "El movimiento aparece acreditado"
+            "Pagar por links recibidos sin confirmar deuda o importe.",
+            "Usar datos simulados para practicar.",
+            "Pedir validacion oficial si hay dudas.",
+            "Anotar limites del ejercicio."
           ],
-          "correctAnswerIndex": 2,
-          "feedback": "La presión es una técnica frecuente de manipulación."
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: esa accion elimina control y puede afectar dinero, cuentas o derechos."
         },
         {
-          "id": "m2_q4",
-          "question": "¿Qué conviene conservar ante un incidente?",
+          "id": "m2-q4",
+          "question": "Cuando se debe escalar o consultar una fuente competente?",
           "options": [
-            "Solo el último mensaje",
-            "Capturas, comprobantes, fechas, montos y conversación completa",
-            "Nada, para no confundirse",
-            "Solo el audio si existe"
+            "Cuando una deuda puede generar corte, recargo, refinanciacion o embargo.",
+            "Nunca, porque un curso introductorio alcanza para todo.",
+            "Solo cuando ya se perdio la evidencia.",
+            "Cuando la respuesta generada suena segura."
           ],
-          "correctAnswerIndex": 1,
-          "feedback": "La evidencia ordenada ayuda en reclamos y reportes."
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: la validacion externa es parte del cuidado en temas sensibles."
         },
         {
-          "id": "m2_q5",
-          "question": "¿Qué frase es más responsable?",
+          "id": "m2-q5",
+          "question": "Cual es el entregable minimo de \"Presupuesto y vencimientos\"?",
           "options": [
-            "Esto garantiza recuperar el dinero",
-            "No hace falta contactar al banco",
-            "Puede ayudar a ordenar la respuesta y reducir riesgos",
-            "Ignorá todos los movimientos raros"
+            "presupuesto digital de 30 dias",
+            "Una lista de ideas sin prioridad.",
+            "Una decision sin evidencia.",
+            "Un resumen que no indica riesgos."
           ],
-          "correctAnswerIndex": 2,
-          "feedback": "No se deben prometer resultados absolutos."
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: presupuesto digital de 30 dias permite continuar con orden."
         }
-      ],
-      "professionalOutcome": "operar con menos riesgo, registrar movimientos y detectar senales de alerta. Entregable sugerido: una hoja de control con operacion, canal, comprobacion, riesgo y siguiente paso."
+      ]
     },
     {
       "id": "m3",
-      "title": "Tarjetas, claves, límites y dispositivos",
-      "description": "En este módulo vas a trabajar \"Tarjetas, claves, límites y dispositivos\" dentro de uso cotidiano de billeteras, transferencias, tarjetas, comprobantes y gastos. El objetivo es practicar con situaciones concretas, entender qué decisión mejora y cerrar con una evidencia simple.",
-      "commercialRisk": "Exposición de tarjeta, token o celular vinculado",
+      "title": "Transferencias, QR y comprobantes",
+      "description": "Verificar acreditacion, estado de operaciones y senales de comprobantes dudosos.",
+      "learningRisk": "Practicar sin evidencia puede llevar a decisiones inseguras o dificiles de corregir.",
       "lessons": [
         {
-          "id": "m3_l1",
-          "title": "Claves, PIN y token",
-          "keyIdea": "Idea clave: Claves, PIN y token sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Claves, PIN y token\" dentro del módulo \"Tarjetas, claves, límites y dispositivos\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona o pequeño comercio necesita cobrar, pagar, verificar un comprobante o revisar movimientos sin exponer datos sensibles. Aplicá \"Claves, PIN y token\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: una hoja de control con operación, canal, comprobación, riesgo detectado y siguiente paso.",
-          "alert": "No compartir CVU/alias junto con claves, tokens, codigos o capturas completas de cuenta.",
+          "id": "m3-l1",
+          "title": "Acreditado, pendiente y rechazado",
+          "keyIdea": "El estado de la app oficial manda mas que el comprobante enviado.",
+          "shortTheory": "En esta leccion se trabaja acreditado, pendiente y rechazado dentro de transferencias, qr y comprobantes. El foco es separar hechos, riesgos, datos necesarios y pasos seguros antes de actuar.",
+          "practicalExample": "Una persona cobra por QR, recibe comprobantes por WhatsApp y necesita ordenar gastos, vencimientos y riesgos. La practica consiste en aplicar acreditado, pendiente y rechazado, registrar registro de verificacion de pago con fuente oficial y decidir el siguiente paso sin compartir datos sensibles.",
+          "commonMistake": "Entregar cuando el pago figura pendiente.",
+          "whatToDoNow": "Comparar tres estados de pago simulados.",
+          "alert": "Captura no es acreditacion.",
           "keyPoints": [
-            "Claves, PIN y token debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: una hoja de control con operación, canal, comprobación, riesgo detectado y siguiente paso.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Comprobantes: Acreditado, pendiente y rechazado debe poder explicarse a otra persona sin exponer datos sensibles.",
+            "Criterio de cierre: la operacion se confirma solo si aparece acreditada oficialmente.",
+            "Evidencia minima: registro de verificacion de pago con fuente oficial.",
+            "Entregable del curso: protocolo personal de finanzas digitales con presupuesto, verificacion de pagos, alertas y respuesta ante incidentes."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
-          "id": "m3_l2",
-          "title": "Tarjetas físicas y virtuales",
-          "keyIdea": "Idea clave: Tarjetas físicas y virtuales sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Tarjetas físicas y virtuales\" dentro del módulo \"Tarjetas, claves, límites y dispositivos\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona o pequeño comercio necesita cobrar, pagar, verificar un comprobante o revisar movimientos sin exponer datos sensibles. Aplicá \"Tarjetas físicas y virtuales\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: una hoja de control con operación, canal, comprobación, riesgo detectado y siguiente paso.",
-          "alert": "No compartir CVU/alias junto con claves, tokens, codigos o capturas completas de cuenta.",
+          "id": "m3-l2",
+          "title": "Comprobante recibido por chat",
+          "keyIdea": "Una imagen puede estar editada o no corresponder a tu cuenta.",
+          "shortTheory": "En esta leccion se trabaja comprobante recibido por chat dentro de transferencias, qr y comprobantes. El foco es separar hechos, riesgos, datos necesarios y pasos seguros antes de actuar.",
+          "practicalExample": "Una persona cobra por QR, recibe comprobantes por WhatsApp y necesita ordenar gastos, vencimientos y riesgos. La practica consiste en aplicar comprobante recibido por chat, registrar registro de verificacion de pago con fuente oficial y decidir el siguiente paso sin compartir datos sensibles.",
+          "commonMistake": "Mirar solo monto y olvidar destinatario.",
+          "whatToDoNow": "Aplicar checklist de comprobante dudoso.",
+          "alert": "Captura no es acreditacion.",
           "keyPoints": [
-            "Tarjetas físicas y virtuales debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: una hoja de control con operación, canal, comprobación, riesgo detectado y siguiente paso.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Comprobantes: Comprobante recibido por chat debe poder explicarse a otra persona sin exponer datos sensibles.",
+            "Criterio de cierre: la operacion se confirma solo si aparece acreditada oficialmente.",
+            "Evidencia minima: registro de verificacion de pago con fuente oficial.",
+            "Entregable del curso: protocolo personal de finanzas digitales con presupuesto, verificacion de pagos, alertas y respuesta ante incidentes."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
-          "id": "m3_l3",
-          "title": "Límites de operación",
-          "keyIdea": "Idea clave: Límites de operación sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Límites de operación\" dentro del módulo \"Tarjetas, claves, límites y dispositivos\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona o pequeño comercio necesita cobrar, pagar, verificar un comprobante o revisar movimientos sin exponer datos sensibles. Aplicá \"Límites de operación\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: una hoja de control con operación, canal, comprobación, riesgo detectado y siguiente paso.",
-          "alert": "No compartir CVU/alias junto con claves, tokens, codigos o capturas completas de cuenta.",
+          "id": "m3-l3",
+          "title": "QR propio y QR ajeno",
+          "keyIdea": "Un QR equivocado puede enviar dinero a otra cuenta.",
+          "shortTheory": "En esta leccion se trabaja qr propio y qr ajeno dentro de transferencias, qr y comprobantes. El foco es separar hechos, riesgos, datos necesarios y pasos seguros antes de actuar.",
+          "practicalExample": "Una persona cobra por QR, recibe comprobantes por WhatsApp y necesita ordenar gastos, vencimientos y riesgos. La practica consiste en aplicar qr propio y qr ajeno, registrar registro de verificacion de pago con fuente oficial y decidir el siguiente paso sin compartir datos sensibles.",
+          "commonMistake": "Escanear QR pegados o reenviados sin confirmar.",
+          "whatToDoNow": "Verificar nombre y destino antes de pagar.",
+          "alert": "Captura no es acreditacion.",
           "keyPoints": [
-            "Límites de operación debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: una hoja de control con operación, canal, comprobación, riesgo detectado y siguiente paso.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Comprobantes: QR propio y QR ajeno debe poder explicarse a otra persona sin exponer datos sensibles.",
+            "Criterio de cierre: la operacion se confirma solo si aparece acreditada oficialmente.",
+            "Evidencia minima: registro de verificacion de pago con fuente oficial.",
+            "Entregable del curso: protocolo personal de finanzas digitales con presupuesto, verificacion de pagos, alertas y respuesta ante incidentes."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
-          "id": "m3_l4",
-          "title": "Dispositivo confiable",
-          "keyIdea": "Idea clave: Dispositivo confiable sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Dispositivo confiable\" dentro del módulo \"Tarjetas, claves, límites y dispositivos\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona o pequeño comercio necesita cobrar, pagar, verificar un comprobante o revisar movimientos sin exponer datos sensibles. Aplicá \"Dispositivo confiable\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: una hoja de control con operación, canal, comprobación, riesgo detectado y siguiente paso.",
-          "alert": "No compartir CVU/alias junto con claves, tokens, codigos o capturas completas de cuenta.",
+          "id": "m3-l4",
+          "title": "Transferencia desconocida",
+          "keyIdea": "Si aparece dinero inesperado no se devuelve por presion.",
+          "shortTheory": "En esta leccion se trabaja transferencia desconocida dentro de transferencias, qr y comprobantes. El foco es separar hechos, riesgos, datos necesarios y pasos seguros antes de actuar.",
+          "practicalExample": "Una persona cobra por QR, recibe comprobantes por WhatsApp y necesita ordenar gastos, vencimientos y riesgos. La practica consiste en aplicar transferencia desconocida, registrar registro de verificacion de pago con fuente oficial y decidir el siguiente paso sin compartir datos sensibles.",
+          "commonMistake": "Devolver de inmediato a quien presiona.",
+          "whatToDoNow": "Escribir mensaje de pausa y verificacion.",
+          "alert": "Captura no es acreditacion.",
           "keyPoints": [
-            "Dispositivo confiable debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: una hoja de control con operación, canal, comprobación, riesgo detectado y siguiente paso.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Comprobantes: Transferencia desconocida debe poder explicarse a otra persona sin exponer datos sensibles.",
+            "Criterio de cierre: la operacion se confirma solo si aparece acreditada oficialmente.",
+            "Evidencia minima: registro de verificacion de pago con fuente oficial.",
+            "Entregable del curso: protocolo personal de finanzas digitales con presupuesto, verificacion de pagos, alertas y respuesta ante incidentes."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
-          "id": "m3_l5",
-          "title": "Sesiones abiertas",
-          "keyIdea": "Idea clave: Sesiones abiertas sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Sesiones abiertas\" dentro del módulo \"Tarjetas, claves, límites y dispositivos\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona o pequeño comercio necesita cobrar, pagar, verificar un comprobante o revisar movimientos sin exponer datos sensibles. Aplicá \"Sesiones abiertas\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: una hoja de control con operación, canal, comprobación, riesgo detectado y siguiente paso.",
-          "alert": "No compartir CVU/alias junto con claves, tokens, codigos o capturas completas de cuenta.",
+          "id": "m3-l5",
+          "title": "Errores de pago",
+          "keyIdea": "Un pago fallido requiere evidencia, no reintentos infinitos.",
+          "shortTheory": "En esta leccion se trabaja errores de pago dentro de transferencias, qr y comprobantes. El foco es separar hechos, riesgos, datos necesarios y pasos seguros antes de actuar.",
+          "practicalExample": "Una persona cobra por QR, recibe comprobantes por WhatsApp y necesita ordenar gastos, vencimientos y riesgos. La practica consiste en aplicar errores de pago, registrar registro de verificacion de pago con fuente oficial y decidir el siguiente paso sin compartir datos sensibles.",
+          "commonMistake": "Presionar pagar muchas veces.",
+          "whatToDoNow": "Registrar hora, medio y mensaje de error.",
+          "alert": "Captura no es acreditacion.",
           "keyPoints": [
-            "Sesiones abiertas debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: una hoja de control con operación, canal, comprobación, riesgo detectado y siguiente paso.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Comprobantes: Errores de pago debe poder explicarse a otra persona sin exponer datos sensibles.",
+            "Criterio de cierre: la operacion se confirma solo si aparece acreditada oficialmente.",
+            "Evidencia minima: registro de verificacion de pago con fuente oficial.",
+            "Entregable del curso: protocolo personal de finanzas digitales con presupuesto, verificacion de pagos, alertas y respuesta ante incidentes."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
-          "id": "m3_l6",
-          "title": "Notificaciones de seguridad",
-          "keyIdea": "Idea clave: Notificaciones de seguridad sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Notificaciones de seguridad\" dentro del módulo \"Tarjetas, claves, límites y dispositivos\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona o pequeño comercio necesita cobrar, pagar, verificar un comprobante o revisar movimientos sin exponer datos sensibles. Aplicá \"Notificaciones de seguridad\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: una hoja de control con operación, canal, comprobación, riesgo detectado y siguiente paso.",
-          "alert": "No compartir CVU/alias junto con claves, tokens, codigos o capturas completas de cuenta.",
+          "id": "m3-l6",
+          "title": "Cierre de venta",
+          "keyIdea": "El cierre ordena entrega, comprobante y seguimiento.",
+          "shortTheory": "En esta leccion se trabaja cierre de venta dentro de transferencias, qr y comprobantes. El foco es separar hechos, riesgos, datos necesarios y pasos seguros antes de actuar.",
+          "practicalExample": "Una persona cobra por QR, recibe comprobantes por WhatsApp y necesita ordenar gastos, vencimientos y riesgos. La practica consiste en aplicar cierre de venta, registrar registro de verificacion de pago con fuente oficial y decidir el siguiente paso sin compartir datos sensibles.",
+          "commonMistake": "Cerrar sin guardar evidencia en operaciones dudosas.",
+          "whatToDoNow": "Crear pasos para venta por WhatsApp.",
+          "alert": "Captura no es acreditacion.",
           "keyPoints": [
-            "Notificaciones de seguridad debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: una hoja de control con operación, canal, comprobación, riesgo detectado y siguiente paso.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Comprobantes: Cierre de venta debe poder explicarse a otra persona sin exponer datos sensibles.",
+            "Criterio de cierre: la operacion se confirma solo si aparece acreditada oficialmente.",
+            "Evidencia minima: registro de verificacion de pago con fuente oficial.",
+            "Entregable del curso: protocolo personal de finanzas digitales con presupuesto, verificacion de pagos, alertas y respuesta ante incidentes."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         }
       ],
       "quiz": [
         {
-          "id": "m3_q1",
-          "question": "¿Qué acción es más segura ante un pago mostrado solo como captura?",
+          "id": "m3-q1",
+          "question": "Que conviene hacer primero en \"Transferencias, QR y comprobantes\"?",
           "options": [
-            "Entregar igual si el comprador apura",
-            "Verificar en la app oficial si el dinero está acreditado",
-            "Pedir otra captura",
-            "Borrar la conversación"
+            "Identificar hechos, datos sensibles, riesgo y evidencia antes de actuar.",
+            "Resolver rapido para que la situacion no incomode.",
+            "Copiar la primera respuesta que parezca correcta.",
+            "Compartir mas datos para recibir ayuda mas rapido."
           ],
-          "correctAnswerIndex": 1,
-          "feedback": "La acreditación se confirma desde la cuenta propia o canal oficial."
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: en temas sensibles, ordenar el caso reduce errores y exposicion."
         },
         {
-          "id": "m3_q2",
-          "question": "¿Qué dato no deberías compartir por chat o llamada?",
+          "id": "m3-q2",
+          "question": "Que evidencia permite revisar el resultado?",
           "options": [
-            "Alias para recibir una transferencia",
-            "Nombre de fantasía del comercio",
-            "Código de verificación o token",
-            "Precio de un producto"
+            "registro de verificacion de pago con fuente oficial",
+            "Una opinion general sin fecha.",
+            "Una captura sin contexto ni fuente.",
+            "Un mensaje reenviado sin verificacion."
           ],
-          "correctAnswerIndex": 2,
-          "feedback": "Los códigos y tokens permiten autorizar accesos u operaciones."
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: registro de verificacion de pago con fuente oficial deja trazabilidad."
         },
         {
-          "id": "m3_q3",
-          "question": "¿Qué señal aumenta el riesgo de estafa?",
+          "id": "m3-q3",
+          "question": "Que accion aumenta el riesgo?",
           "options": [
-            "Te dan tiempo para verificar",
-            "Usan canal oficial",
-            "Exigen actuar ya y no consultar",
-            "El movimiento aparece acreditado"
+            "Entregar producto o devolver dinero solo por una captura.",
+            "Usar datos simulados para practicar.",
+            "Pedir validacion oficial si hay dudas.",
+            "Anotar limites del ejercicio."
           ],
-          "correctAnswerIndex": 2,
-          "feedback": "La presión es una técnica frecuente de manipulación."
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: esa accion elimina control y puede afectar dinero, cuentas o derechos."
         },
         {
-          "id": "m3_q4",
-          "question": "¿Qué conviene conservar ante un incidente?",
+          "id": "m3-q4",
+          "question": "Cuando se debe escalar o consultar una fuente competente?",
           "options": [
-            "Solo el último mensaje",
-            "Capturas, comprobantes, fechas, montos y conversación completa",
-            "Nada, para no confundirse",
-            "Solo el audio si existe"
+            "Cuando hay operacion pendiente, comprobante dudoso, pago duplicado o presion del comprador.",
+            "Nunca, porque un curso introductorio alcanza para todo.",
+            "Solo cuando ya se perdio la evidencia.",
+            "Cuando la respuesta generada suena segura."
           ],
-          "correctAnswerIndex": 1,
-          "feedback": "La evidencia ordenada ayuda en reclamos y reportes."
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: la validacion externa es parte del cuidado en temas sensibles."
         },
         {
-          "id": "m3_q5",
-          "question": "¿Qué frase es más responsable?",
+          "id": "m3-q5",
+          "question": "Cual es el entregable minimo de \"Transferencias, QR y comprobantes\"?",
           "options": [
-            "Esto garantiza recuperar el dinero",
-            "No hace falta contactar al banco",
-            "Puede ayudar a ordenar la respuesta y reducir riesgos",
-            "Ignorá todos los movimientos raros"
+            "protocolo de cobro y pago seguro",
+            "Una lista de ideas sin prioridad.",
+            "Una decision sin evidencia.",
+            "Un resumen que no indica riesgos."
           ],
-          "correctAnswerIndex": 2,
-          "feedback": "No se deben prometer resultados absolutos."
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: protocolo de cobro y pago seguro permite continuar con orden."
         }
-      ],
-      "professionalOutcome": "operar con menos riesgo, registrar movimientos y detectar senales de alerta. Entregable sugerido: una hoja de control con operacion, canal, comprobacion, riesgo y siguiente paso."
+      ]
     },
     {
       "id": "m4",
-      "title": "Préstamos, promociones y oportunidades falsas",
-      "description": "En este módulo vas a trabajar \"Préstamos, promociones y oportunidades falsas\" dentro de uso cotidiano de billeteras, transferencias, tarjetas, comprobantes y gastos. El objetivo es practicar con situaciones concretas, entender qué decisión mejora y cerrar con una evidencia simple.",
-      "commercialRisk": "Deudas, préstamos o inversiones activadas por engaño",
+      "title": "Fraudes y presion digital",
+      "description": "Detectar urgencias falsas, enlaces, llamadas y pedidos de codigos.",
+      "learningRisk": "Practicar sin evidencia puede llevar a decisiones inseguras o dificiles de corregir.",
       "lessons": [
         {
-          "id": "m4_l1",
-          "title": "Préstamos no solicitados",
-          "keyIdea": "Idea clave: Préstamos no solicitados sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Préstamos no solicitados\" dentro del módulo \"Préstamos, promociones y oportunidades falsas\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona o pequeño comercio necesita cobrar, pagar, verificar un comprobante o revisar movimientos sin exponer datos sensibles. Aplicá \"Préstamos no solicitados\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: una hoja de control con operación, canal, comprobación, riesgo detectado y siguiente paso.",
-          "alert": "No compartir CVU/alias junto con claves, tokens, codigos o capturas completas de cuenta.",
+          "id": "m4-l1",
+          "title": "Urgencia, miedo y premio",
+          "keyIdea": "La presion busca que actues sin revisar.",
+          "shortTheory": "En esta leccion se trabaja urgencia, miedo y premio dentro de fraudes y presion digital. El foco es separar hechos, riesgos, datos necesarios y pasos seguros antes de actuar.",
+          "practicalExample": "Una persona cobra por QR, recibe comprobantes por WhatsApp y necesita ordenar gastos, vencimientos y riesgos. La practica consiste en aplicar urgencia, miedo y premio, registrar analisis de mensaje sospechoso con senales de fraude y decidir el siguiente paso sin compartir datos sensibles.",
+          "commonMistake": "Responder para que no bloqueen la cuenta.",
+          "whatToDoNow": "Subrayar palabras de presion en mensajes simulados.",
+          "alert": "Banco, billetera o tarjeta no necesitan que les dictes tu clave o codigo.",
           "keyPoints": [
-            "Préstamos no solicitados debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: una hoja de control con operación, canal, comprobación, riesgo detectado y siguiente paso.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Fraudes: Urgencia, miedo y premio debe poder explicarse a otra persona sin exponer datos sensibles.",
+            "Criterio de cierre: se decide detener, verificar o escalar por senales observables.",
+            "Evidencia minima: analisis de mensaje sospechoso con senales de fraude.",
+            "Entregable del curso: protocolo personal de finanzas digitales con presupuesto, verificacion de pagos, alertas y respuesta ante incidentes."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
-          "id": "m4_l2",
-          "title": "Promociones demasiado buenas",
-          "keyIdea": "Idea clave: Promociones demasiado buenas sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Promociones demasiado buenas\" dentro del módulo \"Préstamos, promociones y oportunidades falsas\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona o pequeño comercio necesita cobrar, pagar, verificar un comprobante o revisar movimientos sin exponer datos sensibles. Aplicá \"Promociones demasiado buenas\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: una hoja de control con operación, canal, comprobación, riesgo detectado y siguiente paso.",
-          "alert": "No compartir CVU/alias junto con claves, tokens, codigos o capturas completas de cuenta.",
+          "id": "m4-l2",
+          "title": "Links de bancos y billeteras",
+          "keyIdea": "El dominio y el canal importan mas que el logo.",
+          "shortTheory": "En esta leccion se trabaja links de bancos y billeteras dentro de fraudes y presion digital. El foco es separar hechos, riesgos, datos necesarios y pasos seguros antes de actuar.",
+          "practicalExample": "Una persona cobra por QR, recibe comprobantes por WhatsApp y necesita ordenar gastos, vencimientos y riesgos. La practica consiste en aplicar links de bancos y billeteras, registrar analisis de mensaje sospechoso con senales de fraude y decidir el siguiente paso sin compartir datos sensibles.",
+          "commonMistake": "Confiar en logos o colores.",
+          "whatToDoNow": "Comparar un link oficial con uno falso.",
+          "alert": "Banco, billetera o tarjeta no necesitan que les dictes tu clave o codigo.",
           "keyPoints": [
-            "Promociones demasiado buenas debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: una hoja de control con operación, canal, comprobación, riesgo detectado y siguiente paso.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Fraudes: Links de bancos y billeteras debe poder explicarse a otra persona sin exponer datos sensibles.",
+            "Criterio de cierre: se decide detener, verificar o escalar por senales observables.",
+            "Evidencia minima: analisis de mensaje sospechoso con senales de fraude.",
+            "Entregable del curso: protocolo personal de finanzas digitales con presupuesto, verificacion de pagos, alertas y respuesta ante incidentes."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
-          "id": "m4_l3",
-          "title": "Falsas inversiones",
-          "keyIdea": "Idea clave: Falsas inversiones sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Falsas inversiones\" dentro del módulo \"Préstamos, promociones y oportunidades falsas\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona o pequeño comercio necesita cobrar, pagar, verificar un comprobante o revisar movimientos sin exponer datos sensibles. Aplicá \"Falsas inversiones\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: una hoja de control con operación, canal, comprobación, riesgo detectado y siguiente paso.",
-          "alert": "No compartir CVU/alias junto con claves, tokens, codigos o capturas completas de cuenta.",
+          "id": "m4-l3",
+          "title": "Llamadas de supuesto soporte",
+          "keyIdea": "El soporte real no pide claves ni acceso remoto por sorpresa.",
+          "shortTheory": "En esta leccion se trabaja llamadas de supuesto soporte dentro de fraudes y presion digital. El foco es separar hechos, riesgos, datos necesarios y pasos seguros antes de actuar.",
+          "practicalExample": "Una persona cobra por QR, recibe comprobantes por WhatsApp y necesita ordenar gastos, vencimientos y riesgos. La practica consiste en aplicar llamadas de supuesto soporte, registrar analisis de mensaje sospechoso con senales de fraude y decidir el siguiente paso sin compartir datos sensibles.",
+          "commonMistake": "Seguir instrucciones porque conocen tu nombre.",
+          "whatToDoNow": "Escribir guion para cortar y llamar al canal oficial.",
+          "alert": "Banco, billetera o tarjeta no necesitan que les dictes tu clave o codigo.",
           "keyPoints": [
-            "Falsas inversiones debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: una hoja de control con operación, canal, comprobación, riesgo detectado y siguiente paso.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Fraudes: Llamadas de supuesto soporte debe poder explicarse a otra persona sin exponer datos sensibles.",
+            "Criterio de cierre: se decide detener, verificar o escalar por senales observables.",
+            "Evidencia minima: analisis de mensaje sospechoso con senales de fraude.",
+            "Entregable del curso: protocolo personal de finanzas digitales con presupuesto, verificacion de pagos, alertas y respuesta ante incidentes."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
-          "id": "m4_l4",
-          "title": "Suplantación de banco o billetera",
-          "keyIdea": "Idea clave: Suplantación de banco o billetera sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Suplantación de banco o billetera\" dentro del módulo \"Préstamos, promociones y oportunidades falsas\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona o pequeño comercio necesita cobrar, pagar, verificar un comprobante o revisar movimientos sin exponer datos sensibles. Aplicá \"Suplantación de banco o billetera\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: una hoja de control con operación, canal, comprobación, riesgo detectado y siguiente paso.",
-          "alert": "No compartir CVU/alias junto con claves, tokens, codigos o capturas completas de cuenta.",
+          "id": "m4-l4",
+          "title": "Codigos y tokens",
+          "keyIdea": "Un codigo puede autorizar ingreso u operacion.",
+          "shortTheory": "En esta leccion se trabaja codigos y tokens dentro de fraudes y presion digital. El foco es separar hechos, riesgos, datos necesarios y pasos seguros antes de actuar.",
+          "practicalExample": "Una persona cobra por QR, recibe comprobantes por WhatsApp y necesita ordenar gastos, vencimientos y riesgos. La practica consiste en aplicar codigos y tokens, registrar analisis de mensaje sospechoso con senales de fraude y decidir el siguiente paso sin compartir datos sensibles.",
+          "commonMistake": "Dictar codigos para 'cancelar' una operacion.",
+          "whatToDoNow": "Crear regla familiar sobre codigos.",
+          "alert": "Banco, billetera o tarjeta no necesitan que les dictes tu clave o codigo.",
           "keyPoints": [
-            "Suplantación de banco o billetera debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: una hoja de control con operación, canal, comprobación, riesgo detectado y siguiente paso.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Fraudes: Codigos y tokens debe poder explicarse a otra persona sin exponer datos sensibles.",
+            "Criterio de cierre: se decide detener, verificar o escalar por senales observables.",
+            "Evidencia minima: analisis de mensaje sospechoso con senales de fraude.",
+            "Entregable del curso: protocolo personal de finanzas digitales con presupuesto, verificacion de pagos, alertas y respuesta ante incidentes."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
-          "id": "m4_l5",
-          "title": "Deudas y cuotas",
-          "keyIdea": "Idea clave: Deudas y cuotas sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Deudas y cuotas\" dentro del módulo \"Préstamos, promociones y oportunidades falsas\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona o pequeño comercio necesita cobrar, pagar, verificar un comprobante o revisar movimientos sin exponer datos sensibles. Aplicá \"Deudas y cuotas\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: una hoja de control con operación, canal, comprobación, riesgo detectado y siguiente paso.",
-          "alert": "No compartir CVU/alias junto con claves, tokens, codigos o capturas completas de cuenta.",
+          "id": "m4-l5",
+          "title": "Apps de acceso remoto",
+          "keyIdea": "Permiten ver o controlar pantalla.",
+          "shortTheory": "En esta leccion se trabaja apps de acceso remoto dentro de fraudes y presion digital. El foco es separar hechos, riesgos, datos necesarios y pasos seguros antes de actuar.",
+          "practicalExample": "Una persona cobra por QR, recibe comprobantes por WhatsApp y necesita ordenar gastos, vencimientos y riesgos. La practica consiste en aplicar apps de acceso remoto, registrar analisis de mensaje sospechoso con senales de fraude y decidir el siguiente paso sin compartir datos sensibles.",
+          "commonMistake": "Instalar una app porque lo indica una llamada.",
+          "whatToDoNow": "Identificar apps de asistencia remota y riesgos.",
+          "alert": "Banco, billetera o tarjeta no necesitan que les dictes tu clave o codigo.",
           "keyPoints": [
-            "Deudas y cuotas debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: una hoja de control con operación, canal, comprobación, riesgo detectado y siguiente paso.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Fraudes: Apps de acceso remoto debe poder explicarse a otra persona sin exponer datos sensibles.",
+            "Criterio de cierre: se decide detener, verificar o escalar por senales observables.",
+            "Evidencia minima: analisis de mensaje sospechoso con senales de fraude.",
+            "Entregable del curso: protocolo personal de finanzas digitales con presupuesto, verificacion de pagos, alertas y respuesta ante incidentes."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
-          "id": "m4_l6",
-          "title": "Datos para beneficios",
-          "keyIdea": "Idea clave: Datos para beneficios sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Datos para beneficios\" dentro del módulo \"Préstamos, promociones y oportunidades falsas\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona o pequeño comercio necesita cobrar, pagar, verificar un comprobante o revisar movimientos sin exponer datos sensibles. Aplicá \"Datos para beneficios\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: una hoja de control con operación, canal, comprobación, riesgo detectado y siguiente paso.",
-          "alert": "No compartir CVU/alias junto con claves, tokens, codigos o capturas completas de cuenta.",
+          "id": "m4-l6",
+          "title": "Diagnostico rapido",
+          "keyIdea": "Un cuestionario ayuda a priorizar respuesta.",
+          "shortTheory": "En esta leccion se trabaja diagnostico rapido dentro de fraudes y presion digital. El foco es separar hechos, riesgos, datos necesarios y pasos seguros antes de actuar.",
+          "practicalExample": "Una persona cobra por QR, recibe comprobantes por WhatsApp y necesita ordenar gastos, vencimientos y riesgos. La practica consiste en aplicar diagnostico rapido, registrar analisis de mensaje sospechoso con senales de fraude y decidir el siguiente paso sin compartir datos sensibles.",
+          "commonMistake": "Minimizar senales porque todavia no falta dinero.",
+          "whatToDoNow": "Usar preguntas de riesgo con un caso simulado.",
+          "alert": "Banco, billetera o tarjeta no necesitan que les dictes tu clave o codigo.",
           "keyPoints": [
-            "Datos para beneficios debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: una hoja de control con operación, canal, comprobación, riesgo detectado y siguiente paso.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Fraudes: Diagnostico rapido debe poder explicarse a otra persona sin exponer datos sensibles.",
+            "Criterio de cierre: se decide detener, verificar o escalar por senales observables.",
+            "Evidencia minima: analisis de mensaje sospechoso con senales de fraude.",
+            "Entregable del curso: protocolo personal de finanzas digitales con presupuesto, verificacion de pagos, alertas y respuesta ante incidentes."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         }
       ],
       "quiz": [
         {
-          "id": "m4_q1",
-          "question": "¿Qué acción es más segura ante un pago mostrado solo como captura?",
+          "id": "m4-q1",
+          "question": "Que conviene hacer primero en \"Fraudes y presion digital\"?",
           "options": [
-            "Entregar igual si el comprador apura",
-            "Verificar en la app oficial si el dinero está acreditado",
-            "Pedir otra captura",
-            "Borrar la conversación"
+            "Identificar hechos, datos sensibles, riesgo y evidencia antes de actuar.",
+            "Resolver rapido para que la situacion no incomode.",
+            "Copiar la primera respuesta que parezca correcta.",
+            "Compartir mas datos para recibir ayuda mas rapido."
           ],
-          "correctAnswerIndex": 1,
-          "feedback": "La acreditación se confirma desde la cuenta propia o canal oficial."
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: en temas sensibles, ordenar el caso reduce errores y exposicion."
         },
         {
-          "id": "m4_q2",
-          "question": "¿Qué dato no deberías compartir por chat o llamada?",
+          "id": "m4-q2",
+          "question": "Que evidencia permite revisar el resultado?",
           "options": [
-            "Alias para recibir una transferencia",
-            "Nombre de fantasía del comercio",
-            "Código de verificación o token",
-            "Precio de un producto"
+            "analisis de mensaje sospechoso con senales de fraude",
+            "Una opinion general sin fecha.",
+            "Una captura sin contexto ni fuente.",
+            "Un mensaje reenviado sin verificacion."
           ],
-          "correctAnswerIndex": 2,
-          "feedback": "Los códigos y tokens permiten autorizar accesos u operaciones."
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: analisis de mensaje sospechoso con senales de fraude deja trazabilidad."
         },
         {
-          "id": "m4_q3",
-          "question": "¿Qué señal aumenta el riesgo de estafa?",
+          "id": "m4-q3",
+          "question": "Que accion aumenta el riesgo?",
           "options": [
-            "Te dan tiempo para verificar",
-            "Usan canal oficial",
-            "Exigen actuar ya y no consultar",
-            "El movimiento aparece acreditado"
+            "Compartir codigos, claves o instalar apps por llamada.",
+            "Usar datos simulados para practicar.",
+            "Pedir validacion oficial si hay dudas.",
+            "Anotar limites del ejercicio."
           ],
-          "correctAnswerIndex": 2,
-          "feedback": "La presión es una técnica frecuente de manipulación."
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: esa accion elimina control y puede afectar dinero, cuentas o derechos."
         },
         {
-          "id": "m4_q4",
-          "question": "¿Qué conviene conservar ante un incidente?",
+          "id": "m4-q4",
+          "question": "Cuando se debe escalar o consultar una fuente competente?",
           "options": [
-            "Solo el último mensaje",
-            "Capturas, comprobantes, fechas, montos y conversación completa",
-            "Nada, para no confundirse",
-            "Solo el audio si existe"
+            "Cuando piden codigo, token, clave, acceso remoto o transferencia urgente.",
+            "Nunca, porque un curso introductorio alcanza para todo.",
+            "Solo cuando ya se perdio la evidencia.",
+            "Cuando la respuesta generada suena segura."
           ],
-          "correctAnswerIndex": 1,
-          "feedback": "La evidencia ordenada ayuda en reclamos y reportes."
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: la validacion externa es parte del cuidado en temas sensibles."
         },
         {
-          "id": "m4_q5",
-          "question": "¿Qué frase es más responsable?",
+          "id": "m4-q5",
+          "question": "Cual es el entregable minimo de \"Fraudes y presion digital\"?",
           "options": [
-            "Esto garantiza recuperar el dinero",
-            "No hace falta contactar al banco",
-            "Puede ayudar a ordenar la respuesta y reducir riesgos",
-            "Ignorá todos los movimientos raros"
+            "matriz de riesgo financiero digital",
+            "Una lista de ideas sin prioridad.",
+            "Una decision sin evidencia.",
+            "Un resumen que no indica riesgos."
           ],
-          "correctAnswerIndex": 2,
-          "feedback": "No se deben prometer resultados absolutos."
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: matriz de riesgo financiero digital permite continuar con orden."
         }
-      ],
-      "professionalOutcome": "operar con menos riesgo, registrar movimientos y detectar senales de alerta. Entregable sugerido: una hoja de control con operacion, canal, comprobacion, riesgo y siguiente paso."
+      ]
     },
     {
       "id": "m5",
-      "title": "Movimientos desconocidos y respuesta inicial",
-      "description": "En este módulo vas a trabajar \"Movimientos desconocidos y respuesta inicial\" dentro de uso cotidiano de billeteras, transferencias, tarjetas, comprobantes y gastos. El objetivo es practicar con situaciones concretas, entender qué decisión mejora y cerrar con una evidencia simple.",
-      "commercialRisk": "Pérdida de tiempo, evidencia o dinero por reacción desordenada",
+      "title": "Deudas, cuotas y tarjetas",
+      "description": "Leer deuda, cuotas, intereses, resumen de tarjeta y alternativas con prudencia.",
+      "learningRisk": "Practicar sin evidencia puede llevar a decisiones inseguras o dificiles de corregir.",
       "lessons": [
         {
-          "id": "m5_l1",
-          "title": "Consumo desconocido",
-          "keyIdea": "Idea clave: Consumo desconocido sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Consumo desconocido\" dentro del módulo \"Movimientos desconocidos y respuesta inicial\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona o pequeño comercio necesita cobrar, pagar, verificar un comprobante o revisar movimientos sin exponer datos sensibles. Aplicá \"Consumo desconocido\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: una hoja de control con operación, canal, comprobación, riesgo detectado y siguiente paso.",
-          "alert": "No compartir CVU/alias junto con claves, tokens, codigos o capturas completas de cuenta.",
+          "id": "m5-l1",
+          "title": "Resumen de tarjeta",
+          "keyIdea": "El resumen separa consumo, vencimiento, pago minimo e intereses.",
+          "shortTheory": "En esta leccion se trabaja resumen de tarjeta dentro de deudas, cuotas y tarjetas. El foco es separar hechos, riesgos, datos necesarios y pasos seguros antes de actuar.",
+          "practicalExample": "Una persona cobra por QR, recibe comprobantes por WhatsApp y necesita ordenar gastos, vencimientos y riesgos. La practica consiste en aplicar resumen de tarjeta, registrar ficha de deuda con monto, vencimiento, costo y fuente y decidir el siguiente paso sin compartir datos sensibles.",
+          "commonMistake": "Pagar minimo sin entender costo.",
+          "whatToDoNow": "Leer un resumen simulado y marcar datos clave.",
+          "alert": "Este curso no reemplaza asesoramiento financiero ni legal.",
           "keyPoints": [
-            "Consumo desconocido debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: una hoja de control con operación, canal, comprobación, riesgo detectado y siguiente paso.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Deudas: Resumen de tarjeta debe poder explicarse a otra persona sin exponer datos sensibles.",
+            "Criterio de cierre: la decision considera costo total, fecha y consecuencia de no pagar.",
+            "Evidencia minima: ficha de deuda con monto, vencimiento, costo y fuente.",
+            "Entregable del curso: protocolo personal de finanzas digitales con presupuesto, verificacion de pagos, alertas y respuesta ante incidentes."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
-          "id": "m5_l2",
-          "title": "Movimiento que no reconozco",
-          "keyIdea": "Idea clave: Movimiento que no reconozco sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Movimiento que no reconozco\" dentro del módulo \"Movimientos desconocidos y respuesta inicial\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona o pequeño comercio necesita cobrar, pagar, verificar un comprobante o revisar movimientos sin exponer datos sensibles. Aplicá \"Movimiento que no reconozco\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: una hoja de control con operación, canal, comprobación, riesgo detectado y siguiente paso.",
-          "alert": "No compartir CVU/alias junto con claves, tokens, codigos o capturas completas de cuenta.",
+          "id": "m5-l2",
+          "title": "Cuotas y costo total",
+          "keyIdea": "La cuota baja puede esconder costo total alto.",
+          "shortTheory": "En esta leccion se trabaja cuotas y costo total dentro de deudas, cuotas y tarjetas. El foco es separar hechos, riesgos, datos necesarios y pasos seguros antes de actuar.",
+          "practicalExample": "Una persona cobra por QR, recibe comprobantes por WhatsApp y necesita ordenar gastos, vencimientos y riesgos. La practica consiste en aplicar cuotas y costo total, registrar ficha de deuda con monto, vencimiento, costo y fuente y decidir el siguiente paso sin compartir datos sensibles.",
+          "commonMistake": "Mirar solo valor mensual.",
+          "whatToDoNow": "Comparar precio contado y cuotas.",
+          "alert": "Este curso no reemplaza asesoramiento financiero ni legal.",
           "keyPoints": [
-            "Movimiento que no reconozco debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: una hoja de control con operación, canal, comprobación, riesgo detectado y siguiente paso.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Deudas: Cuotas y costo total debe poder explicarse a otra persona sin exponer datos sensibles.",
+            "Criterio de cierre: la decision considera costo total, fecha y consecuencia de no pagar.",
+            "Evidencia minima: ficha de deuda con monto, vencimiento, costo y fuente.",
+            "Entregable del curso: protocolo personal de finanzas digitales con presupuesto, verificacion de pagos, alertas y respuesta ante incidentes."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
-          "id": "m5_l3",
-          "title": "Acceso sospechoso",
-          "keyIdea": "Idea clave: Acceso sospechoso sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Acceso sospechoso\" dentro del módulo \"Movimientos desconocidos y respuesta inicial\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona o pequeño comercio necesita cobrar, pagar, verificar un comprobante o revisar movimientos sin exponer datos sensibles. Aplicá \"Acceso sospechoso\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: una hoja de control con operación, canal, comprobación, riesgo detectado y siguiente paso.",
-          "alert": "No compartir CVU/alias junto con claves, tokens, codigos o capturas completas de cuenta.",
+          "id": "m5-l3",
+          "title": "Prestamos y refinanciacion",
+          "keyIdea": "Refinanciar puede aliviar o encarecer.",
+          "shortTheory": "En esta leccion se trabaja prestamos y refinanciacion dentro de deudas, cuotas y tarjetas. El foco es separar hechos, riesgos, datos necesarios y pasos seguros antes de actuar.",
+          "practicalExample": "Una persona cobra por QR, recibe comprobantes por WhatsApp y necesita ordenar gastos, vencimientos y riesgos. La practica consiste en aplicar prestamos y refinanciacion, registrar ficha de deuda con monto, vencimiento, costo y fuente y decidir el siguiente paso sin compartir datos sensibles.",
+          "commonMistake": "Aceptar propuesta por mensaje sin fuente oficial.",
+          "whatToDoNow": "Anotar monto, plazo, tasa visible y costo final.",
+          "alert": "Este curso no reemplaza asesoramiento financiero ni legal.",
           "keyPoints": [
-            "Acceso sospechoso debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: una hoja de control con operación, canal, comprobación, riesgo detectado y siguiente paso.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Deudas: Prestamos y refinanciacion debe poder explicarse a otra persona sin exponer datos sensibles.",
+            "Criterio de cierre: la decision considera costo total, fecha y consecuencia de no pagar.",
+            "Evidencia minima: ficha de deuda con monto, vencimiento, costo y fuente.",
+            "Entregable del curso: protocolo personal de finanzas digitales con presupuesto, verificacion de pagos, alertas y respuesta ante incidentes."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
-          "id": "m5_l4",
-          "title": "Preservar evidencia",
-          "keyIdea": "Idea clave: Preservar evidencia sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Preservar evidencia\" dentro del módulo \"Movimientos desconocidos y respuesta inicial\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona o pequeño comercio necesita cobrar, pagar, verificar un comprobante o revisar movimientos sin exponer datos sensibles. Aplicá \"Preservar evidencia\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: una hoja de control con operación, canal, comprobación, riesgo detectado y siguiente paso.",
-          "alert": "No compartir CVU/alias junto con claves, tokens, codigos o capturas completas de cuenta.",
+          "id": "m5-l4",
+          "title": "Prioridad de pago",
+          "keyIdea": "Cuando no alcanza, se prioriza por impacto y recargo.",
+          "shortTheory": "En esta leccion se trabaja prioridad de pago dentro de deudas, cuotas y tarjetas. El foco es separar hechos, riesgos, datos necesarios y pasos seguros antes de actuar.",
+          "practicalExample": "Una persona cobra por QR, recibe comprobantes por WhatsApp y necesita ordenar gastos, vencimientos y riesgos. La practica consiste en aplicar prioridad de pago, registrar ficha de deuda con monto, vencimiento, costo y fuente y decidir el siguiente paso sin compartir datos sensibles.",
+          "commonMistake": "Pagar al azar al que mas insiste.",
+          "whatToDoNow": "Ordenar deudas simuladas por riesgo.",
+          "alert": "Este curso no reemplaza asesoramiento financiero ni legal.",
           "keyPoints": [
-            "Preservar evidencia debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: una hoja de control con operación, canal, comprobación, riesgo detectado y siguiente paso.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Deudas: Prioridad de pago debe poder explicarse a otra persona sin exponer datos sensibles.",
+            "Criterio de cierre: la decision considera costo total, fecha y consecuencia de no pagar.",
+            "Evidencia minima: ficha de deuda con monto, vencimiento, costo y fuente.",
+            "Entregable del curso: protocolo personal de finanzas digitales con presupuesto, verificacion de pagos, alertas y respuesta ante incidentes."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
-          "id": "m5_l5",
-          "title": "Contactar canales oficiales",
-          "keyIdea": "Idea clave: Contactar canales oficiales sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Contactar canales oficiales\" dentro del módulo \"Movimientos desconocidos y respuesta inicial\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona o pequeño comercio necesita cobrar, pagar, verificar un comprobante o revisar movimientos sin exponer datos sensibles. Aplicá \"Contactar canales oficiales\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: una hoja de control con operación, canal, comprobación, riesgo detectado y siguiente paso.",
-          "alert": "No compartir CVU/alias junto con claves, tokens, codigos o capturas completas de cuenta.",
+          "id": "m5-l5",
+          "title": "Comunicaciones de deuda",
+          "keyIdea": "Hay que distinguir canal oficial, estafa y reclamo formal.",
+          "shortTheory": "En esta leccion se trabaja comunicaciones de deuda dentro de deudas, cuotas y tarjetas. El foco es separar hechos, riesgos, datos necesarios y pasos seguros antes de actuar.",
+          "practicalExample": "Una persona cobra por QR, recibe comprobantes por WhatsApp y necesita ordenar gastos, vencimientos y riesgos. La practica consiste en aplicar comunicaciones de deuda, registrar ficha de deuda con monto, vencimiento, costo y fuente y decidir el siguiente paso sin compartir datos sensibles.",
+          "commonMistake": "Pagar a un alias enviado por WhatsApp.",
+          "whatToDoNow": "Analizar aviso de deuda simulado.",
+          "alert": "Este curso no reemplaza asesoramiento financiero ni legal.",
           "keyPoints": [
-            "Contactar canales oficiales debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: una hoja de control con operación, canal, comprobación, riesgo detectado y siguiente paso.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Deudas: Comunicaciones de deuda debe poder explicarse a otra persona sin exponer datos sensibles.",
+            "Criterio de cierre: la decision considera costo total, fecha y consecuencia de no pagar.",
+            "Evidencia minima: ficha de deuda con monto, vencimiento, costo y fuente.",
+            "Entregable del curso: protocolo personal de finanzas digitales con presupuesto, verificacion de pagos, alertas y respuesta ante incidentes."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
-          "id": "m5_l6",
-          "title": "Después del incidente",
-          "keyIdea": "Idea clave: Después del incidente sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Después del incidente\" dentro del módulo \"Movimientos desconocidos y respuesta inicial\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona o pequeño comercio necesita cobrar, pagar, verificar un comprobante o revisar movimientos sin exponer datos sensibles. Aplicá \"Después del incidente\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: una hoja de control con operación, canal, comprobación, riesgo detectado y siguiente paso.",
-          "alert": "No compartir CVU/alias junto con claves, tokens, codigos o capturas completas de cuenta.",
+          "id": "m5-l6",
+          "title": "Consulta competente",
+          "keyIdea": "Algunas decisiones requieren asesoramiento externo.",
+          "shortTheory": "En esta leccion se trabaja consulta competente dentro de deudas, cuotas y tarjetas. El foco es separar hechos, riesgos, datos necesarios y pasos seguros antes de actuar.",
+          "practicalExample": "Una persona cobra por QR, recibe comprobantes por WhatsApp y necesita ordenar gastos, vencimientos y riesgos. La practica consiste en aplicar consulta competente, registrar ficha de deuda con monto, vencimiento, costo y fuente y decidir el siguiente paso sin compartir datos sensibles.",
+          "commonMistake": "Firmar acuerdos sin entender.",
+          "whatToDoNow": "Escribir que preguntas haria a entidad o profesional.",
+          "alert": "Este curso no reemplaza asesoramiento financiero ni legal.",
           "keyPoints": [
-            "Después del incidente debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: una hoja de control con operación, canal, comprobación, riesgo detectado y siguiente paso.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Deudas: Consulta competente debe poder explicarse a otra persona sin exponer datos sensibles.",
+            "Criterio de cierre: la decision considera costo total, fecha y consecuencia de no pagar.",
+            "Evidencia minima: ficha de deuda con monto, vencimiento, costo y fuente.",
+            "Entregable del curso: protocolo personal de finanzas digitales con presupuesto, verificacion de pagos, alertas y respuesta ante incidentes."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         }
       ],
       "quiz": [
         {
-          "id": "m5_q1",
-          "question": "¿Qué acción es más segura ante un pago mostrado solo como captura?",
+          "id": "m5-q1",
+          "question": "Que conviene hacer primero en \"Deudas, cuotas y tarjetas\"?",
           "options": [
-            "Entregar igual si el comprador apura",
-            "Verificar en la app oficial si el dinero está acreditado",
-            "Pedir otra captura",
-            "Borrar la conversación"
+            "Identificar hechos, datos sensibles, riesgo y evidencia antes de actuar.",
+            "Resolver rapido para que la situacion no incomode.",
+            "Copiar la primera respuesta que parezca correcta.",
+            "Compartir mas datos para recibir ayuda mas rapido."
           ],
-          "correctAnswerIndex": 1,
-          "feedback": "La acreditación se confirma desde la cuenta propia o canal oficial."
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: en temas sensibles, ordenar el caso reduce errores y exposicion."
         },
         {
-          "id": "m5_q2",
-          "question": "¿Qué dato no deberías compartir por chat o llamada?",
+          "id": "m5-q2",
+          "question": "Que evidencia permite revisar el resultado?",
           "options": [
-            "Alias para recibir una transferencia",
-            "Nombre de fantasía del comercio",
-            "Código de verificación o token",
-            "Precio de un producto"
+            "ficha de deuda con monto, vencimiento, costo y fuente",
+            "Una opinion general sin fecha.",
+            "Una captura sin contexto ni fuente.",
+            "Un mensaje reenviado sin verificacion."
           ],
-          "correctAnswerIndex": 2,
-          "feedback": "Los códigos y tokens permiten autorizar accesos u operaciones."
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: ficha de deuda con monto, vencimiento, costo y fuente deja trazabilidad."
         },
         {
-          "id": "m5_q3",
-          "question": "¿Qué señal aumenta el riesgo de estafa?",
+          "id": "m5-q3",
+          "question": "Que accion aumenta el riesgo?",
           "options": [
-            "Te dan tiempo para verificar",
-            "Usan canal oficial",
-            "Exigen actuar ya y no consultar",
-            "El movimiento aparece acreditado"
+            "Tomar credito o refinanciar sin leer costo total.",
+            "Usar datos simulados para practicar.",
+            "Pedir validacion oficial si hay dudas.",
+            "Anotar limites del ejercicio."
           ],
-          "correctAnswerIndex": 2,
-          "feedback": "La presión es una técnica frecuente de manipulación."
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: esa accion elimina control y puede afectar dinero, cuentas o derechos."
         },
         {
-          "id": "m5_q4",
-          "question": "¿Qué conviene conservar ante un incidente?",
+          "id": "m5-q4",
+          "question": "Cuando se debe escalar o consultar una fuente competente?",
           "options": [
-            "Solo el último mensaje",
-            "Capturas, comprobantes, fechas, montos y conversación completa",
-            "Nada, para no confundirse",
-            "Solo el audio si existe"
+            "Cuando no se puede pagar, hay mora, refinanciacion, intimacion o duda legal.",
+            "Nunca, porque un curso introductorio alcanza para todo.",
+            "Solo cuando ya se perdio la evidencia.",
+            "Cuando la respuesta generada suena segura."
           ],
-          "correctAnswerIndex": 1,
-          "feedback": "La evidencia ordenada ayuda en reclamos y reportes."
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: la validacion externa es parte del cuidado en temas sensibles."
         },
         {
-          "id": "m5_q5",
-          "question": "¿Qué frase es más responsable?",
+          "id": "m5-q5",
+          "question": "Cual es el entregable minimo de \"Deudas, cuotas y tarjetas\"?",
           "options": [
-            "Esto garantiza recuperar el dinero",
-            "No hace falta contactar al banco",
-            "Puede ayudar a ordenar la respuesta y reducir riesgos",
-            "Ignorá todos los movimientos raros"
+            "inventario de deudas y cuotas",
+            "Una lista de ideas sin prioridad.",
+            "Una decision sin evidencia.",
+            "Un resumen que no indica riesgos."
           ],
-          "correctAnswerIndex": 2,
-          "feedback": "No se deben prometer resultados absolutos."
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: inventario de deudas y cuotas permite continuar con orden."
         }
-      ],
-      "professionalOutcome": "operar con menos riesgo, registrar movimientos y detectar senales de alerta. Entregable sugerido: una hoja de control con operacion, canal, comprobacion, riesgo y siguiente paso."
+      ]
     },
     {
       "id": "m6",
-      "title": "Hábitos financieros digitales seguros",
-      "description": "En este módulo vas a trabajar \"Hábitos financieros digitales seguros\" dentro de uso cotidiano de billeteras, transferencias, tarjetas, comprobantes y gastos. El objetivo es practicar con situaciones concretas, entender qué decisión mejora y cerrar con una evidencia simple.",
-      "commercialRisk": "Desorden financiero, gastos invisibles y baja prevención",
+      "title": "Respuesta ante incidentes financieros",
+      "description": "Bloquear dano, preservar evidencia, reclamar y recuperar control.",
+      "learningRisk": "Practicar sin evidencia puede llevar a decisiones inseguras o dificiles de corregir.",
       "lessons": [
         {
-          "id": "m6_l1",
-          "title": "Rutina semanal de revisión",
-          "keyIdea": "Idea clave: Rutina semanal de revisión sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Rutina semanal de revisión\" dentro del módulo \"Hábitos financieros digitales seguros\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona o pequeño comercio necesita cobrar, pagar, verificar un comprobante o revisar movimientos sin exponer datos sensibles. Aplicá \"Rutina semanal de revisión\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: una hoja de control con operación, canal, comprobación, riesgo detectado y siguiente paso.",
-          "alert": "No compartir CVU/alias junto con claves, tokens, codigos o capturas completas de cuenta.",
+          "id": "m6-l1",
+          "title": "Primeros 10 minutos",
+          "keyIdea": "Pausar, bloquear si corresponde y guardar evidencia.",
+          "shortTheory": "En esta leccion se trabaja primeros 10 minutos dentro de respuesta ante incidentes financieros. El foco es separar hechos, riesgos, datos necesarios y pasos seguros antes de actuar.",
+          "practicalExample": "Una persona cobra por QR, recibe comprobantes por WhatsApp y necesita ordenar gastos, vencimientos y riesgos. La practica consiste en aplicar primeros 10 minutos, registrar registro de incidente con accion, reclamo y seguimiento y decidir el siguiente paso sin compartir datos sensibles.",
+          "commonMistake": "Seguir hablando con quien presiona.",
+          "whatToDoNow": "Escribir pasos inmediatos para movimiento desconocido.",
+          "alert": "En emergencia financiera, actuar por canales oficiales y registrar numero de reclamo.",
           "keyPoints": [
-            "Rutina semanal de revisión debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: una hoja de control con operación, canal, comprobación, riesgo detectado y siguiente paso.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Incidentes: Primeros 10 minutos debe poder explicarse a otra persona sin exponer datos sensibles.",
+            "Criterio de cierre: se protege la cuenta afectada y se conserva informacion util para reclamo.",
+            "Evidencia minima: registro de incidente con accion, reclamo y seguimiento.",
+            "Entregable del curso: protocolo personal de finanzas digitales con presupuesto, verificacion de pagos, alertas y respuesta ante incidentes."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
-          "id": "m6_l2",
-          "title": "Presupuesto digital básico",
-          "keyIdea": "Idea clave: Presupuesto digital básico sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Presupuesto digital básico\" dentro del módulo \"Hábitos financieros digitales seguros\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona o pequeño comercio necesita cobrar, pagar, verificar un comprobante o revisar movimientos sin exponer datos sensibles. Aplicá \"Presupuesto digital básico\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: una hoja de control con operación, canal, comprobación, riesgo detectado y siguiente paso.",
-          "alert": "No compartir CVU/alias junto con claves, tokens, codigos o capturas completas de cuenta.",
+          "id": "m6-l2",
+          "title": "Bloqueo preventivo",
+          "keyIdea": "Bloquear tarjeta o cuenta puede evitar mas dano.",
+          "shortTheory": "En esta leccion se trabaja bloqueo preventivo dentro de respuesta ante incidentes financieros. El foco es separar hechos, riesgos, datos necesarios y pasos seguros antes de actuar.",
+          "practicalExample": "Una persona cobra por QR, recibe comprobantes por WhatsApp y necesita ordenar gastos, vencimientos y riesgos. La practica consiste en aplicar bloqueo preventivo, registrar registro de incidente con accion, reclamo y seguimiento y decidir el siguiente paso sin compartir datos sensibles.",
+          "commonMistake": "Esperar a ver si se soluciona solo.",
+          "whatToDoNow": "Identificar donde se bloquea cada medio.",
+          "alert": "En emergencia financiera, actuar por canales oficiales y registrar numero de reclamo.",
           "keyPoints": [
-            "Presupuesto digital básico debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: una hoja de control con operación, canal, comprobación, riesgo detectado y siguiente paso.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Incidentes: Bloqueo preventivo debe poder explicarse a otra persona sin exponer datos sensibles.",
+            "Criterio de cierre: se protege la cuenta afectada y se conserva informacion util para reclamo.",
+            "Evidencia minima: registro de incidente con accion, reclamo y seguimiento.",
+            "Entregable del curso: protocolo personal de finanzas digitales con presupuesto, verificacion de pagos, alertas y respuesta ante incidentes."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
-          "id": "m6_l3",
-          "title": "Gastos hormiga digitales",
-          "keyIdea": "Idea clave: Gastos hormiga digitales sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Gastos hormiga digitales\" dentro del módulo \"Hábitos financieros digitales seguros\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona o pequeño comercio necesita cobrar, pagar, verificar un comprobante o revisar movimientos sin exponer datos sensibles. Aplicá \"Gastos hormiga digitales\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: una hoja de control con operación, canal, comprobación, riesgo detectado y siguiente paso.",
-          "alert": "No compartir CVU/alias junto con claves, tokens, codigos o capturas completas de cuenta.",
+          "id": "m6-l3",
+          "title": "Reclamo formal",
+          "keyIdea": "El reclamo necesita datos claros y numero de caso.",
+          "shortTheory": "En esta leccion se trabaja reclamo formal dentro de respuesta ante incidentes financieros. El foco es separar hechos, riesgos, datos necesarios y pasos seguros antes de actuar.",
+          "practicalExample": "Una persona cobra por QR, recibe comprobantes por WhatsApp y necesita ordenar gastos, vencimientos y riesgos. La practica consiste en aplicar reclamo formal, registrar registro de incidente con accion, reclamo y seguimiento y decidir el siguiente paso sin compartir datos sensibles.",
+          "commonMistake": "Hacer reclamo por canales no oficiales.",
+          "whatToDoNow": "Completar plantilla de reclamo.",
+          "alert": "En emergencia financiera, actuar por canales oficiales y registrar numero de reclamo.",
           "keyPoints": [
-            "Gastos hormiga digitales debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: una hoja de control con operación, canal, comprobación, riesgo detectado y siguiente paso.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Incidentes: Reclamo formal debe poder explicarse a otra persona sin exponer datos sensibles.",
+            "Criterio de cierre: se protege la cuenta afectada y se conserva informacion util para reclamo.",
+            "Evidencia minima: registro de incidente con accion, reclamo y seguimiento.",
+            "Entregable del curso: protocolo personal de finanzas digitales con presupuesto, verificacion de pagos, alertas y respuesta ante incidentes."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
-          "id": "m6_l4",
-          "title": "Educación familiar",
-          "keyIdea": "Idea clave: Educación familiar sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Educación familiar\" dentro del módulo \"Hábitos financieros digitales seguros\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona o pequeño comercio necesita cobrar, pagar, verificar un comprobante o revisar movimientos sin exponer datos sensibles. Aplicá \"Educación familiar\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: una hoja de control con operación, canal, comprobación, riesgo detectado y siguiente paso.",
-          "alert": "No compartir CVU/alias junto con claves, tokens, codigos o capturas completas de cuenta.",
+          "id": "m6-l4",
+          "title": "Cambio de claves",
+          "keyIdea": "Si hubo acceso, se cambia clave desde dispositivo seguro.",
+          "shortTheory": "En esta leccion se trabaja cambio de claves dentro de respuesta ante incidentes financieros. El foco es separar hechos, riesgos, datos necesarios y pasos seguros antes de actuar.",
+          "practicalExample": "Una persona cobra por QR, recibe comprobantes por WhatsApp y necesita ordenar gastos, vencimientos y riesgos. La practica consiste en aplicar cambio de claves, registrar registro de incidente con accion, reclamo y seguimiento y decidir el siguiente paso sin compartir datos sensibles.",
+          "commonMistake": "Cambiar clave desde link recibido.",
+          "whatToDoNow": "Armar secuencia de cambio y cierre de sesiones.",
+          "alert": "En emergencia financiera, actuar por canales oficiales y registrar numero de reclamo.",
           "keyPoints": [
-            "Educación familiar debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: una hoja de control con operación, canal, comprobación, riesgo detectado y siguiente paso.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Incidentes: Cambio de claves debe poder explicarse a otra persona sin exponer datos sensibles.",
+            "Criterio de cierre: se protege la cuenta afectada y se conserva informacion util para reclamo.",
+            "Evidencia minima: registro de incidente con accion, reclamo y seguimiento.",
+            "Entregable del curso: protocolo personal de finanzas digitales con presupuesto, verificacion de pagos, alertas y respuesta ante incidentes."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
-          "id": "m6_l5",
-          "title": "Copias y documentos",
-          "keyIdea": "Idea clave: Copias y documentos sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Copias y documentos\" dentro del módulo \"Hábitos financieros digitales seguros\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona o pequeño comercio necesita cobrar, pagar, verificar un comprobante o revisar movimientos sin exponer datos sensibles. Aplicá \"Copias y documentos\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: una hoja de control con operación, canal, comprobación, riesgo detectado y siguiente paso.",
-          "alert": "No compartir CVU/alias junto con claves, tokens, codigos o capturas completas de cuenta.",
+          "id": "m6-l5",
+          "title": "Evidencia ordenada",
+          "keyIdea": "Capturas, fechas y movimientos deben guardarse sin exponer mas datos.",
+          "shortTheory": "En esta leccion se trabaja evidencia ordenada dentro de respuesta ante incidentes financieros. El foco es separar hechos, riesgos, datos necesarios y pasos seguros antes de actuar.",
+          "practicalExample": "Una persona cobra por QR, recibe comprobantes por WhatsApp y necesita ordenar gastos, vencimientos y riesgos. La practica consiste en aplicar evidencia ordenada, registrar registro de incidente con accion, reclamo y seguimiento y decidir el siguiente paso sin compartir datos sensibles.",
+          "commonMistake": "Borrar por verguenza.",
+          "whatToDoNow": "Crear carpeta de incidente simulado.",
+          "alert": "En emergencia financiera, actuar por canales oficiales y registrar numero de reclamo.",
           "keyPoints": [
-            "Copias y documentos debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: una hoja de control con operación, canal, comprobación, riesgo detectado y siguiente paso.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Incidentes: Evidencia ordenada debe poder explicarse a otra persona sin exponer datos sensibles.",
+            "Criterio de cierre: se protege la cuenta afectada y se conserva informacion util para reclamo.",
+            "Evidencia minima: registro de incidente con accion, reclamo y seguimiento.",
+            "Entregable del curso: protocolo personal de finanzas digitales con presupuesto, verificacion de pagos, alertas y respuesta ante incidentes."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         },
         {
-          "id": "m6_l6",
-          "title": "Aprender sin promesas mágicas",
-          "keyIdea": "Idea clave: Aprender sin promesas mágicas sirve para tomar una decisión concreta, practicar con un caso pequeño y dejar una evidencia simple.",
-          "shortTheory": "En esta lección vas a trabajar \"Aprender sin promesas mágicas\" dentro del módulo \"Hábitos financieros digitales seguros\". No se trata de memorizar una definición: se trata de entender qué cambia en la práctica, qué riesgo reduce y cómo comprobar si el resultado sirve.",
-          "practicalExample": "Una persona o pequeño comercio necesita cobrar, pagar, verificar un comprobante o revisar movimientos sin exponer datos sensibles. Aplicá \"Aprender sin promesas mágicas\" en una versión pequeña: definí objetivo, límite, paso principal y evidencia antes de avanzar.",
-          "commonMistake": "El error común es avanzar por impulso, copiar una respuesta genérica o no definir qué resultado se espera. Para evitarlo, trabajá con una versión pequeña, revisá el criterio y anotá qué mejorarías.",
-          "whatToDoNow": "Ejercicio de 20 minutos: elegí un caso real o simulado del curso. Escribí objetivo, límite, acción principal, evidencia y criterio de éxito. Entrega esperada: una hoja de control con operación, canal, comprobación, riesgo detectado y siguiente paso.",
-          "alert": "No compartir CVU/alias junto con claves, tokens, codigos o capturas completas de cuenta.",
+          "id": "m6-l6",
+          "title": "Seguimiento posterior",
+          "keyIdea": "Despues del reclamo se revisan cuentas, limites y aprendizajes.",
+          "shortTheory": "En esta leccion se trabaja seguimiento posterior dentro de respuesta ante incidentes financieros. El foco es separar hechos, riesgos, datos necesarios y pasos seguros antes de actuar.",
+          "practicalExample": "Una persona cobra por QR, recibe comprobantes por WhatsApp y necesita ordenar gastos, vencimientos y riesgos. La practica consiste en aplicar seguimiento posterior, registrar registro de incidente con accion, reclamo y seguimiento y decidir el siguiente paso sin compartir datos sensibles.",
+          "commonMistake": "Cerrar el caso sin seguimiento.",
+          "whatToDoNow": "Planificar controles de 24h, 7 dias y 30 dias.",
+          "alert": "En emergencia financiera, actuar por canales oficiales y registrar numero de reclamo.",
           "keyPoints": [
-            "Aprender sin promesas mágicas debe terminar en una acción, decisión o entrega concreta.",
-            "Trabajar con un caso pequeño antes de escalar reduce errores.",
-            "La evidencia mínima esperada es: una hoja de control con operación, canal, comprobación, riesgo detectado y siguiente paso.",
-            "El criterio de calidad debe poder revisarse por otra persona."
+            "Incidentes: Seguimiento posterior debe poder explicarse a otra persona sin exponer datos sensibles.",
+            "Criterio de cierre: se protege la cuenta afectada y se conserva informacion util para reclamo.",
+            "Evidencia minima: registro de incidente con accion, reclamo y seguimiento.",
+            "Entregable del curso: protocolo personal de finanzas digitales con presupuesto, verificacion de pagos, alertas y respuesta ante incidentes."
           ],
           "responsibleNote": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar."
         }
       ],
       "quiz": [
         {
-          "id": "m6_q1",
-          "question": "¿Qué acción es más segura ante un pago mostrado solo como captura?",
+          "id": "m6-q1",
+          "question": "Que conviene hacer primero en \"Respuesta ante incidentes financieros\"?",
           "options": [
-            "Entregar igual si el comprador apura",
-            "Verificar en la app oficial si el dinero está acreditado",
-            "Pedir otra captura",
-            "Borrar la conversación"
+            "Identificar hechos, datos sensibles, riesgo y evidencia antes de actuar.",
+            "Resolver rapido para que la situacion no incomode.",
+            "Copiar la primera respuesta que parezca correcta.",
+            "Compartir mas datos para recibir ayuda mas rapido."
           ],
-          "correctAnswerIndex": 1,
-          "feedback": "La acreditación se confirma desde la cuenta propia o canal oficial."
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: en temas sensibles, ordenar el caso reduce errores y exposicion."
         },
         {
-          "id": "m6_q2",
-          "question": "¿Qué dato no deberías compartir por chat o llamada?",
+          "id": "m6-q2",
+          "question": "Que evidencia permite revisar el resultado?",
           "options": [
-            "Alias para recibir una transferencia",
-            "Nombre de fantasía del comercio",
-            "Código de verificación o token",
-            "Precio de un producto"
+            "registro de incidente con accion, reclamo y seguimiento",
+            "Una opinion general sin fecha.",
+            "Una captura sin contexto ni fuente.",
+            "Un mensaje reenviado sin verificacion."
           ],
-          "correctAnswerIndex": 2,
-          "feedback": "Los códigos y tokens permiten autorizar accesos u operaciones."
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: registro de incidente con accion, reclamo y seguimiento deja trazabilidad."
         },
         {
-          "id": "m6_q3",
-          "question": "¿Qué señal aumenta el riesgo de estafa?",
+          "id": "m6-q3",
+          "question": "Que accion aumenta el riesgo?",
           "options": [
-            "Te dan tiempo para verificar",
-            "Usan canal oficial",
-            "Exigen actuar ya y no consultar",
-            "El movimiento aparece acreditado"
+            "Borrar chats, seguir conversando o mover fondos sin verificar.",
+            "Usar datos simulados para practicar.",
+            "Pedir validacion oficial si hay dudas.",
+            "Anotar limites del ejercicio."
           ],
-          "correctAnswerIndex": 2,
-          "feedback": "La presión es una técnica frecuente de manipulación."
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: esa accion elimina control y puede afectar dinero, cuentas o derechos."
         },
         {
-          "id": "m6_q4",
-          "question": "¿Qué conviene conservar ante un incidente?",
+          "id": "m6-q4",
+          "question": "Cuando se debe escalar o consultar una fuente competente?",
           "options": [
-            "Solo el último mensaje",
-            "Capturas, comprobantes, fechas, montos y conversación completa",
-            "Nada, para no confundirse",
-            "Solo el audio si existe"
+            "Ante movimiento no reconocido, cuenta tomada, perdida de celular o datos compartidos.",
+            "Nunca, porque un curso introductorio alcanza para todo.",
+            "Solo cuando ya se perdio la evidencia.",
+            "Cuando la respuesta generada suena segura."
           ],
-          "correctAnswerIndex": 1,
-          "feedback": "La evidencia ordenada ayuda en reclamos y reportes."
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: la validacion externa es parte del cuidado en temas sensibles."
         },
         {
-          "id": "m6_q5",
-          "question": "¿Qué frase es más responsable?",
+          "id": "m6-q5",
+          "question": "Cual es el entregable minimo de \"Respuesta ante incidentes financieros\"?",
           "options": [
-            "Esto garantiza recuperar el dinero",
-            "No hace falta contactar al banco",
-            "Puede ayudar a ordenar la respuesta y reducir riesgos",
-            "Ignorá todos los movimientos raros"
+            "protocolo de emergencia financiera digital",
+            "Una lista de ideas sin prioridad.",
+            "Una decision sin evidencia.",
+            "Un resumen que no indica riesgos."
           ],
-          "correctAnswerIndex": 2,
-          "feedback": "No se deben prometer resultados absolutos."
+          "correctAnswerIndex": 0,
+          "feedback": "Correcto: protocolo de emergencia financiera digital permite continuar con orden."
         }
-      ],
-      "professionalOutcome": "operar con menos riesgo, registrar movimientos y detectar senales de alerta. Entregable sugerido: una hoja de control con operacion, canal, comprobacion, riesgo y siguiente paso."
+      ]
     }
-  ],
-  "publicationStatus": "publica-profesional-v0.6",
-  "professionalization": {
-    "tier": "curso-bandera-v1.0-beta",
-    "updatedAt": "2026-05-28",
-    "focus": "Profundizacion visible de lecciones, practicas, checklists y casos."
-  },
-  "editorialPolish": {
-    "firstFeaturedBatch": "2026-06-01",
-    "status": "public-facing-copy-polished"
-  }
+  ]
 }

@@ -1,441 +1,441 @@
 {
   "incidents": [
     {
-      "id": "case-1",
-      "title": "Caso inicial controlado: Monotributo y Organizacion Administrativa Basica",
-      "summary": "Practica aplicada para resolver una situacion de orden administrativo para pequenos contribuyentes, comprobantes, vencimientos y registros con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en un tablero administrativo mensual sin exponer datos sensibles y con una decision verificable.",
+      "id": "mono-case-1",
+      "title": "Tres meses sin registrar ingresos",
+      "summary": "La persona cobra pero no tiene planilla ni comprobantes ordenados.",
+      "severity": "Practica sensible",
+      "immediateGoal": "Reconstruir registro minimo.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Detener la accion automatica y describir el disparador: ingresos dispersos en billetera y banco.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir un tablero administrativo mensual.",
-        "Revisar el resultado contra este criterio: la informacion queda ordenada para revisar, consultar y sostener una rutina mensual.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: ordenar por fecha, medio y comprobante.",
+        "Guardar evidencia: extractos, facturas y planilla inicial.",
+        "Definir si alcanza con una accion propia o si corresponde canal oficial, profesional o soporte competente.",
+        "Cerrar con decision, motivo, limite del ejercicio y siguiente control."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "comprobantes, calendario, registro mensual, carpeta digital y dudas para profesional contable",
-        "Decision final y motivo"
+        "Descripcion del caso",
+        "extractos, facturas y planilla inicial",
+        "Fecha aproximada y canal usado",
+        "Decision tomada y motivo",
+        "Duda que requiere validacion externa"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Inventar datos para completar huecos.",
+        "Compartir claves, codigos, documentos completos o datos bancarios.",
+        "Confiar solo en capturas o mensajes reenviados.",
+        "Borrar evidencia antes de entender el problema.",
+        "Tomar una practica educativa como recomendacion profesional definitiva."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Crear rutina semanal de registro.",
+        "Actualizar checklist personal o familiar.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Revisar si hace falta bloquear, reclamar, denunciar o consultar por canales oficiales."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision reduce mejor el riesgo?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Pausar, verificar por canal oficial, guardar evidencia y actuar solo con informacion suficiente.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: baja la probabilidad de fraude, error o exposicion de datos."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Responder rapido para no perder tiempo.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La rapidez sin verificacion puede agravar el problema."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Enviar mas datos para que otra persona decida.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "En temas sensibles se comparte lo minimo necesario y por canales confiables."
           }
         ]
       }
     },
     {
-      "id": "case-2",
-      "title": "Caso con datos incompletos: Monotributo y Organizacion Administrativa Basica",
-      "summary": "Practica aplicada para resolver una situacion de orden administrativo para pequenos contribuyentes, comprobantes, vencimientos y registros con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en un tablero administrativo mensual sin exponer datos sensibles y con una decision verificable.",
+      "id": "mono-case-2",
+      "title": "Vencimiento olvidado",
+      "summary": "Aparece deuda por cuota mensual no pagada.",
+      "severity": "Practica sensible",
+      "immediateGoal": "Verificar deuda y crear calendario.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Detener la accion automatica y describir el disparador: notificacion o consulta de deuda.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir un tablero administrativo mensual.",
-        "Revisar el resultado contra este criterio: la informacion queda ordenada para revisar, consultar y sostener una rutina mensual.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: entrar por canal oficial y guardar comprobante.",
+        "Guardar evidencia: estado de deuda y pago realizado.",
+        "Definir si alcanza con una accion propia o si corresponde canal oficial, profesional o soporte competente.",
+        "Cerrar con decision, motivo, limite del ejercicio y siguiente control."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "comprobantes, calendario, registro mensual, carpeta digital y dudas para profesional contable",
-        "Decision final y motivo"
+        "Descripcion del caso",
+        "estado de deuda y pago realizado",
+        "Fecha aproximada y canal usado",
+        "Decision tomada y motivo",
+        "Duda que requiere validacion externa"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Pagar desde link recibido por mensaje.",
+        "Compartir claves, codigos, documentos completos o datos bancarios.",
+        "Confiar solo en capturas o mensajes reenviados.",
+        "Borrar evidencia antes de entender el problema.",
+        "Tomar una practica educativa como recomendacion profesional definitiva."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Activar recordatorios mensuales.",
+        "Actualizar checklist personal o familiar.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Revisar si hace falta bloquear, reclamar, denunciar o consultar por canales oficiales."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision reduce mejor el riesgo?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Pausar, verificar por canal oficial, guardar evidencia y actuar solo con informacion suficiente.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: baja la probabilidad de fraude, error o exposicion de datos."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Responder rapido para no perder tiempo.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La rapidez sin verificacion puede agravar el problema."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Enviar mas datos para que otra persona decida.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "En temas sensibles se comparte lo minimo necesario y por canales confiables."
           }
         ]
       }
     },
     {
-      "id": "case-3",
-      "title": "Caso con presion de tiempo: Monotributo y Organizacion Administrativa Basica",
-      "summary": "Practica aplicada para resolver una situacion de orden administrativo para pequenos contribuyentes, comprobantes, vencimientos y registros con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en un tablero administrativo mensual sin exponer datos sensibles y con una decision verificable.",
+      "id": "mono-case-3",
+      "title": "Comprobante perdido",
+      "summary": "Un cliente pide factura anterior y no se encuentra.",
+      "severity": "Practica sensible",
+      "immediateGoal": "Ordenar archivo por fecha y cliente.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Detener la accion automatica y describir el disparador: pedido de comprobante.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir un tablero administrativo mensual.",
-        "Revisar el resultado contra este criterio: la informacion queda ordenada para revisar, consultar y sostener una rutina mensual.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: buscar en sistema/correo/carpeta y registrar metodo.",
+        "Guardar evidencia: comprobante recuperado o constancia de busqueda.",
+        "Definir si alcanza con una accion propia o si corresponde canal oficial, profesional o soporte competente.",
+        "Cerrar con decision, motivo, limite del ejercicio y siguiente control."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "comprobantes, calendario, registro mensual, carpeta digital y dudas para profesional contable",
-        "Decision final y motivo"
+        "Descripcion del caso",
+        "comprobante recuperado o constancia de busqueda",
+        "Fecha aproximada y canal usado",
+        "Decision tomada y motivo",
+        "Duda que requiere validacion externa"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Emitir de nuevo sin consultar.",
+        "Compartir claves, codigos, documentos completos o datos bancarios.",
+        "Confiar solo en capturas o mensajes reenviados.",
+        "Borrar evidencia antes de entender el problema.",
+        "Tomar una practica educativa como recomendacion profesional definitiva."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Nombrar archivos con fecha y cliente.",
+        "Actualizar checklist personal o familiar.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Revisar si hace falta bloquear, reclamar, denunciar o consultar por canales oficiales."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision reduce mejor el riesgo?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Pausar, verificar por canal oficial, guardar evidencia y actuar solo con informacion suficiente.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: baja la probabilidad de fraude, error o exposicion de datos."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Responder rapido para no perder tiempo.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La rapidez sin verificacion puede agravar el problema."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Enviar mas datos para que otra persona decida.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "En temas sensibles se comparte lo minimo necesario y por canales confiables."
           }
         ]
       }
     },
     {
-      "id": "case-4",
-      "title": "Caso de comunicacion con otra persona: Monotributo y Organizacion Administrativa Basica",
-      "summary": "Practica aplicada para resolver una situacion de orden administrativo para pequenos contribuyentes, comprobantes, vencimientos y registros con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en un tablero administrativo mensual sin exponer datos sensibles y con una decision verificable.",
+      "id": "mono-case-4",
+      "title": "Duda de categoria",
+      "summary": "Los ingresos crecieron y no se sabe si corresponde revisar categoria.",
+      "severity": "Practica sensible",
+      "immediateGoal": "Preparar datos para consulta.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Detener la accion automatica y describir el disparador: aumento sostenido de ingresos.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir un tablero administrativo mensual.",
-        "Revisar el resultado contra este criterio: la informacion queda ordenada para revisar, consultar y sostener una rutina mensual.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: sumar ingresos, revisar periodo y consultar fuente oficial/contador.",
+        "Guardar evidencia: resumen de ingresos y dudas.",
+        "Definir si alcanza con una accion propia o si corresponde canal oficial, profesional o soporte competente.",
+        "Cerrar con decision, motivo, limite del ejercicio y siguiente control."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "comprobantes, calendario, registro mensual, carpeta digital y dudas para profesional contable",
-        "Decision final y motivo"
+        "Descripcion del caso",
+        "resumen de ingresos y dudas",
+        "Fecha aproximada y canal usado",
+        "Decision tomada y motivo",
+        "Duda que requiere validacion externa"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Cambiar categoria por intuicion.",
+        "Compartir claves, codigos, documentos completos o datos bancarios.",
+        "Confiar solo en capturas o mensajes reenviados.",
+        "Borrar evidencia antes de entender el problema.",
+        "Tomar una practica educativa como recomendacion profesional definitiva."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Programar revision periodica.",
+        "Actualizar checklist personal o familiar.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Revisar si hace falta bloquear, reclamar, denunciar o consultar por canales oficiales."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision reduce mejor el riesgo?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Pausar, verificar por canal oficial, guardar evidencia y actuar solo con informacion suficiente.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: baja la probabilidad de fraude, error o exposicion de datos."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Responder rapido para no perder tiempo.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La rapidez sin verificacion puede agravar el problema."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Enviar mas datos para que otra persona decida.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "En temas sensibles se comparte lo minimo necesario y por canales confiables."
           }
         ]
       }
     },
     {
-      "id": "case-5",
-      "title": "Caso de error frecuente: Monotributo y Organizacion Administrativa Basica",
-      "summary": "Practica aplicada para resolver una situacion de orden administrativo para pequenos contribuyentes, comprobantes, vencimientos y registros con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en un tablero administrativo mensual sin exponer datos sensibles y con una decision verificable.",
+      "id": "mono-case-5",
+      "title": "Gastos mezclados",
+      "summary": "Compras personales y de trabajo estan juntas.",
+      "severity": "Practica sensible",
+      "immediateGoal": "Separar registros para entender costos.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Detener la accion automatica y describir el disparador: extracto confuso.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir un tablero administrativo mensual.",
-        "Revisar el resultado contra este criterio: la informacion queda ordenada para revisar, consultar y sostener una rutina mensual.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: clasificar gastos y marcar dudas.",
+        "Guardar evidencia: planilla con categoria y comprobante.",
+        "Definir si alcanza con una accion propia o si corresponde canal oficial, profesional o soporte competente.",
+        "Cerrar con decision, motivo, limite del ejercicio y siguiente control."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "comprobantes, calendario, registro mensual, carpeta digital y dudas para profesional contable",
-        "Decision final y motivo"
+        "Descripcion del caso",
+        "planilla con categoria y comprobante",
+        "Fecha aproximada y canal usado",
+        "Decision tomada y motivo",
+        "Duda que requiere validacion externa"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Asumir que todo gasto sirve para el negocio.",
+        "Compartir claves, codigos, documentos completos o datos bancarios.",
+        "Confiar solo en capturas o mensajes reenviados.",
+        "Borrar evidencia antes de entender el problema.",
+        "Tomar una practica educativa como recomendacion profesional definitiva."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Usar cuenta o etiqueta separada.",
+        "Actualizar checklist personal o familiar.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Revisar si hace falta bloquear, reclamar, denunciar o consultar por canales oficiales."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision reduce mejor el riesgo?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Pausar, verificar por canal oficial, guardar evidencia y actuar solo con informacion suficiente.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: baja la probabilidad de fraude, error o exposicion de datos."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Responder rapido para no perder tiempo.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La rapidez sin verificacion puede agravar el problema."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Enviar mas datos para que otra persona decida.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "En temas sensibles se comparte lo minimo necesario y por canales confiables."
           }
         ]
       }
     },
     {
-      "id": "case-6",
-      "title": "Caso de mejora de proceso: Monotributo y Organizacion Administrativa Basica",
-      "summary": "Practica aplicada para resolver una situacion de orden administrativo para pequenos contribuyentes, comprobantes, vencimientos y registros con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en un tablero administrativo mensual sin exponer datos sensibles y con una decision verificable.",
+      "id": "mono-case-6",
+      "title": "Pago duplicado",
+      "summary": "Se pago dos veces por no guardar comprobante.",
+      "severity": "Practica sensible",
+      "immediateGoal": "Verificar y reclamar si corresponde.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Detener la accion automatica y describir el disparador: dos movimientos similares.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir un tablero administrativo mensual.",
-        "Revisar el resultado contra este criterio: la informacion queda ordenada para revisar, consultar y sostener una rutina mensual.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: comparar fechas, importes y canal oficial.",
+        "Guardar evidencia: comprobantes y movimientos.",
+        "Definir si alcanza con una accion propia o si corresponde canal oficial, profesional o soporte competente.",
+        "Cerrar con decision, motivo, limite del ejercicio y siguiente control."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "comprobantes, calendario, registro mensual, carpeta digital y dudas para profesional contable",
-        "Decision final y motivo"
+        "Descripcion del caso",
+        "comprobantes y movimientos",
+        "Fecha aproximada y canal usado",
+        "Decision tomada y motivo",
+        "Duda que requiere validacion externa"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Borrar uno para no confundirse.",
+        "Compartir claves, codigos, documentos completos o datos bancarios.",
+        "Confiar solo en capturas o mensajes reenviados.",
+        "Borrar evidencia antes de entender el problema.",
+        "Tomar una practica educativa como recomendacion profesional definitiva."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Registrar pago apenas se realiza.",
+        "Actualizar checklist personal o familiar.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Revisar si hace falta bloquear, reclamar, denunciar o consultar por canales oficiales."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision reduce mejor el riesgo?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Pausar, verificar por canal oficial, guardar evidencia y actuar solo con informacion suficiente.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: baja la probabilidad de fraude, error o exposicion de datos."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Responder rapido para no perder tiempo.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La rapidez sin verificacion puede agravar el problema."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Enviar mas datos para que otra persona decida.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "En temas sensibles se comparte lo minimo necesario y por canales confiables."
           }
         ]
       }
     },
     {
-      "id": "case-7",
-      "title": "Caso de decision responsable: Monotributo y Organizacion Administrativa Basica",
-      "summary": "Practica aplicada para resolver una situacion de orden administrativo para pequenos contribuyentes, comprobantes, vencimientos y registros con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en un tablero administrativo mensual sin exponer datos sensibles y con una decision verificable.",
+      "id": "mono-case-7",
+      "title": "Notificacion oficial ignorada",
+      "summary": "Llega aviso y queda sin leer.",
+      "severity": "Practica sensible",
+      "immediateGoal": "Crear rutina de revision de comunicaciones.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Detener la accion automatica y describir el disparador: mensaje oficial no atendido.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir un tablero administrativo mensual.",
-        "Revisar el resultado contra este criterio: la informacion queda ordenada para revisar, consultar y sostener una rutina mensual.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: leer desde portal oficial y anotar accion requerida.",
+        "Guardar evidencia: aviso, fecha y respuesta.",
+        "Definir si alcanza con una accion propia o si corresponde canal oficial, profesional o soporte competente.",
+        "Cerrar con decision, motivo, limite del ejercicio y siguiente control."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "comprobantes, calendario, registro mensual, carpeta digital y dudas para profesional contable",
-        "Decision final y motivo"
+        "Descripcion del caso",
+        "aviso, fecha y respuesta",
+        "Fecha aproximada y canal usado",
+        "Decision tomada y motivo",
+        "Duda que requiere validacion externa"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Confiar en que si es importante llamaran.",
+        "Compartir claves, codigos, documentos completos o datos bancarios.",
+        "Confiar solo en capturas o mensajes reenviados.",
+        "Borrar evidencia antes de entender el problema.",
+        "Tomar una practica educativa como recomendacion profesional definitiva."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Revisar domicilio/correo fiscal segun corresponda.",
+        "Actualizar checklist personal o familiar.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Revisar si hace falta bloquear, reclamar, denunciar o consultar por canales oficiales."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision reduce mejor el riesgo?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Pausar, verificar por canal oficial, guardar evidencia y actuar solo con informacion suficiente.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: baja la probabilidad de fraude, error o exposicion de datos."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Responder rapido para no perder tiempo.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La rapidez sin verificacion puede agravar el problema."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Enviar mas datos para que otra persona decida.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "En temas sensibles se comparte lo minimo necesario y por canales confiables."
           }
         ]
       }
     },
     {
-      "id": "case-8",
-      "title": "Proyecto final integrador: Monotributo y Organizacion Administrativa Basica",
-      "summary": "Practica aplicada para resolver una situacion de orden administrativo para pequenos contribuyentes, comprobantes, vencimientos y registros con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Proyecto final",
-      "immediateGoal": "Transformar el caso en un tablero administrativo mensual sin exponer datos sensibles y con una decision verificable.",
+      "id": "mono-case-8",
+      "title": "Ayuda contable sin datos",
+      "summary": "Se consulta tarde y sin registros.",
+      "severity": "Practica sensible",
+      "immediateGoal": "Preparar carpeta para una consulta eficiente.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Detener la accion automatica y describir el disparador: duda urgente antes de vencimiento.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir un tablero administrativo mensual.",
-        "Revisar el resultado contra este criterio: la informacion queda ordenada para revisar, consultar y sostener una rutina mensual.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: juntar ingresos, gastos, pagos y preguntas.",
+        "Guardar evidencia: carpeta mensual y lista de dudas.",
+        "Definir si alcanza con una accion propia o si corresponde canal oficial, profesional o soporte competente.",
+        "Cerrar con decision, motivo, limite del ejercicio y siguiente control."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "comprobantes, calendario, registro mensual, carpeta digital y dudas para profesional contable",
-        "Decision final y motivo"
+        "Descripcion del caso",
+        "carpeta mensual y lista de dudas",
+        "Fecha aproximada y canal usado",
+        "Decision tomada y motivo",
+        "Duda que requiere validacion externa"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Pedir respuesta sin datos.",
+        "Compartir claves, codigos, documentos completos o datos bancarios.",
+        "Confiar solo en capturas o mensajes reenviados.",
+        "Borrar evidencia antes de entender el problema.",
+        "Tomar una practica educativa como recomendacion profesional definitiva."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Mantener ficha administrativa actualizada.",
+        "Actualizar checklist personal o familiar.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Revisar si hace falta bloquear, reclamar, denunciar o consultar por canales oficiales."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision reduce mejor el riesgo?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Pausar, verificar por canal oficial, guardar evidencia y actuar solo con informacion suficiente.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: baja la probabilidad de fraude, error o exposicion de datos."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Responder rapido para no perder tiempo.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La rapidez sin verificacion puede agravar el problema."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Enviar mas datos para que otra persona decida.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "En temas sensibles se comparte lo minimo necesario y por canales confiables."
           }
         ]
       }
