@@ -2,14 +2,14 @@
 
 ## Estado
 
-Version actual del portal para revisar y publicar 50 cursos web completos.
+Version actual del portal para revisar y publicar 50 cursos y guias abiertas.
 
 ## Inventario total
 
 - 50 cursos registrados.
-- 50 cursos publicos profesionales completos.
-- 0 pendientes de desarrollo.
-- 0 cursos pendientes dentro del catalogo actual.
+- 50 cursos y guias publicadas.
+- 1 curso piloto reestructurado con profundidad teorica: UX/UI Basico.
+- Pendiente editorial principal: profundizar los cursos centrales por familias tematicas.
 
 ## Interfaz
 
@@ -17,7 +17,7 @@ Version actual del portal para revisar y publicar 50 cursos web completos.
 - Seccion superior de 6 cursos destacados para revision rapida.
 - Inventario completo con buscador y filtro por categoria.
 - Enlaces relativos hacia `../../cursos/`.
-- Sin filtro redundante de estado, porque todos los cursos publicados ya estan completos.
+- Sin filtro redundante de estado. El estado editorial se comunica como proceso de mejora progresiva.
 
 ## Cursos destacados
 

@@ -226,7 +226,7 @@ function getPublicDescription(course) {
 
 function getPublicFeatures(course) {
   const featureMap = new Map([
-    ["Curso completo", "Curso completo"],
+    ["Curso completo", "Material abierto"],
     ["Ejercicios practicos", "Ejercicios practicos"],
     ["Checklist de aplicacion", "Checklist de aplicacion"],
     ["Guia de recursos", "Guia de recursos"],

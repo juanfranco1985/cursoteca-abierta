@@ -1,11 +1,11 @@
 # Portal Publico Profesional de Cursos Web
 
-Portal estatico para navegar las 50 ediciones publicas profesionales generadas el 2026-05-26.
+Portal estatico para navegar una biblioteca inicial de 50 cursos y guias abiertas.
 
 ## Estado
 
-- 50 cursos completos.
-- 0 pendientes de desarrollo.
+- 50 cursos y guias publicadas.
+- Reestructuracion editorial en curso para mejorar profundidad teorica, ejemplos, casos y fuentes.
 - 50 enlaces publicos hacia `../../cursos/`.
 - Sin backend, login ni base de datos.
 - Marca visual: `Cursoteca Abierta`.

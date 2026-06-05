@@ -13,6 +13,17 @@ La tanda anterior mejoro navegacion, estructura, quizzes, checklists y casos, pe
 
 Conclusion: el problema no es solo falta de cantidad. Hay una arquitectura editorial demasiado templada, con cambios superficiales entre unidades.
 
+## Diagnostico externo incorporado
+
+El diagnostico general recibido el 2026-06-05 refuerza cuatro decisiones de producto:
+
+- La marca y el portal tienen una base solida, pero la profundidad real de los cursos no sostiene todavia una promesa de "50 cursos completos al mismo nivel profesional".
+- La prioridad no debe ser sumar mas cursos, sino enriquecer los 10 o 12 cursos principales.
+- El portal necesita rutas recomendadas para usuarios nuevos, porque un catalogo amplio puede generar indecision.
+- La confianza pedagogica debe explicarse mejor: metodologia, nivel, resultado esperado, fecha de actualizacion y estado editorial.
+
+Accion aplicada: se ajusto la promesa publica del portal a "biblioteca inicial en ampliacion editorial", se agregaron rutas recomendadas y se explicito la metodologia de revision.
+
 ## Nuevo criterio editorial
 
 Cada leccion profunda debe dejar de ser una variacion de plantilla y pasar a una pieza teorica aplicable. La estructura objetivo es:
@@ -113,4 +124,3 @@ Antes de marcar un curso como reestructurado:
 - Inventario y portal sincronizados.
 - JSON parseado correctamente.
 - Zip actualizado.
-

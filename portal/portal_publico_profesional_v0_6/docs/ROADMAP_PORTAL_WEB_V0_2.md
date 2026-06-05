@@ -2,7 +2,8 @@
 
 ## v0.6 actual
 
-- 50 cursos completos en el inventario.
+- 50 cursos y guias abiertas en el inventario.
+- Reestructuracion editorial en curso para mejorar profundidad teorica.
 - 6 cursos destacados para revision inicial.
 - Busqueda por texto.
 - Filtro por categoria.

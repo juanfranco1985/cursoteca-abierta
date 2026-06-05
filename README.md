@@ -20,7 +20,8 @@ zips/
 
 ## Estado
 
-- 50 cursos gratuitos completos.
+- 50 cursos y guias gratuitas publicadas como biblioteca inicial.
+- Reestructuracion editorial en curso para profundizar teoria, ejemplos, casos y fuentes.
 - 8 estantes principales de aprendizaje.
 - Sitio estatico: sin backend, login ni base de datos.
 - Textos base de beta para nosotros, privacidad, contacto y publicidad.

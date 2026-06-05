@@ -2,7 +2,7 @@
 
 ## Estado actual
 
-El portal esta en estado `v0.6 publica profesional` y contiene 50 cursos completos.
+El portal contiene 50 cursos y guias abiertas. La etapa actual prioriza reestructuracion editorial profunda antes de sumar mas cursos.
 
 ## Hecho
 

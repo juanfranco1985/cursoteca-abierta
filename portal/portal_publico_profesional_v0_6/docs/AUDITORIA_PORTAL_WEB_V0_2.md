@@ -6,7 +6,7 @@
 - `data/courses.json` valido.
 - `data/portal_manifest.json` valido.
 - `data/courses_inventory.csv` regenerado desde el JSON actual.
-- Inventario del portal alineado a 50 cursos completos.
+- Inventario del portal alineado a 50 cursos y guias abiertas.
 
 ## Puntos revisados
 
