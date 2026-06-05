@@ -1,441 +1,418 @@
 {
   "incidents": [
     {
-      "id": "case-1",
-      "title": "El usuario no encuentra como volver al inicio",
-      "summary": "La persona avanza en un curso o flujo y depende del boton atras del navegador para regresar.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Detectar la friccion principal, proponer una mejora pequena y comprobarla con una tarea concreta.",
+      "id": "uxui-profundo-case-1",
+      "title": "La persona queda atrapada dentro de una leccion",
+      "summary": "El flujo permite avanzar, pero no ofrece una ruta clara para volver al modulo o al menu principal.",
+      "severity": "Alta: orientacion y control",
+      "immediateGoal": "Restituir control del usuario y comprobar que puede volver sin usar el historial del navegador.",
       "steps": [
-        "Describir la tarea que la persona intenta completar.",
-        "Registrar donde se pierde, duda, se equivoca o abandona.",
-        "Identificar si el problema es de contenido, navegacion, jerarquia, formulario o estado.",
-        "Proponer un cambio minimo que reduzca la friccion.",
-        "Probar la mejora con una tarea simple.",
-        "Guardar evidencia antes/despues y proximo paso."
+        "Definir la tarea exacta de regreso.",
+        "Registrar desde que pantallas falta salida.",
+        "Agregar ruta global y ruta local con jerarquia clara.",
+        "Probar con teclado y celular.",
+        "Medir si la persona vuelve en un intento.",
+        "Documentar patron para todos los cursos."
       ],
       "evidenceToPreserve": [
-        "Captura o descripcion de la version inicial",
-        "Problema observado",
-        "Impacto sobre la tarea",
-        "Propuesta de mejora",
-        "Resultado de la prueba simple"
+        "Captura de la leccion sin salida",
+        "Ruta intentada por la persona",
+        "Cambio aplicado",
+        "Resultado de la prueba antes/despues"
       ],
       "errorsToAvoid": [
-        "Resolver solo con decoracion visual.",
-        "Agregar mas texto sin mejorar la decision.",
-        "Ocultar el camino de regreso al inicio.",
-        "Usar datos personales reales en practicas.",
-        "No definir criterio de exito."
+        "Confiar solo en el boton Atras",
+        "Agregar enlaces sin jerarquia",
+        "Ocultar la salida en iconos sin texto",
+        "No probar desde enlaces directos"
       ],
       "aftercare": [
-        "Priorizar hallazgos por impacto.",
-        "Separar cambios rapidos de cambios estructurales.",
-        "Documentar la decision para otra persona.",
-        "Programar una segunda prueba si el cambio afecta una tarea critica."
+        "Crear regla de navegacion transversal",
+        "Actualizar checklist de arquitectura",
+        "Auditar otros cursos con el mismo flujo"
       ],
       "guidedDecision": {
-        "question": "Que accion muestra mejor criterio UX/UI?",
+        "question": "Que solucion respeta mejor control y libertad del usuario?",
         "options": [
           {
-            "text": "Corregir la friccion principal, dejar salida clara y probar la tarea.",
+            "text": "Agregar ruta visible a modulo y menu principal, y probarla en una tarea real.",
             "isCorrect": true,
-            "feedback": "Correcto: una mejora UX debe reducir dudas y comprobarse."
+            "feedback": "Correcto: resuelve orientacion, salida y evidencia."
           },
           {
-            "text": "Agregar mas efectos visuales sin cambiar el flujo.",
+            "text": "Decirle al usuario que use Atras.",
             "isCorrect": false,
-            "feedback": "La estetica puede ayudar, pero no reemplaza navegacion, claridad y prueba."
+            "feedback": "Eso traslada la deuda de navegacion a la persona."
           },
           {
-            "text": "Mantener el problema porque el usuario puede usar el boton atras.",
+            "text": "Cambiar colores del boton siguiente.",
             "isCorrect": false,
-            "feedback": "Depender del boton atras es una senal de navegacion incompleta."
+            "feedback": "No resuelve el regreso ni la orientacion."
           }
         ]
       }
     },
     {
-      "id": "case-2",
-      "title": "Formulario de inscripcion confuso",
-      "summary": "La persona no sabe que campos son obligatorios ni que ocurrira al enviar.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Detectar la friccion principal, proponer una mejora pequena y comprobarla con una tarea concreta.",
+      "id": "uxui-profundo-case-2",
+      "title": "Curso con teoria repetida entre lecciones",
+      "summary": "Las unidades tienen estructura completa, pero la teoria repite frases y no desarrolla conceptos.",
+      "severity": "Alta: calidad pedagogica",
+      "immediateGoal": "Reestructurar la leccion con teoria, modelo mental, principio, evaluacion y fuentes.",
       "steps": [
-        "Describir la tarea que la persona intenta completar.",
-        "Registrar donde se pierde, duda, se equivoca o abandona.",
-        "Identificar si el problema es de contenido, navegacion, jerarquia, formulario o estado.",
-        "Proponer un cambio minimo que reduzca la friccion.",
-        "Probar la mejora con una tarea simple.",
-        "Guardar evidencia antes/despues y proximo paso."
+        "Identificar patrones repetidos.",
+        "Separar objetivo teorico de practica.",
+        "Buscar fuente externa confiable.",
+        "Redactar modelo mental y principio aplicado.",
+        "Agregar ejemplo y contraejemplo.",
+        "Crear criterio de evaluacion."
       ],
       "evidenceToPreserve": [
-        "Captura o descripcion de la version inicial",
-        "Problema observado",
-        "Impacto sobre la tarea",
-        "Propuesta de mejora",
-        "Resultado de la prueba simple"
+        "Texto anterior",
+        "Fuente usada",
+        "Nueva estructura",
+        "Criterio de profundidad aplicado"
       ],
       "errorsToAvoid": [
-        "Resolver solo con decoracion visual.",
-        "Agregar mas texto sin mejorar la decision.",
-        "Ocultar el camino de regreso al inicio.",
-        "Usar datos personales reales en practicas.",
-        "No definir criterio de exito."
+        "Crear otra plantilla generica",
+        "Cambiar solo algunas palabras",
+        "No citar fuentes",
+        "Confundir practica con teoria"
       ],
       "aftercare": [
-        "Priorizar hallazgos por impacto.",
-        "Separar cambios rapidos de cambios estructurales.",
-        "Documentar la decision para otra persona.",
-        "Programar una segunda prueba si el cambio afecta una tarea critica."
+        "Medir palabras y repeticiones",
+        "Revisar con checklist editorial",
+        "Aplicar por familias de cursos"
       ],
       "guidedDecision": {
-        "question": "Que accion muestra mejor criterio UX/UI?",
+        "question": "Que cambio ataca el problema de profundidad?",
         "options": [
           {
-            "text": "Corregir la friccion principal, dejar salida clara y probar la tarea.",
+            "text": "Reescribir con bloques teoricos diferenciados, fuentes y evaluacion.",
             "isCorrect": true,
-            "feedback": "Correcto: una mejora UX debe reducir dudas y comprobarse."
+            "feedback": "Correcto: cambia arquitectura, no solo fraseo."
           },
           {
-            "text": "Agregar mas efectos visuales sin cambiar el flujo.",
+            "text": "Agregar mas lecciones cortas iguales.",
             "isCorrect": false,
-            "feedback": "La estetica puede ayudar, pero no reemplaza navegacion, claridad y prueba."
+            "feedback": "Aumenta volumen sin profundidad."
           },
           {
-            "text": "Mantener el problema porque el usuario puede usar el boton atras.",
+            "text": "Cambiar el titulo de cada unidad.",
             "isCorrect": false,
-            "feedback": "Depender del boton atras es una senal de navegacion incompleta."
+            "feedback": "No corrige la pobreza teorica."
           }
         ]
       }
     },
     {
-      "id": "case-3",
-      "title": "Catalogo con demasiadas tarjetas iguales",
-      "summary": "La persona no distingue destacados, categorias ni cursos recomendados para empezar.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Detectar la friccion principal, proponer una mejora pequena y comprobarla con una tarea concreta.",
+      "id": "uxui-profundo-case-3",
+      "title": "Formulario de inscripcion con errores ambiguos",
+      "summary": "La persona no sabe que campo corregir ni por que el envio fallo.",
+      "severity": "Media alta: comprension y recuperacion",
+      "immediateGoal": "Hacer que labels, ayudas, errores y confirmacion permitan completar la tarea.",
       "steps": [
-        "Describir la tarea que la persona intenta completar.",
-        "Registrar donde se pierde, duda, se equivoca o abandona.",
-        "Identificar si el problema es de contenido, navegacion, jerarquia, formulario o estado.",
-        "Proponer un cambio minimo que reduzca la friccion.",
-        "Probar la mejora con una tarea simple.",
-        "Guardar evidencia antes/despues y proximo paso."
+        "Listar campos y finalidad.",
+        "Asociar labels visibles.",
+        "Escribir ayuda cerca del campo.",
+        "Redactar error especifico.",
+        "Probar con teclado.",
+        "Confirmar resultado del envio."
       ],
       "evidenceToPreserve": [
-        "Captura o descripcion de la version inicial",
-        "Problema observado",
-        "Impacto sobre la tarea",
-        "Propuesta de mejora",
-        "Resultado de la prueba simple"
+        "Formulario inicial",
+        "Errores observados",
+        "Version corregida",
+        "Prueba de recuperacion"
       ],
       "errorsToAvoid": [
-        "Resolver solo con decoracion visual.",
-        "Agregar mas texto sin mejorar la decision.",
-        "Ocultar el camino de regreso al inicio.",
-        "Usar datos personales reales en practicas.",
-        "No definir criterio de exito."
+        "Usar placeholder como label",
+        "Mostrar error global generico",
+        "Pedir datos innecesarios",
+        "No indicar campos obligatorios"
       ],
       "aftercare": [
-        "Priorizar hallazgos por impacto.",
-        "Separar cambios rapidos de cambios estructurales.",
-        "Documentar la decision para otra persona.",
-        "Programar una segunda prueba si el cambio afecta una tarea critica."
+        "Actualizar patron de formularios",
+        "Revisar contraste y foco",
+        "Documentar datos minimos"
       ],
       "guidedDecision": {
-        "question": "Que accion muestra mejor criterio UX/UI?",
+        "question": "Que mejora es mas accesible?",
         "options": [
           {
-            "text": "Corregir la friccion principal, dejar salida clara y probar la tarea.",
+            "text": "Labels visibles, error por campo y accion de correccion.",
             "isCorrect": true,
-            "feedback": "Correcto: una mejora UX debe reducir dudas y comprobarse."
+            "feedback": "Correcto: ayuda a operar y recuperarse."
           },
           {
-            "text": "Agregar mas efectos visuales sin cambiar el flujo.",
+            "text": "Un mensaje general al final.",
             "isCorrect": false,
-            "feedback": "La estetica puede ayudar, pero no reemplaza navegacion, claridad y prueba."
+            "feedback": "No indica donde ni como corregir."
           },
           {
-            "text": "Mantener el problema porque el usuario puede usar el boton atras.",
+            "text": "Mas color rojo sin texto.",
             "isCorrect": false,
-            "feedback": "Depender del boton atras es una senal de navegacion incompleta."
+            "feedback": "Depende solo del color."
           }
         ]
       }
     },
     {
-      "id": "case-4",
-      "title": "Boton principal poco visible",
-      "summary": "La accion mas importante compite con enlaces secundarios y textos largos.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Detectar la friccion principal, proponer una mejora pequena y comprobarla con una tarea concreta.",
+      "id": "uxui-profundo-case-4",
+      "title": "Tarjetas de cursos indistinguibles",
+      "summary": "Las tarjetas tienen el mismo peso visual y no ayudan a elegir por necesidad, nivel o resultado.",
+      "severity": "Media: decision y escaneo",
+      "immediateGoal": "Mejorar jerarquia de tarjetas para que la eleccion sea clara.",
       "steps": [
-        "Describir la tarea que la persona intenta completar.",
-        "Registrar donde se pierde, duda, se equivoca o abandona.",
-        "Identificar si el problema es de contenido, navegacion, jerarquia, formulario o estado.",
-        "Proponer un cambio minimo que reduzca la friccion.",
-        "Probar la mejora con una tarea simple.",
-        "Guardar evidencia antes/despues y proximo paso."
+        "Definir decision que la tarjeta debe ayudar a tomar.",
+        "Ordenar titulo, categoria, nivel, resultado y accion.",
+        "Diferenciar destacado sin romper consistencia.",
+        "Probar escaneo de cinco segundos.",
+        "Ajustar textos y pesos.",
+        "Actualizar regla de componente."
       ],
       "evidenceToPreserve": [
-        "Captura o descripcion de la version inicial",
-        "Problema observado",
-        "Impacto sobre la tarea",
-        "Propuesta de mejora",
-        "Resultado de la prueba simple"
+        "Tarjeta anterior",
+        "Nueva jerarquia",
+        "Resultado de escaneo",
+        "Regla de componente"
       ],
       "errorsToAvoid": [
-        "Resolver solo con decoracion visual.",
-        "Agregar mas texto sin mejorar la decision.",
-        "Ocultar el camino de regreso al inicio.",
-        "Usar datos personales reales en practicas.",
-        "No definir criterio de exito."
+        "Hacer todas las tarjetas destacadas",
+        "Usar solo imagen como informacion",
+        "Ocultar nivel o resultado",
+        "Cambiar estilos sin regla"
       ],
       "aftercare": [
-        "Priorizar hallazgos por impacto.",
-        "Separar cambios rapidos de cambios estructurales.",
-        "Documentar la decision para otra persona.",
-        "Programar una segunda prueba si el cambio afecta una tarea critica."
+        "Documentar tarjeta de curso",
+        "Auditar catalogo completo",
+        "Revisar mobile"
       ],
       "guidedDecision": {
-        "question": "Que accion muestra mejor criterio UX/UI?",
+        "question": "Que dato ayuda mas a elegir curso?",
         "options": [
           {
-            "text": "Corregir la friccion principal, dejar salida clara y probar la tarea.",
+            "text": "Necesidad, nivel, resultado esperado y accion principal.",
             "isCorrect": true,
-            "feedback": "Correcto: una mejora UX debe reducir dudas y comprobarse."
+            "feedback": "Correcto: orienta decision."
           },
           {
-            "text": "Agregar mas efectos visuales sin cambiar el flujo.",
+            "text": "Una frase inspiradora sin contenido.",
             "isCorrect": false,
-            "feedback": "La estetica puede ayudar, pero no reemplaza navegacion, claridad y prueba."
+            "feedback": "No ayuda a comparar."
           },
           {
-            "text": "Mantener el problema porque el usuario puede usar el boton atras.",
+            "text": "Solo una imagen decorativa.",
             "isCorrect": false,
-            "feedback": "Depender del boton atras es una senal de navegacion incompleta."
+            "feedback": "No informa tarea ni nivel."
           }
         ]
       }
     },
     {
-      "id": "case-5",
-      "title": "Pantalla movil saturada",
-      "summary": "En celular el contenido exige mucho scroll y los botones quedan lejos del contexto.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Detectar la friccion principal, proponer una mejora pequena y comprobarla con una tarea concreta.",
+      "id": "uxui-profundo-case-5",
+      "title": "Boton principal compite con acciones secundarias",
+      "summary": "La persona no distingue que accion inicia, guarda, descarga o vuelve.",
+      "severity": "Media: jerarquia de accion",
+      "immediateGoal": "Asignar prioridad visual y texto especifico a cada accion.",
       "steps": [
-        "Describir la tarea que la persona intenta completar.",
-        "Registrar donde se pierde, duda, se equivoca o abandona.",
-        "Identificar si el problema es de contenido, navegacion, jerarquia, formulario o estado.",
-        "Proponer un cambio minimo que reduzca la friccion.",
-        "Probar la mejora con una tarea simple.",
-        "Guardar evidencia antes/despues y proximo paso."
+        "Listar acciones de la pantalla.",
+        "Identificar accion primaria real.",
+        "Bajar peso a acciones secundarias.",
+        "Reescribir textos ambiguos.",
+        "Probar anticipacion de resultado.",
+        "Documentar variantes de boton."
       ],
       "evidenceToPreserve": [
-        "Captura o descripcion de la version inicial",
-        "Problema observado",
-        "Impacto sobre la tarea",
-        "Propuesta de mejora",
-        "Resultado de la prueba simple"
+        "Pantalla con acciones previas",
+        "Nueva jerarquia",
+        "Respuesta de prueba",
+        "Regla de boton"
       ],
       "errorsToAvoid": [
-        "Resolver solo con decoracion visual.",
-        "Agregar mas texto sin mejorar la decision.",
-        "Ocultar el camino de regreso al inicio.",
-        "Usar datos personales reales en practicas.",
-        "No definir criterio de exito."
+        "Usar mismo estilo para todo",
+        "Nombrar botones 'Aceptar' sin objeto",
+        "Poner acciones destructivas junto a primarias",
+        "No probar mobile"
       ],
       "aftercare": [
-        "Priorizar hallazgos por impacto.",
-        "Separar cambios rapidos de cambios estructurales.",
-        "Documentar la decision para otra persona.",
-        "Programar una segunda prueba si el cambio afecta una tarea critica."
+        "Actualizar guia de componentes",
+        "Auditar botones de quiz y progreso",
+        "Revisar estados foco/disabled"
       ],
       "guidedDecision": {
-        "question": "Que accion muestra mejor criterio UX/UI?",
+        "question": "Que texto de boton es mas claro?",
         "options": [
           {
-            "text": "Corregir la friccion principal, dejar salida clara y probar la tarea.",
+            "text": "Guardar progreso",
             "isCorrect": true,
-            "feedback": "Correcto: una mejora UX debe reducir dudas y comprobarse."
+            "feedback": "Correcto: indica objeto y resultado."
           },
           {
-            "text": "Agregar mas efectos visuales sin cambiar el flujo.",
+            "text": "Aceptar",
             "isCorrect": false,
-            "feedback": "La estetica puede ayudar, pero no reemplaza navegacion, claridad y prueba."
+            "feedback": "No anticipa que ocurrira."
           },
           {
-            "text": "Mantener el problema porque el usuario puede usar el boton atras.",
+            "text": "Ir",
             "isCorrect": false,
-            "feedback": "Depender del boton atras es una senal de navegacion incompleta."
+            "feedback": "Es ambiguo."
           }
         ]
       }
     },
     {
-      "id": "case-6",
-      "title": "Error sin explicacion",
-      "summary": "Un estado vacio o error no dice que paso ni como resolverlo.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Detectar la friccion principal, proponer una mejora pequena y comprobarla con una tarea concreta.",
+      "id": "uxui-profundo-case-6",
+      "title": "Pantalla no usable con teclado",
+      "summary": "La persona no puede recorrer, activar o salir de componentes sin mouse.",
+      "severity": "Alta: accesibilidad operable",
+      "immediateGoal": "Restaurar operabilidad por teclado y foco visible.",
       "steps": [
-        "Describir la tarea que la persona intenta completar.",
-        "Registrar donde se pierde, duda, se equivoca o abandona.",
-        "Identificar si el problema es de contenido, navegacion, jerarquia, formulario o estado.",
-        "Proponer un cambio minimo que reduzca la friccion.",
-        "Probar la mejora con una tarea simple.",
-        "Guardar evidencia antes/despues y proximo paso."
+        "Recorrer la tarea con Tab.",
+        "Registrar controles inaccesibles.",
+        "Corregir orden y foco.",
+        "Evitar menus solo hover.",
+        "Probar acciones principales.",
+        "Guardar evidencia antes/despues."
       ],
       "evidenceToPreserve": [
-        "Captura o descripcion de la version inicial",
-        "Problema observado",
-        "Impacto sobre la tarea",
-        "Propuesta de mejora",
-        "Resultado de la prueba simple"
+        "Ruta de foco inicial",
+        "Controles inaccesibles",
+        "CSS/HTML corregido",
+        "Prueba por teclado"
       ],
       "errorsToAvoid": [
-        "Resolver solo con decoracion visual.",
-        "Agregar mas texto sin mejorar la decision.",
-        "Ocultar el camino de regreso al inicio.",
-        "Usar datos personales reales en practicas.",
-        "No definir criterio de exito."
+        "Diseñar solo hover",
+        "Ocultar outline sin reemplazo",
+        "Cambiar orden visual y foco sin revisar",
+        "No probar enlaces directos"
       ],
       "aftercare": [
-        "Priorizar hallazgos por impacto.",
-        "Separar cambios rapidos de cambios estructurales.",
-        "Documentar la decision para otra persona.",
-        "Programar una segunda prueba si el cambio afecta una tarea critica."
+        "Agregar prueba de teclado al checklist",
+        "Revisar todos los cursos",
+        "Documentar patron de foco"
       ],
       "guidedDecision": {
-        "question": "Que accion muestra mejor criterio UX/UI?",
+        "question": "Que señal es indispensable para operar con teclado?",
         "options": [
           {
-            "text": "Corregir la friccion principal, dejar salida clara y probar la tarea.",
+            "text": "Foco visible y orden logico.",
             "isCorrect": true,
-            "feedback": "Correcto: una mejora UX debe reducir dudas y comprobarse."
+            "feedback": "Correcto: orienta la navegacion sin mouse."
           },
           {
-            "text": "Agregar mas efectos visuales sin cambiar el flujo.",
+            "text": "Hover animado.",
             "isCorrect": false,
-            "feedback": "La estetica puede ayudar, pero no reemplaza navegacion, claridad y prueba."
+            "feedback": "El hover no sirve para teclado."
           },
           {
-            "text": "Mantener el problema porque el usuario puede usar el boton atras.",
+            "text": "Mas color de fondo.",
             "isCorrect": false,
-            "feedback": "Depender del boton atras es una senal de navegacion incompleta."
+            "feedback": "No garantiza operabilidad."
           }
         ]
       }
     },
     {
-      "id": "case-7",
-      "title": "Microcopy tecnico",
-      "summary": "Los textos usan terminos internos y no explican la accion con lenguaje de usuario.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Detectar la friccion principal, proponer una mejora pequena y comprobarla con una tarea concreta.",
+      "id": "uxui-profundo-case-7",
+      "title": "Busqueda sin resultados utiles",
+      "summary": "El portal muestra vacio sin explicar filtros, terminos o alternativas.",
+      "severity": "Media: recuperacion",
+      "immediateGoal": "Convertir el estado vacio en una salida informativa.",
       "steps": [
-        "Describir la tarea que la persona intenta completar.",
-        "Registrar donde se pierde, duda, se equivoca o abandona.",
-        "Identificar si el problema es de contenido, navegacion, jerarquia, formulario o estado.",
-        "Proponer un cambio minimo que reduzca la friccion.",
-        "Probar la mejora con una tarea simple.",
-        "Guardar evidencia antes/despues y proximo paso."
+        "Detectar filtros activos.",
+        "Explicar que no se encontro.",
+        "Ofrecer limpiar filtros.",
+        "Sugerir cursos relacionados.",
+        "Probar terminos reales.",
+        "Documentar microcopy de vacio."
       ],
       "evidenceToPreserve": [
-        "Captura o descripcion de la version inicial",
-        "Problema observado",
-        "Impacto sobre la tarea",
-        "Propuesta de mejora",
-        "Resultado de la prueba simple"
+        "Busqueda original",
+        "Termino usado",
+        "Estado vacio nuevo",
+        "Resultado de recuperacion"
       ],
       "errorsToAvoid": [
-        "Resolver solo con decoracion visual.",
-        "Agregar mas texto sin mejorar la decision.",
-        "Ocultar el camino de regreso al inicio.",
-        "Usar datos personales reales en practicas.",
-        "No definir criterio de exito."
+        "Pantalla en blanco",
+        "Culpar al usuario",
+        "No mostrar filtros activos",
+        "No ofrecer alternativas"
       ],
       "aftercare": [
-        "Priorizar hallazgos por impacto.",
-        "Separar cambios rapidos de cambios estructurales.",
-        "Documentar la decision para otra persona.",
-        "Programar una segunda prueba si el cambio afecta una tarea critica."
+        "Agregar sinonimos frecuentes",
+        "Revisar categorias",
+        "Medir busquedas fallidas"
       ],
       "guidedDecision": {
-        "question": "Que accion muestra mejor criterio UX/UI?",
+        "question": "Que estado vacio ayuda mas?",
         "options": [
           {
-            "text": "Corregir la friccion principal, dejar salida clara y probar la tarea.",
+            "text": "Explica el resultado y ofrece limpiar filtros o probar sugerencias.",
             "isCorrect": true,
-            "feedback": "Correcto: una mejora UX debe reducir dudas y comprobarse."
+            "feedback": "Correcto: permite recuperar la tarea."
           },
           {
-            "text": "Agregar mas efectos visuales sin cambiar el flujo.",
+            "text": "No muestra nada.",
             "isCorrect": false,
-            "feedback": "La estetica puede ayudar, pero no reemplaza navegacion, claridad y prueba."
+            "feedback": "Aumenta incertidumbre."
           },
           {
-            "text": "Mantener el problema porque el usuario puede usar el boton atras.",
+            "text": "Dice solo 'sin datos'.",
             "isCorrect": false,
-            "feedback": "Depender del boton atras es una senal de navegacion incompleta."
+            "feedback": "No da proxima accion."
           }
         ]
       }
     },
     {
-      "id": "case-8",
-      "title": "Proyecto final: auditoria de una pantalla",
-      "summary": "Revision integral de una pantalla con hallazgos priorizados y propuesta de mejora.",
-      "severity": "Proyecto final",
-      "immediateGoal": "Detectar la friccion principal, proponer una mejora pequena y comprobarla con una tarea concreta.",
+      "id": "uxui-profundo-case-8",
+      "title": "Cambio visual sin criterio de exito",
+      "summary": "El equipo rediseña una pantalla pero no sabe como comprobar si mejoro.",
+      "severity": "Media alta: decision no verificable",
+      "immediateGoal": "Convertir el cambio en hipotesis UX con medicion simple.",
       "steps": [
-        "Describir la tarea que la persona intenta completar.",
-        "Registrar donde se pierde, duda, se equivoca o abandona.",
-        "Identificar si el problema es de contenido, navegacion, jerarquia, formulario o estado.",
-        "Proponer un cambio minimo que reduzca la friccion.",
-        "Probar la mejora con una tarea simple.",
-        "Guardar evidencia antes/despues y proximo paso."
+        "Escribir problema observable.",
+        "Definir cambio propuesto.",
+        "Explicar resultado esperado.",
+        "Seleccionar criterio de exito.",
+        "Probar antes/despues.",
+        "Documentar decision y fuente."
       ],
       "evidenceToPreserve": [
-        "Captura o descripcion de la version inicial",
-        "Problema observado",
-        "Impacto sobre la tarea",
-        "Propuesta de mejora",
-        "Resultado de la prueba simple"
+        "Problema inicial",
+        "Hipotesis",
+        "Version anterior",
+        "Version nueva",
+        "Resultado de prueba"
       ],
       "errorsToAvoid": [
-        "Resolver solo con decoracion visual.",
-        "Agregar mas texto sin mejorar la decision.",
-        "Ocultar el camino de regreso al inicio.",
-        "Usar datos personales reales en practicas.",
-        "No definir criterio de exito."
+        "Medir solo opinion",
+        "Cambiar multiples variables sin registro",
+        "No indicar fuente",
+        "Declarar exito sin prueba"
       ],
       "aftercare": [
-        "Priorizar hallazgos por impacto.",
-        "Separar cambios rapidos de cambios estructurales.",
-        "Documentar la decision para otra persona.",
-        "Programar una segunda prueba si el cambio afecta una tarea critica."
+        "Guardar decision UX",
+        "Actualizar matriz de prioridad",
+        "Revisar si el patron aplica a otros cursos"
       ],
       "guidedDecision": {
-        "question": "Que accion muestra mejor criterio UX/UI?",
+        "question": "Que evidencia valida mejor una mejora?",
         "options": [
           {
-            "text": "Corregir la friccion principal, dejar salida clara y probar la tarea.",
+            "text": "La persona completa mejor la tarea definida antes del cambio.",
             "isCorrect": true,
-            "feedback": "Correcto: una mejora UX debe reducir dudas y comprobarse."
+            "feedback": "Correcto: mide comportamiento contra criterio."
           },
           {
-            "text": "Agregar mas efectos visuales sin cambiar el flujo.",
+            "text": "El equipo siente que se ve mas moderno.",
             "isCorrect": false,
-            "feedback": "La estetica puede ayudar, pero no reemplaza navegacion, claridad y prueba."
+            "feedback": "Puede ser util, pero no valida tarea."
           },
           {
-            "text": "Mantener el problema porque el usuario puede usar el boton atras.",
+            "text": "Hay mas elementos visuales.",
             "isCorrect": false,
-            "feedback": "Depender del boton atras es una senal de navegacion incompleta."
+            "feedback": "Cantidad no equivale a mejora."
           }
         ]
       }

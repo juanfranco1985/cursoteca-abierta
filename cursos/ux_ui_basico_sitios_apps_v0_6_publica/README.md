@@ -1,6 +1,6 @@
 # UX/UI Basico para Sitios y Apps
 
-Version publica profesional v0.6. Curso web estatico sin backend ni login.
+Version profunda UX/UI v0.8. Curso web estatico sin backend ni login.
 
 ## Como probar
 
@@ -8,10 +8,10 @@ Abrir con Live Server o ejecutar python -m http.server dentro de la carpeta publ
 
 
 
-## Profesionalizacion v1.0-beta
+## Reestructuracion profunda v0.8
 
-Este curso fue marcado como curso bandera el 2026-05-27. Se reforzaron lecciones, checklists y casos para que funcione como experiencia publica mas completa.
+Este curso fue reestructurado el 2026-06-05 como piloto de profundidad teorica. Se reemplazo la teoria repetitiva por lecciones con resumen, modelo mental, principio aplicado, evaluacion, ejemplo, contraejemplo y fuentes externas.
 
-Enfoque: diseno de interfaces simples, comprensibles y faciles de usar.
+Enfoque: investigacion UX, arquitectura de informacion, heuristicas, UI visual, accesibilidad, formularios, prototipos y pruebas simples.
 
-Entregable sugerido: una auditoria de pantalla con problema, impacto, solucion y prueba rapida.
+Entregable sugerido: una auditoria UX/UI con problema observable, fuente usada, criterio de exito, propuesta, contraejemplo y prueba rapida.

@@ -53,4 +53,4 @@ Fecha: 2026-05-26
 | JavaScript desde Cero | Ruta 5 - Desarrollo Web y Programacion | Publico profesional | v0.6 publica profesional | `zips/javascript_desde_cero_web_v0_6_publica.zip` |
 | Publicación Web para Principiantes | Ruta 5 - Desarrollo Web y Programacion | Publico profesional | v0.6 publica profesional | `zips/publicacion_web_principiantes_v0_6_publica.zip` |
 | React Basico para Principiantes | Ruta 5 - Desarrollo Web y Programacion | Publico profesional | v0.6 publica profesional | `zips/react_basico_principiantes_v0_6_publica.zip` |
-| UX/UI Basico para Sitios y Apps | Ruta 5 - Desarrollo Web y Programacion | Publico profesional | v0.6 publica profesional | `zips/ux_ui_basico_sitios_apps_v0_6_publica.zip` |
+| UX/UI Basico para Sitios y Apps | Ruta 5 - Desarrollo Web y Programacion | Curso profundo piloto v0.8 | v0.8 profunda UX/UI | `zips/ux_ui_basico_sitios_apps_v0_6_publica.zip` |

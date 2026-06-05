@@ -1,10 +1,10 @@
 {
   "courseId": "ux-ui-basico-sitios-apps",
-  "templateVersion": "0.6-publica-profesional",
+  "templateVersion": "0.8-profunda-uxui-v1",
   "appName": "UX/UI Basico para Sitios y Apps",
   "shortName": "UX UI Basico",
-  "subtitle": "Curso practico para mejorar claridad, jerarquia, navegacion, formularios, prototipos y pruebas simples.",
-  "description": "Revisa interfaces simples con mirada de usuario: detecta fricciones, mejora navegacion, ordena formularios y propone cambios verificables.",
+  "subtitle": "Curso teorico-practico para diagnosticar interfaces, navegar mejor, aplicar heuristicas, accesibilidad y pruebas simples.",
+  "description": "Aprende UX/UI con teoria aplicada, fuentes externas, ejemplos, contraejemplos, checklists y casos para mejorar sitios, apps y cursos web.",
   "audience": "Principiantes de diseno, desarrollo web y productos digitales.",
   "category": "Desarrollo web",
   "status": "Publico profesional",
@@ -45,7 +45,7 @@
     "minimumSuggestedQuizAverage": 70,
     "notOfficialNotice": "Constancia educativa no oficial."
   },
-  "responsibleNotice": "Contenido educativo. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. No sacrificar legibilidad, contraste ni accesibilidad por decoracion visual.",
+  "responsibleNotice": "Contenido educativo introductorio. No reemplaza investigacion profesional con usuarios, revision experta, soporte oficial ni normativa de accesibilidad aplicable. Si una decision afecta datos personales, salud, dinero, derechos o seguridad, valida con fuentes oficiales y personas competentes.",
   "publication": {
     "version": "0.6-publica-profesional",
     "status": "Publica profesional",
@@ -61,22 +61,60 @@
     ]
   },
   "webApp": {
-    "cacheName": "ux_ui_basico_sitios_apps_v0_6_publica-cache-v0-6-publica-profesional-nav-v1",
-    "publicationStatus": "publica-profesional-v0.6-reforzada"
+    "cacheName": "ux_ui_basico_sitios_apps_v0_6_publica-cache-v0-8-profunda-uxui-v1",
+    "publicationStatus": "publica-profesional-v0.8-reestructuracion-profunda"
   },
   "professionalization": {
-    "tier": "curso-reforzado-v1.0-beta",
-    "updatedAt": "2026-06-04",
+    "tier": "curso-profundo-v0.8-piloto",
+    "updatedAt": "2026-06-05",
     "improvements": [
-      "Lecciones especificas de UX/UI, navegacion, jerarquia, formularios, prototipos y pruebas.",
-      "Quizzes con preguntas vinculadas a problemas reales de interfaz.",
-      "Checklists e incidentes orientados a evidencia, retorno al portal y mejora verificable."
+      "Reestructuracion teorica completa con fuentes externas confiables.",
+      "Lecciones con resumen, modelo mental, principio aplicado, evaluacion, ejemplo y contraejemplo.",
+      "Checklists y casos alineados a problemas reales de navegacion, accesibilidad y contenido generico."
     ]
   },
   "editorialPolish": {
     "usabilityPass": "2026-06-04",
     "status": "content-specific-copy-reinforced"
   },
-  "version": "0.6-publica-profesional-nav-v1",
-  "publicationStatus": "publica-profesional-v0.6-reforzada"
+  "version": "0.8-profunda-uxui-v1",
+  "publicationStatus": "publica-profesional-v0.8-reestructuracion-profunda",
+  "sourceBank": {
+    "nng-heuristics": {
+      "title": "10 Usability Heuristics for User Interface Design",
+      "organization": "Nielsen Norman Group",
+      "url": "https://www.nngroup.com/articles/ten-usability-heuristics/",
+      "use": "Marco para revisar visibilidad del estado, consistencia, control del usuario, prevencion de errores y reduccion de carga cognitiva."
+    },
+    "wcag-22": {
+      "title": "Web Content Accessibility Guidelines 2.2",
+      "organization": "W3C",
+      "url": "https://www.w3.org/TR/WCAG22/",
+      "use": "Referencia para decisiones de accesibilidad: contenido perceptible, operable, comprensible y robusto."
+    },
+    "material-foundations": {
+      "title": "Material Design 3 Foundations",
+      "organization": "Google / Material Design",
+      "url": "https://m3.material.io/foundations",
+      "use": "Referencia para componentes, color, tipografia, layout, interaccion y sistemas visuales consistentes."
+    },
+    "apple-hig": {
+      "title": "Human Interface Guidelines",
+      "organization": "Apple Developer",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/",
+      "use": "Referencia para claridad, feedback, patrones familiares, consistencia de plataforma y experiencia tactil."
+    },
+    "wai-forms": {
+      "title": "Forms Tutorial",
+      "organization": "W3C WAI",
+      "url": "https://www.w3.org/WAI/tutorials/forms/",
+      "use": "Referencia practica para labels, ayuda, errores, grupos de campos y formularios accesibles."
+    }
+  },
+  "contentDepthAudit": {
+    "status": "piloto-reestructurado",
+    "updatedAt": "2026-06-05",
+    "baseline": "teoria mediana del proyecto: 32 palabras; patrones repetidos detectados en mas de mil lecciones",
+    "target": "teoria especifica, evaluable y fuenteada por leccion"
+  }
 }
