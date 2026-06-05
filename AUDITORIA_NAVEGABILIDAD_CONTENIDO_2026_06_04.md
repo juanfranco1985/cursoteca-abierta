@@ -32,15 +32,10 @@ El curso ahora cubre:
 
 La auditoria encontro originalmente 32 cursos con patrones de contenido generico o repetido en `course_content.json`.
 
-Pendientes actuales despues de UX/UI, tanda 1, tanda 2, tanda 3, tanda 4 y tanda 5:
+Pendientes actuales despues de UX/UI, tanda 1, tanda 2, tanda 3, tanda 4, tanda 5 y tanda 6:
 
-- `ciudadano_digital_argentina_v0_6_publica`
 - `costos_precios_rentabilidad_v0_6_publica`
-- `cuidado_digital_mayores_familias_v0_6_publica`
 - `emprendimiento_barrial_web_v0_6_publica`
-- `seguridad_digital_docentes_v0_6_publica`
-- `seguridad_familiar_internet_v0_6_publica`
-- `whatsapp_business_avanzado_v0_6_publica`
 
 ## Recomendacion
 
@@ -122,4 +117,16 @@ Completada el 2026-06-05 con 5 cursos de datos y analisis reforzados:
 - storytelling_datos_v0_6_publica: 6 modulos, 36 lecciones, 30 preguntas, 6 checklists y 8 casos guiados.
 
 Deuda de contenido generico despues de esta tanda: 7 cursos.
+
+## Tanda 6 de refuerzo
+
+Completada el 2026-06-05 con 5 cursos de ciudadania, seguridad digital y comunicacion comercial reforzados:
+
+- ciudadano_digital_argentina_v0_6_publica: 6 modulos, 36 lecciones, 30 preguntas, 6 checklists y 8 casos guiados.
+- cuidado_digital_mayores_familias_v0_6_publica: 6 modulos, 36 lecciones, 30 preguntas, 6 checklists y 8 casos guiados.
+- seguridad_digital_docentes_v0_6_publica: 6 modulos, 36 lecciones, 30 preguntas, 6 checklists y 8 casos guiados.
+- seguridad_familiar_internet_v0_6_publica: 6 modulos, 36 lecciones, 30 preguntas, 6 checklists y 8 casos guiados.
+- whatsapp_business_avanzado_v0_6_publica: 6 modulos, 36 lecciones, 30 preguntas, 6 checklists y 8 casos guiados.
+
+Deuda de contenido generico despues de esta tanda: 2 cursos.
 

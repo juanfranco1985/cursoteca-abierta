@@ -1,441 +1,441 @@
 {
   "incidents": [
     {
-      "id": "case-1",
-      "title": "Caso inicial controlado: Seguridad Digital para Docentes",
-      "summary": "Practica aplicada para resolver una situacion de proteccion de cuentas, aulas virtuales, datos de estudiantes y comunicacion docente con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en un protocolo docente de seguridad digital sin exponer datos sensibles y con una decision verificable.",
+      "id": "docseg-case-1",
+      "title": "Cuenta docente comprometida",
+      "summary": "Llegan avisos de inicio de sesion desconocido.",
+      "severity": "Practica sensible",
+      "immediateGoal": "Recuperar y asegurar cuenta.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Pausar la accion automatica y describir el disparador: alerta de acceso raro.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir un protocolo docente de seguridad digital.",
-        "Revisar el resultado contra este criterio: la practica protege informacion escolar y mantiene trazabilidad institucional.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: cambiar clave, cerrar sesiones, activar 2FA y avisar canal institucional.",
+        "Guardar evidencia: alerta y acciones tomadas.",
+        "Definir si alcanza una accion propia o si corresponde soporte, canal oficial, escuela, familia o profesional competente.",
+        "Cerrar con decision, motivo, limite del ejercicio y siguiente control."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "ajustes de cuenta, permisos revisados, canal institucional y registro de incidente",
-        "Decision final y motivo"
+        "Descripcion del caso",
+        "alerta y acciones tomadas",
+        "Fecha aproximada y canal usado",
+        "Decision tomada y motivo",
+        "Duda que requiere validacion externa"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Ignorar porque la clase sigue.",
+        "Compartir claves, codigos, documentos completos o datos personales.",
+        "Confiar solo en capturas o mensajes reenviados.",
+        "Borrar evidencia antes de entender el problema.",
+        "Tomar una practica educativa como solucion definitiva."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Revisar cuentas vinculadas.",
+        "Actualizar checklist personal, familiar o institucional.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Revisar si hace falta bloquear, reclamar, denunciar o consultar por canales oficiales."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision reduce mejor el riesgo?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Pausar, verificar por canal confiable, guardar evidencia y actuar solo con informacion suficiente.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: baja la probabilidad de fraude, exposicion o dano."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Responder rapido porque el mensaje parece urgente.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La urgencia suele ser parte del riesgo; primero se verifica."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Enviar mas datos para que otra persona decida.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Se comparte lo minimo necesario y por canales confiables."
           }
         ]
       }
     },
     {
-      "id": "case-2",
-      "title": "Caso con datos incompletos: Seguridad Digital para Docentes",
-      "summary": "Practica aplicada para resolver una situacion de proteccion de cuentas, aulas virtuales, datos de estudiantes y comunicacion docente con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en un protocolo docente de seguridad digital sin exponer datos sensibles y con una decision verificable.",
+      "id": "docseg-case-2",
+      "title": "Lista de estudiantes compartida",
+      "summary": "Una planilla con datos circula en un grupo.",
+      "severity": "Practica sensible",
+      "immediateGoal": "Reducir exposicion.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Pausar la accion automatica y describir el disparador: archivo con datos personales.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir un protocolo docente de seguridad digital.",
-        "Revisar el resultado contra este criterio: la practica protege informacion escolar y mantiene trazabilidad institucional.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: retirar acceso, avisar responsable y compartir version minima.",
+        "Guardar evidencia: permisos antes/despues.",
+        "Definir si alcanza una accion propia o si corresponde soporte, canal oficial, escuela, familia o profesional competente.",
+        "Cerrar con decision, motivo, limite del ejercicio y siguiente control."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "ajustes de cuenta, permisos revisados, canal institucional y registro de incidente",
-        "Decision final y motivo"
+        "Descripcion del caso",
+        "permisos antes/despues",
+        "Fecha aproximada y canal usado",
+        "Decision tomada y motivo",
+        "Duda que requiere validacion externa"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Reenviar pidiendo que no difundan.",
+        "Compartir claves, codigos, documentos completos o datos personales.",
+        "Confiar solo en capturas o mensajes reenviados.",
+        "Borrar evidencia antes de entender el problema.",
+        "Tomar una practica educativa como solucion definitiva."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Crear regla de listas.",
+        "Actualizar checklist personal, familiar o institucional.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Revisar si hace falta bloquear, reclamar, denunciar o consultar por canales oficiales."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision reduce mejor el riesgo?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Pausar, verificar por canal confiable, guardar evidencia y actuar solo con informacion suficiente.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: baja la probabilidad de fraude, exposicion o dano."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Responder rapido porque el mensaje parece urgente.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La urgencia suele ser parte del riesgo; primero se verifica."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Enviar mas datos para que otra persona decida.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Se comparte lo minimo necesario y por canales confiables."
           }
         ]
       }
     },
     {
-      "id": "case-3",
-      "title": "Caso con presion de tiempo: Seguridad Digital para Docentes",
-      "summary": "Practica aplicada para resolver una situacion de proteccion de cuentas, aulas virtuales, datos de estudiantes y comunicacion docente con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en un protocolo docente de seguridad digital sin exponer datos sensibles y con una decision verificable.",
+      "id": "docseg-case-3",
+      "title": "Enlace de clase publico",
+      "summary": "Personas externas entran a una sala.",
+      "severity": "Practica sensible",
+      "immediateGoal": "Controlar acceso.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Pausar la accion automatica y describir el disparador: link permanente difundido.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir un protocolo docente de seguridad digital.",
-        "Revisar el resultado contra este criterio: la practica protege informacion escolar y mantiene trazabilidad institucional.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: cambiar enlace, usar sala de espera o acceso institucional.",
+        "Guardar evidencia: configuracion corregida.",
+        "Definir si alcanza una accion propia o si corresponde soporte, canal oficial, escuela, familia o profesional competente.",
+        "Cerrar con decision, motivo, limite del ejercicio y siguiente control."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "ajustes de cuenta, permisos revisados, canal institucional y registro de incidente",
-        "Decision final y motivo"
+        "Descripcion del caso",
+        "configuracion corregida",
+        "Fecha aproximada y canal usado",
+        "Decision tomada y motivo",
+        "Duda que requiere validacion externa"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Mantener el mismo link por comodidad.",
+        "Compartir claves, codigos, documentos completos o datos personales.",
+        "Confiar solo en capturas o mensajes reenviados.",
+        "Borrar evidencia antes de entender el problema.",
+        "Tomar una practica educativa como solucion definitiva."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Revisar enlaces por curso.",
+        "Actualizar checklist personal, familiar o institucional.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Revisar si hace falta bloquear, reclamar, denunciar o consultar por canales oficiales."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision reduce mejor el riesgo?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Pausar, verificar por canal confiable, guardar evidencia y actuar solo con informacion suficiente.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: baja la probabilidad de fraude, exposicion o dano."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Responder rapido porque el mensaje parece urgente.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La urgencia suele ser parte del riesgo; primero se verifica."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Enviar mas datos para que otra persona decida.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Se comparte lo minimo necesario y por canales confiables."
           }
         ]
       }
     },
     {
-      "id": "case-4",
-      "title": "Caso de comunicacion con otra persona: Seguridad Digital para Docentes",
-      "summary": "Practica aplicada para resolver una situacion de proteccion de cuentas, aulas virtuales, datos de estudiantes y comunicacion docente con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en un protocolo docente de seguridad digital sin exponer datos sensibles y con una decision verificable.",
+      "id": "docseg-case-4",
+      "title": "Phishing institucional",
+      "summary": "Un correo pide actualizar clave de plataforma.",
+      "severity": "Practica sensible",
+      "immediateGoal": "Verificar remitente y canal.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Pausar la accion automatica y describir el disparador: correo con urgencia y link.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir un protocolo docente de seguridad digital.",
-        "Revisar el resultado contra este criterio: la practica protege informacion escolar y mantiene trazabilidad institucional.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: no ingresar clave, reportar y entrar por URL conocida.",
+        "Guardar evidencia: correo sospechoso reportado.",
+        "Definir si alcanza una accion propia o si corresponde soporte, canal oficial, escuela, familia o profesional competente.",
+        "Cerrar con decision, motivo, limite del ejercicio y siguiente control."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "ajustes de cuenta, permisos revisados, canal institucional y registro de incidente",
-        "Decision final y motivo"
+        "Descripcion del caso",
+        "correo sospechoso reportado",
+        "Fecha aproximada y canal usado",
+        "Decision tomada y motivo",
+        "Duda que requiere validacion externa"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Probar el link para ver si funciona.",
+        "Compartir claves, codigos, documentos completos o datos personales.",
+        "Confiar solo en capturas o mensajes reenviados.",
+        "Borrar evidencia antes de entender el problema.",
+        "Tomar una practica educativa como solucion definitiva."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Difundir alerta sin datos sensibles.",
+        "Actualizar checklist personal, familiar o institucional.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Revisar si hace falta bloquear, reclamar, denunciar o consultar por canales oficiales."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision reduce mejor el riesgo?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Pausar, verificar por canal confiable, guardar evidencia y actuar solo con informacion suficiente.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: baja la probabilidad de fraude, exposicion o dano."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Responder rapido porque el mensaje parece urgente.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La urgencia suele ser parte del riesgo; primero se verifica."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Enviar mas datos para que otra persona decida.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Se comparte lo minimo necesario y por canales confiables."
           }
         ]
       }
     },
     {
-      "id": "case-5",
-      "title": "Caso de error frecuente: Seguridad Digital para Docentes",
-      "summary": "Practica aplicada para resolver una situacion de proteccion de cuentas, aulas virtuales, datos de estudiantes y comunicacion docente con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en un protocolo docente de seguridad digital sin exponer datos sensibles y con una decision verificable.",
+      "id": "docseg-case-5",
+      "title": "Foto de estudiante publicada",
+      "summary": "Una imagen de clase se comparte sin permiso claro.",
+      "severity": "Practica sensible",
+      "immediateGoal": "Revisar consentimiento.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Pausar la accion automatica y describir el disparador: publicacion con personas reconocibles.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir un protocolo docente de seguridad digital.",
-        "Revisar el resultado contra este criterio: la practica protege informacion escolar y mantiene trazabilidad institucional.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: retirar o reemplazar por version permitida.",
+        "Guardar evidencia: decision y fuente de permiso.",
+        "Definir si alcanza una accion propia o si corresponde soporte, canal oficial, escuela, familia o profesional competente.",
+        "Cerrar con decision, motivo, limite del ejercicio y siguiente control."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "ajustes de cuenta, permisos revisados, canal institucional y registro de incidente",
-        "Decision final y motivo"
+        "Descripcion del caso",
+        "decision y fuente de permiso",
+        "Fecha aproximada y canal usado",
+        "Decision tomada y motivo",
+        "Duda que requiere validacion externa"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Tapar una cara parcialmente.",
+        "Compartir claves, codigos, documentos completos o datos personales.",
+        "Confiar solo en capturas o mensajes reenviados.",
+        "Borrar evidencia antes de entender el problema.",
+        "Tomar una practica educativa como solucion definitiva."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Crear banco de imagenes seguras.",
+        "Actualizar checklist personal, familiar o institucional.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Revisar si hace falta bloquear, reclamar, denunciar o consultar por canales oficiales."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision reduce mejor el riesgo?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Pausar, verificar por canal confiable, guardar evidencia y actuar solo con informacion suficiente.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: baja la probabilidad de fraude, exposicion o dano."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Responder rapido porque el mensaje parece urgente.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La urgencia suele ser parte del riesgo; primero se verifica."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Enviar mas datos para que otra persona decida.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Se comparte lo minimo necesario y por canales confiables."
           }
         ]
       }
     },
     {
-      "id": "case-6",
-      "title": "Caso de mejora de proceso: Seguridad Digital para Docentes",
-      "summary": "Practica aplicada para resolver una situacion de proteccion de cuentas, aulas virtuales, datos de estudiantes y comunicacion docente con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en un protocolo docente de seguridad digital sin exponer datos sensibles y con una decision verificable.",
+      "id": "docseg-case-6",
+      "title": "Ciberacoso en grupo",
+      "summary": "Aparecen mensajes agresivos entre estudiantes.",
+      "severity": "Practica sensible",
+      "immediateGoal": "Preservar evidencia y escalar.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Pausar la accion automatica y describir el disparador: mensajes de hostigamiento.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir un protocolo docente de seguridad digital.",
-        "Revisar el resultado contra este criterio: la practica protege informacion escolar y mantiene trazabilidad institucional.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: guardar evidencia, contener grupo y avisar protocolo escolar.",
+        "Guardar evidencia: capturas con fecha y contexto.",
+        "Definir si alcanza una accion propia o si corresponde soporte, canal oficial, escuela, familia o profesional competente.",
+        "Cerrar con decision, motivo, limite del ejercicio y siguiente control."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "ajustes de cuenta, permisos revisados, canal institucional y registro de incidente",
-        "Decision final y motivo"
+        "Descripcion del caso",
+        "capturas con fecha y contexto",
+        "Fecha aproximada y canal usado",
+        "Decision tomada y motivo",
+        "Duda que requiere validacion externa"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Borrar todo para cortar el conflicto.",
+        "Compartir claves, codigos, documentos completos o datos personales.",
+        "Confiar solo en capturas o mensajes reenviados.",
+        "Borrar evidencia antes de entender el problema.",
+        "Tomar una practica educativa como solucion definitiva."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Revisar normas de grupo.",
+        "Actualizar checklist personal, familiar o institucional.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Revisar si hace falta bloquear, reclamar, denunciar o consultar por canales oficiales."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision reduce mejor el riesgo?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Pausar, verificar por canal confiable, guardar evidencia y actuar solo con informacion suficiente.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: baja la probabilidad de fraude, exposicion o dano."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Responder rapido porque el mensaje parece urgente.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La urgencia suele ser parte del riesgo; primero se verifica."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Enviar mas datos para que otra persona decida.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Se comparte lo minimo necesario y por canales confiables."
           }
         ]
       }
     },
     {
-      "id": "case-7",
-      "title": "Caso de decision responsable: Seguridad Digital para Docentes",
-      "summary": "Practica aplicada para resolver una situacion de proteccion de cuentas, aulas virtuales, datos de estudiantes y comunicacion docente con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en un protocolo docente de seguridad digital sin exponer datos sensibles y con una decision verificable.",
+      "id": "docseg-case-7",
+      "title": "Dispositivo compartido",
+      "summary": "La cuenta docente queda abierta en computadora ajena.",
+      "severity": "Practica sensible",
+      "immediateGoal": "Cerrar sesiones.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Pausar la accion automatica y describir el disparador: uso en equipo compartido.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir un protocolo docente de seguridad digital.",
-        "Revisar el resultado contra este criterio: la practica protege informacion escolar y mantiene trazabilidad institucional.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: cerrar sesion remota y cambiar clave si hubo riesgo.",
+        "Guardar evidencia: sesiones revisadas.",
+        "Definir si alcanza una accion propia o si corresponde soporte, canal oficial, escuela, familia o profesional competente.",
+        "Cerrar con decision, motivo, limite del ejercicio y siguiente control."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "ajustes de cuenta, permisos revisados, canal institucional y registro de incidente",
-        "Decision final y motivo"
+        "Descripcion del caso",
+        "sesiones revisadas",
+        "Fecha aproximada y canal usado",
+        "Decision tomada y motivo",
+        "Duda que requiere validacion externa"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Confiar en que nadie entrara.",
+        "Compartir claves, codigos, documentos completos o datos personales.",
+        "Confiar solo en capturas o mensajes reenviados.",
+        "Borrar evidencia antes de entender el problema.",
+        "Tomar una practica educativa como solucion definitiva."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Usar navegador privado y cierre.",
+        "Actualizar checklist personal, familiar o institucional.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Revisar si hace falta bloquear, reclamar, denunciar o consultar por canales oficiales."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision reduce mejor el riesgo?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Pausar, verificar por canal confiable, guardar evidencia y actuar solo con informacion suficiente.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: baja la probabilidad de fraude, exposicion o dano."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Responder rapido porque el mensaje parece urgente.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La urgencia suele ser parte del riesgo; primero se verifica."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Enviar mas datos para que otra persona decida.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Se comparte lo minimo necesario y por canales confiables."
           }
         ]
       }
     },
     {
-      "id": "case-8",
-      "title": "Proyecto final integrador: Seguridad Digital para Docentes",
-      "summary": "Practica aplicada para resolver una situacion de proteccion de cuentas, aulas virtuales, datos de estudiantes y comunicacion docente con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Proyecto final",
-      "immediateGoal": "Transformar el caso en un protocolo docente de seguridad digital sin exponer datos sensibles y con una decision verificable.",
+      "id": "docseg-case-8",
+      "title": "Evaluacion filtrada",
+      "summary": "Un archivo de prueba queda visible antes de tiempo.",
+      "severity": "Practica sensible",
+      "immediateGoal": "Corregir permisos y comunicar.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Pausar la accion automatica y describir el disparador: material publicado por error.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir un protocolo docente de seguridad digital.",
-        "Revisar el resultado contra este criterio: la practica protege informacion escolar y mantiene trazabilidad institucional.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: cambiar permisos, registrar alcance y definir nueva evaluacion si corresponde.",
+        "Guardar evidencia: historial de permisos.",
+        "Definir si alcanza una accion propia o si corresponde soporte, canal oficial, escuela, familia o profesional competente.",
+        "Cerrar con decision, motivo, limite del ejercicio y siguiente control."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "ajustes de cuenta, permisos revisados, canal institucional y registro de incidente",
-        "Decision final y motivo"
+        "Descripcion del caso",
+        "historial de permisos",
+        "Fecha aproximada y canal usado",
+        "Decision tomada y motivo",
+        "Duda que requiere validacion externa"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Negar el error sin medir alcance.",
+        "Compartir claves, codigos, documentos completos o datos personales.",
+        "Confiar solo en capturas o mensajes reenviados.",
+        "Borrar evidencia antes de entender el problema.",
+        "Tomar una practica educativa como solucion definitiva."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Checklist previo a publicar.",
+        "Actualizar checklist personal, familiar o institucional.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Revisar si hace falta bloquear, reclamar, denunciar o consultar por canales oficiales."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision reduce mejor el riesgo?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Pausar, verificar por canal confiable, guardar evidencia y actuar solo con informacion suficiente.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: baja la probabilidad de fraude, exposicion o dano."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Responder rapido porque el mensaje parece urgente.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La urgencia suele ser parte del riesgo; primero se verifica."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Enviar mas datos para que otra persona decida.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Se comparte lo minimo necesario y por canales confiables."
           }
         ]
       }

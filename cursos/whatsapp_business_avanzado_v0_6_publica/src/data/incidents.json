@@ -1,441 +1,441 @@
 {
   "incidents": [
     {
-      "id": "case-1",
-      "title": "Caso inicial controlado: WhatsApp Business Avanzado",
-      "summary": "Practica aplicada para resolver una situacion de uso profesional de WhatsApp Business para catalogo, mensajes, etiquetas y seguimiento con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en un flujo de atencion por WhatsApp Business sin exponer datos sensibles y con una decision verificable.",
+      "id": "wabiz-case-1",
+      "title": "Difusion sin consentimiento",
+      "summary": "Clientes reciben promociones que no pidieron.",
+      "severity": "Practica sensible",
+      "immediateGoal": "Ajustar permiso y frecuencia.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Pausar la accion automatica y describir el disparador: quejas por mensajes.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir un flujo de atencion por WhatsApp Business.",
-        "Revisar el resultado contra este criterio: cada consulta queda atendida con tono claro, proximo paso y registro minimo.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: detener envio, segmentar y ofrecer baja clara.",
+        "Guardar evidencia: mensaje corregido y regla de lista.",
+        "Definir si alcanza una accion propia o si corresponde soporte, canal oficial, escuela, familia o profesional competente.",
+        "Cerrar con decision, motivo, limite del ejercicio y siguiente control."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "perfil, catalogo, etiquetas, plantilla de respuesta, seguimiento y registro de venta",
-        "Decision final y motivo"
+        "Descripcion del caso",
+        "mensaje corregido y regla de lista",
+        "Fecha aproximada y canal usado",
+        "Decision tomada y motivo",
+        "Duda que requiere validacion externa"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Seguir enviando porque algunos compran.",
+        "Compartir claves, codigos, documentos completos o datos personales.",
+        "Confiar solo en capturas o mensajes reenviados.",
+        "Borrar evidencia antes de entender el problema.",
+        "Tomar una practica educativa como solucion definitiva."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Registrar permisos.",
+        "Actualizar checklist personal, familiar o institucional.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Revisar si hace falta bloquear, reclamar, denunciar o consultar por canales oficiales."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision reduce mejor el riesgo?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Pausar, verificar por canal confiable, guardar evidencia y actuar solo con informacion suficiente.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: baja la probabilidad de fraude, exposicion o dano."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Responder rapido porque el mensaje parece urgente.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La urgencia suele ser parte del riesgo; primero se verifica."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Enviar mas datos para que otra persona decida.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Se comparte lo minimo necesario y por canales confiables."
           }
         ]
       }
     },
     {
-      "id": "case-2",
-      "title": "Caso con datos incompletos: WhatsApp Business Avanzado",
-      "summary": "Practica aplicada para resolver una situacion de uso profesional de WhatsApp Business para catalogo, mensajes, etiquetas y seguimiento con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en un flujo de atencion por WhatsApp Business sin exponer datos sensibles y con una decision verificable.",
+      "id": "wabiz-case-2",
+      "title": "Catalogo desactualizado",
+      "summary": "Un producto figura disponible pero no hay stock.",
+      "severity": "Practica sensible",
+      "immediateGoal": "Actualizar oferta.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Pausar la accion automatica y describir el disparador: pedido imposible de cumplir.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir un flujo de atencion por WhatsApp Business.",
-        "Revisar el resultado contra este criterio: cada consulta queda atendida con tono claro, proximo paso y registro minimo.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: marcar sin stock, avisar alternativa y revisar rutina.",
+        "Guardar evidencia: catalogo antes/despues.",
+        "Definir si alcanza una accion propia o si corresponde soporte, canal oficial, escuela, familia o profesional competente.",
+        "Cerrar con decision, motivo, limite del ejercicio y siguiente control."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "perfil, catalogo, etiquetas, plantilla de respuesta, seguimiento y registro de venta",
-        "Decision final y motivo"
+        "Descripcion del caso",
+        "catalogo antes/despues",
+        "Fecha aproximada y canal usado",
+        "Decision tomada y motivo",
+        "Duda que requiere validacion externa"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Prometer conseguirlo sin plazo.",
+        "Compartir claves, codigos, documentos completos o datos personales.",
+        "Confiar solo en capturas o mensajes reenviados.",
+        "Borrar evidencia antes de entender el problema.",
+        "Tomar una practica educativa como solucion definitiva."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Revision semanal de catalogo.",
+        "Actualizar checklist personal, familiar o institucional.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Revisar si hace falta bloquear, reclamar, denunciar o consultar por canales oficiales."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision reduce mejor el riesgo?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Pausar, verificar por canal confiable, guardar evidencia y actuar solo con informacion suficiente.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: baja la probabilidad de fraude, exposicion o dano."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Responder rapido porque el mensaje parece urgente.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La urgencia suele ser parte del riesgo; primero se verifica."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Enviar mas datos para que otra persona decida.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Se comparte lo minimo necesario y por canales confiables."
           }
         ]
       }
     },
     {
-      "id": "case-3",
-      "title": "Caso con presion de tiempo: WhatsApp Business Avanzado",
-      "summary": "Practica aplicada para resolver una situacion de uso profesional de WhatsApp Business para catalogo, mensajes, etiquetas y seguimiento con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en un flujo de atencion por WhatsApp Business sin exponer datos sensibles y con una decision verificable.",
+      "id": "wabiz-case-3",
+      "title": "Reclamo perdido",
+      "summary": "Un cliente reclama y el chat queda enterrado.",
+      "severity": "Practica sensible",
+      "immediateGoal": "Etiquetar y cerrar seguimiento.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Pausar la accion automatica y describir el disparador: reclamo sin estado.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir un flujo de atencion por WhatsApp Business.",
-        "Revisar el resultado contra este criterio: cada consulta queda atendida con tono claro, proximo paso y registro minimo.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: usar etiqueta, responsable y fecha de respuesta.",
+        "Guardar evidencia: conversacion etiquetada.",
+        "Definir si alcanza una accion propia o si corresponde soporte, canal oficial, escuela, familia o profesional competente.",
+        "Cerrar con decision, motivo, limite del ejercicio y siguiente control."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "perfil, catalogo, etiquetas, plantilla de respuesta, seguimiento y registro de venta",
-        "Decision final y motivo"
+        "Descripcion del caso",
+        "conversacion etiquetada",
+        "Fecha aproximada y canal usado",
+        "Decision tomada y motivo",
+        "Duda que requiere validacion externa"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Responder cuando aparezca tiempo.",
+        "Compartir claves, codigos, documentos completos o datos personales.",
+        "Confiar solo en capturas o mensajes reenviados.",
+        "Borrar evidencia antes de entender el problema.",
+        "Tomar una practica educativa como solucion definitiva."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Crear etiqueta de reclamos.",
+        "Actualizar checklist personal, familiar o institucional.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Revisar si hace falta bloquear, reclamar, denunciar o consultar por canales oficiales."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision reduce mejor el riesgo?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Pausar, verificar por canal confiable, guardar evidencia y actuar solo con informacion suficiente.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: baja la probabilidad de fraude, exposicion o dano."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Responder rapido porque el mensaje parece urgente.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La urgencia suele ser parte del riesgo; primero se verifica."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Enviar mas datos para que otra persona decida.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Se comparte lo minimo necesario y por canales confiables."
           }
         ]
       }
     },
     {
-      "id": "case-4",
-      "title": "Caso de comunicacion con otra persona: WhatsApp Business Avanzado",
-      "summary": "Practica aplicada para resolver una situacion de uso profesional de WhatsApp Business para catalogo, mensajes, etiquetas y seguimiento con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en un flujo de atencion por WhatsApp Business sin exponer datos sensibles y con una decision verificable.",
+      "id": "wabiz-case-4",
+      "title": "Respuesta automatica promete de mas",
+      "summary": "El mensaje confirma disponibilidad sin revisar.",
+      "severity": "Practica sensible",
+      "immediateGoal": "Corregir automatizacion.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Pausar la accion automatica y describir el disparador: plantilla ambigua.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir un flujo de atencion por WhatsApp Business.",
-        "Revisar el resultado contra este criterio: cada consulta queda atendida con tono claro, proximo paso y registro minimo.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: reescribir con condicion y paso de confirmacion.",
+        "Guardar evidencia: respuesta antes/despues.",
+        "Definir si alcanza una accion propia o si corresponde soporte, canal oficial, escuela, familia o profesional competente.",
+        "Cerrar con decision, motivo, limite del ejercicio y siguiente control."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "perfil, catalogo, etiquetas, plantilla de respuesta, seguimiento y registro de venta",
-        "Decision final y motivo"
+        "Descripcion del caso",
+        "respuesta antes/despues",
+        "Fecha aproximada y canal usado",
+        "Decision tomada y motivo",
+        "Duda que requiere validacion externa"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Mantener mensaje porque ahorra tiempo.",
+        "Compartir claves, codigos, documentos completos o datos personales.",
+        "Confiar solo en capturas o mensajes reenviados.",
+        "Borrar evidencia antes de entender el problema.",
+        "Tomar una practica educativa como solucion definitiva."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Auditar respuestas rapidas.",
+        "Actualizar checklist personal, familiar o institucional.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Revisar si hace falta bloquear, reclamar, denunciar o consultar por canales oficiales."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision reduce mejor el riesgo?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Pausar, verificar por canal confiable, guardar evidencia y actuar solo con informacion suficiente.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: baja la probabilidad de fraude, exposicion o dano."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Responder rapido porque el mensaje parece urgente.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La urgencia suele ser parte del riesgo; primero se verifica."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Enviar mas datos para que otra persona decida.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Se comparte lo minimo necesario y por canales confiables."
           }
         ]
       }
     },
     {
-      "id": "case-5",
-      "title": "Caso de error frecuente: WhatsApp Business Avanzado",
-      "summary": "Practica aplicada para resolver una situacion de uso profesional de WhatsApp Business para catalogo, mensajes, etiquetas y seguimiento con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en un flujo de atencion por WhatsApp Business sin exponer datos sensibles y con una decision verificable.",
+      "id": "wabiz-case-5",
+      "title": "Etiqueta confusa",
+      "summary": "Hay demasiadas etiquetas y nadie las usa bien.",
+      "severity": "Practica sensible",
+      "immediateGoal": "Simplificar sistema.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Pausar la accion automatica y describir el disparador: estados duplicados.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir un flujo de atencion por WhatsApp Business.",
-        "Revisar el resultado contra este criterio: cada consulta queda atendida con tono claro, proximo paso y registro minimo.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: reducir a estados accionables.",
+        "Guardar evidencia: lista de etiquetas nueva.",
+        "Definir si alcanza una accion propia o si corresponde soporte, canal oficial, escuela, familia o profesional competente.",
+        "Cerrar con decision, motivo, limite del ejercicio y siguiente control."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "perfil, catalogo, etiquetas, plantilla de respuesta, seguimiento y registro de venta",
-        "Decision final y motivo"
+        "Descripcion del caso",
+        "lista de etiquetas nueva",
+        "Fecha aproximada y canal usado",
+        "Decision tomada y motivo",
+        "Duda que requiere validacion externa"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Agregar mas colores.",
+        "Compartir claves, codigos, documentos completos o datos personales.",
+        "Confiar solo en capturas o mensajes reenviados.",
+        "Borrar evidencia antes de entender el problema.",
+        "Tomar una practica educativa como solucion definitiva."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Revisar etiquetas mensualmente.",
+        "Actualizar checklist personal, familiar o institucional.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Revisar si hace falta bloquear, reclamar, denunciar o consultar por canales oficiales."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision reduce mejor el riesgo?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Pausar, verificar por canal confiable, guardar evidencia y actuar solo con informacion suficiente.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: baja la probabilidad de fraude, exposicion o dano."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Responder rapido porque el mensaje parece urgente.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La urgencia suele ser parte del riesgo; primero se verifica."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Enviar mas datos para que otra persona decida.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Se comparte lo minimo necesario y por canales confiables."
           }
         ]
       }
     },
     {
-      "id": "case-6",
-      "title": "Caso de mejora de proceso: WhatsApp Business Avanzado",
-      "summary": "Practica aplicada para resolver una situacion de uso profesional de WhatsApp Business para catalogo, mensajes, etiquetas y seguimiento con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en un flujo de atencion por WhatsApp Business sin exponer datos sensibles y con una decision verificable.",
+      "id": "wabiz-case-6",
+      "title": "Datos sensibles en chat",
+      "summary": "Un cliente envia documento o datos de pago.",
+      "severity": "Practica sensible",
+      "immediateGoal": "Minimizar y proteger informacion.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Pausar la accion automatica y describir el disparador: dato personal recibido.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir un flujo de atencion por WhatsApp Business.",
-        "Revisar el resultado contra este criterio: cada consulta queda atendida con tono claro, proximo paso y registro minimo.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: pedir solo lo necesario y derivar a canal seguro si aplica.",
+        "Guardar evidencia: protocolo de datos sensibles.",
+        "Definir si alcanza una accion propia o si corresponde soporte, canal oficial, escuela, familia o profesional competente.",
+        "Cerrar con decision, motivo, limite del ejercicio y siguiente control."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "perfil, catalogo, etiquetas, plantilla de respuesta, seguimiento y registro de venta",
-        "Decision final y motivo"
+        "Descripcion del caso",
+        "protocolo de datos sensibles",
+        "Fecha aproximada y canal usado",
+        "Decision tomada y motivo",
+        "Duda que requiere validacion externa"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Guardar documentos en chats indefinidamente.",
+        "Compartir claves, codigos, documentos completos o datos personales.",
+        "Confiar solo en capturas o mensajes reenviados.",
+        "Borrar evidencia antes de entender el problema.",
+        "Tomar una practica educativa como solucion definitiva."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Definir retencion.",
+        "Actualizar checklist personal, familiar o institucional.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Revisar si hace falta bloquear, reclamar, denunciar o consultar por canales oficiales."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision reduce mejor el riesgo?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Pausar, verificar por canal confiable, guardar evidencia y actuar solo con informacion suficiente.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: baja la probabilidad de fraude, exposicion o dano."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Responder rapido porque el mensaje parece urgente.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La urgencia suele ser parte del riesgo; primero se verifica."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Enviar mas datos para que otra persona decida.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Se comparte lo minimo necesario y por canales confiables."
           }
         ]
       }
     },
     {
-      "id": "case-7",
-      "title": "Caso de decision responsable: WhatsApp Business Avanzado",
-      "summary": "Practica aplicada para resolver una situacion de uso profesional de WhatsApp Business para catalogo, mensajes, etiquetas y seguimiento con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en un flujo de atencion por WhatsApp Business sin exponer datos sensibles y con una decision verificable.",
+      "id": "wabiz-case-7",
+      "title": "Campana satura consultas",
+      "summary": "Se lanza promocion sin capacidad de respuesta.",
+      "severity": "Practica sensible",
+      "immediateGoal": "Planificar operacion.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Pausar la accion automatica y describir el disparador: pico de mensajes.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir un flujo de atencion por WhatsApp Business.",
-        "Revisar el resultado contra este criterio: cada consulta queda atendida con tono claro, proximo paso y registro minimo.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: preparar respuestas, stock, horarios y prioridad.",
+        "Guardar evidencia: plan de campana.",
+        "Definir si alcanza una accion propia o si corresponde soporte, canal oficial, escuela, familia o profesional competente.",
+        "Cerrar con decision, motivo, limite del ejercicio y siguiente control."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "perfil, catalogo, etiquetas, plantilla de respuesta, seguimiento y registro de venta",
-        "Decision final y motivo"
+        "Descripcion del caso",
+        "plan de campana",
+        "Fecha aproximada y canal usado",
+        "Decision tomada y motivo",
+        "Duda que requiere validacion externa"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Enviar a todos al mismo tiempo.",
+        "Compartir claves, codigos, documentos completos o datos personales.",
+        "Confiar solo en capturas o mensajes reenviados.",
+        "Borrar evidencia antes de entender el problema.",
+        "Tomar una practica educativa como solucion definitiva."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Probar con segmento chico.",
+        "Actualizar checklist personal, familiar o institucional.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Revisar si hace falta bloquear, reclamar, denunciar o consultar por canales oficiales."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision reduce mejor el riesgo?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Pausar, verificar por canal confiable, guardar evidencia y actuar solo con informacion suficiente.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: baja la probabilidad de fraude, exposicion o dano."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Responder rapido porque el mensaje parece urgente.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La urgencia suele ser parte del riesgo; primero se verifica."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Enviar mas datos para que otra persona decida.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Se comparte lo minimo necesario y por canales confiables."
           }
         ]
       }
     },
     {
-      "id": "case-8",
-      "title": "Proyecto final integrador: WhatsApp Business Avanzado",
-      "summary": "Practica aplicada para resolver una situacion de uso profesional de WhatsApp Business para catalogo, mensajes, etiquetas y seguimiento con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Proyecto final",
-      "immediateGoal": "Transformar el caso en un flujo de atencion por WhatsApp Business sin exponer datos sensibles y con una decision verificable.",
+      "id": "wabiz-case-8",
+      "title": "Metrica mal interpretada",
+      "summary": "Suben mensajes pero bajan ventas.",
+      "severity": "Practica sensible",
+      "immediateGoal": "Medir conversion y calidad.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Pausar la accion automatica y describir el disparador: mas actividad sin resultado.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir un flujo de atencion por WhatsApp Business.",
-        "Revisar el resultado contra este criterio: cada consulta queda atendida con tono claro, proximo paso y registro minimo.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: comparar consultas, pedidos, reclamos y ventas.",
+        "Guardar evidencia: tablero semanal.",
+        "Definir si alcanza una accion propia o si corresponde soporte, canal oficial, escuela, familia o profesional competente.",
+        "Cerrar con decision, motivo, limite del ejercicio y siguiente control."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "perfil, catalogo, etiquetas, plantilla de respuesta, seguimiento y registro de venta",
-        "Decision final y motivo"
+        "Descripcion del caso",
+        "tablero semanal",
+        "Fecha aproximada y canal usado",
+        "Decision tomada y motivo",
+        "Duda que requiere validacion externa"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Celebrar volumen de chats.",
+        "Compartir claves, codigos, documentos completos o datos personales.",
+        "Confiar solo en capturas o mensajes reenviados.",
+        "Borrar evidencia antes de entender el problema.",
+        "Tomar una practica educativa como solucion definitiva."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Definir metrica principal.",
+        "Actualizar checklist personal, familiar o institucional.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Revisar si hace falta bloquear, reclamar, denunciar o consultar por canales oficiales."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision reduce mejor el riesgo?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Pausar, verificar por canal confiable, guardar evidencia y actuar solo con informacion suficiente.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: baja la probabilidad de fraude, exposicion o dano."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Responder rapido porque el mensaje parece urgente.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La urgencia suele ser parte del riesgo; primero se verifica."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Enviar mas datos para que otra persona decida.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Se comparte lo minimo necesario y por canales confiables."
           }
         ]
       }

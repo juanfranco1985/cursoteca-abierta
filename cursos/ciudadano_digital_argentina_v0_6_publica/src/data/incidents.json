@@ -1,441 +1,441 @@
 {
   "incidents": [
     {
-      "id": "case-1",
-      "title": "Caso inicial controlado: Ciudadano Digital Argentina",
-      "summary": "Practica aplicada para resolver una situacion de uso ciudadano de identidad digital, portales publicos, turnos, claves y comprobantes con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una carpeta digital de gestiones ciudadanas sin exponer datos sensibles y con una decision verificable.",
+      "id": "ciudad-case-1",
+      "title": "Sitio falso de tramite",
+      "summary": "Una pagina parecida pide datos y pago urgente.",
+      "severity": "Practica sensible",
+      "immediateGoal": "Verificar fuente antes de cargar datos.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Pausar la accion automatica y describir el disparador: link recibido por buscador o mensaje.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una carpeta digital de gestiones ciudadanas.",
-        "Revisar el resultado contra este criterio: la gestion queda documentada y puede retomarse sin repetir todo desde cero.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: buscar portal oficial, comparar dominio y no pagar desde link dudoso.",
+        "Guardar evidencia: URL verificada y captura del sitio sospechoso.",
+        "Definir si alcanza una accion propia o si corresponde soporte, canal oficial, escuela, familia o profesional competente.",
+        "Cerrar con decision, motivo, limite del ejercicio y siguiente control."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "URL oficial, numero de tramite, fecha, comprobante, correo de confirmacion y proximo paso",
-        "Decision final y motivo"
+        "Descripcion del caso",
+        "URL verificada y captura del sitio sospechoso",
+        "Fecha aproximada y canal usado",
+        "Decision tomada y motivo",
+        "Duda que requiere validacion externa"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Cargar datos porque el sitio se ve profesional.",
+        "Compartir claves, codigos, documentos completos o datos personales.",
+        "Confiar solo en capturas o mensajes reenviados.",
+        "Borrar evidencia antes de entender el problema.",
+        "Tomar una practica educativa como solucion definitiva."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Guardar portales oficiales favoritos.",
+        "Actualizar checklist personal, familiar o institucional.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Revisar si hace falta bloquear, reclamar, denunciar o consultar por canales oficiales."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision reduce mejor el riesgo?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Pausar, verificar por canal confiable, guardar evidencia y actuar solo con informacion suficiente.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: baja la probabilidad de fraude, exposicion o dano."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Responder rapido porque el mensaje parece urgente.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La urgencia suele ser parte del riesgo; primero se verifica."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Enviar mas datos para que otra persona decida.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Se comparte lo minimo necesario y por canales confiables."
           }
         ]
       }
     },
     {
-      "id": "case-2",
-      "title": "Caso con datos incompletos: Ciudadano Digital Argentina",
-      "summary": "Practica aplicada para resolver una situacion de uso ciudadano de identidad digital, portales publicos, turnos, claves y comprobantes con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una carpeta digital de gestiones ciudadanas sin exponer datos sensibles y con una decision verificable.",
+      "id": "ciudad-case-2",
+      "title": "Clave compartida para ayudar",
+      "summary": "Un familiar pide la clave para hacer un tramite.",
+      "severity": "Practica sensible",
+      "immediateGoal": "Ayudar sin entregar credenciales.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Pausar la accion automatica y describir el disparador: pedido de clave o codigo.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una carpeta digital de gestiones ciudadanas.",
-        "Revisar el resultado contra este criterio: la gestion queda documentada y puede retomarse sin repetir todo desde cero.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: usar acompanamiento presencial o pantalla compartida segura sin dictar claves.",
+        "Guardar evidencia: acuerdo de ayuda y cambio de clave si fue compartida.",
+        "Definir si alcanza una accion propia o si corresponde soporte, canal oficial, escuela, familia o profesional competente.",
+        "Cerrar con decision, motivo, limite del ejercicio y siguiente control."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "URL oficial, numero de tramite, fecha, comprobante, correo de confirmacion y proximo paso",
-        "Decision final y motivo"
+        "Descripcion del caso",
+        "acuerdo de ayuda y cambio de clave si fue compartida",
+        "Fecha aproximada y canal usado",
+        "Decision tomada y motivo",
+        "Duda que requiere validacion externa"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Mandar clave por WhatsApp.",
+        "Compartir claves, codigos, documentos completos o datos personales.",
+        "Confiar solo en capturas o mensajes reenviados.",
+        "Borrar evidencia antes de entender el problema.",
+        "Tomar una practica educativa como solucion definitiva."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Configurar recuperacion y 2FA.",
+        "Actualizar checklist personal, familiar o institucional.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Revisar si hace falta bloquear, reclamar, denunciar o consultar por canales oficiales."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision reduce mejor el riesgo?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Pausar, verificar por canal confiable, guardar evidencia y actuar solo con informacion suficiente.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: baja la probabilidad de fraude, exposicion o dano."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Responder rapido porque el mensaje parece urgente.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La urgencia suele ser parte del riesgo; primero se verifica."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Enviar mas datos para que otra persona decida.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Se comparte lo minimo necesario y por canales confiables."
           }
         ]
       }
     },
     {
-      "id": "case-3",
-      "title": "Caso con presion de tiempo: Ciudadano Digital Argentina",
-      "summary": "Practica aplicada para resolver una situacion de uso ciudadano de identidad digital, portales publicos, turnos, claves y comprobantes con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una carpeta digital de gestiones ciudadanas sin exponer datos sensibles y con una decision verificable.",
+      "id": "ciudad-case-3",
+      "title": "Tramite sin comprobante",
+      "summary": "Se completo un formulario pero no se guardo constancia.",
+      "severity": "Practica sensible",
+      "immediateGoal": "Recuperar y ordenar evidencia.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Pausar la accion automatica y describir el disparador: falta numero de tramite.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una carpeta digital de gestiones ciudadanas.",
-        "Revisar el resultado contra este criterio: la gestion queda documentada y puede retomarse sin repetir todo desde cero.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: buscar correo, historial y portal de seguimiento.",
+        "Guardar evidencia: numero, fecha o captura recuperada.",
+        "Definir si alcanza una accion propia o si corresponde soporte, canal oficial, escuela, familia o profesional competente.",
+        "Cerrar con decision, motivo, limite del ejercicio y siguiente control."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "URL oficial, numero de tramite, fecha, comprobante, correo de confirmacion y proximo paso",
-        "Decision final y motivo"
+        "Descripcion del caso",
+        "numero, fecha o captura recuperada",
+        "Fecha aproximada y canal usado",
+        "Decision tomada y motivo",
+        "Duda que requiere validacion externa"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Rehacer el tramite sin revisar duplicados.",
+        "Compartir claves, codigos, documentos completos o datos personales.",
+        "Confiar solo en capturas o mensajes reenviados.",
+        "Borrar evidencia antes de entender el problema.",
+        "Tomar una practica educativa como solucion definitiva."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Crear carpeta de comprobantes.",
+        "Actualizar checklist personal, familiar o institucional.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Revisar si hace falta bloquear, reclamar, denunciar o consultar por canales oficiales."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision reduce mejor el riesgo?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Pausar, verificar por canal confiable, guardar evidencia y actuar solo con informacion suficiente.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: baja la probabilidad de fraude, exposicion o dano."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Responder rapido porque el mensaje parece urgente.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La urgencia suele ser parte del riesgo; primero se verifica."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Enviar mas datos para que otra persona decida.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Se comparte lo minimo necesario y por canales confiables."
           }
         ]
       }
     },
     {
-      "id": "case-4",
-      "title": "Caso de comunicacion con otra persona: Ciudadano Digital Argentina",
-      "summary": "Practica aplicada para resolver una situacion de uso ciudadano de identidad digital, portales publicos, turnos, claves y comprobantes con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una carpeta digital de gestiones ciudadanas sin exponer datos sensibles y con una decision verificable.",
+      "id": "ciudad-case-4",
+      "title": "Turno perdido",
+      "summary": "La persona no encuentra fecha, sede o requisito.",
+      "severity": "Practica sensible",
+      "immediateGoal": "Registrar turno completo.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Pausar la accion automatica y describir el disparador: confirmacion dispersa.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una carpeta digital de gestiones ciudadanas.",
-        "Revisar el resultado contra este criterio: la gestion queda documentada y puede retomarse sin repetir todo desde cero.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: guardar PDF/captura y calendario con alerta.",
+        "Guardar evidencia: turno con fecha, sede y requisitos.",
+        "Definir si alcanza una accion propia o si corresponde soporte, canal oficial, escuela, familia o profesional competente.",
+        "Cerrar con decision, motivo, limite del ejercicio y siguiente control."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "URL oficial, numero de tramite, fecha, comprobante, correo de confirmacion y proximo paso",
-        "Decision final y motivo"
+        "Descripcion del caso",
+        "turno con fecha, sede y requisitos",
+        "Fecha aproximada y canal usado",
+        "Decision tomada y motivo",
+        "Duda que requiere validacion externa"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Confiar en la memoria.",
+        "Compartir claves, codigos, documentos completos o datos personales.",
+        "Confiar solo en capturas o mensajes reenviados.",
+        "Borrar evidencia antes de entender el problema.",
+        "Tomar una practica educativa como solucion definitiva."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Usar calendario compartido si corresponde.",
+        "Actualizar checklist personal, familiar o institucional.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Revisar si hace falta bloquear, reclamar, denunciar o consultar por canales oficiales."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision reduce mejor el riesgo?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Pausar, verificar por canal confiable, guardar evidencia y actuar solo con informacion suficiente.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: baja la probabilidad de fraude, exposicion o dano."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Responder rapido porque el mensaje parece urgente.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La urgencia suele ser parte del riesgo; primero se verifica."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Enviar mas datos para que otra persona decida.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Se comparte lo minimo necesario y por canales confiables."
           }
         ]
       }
     },
     {
-      "id": "case-5",
-      "title": "Caso de error frecuente: Ciudadano Digital Argentina",
-      "summary": "Practica aplicada para resolver una situacion de uso ciudadano de identidad digital, portales publicos, turnos, claves y comprobantes con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una carpeta digital de gestiones ciudadanas sin exponer datos sensibles y con una decision verificable.",
+      "id": "ciudad-case-5",
+      "title": "Pago dudoso de servicio",
+      "summary": "Llega un link de deuda por mensaje.",
+      "severity": "Practica sensible",
+      "immediateGoal": "Verificar deuda por canal oficial.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Pausar la accion automatica y describir el disparador: mensaje con link de pago.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una carpeta digital de gestiones ciudadanas.",
-        "Revisar el resultado contra este criterio: la gestion queda documentada y puede retomarse sin repetir todo desde cero.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: entrar al portal oficial o app confiable antes de pagar.",
+        "Guardar evidencia: captura de deuda oficial o descarte.",
+        "Definir si alcanza una accion propia o si corresponde soporte, canal oficial, escuela, familia o profesional competente.",
+        "Cerrar con decision, motivo, limite del ejercicio y siguiente control."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "URL oficial, numero de tramite, fecha, comprobante, correo de confirmacion y proximo paso",
-        "Decision final y motivo"
+        "Descripcion del caso",
+        "captura de deuda oficial o descarte",
+        "Fecha aproximada y canal usado",
+        "Decision tomada y motivo",
+        "Duda que requiere validacion externa"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Pagar por miedo a corte inmediato.",
+        "Compartir claves, codigos, documentos completos o datos personales.",
+        "Confiar solo en capturas o mensajes reenviados.",
+        "Borrar evidencia antes de entender el problema.",
+        "Tomar una practica educativa como solucion definitiva."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Definir regla para links de pago.",
+        "Actualizar checklist personal, familiar o institucional.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Revisar si hace falta bloquear, reclamar, denunciar o consultar por canales oficiales."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision reduce mejor el riesgo?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Pausar, verificar por canal confiable, guardar evidencia y actuar solo con informacion suficiente.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: baja la probabilidad de fraude, exposicion o dano."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Responder rapido porque el mensaje parece urgente.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La urgencia suele ser parte del riesgo; primero se verifica."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Enviar mas datos para que otra persona decida.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Se comparte lo minimo necesario y por canales confiables."
           }
         ]
       }
     },
     {
-      "id": "case-6",
-      "title": "Caso de mejora de proceso: Ciudadano Digital Argentina",
-      "summary": "Practica aplicada para resolver una situacion de uso ciudadano de identidad digital, portales publicos, turnos, claves y comprobantes con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una carpeta digital de gestiones ciudadanas sin exponer datos sensibles y con una decision verificable.",
+      "id": "ciudad-case-6",
+      "title": "Documento enviado a canal equivocado",
+      "summary": "Se mando una foto de documento en un grupo.",
+      "severity": "Practica sensible",
+      "immediateGoal": "Reducir exposicion.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Pausar la accion automatica y describir el disparador: documento compartido de mas.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una carpeta digital de gestiones ciudadanas.",
-        "Revisar el resultado contra este criterio: la gestion queda documentada y puede retomarse sin repetir todo desde cero.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: borrar si es posible, avisar, cambiar claves si aplica y registrar riesgo.",
+        "Guardar evidencia: accion tomada y canal afectado.",
+        "Definir si alcanza una accion propia o si corresponde soporte, canal oficial, escuela, familia o profesional competente.",
+        "Cerrar con decision, motivo, limite del ejercicio y siguiente control."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "URL oficial, numero de tramite, fecha, comprobante, correo de confirmacion y proximo paso",
-        "Decision final y motivo"
+        "Descripcion del caso",
+        "accion tomada y canal afectado",
+        "Fecha aproximada y canal usado",
+        "Decision tomada y motivo",
+        "Duda que requiere validacion externa"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Ignorar porque ya paso.",
+        "Compartir claves, codigos, documentos completos o datos personales.",
+        "Confiar solo en capturas o mensajes reenviados.",
+        "Borrar evidencia antes de entender el problema.",
+        "Tomar una practica educativa como solucion definitiva."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Crear version marcada para tramites.",
+        "Actualizar checklist personal, familiar o institucional.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Revisar si hace falta bloquear, reclamar, denunciar o consultar por canales oficiales."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision reduce mejor el riesgo?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Pausar, verificar por canal confiable, guardar evidencia y actuar solo con informacion suficiente.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: baja la probabilidad de fraude, exposicion o dano."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Responder rapido porque el mensaje parece urgente.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La urgencia suele ser parte del riesgo; primero se verifica."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Enviar mas datos para que otra persona decida.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Se comparte lo minimo necesario y por canales confiables."
           }
         ]
       }
     },
     {
-      "id": "case-7",
-      "title": "Caso de decision responsable: Ciudadano Digital Argentina",
-      "summary": "Practica aplicada para resolver una situacion de uso ciudadano de identidad digital, portales publicos, turnos, claves y comprobantes con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una carpeta digital de gestiones ciudadanas sin exponer datos sensibles y con una decision verificable.",
+      "id": "ciudad-case-7",
+      "title": "Cambio de correo principal",
+      "summary": "Una cuenta oficial queda asociada a email viejo.",
+      "severity": "Practica sensible",
+      "immediateGoal": "Actualizar recuperacion.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Pausar la accion automatica y describir el disparador: correo sin acceso.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una carpeta digital de gestiones ciudadanas.",
-        "Revisar el resultado contra este criterio: la gestion queda documentada y puede retomarse sin repetir todo desde cero.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: entrar por canal oficial y actualizar email/telefono.",
+        "Guardar evidencia: cuenta con recuperacion vigente.",
+        "Definir si alcanza una accion propia o si corresponde soporte, canal oficial, escuela, familia o profesional competente.",
+        "Cerrar con decision, motivo, limite del ejercicio y siguiente control."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "URL oficial, numero de tramite, fecha, comprobante, correo de confirmacion y proximo paso",
-        "Decision final y motivo"
+        "Descripcion del caso",
+        "cuenta con recuperacion vigente",
+        "Fecha aproximada y canal usado",
+        "Decision tomada y motivo",
+        "Duda que requiere validacion externa"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Crear una cuenta nueva sin cerrar la anterior.",
+        "Compartir claves, codigos, documentos completos o datos personales.",
+        "Confiar solo en capturas o mensajes reenviados.",
+        "Borrar evidencia antes de entender el problema.",
+        "Tomar una practica educativa como solucion definitiva."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Revisar cuentas criticas.",
+        "Actualizar checklist personal, familiar o institucional.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Revisar si hace falta bloquear, reclamar, denunciar o consultar por canales oficiales."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision reduce mejor el riesgo?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Pausar, verificar por canal confiable, guardar evidencia y actuar solo con informacion suficiente.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: baja la probabilidad de fraude, exposicion o dano."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Responder rapido porque el mensaje parece urgente.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La urgencia suele ser parte del riesgo; primero se verifica."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Enviar mas datos para que otra persona decida.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Se comparte lo minimo necesario y por canales confiables."
           }
         ]
       }
     },
     {
-      "id": "case-8",
-      "title": "Proyecto final integrador: Ciudadano Digital Argentina",
-      "summary": "Practica aplicada para resolver una situacion de uso ciudadano de identidad digital, portales publicos, turnos, claves y comprobantes con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Proyecto final",
-      "immediateGoal": "Transformar el caso en una carpeta digital de gestiones ciudadanas sin exponer datos sensibles y con una decision verificable.",
+      "id": "ciudad-case-8",
+      "title": "Reclamo sin seguimiento",
+      "summary": "Se hizo una consulta pero no hay numero ni fecha.",
+      "severity": "Practica sensible",
+      "immediateGoal": "Crear registro de reclamo.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
+        "Pausar la accion automatica y describir el disparador: respuesta demorada.",
         "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una carpeta digital de gestiones ciudadanas.",
-        "Revisar el resultado contra este criterio: la gestion queda documentada y puede retomarse sin repetir todo desde cero.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Aplicar el criterio del curso: ordenar fecha, canal, numero y proximo paso.",
+        "Guardar evidencia: registro de seguimiento.",
+        "Definir si alcanza una accion propia o si corresponde soporte, canal oficial, escuela, familia o profesional competente.",
+        "Cerrar con decision, motivo, limite del ejercicio y siguiente control."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "URL oficial, numero de tramite, fecha, comprobante, correo de confirmacion y proximo paso",
-        "Decision final y motivo"
+        "Descripcion del caso",
+        "registro de seguimiento",
+        "Fecha aproximada y canal usado",
+        "Decision tomada y motivo",
+        "Duda que requiere validacion externa"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Reenviar el mismo mensaje sin datos.",
+        "Compartir claves, codigos, documentos completos o datos personales.",
+        "Confiar solo en capturas o mensajes reenviados.",
+        "Borrar evidencia antes de entender el problema.",
+        "Tomar una practica educativa como solucion definitiva."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
+        "Usar plantilla de reclamo.",
+        "Actualizar checklist personal, familiar o institucional.",
         "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Revisar si hace falta bloquear, reclamar, denunciar o consultar por canales oficiales."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision reduce mejor el riesgo?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Pausar, verificar por canal confiable, guardar evidencia y actuar solo con informacion suficiente.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: baja la probabilidad de fraude, exposicion o dano."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Responder rapido porque el mensaje parece urgente.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La urgencia suele ser parte del riesgo; primero se verifica."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Enviar mas datos para que otra persona decida.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Se comparte lo minimo necesario y por canales confiables."
           }
         ]
       }
