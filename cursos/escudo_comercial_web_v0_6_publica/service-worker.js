@@ -1,4 +1,4 @@
-const CACHE_NAME = "escudo_comercial_web_v0_6_publica-cache-v1-curso-completo";
+const CACHE_NAME = "escudo_comercial_web_v0_6_publica-cache-v2-libro-abierto";
 const APP_SHELL = [
   "./",
   "./index.html",

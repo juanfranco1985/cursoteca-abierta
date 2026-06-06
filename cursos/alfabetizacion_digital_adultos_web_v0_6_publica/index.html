@@ -3,65 +3,63 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Curso web educativo para adultos y personas mayores que quieren ganar autonomía digital paso a paso, con lenguaje simple, checklists prácticos y casos guiados cotidianos." />
-  <meta name="theme-color" content="#08111f" />
-  <meta name="application-name" content="Alfabetización Digital para Adultos" />
+  <meta name="description" content="Curso completo para desarrollar autonomia digital basica: dispositivos, internet, busqueda confiable, comunicacion, archivos, tramites y seguridad." />
+  <meta name="theme-color" content="#21130b" />
+  <meta name="application-name" content="Alfabetizacion Digital para Adultos" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-title" content="Alfabetización Digital" />
+  <meta name="apple-mobile-web-app-title" content="Alfabetizacion Digital" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet" />
   <link rel="manifest" href="manifest.webmanifest" />
   <link rel="icon" href="icons/icon.svg" type="image/svg+xml" />
   <link rel="apple-touch-icon" href="icons/icon-192.png" />
-  <title>Alfabetización Digital para Adultos — Guía Web</title>
-  <link rel="stylesheet" href="styles.css" />
+  <title>Alfabetizacion Digital para Adultos - Cursoteca Abierta</title>
+  <link rel="stylesheet" href="styles.css?v=20260605-libro-abierto" />
 </head>
 <body>
   <a class="skip-link" href="#app">Saltar al contenido principal</a>
-  <div class="app-shell">
-    <header class="topbar">
-      <a class="brand" href="#/" aria-label="Ir al inicio">
-        <span class="brand-mark" data-brand-mark>ADP</span>
-        <span>
-          <strong data-brand-name>Alfabetización Digital para Adultos</strong>
-          <small data-brand-subtitle>Curso web para aprender celular, WhatsApp, correo, archivos, trámites y seguridad básica</small>
-        </span>
-      </a>
-      <nav class="topnav" aria-label="Navegación principal">
-        <a class="portal-return" data-portal-return href="../../portal/portal_publico_profesional_v0_6/index.html">Menu principal</a>
-        <a href="#/modules" data-nav-modules>Módulos</a>
-        <a href="#/checklists" data-nav-checklists>Checklists</a>
-        <a href="#/incidents" data-nav-incidents>Casos</a>
-        <a href="#/step-guides">Guías paso a paso</a>
-        <a href="#/task-assistant">Asistente</a>
-        <a href="#/triage">Diagnóstico</a>
-        <a href="#/emergency-map">Mapa</a>
-        <a class="danger-link" href="#/emergency" data-nav-emergency>Emergencia</a>
-        <a href="#/accessibility">Accesibilidad</a>
-              <a href="#/publish">Publicación</a>
-      </nav>
-    </header>
-
-    <main id="app" class="main-content" tabindex="-1">
-      <section class="loading-card">
-        <h1>Cargando curso…</h1>
-        <p>Si abriste este archivo directamente con doble clic y no carga, usá VS Code + Live Server.</p>
-      </section>
-    </main>
-
-    <footer class="footer">
-      <a class="portal-footer-link" data-portal-footer href="../../portal/portal_publico_profesional_v0_6/index.html">Volver al portal</a>
-      <span data-footer-version>Cursoteca Abierta - Curso gratuito</span>
-      <a href="#/legal">Alcance y privacidad</a>
-      <a href="#/certificate">Constancia</a>
-      <a href="#/step-guides">Guías paso a paso</a>
-      <a href="#/task-assistant">Asistente de tareas</a>
-      <a href="#/triage">Diagnóstico rápido</a>
-      <a href="#/emergency-map">Mapa de rutas</a>
-      <a href="#/print-checklist">Checklist imprimible</a>
-      <a href="#/template">Guía para clonar</a>
-      <a href="#/accessibility">Accesibilidad</a>
-      <a href="#/publish">Publicación</a>
-    </footer>
-  </div>
-  <script src="src/app.js" defer></script>
+  <nav class="meson-nav" aria-label="Navegacion principal del curso">
+    <a class="logo-club" href="#/" aria-label="Ir a portada del curso">
+      <span data-brand-name>Alfabetizacion Digital</span>
+      <small data-brand-subtitle>Curso completo para desarrollar autonomia digital basica: dispositivos, internet, busqueda confiable, comunicacion, archivos, tramites y seguridad.</small>
+    </a>
+    <div class="controles-meson">
+      <label class="sr-only" for="selector-ambiente">Ambiente de lectura</label>
+      <select class="selector-candil" id="selector-ambiente">
+        <option value="candil">Tarde de candil</option>
+        <option value="claro">Manana clara</option>
+        <option value="nocturno">Estudio nocturno</option>
+      </select>
+      <div class="menu-meson">
+        <a data-portal-return href="../../portal/portal_publico_profesional_v0_6/index.html">Ver estanterias</a>
+        <a href="#/">Portada</a>
+        <a href="#/checklists">Checklists</a>
+        <a href="#/incidents">Casos</a>
+      </div>
+    </div>
+  </nav>
+  <main id="app" tabindex="-1">
+    <section class="escena-libro-abierto">
+      <div class="mueble-libro">
+        <div class="pagina-izq">
+          <span class="curso-categoria">Manual de estudio</span>
+          <h1 class="curso-titulo-abierto">Alfabetizacion Digital</h1>
+        </div>
+        <div class="pagina-der">
+          <div class="leccion-meta">AD</div>
+          <h2 class="leccion-titulo">Cargando volumen...</h2>
+          <div class="leccion-texto"><p>Si abriste este archivo directamente con doble clic y no carga, usa un servidor local.</p></div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <a data-portal-return href="../../portal/portal_publico_profesional_v0_6/index.html">Volver al portal</a>
+    <span>Cursoteca Abierta - Curso gratuito</span>
+    <a href="#/legal">Alcance y privacidad</a>
+    <a href="#/certificate">Constancia</a>
+  </footer>
+  <script src="src/app.js?v=20260605-libro-abierto" defer></script>
 </body>
 </html>

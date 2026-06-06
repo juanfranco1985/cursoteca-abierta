@@ -3,56 +3,63 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Curso práctico para aprender conceptos de Tableau, dimensiones y medidas, elección de gráficos, dashboards, filtros, storytelling visual, claridad visual y comunicación de hallazgos." />
-  <meta name="theme-color" content="#08111f" />
+  <meta name="description" content="Curso practico para crear visualizaciones y dashboards claros, con filtros utiles y lectura responsable." />
+  <meta name="theme-color" content="#21130b" />
   <meta name="application-name" content="Tableau para Visualización de Datos" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-title" content="Tableau Datos" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet" />
   <link rel="manifest" href="manifest.webmanifest" />
   <link rel="icon" href="icons/icon.svg" type="image/svg+xml" />
   <link rel="apple-touch-icon" href="icons/icon-192.png" />
-  <title>Tableau para Visualización de Datos — Curso Web</title>
-  <link rel="stylesheet" href="styles.css" />
+  <title>Tableau para Visualización de Datos - Cursoteca Abierta</title>
+  <link rel="stylesheet" href="styles.css?v=20260605-libro-abierto" />
 </head>
 <body>
   <a class="skip-link" href="#app">Saltar al contenido principal</a>
-  <div class="app-shell">
-    <header class="topbar">
-      <a class="brand" href="#/" aria-label="Ir al inicio">
-        <span class="brand-mark" data-brand-mark>TPV</span>
-        <span>
-          <strong data-brand-name>Tableau para Visualización de Datos</strong>
-          <small data-brand-subtitle>Curso web de visualización, dashboards y storytelling con datos</small>
-        </span>
-      </a>
-      <nav class="topnav" aria-label="Navegación principal">
-        <a class="portal-return" data-portal-return href="../../portal/portal_publico_profesional_v0_6/index.html">Menu principal</a>
-        <a href="#/modules" data-nav-modules>Módulos</a>
-        <a href="#/checklists" data-nav-checklists>Checklists</a>
-        <a href="#/incidents" data-nav-incidents>Casos</a>
-        <a class="danger-link" href="#/emergency" data-nav-emergency>Emergencia</a>
-        <a href="#/accessibility">Accesibilidad</a>
-        <a href="#/publish">Publicación</a>
-      </nav>
-    </header>
-
-    <main id="app" class="main-content" tabindex="-1">
-      <section class="loading-card">
-        <h1>Cargando curso…</h1>
-        <p>Si abriste este archivo directamente con doble clic y no carga, usá VS Code + Live Server.</p>
-      </section>
-    </main>
-
-    <footer class="footer">
-      <a class="portal-footer-link" data-portal-footer href="../../portal/portal_publico_profesional_v0_6/index.html">Volver al portal</a>
-      <span data-footer-version>Cursoteca Abierta - Curso gratuito</span>
-      <a href="#/legal">Alcance y privacidad</a>
-      <a href="#/certificate">Constancia</a>
-      <a href="#/template">Guía para clonar</a>
-      <a href="#/accessibility">Accesibilidad</a>
-        <a href="#/publish">Publicación</a>
-    </footer>
-  </div>
-  <script src="src/app.js" defer></script>
+  <nav class="meson-nav" aria-label="Navegacion principal del curso">
+    <a class="logo-club" href="#/" aria-label="Ir a portada del curso">
+      <span data-brand-name>Tableau Datos</span>
+      <small data-brand-subtitle>Curso practico para crear visualizaciones y dashboards claros, con filtros utiles y lectura responsable.</small>
+    </a>
+    <div class="controles-meson">
+      <label class="sr-only" for="selector-ambiente">Ambiente de lectura</label>
+      <select class="selector-candil" id="selector-ambiente">
+        <option value="candil">Tarde de candil</option>
+        <option value="claro">Manana clara</option>
+        <option value="nocturno">Estudio nocturno</option>
+      </select>
+      <div class="menu-meson">
+        <a data-portal-return href="../../portal/portal_publico_profesional_v0_6/index.html">Ver estanterias</a>
+        <a href="#/">Portada</a>
+        <a href="#/checklists">Checklists</a>
+        <a href="#/incidents">Casos</a>
+      </div>
+    </div>
+  </nav>
+  <main id="app" tabindex="-1">
+    <section class="escena-libro-abierto">
+      <div class="mueble-libro">
+        <div class="pagina-izq">
+          <span class="curso-categoria">Manual de estudio</span>
+          <h1 class="curso-titulo-abierto">Tableau Datos</h1>
+        </div>
+        <div class="pagina-der">
+          <div class="leccion-meta">TD</div>
+          <h2 class="leccion-titulo">Cargando volumen...</h2>
+          <div class="leccion-texto"><p>Si abriste este archivo directamente con doble clic y no carga, usa un servidor local.</p></div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <a data-portal-return href="../../portal/portal_publico_profesional_v0_6/index.html">Volver al portal</a>
+    <span>Cursoteca Abierta - Curso gratuito</span>
+    <a href="#/legal">Alcance y privacidad</a>
+    <a href="#/certificate">Constancia</a>
+  </footer>
+  <script src="src/app.js?v=20260605-libro-abierto" defer></script>
 </body>
 </html>

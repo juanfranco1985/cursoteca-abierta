@@ -1,17 +1,65 @@
-<!doctype css>
-<css lang="es">
+<!doctype html>
+<html lang="es">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>CSS Práctico para Principiantes</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="manifest" href="manifest.webmanifest">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Curso practico para dar estilo a paginas web con selectores, espaciado, tarjetas, formularios, Flexbox y responsive." />
+  <meta name="theme-color" content="#21130b" />
+  <meta name="application-name" content="CSS Practico para Principiantes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-title" content="CSS Practico para Principiantes" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="icons/icon-192.png" />
+  <title>CSS Practico para Principiantes - Cursoteca Abierta</title>
+  <link rel="stylesheet" href="styles.css?v=20260605-libro-abierto" />
 </head>
 <body>
-  <a class="skip" href="#app">Saltar al contenido</a>
-  <header class="topbar"><div><strong>CSS Práctico</strong><span>Ruta Desarrollo Web y Programación</span></div><nav id="nav"><a class="portal-return" data-portal-return href="../../portal/portal_publico_profesional_v0_6/index.html">Menu principal</a></nav></header>
-  <main id="app" tabindex="-1"></main>
-  <footer><a class="portal-footer-link" data-portal-footer href="../../portal/portal_publico_profesional_v0_6/index.html">Volver al portal</a> <span id="status">Curso web local</span></footer>
-  <script src="src/app.js"></script>
+  <a class="skip-link" href="#app">Saltar al contenido principal</a>
+  <nav class="meson-nav" aria-label="Navegacion principal del curso">
+    <a class="logo-club" href="#/" aria-label="Ir a portada del curso">
+      <span data-brand-name>CSS Practico para Principiantes</span>
+      <small data-brand-subtitle>Curso practico para dar estilo a paginas web con selectores, espaciado, tarjetas, formularios, Flexbox y responsive.</small>
+    </a>
+    <div class="controles-meson">
+      <label class="sr-only" for="selector-ambiente">Ambiente de lectura</label>
+      <select class="selector-candil" id="selector-ambiente">
+        <option value="candil">Tarde de candil</option>
+        <option value="claro">Manana clara</option>
+        <option value="nocturno">Estudio nocturno</option>
+      </select>
+      <div class="menu-meson">
+        <a data-portal-return href="../../portal/portal_publico_profesional_v0_6/index.html">Ver estanterias</a>
+        <a href="#/">Portada</a>
+        <a href="#/checklists">Checklists</a>
+        <a href="#/incidents">Casos</a>
+      </div>
+    </div>
+  </nav>
+  <main id="app" tabindex="-1">
+    <section class="escena-libro-abierto">
+      <div class="mueble-libro">
+        <div class="pagina-izq">
+          <span class="curso-categoria">Manual de estudio</span>
+          <h1 class="curso-titulo-abierto">CSS Practico para Principiantes</h1>
+        </div>
+        <div class="pagina-der">
+          <div class="leccion-meta">CPP</div>
+          <h2 class="leccion-titulo">Cargando volumen...</h2>
+          <div class="leccion-texto"><p>Si abriste este archivo directamente con doble clic y no carga, usa un servidor local.</p></div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <a data-portal-return href="../../portal/portal_publico_profesional_v0_6/index.html">Volver al portal</a>
+    <span>Cursoteca Abierta - Curso gratuito</span>
+    <a href="#/legal">Alcance y privacidad</a>
+    <a href="#/certificate">Constancia</a>
+  </footer>
+  <script src="src/app.js?v=20260605-libro-abierto" defer></script>
 </body>
-</css>
+</html>

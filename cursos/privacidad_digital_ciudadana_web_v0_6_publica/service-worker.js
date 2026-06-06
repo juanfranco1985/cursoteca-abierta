@@ -1,4 +1,4 @@
-const CACHE_NAME = "privacidad-digital-ciudadana-web-v0-6-publica-cache-v0-6-publica-profesional-nav-v1";
+const CACHE_NAME = "privacidad_digital_ciudadana_web_v0_6_publica-cache-v2-libro-abierto";
 const APP_SHELL = [
   "./",
   "./index.html",

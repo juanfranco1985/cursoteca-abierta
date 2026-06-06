@@ -1,4 +1,4 @@
-const CACHE_NAME = "ciudadano_digital_argentina_v0_6_publica-cache-0.7-tanda-6";
+const CACHE_NAME = "ciudadano_digital_argentina_v0_6_publica-cache-v2-libro-abierto";
 const APP_SHELL = [
   "./",
   "./index.html",

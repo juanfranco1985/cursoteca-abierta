@@ -1,4 +1,4 @@
-const CACHE_NAME = "sql-practico-analisis-datos-web-v0-6-publica-cache-v0-6-publica-profesional-nav-v1";
+const CACHE_NAME = "sql_practico_analisis_datos_web_v0_6_publica-cache-v2-libro-abierto";
 const APP_SHELL = [
   "./",
   "./index.html",

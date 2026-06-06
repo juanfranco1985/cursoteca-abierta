@@ -1,4 +1,4 @@
-const CACHE_NAME = "atencion_cliente_whatsapp_redes_v0_6_publica-cache-0.7-tanda-1";
+const CACHE_NAME = "atencion_cliente_whatsapp_redes_v0_6_publica-cache-v2-libro-abierto";
 const APP_SHELL = [
   "./",
   "./index.html",

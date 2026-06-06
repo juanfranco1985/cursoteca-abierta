@@ -1,96 +1,727 @@
+const MANIFEST_PATH = "src/data/course_manifest.json";
+const PORTAL_PATH = "../../portal/portal_publico_profesional_v0_6/index.html";
 
-const state={manifest:null,course:null,checklists:null,incidents:null,cssLab:null,cssBuilder:null,landingProject:null,progress:{lessons:{},checklists:{},quiz:{},cssLabHistory:[],cssBuilderHistory:[],landingHistory:[]}};
-const key='css_practico_principiantes_progress_v04';
-const $=s=>document.querySelector(s);
-async function loadJson(path){const r=await fetch(path); if(!r.ok) throw new Error(path); return r.json();}
-function save(){localStorage.setItem(key,JSON.stringify(state.progress));}
-function loadProgress(){try{state.progress={...state.progress,...(JSON.parse(localStorage.getItem(key))||{})}}catch(e){}}
-function escapeHtml(s=''){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
-function downloadText(filename,text){const blob=new Blob([text],{type:'text/plain;charset=utf-8'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=filename;a.click();URL.revokeObjectURL(a.href);}
-async function copyText(text){try{await navigator.clipboard.writeText(text); alert('Copiado al portapapeles');}catch(e){alert('No se pudo copiar automáticamente. Podés seleccionar y copiar manualmente.');}}
-function renderPreview(html,css){return `<!doctype html><html lang="es"><head><meta charset="utf-8"><style>body{font-family:system-ui,sans-serif;padding:18px;background:#f8fafc;color:#111827}${css||''}</style></head><body>${html||''}</body></html>`;}
-function nav(){const links=[['Inicio','#/'],['Módulos','#/modules'],['Laboratorio CSS','#/css-lab'],['Constructor','#/css-builder'],['Landing responsive','#/landing-project'],['Ejercicios','#/css-exercises'],['Fragmentos','#/css-snippets'],['Checklists','#/checklists'],['Casos','#/cases'],['Certificado','#/certificate']]; $('#nav').innerHTML=links.map(([t,h])=>`<a class="btn secondary" href="${h}">${t}</a>`).join('');}
-function pct(){const total=state.course.modules.flatMap(m=>m.lessons).length; const done=Object.keys(state.progress.lessons||{}).length; return Math.round(done/total*100);}
-function shell(title,body){$('#app').innerHTML=`<section class="hero"><span class="pill">${state.manifest.category}</span><h1>${title}</h1><p class="muted">${state.manifest.subtitle}</p><div class="progress"><span style="width:${pct()}%"></span></div><p>${pct()}% de lecciones completadas</p></section>${body}`;}
-function home(){shell(state.manifest.title,`<div class="grid"><div class="card"><h2>Curso base</h2><p>Aprendé CSS creando estilos reales para páginas web simples.</p><a class="btn" href="#/modules">Ver módulos</a></div><div class="card"><h2>Laboratorio CSS</h2><p>Probá ejemplos editables, vista previa y ejercicios guiados.</p><a class="btn" href="#/css-lab">Abrir laboratorio</a></div><div class="card"><h2>Constructor visual</h2><p>Creá tarjetas y botones ajustando color, borde, sombra, padding y tipografía.</p><a class="btn" href="#/css-builder">Abrir constructor</a></div><div class="card"><h2>Landing responsive</h2><p>Construí una landing con hero, tarjetas, llamada a la acción, contacto y revisión responsive.</p><a class="btn" href="#/landing-project">Abrir proyecto guiado</a></div><div class="card"><h2>Fragmentos copiables</h2><p>Usá pequeñas bases CSS para tarjetas, botones y layouts.</p><a class="btn secondary" href="#/css-snippets">Ver fragmentos</a></div></div>`)}
-function modules(){shell('Módulos',`<div class="grid">${state.course.modules.map(m=>`<article class="card"><h2>${m.title}</h2><p>${m.description}</p><p class="muted">${m.lessons.length} lecciones · ${m.quiz.length} preguntas</p><a class="btn" href="#/module/${m.id}">Abrir</a></article>`).join('')}</div>`)}
-function module(id){const m=state.course.modules.find(x=>x.id===id); if(!m)return home(); shell(m.title,`<div class="card"><p>${m.description}</p><a class="btn secondary" href="#/quiz/${m.id}">Quiz del módulo</a></div><div class="grid">${m.lessons.map(l=>`<article class="card"><h3>${state.progress.lessons[l.id]?'✅ ':''}${l.title}</h3><p>${l.keyIdea}</p><a class="btn" href="#/lesson/${m.id}/${l.id}">Leer</a></article>`).join('')}</div>`)}
-function lesson(mid,lid){const m=state.course.modules.find(x=>x.id===mid); const l=m?.lessons.find(x=>x.id===lid); if(!l)return home(); shell(l.title,`<article class="card lesson"><p><strong>Idea clave:</strong> ${l.keyIdea}</p><p>${l.shortTheory}</p><p><strong>Ejemplo:</strong> ${l.practicalExample}</p><p><strong>Error común:</strong> ${l.commonMistake}</p><p><strong>Qué hacer ahora:</strong> ${l.whatToDoNow}</p><pre class="code">.tarjeta {\n  padding: 1rem;\n  border-radius: 1rem;\n  background: #ffffff;\n}</pre><button onclick="state.progress.lessons['${l.id}']=true;save();router()">Marcar como completada</button></article>`)}
-function quiz(mid){const m=state.course.modules.find(x=>x.id===mid); if(!m)return home(); shell(`Quiz: ${m.title}`,`<form class="card" id="quizForm">${m.quiz.map((q,i)=>`<fieldset><legend>${q.question}</legend>${q.options.map((o,oi)=>`<label><input type="radio" name="q${i}" value="${oi}"> ${o}</label><br>`).join('')}</fieldset>`).join('')}<button>Finalizar quiz</button><p id="quizResult"></p></form>`); $('#quizForm').onsubmit=e=>{e.preventDefault(); let score=0; m.quiz.forEach((q,i)=>{const v=Number(new FormData(e.target).get('q'+i)); if(v===q.correctAnswerIndex)score++}); state.progress.quiz[mid]=score; save(); $('#quizResult').textContent=`Resultado: ${score}/${m.quiz.length}`}}
-function cssLab(){shell('Laboratorio CSS interactivo',`<div class="grid"><article class="card"><h2>Ejemplos editables</h2><p>Probá CSS y mirá una vista previa simulada.</p><a class="btn" href="#/css-examples">Abrir ejemplos</a></article><article class="card"><h2>Ejercicios guiados</h2><p>Resolvé prácticas con pistas y solución sugerida.</p><a class="btn" href="#/css-exercises">Practicar</a></article><article class="card"><h2>CSS correcto e incorrecto</h2><p>Compará errores comunes y alternativas mejores.</p><a class="btn secondary" href="#/css-compare">Comparar</a></article><article class="card"><h2>Constructor visual</h2><p>Generá tarjetas y botones desde controles simples.</p><a class="btn" href="#/css-builder">Construir</a></article><article class="card"><h2>Fragmentos copiables</h2><p>Guardá bases simples para reutilizar.</p><a class="btn secondary" href="#/css-snippets">Ver snippets</a></article></div>`)}
-function cssExamples(){shell('Ejemplos CSS editables',`<div class="grid">${state.cssLab.examples.map(e=>`<article class="card"><h2>${e.title}</h2><p>${e.description}</p><a class="btn" href="#/css-example/${e.id}">Abrir</a></article>`).join('')}</div>`)}
-function cssExample(id){const ex=state.cssLab.examples.find(x=>x.id===id); if(!ex)return cssExamples(); shell(ex.title,`<section class="lab-grid"><div class="card"><h2>HTML</h2><textarea id="htmlInput">${escapeHtml(ex.html)}</textarea><h2>CSS</h2><textarea id="cssInput">${escapeHtml(ex.css)}</textarea><button id="refreshPreview">Actualizar vista previa</button> <button id="copyPractice" class="secondary">Copiar práctica</button> <button id="downloadPractice" class="secondary">Descargar .txt</button></div><div class="card"><h2>Vista previa simulada</h2><iframe id="preview" class="preview" sandbox=""></iframe></div></section>`); const update=()=>{$('#preview').srcdoc=renderPreview($('#htmlInput').value,$('#cssInput').value)}; $('#refreshPreview').onclick=update; $('#copyPractice').onclick=()=>copyText(`HTML:\n${$('#htmlInput').value}\n\nCSS:\n${$('#cssInput').value}`); $('#downloadPractice').onclick=()=>downloadText(`${ex.id}.txt`,`HTML:\n${$('#htmlInput').value}\n\nCSS:\n${$('#cssInput').value}`); state.progress.cssLabHistory=[...(state.progress.cssLabHistory||[]),{type:'example',id:ex.id,date:new Date().toISOString()}].slice(-20); save(); update();}
-function cssExercises(){shell('Ejercicios CSS guiados',`<div class="grid">${state.cssLab.exercises.map(e=>`<article class="card"><h2>${e.title}</h2><p>${e.goal}</p><a class="btn" href="#/css-exercise/${e.id}">Resolver</a></article>`).join('')}</div>`)}
-function cssExercise(id){const ex=state.cssLab.exercises.find(x=>x.id===id); if(!ex)return cssExercises(); shell(ex.title,`<section class="lab-grid"><div class="card"><p><strong>Objetivo:</strong> ${ex.goal}</p><p class="muted"><strong>Pista:</strong> ${ex.hint}</p><h2>HTML</h2><textarea id="htmlInput">${escapeHtml(ex.starterHtml)}</textarea><h2>Tu CSS</h2><textarea id="cssInput">${escapeHtml(ex.starterCss)}</textarea><button id="refreshPreview">Actualizar vista previa</button> <button id="showSolution" class="secondary">Ver solución sugerida</button> <button id="downloadPractice" class="secondary">Descargar práctica</button><pre class="code" id="solution" hidden>${escapeHtml(ex.suggestedCss)}</pre></div><div class="card"><h2>Vista previa simulada</h2><iframe id="preview" class="preview" sandbox=""></iframe></div></section>`); const update=()=>{$('#preview').srcdoc=renderPreview($('#htmlInput').value,$('#cssInput').value)}; $('#refreshPreview').onclick=update; $('#showSolution').onclick=()=>{$('#solution').hidden=!$('#solution').hidden}; $('#downloadPractice').onclick=()=>downloadText(`${ex.id}.txt`,`Ejercicio: ${ex.title}\n\nHTML:\n${$('#htmlInput').value}\n\nTu CSS:\n${$('#cssInput').value}\n\nSolución sugerida:\n${ex.suggestedCss}`); state.progress.cssLabHistory=[...(state.progress.cssLabHistory||[]),{type:'exercise',id:ex.id,date:new Date().toISOString()}].slice(-20); save(); update();}
-function cssCompare(){shell('CSS correcto e incorrecto',`<div class="grid">${state.cssLab.comparisons.map(c=>`<article class="card"><h2>${c.title}</h2><p>${c.explanation}</p><h3>A evitar</h3><pre class="code bad">${escapeHtml(c.wrongCss)}</pre><h3>Mejor alternativa</h3><pre class="code good">${escapeHtml(c.rightCss)}</pre></article>`).join('')}</div>`)}
-function cssSnippets(){shell('Fragmentos CSS copiables',`<div class="grid">${state.cssLab.snippets.map(s=>`<article class="card"><h2>${s.title}</h2><pre class="code">${escapeHtml(s.css)}</pre><button onclick="copyText(${JSON.stringify(s.css)})">Copiar</button></article>`).join('')}</div>`)}
-function builderCss(values,type){
-  const shadow=values.shadow?'box-shadow:0 14px 35px rgba(15,23,42,.18);':'';
-  const border=values.border?'border:1px solid #cbd5e1;':'border:0;';
-  if(type==='button'){
-    return `.boton-demo {\n  display: inline-block;\n  padding: ${values.padding}px ${Math.round(values.padding*1.5)}px;\n  border-radius: ${values.borderRadius}px;\n  background: ${values.primaryColor};\n  color: ${values.textColor};\n  font-size: ${values.fontSize}px;\n  font-weight: 700;\n  text-decoration: none;\n  ${border}\n  ${shadow}\n}`;
+let manifest = null;
+let course = null;
+let checklists = [];
+let incidents = [];
+let quizRuntime = { moduleId: null, answers: {} };
+
+const app = document.querySelector("#app");
+const themeSelect = document.querySelector("#selector-ambiente");
+
+function storageKey() {
+  const id = manifest?.courseId || "curso-web";
+  return `curso-web:${id}:progress:v2-libro-abierto`;
+}
+
+function notesKey(scope) {
+  const id = manifest?.courseId || "curso-web";
+  return `curso-web:${id}:notes:${scope}:v1`;
+}
+
+function themeKey() {
+  const id = manifest?.courseId || "curso-web";
+  return `curso-web:${id}:ambiente:v1`;
+}
+
+const emptyProgress = () => ({
+  lessons: [],
+  quizzes: {},
+  checklistItems: [],
+  visitedIncidents: [],
+  updatedAt: null
+});
+
+const storage = {
+  read() {
+    try {
+      const raw = localStorage.getItem(storageKey());
+      return raw ? { ...emptyProgress(), ...JSON.parse(raw) } : emptyProgress();
+    } catch {
+      return emptyProgress();
+    }
+  },
+  write(next) {
+    localStorage.setItem(storageKey(), JSON.stringify({ ...next, updatedAt: new Date().toISOString() }));
+  },
+  update(mutator) {
+    const state = this.read();
+    mutator(state);
+    this.write(state);
+    return state;
+  },
+  reset() {
+    localStorage.removeItem(storageKey());
   }
-  return `.tarjeta-demo {\n  max-width: 360px;\n  padding: ${values.padding}px;\n  border-radius: ${values.borderRadius}px;\n  background: ${values.backgroundColor};\n  color: ${values.textColor};\n  font-size: ${values.fontSize}px;\n  ${border}\n  ${shadow}\n}\n.tarjeta-demo h2 {\n  margin-top: 0;\n}\n.tarjeta-demo a {\n  display: inline-block;\n  margin-top: 12px;\n  padding: 10px 14px;\n  border-radius: ${Math.max(8,Math.round(values.borderRadius/1.6))}px;\n  background: ${values.primaryColor};\n  color: #111827;\n  font-weight: 700;\n  text-decoration: none;\n}`;
-}
-function builderHtml(values,type){
-  if(type==='button') return `<a class="boton-demo" href="#">${escapeHtml(values.buttonText||'Botón')}</a>`;
-  return `<article class="tarjeta-demo">\n  <h2>${escapeHtml(values.title||'Título de la tarjeta')}</h2>\n  <p>${escapeHtml(values.subtitle||'Texto descriptivo de la tarjeta.')}</p>\n  <a href="#">${escapeHtml(values.buttonText||'Ver más')}</a>\n</article>`;
-}
-function cssBuilder(){shell('Constructor visual de tarjetas y botones',`<div class="grid">${state.cssBuilder.presets.map(p=>`<article class="card"><h2>${p.title}</h2><p>${p.description}</p><a class="btn" href="#/css-builder/${p.id}">Abrir plantilla</a></article>`).join('')}</div><article class="card"><h2>Consejos rápidos</h2><ul>${state.cssBuilder.tips.map(t=>`<li>${t}</li>`).join('')}</ul></article>`)}
-function cssBuilderPreset(id){const preset=state.cssBuilder.presets.find(p=>p.id===id); if(!preset)return cssBuilder(); const d=preset.defaults; shell(`Constructor: ${preset.title}`,`<section class="lab-grid"><div class="card"><p>${preset.description}</p><form id="builderForm" class="builder-form"><label>Título <input name="title" value="${escapeHtml(d.title)}"></label><label>Texto descriptivo <textarea name="subtitle">${escapeHtml(d.subtitle)}</textarea></label><label>Texto del botón <input name="buttonText" value="${escapeHtml(d.buttonText)}"></label><div class="control-grid"><label>Color principal <input type="color" name="primaryColor" value="${d.primaryColor}"></label><label>Fondo <input type="color" name="backgroundColor" value="${d.backgroundColor}"></label><label>Texto <input type="color" name="textColor" value="${d.textColor}"></label></div><label>Radio de borde <input type="range" min="0" max="40" name="borderRadius" value="${d.borderRadius}"></label><label>Padding <input type="range" min="8" max="40" name="padding" value="${d.padding}"></label><label>Tamaño de letra <input type="range" min="13" max="22" name="fontSize" value="${d.fontSize}"></label><label><input type="checkbox" name="shadow" ${d.shadow?'checked':''}> Usar sombra</label><label><input type="checkbox" name="border" ${d.border?'checked':''}> Usar borde</label></form><button id="refreshBuilder">Actualizar vista previa</button> <button id="copyBuilder" class="secondary">Copiar HTML/CSS</button> <button id="downloadBuilder" class="secondary">Descargar .html</button><h2>HTML generado</h2><pre class="code" id="generatedHtml"></pre><h2>CSS generado</h2><pre class="code" id="generatedCss"></pre></div><div class="card"><h2>Vista previa</h2><iframe id="preview" class="preview" sandbox=""></iframe></div></section>`); const collect=()=>{const fd=new FormData($('#builderForm')); return {title:fd.get('title'),subtitle:fd.get('subtitle'),buttonText:fd.get('buttonText'),primaryColor:fd.get('primaryColor'),backgroundColor:fd.get('backgroundColor'),textColor:fd.get('textColor'),borderRadius:Number(fd.get('borderRadius')),padding:Number(fd.get('padding')),fontSize:Number(fd.get('fontSize')),shadow:fd.get('shadow')==='on',border:fd.get('border')==='on'};}; const update=()=>{const v=collect(); const html=builderHtml(v,preset.type); const css=builderCss(v,preset.type); $('#generatedHtml').textContent=html; $('#generatedCss').textContent=css; $('#preview').srcdoc=renderPreview(html,css); return {html,css};}; $('#builderForm').oninput=update; $('#refreshBuilder').onclick=update; $('#copyBuilder').onclick=()=>{const {html,css}=update(); copyText(`HTML:\n${html}\n\nCSS:\n${css}`)}; $('#downloadBuilder').onclick=()=>{const {html,css}=update(); downloadText(`${preset.id}.html`,`<!doctype html>\n<html lang="es">\n<head>\n  <meta charset="utf-8">\n  <meta name="viewport" content="width=device-width, initial-scale=1">\n  <title>${preset.title}</title>\n  <style>\n${css}\n  </style>\n</head>\n<body>\n${html}\n</body>\n</html>`)}; state.progress.cssBuilderHistory=[...(state.progress.cssBuilderHistory||[]),{preset:preset.id,date:new Date().toISOString()}].slice(-20); save(); update();}
+};
 
-
-function landingPageHtml(v){
-  const benefits=[v.benefit1,v.benefit2,v.benefit3].filter(Boolean);
-  return `<main class="landing-demo">
-  <section class="landing-hero">
-    <p class="eyebrow">Proyecto guiado CSS</p>
-    <h1>${escapeHtml(v.pageTitle||'Landing responsive')}</h1>
-    <p>${escapeHtml(v.subtitle||'Una página simple creada con HTML y CSS.')}</p>
-    <a class="landing-button" href="#contacto">${escapeHtml(v.primaryAction||'Quiero saber más')}</a>
-  </section>
-  <section class="landing-benefits" aria-label="Beneficios">
-    ${benefits.map((b,i)=>`<article class="landing-card"><strong>${i+1}</strong><h2>${escapeHtml(b)}</h2><p>Texto breve para explicar este beneficio con claridad.</p></article>`).join('\n    ')}
-  </section>
-  <section class="landing-visual">
-    <div class="visual-placeholder" role="img" aria-label="Recurso visual decorativo">CSS + HTML</div>
-    <div><h2>Sección visual</h2><p>Este bloque muestra cómo combinar texto, color y espacio sin usar imágenes externas.</p></div>
-  </section>
-  <section class="landing-cta" id="contacto">
-    <h2>Próximo paso</h2>
-    <p>${escapeHtml(v.contactText||'Escribinos para conocer más.')}</p>
-    <a class="landing-button" href="mailto:contacto@example.com">Contacto</a>
-  </section>
-</main>`;
+function esc(value = "") {
+  return String(value)
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
 }
-function landingPageCss(v){
-  const primary=v.primaryColor||'#38bdf8'; const accent=v.accentColor||'#a78bfa';
-  return `* { box-sizing: border-box; }
-body { margin: 0; font-family: system-ui, sans-serif; background: #0f172a; color: #f8fafc; }
-.landing-demo { max-width: 1080px; margin: 0 auto; padding: 28px; }
-.landing-hero { padding: 64px 24px; border-radius: 28px; background: linear-gradient(135deg, ${primary}, ${accent}); color: #0f172a; text-align: center; }
-.eyebrow { text-transform: uppercase; letter-spacing: .12em; font-weight: 800; }
-.landing-hero h1 { font-size: clamp(2rem, 7vw, 4.5rem); margin: 12px 0; }
-.landing-hero p { max-width: 720px; margin: 0 auto 22px; font-size: 1.15rem; }
-.landing-button { display: inline-block; padding: 14px 18px; border-radius: 999px; background: #0f172a; color: #f8fafc; font-weight: 800; text-decoration: none; }
-.landing-benefits { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; margin: 28px 0; }
-.landing-card { padding: 22px; border-radius: 22px; background: #1e293b; border: 1px solid #334155; }
-.landing-card strong { display: inline-grid; place-items: center; width: 34px; height: 34px; border-radius: 50%; background: ${primary}; color: #0f172a; }
-.landing-visual, .landing-cta { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; align-items: center; margin: 28px 0; padding: 24px; border-radius: 24px; background: #111827; border: 1px solid #334155; }
-.visual-placeholder { min-height: 220px; border-radius: 22px; display: grid; place-items: center; font-size: 2rem; font-weight: 900; background: radial-gradient(circle at top left, ${accent}, #1e293b 60%); }
-.landing-cta { grid-template-columns: 1fr; text-align: center; }
-@media (max-width: 720px) {
-  .landing-demo { padding: 14px; }
-  .landing-hero { padding: 42px 18px; }
-  .landing-visual { grid-template-columns: 1fr; }
-}`;
-}
-function landingProject(){const lp=state.landingProject; shell('Proyecto guiado: landing responsive',`<div class="grid"><article class="card"><h2>${lp.projectTitle}</h2><p>${lp.description}</p><a class="btn" href="#/landing-builder">Abrir constructor guiado</a></article><article class="card"><h2>Pasos del proyecto</h2><ol>${lp.steps.map(s=>`<li><strong>${s.title}:</strong> ${s.goal}</li>`).join('')}</ol></article><article class="card"><h2>Consejos responsive</h2><ul>${lp.responsiveTips.map(t=>`<li>${t}</li>`).join('')}</ul></article></div>`)}
-function landingBuilder(){const lp=state.landingProject; const defaults=Object.fromEntries(lp.fields.map(f=>[f.id,f.default])); shell('Constructor de landing responsive',`<section class="lab-grid"><div class="card"><form id="landingForm" class="builder-form">${lp.fields.map(f=> f.id.includes('Color')?`<label>${f.label}<input type="color" name="${f.id}" value="${f.default}"></label>`:`<label>${f.label}<input name="${f.id}" value="${escapeHtml(f.default)}"></label>`).join('')}</form><button id="refreshLanding">Actualizar vista previa</button> <button id="copyLanding" class="secondary">Copiar HTML/CSS</button> <button id="downloadLanding" class="secondary">Descargar .html</button> <button id="downloadReview" class="secondary">Descargar revisión .txt</button><h2>HTML generado</h2><pre class="code" id="landingHtml"></pre><h2>CSS generado</h2><pre class="code" id="landingCss"></pre></div><div class="card"><h2>Vista previa</h2><iframe id="preview" class="preview tall" sandbox=""></iframe><h2>Revisión semántica</h2><ul>${lp.semanticChecklist.map(i=>`<li>${i}</li>`).join('')}</ul><h2>Accesibilidad básica</h2><ul>${lp.accessibilityChecklist.map(i=>`<li>${i}</li>`).join('')}</ul></div></section>`); const collect=()=>{const fd=new FormData($('#landingForm')); const v={}; lp.fields.forEach(f=>v[f.id]=fd.get(f.id)||defaults[f.id]); return v;}; const review=(v)=>`Revisión de landing responsive\n\nTítulo: ${v.pageTitle}\n\nChecklist semántica:\n- ${lp.semanticChecklist.join('\n- ')}\n\nChecklist de accesibilidad:\n- ${lp.accessibilityChecklist.join('\n- ')}\n\nConsejos responsive:\n- ${lp.responsiveTips.join('\n- ')}`; const update=()=>{const v=collect(); const html=landingPageHtml(v); const css=landingPageCss(v); $('#landingHtml').textContent=html; $('#landingCss').textContent=css; $('#preview').srcdoc=renderPreview(html,css); return {v,html,css};}; $('#landingForm').oninput=update; $('#refreshLanding').onclick=update; $('#copyLanding').onclick=()=>{const {html,css}=update(); copyText(`HTML:\n${html}\n\nCSS:\n${css}`)}; $('#downloadLanding').onclick=()=>{const {v,html,css}=update(); downloadText('landing-responsive.html',`<!doctype html>\n<html lang="es">\n<head>\n<meta charset="utf-8">\n<meta name="viewport" content="width=device-width, initial-scale=1">\n<title>${escapeHtml(v.pageTitle)}</title>\n<style>\n${css}\n</style>\n</head>\n<body>\n${html}\n</body>\n</html>`)}; $('#downloadReview').onclick=()=>{const {v}=update(); downloadText('revision-landing-responsive.txt',review(v))}; state.progress.landingHistory=[...(state.progress.landingHistory||[]),{date:new Date().toISOString()}].slice(-20); save(); update();}
 
-function checklists(){shell('Checklists',`<div class="grid">${state.checklists.checklists.map(c=>`<article class="card"><h2>${c.title}</h2>${c.items.map(it=>`<label><input type="checkbox" ${state.progress.checklists[it.id]?'checked':''} onchange="state.progress.checklists['${it.id}']=this.checked;save()"> ${it.text}</label><br>`).join('')}</article>`).join('')}</div>`)}
-function cases(){shell('Casos prácticos',`<div class="grid">${state.incidents.incidents.map(c=>`<article class="card"><h2>${c.title}</h2><p>${c.immediateObjective}</p><a class="btn" href="#/case/${c.id}">Resolver</a></article>`).join('')}</div>`)}
-function caseDetail(id){const c=state.incidents.incidents.find(x=>x.id===id); if(!c)return cases(); shell(c.title,`<article class="card"><h2>Objetivo</h2><p>${c.immediateObjective}</p><h3>Pasos</h3><ol>${c.steps.map(s=>`<li>${s}</li>`).join('')}</ol><h3>Errores a evitar</h3><ul>${c.mistakesToAvoid.map(s=>`<li>${s}</li>`).join('')}</ul><p><strong>Decisión:</strong> ${c.decision.question}</p>${c.decision.options.map((o,i)=>`<button class="secondary" onclick="alert('${i===c.decision.correctAnswerIndex?'Correcto: ': 'Revisá: '} ${c.decision.feedback.replace(/'/g,"\\'")}')">${o}</button> `).join('')}</article>`)}
-function certificate(){shell('Constancia interna',`<div class="card"><h2>Avance: ${pct()}%</h2><p>Constancia no oficial de práctica en CSS básico.</p><p>Prácticas de laboratorio registradas localmente: ${(state.progress.cssLabHistory||[]).length}<br>Diseños generados en constructor: ${(state.progress.cssBuilderHistory||[]).length}</p><button onclick="window.print()">Imprimir / guardar PDF</button></div>`)}
-function router(){const [_,route,a,b]=location.hash.split('/'); if(!route)return home(); if(route==='modules')return modules(); if(route==='module')return module(a); if(route==='lesson')return lesson(a,b); if(route==='quiz')return quiz(a); if(route==='css-lab')return cssLab(); if(route==='css-builder'&&!a)return cssBuilder(); if(route==='css-builder'&&a)return cssBuilderPreset(a); if(route==='landing-project')return landingProject(); if(route==='landing-builder')return landingBuilder(); if(route==='css-examples')return cssExamples(); if(route==='css-example')return cssExample(a); if(route==='css-exercises')return cssExercises(); if(route==='css-exercise')return cssExercise(a); if(route==='css-compare')return cssCompare(); if(route==='css-snippets')return cssSnippets(); if(route==='checklists')return checklists(); if(route==='cases')return cases(); if(route==='case')return caseDetail(a); if(route==='certificate')return certificate(); home();}
-async function init(){loadProgress(); state.manifest=await loadJson('src/data/course_manifest.json'); state.course=await loadJson(state.manifest.dataPaths.course); state.checklists=await loadJson(state.manifest.dataPaths.checklists); state.incidents=await loadJson(state.manifest.dataPaths.incidents); state.cssLab=await loadJson(state.manifest.dataPaths.cssLab); state.cssBuilder=await loadJson(state.manifest.dataPaths.cssBuilder); state.landingProject=await loadJson(state.manifest.dataPaths.landingProject); nav(); router(); if('serviceWorker' in navigator) navigator.serviceWorker.register('service-worker.js').catch(()=>{});}window.addEventListener('hashchange',router);init().catch(e=>{$('#app').innerHTML='<h1>Error cargando curso</h1><p>'+e.message+'</p>'});
+function attr(value = "") {
+  return esc(value).replaceAll("`", "&#096;");
+}
+
+function formatText(value = "") {
+  const clean = esc(value).replace(/\n{2,}/g, "</p><p>").replace(/\n/g, "<br>");
+  return clean ? `<p>${clean}</p>` : "";
+}
+
+function list(items = []) {
+  if (!items.length) return "";
+  return `<ul>${items.map(item => `<li>${esc(item)}</li>`).join("")}</ul>`;
+}
+
+function percent(done, total) {
+  return total ? Math.round((done / total) * 100) : 0;
+}
+
+async function loadJson(path) {
+  const response = await fetch(path);
+  if (!response.ok) throw new Error(`No se pudo cargar ${path}`);
+  return response.json();
+}
+
+async function bootstrap() {
+  try {
+    manifest = await loadJson(MANIFEST_PATH);
+    applyShell();
+    applyTheme(localStorage.getItem(themeKey()) || "candil");
+
+    const [courseData, checklistData, incidentData] = await Promise.all([
+      loadJson(manifest.dataPaths.course),
+      loadJson(manifest.dataPaths.checklists),
+      loadJson(manifest.dataPaths.incidents)
+    ]);
+
+    course = courseData;
+    checklists = checklistData.checklists || [];
+    incidents = incidentData.incidents || [];
+
+    window.addEventListener("hashchange", render);
+    render();
+  } catch (error) {
+    app.innerHTML = `
+      <section class="escena-libro-abierto">
+        <div class="mueble-libro error-book">
+          <div class="pagina-izq"><h1>Error de carga</h1></div>
+          <div class="pagina-der">
+            <p>No se pudieron cargar los JSON locales. Abrilo con un servidor local, por ejemplo Live Server o python -m http.server.</p>
+            <p><strong>Detalle:</strong> ${esc(error.message)}</p>
+          </div>
+        </div>
+      </section>`;
+  }
+}
+
+function applyShell() {
+  document.title = `${manifest.appName || course?.title || "Curso"} - Cursoteca Abierta`;
+  const brand = document.querySelector("[data-brand-name]");
+  if (brand) brand.textContent = manifest.shortName || manifest.appName || "Cursoteca Abierta";
+  const subtitle = document.querySelector("[data-brand-subtitle]");
+  if (subtitle) subtitle.textContent = manifest.subtitle || "Manual de estudio";
+  const portalLinks = document.querySelectorAll("[data-portal-return]");
+  portalLinks.forEach(link => link.href = PORTAL_PATH);
+  if (themeSelect) themeSelect.value = localStorage.getItem(themeKey()) || "candil";
+}
+
+function applyTheme(value) {
+  document.body.classList.remove("ambiente-claro", "ambiente-nocturno");
+  if (value === "claro") document.body.classList.add("ambiente-claro");
+  if (value === "nocturno") document.body.classList.add("ambiente-nocturno");
+  try {
+    localStorage.setItem(themeKey(), value);
+  } catch {
+    // El curso funciona aunque el navegador bloquee almacenamiento local.
+  }
+  if (themeSelect) themeSelect.value = value;
+}
+
+function getAllLessons() {
+  return (course.modules || []).flatMap(module =>
+    (module.lessons || []).map(lesson => ({ ...lesson, moduleId: module.id, moduleTitle: module.title }))
+  );
+}
+
+function getModule(moduleId) {
+  return (course.modules || []).find(module => module.id === moduleId);
+}
+
+function getLesson(moduleId, lessonId) {
+  return getModule(moduleId)?.lessons?.find(lesson => lesson.id === lessonId);
+}
+
+function getChecklist(id) {
+  return checklists.find(item => item.id === id);
+}
+
+function getIncident(id) {
+  return incidents.find(item => item.id === id);
+}
+
+function completionStats() {
+  const state = storage.read();
+  const allLessons = getAllLessons();
+  const quizTotal = (course.modules || []).filter(module => (module.quiz || []).length).length;
+  const allChecklistItems = checklists.flatMap(checklist => checklist.items || []);
+  return {
+    lessonsDone: allLessons.filter(lesson => state.lessons.includes(lesson.id)).length,
+    lessonsTotal: allLessons.length,
+    quizDone: Object.keys(state.quizzes || {}).length,
+    quizTotal,
+    checklistDone: allChecklistItems.filter(item => state.checklistItems.includes(item.id)).length,
+    checklistTotal: allChecklistItems.length,
+    incidentDone: (state.visitedIncidents || []).length,
+    incidentTotal: incidents.length
+  };
+}
+
+function overallProgress() {
+  const s = completionStats();
+  return percent(
+    s.lessonsDone + s.quizDone + s.checklistDone + s.incidentDone,
+    s.lessonsTotal + s.quizTotal + s.checklistTotal + s.incidentTotal
+  );
+}
+
+function route() {
+  const parts = location.hash.replace(/^#\/?/, "").split("/").filter(Boolean);
+  if (!parts.length) return { name: "home" };
+  return { name: parts[0], a: parts[1], b: parts[2] };
+}
+
+function render() {
+  const current = route();
+  const content = renderRightPage(current);
+  app.innerHTML = `
+    <section class="escena-libro-abierto">
+      <div class="book-actions">
+        <a class="btn-volver" href="${PORTAL_PATH}">Cerrar volumen y volver al estante</a>
+        <a href="#/">Portada</a>
+        <a href="#/checklists">Checklists</a>
+        <a href="#/incidents">Casos</a>
+        <a href="#/certificate">Constancia</a>
+      </div>
+      <div class="mueble-libro">
+        <aside class="pagina-izq">
+          ${renderLeftPage(current)}
+        </aside>
+        <article class="pagina-der animacion-pagina">
+          ${content}
+        </article>
+      </div>
+    </section>`;
+  focusMain();
+}
+
+function focusMain() {
+  requestAnimationFrame(() => {
+    const main = document.querySelector("#app");
+    if (main) main.focus({ preventScroll: true });
+  });
+}
+
+function renderLeftPage(current) {
+  const progress = overallProgress();
+  const stats = completionStats();
+  return `
+    <span class="curso-categoria">${esc(manifest.subtitle || "Manual de estudio")}</span>
+    <h1 class="curso-titulo-abierto">${esc(course.title || manifest.appName)}</h1>
+    <div class="progreso-global-contenedor">
+      <span class="progreso-titulo-macro">Progreso del volumen</span>
+      <div class="barra-macro-bg"><div class="barra-macro-fill" style="width:${progress}%"></div></div>
+      <span class="texto-macro-porcentaje">${progress}% completado</span>
+    </div>
+    <div class="indice-resumen">
+      <span>${stats.lessonsDone}/${stats.lessonsTotal} lecciones</span>
+      <span>${stats.quizDone}/${stats.quizTotal} evaluaciones</span>
+      <span>${stats.checklistDone}/${stats.checklistTotal} checklist</span>
+    </div>
+    <nav class="indice-lecciones" aria-label="Indice del curso">
+      <a class="${current.name === "home" ? "activa" : ""}" href="#/">
+        <span class="num">0</span><span>Portada del volumen</span>
+      </a>
+      ${(course.modules || []).map((module, moduleIndex) => renderModuleIndex(module, moduleIndex, current)).join("")}
+      <a class="${current.name === "checklists" ? "activa" : ""}" href="#/checklists"><span class="num">C</span><span>Checklists</span></a>
+      <a class="${current.name === "incidents" ? "activa" : ""}" href="#/incidents"><span class="num">K</span><span>Casos practicos</span></a>
+      <a class="${current.name === "progress" ? "activa" : ""}" href="#/progress"><span class="num">P</span><span>Progreso y exportacion</span></a>
+    </nav>`;
+}
+
+function renderModuleIndex(module, moduleIndex, current) {
+  const state = storage.read();
+  const lessons = module.lessons || [];
+  return `
+    <section class="indice-modulo">
+      <a class="item-modulo ${current.name === "module" && current.a === module.id ? "activa" : ""}" href="#/module/${attr(module.id)}">
+        <span class="num">${moduleIndex + 1}</span><span>${esc(module.title)}</span>
+      </a>
+      ${lessons.map((lesson, lessonIndex) => {
+        const read = state.lessons.includes(lesson.id);
+        const active = current.name === "lesson" && current.a === module.id && current.b === lesson.id;
+        return `
+          <a class="item-leccion ${active ? "activa" : ""} ${read ? "leida" : ""}" href="#/lesson/${attr(module.id)}/${attr(lesson.id)}">
+            <span class="num">${moduleIndex + 1}.${lessonIndex + 1}</span>
+            <span>${esc(lesson.title)}</span>
+            <span class="tilde-completado">${read ? "OK" : ""}</span>
+          </a>`;
+      }).join("")}
+      ${(module.quiz || []).length ? `<a class="item-leccion item-quiz ${current.name === "quiz" && current.a === module.id ? "activa" : ""}" href="#/quiz/${attr(module.id)}"><span class="num">Q</span><span>Evaluacion del modulo</span></a>` : ""}
+    </section>`;
+}
+
+function renderRightPage(current) {
+  if (current.name === "home") return renderHome();
+  if (current.name === "module") return renderModule(current.a);
+  if (current.name === "lesson") return renderLesson(current.a, current.b);
+  if (current.name === "quiz") return renderQuiz(current.a);
+  if (current.name === "checklists") return renderChecklists();
+  if (current.name === "checklist") return renderChecklist(current.a);
+  if (current.name === "incidents") return renderIncidents();
+  if (current.name === "incident") return renderIncident(current.a);
+  if (current.name === "certificate") return renderCertificate();
+  if (current.name === "progress") return renderProgressTools();
+  if (current.name === "legal") return renderLegal();
+  if (current.name === "accessibility") return renderAccessibility();
+  if (current.name === "publish") return renderPublish();
+  if (current.name === "template") return renderTemplate();
+  if (current.name === "emergency") return renderEmergency();
+  return renderHome();
+}
+
+function renderHome() {
+  const firstModule = course.modules?.[0];
+  const firstLesson = firstModule?.lessons?.[0];
+  return `
+    <div class="leccion-meta">Portada del volumen</div>
+    <h2 class="leccion-titulo">${esc(course.title || manifest.appName)}</h2>
+    <div class="leccion-texto">
+      ${formatText(course.presentation || manifest.description || manifest.subtitle || "Curso abierto de Cursoteca Abierta.")}
+    </div>
+    ${course.objectives?.length ? `<section class="bloque-lectura"><h3>Objetivos de aprendizaje</h3>${list(course.objectives)}</section>` : ""}
+    ${course.finalProduct ? `<section class="bloque-lectura"><h3>Producto final</h3>${formatText(course.finalProduct)}</section>` : ""}
+    <div class="acciones-pagina">
+      ${firstLesson ? `<a class="button-link" href="#/lesson/${attr(firstModule.id)}/${attr(firstLesson.id)}">Comenzar lectura</a>` : ""}
+      <a class="secondary-button" href="#/checklists">Ver checklists</a>
+    </div>
+    ${renderNotes("portada")}`;
+}
+
+function renderModule(moduleId) {
+  const module = getModule(moduleId) || course.modules?.[0];
+  if (!module) return renderHome();
+  const firstLesson = module.lessons?.[0];
+  return `
+    <div class="leccion-meta">Modulo</div>
+    <h2 class="leccion-titulo">${esc(module.title)}</h2>
+    <div class="leccion-texto">${formatText(module.description || module.learningRisk || "")}</div>
+    <section class="bloque-lectura">
+      <h3>Lecciones del modulo</h3>
+      <ol class="lista-tarjetas">
+        ${(module.lessons || []).map(lesson => `<li><a href="#/lesson/${attr(module.id)}/${attr(lesson.id)}">${esc(lesson.title)}</a></li>`).join("")}
+      </ol>
+    </section>
+    <div class="acciones-pagina">
+      ${firstLesson ? `<a class="button-link" href="#/lesson/${attr(module.id)}/${attr(firstLesson.id)}">Abrir primera leccion</a>` : ""}
+      ${(module.quiz || []).length ? `<a class="secondary-button" href="#/quiz/${attr(module.id)}">Evaluacion del modulo</a>` : ""}
+    </div>`;
+}
+
+function renderLesson(moduleId, lessonId) {
+  const module = getModule(moduleId);
+  const lesson = getLesson(moduleId, lessonId) || module?.lessons?.[0];
+  if (!module || !lesson) return renderHome();
+  markLessonRead(lesson.id);
+  const nav = lessonNavigation(module.id, lesson.id);
+  return `
+    <div class="leccion-meta">${esc(module.title)}</div>
+    <h2 class="leccion-titulo">${esc(lesson.title)}</h2>
+    <div class="leccion-texto">
+      ${formatText(lesson.shortTheory || lesson.content || lesson.keyIdea || "")}
+    </div>
+    ${renderTheorySections(lesson)}
+    ${lesson.keyPoints?.length ? `<section class="bloque-lectura"><h3>Puntos clave</h3>${list(lesson.keyPoints)}</section>` : ""}
+    ${renderLessonBlock("Ejemplo practico", lesson.practicalExample)}
+    ${renderLessonBlock("Contraejemplo", lesson.counterExample)}
+    ${renderLessonBlock("Error frecuente", lesson.commonMistake)}
+    ${renderLessonBlock("Actividad", lesson.whatToDoNow)}
+    ${renderLessonBlock("Alerta responsable", lesson.alert)}
+    ${renderReferences(lesson)}
+    <div class="acciones-pagina">
+      ${nav.prev ? `<a class="secondary-button" href="#/lesson/${attr(nav.prev.moduleId)}/${attr(nav.prev.id)}">Leccion anterior</a>` : ""}
+      ${nav.next ? `<a class="button-link" href="#/lesson/${attr(nav.next.moduleId)}/${attr(nav.next.id)}">Siguiente leccion</a>` : `<a class="button-link" href="#/quiz/${attr(module.id)}">Ir a evaluacion</a>`}
+    </div>
+    ${renderNotes(lesson.id)}`;
+}
+
+function renderTheorySections(lesson) {
+  const sections = lesson.theorySections || [];
+  if (!sections.length) return "";
+  return `
+    <div class="theory-stack">
+      ${sections.map(section => `
+        <section class="theory-block">
+          <h3>${esc(section.title || "Bloque teorico")}</h3>
+          ${formatText(section.body || "")}
+        </section>`).join("")}
+    </div>`;
+}
+
+function renderLessonBlock(title, value) {
+  if (!value) return "";
+  return `<section class="bloque-lectura"><h3>${esc(title)}</h3>${formatText(value)}</section>`;
+}
+
+function renderReferences(lesson) {
+  const refs = lesson.references || [];
+  if (!refs.length) return "";
+  return `
+    <section class="bloque-lectura source-card">
+      <h3>Fuentes usadas</h3>
+      <ul class="source-list">
+        ${refs.map(ref => `
+          <li>
+            <a href="${attr(ref.url || "#")}" target="_blank" rel="noopener">
+              <strong>${esc(ref.title || ref.organization || "Fuente")}</strong>
+              <span>${esc(ref.organization || ref.note || "")}</span>
+            </a>
+          </li>`).join("")}
+      </ul>
+    </section>`;
+}
+
+function lessonNavigation(moduleId, lessonId) {
+  const lessons = getAllLessons();
+  const index = lessons.findIndex(lesson => lesson.moduleId === moduleId && lesson.id === lessonId);
+  return {
+    prev: index > 0 ? lessons[index - 1] : null,
+    next: index >= 0 && index < lessons.length - 1 ? lessons[index + 1] : null
+  };
+}
+
+function markLessonRead(lessonId) {
+  storage.update(state => {
+    if (!state.lessons.includes(lessonId)) state.lessons.push(lessonId);
+  });
+}
+
+function renderQuiz(moduleId) {
+  const module = getModule(moduleId);
+  if (!module) return renderHome();
+  const questions = module.quiz || [];
+  const saved = storage.read().quizzes?.[module.id];
+  if (quizRuntime.moduleId !== module.id) quizRuntime = { moduleId: module.id, answers: saved?.answers || {} };
+  const answered = Object.keys(quizRuntime.answers).length;
+  return `
+    <div class="leccion-meta">Evaluacion</div>
+    <h2 class="leccion-titulo">${esc(module.title)}</h2>
+    ${saved ? `<p class="resultado-quiz">Resultado guardado: ${saved.score}/${saved.total} (${percent(saved.score, saved.total)}%).</p>` : ""}
+    <div class="quiz-stack">
+      ${questions.map((question, qi) => renderQuestion(module.id, question, qi)).join("")}
+    </div>
+    <div class="acciones-pagina">
+      <a class="secondary-button" href="#/module/${attr(module.id)}">Volver al modulo</a>
+      <button class="button-link" type="button" data-save-quiz="${attr(module.id)}" ${answered < questions.length ? "disabled" : ""}>Guardar evaluacion</button>
+    </div>`;
+}
+
+function renderQuestion(moduleId, question, qi) {
+  const selected = quizRuntime.answers[question.id];
+  return `
+    <section class="bloque-lectura quiz-question">
+      <h3>${qi + 1}. ${esc(question.question)}</h3>
+      <div class="answer-grid">
+        ${(question.options || []).map((option, oi) => {
+          const isSelected = selected === oi;
+          const isCorrect = oi === question.correctAnswerIndex;
+          const className = selected === undefined ? "" : isSelected && isCorrect ? "is-correct" : isSelected ? "is-wrong" : "";
+          return `<button class="${className}" type="button" data-answer-module="${attr(moduleId)}" data-answer-question="${attr(question.id)}" data-answer-index="${oi}">${esc(option)}</button>`;
+        }).join("")}
+      </div>
+      ${selected !== undefined ? `<p class="feedback">${esc(question.feedback || "")}</p>` : ""}
+    </section>`;
+}
+
+function answerQuestion(moduleId, questionId, index) {
+  if (quizRuntime.moduleId !== moduleId) quizRuntime = { moduleId, answers: {} };
+  quizRuntime.answers[questionId] = Number(index);
+  render();
+}
+
+function saveQuiz(moduleId) {
+  const module = getModule(moduleId);
+  if (!module) return;
+  const questions = module.quiz || [];
+  const score = questions.filter(q => quizRuntime.answers[q.id] === q.correctAnswerIndex).length;
+  storage.update(state => {
+    state.quizzes[moduleId] = {
+      score,
+      total: questions.length,
+      answers: quizRuntime.answers,
+      savedAt: new Date().toISOString()
+    };
+  });
+  render();
+}
+
+function renderChecklists() {
+  return `
+    <div class="leccion-meta">Herramientas</div>
+    <h2 class="leccion-titulo">Checklists de aplicacion</h2>
+    <div class="lista-tarjetas">
+      ${checklists.map(checklist => `
+        <article class="bloque-lectura">
+          <h3>${esc(checklist.title)}</h3>
+          <p>${esc(checklist.description || "")}</p>
+          <a class="secondary-button" href="#/checklist/${attr(checklist.id)}">Abrir checklist</a>
+        </article>`).join("")}
+    </div>`;
+}
+
+function renderChecklist(id) {
+  const checklist = getChecklist(id) || checklists[0];
+  if (!checklist) return renderChecklists();
+  const state = storage.read();
+  return `
+    <div class="leccion-meta">Checklist</div>
+    <h2 class="leccion-titulo">${esc(checklist.title)}</h2>
+    <div class="leccion-texto">${formatText(checklist.description || "")}</div>
+    <div class="checklist-stack">
+      ${(checklist.items || []).map(item => {
+        const checked = state.checklistItems.includes(item.id);
+        return `
+          <label class="check-item ${checked ? "checked" : ""}">
+            <input type="checkbox" data-check-item="${attr(item.id)}" ${checked ? "checked" : ""}>
+            <span>
+              <strong>${esc(item.title)}</strong>
+              ${item.explanation ? `<small>${esc(item.explanation)}</small>` : ""}
+              ${item.recommendedAction ? `<em>${esc(item.recommendedAction)}</em>` : ""}
+            </span>
+          </label>`;
+      }).join("")}
+    </div>`;
+}
+
+function toggleChecklistItem(itemId) {
+  storage.update(state => {
+    state.checklistItems = state.checklistItems || [];
+    if (state.checklistItems.includes(itemId)) {
+      state.checklistItems = state.checklistItems.filter(id => id !== itemId);
+    } else {
+      state.checklistItems.push(itemId);
+    }
+  });
+  render();
+}
+
+function renderIncidents() {
+  return `
+    <div class="leccion-meta">Casos practicos</div>
+    <h2 class="leccion-titulo">Casos, incidentes y decisiones guiadas</h2>
+    <div class="lista-tarjetas">
+      ${incidents.map(incident => `
+        <article class="bloque-lectura">
+          <h3>${esc(incident.title)}</h3>
+          <p>${esc(incident.summary || "")}</p>
+          <a class="secondary-button" href="#/incident/${attr(incident.id)}">Abrir caso</a>
+        </article>`).join("")}
+    </div>`;
+}
+
+function renderIncident(id) {
+  const incident = getIncident(id) || incidents[0];
+  if (!incident) return renderIncidents();
+  storage.update(state => {
+    if (!state.visitedIncidents.includes(incident.id)) state.visitedIncidents.push(incident.id);
+  });
+  return `
+    <div class="leccion-meta">${esc(incident.severity || "Caso practico")}</div>
+    <h2 class="leccion-titulo">${esc(incident.title)}</h2>
+    <div class="leccion-texto">${formatText(incident.summary || incident.immediateGoal || "")}</div>
+    ${incident.steps?.length ? `<section class="bloque-lectura"><h3>Pasos</h3>${list(incident.steps)}</section>` : ""}
+    ${incident.evidenceToPreserve?.length ? `<section class="bloque-lectura"><h3>Evidencia a preservar</h3>${list(incident.evidenceToPreserve)}</section>` : ""}
+    ${incident.errorsToAvoid?.length ? `<section class="bloque-lectura"><h3>Errores a evitar</h3>${list(incident.errorsToAvoid)}</section>` : ""}
+    ${incident.aftercare?.length ? `<section class="bloque-lectura"><h3>Despues del caso</h3>${list(incident.aftercare)}</section>` : ""}
+    ${incident.guidedDecision ? renderGuidedDecision(incident.guidedDecision) : ""}`;
+}
+
+function renderGuidedDecision(decision) {
+  return `
+    <section class="bloque-lectura">
+      <h3>${esc(decision.question)}</h3>
+      <ul>
+        ${(decision.options || []).map(option => `<li><strong>${option.isCorrect ? "Correcta" : "Revisar"}:</strong> ${esc(option.text)} ${option.feedback ? `<br><small>${esc(option.feedback)}</small>` : ""}</li>`).join("")}
+      </ul>
+    </section>`;
+}
+
+function renderCertificate() {
+  const progress = overallProgress();
+  return `
+    <div class="leccion-meta">Constancia interna</div>
+    <h2 class="leccion-titulo">${esc(manifest.certificate?.title || "Constancia interna de avance")}</h2>
+    <div class="leccion-texto">
+      <p>Progreso actual: <strong>${progress}%</strong>.</p>
+      <p>${esc(manifest.certificate?.notOfficialNotice || "Esta constancia es educativa y no equivale a una certificacion oficial.")}</p>
+    </div>
+    <div class="acciones-pagina">
+      <button class="button-link" type="button" onclick="window.print()">Imprimir constancia</button>
+    </div>`;
+}
+
+function renderProgressTools() {
+  const state = storage.read();
+  return `
+    <div class="leccion-meta">Progreso</div>
+    <h2 class="leccion-titulo">Progreso y exportacion</h2>
+    <div class="leccion-texto">${formatText(JSON.stringify(state, null, 2))}</div>
+    <div class="acciones-pagina">
+      <button class="secondary-button" type="button" data-export-progress>Exportar progreso</button>
+      <button class="secondary-button danger-action" type="button" data-reset-progress>Reiniciar progreso</button>
+    </div>`;
+}
+
+function renderLegal() {
+  return `
+    <div class="leccion-meta">Alcance</div>
+    <h2 class="leccion-titulo">Alcance y privacidad</h2>
+    <div class="leccion-texto">
+      ${formatText(manifest.responsibleNotice || course.responsibleNotice || "Contenido educativo. No reemplaza asesoramiento profesional.")}
+      <p>El progreso y las notas se guardan localmente en este navegador.</p>
+    </div>`;
+}
+
+function renderAccessibility() {
+  return `
+    <div class="leccion-meta">Accesibilidad</div>
+    <h2 class="leccion-titulo">Ambiente de lectura</h2>
+    <div class="leccion-texto"><p>Usa el selector superior para alternar entre tarde de candil, manana clara y estudio nocturno.</p></div>`;
+}
+
+function renderPublish() {
+  return `
+    <div class="leccion-meta">Publicacion</div>
+    <h2 class="leccion-titulo">Publicacion del curso</h2>
+    <div class="leccion-texto"><p>Este curso es parte de Cursoteca Abierta y se ejecuta sin backend ni login.</p></div>`;
+}
+
+function renderTemplate() {
+  return `
+    <div class="leccion-meta">Plantilla</div>
+    <h2 class="leccion-titulo">Guia de clonacion</h2>
+    <div class="leccion-texto">${list(manifest.cloneNotes || [])}</div>`;
+}
+
+function renderEmergency() {
+  const firstIncident = incidents[0];
+  return `
+    <div class="leccion-meta">Respuesta rapida</div>
+    <h2 class="leccion-titulo">Emergencia o bloqueo</h2>
+    <div class="leccion-texto"><p>Si estas ante un problema real, prioriza seguridad, evidencia y fuentes oficiales. No compartas claves, codigos ni datos sensibles.</p></div>
+    ${firstIncident ? `<a class="button-link" href="#/incident/${attr(firstIncident.id)}">Abrir primer caso guiado</a>` : ""}`;
+}
+
+function renderNotes(scope) {
+  let value = "";
+  try {
+    value = localStorage.getItem(notesKey(scope)) || "";
+  } catch {
+    value = "";
+  }
+  return `
+    <div class="bloque-anotador">
+      <div class="anotador-cabecera">
+        <h3 class="anotador-titulo">Notas al margen del lector</h3>
+        <button class="btn-exportar" type="button" data-export-notes="${attr(scope)}">Exportar apuntes (.md)</button>
+      </div>
+      <textarea class="anotador-textarea" data-note-scope="${attr(scope)}" placeholder="Tus conclusiones se guardan localmente en este navegador...">${esc(value)}</textarea>
+    </div>`;
+}
+
+function saveNote(scope, value) {
+  try {
+    localStorage.setItem(notesKey(scope), value);
+  } catch {
+    // Sin almacenamiento local, el anotador sigue siendo editable mientras la pagina esta abierta.
+  }
+}
+
+function exportNotes(scope) {
+  let value = "";
+  try {
+    value = localStorage.getItem(notesKey(scope)) || "";
+  } catch {
+    value = "";
+  }
+  if (!value.trim()) {
+    alert("El anotador de esta pagina esta vacio.");
+    return;
+  }
+  const blob = new Blob([`# Apuntes de estudio: ${course.title || manifest.appName}\n\n${value}\n\n---\nGenerado en Cursoteca Abierta.`], { type: "text/markdown;charset=utf-8" });
+  const link = document.createElement("a");
+  link.href = URL.createObjectURL(blob);
+  link.download = `apuntes_${manifest.courseId || "curso"}.md`;
+  link.click();
+  URL.revokeObjectURL(link.href);
+}
+
+function exportProgress() {
+  const blob = new Blob([JSON.stringify(storage.read(), null, 2)], { type: "application/json;charset=utf-8" });
+  const link = document.createElement("a");
+  link.href = URL.createObjectURL(blob);
+  link.download = `progreso_${manifest.courseId || "curso"}.json`;
+  link.click();
+  URL.revokeObjectURL(link.href);
+}
+
+document.addEventListener("click", event => {
+  const answer = event.target.closest("[data-answer-module]");
+  if (answer) {
+    answerQuestion(answer.dataset.answerModule, answer.dataset.answerQuestion, answer.dataset.answerIndex);
+    return;
+  }
+  const saveQuizButton = event.target.closest("[data-save-quiz]");
+  if (saveQuizButton) {
+    saveQuiz(saveQuizButton.dataset.saveQuiz);
+    return;
+  }
+  const checkItem = event.target.closest("[data-check-item]");
+  if (checkItem) {
+    toggleChecklistItem(checkItem.dataset.checkItem);
+    return;
+  }
+  const exportNotesButton = event.target.closest("[data-export-notes]");
+  if (exportNotesButton) {
+    exportNotes(exportNotesButton.dataset.exportNotes);
+    return;
+  }
+  if (event.target.closest("[data-export-progress]")) {
+    exportProgress();
+    return;
+  }
+  if (event.target.closest("[data-reset-progress]")) {
+    if (confirm("Reiniciar el progreso local de este curso?")) {
+      storage.reset();
+      render();
+    }
+  }
+});
+
+document.addEventListener("input", event => {
+  const note = event.target.closest("[data-note-scope]");
+  if (!note) return;
+  saveNote(note.dataset.noteScope, note.value);
+});
+
+if (themeSelect) {
+  themeSelect.addEventListener("change", event => applyTheme(event.target.value));
+}
+
+bootstrap();

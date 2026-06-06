@@ -1,4 +1,4 @@
-const CACHE_NAME = "estadistica_basica_decisiones_v0_6_publica-cache-0.7-tanda-5";
+const CACHE_NAME = "estadistica_basica_decisiones_v0_6_publica-cache-v2-libro-abierto";
 const APP_SHELL = [
   "./",
   "./index.html",

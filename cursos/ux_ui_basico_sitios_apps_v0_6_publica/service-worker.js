@@ -1,4 +1,4 @@
-const CACHE_NAME = "ux_ui_basico_sitios_apps_v0_6_publica-cache-v0-8-profunda-uxui-v1";
+const CACHE_NAME = "ux_ui_basico_sitios_apps_v0_6_publica-cache-v2-libro-abierto";
 const APP_SHELL = [
   "./",
   "./index.html",

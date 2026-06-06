@@ -1,4 +1,4 @@
-const CACHE_NAME = "excel_google_sheets_desde_cero_v0_6_publica-cache-0.7-tanda-3";
+const CACHE_NAME = "excel_google_sheets_desde_cero_v0_6_publica-cache-v2-libro-abierto";
 const APP_SHELL = [
   "./",
   "./index.html",
