@@ -225,7 +225,7 @@ function renderCourseCard(course, options = {}) {
   const description = getPublicDescription(course);
   const features = getPublicFeatures(course);
   const lessonMeta = getLessonMeta(course);
-  const status = complete ? "Curso completo v1" : getPublicStatus(course);
+  const status = getPublicStatus(course);
   const openAction = course.publicReady && course.path
     ? `<a class="button-link" href="${escapeAttribute(course.path)}" data-course-open="${escapeAttribute(course.id)}">Abrir volumen</a>`
     : `<span class="secondary-link">En revision</span>`;
@@ -368,7 +368,7 @@ function getLessonMeta(course) {
 }
 
 function isCompleteCourse(course) {
-  return normalize([course.status, course.version, (course.tags || []).join(" ")].join(" ")).includes("curso completo v1");
+  return normalize([course.status, course.version, (course.tags || []).join(" ")].join(" ")).includes("curso completo");
 }
 
 function getPriority(course) {

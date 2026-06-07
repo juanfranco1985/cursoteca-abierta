@@ -820,6 +820,118 @@ input {
   color: var(--oro-sutil);
 }
 
+.institutional-body {
+  background-attachment: fixed;
+}
+
+.institutional-main {
+  width: min(1180px, 100%);
+  margin: 0 auto;
+  padding: clamp(2rem, 5vw, 4.5rem) clamp(1rem, 4vw, 2.5rem) clamp(3rem, 7vw, 5rem);
+}
+
+.policy-book {
+  display: grid;
+  grid-template-columns: minmax(280px, .8fr) minmax(0, 1.2fr);
+  min-height: min(720px, calc(100vh - 190px));
+  border: 1px solid var(--linea-separadora);
+  border-radius: var(--radius);
+  background:
+    linear-gradient(90deg, transparent calc(50% - 1px), color-mix(in srgb, var(--linea-separadora) 76%, transparent) calc(50% - 1px) calc(50% + 1px), transparent calc(50% + 1px)),
+    linear-gradient(90deg, color-mix(in srgb, var(--bg-hoja) 98%, transparent), color-mix(in srgb, var(--bg-tarjeta) 92%, transparent));
+  box-shadow: 0 30px 70px rgba(44, 36, 25, .12);
+  overflow: hidden;
+}
+
+.policy-book-index,
+.policy-book-content {
+  min-width: 0;
+  padding: clamp(1.35rem, 4vw, 2.4rem);
+}
+
+.policy-book-index {
+  display: grid;
+  align-content: start;
+  gap: 1rem;
+  border-right: 1px solid color-mix(in srgb, var(--linea-separadora) 72%, transparent);
+}
+
+.policy-book-index h1 {
+  margin: 0;
+  font-family: var(--fuente-titulos);
+  font-size: clamp(2rem, 5vw, 3.4rem);
+  font-weight: 400;
+  line-height: 1.04;
+}
+
+.policy-book-index p:not(.eyebrow),
+.institutional-section p {
+  margin: 0;
+  color: var(--texto-secundario);
+}
+
+.policy-links {
+  display: grid;
+  gap: .4rem;
+  margin-top: .4rem;
+}
+
+.policy-links a {
+  display: flex;
+  justify-content: space-between;
+  gap: .8rem;
+  padding: .65rem 0;
+  color: var(--texto-principal);
+  border-bottom: 1px solid color-mix(in srgb, var(--linea-separadora) 72%, transparent);
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.policy-links a::after {
+  content: ">";
+  color: var(--oro-sutil);
+}
+
+.policy-links a:hover,
+.policy-links a:focus-visible,
+.policy-links a[aria-current="page"] {
+  color: var(--oro-sutil);
+}
+
+.institutional-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .65rem;
+  margin-top: .4rem;
+}
+
+.institutional-action {
+  width: auto;
+  min-width: 180px;
+}
+
+.policy-book-content {
+  display: grid;
+  align-content: start;
+  gap: 1.1rem;
+}
+
+.institutional-section {
+  padding-bottom: 1.1rem;
+  border-bottom: 1px solid var(--linea-separadora);
+}
+
+.institutional-section:last-child {
+  border-bottom: 0;
+}
+
+.institutional-section h2 {
+  margin: 0 0 .45rem;
+  font-family: var(--fuente-titulos);
+  font-size: clamp(1.25rem, 3vw, 1.75rem);
+  font-weight: 600;
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
@@ -889,6 +1001,17 @@ input {
   .category-grid,
   .info-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .policy-book {
+    grid-template-columns: 1fr;
+    min-height: auto;
+    background: color-mix(in srgb, var(--bg-hoja) 94%, transparent);
+  }
+
+  .policy-book-index {
+    border-right: 0;
+    border-bottom: 1px solid var(--linea-separadora);
   }
 
   .fichero-bloque {
@@ -969,6 +1092,15 @@ input {
 
   .site-footer {
     padding-bottom: 3rem;
+  }
+
+  .institutional-main {
+    padding-top: 1rem;
+  }
+
+  .institutional-actions,
+  .institutional-action {
+    width: 100%;
   }
 }
 

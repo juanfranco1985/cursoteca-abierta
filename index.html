@@ -5,8 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="refresh" content="0; url=portal/portal_publico_profesional_v0_6/index.html" />
   <title>Cursoteca Abierta</title>
-  <meta name="description" content="Entrada publica de Cursoteca Abierta, biblioteca digital de cursos gratuitos." />
-  <link rel="canonical" href="portal/portal_publico_profesional_v0_6/index.html" />
+  <meta name="description" content="Cursoteca Abierta es una biblioteca digital gratuita con 50 cursos introductorios, rutas de aprendizaje y materiales de estudio autonomo." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://juanfranco1985.github.io/cursoteca-abierta/" />
+  <meta property="og:site_name" content="Cursoteca Abierta" />
+  <meta property="og:locale" content="es_AR" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Cursoteca Abierta" />
+  <meta property="og:description" content="Cursoteca Abierta es una biblioteca digital gratuita con 50 cursos introductorios, rutas de aprendizaje y materiales de estudio autonomo." />
+  <meta property="og:url" content="https://juanfranco1985.github.io/cursoteca-abierta/" />
+  <meta property="og:image" content="https://juanfranco1985.github.io/cursoteca-abierta/auditoria_visual_portal_desktop_v3.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Cursoteca Abierta" />
+  <meta name="twitter:description" content="Cursoteca Abierta es una biblioteca digital gratuita con 50 cursos introductorios, rutas de aprendizaje y materiales de estudio autonomo." />
+  <meta name="twitter:image" content="https://juanfranco1985.github.io/cursoteca-abierta/auditoria_visual_portal_desktop_v3.png" />
   <style>
     :root {
       color-scheme: light;
@@ -24,7 +36,7 @@
     }
 
     main {
-      width: min(100%, 560px);
+      width: min(100%, 620px);
       text-align: center;
     }
 
@@ -41,6 +53,13 @@
       font-size: 1.05rem;
     }
 
+    .links {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
     a {
       display: inline-flex;
       align-items: center;
@@ -53,13 +72,23 @@
       font-weight: 700;
       text-decoration: none;
     }
+
+    a.secondary {
+      color: #1f2933;
+      background: transparent;
+      border: 1px solid #ccd2d8;
+    }
   </style>
 </head>
 <body>
   <main>
     <h1>Cursoteca Abierta</h1>
     <p>Redirigiendo al portal publico de cursos gratuitos.</p>
-    <a href="portal/portal_publico_profesional_v0_6/index.html">Abrir portal</a>
+    <div class="links">
+      <a href="portal/portal_publico_profesional_v0_6/index.html">Abrir portal</a>
+      <a class="secondary" href="portal/portal_publico_profesional_v0_6/acerca.html">Acerca del proyecto</a>
+      <a class="secondary" href="portal/portal_publico_profesional_v0_6/privacidad.html">Privacidad</a>
+    </div>
   </main>
   <script>
     window.location.replace("portal/portal_publico_profesional_v0_6/index.html");
