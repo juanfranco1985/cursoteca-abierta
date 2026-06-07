@@ -15,3 +15,7 @@ Este curso fue marcado como curso bandera el 2026-05-27. Se reforzaron lecciones
 Enfoque: acompanamiento familiar para adultos mayores en celular, mensajes, bancos, salud y tramites.
 
 Entregable sugerido: un acuerdo familiar con contactos, reglas, senales de alerta y protocolo de ayuda.
+
+## Reescritura curso completo v1
+
+Actualizado el 2026-06-07 con teoria ampliada, objetivos, modulos, caso integrador, actividades, evaluacion, glosario, producto final y fuentes recomendadas.

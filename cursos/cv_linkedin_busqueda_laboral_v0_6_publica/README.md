@@ -15,3 +15,7 @@ Este curso fue marcado como curso bandera el 2026-05-27. Se reforzaron lecciones
 Enfoque: preparacion laboral digital, perfil profesional, postulaciones y seguimiento.
 
 Entregable sugerido: un paquete laboral con CV base, perfil, mensaje de postulacion y plan semanal.
+
+## Reescritura curso completo v1
+
+Actualizado el 2026-06-07 con teoria ampliada, objetivos, modulos, caso integrador, actividades, evaluacion, glosario, producto final y fuentes recomendadas.

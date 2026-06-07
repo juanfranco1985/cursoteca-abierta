@@ -1,10 +1,10 @@
 {
   "courseId": "simulador-laboral-soporte-tecnico",
-  "templateVersion": "0.6-publica-profesional",
+  "templateVersion": "1.0-curso-completo-v1",
   "appName": "Simulador Laboral de Soporte Técnico",
   "shortName": "Soporte Técnico",
-  "subtitle": "Curso práctico para recibir un problema, hacer preguntas útiles, documentar y escalar correctamente.",
-  "description": "Entrená una rutina de soporte técnico inicial: entender el problema, preguntar mejor, probar con orden y dejar registro claro.",
+  "subtitle": "El soporte técnico es una de las puertas de entrada más importantes al mundo laboral tecnológico.  Muchas personas comienzan en roles de mesa de ayuda, asistencia a usuarios, soporte remoto, mantenimiento básico, configuración de equipos, resolución de problemas comunes y documentación de incidentes.",
+  "description": "El soporte técnico es una de las puertas de entrada más importantes al mundo laboral tecnológico.  Muchas personas comienzan en roles de mesa de ayuda, asistencia a usuarios, soporte remoto, mantenimiento básico, configuración de equipos, resolución de problemas comunes y documentación de incidentes.",
   "audience": "Principiantes en soporte técnico, estudiantes de informática, autodidactas, personas que quieren practicar mesa de ayuda y usuarios avanzados que desean ordenar su método de diagnóstico.",
   "dataPaths": {
     "course": "src/data/course_content.json",
@@ -82,7 +82,7 @@
     "primary": "#d6a85c",
     "background": "#21130b"
   },
-  "responsibleNotice": "Contenido educativo. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. No pedir contrasenas, no tomar control sin permiso y no borrar informacion sin respaldo.",
+  "responsibleNotice": "Contenido educativo. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. En temas de seguridad, datos personales, dinero, comercios, tramites o derechos, valida decisiones criticas con fuentes oficiales o una persona competente.",
   "cloneNotes": "v0.5 deja el simulador como candidato de publicación web: README público, guías de despliegue y capturas, aviso legal, privacidad y checklist final. Mantiene la compatibilidad de la plantilla clonable.",
   "certificate": {
     "title": "Constancia interna de entrenamiento en soporte técnico",
@@ -104,7 +104,7 @@
     "offlineReady": true,
     "installable": true,
     "recommendedRunMode": "VS Code + Live Server para prueba local; GitHub Pages, Netlify o Vercel para publicación.",
-    "cacheName": "soporte-tecnico-web-v0-6-publica-v0-6-publica-profesional",
+    "cacheName": "soporte_tecnico_web_v0_6_publica-cache-v1-curso-completo",
     "publishTargets": [
       "GitHub Pages",
       "Netlify",
@@ -112,7 +112,7 @@
       "Cloudflare Pages",
       "hosting estático propio"
     ],
-    "publicationStatus": "publica-profesional-v0.6"
+    "publicationStatus": "publica-curso-completo-v1"
   },
   "cloneKit": {
     "editableFiles": [
@@ -347,16 +347,28 @@
     "sourceZip": "soporte_tecnico_web_v0_5.zip"
   },
   "professionalization": {
-    "tier": "curso-bandera-v1.0-beta",
-    "updatedAt": "2026-05-28",
+    "tier": "curso-completo-v1",
+    "updatedAt": "2026-06-07",
+    "sourcePackage": "cursos_06_50_reescritos_v1",
     "improvements": [
-      "Lecciones con teoria, ejemplo, error comun y ejercicio mas profundos.",
-      "Checklists orientados a evidencia y entregables.",
-      "Casos guiados con pasos, errores y decision responsable."
+      "Reescritura teorica extensa en formato de curso completo.",
+      "Objetivos, modulos teoricos, caso integrador, actividades, evaluacion, glosario y producto final.",
+      "Lecciones con bloques teoricos, contraejemplos y fuentes recomendadas."
     ]
   },
   "editorialPolish": {
     "secondFeaturedBatch": "2026-06-01",
     "status": "public-facing-copy-polished"
+  },
+  "version": "1.0-curso-completo-v1",
+  "publicationStatus": "publica-curso-completo-v1",
+  "contentDepthAudit": {
+    "status": "curso-completo-v1",
+    "updatedAt": "2026-06-07",
+    "modules": 15,
+    "lessons": 76,
+    "questions": 45,
+    "checklists": 6,
+    "cases": 3
   }
 }

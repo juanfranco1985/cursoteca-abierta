@@ -15,3 +15,7 @@ Este curso fue marcado como curso bandera el 2026-05-27. Se reforzaron lecciones
 Enfoque: proteccion de cuentas, aulas virtuales, datos de estudiantes y comunicacion docente.
 
 Entregable sugerido: una lista de configuracion docente con permisos, comunicacion, respaldo y respuesta.
+
+## Reescritura curso completo v1
+
+Actualizado el 2026-06-07 con teoria ampliada, objetivos, modulos, caso integrador, actividades, evaluacion, glosario, producto final y fuentes recomendadas.

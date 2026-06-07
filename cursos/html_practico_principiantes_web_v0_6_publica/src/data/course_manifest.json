@@ -1,9 +1,9 @@
 {
   "courseId": "html-practico-principiantes",
-  "templateVersion": "0.6-publica-profesional",
+  "templateVersion": "1.0-curso-completo-v1",
   "title": "HTML Práctico para Principiantes",
-  "subtitle": "Curso practico para construir paginas con estructura clara: textos, enlaces, imagenes, listas, tablas y formularios.",
-  "description": "Empieza con HTML desde cero: estructura de pagina, contenido semantico, enlaces, imagenes, listas, tablas, formularios y proyecto simple.",
+  "subtitle": "HTML es la base estructural de la web.  Cada página, aplicación, blog, tienda online, portal educativo, landing page o documento web comienza con HTML.",
+  "description": "HTML es la base estructural de la web.  Cada página, aplicación, blog, tienda online, portal educativo, landing page o documento web comienza con HTML.",
   "audience": "principiantes,estudiantes,emprendedores,personas que quieren crear páginas web",
   "category": "Desarrollo Web y Programación",
   "status": "v0.5 candidato de publicación",
@@ -45,7 +45,7 @@
     "Checklist de publicación",
     "Carpeta store/screenshots preparada"
   ],
-  "version": "0.5",
+  "version": "1.0-curso-completo-v1",
   "publicEdition": {
     "level": "publica-profesional",
     "version": "0.6",
@@ -74,23 +74,34 @@
     ]
   },
   "webApp": {
-    "cacheName": "html-practico-principiantes-web-v0-6-publica-v0-6-publica-profesional",
-    "publicationStatus": "publica-profesional-v0.6"
+    "cacheName": "html_practico_principiantes_web_v0_6_publica-cache-v1-curso-completo",
+    "publicationStatus": "publica-curso-completo-v1"
   },
-  "responsibleNotice": "Contenido educativo. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. No usar HTML solo para apariencia ni publicar formularios que pidan datos sensibles sin proteccion.",
+  "responsibleNotice": "Contenido educativo. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. En temas de seguridad, datos personales, dinero, comercios, tramites o derechos, valida decisiones criticas con fuentes oficiales o una persona competente.",
   "appName": "HTML Practico para Principiantes",
   "shortName": "HTML Practico para Principiantes",
   "professionalization": {
-    "tier": "curso-bandera-v1.0-beta",
-    "updatedAt": "2026-05-28",
+    "tier": "curso-completo-v1",
+    "updatedAt": "2026-06-07",
+    "sourcePackage": "cursos_06_50_reescritos_v1",
     "improvements": [
-      "Lecciones con teoria, ejemplo, error comun y ejercicio mas profundos.",
-      "Checklists orientados a evidencia y entregables.",
-      "Casos guiados con pasos, errores y decision responsable."
+      "Reescritura teorica extensa en formato de curso completo.",
+      "Objetivos, modulos teoricos, caso integrador, actividades, evaluacion, glosario y producto final.",
+      "Lecciones con bloques teoricos, contraejemplos y fuentes recomendadas."
     ]
   },
   "editorialPolish": {
     "fourthEditorialBatch": "2026-06-02",
     "status": "public-facing-copy-polished"
+  },
+  "publicationStatus": "publica-curso-completo-v1",
+  "contentDepthAudit": {
+    "status": "curso-completo-v1",
+    "updatedAt": "2026-06-07",
+    "modules": 19,
+    "lessons": 86,
+    "questions": 57,
+    "checklists": 8,
+    "cases": 3
   }
 }

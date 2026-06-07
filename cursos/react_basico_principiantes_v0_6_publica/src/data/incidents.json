@@ -1,441 +1,160 @@
 {
   "incidents": [
     {
-      "id": "case-1",
-      "title": "Caso inicial controlado: React Basico para Principiantes",
-      "summary": "Practica aplicada para resolver una situacion de construccion de interfaces con componentes, estado, props y renderizado declarativo con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una mini aplicacion React sin exponer datos sensibles y con una decision verificable.",
+      "id": "react_basico_principiantes-case-1",
+      "title": "Caso practico integrador",
+      "summary": "Aplicar React Basico para Principiantes a un caso realista.",
+      "severity": "Practica integradora",
+      "immediateGoal": "Aplicar la teoria completa del curso a una situacion realista.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una mini aplicacion React.",
-        "Revisar el resultado contra este criterio: la app se entiende por componentes y puede modificarse sin romper toda la interfaz.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Describir el contexto del caso.",
+        "Identificar conceptos teoricos necesarios.",
+        "Aplicar el criterio del curso paso a paso.",
+        "Registrar evidencia y limite de la decision.",
+        "Contrastar con fuentes recomendadas.",
+        "Cerrar con producto final, duda pendiente y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "componentes, estado, props, captura de UI y explicacion del flujo",
-        "Decision final y motivo"
+        "Descripcion del caso",
+        "Conceptos usados",
+        "Fuente consultada",
+        "Decision o produccion final",
+        "Riesgo, limite o duda pendiente"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Resolver por intuicion sin explicar criterio.",
+        "Copiar una fuente sin sintetizar.",
+        "Usar datos sensibles reales en la practica.",
+        "Cerrar el curso sin producto verificable."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
-        "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Aplicar React Basico para Principiantes a un caso realista.",
+        "Guardar la entrega final.",
+        "Revisar el checklist antes de marcar el curso como completo."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision muestra mejor criterio de curso completo?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Conectar teoria, caso, fuente, limite y producto verificable.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: esa es la diferencia entre ficha introductoria y curso completo."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Repetir una definicion sin aplicarla.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La definicion aislada no alcanza."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Cerrar sin evidencia ni fuente.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Falta verificacion y producto final."
           }
         ]
       }
     },
     {
-      "id": "case-2",
-      "title": "Caso con datos incompletos: React Basico para Principiantes",
-      "summary": "Practica aplicada para resolver una situacion de construccion de interfaces con componentes, estado, props y renderizado declarativo con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una mini aplicacion React sin exponer datos sensibles y con una decision verificable.",
+      "id": "react_basico_principiantes-case-2",
+      "title": "Evaluacion final",
+      "summary": "Responder preguntas conceptuales y producir una entrega practica.",
+      "severity": "Practica integradora",
+      "immediateGoal": "Comprobar comprension conceptual y produccion practica.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una mini aplicacion React.",
-        "Revisar el resultado contra este criterio: la app se entiende por componentes y puede modificarse sin romper toda la interfaz.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Describir el contexto del caso.",
+        "Identificar conceptos teoricos necesarios.",
+        "Aplicar el criterio del curso paso a paso.",
+        "Registrar evidencia y limite de la decision.",
+        "Contrastar con fuentes recomendadas.",
+        "Cerrar con producto final, duda pendiente y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "componentes, estado, props, captura de UI y explicacion del flujo",
-        "Decision final y motivo"
+        "Descripcion del caso",
+        "Conceptos usados",
+        "Fuente consultada",
+        "Decision o produccion final",
+        "Riesgo, limite o duda pendiente"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Resolver por intuicion sin explicar criterio.",
+        "Copiar una fuente sin sintetizar.",
+        "Usar datos sensibles reales en la practica.",
+        "Cerrar el curso sin producto verificable."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
-        "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Responder preguntas conceptuales y producir una entrega practica.",
+        "Guardar la entrega final.",
+        "Revisar el checklist antes de marcar el curso como completo."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision muestra mejor criterio de curso completo?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Conectar teoria, caso, fuente, limite y producto verificable.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: esa es la diferencia entre ficha introductoria y curso completo."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Repetir una definicion sin aplicarla.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La definicion aislada no alcanza."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Cerrar sin evidencia ni fuente.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Falta verificacion y producto final."
           }
         ]
       }
     },
     {
-      "id": "case-3",
-      "title": "Caso con presion de tiempo: React Basico para Principiantes",
-      "summary": "Practica aplicada para resolver una situacion de construccion de interfaces con componentes, estado, props y renderizado declarativo con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una mini aplicacion React sin exponer datos sensibles y con una decision verificable.",
+      "id": "react_basico_principiantes-case-3",
+      "title": "Producto final del curso",
+      "summary": "Al finalizar, el estudiante debe crear una Mini Aplicación React. Ese producto debe permitir: - dividir interfaz en componentes; - pasar datos con props; - manejar estado; - responder a eventos; - renderizar listas; - validar formularios; - consumir o guardar datos; - aplicar estilos; - documentar el proyecto. El curso termina cuando la persona deja de pensar una web como un archivo único y empieza a construir interfaces mediante componentes, estado y datos.",
+      "severity": "Practica integradora",
+      "immediateGoal": "Cerrar el curso con una evidencia concreta de aprendizaje.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una mini aplicacion React.",
-        "Revisar el resultado contra este criterio: la app se entiende por componentes y puede modificarse sin romper toda la interfaz.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Describir el contexto del caso.",
+        "Identificar conceptos teoricos necesarios.",
+        "Aplicar el criterio del curso paso a paso.",
+        "Registrar evidencia y limite de la decision.",
+        "Contrastar con fuentes recomendadas.",
+        "Cerrar con producto final, duda pendiente y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "componentes, estado, props, captura de UI y explicacion del flujo",
-        "Decision final y motivo"
+        "Descripcion del caso",
+        "Conceptos usados",
+        "Fuente consultada",
+        "Decision o produccion final",
+        "Riesgo, limite o duda pendiente"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Resolver por intuicion sin explicar criterio.",
+        "Copiar una fuente sin sintetizar.",
+        "Usar datos sensibles reales en la practica.",
+        "Cerrar el curso sin producto verificable."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
-        "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Al finalizar, el estudiante debe crear una Mini Aplicación React.\n\nEse producto debe permitir:\n\n- dividir interfaz en componentes;\n- pasar datos con props;\n- manejar estado;\n- responder a eventos;\n- renderizar listas;\n- validar formularios;\n- consumir o guardar datos;\n- aplicar estilos;\n- documentar el proyecto.\n\nEl curso termina cuando la persona deja de pensar una web como un archivo único y empieza a construir interfaces mediante componentes, estado y datos.",
+        "Guardar la entrega final.",
+        "Revisar el checklist antes de marcar el curso como completo."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision muestra mejor criterio de curso completo?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Conectar teoria, caso, fuente, limite y producto verificable.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: esa es la diferencia entre ficha introductoria y curso completo."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Repetir una definicion sin aplicarla.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La definicion aislada no alcanza."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Cerrar sin evidencia ni fuente.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
-          }
-        ]
-      }
-    },
-    {
-      "id": "case-4",
-      "title": "Caso de comunicacion con otra persona: React Basico para Principiantes",
-      "summary": "Practica aplicada para resolver una situacion de construccion de interfaces con componentes, estado, props y renderizado declarativo con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una mini aplicacion React sin exponer datos sensibles y con una decision verificable.",
-      "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una mini aplicacion React.",
-        "Revisar el resultado contra este criterio: la app se entiende por componentes y puede modificarse sin romper toda la interfaz.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
-      ],
-      "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "componentes, estado, props, captura de UI y explicacion del flujo",
-        "Decision final y motivo"
-      ],
-      "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
-      ],
-      "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
-        "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
-      ],
-      "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
-        "options": [
-          {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
-            "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
-          },
-          {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
-            "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
-          },
-          {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
-            "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
-          }
-        ]
-      }
-    },
-    {
-      "id": "case-5",
-      "title": "Caso de error frecuente: React Basico para Principiantes",
-      "summary": "Practica aplicada para resolver una situacion de construccion de interfaces con componentes, estado, props y renderizado declarativo con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una mini aplicacion React sin exponer datos sensibles y con una decision verificable.",
-      "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una mini aplicacion React.",
-        "Revisar el resultado contra este criterio: la app se entiende por componentes y puede modificarse sin romper toda la interfaz.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
-      ],
-      "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "componentes, estado, props, captura de UI y explicacion del flujo",
-        "Decision final y motivo"
-      ],
-      "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
-      ],
-      "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
-        "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
-      ],
-      "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
-        "options": [
-          {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
-            "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
-          },
-          {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
-            "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
-          },
-          {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
-            "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
-          }
-        ]
-      }
-    },
-    {
-      "id": "case-6",
-      "title": "Caso de mejora de proceso: React Basico para Principiantes",
-      "summary": "Practica aplicada para resolver una situacion de construccion de interfaces con componentes, estado, props y renderizado declarativo con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una mini aplicacion React sin exponer datos sensibles y con una decision verificable.",
-      "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una mini aplicacion React.",
-        "Revisar el resultado contra este criterio: la app se entiende por componentes y puede modificarse sin romper toda la interfaz.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
-      ],
-      "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "componentes, estado, props, captura de UI y explicacion del flujo",
-        "Decision final y motivo"
-      ],
-      "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
-      ],
-      "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
-        "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
-      ],
-      "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
-        "options": [
-          {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
-            "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
-          },
-          {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
-            "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
-          },
-          {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
-            "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
-          }
-        ]
-      }
-    },
-    {
-      "id": "case-7",
-      "title": "Caso de decision responsable: React Basico para Principiantes",
-      "summary": "Practica aplicada para resolver una situacion de construccion de interfaces con componentes, estado, props y renderizado declarativo con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una mini aplicacion React sin exponer datos sensibles y con una decision verificable.",
-      "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una mini aplicacion React.",
-        "Revisar el resultado contra este criterio: la app se entiende por componentes y puede modificarse sin romper toda la interfaz.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
-      ],
-      "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "componentes, estado, props, captura de UI y explicacion del flujo",
-        "Decision final y motivo"
-      ],
-      "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
-      ],
-      "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
-        "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
-      ],
-      "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
-        "options": [
-          {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
-            "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
-          },
-          {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
-            "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
-          },
-          {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
-            "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
-          }
-        ]
-      }
-    },
-    {
-      "id": "case-8",
-      "title": "Proyecto final integrador: React Basico para Principiantes",
-      "summary": "Practica aplicada para resolver una situacion de construccion de interfaces con componentes, estado, props y renderizado declarativo con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Proyecto final",
-      "immediateGoal": "Transformar el caso en una mini aplicacion React sin exponer datos sensibles y con una decision verificable.",
-      "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una mini aplicacion React.",
-        "Revisar el resultado contra este criterio: la app se entiende por componentes y puede modificarse sin romper toda la interfaz.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
-      ],
-      "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "componentes, estado, props, captura de UI y explicacion del flujo",
-        "Decision final y motivo"
-      ],
-      "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
-      ],
-      "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
-        "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
-      ],
-      "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
-        "options": [
-          {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
-            "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
-          },
-          {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
-            "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
-          },
-          {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
-            "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Falta verificacion y producto final."
           }
         ]
       }

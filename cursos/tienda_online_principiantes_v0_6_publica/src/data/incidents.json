@@ -1,441 +1,160 @@
 {
   "incidents": [
     {
-      "id": "tienda-case-1",
-      "title": "Producto sin stock publicado",
-      "summary": "Un cliente compra algo que ya no esta disponible.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Actualizar stock y politica.",
+      "id": "tienda_online_principiantes-case-1",
+      "title": "Caso practico integrador",
+      "summary": "Aplicar Tienda Online para Principiantes a un caso realista.",
+      "severity": "Practica integradora",
+      "immediateGoal": "Aplicar la teoria completa del curso a una situacion realista.",
       "steps": [
-        "Describir el problema inicial: stock desactualizado.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: marcar sin stock, avisar y ofrecer alternativa.",
-        "Guardar evidencia: registro de stock corregido.",
-        "Validar el resultado con una prueba pequena o una persona competente si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
+        "Describir el contexto del caso.",
+        "Identificar conceptos teoricos necesarios.",
+        "Aplicar el criterio del curso paso a paso.",
+        "Registrar evidencia y limite de la decision.",
+        "Contrastar con fuentes recomendadas.",
+        "Cerrar con producto final, duda pendiente y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Consigna o caso de partida",
-        "registro de stock corregido",
-        "Version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Riesgo o duda pendiente"
+        "Descripcion del caso",
+        "Conceptos usados",
+        "Fuente consultada",
+        "Decision o produccion final",
+        "Riesgo, limite o duda pendiente"
       ],
       "errorsToAvoid": [
-        "Esperar a conseguirlo sin avisar.",
-        "Usar datos sensibles en practicas educativas.",
-        "Publicar sin revisar contexto, permisos o consecuencias.",
-        "Copiar formatos sin adaptarlos al destinatario.",
-        "Medir exito solo por apariencia."
+        "Resolver por intuicion sin explicar criterio.",
+        "Copiar una fuente sin sintetizar.",
+        "Usar datos sensibles reales en la practica.",
+        "Cerrar el curso sin producto verificable."
       ],
       "aftercare": [
-        "Crear rutina de stock.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir el siguiente caso de practica."
+        "Aplicar Tienda Online para Principiantes a un caso realista.",
+        "Guardar la entrega final.",
+        "Revisar el checklist antes de marcar el curso como completo."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra mejor criterio profesional?",
+        "question": "Que decision muestra mejor criterio de curso completo?",
         "options": [
           {
-            "text": "Probar en pequeno, guardar evidencia, revisar limites y recien despues aplicar o publicar.",
+            "text": "Conectar teoria, caso, fuente, limite y producto verificable.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce errores y deja aprendizaje transferible."
+            "feedback": "Correcto: esa es la diferencia entre ficha introductoria y curso completo."
           },
           {
-            "text": "Usar el primer resultado porque parece suficiente.",
+            "text": "Repetir una definicion sin aplicarla.",
             "isCorrect": false,
-            "feedback": "La apariencia no alcanza sin prueba ni criterio de cierre."
+            "feedback": "La definicion aislada no alcanza."
           },
           {
-            "text": "Compartir mas datos reales para que el ejercicio sea mas completo.",
+            "text": "Cerrar sin evidencia ni fuente.",
             "isCorrect": false,
-            "feedback": "Las practicas deben usar datos simulados o anonimizados."
+            "feedback": "Falta verificacion y producto final."
           }
         ]
       }
     },
     {
-      "id": "tienda-case-2",
-      "title": "Ficha con medidas incompletas",
-      "summary": "El cliente devuelve por informacion faltante.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Completar ficha.",
+      "id": "tienda_online_principiantes-case-2",
+      "title": "Evaluacion final",
+      "summary": "Responder preguntas conceptuales y producir una entrega practica.",
+      "severity": "Practica integradora",
+      "immediateGoal": "Comprobar comprension conceptual y produccion practica.",
       "steps": [
-        "Describir el problema inicial: duda sobre tamano o compatibilidad.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: agregar medidas, variantes y FAQ.",
-        "Guardar evidencia: ficha antes/despues.",
-        "Validar el resultado con una prueba pequena o una persona competente si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
+        "Describir el contexto del caso.",
+        "Identificar conceptos teoricos necesarios.",
+        "Aplicar el criterio del curso paso a paso.",
+        "Registrar evidencia y limite de la decision.",
+        "Contrastar con fuentes recomendadas.",
+        "Cerrar con producto final, duda pendiente y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Consigna o caso de partida",
-        "ficha antes/despues",
-        "Version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Riesgo o duda pendiente"
+        "Descripcion del caso",
+        "Conceptos usados",
+        "Fuente consultada",
+        "Decision o produccion final",
+        "Riesgo, limite o duda pendiente"
       ],
       "errorsToAvoid": [
-        "Responder solo por privado.",
-        "Usar datos sensibles en practicas educativas.",
-        "Publicar sin revisar contexto, permisos o consecuencias.",
-        "Copiar formatos sin adaptarlos al destinatario.",
-        "Medir exito solo por apariencia."
+        "Resolver por intuicion sin explicar criterio.",
+        "Copiar una fuente sin sintetizar.",
+        "Usar datos sensibles reales en la practica.",
+        "Cerrar el curso sin producto verificable."
       ],
       "aftercare": [
-        "Revisar fichas mas consultadas.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir el siguiente caso de practica."
+        "Responder preguntas conceptuales y producir una entrega practica.",
+        "Guardar la entrega final.",
+        "Revisar el checklist antes de marcar el curso como completo."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra mejor criterio profesional?",
+        "question": "Que decision muestra mejor criterio de curso completo?",
         "options": [
           {
-            "text": "Probar en pequeno, guardar evidencia, revisar limites y recien despues aplicar o publicar.",
+            "text": "Conectar teoria, caso, fuente, limite y producto verificable.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce errores y deja aprendizaje transferible."
+            "feedback": "Correcto: esa es la diferencia entre ficha introductoria y curso completo."
           },
           {
-            "text": "Usar el primer resultado porque parece suficiente.",
+            "text": "Repetir una definicion sin aplicarla.",
             "isCorrect": false,
-            "feedback": "La apariencia no alcanza sin prueba ni criterio de cierre."
+            "feedback": "La definicion aislada no alcanza."
           },
           {
-            "text": "Compartir mas datos reales para que el ejercicio sea mas completo.",
+            "text": "Cerrar sin evidencia ni fuente.",
             "isCorrect": false,
-            "feedback": "Las practicas deben usar datos simulados o anonimizados."
+            "feedback": "Falta verificacion y producto final."
           }
         ]
       }
     },
     {
-      "id": "tienda-case-3",
-      "title": "Pago recibido sin pedido claro",
-      "summary": "No se sabe que producto pidio la persona.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Ordenar flujo de pedido.",
+      "id": "tienda_online_principiantes-case-3",
+      "title": "Producto final del curso",
+      "summary": "Al finalizar, el estudiante debe crear un Plan Inicial de Tienda Online. Ese plan debe permitir decidir si conviene montar tienda, elegir plataforma, organizar catálogo, presentar productos, definir pagos y envíos, crear políticas, conectar redes, lanzar con control, medir resultados y mejorar la operación. El curso termina cuando la persona deja de pensar la tienda online como una página aislada y empieza a verla como un sistema comercial completo: producto, confianza, pago, entrega, atención y medición.",
+      "severity": "Practica integradora",
+      "immediateGoal": "Cerrar el curso con una evidencia concreta de aprendizaje.",
       "steps": [
-        "Describir el problema inicial: comprobante sin detalle.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: pedir datos minimos y crear numero de pedido.",
-        "Guardar evidencia: plantilla de pedido.",
-        "Validar el resultado con una prueba pequena o una persona competente si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
+        "Describir el contexto del caso.",
+        "Identificar conceptos teoricos necesarios.",
+        "Aplicar el criterio del curso paso a paso.",
+        "Registrar evidencia y limite de la decision.",
+        "Contrastar con fuentes recomendadas.",
+        "Cerrar con producto final, duda pendiente y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Consigna o caso de partida",
-        "plantilla de pedido",
-        "Version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Riesgo o duda pendiente"
+        "Descripcion del caso",
+        "Conceptos usados",
+        "Fuente consultada",
+        "Decision o produccion final",
+        "Riesgo, limite o duda pendiente"
       ],
       "errorsToAvoid": [
-        "Depender de chats mezclados.",
-        "Usar datos sensibles en practicas educativas.",
-        "Publicar sin revisar contexto, permisos o consecuencias.",
-        "Copiar formatos sin adaptarlos al destinatario.",
-        "Medir exito solo por apariencia."
+        "Resolver por intuicion sin explicar criterio.",
+        "Copiar una fuente sin sintetizar.",
+        "Usar datos sensibles reales en la practica.",
+        "Cerrar el curso sin producto verificable."
       ],
       "aftercare": [
-        "Usar formulario o mensaje estructurado.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir el siguiente caso de practica."
+        "Al finalizar, el estudiante debe crear un Plan Inicial de Tienda Online.\n\nEse plan debe permitir decidir si conviene montar tienda, elegir plataforma, organizar catálogo, presentar productos, definir pagos y envíos, crear políticas, conectar redes, lanzar con control, medir resultados y mejorar la operación.\n\nEl curso termina cuando la persona deja de pensar la tienda online como una página aislada y empieza a verla como un sistema comercial completo: producto, confianza, pago, entrega, atención y medición.",
+        "Guardar la entrega final.",
+        "Revisar el checklist antes de marcar el curso como completo."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra mejor criterio profesional?",
+        "question": "Que decision muestra mejor criterio de curso completo?",
         "options": [
           {
-            "text": "Probar en pequeno, guardar evidencia, revisar limites y recien despues aplicar o publicar.",
+            "text": "Conectar teoria, caso, fuente, limite y producto verificable.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce errores y deja aprendizaje transferible."
+            "feedback": "Correcto: esa es la diferencia entre ficha introductoria y curso completo."
           },
           {
-            "text": "Usar el primer resultado porque parece suficiente.",
+            "text": "Repetir una definicion sin aplicarla.",
             "isCorrect": false,
-            "feedback": "La apariencia no alcanza sin prueba ni criterio de cierre."
+            "feedback": "La definicion aislada no alcanza."
           },
           {
-            "text": "Compartir mas datos reales para que el ejercicio sea mas completo.",
+            "text": "Cerrar sin evidencia ni fuente.",
             "isCorrect": false,
-            "feedback": "Las practicas deben usar datos simulados o anonimizados."
-          }
-        ]
-      }
-    },
-    {
-      "id": "tienda-case-4",
-      "title": "Envio prometido sin costo visible",
-      "summary": "El cliente se molesta por cargo extra.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Mostrar condiciones.",
-      "steps": [
-        "Describir el problema inicial: costo de envio informado tarde.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: publicar zonas, tiempos y costos.",
-        "Guardar evidencia: condiciones visibles.",
-        "Validar el resultado con una prueba pequena o una persona competente si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
-      ],
-      "evidenceToPreserve": [
-        "Consigna o caso de partida",
-        "condiciones visibles",
-        "Version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Riesgo o duda pendiente"
-      ],
-      "errorsToAvoid": [
-        "Aclarar solo cuando preguntan.",
-        "Usar datos sensibles en practicas educativas.",
-        "Publicar sin revisar contexto, permisos o consecuencias.",
-        "Copiar formatos sin adaptarlos al destinatario.",
-        "Medir exito solo por apariencia."
-      ],
-      "aftercare": [
-        "Actualizar condiciones.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir el siguiente caso de practica."
-      ],
-      "guidedDecision": {
-        "question": "Que decision muestra mejor criterio profesional?",
-        "options": [
-          {
-            "text": "Probar en pequeno, guardar evidencia, revisar limites y recien despues aplicar o publicar.",
-            "isCorrect": true,
-            "feedback": "Correcto: reduce errores y deja aprendizaje transferible."
-          },
-          {
-            "text": "Usar el primer resultado porque parece suficiente.",
-            "isCorrect": false,
-            "feedback": "La apariencia no alcanza sin prueba ni criterio de cierre."
-          },
-          {
-            "text": "Compartir mas datos reales para que el ejercicio sea mas completo.",
-            "isCorrect": false,
-            "feedback": "Las practicas deben usar datos simulados o anonimizados."
-          }
-        ]
-      }
-    },
-    {
-      "id": "tienda-case-5",
-      "title": "Fotos no representan producto",
-      "summary": "La imagen genera expectativas incorrectas.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Mejorar fotos y descripcion.",
-      "steps": [
-        "Describir el problema inicial: reclamo por diferencia.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: usar fotos reales y notas de variacion.",
-        "Guardar evidencia: fotos corregidas.",
-        "Validar el resultado con una prueba pequena o una persona competente si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
-      ],
-      "evidenceToPreserve": [
-        "Consigna o caso de partida",
-        "fotos corregidas",
-        "Version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Riesgo o duda pendiente"
-      ],
-      "errorsToAvoid": [
-        "Usar imagen generica sin aclarar.",
-        "Usar datos sensibles en practicas educativas.",
-        "Publicar sin revisar contexto, permisos o consecuencias.",
-        "Copiar formatos sin adaptarlos al destinatario.",
-        "Medir exito solo por apariencia."
-      ],
-      "aftercare": [
-        "Checklist de foto.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir el siguiente caso de practica."
-      ],
-      "guidedDecision": {
-        "question": "Que decision muestra mejor criterio profesional?",
-        "options": [
-          {
-            "text": "Probar en pequeno, guardar evidencia, revisar limites y recien despues aplicar o publicar.",
-            "isCorrect": true,
-            "feedback": "Correcto: reduce errores y deja aprendizaje transferible."
-          },
-          {
-            "text": "Usar el primer resultado porque parece suficiente.",
-            "isCorrect": false,
-            "feedback": "La apariencia no alcanza sin prueba ni criterio de cierre."
-          },
-          {
-            "text": "Compartir mas datos reales para que el ejercicio sea mas completo.",
-            "isCorrect": false,
-            "feedback": "Las practicas deben usar datos simulados o anonimizados."
-          }
-        ]
-      }
-    },
-    {
-      "id": "tienda-case-6",
-      "title": "Tienda publicada sin prueba",
-      "summary": "El boton de compra no funciona.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Hacer compra de prueba.",
-      "steps": [
-        "Describir el problema inicial: error reportado por cliente.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: probar flujo completo y corregir.",
-        "Guardar evidencia: checklist de prueba.",
-        "Validar el resultado con una prueba pequena o una persona competente si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
-      ],
-      "evidenceToPreserve": [
-        "Consigna o caso de partida",
-        "checklist de prueba",
-        "Version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Riesgo o duda pendiente"
-      ],
-      "errorsToAvoid": [
-        "Anunciar antes de probar.",
-        "Usar datos sensibles en practicas educativas.",
-        "Publicar sin revisar contexto, permisos o consecuencias.",
-        "Copiar formatos sin adaptarlos al destinatario.",
-        "Medir exito solo por apariencia."
-      ],
-      "aftercare": [
-        "Probar luego de cada cambio.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir el siguiente caso de practica."
-      ],
-      "guidedDecision": {
-        "question": "Que decision muestra mejor criterio profesional?",
-        "options": [
-          {
-            "text": "Probar en pequeno, guardar evidencia, revisar limites y recien despues aplicar o publicar.",
-            "isCorrect": true,
-            "feedback": "Correcto: reduce errores y deja aprendizaje transferible."
-          },
-          {
-            "text": "Usar el primer resultado porque parece suficiente.",
-            "isCorrect": false,
-            "feedback": "La apariencia no alcanza sin prueba ni criterio de cierre."
-          },
-          {
-            "text": "Compartir mas datos reales para que el ejercicio sea mas completo.",
-            "isCorrect": false,
-            "feedback": "Las practicas deben usar datos simulados o anonimizados."
-          }
-        ]
-      }
-    },
-    {
-      "id": "tienda-case-7",
-      "title": "Reclamo por cambio",
-      "summary": "No habia politica visible.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Definir cambios y devoluciones.",
-      "steps": [
-        "Describir el problema inicial: cliente pide cambio.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: escribir politica clara y resolver caso.",
-        "Guardar evidencia: politica publicada.",
-        "Validar el resultado con una prueba pequena o una persona competente si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
-      ],
-      "evidenceToPreserve": [
-        "Consigna o caso de partida",
-        "politica publicada",
-        "Version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Riesgo o duda pendiente"
-      ],
-      "errorsToAvoid": [
-        "Improvisar reglas por cliente.",
-        "Usar datos sensibles en practicas educativas.",
-        "Publicar sin revisar contexto, permisos o consecuencias.",
-        "Copiar formatos sin adaptarlos al destinatario.",
-        "Medir exito solo por apariencia."
-      ],
-      "aftercare": [
-        "Revisar politica con casos reales.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir el siguiente caso de practica."
-      ],
-      "guidedDecision": {
-        "question": "Que decision muestra mejor criterio profesional?",
-        "options": [
-          {
-            "text": "Probar en pequeno, guardar evidencia, revisar limites y recien despues aplicar o publicar.",
-            "isCorrect": true,
-            "feedback": "Correcto: reduce errores y deja aprendizaje transferible."
-          },
-          {
-            "text": "Usar el primer resultado porque parece suficiente.",
-            "isCorrect": false,
-            "feedback": "La apariencia no alcanza sin prueba ni criterio de cierre."
-          },
-          {
-            "text": "Compartir mas datos reales para que el ejercicio sea mas completo.",
-            "isCorrect": false,
-            "feedback": "Las practicas deben usar datos simulados o anonimizados."
-          }
-        ]
-      }
-    },
-    {
-      "id": "tienda-case-8",
-      "title": "Muchas visitas pocas ventas",
-      "summary": "La tienda recibe trafico pero no pedidos.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Detectar friccion.",
-      "steps": [
-        "Describir el problema inicial: baja conversion.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: revisar fichas, CTA, precios, confianza y envio.",
-        "Guardar evidencia: lista de mejoras priorizadas.",
-        "Validar el resultado con una prueba pequena o una persona competente si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
-      ],
-      "evidenceToPreserve": [
-        "Consigna o caso de partida",
-        "lista de mejoras priorizadas",
-        "Version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Riesgo o duda pendiente"
-      ],
-      "errorsToAvoid": [
-        "Bajar precio sin entender causa.",
-        "Usar datos sensibles en practicas educativas.",
-        "Publicar sin revisar contexto, permisos o consecuencias.",
-        "Copiar formatos sin adaptarlos al destinatario.",
-        "Medir exito solo por apariencia."
-      ],
-      "aftercare": [
-        "Medir cambios semanalmente.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir el siguiente caso de practica."
-      ],
-      "guidedDecision": {
-        "question": "Que decision muestra mejor criterio profesional?",
-        "options": [
-          {
-            "text": "Probar en pequeno, guardar evidencia, revisar limites y recien despues aplicar o publicar.",
-            "isCorrect": true,
-            "feedback": "Correcto: reduce errores y deja aprendizaje transferible."
-          },
-          {
-            "text": "Usar el primer resultado porque parece suficiente.",
-            "isCorrect": false,
-            "feedback": "La apariencia no alcanza sin prueba ni criterio de cierre."
-          },
-          {
-            "text": "Compartir mas datos reales para que el ejercicio sea mas completo.",
-            "isCorrect": false,
-            "feedback": "Las practicas deben usar datos simulados o anonimizados."
+            "feedback": "Falta verificacion y producto final."
           }
         ]
       }

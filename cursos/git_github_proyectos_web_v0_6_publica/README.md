@@ -28,3 +28,7 @@ Este curso fue marcado como curso bandera el 2026-05-27. Se reforzaron lecciones
 Enfoque: control de versiones, historial, ramas, repositorios y publicacion colaborativa.
 
 Entregable sugerido: un repositorio con README, historial claro, rama de mejora y checklist de publicacion.
+
+## Reescritura curso completo v1
+
+Actualizado el 2026-06-07 con teoria ampliada, objetivos, modulos, caso integrador, actividades, evaluacion, glosario, producto final y fuentes recomendadas.

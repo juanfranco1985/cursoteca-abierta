@@ -1,441 +1,160 @@
 {
   "incidents": [
     {
-      "id": "gobdat-case-1",
-      "title": "Dos areas calculan distinto el mismo KPI",
-      "summary": "Ventas tiene un numero y administracion otro.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Acordar definicion oficial.",
+      "id": "gobierno_datos_basico-case-1",
+      "title": "Caso practico integrador",
+      "summary": "Aplicar Gobierno de Datos Basico a un caso realista.",
+      "severity": "Practica integradora",
+      "immediateGoal": "Aplicar la teoria completa del curso a una situacion realista.",
       "steps": [
-        "Describir el problema inicial: indicadores incompatibles.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: documentar formula, fuente, exclusiones y dueño.",
-        "Guardar evidencia: ficha de KPI.",
-        "Validar con una muestra, fuente confiable o responsable del dato si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
+        "Describir el contexto del caso.",
+        "Identificar conceptos teoricos necesarios.",
+        "Aplicar el criterio del curso paso a paso.",
+        "Registrar evidencia y limite de la decision.",
+        "Contrastar con fuentes recomendadas.",
+        "Cerrar con producto final, duda pendiente y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Fuente o archivo de partida",
-        "ficha de KPI",
-        "Version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Duda o riesgo pendiente"
+        "Descripcion del caso",
+        "Conceptos usados",
+        "Fuente consultada",
+        "Decision o produccion final",
+        "Riesgo, limite o duda pendiente"
       ],
       "errorsToAvoid": [
-        "Elegir el numero que conviene.",
-        "Usar datos sensibles en practicas educativas.",
-        "Cambiar resultados manualmente para que cierren.",
-        "Publicar sin explicar filtros, periodo o fuente.",
-        "Confundir correlacion, tendencia o apariencia con causa."
+        "Resolver por intuicion sin explicar criterio.",
+        "Copiar una fuente sin sintetizar.",
+        "Usar datos sensibles reales en la practica.",
+        "Cerrar el curso sin producto verificable."
       ],
       "aftercare": [
-        "Crear catalogo de indicadores.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir siguiente caso de practica."
+        "Aplicar Gobierno de Datos Basico a un caso realista.",
+        "Guardar la entrega final.",
+        "Revisar el checklist antes de marcar el curso como completo."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra mejor criterio profesional con datos?",
+        "question": "Que decision muestra mejor criterio de curso completo?",
         "options": [
           {
-            "text": "Verificar fuente, calidad, definicion y limites antes de comunicar o decidir.",
+            "text": "Conectar teoria, caso, fuente, limite y producto verificable.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce errores y deja trazabilidad."
+            "feedback": "Correcto: esa es la diferencia entre ficha introductoria y curso completo."
           },
           {
-            "text": "Usar el resultado porque el grafico se ve claro.",
+            "text": "Repetir una definicion sin aplicarla.",
             "isCorrect": false,
-            "feedback": "La claridad visual no prueba calidad ni contexto."
+            "feedback": "La definicion aislada no alcanza."
           },
           {
-            "text": "Ocultar dudas para que el informe parezca mas firme.",
+            "text": "Cerrar sin evidencia ni fuente.",
             "isCorrect": false,
-            "feedback": "Los limites bien escritos aumentan confianza responsable."
+            "feedback": "Falta verificacion y producto final."
           }
         ]
       }
     },
     {
-      "id": "gobdat-case-2",
-      "title": "Nadie sabe quien puede cambiar una columna",
-      "summary": "Un campo se modifica y rompe reportes.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Asignar responsable.",
+      "id": "gobierno_datos_basico-case-2",
+      "title": "Evaluacion final",
+      "summary": "Responder preguntas conceptuales y producir una entrega practica.",
+      "severity": "Practica integradora",
+      "immediateGoal": "Comprobar comprension conceptual y produccion practica.",
       "steps": [
-        "Describir el problema inicial: cambio sin dueño claro.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: definir dueño, custodio y proceso de cambio.",
-        "Guardar evidencia: matriz RACI.",
-        "Validar con una muestra, fuente confiable o responsable del dato si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
+        "Describir el contexto del caso.",
+        "Identificar conceptos teoricos necesarios.",
+        "Aplicar el criterio del curso paso a paso.",
+        "Registrar evidencia y limite de la decision.",
+        "Contrastar con fuentes recomendadas.",
+        "Cerrar con producto final, duda pendiente y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Fuente o archivo de partida",
-        "matriz RACI",
-        "Version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Duda o riesgo pendiente"
+        "Descripcion del caso",
+        "Conceptos usados",
+        "Fuente consultada",
+        "Decision o produccion final",
+        "Riesgo, limite o duda pendiente"
       ],
       "errorsToAvoid": [
-        "Culpar al ultimo usuario.",
-        "Usar datos sensibles en practicas educativas.",
-        "Cambiar resultados manualmente para que cierren.",
-        "Publicar sin explicar filtros, periodo o fuente.",
-        "Confundir correlacion, tendencia o apariencia con causa."
+        "Resolver por intuicion sin explicar criterio.",
+        "Copiar una fuente sin sintetizar.",
+        "Usar datos sensibles reales en la practica.",
+        "Cerrar el curso sin producto verificable."
       ],
       "aftercare": [
-        "Registrar cambios.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir siguiente caso de practica."
+        "Responder preguntas conceptuales y producir una entrega practica.",
+        "Guardar la entrega final.",
+        "Revisar el checklist antes de marcar el curso como completo."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra mejor criterio profesional con datos?",
+        "question": "Que decision muestra mejor criterio de curso completo?",
         "options": [
           {
-            "text": "Verificar fuente, calidad, definicion y limites antes de comunicar o decidir.",
+            "text": "Conectar teoria, caso, fuente, limite y producto verificable.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce errores y deja trazabilidad."
+            "feedback": "Correcto: esa es la diferencia entre ficha introductoria y curso completo."
           },
           {
-            "text": "Usar el resultado porque el grafico se ve claro.",
+            "text": "Repetir una definicion sin aplicarla.",
             "isCorrect": false,
-            "feedback": "La claridad visual no prueba calidad ni contexto."
+            "feedback": "La definicion aislada no alcanza."
           },
           {
-            "text": "Ocultar dudas para que el informe parezca mas firme.",
+            "text": "Cerrar sin evidencia ni fuente.",
             "isCorrect": false,
-            "feedback": "Los limites bien escritos aumentan confianza responsable."
+            "feedback": "Falta verificacion y producto final."
           }
         ]
       }
     },
     {
-      "id": "gobdat-case-3",
-      "title": "Archivo con datos sensibles compartido amplio",
-      "summary": "Una planilla con datos personales circula por enlace abierto.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Reducir acceso.",
+      "id": "gobierno_datos_basico-case-3",
+      "title": "Producto final del curso",
+      "summary": "Al finalizar, el estudiante debe crear un Plan Básico de Gobierno de Datos. Ese plan debe permitir: - identificar activos críticos; - asignar responsables; - definir reglas; - proteger datos sensibles; - controlar accesos; - mejorar calidad; - documentar indicadores; - reducir confusión; - aumentar confianza; - sostener una rutina de revisión. El curso termina cuando la persona comprende que los datos no se gobiernan solos: necesitan responsables, reglas claras, documentación y revisión continua.",
+      "severity": "Practica integradora",
+      "immediateGoal": "Cerrar el curso con una evidencia concreta de aprendizaje.",
       "steps": [
-        "Describir el problema inicial: permiso excesivo.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: limitar enlace, separar datos y justificar accesos.",
-        "Guardar evidencia: matriz de permisos corregida.",
-        "Validar con una muestra, fuente confiable o responsable del dato si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
+        "Describir el contexto del caso.",
+        "Identificar conceptos teoricos necesarios.",
+        "Aplicar el criterio del curso paso a paso.",
+        "Registrar evidencia y limite de la decision.",
+        "Contrastar con fuentes recomendadas.",
+        "Cerrar con producto final, duda pendiente y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Fuente o archivo de partida",
-        "matriz de permisos corregida",
-        "Version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Duda o riesgo pendiente"
+        "Descripcion del caso",
+        "Conceptos usados",
+        "Fuente consultada",
+        "Decision o produccion final",
+        "Riesgo, limite o duda pendiente"
       ],
       "errorsToAvoid": [
-        "Confiar en que nadie lo usara mal.",
-        "Usar datos sensibles en practicas educativas.",
-        "Cambiar resultados manualmente para que cierren.",
-        "Publicar sin explicar filtros, periodo o fuente.",
-        "Confundir correlacion, tendencia o apariencia con causa."
+        "Resolver por intuicion sin explicar criterio.",
+        "Copiar una fuente sin sintetizar.",
+        "Usar datos sensibles reales en la practica.",
+        "Cerrar el curso sin producto verificable."
       ],
       "aftercare": [
-        "Auditar accesos trimestralmente.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir siguiente caso de practica."
+        "Al finalizar, el estudiante debe crear un Plan Básico de Gobierno de Datos.\n\nEse plan debe permitir:\n\n- identificar activos críticos;\n- asignar responsables;\n- definir reglas;\n- proteger datos sensibles;\n- controlar accesos;\n- mejorar calidad;\n- documentar indicadores;\n- reducir confusión;\n- aumentar confianza;\n- sostener una rutina de revisión.\n\nEl curso termina cuando la persona comprende que los datos no se gobiernan solos: necesitan responsables, reglas claras, documentación y revisión continua.",
+        "Guardar la entrega final.",
+        "Revisar el checklist antes de marcar el curso como completo."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra mejor criterio profesional con datos?",
+        "question": "Que decision muestra mejor criterio de curso completo?",
         "options": [
           {
-            "text": "Verificar fuente, calidad, definicion y limites antes de comunicar o decidir.",
+            "text": "Conectar teoria, caso, fuente, limite y producto verificable.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce errores y deja trazabilidad."
+            "feedback": "Correcto: esa es la diferencia entre ficha introductoria y curso completo."
           },
           {
-            "text": "Usar el resultado porque el grafico se ve claro.",
+            "text": "Repetir una definicion sin aplicarla.",
             "isCorrect": false,
-            "feedback": "La claridad visual no prueba calidad ni contexto."
+            "feedback": "La definicion aislada no alcanza."
           },
           {
-            "text": "Ocultar dudas para que el informe parezca mas firme.",
+            "text": "Cerrar sin evidencia ni fuente.",
             "isCorrect": false,
-            "feedback": "Los limites bien escritos aumentan confianza responsable."
-          }
-        ]
-      }
-    },
-    {
-      "id": "gobdat-case-4",
-      "title": "Campo sin definicion",
-      "summary": "La columna 'estado' significa cosas distintas.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Definir valores permitidos.",
-      "steps": [
-        "Describir el problema inicial: interpretaciones diferentes.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: crear definicion y lista de valores.",
-        "Guardar evidencia: entrada de catalogo.",
-        "Validar con una muestra, fuente confiable o responsable del dato si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
-      ],
-      "evidenceToPreserve": [
-        "Fuente o archivo de partida",
-        "entrada de catalogo",
-        "Version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Duda o riesgo pendiente"
-      ],
-      "errorsToAvoid": [
-        "Agregar otra columna parecida.",
-        "Usar datos sensibles en practicas educativas.",
-        "Cambiar resultados manualmente para que cierren.",
-        "Publicar sin explicar filtros, periodo o fuente.",
-        "Confundir correlacion, tendencia o apariencia con causa."
-      ],
-      "aftercare": [
-        "Revisar campos ambiguos.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir siguiente caso de practica."
-      ],
-      "guidedDecision": {
-        "question": "Que decision muestra mejor criterio profesional con datos?",
-        "options": [
-          {
-            "text": "Verificar fuente, calidad, definicion y limites antes de comunicar o decidir.",
-            "isCorrect": true,
-            "feedback": "Correcto: reduce errores y deja trazabilidad."
-          },
-          {
-            "text": "Usar el resultado porque el grafico se ve claro.",
-            "isCorrect": false,
-            "feedback": "La claridad visual no prueba calidad ni contexto."
-          },
-          {
-            "text": "Ocultar dudas para que el informe parezca mas firme.",
-            "isCorrect": false,
-            "feedback": "Los limites bien escritos aumentan confianza responsable."
-          }
-        ]
-      }
-    },
-    {
-      "id": "gobdat-case-5",
-      "title": "Regla de calidad sin responsable",
-      "summary": "Se detectan errores pero nadie los corrige.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Asignar accion.",
-      "steps": [
-        "Describir el problema inicial: incidentes repetidos.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: vincular regla, umbral, responsable y plazo.",
-        "Guardar evidencia: plan de accion.",
-        "Validar con una muestra, fuente confiable o responsable del dato si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
-      ],
-      "evidenceToPreserve": [
-        "Fuente o archivo de partida",
-        "plan de accion",
-        "Version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Duda o riesgo pendiente"
-      ],
-      "errorsToAvoid": [
-        "Medir errores sin corregir causa.",
-        "Usar datos sensibles en practicas educativas.",
-        "Cambiar resultados manualmente para que cierren.",
-        "Publicar sin explicar filtros, periodo o fuente.",
-        "Confundir correlacion, tendencia o apariencia con causa."
-      ],
-      "aftercare": [
-        "Reunion breve de calidad.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir siguiente caso de practica."
-      ],
-      "guidedDecision": {
-        "question": "Que decision muestra mejor criterio profesional con datos?",
-        "options": [
-          {
-            "text": "Verificar fuente, calidad, definicion y limites antes de comunicar o decidir.",
-            "isCorrect": true,
-            "feedback": "Correcto: reduce errores y deja trazabilidad."
-          },
-          {
-            "text": "Usar el resultado porque el grafico se ve claro.",
-            "isCorrect": false,
-            "feedback": "La claridad visual no prueba calidad ni contexto."
-          },
-          {
-            "text": "Ocultar dudas para que el informe parezca mas firme.",
-            "isCorrect": false,
-            "feedback": "Los limites bien escritos aumentan confianza responsable."
-          }
-        ]
-      }
-    },
-    {
-      "id": "gobdat-case-6",
-      "title": "Cambio de fuente rompe historico",
-      "summary": "El reporte cambia porque se reemplazo origen.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Registrar linaje.",
-      "steps": [
-        "Describir el problema inicial: fuente nueva.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: documentar origen anterior, nuevo y fecha de corte.",
-        "Guardar evidencia: diagrama de linaje.",
-        "Validar con una muestra, fuente confiable o responsable del dato si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
-      ],
-      "evidenceToPreserve": [
-        "Fuente o archivo de partida",
-        "diagrama de linaje",
-        "Version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Duda o riesgo pendiente"
-      ],
-      "errorsToAvoid": [
-        "Empalmar series sin nota.",
-        "Usar datos sensibles en practicas educativas.",
-        "Cambiar resultados manualmente para que cierren.",
-        "Publicar sin explicar filtros, periodo o fuente.",
-        "Confundir correlacion, tendencia o apariencia con causa."
-      ],
-      "aftercare": [
-        "Versionar fuentes.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir siguiente caso de practica."
-      ],
-      "guidedDecision": {
-        "question": "Que decision muestra mejor criterio profesional con datos?",
-        "options": [
-          {
-            "text": "Verificar fuente, calidad, definicion y limites antes de comunicar o decidir.",
-            "isCorrect": true,
-            "feedback": "Correcto: reduce errores y deja trazabilidad."
-          },
-          {
-            "text": "Usar el resultado porque el grafico se ve claro.",
-            "isCorrect": false,
-            "feedback": "La claridad visual no prueba calidad ni contexto."
-          },
-          {
-            "text": "Ocultar dudas para que el informe parezca mas firme.",
-            "isCorrect": false,
-            "feedback": "Los limites bien escritos aumentan confianza responsable."
-          }
-        ]
-      }
-    },
-    {
-      "id": "gobdat-case-7",
-      "title": "Catalogo demasiado grande",
-      "summary": "Se intenta documentar todo y se abandona.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Priorizar datos criticos.",
-      "steps": [
-        "Describir el problema inicial: exceso de alcance.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: elegir 10 datos de mayor riesgo o uso.",
-        "Guardar evidencia: catalogo minimo.",
-        "Validar con una muestra, fuente confiable o responsable del dato si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
-      ],
-      "evidenceToPreserve": [
-        "Fuente o archivo de partida",
-        "catalogo minimo",
-        "Version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Duda o riesgo pendiente"
-      ],
-      "errorsToAvoid": [
-        "Esperar catalogo perfecto.",
-        "Usar datos sensibles en practicas educativas.",
-        "Cambiar resultados manualmente para que cierren.",
-        "Publicar sin explicar filtros, periodo o fuente.",
-        "Confundir correlacion, tendencia o apariencia con causa."
-      ],
-      "aftercare": [
-        "Agregar por tandas.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir siguiente caso de practica."
-      ],
-      "guidedDecision": {
-        "question": "Que decision muestra mejor criterio profesional con datos?",
-        "options": [
-          {
-            "text": "Verificar fuente, calidad, definicion y limites antes de comunicar o decidir.",
-            "isCorrect": true,
-            "feedback": "Correcto: reduce errores y deja trazabilidad."
-          },
-          {
-            "text": "Usar el resultado porque el grafico se ve claro.",
-            "isCorrect": false,
-            "feedback": "La claridad visual no prueba calidad ni contexto."
-          },
-          {
-            "text": "Ocultar dudas para que el informe parezca mas firme.",
-            "isCorrect": false,
-            "feedback": "Los limites bien escritos aumentan confianza responsable."
-          }
-        ]
-      }
-    },
-    {
-      "id": "gobdat-case-8",
-      "title": "Usuario pide acceso total",
-      "summary": "Se solicita planilla completa para una tarea puntual.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Aplicar minimo necesario.",
-      "steps": [
-        "Describir el problema inicial: pedido amplio.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: definir campos necesarios y alternativa agregada.",
-        "Guardar evidencia: decision de acceso.",
-        "Validar con una muestra, fuente confiable o responsable del dato si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
-      ],
-      "evidenceToPreserve": [
-        "Fuente o archivo de partida",
-        "decision de acceso",
-        "Version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Duda o riesgo pendiente"
-      ],
-      "errorsToAvoid": [
-        "Dar copia completa para ahorrar tiempo.",
-        "Usar datos sensibles en practicas educativas.",
-        "Cambiar resultados manualmente para que cierren.",
-        "Publicar sin explicar filtros, periodo o fuente.",
-        "Confundir correlacion, tendencia o apariencia con causa."
-      ],
-      "aftercare": [
-        "Crear niveles de acceso.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir siguiente caso de practica."
-      ],
-      "guidedDecision": {
-        "question": "Que decision muestra mejor criterio profesional con datos?",
-        "options": [
-          {
-            "text": "Verificar fuente, calidad, definicion y limites antes de comunicar o decidir.",
-            "isCorrect": true,
-            "feedback": "Correcto: reduce errores y deja trazabilidad."
-          },
-          {
-            "text": "Usar el resultado porque el grafico se ve claro.",
-            "isCorrect": false,
-            "feedback": "La claridad visual no prueba calidad ni contexto."
-          },
-          {
-            "text": "Ocultar dudas para que el informe parezca mas firme.",
-            "isCorrect": false,
-            "feedback": "Los limites bien escritos aumentan confianza responsable."
+            "feedback": "Falta verificacion y producto final."
           }
         ]
       }

@@ -1,10 +1,10 @@
 {
   "courseId": "google-workspace-trabajo-datos-web",
-  "templateVersion": "0.6-publica-profesional",
+  "templateVersion": "1.0-curso-completo-v1",
   "appName": "Google Workspace para Trabajo y Datos",
   "shortName": "Google Workspace",
-  "subtitle": "Curso práctico para crear archivos compartidos, controlar permisos y usar datos simples para trabajar mejor.",
-  "description": "Usá Drive, Docs, Sheets y formularios con orden: carpetas, permisos, colaboración, datos básicos y seguimiento de tareas.",
+  "subtitle": "Google Workspace es un conjunto de herramientas digitales que permite trabajar, estudiar, organizar información, colaborar en equipo y gestionar datos de manera simple desde la nube.  Incluye herramientas como Gmail, Drive, Docs, Sheets, Forms, Slides, Calendar, Meet y otras aplicaciones conectadas.",
+  "description": "Google Workspace es un conjunto de herramientas digitales que permite trabajar, estudiar, organizar información, colaborar en equipo y gestionar datos de manera simple desde la nube.  Incluye herramientas como Gmail, Drive, Docs, Sheets, Forms, Slides, Calendar, Meet y otras aplicaciones conectadas.",
   "audience": "Emprendedores, estudiantes, docentes, trabajadores administrativos, equipos pequeños y personas que quieren organizar mejor información y tareas usando herramientas de Google Workspace.",
   "dataPaths": {
     "course": "src/data/course_content.json",
@@ -63,7 +63,7 @@
     "primary": "#d6a85c",
     "background": "#21130b"
   },
-  "responsibleNotice": "Contenido educativo. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. No compartir carpetas completas ni datos sensibles con permisos publicos por error.",
+  "responsibleNotice": "Contenido educativo. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. En temas de seguridad, datos personales, dinero, comercios, tramites o derechos, valida decisiones criticas con fuentes oficiales o una persona competente.",
   "cloneNotes": [
     "Curso derivado de la plantilla web clonable.",
     "Evitar usar datos personales, correos, archivos privados o información sensible en prácticas.",
@@ -72,7 +72,7 @@
     "v0.3 agrega Laboratorio Google Forms + Sheets con diseño de formularios, respuestas simuladas, revisión de calidad y reporte exportable."
   ],
   "releaseNotes": "v0.5 orientada a publicación: README final, guías, aviso legal, privacidad, checklist y capturas.",
-  "version": "0.5",
+  "version": "1.0-curso-completo-v1",
   "status": "Candidato de publicación web",
   "publicEdition": {
     "level": "publica-profesional",
@@ -102,20 +102,31 @@
     ]
   },
   "webApp": {
-    "cacheName": "google-workspace-trabajo-datos-web-v0-6-publica-v0-6-publica-profesional",
-    "publicationStatus": "publica-profesional-v0.6"
+    "cacheName": "google_workspace_trabajo_datos_web_v0_6_publica-cache-v1-curso-completo",
+    "publicationStatus": "publica-curso-completo-v1"
   },
   "professionalization": {
-    "tier": "curso-bandera-v1.0-beta",
-    "updatedAt": "2026-05-28",
+    "tier": "curso-completo-v1",
+    "updatedAt": "2026-06-07",
+    "sourcePackage": "cursos_06_50_reescritos_v1",
     "improvements": [
-      "Lecciones con teoria, ejemplo, error comun y ejercicio mas profundos.",
-      "Checklists orientados a evidencia y entregables.",
-      "Casos guiados con pasos, errores y decision responsable."
+      "Reescritura teorica extensa en formato de curso completo.",
+      "Objetivos, modulos teoricos, caso integrador, actividades, evaluacion, glosario y producto final.",
+      "Lecciones con bloques teoricos, contraejemplos y fuentes recomendadas."
     ]
   },
   "editorialPolish": {
     "secondFeaturedBatch": "2026-06-01",
     "status": "public-facing-copy-polished"
+  },
+  "publicationStatus": "publica-curso-completo-v1",
+  "contentDepthAudit": {
+    "status": "curso-completo-v1",
+    "updatedAt": "2026-06-07",
+    "modules": 14,
+    "lessons": 68,
+    "questions": 42,
+    "checklists": 6,
+    "cases": 3
   }
 }

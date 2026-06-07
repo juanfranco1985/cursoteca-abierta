@@ -1,10 +1,10 @@
 {
   "courseId": "analista-datos-ciudadano",
-  "templateVersion": "0.6-publica-profesional",
+  "templateVersion": "1.0-curso-completo-v1",
   "appName": "Analista de Datos Ciudadano",
   "shortName": "Datos Ciudadanos",
-  "subtitle": "Curso practico para convertir datos cotidianos en preguntas, indicadores simples y decisiones revisables.",
-  "description": "Aprende a mirar datos con criterio: ordenar tablas, limpiar informacion, crear metricas basicas y comunicar hallazgos utiles.",
+  "subtitle": "El análisis de datos ya no es una capacidad exclusiva de especialistas técnicos, grandes empresas o equipos de inteligencia de negocio.  Cada vez más personas necesitan leer planillas, interpretar indicadores, detectar errores, comparar resultados, entender gráficos, revisar encuestas, medir ventas, analizar gastos, tomar decisiones y comunicar hallazgos con claridad.",
+  "description": "El análisis de datos ya no es una capacidad exclusiva de especialistas técnicos, grandes empresas o equipos de inteligencia de negocio.  Cada vez más personas necesitan leer planillas, interpretar indicadores, detectar errores, comparar resultados, entender gráficos, revisar encuestas, medir ventas, analizar gastos, tomar decisiones y comunicar hallazgos con claridad.",
   "audience": "Estudiantes, emprendedores, trabajadores administrativos, pequeños comercios y personas que quieren empezar en análisis de datos sin instalar software complejo.",
   "dataPaths": {
     "course": "src/data/course_content.json",
@@ -65,7 +65,7 @@
     "issuer": "Analista de Datos Ciudadano Web",
     "disclaimer": "No es una certificación oficial ni reemplaza formación profesional. Es una constancia educativa de avance dentro del curso."
   },
-  "responsibleNotice": "Contenido educativo. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. No publicar datos personales, sensibles o identificables sin permiso y anonimizado.",
+  "responsibleNotice": "Contenido educativo. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. En temas de seguridad, datos personales, dinero, comercios, tramites o derechos, valida decisiones criticas con fuentes oficiales o una persona competente.",
   "cloneNotes": "Para futuros cursos de análisis de datos, usar esta v0.5 como referencia cuando se necesite laboratorio práctico, documentación de publicación y paquete web listo para probar en navegador.",
   "homeHighlights": [
     {
@@ -110,7 +110,7 @@
     "startUrl": "./index.html",
     "themeColor": "#38bdf8",
     "backgroundColor": "#07111f",
-    "cacheName": "analista-datos-ciudadano-web-v0-6-publica-v0-6-publica-profesional",
+    "cacheName": "analista_datos_ciudadano_web_v0_6_publica-cache-v1-curso-completo",
     "publishTargets": [
       "GitHub Pages",
       "Netlify",
@@ -118,7 +118,7 @@
       "blog propio",
       "servidor estático simple"
     ],
-    "publicationStatus": "publica-profesional-v0.6"
+    "publicationStatus": "publica-curso-completo-v1"
   },
   "publicEdition": {
     "level": "publica-profesional",
@@ -127,16 +127,28 @@
     "sourceZip": "analista_datos_ciudadano_web_v0_5.zip"
   },
   "professionalization": {
-    "tier": "curso-bandera-v1.0-beta",
-    "updatedAt": "2026-05-28",
+    "tier": "curso-completo-v1",
+    "updatedAt": "2026-06-07",
+    "sourcePackage": "cursos_06_50_reescritos_v1",
     "improvements": [
-      "Lecciones con teoria, ejemplo, error comun y ejercicio mas profundos.",
-      "Checklists orientados a evidencia y entregables.",
-      "Casos guiados con pasos, errores y decision responsable."
+      "Reescritura teorica extensa en formato de curso completo.",
+      "Objetivos, modulos teoricos, caso integrador, actividades, evaluacion, glosario y producto final.",
+      "Lecciones con bloques teoricos, contraejemplos y fuentes recomendadas."
     ]
   },
   "editorialPolish": {
     "thirdEditorialBatch": "2026-06-02",
     "status": "public-facing-copy-polished"
+  },
+  "version": "1.0-curso-completo-v1",
+  "publicationStatus": "publica-curso-completo-v1",
+  "contentDepthAudit": {
+    "status": "curso-completo-v1",
+    "updatedAt": "2026-06-07",
+    "modules": 14,
+    "lessons": 71,
+    "questions": 42,
+    "checklists": 6,
+    "cases": 3
   }
 }

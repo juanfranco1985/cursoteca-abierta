@@ -1,10 +1,10 @@
 {
   "courseId": "seguridad-digital-docentes",
-  "templateVersion": "0.7-publica-profesional-tanda-6",
+  "templateVersion": "1.0-curso-completo-v1",
   "appName": "Seguridad Digital para Docentes",
   "shortName": "Seguridad Docente",
-  "subtitle": "Cuentas, aulas virtuales, datos de estudiantes, comunicacion, incidentes y materiales.",
-  "description": "Curso practico para docentes que usan plataformas, grupos, archivos y comunicacion digital cuidando datos, permisos y evidencia.",
+  "subtitle": "El trabajo docente actual ya no ocurre únicamente en el aula física.  También se desarrolla en plataformas educativas, grupos de comunicación, correos institucionales, videollamadas, documentos compartidos, sistemas de calificaciones, aplicaciones, redes sociales, herramientas de inteligencia artificial y dispositivos personales.",
+  "description": "El trabajo docente actual ya no ocurre únicamente en el aula física.  También se desarrolla en plataformas educativas, grupos de comunicación, correos institucionales, videollamadas, documentos compartidos, sistemas de calificaciones, aplicaciones, redes sociales, herramientas de inteligencia artificial y dispositivos personales.",
   "audience": "Docentes, preceptores, coordinadores, equipos escolares y formadores que trabajan con estudiantes y familias.",
   "category": "Escuela",
   "status": "Publico profesional",
@@ -48,7 +48,7 @@
     "minimumSuggestedQuizAverage": 70,
     "notOfficialNotice": "Constancia educativa no oficial."
   },
-  "responsibleNotice": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar.",
+  "responsibleNotice": "Contenido educativo. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. En temas de seguridad, datos personales, dinero, comercios, tramites o derechos, valida decisiones criticas con fuentes oficiales o una persona competente.",
   "publication": {
     "version": "0.6-publica-profesional",
     "status": "Publica profesional",
@@ -64,16 +64,17 @@
     ]
   },
   "webApp": {
-    "cacheName": "seguridad_digital_docentes_v0_6_publica-cache-v0-6-publica-profesional",
-    "publicationStatus": "publica-profesional-v0.6"
+    "cacheName": "seguridad_digital_docentes_v0_6_publica-cache-v1-curso-completo",
+    "publicationStatus": "publica-curso-completo-v1"
   },
   "professionalization": {
-    "tier": "curso-bandera-v1.0-beta",
-    "updatedAt": "2026-05-28",
+    "tier": "curso-completo-v1",
+    "updatedAt": "2026-06-07",
+    "sourcePackage": "cursos_06_50_reescritos_v1",
     "improvements": [
-      "Lecciones con teoria, ejemplo, error comun y ejercicio mas profundos.",
-      "Checklists orientados a evidencia y entregables.",
-      "Casos guiados con pasos, errores y decision responsable."
+      "Reescritura teorica extensa en formato de curso completo.",
+      "Objetivos, modulos teoricos, caso integrador, actividades, evaluacion, glosario y producto final.",
+      "Lecciones con bloques teoricos, contraejemplos y fuentes recomendadas."
     ]
   },
   "editorialPolish": {
@@ -93,5 +94,16 @@
   },
   "cloneNotes": [
     "v0.7 tanda 6 reemplaza contenido generico por modulos, practicas, checklists y casos especificos en ciudadania y seguridad digital."
-  ]
+  ],
+  "version": "1.0-curso-completo-v1",
+  "publicationStatus": "publica-curso-completo-v1",
+  "contentDepthAudit": {
+    "status": "curso-completo-v1",
+    "updatedAt": "2026-06-07",
+    "modules": 12,
+    "lessons": 50,
+    "questions": 36,
+    "checklists": 6,
+    "cases": 3
+  }
 }

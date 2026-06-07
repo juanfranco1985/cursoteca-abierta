@@ -28,3 +28,7 @@ Este curso fue marcado como curso bandera el 2026-05-27. Se reforzaron lecciones
 Enfoque: analisis visual de datos para tomar decisiones simples y comunicables.
 
 Entregable sugerido: un tablero con objetivo, tres indicadores, filtro principal y recomendacion.
+
+## Reescritura curso completo v1
+
+Actualizado el 2026-06-07 con teoria ampliada, objetivos, modulos, caso integrador, actividades, evaluacion, glosario, producto final y fuentes recomendadas.

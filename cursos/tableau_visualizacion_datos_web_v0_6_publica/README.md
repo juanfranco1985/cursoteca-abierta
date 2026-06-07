@@ -28,3 +28,7 @@ Este curso fue marcado como curso bandera el 2026-05-27. Se reforzaron lecciones
 Enfoque: visualizacion y exploracion de datos con Tableau para dashboards claros.
 
 Entregable sugerido: un dashboard con objetivo, filtros, tres visualizaciones y conclusion accionable.
+
+## Reescritura curso completo v1
+
+Actualizado el 2026-06-07 con teoria ampliada, objetivos, modulos, caso integrador, actividades, evaluacion, glosario, producto final y fuentes recomendadas.

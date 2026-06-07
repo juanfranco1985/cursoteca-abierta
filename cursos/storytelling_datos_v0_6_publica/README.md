@@ -15,3 +15,7 @@ Este curso fue marcado como curso bandera el 2026-05-27. Se reforzaron lecciones
 Enfoque: comunicacion de datos con narrativa, visualizaciones y recomendaciones accionables.
 
 Entregable sugerido: una historia de datos con contexto, grafico, insight, limite y proximo paso.
+
+## Reescritura curso completo v1
+
+Actualizado el 2026-06-07 con teoria ampliada, objetivos, modulos, caso integrador, actividades, evaluacion, glosario, producto final y fuentes recomendadas.

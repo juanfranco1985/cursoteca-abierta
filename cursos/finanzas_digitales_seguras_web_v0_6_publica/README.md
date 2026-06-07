@@ -28,3 +28,7 @@ Este curso fue marcado como curso bandera el 2026-05-27. Se reforzaron lecciones
 Enfoque: uso cotidiano de billeteras, transferencias, tarjetas, comprobantes y gastos.
 
 Entregable sugerido: una hoja de control con operacion, canal, comprobacion, riesgo y siguiente paso.
+
+## Reescritura curso completo v1
+
+Actualizado el 2026-06-07 con teoria ampliada, objetivos, modulos, caso integrador, actividades, evaluacion, glosario, producto final y fuentes recomendadas.

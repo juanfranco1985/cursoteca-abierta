@@ -28,3 +28,7 @@ Este curso fue marcado como curso bandera el 2026-05-27. Se reforzaron lecciones
 Enfoque: uso responsable de IA generativa en trabajo, ventas, estudio y organizacion.
 
 Entregable sugerido: un prompt final con contexto seguro, formato esperado y checklist de revision.
+
+## Reescritura curso completo v1
+
+Actualizado el 2026-06-07 con teoria ampliada, objetivos, modulos, caso integrador, actividades, evaluacion, glosario, producto final y fuentes recomendadas.

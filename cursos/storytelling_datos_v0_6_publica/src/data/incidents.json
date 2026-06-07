@@ -1,441 +1,160 @@
 {
   "incidents": [
     {
-      "id": "story-case-1",
-      "title": "Grafico bonito sin mensaje",
-      "summary": "La presentacion tiene visuales pero nadie sabe que decidir.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Definir hallazgo central.",
+      "id": "storytelling_datos-case-1",
+      "title": "Caso practico integrador",
+      "summary": "Aplicar Storytelling con Datos a un caso realista.",
+      "severity": "Practica integradora",
+      "immediateGoal": "Aplicar la teoria completa del curso a una situacion realista.",
       "steps": [
-        "Describir el problema inicial: slides decorativos.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: escribir una frase accionable por grafico.",
-        "Guardar evidencia: visual con titulo accionable.",
-        "Validar con una muestra, fuente confiable o responsable del dato si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
+        "Describir el contexto del caso.",
+        "Identificar conceptos teoricos necesarios.",
+        "Aplicar el criterio del curso paso a paso.",
+        "Registrar evidencia y limite de la decision.",
+        "Contrastar con fuentes recomendadas.",
+        "Cerrar con producto final, duda pendiente y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Fuente o archivo de partida",
-        "visual con titulo accionable",
-        "Version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Duda o riesgo pendiente"
+        "Descripcion del caso",
+        "Conceptos usados",
+        "Fuente consultada",
+        "Decision o produccion final",
+        "Riesgo, limite o duda pendiente"
       ],
       "errorsToAvoid": [
-        "Agregar mas visuales.",
-        "Usar datos sensibles en practicas educativas.",
-        "Cambiar resultados manualmente para que cierren.",
-        "Publicar sin explicar filtros, periodo o fuente.",
-        "Confundir correlacion, tendencia o apariencia con causa."
+        "Resolver por intuicion sin explicar criterio.",
+        "Copiar una fuente sin sintetizar.",
+        "Usar datos sensibles reales en la practica.",
+        "Cerrar el curso sin producto verificable."
       ],
       "aftercare": [
-        "Usar plantilla de hallazgo.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir siguiente caso de practica."
+        "Aplicar Storytelling con Datos a un caso realista.",
+        "Guardar la entrega final.",
+        "Revisar el checklist antes de marcar el curso como completo."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra mejor criterio profesional con datos?",
+        "question": "Que decision muestra mejor criterio de curso completo?",
         "options": [
           {
-            "text": "Verificar fuente, calidad, definicion y limites antes de comunicar o decidir.",
+            "text": "Conectar teoria, caso, fuente, limite y producto verificable.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce errores y deja trazabilidad."
+            "feedback": "Correcto: esa es la diferencia entre ficha introductoria y curso completo."
           },
           {
-            "text": "Usar el resultado porque el grafico se ve claro.",
+            "text": "Repetir una definicion sin aplicarla.",
             "isCorrect": false,
-            "feedback": "La claridad visual no prueba calidad ni contexto."
+            "feedback": "La definicion aislada no alcanza."
           },
           {
-            "text": "Ocultar dudas para que el informe parezca mas firme.",
+            "text": "Cerrar sin evidencia ni fuente.",
             "isCorrect": false,
-            "feedback": "Los limites bien escritos aumentan confianza responsable."
+            "feedback": "Falta verificacion y producto final."
           }
         ]
       }
     },
     {
-      "id": "story-case-2",
-      "title": "Eje recortado exagera cambio",
-      "summary": "Una diferencia pequena parece enorme.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Usar escala honesta.",
+      "id": "storytelling_datos-case-2",
+      "title": "Evaluacion final",
+      "summary": "Responder preguntas conceptuales y producir una entrega practica.",
+      "severity": "Practica integradora",
+      "immediateGoal": "Comprobar comprension conceptual y produccion practica.",
       "steps": [
-        "Describir el problema inicial: eje vertical manipulado.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: mostrar escala adecuada y explicar variacion.",
-        "Guardar evidencia: grafico antes/despues.",
-        "Validar con una muestra, fuente confiable o responsable del dato si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
+        "Describir el contexto del caso.",
+        "Identificar conceptos teoricos necesarios.",
+        "Aplicar el criterio del curso paso a paso.",
+        "Registrar evidencia y limite de la decision.",
+        "Contrastar con fuentes recomendadas.",
+        "Cerrar con producto final, duda pendiente y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Fuente o archivo de partida",
-        "grafico antes/despues",
-        "Version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Duda o riesgo pendiente"
+        "Descripcion del caso",
+        "Conceptos usados",
+        "Fuente consultada",
+        "Decision o produccion final",
+        "Riesgo, limite o duda pendiente"
       ],
       "errorsToAvoid": [
-        "Recortar para impactar mas.",
-        "Usar datos sensibles en practicas educativas.",
-        "Cambiar resultados manualmente para que cierren.",
-        "Publicar sin explicar filtros, periodo o fuente.",
-        "Confundir correlacion, tendencia o apariencia con causa."
+        "Resolver por intuicion sin explicar criterio.",
+        "Copiar una fuente sin sintetizar.",
+        "Usar datos sensibles reales en la practica.",
+        "Cerrar el curso sin producto verificable."
       ],
       "aftercare": [
-        "Checklist de escalas.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir siguiente caso de practica."
+        "Responder preguntas conceptuales y producir una entrega practica.",
+        "Guardar la entrega final.",
+        "Revisar el checklist antes de marcar el curso como completo."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra mejor criterio profesional con datos?",
+        "question": "Que decision muestra mejor criterio de curso completo?",
         "options": [
           {
-            "text": "Verificar fuente, calidad, definicion y limites antes de comunicar o decidir.",
+            "text": "Conectar teoria, caso, fuente, limite y producto verificable.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce errores y deja trazabilidad."
+            "feedback": "Correcto: esa es la diferencia entre ficha introductoria y curso completo."
           },
           {
-            "text": "Usar el resultado porque el grafico se ve claro.",
+            "text": "Repetir una definicion sin aplicarla.",
             "isCorrect": false,
-            "feedback": "La claridad visual no prueba calidad ni contexto."
+            "feedback": "La definicion aislada no alcanza."
           },
           {
-            "text": "Ocultar dudas para que el informe parezca mas firme.",
+            "text": "Cerrar sin evidencia ni fuente.",
             "isCorrect": false,
-            "feedback": "Los limites bien escritos aumentan confianza responsable."
+            "feedback": "Falta verificacion y producto final."
           }
         ]
       }
     },
     {
-      "id": "story-case-3",
-      "title": "Sin fuente ni fecha",
-      "summary": "El publico no puede evaluar vigencia.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Agregar contexto.",
+      "id": "storytelling_datos-case-3",
+      "title": "Producto final del curso",
+      "summary": "Al finalizar, el estudiante debe crear una Presentación de Storytelling con Datos. Esa presentación debe permitir: - responder una pregunta clara; - adaptar el mensaje a una audiencia; - seleccionar métricas relevantes; - mostrar visualizaciones correctas; - comunicar hallazgos; - explicar contexto; - reconocer límites; - evitar manipulación; - proponer acciones; - cerrar con decisión o próximo paso. El curso termina cuando la persona deja de “mostrar gráficos” y empieza a comunicar evidencia para que otros comprendan y decidan.",
+      "severity": "Practica integradora",
+      "immediateGoal": "Cerrar el curso con una evidencia concreta de aprendizaje.",
       "steps": [
-        "Describir el problema inicial: dato aislado.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: incluir fuente, periodo y fecha de corte.",
-        "Guardar evidencia: nota de contexto.",
-        "Validar con una muestra, fuente confiable o responsable del dato si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
+        "Describir el contexto del caso.",
+        "Identificar conceptos teoricos necesarios.",
+        "Aplicar el criterio del curso paso a paso.",
+        "Registrar evidencia y limite de la decision.",
+        "Contrastar con fuentes recomendadas.",
+        "Cerrar con producto final, duda pendiente y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Fuente o archivo de partida",
-        "nota de contexto",
-        "Version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Duda o riesgo pendiente"
+        "Descripcion del caso",
+        "Conceptos usados",
+        "Fuente consultada",
+        "Decision o produccion final",
+        "Riesgo, limite o duda pendiente"
       ],
       "errorsToAvoid": [
-        "Decir que el dato es interno y alcanza.",
-        "Usar datos sensibles en practicas educativas.",
-        "Cambiar resultados manualmente para que cierren.",
-        "Publicar sin explicar filtros, periodo o fuente.",
-        "Confundir correlacion, tendencia o apariencia con causa."
+        "Resolver por intuicion sin explicar criterio.",
+        "Copiar una fuente sin sintetizar.",
+        "Usar datos sensibles reales en la practica.",
+        "Cerrar el curso sin producto verificable."
       ],
       "aftercare": [
-        "Bloque fijo de fuente.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir siguiente caso de practica."
+        "Al finalizar, el estudiante debe crear una Presentación de Storytelling con Datos.\n\nEsa presentación debe permitir:\n\n- responder una pregunta clara;\n- adaptar el mensaje a una audiencia;\n- seleccionar métricas relevantes;\n- mostrar visualizaciones correctas;\n- comunicar hallazgos;\n- explicar contexto;\n- reconocer límites;\n- evitar manipulación;\n- proponer acciones;\n- cerrar con decisión o próximo paso.\n\nEl curso termina cuando la persona deja de “mostrar gráficos” y empieza a comunicar evidencia para que otros comprendan y decidan.",
+        "Guardar la entrega final.",
+        "Revisar el checklist antes de marcar el curso como completo."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra mejor criterio profesional con datos?",
+        "question": "Que decision muestra mejor criterio de curso completo?",
         "options": [
           {
-            "text": "Verificar fuente, calidad, definicion y limites antes de comunicar o decidir.",
+            "text": "Conectar teoria, caso, fuente, limite y producto verificable.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce errores y deja trazabilidad."
+            "feedback": "Correcto: esa es la diferencia entre ficha introductoria y curso completo."
           },
           {
-            "text": "Usar el resultado porque el grafico se ve claro.",
+            "text": "Repetir una definicion sin aplicarla.",
             "isCorrect": false,
-            "feedback": "La claridad visual no prueba calidad ni contexto."
+            "feedback": "La definicion aislada no alcanza."
           },
           {
-            "text": "Ocultar dudas para que el informe parezca mas firme.",
+            "text": "Cerrar sin evidencia ni fuente.",
             "isCorrect": false,
-            "feedback": "Los limites bien escritos aumentan confianza responsable."
-          }
-        ]
-      }
-    },
-    {
-      "id": "story-case-4",
-      "title": "Demasiados datos por slide",
-      "summary": "La audiencia se pierde entre tablas.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Priorizar mensaje.",
-      "steps": [
-        "Describir el problema inicial: slide saturada.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: separar detalle de mensaje principal.",
-        "Guardar evidencia: slide simplificada.",
-        "Validar con una muestra, fuente confiable o responsable del dato si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
-      ],
-      "evidenceToPreserve": [
-        "Fuente o archivo de partida",
-        "slide simplificada",
-        "Version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Duda o riesgo pendiente"
-      ],
-      "errorsToAvoid": [
-        "Achicar texto para que entre todo.",
-        "Usar datos sensibles en practicas educativas.",
-        "Cambiar resultados manualmente para que cierren.",
-        "Publicar sin explicar filtros, periodo o fuente.",
-        "Confundir correlacion, tendencia o apariencia con causa."
-      ],
-      "aftercare": [
-        "Anexo para detalle.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir siguiente caso de practica."
-      ],
-      "guidedDecision": {
-        "question": "Que decision muestra mejor criterio profesional con datos?",
-        "options": [
-          {
-            "text": "Verificar fuente, calidad, definicion y limites antes de comunicar o decidir.",
-            "isCorrect": true,
-            "feedback": "Correcto: reduce errores y deja trazabilidad."
-          },
-          {
-            "text": "Usar el resultado porque el grafico se ve claro.",
-            "isCorrect": false,
-            "feedback": "La claridad visual no prueba calidad ni contexto."
-          },
-          {
-            "text": "Ocultar dudas para que el informe parezca mas firme.",
-            "isCorrect": false,
-            "feedback": "Los limites bien escritos aumentan confianza responsable."
-          }
-        ]
-      }
-    },
-    {
-      "id": "story-case-5",
-      "title": "Conclusion mas fuerte que la evidencia",
-      "summary": "Se recomienda una accion grande con datos debiles.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Ajustar tono y limite.",
-      "steps": [
-        "Describir el problema inicial: muestra pequena o incompleta.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: formular recomendacion prudente y proximo experimento.",
-        "Guardar evidencia: conclusion reescrita.",
-        "Validar con una muestra, fuente confiable o responsable del dato si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
-      ],
-      "evidenceToPreserve": [
-        "Fuente o archivo de partida",
-        "conclusion reescrita",
-        "Version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Duda o riesgo pendiente"
-      ],
-      "errorsToAvoid": [
-        "Ocultar incertidumbre.",
-        "Usar datos sensibles en practicas educativas.",
-        "Cambiar resultados manualmente para que cierren.",
-        "Publicar sin explicar filtros, periodo o fuente.",
-        "Confundir correlacion, tendencia o apariencia con causa."
-      ],
-      "aftercare": [
-        "Definir nivel de confianza.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir siguiente caso de practica."
-      ],
-      "guidedDecision": {
-        "question": "Que decision muestra mejor criterio profesional con datos?",
-        "options": [
-          {
-            "text": "Verificar fuente, calidad, definicion y limites antes de comunicar o decidir.",
-            "isCorrect": true,
-            "feedback": "Correcto: reduce errores y deja trazabilidad."
-          },
-          {
-            "text": "Usar el resultado porque el grafico se ve claro.",
-            "isCorrect": false,
-            "feedback": "La claridad visual no prueba calidad ni contexto."
-          },
-          {
-            "text": "Ocultar dudas para que el informe parezca mas firme.",
-            "isCorrect": false,
-            "feedback": "Los limites bien escritos aumentan confianza responsable."
-          }
-        ]
-      }
-    },
-    {
-      "id": "story-case-6",
-      "title": "Color confunde categorias",
-      "summary": "El grafico usa colores sin significado.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Dar funcion al color.",
-      "steps": [
-        "Describir el problema inicial: paleta arbitraria.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: usar color para resaltar hallazgo o estado.",
-        "Guardar evidencia: grafico recoloreado.",
-        "Validar con una muestra, fuente confiable o responsable del dato si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
-      ],
-      "evidenceToPreserve": [
-        "Fuente o archivo de partida",
-        "grafico recoloreado",
-        "Version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Duda o riesgo pendiente"
-      ],
-      "errorsToAvoid": [
-        "Usar muchos colores para decorar.",
-        "Usar datos sensibles en practicas educativas.",
-        "Cambiar resultados manualmente para que cierren.",
-        "Publicar sin explicar filtros, periodo o fuente.",
-        "Confundir correlacion, tendencia o apariencia con causa."
-      ],
-      "aftercare": [
-        "Crear regla de color.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir siguiente caso de practica."
-      ],
-      "guidedDecision": {
-        "question": "Que decision muestra mejor criterio profesional con datos?",
-        "options": [
-          {
-            "text": "Verificar fuente, calidad, definicion y limites antes de comunicar o decidir.",
-            "isCorrect": true,
-            "feedback": "Correcto: reduce errores y deja trazabilidad."
-          },
-          {
-            "text": "Usar el resultado porque el grafico se ve claro.",
-            "isCorrect": false,
-            "feedback": "La claridad visual no prueba calidad ni contexto."
-          },
-          {
-            "text": "Ocultar dudas para que el informe parezca mas firme.",
-            "isCorrect": false,
-            "feedback": "Los limites bien escritos aumentan confianza responsable."
-          }
-        ]
-      }
-    },
-    {
-      "id": "story-case-7",
-      "title": "Datos personales en presentacion",
-      "summary": "Una tabla muestra nombres o datos sensibles.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Anonimizar.",
-      "steps": [
-        "Describir el problema inicial: detalle innecesario.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: agregar agregados o ejemplos simulados.",
-        "Guardar evidencia: version anonima.",
-        "Validar con una muestra, fuente confiable o responsable del dato si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
-      ],
-      "evidenceToPreserve": [
-        "Fuente o archivo de partida",
-        "version anonima",
-        "Version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Duda o riesgo pendiente"
-      ],
-      "errorsToAvoid": [
-        "Tapar parcialmente en captura.",
-        "Usar datos sensibles en practicas educativas.",
-        "Cambiar resultados manualmente para que cierren.",
-        "Publicar sin explicar filtros, periodo o fuente.",
-        "Confundir correlacion, tendencia o apariencia con causa."
-      ],
-      "aftercare": [
-        "Revision de privacidad.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir siguiente caso de practica."
-      ],
-      "guidedDecision": {
-        "question": "Que decision muestra mejor criterio profesional con datos?",
-        "options": [
-          {
-            "text": "Verificar fuente, calidad, definicion y limites antes de comunicar o decidir.",
-            "isCorrect": true,
-            "feedback": "Correcto: reduce errores y deja trazabilidad."
-          },
-          {
-            "text": "Usar el resultado porque el grafico se ve claro.",
-            "isCorrect": false,
-            "feedback": "La claridad visual no prueba calidad ni contexto."
-          },
-          {
-            "text": "Ocultar dudas para que el informe parezca mas firme.",
-            "isCorrect": false,
-            "feedback": "Los limites bien escritos aumentan confianza responsable."
-          }
-        ]
-      }
-    },
-    {
-      "id": "story-case-8",
-      "title": "Audiencia equivocada",
-      "summary": "El informe tecnico se envia a publico no tecnico.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Adaptar lenguaje.",
-      "steps": [
-        "Describir el problema inicial: preguntas basicas de comprension.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: reescribir en lenguaje de decision.",
-        "Guardar evidencia: version para audiencia.",
-        "Validar con una muestra, fuente confiable o responsable del dato si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
-      ],
-      "evidenceToPreserve": [
-        "Fuente o archivo de partida",
-        "version para audiencia",
-        "Version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Duda o riesgo pendiente"
-      ],
-      "errorsToAvoid": [
-        "Decir que la audiencia debe saber mas.",
-        "Usar datos sensibles en practicas educativas.",
-        "Cambiar resultados manualmente para que cierren.",
-        "Publicar sin explicar filtros, periodo o fuente.",
-        "Confundir correlacion, tendencia o apariencia con causa."
-      ],
-      "aftercare": [
-        "Preparar dos niveles de detalle.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir siguiente caso de practica."
-      ],
-      "guidedDecision": {
-        "question": "Que decision muestra mejor criterio profesional con datos?",
-        "options": [
-          {
-            "text": "Verificar fuente, calidad, definicion y limites antes de comunicar o decidir.",
-            "isCorrect": true,
-            "feedback": "Correcto: reduce errores y deja trazabilidad."
-          },
-          {
-            "text": "Usar el resultado porque el grafico se ve claro.",
-            "isCorrect": false,
-            "feedback": "La claridad visual no prueba calidad ni contexto."
-          },
-          {
-            "text": "Ocultar dudas para que el informe parezca mas firme.",
-            "isCorrect": false,
-            "feedback": "Los limites bien escritos aumentan confianza responsable."
+            "feedback": "Falta verificacion y producto final."
           }
         ]
       }

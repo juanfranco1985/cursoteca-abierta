@@ -15,3 +15,7 @@ Este curso fue marcado como curso bandera el 2026-05-27. Se reforzaron lecciones
 Enfoque: responsabilidad, reglas, calidad, seguridad y uso correcto de datos en organizaciones pequenas.
 
 Entregable sugerido: una matriz RACI simple con datos criticos, responsables, reglas y controles.
+
+## Reescritura curso completo v1
+
+Actualizado el 2026-06-07 con teoria ampliada, objetivos, modulos, caso integrador, actividades, evaluacion, glosario, producto final y fuentes recomendadas.

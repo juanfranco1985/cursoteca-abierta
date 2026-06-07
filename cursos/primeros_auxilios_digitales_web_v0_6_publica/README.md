@@ -28,3 +28,7 @@ Este curso fue marcado como curso bandera el 2026-05-27. Se reforzaron lecciones
 Enfoque: respuesta ante estafas, robo de cuentas, mensajes sospechosos y urgencias digitales.
 
 Entregable sugerido: un plan de respuesta con canales oficiales, evidencias y acciones de contencion.
+
+## Reescritura curso completo v1
+
+Actualizado el 2026-06-07 con teoria ampliada, objetivos, modulos, caso integrador, actividades, evaluacion, glosario, producto final y fuentes recomendadas.

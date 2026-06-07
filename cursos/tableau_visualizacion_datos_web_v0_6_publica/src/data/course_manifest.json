@@ -1,10 +1,10 @@
 {
   "courseId": "tableau-visualizacion-datos-web",
-  "templateVersion": "0.6-publica-profesional",
+  "templateVersion": "1.0-curso-completo-v1",
   "appName": "Tableau para Visualización de Datos",
   "shortName": "Tableau Datos",
-  "subtitle": "Curso practico para crear visualizaciones y dashboards claros, con filtros utiles y lectura responsable.",
-  "description": "Construye visualizaciones en Tableau con proposito: datos conectados, graficos adecuados, filtros, dashboards y relato visual.",
+  "subtitle": "Tableau es una de las herramientas más reconocidas para visualización de datos y análisis visual.  Permite conectar fuentes de datos, explorar información, crear gráficos interactivos, diseñar dashboards y construir historias visuales que ayuden a comprender problemas, detectar patrones y comunicar hallazgos.",
+  "description": "Tableau es una de las herramientas más reconocidas para visualización de datos y análisis visual.  Permite conectar fuentes de datos, explorar información, crear gráficos interactivos, diseñar dashboards y construir historias visuales que ayuden a comprender problemas, detectar patrones y comunicar hallazgos.",
   "audience": "Estudiantes, emprendedores, trabajadores administrativos, analistas iniciales y personas que quieren aprender visualización de datos desde cero.",
   "dataPaths": {
     "course": "src/data/course_content.json",
@@ -64,13 +64,13 @@
     "primary": "#d6a85c",
     "background": "#21130b"
   },
-  "responsibleNotice": "Contenido educativo. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. No publicar dashboards con datos sensibles, permisos abiertos o metricas mal definidas.",
+  "responsibleNotice": "Contenido educativo. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. En temas de seguridad, datos personales, dinero, comercios, tramites o derechos, valida decisiones criticas con fuentes oficiales o una persona competente.",
   "cloneNotes": [
     "Curso derivado de la plantilla web clonable.",
     "Mantener datos de práctica anonimizados.",
     "Evitar datos personales o empresariales reales sin autorización."
   ],
-  "version": "0.4",
+  "version": "1.0-curso-completo-v1",
   "publicCandidateVersion": "0.5",
   "status": "Candidato de publicación v0.5",
   "publication": {
@@ -112,20 +112,31 @@
     "sourceZip": "tableau_visualizacion_datos_web_v0_5.zip"
   },
   "webApp": {
-    "cacheName": "tableau-visualizacion-datos-web-v0-6-publica-v0-6-publica-profesional",
-    "publicationStatus": "publica-profesional-v0.6"
+    "cacheName": "tableau_visualizacion_datos_web_v0_6_publica-cache-v1-curso-completo",
+    "publicationStatus": "publica-curso-completo-v1"
   },
   "professionalization": {
-    "tier": "curso-bandera-v1.0-beta",
-    "updatedAt": "2026-05-28",
+    "tier": "curso-completo-v1",
+    "updatedAt": "2026-06-07",
+    "sourcePackage": "cursos_06_50_reescritos_v1",
     "improvements": [
-      "Lecciones con teoria, ejemplo, error comun y ejercicio mas profundos.",
-      "Checklists orientados a evidencia y entregables.",
-      "Casos guiados con pasos, errores y decision responsable."
+      "Reescritura teorica extensa en formato de curso completo.",
+      "Objetivos, modulos teoricos, caso integrador, actividades, evaluacion, glosario y producto final.",
+      "Lecciones con bloques teoricos, contraejemplos y fuentes recomendadas."
     ]
   },
   "editorialPolish": {
     "thirdEditorialBatch": "2026-06-02",
     "status": "public-facing-copy-polished"
+  },
+  "publicationStatus": "publica-curso-completo-v1",
+  "contentDepthAudit": {
+    "status": "curso-completo-v1",
+    "updatedAt": "2026-06-07",
+    "modules": 18,
+    "lessons": 93,
+    "questions": 54,
+    "checklists": 6,
+    "cases": 3
   }
 }

@@ -28,3 +28,7 @@ Este curso fue marcado como curso bandera el 2026-05-27. Se reforzaron lecciones
 Enfoque: estructura semantica de paginas web simples, accesibles y faciles de mantener.
 
 Entregable sugerido: una pagina HTML con header, main, secciones, formulario simple y revision semantica.
+
+## Reescritura curso completo v1
+
+Actualizado el 2026-06-07 con teoria ampliada, objetivos, modulos, caso integrador, actividades, evaluacion, glosario, producto final y fuentes recomendadas.

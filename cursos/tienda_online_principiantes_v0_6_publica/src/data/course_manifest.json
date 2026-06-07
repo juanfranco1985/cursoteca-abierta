@@ -1,10 +1,10 @@
 {
   "courseId": "tienda-online-principiantes",
-  "templateVersion": "0.7-publica-profesional-tanda-4",
+  "templateVersion": "1.0-curso-completo-v1",
   "appName": "Tienda Online para Principiantes",
   "shortName": "Tienda Online",
-  "subtitle": "Oferta, catalogo, fotos, precios, pagos, envios, atencion, publicacion y operacion.",
-  "description": "Curso practico para preparar una tienda online simple con catalogo claro, condiciones visibles, operacion cuidada y mejora continua.",
+  "subtitle": "Una tienda online permite vender productos o servicios a través de internet, organizar un catálogo, recibir pedidos, cobrar por medios digitales y ampliar el alcance de un emprendimiento más allá de la venta informal por mensajes.  Pero crear una tienda online no significa simplemente “subir productos a una página”.",
+  "description": "Una tienda online permite vender productos o servicios a través de internet, organizar un catálogo, recibir pedidos, cobrar por medios digitales y ampliar el alcance de un emprendimiento más allá de la venta informal por mensajes.  Pero crear una tienda online no significa simplemente “subir productos a una página”.",
   "audience": "Emprendedores, comercios chicos, feriantes y personas que quieren empezar a vender online sin improvisar procesos criticos.",
   "category": "Emprendimiento",
   "status": "Publico profesional",
@@ -48,7 +48,7 @@
     "minimumSuggestedQuizAverage": 70,
     "notOfficialNotice": "Constancia educativa no oficial."
   },
-  "responsibleNotice": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar.",
+  "responsibleNotice": "Contenido educativo. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. En temas de seguridad, datos personales, dinero, comercios, tramites o derechos, valida decisiones criticas con fuentes oficiales o una persona competente.",
   "publication": {
     "version": "0.6-publica-profesional",
     "status": "Publica profesional",
@@ -64,16 +64,17 @@
     ]
   },
   "webApp": {
-    "cacheName": "tienda_online_principiantes_v0_6_publica-cache-v0-6-publica-profesional",
-    "publicationStatus": "publica-profesional-v0.6"
+    "cacheName": "tienda_online_principiantes_v0_6_publica-cache-v1-curso-completo",
+    "publicationStatus": "publica-curso-completo-v1"
   },
   "professionalization": {
-    "tier": "curso-bandera-v1.0-beta",
-    "updatedAt": "2026-05-28",
+    "tier": "curso-completo-v1",
+    "updatedAt": "2026-06-07",
+    "sourcePackage": "cursos_06_50_reescritos_v1",
     "improvements": [
-      "Lecciones con teoria, ejemplo, error comun y ejercicio mas profundos.",
-      "Checklists orientados a evidencia y entregables.",
-      "Casos guiados con pasos, errores y decision responsable."
+      "Reescritura teorica extensa en formato de curso completo.",
+      "Objetivos, modulos teoricos, caso integrador, actividades, evaluacion, glosario y producto final.",
+      "Lecciones con bloques teoricos, contraejemplos y fuentes recomendadas."
     ]
   },
   "editorialPolish": {
@@ -93,5 +94,16 @@
   },
   "cloneNotes": [
     "v0.7 tanda 4 reemplaza contenido generico por modulos, practicas, checklists y casos especificos en cursos de trabajo y emprendimiento."
-  ]
+  ],
+  "version": "1.0-curso-completo-v1",
+  "publicationStatus": "publica-curso-completo-v1",
+  "contentDepthAudit": {
+    "status": "curso-completo-v1",
+    "updatedAt": "2026-06-07",
+    "modules": 19,
+    "lessons": 88,
+    "questions": 57,
+    "checklists": 8,
+    "cases": 3
+  }
 }

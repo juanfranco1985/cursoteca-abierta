@@ -1,441 +1,160 @@
 {
   "incidents": [
     {
-      "id": "famseg-case-1",
-      "title": "Compra dentro de juego",
-      "summary": "Aparece un gasto no esperado.",
-      "severity": "Practica sensible",
-      "immediateGoal": "Configurar compras y conversar.",
+      "id": "seguridad_familiar_internet-case-1",
+      "title": "Caso practico integrador",
+      "summary": "Aplicar Seguridad Familiar en Internet a un caso realista.",
+      "severity": "Practica integradora",
+      "immediateGoal": "Aplicar la teoria completa del curso a una situacion realista.",
       "steps": [
-        "Pausar la accion automatica y describir el disparador: cargo en tarjeta o tienda.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: revisar permisos, solicitar devolucion si aplica y acordar regla.",
-        "Guardar evidencia: registro del cargo y configuracion corregida.",
-        "Definir si alcanza una accion propia o si corresponde soporte, canal oficial, escuela, familia o profesional competente.",
-        "Cerrar con decision, motivo, limite del ejercicio y siguiente control."
+        "Describir el contexto del caso.",
+        "Identificar conceptos teoricos necesarios.",
+        "Aplicar el criterio del curso paso a paso.",
+        "Registrar evidencia y limite de la decision.",
+        "Contrastar con fuentes recomendadas.",
+        "Cerrar con producto final, duda pendiente y proxima mejora."
       ],
       "evidenceToPreserve": [
         "Descripcion del caso",
-        "registro del cargo y configuracion corregida",
-        "Fecha aproximada y canal usado",
-        "Decision tomada y motivo",
-        "Duda que requiere validacion externa"
+        "Conceptos usados",
+        "Fuente consultada",
+        "Decision o produccion final",
+        "Riesgo, limite o duda pendiente"
       ],
       "errorsToAvoid": [
-        "Culpar sin revisar configuracion.",
-        "Compartir claves, codigos, documentos completos o datos personales.",
-        "Confiar solo en capturas o mensajes reenviados.",
-        "Borrar evidencia antes de entender el problema.",
-        "Tomar una practica educativa como solucion definitiva."
+        "Resolver por intuicion sin explicar criterio.",
+        "Copiar una fuente sin sintetizar.",
+        "Usar datos sensibles reales en la practica.",
+        "Cerrar el curso sin producto verificable."
       ],
       "aftercare": [
-        "Activar aprobacion de compras.",
-        "Actualizar checklist personal, familiar o institucional.",
-        "Guardar una plantilla reutilizable.",
-        "Revisar si hace falta bloquear, reclamar, denunciar o consultar por canales oficiales."
+        "Aplicar Seguridad Familiar en Internet a un caso realista.",
+        "Guardar la entrega final.",
+        "Revisar el checklist antes de marcar el curso como completo."
       ],
       "guidedDecision": {
-        "question": "Que decision reduce mejor el riesgo?",
+        "question": "Que decision muestra mejor criterio de curso completo?",
         "options": [
           {
-            "text": "Pausar, verificar por canal confiable, guardar evidencia y actuar solo con informacion suficiente.",
+            "text": "Conectar teoria, caso, fuente, limite y producto verificable.",
             "isCorrect": true,
-            "feedback": "Correcto: baja la probabilidad de fraude, exposicion o dano."
+            "feedback": "Correcto: esa es la diferencia entre ficha introductoria y curso completo."
           },
           {
-            "text": "Responder rapido porque el mensaje parece urgente.",
+            "text": "Repetir una definicion sin aplicarla.",
             "isCorrect": false,
-            "feedback": "La urgencia suele ser parte del riesgo; primero se verifica."
+            "feedback": "La definicion aislada no alcanza."
           },
           {
-            "text": "Enviar mas datos para que otra persona decida.",
+            "text": "Cerrar sin evidencia ni fuente.",
             "isCorrect": false,
-            "feedback": "Se comparte lo minimo necesario y por canales confiables."
+            "feedback": "Falta verificacion y producto final."
           }
         ]
       }
     },
     {
-      "id": "famseg-case-2",
-      "title": "Contacto desconocido insiste",
-      "summary": "Una persona desconocida escribe en una app.",
-      "severity": "Practica sensible",
-      "immediateGoal": "Cortar contacto y preservar evidencia.",
+      "id": "seguridad_familiar_internet-case-2",
+      "title": "Evaluacion final",
+      "summary": "Responder preguntas conceptuales y producir una entrega practica.",
+      "severity": "Practica integradora",
+      "immediateGoal": "Comprobar comprension conceptual y produccion practica.",
       "steps": [
-        "Pausar la accion automatica y describir el disparador: mensaje insistente.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: guardar captura, bloquear y reportar segun plataforma.",
-        "Guardar evidencia: capturas con fecha y usuario.",
-        "Definir si alcanza una accion propia o si corresponde soporte, canal oficial, escuela, familia o profesional competente.",
-        "Cerrar con decision, motivo, limite del ejercicio y siguiente control."
+        "Describir el contexto del caso.",
+        "Identificar conceptos teoricos necesarios.",
+        "Aplicar el criterio del curso paso a paso.",
+        "Registrar evidencia y limite de la decision.",
+        "Contrastar con fuentes recomendadas.",
+        "Cerrar con producto final, duda pendiente y proxima mejora."
       ],
       "evidenceToPreserve": [
         "Descripcion del caso",
-        "capturas con fecha y usuario",
-        "Fecha aproximada y canal usado",
-        "Decision tomada y motivo",
-        "Duda que requiere validacion externa"
+        "Conceptos usados",
+        "Fuente consultada",
+        "Decision o produccion final",
+        "Riesgo, limite o duda pendiente"
       ],
       "errorsToAvoid": [
-        "Responder para investigar.",
-        "Compartir claves, codigos, documentos completos o datos personales.",
-        "Confiar solo en capturas o mensajes reenviados.",
-        "Borrar evidencia antes de entender el problema.",
-        "Tomar una practica educativa como solucion definitiva."
+        "Resolver por intuicion sin explicar criterio.",
+        "Copiar una fuente sin sintetizar.",
+        "Usar datos sensibles reales en la practica.",
+        "Cerrar el curso sin producto verificable."
       ],
       "aftercare": [
-        "Revisar privacidad de perfiles.",
-        "Actualizar checklist personal, familiar o institucional.",
-        "Guardar una plantilla reutilizable.",
-        "Revisar si hace falta bloquear, reclamar, denunciar o consultar por canales oficiales."
+        "Responder preguntas conceptuales y producir una entrega practica.",
+        "Guardar la entrega final.",
+        "Revisar el checklist antes de marcar el curso como completo."
       ],
       "guidedDecision": {
-        "question": "Que decision reduce mejor el riesgo?",
+        "question": "Que decision muestra mejor criterio de curso completo?",
         "options": [
           {
-            "text": "Pausar, verificar por canal confiable, guardar evidencia y actuar solo con informacion suficiente.",
+            "text": "Conectar teoria, caso, fuente, limite y producto verificable.",
             "isCorrect": true,
-            "feedback": "Correcto: baja la probabilidad de fraude, exposicion o dano."
+            "feedback": "Correcto: esa es la diferencia entre ficha introductoria y curso completo."
           },
           {
-            "text": "Responder rapido porque el mensaje parece urgente.",
+            "text": "Repetir una definicion sin aplicarla.",
             "isCorrect": false,
-            "feedback": "La urgencia suele ser parte del riesgo; primero se verifica."
+            "feedback": "La definicion aislada no alcanza."
           },
           {
-            "text": "Enviar mas datos para que otra persona decida.",
+            "text": "Cerrar sin evidencia ni fuente.",
             "isCorrect": false,
-            "feedback": "Se comparte lo minimo necesario y por canales confiables."
+            "feedback": "Falta verificacion y producto final."
           }
         ]
       }
     },
     {
-      "id": "famseg-case-3",
-      "title": "Contrasena compartida",
-      "summary": "Varios integrantes usan la misma cuenta.",
-      "severity": "Practica sensible",
-      "immediateGoal": "Separar accesos.",
+      "id": "seguridad_familiar_internet-case-3",
+      "title": "Producto final del curso",
+      "summary": "Al finalizar, la familia debe construir su Plan Familiar de Seguridad en Internet. Ese plan debe permitir: - usar dispositivos con reglas claras; - proteger cuentas y datos; - acompañar a menores; - cuidar adultos mayores; - prevenir compras no autorizadas; - responder ante grooming o ciberbullying; - revisar privacidad; - conversar sobre riesgos; - fortalecer confianza; - crear hábitos digitales saludables. El curso termina cuando la familia deja de improvisar y cuenta con acuerdos concretos para vivir mejor en internet.",
+      "severity": "Practica integradora",
+      "immediateGoal": "Cerrar el curso con una evidencia concreta de aprendizaje.",
       "steps": [
-        "Pausar la accion automatica y describir el disparador: clave conocida por todos.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: crear claves unicas y recuperar control.",
-        "Guardar evidencia: cuentas actualizadas.",
-        "Definir si alcanza una accion propia o si corresponde soporte, canal oficial, escuela, familia o profesional competente.",
-        "Cerrar con decision, motivo, limite del ejercicio y siguiente control."
+        "Describir el contexto del caso.",
+        "Identificar conceptos teoricos necesarios.",
+        "Aplicar el criterio del curso paso a paso.",
+        "Registrar evidencia y limite de la decision.",
+        "Contrastar con fuentes recomendadas.",
+        "Cerrar con producto final, duda pendiente y proxima mejora."
       ],
       "evidenceToPreserve": [
         "Descripcion del caso",
-        "cuentas actualizadas",
-        "Fecha aproximada y canal usado",
-        "Decision tomada y motivo",
-        "Duda que requiere validacion externa"
+        "Conceptos usados",
+        "Fuente consultada",
+        "Decision o produccion final",
+        "Riesgo, limite o duda pendiente"
       ],
       "errorsToAvoid": [
-        "Mantener clave simple para no olvidarla.",
-        "Compartir claves, codigos, documentos completos o datos personales.",
-        "Confiar solo en capturas o mensajes reenviados.",
-        "Borrar evidencia antes de entender el problema.",
-        "Tomar una practica educativa como solucion definitiva."
+        "Resolver por intuicion sin explicar criterio.",
+        "Copiar una fuente sin sintetizar.",
+        "Usar datos sensibles reales en la practica.",
+        "Cerrar el curso sin producto verificable."
       ],
       "aftercare": [
-        "Usar gestor o metodo acordado.",
-        "Actualizar checklist personal, familiar o institucional.",
-        "Guardar una plantilla reutilizable.",
-        "Revisar si hace falta bloquear, reclamar, denunciar o consultar por canales oficiales."
+        "Al finalizar, la familia debe construir su Plan Familiar de Seguridad en Internet.\n\nEse plan debe permitir:\n\n- usar dispositivos con reglas claras;\n- proteger cuentas y datos;\n- acompañar a menores;\n- cuidar adultos mayores;\n- prevenir compras no autorizadas;\n- responder ante grooming o ciberbullying;\n- revisar privacidad;\n- conversar sobre riesgos;\n- fortalecer confianza;\n- crear hábitos digitales saludables.\n\nEl curso termina cuando la familia deja de improvisar y cuenta con acuerdos concretos para vivir mejor en internet.",
+        "Guardar la entrega final.",
+        "Revisar el checklist antes de marcar el curso como completo."
       ],
       "guidedDecision": {
-        "question": "Que decision reduce mejor el riesgo?",
+        "question": "Que decision muestra mejor criterio de curso completo?",
         "options": [
           {
-            "text": "Pausar, verificar por canal confiable, guardar evidencia y actuar solo con informacion suficiente.",
+            "text": "Conectar teoria, caso, fuente, limite y producto verificable.",
             "isCorrect": true,
-            "feedback": "Correcto: baja la probabilidad de fraude, exposicion o dano."
+            "feedback": "Correcto: esa es la diferencia entre ficha introductoria y curso completo."
           },
           {
-            "text": "Responder rapido porque el mensaje parece urgente.",
+            "text": "Repetir una definicion sin aplicarla.",
             "isCorrect": false,
-            "feedback": "La urgencia suele ser parte del riesgo; primero se verifica."
+            "feedback": "La definicion aislada no alcanza."
           },
           {
-            "text": "Enviar mas datos para que otra persona decida.",
+            "text": "Cerrar sin evidencia ni fuente.",
             "isCorrect": false,
-            "feedback": "Se comparte lo minimo necesario y por canales confiables."
-          }
-        ]
-      }
-    },
-    {
-      "id": "famseg-case-4",
-      "title": "Foto familiar muy publica",
-      "summary": "Se comparte imagen con datos de escuela o ubicacion.",
-      "severity": "Practica sensible",
-      "immediateGoal": "Revisar privacidad.",
-      "steps": [
-        "Pausar la accion automatica y describir el disparador: publicacion con datos visibles.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: retirar o editar publicacion y ajustar audiencia.",
-        "Guardar evidencia: publicacion corregida.",
-        "Definir si alcanza una accion propia o si corresponde soporte, canal oficial, escuela, familia o profesional competente.",
-        "Cerrar con decision, motivo, limite del ejercicio y siguiente control."
-      ],
-      "evidenceToPreserve": [
-        "Descripcion del caso",
-        "publicacion corregida",
-        "Fecha aproximada y canal usado",
-        "Decision tomada y motivo",
-        "Duda que requiere validacion externa"
-      ],
-      "errorsToAvoid": [
-        "Pensar que solo la ven conocidos.",
-        "Compartir claves, codigos, documentos completos o datos personales.",
-        "Confiar solo en capturas o mensajes reenviados.",
-        "Borrar evidencia antes de entender el problema.",
-        "Tomar una practica educativa como solucion definitiva."
-      ],
-      "aftercare": [
-        "Regla antes de publicar.",
-        "Actualizar checklist personal, familiar o institucional.",
-        "Guardar una plantilla reutilizable.",
-        "Revisar si hace falta bloquear, reclamar, denunciar o consultar por canales oficiales."
-      ],
-      "guidedDecision": {
-        "question": "Que decision reduce mejor el riesgo?",
-        "options": [
-          {
-            "text": "Pausar, verificar por canal confiable, guardar evidencia y actuar solo con informacion suficiente.",
-            "isCorrect": true,
-            "feedback": "Correcto: baja la probabilidad de fraude, exposicion o dano."
-          },
-          {
-            "text": "Responder rapido porque el mensaje parece urgente.",
-            "isCorrect": false,
-            "feedback": "La urgencia suele ser parte del riesgo; primero se verifica."
-          },
-          {
-            "text": "Enviar mas datos para que otra persona decida.",
-            "isCorrect": false,
-            "feedback": "Se comparte lo minimo necesario y por canales confiables."
-          }
-        ]
-      }
-    },
-    {
-      "id": "famseg-case-5",
-      "title": "Celular perdido",
-      "summary": "Un dispositivo familiar desaparece.",
-      "severity": "Practica sensible",
-      "immediateGoal": "Bloquear y proteger cuentas.",
-      "steps": [
-        "Pausar la accion automatica y describir el disparador: perdida o robo.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: usar ubicacion si corresponde, bloquear, cambiar claves y avisar.",
-        "Guardar evidencia: lista de cuentas revisadas.",
-        "Definir si alcanza una accion propia o si corresponde soporte, canal oficial, escuela, familia o profesional competente.",
-        "Cerrar con decision, motivo, limite del ejercicio y siguiente control."
-      ],
-      "evidenceToPreserve": [
-        "Descripcion del caso",
-        "lista de cuentas revisadas",
-        "Fecha aproximada y canal usado",
-        "Decision tomada y motivo",
-        "Duda que requiere validacion externa"
-      ],
-      "errorsToAvoid": [
-        "Esperar demasiado.",
-        "Compartir claves, codigos, documentos completos o datos personales.",
-        "Confiar solo en capturas o mensajes reenviados.",
-        "Borrar evidencia antes de entender el problema.",
-        "Tomar una practica educativa como solucion definitiva."
-      ],
-      "aftercare": [
-        "Activar bloqueo y respaldo.",
-        "Actualizar checklist personal, familiar o institucional.",
-        "Guardar una plantilla reutilizable.",
-        "Revisar si hace falta bloquear, reclamar, denunciar o consultar por canales oficiales."
-      ],
-      "guidedDecision": {
-        "question": "Que decision reduce mejor el riesgo?",
-        "options": [
-          {
-            "text": "Pausar, verificar por canal confiable, guardar evidencia y actuar solo con informacion suficiente.",
-            "isCorrect": true,
-            "feedback": "Correcto: baja la probabilidad de fraude, exposicion o dano."
-          },
-          {
-            "text": "Responder rapido porque el mensaje parece urgente.",
-            "isCorrect": false,
-            "feedback": "La urgencia suele ser parte del riesgo; primero se verifica."
-          },
-          {
-            "text": "Enviar mas datos para que otra persona decida.",
-            "isCorrect": false,
-            "feedback": "Se comparte lo minimo necesario y por canales confiables."
-          }
-        ]
-      }
-    },
-    {
-      "id": "famseg-case-6",
-      "title": "Grupo agresivo",
-      "summary": "Un chat familiar o escolar se vuelve hostil.",
-      "severity": "Practica sensible",
-      "immediateGoal": "Contener sin borrar evidencia.",
-      "steps": [
-        "Pausar la accion automatica y describir el disparador: mensajes agresivos.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: guardar evidencia, pausar respuestas y escalar si corresponde.",
-        "Guardar evidencia: capturas contextualizadas.",
-        "Definir si alcanza una accion propia o si corresponde soporte, canal oficial, escuela, familia o profesional competente.",
-        "Cerrar con decision, motivo, limite del ejercicio y siguiente control."
-      ],
-      "evidenceToPreserve": [
-        "Descripcion del caso",
-        "capturas contextualizadas",
-        "Fecha aproximada y canal usado",
-        "Decision tomada y motivo",
-        "Duda que requiere validacion externa"
-      ],
-      "errorsToAvoid": [
-        "Responder con mas agresion.",
-        "Compartir claves, codigos, documentos completos o datos personales.",
-        "Confiar solo en capturas o mensajes reenviados.",
-        "Borrar evidencia antes de entender el problema.",
-        "Tomar una practica educativa como solucion definitiva."
-      ],
-      "aftercare": [
-        "Acordar reglas de grupo.",
-        "Actualizar checklist personal, familiar o institucional.",
-        "Guardar una plantilla reutilizable.",
-        "Revisar si hace falta bloquear, reclamar, denunciar o consultar por canales oficiales."
-      ],
-      "guidedDecision": {
-        "question": "Que decision reduce mejor el riesgo?",
-        "options": [
-          {
-            "text": "Pausar, verificar por canal confiable, guardar evidencia y actuar solo con informacion suficiente.",
-            "isCorrect": true,
-            "feedback": "Correcto: baja la probabilidad de fraude, exposicion o dano."
-          },
-          {
-            "text": "Responder rapido porque el mensaje parece urgente.",
-            "isCorrect": false,
-            "feedback": "La urgencia suele ser parte del riesgo; primero se verifica."
-          },
-          {
-            "text": "Enviar mas datos para que otra persona decida.",
-            "isCorrect": false,
-            "feedback": "Se comparte lo minimo necesario y por canales confiables."
-          }
-        ]
-      }
-    },
-    {
-      "id": "famseg-case-7",
-      "title": "App con permisos excesivos",
-      "summary": "Una app pide contactos, camara y ubicacion sin necesidad.",
-      "severity": "Practica sensible",
-      "immediateGoal": "Reducir permisos.",
-      "steps": [
-        "Pausar la accion automatica y describir el disparador: permiso innecesario.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: revisar permisos y buscar alternativa si hace falta.",
-        "Guardar evidencia: permisos antes/despues.",
-        "Definir si alcanza una accion propia o si corresponde soporte, canal oficial, escuela, familia o profesional competente.",
-        "Cerrar con decision, motivo, limite del ejercicio y siguiente control."
-      ],
-      "evidenceToPreserve": [
-        "Descripcion del caso",
-        "permisos antes/despues",
-        "Fecha aproximada y canal usado",
-        "Decision tomada y motivo",
-        "Duda que requiere validacion externa"
-      ],
-      "errorsToAvoid": [
-        "Aceptar todo para avanzar.",
-        "Compartir claves, codigos, documentos completos o datos personales.",
-        "Confiar solo en capturas o mensajes reenviados.",
-        "Borrar evidencia antes de entender el problema.",
-        "Tomar una practica educativa como solucion definitiva."
-      ],
-      "aftercare": [
-        "Revision mensual de apps.",
-        "Actualizar checklist personal, familiar o institucional.",
-        "Guardar una plantilla reutilizable.",
-        "Revisar si hace falta bloquear, reclamar, denunciar o consultar por canales oficiales."
-      ],
-      "guidedDecision": {
-        "question": "Que decision reduce mejor el riesgo?",
-        "options": [
-          {
-            "text": "Pausar, verificar por canal confiable, guardar evidencia y actuar solo con informacion suficiente.",
-            "isCorrect": true,
-            "feedback": "Correcto: baja la probabilidad de fraude, exposicion o dano."
-          },
-          {
-            "text": "Responder rapido porque el mensaje parece urgente.",
-            "isCorrect": false,
-            "feedback": "La urgencia suele ser parte del riesgo; primero se verifica."
-          },
-          {
-            "text": "Enviar mas datos para que otra persona decida.",
-            "isCorrect": false,
-            "feedback": "Se comparte lo minimo necesario y por canales confiables."
-          }
-        ]
-      }
-    },
-    {
-      "id": "famseg-case-8",
-      "title": "Estafa por premio",
-      "summary": "Llega un mensaje de premio o sorteo.",
-      "severity": "Practica sensible",
-      "immediateGoal": "Verificar antes de tocar links.",
-      "steps": [
-        "Pausar la accion automatica y describir el disparador: premio inesperado.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: no abrir link, verificar fuente y reportar.",
-        "Guardar evidencia: mensaje sospechoso.",
-        "Definir si alcanza una accion propia o si corresponde soporte, canal oficial, escuela, familia o profesional competente.",
-        "Cerrar con decision, motivo, limite del ejercicio y siguiente control."
-      ],
-      "evidenceToPreserve": [
-        "Descripcion del caso",
-        "mensaje sospechoso",
-        "Fecha aproximada y canal usado",
-        "Decision tomada y motivo",
-        "Duda que requiere validacion externa"
-      ],
-      "errorsToAvoid": [
-        "Compartir con familiares por si es cierto.",
-        "Compartir claves, codigos, documentos completos o datos personales.",
-        "Confiar solo en capturas o mensajes reenviados.",
-        "Borrar evidencia antes de entender el problema.",
-        "Tomar una practica educativa como solucion definitiva."
-      ],
-      "aftercare": [
-        "Lista de senales de estafa.",
-        "Actualizar checklist personal, familiar o institucional.",
-        "Guardar una plantilla reutilizable.",
-        "Revisar si hace falta bloquear, reclamar, denunciar o consultar por canales oficiales."
-      ],
-      "guidedDecision": {
-        "question": "Que decision reduce mejor el riesgo?",
-        "options": [
-          {
-            "text": "Pausar, verificar por canal confiable, guardar evidencia y actuar solo con informacion suficiente.",
-            "isCorrect": true,
-            "feedback": "Correcto: baja la probabilidad de fraude, exposicion o dano."
-          },
-          {
-            "text": "Responder rapido porque el mensaje parece urgente.",
-            "isCorrect": false,
-            "feedback": "La urgencia suele ser parte del riesgo; primero se verifica."
-          },
-          {
-            "text": "Enviar mas datos para que otra persona decida.",
-            "isCorrect": false,
-            "feedback": "Se comparte lo minimo necesario y por canales confiables."
+            "feedback": "Falta verificacion y producto final."
           }
         ]
       }

@@ -1,418 +1,160 @@
 {
   "incidents": [
     {
-      "id": "uxui-profundo-case-1",
-      "title": "La persona queda atrapada dentro de una leccion",
-      "summary": "El flujo permite avanzar, pero no ofrece una ruta clara para volver al modulo o al menu principal.",
-      "severity": "Alta: orientacion y control",
-      "immediateGoal": "Restituir control del usuario y comprobar que puede volver sin usar el historial del navegador.",
+      "id": "ux_ui_basico_sitios_apps-case-1",
+      "title": "Caso practico integrador",
+      "summary": "Aplicar UX/UI Basico para Sitios y Apps a un caso realista.",
+      "severity": "Practica integradora",
+      "immediateGoal": "Aplicar la teoria completa del curso a una situacion realista.",
       "steps": [
-        "Definir la tarea exacta de regreso.",
-        "Registrar desde que pantallas falta salida.",
-        "Agregar ruta global y ruta local con jerarquia clara.",
-        "Probar con teclado y celular.",
-        "Medir si la persona vuelve en un intento.",
-        "Documentar patron para todos los cursos."
+        "Describir el contexto del caso.",
+        "Identificar conceptos teoricos necesarios.",
+        "Aplicar el criterio del curso paso a paso.",
+        "Registrar evidencia y limite de la decision.",
+        "Contrastar con fuentes recomendadas.",
+        "Cerrar con producto final, duda pendiente y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Captura de la leccion sin salida",
-        "Ruta intentada por la persona",
-        "Cambio aplicado",
-        "Resultado de la prueba antes/despues"
+        "Descripcion del caso",
+        "Conceptos usados",
+        "Fuente consultada",
+        "Decision o produccion final",
+        "Riesgo, limite o duda pendiente"
       ],
       "errorsToAvoid": [
-        "Confiar solo en el boton Atras",
-        "Agregar enlaces sin jerarquia",
-        "Ocultar la salida en iconos sin texto",
-        "No probar desde enlaces directos"
+        "Resolver por intuicion sin explicar criterio.",
+        "Copiar una fuente sin sintetizar.",
+        "Usar datos sensibles reales en la practica.",
+        "Cerrar el curso sin producto verificable."
       ],
       "aftercare": [
-        "Crear regla de navegacion transversal",
-        "Actualizar checklist de arquitectura",
-        "Auditar otros cursos con el mismo flujo"
+        "Aplicar UX/UI Basico para Sitios y Apps a un caso realista.",
+        "Guardar la entrega final.",
+        "Revisar el checklist antes de marcar el curso como completo."
       ],
       "guidedDecision": {
-        "question": "Que solucion respeta mejor control y libertad del usuario?",
+        "question": "Que decision muestra mejor criterio de curso completo?",
         "options": [
           {
-            "text": "Agregar ruta visible a modulo y menu principal, y probarla en una tarea real.",
+            "text": "Conectar teoria, caso, fuente, limite y producto verificable.",
             "isCorrect": true,
-            "feedback": "Correcto: resuelve orientacion, salida y evidencia."
+            "feedback": "Correcto: esa es la diferencia entre ficha introductoria y curso completo."
           },
           {
-            "text": "Decirle al usuario que use Atras.",
+            "text": "Repetir una definicion sin aplicarla.",
             "isCorrect": false,
-            "feedback": "Eso traslada la deuda de navegacion a la persona."
+            "feedback": "La definicion aislada no alcanza."
           },
           {
-            "text": "Cambiar colores del boton siguiente.",
+            "text": "Cerrar sin evidencia ni fuente.",
             "isCorrect": false,
-            "feedback": "No resuelve el regreso ni la orientacion."
+            "feedback": "Falta verificacion y producto final."
           }
         ]
       }
     },
     {
-      "id": "uxui-profundo-case-2",
-      "title": "Curso con teoria repetida entre lecciones",
-      "summary": "Las unidades tienen estructura completa, pero la teoria repite frases y no desarrolla conceptos.",
-      "severity": "Alta: calidad pedagogica",
-      "immediateGoal": "Reestructurar la leccion con teoria, modelo mental, principio, evaluacion y fuentes.",
+      "id": "ux_ui_basico_sitios_apps-case-2",
+      "title": "Evaluacion final",
+      "summary": "Responder preguntas conceptuales y producir una entrega practica.",
+      "severity": "Practica integradora",
+      "immediateGoal": "Comprobar comprension conceptual y produccion practica.",
       "steps": [
-        "Identificar patrones repetidos.",
-        "Separar objetivo teorico de practica.",
-        "Buscar fuente externa confiable.",
-        "Redactar modelo mental y principio aplicado.",
-        "Agregar ejemplo y contraejemplo.",
-        "Crear criterio de evaluacion."
+        "Describir el contexto del caso.",
+        "Identificar conceptos teoricos necesarios.",
+        "Aplicar el criterio del curso paso a paso.",
+        "Registrar evidencia y limite de la decision.",
+        "Contrastar con fuentes recomendadas.",
+        "Cerrar con producto final, duda pendiente y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Texto anterior",
-        "Fuente usada",
-        "Nueva estructura",
-        "Criterio de profundidad aplicado"
+        "Descripcion del caso",
+        "Conceptos usados",
+        "Fuente consultada",
+        "Decision o produccion final",
+        "Riesgo, limite o duda pendiente"
       ],
       "errorsToAvoid": [
-        "Crear otra plantilla generica",
-        "Cambiar solo algunas palabras",
-        "No citar fuentes",
-        "Confundir practica con teoria"
+        "Resolver por intuicion sin explicar criterio.",
+        "Copiar una fuente sin sintetizar.",
+        "Usar datos sensibles reales en la practica.",
+        "Cerrar el curso sin producto verificable."
       ],
       "aftercare": [
-        "Medir palabras y repeticiones",
-        "Revisar con checklist editorial",
-        "Aplicar por familias de cursos"
+        "Responder preguntas conceptuales y producir una entrega practica.",
+        "Guardar la entrega final.",
+        "Revisar el checklist antes de marcar el curso como completo."
       ],
       "guidedDecision": {
-        "question": "Que cambio ataca el problema de profundidad?",
+        "question": "Que decision muestra mejor criterio de curso completo?",
         "options": [
           {
-            "text": "Reescribir con bloques teoricos diferenciados, fuentes y evaluacion.",
+            "text": "Conectar teoria, caso, fuente, limite y producto verificable.",
             "isCorrect": true,
-            "feedback": "Correcto: cambia arquitectura, no solo fraseo."
+            "feedback": "Correcto: esa es la diferencia entre ficha introductoria y curso completo."
           },
           {
-            "text": "Agregar mas lecciones cortas iguales.",
+            "text": "Repetir una definicion sin aplicarla.",
             "isCorrect": false,
-            "feedback": "Aumenta volumen sin profundidad."
+            "feedback": "La definicion aislada no alcanza."
           },
           {
-            "text": "Cambiar el titulo de cada unidad.",
+            "text": "Cerrar sin evidencia ni fuente.",
             "isCorrect": false,
-            "feedback": "No corrige la pobreza teorica."
+            "feedback": "Falta verificacion y producto final."
           }
         ]
       }
     },
     {
-      "id": "uxui-profundo-case-3",
-      "title": "Formulario de inscripcion con errores ambiguos",
-      "summary": "La persona no sabe que campo corregir ni por que el envio fallo.",
-      "severity": "Media alta: comprension y recuperacion",
-      "immediateGoal": "Hacer que labels, ayudas, errores y confirmacion permitan completar la tarea.",
+      "id": "ux_ui_basico_sitios_apps-case-3",
+      "title": "Producto final del curso",
+      "summary": "Al finalizar, el estudiante debe crear un Prototipo Básico UX/UI. Ese producto debe permitir: - entender al usuario; - definir una tarea; - ordenar información; - diseñar un flujo; - crear wireframes; - aplicar jerarquía visual; - diseñar componentes; - contemplar estados; - revisar accesibilidad; - probar con usuarios; - justificar mejoras. El curso termina cuando la persona deja de diseñar pantallas “porque se ven lindas” y empieza a diseñar experiencias claras, usables, inclusivas y orientadas a objetivos.",
+      "severity": "Practica integradora",
+      "immediateGoal": "Cerrar el curso con una evidencia concreta de aprendizaje.",
       "steps": [
-        "Listar campos y finalidad.",
-        "Asociar labels visibles.",
-        "Escribir ayuda cerca del campo.",
-        "Redactar error especifico.",
-        "Probar con teclado.",
-        "Confirmar resultado del envio."
+        "Describir el contexto del caso.",
+        "Identificar conceptos teoricos necesarios.",
+        "Aplicar el criterio del curso paso a paso.",
+        "Registrar evidencia y limite de la decision.",
+        "Contrastar con fuentes recomendadas.",
+        "Cerrar con producto final, duda pendiente y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Formulario inicial",
-        "Errores observados",
-        "Version corregida",
-        "Prueba de recuperacion"
+        "Descripcion del caso",
+        "Conceptos usados",
+        "Fuente consultada",
+        "Decision o produccion final",
+        "Riesgo, limite o duda pendiente"
       ],
       "errorsToAvoid": [
-        "Usar placeholder como label",
-        "Mostrar error global generico",
-        "Pedir datos innecesarios",
-        "No indicar campos obligatorios"
+        "Resolver por intuicion sin explicar criterio.",
+        "Copiar una fuente sin sintetizar.",
+        "Usar datos sensibles reales en la practica.",
+        "Cerrar el curso sin producto verificable."
       ],
       "aftercare": [
-        "Actualizar patron de formularios",
-        "Revisar contraste y foco",
-        "Documentar datos minimos"
+        "Al finalizar, el estudiante debe crear un Prototipo Básico UX/UI.\n\nEse producto debe permitir:\n\n- entender al usuario;\n- definir una tarea;\n- ordenar información;\n- diseñar un flujo;\n- crear wireframes;\n- aplicar jerarquía visual;\n- diseñar componentes;\n- contemplar estados;\n- revisar accesibilidad;\n- probar con usuarios;\n- justificar mejoras.\n\nEl curso termina cuando la persona deja de diseñar pantallas “porque se ven lindas” y empieza a diseñar experiencias claras, usables, inclusivas y orientadas a objetivos.",
+        "Guardar la entrega final.",
+        "Revisar el checklist antes de marcar el curso como completo."
       ],
       "guidedDecision": {
-        "question": "Que mejora es mas accesible?",
+        "question": "Que decision muestra mejor criterio de curso completo?",
         "options": [
           {
-            "text": "Labels visibles, error por campo y accion de correccion.",
+            "text": "Conectar teoria, caso, fuente, limite y producto verificable.",
             "isCorrect": true,
-            "feedback": "Correcto: ayuda a operar y recuperarse."
+            "feedback": "Correcto: esa es la diferencia entre ficha introductoria y curso completo."
           },
           {
-            "text": "Un mensaje general al final.",
+            "text": "Repetir una definicion sin aplicarla.",
             "isCorrect": false,
-            "feedback": "No indica donde ni como corregir."
+            "feedback": "La definicion aislada no alcanza."
           },
           {
-            "text": "Mas color rojo sin texto.",
+            "text": "Cerrar sin evidencia ni fuente.",
             "isCorrect": false,
-            "feedback": "Depende solo del color."
-          }
-        ]
-      }
-    },
-    {
-      "id": "uxui-profundo-case-4",
-      "title": "Tarjetas de cursos indistinguibles",
-      "summary": "Las tarjetas tienen el mismo peso visual y no ayudan a elegir por necesidad, nivel o resultado.",
-      "severity": "Media: decision y escaneo",
-      "immediateGoal": "Mejorar jerarquia de tarjetas para que la eleccion sea clara.",
-      "steps": [
-        "Definir decision que la tarjeta debe ayudar a tomar.",
-        "Ordenar titulo, categoria, nivel, resultado y accion.",
-        "Diferenciar destacado sin romper consistencia.",
-        "Probar escaneo de cinco segundos.",
-        "Ajustar textos y pesos.",
-        "Actualizar regla de componente."
-      ],
-      "evidenceToPreserve": [
-        "Tarjeta anterior",
-        "Nueva jerarquia",
-        "Resultado de escaneo",
-        "Regla de componente"
-      ],
-      "errorsToAvoid": [
-        "Hacer todas las tarjetas destacadas",
-        "Usar solo imagen como informacion",
-        "Ocultar nivel o resultado",
-        "Cambiar estilos sin regla"
-      ],
-      "aftercare": [
-        "Documentar tarjeta de curso",
-        "Auditar catalogo completo",
-        "Revisar mobile"
-      ],
-      "guidedDecision": {
-        "question": "Que dato ayuda mas a elegir curso?",
-        "options": [
-          {
-            "text": "Necesidad, nivel, resultado esperado y accion principal.",
-            "isCorrect": true,
-            "feedback": "Correcto: orienta decision."
-          },
-          {
-            "text": "Una frase inspiradora sin contenido.",
-            "isCorrect": false,
-            "feedback": "No ayuda a comparar."
-          },
-          {
-            "text": "Solo una imagen decorativa.",
-            "isCorrect": false,
-            "feedback": "No informa tarea ni nivel."
-          }
-        ]
-      }
-    },
-    {
-      "id": "uxui-profundo-case-5",
-      "title": "Boton principal compite con acciones secundarias",
-      "summary": "La persona no distingue que accion inicia, guarda, descarga o vuelve.",
-      "severity": "Media: jerarquia de accion",
-      "immediateGoal": "Asignar prioridad visual y texto especifico a cada accion.",
-      "steps": [
-        "Listar acciones de la pantalla.",
-        "Identificar accion primaria real.",
-        "Bajar peso a acciones secundarias.",
-        "Reescribir textos ambiguos.",
-        "Probar anticipacion de resultado.",
-        "Documentar variantes de boton."
-      ],
-      "evidenceToPreserve": [
-        "Pantalla con acciones previas",
-        "Nueva jerarquia",
-        "Respuesta de prueba",
-        "Regla de boton"
-      ],
-      "errorsToAvoid": [
-        "Usar mismo estilo para todo",
-        "Nombrar botones 'Aceptar' sin objeto",
-        "Poner acciones destructivas junto a primarias",
-        "No probar mobile"
-      ],
-      "aftercare": [
-        "Actualizar guia de componentes",
-        "Auditar botones de quiz y progreso",
-        "Revisar estados foco/disabled"
-      ],
-      "guidedDecision": {
-        "question": "Que texto de boton es mas claro?",
-        "options": [
-          {
-            "text": "Guardar progreso",
-            "isCorrect": true,
-            "feedback": "Correcto: indica objeto y resultado."
-          },
-          {
-            "text": "Aceptar",
-            "isCorrect": false,
-            "feedback": "No anticipa que ocurrira."
-          },
-          {
-            "text": "Ir",
-            "isCorrect": false,
-            "feedback": "Es ambiguo."
-          }
-        ]
-      }
-    },
-    {
-      "id": "uxui-profundo-case-6",
-      "title": "Pantalla no usable con teclado",
-      "summary": "La persona no puede recorrer, activar o salir de componentes sin mouse.",
-      "severity": "Alta: accesibilidad operable",
-      "immediateGoal": "Restaurar operabilidad por teclado y foco visible.",
-      "steps": [
-        "Recorrer la tarea con Tab.",
-        "Registrar controles inaccesibles.",
-        "Corregir orden y foco.",
-        "Evitar menus solo hover.",
-        "Probar acciones principales.",
-        "Guardar evidencia antes/despues."
-      ],
-      "evidenceToPreserve": [
-        "Ruta de foco inicial",
-        "Controles inaccesibles",
-        "CSS/HTML corregido",
-        "Prueba por teclado"
-      ],
-      "errorsToAvoid": [
-        "Diseñar solo hover",
-        "Ocultar outline sin reemplazo",
-        "Cambiar orden visual y foco sin revisar",
-        "No probar enlaces directos"
-      ],
-      "aftercare": [
-        "Agregar prueba de teclado al checklist",
-        "Revisar todos los cursos",
-        "Documentar patron de foco"
-      ],
-      "guidedDecision": {
-        "question": "Que señal es indispensable para operar con teclado?",
-        "options": [
-          {
-            "text": "Foco visible y orden logico.",
-            "isCorrect": true,
-            "feedback": "Correcto: orienta la navegacion sin mouse."
-          },
-          {
-            "text": "Hover animado.",
-            "isCorrect": false,
-            "feedback": "El hover no sirve para teclado."
-          },
-          {
-            "text": "Mas color de fondo.",
-            "isCorrect": false,
-            "feedback": "No garantiza operabilidad."
-          }
-        ]
-      }
-    },
-    {
-      "id": "uxui-profundo-case-7",
-      "title": "Busqueda sin resultados utiles",
-      "summary": "El portal muestra vacio sin explicar filtros, terminos o alternativas.",
-      "severity": "Media: recuperacion",
-      "immediateGoal": "Convertir el estado vacio en una salida informativa.",
-      "steps": [
-        "Detectar filtros activos.",
-        "Explicar que no se encontro.",
-        "Ofrecer limpiar filtros.",
-        "Sugerir cursos relacionados.",
-        "Probar terminos reales.",
-        "Documentar microcopy de vacio."
-      ],
-      "evidenceToPreserve": [
-        "Busqueda original",
-        "Termino usado",
-        "Estado vacio nuevo",
-        "Resultado de recuperacion"
-      ],
-      "errorsToAvoid": [
-        "Pantalla en blanco",
-        "Culpar al usuario",
-        "No mostrar filtros activos",
-        "No ofrecer alternativas"
-      ],
-      "aftercare": [
-        "Agregar sinonimos frecuentes",
-        "Revisar categorias",
-        "Medir busquedas fallidas"
-      ],
-      "guidedDecision": {
-        "question": "Que estado vacio ayuda mas?",
-        "options": [
-          {
-            "text": "Explica el resultado y ofrece limpiar filtros o probar sugerencias.",
-            "isCorrect": true,
-            "feedback": "Correcto: permite recuperar la tarea."
-          },
-          {
-            "text": "No muestra nada.",
-            "isCorrect": false,
-            "feedback": "Aumenta incertidumbre."
-          },
-          {
-            "text": "Dice solo 'sin datos'.",
-            "isCorrect": false,
-            "feedback": "No da proxima accion."
-          }
-        ]
-      }
-    },
-    {
-      "id": "uxui-profundo-case-8",
-      "title": "Cambio visual sin criterio de exito",
-      "summary": "El equipo rediseña una pantalla pero no sabe como comprobar si mejoro.",
-      "severity": "Media alta: decision no verificable",
-      "immediateGoal": "Convertir el cambio en hipotesis UX con medicion simple.",
-      "steps": [
-        "Escribir problema observable.",
-        "Definir cambio propuesto.",
-        "Explicar resultado esperado.",
-        "Seleccionar criterio de exito.",
-        "Probar antes/despues.",
-        "Documentar decision y fuente."
-      ],
-      "evidenceToPreserve": [
-        "Problema inicial",
-        "Hipotesis",
-        "Version anterior",
-        "Version nueva",
-        "Resultado de prueba"
-      ],
-      "errorsToAvoid": [
-        "Medir solo opinion",
-        "Cambiar multiples variables sin registro",
-        "No indicar fuente",
-        "Declarar exito sin prueba"
-      ],
-      "aftercare": [
-        "Guardar decision UX",
-        "Actualizar matriz de prioridad",
-        "Revisar si el patron aplica a otros cursos"
-      ],
-      "guidedDecision": {
-        "question": "Que evidencia valida mejor una mejora?",
-        "options": [
-          {
-            "text": "La persona completa mejor la tarea definida antes del cambio.",
-            "isCorrect": true,
-            "feedback": "Correcto: mide comportamiento contra criterio."
-          },
-          {
-            "text": "El equipo siente que se ve mas moderno.",
-            "isCorrect": false,
-            "feedback": "Puede ser util, pero no valida tarea."
-          },
-          {
-            "text": "Hay mas elementos visuales.",
-            "isCorrect": false,
-            "feedback": "Cantidad no equivale a mejora."
+            "feedback": "Falta verificacion y producto final."
           }
         ]
       }

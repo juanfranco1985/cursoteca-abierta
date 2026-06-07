@@ -1,441 +1,160 @@
 {
   "incidents": [
     {
-      "id": "iaprac-case-1",
-      "title": "Prompt con datos de clientes",
-      "summary": "Una persona pega un chat real para pedir resumen.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Anonimizar antes de usar IA.",
+      "id": "ia_practica_web-case-1",
+      "title": "Caso practico integrador",
+      "summary": "Aplicar IA Practica para Trabajadores y Emprendedores a un caso realista.",
+      "severity": "Practica integradora",
+      "immediateGoal": "Aplicar la teoria completa del curso a una situacion realista.",
       "steps": [
-        "Describir el problema inicial: chat con nombres y telefonos.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: reemplazar datos por etiquetas y probar con version simulada.",
-        "Guardar evidencia: version anonimizada y prompt corregido.",
-        "Validar el resultado contra una prueba pequena y una persona o fuente confiable si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
+        "Describir el contexto del caso.",
+        "Identificar conceptos teoricos necesarios.",
+        "Aplicar el criterio del curso paso a paso.",
+        "Registrar evidencia y limite de la decision.",
+        "Contrastar con fuentes recomendadas.",
+        "Cerrar con producto final, duda pendiente y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Consigna o caso de partida",
-        "version anonimizada y prompt corregido",
-        "Version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Duda o riesgo pendiente"
+        "Descripcion del caso",
+        "Conceptos usados",
+        "Fuente consultada",
+        "Decision o produccion final",
+        "Riesgo, limite o duda pendiente"
       ],
       "errorsToAvoid": [
-        "Pegar el chat completo por comodidad.",
-        "Usar datos sensibles en practicas educativas.",
-        "Publicar sin revisar estados de error.",
-        "Copiar resultados sin entender supuestos.",
-        "Medir exito solo por apariencia."
+        "Resolver por intuicion sin explicar criterio.",
+        "Copiar una fuente sin sintetizar.",
+        "Usar datos sensibles reales en la practica.",
+        "Cerrar el curso sin producto verificable."
       ],
       "aftercare": [
-        "Crear plantilla de anonimizado.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir el siguiente caso de practica."
+        "Aplicar IA Practica para Trabajadores y Emprendedores a un caso realista.",
+        "Guardar la entrega final.",
+        "Revisar el checklist antes de marcar el curso como completo."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra mejor criterio profesional?",
+        "question": "Que decision muestra mejor criterio de curso completo?",
         "options": [
           {
-            "text": "Probar en pequeno, guardar evidencia, revisar limites y recien despues aplicar o publicar.",
+            "text": "Conectar teoria, caso, fuente, limite y producto verificable.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce errores y deja aprendizaje transferible."
+            "feedback": "Correcto: esa es la diferencia entre ficha introductoria y curso completo."
           },
           {
-            "text": "Usar el primer resultado porque parece correcto.",
+            "text": "Repetir una definicion sin aplicarla.",
             "isCorrect": false,
-            "feedback": "La apariencia no alcanza sin prueba ni criterio de cierre."
+            "feedback": "La definicion aislada no alcanza."
           },
           {
-            "text": "Agregar datos reales para que la practica sea mas completa.",
+            "text": "Cerrar sin evidencia ni fuente.",
             "isCorrect": false,
-            "feedback": "Las practicas deben usar datos simulados o anonimizados."
+            "feedback": "Falta verificacion y producto final."
           }
         ]
       }
     },
     {
-      "id": "iaprac-case-2",
-      "title": "Respuesta que inventa una politica",
-      "summary": "La IA responde como si conociera reglas internas.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Marcar datos faltantes y no inventar.",
+      "id": "ia_practica_web-case-2",
+      "title": "Evaluacion final",
+      "summary": "Responder preguntas conceptuales y producir una entrega practica.",
+      "severity": "Practica integradora",
+      "immediateGoal": "Comprobar comprension conceptual y produccion practica.",
       "steps": [
-        "Describir el problema inicial: salida con informacion no provista.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: agregar restriccion de no inventar y pedir preguntas faltantes.",
-        "Guardar evidencia: prompt anterior, salida incorrecta y version corregida.",
-        "Validar el resultado contra una prueba pequena y una persona o fuente confiable si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
+        "Describir el contexto del caso.",
+        "Identificar conceptos teoricos necesarios.",
+        "Aplicar el criterio del curso paso a paso.",
+        "Registrar evidencia y limite de la decision.",
+        "Contrastar con fuentes recomendadas.",
+        "Cerrar con producto final, duda pendiente y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Consigna o caso de partida",
-        "prompt anterior, salida incorrecta y version corregida",
-        "Version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Duda o riesgo pendiente"
+        "Descripcion del caso",
+        "Conceptos usados",
+        "Fuente consultada",
+        "Decision o produccion final",
+        "Riesgo, limite o duda pendiente"
       ],
       "errorsToAvoid": [
-        "Enviar porque suena convincente.",
-        "Usar datos sensibles en practicas educativas.",
-        "Publicar sin revisar estados de error.",
-        "Copiar resultados sin entender supuestos.",
-        "Medir exito solo por apariencia."
+        "Resolver por intuicion sin explicar criterio.",
+        "Copiar una fuente sin sintetizar.",
+        "Usar datos sensibles reales en la practica.",
+        "Cerrar el curso sin producto verificable."
       ],
       "aftercare": [
-        "Agregar checklist de verificacion.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir el siguiente caso de practica."
+        "Responder preguntas conceptuales y producir una entrega practica.",
+        "Guardar la entrega final.",
+        "Revisar el checklist antes de marcar el curso como completo."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra mejor criterio profesional?",
+        "question": "Que decision muestra mejor criterio de curso completo?",
         "options": [
           {
-            "text": "Probar en pequeno, guardar evidencia, revisar limites y recien despues aplicar o publicar.",
+            "text": "Conectar teoria, caso, fuente, limite y producto verificable.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce errores y deja aprendizaje transferible."
+            "feedback": "Correcto: esa es la diferencia entre ficha introductoria y curso completo."
           },
           {
-            "text": "Usar el primer resultado porque parece correcto.",
+            "text": "Repetir una definicion sin aplicarla.",
             "isCorrect": false,
-            "feedback": "La apariencia no alcanza sin prueba ni criterio de cierre."
+            "feedback": "La definicion aislada no alcanza."
           },
           {
-            "text": "Agregar datos reales para que la practica sea mas completa.",
+            "text": "Cerrar sin evidencia ni fuente.",
             "isCorrect": false,
-            "feedback": "Las practicas deben usar datos simulados o anonimizados."
+            "feedback": "Falta verificacion y producto final."
           }
         ]
       }
     },
     {
-      "id": "iaprac-case-3",
-      "title": "Borrador de correo demasiado frio",
-      "summary": "La IA genera un texto correcto pero poco humano.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Ajustar tono y publico.",
+      "id": "ia_practica_web-case-3",
+      "title": "Producto final del curso",
+      "summary": "Al finalizar, el estudiante debe crear su Kit Personal de IA Práctica. Ese kit debe permitir: - usar IA con intención clara; - ahorrar tiempo; - mejorar textos; - organizar tareas; - analizar información simple; - crear ideas; - proteger datos; - revisar resultados; - evitar errores; - construir hábitos productivos. El curso termina cuando la persona deja de hacer preguntas sueltas y empieza a usar IA como una herramienta de trabajo concreta, segura y repetible.",
+      "severity": "Practica integradora",
+      "immediateGoal": "Cerrar el curso con una evidencia concreta de aprendizaje.",
       "steps": [
-        "Describir el problema inicial: respuesta sin contexto de cliente.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: definir tono, relacion y proximo paso.",
-        "Guardar evidencia: dos versiones comparadas.",
-        "Validar el resultado contra una prueba pequena y una persona o fuente confiable si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
+        "Describir el contexto del caso.",
+        "Identificar conceptos teoricos necesarios.",
+        "Aplicar el criterio del curso paso a paso.",
+        "Registrar evidencia y limite de la decision.",
+        "Contrastar con fuentes recomendadas.",
+        "Cerrar con producto final, duda pendiente y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Consigna o caso de partida",
-        "dos versiones comparadas",
-        "Version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Duda o riesgo pendiente"
+        "Descripcion del caso",
+        "Conceptos usados",
+        "Fuente consultada",
+        "Decision o produccion final",
+        "Riesgo, limite o duda pendiente"
       ],
       "errorsToAvoid": [
-        "Usar tono generico para todos.",
-        "Usar datos sensibles en practicas educativas.",
-        "Publicar sin revisar estados de error.",
-        "Copiar resultados sin entender supuestos.",
-        "Medir exito solo por apariencia."
+        "Resolver por intuicion sin explicar criterio.",
+        "Copiar una fuente sin sintetizar.",
+        "Usar datos sensibles reales en la practica.",
+        "Cerrar el curso sin producto verificable."
       ],
       "aftercare": [
-        "Guardar reglas de tono.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir el siguiente caso de practica."
+        "Al finalizar, el estudiante debe crear su Kit Personal de IA Práctica.\n\nEse kit debe permitir:\n\n- usar IA con intención clara;\n- ahorrar tiempo;\n- mejorar textos;\n- organizar tareas;\n- analizar información simple;\n- crear ideas;\n- proteger datos;\n- revisar resultados;\n- evitar errores;\n- construir hábitos productivos.\n\nEl curso termina cuando la persona deja de hacer preguntas sueltas y empieza a usar IA como una herramienta de trabajo concreta, segura y repetible.",
+        "Guardar la entrega final.",
+        "Revisar el checklist antes de marcar el curso como completo."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra mejor criterio profesional?",
+        "question": "Que decision muestra mejor criterio de curso completo?",
         "options": [
           {
-            "text": "Probar en pequeno, guardar evidencia, revisar limites y recien despues aplicar o publicar.",
+            "text": "Conectar teoria, caso, fuente, limite y producto verificable.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce errores y deja aprendizaje transferible."
+            "feedback": "Correcto: esa es la diferencia entre ficha introductoria y curso completo."
           },
           {
-            "text": "Usar el primer resultado porque parece correcto.",
+            "text": "Repetir una definicion sin aplicarla.",
             "isCorrect": false,
-            "feedback": "La apariencia no alcanza sin prueba ni criterio de cierre."
+            "feedback": "La definicion aislada no alcanza."
           },
           {
-            "text": "Agregar datos reales para que la practica sea mas completa.",
+            "text": "Cerrar sin evidencia ni fuente.",
             "isCorrect": false,
-            "feedback": "Las practicas deben usar datos simulados o anonimizados."
-          }
-        ]
-      }
-    },
-    {
-      "id": "iaprac-case-4",
-      "title": "Resumen que omite un acuerdo",
-      "summary": "Una reunion resumida por IA pierde una decision clave.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Usar formato con acuerdos y pendientes.",
-      "steps": [
-        "Describir el problema inicial: resumen narrativo incompleto.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: pedir secciones obligatorias y validar contra notas.",
-        "Guardar evidencia: nota, resumen y correccion.",
-        "Validar el resultado contra una prueba pequena y una persona o fuente confiable si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
-      ],
-      "evidenceToPreserve": [
-        "Consigna o caso de partida",
-        "nota, resumen y correccion",
-        "Version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Duda o riesgo pendiente"
-      ],
-      "errorsToAvoid": [
-        "Publicar acta sin revisar.",
-        "Usar datos sensibles en practicas educativas.",
-        "Publicar sin revisar estados de error.",
-        "Copiar resultados sin entender supuestos.",
-        "Medir exito solo por apariencia."
-      ],
-      "aftercare": [
-        "Usar plantilla de acta.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir el siguiente caso de practica."
-      ],
-      "guidedDecision": {
-        "question": "Que decision muestra mejor criterio profesional?",
-        "options": [
-          {
-            "text": "Probar en pequeno, guardar evidencia, revisar limites y recien despues aplicar o publicar.",
-            "isCorrect": true,
-            "feedback": "Correcto: reduce errores y deja aprendizaje transferible."
-          },
-          {
-            "text": "Usar el primer resultado porque parece correcto.",
-            "isCorrect": false,
-            "feedback": "La apariencia no alcanza sin prueba ni criterio de cierre."
-          },
-          {
-            "text": "Agregar datos reales para que la practica sea mas completa.",
-            "isCorrect": false,
-            "feedback": "Las practicas deben usar datos simulados o anonimizados."
-          }
-        ]
-      }
-    },
-    {
-      "id": "iaprac-case-5",
-      "title": "Automatizacion sin aprobacion",
-      "summary": "Se quiere enviar respuestas automaticas a clientes.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Agregar revision humana.",
-      "steps": [
-        "Describir el problema inicial: salida directa a cliente.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: convertir respuesta en borrador revisable.",
-        "Guardar evidencia: flujo antes/despues.",
-        "Validar el resultado contra una prueba pequena y una persona o fuente confiable si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
-      ],
-      "evidenceToPreserve": [
-        "Consigna o caso de partida",
-        "flujo antes/despues",
-        "Version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Duda o riesgo pendiente"
-      ],
-      "errorsToAvoid": [
-        "Enviar automatico para ahorrar tiempo.",
-        "Usar datos sensibles en practicas educativas.",
-        "Publicar sin revisar estados de error.",
-        "Copiar resultados sin entender supuestos.",
-        "Medir exito solo por apariencia."
-      ],
-      "aftercare": [
-        "Separar borrador de envio.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir el siguiente caso de practica."
-      ],
-      "guidedDecision": {
-        "question": "Que decision muestra mejor criterio profesional?",
-        "options": [
-          {
-            "text": "Probar en pequeno, guardar evidencia, revisar limites y recien despues aplicar o publicar.",
-            "isCorrect": true,
-            "feedback": "Correcto: reduce errores y deja aprendizaje transferible."
-          },
-          {
-            "text": "Usar el primer resultado porque parece correcto.",
-            "isCorrect": false,
-            "feedback": "La apariencia no alcanza sin prueba ni criterio de cierre."
-          },
-          {
-            "text": "Agregar datos reales para que la practica sea mas completa.",
-            "isCorrect": false,
-            "feedback": "Las practicas deben usar datos simulados o anonimizados."
-          }
-        ]
-      }
-    },
-    {
-      "id": "iaprac-case-6",
-      "title": "Prompts dispersos",
-      "summary": "Cada persona usa instrucciones distintas.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Crear biblioteca comun.",
-      "steps": [
-        "Describir el problema inicial: resultados inconsistentes.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: versionar prompts y documentar uso.",
-        "Guardar evidencia: prompt v1, v2 y criterio.",
-        "Validar el resultado contra una prueba pequena y una persona o fuente confiable si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
-      ],
-      "evidenceToPreserve": [
-        "Consigna o caso de partida",
-        "prompt v1, v2 y criterio",
-        "Version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Duda o riesgo pendiente"
-      ],
-      "errorsToAvoid": [
-        "Editar sin registrar cambios.",
-        "Usar datos sensibles en practicas educativas.",
-        "Publicar sin revisar estados de error.",
-        "Copiar resultados sin entender supuestos.",
-        "Medir exito solo por apariencia."
-      ],
-      "aftercare": [
-        "Revisar biblioteca mensualmente.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir el siguiente caso de practica."
-      ],
-      "guidedDecision": {
-        "question": "Que decision muestra mejor criterio profesional?",
-        "options": [
-          {
-            "text": "Probar en pequeno, guardar evidencia, revisar limites y recien despues aplicar o publicar.",
-            "isCorrect": true,
-            "feedback": "Correcto: reduce errores y deja aprendizaje transferible."
-          },
-          {
-            "text": "Usar el primer resultado porque parece correcto.",
-            "isCorrect": false,
-            "feedback": "La apariencia no alcanza sin prueba ni criterio de cierre."
-          },
-          {
-            "text": "Agregar datos reales para que la practica sea mas completa.",
-            "isCorrect": false,
-            "feedback": "Las practicas deben usar datos simulados o anonimizados."
-          }
-        ]
-      }
-    },
-    {
-      "id": "iaprac-case-7",
-      "title": "Uso de IA para tema legal",
-      "summary": "La salida se toma como asesoramiento definitivo.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Delimitar alcance educativo.",
-      "steps": [
-        "Describir el problema inicial: consulta sensible.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: usar IA solo para ordenar preguntas y buscar fuentes.",
-        "Guardar evidencia: lista de dudas y fuentes a validar.",
-        "Validar el resultado contra una prueba pequena y una persona o fuente confiable si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
-      ],
-      "evidenceToPreserve": [
-        "Consigna o caso de partida",
-        "lista de dudas y fuentes a validar",
-        "Version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Duda o riesgo pendiente"
-      ],
-      "errorsToAvoid": [
-        "Tomar decision legal por respuesta de IA.",
-        "Usar datos sensibles en practicas educativas.",
-        "Publicar sin revisar estados de error.",
-        "Copiar resultados sin entender supuestos.",
-        "Medir exito solo por apariencia."
-      ],
-      "aftercare": [
-        "Definir temas que requieren profesional.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir el siguiente caso de practica."
-      ],
-      "guidedDecision": {
-        "question": "Que decision muestra mejor criterio profesional?",
-        "options": [
-          {
-            "text": "Probar en pequeno, guardar evidencia, revisar limites y recien despues aplicar o publicar.",
-            "isCorrect": true,
-            "feedback": "Correcto: reduce errores y deja aprendizaje transferible."
-          },
-          {
-            "text": "Usar el primer resultado porque parece correcto.",
-            "isCorrect": false,
-            "feedback": "La apariencia no alcanza sin prueba ni criterio de cierre."
-          },
-          {
-            "text": "Agregar datos reales para que la practica sea mas completa.",
-            "isCorrect": false,
-            "feedback": "Las practicas deben usar datos simulados o anonimizados."
-          }
-        ]
-      }
-    },
-    {
-      "id": "iaprac-case-8",
-      "title": "Resultado bonito pero inutil",
-      "summary": "La IA entrega texto largo que no reduce trabajo.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Medir utilidad real.",
-      "steps": [
-        "Describir el problema inicial: salida extensa sin accion.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: pedir formato accionable y medir tiempo.",
-        "Guardar evidencia: antes/despues y criterio de calidad.",
-        "Validar el resultado contra una prueba pequena y una persona o fuente confiable si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
-      ],
-      "evidenceToPreserve": [
-        "Consigna o caso de partida",
-        "antes/despues y criterio de calidad",
-        "Version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Duda o riesgo pendiente"
-      ],
-      "errorsToAvoid": [
-        "Valorar por longitud.",
-        "Usar datos sensibles en practicas educativas.",
-        "Publicar sin revisar estados de error.",
-        "Copiar resultados sin entender supuestos.",
-        "Medir exito solo por apariencia."
-      ],
-      "aftercare": [
-        "Crear rubrica de salida util.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir el siguiente caso de practica."
-      ],
-      "guidedDecision": {
-        "question": "Que decision muestra mejor criterio profesional?",
-        "options": [
-          {
-            "text": "Probar en pequeno, guardar evidencia, revisar limites y recien despues aplicar o publicar.",
-            "isCorrect": true,
-            "feedback": "Correcto: reduce errores y deja aprendizaje transferible."
-          },
-          {
-            "text": "Usar el primer resultado porque parece correcto.",
-            "isCorrect": false,
-            "feedback": "La apariencia no alcanza sin prueba ni criterio de cierre."
-          },
-          {
-            "text": "Agregar datos reales para que la practica sea mas completa.",
-            "isCorrect": false,
-            "feedback": "Las practicas deben usar datos simulados o anonimizados."
+            "feedback": "Falta verificacion y producto final."
           }
         ]
       }

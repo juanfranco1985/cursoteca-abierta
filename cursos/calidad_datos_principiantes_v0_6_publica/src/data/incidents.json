@@ -1,441 +1,160 @@
 {
   "incidents": [
     {
-      "id": "caldat-case-1",
-      "title": "Clientes duplicados",
-      "summary": "La misma persona aparece varias veces con diferencias pequenas.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Definir criterio de unicidad.",
+      "id": "calidad_datos_principiantes-case-1",
+      "title": "Caso practico integrador",
+      "summary": "Aplicar Calidad de Datos para Principiantes a un caso realista.",
+      "severity": "Practica integradora",
+      "immediateGoal": "Aplicar la teoria completa del curso a una situacion realista.",
       "steps": [
-        "Describir el problema inicial: registros repetidos con documento, email o telefono parecido.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: comparar claves, marcar posibles duplicados y decidir regla.",
-        "Guardar evidencia: lista de duplicados y criterio usado.",
-        "Validar con una muestra, fuente confiable o responsable del dato si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
+        "Describir el contexto del caso.",
+        "Identificar conceptos teoricos necesarios.",
+        "Aplicar el criterio del curso paso a paso.",
+        "Registrar evidencia y limite de la decision.",
+        "Contrastar con fuentes recomendadas.",
+        "Cerrar con producto final, duda pendiente y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Fuente o archivo de partida",
-        "lista de duplicados y criterio usado",
-        "Version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Duda o riesgo pendiente"
+        "Descripcion del caso",
+        "Conceptos usados",
+        "Fuente consultada",
+        "Decision o produccion final",
+        "Riesgo, limite o duda pendiente"
       ],
       "errorsToAvoid": [
-        "Borrar duplicados sin revisar casos dudosos.",
-        "Usar datos sensibles en practicas educativas.",
-        "Cambiar resultados manualmente para que cierren.",
-        "Publicar sin explicar filtros, periodo o fuente.",
-        "Confundir correlacion, tendencia o apariencia con causa."
+        "Resolver por intuicion sin explicar criterio.",
+        "Copiar una fuente sin sintetizar.",
+        "Usar datos sensibles reales en la practica.",
+        "Cerrar el curso sin producto verificable."
       ],
       "aftercare": [
-        "Crear regla de alta de clientes.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir siguiente caso de practica."
+        "Aplicar Calidad de Datos para Principiantes a un caso realista.",
+        "Guardar la entrega final.",
+        "Revisar el checklist antes de marcar el curso como completo."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra mejor criterio profesional con datos?",
+        "question": "Que decision muestra mejor criterio de curso completo?",
         "options": [
           {
-            "text": "Verificar fuente, calidad, definicion y limites antes de comunicar o decidir.",
+            "text": "Conectar teoria, caso, fuente, limite y producto verificable.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce errores y deja trazabilidad."
+            "feedback": "Correcto: esa es la diferencia entre ficha introductoria y curso completo."
           },
           {
-            "text": "Usar el resultado porque el grafico se ve claro.",
+            "text": "Repetir una definicion sin aplicarla.",
             "isCorrect": false,
-            "feedback": "La claridad visual no prueba calidad ni contexto."
+            "feedback": "La definicion aislada no alcanza."
           },
           {
-            "text": "Ocultar dudas para que el informe parezca mas firme.",
+            "text": "Cerrar sin evidencia ni fuente.",
             "isCorrect": false,
-            "feedback": "Los limites bien escritos aumentan confianza responsable."
+            "feedback": "Falta verificacion y producto final."
           }
         ]
       }
     },
     {
-      "id": "caldat-case-2",
-      "title": "Fechas mezcladas",
-      "summary": "Un archivo tiene fechas como texto, numeros y formatos distintos.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Normalizar fechas.",
+      "id": "calidad_datos_principiantes-case-2",
+      "title": "Evaluacion final",
+      "summary": "Responder preguntas conceptuales y producir una entrega practica.",
+      "severity": "Practica integradora",
+      "immediateGoal": "Comprobar comprension conceptual y produccion practica.",
       "steps": [
-        "Describir el problema inicial: filtros por periodo fallan.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: detectar formatos, convertir y registrar errores.",
-        "Guardar evidencia: conteo de fechas validas e invalidas.",
-        "Validar con una muestra, fuente confiable o responsable del dato si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
+        "Describir el contexto del caso.",
+        "Identificar conceptos teoricos necesarios.",
+        "Aplicar el criterio del curso paso a paso.",
+        "Registrar evidencia y limite de la decision.",
+        "Contrastar con fuentes recomendadas.",
+        "Cerrar con producto final, duda pendiente y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Fuente o archivo de partida",
-        "conteo de fechas validas e invalidas",
-        "Version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Duda o riesgo pendiente"
+        "Descripcion del caso",
+        "Conceptos usados",
+        "Fuente consultada",
+        "Decision o produccion final",
+        "Riesgo, limite o duda pendiente"
       ],
       "errorsToAvoid": [
-        "Cambiar solo el formato visual.",
-        "Usar datos sensibles en practicas educativas.",
-        "Cambiar resultados manualmente para que cierren.",
-        "Publicar sin explicar filtros, periodo o fuente.",
-        "Confundir correlacion, tendencia o apariencia con causa."
+        "Resolver por intuicion sin explicar criterio.",
+        "Copiar una fuente sin sintetizar.",
+        "Usar datos sensibles reales en la practica.",
+        "Cerrar el curso sin producto verificable."
       ],
       "aftercare": [
-        "Validar fecha al cargar.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir siguiente caso de practica."
+        "Responder preguntas conceptuales y producir una entrega practica.",
+        "Guardar la entrega final.",
+        "Revisar el checklist antes de marcar el curso como completo."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra mejor criterio profesional con datos?",
+        "question": "Que decision muestra mejor criterio de curso completo?",
         "options": [
           {
-            "text": "Verificar fuente, calidad, definicion y limites antes de comunicar o decidir.",
+            "text": "Conectar teoria, caso, fuente, limite y producto verificable.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce errores y deja trazabilidad."
+            "feedback": "Correcto: esa es la diferencia entre ficha introductoria y curso completo."
           },
           {
-            "text": "Usar el resultado porque el grafico se ve claro.",
+            "text": "Repetir una definicion sin aplicarla.",
             "isCorrect": false,
-            "feedback": "La claridad visual no prueba calidad ni contexto."
+            "feedback": "La definicion aislada no alcanza."
           },
           {
-            "text": "Ocultar dudas para que el informe parezca mas firme.",
+            "text": "Cerrar sin evidencia ni fuente.",
             "isCorrect": false,
-            "feedback": "Los limites bien escritos aumentan confianza responsable."
+            "feedback": "Falta verificacion y producto final."
           }
         ]
       }
     },
     {
-      "id": "caldat-case-3",
-      "title": "Campo obligatorio vacio",
-      "summary": "Faltan datos clave para operar.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Priorizar completitud.",
+      "id": "calidad_datos_principiantes-case-3",
+      "title": "Producto final del curso",
+      "summary": "Al finalizar, el estudiante debe crear un Informe Básico de Calidad de Datos. Ese informe debe permitir: - evaluar una base simple; - detectar errores; - medir problemas; - limpiar con criterio; - documentar cambios; - prevenir errores futuros; - mejorar confianza; - preparar datos para análisis; - comunicar limitaciones; - proponer reglas de mejora. El curso termina cuando la persona deja de aceptar los datos “tal como vienen” y aprende a revisar si realmente sirven para decidir.",
+      "severity": "Practica integradora",
+      "immediateGoal": "Cerrar el curso con una evidencia concreta de aprendizaje.",
       "steps": [
-        "Describir el problema inicial: registros sin dato necesario.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: medir faltantes y definir accion por campo.",
-        "Guardar evidencia: porcentaje de completitud.",
-        "Validar con una muestra, fuente confiable o responsable del dato si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
+        "Describir el contexto del caso.",
+        "Identificar conceptos teoricos necesarios.",
+        "Aplicar el criterio del curso paso a paso.",
+        "Registrar evidencia y limite de la decision.",
+        "Contrastar con fuentes recomendadas.",
+        "Cerrar con producto final, duda pendiente y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Fuente o archivo de partida",
-        "porcentaje de completitud",
-        "Version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Duda o riesgo pendiente"
+        "Descripcion del caso",
+        "Conceptos usados",
+        "Fuente consultada",
+        "Decision o produccion final",
+        "Riesgo, limite o duda pendiente"
       ],
       "errorsToAvoid": [
-        "Completar con valores inventados.",
-        "Usar datos sensibles en practicas educativas.",
-        "Cambiar resultados manualmente para que cierren.",
-        "Publicar sin explicar filtros, periodo o fuente.",
-        "Confundir correlacion, tendencia o apariencia con causa."
+        "Resolver por intuicion sin explicar criterio.",
+        "Copiar una fuente sin sintetizar.",
+        "Usar datos sensibles reales en la practica.",
+        "Cerrar el curso sin producto verificable."
       ],
       "aftercare": [
-        "Agregar control de carga.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir siguiente caso de practica."
+        "Al finalizar, el estudiante debe crear un Informe Básico de Calidad de Datos.\n\nEse informe debe permitir:\n\n- evaluar una base simple;\n- detectar errores;\n- medir problemas;\n- limpiar con criterio;\n- documentar cambios;\n- prevenir errores futuros;\n- mejorar confianza;\n- preparar datos para análisis;\n- comunicar limitaciones;\n- proponer reglas de mejora.\n\nEl curso termina cuando la persona deja de aceptar los datos “tal como vienen” y aprende a revisar si realmente sirven para decidir.",
+        "Guardar la entrega final.",
+        "Revisar el checklist antes de marcar el curso como completo."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra mejor criterio profesional con datos?",
+        "question": "Que decision muestra mejor criterio de curso completo?",
         "options": [
           {
-            "text": "Verificar fuente, calidad, definicion y limites antes de comunicar o decidir.",
+            "text": "Conectar teoria, caso, fuente, limite y producto verificable.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce errores y deja trazabilidad."
+            "feedback": "Correcto: esa es la diferencia entre ficha introductoria y curso completo."
           },
           {
-            "text": "Usar el resultado porque el grafico se ve claro.",
+            "text": "Repetir una definicion sin aplicarla.",
             "isCorrect": false,
-            "feedback": "La claridad visual no prueba calidad ni contexto."
+            "feedback": "La definicion aislada no alcanza."
           },
           {
-            "text": "Ocultar dudas para que el informe parezca mas firme.",
+            "text": "Cerrar sin evidencia ni fuente.",
             "isCorrect": false,
-            "feedback": "Los limites bien escritos aumentan confianza responsable."
-          }
-        ]
-      }
-    },
-    {
-      "id": "caldat-case-4",
-      "title": "Codigo de producto invalido",
-      "summary": "Aparecen codigos que no existen en catalogo.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Usar lista permitida.",
-      "steps": [
-        "Describir el problema inicial: valores fuera del catalogo.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: cruzar contra maestro y separar excepciones.",
-        "Guardar evidencia: tabla de invalidos.",
-        "Validar con una muestra, fuente confiable o responsable del dato si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
-      ],
-      "evidenceToPreserve": [
-        "Fuente o archivo de partida",
-        "tabla de invalidos",
-        "Version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Duda o riesgo pendiente"
-      ],
-      "errorsToAvoid": [
-        "Forzar codigos parecidos.",
-        "Usar datos sensibles en practicas educativas.",
-        "Cambiar resultados manualmente para que cierren.",
-        "Publicar sin explicar filtros, periodo o fuente.",
-        "Confundir correlacion, tendencia o apariencia con causa."
-      ],
-      "aftercare": [
-        "Actualizar catalogo maestro.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir siguiente caso de practica."
-      ],
-      "guidedDecision": {
-        "question": "Que decision muestra mejor criterio profesional con datos?",
-        "options": [
-          {
-            "text": "Verificar fuente, calidad, definicion y limites antes de comunicar o decidir.",
-            "isCorrect": true,
-            "feedback": "Correcto: reduce errores y deja trazabilidad."
-          },
-          {
-            "text": "Usar el resultado porque el grafico se ve claro.",
-            "isCorrect": false,
-            "feedback": "La claridad visual no prueba calidad ni contexto."
-          },
-          {
-            "text": "Ocultar dudas para que el informe parezca mas firme.",
-            "isCorrect": false,
-            "feedback": "Los limites bien escritos aumentan confianza responsable."
-          }
-        ]
-      }
-    },
-    {
-      "id": "caldat-case-5",
-      "title": "Archivo sin fecha de corte",
-      "summary": "No se sabe de que periodo son los datos.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Recuperar trazabilidad.",
-      "steps": [
-        "Describir el problema inicial: archivo enviado por chat sin contexto.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: registrar fuente, fecha y version antes de usar.",
-        "Guardar evidencia: ficha de fuente.",
-        "Validar con una muestra, fuente confiable o responsable del dato si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
-      ],
-      "evidenceToPreserve": [
-        "Fuente o archivo de partida",
-        "ficha de fuente",
-        "Version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Duda o riesgo pendiente"
-      ],
-      "errorsToAvoid": [
-        "Usar el archivo porque es el ultimo recibido.",
-        "Usar datos sensibles en practicas educativas.",
-        "Cambiar resultados manualmente para que cierren.",
-        "Publicar sin explicar filtros, periodo o fuente.",
-        "Confundir correlacion, tendencia o apariencia con causa."
-      ],
-      "aftercare": [
-        "Definir convencion de nombres.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir siguiente caso de practica."
-      ],
-      "guidedDecision": {
-        "question": "Que decision muestra mejor criterio profesional con datos?",
-        "options": [
-          {
-            "text": "Verificar fuente, calidad, definicion y limites antes de comunicar o decidir.",
-            "isCorrect": true,
-            "feedback": "Correcto: reduce errores y deja trazabilidad."
-          },
-          {
-            "text": "Usar el resultado porque el grafico se ve claro.",
-            "isCorrect": false,
-            "feedback": "La claridad visual no prueba calidad ni contexto."
-          },
-          {
-            "text": "Ocultar dudas para que el informe parezca mas firme.",
-            "isCorrect": false,
-            "feedback": "Los limites bien escritos aumentan confianza responsable."
-          }
-        ]
-      }
-    },
-    {
-      "id": "caldat-case-6",
-      "title": "Correccion sin log",
-      "summary": "Nadie puede explicar por que cambio un dato.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Documentar cambios.",
-      "steps": [
-        "Describir el problema inicial: resultado diferente al archivo original.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: crear log con campo, valor anterior, valor nuevo y motivo.",
-        "Guardar evidencia: log de limpieza.",
-        "Validar con una muestra, fuente confiable o responsable del dato si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
-      ],
-      "evidenceToPreserve": [
-        "Fuente o archivo de partida",
-        "log de limpieza",
-        "Version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Duda o riesgo pendiente"
-      ],
-      "errorsToAvoid": [
-        "Modificar hasta que el reporte cierre.",
-        "Usar datos sensibles en practicas educativas.",
-        "Cambiar resultados manualmente para que cierren.",
-        "Publicar sin explicar filtros, periodo o fuente.",
-        "Confundir correlacion, tendencia o apariencia con causa."
-      ],
-      "aftercare": [
-        "Usar plantilla de cambios.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir siguiente caso de practica."
-      ],
-      "guidedDecision": {
-        "question": "Que decision muestra mejor criterio profesional con datos?",
-        "options": [
-          {
-            "text": "Verificar fuente, calidad, definicion y limites antes de comunicar o decidir.",
-            "isCorrect": true,
-            "feedback": "Correcto: reduce errores y deja trazabilidad."
-          },
-          {
-            "text": "Usar el resultado porque el grafico se ve claro.",
-            "isCorrect": false,
-            "feedback": "La claridad visual no prueba calidad ni contexto."
-          },
-          {
-            "text": "Ocultar dudas para que el informe parezca mas firme.",
-            "isCorrect": false,
-            "feedback": "Los limites bien escritos aumentan confianza responsable."
-          }
-        ]
-      }
-    },
-    {
-      "id": "caldat-case-7",
-      "title": "Outlier real confundido con error",
-      "summary": "Un valor extremo parece incorrecto pero puede ser valido.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Validar antes de borrar.",
-      "steps": [
-        "Describir el problema inicial: monto o cantidad muy alta.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: marcar, investigar fuente y decidir tratamiento.",
-        "Guardar evidencia: registro de decision sobre outlier.",
-        "Validar con una muestra, fuente confiable o responsable del dato si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
-      ],
-      "evidenceToPreserve": [
-        "Fuente o archivo de partida",
-        "registro de decision sobre outlier",
-        "Version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Duda o riesgo pendiente"
-      ],
-      "errorsToAvoid": [
-        "Eliminar extremos automaticamente.",
-        "Usar datos sensibles en practicas educativas.",
-        "Cambiar resultados manualmente para que cierren.",
-        "Publicar sin explicar filtros, periodo o fuente.",
-        "Confundir correlacion, tendencia o apariencia con causa."
-      ],
-      "aftercare": [
-        "Definir umbrales por negocio.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir siguiente caso de practica."
-      ],
-      "guidedDecision": {
-        "question": "Que decision muestra mejor criterio profesional con datos?",
-        "options": [
-          {
-            "text": "Verificar fuente, calidad, definicion y limites antes de comunicar o decidir.",
-            "isCorrect": true,
-            "feedback": "Correcto: reduce errores y deja trazabilidad."
-          },
-          {
-            "text": "Usar el resultado porque el grafico se ve claro.",
-            "isCorrect": false,
-            "feedback": "La claridad visual no prueba calidad ni contexto."
-          },
-          {
-            "text": "Ocultar dudas para que el informe parezca mas firme.",
-            "isCorrect": false,
-            "feedback": "Los limites bien escritos aumentan confianza responsable."
-          }
-        ]
-      }
-    },
-    {
-      "id": "caldat-case-8",
-      "title": "Indicador mejora por cambio de regla",
-      "summary": "La calidad parece subir pero se cambio el criterio.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Separar mejora real de cambio metodologico.",
-      "steps": [
-        "Describir el problema inicial: salto inesperado en metrica.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: registrar version de regla y comparar periodos.",
-        "Guardar evidencia: nota metodologica.",
-        "Validar con una muestra, fuente confiable o responsable del dato si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
-      ],
-      "evidenceToPreserve": [
-        "Fuente o archivo de partida",
-        "nota metodologica",
-        "Version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Duda o riesgo pendiente"
-      ],
-      "errorsToAvoid": [
-        "Mostrar tendencia sin aclarar cambio.",
-        "Usar datos sensibles en practicas educativas.",
-        "Cambiar resultados manualmente para que cierren.",
-        "Publicar sin explicar filtros, periodo o fuente.",
-        "Confundir correlacion, tendencia o apariencia con causa."
-      ],
-      "aftercare": [
-        "Versionar reglas de calidad.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir siguiente caso de practica."
-      ],
-      "guidedDecision": {
-        "question": "Que decision muestra mejor criterio profesional con datos?",
-        "options": [
-          {
-            "text": "Verificar fuente, calidad, definicion y limites antes de comunicar o decidir.",
-            "isCorrect": true,
-            "feedback": "Correcto: reduce errores y deja trazabilidad."
-          },
-          {
-            "text": "Usar el resultado porque el grafico se ve claro.",
-            "isCorrect": false,
-            "feedback": "La claridad visual no prueba calidad ni contexto."
-          },
-          {
-            "text": "Ocultar dudas para que el informe parezca mas firme.",
-            "isCorrect": false,
-            "feedback": "Los limites bien escritos aumentan confianza responsable."
+            "feedback": "Falta verificacion y producto final."
           }
         ]
       }

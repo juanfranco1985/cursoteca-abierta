@@ -1,441 +1,160 @@
 {
   "incidents": [
     {
-      "id": "barrio-case-1",
-      "title": "Compra inicial demasiado grande",
-      "summary": "Se invierte en mucho stock sin validar demanda.",
-      "severity": "Practica comercial",
-      "immediateGoal": "Reducir riesgo de arranque.",
+      "id": "emprendimiento_barrial_web-case-1",
+      "title": "Caso practico integrador",
+      "summary": "Aplicar Emprendimiento Barrial a un caso realista.",
+      "severity": "Practica integradora",
+      "immediateGoal": "Aplicar la teoria completa del curso a una situacion realista.",
       "steps": [
-        "Describir el problema inicial: compra por entusiasmo.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: definir prueba chica, stock minimo y metrica de venta.",
-        "Guardar evidencia: lista de compra reducida.",
-        "Validar con muestra pequena, cliente, proveedor o persona competente si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
+        "Describir el contexto del caso.",
+        "Identificar conceptos teoricos necesarios.",
+        "Aplicar el criterio del curso paso a paso.",
+        "Registrar evidencia y limite de la decision.",
+        "Contrastar con fuentes recomendadas.",
+        "Cerrar con producto final, duda pendiente y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Caso o decision de partida",
-        "lista de compra reducida",
-        "Calculo o version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Riesgo o duda pendiente"
+        "Descripcion del caso",
+        "Conceptos usados",
+        "Fuente consultada",
+        "Decision o produccion final",
+        "Riesgo, limite o duda pendiente"
       ],
       "errorsToAvoid": [
-        "Comprar variedad para parecer negocio grande.",
-        "Usar datos sensibles de clientes o proveedores en practicas educativas.",
-        "Cambiar numeros para que la idea parezca rentable.",
-        "Prometer precios, entregas o stock sin capacidad real.",
-        "Medir exito solo por ventas sin mirar margen ni caja."
+        "Resolver por intuicion sin explicar criterio.",
+        "Copiar una fuente sin sintetizar.",
+        "Usar datos sensibles reales en la practica.",
+        "Cerrar el curso sin producto verificable."
       ],
       "aftercare": [
-        "Medir rotacion semanal.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir el siguiente caso de practica."
+        "Aplicar Emprendimiento Barrial a un caso realista.",
+        "Guardar la entrega final.",
+        "Revisar el checklist antes de marcar el curso como completo."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra mejor criterio comercial?",
+        "question": "Que decision muestra mejor criterio de curso completo?",
         "options": [
           {
-            "text": "Probar en pequeno, calcular margen/caja, guardar evidencia y ajustar antes de crecer.",
+            "text": "Conectar teoria, caso, fuente, limite y producto verificable.",
             "isCorrect": true,
-            "feedback": "Correcto: protege caja, aprendizaje y relacion con clientes."
+            "feedback": "Correcto: esa es la diferencia entre ficha introductoria y curso completo."
           },
           {
-            "text": "Avanzar rapido porque la oportunidad parece buena.",
+            "text": "Repetir una definicion sin aplicarla.",
             "isCorrect": false,
-            "feedback": "La oportunidad necesita numeros y capacidad real."
+            "feedback": "La definicion aislada no alcanza."
           },
           {
-            "text": "Copiar precio o estrategia de otro negocio.",
+            "text": "Cerrar sin evidencia ni fuente.",
             "isCorrect": false,
-            "feedback": "Otro negocio puede tener costos, publico y escala distintos."
+            "feedback": "Falta verificacion y producto final."
           }
         ]
       }
     },
     {
-      "id": "barrio-case-2",
-      "title": "Cliente pide fiado",
-      "summary": "La relacion barrial presiona la caja.",
-      "severity": "Practica comercial",
-      "immediateGoal": "Definir regla de fiado.",
+      "id": "emprendimiento_barrial_web-case-2",
+      "title": "Evaluacion final",
+      "summary": "Responder preguntas conceptuales y producir una entrega practica.",
+      "severity": "Practica integradora",
+      "immediateGoal": "Comprobar comprension conceptual y produccion practica.",
       "steps": [
-        "Describir el problema inicial: pedido de pago diferido.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: establecer monto, plazo y registro o alternativa.",
-        "Guardar evidencia: politica de fiado.",
-        "Validar con muestra pequena, cliente, proveedor o persona competente si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
+        "Describir el contexto del caso.",
+        "Identificar conceptos teoricos necesarios.",
+        "Aplicar el criterio del curso paso a paso.",
+        "Registrar evidencia y limite de la decision.",
+        "Contrastar con fuentes recomendadas.",
+        "Cerrar con producto final, duda pendiente y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Caso o decision de partida",
-        "politica de fiado",
-        "Calculo o version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Riesgo o duda pendiente"
+        "Descripcion del caso",
+        "Conceptos usados",
+        "Fuente consultada",
+        "Decision o produccion final",
+        "Riesgo, limite o duda pendiente"
       ],
       "errorsToAvoid": [
-        "Aceptar sin anotar por confianza.",
-        "Usar datos sensibles de clientes o proveedores en practicas educativas.",
-        "Cambiar numeros para que la idea parezca rentable.",
-        "Prometer precios, entregas o stock sin capacidad real.",
-        "Medir exito solo por ventas sin mirar margen ni caja."
+        "Resolver por intuicion sin explicar criterio.",
+        "Copiar una fuente sin sintetizar.",
+        "Usar datos sensibles reales en la practica.",
+        "Cerrar el curso sin producto verificable."
       ],
       "aftercare": [
-        "Revisar deuda semanal.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir el siguiente caso de practica."
+        "Responder preguntas conceptuales y producir una entrega practica.",
+        "Guardar la entrega final.",
+        "Revisar el checklist antes de marcar el curso como completo."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra mejor criterio comercial?",
+        "question": "Que decision muestra mejor criterio de curso completo?",
         "options": [
           {
-            "text": "Probar en pequeno, calcular margen/caja, guardar evidencia y ajustar antes de crecer.",
+            "text": "Conectar teoria, caso, fuente, limite y producto verificable.",
             "isCorrect": true,
-            "feedback": "Correcto: protege caja, aprendizaje y relacion con clientes."
+            "feedback": "Correcto: esa es la diferencia entre ficha introductoria y curso completo."
           },
           {
-            "text": "Avanzar rapido porque la oportunidad parece buena.",
+            "text": "Repetir una definicion sin aplicarla.",
             "isCorrect": false,
-            "feedback": "La oportunidad necesita numeros y capacidad real."
+            "feedback": "La definicion aislada no alcanza."
           },
           {
-            "text": "Copiar precio o estrategia de otro negocio.",
+            "text": "Cerrar sin evidencia ni fuente.",
             "isCorrect": false,
-            "feedback": "Otro negocio puede tener costos, publico y escala distintos."
+            "feedback": "Falta verificacion y producto final."
           }
         ]
       }
     },
     {
-      "id": "barrio-case-3",
-      "title": "Pedido mal entendido por WhatsApp",
-      "summary": "Se entrega algo distinto a lo pedido.",
-      "severity": "Practica comercial",
-      "immediateGoal": "Confirmar pedido estructurado.",
+      "id": "emprendimiento_barrial_web-case-3",
+      "title": "Producto final del curso",
+      "summary": "Al finalizar, el estudiante debe crear un Plan de Emprendimiento Barrial de 30 Días. Ese plan debe permitir: - observar el entorno; - elegir una oportunidad; - definir cliente; - validar con bajo costo; - calcular precio; - organizar canales; - atender pedidos; - registrar ventas; - medir resultados; - ajustar la propuesta; - decidir próximos pasos. El curso termina cuando la persona deja de tener solo “una idea para vender algo” y pasa a tener un pequeño proyecto validado, organizado y medible.",
+      "severity": "Practica integradora",
+      "immediateGoal": "Cerrar el curso con una evidencia concreta de aprendizaje.",
       "steps": [
-        "Describir el problema inicial: chat ambiguo.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: confirmar producto, cantidad, precio, entrega y pago.",
-        "Guardar evidencia: mensaje de confirmacion.",
-        "Validar con muestra pequena, cliente, proveedor o persona competente si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
+        "Describir el contexto del caso.",
+        "Identificar conceptos teoricos necesarios.",
+        "Aplicar el criterio del curso paso a paso.",
+        "Registrar evidencia y limite de la decision.",
+        "Contrastar con fuentes recomendadas.",
+        "Cerrar con producto final, duda pendiente y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Caso o decision de partida",
-        "mensaje de confirmacion",
-        "Calculo o version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Riesgo o duda pendiente"
+        "Descripcion del caso",
+        "Conceptos usados",
+        "Fuente consultada",
+        "Decision o produccion final",
+        "Riesgo, limite o duda pendiente"
       ],
       "errorsToAvoid": [
-        "Armar pedido con informacion incompleta.",
-        "Usar datos sensibles de clientes o proveedores en practicas educativas.",
-        "Cambiar numeros para que la idea parezca rentable.",
-        "Prometer precios, entregas o stock sin capacidad real.",
-        "Medir exito solo por ventas sin mirar margen ni caja."
+        "Resolver por intuicion sin explicar criterio.",
+        "Copiar una fuente sin sintetizar.",
+        "Usar datos sensibles reales en la practica.",
+        "Cerrar el curso sin producto verificable."
       ],
       "aftercare": [
-        "Usar plantilla de pedido.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir el siguiente caso de practica."
+        "Al finalizar, el estudiante debe crear un Plan de Emprendimiento Barrial de 30 Días.\n\nEse plan debe permitir:\n\n- observar el entorno;\n- elegir una oportunidad;\n- definir cliente;\n- validar con bajo costo;\n- calcular precio;\n- organizar canales;\n- atender pedidos;\n- registrar ventas;\n- medir resultados;\n- ajustar la propuesta;\n- decidir próximos pasos.\n\nEl curso termina cuando la persona deja de tener solo “una idea para vender algo” y pasa a tener un pequeño proyecto validado, organizado y medible.",
+        "Guardar la entrega final.",
+        "Revisar el checklist antes de marcar el curso como completo."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra mejor criterio comercial?",
+        "question": "Que decision muestra mejor criterio de curso completo?",
         "options": [
           {
-            "text": "Probar en pequeno, calcular margen/caja, guardar evidencia y ajustar antes de crecer.",
+            "text": "Conectar teoria, caso, fuente, limite y producto verificable.",
             "isCorrect": true,
-            "feedback": "Correcto: protege caja, aprendizaje y relacion con clientes."
+            "feedback": "Correcto: esa es la diferencia entre ficha introductoria y curso completo."
           },
           {
-            "text": "Avanzar rapido porque la oportunidad parece buena.",
+            "text": "Repetir una definicion sin aplicarla.",
             "isCorrect": false,
-            "feedback": "La oportunidad necesita numeros y capacidad real."
+            "feedback": "La definicion aislada no alcanza."
           },
           {
-            "text": "Copiar precio o estrategia de otro negocio.",
+            "text": "Cerrar sin evidencia ni fuente.",
             "isCorrect": false,
-            "feedback": "Otro negocio puede tener costos, publico y escala distintos."
-          }
-        ]
-      }
-    },
-    {
-      "id": "barrio-case-4",
-      "title": "Proveedor ofrece descuento fuerte",
-      "summary": "La oferta puede inmovilizar caja.",
-      "severity": "Practica comercial",
-      "immediateGoal": "Evaluar compra mayorista.",
-      "steps": [
-        "Describir el problema inicial: descuento por volumen.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: calcular rotacion, margen y vencimiento.",
-        "Guardar evidencia: simulacion de compra.",
-        "Validar con muestra pequena, cliente, proveedor o persona competente si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
-      ],
-      "evidenceToPreserve": [
-        "Caso o decision de partida",
-        "simulacion de compra",
-        "Calculo o version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Riesgo o duda pendiente"
-      ],
-      "errorsToAvoid": [
-        "Comprar por miedo a perder descuento.",
-        "Usar datos sensibles de clientes o proveedores en practicas educativas.",
-        "Cambiar numeros para que la idea parezca rentable.",
-        "Prometer precios, entregas o stock sin capacidad real.",
-        "Medir exito solo por ventas sin mirar margen ni caja."
-      ],
-      "aftercare": [
-        "Definir regla de proveedor.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir el siguiente caso de practica."
-      ],
-      "guidedDecision": {
-        "question": "Que decision muestra mejor criterio comercial?",
-        "options": [
-          {
-            "text": "Probar en pequeno, calcular margen/caja, guardar evidencia y ajustar antes de crecer.",
-            "isCorrect": true,
-            "feedback": "Correcto: protege caja, aprendizaje y relacion con clientes."
-          },
-          {
-            "text": "Avanzar rapido porque la oportunidad parece buena.",
-            "isCorrect": false,
-            "feedback": "La oportunidad necesita numeros y capacidad real."
-          },
-          {
-            "text": "Copiar precio o estrategia de otro negocio.",
-            "isCorrect": false,
-            "feedback": "Otro negocio puede tener costos, publico y escala distintos."
-          }
-        ]
-      }
-    },
-    {
-      "id": "barrio-case-5",
-      "title": "Promocion atrae muchos pedidos",
-      "summary": "El negocio no puede entregar a tiempo.",
-      "severity": "Practica comercial",
-      "immediateGoal": "Ajustar capacidad.",
-      "steps": [
-        "Describir el problema inicial: demanda mayor a la prevista.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: limitar cupos, avisar plazos y priorizar calidad.",
-        "Guardar evidencia: plan de cupos.",
-        "Validar con muestra pequena, cliente, proveedor o persona competente si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
-      ],
-      "evidenceToPreserve": [
-        "Caso o decision de partida",
-        "plan de cupos",
-        "Calculo o version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Riesgo o duda pendiente"
-      ],
-      "errorsToAvoid": [
-        "Aceptar todo para no perder ventas.",
-        "Usar datos sensibles de clientes o proveedores en practicas educativas.",
-        "Cambiar numeros para que la idea parezca rentable.",
-        "Prometer precios, entregas o stock sin capacidad real.",
-        "Medir exito solo por ventas sin mirar margen ni caja."
-      ],
-      "aftercare": [
-        "Calcular capacidad antes de promocionar.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir el siguiente caso de practica."
-      ],
-      "guidedDecision": {
-        "question": "Que decision muestra mejor criterio comercial?",
-        "options": [
-          {
-            "text": "Probar en pequeno, calcular margen/caja, guardar evidencia y ajustar antes de crecer.",
-            "isCorrect": true,
-            "feedback": "Correcto: protege caja, aprendizaje y relacion con clientes."
-          },
-          {
-            "text": "Avanzar rapido porque la oportunidad parece buena.",
-            "isCorrect": false,
-            "feedback": "La oportunidad necesita numeros y capacidad real."
-          },
-          {
-            "text": "Copiar precio o estrategia de otro negocio.",
-            "isCorrect": false,
-            "feedback": "Otro negocio puede tener costos, publico y escala distintos."
-          }
-        ]
-      }
-    },
-    {
-      "id": "barrio-case-6",
-      "title": "Reclamo publico de cliente",
-      "summary": "Un cliente se queja en redes o grupo vecinal.",
-      "severity": "Practica comercial",
-      "immediateGoal": "Responder con evidencia y calma.",
-      "steps": [
-        "Describir el problema inicial: queja visible.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: revisar caso, responder con respeto y proponer solucion.",
-        "Guardar evidencia: registro del reclamo.",
-        "Validar con muestra pequena, cliente, proveedor o persona competente si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
-      ],
-      "evidenceToPreserve": [
-        "Caso o decision de partida",
-        "registro del reclamo",
-        "Calculo o version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Riesgo o duda pendiente"
-      ],
-      "errorsToAvoid": [
-        "Discutir en publico.",
-        "Usar datos sensibles de clientes o proveedores en practicas educativas.",
-        "Cambiar numeros para que la idea parezca rentable.",
-        "Prometer precios, entregas o stock sin capacidad real.",
-        "Medir exito solo por ventas sin mirar margen ni caja."
-      ],
-      "aftercare": [
-        "Registrar causa y correccion.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir el siguiente caso de practica."
-      ],
-      "guidedDecision": {
-        "question": "Que decision muestra mejor criterio comercial?",
-        "options": [
-          {
-            "text": "Probar en pequeno, calcular margen/caja, guardar evidencia y ajustar antes de crecer.",
-            "isCorrect": true,
-            "feedback": "Correcto: protege caja, aprendizaje y relacion con clientes."
-          },
-          {
-            "text": "Avanzar rapido porque la oportunidad parece buena.",
-            "isCorrect": false,
-            "feedback": "La oportunidad necesita numeros y capacidad real."
-          },
-          {
-            "text": "Copiar precio o estrategia de otro negocio.",
-            "isCorrect": false,
-            "feedback": "Otro negocio puede tener costos, publico y escala distintos."
-          }
-        ]
-      }
-    },
-    {
-      "id": "barrio-case-7",
-      "title": "Ventas suben pero caja baja",
-      "summary": "Hay movimiento, pero falta dinero para reponer.",
-      "severity": "Practica comercial",
-      "immediateGoal": "Separar venta, margen y caja.",
-      "steps": [
-        "Describir el problema inicial: caja insuficiente.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: revisar costos, fiado, stock y retiros.",
-        "Guardar evidencia: flujo de caja corregido.",
-        "Validar con muestra pequena, cliente, proveedor o persona competente si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
-      ],
-      "evidenceToPreserve": [
-        "Caso o decision de partida",
-        "flujo de caja corregido",
-        "Calculo o version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Riesgo o duda pendiente"
-      ],
-      "errorsToAvoid": [
-        "Pensar que vender mas siempre resuelve.",
-        "Usar datos sensibles de clientes o proveedores en practicas educativas.",
-        "Cambiar numeros para que la idea parezca rentable.",
-        "Prometer precios, entregas o stock sin capacidad real.",
-        "Medir exito solo por ventas sin mirar margen ni caja."
-      ],
-      "aftercare": [
-        "Control diario de caja.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir el siguiente caso de practica."
-      ],
-      "guidedDecision": {
-        "question": "Que decision muestra mejor criterio comercial?",
-        "options": [
-          {
-            "text": "Probar en pequeno, calcular margen/caja, guardar evidencia y ajustar antes de crecer.",
-            "isCorrect": true,
-            "feedback": "Correcto: protege caja, aprendizaje y relacion con clientes."
-          },
-          {
-            "text": "Avanzar rapido porque la oportunidad parece buena.",
-            "isCorrect": false,
-            "feedback": "La oportunidad necesita numeros y capacidad real."
-          },
-          {
-            "text": "Copiar precio o estrategia de otro negocio.",
-            "isCorrect": false,
-            "feedback": "Otro negocio puede tener costos, publico y escala distintos."
-          }
-        ]
-      }
-    },
-    {
-      "id": "barrio-case-8",
-      "title": "Crecimiento sin rutina",
-      "summary": "Se agregan productos y canales sin control.",
-      "severity": "Practica comercial",
-      "immediateGoal": "Ordenar antes de crecer.",
-      "steps": [
-        "Describir el problema inicial: desorden operativo.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: priorizar productos rentables, canales y responsables.",
-        "Guardar evidencia: plan de 30 dias ajustado.",
-        "Validar con muestra pequena, cliente, proveedor o persona competente si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
-      ],
-      "evidenceToPreserve": [
-        "Caso o decision de partida",
-        "plan de 30 dias ajustado",
-        "Calculo o version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Riesgo o duda pendiente"
-      ],
-      "errorsToAvoid": [
-        "Abrir otro canal para vender mas.",
-        "Usar datos sensibles de clientes o proveedores en practicas educativas.",
-        "Cambiar numeros para que la idea parezca rentable.",
-        "Prometer precios, entregas o stock sin capacidad real.",
-        "Medir exito solo por ventas sin mirar margen ni caja."
-      ],
-      "aftercare": [
-        "Revision semanal de foco.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir el siguiente caso de practica."
-      ],
-      "guidedDecision": {
-        "question": "Que decision muestra mejor criterio comercial?",
-        "options": [
-          {
-            "text": "Probar en pequeno, calcular margen/caja, guardar evidencia y ajustar antes de crecer.",
-            "isCorrect": true,
-            "feedback": "Correcto: protege caja, aprendizaje y relacion con clientes."
-          },
-          {
-            "text": "Avanzar rapido porque la oportunidad parece buena.",
-            "isCorrect": false,
-            "feedback": "La oportunidad necesita numeros y capacidad real."
-          },
-          {
-            "text": "Copiar precio o estrategia de otro negocio.",
-            "isCorrect": false,
-            "feedback": "Otro negocio puede tener costos, publico y escala distintos."
+            "feedback": "Falta verificacion y producto final."
           }
         ]
       }

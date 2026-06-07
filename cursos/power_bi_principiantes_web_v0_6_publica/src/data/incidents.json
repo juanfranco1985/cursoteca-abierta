@@ -1,441 +1,160 @@
 {
   "incidents": [
     {
-      "id": "pbi-case-1",
-      "title": "Ventas no coinciden con la planilla",
-      "summary": "El total del tablero difiere del archivo fuente.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Validar carga y relaciones.",
+      "id": "power_bi_principiantes_web-case-1",
+      "title": "Caso practico integrador",
+      "summary": "Aplicar Power BI para Principiantes a un caso realista.",
+      "severity": "Practica integradora",
+      "immediateGoal": "Aplicar la teoria completa del curso a una situacion realista.",
       "steps": [
-        "Describir el problema inicial: total distinto.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: comparar filas, tipos y filtros activos.",
-        "Guardar evidencia: total fuente vs total Power BI.",
-        "Validar el resultado contra una prueba pequena y una persona o fuente confiable si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
+        "Describir el contexto del caso.",
+        "Identificar conceptos teoricos necesarios.",
+        "Aplicar el criterio del curso paso a paso.",
+        "Registrar evidencia y limite de la decision.",
+        "Contrastar con fuentes recomendadas.",
+        "Cerrar con producto final, duda pendiente y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Consigna o caso de partida",
-        "total fuente vs total Power BI",
-        "Version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Duda o riesgo pendiente"
+        "Descripcion del caso",
+        "Conceptos usados",
+        "Fuente consultada",
+        "Decision o produccion final",
+        "Riesgo, limite o duda pendiente"
       ],
       "errorsToAvoid": [
-        "Ajustar visual hasta que parezca correcto.",
-        "Usar datos sensibles en practicas educativas.",
-        "Publicar sin revisar estados de error.",
-        "Copiar resultados sin entender supuestos.",
-        "Medir exito solo por apariencia."
+        "Resolver por intuicion sin explicar criterio.",
+        "Copiar una fuente sin sintetizar.",
+        "Usar datos sensibles reales en la practica.",
+        "Cerrar el curso sin producto verificable."
       ],
       "aftercare": [
-        "Crear prueba de totales.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir el siguiente caso de practica."
+        "Aplicar Power BI para Principiantes a un caso realista.",
+        "Guardar la entrega final.",
+        "Revisar el checklist antes de marcar el curso como completo."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra mejor criterio profesional?",
+        "question": "Que decision muestra mejor criterio de curso completo?",
         "options": [
           {
-            "text": "Probar en pequeno, guardar evidencia, revisar limites y recien despues aplicar o publicar.",
+            "text": "Conectar teoria, caso, fuente, limite y producto verificable.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce errores y deja aprendizaje transferible."
+            "feedback": "Correcto: esa es la diferencia entre ficha introductoria y curso completo."
           },
           {
-            "text": "Usar el primer resultado porque parece correcto.",
+            "text": "Repetir una definicion sin aplicarla.",
             "isCorrect": false,
-            "feedback": "La apariencia no alcanza sin prueba ni criterio de cierre."
+            "feedback": "La definicion aislada no alcanza."
           },
           {
-            "text": "Agregar datos reales para que la practica sea mas completa.",
+            "text": "Cerrar sin evidencia ni fuente.",
             "isCorrect": false,
-            "feedback": "Las practicas deben usar datos simulados o anonimizados."
+            "feedback": "Falta verificacion y producto final."
           }
         ]
       }
     },
     {
-      "id": "pbi-case-2",
-      "title": "Grafico saturado",
-      "summary": "Demasiadas categorias vuelven ilegible el reporte.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Elegir visual y nivel adecuado.",
+      "id": "power_bi_principiantes_web-case-2",
+      "title": "Evaluacion final",
+      "summary": "Responder preguntas conceptuales y producir una entrega practica.",
+      "severity": "Practica integradora",
+      "immediateGoal": "Comprobar comprension conceptual y produccion practica.",
       "steps": [
-        "Describir el problema inicial: barras o etiquetas excesivas.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: agrupar, filtrar top N o cambiar visual.",
-        "Guardar evidencia: version antes/despues.",
-        "Validar el resultado contra una prueba pequena y una persona o fuente confiable si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
+        "Describir el contexto del caso.",
+        "Identificar conceptos teoricos necesarios.",
+        "Aplicar el criterio del curso paso a paso.",
+        "Registrar evidencia y limite de la decision.",
+        "Contrastar con fuentes recomendadas.",
+        "Cerrar con producto final, duda pendiente y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Consigna o caso de partida",
-        "version antes/despues",
-        "Version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Duda o riesgo pendiente"
+        "Descripcion del caso",
+        "Conceptos usados",
+        "Fuente consultada",
+        "Decision o produccion final",
+        "Riesgo, limite o duda pendiente"
       ],
       "errorsToAvoid": [
-        "Achicar texto para que entre.",
-        "Usar datos sensibles en practicas educativas.",
-        "Publicar sin revisar estados de error.",
-        "Copiar resultados sin entender supuestos.",
-        "Medir exito solo por apariencia."
+        "Resolver por intuicion sin explicar criterio.",
+        "Copiar una fuente sin sintetizar.",
+        "Usar datos sensibles reales en la practica.",
+        "Cerrar el curso sin producto verificable."
       ],
       "aftercare": [
-        "Definir jerarquia visual.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir el siguiente caso de practica."
+        "Responder preguntas conceptuales y producir una entrega practica.",
+        "Guardar la entrega final.",
+        "Revisar el checklist antes de marcar el curso como completo."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra mejor criterio profesional?",
+        "question": "Que decision muestra mejor criterio de curso completo?",
         "options": [
           {
-            "text": "Probar en pequeno, guardar evidencia, revisar limites y recien despues aplicar o publicar.",
+            "text": "Conectar teoria, caso, fuente, limite y producto verificable.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce errores y deja aprendizaje transferible."
+            "feedback": "Correcto: esa es la diferencia entre ficha introductoria y curso completo."
           },
           {
-            "text": "Usar el primer resultado porque parece correcto.",
+            "text": "Repetir una definicion sin aplicarla.",
             "isCorrect": false,
-            "feedback": "La apariencia no alcanza sin prueba ni criterio de cierre."
+            "feedback": "La definicion aislada no alcanza."
           },
           {
-            "text": "Agregar datos reales para que la practica sea mas completa.",
+            "text": "Cerrar sin evidencia ni fuente.",
             "isCorrect": false,
-            "feedback": "Las practicas deben usar datos simulados o anonimizados."
+            "feedback": "Falta verificacion y producto final."
           }
         ]
       }
     },
     {
-      "id": "pbi-case-3",
-      "title": "Relacion incorrecta",
-      "summary": "Los datos se duplican al cruzar tablas.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Corregir modelo.",
+      "id": "power_bi_principiantes_web-case-3",
+      "title": "Producto final del curso",
+      "summary": "Al finalizar, el estudiante debe crear un Reporte Básico en Power BI. Ese reporte debe permitir: - conectar datos; - limpiarlos; - modelarlos; - crear medidas; - visualizar indicadores; - filtrar información; - interpretar resultados; - comunicar hallazgos; - cuidar permisos; - preparar publicación. El curso termina cuando la persona deja de mirar Power BI como una herramienta de gráficos y empieza a entenderlo como un entorno completo de análisis, modelado y comunicación de datos.",
+      "severity": "Practica integradora",
+      "immediateGoal": "Cerrar el curso con una evidencia concreta de aprendizaje.",
       "steps": [
-        "Describir el problema inicial: relacion muchos a muchos inesperada.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: revisar claves y nivel de detalle.",
-        "Guardar evidencia: diagrama y prueba de total.",
-        "Validar el resultado contra una prueba pequena y una persona o fuente confiable si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
+        "Describir el contexto del caso.",
+        "Identificar conceptos teoricos necesarios.",
+        "Aplicar el criterio del curso paso a paso.",
+        "Registrar evidencia y limite de la decision.",
+        "Contrastar con fuentes recomendadas.",
+        "Cerrar con producto final, duda pendiente y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Consigna o caso de partida",
-        "diagrama y prueba de total",
-        "Version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Duda o riesgo pendiente"
+        "Descripcion del caso",
+        "Conceptos usados",
+        "Fuente consultada",
+        "Decision o produccion final",
+        "Riesgo, limite o duda pendiente"
       ],
       "errorsToAvoid": [
-        "Crear medida compensatoria sin entender causa.",
-        "Usar datos sensibles en practicas educativas.",
-        "Publicar sin revisar estados de error.",
-        "Copiar resultados sin entender supuestos.",
-        "Medir exito solo por apariencia."
+        "Resolver por intuicion sin explicar criterio.",
+        "Copiar una fuente sin sintetizar.",
+        "Usar datos sensibles reales en la practica.",
+        "Cerrar el curso sin producto verificable."
       ],
       "aftercare": [
-        "Documentar relaciones.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir el siguiente caso de practica."
+        "Al finalizar, el estudiante debe crear un Reporte Básico en Power BI.\n\nEse reporte debe permitir:\n\n- conectar datos;\n- limpiarlos;\n- modelarlos;\n- crear medidas;\n- visualizar indicadores;\n- filtrar información;\n- interpretar resultados;\n- comunicar hallazgos;\n- cuidar permisos;\n- preparar publicación.\n\nEl curso termina cuando la persona deja de mirar Power BI como una herramienta de gráficos y empieza a entenderlo como un entorno completo de análisis, modelado y comunicación de datos.",
+        "Guardar la entrega final.",
+        "Revisar el checklist antes de marcar el curso como completo."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra mejor criterio profesional?",
+        "question": "Que decision muestra mejor criterio de curso completo?",
         "options": [
           {
-            "text": "Probar en pequeno, guardar evidencia, revisar limites y recien despues aplicar o publicar.",
+            "text": "Conectar teoria, caso, fuente, limite y producto verificable.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce errores y deja aprendizaje transferible."
+            "feedback": "Correcto: esa es la diferencia entre ficha introductoria y curso completo."
           },
           {
-            "text": "Usar el primer resultado porque parece correcto.",
+            "text": "Repetir una definicion sin aplicarla.",
             "isCorrect": false,
-            "feedback": "La apariencia no alcanza sin prueba ni criterio de cierre."
+            "feedback": "La definicion aislada no alcanza."
           },
           {
-            "text": "Agregar datos reales para que la practica sea mas completa.",
+            "text": "Cerrar sin evidencia ni fuente.",
             "isCorrect": false,
-            "feedback": "Las practicas deben usar datos simulados o anonimizados."
-          }
-        ]
-      }
-    },
-    {
-      "id": "pbi-case-4",
-      "title": "KPI sin definicion",
-      "summary": "Dos personas entienden distinto el mismo indicador.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Crear diccionario de medidas.",
-      "steps": [
-        "Describir el problema inicial: discusion por significado.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: definir formula, periodo y exclusiones.",
-        "Guardar evidencia: ficha de KPI.",
-        "Validar el resultado contra una prueba pequena y una persona o fuente confiable si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
-      ],
-      "evidenceToPreserve": [
-        "Consigna o caso de partida",
-        "ficha de KPI",
-        "Version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Duda o riesgo pendiente"
-      ],
-      "errorsToAvoid": [
-        "Cambiar nombre para evitar debate.",
-        "Usar datos sensibles en practicas educativas.",
-        "Publicar sin revisar estados de error.",
-        "Copiar resultados sin entender supuestos.",
-        "Medir exito solo por apariencia."
-      ],
-      "aftercare": [
-        "Aprobar definiciones.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir el siguiente caso de practica."
-      ],
-      "guidedDecision": {
-        "question": "Que decision muestra mejor criterio profesional?",
-        "options": [
-          {
-            "text": "Probar en pequeno, guardar evidencia, revisar limites y recien despues aplicar o publicar.",
-            "isCorrect": true,
-            "feedback": "Correcto: reduce errores y deja aprendizaje transferible."
-          },
-          {
-            "text": "Usar el primer resultado porque parece correcto.",
-            "isCorrect": false,
-            "feedback": "La apariencia no alcanza sin prueba ni criterio de cierre."
-          },
-          {
-            "text": "Agregar datos reales para que la practica sea mas completa.",
-            "isCorrect": false,
-            "feedback": "Las practicas deben usar datos simulados o anonimizados."
-          }
-        ]
-      }
-    },
-    {
-      "id": "pbi-case-5",
-      "title": "Filtro oculto altera decision",
-      "summary": "Un segmentador queda activo y sesga lectura.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Mostrar contexto de filtros.",
-      "steps": [
-        "Describir el problema inicial: resultado inesperado.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: revisar filtros visual/pagina/reporte.",
-        "Guardar evidencia: lista de filtros activos.",
-        "Validar el resultado contra una prueba pequena y una persona o fuente confiable si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
-      ],
-      "evidenceToPreserve": [
-        "Consigna o caso de partida",
-        "lista de filtros activos",
-        "Version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Duda o riesgo pendiente"
-      ],
-      "errorsToAvoid": [
-        "Exportar captura sin filtros visibles.",
-        "Usar datos sensibles en practicas educativas.",
-        "Publicar sin revisar estados de error.",
-        "Copiar resultados sin entender supuestos.",
-        "Medir exito solo por apariencia."
-      ],
-      "aftercare": [
-        "Agregar tarjeta de contexto.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir el siguiente caso de practica."
-      ],
-      "guidedDecision": {
-        "question": "Que decision muestra mejor criterio profesional?",
-        "options": [
-          {
-            "text": "Probar en pequeno, guardar evidencia, revisar limites y recien despues aplicar o publicar.",
-            "isCorrect": true,
-            "feedback": "Correcto: reduce errores y deja aprendizaje transferible."
-          },
-          {
-            "text": "Usar el primer resultado porque parece correcto.",
-            "isCorrect": false,
-            "feedback": "La apariencia no alcanza sin prueba ni criterio de cierre."
-          },
-          {
-            "text": "Agregar datos reales para que la practica sea mas completa.",
-            "isCorrect": false,
-            "feedback": "Las practicas deben usar datos simulados o anonimizados."
-          }
-        ]
-      }
-    },
-    {
-      "id": "pbi-case-6",
-      "title": "Datos sensibles en captura",
-      "summary": "Se comparte dashboard con nombres de clientes.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Anonimizar antes de publicar.",
-      "steps": [
-        "Describir el problema inicial: reporte compartido fuera del equipo.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: ocultar datos sensibles y usar agregados.",
-        "Guardar evidencia: campos removidos.",
-        "Validar el resultado contra una prueba pequena y una persona o fuente confiable si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
-      ],
-      "evidenceToPreserve": [
-        "Consigna o caso de partida",
-        "campos removidos",
-        "Version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Duda o riesgo pendiente"
-      ],
-      "errorsToAvoid": [
-        "Borrar solo una columna visible.",
-        "Usar datos sensibles en practicas educativas.",
-        "Publicar sin revisar estados de error.",
-        "Copiar resultados sin entender supuestos.",
-        "Medir exito solo por apariencia."
-      ],
-      "aftercare": [
-        "Crear version publica.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir el siguiente caso de practica."
-      ],
-      "guidedDecision": {
-        "question": "Que decision muestra mejor criterio profesional?",
-        "options": [
-          {
-            "text": "Probar en pequeno, guardar evidencia, revisar limites y recien despues aplicar o publicar.",
-            "isCorrect": true,
-            "feedback": "Correcto: reduce errores y deja aprendizaje transferible."
-          },
-          {
-            "text": "Usar el primer resultado porque parece correcto.",
-            "isCorrect": false,
-            "feedback": "La apariencia no alcanza sin prueba ni criterio de cierre."
-          },
-          {
-            "text": "Agregar datos reales para que la practica sea mas completa.",
-            "isCorrect": false,
-            "feedback": "Las practicas deben usar datos simulados o anonimizados."
-          }
-        ]
-      }
-    },
-    {
-      "id": "pbi-case-7",
-      "title": "Dashboard sin accion",
-      "summary": "El reporte muestra numeros pero no sugiere decision.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Agregar relato y recomendacion.",
-      "steps": [
-        "Describir el problema inicial: lectura sin conclusion.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: escribir hallazgo, impacto y proximo paso.",
-        "Guardar evidencia: slide o nota de hallazgo.",
-        "Validar el resultado contra una prueba pequena y una persona o fuente confiable si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
-      ],
-      "evidenceToPreserve": [
-        "Consigna o caso de partida",
-        "slide o nota de hallazgo",
-        "Version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Duda o riesgo pendiente"
-      ],
-      "errorsToAvoid": [
-        "Agregar mas graficos.",
-        "Usar datos sensibles en practicas educativas.",
-        "Publicar sin revisar estados de error.",
-        "Copiar resultados sin entender supuestos.",
-        "Medir exito solo por apariencia."
-      ],
-      "aftercare": [
-        "Revisar con usuario final.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir el siguiente caso de practica."
-      ],
-      "guidedDecision": {
-        "question": "Que decision muestra mejor criterio profesional?",
-        "options": [
-          {
-            "text": "Probar en pequeno, guardar evidencia, revisar limites y recien despues aplicar o publicar.",
-            "isCorrect": true,
-            "feedback": "Correcto: reduce errores y deja aprendizaje transferible."
-          },
-          {
-            "text": "Usar el primer resultado porque parece correcto.",
-            "isCorrect": false,
-            "feedback": "La apariencia no alcanza sin prueba ni criterio de cierre."
-          },
-          {
-            "text": "Agregar datos reales para que la practica sea mas completa.",
-            "isCorrect": false,
-            "feedback": "Las practicas deben usar datos simulados o anonimizados."
-          }
-        ]
-      }
-    },
-    {
-      "id": "pbi-case-8",
-      "title": "Actualizacion fallida",
-      "summary": "El reporte no carga datos nuevos.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Diagnosticar origen y ruta.",
-      "steps": [
-        "Describir el problema inicial: error de refresh.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: revisar fuente, permisos y cambios de columnas.",
-        "Guardar evidencia: mensaje de error y fuente.",
-        "Validar el resultado contra una prueba pequena y una persona o fuente confiable si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
-      ],
-      "evidenceToPreserve": [
-        "Consigna o caso de partida",
-        "mensaje de error y fuente",
-        "Version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Duda o riesgo pendiente"
-      ],
-      "errorsToAvoid": [
-        "Publicar datos viejos sin aviso.",
-        "Usar datos sensibles en practicas educativas.",
-        "Publicar sin revisar estados de error.",
-        "Copiar resultados sin entender supuestos.",
-        "Medir exito solo por apariencia."
-      ],
-      "aftercare": [
-        "Crear rutina de actualizacion.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir el siguiente caso de practica."
-      ],
-      "guidedDecision": {
-        "question": "Que decision muestra mejor criterio profesional?",
-        "options": [
-          {
-            "text": "Probar en pequeno, guardar evidencia, revisar limites y recien despues aplicar o publicar.",
-            "isCorrect": true,
-            "feedback": "Correcto: reduce errores y deja aprendizaje transferible."
-          },
-          {
-            "text": "Usar el primer resultado porque parece correcto.",
-            "isCorrect": false,
-            "feedback": "La apariencia no alcanza sin prueba ni criterio de cierre."
-          },
-          {
-            "text": "Agregar datos reales para que la practica sea mas completa.",
-            "isCorrect": false,
-            "feedback": "Las practicas deben usar datos simulados o anonimizados."
+            "feedback": "Falta verificacion y producto final."
           }
         ]
       }

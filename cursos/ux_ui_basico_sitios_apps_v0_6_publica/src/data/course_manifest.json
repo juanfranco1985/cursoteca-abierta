@@ -1,10 +1,10 @@
 {
   "courseId": "ux-ui-basico-sitios-apps",
-  "templateVersion": "0.8-profunda-uxui-v1",
+  "templateVersion": "1.0-curso-completo-v1",
   "appName": "UX/UI Basico para Sitios y Apps",
   "shortName": "UX UI Basico",
-  "subtitle": "Curso teorico-practico para diagnosticar interfaces, navegar mejor, aplicar heuristicas, accesibilidad y pruebas simples.",
-  "description": "Aprende UX/UI con teoria aplicada, fuentes externas, ejemplos, contraejemplos, checklists y casos para mejorar sitios, apps y cursos web.",
+  "subtitle": "UX/UI es una disciplina fundamental para crear sitios web, aplicaciones y productos digitales que no solo se vean bien, sino que sean claros, usables, accesibles y útiles para las personas.  Muchas veces un proyecto falla no porque la idea sea mala ni porque el código esté roto, sino porque el usuario no entiende qué hacer, no encuentra la información, se frustra, abandona el formulario, no confía en la página o siente que la experiencia es confusa.",
+  "description": "UX/UI es una disciplina fundamental para crear sitios web, aplicaciones y productos digitales que no solo se vean bien, sino que sean claros, usables, accesibles y útiles para las personas.  Muchas veces un proyecto falla no porque la idea sea mala ni porque el código esté roto, sino porque el usuario no entiende qué hacer, no encuentra la información, se frustra, abandona el formulario, no confía en la página o siente que la experiencia es confusa.",
   "audience": "Principiantes de diseno, desarrollo web y productos digitales.",
   "category": "Desarrollo web",
   "status": "Publico profesional",
@@ -45,7 +45,7 @@
     "minimumSuggestedQuizAverage": 70,
     "notOfficialNotice": "Constancia educativa no oficial."
   },
-  "responsibleNotice": "Contenido educativo introductorio. No reemplaza investigacion profesional con usuarios, revision experta, soporte oficial ni normativa de accesibilidad aplicable. Si una decision afecta datos personales, salud, dinero, derechos o seguridad, valida con fuentes oficiales y personas competentes.",
+  "responsibleNotice": "Contenido educativo. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. En temas de seguridad, datos personales, dinero, comercios, tramites o derechos, valida decisiones criticas con fuentes oficiales o una persona competente.",
   "publication": {
     "version": "0.6-publica-profesional",
     "status": "Publica profesional",
@@ -61,24 +61,25 @@
     ]
   },
   "webApp": {
-    "cacheName": "ux_ui_basico_sitios_apps_v0_6_publica-cache-v0-8-profunda-uxui-v1",
-    "publicationStatus": "publica-profesional-v0.8-reestructuracion-profunda"
+    "cacheName": "ux_ui_basico_sitios_apps_v0_6_publica-cache-v1-curso-completo",
+    "publicationStatus": "publica-curso-completo-v1"
   },
   "professionalization": {
-    "tier": "curso-profundo-v0.8-piloto",
-    "updatedAt": "2026-06-05",
+    "tier": "curso-completo-v1",
+    "updatedAt": "2026-06-07",
+    "sourcePackage": "cursos_06_50_reescritos_v1",
     "improvements": [
-      "Reestructuracion teorica completa con fuentes externas confiables.",
-      "Lecciones con resumen, modelo mental, principio aplicado, evaluacion, ejemplo y contraejemplo.",
-      "Checklists y casos alineados a problemas reales de navegacion, accesibilidad y contenido generico."
+      "Reescritura teorica extensa en formato de curso completo.",
+      "Objetivos, modulos teoricos, caso integrador, actividades, evaluacion, glosario y producto final.",
+      "Lecciones con bloques teoricos, contraejemplos y fuentes recomendadas."
     ]
   },
   "editorialPolish": {
     "usabilityPass": "2026-06-04",
     "status": "content-specific-copy-reinforced"
   },
-  "version": "0.8-profunda-uxui-v1",
-  "publicationStatus": "publica-profesional-v0.8-reestructuracion-profunda",
+  "version": "1.0-curso-completo-v1",
+  "publicationStatus": "publica-curso-completo-v1",
   "sourceBank": {
     "nng-heuristics": {
       "title": "10 Usability Heuristics for User Interface Design",
@@ -112,9 +113,12 @@
     }
   },
   "contentDepthAudit": {
-    "status": "piloto-reestructurado",
-    "updatedAt": "2026-06-05",
-    "baseline": "teoria mediana del proyecto: 32 palabras; patrones repetidos detectados en mas de mil lecciones",
-    "target": "teoria especifica, evaluable y fuenteada por leccion"
+    "status": "curso-completo-v1",
+    "updatedAt": "2026-06-07",
+    "modules": 22,
+    "lessons": 98,
+    "questions": 66,
+    "checklists": 8,
+    "cases": 3
   }
 }

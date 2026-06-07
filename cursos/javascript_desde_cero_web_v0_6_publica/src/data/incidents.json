@@ -1,441 +1,160 @@
 {
   "incidents": [
     {
-      "id": "js0-case-1",
-      "title": "Boton que no hace nada",
-      "summary": "El evento no se conecta al elemento correcto.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Diagnosticar selector y timing.",
+      "id": "javascript_desde_cero_web-case-1",
+      "title": "Caso practico integrador",
+      "summary": "Aplicar JavaScript desde Cero a un caso realista.",
+      "severity": "Practica integradora",
+      "immediateGoal": "Aplicar la teoria completa del curso a una situacion realista.",
       "steps": [
-        "Describir el problema inicial: click sin respuesta.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: verificar selector, carga del script y listener.",
-        "Guardar evidencia: error de consola y correccion.",
-        "Validar el resultado contra una prueba pequena y una persona o fuente confiable si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
+        "Describir el contexto del caso.",
+        "Identificar conceptos teoricos necesarios.",
+        "Aplicar el criterio del curso paso a paso.",
+        "Registrar evidencia y limite de la decision.",
+        "Contrastar con fuentes recomendadas.",
+        "Cerrar con producto final, duda pendiente y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Consigna o caso de partida",
-        "error de consola y correccion",
-        "Version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Duda o riesgo pendiente"
+        "Descripcion del caso",
+        "Conceptos usados",
+        "Fuente consultada",
+        "Decision o produccion final",
+        "Riesgo, limite o duda pendiente"
       ],
       "errorsToAvoid": [
-        "Cambiar CSS sin revisar JS.",
-        "Usar datos sensibles en practicas educativas.",
-        "Publicar sin revisar estados de error.",
-        "Copiar resultados sin entender supuestos.",
-        "Medir exito solo por apariencia."
+        "Resolver por intuicion sin explicar criterio.",
+        "Copiar una fuente sin sintetizar.",
+        "Usar datos sensibles reales en la practica.",
+        "Cerrar el curso sin producto verificable."
       ],
       "aftercare": [
-        "Crear checklist de eventos.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir el siguiente caso de practica."
+        "Aplicar JavaScript desde Cero a un caso realista.",
+        "Guardar la entrega final.",
+        "Revisar el checklist antes de marcar el curso como completo."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra mejor criterio profesional?",
+        "question": "Que decision muestra mejor criterio de curso completo?",
         "options": [
           {
-            "text": "Probar en pequeno, guardar evidencia, revisar limites y recien despues aplicar o publicar.",
+            "text": "Conectar teoria, caso, fuente, limite y producto verificable.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce errores y deja aprendizaje transferible."
+            "feedback": "Correcto: esa es la diferencia entre ficha introductoria y curso completo."
           },
           {
-            "text": "Usar el primer resultado porque parece correcto.",
+            "text": "Repetir una definicion sin aplicarla.",
             "isCorrect": false,
-            "feedback": "La apariencia no alcanza sin prueba ni criterio de cierre."
+            "feedback": "La definicion aislada no alcanza."
           },
           {
-            "text": "Agregar datos reales para que la practica sea mas completa.",
+            "text": "Cerrar sin evidencia ni fuente.",
             "isCorrect": false,
-            "feedback": "Las practicas deben usar datos simulados o anonimizados."
+            "feedback": "Falta verificacion y producto final."
           }
         ]
       }
     },
     {
-      "id": "js0-case-2",
-      "title": "Formulario que borra datos",
-      "summary": "Al fallar validacion se pierde lo escrito.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Preservar entrada y explicar error.",
+      "id": "javascript_desde_cero_web-case-2",
+      "title": "Evaluacion final",
+      "summary": "Responder preguntas conceptuales y producir una entrega practica.",
+      "severity": "Practica integradora",
+      "immediateGoal": "Comprobar comprension conceptual y produccion practica.",
       "steps": [
-        "Describir el problema inicial: submit sin prevenir comportamiento.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: usar preventDefault y mensajes por campo.",
-        "Guardar evidencia: formulario antes/despues.",
-        "Validar el resultado contra una prueba pequena y una persona o fuente confiable si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
+        "Describir el contexto del caso.",
+        "Identificar conceptos teoricos necesarios.",
+        "Aplicar el criterio del curso paso a paso.",
+        "Registrar evidencia y limite de la decision.",
+        "Contrastar con fuentes recomendadas.",
+        "Cerrar con producto final, duda pendiente y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Consigna o caso de partida",
-        "formulario antes/despues",
-        "Version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Duda o riesgo pendiente"
+        "Descripcion del caso",
+        "Conceptos usados",
+        "Fuente consultada",
+        "Decision o produccion final",
+        "Riesgo, limite o duda pendiente"
       ],
       "errorsToAvoid": [
-        "Mostrar alert y recargar.",
-        "Usar datos sensibles en practicas educativas.",
-        "Publicar sin revisar estados de error.",
-        "Copiar resultados sin entender supuestos.",
-        "Medir exito solo por apariencia."
+        "Resolver por intuicion sin explicar criterio.",
+        "Copiar una fuente sin sintetizar.",
+        "Usar datos sensibles reales en la practica.",
+        "Cerrar el curso sin producto verificable."
       ],
       "aftercare": [
-        "Probar campos vacios y validos.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir el siguiente caso de practica."
+        "Responder preguntas conceptuales y producir una entrega practica.",
+        "Guardar la entrega final.",
+        "Revisar el checklist antes de marcar el curso como completo."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra mejor criterio profesional?",
+        "question": "Que decision muestra mejor criterio de curso completo?",
         "options": [
           {
-            "text": "Probar en pequeno, guardar evidencia, revisar limites y recien despues aplicar o publicar.",
+            "text": "Conectar teoria, caso, fuente, limite y producto verificable.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce errores y deja aprendizaje transferible."
+            "feedback": "Correcto: esa es la diferencia entre ficha introductoria y curso completo."
           },
           {
-            "text": "Usar el primer resultado porque parece correcto.",
+            "text": "Repetir una definicion sin aplicarla.",
             "isCorrect": false,
-            "feedback": "La apariencia no alcanza sin prueba ni criterio de cierre."
+            "feedback": "La definicion aislada no alcanza."
           },
           {
-            "text": "Agregar datos reales para que la practica sea mas completa.",
+            "text": "Cerrar sin evidencia ni fuente.",
             "isCorrect": false,
-            "feedback": "Las practicas deben usar datos simulados o anonimizados."
+            "feedback": "Falta verificacion y producto final."
           }
         ]
       }
     },
     {
-      "id": "js0-case-3",
-      "title": "Lista repetida duplicada",
-      "summary": "Cada render agrega items sin limpiar contenedor.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Controlar renderizado.",
+      "id": "javascript_desde_cero_web-case-3",
+      "title": "Producto final del curso",
+      "summary": "Al finalizar, el estudiante debe crear una Mini Aplicación Web Interactiva. Ese producto debe permitir: - responder a acciones del usuario; - modificar el DOM; - trabajar con datos; - validar entradas; - renderizar contenido; - usar funciones; - organizar código; - crear una experiencia web dinámica. El curso termina cuando la persona deja de ver JavaScript como código abstracto y empieza a usarlo para crear comportamiento real en una página web.",
+      "severity": "Practica integradora",
+      "immediateGoal": "Cerrar el curso con una evidencia concreta de aprendizaje.",
       "steps": [
-        "Describir el problema inicial: duplicacion tras filtrar.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: limpiar contenedor o renderizar desde estado.",
-        "Guardar evidencia: captura antes/despues.",
-        "Validar el resultado contra una prueba pequena y una persona o fuente confiable si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
+        "Describir el contexto del caso.",
+        "Identificar conceptos teoricos necesarios.",
+        "Aplicar el criterio del curso paso a paso.",
+        "Registrar evidencia y limite de la decision.",
+        "Contrastar con fuentes recomendadas.",
+        "Cerrar con producto final, duda pendiente y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Consigna o caso de partida",
-        "captura antes/despues",
-        "Version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Duda o riesgo pendiente"
+        "Descripcion del caso",
+        "Conceptos usados",
+        "Fuente consultada",
+        "Decision o produccion final",
+        "Riesgo, limite o duda pendiente"
       ],
       "errorsToAvoid": [
-        "Crear mas condiciones sin entender render.",
-        "Usar datos sensibles en practicas educativas.",
-        "Publicar sin revisar estados de error.",
-        "Copiar resultados sin entender supuestos.",
-        "Medir exito solo por apariencia."
+        "Resolver por intuicion sin explicar criterio.",
+        "Copiar una fuente sin sintetizar.",
+        "Usar datos sensibles reales en la practica.",
+        "Cerrar el curso sin producto verificable."
       ],
       "aftercare": [
-        "Separar datos y vista.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir el siguiente caso de practica."
+        "Al finalizar, el estudiante debe crear una Mini Aplicación Web Interactiva.\n\nEse producto debe permitir:\n\n- responder a acciones del usuario;\n- modificar el DOM;\n- trabajar con datos;\n- validar entradas;\n- renderizar contenido;\n- usar funciones;\n- organizar código;\n- crear una experiencia web dinámica.\n\nEl curso termina cuando la persona deja de ver JavaScript como código abstracto y empieza a usarlo para crear comportamiento real en una página web.",
+        "Guardar la entrega final.",
+        "Revisar el checklist antes de marcar el curso como completo."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra mejor criterio profesional?",
+        "question": "Que decision muestra mejor criterio de curso completo?",
         "options": [
           {
-            "text": "Probar en pequeno, guardar evidencia, revisar limites y recien despues aplicar o publicar.",
+            "text": "Conectar teoria, caso, fuente, limite y producto verificable.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce errores y deja aprendizaje transferible."
+            "feedback": "Correcto: esa es la diferencia entre ficha introductoria y curso completo."
           },
           {
-            "text": "Usar el primer resultado porque parece correcto.",
+            "text": "Repetir una definicion sin aplicarla.",
             "isCorrect": false,
-            "feedback": "La apariencia no alcanza sin prueba ni criterio de cierre."
+            "feedback": "La definicion aislada no alcanza."
           },
           {
-            "text": "Agregar datos reales para que la practica sea mas completa.",
+            "text": "Cerrar sin evidencia ni fuente.",
             "isCorrect": false,
-            "feedback": "Las practicas deben usar datos simulados o anonimizados."
-          }
-        ]
-      }
-    },
-    {
-      "id": "js0-case-4",
-      "title": "localStorage con datos sensibles",
-      "summary": "La app guarda informacion que no deberia quedar en el navegador.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Reducir persistencia.",
-      "steps": [
-        "Describir el problema inicial: almacenamiento innecesario.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: guardar solo preferencias no sensibles o limpiar.",
-        "Guardar evidencia: clave localStorage revisada.",
-        "Validar el resultado contra una prueba pequena y una persona o fuente confiable si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
-      ],
-      "evidenceToPreserve": [
-        "Consigna o caso de partida",
-        "clave localStorage revisada",
-        "Version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Duda o riesgo pendiente"
-      ],
-      "errorsToAvoid": [
-        "Guardar todo por comodidad.",
-        "Usar datos sensibles en practicas educativas.",
-        "Publicar sin revisar estados de error.",
-        "Copiar resultados sin entender supuestos.",
-        "Medir exito solo por apariencia."
-      ],
-      "aftercare": [
-        "Documentar que se guarda.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir el siguiente caso de practica."
-      ],
-      "guidedDecision": {
-        "question": "Que decision muestra mejor criterio profesional?",
-        "options": [
-          {
-            "text": "Probar en pequeno, guardar evidencia, revisar limites y recien despues aplicar o publicar.",
-            "isCorrect": true,
-            "feedback": "Correcto: reduce errores y deja aprendizaje transferible."
-          },
-          {
-            "text": "Usar el primer resultado porque parece correcto.",
-            "isCorrect": false,
-            "feedback": "La apariencia no alcanza sin prueba ni criterio de cierre."
-          },
-          {
-            "text": "Agregar datos reales para que la practica sea mas completa.",
-            "isCorrect": false,
-            "feedback": "Las practicas deben usar datos simulados o anonimizados."
-          }
-        ]
-      }
-    },
-    {
-      "id": "js0-case-5",
-      "title": "Filtro no encuentra mayusculas",
-      "summary": "La busqueda falla por diferencias de texto.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Normalizar comparacion.",
-      "steps": [
-        "Describir el problema inicial: busqueda sensible a mayusculas.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: usar lowerCase y trim.",
-        "Guardar evidencia: casos de prueba.",
-        "Validar el resultado contra una prueba pequena y una persona o fuente confiable si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
-      ],
-      "evidenceToPreserve": [
-        "Consigna o caso de partida",
-        "casos de prueba",
-        "Version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Duda o riesgo pendiente"
-      ],
-      "errorsToAvoid": [
-        "Duplicar datos con variantes.",
-        "Usar datos sensibles en practicas educativas.",
-        "Publicar sin revisar estados de error.",
-        "Copiar resultados sin entender supuestos.",
-        "Medir exito solo por apariencia."
-      ],
-      "aftercare": [
-        "Agregar pruebas de busqueda.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir el siguiente caso de practica."
-      ],
-      "guidedDecision": {
-        "question": "Que decision muestra mejor criterio profesional?",
-        "options": [
-          {
-            "text": "Probar en pequeno, guardar evidencia, revisar limites y recien despues aplicar o publicar.",
-            "isCorrect": true,
-            "feedback": "Correcto: reduce errores y deja aprendizaje transferible."
-          },
-          {
-            "text": "Usar el primer resultado porque parece correcto.",
-            "isCorrect": false,
-            "feedback": "La apariencia no alcanza sin prueba ni criterio de cierre."
-          },
-          {
-            "text": "Agregar datos reales para que la practica sea mas completa.",
-            "isCorrect": false,
-            "feedback": "Las practicas deben usar datos simulados o anonimizados."
-          }
-        ]
-      }
-    },
-    {
-      "id": "js0-case-6",
-      "title": "Error silencioso",
-      "summary": "La consola muestra error pero la interfaz no avisa.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Mostrar estado de fallo amigable.",
-      "steps": [
-        "Describir el problema inicial: JSON o dato inesperado.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: capturar error y renderizar mensaje.",
-        "Guardar evidencia: mensaje de consola y UI.",
-        "Validar el resultado contra una prueba pequena y una persona o fuente confiable si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
-      ],
-      "evidenceToPreserve": [
-        "Consigna o caso de partida",
-        "mensaje de consola y UI",
-        "Version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Duda o riesgo pendiente"
-      ],
-      "errorsToAvoid": [
-        "Ignorar porque a veces funciona.",
-        "Usar datos sensibles en practicas educativas.",
-        "Publicar sin revisar estados de error.",
-        "Copiar resultados sin entender supuestos.",
-        "Medir exito solo por apariencia."
-      ],
-      "aftercare": [
-        "Crear estados loading/error/empty.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir el siguiente caso de practica."
-      ],
-      "guidedDecision": {
-        "question": "Que decision muestra mejor criterio profesional?",
-        "options": [
-          {
-            "text": "Probar en pequeno, guardar evidencia, revisar limites y recien despues aplicar o publicar.",
-            "isCorrect": true,
-            "feedback": "Correcto: reduce errores y deja aprendizaje transferible."
-          },
-          {
-            "text": "Usar el primer resultado porque parece correcto.",
-            "isCorrect": false,
-            "feedback": "La apariencia no alcanza sin prueba ni criterio de cierre."
-          },
-          {
-            "text": "Agregar datos reales para que la practica sea mas completa.",
-            "isCorrect": false,
-            "feedback": "Las practicas deben usar datos simulados o anonimizados."
-          }
-        ]
-      }
-    },
-    {
-      "id": "js0-case-7",
-      "title": "Funcion gigante",
-      "summary": "Todo el codigo esta en un bloque dificil de mantener.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Separar responsabilidades.",
-      "steps": [
-        "Describir el problema inicial: codigo repetido y confuso.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: extraer leer datos, validar y renderizar.",
-        "Guardar evidencia: funciones antes/despues.",
-        "Validar el resultado contra una prueba pequena y una persona o fuente confiable si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
-      ],
-      "evidenceToPreserve": [
-        "Consigna o caso de partida",
-        "funciones antes/despues",
-        "Version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Duda o riesgo pendiente"
-      ],
-      "errorsToAvoid": [
-        "Refactorizar sin probar.",
-        "Usar datos sensibles en practicas educativas.",
-        "Publicar sin revisar estados de error.",
-        "Copiar resultados sin entender supuestos.",
-        "Medir exito solo por apariencia."
-      ],
-      "aftercare": [
-        "Cambiar de a poco.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir el siguiente caso de practica."
-      ],
-      "guidedDecision": {
-        "question": "Que decision muestra mejor criterio profesional?",
-        "options": [
-          {
-            "text": "Probar en pequeno, guardar evidencia, revisar limites y recien despues aplicar o publicar.",
-            "isCorrect": true,
-            "feedback": "Correcto: reduce errores y deja aprendizaje transferible."
-          },
-          {
-            "text": "Usar el primer resultado porque parece correcto.",
-            "isCorrect": false,
-            "feedback": "La apariencia no alcanza sin prueba ni criterio de cierre."
-          },
-          {
-            "text": "Agregar datos reales para que la practica sea mas completa.",
-            "isCorrect": false,
-            "feedback": "Las practicas deben usar datos simulados o anonimizados."
-          }
-        ]
-      }
-    },
-    {
-      "id": "js0-case-8",
-      "title": "Mini app que no funciona en movil",
-      "summary": "El flujo se probo solo en escritorio.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Validar viewport y tactil.",
-      "steps": [
-        "Describir el problema inicial: botones chicos o layout roto.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: probar ancho movil y ajustar controles.",
-        "Guardar evidencia: capturas desktop/movil.",
-        "Validar el resultado contra una prueba pequena y una persona o fuente confiable si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
-      ],
-      "evidenceToPreserve": [
-        "Consigna o caso de partida",
-        "capturas desktop/movil",
-        "Version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Duda o riesgo pendiente"
-      ],
-      "errorsToAvoid": [
-        "Asumir que responsive es solo CSS.",
-        "Usar datos sensibles en practicas educativas.",
-        "Publicar sin revisar estados de error.",
-        "Copiar resultados sin entender supuestos.",
-        "Medir exito solo por apariencia."
-      ],
-      "aftercare": [
-        "Agregar prueba movil antes de publicar.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir el siguiente caso de practica."
-      ],
-      "guidedDecision": {
-        "question": "Que decision muestra mejor criterio profesional?",
-        "options": [
-          {
-            "text": "Probar en pequeno, guardar evidencia, revisar limites y recien despues aplicar o publicar.",
-            "isCorrect": true,
-            "feedback": "Correcto: reduce errores y deja aprendizaje transferible."
-          },
-          {
-            "text": "Usar el primer resultado porque parece correcto.",
-            "isCorrect": false,
-            "feedback": "La apariencia no alcanza sin prueba ni criterio de cierre."
-          },
-          {
-            "text": "Agregar datos reales para que la practica sea mas completa.",
-            "isCorrect": false,
-            "feedback": "Las practicas deben usar datos simulados o anonimizados."
+            "feedback": "Falta verificacion y producto final."
           }
         ]
       }

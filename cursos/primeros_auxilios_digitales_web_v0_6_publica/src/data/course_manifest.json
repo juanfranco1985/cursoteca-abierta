@@ -1,10 +1,10 @@
 {
   "courseId": "primeros-auxilios-digitales-web",
-  "templateVersion": "0.7-publica-profesional-tanda-2",
+  "templateVersion": "1.0-curso-completo-v1",
   "appName": "Primeros Auxilios Digitales",
   "shortName": "Auxilios Digitales",
-  "subtitle": "Robo de cuentas, links, billeteras, dispositivos, evidencia, bloqueo y recuperacion.",
-  "description": "Curso practico para actuar en los primeros minutos de una emergencia digital sin agravar el problema.",
+  "subtitle": "Los incidentes digitales ocurren cuando una cuenta, un dispositivo, un dato, una operación financiera o una comunicación queda comprometida o bajo sospecha.  Puede tratarse de un robo de WhatsApp, una transferencia no reconocida, un enlace de phishing, una pérdida de celular, una filtración de documentos, una contraseña compartida por error, una app maliciosa o una suplantación de identidad.",
+  "description": "Los incidentes digitales ocurren cuando una cuenta, un dispositivo, un dato, una operación financiera o una comunicación queda comprometida o bajo sospecha.  Puede tratarse de un robo de WhatsApp, una transferencia no reconocida, un enlace de phishing, una pérdida de celular, una filtración de documentos, una contraseña compartida por error, una app maliciosa o una suplantación de identidad.",
   "audience": "Publico general, familias, docentes, comercios y personas que necesitan una guia de respuesta rapida.",
   "dataPaths": {
     "course": "src/data/course_content.json",
@@ -76,7 +76,7 @@
     "primary": "#d6a85c",
     "background": "#21130b"
   },
-  "responsibleNotice": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar.",
+  "responsibleNotice": "Contenido educativo. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. En temas de seguridad, datos personales, dinero, comercios, tramites o derechos, valida decisiones criticas con fuentes oficiales o una persona competente.",
   "cloneNotes": [
     "Este curso fue creado como primer clon real de la plantilla web v0.6.",
     "Para crear otro curso, duplicar la carpeta completa y cambiar manifest, contenido, checklists, casos/incidentes, README y metadatos web.",
@@ -109,7 +109,7 @@
     "skipLink": true
   },
   "webApp": {
-    "cacheName": "primeros-auxilios-digitales-web-v0-6-publica-v0-6-publica-profesional",
+    "cacheName": "primeros_auxilios_digitales_web_v0_6_publica-cache-v1-curso-completo",
     "offlineNote": "El curso puede abrirse offline después de una primera carga correcta con Service Worker. En v0.5 se prepara como candidato de publicación web estática, con guía de despliegue, capturas sugeridas y revisión legal/documental.",
     "publishTargets": [
       "GitHub Pages",
@@ -120,7 +120,7 @@
     ],
     "releaseType": "public-light",
     "version": "0.6-publica",
-    "publicationStatus": "publica-profesional-v0.6"
+    "publicationStatus": "publica-curso-completo-v1"
   },
   "cloneKit": {
     "status": "primer-clon-real",
@@ -451,12 +451,13 @@
     "sourceZip": "primeros_auxilios_digitales_web_v0_6_publica.zip"
   },
   "professionalization": {
-    "tier": "curso-bandera-v1.0-beta",
-    "updatedAt": "2026-05-28",
+    "tier": "curso-completo-v1",
+    "updatedAt": "2026-06-07",
+    "sourcePackage": "cursos_06_50_reescritos_v1",
     "improvements": [
-      "Lecciones con teoria, ejemplo, error comun y ejercicio mas profundos.",
-      "Checklists orientados a evidencia y entregables.",
-      "Casos guiados con pasos, errores y decision responsable."
+      "Reescritura teorica extensa en formato de curso completo.",
+      "Objetivos, modulos teoricos, caso integrador, actividades, evaluacion, glosario y producto final.",
+      "Lecciones con bloques teoricos, contraejemplos y fuentes recomendadas."
     ]
   },
   "editorialPolish": {
@@ -473,5 +474,16 @@
     "checklists": 6,
     "cases": 8,
     "notes": "Contenido reemplazado para reducir patrones genericos en cursos sensibles."
+  },
+  "version": "1.0-curso-completo-v1",
+  "publicationStatus": "publica-curso-completo-v1",
+  "contentDepthAudit": {
+    "status": "curso-completo-v1",
+    "updatedAt": "2026-06-07",
+    "modules": 12,
+    "lessons": 51,
+    "questions": 36,
+    "checklists": 6,
+    "cases": 3
   }
 }

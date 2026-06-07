@@ -15,3 +15,7 @@ Este curso fue marcado como curso bandera el 2026-05-27. Se reforzaron lecciones
 Enfoque: calculo basico de costos, precios, margen y rentabilidad para pequenos negocios.
 
 Entregable sugerido: una planilla simple con costo unitario, precio, margen, escenario y ajuste recomendado.
+
+## Reescritura curso completo v1
+
+Actualizado el 2026-06-07 con teoria ampliada, objetivos, modulos, caso integrador, actividades, evaluacion, glosario, producto final y fuentes recomendadas.

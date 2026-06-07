@@ -1,10 +1,10 @@
 {
   "courseId": "power-bi-principiantes-web",
-  "templateVersion": "0.7-publica-profesional-tanda-3",
+  "templateVersion": "1.0-curso-completo-v1",
   "appName": "Power BI para Principiantes",
   "shortName": "Power BI",
-  "subtitle": "Datos, modelo, medidas, visualizaciones, filtros, publicacion y relato.",
-  "description": "Curso practico para construir dashboards iniciales con datos limpios, indicadores claros y decisiones bien explicadas.",
+  "subtitle": "Power BI es una de las herramientas más utilizadas para transformar datos en reportes visuales, tableros interactivos e indicadores de negocio.  Permite conectar fuentes de datos, limpiarlas, modelarlas, crear medidas, diseñar visualizaciones y compartir reportes para apoyar decisiones.",
+  "description": "Power BI es una de las herramientas más utilizadas para transformar datos en reportes visuales, tableros interactivos e indicadores de negocio.  Permite conectar fuentes de datos, limpiarlas, modelarlas, crear medidas, diseñar visualizaciones y compartir reportes para apoyar decisiones.",
   "audience": "Principiantes de BI, analistas iniciales, equipos administrativos y personas que preparan reportes.",
   "dataPaths": {
     "course": "src/data/course_content.json",
@@ -64,7 +64,7 @@
     "primary": "#d6a85c",
     "background": "#21130b"
   },
-  "responsibleNotice": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar.",
+  "responsibleNotice": "Contenido educativo. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. En temas de seguridad, datos personales, dinero, comercios, tramites o derechos, valida decisiones criticas con fuentes oficiales o una persona competente.",
   "cloneNotes": [
     "Versión v0.5 orientada a publicación y prueba web.",
     "Mantener datasets ficticios o anonimizados.",
@@ -100,16 +100,17 @@
     ]
   },
   "webApp": {
-    "cacheName": "power-bi-principiantes-web-v0-6-publica-v0-6-publica-profesional",
-    "publicationStatus": "publica-profesional-v0.6"
+    "cacheName": "power_bi_principiantes_web_v0_6_publica-cache-v1-curso-completo",
+    "publicationStatus": "publica-curso-completo-v1"
   },
   "professionalization": {
-    "tier": "curso-bandera-v1.0-beta",
-    "updatedAt": "2026-05-28",
+    "tier": "curso-completo-v1",
+    "updatedAt": "2026-06-07",
+    "sourcePackage": "cursos_06_50_reescritos_v1",
     "improvements": [
-      "Lecciones con teoria, ejemplo, error comun y ejercicio mas profundos.",
-      "Checklists orientados a evidencia y entregables.",
-      "Casos guiados con pasos, errores y decision responsable."
+      "Reescritura teorica extensa en formato de curso completo.",
+      "Objetivos, modulos teoricos, caso integrador, actividades, evaluacion, glosario y producto final.",
+      "Lecciones con bloques teoricos, contraejemplos y fuentes recomendadas."
     ]
   },
   "editorialPolish": {
@@ -126,5 +127,16 @@
     "checklists": 6,
     "cases": 8,
     "notes": "Contenido reemplazado para reducir patrones genericos en cursos de alta visibilidad."
+  },
+  "version": "1.0-curso-completo-v1",
+  "publicationStatus": "publica-curso-completo-v1",
+  "contentDepthAudit": {
+    "status": "curso-completo-v1",
+    "updatedAt": "2026-06-07",
+    "modules": 15,
+    "lessons": 79,
+    "questions": 45,
+    "checklists": 6,
+    "cases": 3
   }
 }

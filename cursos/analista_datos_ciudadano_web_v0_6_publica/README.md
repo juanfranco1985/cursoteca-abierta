@@ -28,3 +28,7 @@ Este curso fue marcado como curso bandera el 2026-05-27. Se reforzaron lecciones
 Enfoque: analisis ciudadano de datos para entender problemas, decisiones y evidencias simples.
 
 Entregable sugerido: un informe de una pagina con pregunta, datos usados, hallazgo, grafico y decision sugerida.
+
+## Reescritura curso completo v1
+
+Actualizado el 2026-06-07 con teoria ampliada, objetivos, modulos, caso integrador, actividades, evaluacion, glosario, producto final y fuentes recomendadas.

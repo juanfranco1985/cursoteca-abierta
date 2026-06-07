@@ -24,3 +24,7 @@ Este curso fue marcado como curso bandera el 2026-05-27. Se reforzaron lecciones
 Enfoque: consumo responsable de APIs desde proyectos web, datos externos y manejo de errores.
 
 Entregable sugerido: una pagina que consulta una API, muestra datos y maneja errores de forma clara.
+
+## Reescritura curso completo v1
+
+Actualizado el 2026-06-07 con teoria ampliada, objetivos, modulos, caso integrador, actividades, evaluacion, glosario, producto final y fuentes recomendadas.

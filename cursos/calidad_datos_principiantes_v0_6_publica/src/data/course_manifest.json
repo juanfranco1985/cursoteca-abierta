@@ -1,10 +1,10 @@
 {
   "courseId": "calidad-datos-principiantes",
-  "templateVersion": "0.7-publica-profesional-tanda-5",
+  "templateVersion": "1.0-curso-completo-v1",
   "appName": "Calidad de Datos para Principiantes",
   "shortName": "Calidad de Datos",
-  "subtitle": "Fuentes, completitud, duplicados, formatos, validacion, trazabilidad y mejora.",
-  "description": "Curso practico para detectar problemas de calidad de datos y convertirlos en reglas simples de limpieza, control y seguimiento.",
+  "subtitle": "La calidad de datos es una de las bases más importantes para tomar buenas decisiones.  Una planilla puede tener muchas filas, gráficos prolijos y fórmulas correctas, pero si los datos están incompletos, duplicados, desactualizados, mal escritos o cargados con criterios distintos, el análisis puede llevar a conclusiones equivocadas.",
+  "description": "La calidad de datos es una de las bases más importantes para tomar buenas decisiones.  Una planilla puede tener muchas filas, gráficos prolijos y fórmulas correctas, pero si los datos están incompletos, duplicados, desactualizados, mal escritos o cargados con criterios distintos, el análisis puede llevar a conclusiones equivocadas.",
   "audience": "Personas que trabajan con planillas, formularios, reportes, datos de clientes o registros operativos.",
   "category": "Datos",
   "status": "Publico profesional",
@@ -48,7 +48,7 @@
     "minimumSuggestedQuizAverage": 70,
     "notOfficialNotice": "Constancia educativa no oficial."
   },
-  "responsibleNotice": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar.",
+  "responsibleNotice": "Contenido educativo. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. En temas de seguridad, datos personales, dinero, comercios, tramites o derechos, valida decisiones criticas con fuentes oficiales o una persona competente.",
   "publication": {
     "version": "0.6-publica-profesional",
     "status": "Publica profesional",
@@ -64,16 +64,17 @@
     ]
   },
   "webApp": {
-    "cacheName": "calidad_datos_principiantes_v0_6_publica-cache-v0-6-publica-profesional",
-    "publicationStatus": "publica-profesional-v0.6"
+    "cacheName": "calidad_datos_principiantes_v0_6_publica-cache-v1-curso-completo",
+    "publicationStatus": "publica-curso-completo-v1"
   },
   "professionalization": {
-    "tier": "curso-bandera-v1.0-beta",
-    "updatedAt": "2026-05-28",
+    "tier": "curso-completo-v1",
+    "updatedAt": "2026-06-07",
+    "sourcePackage": "cursos_06_50_reescritos_v1",
     "improvements": [
-      "Lecciones con teoria, ejemplo, error comun y ejercicio mas profundos.",
-      "Checklists orientados a evidencia y entregables.",
-      "Casos guiados con pasos, errores y decision responsable."
+      "Reescritura teorica extensa en formato de curso completo.",
+      "Objetivos, modulos teoricos, caso integrador, actividades, evaluacion, glosario y producto final.",
+      "Lecciones con bloques teoricos, contraejemplos y fuentes recomendadas."
     ]
   },
   "editorialPolish": {
@@ -93,5 +94,16 @@
   },
   "cloneNotes": [
     "v0.7 tanda 5 reemplaza contenido generico por modulos, practicas, checklists y casos especificos en cursos de datos."
-  ]
+  ],
+  "version": "1.0-curso-completo-v1",
+  "publicationStatus": "publica-curso-completo-v1",
+  "contentDepthAudit": {
+    "status": "curso-completo-v1",
+    "updatedAt": "2026-06-07",
+    "modules": 14,
+    "lessons": 70,
+    "questions": 42,
+    "checklists": 6,
+    "cases": 3
+  }
 }

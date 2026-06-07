@@ -150,3 +150,55 @@ El 2026-06-05 se integraron los primeros cinco cursos reescritos que empiezan a 
 - Android Seguro para Principiantes: 12 modulos, 46 lecciones, producto final: Checklist de telefono Android seguro.
 
 Estos cursos ya reemplazan la estructura templada anterior en sus JSON de curso y quedan marcados como `Curso completo v1` en portal e inventario.
+
+## Cursos completos v1 incorporados 06-50
+
+El 2026-06-07 se integraron los 45 cursos reescritos del 06 al 50 que completan la norma de curso completo:
+
+- Ciudadano Digital Argentina: 12 modulos, 47 lecciones, producto final: Carpeta Ciudadana Digital Personal.
+- Cuidado Digital para Adultos Mayores y Familias: 12 modulos, 49 lecciones, producto final: Plan Familiar de Cuidado Digital.
+- Finanzas Digitales Seguras Argentina: 12 modulos, 49 lecciones, producto final: Protocolo de Finanzas Digitales Seguras.
+- Primeros Auxilios Digitales: 12 modulos, 51 lecciones, producto final: Kit de Primeros Auxilios Digitales.
+- Privacidad Digital Ciudadana: 12 modulos, 49 lecciones, producto final: Plan de Privacidad Digital Ciudadana.
+- Seguridad Digital Escolar: 12 modulos, 48 lecciones, producto final: Protocolo Escolar de Seguridad Digital.
+- Seguridad Digital para Docentes: 12 modulos, 50 lecciones, producto final: Plan Docente de Seguridad Digital.
+- Seguridad Familiar en Internet: 12 modulos, 49 lecciones, producto final: Plan Familiar de Seguridad en Internet.
+- Tramites Digitales Argentina: 12 modulos, 48 lecciones, producto final: Carpeta Personal de Trámites Digitales.
+- Atencion al Cliente por WhatsApp y Redes: 12 modulos, 50 lecciones, producto final: Manual Básico de Atención Digital.
+- Automatizacion con IA para Tareas Repetitivas: 12 modulos, 53 lecciones, producto final: Primer Plan de Automatización con IA.
+- CV, LinkedIn y Busqueda Laboral Digital: 12 modulos, 50 lecciones, producto final: Kit Personal de Búsqueda Laboral Digital.
+- Excel y Google Sheets desde Cero: 14 modulos, 63 lecciones, producto final: Planilla Funcional desde Cero.
+- Google Workspace para Trabajo y Datos: 14 modulos, 68 lecciones, producto final: Sistema Básico de Trabajo y Datos en Google Workspace.
+- IA Practica para Trabajadores y Emprendedores: 14 modulos, 58 lecciones, producto final: Kit Personal de IA Práctica.
+- Notion, Trello y Organizacion Personal: 14 modulos, 61 lecciones, producto final: Sistema Personal de Organización Digital.
+- Simulador Laboral de Soporte Técnico: 15 modulos, 76 lecciones, producto final: Protocolo Inicial de Soporte Técnico.
+- Teletrabajo Seguro y Productivo: 15 modulos, 60 lecciones, producto final: Plan Personal de Teletrabajo Seguro y Productivo.
+- Analista de Datos Ciudadano: 14 modulos, 71 lecciones, producto final: Mini Diagnóstico de Datos Ciudadano.
+- Calidad de Datos para Principiantes: 14 modulos, 70 lecciones, producto final: Informe Básico de Calidad de Datos.
+- Catálogo de Datos y Alation: 15 modulos, 78 lecciones, producto final: Mini Catálogo de Datos Inicial.
+- Estadistica Basica para Decisiones: 15 modulos, 76 lecciones, producto final: Informe Estadístico Básico para una Decisión.
+- Excel para Analisis de Datos: 15 modulos, 76 lecciones, producto final: Dashboard Analítico Básico en Excel.
+- Gobierno de Datos Basico: 15 modulos, 77 lecciones, producto final: Plan Básico de Gobierno de Datos.
+- Power BI para Principiantes: 15 modulos, 79 lecciones, producto final: Reporte Básico en Power BI.
+- Python para Datos desde Cero: 18 modulos, 96 lecciones, producto final: Mini Análisis de Datos con Python.
+- SQL Práctico para Análisis de Datos: 19 modulos, 100 lecciones, producto final: Mini Análisis con SQL.
+- Storytelling con Datos: 16 modulos, 82 lecciones, producto final: Presentación de Storytelling con Datos.
+- Tableau para Visualización de Datos: 18 modulos, 93 lecciones, producto final: Dashboard Inicial en Tableau.
+- Costos, Precios y Rentabilidad: 18 modulos, 90 lecciones, producto final: Planilla Básica de Costos, Precios y Rentabilidad.
+- Educacion Financiera Basica Argentina: 18 modulos, 89 lecciones, producto final: Plan Financiero Personal Básico.
+- Emprendimiento Barrial: 18 modulos, 90 lecciones, producto final: Plan de Emprendimiento Barrial de 30 Días.
+- Marketing Digital Barrial: 18 modulos, 91 lecciones, producto final: Plan de Marketing Digital Barrial de 30 Días.
+- Monotributo y Organizacion Administrativa Basica: 19 modulos, 99 lecciones, producto final: Sistema Administrativo Básico para Monotributo.
+- Tienda Online para Principiantes: 19 modulos, 88 lecciones, producto final: Plan Inicial de Tienda Online.
+- WhatsApp Business Avanzado: 18 modulos, 87 lecciones, producto final: Sistema Comercial de WhatsApp Business.
+- Accesibilidad Web para Principiantes: 18 modulos, 90 lecciones, producto final: Mejora Básica de Accesibilidad Web sobre una página real o ficticia.
+- APIs para Proyectos Web: 20 modulos, 97 lecciones, producto final: Mini Proyecto Web con API.
+- CSS Práctico para Principiantes: 19 modulos, 92 lecciones, producto final: Landing Page Responsive con CSS.
+- Git y GitHub para Proyectos Web: 20 modulos, 90 lecciones, producto final: Proyecto Web Versionado y Publicado.
+- HTML Práctico para Principiantes: 19 modulos, 86 lecciones, producto final: Página HTML Semántica Completa.
+- JavaScript desde Cero: 20 modulos, 91 lecciones, producto final: Mini Aplicación Web Interactiva.
+- Publicación Web para Principiantes: 20 modulos, 86 lecciones, producto final: Web Publicada y Documentada.
+- React Basico para Principiantes: 19 modulos, 83 lecciones, producto final: Mini Aplicación React.
+- UX/UI Basico para Sitios y Apps: 22 modulos, 98 lecciones, producto final: Prototipo Básico UX/UI.
+
+Estos cursos reemplazan la estructura templada anterior en sus JSON de curso y quedan marcados como `Curso completo v1` en portal e inventario.

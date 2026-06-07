@@ -15,3 +15,7 @@ Este curso fue marcado como curso bandera el 2026-05-28. Se reforzaron lecciones
 Enfoque: organizacion de tareas, proyectos, notas y seguimiento personal con herramientas visuales.
 
 Entregable sugerido: un tablero con backlog, esta semana, en proceso, bloqueado y hecho.
+
+## Reescritura curso completo v1
+
+Actualizado el 2026-06-07 con teoria ampliada, objetivos, modulos, caso integrador, actividades, evaluacion, glosario, producto final y fuentes recomendadas.

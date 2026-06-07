@@ -1,10 +1,10 @@
 {
   "courseId": "emprendimiento-barrial-web",
-  "templateVersion": "0.7-publica-profesional-tanda-7-final",
+  "templateVersion": "1.0-curso-completo-v1",
   "appName": "Emprendimiento Barrial",
   "shortName": "Emprendimiento Barrial",
-  "subtitle": "Idea, barrio, cliente, oferta, costos, canales, operacion, ventas y mejora.",
-  "description": "Curso practico para iniciar o mejorar un emprendimiento barrial con foco, numeros simples, trato cercano y decisiones sostenibles.",
+  "subtitle": "Un emprendimiento barrial nace cerca de la vida cotidiana: en una casa, una cocina, un garaje, una feria, una red de vecinos, un grupo de WhatsApp, una página de Facebook, una cuenta de Instagram o una pequeña necesidad local que alguien decide resolver.  Puede ser venta de alimentos, reventa de productos, costura, arreglos, servicios, estética, clases, cuidado, delivery, producción artesanal, limpieza, soporte técnico, mantenimiento, cursos, objetos personalizados o soluciones para comercios cercanos.",
+  "description": "Un emprendimiento barrial nace cerca de la vida cotidiana: en una casa, una cocina, un garaje, una feria, una red de vecinos, un grupo de WhatsApp, una página de Facebook, una cuenta de Instagram o una pequeña necesidad local que alguien decide resolver.  Puede ser venta de alimentos, reventa de productos, costura, arreglos, servicios, estética, clases, cuidado, delivery, producción artesanal, limpieza, soporte técnico, mantenimiento, cursos, objetos personalizados o soluciones para comercios cercanos.",
   "audience": "Personas que venden en su barrio, feriantes, oficios, comercios familiares y emprendimientos de escala chica.",
   "dataPaths": {
     "course": "src/data/course_content.json",
@@ -146,10 +146,10 @@
     "Checklist diaria",
     "Publicación web"
   ],
-  "responsibleNotice": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar.",
-  "version": "0.5.0",
+  "responsibleNotice": "Contenido educativo. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. En temas de seguridad, datos personales, dinero, comercios, tramites o derechos, valida decisiones criticas con fuentes oficiales o una persona competente.",
+  "version": "1.0-curso-completo-v1",
   "webApp": {
-    "cacheName": "emprendimiento-barrial-web-v0-6-publica-v0-6-publica-profesional",
+    "cacheName": "emprendimiento_barrial_web_v0_6_publica-cache-v1-curso-completo",
     "publishTargets": [
       "GitHub Pages",
       "Netlify",
@@ -158,7 +158,7 @@
       "blog o portfolio personal"
     ],
     "recommendedTest": "Abrir con VS Code + Live Server y revisar DevTools > Application > Manifest + Service Worker.",
-    "publicationStatus": "publica-profesional-v0.6"
+    "publicationStatus": "publica-curso-completo-v1"
   },
   "publicEdition": {
     "level": "publica-profesional",
@@ -188,12 +188,13 @@
     ]
   },
   "professionalization": {
-    "tier": "curso-bandera-v1.0-beta",
-    "updatedAt": "2026-05-28",
+    "tier": "curso-completo-v1",
+    "updatedAt": "2026-06-07",
+    "sourcePackage": "cursos_06_50_reescritos_v1",
     "improvements": [
-      "Lecciones con teoria, ejemplo, error comun y ejercicio mas profundos.",
-      "Checklists orientados a evidencia y entregables.",
-      "Casos guiados con pasos, errores y decision responsable."
+      "Reescritura teorica extensa en formato de curso completo.",
+      "Objetivos, modulos teoricos, caso integrador, actividades, evaluacion, glosario y producto final.",
+      "Lecciones con bloques teoricos, contraejemplos y fuentes recomendadas."
     ]
   },
   "editorialPolish": {
@@ -210,5 +211,15 @@
     "checklists": 6,
     "cases": 8,
     "notes": "Contenido reemplazado para cerrar la deuda de contenido generico en cursos comerciales y de emprendimiento."
+  },
+  "publicationStatus": "publica-curso-completo-v1",
+  "contentDepthAudit": {
+    "status": "curso-completo-v1",
+    "updatedAt": "2026-06-07",
+    "modules": 18,
+    "lessons": 90,
+    "questions": 54,
+    "checklists": 6,
+    "cases": 3
   }
 }

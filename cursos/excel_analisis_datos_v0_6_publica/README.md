@@ -15,3 +15,7 @@ Este curso fue marcado como curso bandera el 2026-05-27. Se reforzaron lecciones
 Enfoque: analisis practico en Excel con tablas, formulas, filtros, validacion y graficos simples.
 
 Entregable sugerido: una planilla con datos limpios, indicadores, grafico principal y nota de lectura.
+
+## Reescritura curso completo v1
+
+Actualizado el 2026-06-07 con teoria ampliada, objetivos, modulos, caso integrador, actividades, evaluacion, glosario, producto final y fuentes recomendadas.

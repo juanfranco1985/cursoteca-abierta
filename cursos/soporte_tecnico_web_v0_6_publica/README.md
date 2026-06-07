@@ -28,3 +28,7 @@ Este curso fue marcado como curso bandera el 2026-05-27. Se reforzaron lecciones
 Enfoque: atencion inicial de incidentes tecnicos, diagnostico, comunicacion y escalamiento.
 
 Entregable sugerido: un ticket con problema, impacto, diagnostico, pasos, solucion y cierre.
+
+## Reescritura curso completo v1
+
+Actualizado el 2026-06-07 con teoria ampliada, objetivos, modulos, caso integrador, actividades, evaluacion, glosario, producto final y fuentes recomendadas.

@@ -15,3 +15,7 @@ Este curso fue marcado como curso bandera el 2026-05-28. Se reforzaron lecciones
 Enfoque: organizacion financiera personal, presupuesto, gastos, ahorro, deuda y decisiones cotidianas.
 
 Entregable sugerido: una planilla de presupuesto con categorias, vencimientos, saldo disponible y decision.
+
+## Reescritura curso completo v1
+
+Actualizado el 2026-06-07 con teoria ampliada, objetivos, modulos, caso integrador, actividades, evaluacion, glosario, producto final y fuentes recomendadas.

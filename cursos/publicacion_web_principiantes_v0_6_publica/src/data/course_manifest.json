@@ -1,10 +1,10 @@
 {
   "courseId": "publicacion_web_principiantes",
-  "templateVersion": "0.6-publica-profesional",
-  "version": "0.5",
+  "templateVersion": "1.0-curso-completo-v1",
+  "version": "1.0-curso-completo-v1",
   "title": "Publicación Web para Principiantes",
-  "subtitle": "Curso practico para publicar una web en GitHub Pages, Netlify o Vercel, revisar enlaces y mantenerla disponible.",
-  "description": "Publica sitios estaticos con orden: archivos listos, GitHub Pages, Netlify, Vercel, dominios, errores comunes y mantenimiento.",
+  "subtitle": "Crear una página web es solo una parte del trabajo.  Para que otras personas puedan verla, usarla, compartirla y encontrarla, hay que publicarla correctamente.",
+  "description": "Crear una página web es solo una parte del trabajo.  Para que otras personas puedan verla, usarla, compartirla y encontrarla, hay que publicarla correctamente.",
   "audience": "Principiantes,Estudiantes de desarrollo web,Creadores de proyectos HTML/CSS/JS,Personas que quieren publicar portfolio",
   "category": "Desarrollo Web y Programación",
   "route": "Ruta 5",
@@ -47,7 +47,7 @@
     "releaseChecklist",
     "screenshotsChecklist"
   ],
-  "publicationStatus": "candidate",
+  "publicationStatus": "publica-curso-completo-v1",
   "publicEdition": {
     "level": "publica-profesional",
     "version": "0.6",
@@ -76,23 +76,33 @@
     ]
   },
   "webApp": {
-    "cacheName": "publicacion-web-principiantes-v0-6-publica-v0-6-publica-profesional",
-    "publicationStatus": "publica-profesional-v0.6"
+    "cacheName": "publicacion_web_principiantes_v0_6_publica-cache-v1-curso-completo",
+    "publicationStatus": "publica-curso-completo-v1"
   },
-  "responsibleNotice": "Contenido educativo. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. No publicar archivos internos, datos privados, claves ni borradores que no deban ser publicos.",
+  "responsibleNotice": "Contenido educativo. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. En temas de seguridad, datos personales, dinero, comercios, tramites o derechos, valida decisiones criticas con fuentes oficiales o una persona competente.",
   "appName": "Publicacion Web para Principiantes",
   "shortName": "Publicacion Web para Principiantes",
   "professionalization": {
-    "tier": "curso-bandera-v1.0-beta",
-    "updatedAt": "2026-05-28",
+    "tier": "curso-completo-v1",
+    "updatedAt": "2026-06-07",
+    "sourcePackage": "cursos_06_50_reescritos_v1",
     "improvements": [
-      "Lecciones con teoria, ejemplo, error comun y ejercicio mas profundos.",
-      "Checklists orientados a evidencia y entregables.",
-      "Casos guiados con pasos, errores y decision responsable."
+      "Reescritura teorica extensa en formato de curso completo.",
+      "Objetivos, modulos teoricos, caso integrador, actividades, evaluacion, glosario y producto final.",
+      "Lecciones con bloques teoricos, contraejemplos y fuentes recomendadas."
     ]
   },
   "editorialPolish": {
     "fourthEditorialBatch": "2026-06-02",
     "status": "public-facing-copy-polished"
+  },
+  "contentDepthAudit": {
+    "status": "curso-completo-v1",
+    "updatedAt": "2026-06-07",
+    "modules": 20,
+    "lessons": 86,
+    "questions": 60,
+    "checklists": 8,
+    "cases": 3
   }
 }

@@ -1,10 +1,10 @@
 {
   "courseId": "privacidad-digital-ciudadana",
-  "templateVersion": "0.6-publica-profesional",
+  "templateVersion": "1.0-curso-completo-v1",
   "appName": "Privacidad Digital Ciudadana",
   "shortName": "Privacidad Digital",
-  "subtitle": "Curso practico para revisar datos personales, permisos de apps, privacidad en redes, cookies, nube y backups.",
-  "description": "Cuida tu privacidad digital: datos personales, permisos, WhatsApp, Google, Meta, cookies, nube, fotos, archivos y rutina ciudadana.",
+  "subtitle": "La privacidad digital es la capacidad de una persona para comprender, decidir y controlar —en la medida de lo posible— qué datos comparte, con quién, para qué finalidad y bajo qué condiciones.  No significa desaparecer de internet ni vivir con miedo.",
+  "description": "La privacidad digital es la capacidad de una persona para comprender, decidir y controlar —en la medida de lo posible— qué datos comparte, con quién, para qué finalidad y bajo qué condiciones.  No significa desaparecer de internet ni vivir con miedo.",
   "audience": "Usuarios adultos, estudiantes, trabajadores, familias y ciudadanos que quieren reducir exposición digital sin dejar de usar herramientas cotidianas.",
   "dataPaths": {
     "course": "src/data/course_content.json",
@@ -73,7 +73,7 @@
     "primary": "#d6a85c",
     "background": "#21130b"
   },
-  "responsibleNotice": "Contenido educativo. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. No publicar documentos, ubicacion en tiempo real, codigos, datos de menores ni informacion bancaria.",
+  "responsibleNotice": "Contenido educativo. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. En temas de seguridad, datos personales, dinero, comercios, tramites o derechos, valida decisiones criticas con fuentes oficiales o una persona competente.",
   "cloneNotes": [
     "Clon creado desde la plantilla web v0.6.",
     "El curso usa JSON local y progreso en localStorage.",
@@ -126,20 +126,32 @@
     ]
   },
   "webApp": {
-    "cacheName": "privacidad-digital-ciudadana-web-v0-6-publica-v0-6-publica-profesional",
-    "publicationStatus": "publica-profesional-v0.6"
+    "cacheName": "privacidad_digital_ciudadana_web_v0_6_publica-cache-v1-curso-completo",
+    "publicationStatus": "publica-curso-completo-v1"
   },
   "professionalization": {
-    "tier": "curso-bandera-v1.0-beta",
-    "updatedAt": "2026-05-28",
+    "tier": "curso-completo-v1",
+    "updatedAt": "2026-06-07",
+    "sourcePackage": "cursos_06_50_reescritos_v1",
     "improvements": [
-      "Lecciones con teoria, ejemplo, error comun y ejercicio mas profundos.",
-      "Checklists orientados a evidencia y entregables.",
-      "Casos guiados con pasos, errores y decision responsable."
+      "Reescritura teorica extensa en formato de curso completo.",
+      "Objetivos, modulos teoricos, caso integrador, actividades, evaluacion, glosario y producto final.",
+      "Lecciones con bloques teoricos, contraejemplos y fuentes recomendadas."
     ]
   },
   "editorialPolish": {
     "fifthEditorialBatch": "2026-06-02",
     "status": "public-facing-copy-polished"
+  },
+  "version": "1.0-curso-completo-v1",
+  "publicationStatus": "publica-curso-completo-v1",
+  "contentDepthAudit": {
+    "status": "curso-completo-v1",
+    "updatedAt": "2026-06-07",
+    "modules": 12,
+    "lessons": 49,
+    "questions": 36,
+    "checklists": 6,
+    "cases": 3
   }
 }

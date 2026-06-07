@@ -1,441 +1,160 @@
 {
   "incidents": [
     {
-      "id": "wrong_sales_table",
-      "title": "Caso inicial controlado: Catalogo de Datos y Alation",
-      "summary": "Practica aplicada para resolver una situacion de catalogacion de datos, glosario, linaje basico, propietarios y confianza en informacion con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una ficha de catalogo de datos sin exponer datos sensibles y con una decision verificable.",
+      "id": "catalogo_datos_alation_web-case-1",
+      "title": "Caso practico integrador",
+      "summary": "Aplicar Catálogo de Datos y Alation a un caso realista.",
+      "severity": "Practica integradora",
+      "immediateGoal": "Aplicar la teoria completa del curso a una situacion realista.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una ficha de catalogo de datos.",
-        "Revisar el resultado contra este criterio: otra persona puede encontrar, entender y usar el dato sin adivinar su significado.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Describir el contexto del caso.",
+        "Identificar conceptos teoricos necesarios.",
+        "Aplicar el criterio del curso paso a paso.",
+        "Registrar evidencia y limite de la decision.",
+        "Contrastar con fuentes recomendadas.",
+        "Cerrar con producto final, duda pendiente y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "nombre del activo, descripcion, propietario, fuente, uso permitido, calidad y actualizacion",
-        "Decision final y motivo"
+        "Descripcion del caso",
+        "Conceptos usados",
+        "Fuente consultada",
+        "Decision o produccion final",
+        "Riesgo, limite o duda pendiente"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Resolver por intuicion sin explicar criterio.",
+        "Copiar una fuente sin sintetizar.",
+        "Usar datos sensibles reales en la practica.",
+        "Cerrar el curso sin producto verificable."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
-        "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Aplicar Catálogo de Datos y Alation a un caso realista.",
+        "Guardar la entrega final.",
+        "Revisar el checklist antes de marcar el curso como completo."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision muestra mejor criterio de curso completo?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Conectar teoria, caso, fuente, limite y producto verificable.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: esa es la diferencia entre ficha introductoria y curso completo."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Repetir una definicion sin aplicarla.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La definicion aislada no alcanza."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Cerrar sin evidencia ni fuente.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Falta verificacion y producto final."
           }
         ]
       }
     },
     {
-      "id": "active_customer_definition",
-      "title": "Caso con datos incompletos: Catalogo de Datos y Alation",
-      "summary": "Practica aplicada para resolver una situacion de catalogacion de datos, glosario, linaje basico, propietarios y confianza en informacion con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una ficha de catalogo de datos sin exponer datos sensibles y con una decision verificable.",
+      "id": "catalogo_datos_alation_web-case-2",
+      "title": "Evaluacion final",
+      "summary": "Responder preguntas conceptuales y producir una entrega practica.",
+      "severity": "Practica integradora",
+      "immediateGoal": "Comprobar comprension conceptual y produccion practica.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una ficha de catalogo de datos.",
-        "Revisar el resultado contra este criterio: otra persona puede encontrar, entender y usar el dato sin adivinar su significado.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Describir el contexto del caso.",
+        "Identificar conceptos teoricos necesarios.",
+        "Aplicar el criterio del curso paso a paso.",
+        "Registrar evidencia y limite de la decision.",
+        "Contrastar con fuentes recomendadas.",
+        "Cerrar con producto final, duda pendiente y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "nombre del activo, descripcion, propietario, fuente, uso permitido, calidad y actualizacion",
-        "Decision final y motivo"
+        "Descripcion del caso",
+        "Conceptos usados",
+        "Fuente consultada",
+        "Decision o produccion final",
+        "Riesgo, limite o duda pendiente"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Resolver por intuicion sin explicar criterio.",
+        "Copiar una fuente sin sintetizar.",
+        "Usar datos sensibles reales en la practica.",
+        "Cerrar el curso sin producto verificable."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
-        "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Responder preguntas conceptuales y producir una entrega practica.",
+        "Guardar la entrega final.",
+        "Revisar el checklist antes de marcar el curso como completo."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision muestra mejor criterio de curso completo?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Conectar teoria, caso, fuente, limite y producto verificable.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: esa es la diferencia entre ficha introductoria y curso completo."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Repetir una definicion sin aplicarla.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La definicion aislada no alcanza."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Cerrar sin evidencia ni fuente.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Falta verificacion y producto final."
           }
         ]
       }
     },
     {
-      "id": "doubtful_dashboard",
-      "title": "Caso con presion de tiempo: Catalogo de Datos y Alation",
-      "summary": "Practica aplicada para resolver una situacion de catalogacion de datos, glosario, linaje basico, propietarios y confianza en informacion con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una ficha de catalogo de datos sin exponer datos sensibles y con una decision verificable.",
+      "id": "catalogo_datos_alation_web-case-3",
+      "title": "Producto final del curso",
+      "summary": "Al finalizar, el estudiante debe crear un Mini Catálogo de Datos Inicial. Ese catálogo debe permitir: - saber qué datos existen; - encontrar fuentes confiables; - entender significados; - identificar responsables; - reconocer sensibilidad; - documentar campos; - conectar datos con glosario; - describir linaje; - mejorar gobierno; - aumentar confianza en el análisis. El curso termina cuando la persona deja de buscar datos “preguntando por ahí” y empieza a construir conocimiento documentado y reutilizable sobre los datos.",
+      "severity": "Practica integradora",
+      "immediateGoal": "Cerrar el curso con una evidencia concreta de aprendizaje.",
       "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una ficha de catalogo de datos.",
-        "Revisar el resultado contra este criterio: otra persona puede encontrar, entender y usar el dato sin adivinar su significado.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
+        "Describir el contexto del caso.",
+        "Identificar conceptos teoricos necesarios.",
+        "Aplicar el criterio del curso paso a paso.",
+        "Registrar evidencia y limite de la decision.",
+        "Contrastar con fuentes recomendadas.",
+        "Cerrar con producto final, duda pendiente y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "nombre del activo, descripcion, propietario, fuente, uso permitido, calidad y actualizacion",
-        "Decision final y motivo"
+        "Descripcion del caso",
+        "Conceptos usados",
+        "Fuente consultada",
+        "Decision o produccion final",
+        "Riesgo, limite o duda pendiente"
       ],
       "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
+        "Resolver por intuicion sin explicar criterio.",
+        "Copiar una fuente sin sintetizar.",
+        "Usar datos sensibles reales en la practica.",
+        "Cerrar el curso sin producto verificable."
       ],
       "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
-        "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
+        "Al finalizar, el estudiante debe crear un Mini Catálogo de Datos Inicial.\n\nEse catálogo debe permitir:\n\n- saber qué datos existen;\n- encontrar fuentes confiables;\n- entender significados;\n- identificar responsables;\n- reconocer sensibilidad;\n- documentar campos;\n- conectar datos con glosario;\n- describir linaje;\n- mejorar gobierno;\n- aumentar confianza en el análisis.\n\nEl curso termina cuando la persona deja de buscar datos “preguntando por ahí” y empieza a construir conocimiento documentado y reutilizable sobre los datos.",
+        "Guardar la entrega final.",
+        "Revisar el checklist antes de marcar el curso como completo."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
+        "question": "Que decision muestra mejor criterio de curso completo?",
         "options": [
           {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
+            "text": "Conectar teoria, caso, fuente, limite y producto verificable.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
+            "feedback": "Correcto: esa es la diferencia entre ficha introductoria y curso completo."
           },
           {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
+            "text": "Repetir una definicion sin aplicarla.",
             "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
+            "feedback": "La definicion aislada no alcanza."
           },
           {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
+            "text": "Cerrar sin evidencia ni fuente.",
             "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
-          }
-        ]
-      }
-    },
-    {
-      "id": "new_dataset_card",
-      "title": "Caso de comunicacion con otra persona: Catalogo de Datos y Alation",
-      "summary": "Practica aplicada para resolver una situacion de catalogacion de datos, glosario, linaje basico, propietarios y confianza en informacion con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una ficha de catalogo de datos sin exponer datos sensibles y con una decision verificable.",
-      "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una ficha de catalogo de datos.",
-        "Revisar el resultado contra este criterio: otra persona puede encontrar, entender y usar el dato sin adivinar su significado.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
-      ],
-      "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "nombre del activo, descripcion, propietario, fuente, uso permitido, calidad y actualizacion",
-        "Decision final y motivo"
-      ],
-      "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
-      ],
-      "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
-        "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
-      ],
-      "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
-        "options": [
-          {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
-            "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
-          },
-          {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
-            "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
-          },
-          {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
-            "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
-          }
-        ]
-      }
-    },
-    {
-      "id": "find_table_owner",
-      "title": "Caso de error frecuente: Catalogo de Datos y Alation",
-      "summary": "Practica aplicada para resolver una situacion de catalogacion de datos, glosario, linaje basico, propietarios y confianza en informacion con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una ficha de catalogo de datos sin exponer datos sensibles y con una decision verificable.",
-      "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una ficha de catalogo de datos.",
-        "Revisar el resultado contra este criterio: otra persona puede encontrar, entender y usar el dato sin adivinar su significado.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
-      ],
-      "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "nombre del activo, descripcion, propietario, fuente, uso permitido, calidad y actualizacion",
-        "Decision final y motivo"
-      ],
-      "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
-      ],
-      "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
-        "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
-      ],
-      "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
-        "options": [
-          {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
-            "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
-          },
-          {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
-            "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
-          },
-          {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
-            "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
-          }
-        ]
-      }
-    },
-    {
-      "id": "lineage_before_change",
-      "title": "Caso de mejora de proceso: Catalogo de Datos y Alation",
-      "summary": "Practica aplicada para resolver una situacion de catalogacion de datos, glosario, linaje basico, propietarios y confianza en informacion con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una ficha de catalogo de datos sin exponer datos sensibles y con una decision verificable.",
-      "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una ficha de catalogo de datos.",
-        "Revisar el resultado contra este criterio: otra persona puede encontrar, entender y usar el dato sin adivinar su significado.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
-      ],
-      "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "nombre del activo, descripcion, propietario, fuente, uso permitido, calidad y actualizacion",
-        "Decision final y motivo"
-      ],
-      "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
-      ],
-      "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
-        "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
-      ],
-      "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
-        "options": [
-          {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
-            "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
-          },
-          {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
-            "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
-          },
-          {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
-            "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
-          }
-        ]
-      }
-    },
-    {
-      "id": "certify_dataset",
-      "title": "Caso de decision responsable: Catalogo de Datos y Alation",
-      "summary": "Practica aplicada para resolver una situacion de catalogacion de datos, glosario, linaje basico, propietarios y confianza en informacion con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Practica profesional",
-      "immediateGoal": "Transformar el caso en una ficha de catalogo de datos sin exponer datos sensibles y con una decision verificable.",
-      "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una ficha de catalogo de datos.",
-        "Revisar el resultado contra este criterio: otra persona puede encontrar, entender y usar el dato sin adivinar su significado.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
-      ],
-      "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "nombre del activo, descripcion, propietario, fuente, uso permitido, calidad y actualizacion",
-        "Decision final y motivo"
-      ],
-      "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
-      ],
-      "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
-        "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
-      ],
-      "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
-        "options": [
-          {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
-            "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
-          },
-          {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
-            "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
-          },
-          {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
-            "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
-          }
-        ]
-      }
-    },
-    {
-      "id": "plain_language_card",
-      "title": "Proyecto final integrador: Catalogo de Datos y Alation",
-      "summary": "Practica aplicada para resolver una situacion de catalogacion de datos, glosario, linaje basico, propietarios y confianza en informacion con pasos claros, evidencia y criterio de cierre.",
-      "severity": "Proyecto final",
-      "immediateGoal": "Transformar el caso en una ficha de catalogo de datos sin exponer datos sensibles y con una decision verificable.",
-      "steps": [
-        "Definir el objetivo del caso y el publico afectado.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el concepto para construir una ficha de catalogo de datos.",
-        "Revisar el resultado contra este criterio: otra persona puede encontrar, entender y usar el dato sin adivinar su significado.",
-        "Anotar riesgos, dudas y decisiones que requieren validacion externa.",
-        "Preparar una version final breve, usable y documentada."
-      ],
-      "evidenceToPreserve": [
-        "Consigna del caso",
-        "Version inicial",
-        "Version revisada",
-        "nombre del activo, descripcion, propietario, fuente, uso permitido, calidad y actualizacion",
-        "Decision final y motivo"
-      ],
-      "errorsToAvoid": [
-        "Usar datos sensibles o privados en una practica.",
-        "Publicar o aplicar sin revisar.",
-        "Confundir ejemplo educativo con recomendacion profesional definitiva.",
-        "No dejar evidencia del proceso.",
-        "Medir exito solo por intuicion."
-      ],
-      "aftercare": [
-        "Comparar el resultado con una fuente confiable o una persona competente.",
-        "Guardar una plantilla reutilizable.",
-        "Registrar que funciono y que debe mejorar.",
-        "Definir el siguiente caso de practica."
-      ],
-      "guidedDecision": {
-        "question": "Que decision muestra un uso profesional del caso?",
-        "options": [
-          {
-            "text": "Aplicar una version pequena, revisarla con evidencia y documentar el aprendizaje.",
-            "isCorrect": true,
-            "feedback": "Correcto: reduce riesgo y permite mejorar sin improvisar."
-          },
-          {
-            "text": "Publicar o usar el resultado apenas queda terminado.",
-            "isCorrect": false,
-            "feedback": "Antes de usarlo hay que revisar calidad, limites y datos sensibles."
-          },
-          {
-            "text": "Agregar datos reales para que el ejercicio parezca mas completo.",
-            "isCorrect": false,
-            "feedback": "En practicas publicas o educativas se debe evitar exponer datos sensibles."
+            "feedback": "Falta verificacion y producto final."
           }
         ]
       }

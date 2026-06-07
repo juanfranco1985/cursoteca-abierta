@@ -15,3 +15,7 @@ Este curso fue marcado como curso bandera el 2026-05-27. Se reforzaron lecciones
 Enfoque: preparacion y seguimiento de tramites digitales en organismos, turnos y portales.
 
 Entregable sugerido: una ficha de tramite con requisitos, pasos, comprobantes y calendario de seguimiento.
+
+## Reescritura curso completo v1
+
+Actualizado el 2026-06-07 con teoria ampliada, objetivos, modulos, caso integrador, actividades, evaluacion, glosario, producto final y fuentes recomendadas.

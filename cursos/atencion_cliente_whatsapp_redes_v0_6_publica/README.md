@@ -15,3 +15,7 @@ Este curso fue marcado como curso bandera el 2026-05-28. Se reforzaron lecciones
 Enfoque: atencion digital de consultas, reclamos, ventas y seguimiento por canales conversacionales.
 
 Entregable sugerido: un flujo de atencion con plantillas, etiquetas, tiempos y criterios de escalamiento.
+
+## Reescritura curso completo v1
+
+Actualizado el 2026-06-07 con teoria ampliada, objetivos, modulos, caso integrador, actividades, evaluacion, glosario, producto final y fuentes recomendadas.

@@ -1,441 +1,160 @@
 {
   "incidents": [
     {
-      "id": "pydatos-case-1",
-      "title": "CSV con columnas raras",
-      "summary": "Los nombres tienen espacios y acentos mezclados.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Normalizar columnas.",
+      "id": "python_datos_desde_cero-case-1",
+      "title": "Caso practico integrador",
+      "summary": "Aplicar Python para Datos desde Cero a un caso realista.",
+      "severity": "Practica integradora",
+      "immediateGoal": "Aplicar la teoria completa del curso a una situacion realista.",
       "steps": [
-        "Describir el problema inicial: columnas dificiles de usar.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: renombrar con criterio y documentar.",
-        "Guardar evidencia: diccionario antes/despues.",
-        "Validar el resultado contra una prueba pequena y una persona o fuente confiable si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
+        "Describir el contexto del caso.",
+        "Identificar conceptos teoricos necesarios.",
+        "Aplicar el criterio del curso paso a paso.",
+        "Registrar evidencia y limite de la decision.",
+        "Contrastar con fuentes recomendadas.",
+        "Cerrar con producto final, duda pendiente y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Consigna o caso de partida",
-        "diccionario antes/despues",
-        "Version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Duda o riesgo pendiente"
+        "Descripcion del caso",
+        "Conceptos usados",
+        "Fuente consultada",
+        "Decision o produccion final",
+        "Riesgo, limite o duda pendiente"
       ],
       "errorsToAvoid": [
-        "Cambiar nombres sin guardar equivalencia.",
-        "Usar datos sensibles en practicas educativas.",
-        "Publicar sin revisar estados de error.",
-        "Copiar resultados sin entender supuestos.",
-        "Medir exito solo por apariencia."
+        "Resolver por intuicion sin explicar criterio.",
+        "Copiar una fuente sin sintetizar.",
+        "Usar datos sensibles reales en la practica.",
+        "Cerrar el curso sin producto verificable."
       ],
       "aftercare": [
-        "Crear regla de nombres.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir el siguiente caso de practica."
+        "Aplicar Python para Datos desde Cero a un caso realista.",
+        "Guardar la entrega final.",
+        "Revisar el checklist antes de marcar el curso como completo."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra mejor criterio profesional?",
+        "question": "Que decision muestra mejor criterio de curso completo?",
         "options": [
           {
-            "text": "Probar en pequeno, guardar evidencia, revisar limites y recien despues aplicar o publicar.",
+            "text": "Conectar teoria, caso, fuente, limite y producto verificable.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce errores y deja aprendizaje transferible."
+            "feedback": "Correcto: esa es la diferencia entre ficha introductoria y curso completo."
           },
           {
-            "text": "Usar el primer resultado porque parece correcto.",
+            "text": "Repetir una definicion sin aplicarla.",
             "isCorrect": false,
-            "feedback": "La apariencia no alcanza sin prueba ni criterio de cierre."
+            "feedback": "La definicion aislada no alcanza."
           },
           {
-            "text": "Agregar datos reales para que la practica sea mas completa.",
+            "text": "Cerrar sin evidencia ni fuente.",
             "isCorrect": false,
-            "feedback": "Las practicas deben usar datos simulados o anonimizados."
+            "feedback": "Falta verificacion y producto final."
           }
         ]
       }
     },
     {
-      "id": "pydatos-case-2",
-      "title": "Fechas como texto",
-      "summary": "Los filtros por mes no funcionan.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Convertir fecha y validar.",
+      "id": "python_datos_desde_cero-case-2",
+      "title": "Evaluacion final",
+      "summary": "Responder preguntas conceptuales y producir una entrega practica.",
+      "severity": "Practica integradora",
+      "immediateGoal": "Comprobar comprension conceptual y produccion practica.",
       "steps": [
-        "Describir el problema inicial: tipo incorrecto.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: parsear fechas y revisar errores.",
-        "Guardar evidencia: conteo de fechas invalidas.",
-        "Validar el resultado contra una prueba pequena y una persona o fuente confiable si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
+        "Describir el contexto del caso.",
+        "Identificar conceptos teoricos necesarios.",
+        "Aplicar el criterio del curso paso a paso.",
+        "Registrar evidencia y limite de la decision.",
+        "Contrastar con fuentes recomendadas.",
+        "Cerrar con producto final, duda pendiente y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Consigna o caso de partida",
-        "conteo de fechas invalidas",
-        "Version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Duda o riesgo pendiente"
+        "Descripcion del caso",
+        "Conceptos usados",
+        "Fuente consultada",
+        "Decision o produccion final",
+        "Riesgo, limite o duda pendiente"
       ],
       "errorsToAvoid": [
-        "Ordenar texto como si fuera fecha.",
-        "Usar datos sensibles en practicas educativas.",
-        "Publicar sin revisar estados de error.",
-        "Copiar resultados sin entender supuestos.",
-        "Medir exito solo por apariencia."
+        "Resolver por intuicion sin explicar criterio.",
+        "Copiar una fuente sin sintetizar.",
+        "Usar datos sensibles reales en la practica.",
+        "Cerrar el curso sin producto verificable."
       ],
       "aftercare": [
-        "Agregar prueba de tipo.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir el siguiente caso de practica."
+        "Responder preguntas conceptuales y producir una entrega practica.",
+        "Guardar la entrega final.",
+        "Revisar el checklist antes de marcar el curso como completo."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra mejor criterio profesional?",
+        "question": "Que decision muestra mejor criterio de curso completo?",
         "options": [
           {
-            "text": "Probar en pequeno, guardar evidencia, revisar limites y recien despues aplicar o publicar.",
+            "text": "Conectar teoria, caso, fuente, limite y producto verificable.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce errores y deja aprendizaje transferible."
+            "feedback": "Correcto: esa es la diferencia entre ficha introductoria y curso completo."
           },
           {
-            "text": "Usar el primer resultado porque parece correcto.",
+            "text": "Repetir una definicion sin aplicarla.",
             "isCorrect": false,
-            "feedback": "La apariencia no alcanza sin prueba ni criterio de cierre."
+            "feedback": "La definicion aislada no alcanza."
           },
           {
-            "text": "Agregar datos reales para que la practica sea mas completa.",
+            "text": "Cerrar sin evidencia ni fuente.",
             "isCorrect": false,
-            "feedback": "Las practicas deben usar datos simulados o anonimizados."
+            "feedback": "Falta verificacion y producto final."
           }
         ]
       }
     },
     {
-      "id": "pydatos-case-3",
-      "title": "Duplicados inflan ventas",
-      "summary": "El total se duplica por registros repetidos.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Detectar y tratar duplicados.",
+      "id": "python_datos_desde_cero-case-3",
+      "title": "Producto final del curso",
+      "summary": "Al finalizar, el estudiante debe crear un Mini Análisis de Datos con Python. Ese producto debe permitir: - cargar una base; - explorar datos; - limpiar errores básicos; - calcular métricas; - agrupar información; - crear gráficos; - exportar resultados; - documentar pasos; - comunicar hallazgos; - dejar un análisis reproducible. El curso termina cuando la persona deja de ver Python como código abstracto y empieza a usarlo como herramienta práctica para responder preguntas con datos.",
+      "severity": "Practica integradora",
+      "immediateGoal": "Cerrar el curso con una evidencia concreta de aprendizaje.",
       "steps": [
-        "Describir el problema inicial: filas iguales o claves repetidas.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: identificar clave y decidir conservar/eliminar.",
-        "Guardar evidencia: cantidad de duplicados.",
-        "Validar el resultado contra una prueba pequena y una persona o fuente confiable si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
+        "Describir el contexto del caso.",
+        "Identificar conceptos teoricos necesarios.",
+        "Aplicar el criterio del curso paso a paso.",
+        "Registrar evidencia y limite de la decision.",
+        "Contrastar con fuentes recomendadas.",
+        "Cerrar con producto final, duda pendiente y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Consigna o caso de partida",
-        "cantidad de duplicados",
-        "Version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Duda o riesgo pendiente"
+        "Descripcion del caso",
+        "Conceptos usados",
+        "Fuente consultada",
+        "Decision o produccion final",
+        "Riesgo, limite o duda pendiente"
       ],
       "errorsToAvoid": [
-        "Borrar duplicados sin criterio.",
-        "Usar datos sensibles en practicas educativas.",
-        "Publicar sin revisar estados de error.",
-        "Copiar resultados sin entender supuestos.",
-        "Medir exito solo por apariencia."
+        "Resolver por intuicion sin explicar criterio.",
+        "Copiar una fuente sin sintetizar.",
+        "Usar datos sensibles reales en la practica.",
+        "Cerrar el curso sin producto verificable."
       ],
       "aftercare": [
-        "Documentar regla.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir el siguiente caso de practica."
+        "Al finalizar, el estudiante debe crear un Mini Análisis de Datos con Python.\n\nEse producto debe permitir:\n\n- cargar una base;\n- explorar datos;\n- limpiar errores básicos;\n- calcular métricas;\n- agrupar información;\n- crear gráficos;\n- exportar resultados;\n- documentar pasos;\n- comunicar hallazgos;\n- dejar un análisis reproducible.\n\nEl curso termina cuando la persona deja de ver Python como código abstracto y empieza a usarlo como herramienta práctica para responder preguntas con datos.",
+        "Guardar la entrega final.",
+        "Revisar el checklist antes de marcar el curso como completo."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra mejor criterio profesional?",
+        "question": "Que decision muestra mejor criterio de curso completo?",
         "options": [
           {
-            "text": "Probar en pequeno, guardar evidencia, revisar limites y recien despues aplicar o publicar.",
+            "text": "Conectar teoria, caso, fuente, limite y producto verificable.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce errores y deja aprendizaje transferible."
+            "feedback": "Correcto: esa es la diferencia entre ficha introductoria y curso completo."
           },
           {
-            "text": "Usar el primer resultado porque parece correcto.",
+            "text": "Repetir una definicion sin aplicarla.",
             "isCorrect": false,
-            "feedback": "La apariencia no alcanza sin prueba ni criterio de cierre."
+            "feedback": "La definicion aislada no alcanza."
           },
           {
-            "text": "Agregar datos reales para que la practica sea mas completa.",
+            "text": "Cerrar sin evidencia ni fuente.",
             "isCorrect": false,
-            "feedback": "Las practicas deben usar datos simulados o anonimizados."
-          }
-        ]
-      }
-    },
-    {
-      "id": "pydatos-case-4",
-      "title": "Archivo no abre",
-      "summary": "El script falla por ruta incorrecta.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Hacer rutas claras.",
-      "steps": [
-        "Describir el problema inicial: FileNotFoundError.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: revisar carpeta de trabajo y ruta relativa.",
-        "Guardar evidencia: ruta esperada y real.",
-        "Validar el resultado contra una prueba pequena y una persona o fuente confiable si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
-      ],
-      "evidenceToPreserve": [
-        "Consigna o caso de partida",
-        "ruta esperada y real",
-        "Version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Duda o riesgo pendiente"
-      ],
-      "errorsToAvoid": [
-        "Mover archivos hasta que funcione sin entender.",
-        "Usar datos sensibles en practicas educativas.",
-        "Publicar sin revisar estados de error.",
-        "Copiar resultados sin entender supuestos.",
-        "Medir exito solo por apariencia."
-      ],
-      "aftercare": [
-        "Usar estructura de proyecto.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir el siguiente caso de practica."
-      ],
-      "guidedDecision": {
-        "question": "Que decision muestra mejor criterio profesional?",
-        "options": [
-          {
-            "text": "Probar en pequeno, guardar evidencia, revisar limites y recien despues aplicar o publicar.",
-            "isCorrect": true,
-            "feedback": "Correcto: reduce errores y deja aprendizaje transferible."
-          },
-          {
-            "text": "Usar el primer resultado porque parece correcto.",
-            "isCorrect": false,
-            "feedback": "La apariencia no alcanza sin prueba ni criterio de cierre."
-          },
-          {
-            "text": "Agregar datos reales para que la practica sea mas completa.",
-            "isCorrect": false,
-            "feedback": "Las practicas deben usar datos simulados o anonimizados."
-          }
-        ]
-      }
-    },
-    {
-      "id": "pydatos-case-5",
-      "title": "Promedio enganoso",
-      "summary": "Un valor extremo distorsiona lectura.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Comparar media y mediana.",
-      "steps": [
-        "Describir el problema inicial: outlier.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: calcular resumen y detectar extremos.",
-        "Guardar evidencia: estadisticas y filas extremas.",
-        "Validar el resultado contra una prueba pequena y una persona o fuente confiable si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
-      ],
-      "evidenceToPreserve": [
-        "Consigna o caso de partida",
-        "estadisticas y filas extremas",
-        "Version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Duda o riesgo pendiente"
-      ],
-      "errorsToAvoid": [
-        "Concluir solo con promedio.",
-        "Usar datos sensibles en practicas educativas.",
-        "Publicar sin revisar estados de error.",
-        "Copiar resultados sin entender supuestos.",
-        "Medir exito solo por apariencia."
-      ],
-      "aftercare": [
-        "Agregar chequeo de outliers.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir el siguiente caso de practica."
-      ],
-      "guidedDecision": {
-        "question": "Que decision muestra mejor criterio profesional?",
-        "options": [
-          {
-            "text": "Probar en pequeno, guardar evidencia, revisar limites y recien despues aplicar o publicar.",
-            "isCorrect": true,
-            "feedback": "Correcto: reduce errores y deja aprendizaje transferible."
-          },
-          {
-            "text": "Usar el primer resultado porque parece correcto.",
-            "isCorrect": false,
-            "feedback": "La apariencia no alcanza sin prueba ni criterio de cierre."
-          },
-          {
-            "text": "Agregar datos reales para que la practica sea mas completa.",
-            "isCorrect": false,
-            "feedback": "Las practicas deben usar datos simulados o anonimizados."
-          }
-        ]
-      }
-    },
-    {
-      "id": "pydatos-case-6",
-      "title": "Datos sensibles en notebook",
-      "summary": "El archivo muestra nombres reales.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Anonimizar antes de compartir.",
-      "steps": [
-        "Describir el problema inicial: notebook compartido.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: remover o simular campos sensibles.",
-        "Guardar evidencia: columnas eliminadas.",
-        "Validar el resultado contra una prueba pequena y una persona o fuente confiable si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
-      ],
-      "evidenceToPreserve": [
-        "Consigna o caso de partida",
-        "columnas eliminadas",
-        "Version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Duda o riesgo pendiente"
-      ],
-      "errorsToAvoid": [
-        "Ocultar visualmente sin borrar datos.",
-        "Usar datos sensibles en practicas educativas.",
-        "Publicar sin revisar estados de error.",
-        "Copiar resultados sin entender supuestos.",
-        "Medir exito solo por apariencia."
-      ],
-      "aftercare": [
-        "Crear version publica.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir el siguiente caso de practica."
-      ],
-      "guidedDecision": {
-        "question": "Que decision muestra mejor criterio profesional?",
-        "options": [
-          {
-            "text": "Probar en pequeno, guardar evidencia, revisar limites y recien despues aplicar o publicar.",
-            "isCorrect": true,
-            "feedback": "Correcto: reduce errores y deja aprendizaje transferible."
-          },
-          {
-            "text": "Usar el primer resultado porque parece correcto.",
-            "isCorrect": false,
-            "feedback": "La apariencia no alcanza sin prueba ni criterio de cierre."
-          },
-          {
-            "text": "Agregar datos reales para que la practica sea mas completa.",
-            "isCorrect": false,
-            "feedback": "Las practicas deben usar datos simulados o anonimizados."
-          }
-        ]
-      }
-    },
-    {
-      "id": "pydatos-case-7",
-      "title": "Grafico sin contexto",
-      "summary": "La imagen no dice periodo ni unidad.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Mejorar lectura.",
-      "steps": [
-        "Describir el problema inicial: visualizacion ambigua.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: agregar titulo, ejes y nota.",
-        "Guardar evidencia: grafico antes/despues.",
-        "Validar el resultado contra una prueba pequena y una persona o fuente confiable si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
-      ],
-      "evidenceToPreserve": [
-        "Consigna o caso de partida",
-        "grafico antes/despues",
-        "Version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Duda o riesgo pendiente"
-      ],
-      "errorsToAvoid": [
-        "Cambiar colores solamente.",
-        "Usar datos sensibles en practicas educativas.",
-        "Publicar sin revisar estados de error.",
-        "Copiar resultados sin entender supuestos.",
-        "Medir exito solo por apariencia."
-      ],
-      "aftercare": [
-        "Checklist de graficos.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir el siguiente caso de practica."
-      ],
-      "guidedDecision": {
-        "question": "Que decision muestra mejor criterio profesional?",
-        "options": [
-          {
-            "text": "Probar en pequeno, guardar evidencia, revisar limites y recien despues aplicar o publicar.",
-            "isCorrect": true,
-            "feedback": "Correcto: reduce errores y deja aprendizaje transferible."
-          },
-          {
-            "text": "Usar el primer resultado porque parece correcto.",
-            "isCorrect": false,
-            "feedback": "La apariencia no alcanza sin prueba ni criterio de cierre."
-          },
-          {
-            "text": "Agregar datos reales para que la practica sea mas completa.",
-            "isCorrect": false,
-            "feedback": "Las practicas deben usar datos simulados o anonimizados."
-          }
-        ]
-      }
-    },
-    {
-      "id": "pydatos-case-8",
-      "title": "Notebook no reproducible",
-      "summary": "Corre solo si se ejecutan celdas en orden raro.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Ordenar flujo.",
-      "steps": [
-        "Describir el problema inicial: variables invisibles.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: reiniciar y ejecutar de arriba abajo.",
-        "Guardar evidencia: run limpio.",
-        "Validar el resultado contra una prueba pequena y una persona o fuente confiable si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
-      ],
-      "evidenceToPreserve": [
-        "Consigna o caso de partida",
-        "run limpio",
-        "Version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Duda o riesgo pendiente"
-      ],
-      "errorsToAvoid": [
-        "Mandar notebook sin probar reinicio.",
-        "Usar datos sensibles en practicas educativas.",
-        "Publicar sin revisar estados de error.",
-        "Copiar resultados sin entender supuestos.",
-        "Medir exito solo por apariencia."
-      ],
-      "aftercare": [
-        "Agregar instrucciones de ejecucion.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir el siguiente caso de practica."
-      ],
-      "guidedDecision": {
-        "question": "Que decision muestra mejor criterio profesional?",
-        "options": [
-          {
-            "text": "Probar en pequeno, guardar evidencia, revisar limites y recien despues aplicar o publicar.",
-            "isCorrect": true,
-            "feedback": "Correcto: reduce errores y deja aprendizaje transferible."
-          },
-          {
-            "text": "Usar el primer resultado porque parece correcto.",
-            "isCorrect": false,
-            "feedback": "La apariencia no alcanza sin prueba ni criterio de cierre."
-          },
-          {
-            "text": "Agregar datos reales para que la practica sea mas completa.",
-            "isCorrect": false,
-            "feedback": "Las practicas deben usar datos simulados o anonimizados."
+            "feedback": "Falta verificacion y producto final."
           }
         ]
       }

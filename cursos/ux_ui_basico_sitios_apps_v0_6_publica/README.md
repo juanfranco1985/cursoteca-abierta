@@ -15,3 +15,7 @@ Este curso fue reestructurado el 2026-06-05 como piloto de profundidad teorica. 
 Enfoque: investigacion UX, arquitectura de informacion, heuristicas, UI visual, accesibilidad, formularios, prototipos y pruebas simples.
 
 Entregable sugerido: una auditoria UX/UI con problema observable, fuente usada, criterio de exito, propuesta, contraejemplo y prueba rapida.
+
+## Reescritura curso completo v1
+
+Actualizado el 2026-06-07 con teoria ampliada, objetivos, modulos, caso integrador, actividades, evaluacion, glosario, producto final y fuentes recomendadas.

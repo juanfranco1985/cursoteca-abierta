@@ -1,441 +1,160 @@
 {
   "incidents": [
     {
-      "id": "exanal-case-1",
-      "title": "Tabla dinamica no actualiza",
-      "summary": "Se agregan filas pero el resumen no cambia.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Usar tabla como origen.",
+      "id": "excel_analisis_datos-case-1",
+      "title": "Caso practico integrador",
+      "summary": "Aplicar Excel para Analisis de Datos a un caso realista.",
+      "severity": "Practica integradora",
+      "immediateGoal": "Aplicar la teoria completa del curso a una situacion realista.",
       "steps": [
-        "Describir el problema inicial: rango fijo.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: convertir rango en tabla y actualizar origen.",
-        "Guardar evidencia: origen corregido.",
-        "Validar con una muestra, fuente confiable o responsable del dato si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
+        "Describir el contexto del caso.",
+        "Identificar conceptos teoricos necesarios.",
+        "Aplicar el criterio del curso paso a paso.",
+        "Registrar evidencia y limite de la decision.",
+        "Contrastar con fuentes recomendadas.",
+        "Cerrar con producto final, duda pendiente y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Fuente o archivo de partida",
-        "origen corregido",
-        "Version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Duda o riesgo pendiente"
+        "Descripcion del caso",
+        "Conceptos usados",
+        "Fuente consultada",
+        "Decision o produccion final",
+        "Riesgo, limite o duda pendiente"
       ],
       "errorsToAvoid": [
-        "Copiar filas manualmente dentro del resumen.",
-        "Usar datos sensibles en practicas educativas.",
-        "Cambiar resultados manualmente para que cierren.",
-        "Publicar sin explicar filtros, periodo o fuente.",
-        "Confundir correlacion, tendencia o apariencia con causa."
+        "Resolver por intuicion sin explicar criterio.",
+        "Copiar una fuente sin sintetizar.",
+        "Usar datos sensibles reales en la practica.",
+        "Cerrar el curso sin producto verificable."
       ],
       "aftercare": [
-        "Usar tablas en reportes recurrentes.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir siguiente caso de practica."
+        "Aplicar Excel para Analisis de Datos a un caso realista.",
+        "Guardar la entrega final.",
+        "Revisar el checklist antes de marcar el curso como completo."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra mejor criterio profesional con datos?",
+        "question": "Que decision muestra mejor criterio de curso completo?",
         "options": [
           {
-            "text": "Verificar fuente, calidad, definicion y limites antes de comunicar o decidir.",
+            "text": "Conectar teoria, caso, fuente, limite y producto verificable.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce errores y deja trazabilidad."
+            "feedback": "Correcto: esa es la diferencia entre ficha introductoria y curso completo."
           },
           {
-            "text": "Usar el resultado porque el grafico se ve claro.",
+            "text": "Repetir una definicion sin aplicarla.",
             "isCorrect": false,
-            "feedback": "La claridad visual no prueba calidad ni contexto."
+            "feedback": "La definicion aislada no alcanza."
           },
           {
-            "text": "Ocultar dudas para que el informe parezca mas firme.",
+            "text": "Cerrar sin evidencia ni fuente.",
             "isCorrect": false,
-            "feedback": "Los limites bien escritos aumentan confianza responsable."
+            "feedback": "Falta verificacion y producto final."
           }
         ]
       }
     },
     {
-      "id": "exanal-case-2",
-      "title": "Fechas importadas como texto",
-      "summary": "Los meses no agrupan correctamente.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Convertir y validar fechas.",
+      "id": "excel_analisis_datos-case-2",
+      "title": "Evaluacion final",
+      "summary": "Responder preguntas conceptuales y producir una entrega practica.",
+      "severity": "Practica integradora",
+      "immediateGoal": "Comprobar comprension conceptual y produccion practica.",
       "steps": [
-        "Describir el problema inicial: tipo incorrecto.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: identificar formato y convertir con control.",
-        "Guardar evidencia: conteo de fechas validas.",
-        "Validar con una muestra, fuente confiable o responsable del dato si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
+        "Describir el contexto del caso.",
+        "Identificar conceptos teoricos necesarios.",
+        "Aplicar el criterio del curso paso a paso.",
+        "Registrar evidencia y limite de la decision.",
+        "Contrastar con fuentes recomendadas.",
+        "Cerrar con producto final, duda pendiente y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Fuente o archivo de partida",
-        "conteo de fechas validas",
-        "Version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Duda o riesgo pendiente"
+        "Descripcion del caso",
+        "Conceptos usados",
+        "Fuente consultada",
+        "Decision o produccion final",
+        "Riesgo, limite o duda pendiente"
       ],
       "errorsToAvoid": [
-        "Cambiar formato visual sin convertir.",
-        "Usar datos sensibles en practicas educativas.",
-        "Cambiar resultados manualmente para que cierren.",
-        "Publicar sin explicar filtros, periodo o fuente.",
-        "Confundir correlacion, tendencia o apariencia con causa."
+        "Resolver por intuicion sin explicar criterio.",
+        "Copiar una fuente sin sintetizar.",
+        "Usar datos sensibles reales en la practica.",
+        "Cerrar el curso sin producto verificable."
       ],
       "aftercare": [
-        "Crear control de importacion.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir siguiente caso de practica."
+        "Responder preguntas conceptuales y producir una entrega practica.",
+        "Guardar la entrega final.",
+        "Revisar el checklist antes de marcar el curso como completo."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra mejor criterio profesional con datos?",
+        "question": "Que decision muestra mejor criterio de curso completo?",
         "options": [
           {
-            "text": "Verificar fuente, calidad, definicion y limites antes de comunicar o decidir.",
+            "text": "Conectar teoria, caso, fuente, limite y producto verificable.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce errores y deja trazabilidad."
+            "feedback": "Correcto: esa es la diferencia entre ficha introductoria y curso completo."
           },
           {
-            "text": "Usar el resultado porque el grafico se ve claro.",
+            "text": "Repetir una definicion sin aplicarla.",
             "isCorrect": false,
-            "feedback": "La claridad visual no prueba calidad ni contexto."
+            "feedback": "La definicion aislada no alcanza."
           },
           {
-            "text": "Ocultar dudas para que el informe parezca mas firme.",
+            "text": "Cerrar sin evidencia ni fuente.",
             "isCorrect": false,
-            "feedback": "Los limites bien escritos aumentan confianza responsable."
+            "feedback": "Falta verificacion y producto final."
           }
         ]
       }
     },
     {
-      "id": "exanal-case-3",
-      "title": "Formula arrastrada rompe referencias",
-      "summary": "Un indicador cambia porque una celda fija se movio.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Auditar referencias.",
+      "id": "excel_analisis_datos-case-3",
+      "title": "Producto final del curso",
+      "summary": "Al finalizar, el estudiante debe crear un Dashboard Analítico Básico en Excel. Ese producto debe permitir: - trabajar con datos estructurados; - revisar calidad; - limpiar información; - cruzar tablas; - calcular indicadores; - resumir con tablas dinámicas; - filtrar con segmentadores; - visualizar resultados; - interpretar hallazgos; - recomendar acciones. El curso termina cuando la persona deja de usar Excel solo como planilla de carga y empieza a usarlo como herramienta de análisis y comunicación de datos.",
+      "severity": "Practica integradora",
+      "immediateGoal": "Cerrar el curso con una evidencia concreta de aprendizaje.",
       "steps": [
-        "Describir el problema inicial: referencia relativa incorrecta.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: separar referencias relativas y absolutas.",
-        "Guardar evidencia: formula antes/despues.",
-        "Validar con una muestra, fuente confiable o responsable del dato si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
+        "Describir el contexto del caso.",
+        "Identificar conceptos teoricos necesarios.",
+        "Aplicar el criterio del curso paso a paso.",
+        "Registrar evidencia y limite de la decision.",
+        "Contrastar con fuentes recomendadas.",
+        "Cerrar con producto final, duda pendiente y proxima mejora."
       ],
       "evidenceToPreserve": [
-        "Fuente o archivo de partida",
-        "formula antes/despues",
-        "Version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Duda o riesgo pendiente"
+        "Descripcion del caso",
+        "Conceptos usados",
+        "Fuente consultada",
+        "Decision o produccion final",
+        "Riesgo, limite o duda pendiente"
       ],
       "errorsToAvoid": [
-        "Editar resultado final.",
-        "Usar datos sensibles en practicas educativas.",
-        "Cambiar resultados manualmente para que cierren.",
-        "Publicar sin explicar filtros, periodo o fuente.",
-        "Confundir correlacion, tendencia o apariencia con causa."
+        "Resolver por intuicion sin explicar criterio.",
+        "Copiar una fuente sin sintetizar.",
+        "Usar datos sensibles reales en la practica.",
+        "Cerrar el curso sin producto verificable."
       ],
       "aftercare": [
-        "Probar formulas antes de copiar.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir siguiente caso de practica."
+        "Al finalizar, el estudiante debe crear un Dashboard Analítico Básico en Excel.\n\nEse producto debe permitir:\n\n- trabajar con datos estructurados;\n- revisar calidad;\n- limpiar información;\n- cruzar tablas;\n- calcular indicadores;\n- resumir con tablas dinámicas;\n- filtrar con segmentadores;\n- visualizar resultados;\n- interpretar hallazgos;\n- recomendar acciones.\n\nEl curso termina cuando la persona deja de usar Excel solo como planilla de carga y empieza a usarlo como herramienta de análisis y comunicación de datos.",
+        "Guardar la entrega final.",
+        "Revisar el checklist antes de marcar el curso como completo."
       ],
       "guidedDecision": {
-        "question": "Que decision muestra mejor criterio profesional con datos?",
+        "question": "Que decision muestra mejor criterio de curso completo?",
         "options": [
           {
-            "text": "Verificar fuente, calidad, definicion y limites antes de comunicar o decidir.",
+            "text": "Conectar teoria, caso, fuente, limite y producto verificable.",
             "isCorrect": true,
-            "feedback": "Correcto: reduce errores y deja trazabilidad."
+            "feedback": "Correcto: esa es la diferencia entre ficha introductoria y curso completo."
           },
           {
-            "text": "Usar el resultado porque el grafico se ve claro.",
+            "text": "Repetir una definicion sin aplicarla.",
             "isCorrect": false,
-            "feedback": "La claridad visual no prueba calidad ni contexto."
+            "feedback": "La definicion aislada no alcanza."
           },
           {
-            "text": "Ocultar dudas para que el informe parezca mas firme.",
+            "text": "Cerrar sin evidencia ni fuente.",
             "isCorrect": false,
-            "feedback": "Los limites bien escritos aumentan confianza responsable."
-          }
-        ]
-      }
-    },
-    {
-      "id": "exanal-case-4",
-      "title": "Duplicados inflan indicadores",
-      "summary": "La venta aparece dos veces en el reporte.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Detectar duplicados.",
-      "steps": [
-        "Describir el problema inicial: clave repetida.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: usar conteo, formato condicional y criterio de resolucion.",
-        "Guardar evidencia: lista de duplicados.",
-        "Validar con una muestra, fuente confiable o responsable del dato si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
-      ],
-      "evidenceToPreserve": [
-        "Fuente o archivo de partida",
-        "lista de duplicados",
-        "Version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Duda o riesgo pendiente"
-      ],
-      "errorsToAvoid": [
-        "Eliminar todo repetido sin revisar.",
-        "Usar datos sensibles en practicas educativas.",
-        "Cambiar resultados manualmente para que cierren.",
-        "Publicar sin explicar filtros, periodo o fuente.",
-        "Confundir correlacion, tendencia o apariencia con causa."
-      ],
-      "aftercare": [
-        "Validar clave unica.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir siguiente caso de practica."
-      ],
-      "guidedDecision": {
-        "question": "Que decision muestra mejor criterio profesional con datos?",
-        "options": [
-          {
-            "text": "Verificar fuente, calidad, definicion y limites antes de comunicar o decidir.",
-            "isCorrect": true,
-            "feedback": "Correcto: reduce errores y deja trazabilidad."
-          },
-          {
-            "text": "Usar el resultado porque el grafico se ve claro.",
-            "isCorrect": false,
-            "feedback": "La claridad visual no prueba calidad ni contexto."
-          },
-          {
-            "text": "Ocultar dudas para que el informe parezca mas firme.",
-            "isCorrect": false,
-            "feedback": "Los limites bien escritos aumentan confianza responsable."
-          }
-        ]
-      }
-    },
-    {
-      "id": "exanal-case-5",
-      "title": "Grafico sin pregunta",
-      "summary": "El reporte muestra varias visualizaciones pero no decide nada.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Reformular visuales.",
-      "steps": [
-        "Describir el problema inicial: dashboard decorativo.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: asociar cada grafico a una pregunta.",
-        "Guardar evidencia: mapa pregunta-grafico.",
-        "Validar con una muestra, fuente confiable o responsable del dato si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
-      ],
-      "evidenceToPreserve": [
-        "Fuente o archivo de partida",
-        "mapa pregunta-grafico",
-        "Version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Duda o riesgo pendiente"
-      ],
-      "errorsToAvoid": [
-        "Agregar mas colores.",
-        "Usar datos sensibles en practicas educativas.",
-        "Cambiar resultados manualmente para que cierren.",
-        "Publicar sin explicar filtros, periodo o fuente.",
-        "Confundir correlacion, tendencia o apariencia con causa."
-      ],
-      "aftercare": [
-        "Checklist de visualizacion.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir siguiente caso de practica."
-      ],
-      "guidedDecision": {
-        "question": "Que decision muestra mejor criterio profesional con datos?",
-        "options": [
-          {
-            "text": "Verificar fuente, calidad, definicion y limites antes de comunicar o decidir.",
-            "isCorrect": true,
-            "feedback": "Correcto: reduce errores y deja trazabilidad."
-          },
-          {
-            "text": "Usar el resultado porque el grafico se ve claro.",
-            "isCorrect": false,
-            "feedback": "La claridad visual no prueba calidad ni contexto."
-          },
-          {
-            "text": "Ocultar dudas para que el informe parezca mas firme.",
-            "isCorrect": false,
-            "feedback": "Los limites bien escritos aumentan confianza responsable."
-          }
-        ]
-      }
-    },
-    {
-      "id": "exanal-case-6",
-      "title": "Filtro oculto cambia resultado",
-      "summary": "Una tabla esta filtrada y nadie lo nota.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Mostrar contexto.",
-      "steps": [
-        "Describir el problema inicial: resultado inesperado.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: revisar filtros activos y agregar nota.",
-        "Guardar evidencia: captura con filtros.",
-        "Validar con una muestra, fuente confiable o responsable del dato si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
-      ],
-      "evidenceToPreserve": [
-        "Fuente o archivo de partida",
-        "captura con filtros",
-        "Version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Duda o riesgo pendiente"
-      ],
-      "errorsToAvoid": [
-        "Copiar tabla filtrada como total.",
-        "Usar datos sensibles en practicas educativas.",
-        "Cambiar resultados manualmente para que cierren.",
-        "Publicar sin explicar filtros, periodo o fuente.",
-        "Confundir correlacion, tendencia o apariencia con causa."
-      ],
-      "aftercare": [
-        "Agregar tarjeta de filtros.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir siguiente caso de practica."
-      ],
-      "guidedDecision": {
-        "question": "Que decision muestra mejor criterio profesional con datos?",
-        "options": [
-          {
-            "text": "Verificar fuente, calidad, definicion y limites antes de comunicar o decidir.",
-            "isCorrect": true,
-            "feedback": "Correcto: reduce errores y deja trazabilidad."
-          },
-          {
-            "text": "Usar el resultado porque el grafico se ve claro.",
-            "isCorrect": false,
-            "feedback": "La claridad visual no prueba calidad ni contexto."
-          },
-          {
-            "text": "Ocultar dudas para que el informe parezca mas firme.",
-            "isCorrect": false,
-            "feedback": "Los limites bien escritos aumentan confianza responsable."
-          }
-        ]
-      }
-    },
-    {
-      "id": "exanal-case-7",
-      "title": "Archivo pesado y lento",
-      "summary": "El Excel tarda mucho en abrir.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Limpiar estructura.",
-      "steps": [
-        "Describir el problema inicial: formulas y formatos excesivos.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: revisar rangos usados, formatos y hojas ocultas.",
-        "Guardar evidencia: archivo optimizado.",
-        "Validar con una muestra, fuente confiable o responsable del dato si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
-      ],
-      "evidenceToPreserve": [
-        "Fuente o archivo de partida",
-        "archivo optimizado",
-        "Version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Duda o riesgo pendiente"
-      ],
-      "errorsToAvoid": [
-        "Seguir duplicando hojas.",
-        "Usar datos sensibles en practicas educativas.",
-        "Cambiar resultados manualmente para que cierren.",
-        "Publicar sin explicar filtros, periodo o fuente.",
-        "Confundir correlacion, tendencia o apariencia con causa."
-      ],
-      "aftercare": [
-        "Crear version historica separada.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir siguiente caso de practica."
-      ],
-      "guidedDecision": {
-        "question": "Que decision muestra mejor criterio profesional con datos?",
-        "options": [
-          {
-            "text": "Verificar fuente, calidad, definicion y limites antes de comunicar o decidir.",
-            "isCorrect": true,
-            "feedback": "Correcto: reduce errores y deja trazabilidad."
-          },
-          {
-            "text": "Usar el resultado porque el grafico se ve claro.",
-            "isCorrect": false,
-            "feedback": "La claridad visual no prueba calidad ni contexto."
-          },
-          {
-            "text": "Ocultar dudas para que el informe parezca mas firme.",
-            "isCorrect": false,
-            "feedback": "Los limites bien escritos aumentan confianza responsable."
-          }
-        ]
-      }
-    },
-    {
-      "id": "exanal-case-8",
-      "title": "Reporte mensual no reproducible",
-      "summary": "Cada mes se arma de forma distinta.",
-      "severity": "Practica guiada",
-      "immediateGoal": "Documentar proceso.",
-      "steps": [
-        "Describir el problema inicial: pasos manuales dispersos.",
-        "Separar datos reales, datos simulados y datos que no deben compartirse.",
-        "Aplicar el criterio del curso: escribir secuencia de importacion, limpieza y actualizacion.",
-        "Guardar evidencia: README interno.",
-        "Validar con una muestra, fuente confiable o responsable del dato si corresponde.",
-        "Cerrar con decision, limite detectado y proxima mejora."
-      ],
-      "evidenceToPreserve": [
-        "Fuente o archivo de partida",
-        "README interno",
-        "Version inicial y version corregida",
-        "Decision tomada y motivo",
-        "Duda o riesgo pendiente"
-      ],
-      "errorsToAvoid": [
-        "Depender de memoria.",
-        "Usar datos sensibles en practicas educativas.",
-        "Cambiar resultados manualmente para que cierren.",
-        "Publicar sin explicar filtros, periodo o fuente.",
-        "Confundir correlacion, tendencia o apariencia con causa."
-      ],
-      "aftercare": [
-        "Usar checklist mensual.",
-        "Guardar una plantilla reutilizable.",
-        "Actualizar el checklist del curso.",
-        "Definir siguiente caso de practica."
-      ],
-      "guidedDecision": {
-        "question": "Que decision muestra mejor criterio profesional con datos?",
-        "options": [
-          {
-            "text": "Verificar fuente, calidad, definicion y limites antes de comunicar o decidir.",
-            "isCorrect": true,
-            "feedback": "Correcto: reduce errores y deja trazabilidad."
-          },
-          {
-            "text": "Usar el resultado porque el grafico se ve claro.",
-            "isCorrect": false,
-            "feedback": "La claridad visual no prueba calidad ni contexto."
-          },
-          {
-            "text": "Ocultar dudas para que el informe parezca mas firme.",
-            "isCorrect": false,
-            "feedback": "Los limites bien escritos aumentan confianza responsable."
+            "feedback": "Falta verificacion y producto final."
           }
         ]
       }

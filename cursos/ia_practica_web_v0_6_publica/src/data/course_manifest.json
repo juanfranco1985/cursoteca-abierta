@@ -1,10 +1,10 @@
 {
   "courseId": "ia-practica-trabajadores-emprendedores",
-  "templateVersion": "0.7-publica-profesional-tanda-3",
+  "templateVersion": "1.0-curso-completo-v1",
   "appName": "IA Practica para Trabajadores y Emprendedores",
   "shortName": "IA Practica",
-  "subtitle": "Prompts, privacidad, verificacion, automatizacion liviana y uso responsable.",
-  "description": "Curso practico para usar IA en tareas reales de trabajo sin exponer datos sensibles ni delegar decisiones criticas.",
+  "subtitle": "La inteligencia artificial generativa se volvió una herramienta concreta para trabajar, estudiar, vender, organizar información, crear contenido, analizar textos, atender clientes, preparar documentos y mejorar procesos.  Sin embargo, muchas personas la usan de manera superficial: hacen una pregunta aislada, copian una respuesta y no construyen un método.",
+  "description": "La inteligencia artificial generativa se volvió una herramienta concreta para trabajar, estudiar, vender, organizar información, crear contenido, analizar textos, atender clientes, preparar documentos y mejorar procesos.  Sin embargo, muchas personas la usan de manera superficial: hacen una pregunta aislada, copian una respuesta y no construyen un método.",
   "audience": "Trabajadores, emprendedores, docentes y equipos chicos que quieren usar IA con criterio operativo.",
   "dataPaths": {
     "course": "src/data/course_content.json",
@@ -75,7 +75,7 @@
     "primary": "#d6a85c",
     "background": "#21130b"
   },
-  "responsibleNotice": "Contenido educativo introductorio. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. Si la decision afecta dinero, seguridad, datos personales, salud, trabajo o derechos, valida con fuentes oficiales o una persona competente antes de actuar.",
+  "responsibleNotice": "Contenido educativo. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. En temas de seguridad, datos personales, dinero, comercios, tramites o derechos, valida decisiones criticas con fuentes oficiales o una persona competente.",
   "cloneNotes": [
     "Versión pública liviana preparada para prueba en navegador.",
     "El paquete conserva el curso, biblioteca de prompts, laboratorio, constructor, constancia, accesibilidad y privacidad.",
@@ -117,7 +117,7 @@
     "startUrl": "./",
     "display": "standalone",
     "scope": "./",
-    "cacheName": "ia-practica-web-v0-6-publica-v0-6-publica-profesional",
+    "cacheName": "ia_practica_web_v0_6_publica-cache-v1-curso-completo",
     "publishTargets": [
       "GitHub Pages",
       "Netlify",
@@ -126,7 +126,7 @@
     ],
     "offlineNotice": "La app puede abrir la última versión cacheada después de una primera carga correcta con servidor web.",
     "templatePublishReadiness": "v0.6 pública liviana: lista para prueba externa, demo web o integración en portal.",
-    "publicationStatus": "publica-profesional-v0.6",
+    "publicationStatus": "publica-curso-completo-v1",
     "recommendedPublicPaths": [
       "/",
       "/#/modules",
@@ -262,12 +262,13 @@
     "sourceZip": "ia_practica_web_v0_6_publica.zip"
   },
   "professionalization": {
-    "tier": "curso-bandera-v1.0-beta",
-    "updatedAt": "2026-05-28",
+    "tier": "curso-completo-v1",
+    "updatedAt": "2026-06-07",
+    "sourcePackage": "cursos_06_50_reescritos_v1",
     "improvements": [
-      "Lecciones con teoria, ejemplo, error comun y ejercicio mas profundos.",
-      "Checklists orientados a evidencia y entregables.",
-      "Casos guiados con pasos, errores y decision responsable."
+      "Reescritura teorica extensa en formato de curso completo.",
+      "Objetivos, modulos teoricos, caso integrador, actividades, evaluacion, glosario y producto final.",
+      "Lecciones con bloques teoricos, contraejemplos y fuentes recomendadas."
     ]
   },
   "editorialPolish": {
@@ -284,5 +285,16 @@
     "checklists": 6,
     "cases": 8,
     "notes": "Contenido reemplazado para reducir patrones genericos en cursos de alta visibilidad."
+  },
+  "version": "1.0-curso-completo-v1",
+  "publicationStatus": "publica-curso-completo-v1",
+  "contentDepthAudit": {
+    "status": "curso-completo-v1",
+    "updatedAt": "2026-06-07",
+    "modules": 14,
+    "lessons": 58,
+    "questions": 42,
+    "checklists": 6,
+    "cases": 3
   }
 }

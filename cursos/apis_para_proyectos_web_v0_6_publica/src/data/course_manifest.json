@@ -1,10 +1,10 @@
 {
   "courseId": "apis-para-proyectos-web",
-  "templateVersion": "0.6-publica-profesional",
+  "templateVersion": "1.0-curso-completo-v1",
   "appName": "APIs para Proyectos Web",
   "shortName": "APIs Web",
-  "subtitle": "Curso practico para usar APIs, entender JSON, manejar errores y publicar proyectos web con datos externos.",
-  "description": "Integra APIs en proyectos web: fetch, estados de carga, errores, datos simulados, dashboards pequenos y mantenimiento.",
+  "subtitle": "Las APIs son una de las bases del desarrollo web moderno.  Permiten que una página, aplicación o sistema se conecte con servicios externos para obtener datos, enviar información, consultar recursos, automatizar procesos o integrar funcionalidades que no sería práctico construir desde cero.",
+  "description": "Las APIs son una de las bases del desarrollo web moderno.  Permiten que una página, aplicación o sistema se conecte con servicios externos para obtener datos, enviar información, consultar recursos, automatizar procesos o integrar funcionalidades que no sería práctico construir desde cero.",
   "audience": "Principiantes que ya conocen HTML, CSS y JavaScript basico.",
   "category": "Desarrollo web",
   "status": "Publico profesional",
@@ -49,7 +49,7 @@
     "minimumSuggestedQuizAverage": 70,
     "notOfficialNotice": "Esta constancia es educativa, no oficial y no equivale a certificacion academica formal."
   },
-  "responsibleNotice": "Contenido educativo. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. No exponer claves privadas en frontend ni usar APIs sin revisar terminos, cuotas y permisos.",
+  "responsibleNotice": "Contenido educativo. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. En temas de seguridad, datos personales, dinero, comercios, tramites o derechos, valida decisiones criticas con fuentes oficiales o una persona competente.",
   "publication": {
     "version": "0.6-publica-profesional",
     "status": "Publica profesional",
@@ -71,8 +71,8 @@
     ]
   },
   "webApp": {
-    "cacheName": "apis_para_proyectos_web_v0_6_publica-cache-v0-6-publica-profesional",
-    "publicationStatus": "publica-profesional-v0.6"
+    "cacheName": "apis_para_proyectos_web_v0_6_publica-cache-v1-curso-completo",
+    "publicationStatus": "publica-curso-completo-v1"
   },
   "publicEdition": {
     "level": "publica-profesional",
@@ -81,16 +81,28 @@
     "sourceZip": "curso-nuevo"
   },
   "professionalization": {
-    "tier": "curso-bandera-v1.0-beta",
-    "updatedAt": "2026-05-28",
+    "tier": "curso-completo-v1",
+    "updatedAt": "2026-06-07",
+    "sourcePackage": "cursos_06_50_reescritos_v1",
     "improvements": [
-      "Lecciones con teoria, ejemplo, error comun y ejercicio mas profundos.",
-      "Checklists orientados a evidencia y entregables.",
-      "Casos guiados con pasos, errores y decision responsable."
+      "Reescritura teorica extensa en formato de curso completo.",
+      "Objetivos, modulos teoricos, caso integrador, actividades, evaluacion, glosario y producto final.",
+      "Lecciones con bloques teoricos, contraejemplos y fuentes recomendadas."
     ]
   },
   "editorialPolish": {
     "fourthEditorialBatch": "2026-06-02",
     "status": "public-facing-copy-polished"
+  },
+  "version": "1.0-curso-completo-v1",
+  "publicationStatus": "publica-curso-completo-v1",
+  "contentDepthAudit": {
+    "status": "curso-completo-v1",
+    "updatedAt": "2026-06-07",
+    "modules": 20,
+    "lessons": 97,
+    "questions": 60,
+    "checklists": 8,
+    "cases": 3
   }
 }
