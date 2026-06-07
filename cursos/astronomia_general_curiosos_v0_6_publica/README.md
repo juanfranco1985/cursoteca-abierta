@@ -28,3 +28,7 @@ Entregable sugerido: una ficha de observacion con objeto, ubicacion, fuente, exp
 ## Reescritura curso completo v1
 
 Actualizado el 2026-06-05 con teoria ampliada, objetivos, modulos, caso integrador, actividades, evaluacion, glosario, producto final y fuentes recomendadas.
+
+## Reescritura curso completo v2
+
+Actualizado el 2026-06-07 con version extendida, teoria ampliada, objetivos, modulos, caso integrador, actividades, evaluacion, glosario, producto final y fuentes recomendadas.

@@ -4,8 +4,8 @@ Fecha: 2026-05-26
 
 | Curso | Ruta | Estado | Version | ZIP |
 |---|---|---|---|---|
-| Astronomia General para Curiosos | Contenido Plus | Curso completo v1 | v1 curso completo | `zips/astronomia_general_curiosos_v0_6_publica.zip` |
-| Computacion Cuantica para Curiosos | Contenido Plus | Curso completo v1 | v1 curso completo | `zips/computacion_cuantica_curiosos_v0_6_publica.zip` |
+| Astronomia General para Curiosos | Contenido Plus | Curso completo v2 | v2 curso completo | `zips/astronomia_general_curiosos_v0_6_publica.zip` |
+| Computacion Cuantica para Curiosos | Contenido Plus | Curso completo v2 | v2 curso completo | `zips/computacion_cuantica_curiosos_v0_6_publica.zip` |
 | Escudo Comercial Digital Argentina | Plantilla y portal | Curso completo v1 | v1 curso completo | `zips/escudo_comercial_web_v0_6_publica.zip` |
 | Alfabetización Digital para Adultos | Ruta 1 - Ciudadania Digital y Seguridad | Curso completo v1 | v1 curso completo | `zips/alfabetizacion_digital_adultos_web_v0_6_publica.zip` |
 | Android Seguro para Principiantes | Ruta 1 - Ciudadania Digital y Seguridad | Curso completo v1 | v1 curso completo | `zips/android_seguro_principiantes_v0_6_publica.zip` |

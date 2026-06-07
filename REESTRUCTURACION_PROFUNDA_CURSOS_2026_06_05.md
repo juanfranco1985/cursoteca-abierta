@@ -202,3 +202,12 @@ El 2026-06-07 se integraron los 45 cursos reescritos del 06 al 50 que completan 
 - UX/UI Basico para Sitios y Apps: 22 modulos, 98 lecciones, producto final: Prototipo Básico UX/UI.
 
 Estos cursos reemplazan la estructura templada anterior en sus JSON de curso y quedan marcados como `Curso completo v1` en portal e inventario.
+
+## Cursos completos v2 incorporados 01-02
+
+El 2026-06-07 se integraron las versiones extendidas v2 de los cursos 01 y 02 para alinearlos con la profundidad del resto de la coleccion:
+
+- Astronomia General para Curiosos: 24 modulos, 136 lecciones, producto final: Proyecto de Observación o Divulgación Astronómica.
+- Computacion Cuantica para Curiosos: 24 modulos, 122 lecciones, producto final: Explicación Divulgativa de Computación Cuántica.
+
+Estos cursos reemplazan las versiones v1 mas cortas en sus JSON de curso y quedan marcados como `Curso completo v2` en portal e inventario.

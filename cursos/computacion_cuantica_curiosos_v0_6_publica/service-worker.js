@@ -1,4 +1,4 @@
-const CACHE_NAME = "computacion_cuantica_curiosos_v0_6_publica-cache-v2-libro-abierto";
+const CACHE_NAME = "computacion_cuantica_curiosos_v0_6_publica-cache-v2-curso-completo";
 const APP_SHELL = [
   "./",
   "./index.html",
