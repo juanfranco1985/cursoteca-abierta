@@ -9,6 +9,7 @@ Fecha: 2026-06-07
 - `robots.txt` con referencia al sitemap publico.
 - Canonical, description, Open Graph, Twitter Card y datos estructurados basicos en el portal, paginas institucionales y cursos.
 - Titulos y descripciones SEO por curso generados desde los manifests.
+- 50 fichas estaticas SEO en `/curso/<slug>/`, enlazadas desde el portal y el sitemap.
 
 ## Search Console
 

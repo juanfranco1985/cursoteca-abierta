@@ -5,6 +5,7 @@ import { fileURLToPath } from "node:url";
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const portalDir = path.join(root, "portal", "portal_publico_profesional_v0_6");
 const coursesRoot = path.join(root, "cursos");
+const fichasRoot = path.join(root, "curso");
 const baseUrl = "https://juanfranco1985.github.io/cursoteca-abierta";
 const today = "2026-06-07";
 
@@ -90,6 +91,7 @@ function readJson(file) {
 }
 
 function write(file, content) {
+  fs.mkdirSync(path.dirname(file), { recursive: true });
   fs.writeFileSync(file, content.endsWith("\n") ? content : `${content}\n`, "utf8");
 }
 
@@ -115,11 +117,31 @@ function cleanText(value = "") {
     .trim();
 }
 
+function cleanMultiline(value = "") {
+  return fixMojibake(value)
+    .replace(/\r\n/g, "\n")
+    .replace(/[ \t]+\n/g, "\n")
+    .replace(/\n{3,}/g, "\n\n")
+    .trim();
+}
+
 function clampDescription(value, fallback) {
   const text = cleanText(value || fallback);
   if (text.length <= 158) return text;
-  const trimmed = text.slice(0, 155).replace(/\s+\S*$/, "");
+  const slice = text.slice(0, 158);
+  const punctuation = Math.max(slice.lastIndexOf("."), slice.lastIndexOf(";"), slice.lastIndexOf(":"));
+  if (punctuation > 80) return slice.slice(0, punctuation + 1);
+  const trimmed = slice.replace(/\s+\S*$/, "");
   return `${trimmed}.`;
+}
+
+function slugify(value = "") {
+  return cleanText(value)
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "") || "curso";
 }
 
 function initials(name = "") {
@@ -134,6 +156,57 @@ function initials(name = "") {
 
 function scriptJson(data) {
   return JSON.stringify(data, null, 2).replaceAll("</", "<\\/");
+}
+
+function renderList(items = []) {
+  const cleanItems = items.map(item => cleanText(item)).filter(Boolean);
+  if (!cleanItems.length) return "";
+  return `<ul>${cleanItems.map(item => `<li>${html(item)}</li>`).join("")}</ul>`;
+}
+
+function renderRichText(value = "") {
+  const blocks = cleanMultiline(value).split(/\n{2,}/).map(block => block.trim()).filter(Boolean);
+  return blocks.map(block => {
+    const lines = block.split("\n").map(line => line.trim()).filter(Boolean);
+    if (lines.length > 1 && lines.every(line => /^[-*]\s+/.test(line))) {
+      return `<ul>${lines.map(line => `<li>${html(line.replace(/^[-*]\s+/, ""))}</li>`).join("")}</ul>`;
+    }
+    if (lines.length > 1) {
+      return `<p>${lines.map(line => html(line)).join("<br>")}</p>`;
+    }
+    return `<p>${html(block)}</p>`;
+  }).join("\n");
+}
+
+function compactText(value = "", maxWords = 42) {
+  const words = cleanText(value).split(/\s+/).filter(Boolean);
+  if (words.length <= maxWords) return words.join(" ");
+  return `${words.slice(0, maxWords).join(" ")}.`;
+}
+
+function courseStats(course = {}) {
+  const modules = course.modules || [];
+  const lessons = modules.reduce((total, module) => total + (module.lessons || []).length, 0);
+  const questions = modules.reduce((total, module) => total + (module.quiz || module.questions || []).length, 0);
+  return {
+    modules: modules.length,
+    lessons,
+    questions,
+    objectives: (course.objectives || []).length,
+    sources: Object.keys(course.sourceBank || {}).length
+  };
+}
+
+function buildCourseDescription(appName, courseContent = {}, fallback = "") {
+  const stats = courseStats(courseContent);
+  const firstObjective = cleanText((courseContent.objectives || [])[0] || "");
+  const statsText = stats.modules && stats.lessons
+    ? `Incluye ${stats.modules} modulos, ${stats.lessons} lecciones, objetivos, temario y producto final.`
+    : "Incluye objetivos, temario, materiales de estudio y acceso al volumen interactivo.";
+  const base = firstObjective
+    ? `Curso gratis de ${appName}: ${firstObjective} ${statsText}`
+    : `Curso gratis de ${appName}. ${statsText}`;
+  return clampDescription(base, fallback || `Curso gratis de ${appName} en Cursoteca Abierta, con teoria, ejercicios guiados y materiales de estudio autonomo.`);
 }
 
 function siteHead({ title, description, canonical, type = "website", image }) {
@@ -236,14 +309,14 @@ ${sections}
 </html>`;
 }
 
-function courseIndex(manifest, folder, courseData = {}) {
+function courseIndex(manifest, folder, courseData = {}, courseContent = {}) {
   const appName = cleanText(manifest.appName || courseData.title || manifest.shortName || "Curso Cursoteca Abierta");
   const subtitle = cleanText(manifest.subtitle || manifest.description || courseData.description || "Manual de estudio");
   const shortName = cleanText(manifest.shortName || appName);
   const category = cleanText(manifest.category || courseData.category || "Curso abierto");
   const mark = initials(shortName);
   const canonical = `${baseUrl}/cursos/${folder}/`;
-  const description = clampDescription(subtitle, `Curso gratis de ${appName} en Cursoteca Abierta, con teoria, ejercicios guiados y materiales de estudio autonomo.`);
+  const description = buildCourseDescription(appName, courseContent, subtitle);
   const title = `${appName} | Curso gratis`;
   const image = fs.existsSync(path.join(coursesRoot, folder, "icons", "icon-512.png"))
     ? `${baseUrl}/cursos/${folder}/icons/icon-512.png`
@@ -330,6 +403,221 @@ ${siteHead({ title, description, canonical, type: "article", image })}
     <a href="#/certificate">Constancia</a>
   </footer>
   <script src="src/app.js?v=20260605-libro-abierto" defer></script>
+</body>
+</html>`;
+}
+
+function courseFicha({ manifest, folder, courseData = {}, courseContent = {}, slug }) {
+  const appName = cleanText(courseContent.title || manifest.appName || courseData.title || "Curso Cursoteca Abierta");
+  const subtitle = cleanText(manifest.subtitle || manifest.description || courseData.description || "Curso gratuito de Cursoteca Abierta.");
+  const presentation = cleanMultiline(courseContent.presentation || subtitle);
+  const category = cleanText(manifest.category || courseData.category || "Curso abierto");
+  const audience = cleanText(manifest.audience || courseData.audience || "Personas que buscan aprender desde cero.");
+  const version = cleanText(manifest.version || courseContent.version || courseData.version || "Curso abierto");
+  const finalProduct = cleanMultiline(courseContent.finalProduct || "Al finalizar, el estudiante prepara una actividad o producto de aplicacion vinculado al curso.");
+  const description = buildCourseDescription(appName, courseContent, presentation || subtitle);
+  const canonical = `${baseUrl}/curso/${slug}/`;
+  const interactiveUrl = `${baseUrl}/cursos/${folder}/`;
+  const image = fs.existsSync(path.join(coursesRoot, folder, "icons", "icon-512.png"))
+    ? `${baseUrl}/cursos/${folder}/icons/icon-512.png`
+    : `${baseUrl}/auditoria_visual_portal_desktop_v3.png`;
+  const stats = courseStats(courseContent);
+  const modules = (courseContent.modules || []).map((module, index) => {
+    const lessons = (module.lessons || []).slice(0, 4).map(lesson => cleanText(lesson.title)).filter(Boolean);
+    return `
+          <article class="ficha-module">
+            <span>${String(index + 1).padStart(2, "0")}</span>
+            <div>
+              <h3>${html(cleanText(module.title || `Modulo ${index + 1}`))}</h3>
+              <p>${html(compactText(module.description || module.learningRisk || "Modulo del programa de estudio.", 34))}</p>
+              ${lessons.length ? `<small>Lecciones: ${html(lessons.join(" · "))}</small>` : ""}
+            </div>
+          </article>`;
+  }).join("");
+  const sources = Object.values(courseContent.sourceBank || {}).slice(0, 10).map(source => {
+    const title = cleanText(source.title || source.organization || "Fuente recomendada");
+    const org = cleanText(source.organization || "");
+    const url = cleanText(source.url || "");
+    const body = org && org !== title ? `${title} - ${org}` : title;
+    return url && url !== "#"
+      ? `<li><a href="${html(url)}">${html(body)}</a></li>`
+      : `<li>${html(body)}</li>`;
+  }).join("");
+  const glossary = cleanMultiline(courseContent.glossary || "")
+    .split(/\n{2,}/)
+    .map(item => cleanText(item))
+    .filter(Boolean)
+    .slice(0, 8);
+  const ld = {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    name: appName,
+    description,
+    url: canonical,
+    inLanguage: "es-AR",
+    isAccessibleForFree: true,
+    educationalLevel: "Introductorio",
+    about: category,
+    provider: {
+      "@type": "Organization",
+      name: "Cursoteca Abierta",
+      url: `${baseUrl}/`
+    },
+    hasCourseInstance: {
+      "@type": "CourseInstance",
+      courseMode: "online",
+      courseWorkload: stats.lessons ? `PT${Math.max(2, Math.round(stats.lessons * 0.25))}H` : undefined,
+      url: interactiveUrl
+    }
+  };
+  const breadcrumbs = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Cursoteca Abierta",
+        item: `${baseUrl}/`
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Cursos",
+        item: `${baseUrl}/portal/portal_publico_profesional_v0_6/`
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: appName,
+        item: canonical
+      }
+    ]
+  };
+
+  return `<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+${siteHead({ title: `${appName} | Ficha del curso gratis`, description, canonical, type: "article", image })}
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../../portal/portal_publico_profesional_v0_6/styles.css?v=20260608-fichas-seo" />
+  <script type="application/ld+json">${scriptJson(ld)}</script>
+  <script type="application/ld+json">${scriptJson(breadcrumbs)}</script>
+</head>
+<body class="course-ficha-body">
+  <a class="skip-link" href="#main">Saltar al contenido principal</a>
+  <nav class="meson-nav" aria-label="Navegacion principal">
+    <a class="logo-club" href="../../portal/portal_publico_profesional_v0_6/index.html#inicio" aria-label="Cursoteca Abierta">Cursoteca Abierta</a>
+    <div class="controles-meson">
+      <div class="menu-meson" aria-label="Accesos del curso">
+        <a href="../../portal/portal_publico_profesional_v0_6/index.html#inventario">Catalogo</a>
+        <a href="../../cursos/${html(folder)}/index.html">Abrir volumen</a>
+        <a href="../../portal/portal_publico_profesional_v0_6/privacidad.html">Privacidad</a>
+        <a href="../../portal/portal_publico_profesional_v0_6/contacto.html">Contacto</a>
+      </div>
+    </div>
+  </nav>
+
+  <main id="main" class="course-ficha-main">
+    <nav class="ficha-breadcrumb" aria-label="Miga de pan">
+      <a href="../../portal/portal_publico_profesional_v0_6/index.html">Portal</a>
+      <span>/</span>
+      <span>${html(appName)}</span>
+    </nav>
+
+    <header class="ficha-hero">
+      <div>
+        <p class="eyebrow">${html(category)}</p>
+        <h1>${html(appName)}</h1>
+        <p class="ficha-lead">${html(description)}</p>
+        <div class="ficha-actions">
+          <a class="button-link" href="../../cursos/${html(folder)}/index.html">Abrir curso interactivo</a>
+          <a class="secondary-button" href="../../portal/portal_publico_profesional_v0_6/index.html#inventario">Volver al catalogo</a>
+        </div>
+      </div>
+      <aside class="ficha-meta" aria-label="Datos principales del curso">
+        <span><strong>${html(String(stats.modules || "0"))}</strong> modulos</span>
+        <span><strong>${html(String(stats.lessons || "0"))}</strong> lecciones</span>
+        <span><strong>${html(String(stats.objectives || "0"))}</strong> objetivos</span>
+        <span><strong>${html(version)}</strong> version</span>
+      </aside>
+    </header>
+
+    <div class="ficha-layout">
+      <aside class="ficha-toc" aria-label="Indice de la ficha">
+        <a href="#presentacion">Presentacion</a>
+        <a href="#objetivos">Objetivos</a>
+        <a href="#temario">Temario</a>
+        <a href="#producto-final">Producto final</a>
+        <a href="#fuentes">Fuentes</a>
+        <a href="#alcance">Alcance educativo</a>
+      </aside>
+
+      <article class="ficha-content">
+        <section id="presentacion" class="ficha-section">
+          <p class="eyebrow">Ficha estatica</p>
+          <h2>Presentacion del curso</h2>
+          ${renderRichText(presentation)}
+          <div class="ficha-callout">
+            <strong>Publico recomendado</strong>
+            <p>${html(audience)}</p>
+          </div>
+        </section>
+
+        <section id="objetivos" class="ficha-section">
+          <p class="eyebrow">Aprendizajes</p>
+          <h2>Objetivos de aprendizaje</h2>
+          ${renderList(courseContent.objectives || [])}
+        </section>
+
+        <section id="temario" class="ficha-section">
+          <p class="eyebrow">Programa</p>
+          <h2>Temario del curso</h2>
+          <div class="ficha-module-list">${modules}</div>
+        </section>
+
+        <section id="producto-final" class="ficha-section">
+          <p class="eyebrow">Aplicacion</p>
+          <h2>Producto final esperado</h2>
+          ${renderRichText(finalProduct)}
+        </section>
+
+        ${glossary.length ? `<section class="ficha-section">
+          <p class="eyebrow">Conceptos clave</p>
+          <h2>Glosario inicial</h2>
+          ${renderList(glossary)}
+        </section>` : ""}
+
+        <section id="fuentes" class="ficha-section">
+          <p class="eyebrow">Referencia editorial</p>
+          <h2>Fuentes y recursos recomendados</h2>
+          ${sources ? `<ul>${sources}</ul>` : "<p>Las fuentes se revisan durante la profundizacion editorial de cada curso.</p>"}
+        </section>
+
+        <section id="alcance" class="ficha-section ficha-callout">
+          <p class="eyebrow">Aviso</p>
+          <h2>Alcance educativo</h2>
+          <p>${html(cleanText(manifest.responsibleNotice || "Contenido educativo. No reemplaza asesoramiento profesional, soporte oficial ni normativa aplicable. En decisiones criticas, valida con fuentes oficiales o especialistas competentes."))}</p>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <nav class="footer-links" aria-label="Informacion del proyecto">
+      <a href="../../portal/portal_publico_profesional_v0_6/index.html#inicio">Menu principal</a>
+      <a href="../../portal/portal_publico_profesional_v0_6/acerca.html">Acerca</a>
+      <a href="../../portal/portal_publico_profesional_v0_6/contacto.html">Contacto</a>
+      <a href="../../portal/portal_publico_profesional_v0_6/privacidad.html">Privacidad</a>
+      <a href="../../portal/portal_publico_profesional_v0_6/terminos.html">Terminos</a>
+      <a href="../../portal/portal_publico_profesional_v0_6/aviso-educativo.html">Aviso educativo</a>
+    </nav>
+    <p>Cursoteca Abierta - Ficha estatica de curso gratuito.</p>
+  </footer>
 </body>
 </html>`;
 }
@@ -422,7 +710,7 @@ ${siteHead({ title: "Cursoteca Abierta", description, canonical })}
 </html>`;
 }
 
-function sitemap(courseFolders) {
+function sitemap(courseEntries) {
   const staticPages = [
     { loc: `${baseUrl}/`, priority: "1.0", changefreq: "weekly" },
     { loc: `${baseUrl}/portal/portal_publico_profesional_v0_6/`, priority: "0.9", changefreq: "weekly" },
@@ -432,12 +720,17 @@ function sitemap(courseFolders) {
       changefreq: "monthly"
     }))
   ];
-  const coursePages = courseFolders.map(folder => ({
-    loc: `${baseUrl}/cursos/${folder}/`,
+  const fichaPages = courseEntries.map(entry => ({
+    loc: `${baseUrl}/curso/${entry.slug}/`,
+    priority: "0.8",
+    changefreq: "monthly"
+  }));
+  const coursePages = courseEntries.map(entry => ({
+    loc: `${baseUrl}/cursos/${entry.folder}/`,
     priority: "0.7",
     changefreq: "monthly"
   }));
-  const urls = [...staticPages, ...coursePages].map(item => `  <url>
+  const urls = [...staticPages, ...fichaPages, ...coursePages].map(item => `  <url>
     <loc>${item.loc}</loc>
     <lastmod>${today}</lastmod>
     <changefreq>${item.changefreq}</changefreq>
@@ -461,6 +754,7 @@ Fecha: ${today}
 - \`robots.txt\` con referencia al sitemap publico.
 - Canonical, description, Open Graph, Twitter Card y datos estructurados basicos en el portal, paginas institucionales y cursos.
 - Titulos y descripciones SEO por curso generados desde los manifests.
+- 50 fichas estaticas SEO en \`/curso/<slug>/\`, enlazadas desde el portal y el sitemap.
 
 ## Search Console
 
@@ -500,23 +794,48 @@ for (const course of courses) {
   coursesByFolder.set(folder, course);
 }
 
-const courseFolders = [];
+const courseEntries = [];
+const folderToFicha = new Map();
 for (const entry of fs.readdirSync(coursesRoot, { withFileTypes: true })) {
   if (!entry.isDirectory()) continue;
   const folder = entry.name;
   const manifestFile = path.join(coursesRoot, folder, "src", "data", "course_manifest.json");
+  const courseContentFile = path.join(coursesRoot, folder, "src", "data", "course_content.json");
   if (!fs.existsSync(manifestFile)) continue;
   const manifest = readJson(manifestFile);
-  write(path.join(coursesRoot, folder, "index.html"), courseIndex(manifest, folder, coursesByFolder.get(folder)));
-  courseFolders.push(folder);
+  const courseContent = fs.existsSync(courseContentFile) ? readJson(courseContentFile) : {};
+  const courseData = coursesByFolder.get(folder) || {};
+  const slug = slugify(courseContent.title || manifest.appName || courseData.title || folder);
+  write(path.join(coursesRoot, folder, "index.html"), courseIndex(manifest, folder, coursesByFolder.get(folder), courseContent));
+  write(path.join(fichasRoot, slug, "index.html"), courseFicha({ manifest, folder, courseData, courseContent, slug }));
+  folderToFicha.set(folder, slug);
+  courseEntries.push({ folder, slug });
 }
+
+const enrichedCourses = courses.map(course => {
+  const folder = String(course.path || "").match(/cursos\/([^/]+)\/index\.html/)?.[1] || course.id;
+  const slug = folderToFicha.get(folder);
+  return {
+    ...course,
+    title: cleanText(course.title),
+    version: cleanText(course.version),
+    status: cleanText(course.status),
+    category: cleanText(course.category),
+    audience: cleanText(course.audience),
+    description: cleanText(course.description),
+    recommendedBase: cleanText(course.recommendedBase),
+    features: (course.features || []).map(feature => cleanText(feature)),
+    seoPath: slug ? `../../curso/${slug}/index.html` : course.seoPath
+  };
+});
+write(path.join(portalDir, "data", "courses.json"), JSON.stringify(enrichedCourses, null, 2));
 
 for (const page of institutionalPages) {
   write(path.join(portalDir, page.file), institutionalPage(page));
 }
 
 write(path.join(root, "index.html"), rootIndex());
-write(path.join(root, "sitemap.xml"), sitemap(courseFolders.sort()));
+write(path.join(root, "sitemap.xml"), sitemap(courseEntries.sort((a, b) => a.slug.localeCompare(b.slug))));
 write(path.join(root, "robots.txt"), `User-agent: *
 Allow: /
 Sitemap: ${baseUrl}/sitemap.xml
@@ -525,7 +844,8 @@ write(path.join(root, "SEO_ADSENSE_SEARCH_CONSOLE_2026_06_07.md"), adsenseSeoGui
 
 console.log(JSON.stringify({
   institutionalPages: institutionalPages.length,
-  courseIndexes: courseFolders.length,
-  sitemapUrls: courseFolders.length + institutionalPages.length + 2,
+  courseIndexes: courseEntries.length,
+  courseFichaPages: courseEntries.length,
+  sitemapUrls: (courseEntries.length * 2) + institutionalPages.length + 2,
   baseUrl
 }, null, 2));

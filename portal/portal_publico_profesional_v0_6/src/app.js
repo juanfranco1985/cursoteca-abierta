@@ -226,6 +226,9 @@ function renderCourseCard(course, options = {}) {
   const features = getPublicFeatures(course);
   const lessonMeta = getLessonMeta(course);
   const status = getPublicStatus(course);
+  const fichaAction = course.seoPath
+    ? `<a class="secondary-link ficha-link" href="${escapeAttribute(course.seoPath)}">Ver ficha</a>`
+    : "";
   const openAction = course.publicReady && course.path
     ? `<a class="button-link" href="${escapeAttribute(course.path)}" data-course-open="${escapeAttribute(course.id)}">Abrir volumen</a>`
     : `<span class="secondary-link">En revision</span>`;
@@ -251,7 +254,7 @@ function renderCourseCard(course, options = {}) {
         <span><span class="autor-nombre">Cursoteca Abierta</span></span>
         <span>${escapeHtml(lessonMeta)}</span>
       </div>
-      <div class="card-actions">${openAction}</div>
+      <div class="card-actions">${openAction}${fichaAction}</div>
     </article>`;
 }
 
